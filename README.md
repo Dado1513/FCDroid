@@ -12,6 +12,6 @@ Usage: pythonAnaconda3.6 hybrid_inspector.py -d "/home/User/dir_apk" -t -s "ifra
 ```
 ___
 Work In Progress:
-- [] Search loadUrl inside apk e download the loaded page 
-- [] log output on file 
+- [ ] Search loadUrl inside apk e download the loaded page 
+- [ ] log output on file 
 ___
