@@ -79,7 +79,7 @@ def main():
                     print(bcolors.WARNING+"["+list_loading[n]+"] Decompilyng "+bcolors.ENDC ,end="\r")
                     n = n +1
                     time.sleep(0.5)
-                    
+                apk.find_url_in_apk()
                 if apk.vulnerable_frame_confusion():
                     print(bcolors.FAIL +"\nThis app might be vulnerable on attack frame confusion."+bcolors.ENDC)
                     print(bcolors.FAIL +"This file are vulnerable "+ str(apk.file_vulnerable_frame_confusion)+bcolors.ENDC)
@@ -108,7 +108,8 @@ def main():
                 print(bcolors.WARNING+"["+list_loading[n]+"] Decompilyng "+bcolors.ENDC ,end="\r")
                 n = n +1
                 time.sleep(0.5)
-                
+            apk.find_url_in_apk()
+
             if apk.vulnerable_frame_confusion():    
                 print(bcolors.FAIL +"\nThis app might be vulnerable on attack frame confusion. "+bcolors.ENDC)
                 print(bcolors.FAIL +"This file are vulnerable "+ str(apk.file_vulnerable_frame_confusion)+bcolors.ENDC)

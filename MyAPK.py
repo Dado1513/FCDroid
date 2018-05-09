@@ -199,10 +199,10 @@ class MyAPK:
 
         else:
             # return apk, list dex , object analysis
-            #_ , self.dalviks_format, self.analysis_object = AnalyzeAPK(self.name_apk)
-            self.dalvik_format = DalvikVMFormat(self.apk)
+            _ , self.dalviks_format, self.analysis_object = AnalyzeAPK(self.name_apk)
+            #self.dalvik_format = DalvikVMFormat(self.apk)
             # Create Analysis Object
-            self.analysis_object = Analysis(self.dalvik_format)
+            #self.analysis_object = Analysis(self.dalvik_format)
 
             method_analys = list()
             for method_encoded in self.analysis_object.get_methods():
@@ -235,15 +235,19 @@ class MyAPK:
         """
             find all url/uri inside apk
         """
-
         # function to get all url/uri used inside apk
-        url_re = re.compile(r'\b(([\w-]+://?|www[.])[^\s()<>]+(?:\([\w\d]+\)|([^[:punct:]\s]|/)))')
-        list_string = self.analysis_object.find_strings(url_re)
-        # all string
-        #list_string = self.analysis_object.get_strings()
-        for m in list_string:          
-            self.url_inside.append(m.get_value())
-        #print(self.url_inside)
+        # url regular expression
+        url_re = "(http:\/\/|https:\/\/|file:\/\/\/)?[-a-zA-Z0-9@:%._\+~#=]\.[a-z]([-a-zA-Z0-9@:%_\+.~#?&//=]*)"
+        #list_string_analysis = self.analysis_object.find_strings(url_re) #--> gen object
+        list_string_analysis = self.analysis_object.get_strings()
+        # all string in apk
+        temp_string_value = list()
+        for string_find in list_string_analysis:          
+            temp_string_value.append(string_find.get_value())
+        print(temp_string_value)
+        #url = filter(re.compile(url_re).match, str(temp_string_value))
+        #for u in url:
+        #     print(str(u))
             
 
     def vulnerable_frame_confusion(self):
