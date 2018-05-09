@@ -210,10 +210,10 @@ class MyAPK:
             self.method = list(set(self.method).union(method_analys))
             
             # save method used
-            method_file = open("method.txt","w")
-            for m in self.method:
-                method_file.write(m + "\n")
-            method_file.writelines(self.method)
+            #method_file = open("method.txt","w")
+            #for m in self.method:
+            #    method_file.write(m + "\n")
+            #dave/Developer/ToolTesi/inspectHybridApkmethod_file.writelines(self.method)
             #print("addJavascriptInterface" in self.method)
 
     def check_method(self):
