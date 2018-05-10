@@ -1,2 +1,2 @@
-- loadURl e evaluateJavaScript per caricare  e trovare tutte le pagine carciate
+- loadURl che carica variabili non stringhe
 - whitelist check se app ibrid

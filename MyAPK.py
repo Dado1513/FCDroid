@@ -6,6 +6,7 @@ import zipfile
 from threading import Thread
 
 from bs4 import BeautifulSoup
+import urllib
 
 from androguard.core.analysis.analysis import Analysis
 from androguard.core.androconf import show_logging
@@ -51,32 +52,30 @@ class MyAPK:
         self.apk = APK(name_file)
         self.dalviks_format = None
         self.analysis_object = None
-        # file che contengono la string  
-        self.dict_file_with_string = dict()
-        # stringa da cercare
-        self.string_to_find = None
-        # se contiene i permessi
-        self.is_contain_permission = False
-        self.url_inside = list()
-        # se contiene i file ibridi
-        self.is_contain_file_hybrid = False
-        # se le pagine html con iframe contengono CSP
-        self.find_csp = dict()
-        # se contiene i metodi all'interno del file conf.json
-        self.is_contains_all_methods = False
-        #self.raw = self.read(name_file)
-        #self.zip = zipfile.ZipFile(StringIO(self.raw),'r');
-        self.zip = zipfile.ZipFile(self.name_apk)
-        # tutti i file all'interno
-        self.list_file = self.zip.namelist()
-        # solo i file .html
-        r = re.compile(".*html$")
-        self.html_file = filter(r.match,self.list_file)
-        #
+        self.dict_file_with_string = dict()  # file che contengono la stringa ricercata
+        self.string_to_find = None # stringa da cercare
+        
+        self.is_contain_permission = False # se contiene i permessi del file conf
+        self.url_loaded = list() # list url that has been loaded 
+        self.is_contain_file_hybrid = False # se contiene i file ibridi --> probabilmente app ibrida
+        self.find_csp = dict() # pagine_html con iframe se contengono csp [True o False]
+        self.is_contains_all_methods = False # se contiene i metodi all'interno del file conf.json
+        self.html_file = dict()
+        self.zip = zipfile.ZipFile(self.name_apk) # get zip object from apk
+        self.list_file = self.zip.namelist()# tutti i file all'interno
+        self.__find_html_file()
+
         self.file_vulnerable_frame_confusion = list()
         self.isHybrd = None
         self.method = list()
-
+    
+    def __find_html_file(self):
+        
+        r = re.compile(".*html$") # solo i file .html
+        list_html_file = filter(r.match,self.list_file)
+        for temp in list_html_file:
+            self.html_file[temp] = True 
+        
     def read(self,filename, binary=True):
         with open(filename, 'rb' if binary else 'r') as f:
             return f.read()
@@ -105,55 +104,44 @@ class MyAPK:
         return self.isHybrd 
             
 
-    def find_string(self,string_to_find,tag=False):
+    def find_string(self, string_to_find, tag=False):
         """
             find string inside file of apk(html,xml,ecc..) (not yet decompiled)
         """
-        # search string 
         self.string_to_find = string_to_find
-        #print()
-        # cerco solo nei file con estensione html
-        for file_to_inspect in self.html_file:
+        for file_to_inspect, insideAPK in self.html_file.items():
             print("File: " +file_to_inspect)
-            data = self.zip.open(file_to_inspect)
+            if insideAPK:
+                data = self.zip.open(file_to_inspect)
+            else:
+                data = file(file_to_inspect,"r")
+                
             file_read = str(data.read())
             soup = BeautifulSoup(file_read,'lxml')
             find_iframe = False
             list_row_string = []
 
             try:
-                # se devo cercare il tag
-                if tag:
-                 
+                if tag: 
                     list_tag = soup.findAll(string_to_find)
                     file_line = file_read.split("\n")
                     for name_tag in list_tag:
-                        #print("Founded "+string_to_find+" tag in : "+file_to_inspect)  
                         find_iframe = True
                         list_row_string.append(name_tag)
                 
-                # se devo cercare la stringa
                 else:
                     file_line = file_read.split("\n")
-                    # find Content-Security-Policy
                     for (counter,value) in enumerate(file_line):
                         if string_to_find in value:
                             list_row_string.append(str(counter+1))
-                            #print("Founded "+string_to_find+" in line ["+str(counter+1)+"] : "+file_to_inspect)   
                             find_iframe = True
 
-                # se l'ho trovato e la stringa era iframe
                 if find_iframe and self.string_to_find == "iframe":
-                    # aggiungo il file con l'iframe all'interno
                     self.dict_file_with_string[file_to_inspect] = list_row_string
                     if not tag:
-                    
                         print(bcolors.FAIL+"Found "+string_to_find+" in line "+str(list_row_string)+bcolors.ENDC)   
-                    
                     else:
-                    
                         print(bcolors.FAIL+"Found tag "+string_to_find +",  "+str(len(list_row_string)) +" times "+bcolors.ENDC)
-                    # cerco CSP
                     find_csp  = soup.find("meta",{"http-equiv":"Content-Security-Policy"})
                     if find_csp is not None:
                         print(bcolors.OKGREEN+"Find CSP with content: [" +find_csp["content"]+"]"+bcolors.ENDC)
@@ -161,7 +149,6 @@ class MyAPK:
                     else:
                         print(bcolors.FAIL+"No CSP found!"+bcolors.ENDC)
                         self.find_csp[file_to_inspect] = False
-
                 else:
                     print(bcolors.OKGREEN+"No "+string_to_find+" in "+file_to_inspect+bcolors.ENDC)
                 
@@ -216,7 +203,7 @@ class MyAPK:
             #dave/Developer/ToolTesi/inspectHybridApkmethod_file.writelines(self.method)
             #print("addJavascriptInterface" in self.method)
 
-    def check_method(self):
+    def check_method_conf(self):
         """
             function to check se one method is used inside apk
         """
@@ -236,20 +223,45 @@ class MyAPK:
             find all url/uri inside apk
         """
         # function to get all url/uri used inside apk
-        # url regular expression
-        url_re = "(http:\/\/|https:\/\/|file:\/\/\/)?[-a-zA-Z0-9@:%._\+~#=]\.[a-z]([-a-zA-Z0-9@:%_\+.~#?&//=]*)"
-        #list_string_analysis = self.analysis_object.find_strings(url_re) #--> gen object
-        list_string_analysis = self.analysis_object.get_strings()
-        # all string in apk
+        # url regularp expression
+        #url_re = "(http:\/\/|https:\/\/|file:\/\/\/)?[-a-zA-Z0-9@:%._\+~#=]\.[a-z]([-a-zA-Z0-9@:%_\+.~#?&//=]*)"
+        url_re = "^(http:\/\/|https:\/\/)\w+"
+        list_string_analysis = self.analysis_object.find_strings(url_re) #--> gen object
+        
+        # contain all url in apk
         temp_string_value = list()
-        for string_find in list_string_analysis:          
-            temp_string_value.append(string_find.get_value())
-        print(temp_string_value)
-        #url = filter(re.compile(url_re).match, str(temp_string_value))
-        #for u in url:
-        #     print(str(u))
-            
+        # string- tuple with classAnalysis e encodeMethod that use the string
+        dict_class_method_analysis = dict() 
+        for string_analysis in list_string_analysis:          
+            temp_string_value.append(string_analysis.get_value())
+            dict_class_method_analysis[string_analysis.get_value()] = list(string_analysis.get_xref_from())
+        
+        # per ogni file, otteniamo una lista di  tupla
+        # class analysis e encoded_method
 
+        for key in dict_class_method_analysis.keys():
+            for value in dict_class_method_analysis[key]:
+                #class_analysis = value[0]
+                encoded_method = value[1]
+                # volendo c'è il metodo get_instructions
+                source_code = encoded_method.get_source().replace("\n","")
+                source_code = source_code.replace(" ","")
+                source_code = source_code.split(";")
+                if self.check_load_url_used_string(source_code,key):
+                    self.url_loaded.append(key)
+        #print(self.url_loaded)
+
+    def check_load_url_used_string(self,list_source_code,url_to_find):
+        # ToDo solo se in loadUrl è passata la stringa non il nome della variabile
+        # il quale sarebbe da aggiungere
+        r = re.compile("loadUrl") # per ora solo load_url
+        list_new = filter(r.findall,list_source_code)
+        for line_finded in list_new:
+            if url_to_find in line_finded:
+                #print("Used ("+url_to_find+"); "+line_finded)
+                return True
+        return False
+        
     def vulnerable_frame_confusion(self):
         """ 
             check if app is vulnerable on frame confusion
@@ -268,7 +280,7 @@ class MyAPK:
                 self.file_vulnerable_frame_confusion.append(file_with_iframe)
         
         return ("iframe" in self.string_to_find and 
-                self.check_method  and 
+                self.check_method_conf  and 
                 len(self.dict_file_with_string) > 0 and
                 self.is_contain_permission and
                 not csp_in_file_iframe)
