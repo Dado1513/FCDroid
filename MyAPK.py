@@ -82,6 +82,11 @@ class MyAPK:
 
 
     def is_hybird(self):
+        """
+            function to check se apk is hybrid,
+            1) if contain file from conf.json (cordova/plugin/phonegap.xml)
+            2) if present permission internet (inutile)
+        """
         if self.isHybrd is None:
             list_file_to_find = self.conf["file_to_check"]
             list_permission_to_find = self.conf["permissions_to_check"]
@@ -109,6 +114,7 @@ class MyAPK:
             find string inside file of apk(html,xml,ecc..) (not yet decompiled)
         """
         self.string_to_find = string_to_find
+        # file e se è all'interno dell'apk
         for file_to_inspect, insideAPK in self.html_file.items():
             print("File: " +file_to_inspect)
             if insideAPK:
@@ -222,12 +228,10 @@ class MyAPK:
         """
             find all url/uri inside apk
         """
-        # function to get all url/uri used inside apk
         # url regularp expression
         #url_re = "(http:\/\/|https:\/\/|file:\/\/\/)?[-a-zA-Z0-9@:%._\+~#=]\.[a-z]([-a-zA-Z0-9@:%_\+.~#?&//=]*)"
         url_re = "^(http:\/\/|https:\/\/)\w+"
         list_string_analysis = self.analysis_object.find_strings(url_re) #--> gen object
-        
         # contain all url in apk
         temp_string_value = list()
         # string- tuple with classAnalysis e encodeMethod that use the string
@@ -251,7 +255,19 @@ class MyAPK:
                     self.url_loaded.append(key)
         #print(self.url_loaded)
 
+    def download_page_loaded(self):
+        """
+            function to download the page loaded by the app
+            using list self.url_loaded
+            after this -> check if frame confusion may come from this
+        """
+        return None
+
     def check_load_url_used_string(self,list_source_code,url_to_find):
+        """
+            function to find function loadUrl in source code e check
+            if url is passed as argument
+        """
         # ToDo solo se in loadUrl è passata la stringa non il nome della variabile
         # il quale sarebbe da aggiungere
         r = re.compile("loadUrl") # per ora solo load_url
