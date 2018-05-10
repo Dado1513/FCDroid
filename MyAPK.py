@@ -46,7 +46,7 @@ class ThreadDecompyling (Thread):
 
 class MyAPK:
     
-    def __init__(self, name_file,conf):
+    def __init__(self, name_file,conf, file_log):
         self.name_apk = name_file
         self.conf = conf
         self.apk = APK(name_file)
@@ -54,7 +54,6 @@ class MyAPK:
         self.analysis_object = None
         self.dict_file_with_string = dict()  # file che contengono la stringa ricercata
         self.string_to_find = None # stringa da cercare
-        
         self.is_contain_permission = False # se contiene i permessi del file conf
         self.url_loaded = list() # list url that has been loaded 
         self.is_contain_file_hybrid = False # se contiene i file ibridi --> probabilmente app ibrida
@@ -64,10 +63,12 @@ class MyAPK:
         self.zip = zipfile.ZipFile(self.name_apk) # get zip object from apk
         self.list_file = self.zip.namelist()# tutti i file all'interno
         self.__find_html_file()
+        self.file_log = file_log
 
         self.file_vulnerable_frame_confusion = list()
         self.isHybrd = None
         self.method = list()
+        self.all_url = list() # all url in the apk
     
     def __find_html_file(self):
         
@@ -117,6 +118,7 @@ class MyAPK:
         # file e se è all'interno dell'apk
         for file_to_inspect, insideAPK in self.html_file.items():
             print("File: " +file_to_inspect)
+            self.file_log.write("File: "+file_to_inspect+"\n")
             if insideAPK:
                 data = self.zip.open(file_to_inspect)
             else:
@@ -144,20 +146,28 @@ class MyAPK:
 
                 if find_iframe and self.string_to_find == "iframe":
                     self.dict_file_with_string[file_to_inspect] = list_row_string
+                    
                     if not tag:
-                        print(bcolors.FAIL+"Found "+string_to_find+" in line "+str(list_row_string)+bcolors.ENDC)   
+                        print(bcolors.FAIL+"Found "+string_to_find+" in line "+str(list_row_string)+bcolors.ENDC)  
+                        self.file_log.write("Found "+string_to_find+" in line "+str(list_row_string)+"\n") 
                     else:
                         print(bcolors.FAIL+"Found tag "+string_to_find +",  "+str(len(list_row_string)) +" times "+bcolors.ENDC)
+                        self.file_log.write("Found tag "+string_to_find +",  "+str(len(list_row_string)) +" times \n")
+                    
                     find_csp  = soup.find("meta",{"http-equiv":"Content-Security-Policy"})
                     if find_csp is not None:
                         print(bcolors.OKGREEN+"Find CSP with content: [" +find_csp["content"]+"]"+bcolors.ENDC)
+                        self.file_log.write("Find CSP with content: [" +find_csp["content"]+"]\n")
                         self.find_csp[file_to_inspect] = True
                     else:
                         print(bcolors.FAIL+"No CSP found!"+bcolors.ENDC)
+                        self.file_log.write("No CSP found!\m")
                         self.find_csp[file_to_inspect] = False
                 else:
                     print(bcolors.OKGREEN+"No "+string_to_find+" in "+file_to_inspect+bcolors.ENDC)
+                    self.file_log.write("No "+string_to_find+" in "+file_to_inspect+"\n")
                 
+                self.file_log.write("-"*30+"\n")
                 print()
 
             except zipfile.BadZipfile:
@@ -202,12 +212,6 @@ class MyAPK:
                 method_analys.append(method_encoded.get_method().get_name())
             self.method = list(set(self.method).union(method_analys))
             
-            # save method used
-            #method_file = open("method.txt","w")
-            #for m in self.method:
-            #    method_file.write(m + "\n")
-            #dave/Developer/ToolTesi/inspectHybridApkmethod_file.writelines(self.method)
-            #print("addJavascriptInterface" in self.method)
 
     def check_method_conf(self):
         """
@@ -246,14 +250,27 @@ class MyAPK:
         for key in dict_class_method_analysis.keys():
             for value in dict_class_method_analysis[key]:
                 #class_analysis = value[0]
-                encoded_method = value[1]
-                # volendo c'è il metodo get_instructions
-                source_code = encoded_method.get_source().replace("\n","")
-                source_code = source_code.replace(" ","")
-                source_code = source_code.split(";")
-                if self.check_load_url_used_string(source_code,key):
-                    self.url_loaded.append(key)
-        #print(self.url_loaded)
+                #print(type(value))
+                try:
+                    if value[1] is not None:
+                        encoded_method = value[1]
+                        # volendo c'è il metodo get_instructions
+                        source_code = encoded_method.get_source().replace("\n","")
+                        source_code = source_code.replace(" ","")
+                        source_code = source_code.split(";")
+                        self.all_url.append(key)
+                        if self.check_load_url_used_string(source_code,key):
+                            self.url_loaded.append(key)
+                except TypeError:
+                    continue
+        # debug part
+        debug = False
+        if debug:
+            if len(self.url_loaded) > 0:
+                print(self.url_loaded)
+        
+            if(len(self.all_url) > 0):
+                print(self.all_url)
 
     def download_page_loaded(self):
         """

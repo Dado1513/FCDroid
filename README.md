@@ -16,5 +16,5 @@ Work In Progress:
 - [ ] Search loadUrl e string used if assigned to a variable before
 - [ ] Download web page used 
 - [ ] loadUrl/EvaluateJavaScript --> containe javascript code exec
-- [ ] log output on file 
+- [ ] log output on file using logging
 ___
