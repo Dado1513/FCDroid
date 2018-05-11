@@ -254,13 +254,14 @@ class MyAPK:
                 try:
                     if value[1] is not None:
                         encoded_method = value[1]
-                        # volendo c'è il metodo get_instructions
+                        # split the instruction in a list
                         source_code = encoded_method.get_source().replace("\n","")
                         source_code = source_code.replace(" ","")
                         source_code = source_code.split(";")
                         self.all_url.append(key)
                         if self.check_load_url_used_string(source_code,key):
                             self.url_loaded.append(key)
+                        
                 except TypeError:
                     continue
         # debug part
@@ -293,6 +294,8 @@ class MyAPK:
             if url_to_find in line_finded:
                 #print("Used ("+url_to_find+"); "+line_finded)
                 return True
+            #else:
+                #print("Load url in this function but not url string inside: "+url_to_find)
         return False
         
     def vulnerable_frame_confusion(self):
