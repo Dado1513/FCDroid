@@ -1,3 +1,4 @@
 - loadURl che carica variabili non stringhe
 - whitelist check se app ibrid
 - url in function with loadUrl but not inside loadURl function
+- javascriptEnabled --> true non solo la ricerca della funzione

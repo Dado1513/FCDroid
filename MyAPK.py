@@ -1,3 +1,4 @@
+#!/usr/env/bin python3
 import glob
 import logging
 import os
@@ -64,7 +65,8 @@ class MyAPK:
         self.list_file = self.zip.namelist()# tutti i file all'interno
         self.__find_html_file()
         self.file_log = file_log
-
+        self.javascript_enabled = False
+        self.internet_enabled = False
         self.file_vulnerable_frame_confusion = list()
         self.isHybrd = None
         self.method = list()
@@ -101,8 +103,15 @@ class MyAPK:
             permission_find = list()       
             for permission_to_check in list_permission_to_find:
                 if permission_to_check in self.apk.get_permissions():
-                    permission_find.append(True) # contenere tutti i permessi                    
+                    permission_find.append(True) # contenere tutti i permessi 
+                    if permission_to_check == "android.permission.INTERNET":
+                        self.internet_enabled = True
+                    
                     #print(permission_to_check)
+            self.file_log.write("[ Permission Enble Start ]"+"\n")
+            for p in self.apk.get_permissions():
+                self.file_log.write(p+"\n")
+            self.file_log.write("[Permission End]\n")
             self.is_contain_permission = len(permission_find) == len(list_permission_to_find)
 
             self.isHybrd = self.is_contain_permission and self.is_contain_file_hybrid
@@ -161,7 +170,7 @@ class MyAPK:
                         self.find_csp[file_to_inspect] = True
                     else:
                         print(bcolors.FAIL+"No CSP found!"+bcolors.ENDC)
-                        self.file_log.write("No CSP found!\m")
+                        self.file_log.write("No CSP found!\n")
                         self.find_csp[file_to_inspect] = False
                 else:
                     print(bcolors.OKGREEN+"No "+string_to_find+" in "+file_to_inspect+bcolors.ENDC)
@@ -215,16 +224,29 @@ class MyAPK:
 
     def check_method_conf(self):
         """
-            function to check se one method is used inside apk
+            function to check se methods inside conf.json method_to_check is used inside apk
         """
-        method_present = list()
+        method_present = dict()
 
         method_to_find = self.conf["method_to_check"]
         for mf in method_to_find:
             for mapk in self.method:
                 if mf in mapk:
-                    print(mf)
-                    method_present.append(True)
+                    method_present[mf]=True
+
+        # ToDo bisogna controllare che venga effettivamente abilitato e che quindi venga passata true come parametro
+        try:
+            self.javascript_enabled = method_present["setJavaScriptEnabled"]
+            self.file_log.write("[JavaScript enabled: "+str(self.javascript_enabled)+"]\n")
+        except Exception:
+            self.file_log.write("File conf.json without method setJavaScriptEnabled\n")
+
+        try:
+            self.file_log.write("[Add interface WebView "+str(method_present["addJavascriptInterface"])+"]\n")
+        except Exception:
+            # nothing
+            self.file_log.write("File conf.json without method addJavascriptInterface\n")
+
         self.is_contains_all_methods = len(method_present) == len(method_to_find)
         return self.is_contains_all_methods
 
@@ -232,7 +254,7 @@ class MyAPK:
         """
             find all url/uri inside apk
         """
-        # url regularp expression
+        #url regularp expression
         #url_re = "(http:\/\/|https:\/\/|file:\/\/\/)?[-a-zA-Z0-9@:%._\+~#=]\.[a-z]([-a-zA-Z0-9@:%_\+.~#?&//=]*)"
         url_re = "^(http:\/\/|https:\/\/)\w+"
         list_string_analysis = self.analysis_object.find_strings(url_re) #--> gen object
