@@ -2,3 +2,5 @@
 - whitelist check se app ibrid
 - url in function with loadUrl but not inside loadURl function
 - javascriptEnabled --> true non solo la ricerca della funzione
+- fare funzione che passando un metodo e una valore controlla se in quel metodo in quella classe
+ gli viene passato quel valore
