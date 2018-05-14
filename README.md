@@ -17,4 +17,5 @@ Work In Progress:
 - [ ] Download web page used 
 - [ ] loadUrl/EvaluateJavaScript --> containe javascript code exec
 - [ ] log output on file using logging
+- [ ] controllare enableJavaScript se passa argomento true
 ___
