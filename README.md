@@ -14,8 +14,8 @@ ___
 Work In Progress:
 - [x] Search loadUrl e string used inside
 - [ ] Search loadUrl e string used if assigned to a variable before
-- [ ] Download web page used 
+- [x] Download web page used 
 - [ ] loadUrl/EvaluateJavaScript --> containe javascript code exec
 - [ ] log output on file using logging
-- [ ] controllare enableJavaScript se passa argomento true
+- [x] controllare enableJavaScript se passa argomento true
 ___

@@ -40,14 +40,14 @@ def analyze_start(conf,apk_to_analyze,tag,string_to_find):
     
     file_log.write("Init Time ["+time.ctime()+"]"+"\n")
     
-    apk = MyAPK(apk_to_analyze,conf,file_log)
+    apk = MyAPK(apk_to_analyze,conf,file_log,tag,string_to_find)
     # thread per la decompilazione
     thread_decompilyng = ThreadDecompyling(apk)
     thread_decompilyng.start()
     type_apk = "[NATIVE]" if not apk.is_hybird() else "[HYBRID]"
-    file_log.write(type_apk+"\n")
+    file_log.write("\n"+type_apk+"\n")
     print(bcolors.OKBLUE+type_apk+bcolors.ENDC)
-    apk.find_string(string_to_find,tag)
+    apk.find_string(apk.html_file)
     
     #print("\n")
     list_loading = ["\\","|","/","-"]
@@ -58,17 +58,20 @@ def analyze_start(conf,apk_to_analyze,tag,string_to_find):
         n = n +1
         time.sleep(0.5)
 
-    apk.find_url_in_apk()
-    if apk.vulnerable_frame_confusion():
-        print(bcolors.FAIL +"\nThis app might be vulnerable on attack frame confusion."+bcolors.ENDC)
-        print(bcolors.FAIL +"This file are vulnerable "+ str(apk.file_vulnerable_frame_confusion)+bcolors.ENDC)
-        file_log.write("\nThis app might be vulnerable on attack frame confusion.\nThis file are vulnerable "+ str(apk.file_vulnerable_frame_confusion)+"\n")
-        file_log.write("End time:["+time.ctime()+"]\n")
+    if not thread_decompilyng.error:
+        apk.find_url_in_apk()
+        if apk.vulnerable_frame_confusion():
+            print(bcolors.FAIL +"\nThis app might be vulnerable on attack frame confusion."+bcolors.ENDC)
+            print(bcolors.FAIL +"This file are vulnerable "+ str(apk.file_vulnerable_frame_confusion)+bcolors.ENDC)
+            file_log.write("\nThis app might be vulnerable on attack frame confusion.\nThis file are vulnerable "+ str(apk.file_vulnerable_frame_confusion)+"\n")
+            file_log.write("End time:["+time.ctime()+"]\n")
+        else:
+            print(bcolors.OKGREEN+"\nThis app might be not vulnerable on attack frame confusion"+bcolors.ENDC)
+            file_log.write("\nThis app might be not vulnerable on  attack frame confusion.\n")
+            file_log.write("\nEnd time:["+time.ctime()+"]\n")
     else:
-        print(bcolors.OKGREEN+"\nThis app might be not vulnerable on attack frame confusion"+bcolors.ENDC)
-        file_log.write("\nThis app might be not vulnerable on  attack frame confusion.\n")
-        file_log.write("End time:["+time.ctime()+"]\n")
-
+        print(bcolors.FAIL +"\nSome error occured during decompilation."+bcolors.ENDC)
+        file_log.write("\nSome error during decompilation.\n")
     file_log.close()
 
 
