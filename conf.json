@@ -1,0 +1,11 @@
+{
+    "file_to_check":[ "config.xml",
+        "cordova.xml",
+        "phonegap.xml",
+        "cordova.xml"
+    ],
+
+    "permissions_to_check":["android.permission.INTERNET"],
+
+    "method_to_check":["addJavascriptInterface","setJavaScriptEnabled"]
+}
