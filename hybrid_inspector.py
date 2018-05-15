@@ -5,10 +5,11 @@ import json
 import os
 import time
 from MyAPK import MyAPK
-from MyAPK import ThreadDecompyling
+from ThreadDecompyling import ThreadDecompyling
 import sys
 import logging
 import time
+from bcolors import bcolors
 
 try:
     from StringIO import StringIO
@@ -18,15 +19,7 @@ except ImportError:
 dir_log = "log"
 file_conf = "conf.json"
 
-class bcolors:
-    HEADER = '\033[95m'
-    OKBLUE = '\033[94m'
-    OKGREEN = '\033[92m'
-    WARNING = '\033[93m'
-    FAIL = '\033[91m'
-    ENDC = '\033[0m'
-    BOLD = '\033[1m'
-    UNDERLINE = '\033[4m'
+
 
 def analyze_start(conf,apk_to_analyze,tag,string_to_find):
     print("\n")

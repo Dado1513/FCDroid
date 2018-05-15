@@ -16,36 +16,9 @@ from androguard.core.bytecodes.dvm import DalvikVMFormat
 from androguard.decompiler.decompiler import (DecompilerJADX,
                                               JADXDecompilerError)
 from androguard.misc import AnalyzeAPK
+from bcolors import bcolors
 
 show_logging(level=logging.CRITICAL)
-
-class bcolors:
-    HEADER = '\033[95m'
-    OKBLUE = '\033[94m'
-    OKGREEN = '\033[92m'
-    WARNING = '\033[93m'
-    FAIL = '\033[91m'
-    ENDC = '\033[0m'
-    BOLD = '\033[1m'
-    UNDERLINE = '\033[4m'
-
-class ThreadDecompyling (Thread):
-
-    def __init__(self, myapk):
-        Thread.__init__(self)
-        self.myapk = myapk
-        self.finish = False
-        self.error = False
-
-    def run(self):
-        try:
-
-            print(bcolors.WARNING+"[*] Start decompilyng"+bcolors.ENDC)
-            self.myapk.find_method_used()
-        except Exception:
-            print(bcolors.FAIL+"Error jadx decompiler"+bcolors.ENDC+"\n")
-            self.error = True
-        self.finish = True
 
 class MyAPK:
     
@@ -122,7 +95,12 @@ class MyAPK:
             self.isHybrd = self.is_contain_permission and self.is_contain_file_hybrid
         
         return self.isHybrd 
-            
+
+    def check_whitelist(self):
+        """
+        function to be able to check if url is in whitelist
+        """
+        return None
 
     def find_string(self,  file_to_search, remote=False):
         """
@@ -241,7 +219,6 @@ class MyAPK:
                 # from method_name get list dove esso viene chiamato
                 self.method[method_name] = list(method_analys.get_xref_from())
             
-
     def check_method_conf(self):
         """
             function to check se methods inside conf.json method_to_check is used inside apk
@@ -254,7 +231,6 @@ class MyAPK:
             for mapk in self.method.keys():
                 if mf in mapk:
                     method_present[mf] = True                    
-#                    for value in self.method[mapk]:
         try:
             if method_present["setJavaScriptEnabled"]:
                 for value in self.method["setJavaScriptEnabled"]:
@@ -283,6 +259,7 @@ class MyAPK:
         self.is_contains_all_methods = len(method_present) == len(method_to_find)
         return self.is_contains_all_methods
 
+    # ToDo aggiugere url trovate in modo dinamico
     def find_url_in_apk(self):
         """
             find all url/uri inside apk
@@ -337,7 +314,6 @@ class MyAPK:
         source_code = source_code.replace(" ","")
         source_code = source_code.split(";")
         return source_code
-
 
     def download_page_loaded(self):
         """
