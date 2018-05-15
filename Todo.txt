@@ -1,4 +1,8 @@
 - loadURl che carica variabili non stringhe
 - whitelist check se app ibrid
+<<<<<<< HEAD
 - se find iframe check src attribute che viene passato 
 - url a runtime
+=======
+- se find iframe check src attribute che viene passato 
+>>>>>>> 557b5af36d8b79c754e683a92b60a07255fdabe2

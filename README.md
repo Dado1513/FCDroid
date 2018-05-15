@@ -18,6 +18,9 @@ Work In Progress:
 - [ ] loadUrl/EvaluateJavaScript --> containe javascript code exec
 - [ ] log output on file using logging
 - [x] controllare enableJavaScript se passa argomento true
+<<<<<<< HEAD
 - [ ] url runtime
 - [ ] whitelist url
+=======
+>>>>>>> 557b5af36d8b79c754e683a92b60a07255fdabe2
 ___
