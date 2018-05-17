@@ -4,13 +4,14 @@ import glob
 import json
 import os
 import time
+import sys
 from MyAPK import MyAPK
 from ThreadDecompyling import ThreadDecompyling
 import sys
 import logging
 import time
 from bcolors import bcolors
-
+from Logger import Logger
 try:
     from StringIO import StringIO
 except ImportError:
@@ -21,24 +22,29 @@ file_conf = "conf.json"
 
 
 
+
+
 def analyze_start(conf,apk_to_analyze,tag,string_to_find):
     print("\n")
     print(bcolors.BOLD+apk_to_analyze.split("/")[-1]+bcolors.ENDC)
     if not os.path.exists("log"):
         os.makedirs("log")
+    
     log_file = "log/"+apk_to_analyze.split("/")[-1]+".log"
-
-    file_log = open(log_file,"w")
+    logger = Logger(log_file)
+    #file_log = open(log_file,"w")
     print(bcolors.WARNING+"[*] Searching in "+apk_to_analyze+bcolors.ENDC)
+    logger.logger.info("Init Time ["+time.ctime()+"]")
     
-    file_log.write("Init Time ["+time.ctime()+"]"+"\n")
-    
-    apk = MyAPK(apk_to_analyze,conf,file_log,tag,string_to_find)
+    apk = MyAPK(apk_to_analyze,conf,log_file,tag,string_to_find,logger)
     # thread per la decompilazione
-    thread_decompilyng = ThreadDecompyling(apk)
+    thread_decompilyng = ThreadDecompyling(apk,logger)
+    # TODO gestire keyboard interrupt
     thread_decompilyng.start()
+   
+
     type_apk = "[NATIVE]" if not apk.is_hybird() else "[HYBRID]"
-    file_log.write("\n"+type_apk+"\n")
+    logger.logger.info("TYPE APK: "+type_apk+"\n")
     print(bcolors.OKBLUE+type_apk+bcolors.ENDC)
     apk.find_string(apk.html_file)
     
@@ -47,7 +53,7 @@ def analyze_start(conf,apk_to_analyze,tag,string_to_find):
     n = 1
     while not thread_decompilyng.finish:
         n = n % len(list_loading)
-        print(bcolors.WARNING+"["+list_loading[n]+"] Decompilyng "+bcolors.ENDC ,end="\r")
+        print(bcolors.WARNING+"["+list_loading[n]+"] Analysis "+bcolors.ENDC ,end="\r")
         n = n +1
         time.sleep(0.5)
 
@@ -56,23 +62,23 @@ def analyze_start(conf,apk_to_analyze,tag,string_to_find):
         if apk.vulnerable_frame_confusion():
             print(bcolors.FAIL +"\nThis app might be vulnerable on attack frame confusion."+bcolors.ENDC)
             print(bcolors.FAIL +"This file are vulnerable "+ str(apk.file_vulnerable_frame_confusion)+bcolors.ENDC)
-            file_log.write("\nThis app might be vulnerable on attack frame confusion.\nThis file are vulnerable "+ str(apk.file_vulnerable_frame_confusion)+"\n")
-            file_log.write("End time:["+time.ctime()+"]\n")
+            logger.logger.info("This app might be vulnerable on attack frame confusion, This file are vulnerable %s", str(apk.file_vulnerable_frame_confusion))
+            logger.logger.info("End time:[%s]",time.ctime)
         else:
             print(bcolors.OKGREEN+"\nThis app might be not vulnerable on attack frame confusion"+bcolors.ENDC)
-            file_log.write("\nThis app might be not vulnerable on  attack frame confusion.\n")
-            file_log.write("\nEnd time:["+time.ctime()+"]\n")
+            logger.logger.info("This app might be not vulnerable on  attack frame confusion.")
+            logger.logger.info("End time:["+time.ctime()+"]")
     else:
-        print(bcolors.FAIL +"\nSome error occured during decompilation."+bcolors.ENDC)
-        file_log.write("\nSome error during decompilation.\n")
-    file_log.close()
+        print(bcolors.FAIL +"Some error occured during decompilation."+bcolors.ENDC)
+        logger.logger.error("Some error during decompilation.")
 
-
+    logger.shutdown()
+    
 def main():
 
     parser = argparse.ArgumentParser(
-            description='Apk scraping',
-            usage='\n\tpython apk_scraping.py -f \"example.apk\" -s \"iframe\" \n\tpython -d \"dir_apk\" -t -s \"iframe\" \n ',
+            description='Insepct hybrid apk',
+            usage='\n\tpython hybrid_inspector.py -f \"example.apk\" -s \"iframe\" \n\tpython -d \"dir_apk\" -t -s \"iframe\" \n ',
             epilog="Author : Davide Caputo")
     
     
@@ -109,7 +115,7 @@ def main():
             parser.error(bcolors.FAIL+"tool required -f file-name or -d dir-apk "+bcolors.ENDC)    
     else:
         print(bcolors.FAIL+"file "+file_conf+" not found"+bcolors.ENDC)
-
+        logger.error("FILE conf.json not found")
 def load_conf_file(file_name):
     
     conf = json.load(open(file_name,"r"))
@@ -117,6 +123,6 @@ def load_conf_file(file_name):
         conf[key] = [str(s) for s in value]
     return conf
 
-if __name__=="__main__":    
+if __name__=="__main__":  
     main()
     

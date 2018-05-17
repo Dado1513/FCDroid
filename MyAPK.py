@@ -5,24 +5,30 @@ import os
 import re
 import zipfile
 from threading import Thread
-
 from bs4 import BeautifulSoup
 import requests
-
 from androguard.core.analysis.analysis import Analysis
 from androguard.core.androconf import show_logging
 from androguard.core.bytecodes.apk import APK
 from androguard.core.bytecodes.dvm import DalvikVMFormat
+from androguard.core.bytecodes.apk import FileNotPresent
+from androguard.core.bytecodes.axml import AXMLPrinter
 from androguard.decompiler.decompiler import (DecompilerJADX,
                                               JADXDecompilerError)
 from androguard.misc import AnalyzeAPK
 from bcolors import bcolors
+import xml.etree.ElementTree as ET
+from Logger import Logger
 
 show_logging(level=logging.CRITICAL)
 
+    
+   
+
 class MyAPK:
     
-    def __init__(self, name_file, conf, file_log, tag, string_to_find):
+    def __init__(self, name_file, conf, file_log, tag, string_to_find,logger):
+        
         self.name_apk = name_file
         self.conf = conf
         self.apk = APK(name_file)
@@ -39,16 +45,21 @@ class MyAPK:
         self.zip = zipfile.ZipFile(self.name_apk) # get zip object from apk
         self.list_file = self.zip.namelist()# tutti i file all'interno
         self.__find_html_file() # call function to full html_file
-        self.file_log = file_log # pointer to file log
+        self.file_log = file_log # name to file log
         self.javascript_enabled = False
         self.internet_enabled = False
         self.file_vulnerable_frame_confusion = list()
-        self.isHybrd = None
+        self.isHybrid = None
         self.method = dict() # dict indexes with name method and get encoded methods where function was called
         self.all_url = list() # all url in the apk
         self.file_download_to_analyze = dict()
         self.search_tag = tag
         self.name_to_url = dict() # dict with indexes with name and get url remote
+        self.file_config_hybrid = None
+        self.list_origin_access = None
+        self.logger = logger
+        
+        
     
     def __find_html_file(self):
         
@@ -65,10 +76,10 @@ class MyAPK:
     def is_hybird(self):
         """
             function to check se apk is hybrid,
-            1) if contain file from conf.json (cordova/plugin/phonegap.xml)
+            1) if contain file from conf.json (cordova/plugin/phonegap/config)
             2) if present permission internet (inutile)
         """
-        if self.isHybrd is None:
+        if self.isHybrid is None:
             list_file_to_find = self.conf["file_to_check"]
             list_permission_to_find = self.conf["permissions_to_check"]
 
@@ -77,48 +88,89 @@ class MyAPK:
                     if file_to_check in name:            
                         self.is_contain_file_hybrid = True # almeno un file
                         break
+            # Add se trova il file config.xml all'interno allora lo memorizzo:
+           
 
+            
             permission_find = list()       
             for permission_to_check in list_permission_to_find:
                 if permission_to_check in self.apk.get_permissions():
                     permission_find.append(True) # contenere tutti i permessi 
                     if permission_to_check == "android.permission.INTERNET":
                         self.internet_enabled = True
-                    
+
+          
                     #print(permission_to_check)
-            self.file_log.write("\n[Permission Enble Start ]"+"\n")
+            self.logger.logger.info("[Permission Enble Start]")
             for p in self.apk.get_permissions():
-                self.file_log.write(p+"\n")
-            self.file_log.write("[Permission End]\n")
+                self.logger.logger.info(p)
+            self.logger.logger.info("[Permission End]\n")
             self.is_contain_permission = len(permission_find) == len(list_permission_to_find)
 
-            self.isHybrd = self.is_contain_permission and self.is_contain_file_hybrid
-        
-        return self.isHybrd 
+            self.isHybrid = self.is_contain_permission and self.is_contain_file_hybrid
+            try:
+                if self.isHybrid:
+                    axml = AXMLPrinter(self.apk.get_file("res/xml/config.xml"))
+                    self.file_config_hybrid = axml.get_xml()
+                    # parsing file config
+                    self.check_whitelist()
+            except FileNotPresent as e:
+                print(bcolors.FAIL+"File config.xml not found, it is necessary to decompile the application first"+bcolors.ENDC)
+                self.logger.logger.error("[ERROR file config.xmls] {0} \n".format(e))
 
+        
+        return self.isHybrid 
+
+    
+    # TODO add
     def check_whitelist(self):
         """
-        function to be able to check if url is in whitelist
+            function that obtain access origi from file 
+            config.xml
         """
-        return None
+        # get xml_object ElementTree 
+        if self.file_config_hybrid is not None and self.isHybrid:
+            self.list_origin_access = list()
+            root = ET.fromstring(self.file_config_hybrid)
+            
+            xmlns = "{http://www.w3.org/ns/widgets}" # default namespace
+            # xmlns = root.tag.split("}")[0]
+            #xmlns = xmlns + "}" # add delimeter
+            #print(root.attrib)
+            for child in root.findall(xmlns+"access"):
+                #print( child.tag, child.attrib.get("origin"))
+                self.list_origin_access.append(child.attrib.get("origin"))
 
-    def find_string(self,  file_to_search, remote=False):
+            self.logger.logger.info("[INIT ACCESS ORIGIN LIST]")
+            for value in self.list_origin_access:
+                self.logger.logger.info("origin: %s",value)
+            self.logger.logger.info("[END ACCESS ORIGIN LIST]\n")
+            
+
+
+
+    def find_string(self,  file_to_search, remote=False, debug=False):
         """
             find string inside file of apk(html,xml,ecc..) (not yet decompiled)
         """
         print("\n")
+        # TODO aggiungere opzione debug
+        debug = True
+
         if remote:
-            self.file_log.write("\n")
+            self.logger.logger.info("[START REMOTE FILE ANALYZE]")
+        else:
+            self.logger.logger.info("[START FILE ANALYZE]")
         for file_to_inspect, insideAPK in file_to_search.items():
-            if not remote:
+            if not remote and debug:
                 print("File: " +file_to_inspect)
-                self.file_log.write("File: "+file_to_inspect+"\n")
+                self.logger.logger.info("File: "+file_to_inspect)
             else:
-                
-                print("Remote File in: " +file_to_inspect)
-                print("URL: "+self.name_to_url[file_to_inspect])
-                self.file_log.write("Remote File in: "+file_to_inspect+"\n")
-                self.file_log.write("URL: "+self.name_to_url[file_to_inspect]+"\n")
+                if debug:
+                    print("Remote File in: " +file_to_inspect)
+                    print("URL: "+self.name_to_url[file_to_inspect])
+                    self.logger.logger.info("Remote File in: %s",file_to_inspect)
+                    self.logger.logger.info("URL: %s",self.name_to_url[file_to_inspect])
                 
             if insideAPK:
                 data = self.zip.open(file_to_inspect)
@@ -150,31 +202,32 @@ class MyAPK:
                     
                     if not self.search_tag:
                         print(bcolors.FAIL+"Found "+self.string_to_find+" in line "+str(list_row_string)+bcolors.ENDC)  
-                        self.file_log.write("Found "+self.string_to_find+" in line "+str(list_row_string)+"\n") 
+                        self.logger.logger.info("Found tsg %s file %s in line %s",self.string_to_find,file_to_inspect,str(list_row_string)) 
                     else:
                         print(bcolors.FAIL+"Found tag "+self.string_to_find +",  "+str(len(list_row_string)) +" times "+bcolors.ENDC)
-                        self.file_log.write("Found tag "+self.string_to_find +",  "+str(len(list_row_string)) +" times \n")
+                        self.logger.logger.info("Found in file %s tag %s , %s times",file_to_inspect,self.string_to_find,str(len(list_row_string)) )
                     
+                    # TODO aggiungere il content e fare conclusioni su di esso
                     find_csp  = soup.find("meta",{"http-equiv":"Content-Security-Policy"})
                     if find_csp is not None:
                         print(bcolors.OKGREEN+"Find CSP with content: [" +find_csp["content"]+"]"+bcolors.ENDC)
-                        self.file_log.write("Find CSP with content: [" +find_csp["content"]+"]\n")
+                        self.logger.logger.info("Find CSP with content: [" +find_csp["content"]+"]")
                         self.find_csp[file_to_inspect] = True
                     else:
                         print(bcolors.FAIL+"No CSP found!"+bcolors.ENDC)
-                        self.file_log.write("No CSP found!\n")
+                        self.logger.logger.info("No CSP found!")
                         self.find_csp[file_to_inspect] = False
                 else:
                     print(bcolors.OKGREEN+"No "+self.string_to_find+" in "+file_to_inspect+bcolors.ENDC)
-                    self.file_log.write("No "+self.string_to_find+" in "+file_to_inspect+"\n")
+                    self.logger.logger.info("No "+self.string_to_find+" in "+file_to_inspect)
                 
-                self.file_log.write("-"*30+"\n")
                 print()
 
             except zipfile.BadZipfile:
                 continue
             except ValueError:
                 continue
+        self.logger.logger.info("[END ANALYZE FILE]\n")
         return None
 
     def find_method_used(self):
@@ -182,7 +235,7 @@ class MyAPK:
             funzione per ricercare i metodi che sono usati 
             all'interno dell'apk
         """
-        used_jadx = False
+        used_jadx = True
         if used_jadx:
             # Create DalvikVMFormat Object
             self.dalvik_format = DalvikVMFormat(self.apk)
@@ -208,10 +261,12 @@ class MyAPK:
 
         else:
             # return apk, list dex , object analysis
-            _ , self.dalviks_format, self.analysis_object = AnalyzeAPK(self.name_apk)
-            #self.dalvik_format = DalvikVMFormat(self.apk)
+            apk_decompiled, self.dalviks_format, self.analysis_object = AnalyzeAPK(self.name_apk)
+            
+            # self.dalvik_format = DalvikVMFormat(self.apk)
             # Create Analysis Object
             #self.analysis_object = Analysis(self.dalvik_format)
+            # se decompilyng = androguard.misc.Run_Decompyler(dalvik_fromat, dx (VMAnalysis object), decompyler_name (dad,dex2jar,ded)) 
 
             #method_analys = list()
             for method_analys in self.analysis_object.get_methods():
@@ -246,20 +301,20 @@ class MyAPK:
                     except (TypeError, AttributeError) as e:
                         continue
 
-            self.file_log.write("\n[JavaScript enabled: "+str(self.javascript_enabled)+"]\n")
+            self.logger.logger.info("[JavaScript enabled: "+str(self.javascript_enabled)+"]\n")
         except Exception:
-            self.file_log.write("\nFile conf.json without method setJavaScriptEnabled\n")
+            self.logger.logger.error("File conf.json without method setJavaScriptEnabled\n")
 
         try:
-            self.file_log.write("[Add interface WebView: "+str(method_present["addJavascriptInterface"])+"]\n")
+            self.logger.logger.info("[Add interface WebView: "+str(method_present["addJavascriptInterface"])+"]\n")
         except Exception:
             # nothing
-            self.file_log.write("File conf.json without method addJavascriptInterface\n")
+            self.logger.logger.error("File conf.json without method addJavascriptInterface\n")
 
         self.is_contains_all_methods = len(method_present) == len(method_to_find)
         return self.is_contains_all_methods
 
-    # ToDo aggiugere url trovate in modo dinamico
+    # TODO aggiugere url trovate in modo dinamico
     def find_url_in_apk(self):
         """
             find all url/uri inside apk
@@ -297,12 +352,16 @@ class MyAPK:
         
         if len(self.url_loaded) > 0:
             #print(self.url_loaded)
-            self.file_log.write("\n[Start Url loaded inside loadUrl function]\n")
-            self.file_log.write("".join(str(i)+"\n" for i in self.url_loaded))
-            self.file_log.write("[End Url loaded inside loadUrl function]\n")
+            self.logger.logger.info("[START URL LOADED INSIDE LOAD FUNCTION]")
+            self.logger.logger.info("".join(str(i)+"\n" for i in self.url_loaded))
+            self.logger.logger.info("[END URL LOADED INSIDE LOAD FUNCTION]")
             self.download_page_loaded()
             self.find_string(self.file_download_to_analyze,remote=True)
-        #if(len(self.all_url) > 0):
+        if(len(self.all_url) > 0):
+            self.logger.logger.info("[START ALL URL INSIDE APK]")
+            self.logger.logger.info("".join(str(i)+"\n" for i in self.all_url))
+            self.logger.logger.info("[END ALL URL INSIDE APK]")
+            
         #    print(self.all_url)
 
     def get_list_source_code(self,encoded_method):
@@ -369,6 +428,7 @@ class MyAPK:
         # se esiste almeno un file con iframe senza csp --> vulnerble
         # se è false --> vulnerabile  
         csp_in_file_iframe = True
+
         for file_with_iframe in self.dict_file_with_string.keys():
             csp_in_file_iframe = csp_in_file_iframe and self.find_csp[file_with_iframe]
             if not self.find_csp[file_with_iframe]:
