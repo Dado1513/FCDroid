@@ -16,8 +16,8 @@ Work In Progress:
 - [ ] Search loadUrl e string used if assigned to a variable before
 - [x] Download web page used 
 - [ ] loadUrl/EvaluateJavaScript --> containe javascript code exec
-- [ ] log output on file using logging
+- [x] log output on file using logging
 - [x] controllare enableJavaScript se passa argomento true
 - [ ] url runtime
-- [ ] whitelist url
+- [ ] whitelist url(intent/network/navigation)
 ___
