@@ -16,7 +16,8 @@ except ImportError:
 dir_log = "log"
 file_conf = "conf.json"
 
-def analyze_start(conf,apk_to_analyze,tag,string_to_find):
+
+def analyze_start(conf, apk_to_analyze, tag, string_to_find, dynamic_url = None):
     print("\n")
     print(bcolors.BOLD+apk_to_analyze.split("/")[-1]+bcolors.ENDC)
     if not os.path.exists("log"):
@@ -28,7 +29,7 @@ def analyze_start(conf,apk_to_analyze,tag,string_to_find):
     print(bcolors.WARNING+"[*] Searching in "+apk_to_analyze+bcolors.ENDC)
     logger.logger.info("Init Time ["+time.ctime()+"]")
     
-    apk = MyAPK(apk_to_analyze,conf,log_file,tag,string_to_find,logger)
+    apk = MyAPK(apk_to_analyze, conf, log_file, tag, string_to_find, logger, dynamic_url)
     # thread per la decompilazione
     thread_decompilyng = ThreadDecompyling(apk,logger)
     # TODO gestire keyboard interrupt
@@ -80,7 +81,7 @@ def main():
     parser.add_argument('-t', action="store_true",help='enable tag search', default=False)
     
     parser.add_argument('-s', '--string-to-find', metavar='<string>',
-                            help='String to find inside apk file',required=True)
+                            help='String to find inside apk file', required=True)
     
     args = parser.parse_args()
 

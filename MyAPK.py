@@ -23,7 +23,7 @@ show_logging(level=logging.CRITICAL)
 
 class MyAPK:
     
-    def __init__(self, name_file, conf, file_log, tag, string_to_find,logger):
+    def __init__(self, name_file, conf, file_log, tag, string_to_find,logger,dynamic_url):
         
         self.name_apk = name_file
         self.conf = conf
@@ -31,35 +31,36 @@ class MyAPK:
         self.dalviks_format = None
         self.analysis_object = None
         self.dict_file_with_string = dict()  # file che contengono la stringa ricercata
-        self.string_to_find = string_to_find # stringa da cercare
-        self.is_contain_permission = False # se contiene i permessi del file conf
-        self.url_loaded = list() # list url that has been loaded 
-        self.is_contain_file_hybrid = False # se contiene i file ibridi --> probabilmente app ibrida
-        self.find_csp = dict() # pagine_html con iframe se contengono csp [True o False]
-        self.is_contains_all_methods = False # se contiene i metodi all'interno del file conf.json
-        self.html_file = dict() # html file inside apk
+        self.string_to_find = string_to_find  # stringa da cercare
+        self.is_contain_permission = False  # se contiene i permessi del file conf
+        self.url_loaded = list()  # list url that has been loaded
+        self.is_contain_file_hybrid = False  # se contiene i file ibridi --> probabilmente app ibrida
+        self.find_csp = dict()  # pagine_html con iframe se contengono csp [True o False]
+        self.is_contains_all_methods = False  # se contiene i metodi all'interno del file conf.json
+        self.html_file = dict()  # html file inside apk
         self.zip = zipfile.ZipFile(self.name_apk) # get zip object from apk
-        self.list_file = self.zip.namelist()# tutti i file all'interno
-        self.__find_html_file() # call function to full html_file
-        self.file_log = file_log # name to file log
+        self.list_file = self.zip.namelist()  # tutti i file all'interno
+        self.__find_html_file()  # call function to full html_file
+        self.file_log = file_log  # name to file log
         self.javascript_enabled = False
         self.internet_enabled = False
         self.file_vulnerable_frame_confusion = list()
         self.isHybrid = None
-        self.method = dict() # dict indexes with name method and get encoded methods where function was called
-        self.all_url = list() # all url in the apk
+        self.method = dict()  # dict indexes with name method and get encoded methods where function was called
+        self.all_url = list()  # all url in the apk
         self.file_download_to_analyze = dict()
         self.search_tag = tag
-        self.name_to_url = dict() # dict with indexes with name and get url remote
+        self.name_to_url = dict()  # dict with indexes with name and get url remote
         self.file_config_hybrid = None
         self.list_origin_access = None
         self.logger = logger
+        self.dynamic_url = dynamic_url  # url dinamiche ottenute dall'analisi dinamica
         
         
     
     def __find_html_file(self):
         
-        r = re.compile(".*html$") # solo i file .html
+        r = re.compile(".*html$")  # solo i file .html
         list_html_file = filter(r.match,self.list_file)
         for temp in list_html_file:
             self.html_file[temp] = True 
@@ -81,18 +82,18 @@ class MyAPK:
             for name in self.list_file:
                 for file_to_check in list_file_to_find:
                     if file_to_check in name:            
-                        self.is_contain_file_hybrid = True # almeno un file
+                        self.is_contain_file_hybrid = True  # almeno un file
                         break
             # Add se trova il file config.xml all'interno allora lo memorizzo:
 
             permission_find = list()       
             for permission_to_check in list_permission_to_find:
                 if permission_to_check in self.apk.get_permissions():
-                    permission_find.append(True) # contenere tutti i permessi 
+                    permission_find.append(True)  # contenere tutti i permessi
                     if permission_to_check == "android.permission.INTERNET":
                         self.internet_enabled = True
 
-            #print(permission_to_check)
+            # print(permission_to_check)
             self.logger.logger.info("[Permission Enble Start]")
             for p in self.apk.get_permissions():
                 self.logger.logger.info(p)
@@ -125,10 +126,10 @@ class MyAPK:
             
             xmlns = "{http://www.w3.org/ns/widgets}" # default namespace
             # xmlns = root.tag.split("}")[0]
-            #xmlns = xmlns + "}" # add delimeter
-            #print(root.attrib)
+            # xmlns = xmlns + "}" # add delimeter
+            # print(root.attrib)
             for child in root.findall(xmlns+"access"):
-                #print( child.tag, child.attrib.get("origin"))
+                # print( child.tag, child.attrib.get("origin"))
                 self.list_origin_access.append(child.attrib.get("origin"))
 
             self.logger.logger.info("[INIT ACCESS ORIGIN LIST]")
