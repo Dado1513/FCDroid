@@ -4,7 +4,6 @@ import logging
 import os
 import re
 import zipfile
-from threading import Thread
 from bs4 import BeautifulSoup
 import requests
 from androguard.core.analysis.analysis import Analysis
@@ -18,12 +17,9 @@ from androguard.decompiler.decompiler import (DecompilerJADX,
 from androguard.misc import AnalyzeAPK
 from bcolors import bcolors
 import xml.etree.ElementTree as ET
-from Logger import Logger
 
 show_logging(level=logging.CRITICAL)
 
-    
-   
 
 class MyAPK:
     
@@ -72,7 +68,6 @@ class MyAPK:
         with open(filename, 'rb' if binary else 'r') as f:
             return f.read()
 
-
     def is_hybird(self):
         """
             function to check se apk is hybrid,
@@ -89,9 +84,7 @@ class MyAPK:
                         self.is_contain_file_hybrid = True # almeno un file
                         break
             # Add se trova il file config.xml all'interno allora lo memorizzo:
-           
 
-            
             permission_find = list()       
             for permission_to_check in list_permission_to_find:
                 if permission_to_check in self.apk.get_permissions():
@@ -99,8 +92,7 @@ class MyAPK:
                     if permission_to_check == "android.permission.INTERNET":
                         self.internet_enabled = True
 
-          
-                    #print(permission_to_check)
+            #print(permission_to_check)
             self.logger.logger.info("[Permission Enble Start]")
             for p in self.apk.get_permissions():
                 self.logger.logger.info(p)
@@ -118,10 +110,8 @@ class MyAPK:
                 print(bcolors.FAIL+"File config.xml not found, it is necessary to decompile the application first"+bcolors.ENDC)
                 self.logger.logger.error("[ERROR file config.xmls] {0} \n".format(e))
 
-        
         return self.isHybrid 
 
-    
     # TODO add
     def check_whitelist(self):
         """
@@ -145,9 +135,6 @@ class MyAPK:
             for value in self.list_origin_access:
                 self.logger.logger.info("origin: %s",value)
             self.logger.logger.info("[END ACCESS ORIGIN LIST]\n")
-            
-
-
 
     def find_string(self,  file_to_search, remote=False, debug=False):
         """
@@ -241,7 +228,6 @@ class MyAPK:
             self.dalvik_format = DalvikVMFormat(self.apk)
             # Create Analysis Object
             self.analysis_object = Analysis(self.dalvik_format)
-
             # Load the decompiler
             # Make sure that the jadx executable is found in $PATH
             # or use the argument jadx="/path/to/jadx" to point to the executable
@@ -256,7 +242,6 @@ class MyAPK:
             for method_analys in list_method_analysis:
                 method_name = method_analys.get_method().get_name()
                 #print(method_encoded.get_method().get_source())
-
                 self.method[method_name] = list(method_analys.get_xref_from())
 
         else:
@@ -265,10 +250,10 @@ class MyAPK:
             
             # self.dalvik_format = DalvikVMFormat(self.apk)
             # Create Analysis Object
-            #self.analysis_object = Analysis(self.dalvik_format)
-            # se decompilyng = androguard.misc.Run_Decompyler(dalvik_fromat, dx (VMAnalysis object), decompyler_name (dad,dex2jar,ded)) 
-
-            #method_analys = list()
+            # self.analysis_object = Analysis(self.dalvik_format)
+            # se decompilyng = androguard.misc.Run_Decompyler(dalvik_fromat, dx (VMAnalysis object),
+            # decompyler_name (dad,dex2jar,ded))
+            # method_analys = list()
             for method_analys in self.analysis_object.get_methods():
                 method_name = method_analys.get_method().get_name()
                 # from method_name get list dove esso viene chiamato
@@ -319,8 +304,8 @@ class MyAPK:
         """
             find all url/uri inside apk
         """
-        #url regularp expression
-        #url_re = "(http:\/\/|https:\/\/|file:\/\/\/)?[-a-zA-Z0-9@:%._\+~#=]\.[a-z]([-a-zA-Z0-9@:%_\+.~#?&//=]*)"
+        # url regularp expression
+        # url_re = "(http:\/\/|https:\/\/|file:\/\/\/)?[-a-zA-Z0-9@:%._\+~#=]\.[a-z]([-a-zA-Z0-9@:%_\+.~#?&//=]*)"
         url_re = "^(http:\/\/|https:\/\/)\w+"
         list_string_analysis = self.analysis_object.find_strings(url_re) #--> gen object
         # contain all url in apk
@@ -335,8 +320,8 @@ class MyAPK:
         # class analysis e encoded_method
         for key in dict_class_method_analysis.keys():
             for value in dict_class_method_analysis[key]:
-                #class_analysis = value[0]
-                #print(type(value))
+                # class_analysis = value[0]
+                # print(type(value))
                 try:
                     if value[1] is not None:
                         encoded_method = value[1]
@@ -357,20 +342,20 @@ class MyAPK:
             self.logger.logger.info("[END URL LOADED INSIDE LOAD FUNCTION]")
             self.download_page_loaded()
             self.find_string(self.file_download_to_analyze,remote=True)
-        if(len(self.all_url) > 0):
+        if len(self.all_url) > 0 :
             self.logger.logger.info("[START ALL URL INSIDE APK]")
             self.logger.logger.info("".join(str(i)+"\n" for i in self.all_url))
             self.logger.logger.info("[END ALL URL INSIDE APK]")
             
         #    print(self.all_url)
 
-    def get_list_source_code(self,encoded_method):
+    def get_list_source_code(self, encoded_method):
         """
             from object encoded_method obtain source code list
         """
         
-        source_code = encoded_method.get_source().replace("\n","")
-        source_code = source_code.replace(" ","")
+        source_code = encoded_method.get_source().replace("\n", "")
+        source_code = source_code.replace(" ", "")
         source_code = source_code.split(";")
         return source_code
 
@@ -395,7 +380,7 @@ class MyAPK:
             self.name_to_url[path_complete] = url 
             self.file_download_to_analyze[path_complete] = False
         
-        #print(file_download_to_analyze)
+        # print(file_download_to_analyze)
 
     # invece che valore magari che venga passato una variabile come valore
     def check_metod_used_value(self,list_source_code,metodo,value):
@@ -410,10 +395,10 @@ class MyAPK:
         list_new = filter(r.findall,list_source_code)
         for line_finded in list_new:
             if value in line_finded:
-                #print("Used ("+url_to_find+"); "+line_finded)
+                # print("Used ("+url_to_find+"); "+line_finded)
                 return True
-            #else:
-                #print("Load url in this function but not url string inside: "+url_to_find)
+            # else:
+                #p rint("Load url in this function but not url string inside: "+url_to_find)
         return False
         
     def vulnerable_frame_confusion(self):

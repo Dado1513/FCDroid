@@ -1,32 +1,12 @@
 #!/usr/env/bin python3
-import glob
-import logging
-import os
-import re
-import zipfile
 from threading import Thread
-
-from bs4 import BeautifulSoup
-import requests
-
-from androguard.core.analysis.analysis import Analysis
-from androguard.core.androconf import show_logging
-from androguard.core.bytecodes.apk import APK
-from androguard.core.bytecodes.dvm import DalvikVMFormat
-from androguard.decompiler.decompiler import (DecompilerJADX,
-                                              JADXDecompilerError)
-from androguard.misc import AnalyzeAPK
-import sys
 from bcolors import bcolors
-import logging
 
 
-
-    
 
 class ThreadDecompyling (Thread):
 
-    def __init__(self, myapk,logger):
+    def __init__(self, myapk, logger):
         Thread.__init__(self)
         self.myapk = myapk
         self.logger = logger

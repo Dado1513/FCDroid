@@ -3,12 +3,8 @@ import argparse
 import glob
 import json
 import os
-import time
-import sys
 from MyAPK import MyAPK
 from ThreadDecompyling import ThreadDecompyling
-import sys
-import logging
 import time
 from bcolors import bcolors
 from Logger import Logger
@@ -20,10 +16,6 @@ except ImportError:
 dir_log = "log"
 file_conf = "conf.json"
 
-
-
-
-
 def analyze_start(conf,apk_to_analyze,tag,string_to_find):
     print("\n")
     print(bcolors.BOLD+apk_to_analyze.split("/")[-1]+bcolors.ENDC)
@@ -32,7 +24,7 @@ def analyze_start(conf,apk_to_analyze,tag,string_to_find):
     
     log_file = "log/"+apk_to_analyze.split("/")[-1]+".log"
     logger = Logger(log_file)
-    #file_log = open(log_file,"w")
+    # file_log = open(log_file,"w")
     print(bcolors.WARNING+"[*] Searching in "+apk_to_analyze+bcolors.ENDC)
     logger.logger.info("Init Time ["+time.ctime()+"]")
     
@@ -41,47 +33,45 @@ def analyze_start(conf,apk_to_analyze,tag,string_to_find):
     thread_decompilyng = ThreadDecompyling(apk,logger)
     # TODO gestire keyboard interrupt
     thread_decompilyng.start()
-   
 
     type_apk = "[NATIVE]" if not apk.is_hybird() else "[HYBRID]"
     logger.logger.info("TYPE APK: "+type_apk+"\n")
     print(bcolors.OKBLUE+type_apk+bcolors.ENDC)
     apk.find_string(apk.html_file)
     
-    #print("\n")
+    # print("\n")
     list_loading = ["\\","|","/","-"]
     n = 1
     while not thread_decompilyng.finish:
         n = n % len(list_loading)
-        print(bcolors.WARNING+"["+list_loading[n]+"] Analysis "+bcolors.ENDC ,end="\r")
+        print(bcolors.WARNING+"["+list_loading[n]+"] Analysis "+bcolors.ENDC, end="\r")
         n = n +1
         time.sleep(0.5)
 
     if not thread_decompilyng.error:
         apk.find_url_in_apk()
         if apk.vulnerable_frame_confusion():
-            print(bcolors.FAIL +"\nThis app might be vulnerable on attack frame confusion."+bcolors.ENDC)
-            print(bcolors.FAIL +"This file are vulnerable "+ str(apk.file_vulnerable_frame_confusion)+bcolors.ENDC)
+            print(bcolors.FAIL + "\nThis app might be vulnerable on attack frame confusion." +bcolors.ENDC)
+            print(bcolors.FAIL + "This file are vulnerable " + str(apk.file_vulnerable_frame_confusion)+bcolors.ENDC)
             logger.logger.info("This app might be vulnerable on attack frame confusion, This file are vulnerable %s", str(apk.file_vulnerable_frame_confusion))
-            logger.logger.info("End time:[%s]",time.ctime)
+            logger.logger.info("End time:[%s]",time.ctime())
         else:
             print(bcolors.OKGREEN+"\nThis app might be not vulnerable on attack frame confusion"+bcolors.ENDC)
             logger.logger.info("This app might be not vulnerable on  attack frame confusion.")
-            logger.logger.info("End time:["+time.ctime()+"]")
+            logger.logger.info("End time:["+str(time.ctime())+"]")
     else:
-        print(bcolors.FAIL +"Some error occured during decompilation."+bcolors.ENDC)
+        print(bcolors.FAIL + "Some error occured during decompilation." + bcolors.ENDC)
         logger.logger.error("Some error during decompilation.")
 
     logger.shutdown()
-    
-def main():
 
+
+def main():
     parser = argparse.ArgumentParser(
             description='Insepct hybrid apk',
             usage='\n\tpython hybrid_inspector.py -f \"example.apk\" -s \"iframe\" \n\tpython -d \"dir_apk\" -t -s \"iframe\" \n ',
             epilog="Author : Davide Caputo")
-    
-    
+
     parser.add_argument('-f', '--file-name', metavar='<string>',
                             help='file name apk')
     
@@ -109,13 +99,14 @@ def main():
             for apk_to_analyze in list_apk_to_analyze:
                 analyze_start(conf, apk_to_analyze,tag, args.string_to_find)
         
-        elif(args.file_name is not None):
+        elif args.file_name is not None:
             analyze_start(conf, args.file_name, tag, args.string_to_find)
         else:
             parser.error(bcolors.FAIL+"tool required -f file-name or -d dir-apk "+bcolors.ENDC)    
     else:
         print(bcolors.FAIL+"file "+file_conf+" not found"+bcolors.ENDC)
-        logger.error("FILE conf.json not found")
+
+
 def load_conf_file(file_name):
     
     conf = json.load(open(file_name,"r"))
@@ -123,6 +114,6 @@ def load_conf_file(file_name):
         conf[key] = [str(s) for s in value]
     return conf
 
-if __name__=="__main__":  
+
+if __name__ == "__main__":
     main()
-    

@@ -1,7 +1,5 @@
 __pycache__/
-<<<<<<< HEAD
-=======
 *.pyc
->>>>>>> 557b5af36d8b79c754e683a92b60a07255fdabe2
 log/
 temp/
+.vscode/
