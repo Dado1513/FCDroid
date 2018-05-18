@@ -7,7 +7,7 @@ class Logger:
         self.logger = logging.getLogger(__name__)
         level = logging.DEBUG
         self.logger.setLevel(logging.DEBUG)
-        formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+        formatter = logging.Formatter('[INTERNAL_LOG][%(asctime)s][%(levelname)s][%(funcName)s()] %(message)s')
 
         handler = logging.FileHandler(log_file,mode="w")
         handler.setFormatter(formatter)
