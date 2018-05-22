@@ -380,13 +380,22 @@ class MyAPK:
         print(bcolors.WARNING+"[*] Download remote page in: "+html_dir+bcolors.ENDC)
         
         for url in self.url_loaded:
-            r = requests.get(url,allow_redirects=True)
-            name_file = url.split("/")[-1]
-            path_complete = html_dir+"/"+name_file
-            open(path_complete,"wb").write(r.content)
-            self.name_to_url[path_complete] = url 
-            self.file_download_to_analyze[path_complete] = False
-        
+            try:
+                r = requests.get(url,allow_redirects=True)
+                name_file = url.split("/")[-1]
+                path_complete = html_dir+"/"+name_file
+                open(path_complete,"wb").write(r.content)
+                self.name_to_url[path_complete] = url 
+                self.file_download_to_analyze[path_complete] = False
+            except requests.exceptions.InvalidSchema:
+                url = "http://{0}".format(url)
+                r = requests.get(url,allow_redirects=True)
+                name_file = url.split("/")[-1]
+                path_complete = html_dir+"/"+name_file
+                open(path_complete,"wb").write(r.content)
+                self.name_to_url[path_complete] = url 
+                self.file_download_to_analyze[path_complete] = False
+
     # invece che valore magari che venga passato una variabile come valore
     def check_metod_used_value(self,list_source_code,metodo,value):
         """
@@ -436,12 +445,14 @@ class MyAPK:
             diamicamente attraverso che sono state trovate precendetemente 
             dall'analisi dinamica
         """
+
         self.logger.logger.info("Init add url dynamic analysis")
         function_load_url = ["loadUrl"] # funzioni che caricano url in Android
         url_api_monitor = list()
         for keys in self.api_monitor_dict.keys():
             if keys in function_load_url:
                 url_api_monitor = list(set().union(url_api_monitor,self.api_monitor_dict[keys]["args"]))
+        url_api_monitor = filter(lambda x: x.startswith("http://") or x.startswith("https://"),url_api_monitor)
         # ora devo filtrare solo le url che sono http/https
         url_network = list()
         for keys in self.network_dict.keys():
