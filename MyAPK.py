@@ -106,16 +106,26 @@ class MyAPK:
                 if self.isHybrid:
                     # non sempre funziona a volte bisogna decompilare l'app manualmente per ottenere questo file
                     # TODO add decompyling apk se avviene un'eccezione o usare apktool
-                    axml = AXMLPrinter(self.apk.get_file("res/xml/config.xml"))
-                    self.file_config_hybrid = axml.get_xml()
+                    # axml = AXMLPrinter(self.apk.get_file("res/xml/config.xml"))
+                    # self.file_config_hybrid = axml.get_xml()
+                    print(bcolors.WARNING+" Starting apktool "+bcolors.ENDC)
+                    self.logger.logger.info("Starting apktool")
+                    cmd = ["apktool","d","-o","temp_dir",self.name_apk,"-f"]
+                    subprocess.call(cmd)
+                    # now can search file in temp_dir
+                    file_xml = open("temp_dir/res/xml/config.xml")
+                    file_data_xml = str(file_xml.read())
+                    self.file_config_hybrid = file_data_xml
                     # parsing file config
                     self.check_whitelist()
+                    # delete directory
+                    cmd = ["rm","-rf","temp_dir"]
+                    subprocess.call(cmd)
+                    
+            
             except FileNotPresent as e:
                 print(bcolors.FAIL+"File config.xml not found, it is necessary to decompile the application first"+bcolors.ENDC)
-                # try to apktool
-                # cmd = ["apktool","d","-o","temp_dir","apk"]
-                # subprocess.call(cmd)
-                # now search in temp_dir/res/xml/config.xml
+
                 # remove dir
                 self.logger.logger.error("[ERROR file config.xmls] {0} \n".format(e))
 
