@@ -4,6 +4,7 @@ import logging
 import os
 import re
 import zipfile
+import subprocess
 from bs4 import BeautifulSoup
 import requests
 from androguard.core.analysis.analysis import Analysis
@@ -104,13 +105,18 @@ class MyAPK:
             try:
                 if self.isHybrid:
                     # non sempre funziona a volte bisogna decompilare l'app manualmente per ottenere questo file
-                    # TODO 
+                    # TODO add decompyling apk se avviene un'eccezione o usare apktool
                     axml = AXMLPrinter(self.apk.get_file("res/xml/config.xml"))
                     self.file_config_hybrid = axml.get_xml()
                     # parsing file config
                     self.check_whitelist()
             except FileNotPresent as e:
                 print(bcolors.FAIL+"File config.xml not found, it is necessary to decompile the application first"+bcolors.ENDC)
+                # try to apktool
+                # cmd = ["apktool","d","-o","temp_dir","apk"]
+                # subprocess.call(cmd)
+                # now search in temp_dir/res/xml/config.xml
+                # remove dir
                 self.logger.logger.error("[ERROR file config.xmls] {0} \n".format(e))
 
         return self.isHybrid 
