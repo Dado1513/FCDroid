@@ -137,7 +137,6 @@ class MyAPK:
             function that obtain access origin from file 
             config.xml
         """
-        # TODO add
 
         # get xml_object ElementTree 
         if self.file_config_hybrid is not None and self.isHybrid:
@@ -145,9 +144,14 @@ class MyAPK:
             root = ET.fromstring(self.file_config_hybrid)
             
             xmlns = "{http://www.w3.org/ns/widgets}" # default namespace
-            # xmlns = root.tag.split("}")[0]
-            # xmlns = xmlns + "}" # add delimeter
-            # print(root.attrib)
+            # TODO aggiungere altri elementi della whitelist
+            # 1) <allow-navigation href="http://*/*" />
+            # Controls which URLs the WebView itself can be navigated to. Applies to top-level navigations only.
+            # 2) <allow-intent href="http://*/*" />
+            # Controls which URLs the app is allowed to ask the system to open. By default, no external URLs are allowed
+            # 3) <access origin="http://google.com" /> 
+            # Controls which network requests (images, XHRs, etc) are allowed to be made (via cordova native hooks).
+
             for child in root.findall(xmlns+"access"):
                 # print( child.tag, child.attrib.get("origin"))
                 self.list_origin_access.append(child.attrib.get("origin"))
@@ -453,11 +457,13 @@ class MyAPK:
             if not self.find_csp[file_with_iframe]:
                 self.file_vulnerable_frame_confusion.append(file_with_iframe)
         
+        # se vero whitelist implementato male
+        white_list_bug = len(self.list_origin_access) == 0 || "*" in self.list_origin_access
         return ("iframe" in self.string_to_find and 
                 self.check_method_conf()  and 
                 len(self.dict_file_with_string) > 0 and
                 self.is_contain_permission and
-                not csp_in_file_iframe)
+                not csp_in_file_iframe and white_list_bug)
     
     def add_url_dynamic(self):
         """
