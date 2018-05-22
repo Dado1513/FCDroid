@@ -105,9 +105,10 @@ class MyAPK:
             try:
                 if self.isHybrid:
                     # non sempre funziona a volte bisogna decompilare l'app manualmente per ottenere questo file
-                    # TODO add decompyling apk se avviene un'eccezione o usare apktool
                     # axml = AXMLPrinter(self.apk.get_file("res/xml/config.xml"))
                     # self.file_config_hybrid = axml.get_xml()
+                    
+                    # using apktool
                     print(bcolors.WARNING+" Starting apktool "+bcolors.ENDC)
                     self.logger.logger.info("Starting apktool")
                     cmd = ["apktool","d","-o","temp_dir",self.name_apk,"-f"]
@@ -121,7 +122,7 @@ class MyAPK:
                     # delete directory
                     cmd = ["rm","-rf","temp_dir"]
                     subprocess.call(cmd)
-                    
+
             
             except FileNotPresent as e:
                 print(bcolors.FAIL+"File config.xml not found, it is necessary to decompile the application first"+bcolors.ENDC)
