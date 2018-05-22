@@ -23,7 +23,7 @@ show_logging(level=logging.CRITICAL)
 
 class MyAPK:
     
-    def __init__(self, name_file, conf, file_log, tag, string_to_find,logger,dynamic_url):
+    def __init__(self, name_file, conf, file_log, tag, string_to_find, logger, api_monitor_dict=None, network_dict=None):
         
         self.name_apk = name_file
         self.conf = conf
@@ -54,8 +54,8 @@ class MyAPK:
         self.file_config_hybrid = None
         self.list_origin_access = None
         self.logger = logger
-        self.dynamic_url = dynamic_url  # url dinamiche ottenute dall'analisi dinamica
-        
+        self.api_monitor_dict = api_monitor_dict
+        self.network_dict = network_dict        
         
     
     def __find_html_file(self):
@@ -103,6 +103,8 @@ class MyAPK:
             self.isHybrid = self.is_contain_permission and self.is_contain_file_hybrid
             try:
                 if self.isHybrid:
+                    # non sempre funziona a volte bisogna decompilare l'app manualmente per ottenere questo file
+                    # TODO 
                     axml = AXMLPrinter(self.apk.get_file("res/xml/config.xml"))
                     self.file_config_hybrid = axml.get_xml()
                     # parsing file config
@@ -113,12 +115,13 @@ class MyAPK:
 
         return self.isHybrid 
 
-    # TODO add
     def check_whitelist(self):
         """
-            function that obtain access origi from file 
+            function that obtain access origin from file 
             config.xml
         """
+        # TODO add
+
         # get xml_object ElementTree 
         if self.file_config_hybrid is not None and self.isHybrid:
             self.list_origin_access = list()
@@ -247,7 +250,7 @@ class MyAPK:
 
         else:
             # return apk, list dex , object analysis
-            apk_decompiled, self.dalviks_format, self.analysis_object = AnalyzeAPK(self.name_apk)
+            apk, self.dalviks_format, self.analysis_object = AnalyzeAPK(self.name_apk)
             
             # self.dalvik_format = DalvikVMFormat(self.apk)
             # Create Analysis Object
@@ -300,11 +303,14 @@ class MyAPK:
         self.is_contains_all_methods = len(method_present) == len(method_to_find)
         return self.is_contains_all_methods
 
-    # TODO aggiugere url trovate in modo dinamico
     def find_url_in_apk(self):
         """
             find all url/uri inside apk
         """
+        # add url using dynamic analysis
+        if self.api_monitor_dict is not None and self.network_dict is not None:
+            self.add_url_dynamic()
+        
         # url regularp expression
         # url_re = "(http:\/\/|https:\/\/|file:\/\/\/)?[-a-zA-Z0-9@:%._\+~#=]\.[a-z]([-a-zA-Z0-9@:%_\+.~#?&//=]*)"
         url_re = "^(http:\/\/|https:\/\/)\w+"
@@ -342,7 +348,7 @@ class MyAPK:
             self.logger.logger.info("".join(str(i)+"\n" for i in self.url_loaded))
             self.logger.logger.info("[END URL LOADED INSIDE LOAD FUNCTION]")
             self.download_page_loaded()
-            self.find_string(self.file_download_to_analyze,remote=True)
+            self.find_string(self.file_download_to_analyze, remote=True)
         if len(self.all_url) > 0 :
             self.logger.logger.info("[START ALL URL INSIDE APK]")
             self.logger.logger.info("".join(str(i)+"\n" for i in self.all_url))
@@ -381,8 +387,6 @@ class MyAPK:
             self.name_to_url[path_complete] = url 
             self.file_download_to_analyze[path_complete] = False
         
-        # print(file_download_to_analyze)
-
     # invece che valore magari che venga passato una variabile come valore
     def check_metod_used_value(self,list_source_code,metodo,value):
         """
@@ -425,3 +429,25 @@ class MyAPK:
                 len(self.dict_file_with_string) > 0 and
                 self.is_contain_permission and
                 not csp_in_file_iframe)
+    
+    def add_url_dynamic(self):
+        """
+            function that aggiunge le url caricate 
+            diamicamente attraverso che sono state trovate precendetemente 
+            dall'analisi dinamica
+        """
+        self.logger.logger.info("Init add url dynamic analysis")
+        function_load_url = ["loadUrl"] # funzioni che caricano url in Android
+        url_api_monitor = list()
+        for keys in self.api_monitor_dict.keys():
+            if keys in function_load_url:
+                url_api_monitor = list(set().union(url_api_monitor,self.api_monitor_dict[keys]["args"]))
+        # ora devo filtrare solo le url che sono http/https
+        url_network = list()
+        for keys in self.network_dict.keys():
+            url_network = list(set().union(url_network,self.network_dict[keys]["url"]))
+        
+        self.url_loaded = list(set().union(self.url_loaded,url_api_monitor,url_network))
+        self.all_url = list(set().union(self.all_url,self.url_loaded))
+        self.logger.logger.info("".join(str(i)+"\n" for i in self.url_loaded))
+        self.logger.logger.info("End, url dynamic analysis added")

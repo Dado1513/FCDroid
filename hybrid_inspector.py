@@ -17,7 +17,7 @@ dir_log = "log"
 file_conf = "conf.json"
 
 
-def analyze_start(conf, apk_to_analyze, tag, string_to_find, dynamic_url = None):
+def analyze_start(conf, apk_to_analyze, tag, string_to_find, api_monitor_dict=None, network_dict=None):
     print("\n")
     print(bcolors.BOLD+apk_to_analyze.split("/")[-1]+bcolors.ENDC)
     if not os.path.exists("log"):
@@ -29,7 +29,8 @@ def analyze_start(conf, apk_to_analyze, tag, string_to_find, dynamic_url = None)
     print(bcolors.WARNING+"[*] Searching in "+apk_to_analyze+bcolors.ENDC)
     logger.logger.info("Init Time ["+time.ctime()+"]")
     
-    apk = MyAPK(apk_to_analyze, conf, log_file, tag, string_to_find, logger, dynamic_url)
+    apk = MyAPK(apk_to_analyze, conf, log_file, tag, string_to_find, logger, \
+                api_monitor_dict=api_monitor_dict, network_dict=network_dict) # dict che arrivano dall'analisi dinamica
     # thread per la decompilazione
     thread_decompilyng = ThreadDecompyling(apk,logger)
     # TODO gestire keyboard interrupt
