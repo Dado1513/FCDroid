@@ -395,6 +395,9 @@ class MyAPK:
                 open(path_complete,"wb").write(r.content)
                 self.name_to_url[path_complete] = url 
                 self.file_download_to_analyze[path_complete] = False
+            except requests.exceptions.ConnectionError:
+                self.logger.logger("Failed download: {0} ".format(url))
+                continue
 
     # invece che valore magari che venga passato una variabile come valore
     def check_metod_used_value(self,list_source_code,metodo,value):

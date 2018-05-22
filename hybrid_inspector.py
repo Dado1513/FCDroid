@@ -67,7 +67,7 @@ def analyze_start(conf, apk_to_analyze, tag, string_to_find, api_monitor_dict=No
 
     logger.shutdown()
 
-
+    
 def main():
     parser = argparse.ArgumentParser(
             description='Insepct hybrid apk',

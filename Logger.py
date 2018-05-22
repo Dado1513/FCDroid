@@ -10,12 +10,15 @@ class Logger:
         formatter = logging.Formatter('[INTERNAL_LOG][%(asctime)s][%(levelname)s][%(funcName)s()] %(message)s')
 
         handler = logging.FileHandler(log_file,mode="w")
-        handler.setFormatter(formatter)
         handler.setLevel(level)
 
-        self.logger.addHandler(handler)
         consolehandle = logging.StreamHandler()
         consolehandle.setLevel(logging.ERROR)
+        
+        handler.setFormatter(formatter)
+        consolehandle.setFormatter(formatter)
+
+        self.logger.addHandler(handler)
         self.logger.addHandler(consolehandle)
 
     def shutdown(self):
