@@ -109,10 +109,11 @@ class MyAPK:
                     # self.file_config_hybrid = axml.get_xml()
                     
                     # using apktool
+                    FNULL = open(os.devnull, 'w')
                     print(bcolors.WARNING+" Starting apktool "+bcolors.ENDC)
                     self.logger.logger.info("Starting apktool")
                     cmd = ["apktool","d","-o","temp_dir",self.name_apk,"-f"]
-                    subprocess.call(cmd)
+                    subprocess.call(cmd, stdout=FNULL,stderr=subprocess.STDOUT)
                     # now can search file in temp_dir
                     file_xml = open("temp_dir/res/xml/config.xml")
                     file_data_xml = str(file_xml.read())
@@ -126,6 +127,9 @@ class MyAPK:
             
             except OSError as e:
                 print(bcolors.FAIL+"File config.xml not found, it is necessary to decompile the application first"+bcolors.ENDC)
+                cmd = ["rm","-rf","temp_dir"]
+                subprocess.call(cmd)
+            
 
                 # remove dir
                 self.logger.logger.error("[ERROR file config.xmls] {0} \n".format(e))
