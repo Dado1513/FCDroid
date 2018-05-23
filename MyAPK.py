@@ -421,7 +421,10 @@ class MyAPK:
                 self.name_to_url[path_complete] = url 
                 self.file_download_to_analyze[path_complete] = False
             except requests.exceptions.ConnectionError:
-                self.logger.logger("Failed download: {0} ".format(url))
+                self.logger.logger.error("Failed download: {0} ".format(url))
+                continue
+            except Exception as e:
+                self.logger.logger.error("Failed download: {0} for exception {1}".format(url,e))
                 continue
 
     # invece che valore magari che venga passato una variabile come valore
