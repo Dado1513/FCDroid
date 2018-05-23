@@ -70,7 +70,7 @@ def analyze_start(conf, apk_to_analyze, tag, string_to_find, api_monitor_dict=No
         logger.shutdown()
     except BadZipfile:
         logger.logger.error("APK corrupted")
-        print(bcolors.FAIL+"APK corrupted"+)
+        print(bcolors.FAIL+"APK corrupted"+bcolors.ENDC)
     
 def main():
     parser = argparse.ArgumentParser(
