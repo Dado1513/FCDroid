@@ -53,7 +53,7 @@ class MyAPK:
         self.search_tag = tag
         self.name_to_url = dict()  # dict with indexes with name and get url remote
         self.file_config_hybrid = None
-        self.list_origin_access = None
+        self.list_origin_access = list()
         self.logger = logger
         self.api_monitor_dict = api_monitor_dict
         self.network_dict = network_dict        
