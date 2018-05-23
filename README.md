@@ -7,6 +7,7 @@ Simple tool written in python that is able to:
 
 - If you search "iframe" able to identify frame confusion
 
+- Necessary to have in PATH the dir of apktool
 ```
 Usage: pythonAnaconda3.6 hybrid_inspector.py -d "/home/User/dir_apk" -t -s "iframe"
 ```
@@ -18,6 +19,6 @@ Work In Progress:
 - [ ] loadUrl/EvaluateJavaScript --> containe javascript code exec
 - [x] log output on file using logging
 - [x] controllare enableJavaScript se passa argomento true
-- [ ] url runtime
+- [x] url runtime (using dynamic analysis before) such as droidbot and get file apimonitor
 - [ ] whitelist url(intent/network/navigation)
 ___
