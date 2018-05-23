@@ -251,7 +251,7 @@ class MyAPK:
             funzione per ricercare i metodi che sono usati 
             all'interno dell'apk
         """
-        used_jadx = True
+        used_jadx = False
         if used_jadx:
             # Create DalvikVMFormat Object
             self.dalvik_format = DalvikVMFormat(self.apk)
