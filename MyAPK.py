@@ -124,7 +124,7 @@ class MyAPK:
                     subprocess.call(cmd)
 
             
-            except FileNotPresent as e:
+            except OSError as e:
                 print(bcolors.FAIL+"File config.xml not found, it is necessary to decompile the application first"+bcolors.ENDC)
 
                 # remove dir
