@@ -312,7 +312,8 @@ class MyAPK:
                                 self.javascript_enabled = True
                                 break
 
-                    except (TypeError, AttributeError) as e:
+                    except (TypeError, AttributeError, KeyError) as e:
+                        self.logger.logger.error("Exception during check method used {0}".format(e))
                         continue
 
             self.logger.logger.info("[JavaScript enabled: "+str(self.javascript_enabled)+"]\n")
@@ -363,8 +364,10 @@ class MyAPK:
                         if self.check_metod_used_value(source_code,"loadUrl",key):
                             self.url_loaded.append(key)
                         
-                except (TypeError, AttributeError) as e:
+                except (TypeError, AttributeError, KeyError) as e:
+                    self.logger.logger.error("Exception during find url in apk {0}".format(e))
                     continue
+
         # debug part
         
         if len(self.url_loaded) > 0:
