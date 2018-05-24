@@ -406,22 +406,36 @@ class MyAPK:
         
         for url in self.url_loaded:
             try:
-                r = requests.get(url,allow_redirects=True)
-                name_file = url.split("/")[-1]
-                path_complete = html_dir+"/"+name_file
-                open(path_complete,"wb").write(r.content)
-                self.name_to_url[path_complete] = url 
-                self.file_download_to_analyze[path_complete] = False
+                r = requests.get(url)
+                # print(url)
+                if r.status_code == 200:
+                    name_file = url.split("/")[-1]
+                    path_complete = html_dir+"/"+name_file
+                    open(path_complete,"wb").write(r.content)
+                    self.name_to_url[path_complete] = url 
+                    self.file_download_to_analyze[path_complete] = False
+                else:
+                    self.logger.logger.error("Failed response code: {0} for {1}  ".format(r.status_code,url))
             except requests.exceptions.InvalidSchema:
+                self.logger.logger.error("Invalid Schema exception for url: {0}, try add http:// ".format(url))
                 url = "http://{0}".format(url)
-                r = requests.get(url,allow_redirects=True)
-                name_file = url.split("/")[-1]
-                path_complete = html_dir+"/"+name_file
-                open(path_complete,"wb").write(r.content)
-                self.name_to_url[path_complete] = url 
-                self.file_download_to_analyze[path_complete] = False
-            except requests.exceptions.ConnectionError:
-                self.logger.logger.error("Failed download: {0} ".format(url))
+                # print(url)
+                try: # provo aggiungendo http o https
+                    r = requests.get(url)
+                    if r.status_code == 200:
+                
+                        name_file = url.split("/")[-1]
+                        path_complete = html_dir+"/"+name_file
+                        open(path_complete,"wb").write(r.content)
+                        self.name_to_url[path_complete] = url 
+                        self.file_download_to_analyze[path_complete] = False
+                    else:
+                        self.logger.logger.error("Failed response code: {0} for {1}  ".format(r.status_code,url))
+                except requests.exceptions.ConnectionError as e: # se non funziona di nuovo
+                    self.logger.logger.error("Failed connection errror after add http download: {0} ".format(url))
+                    continue
+            except requests.exceptions.ConnectionError as e:
+                self.logger.logger.error("Failed connection error download: {0} ".format(url))
                 continue
             except Exception as e:
                 self.logger.logger.error("Failed download: {0} for exception {1}".format(url,e))
