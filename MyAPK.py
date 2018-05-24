@@ -87,7 +87,8 @@ class MyAPK:
                         self.is_contain_file_hybrid = True  # almeno un file
                         self.file_hybrid.append(name) # add file hybrid founded
             # Add se trova il file config.xml all'interno allora lo memorizzo:
-
+            if self.is_contain_file_hybrid:
+                self.logger.logger.info("Hybrid file found are: " +str(self.file_hybrid))
             permission_find = list()       
             for permission_to_check in list_permission_to_find:
                 if permission_to_check in self.apk.get_permissions():
