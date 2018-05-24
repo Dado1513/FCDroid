@@ -56,7 +56,8 @@ class MyAPK:
         self.list_origin_access = list()
         self.logger = logger
         self.api_monitor_dict = api_monitor_dict
-        self.network_dict = network_dict        
+        self.network_dict = network_dict  
+        self.file_hybrid = list()      
         
     
     def __find_html_file(self):
@@ -84,7 +85,7 @@ class MyAPK:
                 for file_to_check in list_file_to_find:
                     if file_to_check in name:            
                         self.is_contain_file_hybrid = True  # almeno un file
-                        break
+                        self.file_hybrid.append(name) # add file hybrid founded
             # Add se trova il file config.xml all'interno allora lo memorizzo:
 
             permission_find = list()       
