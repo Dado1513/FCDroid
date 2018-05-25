@@ -83,7 +83,8 @@ class MyAPK:
 
             for name in self.list_file:
                 for file_to_check in list_file_to_find:
-                    if file_to_check in name:            
+                    name = name.split("/")[-1]
+                    if file_to_check == name:            
                         self.is_contain_file_hybrid = True  # almeno un file
                         self.file_hybrid.append(name) # add file hybrid founded
             # Add se trova il file config.xml all'interno allora lo memorizzo:
@@ -194,58 +195,64 @@ class MyAPK:
                 data = self.zip.open(file_to_inspect)
             else:
                 data = open(file_to_inspect,"r")
-                
-            file_read = str(data.read())
-            soup = BeautifulSoup(file_read,'lxml')
-            find_iframe = False
-            list_row_string = []
-
             try:
-                if self.search_tag: 
-                    list_tag = soup.findAll(self.string_to_find)
-                    file_line = file_read.split("\n")
-                    for name_tag in list_tag:
-                        find_iframe = True
-                        list_row_string.append(name_tag)
-                
-                else:
-                    file_line = file_read.split("\n")
-                    for (counter,value) in enumerate(file_line):
-                        if self.string_to_find in value:
-                            list_row_string.append(str(counter+1))
+                file_read = str(data.read())
+                soup = BeautifulSoup(file_read,'lxml')
+                find_iframe = False
+                list_row_string = []
+
+                try:
+                    if self.search_tag: 
+                        list_tag = soup.findAll(self.string_to_find)
+                        file_line = file_read.split("\n")
+                        for name_tag in list_tag:
                             find_iframe = True
-
-                if find_iframe and self.string_to_find == "iframe":
-                    self.dict_file_with_string[file_to_inspect] = list_row_string
+                            list_row_string.append(name_tag)
                     
-                    if not self.search_tag:
-                        print(bcolors.FAIL+"Found "+self.string_to_find+" in line "+str(list_row_string)+bcolors.ENDC)  
-                        self.logger.logger.info("Found tsg %s file %s in line %s",self.string_to_find,file_to_inspect,str(list_row_string)) 
                     else:
-                        print(bcolors.FAIL+"Found tag "+self.string_to_find +",  "+str(len(list_row_string)) +" times "+bcolors.ENDC)
-                        self.logger.logger.info("Found in file %s tag %s , %s times",file_to_inspect,self.string_to_find,str(len(list_row_string)) )
-                    
-                    # TODO aggiungere il content e fare conclusioni su di esso
-                    find_csp  = soup.find("meta",{"http-equiv":"Content-Security-Policy"})
-                    if find_csp is not None:
-                        print(bcolors.OKGREEN+"Find CSP with content: [" +find_csp["content"]+"]"+bcolors.ENDC)
-                        self.logger.logger.info("Find CSP with content: [" +find_csp["content"]+"]")
-                        self.find_csp[file_to_inspect] = True
-                    else:
-                        print(bcolors.FAIL+"No CSP found!"+bcolors.ENDC)
-                        self.logger.logger.info("No CSP found!")
-                        self.find_csp[file_to_inspect] = False
-                else:
-                    print(bcolors.OKGREEN+"No "+self.string_to_find+" in "+file_to_inspect+bcolors.ENDC)
-                    self.logger.logger.info("No "+self.string_to_find+" in "+file_to_inspect)
-                
-                print()
+                        file_line = file_read.split("\n")
+                        for (counter,value) in enumerate(file_line):
+                            if self.string_to_find in value:
+                                list_row_string.append(str(counter+1))
+                                find_iframe = True
 
-            except zipfile.BadZipfile:
+                    if find_iframe and self.string_to_find == "iframe":
+                        self.dict_file_with_string[file_to_inspect] = list_row_string
+                        
+                        if not self.search_tag:
+                            print(bcolors.FAIL+"Found "+self.string_to_find+" in line "+str(list_row_string)+bcolors.ENDC)  
+                            self.logger.logger.info("Found tsg %s file %s in line %s",self.string_to_find,file_to_inspect,str(list_row_string)) 
+                        else:
+                            print(bcolors.FAIL+"Found tag "+self.string_to_find +",  "+str(len(list_row_string)) +" times "+bcolors.ENDC)
+                            self.logger.logger.info("Found in file %s tag %s , %s times",file_to_inspect,self.string_to_find,str(len(list_row_string)) )
+                        
+                        # TODO aggiungere il content e fare conclusioni su di esso
+                        find_csp  = soup.find("meta",{"http-equiv":"Content-Security-Policy"})
+                        if find_csp is not None:
+                            print(bcolors.OKGREEN+"Find CSP with content: [" +find_csp["content"]+"]"+bcolors.ENDC)
+                            self.logger.logger.info("Find CSP with content: [" +find_csp["content"]+"]")
+                            self.find_csp[file_to_inspect] = True
+                        else:
+                            print(bcolors.FAIL+"No CSP found!"+bcolors.ENDC)
+                            self.logger.logger.info("No CSP found!")
+                            self.find_csp[file_to_inspect] = False
+                    else:
+                        print(bcolors.OKGREEN+"No "+self.string_to_find+" in "+file_to_inspect+bcolors.ENDC)
+                        self.logger.logger.info("No "+self.string_to_find+" in "+file_to_inspect)
+                    
+                    print()
+
+                except zipfile.BadZipfile as e:
+                    self.logger.error("Error bad zip file {0}".format(e))
+                    continue
+                except ValueError as e:
+                    self.logger.error("Error value error {0}".format(e))
+                    continue
+            except UnicodeDecodeError as e:
+                self.logger.logger.error("Error unicode error {0}".format(e))
                 continue
-            except ValueError:
-                continue
-        self.logger.logger.info("[END ANALYZE FILE]\n")
+            self.logger.logger.info("[END ANALYZE FILE]\n")
+
         return None
 
     def find_method_used(self):
