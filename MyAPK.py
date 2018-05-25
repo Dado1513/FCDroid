@@ -55,6 +55,7 @@ class MyAPK:
         self.file_config_hybrid = None
         self.list_origin_access = list()
         self.logger = logger
+        # self.logger = logging.getLogger("Logger")
         self.api_monitor_dict = api_monitor_dict
         self.network_dict = network_dict  
         self.file_hybrid = list()      

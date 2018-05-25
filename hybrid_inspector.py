@@ -16,7 +16,7 @@ except ImportError:
 
 dir_log = "log"
 file_conf = "conf.json"
-
+apk_vulnerable = list()
 
 def analyze_start(conf, apk_to_analyze, tag, string_to_find, api_monitor_dict=None, network_dict=None):
     print("\n")
@@ -56,6 +56,7 @@ def analyze_start(conf, apk_to_analyze, tag, string_to_find, api_monitor_dict=No
             apk.find_url_in_apk()
             if apk.vulnerable_frame_confusion():
                 print(bcolors.FAIL + "\nThis app might be vulnerable on attack frame confusion." +bcolors.ENDC)
+                apk_vulnerable.append(apk_to_analyze)
                 print(bcolors.FAIL + "This file are vulnerable " + str(apk.file_vulnerable_frame_confusion)+bcolors.ENDC)
                 logger.logger.info("This app might be vulnerable on attack frame confusion, This file are vulnerable %s", str(apk.file_vulnerable_frame_confusion))
                 logger.logger.info("End time:[%s]",time.ctime())
@@ -72,6 +73,9 @@ def analyze_start(conf, apk_to_analyze, tag, string_to_find, api_monitor_dict=No
         logger.logger.error("APK corrupted")
         print(bcolors.FAIL+"APK corrupted"+bcolors.ENDC)
     
+    if len(apk_vulnerable) > 0:
+        print(bcolors.FAIL+"The vulnerable are: "+str(apk_vulnerable)+bcolors.ENDC)
+
 def main():
     parser = argparse.ArgumentParser(
             description='Insepct hybrid apk',
