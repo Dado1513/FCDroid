@@ -74,7 +74,7 @@ def analyze_start(conf, apk_to_analyze, tag, string_to_find, api_monitor_dict=No
         print(bcolors.FAIL+"APK corrupted"+bcolors.ENDC)
     
     if len(apk_vulnerable) > 0:
-        print(bcolors.FAIL+"The vulnerable are: "+str(apk_vulnerable)+bcolors.ENDC)
+        print(bcolors.FAIL+"This app maybe are vulnerable: "+str(apk_vulnerable)+bcolors.ENDC)
 
 def main():
     parser = argparse.ArgumentParser(
