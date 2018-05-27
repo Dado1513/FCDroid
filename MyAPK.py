@@ -387,11 +387,11 @@ class MyAPK:
             self.logger.logger.info("[END URL LOADED INSIDE LOAD FUNCTION]")
             self.download_page_loaded()
             self.find_string(self.file_download_to_analyze, remote=True)
+
         if len(self.all_url) > 0 :
             self.logger.logger.info("[START ALL URL INSIDE APK]")
             self.logger.logger.info("".join(str(i)+"\n" for i in self.all_url))
             self.logger.logger.info("[END ALL URL INSIDE APK]")
-            
         #    print(self.all_url)
 
     def get_list_source_code(self, encoded_method):

@@ -73,9 +73,7 @@ def analyze_start(conf, apk_to_analyze, tag, string_to_find, api_monitor_dict=No
         logger.logger.error("APK corrupted")
         print(bcolors.FAIL+"APK corrupted"+bcolors.ENDC)
     
-    if len(apk_vulnerable) > 0:
-        print(bcolors.FAIL+"This app maybe are vulnerable: "+str(apk_vulnerable)+bcolors.ENDC)
-
+   
 def main():
     parser = argparse.ArgumentParser(
             description='Insepct hybrid apk',
@@ -108,7 +106,10 @@ def main():
 
             for apk_to_analyze in list_apk_to_analyze:
                 analyze_start(conf, apk_to_analyze,tag, args.string_to_find)
-        
+            
+            if len(apk_vulnerable) > 0:
+                print(bcolors.FAIL+"This app maybe are vulnerable: \n"+join(str(i)+"\n" for i in apk_vulnerable)+bcolors.ENDC)
+
         elif args.file_name is not None:
             analyze_start(conf, args.file_name, tag, args.string_to_find)
         else:
