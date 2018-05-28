@@ -117,7 +117,7 @@ def main():
                 file_stat_final.write("\nThis app maybe are vulnerable:\n"+string_app_vulnerable)
                 print()
                 print()
-                print(bcolors.BOLD+"-- Finale Result -- \n")
+                print(bcolors.BOLD+"-- Final Result -- \n")
                 print(string_percentul)
                 print("This app maybe are vulnerable:"+bcolors.ENDC)
                 print(bcolors.FAIL+string_app_vulnerable+bcolors.ENDC)
