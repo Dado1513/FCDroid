@@ -412,7 +412,7 @@ class MyAPK:
         """
         name_only_apk = self.name_apk.split("/")[-1].split(".")[0]
         
-        html_dir = "temp/html_downloaded_"+name_only_apk
+        html_dir = "temp_html_code/html_downloaded_"+name_only_apk
         if not os.path.exists(html_dir):
             os.makedirs(html_dir)
         print(bcolors.WARNING+"[*] Download remote page in: "+html_dir+bcolors.ENDC)
