@@ -252,8 +252,7 @@ class MyAPK:
             except UnicodeDecodeError as e:
                 self.logger.logger.error("Error unicode error {0}".format(e))
                 continue
-            self.logger.logger.info("[END ANALYZE FILE]\n")
-
+        self.logger.logger.info("[END ANALYZE FILE]\n")
         return None
 
     def find_method_used(self):
@@ -364,22 +363,21 @@ class MyAPK:
         for key in dict_class_method_analysis.keys():
             for value in dict_class_method_analysis[key]:
                 # class_analysis = value[0]
-                # print(type(value))
                 try:
                     if value[1] is not None:
                         encoded_method = value[1]
                         # split the instruction in a list
                         source_code = self.get_list_source_code(encoded_method)
-                        self.all_url.append(key)
-                        if self.check_metod_used_value(source_code,"loadUrl",key):
-                            self.url_loaded.append(key)
-                        
+                        if source_code is not None:
+                            self.all_url.append(key)
+                            if self.check_metod_used_value(source_code,"loadUrl",key):
+                                self.url_loaded.append(key)
+                            
                 except (TypeError, AttributeError, KeyError) as e:
                     self.logger.logger.error("Exception during find url in apk {0}".format(e))
                     continue
 
         # debug part
-        
         if len(self.url_loaded) > 0:
             #print(self.url_loaded)
             self.logger.logger.info("[START URL LOADED INSIDE LOAD FUNCTION]")
@@ -397,12 +395,15 @@ class MyAPK:
     def get_list_source_code(self, encoded_method):
         """
             from object encoded_method obtain source code list
-        """
-        
-        source_code = encoded_method.get_source().replace("\n", "")
-        source_code = source_code.replace(" ", "")
-        source_code = source_code.split(";")
-        return source_code
+        """  
+        try:
+            source_code = encoded_method.get_source().replace("\n", "")
+            source_code = source_code.replace(" ", "")
+            source_code = source_code.split(";")
+            return source_code
+        except TypeError as e:
+            #self.logger.logger.error("Error as encoded_method {0} on method get_source_code {1}".format(encoded_method,e))
+            return None
 
     def download_page_loaded(self):
         """
@@ -415,7 +416,7 @@ class MyAPK:
         html_dir = "temp_html_code/html_downloaded_"+name_only_apk
         if not os.path.exists(html_dir):
             os.makedirs(html_dir)
-        print(bcolors.WARNING+"[*] Download remote page in: "+html_dir+bcolors.ENDC)
+        print(bcolors.WARNING+"\n[*] Download remote page in: "+html_dir+bcolors.ENDC)
         
         for url in self.url_loaded:
             try:
