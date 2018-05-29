@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>手机QQ浏览器官方网站</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
+<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=UTF-8" />
+<style>
+body, div, p, a, table, textarea, form, input, img, ul, li {
+	margin:0;
+	padding:0;
+	line-height:20px;
+}
+body {
+	font-size:14px;
+	color:#303030;
+}
+li {
+	list-style:none;
+	text-indent:0;
+}
+img, a img {
+	border:0;
+}
+a {
+	color: #0f579f;
+	text-decoration:none;
+}
+.Browser-Wap-banner {
+	height:100%;
+	background: #e04545 url(http://3gimg.qq.com/wap20/img/sft/logo_bg.png) repeat-x;
+}
+.window1-1 {
+	background:#C9EBFF url(http://3gimg.qq.com/wap30/activity/website/wap-banner-bg.png) repeat-x left top
+}
+.boxtools {
+	overflow:hidden;
+	text-align:left;
+	padding:0px 0px 0px 0px;
+	height:100%;
+	border-width:0px 0px 0px 0px;
+	border-style:solid solid solid solid;
+	border-color:#000 #000 #000 #000;
+	color:#000;
+}
+.boxtools * {
+	font-size:14px;
+	line-height:20px;
+}
+.window1-2 {
+	padding:5px 0px 5px 10px;
+	color:#2A99D9
+}
+.window1-3 {
+	padding:3px 0px 3px 10px
+}
+.window1-10 {
+	padding:3px 0px 3px 10px
+}
+.window1-12 {
+	padding:3px 0px 3px 10px
+}
+.window1-5 {
+	padding-top:5px;
+	padding-bottom:5px;
+	text-align:center
+}
+.Browser-Wap-item-title-f {
+	background:#dadada url(http://3gimg.qq.com/wap20/img/standard2.0/rec_title.png) repeat-x 0 0;
+	padding: 0 0 0 10px;
+	border-top: 1px solid #e1e4e7;
+	border-bottom: 1px solid #ccd1d5;
+}
+.Browser-Wap-item-title-f p {
+	line-height: 23px;
+}
+.window1-6 {
+	background:#D6ECF8 url() repeat-x left top;
+	border-top:1px solid #E1E4E7
+}
+.window1-4 {
+	background:#D6ECF8 url() repeat-x left top;
+	border-top:1px solid #E1E4E7
+}
+.window1-8 {
+	background:#D6ECF8 url() repeat-x left top;
+	border-top:1px solid #E1E4E7
+}
+.window1-11 {
+	background:#D6ECF8 url() repeat-x left top;
+	border-top:1px solid #E1E4E7
+}
+.window1-13 {
+	background:#D6ECF8 url() repeat-x left top;
+	border-top:1px solid #E1E4E7
+}
+.Browser-Wap-footer {
+	text-align: center;
+	padding: 5px 0;
+	background-color:#eef5fe;
+	border-top: 1px solid #d9e1e8;
+}
+.Browser-Wap-footer p {
+	line-height: 24px;
+}
+.Browser-Wap-footer .Browser-Wap-copy {
+	color: #919191;
+	font-size: 12px;
+}
+.Browser-Wap-separate {
+	margin: 0 5px;
+}
+.Browser-Wap-info-list-02 {
+	padding: 9px 0 9px 10px;
+	border-bottom: 1px solid #d9e1e8;
+	color: #303030;
+}
+.Browser-Wap-info-list-02 td {
+	font-size: 13px;
+}
+.Browser-Wap-info-list-02 .Browser-Wap-g-content02-02 {
+	padding-left: 10px;
+	padding-right: 12px;
+	font-size: 13px;
+}
+.Browser-Wap-info-list-02 .Browser-Wap-02-info {
+	color: #303030;
+}
+div .Browser-Wap-none {
+	border: none;
+}
+.window1-7 {
+	padding-top:0px;
+	padding-bottom:0px
+}
+.window1-7 div.Browser-Wap-none {
+	border: none;
+}
+.Browser-Wap-text-list-m {
+	padding: 0 0 0 10px;
+}
+.window1-14 {
+	padding-top:3px;
+	padding-bottom:3px
+}
+.window1-1 {
+	height: 68px;
+	margin: 0px;
+}
+.window1-2 {
+	margin: 0px;
+}
+.window1-5 {
+	margin: 0px;
+}
+.window1-6 {
+	margin: 0px;
+}
+.window1-9 {
+	margin: 0px;
+}
+body {
+	background-color:#F4F4F4;
+}
+.more{
+    text-align: right;
+    padding: 3px 10px;
+
+}
+</style>
+</head>
+<body>
+<div class="Browser-Wap-banner window1-1"><img src="http://3gimg.qq.com/wap30/activity/website/wap-banner.png" alt="手机QQ浏览器" height="68" width="240"></div>
+<div class="Browser-Wap-item-title-f window1-6">
+  <p>新版特性</p>
+</div>
+<div class="boxtools window1-3" style="">
+  <p>
+  <p>名称：手机QQ浏览器</p>
+  <p><br>
+  <div class="div window1-5"><a href=""><img src="http://3gimg.qq.com/qqbrowser/Splash_download/mb/down.png" alt="立即下载" height="30" width="220"></a></div>
+  <br>
+  
+</div>
+<div class="Browser-Wap-item-title-f window1-4">
+  <p>产品介绍</p>
+</div>
+<div class="Browser-Wap-content-02 window1-7">
+
+  <div class="Browser-Wap-info-list-02">
+    <table>
+      <tbody>
+        <tr>
+          <td><a href="#"><img class="icon" src="mtthome/images/skin.png" alt="图加载..." height="45" width="45"></a></td>
+          <td class="Browser-Wap-g-content02-02">个性的皮肤<br>
+            <span class="Browser-Wap-02-info">多套皮肤，随心更换，每天给你不一样的浏觉体验！</span>
+            </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="Browser-Wap-info-list-02">
+    <table>
+      <tbody>
+        <tr>
+          <td><a href="#"><img class="icon" src="mtthome/images/search.png" alt="图加载..." height="45" width="45"></a></td>
+          <td class="Browser-Wap-g-content02-02">全能搜索<br>
+            <span class="Browser-Wap-02-info">细分的搜索类别，可选的搜索引擎，尽享一站式搜索体验。</span>
+            </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+ 
+  <div class="Browser-Wap-info-list-02">
+    <table>
+      <tbody>
+        <tr>
+          <td><a href="#"><img class="icon" src="mtthome/images/fav.png" alt="图加载..." height="45" width="45"></a></td>
+          <td class="Browser-Wap-g-content02-02">智能云服务<br>
+            <span class="Browser-Wap-02-info">登录QQ，贴心云服务为你自动同步书签，方便快捷！</span>
+            </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  
+  <div class="Browser-Wap-info-list-02">
+    <table>
+      <tbody>
+        <tr>
+          <td><a href="#"><img class="icon" src="mtthome/images/quicken.png" alt="图加载..." height="45" width="45"></a></td>
+          <td class="Browser-Wap-g-content02-02">云加速<br>
+            <span class="Browser-Wap-02-info">开启云加速，即可将网页转换成最省流量最适合阅读的页面。</span>
+            </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+</div>
+<!--div class="more"><a href="#">更多特性</a></div-->
+<div class="Browser-Wap-item-title-f window1-8">
+  <p>反馈建议</p>
+</div>
+<div class="boxtools window1-10" style="">
+  <p>
+  <p>亲爱的用户：</p>
+  <p>您对产品有什么建议吗？把您在使用</p>
+  </p>
+</div>
+<div class="div window1-5"><a href="http://wap.3g.qq.com/g/s?aid=wapsupport&fid=543"><img src="http://3gimg.qq.com/wap30/activity/website/btn-wap-fb.png" alt="我要反馈" height="30" width="220"></a></div>
+<div class="Browser-Wap-item-title-f window1-11">
+  <p>关于我们</p>
+</div>
+<div class="boxtools window1-12" style="">
+  <p>
+  <p>官方网站：mb.qq.com</p>
+  <p>联系电话：0755-61369988</p>
+  <p>关注更多：&nbsp;
+  	<a href="http://ti.3g.qq.com/g/s?aid=h&hu=mqqbrowser">腾讯官博</a> &nbsp;
+  	<a href="http://weibo.cn/mqqbrowser">新浪官博</a> &nbsp;
+  	<a href="http://ti.3g.qq.com/g/s?aid=h&hu=mbrowser">粉丝微博</a>&nbsp;&nbsp;
+  	<a href="http://bbs.mb.qq.com">交流社区</a>
+  </p>
+</div>
+<div class="Browser-Wap-item-title-f window1-13">
+  <p>精品应用</p>
+</div>
+<div class="Browser-Wap-text-list-m window1-14">
+  <table width="100%">
+    <tbody>
+		<tr>
+        	<td width="33%"><a href="http://www.myapp.com/forward/a/client/49367?g_f=990817">浏览器</a></td>
+			<td width="33%"><a href="http://www.myapp.com/forward/a/client/45592?g_f=990817">手机QQ</a></td>
+			<td><a href="http://www.myapp.com/forward/a/client/49968?g_f=990817">微博</a></td>
+		</tr>
+		<tr>
+			
+			<td width="33%"><a href="http://www.myapp.com/forward/a/client/48810?g_f=990817">空间 </a></td>
+			<td width="33%"><a href="http://www.myapp.com/forward/a/client/46438?g_f=990817">通讯录</a></td>
+			<td><a href="http://www.myapp.com/forward/a/client/36112?g_f=990817">QQ音乐</a></td>
+		</tr>
+        <tr>
+        	<td width="33%"><a href="http://www.myapp.com/forward/a/client/48462?g_f=990817">手机管家 </a></td>
+            <td width="33%"><a href="http://www.myapp.com/forward/a/client/50068?g_f=990817">朋友网 </a></td>
+            <td><a href="http://www.myapp.com/forward/a/client/50801?g_f=990817">应用宝 </a></td>
+        </tr>
+    </tbody>
+  </table>
+    <!--div class="more"><a href="#">更多软件</a></div-->
+</div>
+
+<div class="Browser-Wap-footer window1-9">
+  <p class="Browser-Wap-copyright"><a href="http://wap.3g.qq.com/g/s?aid=wapsupport&fid=834">反馈</a>
+  	<span class="Browser-Wap-separate">|</span>
+  	<a href="#top">回顶部</a>
+  	<!--<span class="Browser-Wap-separate">|</span>
+  	<a href="http://act.html5.qq.com/center">活动</a>
+  	span class="Browser-Wap-separate">|</span>
+  	<a href="#">论坛</a></p-->
+  <p class="Browser-Wap-copy">Copyright © 2011 Tencent Inc.</p>
+</div>
+</body>
+</html>

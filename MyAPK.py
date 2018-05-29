@@ -114,7 +114,7 @@ class MyAPK:
                     
                     # using apktool
                     FNULL = open(os.devnull, 'w')
-                    print(bcolors.WARNING+"[*]Starting apktool "+bcolors.ENDC)
+                    print(bcolors.WARNING+"[*] Starting apktool "+bcolors.ENDC)
                     self.logger.logger.info("Starting apktool")
                     cmd = ["apktool","d","-o","temp_dir",self.name_apk,"-f"]
                     subprocess.call(cmd, stdout=FNULL,stderr=subprocess.STDOUT)

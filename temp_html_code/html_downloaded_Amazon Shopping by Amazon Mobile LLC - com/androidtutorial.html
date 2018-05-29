@@ -1,0 +1,176 @@
+
+<html>
+    <head>
+        <style>
+            html, body, div, span, applet, object, iframe,
+            h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+            a, abbr, acronym, address, big, cite, code,
+            del, dfn, em, img, ins, kbd, q, s, samp,
+            small, strike, strong, sub, sup, tt, var,
+            b, u, i, center,
+            dl, dt, dd, ol, ul, li,
+            fieldset, form, label, legend,
+            table, caption, tbody, tfoot, thead, tr, th, td,
+            article, aside, canvas, details, embed,
+            figure, figcaption, footer, header, hgroup,
+            menu, nav, output, ruby, section, summary,
+            time, mark, audio, video {
+                margin: 0;
+                padding: 0;
+                border: 0;
+                font-size: 100%;
+                font: inherit;
+                vertical-align: baseline;
+            }
+        /* HTML5 display-role reset for older browsers */
+        article, aside, details, figcaption, figure,
+        footer, header, hgroup, menu, nav, section {
+            display: block;
+        }
+        body {
+            line-height: 1.3em;
+            margin: 0px 0px 0px 0px;
+            padding: 0px 0px 0px 0px;
+        }
+        ol, ul {
+            list-style: none;
+        }
+        blockquote, q {
+            quotes: none;
+        }
+        blockquote:before, blockquote:after,
+        q:before, q:after {
+            content: '';
+            content: none;
+        }
+        table {
+            border-collapse: collapse;
+            border-spacing: 0;
+        }
+
+        h1 {
+            font-family: "Helvetica Neue";
+            font-weight: bold;
+            font-size: 20px;
+            text-align: center;
+            margin-top: 30px;
+        }
+        h2 {
+            font-family: "Helvetica Neue";
+            font-weight: bold;
+            font-size: 18px;
+            margin-left: 25px;
+            margin-top: 25px;
+        }
+        hr {
+            margin-bottom: 25px;
+            margin-left: 8px;
+            margin-right: 8px;
+        }
+        p {
+            font-family: "Helvetica Neue";
+            font-size: 16px;
+            margin-left: 25px;
+            margin-right: 25px;
+            margin-top: 25px;
+            margin-bottom: 35px;
+        }
+        p em {
+            font-style: italic;
+        }
+        .button {
+            position: relative;
+            height: 60px;
+            margin-top: -25px;
+            margin-bottom: -8px;
+        }
+        .button a {
+            font-family: "Helvetica Neue";
+            font-weight: normal;
+            font-size: 18px;
+            color: #6D9DE5;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            padding-left: 25px;
+            padding-top: 18px;
+            text-decoration: none;
+        }
+        .firstImage {
+            background: #5B89DF -webkit-image-set( url(print_the_marker.png)    1x,
+            url(print_the_marker_2x.png) 2x);
+            background-position: center;
+            width: 100%;
+            height: 200px;
+        }
+        .secondImage {
+            background: #5B89DF -webkit-image-set( url(hang_the_marker.png)    1x,
+            url(hang_the_marker_2x.png) 2x);
+            background-position: center;
+            width: 100%;
+            height: 200px;
+        }
+        .thirdImage {
+            display: block;
+            background: #5B89DF -webkit-image-set( url(fez_interface.png)    1x,
+            url(fez_interface_2x.png) 2x, url(fez_interface_3x.png) 3x);
+            background-repeat: no-repeat;
+            background-position: center;
+            width: 100%;
+            height: 200px;
+            margin-bottom: 30px;
+        }
+        .chevron {
+            background: -webkit-image-set( url(white_chevron.png) 1x, url(white_chevron_2x.png) 2x) no-repeat;
+            background-size: 30% auto;
+            width: 16px;
+            height: 25px;
+            position: relative;
+            vertical-align: middle;
+            display: inline-block;
+            float: right;
+            padding-right: 25px;
+            margin-top: 20px;
+        }
+        label {
+            font-family: "Helvetica Neue";
+            font-size: 18px;
+            vertical-align: middle;
+            -webkit-tap-highlight-color: rgba(0,0,0,0);
+        }
+        input[type="checkbox"] {
+            -webkit-tap-highlight-color: rgba(0,0,0,0);
+            border-radius: 0;
+            -webkit-appearance: none;
+            background: -webkit-image-set( url(Rectangle_19.png) 1x, url(Rectangle_19_2x.png) 2x) no-repeat;
+            width: 27px;
+            height: 27px;
+            vertical-align: middle;
+            border: none;
+            margin-left: 15px;
+        }
+        input[type="checkbox"]:checked {
+            background: -webkit-image-set( url(checkbox_tick.png) 1x, url(checkbox_tick_2x.png) 2x) no-repeat;
+            width: 32px;
+            height: 29px;
+        }
+        </style>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, target-densitydpi=device-dpi">
+            </head>
+    <body>
+        <h1>See how the TV looks in your room.</h1>
+        <h2>How does this work?</h2>
+        <p>Look at the Amazon Marker or any denomination US dollar bill through your phone to get a view of the room with the TV in it.</p>
+        <p><em>Tip: We recommend using the Amazon Marker for results within 1-2 inches of the product's real size.</em></p>
+        <div class="thirdImage"></div>
+        <hr>
+        <div class="button">
+            <a href="androidmarker.html" onclick="Android.markerSelected('marker')">Use the Amazon Marker</a><div class="chevron"></div>
+        </div>
+        <hr>
+        <div class="button">
+            <a href="androiddollar.html" onclick="Android.markerSelected('dollar')">Use a US dollar bill</a><div class="chevron"></div>
+        </div>
+        <hr>
+    </body>
+</html>

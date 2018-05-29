@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>커넥츠</title>
+	<link rel="shortcut icon" type="image/x-icon" href="//www.stunitas.com/img/common/favicon.ico">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+	<link rel="stylesheet" type="text/css" href="//static.conects.com/common/css/st-comm-v3/st-comm-v3.2.1.css?201805290233">
+	<link rel="stylesheet" href="/css/member/member_v2.css">
+	<script type="text/javascript" src="/js/common/jquery-1.11.0.min.js"></script>
+	<script src='/js/validate/jquery.validate.min.js'></script>
+	<script type="text/javascript" src="/js/common/common.js"></script>
+	<script type="text/javascript" src="/js/member_v2/login.js"></script>
+	<script type="text/javascript" src="/js/common/jquery.bxslider.min.js"></script>
+</head>
+<body>
+<div class="member-join-v2">
+		<h1 class="member-title">
+					<img src="//static.conects.com/member_conects/join_v2/conects_logo.png" alt="">
+			</h1>
+
+	<!-- 로그인  시작 -->
+	<div class="member-login" id="login_box">
+		<form name="login_frm" id="login_frm" method="post" autocomplete="off">
+			<input type="hidden" name="redirect_url" value="" />
+			<input type="hidden" name="is_app" id="is_app" value="Y">
+			<input type="hidden" name="app_type" id="app_type" value="DP">
+			<div class="input-row checker">
+				<label for="id"></label>
+				<input type="text" title="아이디" placeholder="아이디" name="id" id="id" class="normal-input" value="">
+					<div for="id" class="success_msg info-message">
+						<!-- <span class="success_msg error">
+
+						</span> -->
+					</div>
+				<div class="input-util">
+					<span class="success-check"></span>
+				</div>
+			</div>
+			<div class="input-row checker">
+				<label for="pw"></label>
+				<input type="password" title="비밀번호" placeholder="비밀번호" name="pw" id="pw"  class="normal-input">
+				<div for="pw" class="success_msg info-message">
+
+				</div>
+			</div>
+			<!-- <div class="success_msg info-message">
+				<span class="success_msg error" id="user_check">
+
+				</span>
+			</div> -->
+			<div class="confirm-box">
+				<a href="javascript:check_form();" class="member-join-button">로그인</a>
+			</div>
+			<div class="agree-checkbox">
+							<!-- <a href="https://member.conects.com/member/forget?&is_app=Y&app_type=DP" class="find_id">아이디/비밀번호 찾기</a> -->
+				<ul class="find-user-link">
+					<li>
+						<a href="https://member.conects.com/member/forget?&is_app=Y&app_type=DP#id" class="find_id">아이디 찾기</a>
+					</li>
+					<li><a href="https://member.conects.com/member/forget?&is_app=Y&app_type=DP#password" class="find_id">ㅣ 비밀번호 찾기</a></li>
+				</ul>
+			</div>
+			<div class="sns-login-button">
+				<strong>SNS 계정으로 로그인</strong>
+				<ul>
+
+					<li class="sns-login-facebook"><a href="/member/social/loginProc?response=facebook&is_app=Y&app_type=DP"><span></span>페이스북</a></li>
+					<li class="sns-login-kakao"><a href="/member/social/loginProc?response=kakao&is_app=Y&app_type=DP"><span></span>카카오</a></li>
+				</ul>
+			</div>
+			<div class="input-row member-join-ask">
+				<p>아직 회원이 아니신가요?<a href="https://member.conects.com/member/join?redirect_url=&is_app=Y&app_type=DP" class="join">참 쉬운 회원가입</a></p>
+			</div>
+		</form>
+	</div>
+	<!-- 로그인  끝  -->
+</div>
+</body>
+</html>
