@@ -14,11 +14,12 @@ Usage: pythonAnaconda3.6 hybrid_inspector.py -d "/home/User/dir_apk" -t -s "ifra
 ___
 Work In Progress:
 - [x] Search loadUrl e string used inside
-- [ ] Search loadUrl e string used if assigned to a variable before
+- [ ] Search loadUrl e string used if assigned to a variable before (done apimonitor)
 - [x] Download web page used 
-- [ ] loadUrl/EvaluateJavaScript --> containe javascript code exec
+- [ ] loadUrl/EvaluateJavaScript --> containe javascript code exec (apimonitor)
 - [x] log output on file using logging
 - [x] controllare enableJavaScript se passa argomento true
 - [x] url runtime (using dynamic analysis before) such as droidbot and get file apimonitor
 - [ ] whitelist url(intent/network/navigation)
+- [ ] check iframe in js script
 ___
