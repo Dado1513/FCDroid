@@ -107,21 +107,21 @@ def main():
             for apk_to_analyze in list_apk_to_analyze:
                 analyze_start(conf, apk_to_analyze,tag, args.string_to_find)
 
+            file_stat_final = open("log/all_stats.txt","w")
+            percentual = len(apk_vulnerable) / len(list_apk_to_analyze)
+            
+            string_percentul = "Percentual app maybe vulnerable: {0}%, based on tot {1}.\n".format(percentual*100,len(list_apk_to_analyze))
+            file_stat_final.write(string_percentul)
+            print()
+            print()
+            print(bcolors.BOLD+"-- Final Result -- \n")
+            print(string_percentul)
             if len(apk_vulnerable) > 0:
-                file_stat_final = open("log/all_stats.txt","w")
-                percentual = len(apk_vulnerable) / len(list_apk_to_analyze)
-                
-                string_percentul = "Percentual app maybe vulnerable: {0}%, based on tot {1}.\n".format(percentual*100,len(list_apk_to_analyze))
-                file_stat_final.write(string_percentul)
                 string_app_vulnerable = "".join(("- "+str(i).split("/")[-1]+"\n" for i in apk_vulnerable))
-                file_stat_final.write("\nThis app maybe are vulnerable:\n"+string_app_vulnerable)
-                print()
-                print()
-                print(bcolors.BOLD+"-- Final Result -- \n")
-                print(string_percentul)
+                file_stat_final.write("\nThis app maybe are vulnerable:\n"+string_app_vulnerable)    
                 print("This app maybe are vulnerable:"+bcolors.ENDC)
                 print(bcolors.FAIL+string_app_vulnerable+bcolors.ENDC)
-                file_stat_final.close()
+            file_stat_final.close()
 
         elif args.file_name is not None:
             analyze_start(conf, args.file_name, tag, args.string_to_find)
