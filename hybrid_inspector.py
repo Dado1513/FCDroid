@@ -120,8 +120,7 @@ def main():
             for apk_to_analyze in list_apk_to_analyze:
                 analyze_start(conf, apk_to_analyze,tag, args.string_to_find)
 
-            file_stat_final = open("log/{0}".format(args.o),"w")
-            
+            file_stat_final = open("log/{0}".format(str(args.file_output_stat)),"w")    
             percentual_vuln = len(apk_vulnerable) / len(list_apk_to_analyze)
             percentual_html_apk = apk_with_html_file / len(list_apk_to_analyze) # app with at least one html page
             percentual_js_enabled = apk_with_js_enabled / len(list_apk_to_analyze) # app with js enable
