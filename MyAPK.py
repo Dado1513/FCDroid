@@ -260,7 +260,7 @@ class MyAPK:
     def find_method_used(self):
         """
             funzione per ricercare i metodi che sono usati 
-            all'interno dell'apk
+            all'interno dell'apk, tanto lenta
         """
         used_jadx = False
         if used_jadx:
