@@ -13,6 +13,7 @@ Usage: pythonAnaconda3.6 hybrid_inspector.py -d "/home/User/dir_apk" -t -s "ifra
 ```
 ___
 Work In Progress:
+- [ ] search method used using smali code invece che androguard
 - [x] Search loadUrl e string used inside
 - [ ] Search loadUrl e string used if assigned to a variable before (done apimonitor)
 - [x] Download web page used 

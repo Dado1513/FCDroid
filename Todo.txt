@@ -1,3 +1,2 @@
-- whitelist check se app ibrid 
-- se find iframe check src attribute che viene passato 
-
+- smali parser per renderlo più veloce
+- search ifrae in javascript code
