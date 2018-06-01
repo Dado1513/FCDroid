@@ -45,6 +45,7 @@ def analyze_start(conf, apk_to_analyze, tag, string_to_find, api_monitor_dict=No
         type_apk = "[ANDROID NATIVE]" if not apk.is_hybird() else "[HYBRID]"
         logger.logger.info("TYPE APK: "+type_apk+"\n")
         print(bcolors.OKBLUE+type_apk+bcolors.ENDC)
+        global apk_with_html_file
         apk_with_html_file = apk_with_html_file + 1 if len(apk.html_file) > 0 else 0 # count apk with html file
         apk.find_string(apk.html_file)
         
@@ -69,10 +70,12 @@ def analyze_start(conf, apk_to_analyze, tag, string_to_find, api_monitor_dict=No
                 print(bcolors.OKGREEN+"\nThis app might be not vulnerable on attack frame confusion"+bcolors.ENDC)
                 logger.logger.info("This app might be not vulnerable on  attack frame confusion.")
                 logger.logger.info("End time:["+str(time.ctime())+"]")
-
+            
+            global apk_with_js_enabled
+            global apk_with_js_interface
             apk_with_js_enabled = apk_with_js_enabled + 1 if apk.javascript_enabled else 0
             apk_with_js_interface = apk_with_js_interface + 1 if apk.javascript_interface else 0
-
+            
         else:
             print(bcolors.FAIL + "Some error occured during decompilation." + bcolors.ENDC)
             logger.logger.error("Some error during decompilation.")
