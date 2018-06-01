@@ -58,7 +58,9 @@ class MyAPK:
         # self.logger = logging.getLogger("Logger")
         self.api_monitor_dict = api_monitor_dict
         self.network_dict = network_dict  
-        self.file_hybrid = list()      
+        self.file_hybrid = list()
+        self.javascript_interface = False
+
         
     
     def __find_html_file(self):
@@ -66,7 +68,7 @@ class MyAPK:
         r = re.compile(".*html$")  # solo i file .html
         list_html_file = filter(r.match,self.list_file)
         for temp in list_html_file:
-            self.html_file[temp] = True 
+            self.html_file[temp] = True # true that mean inside apk
         
     def read(self, filename, binary=True):
         with open(filename, 'rb' if binary else 'r') as f:
@@ -331,6 +333,7 @@ class MyAPK:
 
         try:
             self.logger.logger.info("[Add interface WebView: "+str(method_present["addJavascriptInterface"])+"]\n")
+            self.javascript_interface = method_present["addJavascriptInterface"]
         except Exception:
             # nothing
             self.logger.logger.error("File conf.json without method addJavascriptInterface\n")

@@ -17,6 +17,10 @@ except ImportError:
 dir_log = "log"
 file_conf = "conf.json"
 apk_vulnerable = list()
+apk_with_html_file = 0 # numero di apk con file html all'interno
+apk_with_js_enabled = 0
+apk_with_js_interface = 0
+
 
 def analyze_start(conf, apk_to_analyze, tag, string_to_find, api_monitor_dict=None, network_dict=None):
     print("\n")
@@ -41,6 +45,7 @@ def analyze_start(conf, apk_to_analyze, tag, string_to_find, api_monitor_dict=No
         type_apk = "[ANDROID NATIVE]" if not apk.is_hybird() else "[HYBRID]"
         logger.logger.info("TYPE APK: "+type_apk+"\n")
         print(bcolors.OKBLUE+type_apk+bcolors.ENDC)
+        apk_with_html_file = apk_with_html_file + 1 if len(apk.html_file) > 0 else 0 # count apk with html file
         apk.find_string(apk.html_file)
         
         # print("\n")
@@ -64,6 +69,10 @@ def analyze_start(conf, apk_to_analyze, tag, string_to_find, api_monitor_dict=No
                 print(bcolors.OKGREEN+"\nThis app might be not vulnerable on attack frame confusion"+bcolors.ENDC)
                 logger.logger.info("This app might be not vulnerable on  attack frame confusion.")
                 logger.logger.info("End time:["+str(time.ctime())+"]")
+
+            apk_with_js_enabled = apk_with_js_enabled + 1 if apk.javascript_enabled else 0
+            apk_with_js_interface = apk_with_js_interface + 1 if apk.javascript_interface else 0
+
         else:
             print(bcolors.FAIL + "Some error occured during decompilation." + bcolors.ENDC)
             logger.logger.error("Some error during decompilation.")
@@ -89,6 +98,7 @@ def main():
     
     parser.add_argument('-s', '--string-to-find', metavar='<string>',
                             help='String to find inside apk file', required=True)
+    parser.add_argument('-o','--file-output-stat',metavar='<string>', default='all_stats.txt')
     
     args = parser.parse_args()
 
@@ -107,15 +117,35 @@ def main():
             for apk_to_analyze in list_apk_to_analyze:
                 analyze_start(conf, apk_to_analyze,tag, args.string_to_find)
 
-            file_stat_final = open("log/all_stats.txt","w")
-            percentual = len(apk_vulnerable) / len(list_apk_to_analyze)
+            file_stat_final = open("log/{0}".format(args.o),"w")
             
-            string_percentul = "Percentual app maybe vulnerable: {0}%, based on tot {1}.\n".format(percentual*100,len(list_apk_to_analyze))
-            file_stat_final.write(string_percentul)
+            percentual_vuln = len(apk_vulnerable) / len(list_apk_to_analyze)
+            percentual_html_apk = apk_with_html_file / len(list_apk_to_analyze) # app with at least one html page
+            percentual_js_enabled = apk_with_js_enabled / len(list_apk_to_analyze) # app with js enable
+            percentual_js_interface = apk_with_js_interface / len(list_apk_to_analyze) # app with js interface
+
+            string_html = "Percentual app with at least one html file inside: {0}\n".format(percentual_html_apk*100)
+            string_js_enabled = "Percentual app with js enabled {0}\n".format(percentual_js_enabled * 100)
+            string_js_interface = "Percentual app with js interface {0}\n".format(percentual_js_interface * 100)
+            string_percentual_vulm = "Percentual app maybe vulnerable: {0}%, based on tot {1}.\n".format(percentual_vuln*100,len(list_apk_to_analyze))
+            
+            # print on file
+            file_stat_final.write("Apk analyzed: {0}\n".format(len(list_apk_to_analyze)))
+            file_stat_final.write(string_html)
+            file_stat_final.write(string_js_enabled)
+            file_stat_final.write(string_js_interface)
+            file_stat_final.write(string_percentual_vuln)
+            
+            # print on terminal
             print()
             print()
             print(bcolors.BOLD+"-- Final Result -- \n")
-            print(string_percentul)
+            print("Apk analyzed: {0}\n".format(len(list_apk_to_analyze)))
+            print(string_html)
+            print(string_percentual_vuln)
+            print(string_js_enabled)
+            print(string_js_interface)
+
             if len(apk_vulnerable) > 0:
                 string_app_vulnerable = "".join(("- "+str(i).split("/")[-1]+"\n" for i in apk_vulnerable))
                 file_stat_final.write("\nThis app maybe are vulnerable:\n"+string_app_vulnerable)    
