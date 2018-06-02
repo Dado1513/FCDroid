@@ -46,8 +46,6 @@ def analyze_start(conf, apk_to_analyze, tag, string_to_find, api_monitor_dict=No
         logger.logger.info("TYPE APK: "+type_apk+"\n")
         print(bcolors.OKBLUE+type_apk+bcolors.ENDC)
 
-        if len(apk.html_file) > 0 or len(apk.url_loaded) > 0:
-            apk_with_html_file.append(apk_to_analyze)
         apk.find_string(apk.html_file)
         
         # print("\n")
@@ -76,6 +74,9 @@ def analyze_start(conf, apk_to_analyze, tag, string_to_find, api_monitor_dict=No
                 apk_with_js_enabled.append(apk_to_analyze)
             if apk.javascript_interface:
                 apk_with_js_interface.append(apk_to_analyze)
+
+            if len(apk.html_file) > 0 or len(apk.url_loaded) > 0:
+                apk_with_html_file.append(apk_to_analyze)
         else:
             print(bcolors.FAIL + "Some error occured during decompilation." + bcolors.ENDC)
             logger.logger.error("Some error during decompilation.")

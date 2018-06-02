@@ -309,9 +309,10 @@ class MyAPK:
                 method_analysis = MethodClassAnalysis(encoded_method)
 
                 method_name = method_analysis.get_method().get_name()
-                # print(method_name)
+                print(method_name)
                 # from method_name get list dove esso viene chiamato
                 self.method[method_name] = list(method_analysis.get_xref_from())
+                print(self.method[method_name])
             
             
     def check_method_conf(self):
