@@ -17,9 +17,9 @@ except ImportError:
 dir_log = "log"
 file_conf = "conf.json"
 apk_vulnerable = list()
-apk_with_html_file = 0 # numero di apk con file html all'interno
-apk_with_js_enabled = 0
-apk_with_js_interface = 0
+apk_with_html_file = list() # numero di apk con file html all'interno
+apk_with_js_enabled = list()
+apk_with_js_interface = list()
 
 
 def analyze_start(conf, apk_to_analyze, tag, string_to_find, api_monitor_dict=None, network_dict=None):
@@ -45,8 +45,9 @@ def analyze_start(conf, apk_to_analyze, tag, string_to_find, api_monitor_dict=No
         type_apk = "[ANDROID NATIVE]" if not apk.is_hybird() else "[HYBRID]"
         logger.logger.info("TYPE APK: "+type_apk+"\n")
         print(bcolors.OKBLUE+type_apk+bcolors.ENDC)
-        global apk_with_html_file
-        apk_with_html_file = apk_with_html_file + 1 if len(apk.html_file) > 0 else 0 # count apk with html file
+
+        if len(apk_with_html_file) > 0 or len(apk.url_loaded) > 0:
+            apk_with_html_file.append(apk_to_analyze)
         apk.find_string(apk.html_file)
         
         # print("\n")
@@ -71,11 +72,10 @@ def analyze_start(conf, apk_to_analyze, tag, string_to_find, api_monitor_dict=No
                 logger.logger.info("This app might be not vulnerable on  attack frame confusion.")
                 logger.logger.info("End time:["+str(time.ctime())+"]")
             
-            global apk_with_js_enabled
-            global apk_with_js_interface
-            apk_with_js_enabled = apk_with_js_enabled + 1 if apk.javascript_enabled else 0
-            apk_with_js_interface = apk_with_js_interface + 1 if apk.javascript_interface else 0
-            
+            if apk.javascript_enabled:
+                apk_with_js_enabled.append(apk_to_analyze)
+            if apk.javascript_interface:
+                apk_with_js_interface.append(apk_to_analyze)
         else:
             print(bcolors.FAIL + "Some error occured during decompilation." + bcolors.ENDC)
             logger.logger.error("Some error during decompilation.")
@@ -122,14 +122,14 @@ def main():
 
             file_stat_final = open("log/{0}".format(str(args.file_output_stat)),"w")    
             percentual_vuln = len(apk_vulnerable) / len(list_apk_to_analyze)
-            percentual_html_apk = apk_with_html_file / len(list_apk_to_analyze) # app with at least one html page
-            percentual_js_enabled = apk_with_js_enabled / len(list_apk_to_analyze) # app with js enable
-            percentual_js_interface = apk_with_js_interface / len(list_apk_to_analyze) # app with js interface
+            percentual_html_apk = len(apk_with_html_file) / len(list_apk_to_analyze) # app with at least one html page
+            percentual_js_enabled = len(apk_with_js_enabled) / len(list_apk_to_analyze) # app with js enable
+            percentual_js_interface = len(apk_with_js_interface) / len(list_apk_to_analyze) # app with js interface
 
             string_html = "Percentual app with at least one html file inside: {0}\n".format(percentual_html_apk*100)
             string_js_enabled = "Percentual app with js enabled {0}\n".format(percentual_js_enabled * 100)
             string_js_interface = "Percentual app with js interface {0}\n".format(percentual_js_interface * 100)
-            string_percentual_vulm = "Percentual app maybe vulnerable: {0}%, based on tot {1}.\n".format(percentual_vuln*100,len(list_apk_to_analyze))
+            string_percentual_vuln = "Percentual app maybe vulnerable: {0}%, based on tot {1}.\n".format(percentual_vuln*100,len(list_apk_to_analyze))
             
             # print on file
             file_stat_final.write("Apk analyzed: {0}\n".format(len(list_apk_to_analyze)))
