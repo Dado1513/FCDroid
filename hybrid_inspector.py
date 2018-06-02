@@ -46,7 +46,7 @@ def analyze_start(conf, apk_to_analyze, tag, string_to_find, api_monitor_dict=No
         logger.logger.info("TYPE APK: "+type_apk+"\n")
         print(bcolors.OKBLUE+type_apk+bcolors.ENDC)
 
-        if len(apk_with_html_file) > 0 or len(apk.url_loaded) > 0:
+        if len(apk.html_file) > 0 or len(apk.url_loaded) > 0:
             apk_with_html_file.append(apk_to_analyze)
         apk.find_string(apk.html_file)
         
@@ -87,6 +87,7 @@ def analyze_start(conf, apk_to_analyze, tag, string_to_find, api_monitor_dict=No
     
    
 def main():
+    second_start = time.time()
     parser = argparse.ArgumentParser(
             description='Insepct hybrid apk',
             usage='\n\tpython hybrid_inspector.py -f \"example.apk\" -s \"iframe\" \n\tpython -d \"dir_apk\" -t -s \"iframe\" \n ',
@@ -121,22 +122,27 @@ def main():
                 analyze_start(conf, apk_to_analyze,tag, args.string_to_find)
 
             file_stat_final = open("log/{0}".format(str(args.file_output_stat)),"w")    
-            percentual_vuln = len(apk_vulnerable) / len(list_apk_to_analyze)
+            
+            percentual_vuln = len(apk_vulnerable) / len(list_apk_to_analyze) 
             percentual_html_apk = len(apk_with_html_file) / len(list_apk_to_analyze) # app with at least one html page
             percentual_js_enabled = len(apk_with_js_enabled) / len(list_apk_to_analyze) # app with js enable
             percentual_js_interface = len(apk_with_js_interface) / len(list_apk_to_analyze) # app with js interface
 
-            string_html = "Percentual app with at least one html file inside: {0}\n".format(percentual_html_apk*100)
-            string_js_enabled = "Percentual app with js enabled {0}\n".format(percentual_js_enabled * 100)
-            string_js_interface = "Percentual app with js interface {0}\n".format(percentual_js_interface * 100)
+            string_html = "Percentual app with at least one html file inside: {0}%\n".format(percentual_html_apk*100)
+            string_js_enabled = "Percentual app with js enabled {0}%\n".format(percentual_js_enabled * 100)
+            string_js_interface = "Percentual app with js interface {0}%\n".format(percentual_js_interface * 100)
             string_percentual_vuln = "Percentual app maybe vulnerable: {0}%, based on tot {1}.\n".format(percentual_vuln*100,len(list_apk_to_analyze))
-            
+            second_finish= time.time()
+            average_time_apk = (second_finish - second_start)/len(list_apk_to_analyze)
+            string_time_percentual = "Average time  single apk analyzed {0} sec\n".format(average_time_apk)
+
             # print on file
             file_stat_final.write("Apk analyzed: {0}\n".format(len(list_apk_to_analyze)))
             file_stat_final.write(string_html)
             file_stat_final.write(string_js_enabled)
             file_stat_final.write(string_js_interface)
             file_stat_final.write(string_percentual_vuln)
+            file_stat_final.write(string_time_percentual)
             
             # print on terminal
             print()
@@ -147,12 +153,14 @@ def main():
             print(string_percentual_vuln)
             print(string_js_enabled)
             print(string_js_interface)
+            print(string_time_percentual)
 
             if len(apk_vulnerable) > 0:
                 string_app_vulnerable = "".join(("- "+str(i).split("/")[-1]+"\n" for i in apk_vulnerable))
                 file_stat_final.write("\nThis app maybe are vulnerable:\n"+string_app_vulnerable)    
                 print("This app maybe are vulnerable:"+bcolors.ENDC)
                 print(bcolors.FAIL+string_app_vulnerable+bcolors.ENDC)
+            
             file_stat_final.close()
 
         elif args.file_name is not None:

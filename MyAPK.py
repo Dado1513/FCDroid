@@ -11,11 +11,13 @@ from androguard.core.analysis.analysis import Analysis
 from androguard.core.androconf import show_logging
 from androguard.core.bytecodes.apk import APK
 from androguard.core.bytecodes.dvm import DalvikVMFormat
+from androguard.core.analysis.analysis import MethodClassAnalysis
 from androguard.core.bytecodes.apk import FileNotPresent
 from androguard.core.bytecodes.axml import AXMLPrinter
 from androguard.decompiler.decompiler import (DecompilerJADX,
                                               JADXDecompilerError)
 from androguard.misc import AnalyzeAPK
+from androguard.core.analysis.analysis import StringAnalysis
 from bcolors import bcolors
 import xml.etree.ElementTree as ET
 
@@ -263,6 +265,8 @@ class MyAPK:
             all'interno dell'apk, tanto lenta
         """
         used_jadx = False
+        use_analyze = True
+
         if used_jadx:
             # Create DalvikVMFormat Object
             self.dalvik_format = DalvikVMFormat(self.apk)
@@ -284,9 +288,9 @@ class MyAPK:
                 #print(method_encoded.get_method().get_source())
                 self.method[method_name] = list(method_analys.get_xref_from())
 
-        else:
+        elif use_analyze:
             # return apk, list dex , object analysis
-            apk, self.dalviks_format, self.analysis_object = AnalyzeAPK(self.name_apk)
+            apk, self.dalvik_format, self.analysis_object = AnalyzeAPK(self.name_apk)
             
             # self.dalvik_format = DalvikVMFormat(self.apk)
             # Create Analysis Object
@@ -298,6 +302,17 @@ class MyAPK:
                 method_name = method_analys.get_method().get_name()
                 # from method_name get list dove esso viene chiamato
                 self.method[method_name] = list(method_analys.get_xref_from())
+        
+        else: # TODO to make faster analysis
+            self.dalvik_format = DalvikVMFormat(self.apk)
+            for encoded_method in self.dalvik_format.get_methods():
+                method_analysis = MethodClassAnalysis(encoded_method)
+
+                method_name = method_analysis.get_method().get_name()
+                # print(method_name)
+                # from method_name get list dove esso viene chiamato
+                self.method[method_name] = list(method_analysis.get_xref_from())
+            
             
     def check_method_conf(self):
         """
@@ -352,15 +367,24 @@ class MyAPK:
         # url regularp expression
         # url_re = "(http:\/\/|https:\/\/|file:\/\/\/)?[-a-zA-Z0-9@:%._\+~#=]\.[a-z]([-a-zA-Z0-9@:%_\+.~#?&//=]*)"
         url_re = "^(http:\/\/|https:\/\/)\w+"
-        list_string_analysis = self.analysis_object.find_strings(url_re) #--> gen object
-        # contain all url in apk
+        list_string_analysis = list() # list of string analysis object
+        # se uso aalysis object
+        if self.analysis_object is not None:
+            list_string_analysis = self.analysis_object.find_strings(url_re) #--> gen object
+            
+        else:
+            list_string = self.dalvik_format.get_regex_strings(url_re)
+            
+            for string_value in list_string:
+                list_string_analysis.append(StringAnalysis(string_value))
         temp_string_value = list()
         # string- tuple with classAnalysis e encodeMethod that use the string
         dict_class_method_analysis = dict() 
         for string_analysis in list_string_analysis:          
             temp_string_value.append(string_analysis.get_value())
             dict_class_method_analysis[string_analysis.get_value()] = list(string_analysis.get_xref_from())
-        
+            
+
         # per ogni file, otteniamo una lista di  tupla
         # class analysis e encoded_method
         for key in dict_class_method_analysis.keys():
