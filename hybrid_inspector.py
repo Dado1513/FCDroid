@@ -90,7 +90,7 @@ def analyze_start(conf, apk_to_analyze, tag, string_to_find, api_monitor_dict=No
 def main():
     second_start = time.time()
     parser = argparse.ArgumentParser(
-            description='Insepct hybrid apk',
+            description='Inspect hybrid apk',
             usage='\n\tpython hybrid_inspector.py -f \"example.apk\" -s \"iframe\" \n\tpython -d \"dir_apk\" -t -s \"iframe\" \n ',
             epilog="Author : Davide Caputo")
 
