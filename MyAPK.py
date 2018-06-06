@@ -448,7 +448,7 @@ class MyAPK:
         
         for url in self.url_loaded:
             try:
-                r = requests.get(url)
+                r = requests.get(url,timeout=10)
                 # print(url)
                 if r.status_code == 200:
                     name_file = url.split("/")[-1]
@@ -463,7 +463,7 @@ class MyAPK:
                 url = "http://{0}".format(url)
                 # print(url)
                 try: # provo aggiungendo http o https
-                    r = requests.get(url)
+                    r = requests.get(url,timeout=10)
                     if r.status_code == 200:
                 
                         name_file = url.split("/")[-1]
