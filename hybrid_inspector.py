@@ -174,6 +174,7 @@ def main():
         tag = args.t
 
         if args.dir_apk is not None:
+            number_apk = 1
             
             if args.dir_apk[-1] != "/":
                 list_apk_to_analyze = glob.glob(args.dir_apk+"/*.apk")
@@ -181,6 +182,8 @@ def main():
                 list_apk_to_analyze = glob.glob(args.dir_apk+"*.apk")
 
             for apk_to_analyze in list_apk_to_analyze:
+                print(bcolors.BOLD+" APK: {0}".format(number_apk))
+                number_apk = number_apk + 1
                 analyze_start(conf, apk_to_analyze,tag, args.string_to_find)
 
             file_stat_final = open("log/{0}".format(str(args.file_output_stat)),"w")    
