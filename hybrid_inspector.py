@@ -87,63 +87,6 @@ def analyze_start(conf, apk_to_analyze, tag, string_to_find, api_monitor_dict=No
         except BadZipfile:
             logger.logger.error("APK corrupted")
             print(bcolors.FAIL+"APK corrupted"+bcolors.ENDC)
-        logger = Logger(log_file)
-        # file_log = open(log_file,"w")
-        print(bcolors.WARNING+"[*] Searching in "+apk_to_analyze+bcolors.ENDC)
-        logger.logger.info("Init Time ["+time.ctime()+"]")
-        try:
-            apk = MyAPK(apk_to_analyze, conf, log_file, tag, string_to_find, logger, \
-                        api_monitor_dict=api_monitor_dict, network_dict=network_dict) # dict che arrivano dall'analisi dinamica
-        
-            # thread per la decompilazione
-            thread_decompilyng = ThreadDecompyling(apk,logger)
-            # TODO gestire keyboard interrupt
-            thread_decompilyng.start()
-
-            type_apk = "[ANDROID NATIVE]" if not apk.is_hybird() else "[HYBRID]"
-            logger.logger.info("TYPE APK: "+type_apk+"\n")
-            print(bcolors.OKBLUE+type_apk+bcolors.ENDC)
-
-            apk.find_string(apk.html_file)
-            
-            # print("\n")
-            list_loading = ["\\","|","/","-"]
-            n = 1
-            while not thread_decompilyng.finish:
-                n = n % len(list_loading)
-                print(bcolors.WARNING+"["+list_loading[n]+"] Analysis "+bcolors.ENDC, end="\r")
-                n = n +1
-                time.sleep(0.5)
-
-            if not thread_decompilyng.error:
-                apk.find_url_in_apk()
-                if apk.vulnerable_frame_confusion():
-                    print(bcolors.FAIL + "\nThis app might be vulnerable on attack frame confusion." +bcolors.ENDC)
-                    apk_vulnerable.append(apk_to_analyze)
-                    print(bcolors.FAIL + "This file are vulnerable " + str(apk.file_vulnerable_frame_confusion)+bcolors.ENDC)
-                    logger.logger.info("This app might be vulnerable on attack frame confusion, This file are vulnerable %s", str(apk.file_vulnerable_frame_confusion))
-                    logger.logger.info("End time:[%s]",time.ctime())
-                else:
-                    print(bcolors.OKGREEN+"\nThis app might be not vulnerable on attack frame confusion"+bcolors.ENDC)
-                    logger.logger.info("This app might be not vulnerable on  attack frame confusion.")
-                    logger.logger.info("End time:["+str(time.ctime())+"]")
-                
-                if apk.javascript_enabled:
-                    apk_with_js_enabled.append(apk_to_analyze)
-                if apk.javascript_interface:
-                    apk_with_js_interface.append(apk_to_analyze)
-
-                if len(apk.html_file) > 0 or len(apk.url_loaded) > 0:
-                    apk_with_html_file.append(apk_to_analyze)
-            else:
-                print(bcolors.FAIL + "Some error occured during decompilation." + bcolors.ENDC)
-                logger.logger.error("Some error during decompilation.")
-
-            logger.shutdown()
-        except BadZipfile:
-            logger.logger.error("APK corrupted")
-            print(bcolors.FAIL+"APK corrupted"+bcolors.ENDC)
-    
     else:
         print("Analysis already done see file {0}\n".format(log_file))
         
@@ -180,7 +123,6 @@ def main():
                 list_apk_to_analyze = glob.glob(args.dir_apk+"/*.apk")
             else:
                 list_apk_to_analyze = glob.glob(args.dir_apk+"*.apk")
-
             for apk_to_analyze in list_apk_to_analyze:
                 print(bcolors.BOLD+" APK: {0}".format(number_apk))
                 number_apk = number_apk + 1
