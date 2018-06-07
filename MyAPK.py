@@ -62,8 +62,8 @@ class MyAPK:
         self.network_dict = network_dict  
         self.file_hybrid = list()
         self.javascript_interface = False
-
-        
+        self.javascript_file = dict()
+        self.__find_js_file()
     
     def __find_html_file(self):
         
@@ -71,7 +71,13 @@ class MyAPK:
         list_html_file = filter(r.match,self.list_file)
         for temp in list_html_file:
             self.html_file[temp] = True # true that mean inside apk
-        
+
+    def __find_js_file(self):
+        r = re.compile(".*js$")  # solo i file .js
+        list_html_file = filter(r.match,self.list_file)
+        for temp in list_html_file:
+            self.javascript_file[temp] = True # true that mean inside apk
+
     def read(self, filename, binary=True):
         with open(filename, 'rb' if binary else 'r') as f:
             return f.read()
