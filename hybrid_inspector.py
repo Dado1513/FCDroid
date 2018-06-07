@@ -107,7 +107,7 @@ def main():
     
     parser.add_argument('-s', '--string-to-find', metavar='<string>',
                             help='String to find inside apk file', required=True)
-    parser.add_argument('-o','--file-output-stat',metavar='<string>', default='all_stats.txt')
+    parser.add_argument('-o','--file-output-stat',metavar='<string>', default='all_stats_{0}.txt'.format(time.strftime("%d_%m_%Y_%H_%M")))
     
     args = parser.parse_args()
 
