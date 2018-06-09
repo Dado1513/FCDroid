@@ -219,9 +219,11 @@ class MyAPK:
                         list_tag = soup.findAll(self.string_to_find)
                         file_line = file_read.split("\n")
                         for name_tag in list_tag:
-                            if name_tag["src"] is not None:
-                                list_src_iframe.append(name_tag["src"])
-                            
+                            try
+                                if name_tag["src"] is not None:
+                                    list_src_iframe.append(name_tag["src"])
+                            except KeyError:
+                                pass
                             find_iframe = True
                             list_row_string.append(name_tag)
 
