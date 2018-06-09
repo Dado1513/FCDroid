@@ -1,0 +1,174 @@
+[INTERNAL_LOG][2018-06-07 22:06:17,252][INFO][analyze_start()] Init Time [Thu Jun  7 22:06:17 2018]
+[INTERNAL_LOG][2018-06-07 22:06:17,450][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-07 22:06:17,454][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-07 22:06:17,454][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-07 22:06:17,454][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-07 22:06:17,454][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-07 22:06:17,455][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-07 22:06:17,455][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-07 22:06:17,455][INFO][is_hybird()] com.halfbrick.jetpackjoyride.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-07 22:06:17,455][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-07 22:06:17,455][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-07 22:06:17,455][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-07 22:06:17,455][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-07 22:06:17,455][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-07 22:06:54,980][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-07 22:06:54,980][INFO][find_url_in_apk()] http://schemas.android.com/apk/res/android
+https://adc3-launch-server-staging.herokuapp.com/v4/launch
+https://adc3-launch.adcolony.com/v4/launch
+https://adc3-launch.adcolony.com/v4/launch
+https://wd.adcolony.com/logs
+http://schemas.applovin.com/android/1.0
+http://schemas.applovin.com/android/1.0
+https://d.applovin.com/
+https://a.applovin.com/
+https://rt.applovin.com/med
+https://rt.applovin.com/pix
+https://d.applvn.com/
+https://a.applvn.com/
+https://rt.applvn.com/pix
+https://vid.applovin.com/,https://pdn.applovin.com/,https://img.applovin.com/,https://d.applovin.com/,https://assets.applovin.com/,https://cdnjs.cloudflare.com/,http://vid.applovin.com/,http://pdn.applovin.com/,http://img.applovin.com/,http://d.applovin.com/,http://assets.applovin.com/,http://cdnjs.cloudflare.com/
+https://api.appsflyer.com/install_data/v3/
+https://t.appsflyer.com/api/v
+https://events.appsflyer.com/api/v
+https://register.appsflyer.com/api/v
+https://validate.appsflyer.com/api/v
+https://stats.appsflyer.com/stats
+https://sdk-services.appsflyer.com/validate-android-signature
+https://monitorsdk.appsflyer.com/remote-debug?app_id=
+https://live.chartboost.com
+http://market.android.com/
+https://play.google.com/store/apps/details?id=%s
+https://www.facebook.com/audience_network/server_side_reward
+https://www.%s.facebook.com/audience_network/server_side_reward
+https://graph.facebook.com/network_ads_common
+https://graph.%s.facebook.com/network_ads_common
+https://www.facebook.com/adnw_logging/
+https://www.%s.facebook.com/adnw_logging/
+http://play.google.com/store/apps/
+https://www.facebook.com/
+https://www.%s.facebook.com
+http://www.facebook.com
+https://graph.%s
+https://graph-video.%s
+https://facebook.com
+http://play.google.com/store/apps/details?id=com.facebook.orca
+http://hostname/
+http://hostname/?
+https://pubads.g.doubleclick.net/activity;dc_iu=
+https://pubads.g.doubleclick.net/activity;xsp=
+https://www.googleadservices.com/pagead/conversion/
+https://www.googleadservices.com/pagead/conversion/
+http://plus.google.com/
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games
+https://plus.google.com/
+https://www.googleapis.com/auth/drive.file
+https://www.googleapis.com/auth/drive.appdata
+https://www.googleapis.com/auth/drive
+https://www.googleapis.com/auth/drive.apps
+https://www.googleapis.com/auth/games_lite
+https://www.googleapis.com/auth/games.firstparty
+https://www.googleapis.com/auth/games.firstparty
+http://www.example.com
+http://www.example.com
+https://pagead2.googlesyndication.com/pagead/gen_204
+http://www.google.com
+https://support.google.com/dfp_premium/answer/7160685#push
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://csi.gstatic.com/csi
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/native_ads.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/native_video_ads.html
+https://www.google.com/dfp/linkDevice
+https://www.google.com/dfp/inAppPreview
+https://www.google.com/dfp/debugSignals
+https://www.google.com/dfp/sendDebugData
+https://www.googleapis.com/auth/plus.login
+https://www.googleapis.com/auth/plus.me
+http://schemas.android.com/apk/lib/com.google.android.gms.plus
+http://schemas.android.com/apk/lib/com.google.android.gms.plus
+https://plus.google.com/share
+http://login.bricknet.com/google
+http://login.bricknet.com/share
+https://twitter.com/intent/tweet?text=
+https://twitter.com/intent/tweet/complete
+http://market.android.com/details?id=
+https://www.youtube.com/
+http://www.youtube.com/watch?v=
+https://marketplace-android-b100.hyprmx.com/
+http://maps.google.com/maps/api/geocode/json?
+https://mobile-static.adsafeprotected.com/avid-v2.js
+https://track.atom-data.io
+https://track.atom-data.io
+https://track.atom-data.io
+https://outcome.supersonicads.com/mediation/
+https://outcome.supersonicads.com/mediation/
+https://mobilelogs.supersonic.com
+https://init.supersonicads.com/sdk/v
+https://www.supersonicads.com/mobile/sdk5/log?method=
+https://www.supersonicads.com/mobile/sdk5/log?method=
+https://www.supersonicads.com/mobile/sdk5/log?method=
+https://www.supersonicads.com/mobile/sdk5/log?method=
+https://www.supersonicads.com/mobile/sdk5/log?method=
+https://www.supersonicads.com/mobile/sdk5/log?method=
+https://www.supersonicads.com/mobile/sdk5/log?method=
+https://www.supersonicads.com/mobile/sdk5/log?method=
+https://www.supersonicads.com/mobile/sdk5/log?method=injectJavaScript
+https://www.supersonicads.com/mobile/sdk5/log?method=extraParametersToJson
+https://www.supersonicads.com/mobile/sdk5/log?method=noProductType
+https://www.supersonicads.com/mobile/sdk5/log?method=encodeAppUserId
+https://www.supersonicads.com/mobile/sdk5/log?method=encodeAppKey
+https://www.supersonicads.com/mobile/sdk5/log?method=webviewLoadBlank
+https://www.supersonicads.com/mobile/sdk5/log?method=webviewLoadWithPath
+https://www.supersonicads.com/mobile/sdk5/log?method=htmlControllerDoesNotExistOnFileSystem
+https://www.supersonicads.com/mobile/sdk5/log?method=webviewPause
+https://www.supersonicads.com/mobile/sdk5/log?method=webviewResume
+https://px.moatads.com/pixel.gif?e=0&i=MOATSDK1&ac=1
+https://z.moatads.com/
+https://ws.otherlevels.com/v1/device
+https://mdn.otherlevels.com/message/analytics
+https://geo-feed.otherlevels.com/1.0/feed
+https://tags.otherlevels.com/api
+https://tags.otherlevels.com/api/trackingUpdate
+https://api.otherlevels.com/0.8/session
+https://api.otherlevels.com/0.8/session/end
+https://api.otherlevels.com/0.8/register_app_event
+https://api.otherlevels.com/0.8/session/tracking_id
+https://geoconfig.otherlevels.com
+https://content-webservice.otherlevels.com
+https://beacon-content.otherlevels.com
+https://geo-content.otherlevels.com
+https://interstitial-content.otherlevels.com/
+https://rich.otherlevels.com
+https://config.otherlevels.com
+http://fwd.ws.stageotherlevels.com/v1/device
+http://fwd.mdn.stageotherlevels.com/message/analytics
+http://fwd.feed.stageotherlevels.com/1.0/feed
+http://fwd.tags.stageotherlevels.com/api
+http://fwd.tags.stageotherlevels.com/api/trackingUpdate
+http://fwd.api2.stageotherlevels.com/0.8/session
+http://fwd.api2.stageotherlevels.com/0.8/session/end
+http://fwd.api2.stageotherlevels.com/0.8/register_app_event
+http://fwd.api2.stageotherlevels.com/0.8/session/tracking_id
+http://fwd.mobile.stageotherlevels.com
+https://1mkmy2yh8f.execute-api.us-east-1.amazonaws.com/stage
+https://api.skydeo.com/post
+https://config.unityads.unity3d.com/webview/
+https://e.crashlytics.com/spi/v2/events
+https://settings.crashlytics.com/spi/v2/platforms/android/apps/%s/settings
+
+[INTERNAL_LOG][2018-06-07 22:06:54,980][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-07 22:06:54,985][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-07 22:06:54,985][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-07 22:06:54,985][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-07 22:06:54,985][INFO][analyze_start()] End time:[Thu Jun  7 22:06:54 2018]

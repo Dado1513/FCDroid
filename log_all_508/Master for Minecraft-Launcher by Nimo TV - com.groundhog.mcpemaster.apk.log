@@ -1,0 +1,198 @@
+[INTERNAL_LOG][2018-06-08 03:24:45,330][INFO][analyze_start()] Init Time [Fri Jun  8 03:24:45 2018]
+[INTERNAL_LOG][2018-06-08 03:24:45,402][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-08 03:24:45,404][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-08 03:24:45,404][INFO][is_hybird()] com.groundhog.mcpemaster.permission.JPUSH_MESSAGE
+[INTERNAL_LOG][2018-06-08 03:24:45,405][INFO][is_hybird()] android.permission.RECEIVE_USER_PRESENT
+[INTERNAL_LOG][2018-06-08 03:24:45,405][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-08 03:24:45,405][INFO][is_hybird()] android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+[INTERNAL_LOG][2018-06-08 03:24:45,405][INFO][is_hybird()] android.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-08 03:24:45,405][INFO][is_hybird()] android.permission.ACCESS_COARSE_LOCATION
+[INTERNAL_LOG][2018-06-08 03:24:45,405][INFO][is_hybird()] android.permission.CHANGE_WIFI_STATE
+[INTERNAL_LOG][2018-06-08 03:24:45,405][INFO][is_hybird()] android.permission.ACCESS_FINE_LOCATION
+[INTERNAL_LOG][2018-06-08 03:24:45,405][INFO][is_hybird()] android.permission.ACCESS_LOCATION_EXTRA_COMMANDS
+[INTERNAL_LOG][2018-06-08 03:24:45,405][INFO][is_hybird()] android.permission.CHANGE_NETWORK_STATE
+[INTERNAL_LOG][2018-06-08 03:24:45,405][INFO][is_hybird()] android.permission.RECORD_VIDEO
+[INTERNAL_LOG][2018-06-08 03:24:45,405][INFO][is_hybird()] android.permission.RECORD_AUDIO
+[INTERNAL_LOG][2018-06-08 03:24:45,405][INFO][is_hybird()] android.permission.GET_PERMISSIONS
+[INTERNAL_LOG][2018-06-08 03:24:45,405][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-08 03:24:45,405][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-08 03:24:45,405][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-08 03:24:45,405][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-08 03:24:45,405][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-08 03:24:45,405][INFO][is_hybird()] android.permission.KILL_BACKGROUND_PROCESSES
+[INTERNAL_LOG][2018-06-08 03:24:45,405][INFO][is_hybird()] android.permission.GET_TASKS
+[INTERNAL_LOG][2018-06-08 03:24:45,405][INFO][is_hybird()] android.permission.SYSTEM_ALERT_WINDOW
+[INTERNAL_LOG][2018-06-08 03:24:45,406][INFO][is_hybird()] android.permission.READ_PHONE_STATE
+[INTERNAL_LOG][2018-06-08 03:24:45,406][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-08 03:24:45,406][INFO][is_hybird()] android.permission.READ_LOGS
+[INTERNAL_LOG][2018-06-08 03:24:45,406][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-08 03:24:45,406][INFO][is_hybird()] com.groundhog.mcpemaster.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-08 03:24:45,406][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-08 03:24:45,406][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-08 03:24:45,406][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-08 03:24:45,406][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-08 03:24:45,406][INFO][find_string()] File: assets/map.html
+[INTERNAL_LOG][2018-06-08 03:24:45,408][INFO][find_string()] No iframe in assets/map.html
+[INTERNAL_LOG][2018-06-08 03:24:45,409][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-08 03:25:46,020][INFO][find_url_in_apk()] [START URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-08 03:25:46,020][INFO][find_url_in_apk()] https://hdcrash.hiido.com/hdcrash/UploadServlet
+https://config.hiido.com/api/upload
+
+[INTERNAL_LOG][2018-06-08 03:25:46,020][INFO][find_url_in_apk()] [END URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-08 03:25:48,259][ERROR][download_page_loaded()] Failed response code: 403 for https://hdcrash.hiido.com/hdcrash/UploadServlet  
+[INTERNAL_LOG][2018-06-08 03:25:49,905][INFO][find_string()] [START REMOTE FILE ANALYZE]
+[INTERNAL_LOG][2018-06-08 03:25:49,906][INFO][find_string()] Remote File in: temp_html_code/html_downloaded_Master for Minecraft-Launcher by Nimo TV - com/upload
+[INTERNAL_LOG][2018-06-08 03:25:49,906][INFO][find_string()] URL: https://config.hiido.com/api/upload
+[INTERNAL_LOG][2018-06-08 03:25:49,908][INFO][find_string()] No iframe in temp_html_code/html_downloaded_Master for Minecraft-Launcher by Nimo TV - com/upload
+[INTERNAL_LOG][2018-06-08 03:25:49,908][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-08 03:25:49,908][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-08 03:25:49,909][INFO][find_url_in_apk()] http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+https://ssrv.adjust.com/verify
+https://service.fyber.com/actions/v2
+https://service.fyber.com/installs/v2
+https://api.fyber.com/vcs/v1/new_credit.json
+https://video.fyber.com
+https://rewarded-video.fyber.com/tracker
+https://offer.fyber.com/mobile
+https://interstitial.fyber.com/interstitial
+https://interstitial.fyber.com/tracker
+https://engine.fyber.com/sdk-config
+https://engine.fyber.com/video-cache
+https://banner.fyber.com/banner
+https://banner.fyber.com/tracker
+https://testsuite.fyber.com/tracker
+http://hostname/?
+http://hostname/?
+http://www.google-analytics.com
+https://ssl.google-analytics.com
+https://accounts.google.com
+https://www.facebook.com
+https://www.googleapis.com/auth/plus.me
+https://www.googleapis.com/auth/games
+http://plus.google.com/
+http://www.example.com
+http://www.example.com
+http://www.google.com
+https://goo.gl/FZRIUV
+https://app-measurement.com/a
+https://www.googletagmanager.com
+http://mcapi.mcpemaster.com/api/m/mc/v7/
+http://mcapi.mcpemaster.com/
+http://mcapi.mcpemaster.com/
+http://mcapi.mcpemaster.com/
+http://mcapi.mcpemaster.com/
+http://idc-us.mcpemaster.com/
+http://www.mcpemaster.com/box/info/app/{id}.html
+http://www.mcpemaster.com/box/info/app/{id}.html
+http://mcapi.mcpemaster.com
+http://mcapi.mcpemaster.com/api/m/mc/v7/homePageResListV2/
+http://mcapi.mcpemaster.com/api/m/mc/v7/homePageOperation/
+http://img.mcpemaster.com
+http://img.mcpemaster.com
+http://img.mcpemaster.com
+https://app.adjust.com/l850ce
+http://s3.amazonaws.com/MinecraftSkins/
+http://mcapi.mcpemaster.com/api/m/mc/v6/getRecommendSellMcResV2
+http://mcapi.mcpemaster.com/static/mcbox/PayHtml/help.html?t=
+http://mcapi.mcpemaster.com/static/mcbox/PayHtml/help_pt.html?t=
+http://mcapi.mcpemaster.com/static/mcbox/PayHtml/help_ru.html?t=
+http://mcapi.mcpemaster.com/static/mcbox/PayHtml/help_ko.html?t=
+http://mcapi.mcpemaster.com/static/mcbox/PayHtml/help_es.html?t=
+http://mcapi.mcpemaster.com/static/mcbox/PayHtml/help_en.html?t=
+http://schemas.polites.com/android
+http://android.bugly.qq.com/rqd/async
+http://android.bugly.qq.com/rqd/async
+http://rqd.uu.qq.com/rqd/sync
+https://app.adjust.com
+https://app.adjust.com
+http://schemas.applovin.com/android/1.0
+http://schemas.applovin.com/android/1.0
+https://d.applovin.com/
+https://a.applovin.com/
+https://rt.applovin.com/med
+https://rt.applovin.com/pix
+https://d.applvn.com/
+https://a.applvn.com/
+https://rt.applvn.com/pix
+https://vid.applovin.com/,https://pdn.applovin.com/,https://img.applovin.com/,https://d.applovin.com/,https://assets.applovin.com/,https://cdnjs.cloudflare.com/,http://vid.applovin.com/,http://pdn.applovin.com/,http://img.applovin.com/,http://d.applovin.com/,http://assets.applovin.com/,http://cdnjs.cloudflare.com/
+https://live.chartboost.com
+http://market.android.com/
+https://graph.%s
+https://graph-video.%s
+https://facebook.com
+http://play.google.com/store/apps/details?id=com.facebook.orca
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://csi.gstatic.com/csi
+https://sb-ssl.google.com/safebrowsing/clientreport/malware
+https://pagead2.googlesyndication.com/pagead/gen_204
+https://www.youtube.com/watch?v=
+https://www.youtube.com/watch?v=
+https://www.youtube.com/playlist?list=
+https://www.youtube.com/playlist?list=
+https://www.youtube.com/user/
+https://www.youtube.com/user/
+https://www.youtube.com/channel/
+https://www.youtube.com/channel/
+http://play.google.com/store/apps/details
+http://pkg.mcpemaster.com
+http://img.tuboshu.com
+https://mcpemasterconfig.s3-us-west-2.amazonaws.com/adDynamicShow.json
+https://mcpeadsconfig.s3.us-east-2.amazonaws.com/
+https://mcpeadsconfig.s3.us-east-2.amazonaws.com/en.png
+https://app.adjust.com/ea7gse
+https://m.facebook.com/mcpemaster123
+https://twitter.com/mcpemaster99
+https://www.instagram.com/mcpemaster_official/
+http://mcapi.mcpemaster.com/api/m/mc/v4/mctypes/getTypes-1-
+https://twitter.com/kevinjg10
+https://twitter.com/kevinjg10
+http://mcpedl.com
+http://mcpedl.com
+https://mcpemasterconfig.s3.amazonaws.com/adconfigNew.json
+https://mcpemasterconfig.s3-us-west-2.amazonaws.com/adLocationConfig.json
+http://mcapi.mcpemaster.com/static/mcbox/club_video/youtube2.json
+http://mcapi.mcpemaster.com/static/mcbox/PayHtml/Terms&Conditions-en.html?t=
+http://mcapi.mcpemaster.com/static/mcbox/comment_sensitive_word/sensitive.json
+http://mcapi.mcpemaster.com/api/m/mc/v6/resourcesnew/
+http://mcapi.mcpemaster.com/api/m/mc/v6
+http://int.dpool.sina.com.cn/iplookup/iplookup.php?format=json&ip
+https://api.twitter.com/1.1/account/verify_credentials.json
+https://api.twitter.com
+https://syndication.twitter.com
+http://alog.umeng.com/app_logs
+http://alog.umengcloud.com/app_logs
+https://cmnsguider.yunos.com:443/genDeviceToken
+https://uop.umeng.com
+http://log.umsns.com/share/api/
+http://oc.umeng.com/v2/check_config_update
+http://oc.umeng.com/v2/get_update_time
+https://hdcrash.hiido.com/hdcrash/UploadServlet
+https://config.hiido.com/
+https://config.hiido.com/
+https://config.hiido.com/api/upload
+https://config.hiido.com/api/upload
+http://city.ip138.com/ip2city.asp
+http://ylog.hiido.com/c.gif
+http://52.5.188.119:8080/upload/UploadServlet
+http://security.yy.com/app/postAppLog.jsp
+https://e.crashlytics.com/spi/v2/events
+https://settings.crashlytics.com/spi/v2/platforms/android/apps/%s/settings
+http://localhost/
+http://localhost/
+http://localhost/
+
+[INTERNAL_LOG][2018-06-08 03:25:49,909][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-08 03:25:49,915][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-08 03:25:49,915][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-08 03:25:49,915][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-08 03:25:49,916][INFO][analyze_start()] End time:[Fri Jun  8 03:25:49 2018]

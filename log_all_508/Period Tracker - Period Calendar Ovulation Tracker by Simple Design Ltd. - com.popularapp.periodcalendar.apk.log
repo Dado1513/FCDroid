@@ -1,0 +1,219 @@
+[INTERNAL_LOG][2018-06-08 01:33:43,899][INFO][analyze_start()] Init Time [Fri Jun  8 01:33:43 2018]
+[INTERNAL_LOG][2018-06-08 01:33:43,961][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-08 01:33:43,961][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-08 01:33:43,961][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-08 01:33:43,961][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-08 01:33:43,961][INFO][is_hybird()] android.permission.RECEIVE_BOOT_COMPLETED
+[INTERNAL_LOG][2018-06-08 01:33:43,962][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-08 01:33:43,962][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-08 01:33:43,962][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-08 01:33:43,962][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-08 01:33:43,962][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-08 01:33:43,962][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-08 01:33:43,962][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-08 01:33:43,962][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-08 01:33:43,962][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-08 01:34:13,515][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-08 01:34:13,515][INFO][find_url_in_apk()] http://schemas.android.com/apk/res/android
+http://play.google.com/store/apps/details?id=
+http://play.google.com/store/apps/details?id=
+http://play.google.com/store/apps/details?id=
+http://play.google.com/store/apps/details?id=
+http://m.facebook.com/ads/ad_choices
+http://m.facebook.com/ads/ad_choices
+https://www.facebook.com/audience_network/server_side_reward
+https://www.%s.facebook.com/audience_network/server_side_reward
+https://graph.facebook.com/network_ads_common
+https://graph.%s.facebook.com/network_ads_common
+https://www.facebook.com/adnw_logging/
+https://www.%s.facebook.com/adnw_logging/
+https://www.facebook.com/
+https://www.%s.facebook.com
+http://www.facebook.com
+http://www.w3.org/ns/ttml#parameter
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+https://www.googleapis.com/auth/games_lite
+https://www.googleapis.com/auth/games
+https://plus.google.com/
+http://www.google-analytics.com
+https://ssl.google-analytics.com
+https://www.googletagmanager.com
+http://hostname/?
+https://www.googleapis.com/
+https://itunes.apple.com
+https://itunes.apple.com
+https://ad.mail.ru/mobile/
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+https://target.my.com/
+http://play.google.com
+https://play.google.com
+http://market.android.com
+https://market.android.com
+http://ad.period-calendar.com/pc
+http://jp.period-calendar.com
+http://jp.period-calendar.com
+http://jp.period-calendar.com
+http://jp.period-calendar.com
+http://ru.period-calendar.com
+http://ru.period-calendar.com
+http://ru.period-calendar.com
+http://ru.period-calendar.com
+http://de.period-calendar.com
+http://de.period-calendar.com
+http://de.period-calendar.com
+http://de.period-calendar.com
+http://fr.period-calendar.com
+http://fr.period-calendar.com
+http://fr.period-calendar.com
+http://fr.period-calendar.com
+http://it.period-calendar.com
+http://it.period-calendar.com
+http://it.period-calendar.com
+http://it.period-calendar.com
+http://zh-cn.period-calendar.com
+http://zh-cn.period-calendar.com
+http://zh-cn.period-calendar.com
+http://zh-cn.period-calendar.com
+http://zh-tw.period-calendar.com
+http://zh-tw.period-calendar.com
+http://zh-tw.period-calendar.com
+http://zh-tw.period-calendar.com
+http://es.period-calendar.com
+http://es.period-calendar.com
+http://es.period-calendar.com
+http://es.period-calendar.com
+http://kr.period-calendar.com
+http://kr.period-calendar.com
+http://kr.period-calendar.com
+http://kr.period-calendar.com
+http://pt.period-calendar.com
+http://pt.period-calendar.com
+http://pt.period-calendar.com
+http://pt.period-calendar.com
+http://en.period-calendar.com
+http://en.period-calendar.com
+http://en.period-calendar.com
+http://en.period-calendar.com
+http://en.period-calendar.com
+http://en.period-calendar.com
+https://www.googleapis.com/auth/drive.appdata
+https://www.googleapis.com/auth/drive.appdata
+https://www.googleapis.com/auth/drive.appdata
+http://dev2.period-calendar.com/forgot.php
+http://dev2.period-calendar.com/forgot.php
+http://play.google.com/store/apps/details?id=com.popularapp.periodcalendar
+http://play.google.com/store/apps/details?id=com.popularapp.periodcalendar
+http://play.google.com/store/apps/details?id=com.popularapp.periodcalendar
+http://play.google.com/store/apps/details?id=com.popularapp.periodcalendar
+http://play.google.com/store/apps/details?id=com.popularapp.periodcalendar
+http://play.google.com/store/apps/details?id=com.popularapp.periodcalendar
+http://dev.period-calendar.com/error_report.php
+http://dev2.period-calendar.com/log_mail.php
+http://scontent.cdninstagram.com/t50.2886-16/10715100_703168133102187_1493502495_n.mp4
+http://scontent.cdninstagram.com/t50.2886-16/10715100_703168133102187_1493502495_n.mp4
+http://scontent.cdninstagram.com/t50.2886-16/10715100_703168133102187_1493502495_n.mp4
+http://scontent.cdninstagram.com/t50.2886-16/1489955_1530976250452429_1133226740_n.mp4
+http://scontent.cdninstagram.com/t50.2886-16/1489955_1530976250452429_1133226740_n.mp4
+http://scontent.cdninstagram.com/t50.2886-16/1489955_1530976250452429_1133226740_n.mp4
+http://scontent.cdninstagram.com/t50.2886-16/10508987_685633931517351_2082944159_n.mp4
+http://scontent.cdninstagram.com/t50.2886-16/10508987_685633931517351_2082944159_n.mp4
+http://scontent.cdninstagram.com/t50.2886-16/10508987_685633931517351_2082944159_n.mp4
+http://scontent.cdninstagram.com/t50.2886-16/10688607_371947079620934_312286376_n.mp4
+http://scontent.cdninstagram.com/t50.2886-16/10688607_371947079620934_312286376_n.mp4
+http://scontent.cdninstagram.com/t50.2886-16/10715296_799077066802745_759094851_n.mp4
+http://scontent.cdninstagram.com/t50.2886-16/10715296_799077066802745_759094851_n.mp4
+http://scontent.cdninstagram.com/t50.2886-16/10507248_589179274530870_273959295_n.mp4
+http://scontent.cdninstagram.com/t50.2886-16/10507248_589179274530870_273959295_n.mp4
+http://scontent.cdninstagram.com/t50.2886-16/10714999_1492377084382297_1222307176_n.mp4
+http://scontent.cdninstagram.com/t50.2886-16/10714999_1492377084382297_1222307176_n.mp4
+http://scontent.cdninstagram.com/t50.2886-16/10715542_1466547583610405_2113490973_n.mp4
+http://scontent.cdninstagram.com/t50.2886-16/10715542_1466547583610405_2113490973_n.mp4
+http://scontent.cdninstagram.com/t50.2886-16/10511781_581322638647647_1845853142_n.mp4
+http://scontent.cdninstagram.com/t50.2886-16/10511781_581322638647647_1845853142_n.mp4
+http://scontent.cdninstagram.com/t50.2886-16/10716332_458404994297506_1637462899_n.mp4
+http://scontent.cdninstagram.com/t50.2886-16/10716332_458404994297506_1637462899_n.mp4
+http://scontent.cdninstagram.com/t50.2886-16/10716332_458404994297506_1637462899_n.mp4
+http://scontent.cdninstagram.com/t50.2886-16/10709082_777130105661594_1513165084_n.mp4
+http://scontent.cdninstagram.com/t50.2886-16/10709082_777130105661594_1513165084_n.mp4
+http://scontent.cdninstagram.com/t50.2886-16/10709082_777130105661594_1513165084_n.mp4
+http://scontent.cdninstagram.com/t50.2886-16/10705970_810794625626931_1643260397_n.mp4
+http://scontent.cdninstagram.com/t50.2886-16/10705970_810794625626931_1643260397_n.mp4
+http://scontent.cdninstagram.com/t50.2886-16/10705970_810794625626931_1643260397_n.mp4
+http://scontent.cdninstagram.com/t50.2886-16/10714931_818235394894494_1679129893_n.mp4
+http://scontent.cdninstagram.com/t50.2886-16/10714931_818235394894494_1679129893_n.mp4
+http://scontent.cdninstagram.com/t50.2886-16/10714931_818235394894494_1679129893_n.mp4
+http://scontent.cdninstagram.com/t50.2886-16/1928026_1533213063581221_1061212632_n.mp4
+http://scontent.cdninstagram.com/t50.2886-16/1928026_1533213063581221_1061212632_n.mp4
+http://scontent.cdninstagram.com/t50.2886-16/1928026_1533213063581221_1061212632_n.mp4
+http://scontent.cdninstagram.com/t50.2886-16/10504758_258775064329425_602153283_n.mp4
+http://scontent.cdninstagram.com/t50.2886-16/10504758_258775064329425_602153283_n.mp4
+http://scontent.cdninstagram.com/t50.2886-16/10504758_258775064329425_602153283_n.mp4
+http://scontent.cdninstagram.com/t50.2886-16/1928080_726772104070066_16122880_n.mp4
+http://scontent.cdninstagram.com/t50.2886-16/1928080_726772104070066_16122880_n.mp4
+http://scontent.cdninstagram.com/t50.2886-16/1928080_726772104070066_16122880_n.mp4
+http://scontent.cdninstagram.com/t50.2886-16/10716446_819630364755275_99903030_n.mp4
+http://scontent.cdninstagram.com/t50.2886-16/10716446_819630364755275_99903030_n.mp4
+http://scontent.cdninstagram.com/t50.2886-16/10716446_819630364755275_99903030_n.mp4
+http://scontent.cdninstagram.com/t50.2886-16/10507273_524739407654893_191885388_n.mp4
+http://scontent.cdninstagram.com/t50.2886-16/10507273_524739407654893_191885388_n.mp4
+http://scontent.cdninstagram.com/t50.2886-16/10507273_524739407654893_191885388_n.mp4
+http://scontent.cdninstagram.com/t50.2886-16/1490202_1465215540433951_882297003_n.mp4
+http://scontent.cdninstagram.com/t50.2886-16/10716340_698123850268150_1006034739_n.mp4
+http://scontent.cdninstagram.com/t50.2886-16/10713735_1545866218959590_2019583641_n.mp4
+http://scontent.cdninstagram.com/t50.2886-16/10716405_723274064375906_1363773165_n.mp4
+http://scontent.cdninstagram.com/t50.2886-16/10713855_734107766659585_559833335_n.mp4
+http://scontent.cdninstagram.com/t50.2886-16/10708880_1478984465694887_549284378_n.mp4
+http://scontent.cdninstagram.com/t50.2886-16/10716551_564786743626317_1266966659_n.mp4
+http://scontent.cdninstagram.com/t50.2886-16/1968211_374393532712062_106425452_n.mp4
+http://scontent.cdninstagram.com/t50.2886-16/10705751_1466527263614700_425699685_n.mp4
+http://scontent.cdninstagram.com/t50.2886-16/10715117_1482832511990191_87287020_n.mp4
+http://scontent.cdninstagram.com/t50.2886-16/10709057_537887046342114_1084970049_n.mp4
+http://scontent.cdninstagram.com/t50.2886-16/10715417_732989536771348_664789573_n.mp4
+http://scontent.cdninstagram.com/t50.2886-16/1490122_1468508570081484_1318854546_n.mp4
+http://scontent.cdninstagram.com/t50.2886-16/10715014_360535670777957_1705976155_n.mp4
+http://scontent.cdninstagram.com/t50.2886-16/10709382_1480479132239272_1291862381_n.mp4
+http://scontent.cdninstagram.com/t50.2886-16/1490009_317716245067658_1175142102_n.mp4
+http://scontent.cdninstagram.com/t50.2886-16/10713874_840526052633359_841538950_n.mp4
+http://scontent.cdninstagram.com/t50.2886-16/10524034_314477545381249_23601497_n.mp4
+http://scontent.cdninstagram.com/t50.2886-16/1490134_1515363738706468_1240738800_n.mp4
+http://scontent.cdninstagram.com/t50.2886-16/1490186_1566172393611116_827782741_n.mp4
+http://scontent.cdninstagram.com/t50.2886-16/10526512_1453447421570881_413081588_n.mp4
+https://play.google.com/store/apps/details?id=com.google.android.gms
+https://plus.google.com/u/0/communities/101187534861572145367
+https://play.google.com/store/apps/details?id
+http://period-calendar.com/viewforum.php?f=8
+http://period-calendar.com/viewforum.php?f=7
+http://period-calendar.com/viewforum.php?f=9
+http://period-calendar.com/viewforum.php?f=59
+http://period-calendar.com/viewforum.php?f=43
+http://www.period-calendar.com/pc_help/
+http://www.period-calendar.com/pc_help/
+http://www.period-calendar.com/pc_help/
+http://www.period-calendar.com/pc_help/
+http://www.period-calendar.com/pc_help/
+http://www.period-calendar.com/pc_help/
+http://www.period-calendar.com/pc_help/
+http://www.period-calendar.com/pc_help/
+http://scontent.cdninstagram.com/t50.2886-16/10716304_202797539890784_1725179736_n.mp4
+http://scontent.cdninstagram.com/t50.2886-16/10687752_282093755248244_1811993982_n.mp4
+http://scontent.cdninstagram.com/t50.2886-16/10705723_286263974915541_82939926_n.mp4
+http://scontent.cdninstagram.com/t50.2886-16/1490050_336839379824434_1403771518_n.mp4
+http://scontent.cdninstagram.com/t50.2886-16/10709057_294246480778912_1328635456_n.mp4
+http://scontent.cdninstagram.com/t50.2886-16/10508908_752448241473745_1224690130_n.mp4
+https://play.google.com/store/apps/details?id=loseweight.weightloss.workout.fitness&referrer=utm_source%3DPCW%26utm_medium%3Dsetting_bottom
+https://youtu.be/zlCftjRgI7w
+https://youtu.be/jXIMTrUX1H8
+https://youtu.be/l5vj1tPhc3o
+https://e.crashlytics.com/spi/v2/events
+https://settings.crashlytics.com/spi/v2/platforms/android/apps/%s/settings
+
+[INTERNAL_LOG][2018-06-08 01:34:13,515][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-08 01:34:13,517][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-08 01:34:13,517][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-08 01:34:13,518][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-08 01:34:13,518][INFO][analyze_start()] End time:[Fri Jun  8 01:34:13 2018]

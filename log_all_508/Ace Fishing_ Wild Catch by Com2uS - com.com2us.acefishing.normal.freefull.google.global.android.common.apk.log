@@ -1,0 +1,144 @@
+[INTERNAL_LOG][2018-06-07 21:16:54,911][INFO][analyze_start()] Init Time [Thu Jun  7 21:16:54 2018]
+[INTERNAL_LOG][2018-06-07 21:16:55,011][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-07 21:16:55,013][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-07 21:16:55,013][INFO][is_hybird()] com.com2us.acefishing.normal.freefull.google.global.android.common.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-07 21:16:55,013][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-07 21:16:55,013][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-07 21:16:55,013][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-07 21:16:55,013][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-07 21:16:55,013][INFO][is_hybird()] android.permission.CHANGE_WIFI_STATE
+[INTERNAL_LOG][2018-06-07 21:16:55,013][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-07 21:16:55,013][INFO][is_hybird()] android.permission.UPDATE_DEVICE_STATS
+[INTERNAL_LOG][2018-06-07 21:16:55,013][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-07 21:16:55,013][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-07 21:16:55,013][INFO][is_hybird()] android.permission.CHANGE_NETWORK_STATE
+[INTERNAL_LOG][2018-06-07 21:16:55,013][INFO][is_hybird()] android.permission.GET_TASKS
+[INTERNAL_LOG][2018-06-07 21:16:55,013][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-07 21:16:55,013][INFO][is_hybird()] com.sec.android.iap.permission.BILLING
+[INTERNAL_LOG][2018-06-07 21:16:55,013][INFO][is_hybird()] android.permission.READ_PHONE_STATE
+[INTERNAL_LOG][2018-06-07 21:16:55,014][INFO][is_hybird()] android.permission.READ_CONTACTS
+[INTERNAL_LOG][2018-06-07 21:16:55,014][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-07 21:16:55,014][INFO][is_hybird()] com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+[INTERNAL_LOG][2018-06-07 21:16:55,014][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-07 21:16:55,014][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-07 21:16:55,014][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-07 21:16:55,014][INFO][find_string()] File: assets/common/ActiveUserAgreement/1407119995_M3_11.html
+[INTERNAL_LOG][2018-06-07 21:16:55,094][INFO][find_string()] No iframe in assets/common/ActiveUserAgreement/1407119995_M3_11.html
+[INTERNAL_LOG][2018-06-07 21:16:55,094][INFO][find_string()] File: assets/common/ActiveUserAgreement/1407749993_M8_4.html
+[INTERNAL_LOG][2018-06-07 21:16:55,103][INFO][find_string()] No iframe in assets/common/ActiveUserAgreement/1407749993_M8_4.html
+[INTERNAL_LOG][2018-06-07 21:16:55,103][INFO][find_string()] File: assets/common/ActiveUserAgreement/1408684967_M11_2.html
+[INTERNAL_LOG][2018-06-07 21:16:55,109][INFO][find_string()] No iframe in assets/common/ActiveUserAgreement/1408684967_M11_2.html
+[INTERNAL_LOG][2018-06-07 21:16:55,109][INFO][find_string()] File: assets/common/ActiveUserAgreement/1408685798_M9_2.html
+[INTERNAL_LOG][2018-06-07 21:16:55,115][INFO][find_string()] No iframe in assets/common/ActiveUserAgreement/1408685798_M9_2.html
+[INTERNAL_LOG][2018-06-07 21:16:55,115][INFO][find_string()] File: assets/common/ActiveUserAgreement/1408685817_M10_2.html
+[INTERNAL_LOG][2018-06-07 21:16:55,572][INFO][find_string()] No iframe in assets/common/ActiveUserAgreement/1408685817_M10_2.html
+[INTERNAL_LOG][2018-06-07 21:16:55,593][INFO][find_string()] File: assets/common/ActiveUserAgreement/1408936766_M12_3.html
+[INTERNAL_LOG][2018-06-07 21:16:58,685][INFO][find_string()] No iframe in assets/common/ActiveUserAgreement/1408936766_M12_3.html
+[INTERNAL_LOG][2018-06-07 21:16:58,706][INFO][find_string()] File: assets/common/ActiveUserAgreement/1409219265_M10_3.html
+[INTERNAL_LOG][2018-06-07 21:17:01,186][INFO][find_string()] No iframe in assets/common/ActiveUserAgreement/1409219265_M10_3.html
+[INTERNAL_LOG][2018-06-07 21:17:01,206][INFO][find_string()] File: assets/common/ActiveUserAgreement/1409219290_M11_3.html
+[INTERNAL_LOG][2018-06-07 21:17:07,166][INFO][find_string()] No iframe in assets/common/ActiveUserAgreement/1409219290_M11_3.html
+[INTERNAL_LOG][2018-06-07 21:17:07,187][INFO][find_string()] File: assets/common/ActiveUserAgreement/1409219307_M12_4.html
+[INTERNAL_LOG][2018-06-07 21:17:07,695][INFO][find_string()] No iframe in assets/common/ActiveUserAgreement/1409219307_M12_4.html
+[INTERNAL_LOG][2018-06-07 21:17:07,695][INFO][find_string()] File: assets/common/ActiveUserAgreement/14110301_TEST01_1.html
+[INTERNAL_LOG][2018-06-07 21:17:07,947][INFO][find_string()] No iframe in assets/common/ActiveUserAgreement/14110301_TEST01_1.html
+[INTERNAL_LOG][2018-06-07 21:17:08,112][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-07 21:17:16,382][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-07 21:17:16,383][INFO][find_url_in_apk()] http://schemas.android.com/apk/res/android
+http://coupon.qpyou.cn/ci/coupon_page/version2/submit
+https://activeuser.qpyou.cn/gateway.php
+https://activeuser.qpyou.cn/gateway.php
+http://test.activeuser.com2us.net/gateway.php
+http://test.activeuser.com2us.net/gateway.php
+https://sandbox-activeuser.qpyou.cn/gateway.php
+http://m.com2us.com/
+https://s.qpyou.cn/common/billing/check2.c2s
+https://s.qpyou.cn/common/billing/select_log.c2s
+https://sandbox-m-bill.qpyou.cn/cn/cash/wechatpay/callBack.jsp
+https://test-m-bill.qpyou.cn/cn/cash/wechatpay/callBack.jsp
+https://m-bill.qpyou.cn/cn/cash/wechatpay/callBack.jsp
+https://api.mch.weixin.qq.com/sandboxnew/pay/getsignkey
+http://test.mercury.com2us.com
+http://test.mercury.com2us.com
+https://m-mercury.qpyou.cn
+https://sandbox-m-mercury.qpyou.cn
+https://sandbox-m-mercury.qpyou.cn/api/messenger
+https://sandbox-m-mercury.qpyou.cn/init
+https://sandbox-m-mercury.qpyou.cn/init/badge
+https://sandbox-m-mercury.qpyou.cn/api/review
+https://sandbox-m-mercury.qpyou.cn/logging/review
+https://sandbox-m-mercury.qpyou.cn/api/moregames
+https://sandbox-m-mercury.qpyou.cn/logging/moregames
+http://test.mercury.com2us.com/api/messenger
+http://test.mercury.com2us.com/init
+http://test.mercury.com2us.com/init/badge
+http://test.mercury.com2us.com/api/review
+http://test.mercury.com2us.com/logging/review
+http://test.mercury.com2us.com/api/moregames
+http://test.mercury.com2us.com/logging/moregames
+https://m-mercury.qpyou.cn/api/messenger
+https://m-mercury.qpyou.cn/init
+https://m-mercury.qpyou.cn/init/badge
+https://m-mercury.qpyou.cn/api/review
+https://m-mercury.qpyou.cn/logging/review
+https://m-mercury.qpyou.cn/api/moregames
+https://m-mercury.qpyou.cn/logging/moregames
+https://sandbox-m-wall.qpyou.cn/
+https://sandbox-m-wall.qpyou.cn/api/init
+http://test.wall.com2us.com/
+http://test.wall.com2us.com/api/init
+https://m-wall.qpyou.cn/
+https://m-wall.qpyou.cn/api/init
+http://test.wall.com2us.com/api/logSingleReward
+http://s.com2us.net/common/ota/certify.c2s
+https://push.qpyou.cn/api/
+https://sandbox-push.qpyou.cn/api/
+http://test-push.qpyou.cn/api/
+http://activeuser.qpyou.cn/gateway.php
+http://activeuser.qpyou.cn/gateway.php
+http://sandbox-activeuser.qpyou.cn/gateway.php
+https://friend-api.qpyou.cn/api/
+https://friend-hub.qpyou.cn/
+https://sandbox-friend-api.qpyou.cn/api/
+https://sandbox-friend-hub.qpyou.cn/
+http://test-friend-hub.qpyou.cn/api/
+http://test-friend-api.qpyou.cn/
+http://staging-friend-hub.qpyou.cn/api/
+http://staging-friend-api.qpyou.cn/
+https://facebook.com
+https://facebook.com
+http://m.com2us.com/link/store?appid=
+https://graph.%s
+https://graph-video.%s
+http://play.google.com/store/apps/details?id=com.facebook.orca
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+https://accounts.google.com
+https://www.facebook.com
+http://plus.google.com/
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games.firstparty
+https://www.googleapis.com/auth/games.firstparty
+https://www.googleapis.com/auth/plus.login
+https://www.googleapis.com/auth/plus.me
+http://schemas.android.com/apk/lib/com.google.android.gms.plus
+http://schemas.android.com/apk/lib/com.google.android.gms.plus
+https://e-ssl.apsalar.com/api/v1
+https://exceptions.singular.net/v2/exceptions/android
+http://open.weixin.qq.com/connect/sdk/qrconnect?appid=%s&noncestr=%s&timestamp=%s&scope=%s&signature=%s
+https://long.open.weixin.qq.com/connect/l/qrconnect?f=json&uuid=%s
+http://www.qq.com/s?
+http://pingma.qq.com:80/mstat/report
+http://www.amazon.com/gp/mas/dl/android?%s
+http://play.google.com/store/apps/details?%s
+
+[INTERNAL_LOG][2018-06-07 21:17:16,383][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-07 21:17:16,403][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-07 21:17:16,404][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-07 21:17:16,404][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-07 21:17:16,404][INFO][analyze_start()] End time:[Thu Jun  7 21:17:16 2018]

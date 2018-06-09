@@ -1,0 +1,248 @@
+[INTERNAL_LOG][2018-06-07 23:24:28,896][INFO][analyze_start()] Init Time [Thu Jun  7 23:24:28 2018]
+[INTERNAL_LOG][2018-06-07 23:24:29,010][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-07 23:24:29,014][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-07 23:24:29,014][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-07 23:24:29,014][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-07 23:24:29,014][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-07 23:24:29,014][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-07 23:24:29,014][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-07 23:24:29,014][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-07 23:24:29,014][INFO][is_hybird()] android.permission.RECEIVE_BOOT_COMPLETED
+[INTERNAL_LOG][2018-06-07 23:24:29,014][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-07 23:24:29,014][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-07 23:24:29,014][INFO][is_hybird()] com.scimob.ninetyfour.percent.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-07 23:24:29,014][INFO][is_hybird()] com.google.android.providers.gsf.permission.READ_GSERVICES
+[INTERNAL_LOG][2018-06-07 23:24:29,014][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-07 23:24:29,014][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-07 23:24:29,015][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-07 23:24:29,015][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-07 23:24:29,015][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-07 23:24:29,015][INFO][find_string()] File: js/closebutton.html
+[INTERNAL_LOG][2018-06-07 23:24:29,016][INFO][find_string()] No iframe in js/closebutton.html
+[INTERNAL_LOG][2018-06-07 23:24:29,016][INFO][find_string()] File: res/raw-fr/id_policy.html
+[INTERNAL_LOG][2018-06-07 23:24:29,089][INFO][find_string()] No iframe in res/raw-fr/id_policy.html
+[INTERNAL_LOG][2018-06-07 23:24:29,090][INFO][find_string()] File: res/raw-fr/privacy_policy.html
+[INTERNAL_LOG][2018-06-07 23:24:29,096][INFO][find_string()] No iframe in res/raw-fr/privacy_policy.html
+[INTERNAL_LOG][2018-06-07 23:24:29,096][INFO][find_string()] File: res/raw/id_policy.html
+[INTERNAL_LOG][2018-06-07 23:24:29,104][INFO][find_string()] No iframe in res/raw/id_policy.html
+[INTERNAL_LOG][2018-06-07 23:24:29,104][INFO][find_string()] File: res/raw/privacy_policy.html
+[INTERNAL_LOG][2018-06-07 23:24:29,110][INFO][find_string()] No iframe in res/raw/privacy_policy.html
+[INTERNAL_LOG][2018-06-07 23:24:29,110][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-07 23:25:28,249][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-07 23:25:28,249][INFO][find_url_in_apk()] http://schemas.android.com/apk/res/android
+https://adc3-launch-server-staging.herokuapp.com/v4/launch
+https://adc3-launch.adcolony.com/v4/launch
+https://adc3-launch.adcolony.com/v4/launch
+https://wd.adcolony.com/logs
+http://segment-data-us-east.zqtk.net/%s?url=%s&c2=%s&c12=%s&ns_ap_bi=%s&ns_ap_sv=%s&ns_ap_an=%s&ns_ap_ver=%s&ns_ap_pn=android
+http://b.voicefive.com/rs/sdk/gg.js
+https://sb.voicefive.com/rs/sdk/gg.js
+http://b.scorecardresearch.com/rs/mobile/ntv/vce_st.js
+https://sb.scorecardresearch.com/rs/mobile/ntv/vce_st.js
+http://localhost/
+https://sb.voicefive.com/rs/sdk/b.html
+https://sb.voicefive.com/rs/sdk/b.html
+https://sb.voicefive.com/rs/sdk/b.html
+https://sb.voicefive.com/rs/sdk/b.html
+https://sb.voicefive.com/rs/sdk/b.html
+https://play.google.com/store/apps/details?id=%s
+https://www.facebook.com/audience_network/server_side_reward
+https://www.%s.facebook.com/audience_network/server_side_reward
+https://graph.facebook.com/network_ads_common
+https://graph.%s.facebook.com/network_ads_common
+https://www.facebook.com/adnw_logging/
+https://www.%s.facebook.com/adnw_logging/
+http://play.google.com/store/apps/
+https://www.facebook.com/
+https://www.%s.facebook.com
+http://www.facebook.com
+https://graph.%s
+https://graph-video.%s
+https://facebook.com
+https://facebook.com/device?user_code=%1$s&qr=1
+https://ads.flurry.com/v17/getAds.do
+http://ads.flurry.com/v17/getAds.do
+https://cdn.flurry.com/vast/videocontrols/v2/android.zip
+http://www.example.com
+http://www.example.com
+http://www.example.com
+https://adlog.flurry.com
+http://adlog.flurry.com
+https://www.tumblr.com/oauth/access_token
+https://www.tumblr.com/oauth/authorize?oauth_token=%s
+https://api.tumblr.com/v2/blog/
+https://api.tumblr.com/v2/blog/
+https://www.tumblr.com/oauth/request_token
+https://api.tumblr.com/v2/user/info
+http://www.tumblr.com/connect/login_success.html
+https://play.google.com/store/apps/details?id=
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+https://cfg.flurry.com/sdk/v1/config
+https://cfg.flurry.com/sdk/v1/config
+https://proton.flurry.com/sdk/v1/config
+https://data.flurry.com/pcr.do
+https://data.flurry.com/aap.do
+http://data.flurry.com/aap.do
+http://hostname/
+http://hostname/?
+http://hostname/?
+https://pubads.g.doubleclick.net/activity;dc_iu=
+https://pubads.g.doubleclick.net/activity;xsp=
+https://www.googleadservices.com/pagead/conversion/
+https://www.googleadservices.com/pagead/conversion/
+http://plus.google.com/
+http://www.w3.org/ns/ttml#parameter
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+https://www.googleapis.com/auth/games_lite
+https://www.googleapis.com/auth/games_lite
+https://www.googleapis.com/auth/games_lite
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games
+https://accounts.google.com/o/oauth2/revoke?token=
+https://plus.google.com/
+https://www.googleapis.com/auth/drive.file
+https://www.googleapis.com/auth/drive.appdata
+https://www.googleapis.com/auth/drive
+https://www.googleapis.com/auth/drive.apps
+https://www.googleapis.com/auth/games.firstparty
+https://www.googleapis.com/auth/games.firstparty
+https://pagead2.googlesyndication.com/pagead/gen_204
+http://www.google.com
+https://support.google.com/dfp_premium/answer/7160685#push
+http://www.google-analytics.com
+https://ssl.google-analytics.com
+https://app-measurement.com/a
+https://www.google.com
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/sdk-core-v40-impl.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://csi.gstatic.com/csi
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/native_ads.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/native_ads.js
+https://imasdk.googleapis.com/admob/sdkloader/native_video.html
+https://www.google.com/dfp/linkDevice
+https://www.google.com/dfp/inAppPreview
+https://www.google.com/dfp/debugSignals
+https://www.google.com/dfp/sendDebugData
+https://twitter.com/%s/status/%s
+https://wss.pollfish.com
+http://scimob-mediametrie.s3.amazonaws.com/94percent.txt
+https://storage.googleapis.com/web94p/theme/%s/%d.jpg
+http://adserver.vidcoin.com/v1/init/[GAME_CODE]
+http://cmp.vidcoin.com/v1/delivery/[GAME_CODE]/get_campaigns
+http://adserver.vidcoin.com/v1/view/start
+http://adserver.vidcoin.com/v1/view/complete
+http://www.google-analytics.com/collect?
+https://api.vungle.com/
+https://ads.api.vungle.com/config
+https://track.atom-data.io
+https://track.atom-data.io
+https://track.atom-data.io
+https://outcome.supersonicads.com/mediation/
+https://outcome.supersonicads.com/mediation/
+https://init.supersonicads.com/sdk/v
+https://www.supersonicads.com/mobile/sdk5/log?method=
+https://www.supersonicads.com/mobile/sdk5/log?method=
+https://www.supersonicads.com/mobile/sdk5/log?method=
+https://www.supersonicads.com/mobile/sdk5/log?method=
+https://www.supersonicads.com/mobile/sdk5/log?method=
+https://www.supersonicads.com/mobile/sdk5/log?method=
+https://www.supersonicads.com/mobile/sdk5/log?method=
+https://www.supersonicads.com/mobile/sdk5/log?method=
+https://www.supersonicads.com/mobile/sdk5/log?method=injectJavaScript
+https://www.supersonicads.com/mobile/sdk5/log?method=extraParametersToJson
+https://www.supersonicads.com/mobile/sdk5/log?method=noProductType
+https://www.supersonicads.com/mobile/sdk5/log?method=encodeAppUserId
+https://www.supersonicads.com/mobile/sdk5/log?method=encodeAppKey
+https://www.supersonicads.com/mobile/sdk5/log?method=setWebViewSettings
+https://www.supersonicads.com/mobile/sdk5/log?method=webviewLoadBlank
+https://www.supersonicads.com/mobile/sdk5/log?method=webviewLoadWithPath
+https://www.supersonicads.com/mobile/sdk5/log?method=htmlControllerDoesNotExistOnFileSystem
+https://www.supersonicads.com/mobile/sdk5/log?method=webviewPause
+https://www.supersonicads.com/mobile/sdk5/log?method=webviewResume
+https://cdn.krxd.net/controltag/config/
+http://ads.mdotm.com/ads/feed.php?
+https://z.moatads.com/
+https://z.moatads.com/
+https://analytics.mopub.com/i/jot/exchange_client_event
+https://www.mopub.com/optout
+https://www.mopub.com/optout/
+https://www.mopub.com/optout/
+https://ad.mail.ru/mobile/
+https://target.my.com/
+http://play.google.com
+https://play.google.com
+http://market.android.com
+https://market.android.com
+https://api.fixer.io
+https://api.fixer.io/latest
+https://api.fixer.io/latest?base=USD
+http://play.google.com/store/apps/details?id=
+http://play.google.com/store/apps/details?id=
+https://storage.googleapis.com/web94p/bonus_level/popup/%s/%d.png
+https://storage.googleapis.com/web94p/bonus_level/popup/%s/%d.png
+https://storage.googleapis.com/web94p/bonus_level/popup/%s/%d.png
+https://storage.googleapis.com/web94p/bonus_level/popup/%s/%d.png
+https://graph.facebook.com/v2.2/%1$s/picture?redirect=true&type=square&height=%2$s&width=%3$s&access_token=%4$s
+https://fb.me/812525478848938
+https://ws-dot-web94p.appspot.com/webservices/1.3/answers
+https://ws-dot-web94p.appspot.com/webservices/1.3/answers
+https://api.webedia-api.com/api/1/account/checkIn
+https://api.webedia-api.com/api/1/account/checkIn
+https://storage.googleapis.com/web94p/bonus_level/homepage/%s/%d.png
+https://storage.googleapis.com/web94p/bonus_level/button/%s/%d.png
+https://ws-dot-web94p.appspot.com/webservices/rate
+https://storage.googleapis.com/web94p/bonus_level/background/
+https://storage.googleapis.com/web94p/bonus_level/offer/
+https://api.webedia-api.com/api/1/iap/validates
+https://94p-eu.s3.amazonaws.com/android/%d/%s/tags.json
+https://94p-au.s3.amazonaws.com/android/%d/%s/tags.json
+https://94p.s3.amazonaws.com/android/%d/%s/tags.json
+https://94p-eu.s3.amazonaws.com/android/%d/%s/%s/tags.json
+https://94p-au.s3.amazonaws.com/android/%d/%s/%s/tags.json
+https://94p.s3.amazonaws.com/android/%d/%s/%s/tags.json
+https://94p-eu.s3.amazonaws.com/res/img/tags/drawable-%s/%s
+https://94p-au.s3.amazonaws.com/res/img/tags/drawable-%s/%s
+https://94p.s3.amazonaws.com/res/img/tags/drawable-%s/%s
+http://play.google.com/store/apps/details?id=%s
+http://play.google.com/store/apps/details?id=%s
+https://storage.googleapis.com/web94p/theme/
+https://storage.googleapis.com/web94p/theme/
+https://ws-dot-web94p.appspot.com/webservices/suggest/
+https://ws-dot-web94p.appspot.com/webservices/vote
+https://ws-dot-web94p.appspot.com/webservices/vote/
+https://storage.googleapis.com/web94p/bonus_level/data.json
+https://storage.googleapis.com/web94p/thematic_level/data.json
+https://ws-dot-web94p.appspot.com/webservices/poll/
+https://support.google.com/adsense/troubleshooter/1631343
+https://ws.tapjoyads.com/
+https://ws.tapjoyads.com/
+https://ws.tapjoyads.com/
+https://rpc.tapjoy.com/
+https://rpc.tapjoy.com/
+https://connect.tapjoy.com/
+https://connect.tapjoy.com/
+https://placements.tapjoy.com/
+https://config.unityads.unity3d.com/webview/
+https://sdkl.vidcoin.com/?os=android
+https://www.vungle.com/privacy/
+https://www.vungle.com/privacy/
+http://lol.vungle.com/
+https://play.google.com/store/apps/details
+https://e.crashlytics.com/spi/v2/events
+https://settings.crashlytics.com/spi/v2/platforms/android/apps/%s/settings
+
+[INTERNAL_LOG][2018-06-07 23:25:28,250][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-07 23:25:28,269][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-07 23:25:28,270][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-07 23:25:28,270][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-07 23:25:28,270][INFO][analyze_start()] End time:[Thu Jun  7 23:25:28 2018]

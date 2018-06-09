@@ -1,0 +1,80 @@
+[INTERNAL_LOG][2018-06-08 03:22:49,796][INFO][analyze_start()] Init Time [Fri Jun  8 03:22:49 2018]
+[INTERNAL_LOG][2018-06-08 03:22:49,902][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-08 03:22:49,904][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-08 03:22:49,905][INFO][is_hybird()] android.permission.READ_CONTACTS
+[INTERNAL_LOG][2018-06-08 03:22:49,905][INFO][is_hybird()] android.permission.WRITE_CONTACTS
+[INTERNAL_LOG][2018-06-08 03:22:49,905][INFO][is_hybird()] android.permission.READ_PROFILE
+[INTERNAL_LOG][2018-06-08 03:22:49,905][INFO][is_hybird()] android.permission.CAMERA
+[INTERNAL_LOG][2018-06-08 03:22:49,905][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-08 03:22:49,905][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-08 03:22:49,905][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-08 03:22:49,905][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-08 03:22:49,905][INFO][is_hybird()] android.permission.GET_TASKS
+[INTERNAL_LOG][2018-06-08 03:22:49,905][INFO][is_hybird()] android.permission.RECEIVE_BOOT_COMPLETED
+[INTERNAL_LOG][2018-06-08 03:22:49,905][INFO][is_hybird()] android.permission.SYSTEM_ALERT_WINDOW
+[INTERNAL_LOG][2018-06-08 03:22:49,905][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-08 03:22:49,905][INFO][is_hybird()] android.permission.READ_PHONE_STATE
+[INTERNAL_LOG][2018-06-08 03:22:49,905][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-08 03:22:49,905][INFO][is_hybird()] com.bitstrips.imoji.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-08 03:22:49,905][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-08 03:22:49,905][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-08 03:22:49,905][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-08 03:22:49,905][INFO][is_hybird()] android.permission.RECORD_AUDIO
+[INTERNAL_LOG][2018-06-08 03:22:49,905][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-08 03:22:49,905][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-08 03:22:49,905][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-08 03:22:49,905][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-08 03:22:49,906][INFO][find_string()] File: assets/imoji-web/avatar_builder.html
+[INTERNAL_LOG][2018-06-08 03:22:49,907][INFO][find_string()] No iframe in assets/imoji-web/avatar_builder.html
+[INTERNAL_LOG][2018-06-08 03:22:49,907][INFO][find_string()] File: assets/imoji-web/avatar_builder_beta.html
+[INTERNAL_LOG][2018-06-08 03:22:49,908][INFO][find_string()] No iframe in assets/imoji-web/avatar_builder_beta.html
+[INTERNAL_LOG][2018-06-08 03:22:49,908][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-08 03:23:18,766][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-08 03:23:18,766][INFO][find_url_in_apk()] http://schemas.android.com/apk/res/android
+https://cp.pushwoosh.com/content/%s
+https://cp.pushwoosh.com/json/1.3/
+http://cp.pushwoosh.com/json/1.3/
+http://bitmoji.com/browser/
+http://bitmoji.com/browser/section/
+https://auth.snapchat.com/oauth2/api/bitmoji
+https://www.bitmoji.com/snapchat/oauth
+https://accounts.snapchat.com
+https://accounts.snap-dev.net
+http://play.google.com/store/apps/details?id=
+https://accounts.snapchat.com/accounts/downloadmydata
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+http://hostname/?
+http://hostname/?
+https://www.googleapis.com/auth/games
+https://plus.google.com/
+https://app-measurement.com/a
+https://www.google.com
+http://www.google-analytics.com
+https://ssl.google-analytics.com
+https://api.instabug.com/api/sdk/v2
+https://api.instabug.com/api/sdk/v2
+https://settings.crashlytics.com/spi/v2/platforms/android/apps/%s/settings
+https://www.googletagmanager.com
+https://sdk.hockeyapp.net/
+https://sdk.hockeyapp.net/
+https://sdk.hockeyapp.net/
+https://sdk.hockeyapp.net/
+https://sdk.hockeyapp.net/
+https://sdk.hockeyapp.net/
+https://sdk.hockeyapp.net/
+https://sdk.hockeyapp.net/
+https://sdk.hockeyapp.net/
+https://sdk.hockeyapp.net/
+https://gate.hockeyapp.net/v2/track
+https://e.crashlytics.com/spi/v2/events
+
+[INTERNAL_LOG][2018-06-08 03:23:18,767][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-08 03:23:18,771][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-08 03:23:18,771][INFO][check_method_conf()] [Add interface WebView: False]
+
+[INTERNAL_LOG][2018-06-08 03:23:18,771][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-08 03:23:18,772][INFO][analyze_start()] End time:[Fri Jun  8 03:23:18 2018]

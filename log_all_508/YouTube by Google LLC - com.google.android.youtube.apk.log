@@ -1,0 +1,151 @@
+[INTERNAL_LOG][2018-06-08 01:35:46,355][INFO][analyze_start()] Init Time [Fri Jun  8 01:35:46 2018]
+[INTERNAL_LOG][2018-06-08 01:35:46,464][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-08 01:35:46,464][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-08 01:35:46,464][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-08 01:35:46,465][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-08 01:35:46,465][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-08 01:35:46,465][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-08 01:35:46,465][INFO][is_hybird()] android.permission.RECEIVE_BOOT_COMPLETED
+[INTERNAL_LOG][2018-06-08 01:35:46,465][INFO][is_hybird()] android.permission.MANAGE_DOCUMENTS
+[INTERNAL_LOG][2018-06-08 01:35:46,465][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-08 01:35:46,465][INFO][is_hybird()] android.permission.MANAGE_ACCOUNTS
+[INTERNAL_LOG][2018-06-08 01:35:46,465][INFO][is_hybird()] android.permission.USE_CREDENTIALS
+[INTERNAL_LOG][2018-06-08 01:35:46,465][INFO][is_hybird()] com.google.android.providers.gsf.permission.READ_GSERVICES
+[INTERNAL_LOG][2018-06-08 01:35:46,465][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-08 01:35:46,465][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-08 01:35:46,465][INFO][is_hybird()] android.permission.NFC
+[INTERNAL_LOG][2018-06-08 01:35:46,465][INFO][is_hybird()] android.permission.CAMERA
+[INTERNAL_LOG][2018-06-08 01:35:46,465][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-08 01:35:46,465][INFO][is_hybird()] com.google.android.gms.permission.AD_ID_NOTIFICATION
+[INTERNAL_LOG][2018-06-08 01:35:46,466][INFO][is_hybird()] com.google.android.youtube.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-08 01:35:46,466][INFO][is_hybird()] android.permission.GET_PACKAGE_SIZE
+[INTERNAL_LOG][2018-06-08 01:35:46,466][INFO][is_hybird()] android.permission.READ_CONTACTS
+[INTERNAL_LOG][2018-06-08 01:35:46,466][INFO][is_hybird()] android.permission.ACCESS_FINE_LOCATION
+[INTERNAL_LOG][2018-06-08 01:35:46,466][INFO][is_hybird()] android.permission.ACCESS_COARSE_LOCATION
+[INTERNAL_LOG][2018-06-08 01:35:46,466][INFO][is_hybird()] android.permission.RECORD_AUDIO
+[INTERNAL_LOG][2018-06-08 01:35:46,466][INFO][is_hybird()] android.permission.READ_PHONE_STATE
+[INTERNAL_LOG][2018-06-08 01:35:46,466][INFO][is_hybird()] android.permission.SEND_SMS
+[INTERNAL_LOG][2018-06-08 01:35:46,466][INFO][is_hybird()] android.permission.RECEIVE_SMS
+[INTERNAL_LOG][2018-06-08 01:35:46,466][INFO][is_hybird()] android.permission.SYSTEM_ALERT_WINDOW
+[INTERNAL_LOG][2018-06-08 01:35:46,466][INFO][is_hybird()] com.sec.android.provider.badge.permission.READ
+[INTERNAL_LOG][2018-06-08 01:35:46,466][INFO][is_hybird()] com.sec.android.provider.badge.permission.WRITE
+[INTERNAL_LOG][2018-06-08 01:35:46,466][INFO][is_hybird()] com.htc.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-08 01:35:46,466][INFO][is_hybird()] com.htc.launcher.permission.UPDATE_SHORTCUT
+[INTERNAL_LOG][2018-06-08 01:35:46,466][INFO][is_hybird()] com.sonyericsson.home.permission.BROADCAST_BADGE
+[INTERNAL_LOG][2018-06-08 01:35:46,466][INFO][is_hybird()] com.sonymobile.home.permission.PROVIDER_INSERT_BADGE
+[INTERNAL_LOG][2018-06-08 01:35:46,466][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-08 01:35:46,467][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-08 01:35:46,467][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-08 01:35:46,467][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-08 01:36:56,089][INFO][find_url_in_apk()] [START URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-08 01:36:56,089][INFO][find_url_in_apk()] https://accounts.google.com/o/oauth2/device/usercode?pageId=none
+https://upload.youtube.com/upload/youtubei
+
+[INTERNAL_LOG][2018-06-08 01:36:56,089][INFO][find_url_in_apk()] [END URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-08 01:36:56,513][ERROR][download_page_loaded()] Failed response code: 405 for https://upload.youtube.com/upload/youtubei  
+[INTERNAL_LOG][2018-06-08 01:36:56,515][INFO][find_string()] [START REMOTE FILE ANALYZE]
+[INTERNAL_LOG][2018-06-08 01:36:56,515][INFO][find_string()] Remote File in: temp_html_code/html_downloaded_YouTube by Google LLC - com/usercode?pageId=none
+[INTERNAL_LOG][2018-06-08 01:36:56,515][INFO][find_string()] URL: https://accounts.google.com/o/oauth2/device/usercode?pageId=none
+[INTERNAL_LOG][2018-06-08 01:36:56,526][INFO][find_string()] No iframe in temp_html_code/html_downloaded_YouTube by Google LLC - com/usercode?pageId=none
+[INTERNAL_LOG][2018-06-08 01:36:56,526][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-08 01:36:56,526][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-08 01:36:56,527][INFO][find_url_in_apk()] https://accounts.google.com
+https://accounts.google.com/o/oauth2/device/usercode?pageId=none
+https://www.youtube.com/api/lounge/screens/em
+https://www.youtube.com/api/lounge
+https://www.youtube.com/api/loungestaging
+https://www.youtube.com/api/loungesandbox
+https://www.youtube.com/api/loungedev
+https://onesievideobufferonly/videoplayback?id=
+https://youtubei.googleapis.com
+https://green-youtubei.sandbox.googleapis.com
+https://release-youtubei.sandbox.googleapis.com
+https://test-youtubei.sandbox.googleapis.com
+http://cami-youtubei.sandbox.googleapis.com
+https://uytfe.sandbox.google.com
+http://127.0.0.1:8787
+http://127.0.0.1:8787
+https://www.youtube.com/error_204
+https://gdata.youtube.com/feeds/api/playlists/(.*)
+https://www.youtube.com/watch?v=
+https://www.youtube.com/watch?v=
+https://www.youtube.com/watch?v=
+https://www.youtube.com/watch?v=
+http://play.google.com/store/apps/details
+https://support.google.com/daydream?p=daydream_help_menu
+https://google.com/cardboard/cfg
+https://csi.gstatic.com/csi
+https://csi.gstatic.com/csi
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+https://plus.google.com/
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/sdk-core-v40-impl.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/native_ads.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/native_ads.js
+https://imasdk.googleapis.com/admob/sdkloader/native_video.html
+https://www.google.com/dfp/linkDevice
+https://www.google.com/dfp/inAppPreview
+https://www.google.com/dfp/debugSignals
+https://www.google.com/dfp/sendDebugData
+http://schemas.android.com/apk/res/android
+https://www.googleapis.com/auth/youtube
+https://www.googleapis.com/auth/youtube.force-ssl
+https://www.googleapis.com/auth/plus.me
+https://www.googleapis.com/auth/plus.stream.read
+https://www.googleapis.com/auth/plus.stream.write
+https://www.googleapis.com/auth/plus.pages.manage
+https://www.googleapis.com/auth/identity.plus.page.impersonation
+http://gdata.youtube.com
+https://afimplex.appspot.com/mobile/
+https://afimplex.appspot.com/mobile/
+https://play.google.com/store/
+https://youtube.com/mobile
+http://youtube.com/mobile
+http://www.com
+https://youtubei.googleapis.com/generate_204
+http://xml.org/sax/features/namespaces
+http://xml.org/sax/features/namespace-prefixes
+https://suggestqueries.google.com
+https://support.google.com/youtube/answer/3230451
+https://support.google.com/youtube/answer/3230451
+http://dummy.googlevideo.com/videoplayback
+http://dummy.googlevideo.com/videoplayback
+http://youtube.com/streaming/metadata/segment/102015
+http://youtube.com/streaming/metadata/segment/102015
+http://www.example.com
+https://upload.youtube.com/upload/youtubei
+https://www.youtube.com/leanback_ajax?action_environment=1
+https://www.youtube-nocookie.com/device_204
+https://m.youtube.com/api/stats/atr?ns=yt&ver=2
+https://www.youtube.com/csi_204
+http://android_client.youtube.com
+https://pubads.g.doubleclick.net/activity;dc_iu=
+https://www.googleadservices.com/pagead/conversion/
+https://pubads.g.doubleclick.net/activity;xsp=
+http://plus.google.com/
+https://support.google.com/nexus/answer/2840815
+https://www.youtube.com
+https://support.google.com/youtube/answer/7568166
+https://support.google.com/accounts/answer/3118687
+https://www.youtube.com/accelerator
+https://i.ytimg.com/vi/%s/mqdefault.jpg
+http://www.google-analytics.com
+https://ssl.google-analytics.com
+https://www.googleapis.com/upload/rpc?uploadType=resumable&prettyPrint=false
+https://support.google.com/youtube/answer/2474026
+http://www.w3.org/ns/ttml#parameter
+
+[INTERNAL_LOG][2018-06-08 01:36:56,527][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-08 01:36:56,535][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-08 01:36:56,535][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-08 01:36:56,535][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-08 01:36:56,535][INFO][analyze_start()] End time:[Fri Jun  8 01:36:56 2018]

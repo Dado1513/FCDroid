@@ -1,0 +1,289 @@
+[INTERNAL_LOG][2018-06-08 03:07:48,940][INFO][analyze_start()] Init Time [Fri Jun  8 03:07:48 2018]
+[INTERNAL_LOG][2018-06-08 03:07:49,053][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-08 03:07:49,058][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-08 03:07:49,058][INFO][is_hybird()] android.permission.REQUEST_INSTALL_PACKAGES
+[INTERNAL_LOG][2018-06-08 03:07:49,058][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-08 03:07:49,058][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-08 03:07:49,058][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-08 03:07:49,058][INFO][is_hybird()] android.permission.FLASHLIGHT
+[INTERNAL_LOG][2018-06-08 03:07:49,058][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-08 03:07:49,058][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-08 03:07:49,058][INFO][is_hybird()] android.permission.MODIFY_AUDIO_SETTINGS
+[INTERNAL_LOG][2018-06-08 03:07:49,058][INFO][is_hybird()] android.permission.CHANGE_WIFI_STATE
+[INTERNAL_LOG][2018-06-08 03:07:49,058][INFO][is_hybird()] android.permission.CHANGE_CONFIGURATION
+[INTERNAL_LOG][2018-06-08 03:07:49,058][INFO][is_hybird()] android.permission.READ_SMS
+[INTERNAL_LOG][2018-06-08 03:07:49,059][INFO][is_hybird()] android.permission.RECEIVE_SMS
+[INTERNAL_LOG][2018-06-08 03:07:49,059][INFO][is_hybird()] android.permission.SEND_SMS
+[INTERNAL_LOG][2018-06-08 03:07:49,059][INFO][is_hybird()] android.permission.READ_LOGS
+[INTERNAL_LOG][2018-06-08 03:07:49,059][INFO][is_hybird()] android.permission.GET_TASKS
+[INTERNAL_LOG][2018-06-08 03:07:49,059][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-08 03:07:49,059][INFO][is_hybird()] android.permission.RECEIVE_BOOT_COMPLETED
+[INTERNAL_LOG][2018-06-08 03:07:49,059][INFO][is_hybird()] android.permission.CAMERA
+[INTERNAL_LOG][2018-06-08 03:07:49,059][INFO][is_hybird()] android.permission.READ_PHONE_STATE
+[INTERNAL_LOG][2018-06-08 03:07:49,059][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-08 03:07:49,059][INFO][is_hybird()] android.permission.RECORD_AUDIO
+[INTERNAL_LOG][2018-06-08 03:07:49,059][INFO][is_hybird()] android.permission.ACCESS_COARSE_LOCATION
+[INTERNAL_LOG][2018-06-08 03:07:49,059][INFO][is_hybird()] android.permission.BLUETOOTH
+[INTERNAL_LOG][2018-06-08 03:07:49,059][INFO][is_hybird()] android.permission.BROADCAST_STICKY
+[INTERNAL_LOG][2018-06-08 03:07:49,059][INFO][is_hybird()] android.permission.BLUETOOTH_ADMIN
+[INTERNAL_LOG][2018-06-08 03:07:49,059][INFO][is_hybird()] android.permission.READ_CONTACTS
+[INTERNAL_LOG][2018-06-08 03:07:49,059][INFO][is_hybird()] android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+[INTERNAL_LOG][2018-06-08 03:07:49,059][INFO][is_hybird()] android.permission.SYSTEM_ALERT_WINDOW
+[INTERNAL_LOG][2018-06-08 03:07:49,059][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-08 03:07:49,059][INFO][is_hybird()] sg.bigo.live.permission.MIPUSH_RECEIVE
+[INTERNAL_LOG][2018-06-08 03:07:49,059][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-08 03:07:49,059][INFO][is_hybird()] android.permission.ACCESS_FINE_LOCATION
+[INTERNAL_LOG][2018-06-08 03:07:49,059][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-08 03:07:49,059][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-08 03:07:49,059][INFO][is_hybird()] sg.bigo.live.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-08 03:07:49,059][INFO][is_hybird()] sg.bigo.live.permission.PERMISSION_SAFE_BROADCAST
+[INTERNAL_LOG][2018-06-08 03:07:49,060][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-08 03:07:49,060][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-08 03:07:49,060][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-08 03:07:49,060][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-08 03:08:58,604][INFO][find_url_in_apk()] [START URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-08 03:08:58,605][INFO][find_url_in_apk()] https://mobile.bigo.tv/live/act/coverStandard/index.html
+https://mobile.bigo.tv/live/anchor_article/index?&category_id=1&language=vn&country=in&uid=1
+
+[INTERNAL_LOG][2018-06-08 03:08:58,605][INFO][find_url_in_apk()] [END URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-08 03:09:00,104][INFO][find_string()] [START REMOTE FILE ANALYZE]
+[INTERNAL_LOG][2018-06-08 03:09:00,105][INFO][find_string()] Remote File in: temp_html_code/html_downloaded_BIGO LIVE - Live Stream by BIGO TECHNOLOGY PTE/index.html
+[INTERNAL_LOG][2018-06-08 03:09:00,105][INFO][find_string()] URL: https://mobile.bigo.tv/live/act/coverStandard/index.html
+[INTERNAL_LOG][2018-06-08 03:09:00,112][INFO][find_string()] No iframe in temp_html_code/html_downloaded_BIGO LIVE - Live Stream by BIGO TECHNOLOGY PTE/index.html
+[INTERNAL_LOG][2018-06-08 03:09:00,113][INFO][find_string()] Remote File in: temp_html_code/html_downloaded_BIGO LIVE - Live Stream by BIGO TECHNOLOGY PTE/index?&category_id=1&language=vn&country=in&uid=1
+[INTERNAL_LOG][2018-06-08 03:09:00,113][INFO][find_string()] URL: https://mobile.bigo.tv/live/anchor_article/index?&category_id=1&language=vn&country=in&uid=1
+[INTERNAL_LOG][2018-06-08 03:09:00,118][INFO][find_string()] No iframe in temp_html_code/html_downloaded_BIGO LIVE - Live Stream by BIGO TECHNOLOGY PTE/index?&category_id=1&language=vn&country=in&uid=1
+[INTERNAL_LOG][2018-06-08 03:09:00,118][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-08 03:09:00,119][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-08 03:09:00,120][INFO][find_url_in_apk()] http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+https://onelink.%s/shortlink-sdk/v1
+https://monitorsdk.%s/remote-debug?app_id=
+https://api.%s/install_data/v3/
+https://attr.%s/api/v
+https://t.%s/api/v
+https://events.%s/api/v
+https://register.%s/api/v
+https://stats.%s/stats
+https://graph-video.%s
+https://graph.%s
+https://facebook.com
+https://facebook.com/device?user_code=%1$s&qr=1
+https://www.googleapis.com/auth/games_lite
+https://www.googleapis.com/auth/games
+https://plus.google.com/
+http://localhost
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+https://www.googleapis.com/batch
+https://www.googleapis.com/
+https://www.googleapis.com/auth/youtube
+https://www.googleapis.com/auth/youtube.force-ssl
+https://www.googleapis.com/auth/youtube.readonly
+https://www.googleapis.com/auth/youtube.readonly
+https://www.googleapis.com/auth/youtube.upload
+https://www.googleapis.com/auth/youtube.upload
+https://www.googleapis.com/auth/youtubepartner
+https://www.googleapis.com/auth/youtubepartner-channel-audit
+https://query.hicloud.com/hwid/v2/CheckEx.action
+https://play.google.com/store/apps/details?id=com.huawei.hwid
+http://cgicol.amap.com/collection/writedata?ver=v1.0_ali&
+http://apilocate.amap.com/mobile/binary?output=json
+http://abroad.apilocate.amap.com/mobile/binary?output=json
+https://restapi.amap.com/v3/iasdkauth
+http://restapi.amap.com
+http://logs.amap.com/ws/log/upload?product=%s&type=%s&platform=%s&channel=%s&sign=%s
+http://123.150.182.233:8080/httpdns/request
+http://211.103.82.251:8080/httpdns/request
+http://111.161.46.159:8080/httpdns/request
+http://sdk.payment.9game.com/sdk/logv3.htm
+http://sdk.payment.9game.com/sdk/logv3.htm
+https://api-ad.sensetime.com
+https://api.deep-ad.com
+https://api-ad-test.sensetime.com
+https://log.deep-ad.com/sensear/logreport
+https://log-ad-test.sensetime.com/sensear/logreport
+https://log-ad.sensetime.com/sensear/logreport
+https://api.twitter.com
+https://syndication.twitter.com
+https://twitter.com/intent/tweet?text=%s&url=%s
+http://vk.com/images/community_50.gif
+http://vk.com/images/community_100.gif
+http://vk.com/images/s_noalbum.png
+http://vk.com/images/m_noalbum.png
+http://vk.com/images/x_noalbum.png
+http://vk.com/images/camera_c.gif
+http://vk.com/images/camera_c.gif
+http://vk.com/images/camera_c.gif
+http://vk.com/images/camera_b.gif
+http://vk.com/images/camera_b.gif
+http://vk.com/images/camera_b.gif
+http://vk.com/images/camera_a.gif
+http://vk.com/images/camera_a.gif
+http://vk.com/images/camera_a.gif
+https://oauth.vk.com/blank.html
+https://oauth.vk.com/blank.html
+https://oauth.vk.com/authorize?client_id=%s&scope=%s&redirect_uri=%s&display=mobile&v=%s&response_type=token&revoke=%d
+http://resolver.msg.xiaomi.net/psc/?t=a
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+http://data.hicloud.com:8089/sdkv2
+https://hdcrash.hiido.com/hdcrash/UploadServlet
+http://ylog.hiido.com/c.gif
+https://config.hiido.com/api/upload
+https://config.hiido.com/api/upload
+https://config.hiido.com/api/upload
+https://config.hiido.com/
+https://config.hiido.com/
+https://dl.dropboxusercontent.com/spa/raj2x91fswa1hn0/share/public/ip.en
+https://bigogithub.github.io/ip.en
+http://crash.bigo.sg:8000/logs/upload_log.php?cookie=
+http://crash.bigo.sg:8000/logs/upload_log.php?cookie=
+http://crash.bigo.sg:8000/logs/upload_log.php?cookie=null&appId=
+http://www.bigo.sg/mobile_bigolive.html
+http://flag.bigo.sg/
+http://fscalldev.bigolive.tv/FileUploadDownload/upload_fbs2.php?cookie=
+http://fs.calldev.bigo.sg/FileUploadDownload/upload_oat.php?cookie=
+http://fs.calldev.bigo.sg/FileUploadDownload/upload_fbs2.php?cookie=
+http://fs.calldev.bigo.sg/FileUploadDownload/upload_fbs2.php?cookie=
+http://snapshot.calldev.bigo.sg/FileUploadDownload/upload_video_snapshot.php?cookie=
+http://data.calldev.bigo.sg/Statistic/statistic.php?signature=
+http://api.bigo.sg/http2yy
+http://api.bigo.sg/http2yy
+http://svideo_huidu.bigo.sg/http2yy
+https://mobile.bigo.tv/live/payNew?
+https://bigotest-mobile.bigo.tv/live/payNew?
+http://crash.bigo.sg
+https://svideo.bigo.sg/http2yy
+https://svideo.bigo.sg/http2yy
+https://svideo.bigo.sg/http2yy
+https://svideo.bigo.sg/http2yy
+https://svideo.bigo.sg/http2yy
+https://svideo.bigo.sg/http2yy
+https://svideo.bigo.sg/http2yy
+https://svideo.bigo.sg/http2yy
+https://svideo.bigo.sg/http2yy
+https://svideo.bigo.sg/http2yy
+https://svideo.bigo.sg/http2yy
+http://ip.taobao.com/service/getIpInfo.php?ip=myip
+https://activity.bigo.tv/live/act/act_liveQuality/index.html
+https://mobile.bigo.tv/live/act/bigo_anchor_growUp/dist/index.html
+https://mobile.bigo.tv/live/act/bigo_anchor_growUp/dist/index.html
+https://mobile.bigo.tv/live/act/act_1v1hostApplication/index.html
+https://mobile.bigo.tv/live/act/act_1v1hostApplication/index.html
+https://www.facebook.com/bigoliveapp/
+https://www.facebook.com/bigoliveapp/
+https://bigotest-mobile.bigo.tv/live/user/level
+https://mobile.bigo.tv/live/user/level
+https://bigotest-mobile.bigo.tv/live/user/feedback
+https://mobile.bigo.tv/live/user/feedback
+https://mobile.bigo.tv/live/user/feedback
+https://mobile.bigo.tv/live/user/feedback
+https://mobile.bigo.tv/live/user/feedback
+https://huidu-mobile.bigo.tv/live/anchor/startSigned
+https://mobile.bigo.tv/live/anchor/signed
+http://121.11.65.96:9090/adlist
+http://hotroom.live.bigo.sg/adlist
+https://mobile.bigo.tv/live/rule_en.html
+https://mobile.bigo.tv/live/act/coverStandard/index.html
+https://activity.bigo.tv/live/act/AndroidTeach/html/index.html?phone=
+https://activity.bigo.tv/live/act/act_millionWinners/index.html?uid=
+https://activity.bigo.tv/live/act/act_8115/index.html
+https://mobile.bigo.tv/live/bean_rank/broadcaster_rewards
+https://mobile.bigo.tv/live/bean_rank/broadcaster_rewards
+https://www.bigo.tv/
+http://www.bigo.tv?
+https://activity.bigo.tv/live/giftconfig/gray
+https://bgtest-activity.bigo.tv/live/giftconfig/package
+https://bgtest-activity.bigo.tv/live/giftconfig/index
+https://mobile.bigo.tv/live/giftconfig/index
+https://mobile.bigo.tv/live/giftconfig/package
+https://mobile.bigo.tv/live/staticPages/boxAlertHelp_star
+https://mobile.bigo.tv/live/staticPages/boxAlertHelp
+https://activity.bigo.tv/live/act/bigo_goodLuckGift5885/index.html
+https://activity.bigo.tv/live/act/bigo_goodLuckGift5885/index.html
+https://mobile.bigo.tv/live/act/silver_coin_guessing/rules.html
+https://mobile.bigo.tv/live/act/silver_coin_guessing/record.html
+https://mobile.bigo.tv/live/act/bigo_ourtime/bigo_ourtimeStatic.html?isAnchor=1
+https://mobile.bigo.tv/live/act/bigo_ourtime/bigo_ourtimeStatic.html?isAnchor=2
+https://mobile.bigo.tv/live/act/bigo_ourtime/feedback.html
+http://esx.bigo.sg/live/g1/M0A/08/16/LXz8F1oVT22IbSMeADVIENNDGsQAAMnwAAdttsANUgo5920156
+https://mobile.bigo.tv/live/act/anchor_homepage/html/info.html
+https://mobile.bigo.tv/live/act/anchor_homepage/html/info.html
+https://play.google.com/store/apps/details?id=
+http://maps.googleapis.com/maps/api/geocode/json?latlng=%1$f,%2$f&sensor=true&language=%3$s
+https://mobile.bigo.tv/live/user/homeFeedback?device=
+https://mobile.bigo.tv/live/act/Chram_point/chram_point_privilege.html
+https://play.google.com/store/apps/details?id=sg.bigo.live
+https://mobile.bigo.tv/live/act/bigo_ourtime/bigo_ourtime.html?isAnchor=1
+https://mobile.bigo.tv/live/act/bigo_ourtime/bigo_ourtime.html?isAnchor=2
+http://bigotest-mobile.bigo.tv/live/pay/jiuyou/callback
+http://mobile.bigo.tv/live/pay/jiuyou/callback
+https://activity.bigo.tv/live/act/bigo_live_match/dist/index2.html
+https://activity.bigo.tv/live/act/bigo_live_match/dist/index.html
+http://protostats.bigo.sg
+http://protostats.bigo.sg
+https://mobile.bigo.tv/live/act/bigo_notice/dist/notice.html?date=
+https://mobile.bigo.tv/live/bean_rank/view_rewards
+https://mobile.bigo.tv/live/bean_rank?uid=
+https://bgtest-activity.bigo.tv/live/giftconfig/get_activies_config
+https://mobile.bigo.tv/live/giftconfig/get_activies_config
+http://hotroom.live.bigo.sg/homepage?
+http://103.211.231.161/homepage?
+https://bigotest-mobile.bigo.tv/live/anchor_daily/?token=test
+https://mobile.bigo.tv/live/anchor_daily?uid=
+https://activity.bigo.tv/live/act/act_7079/index.html?country=
+https://activity.bigo.tv/live/act/act_7079/index.html?country=
+https://activity.bigo.tv/assets/user/person_helper.html
+http://app.ad.sensetime.com
+http://bigotest-mobile.bigo.tv/live/about
+https://mobile.bigo.tv/live/about/index
+https://mobile.bigo.tv/live/translate_help.html
+https://mobile.bigo.tv
+https://bggray-mobile.bigo.tv
+https://mobile.bigo.tv/live/profit/coins?
+http://huidu-mobile.bigo.tv/live/profit/coins?
+https://mobile.bigo.tv/live/profit/index?
+https://bigotest-mobile.bigo.tv/live/profit?
+https://twitter.com/
+https://twitter.com/
+https://youtube.com/channel/
+https://youtube.com/channel/
+https://instagram.com/_u/
+https://instagram.com/_u/
+https://mobile.bigo.tv/assets/live/img/logo_150.png
+https://mobile.bigo.tv/live/act/recruiting.html
+https://activity.bigo.tv/live/act/act_6900/index.html
+https://mobile.bigo.tv/live/anchor_article/index?&category_id=1&language=vn&country=in&uid=1
+https://web-pay.line.me
+https://web-pay.line.me
+http://market.android.com
+https://market.android.com
+http://m.ahnlab.com/kr/site/download
+https://m.ahnlab.com/kr/site/download
+https://uc.bigo.tv/?u=
+http://activity.bigo.tv/live/act/bigo_gameLead/dist/index.html
+http://weihuialert.yy.com
+https://support0.bigo.sg/stats
+http://221.5.111.155:9210/stats
+https://www.instagram.com/
+https://www.instagram.com/
+https://www.googleapis.com/upload/youtube/v3/videos?uploadType=
+https://twitter.com/intent/tweet?text=%s
+https://api.instagram.com/oauth/access_token
+https://api.instagram.com/oauth/authorize/?client_id=2b96416fd11d46249f47fd4813eb7a71&redirect_uri=instagram://connect&response_type=code
+
+[INTERNAL_LOG][2018-06-08 03:09:00,121][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-08 03:09:00,129][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-08 03:09:00,129][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-08 03:09:00,130][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-08 03:09:00,130][INFO][analyze_start()] End time:[Fri Jun  8 03:09:00 2018]

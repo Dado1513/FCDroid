@@ -64,6 +64,7 @@ class MyAPK:
         self.javascript_interface = False
         self.javascript_file = dict()
         self.__find_js_file()
+        self.src_iframe = dict()
     
     def __find_html_file(self):
         
@@ -74,8 +75,8 @@ class MyAPK:
 
     def __find_js_file(self):
         r = re.compile(".*js$")  # solo i file .js
-        list_html_file = filter(r.match,self.list_file)
-        for temp in list_html_file:
+        list_js_file = filter(r.match,self.list_file)
+        for temp in list_js_file:
             self.javascript_file[temp] = True # true that mean inside apk
 
     def read(self, filename, binary=True):
@@ -211,15 +212,20 @@ class MyAPK:
                 soup = BeautifulSoup(file_read,'lxml')
                 find_iframe = False
                 list_row_string = []
+                list_src_iframe = []
 
                 try:
                     if self.search_tag: 
                         list_tag = soup.findAll(self.string_to_find)
                         file_line = file_read.split("\n")
                         for name_tag in list_tag:
+                            if name_tag["src"] is not None:
+                                list_src_iframe.append(name_tag["src"])
+                            
                             find_iframe = True
                             list_row_string.append(name_tag)
-                    
+
+                            
                     else:
                         file_line = file_read.split("\n")
                         for (counter,value) in enumerate(file_line):
@@ -229,14 +235,15 @@ class MyAPK:
 
                     if find_iframe and self.string_to_find == "iframe":
                         self.dict_file_with_string[file_to_inspect] = list_row_string
-                        
+                        self.src_iframe[file_to_inspect] = list_src_iframe
                         if not self.search_tag:
                             print(bcolors.FAIL+"Found "+self.string_to_find+" in line "+str(list_row_string)+bcolors.ENDC)  
-                            self.logger.logger.info("Found tsg %s file %s in line %s",self.string_to_find,file_to_inspect,str(list_row_string)) 
+                            self.logger.logger.info("Found  %s file %s in line %s",self.string_to_find,file_to_inspect,str(list_row_string)) 
                         else:
                             print(bcolors.FAIL+"Found tag "+self.string_to_find +",  "+str(len(list_row_string)) +" times "+bcolors.ENDC)
                             self.logger.logger.info("Found in file %s tag %s , %s times",file_to_inspect,self.string_to_find,str(len(list_row_string)) )
-                        
+                            self.logger.logger.info("Founded this src {0} in iframe tag inside file {1}".format(str(self.src_iframe[file_to_inspect]),file_to_inspect))
+
                         # TODO aggiungere il content e fare conclusioni su di esso
                         find_csp  = soup.find("meta",{"http-equiv":"Content-Security-Policy"})
                         if find_csp is not None:

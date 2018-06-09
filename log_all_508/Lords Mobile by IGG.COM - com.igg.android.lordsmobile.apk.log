@@ -1,0 +1,184 @@
+[INTERNAL_LOG][2018-06-08 02:13:29,005][INFO][analyze_start()] Init Time [Fri Jun  8 02:13:29 2018]
+[INTERNAL_LOG][2018-06-08 02:13:29,036][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-08 02:13:29,037][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-08 02:13:29,037][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-08 02:13:29,037][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-08 02:13:29,037][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-08 02:13:29,037][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-08 02:13:29,037][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-08 02:13:29,037][INFO][is_hybird()] android.permission.GET_TASKS
+[INTERNAL_LOG][2018-06-08 02:13:29,037][INFO][is_hybird()] android.permission.USE_CREDENTIALS
+[INTERNAL_LOG][2018-06-08 02:13:29,037][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-08 02:13:29,038][INFO][is_hybird()] com.igg.android.lordsmobile.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-08 02:13:29,038][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-08 02:13:29,038][INFO][is_hybird()] com.android.vending.CHECK_LICENSE
+[INTERNAL_LOG][2018-06-08 02:13:29,038][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-08 02:13:29,038][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-08 02:13:29,038][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-08 02:13:29,038][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-08 02:13:29,038][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-08 02:13:58,317][INFO][find_url_in_apk()] [START URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-08 02:13:58,317][INFO][find_url_in_apk()] http://www.google.com
+
+[INTERNAL_LOG][2018-06-08 02:13:58,317][INFO][find_url_in_apk()] [END URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-08 02:13:58,442][INFO][find_string()] [START REMOTE FILE ANALYZE]
+[INTERNAL_LOG][2018-06-08 02:13:58,442][INFO][find_string()] Remote File in: temp_html_code/html_downloaded_Lords Mobile by IGG/www.google.com
+[INTERNAL_LOG][2018-06-08 02:13:58,443][INFO][find_string()] URL: http://www.google.com
+[INTERNAL_LOG][2018-06-08 02:13:58,443][ERROR][find_string()] Error unicode error 'utf-8' codec can't decode byte 0xe0 in position 8004: invalid continuation byte
+[INTERNAL_LOG][2018-06-08 02:13:58,443][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-08 02:13:58,444][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-08 02:13:58,444][INFO][find_url_in_apk()] http://schemas.android.com/apk/res/android
+https://sdk-services.appsflyer.com/validate-android-signature
+https://api.appsflyer.com/install_data/v3/
+https://t.appsflyer.com/api/v
+https://events.appsflyer.com/api/v
+https://register.appsflyer.com/api/v
+https://stats.appsflyer.com/stats
+https://graph.%s
+https://graph-video.%s
+https://facebook.com
+http://play.google.com/store/apps/details?id=com.facebook.orca
+http://hostname/?
+http://hostname/?
+http://www.google-analytics.com
+https://ssl.google-analytics.com
+https://accounts.google.com
+https://accounts.google.com
+https://www.facebook.com
+https://www.facebook.com
+https://www.googleapis.com/auth/plus.me
+https://www.googleapis.com/auth/plus.me
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games
+http://plus.google.com/
+https://www.googleapis.com/auth/drive.file
+https://www.googleapis.com/auth/drive.appdata
+https://www.googleapis.com/auth/drive
+https://www.googleapis.com/auth/drive.apps
+https://www.googleapis.com/auth/fitness.activity.read
+https://www.googleapis.com/auth/fitness.activity.read
+https://www.googleapis.com/auth/fitness.activity.write
+https://www.googleapis.com/auth/fitness.activity.write
+https://www.googleapis.com/auth/fitness.location.read
+https://www.googleapis.com/auth/fitness.location.read
+https://www.googleapis.com/auth/fitness.location.write
+https://www.googleapis.com/auth/fitness.location.write
+https://www.googleapis.com/auth/fitness.body.read
+https://www.googleapis.com/auth/fitness.body.read
+https://www.googleapis.com/auth/fitness.body.write
+https://www.googleapis.com/auth/fitness.body.write
+https://www.googleapis.com/auth/fitness.nutrition.read
+https://www.googleapis.com/auth/fitness.nutrition.read
+https://www.googleapis.com/auth/fitness.nutrition.write
+https://www.googleapis.com/auth/fitness.nutrition.write
+https://www.googleapis.com/auth/games.firstparty
+https://www.googleapis.com/auth/games.firstparty
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://csi.gstatic.com/csi
+http://www.google.com
+http://www.google.com
+http://www.google.com
+https://app-measurement.com/a
+https://www.googleapis.com/auth/plus.login
+http://schemas.android.com/apk/lib/com.google.android.gms.plus
+http://schemas.android.com/apk/lib/com.google.android.gms.plus
+https://www.googletagmanager.com
+http://gamelive.wegamers.com/views/instrolist.html?
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+http://developers.facebook.com/android
+http://lordsmobile.igg.com/event/deep_link/?from=phone&game_id=
+http://lo.tw.igg.com/event/cdkey/?from=phone&game_id=
+http://pay-fb.igg.com/platform_mixing/?g_id=
+http://goto-tw.igg.com/game/service/
+http://goto.igg.com/game/livechat/
+http://goto.igg.com/game/livechat/
+http://goto-sg.igg.com/game/livechat/
+http://goto-sg.igg.com/game/livechat/
+https://www.facebook.com/ClashofGangs
+https://www.facebook.com/ClashofGangs
+http://www.igg.com/about/privacy_policy.php
+http://www.igg.com/about/privacy_policy.php
+http://www.igg.com/member/agreement.php
+http://www.igg.com/member/agreement.php
+http://cog-snd.igg.com/shop.php?g_id=%s&signed_key=%s
+http://cog-snd.igg.com/shop.php?g_id=%s&signed_key=%s
+http://snd-storage.igg.com/
+http://tw-storage.igg.com/
+http://sg-storage.igg.com/
+http://nl-storage.igg.com/
+http://goto.fantasyplus.game.tw
+http://goto.igg.com
+http://pay.skyunion.com/alipay_mobile/create_order.php
+http://config.m.176.com
+http://config.m.176.com
+http://config-snd.igg.com
+http://config.igg.com
+http://dkv3ys1ydcyet.cloudfront.net
+http://cgi.m.176.com:9000
+http://cgi.fantasyplus.game.tw:9000
+http://cgi.igg.com:9000
+http://crm.igg.com
+http://crm.m.176.com
+http://crm
+http://crm-nl.
+http://crm-snd.igg.com
+http://push.m.176.com
+http://push.fantasyplus.game.tw
+http://push.igg.com
+http://pay.skyunion.com/
+http://pay-app.igg.com/
+http://pay.m.176.com/api/get_game_card.php
+http://pay.fantasyplus.game.tw/api/get_game_card.php
+http://pay-fb.igg.com/api/get_game_card.php
+http://pay.skyunion.com/mycard/get_transaction.php
+http://pay.skyunion.com/bluemobile/get_transaction.php
+http://translate.igg.com/api/translate.php
+http://translate-tw.igg.com/api/translate.php
+http://translate-sg.igg.com/api/translate.php
+http://translate-eu.igg.com/api/translate.php
+http://login.m.igg.com/
+http://pay.skyunion.com/wechat/create_order.php
+http://collect.snd.fantasyplus.game.tw/bugcollect.php
+http://collect.snd.igg.com/bugcollect.php
+http://collect.fantasyplus.game.tw/bugcollect.php
+http://collect.tw.igg.com/bugcollect.php
+http://collect.sg.fantasyplus.game.tw/bugcollect.php
+http://collect.sg.igg.com/bugcollect.php
+http://collect.nl.fantasyplus.game.tw/bugcollect.php
+http://collect.nl.igg.com/bugcollect.php
+http://collect.snd.fantasyplus.game.tw/adlog.php
+http://collect.snd.igg.com/adlog.php
+http://collect.fantasyplus.game.tw/adlog.php
+http://collect.tw.igg.com/adlog.php
+http://collect.sg.fantasyplus.game.tw/adlog.php
+http://collect.sg.igg.com/adlog.php
+http://collect.nl.fantasyplus.game.tw/adlog.php
+http://collect.nl.igg.com/adlog.php
+http://collect.snd.fantasyplus.game.tw/loginlog.php
+http://collect.snd.igg.com/loginlog.php
+http://collect.fantasyplus.game.tw/loginlog.php
+http://collect.tw.igg.com/loginlog.php
+http://collect.sg.fantasyplus.game.tw/loginlog.php
+http://collect.sg.igg.com/loginlog.php
+http://collect.nl.fantasyplus.game.tw/loginlog.php
+http://collect.nl.igg.com/loginlog.php
+http://app-promotion.fantasyplus.game.tw
+http://app-promotion.igg.com
+http://login.m.igg.com/auth
+
+[INTERNAL_LOG][2018-06-08 02:13:58,445][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-08 02:13:58,461][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-08 02:13:58,462][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-08 02:13:58,462][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-08 02:13:58,462][INFO][analyze_start()] End time:[Fri Jun  8 02:13:58 2018]

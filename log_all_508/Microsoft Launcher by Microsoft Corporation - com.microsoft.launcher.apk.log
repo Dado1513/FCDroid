@@ -1,0 +1,959 @@
+[INTERNAL_LOG][2018-06-07 21:22:06,884][INFO][analyze_start()] Init Time [Thu Jun  7 21:22:06 2018]
+[INTERNAL_LOG][2018-06-07 21:22:07,007][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-07 21:22:07,012][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-07 21:22:07,012][INFO][is_hybird()] android.permission.NFC
+[INTERNAL_LOG][2018-06-07 21:22:07,012][INFO][is_hybird()] android.permission.READ_CALENDAR
+[INTERNAL_LOG][2018-06-07 21:22:07,012][INFO][is_hybird()] com.microsoft.launcher.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-07 21:22:07,012][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-07 21:22:07,012][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-07 21:22:07,012][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-07 21:22:07,012][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-07 21:22:07,012][INFO][is_hybird()] android.permission.PROCESS_OUTGOING_CALLS
+[INTERNAL_LOG][2018-06-07 21:22:07,012][INFO][is_hybird()] android.permission.READ_PROFILE
+[INTERNAL_LOG][2018-06-07 21:22:07,012][INFO][is_hybird()] android.permission.RECEIVE_SMS
+[INTERNAL_LOG][2018-06-07 21:22:07,012][INFO][is_hybird()] android.permission.RECEIVE_MMS
+[INTERNAL_LOG][2018-06-07 21:22:07,013][INFO][is_hybird()] android.permission.CALL_PHONE
+[INTERNAL_LOG][2018-06-07 21:22:07,013][INFO][is_hybird()] android.permission.SET_WALLPAPER
+[INTERNAL_LOG][2018-06-07 21:22:07,013][INFO][is_hybird()] android.permission.SET_WALLPAPER_HINTS
+[INTERNAL_LOG][2018-06-07 21:22:07,013][INFO][is_hybird()] android.permission.BIND_APPWIDGET
+[INTERNAL_LOG][2018-06-07 21:22:07,013][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-07 21:22:07,013][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-07 21:22:07,013][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-07 21:22:07,013][INFO][is_hybird()] android.permission.DOWNLOAD_WITHOUT_NOTIFICATION
+[INTERNAL_LOG][2018-06-07 21:22:07,013][INFO][is_hybird()] android.permission.READ_CONTACTS
+[INTERNAL_LOG][2018-06-07 21:22:07,013][INFO][is_hybird()] android.permission.GET_TASKS
+[INTERNAL_LOG][2018-06-07 21:22:07,013][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-07 21:22:07,013][INFO][is_hybird()] android.permission.READ_CALL_LOG
+[INTERNAL_LOG][2018-06-07 21:22:07,013][INFO][is_hybird()] android.permission.READ_SMS
+[INTERNAL_LOG][2018-06-07 21:22:07,013][INFO][is_hybird()] android.permission.READ_PHONE_STATE
+[INTERNAL_LOG][2018-06-07 21:22:07,013][INFO][is_hybird()] android.permission.PACKAGE_USAGE_STATS
+[INTERNAL_LOG][2018-06-07 21:22:07,013][INFO][is_hybird()] android.permission.CHANGE_WIFI_STATE
+[INTERNAL_LOG][2018-06-07 21:22:07,013][INFO][is_hybird()] android.permission.BLUETOOTH
+[INTERNAL_LOG][2018-06-07 21:22:07,013][INFO][is_hybird()] android.permission.BLUETOOTH_ADMIN
+[INTERNAL_LOG][2018-06-07 21:22:07,013][INFO][is_hybird()] android.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-07 21:22:07,013][INFO][is_hybird()] android.permission.FLASHLIGHT
+[INTERNAL_LOG][2018-06-07 21:22:07,014][INFO][is_hybird()] android.permission.CAMERA
+[INTERNAL_LOG][2018-06-07 21:22:07,014][INFO][is_hybird()] android.permission.CHANGE_NETWORK_STATE
+[INTERNAL_LOG][2018-06-07 21:22:07,014][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-07 21:22:07,014][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-07 21:22:07,014][INFO][is_hybird()] android.permission.ACCESS_FINE_LOCATION
+[INTERNAL_LOG][2018-06-07 21:22:07,014][INFO][is_hybird()] com.android.alarm.permission.SET_ALARM
+[INTERNAL_LOG][2018-06-07 21:22:07,014][INFO][is_hybird()] android.permission.SYSTEM_ALERT_WINDOW
+[INTERNAL_LOG][2018-06-07 21:22:07,014][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-07 21:22:07,014][INFO][is_hybird()] android.permission.ACCESS_COARSE_LOCATION
+[INTERNAL_LOG][2018-06-07 21:22:07,014][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-07 21:22:07,014][INFO][is_hybird()] com.htc.permission.APP_PLATFORM
+[INTERNAL_LOG][2018-06-07 21:22:07,014][INFO][is_hybird()] android.permission.RECEIVE_BOOT_COMPLETED
+[INTERNAL_LOG][2018-06-07 21:22:07,014][INFO][is_hybird()] com.huawei.android.totemweather.permission.ACCESS_WEATHERCLOCK_PROVIDER
+[INTERNAL_LOG][2018-06-07 21:22:07,014][INFO][is_hybird()] huawei.android.permission.HW_SIGNATURE_OR_SYSTEM
+[INTERNAL_LOG][2018-06-07 21:22:07,014][INFO][is_hybird()] android.permission.ACCESS_WEATHERCLOCK_PROVIDER
+[INTERNAL_LOG][2018-06-07 21:22:07,014][INFO][is_hybird()] android.permission.WRITE_CONTACTS
+[INTERNAL_LOG][2018-06-07 21:22:07,014][INFO][is_hybird()] com.sec.android.provider.badge.permission.READ
+[INTERNAL_LOG][2018-06-07 21:22:07,014][INFO][is_hybird()] com.sec.android.provider.badge.permission.WRITE
+[INTERNAL_LOG][2018-06-07 21:22:07,014][INFO][is_hybird()] android.permission.KILL_BACKGROUND_PROCESSES
+[INTERNAL_LOG][2018-06-07 21:22:07,015][INFO][is_hybird()] android.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-07 21:22:07,015][INFO][is_hybird()] android.permission.WRITE_SECURE_SETTINGS
+[INTERNAL_LOG][2018-06-07 21:22:07,015][INFO][is_hybird()] android.permission.MANAGE_ACCOUNTS
+[INTERNAL_LOG][2018-06-07 21:22:07,015][INFO][is_hybird()] android.permission.USE_CREDENTIALS
+[INTERNAL_LOG][2018-06-07 21:22:07,015][INFO][is_hybird()] android.permission.STATUS_BAR
+[INTERNAL_LOG][2018-06-07 21:22:07,015][INFO][is_hybird()] android.permission.EXPAND_STATUS_BAR
+[INTERNAL_LOG][2018-06-07 21:22:07,015][INFO][is_hybird()] android.permission.ACCESS_NOTIFICATION_POLICY
+[INTERNAL_LOG][2018-06-07 21:22:07,015][INFO][is_hybird()] com.android.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-07 21:22:07,015][INFO][is_hybird()] com.android.launcher2.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-07 21:22:07,015][INFO][is_hybird()] com.android.launcher3.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-07 21:22:07,015][INFO][is_hybird()] com.anddoes.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-07 21:22:07,015][INFO][is_hybird()] com.yandex.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-07 21:22:07,015][INFO][is_hybird()] com.htc.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-07 21:22:07,015][INFO][is_hybird()] com.google.android.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-07 21:22:07,015][INFO][is_hybird()] com.cyanogenmod.trebuchet.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-07 21:22:07,015][INFO][is_hybird()] com.teslacoilsw.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-07 21:22:07,015][INFO][is_hybird()] com.android.launcher.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-07 21:22:07,015][INFO][is_hybird()] com.google.android.apps.nexuslauncher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-07 21:22:07,015][INFO][is_hybird()] com.lge.launcher3.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-07 21:22:07,015][INFO][is_hybird()] com.actionlauncher.playstore.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-07 21:22:07,016][INFO][is_hybird()] com.samsung.android.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-07 21:22:07,016][INFO][is_hybird()] android.permission.ACCESS_WEATHERCLOCK_PROVIDER
+[INTERNAL_LOG][2018-06-07 21:22:07,016][INFO][is_hybird()] com.huawei.android.totemweather.permission.ACCESS_WEATHERCLOCK_PROVIDER
+[INTERNAL_LOG][2018-06-07 21:22:07,016][INFO][is_hybird()] com.google.android.gms.permission.ACTIVITY_RECOGNITION
+[INTERNAL_LOG][2018-06-07 21:22:07,016][INFO][is_hybird()] com.sony.mobile.permission.SYSTEM_UI_VISIBILITY_EXTENSION
+[INTERNAL_LOG][2018-06-07 21:22:07,016][INFO][is_hybird()] com.android.browser.permission.READ_HISTORY_BOOKMARKS
+[INTERNAL_LOG][2018-06-07 21:22:07,016][INFO][is_hybird()] android.permission.RECORD_AUDIO
+[INTERNAL_LOG][2018-06-07 21:22:07,016][INFO][is_hybird()] android.permission.AUTHENTICATE_ACCOUNTS
+[INTERNAL_LOG][2018-06-07 21:22:07,016][INFO][is_hybird()] android.permission.WRITE_CALENDAR
+[INTERNAL_LOG][2018-06-07 21:22:07,016][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-07 21:22:07,016][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-07 21:22:07,016][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-07 21:22:07,034][INFO][find_string()] File: assets/api/bingmap.html
+[INTERNAL_LOG][2018-06-07 21:22:07,081][INFO][find_string()] No iframe in assets/api/bingmap.html
+[INTERNAL_LOG][2018-06-07 21:22:07,081][INFO][find_string()] File: assets/html-de/about1d.html
+[INTERNAL_LOG][2018-06-07 21:22:07,085][INFO][find_string()] No iframe in assets/html-de/about1d.html
+[INTERNAL_LOG][2018-06-07 21:22:07,085][INFO][find_string()] File: assets/html-de/about2d.html
+[INTERNAL_LOG][2018-06-07 21:22:07,087][INFO][find_string()] No iframe in assets/html-de/about2d.html
+[INTERNAL_LOG][2018-06-07 21:22:07,087][INFO][find_string()] File: assets/html-de/index.html
+[INTERNAL_LOG][2018-06-07 21:22:07,089][INFO][find_string()] No iframe in assets/html-de/index.html
+[INTERNAL_LOG][2018-06-07 21:22:07,089][INFO][find_string()] File: assets/html-de/license.html
+[INTERNAL_LOG][2018-06-07 21:22:07,090][INFO][find_string()] No iframe in assets/html-de/license.html
+[INTERNAL_LOG][2018-06-07 21:22:07,090][INFO][find_string()] File: assets/html-de/scanning.html
+[INTERNAL_LOG][2018-06-07 21:22:07,091][INFO][find_string()] No iframe in assets/html-de/scanning.html
+[INTERNAL_LOG][2018-06-07 21:22:07,092][INFO][find_string()] File: assets/html-de/sharing.html
+[INTERNAL_LOG][2018-06-07 21:22:07,092][INFO][find_string()] No iframe in assets/html-de/sharing.html
+[INTERNAL_LOG][2018-06-07 21:22:07,092][INFO][find_string()] File: assets/html-de/whatsnew.html
+[INTERNAL_LOG][2018-06-07 21:22:07,093][INFO][find_string()] No iframe in assets/html-de/whatsnew.html
+[INTERNAL_LOG][2018-06-07 21:22:07,093][INFO][find_string()] File: assets/html-en/about1d.html
+[INTERNAL_LOG][2018-06-07 21:22:07,094][INFO][find_string()] No iframe in assets/html-en/about1d.html
+[INTERNAL_LOG][2018-06-07 21:22:07,094][INFO][find_string()] File: assets/html-en/about2d.html
+[INTERNAL_LOG][2018-06-07 21:22:07,096][INFO][find_string()] No iframe in assets/html-en/about2d.html
+[INTERNAL_LOG][2018-06-07 21:22:07,096][INFO][find_string()] File: assets/html-en/index.html
+[INTERNAL_LOG][2018-06-07 21:22:07,097][INFO][find_string()] No iframe in assets/html-en/index.html
+[INTERNAL_LOG][2018-06-07 21:22:07,097][INFO][find_string()] File: assets/html-en/license.html
+[INTERNAL_LOG][2018-06-07 21:22:07,098][INFO][find_string()] No iframe in assets/html-en/license.html
+[INTERNAL_LOG][2018-06-07 21:22:07,098][INFO][find_string()] File: assets/html-en/scanning.html
+[INTERNAL_LOG][2018-06-07 21:22:07,100][INFO][find_string()] No iframe in assets/html-en/scanning.html
+[INTERNAL_LOG][2018-06-07 21:22:07,101][INFO][find_string()] File: assets/html-en/sharing.html
+[INTERNAL_LOG][2018-06-07 21:22:07,101][INFO][find_string()] No iframe in assets/html-en/sharing.html
+[INTERNAL_LOG][2018-06-07 21:22:07,102][INFO][find_string()] File: assets/html-en/whatsnew.html
+[INTERNAL_LOG][2018-06-07 21:22:07,102][INFO][find_string()] No iframe in assets/html-en/whatsnew.html
+[INTERNAL_LOG][2018-06-07 21:22:07,102][INFO][find_string()] File: assets/html-es/about1d.html
+[INTERNAL_LOG][2018-06-07 21:22:07,103][INFO][find_string()] No iframe in assets/html-es/about1d.html
+[INTERNAL_LOG][2018-06-07 21:22:07,103][INFO][find_string()] File: assets/html-es/about2d.html
+[INTERNAL_LOG][2018-06-07 21:22:07,105][INFO][find_string()] No iframe in assets/html-es/about2d.html
+[INTERNAL_LOG][2018-06-07 21:22:07,105][INFO][find_string()] File: assets/html-es/index.html
+[INTERNAL_LOG][2018-06-07 21:22:07,106][INFO][find_string()] No iframe in assets/html-es/index.html
+[INTERNAL_LOG][2018-06-07 21:22:07,107][INFO][find_string()] File: assets/html-es/license.html
+[INTERNAL_LOG][2018-06-07 21:22:07,109][INFO][find_string()] No iframe in assets/html-es/license.html
+[INTERNAL_LOG][2018-06-07 21:22:07,109][INFO][find_string()] File: assets/html-es/scanning.html
+[INTERNAL_LOG][2018-06-07 21:22:07,111][INFO][find_string()] No iframe in assets/html-es/scanning.html
+[INTERNAL_LOG][2018-06-07 21:22:07,111][INFO][find_string()] File: assets/html-es/sharing.html
+[INTERNAL_LOG][2018-06-07 21:22:07,112][INFO][find_string()] No iframe in assets/html-es/sharing.html
+[INTERNAL_LOG][2018-06-07 21:22:07,112][INFO][find_string()] File: assets/html-es/whatsnew.html
+[INTERNAL_LOG][2018-06-07 21:22:07,113][INFO][find_string()] No iframe in assets/html-es/whatsnew.html
+[INTERNAL_LOG][2018-06-07 21:22:07,113][INFO][find_string()] File: assets/html-fr/about1d.html
+[INTERNAL_LOG][2018-06-07 21:22:07,114][INFO][find_string()] No iframe in assets/html-fr/about1d.html
+[INTERNAL_LOG][2018-06-07 21:22:07,114][INFO][find_string()] File: assets/html-fr/about2d.html
+[INTERNAL_LOG][2018-06-07 21:22:07,115][INFO][find_string()] No iframe in assets/html-fr/about2d.html
+[INTERNAL_LOG][2018-06-07 21:22:07,115][INFO][find_string()] File: assets/html-fr/index.html
+[INTERNAL_LOG][2018-06-07 21:22:07,117][INFO][find_string()] No iframe in assets/html-fr/index.html
+[INTERNAL_LOG][2018-06-07 21:22:07,117][INFO][find_string()] File: assets/html-fr/license.html
+[INTERNAL_LOG][2018-06-07 21:22:07,119][INFO][find_string()] No iframe in assets/html-fr/license.html
+[INTERNAL_LOG][2018-06-07 21:22:07,119][INFO][find_string()] File: assets/html-fr/scanning.html
+[INTERNAL_LOG][2018-06-07 21:22:07,121][INFO][find_string()] No iframe in assets/html-fr/scanning.html
+[INTERNAL_LOG][2018-06-07 21:22:07,121][INFO][find_string()] File: assets/html-fr/sharing.html
+[INTERNAL_LOG][2018-06-07 21:22:07,122][INFO][find_string()] No iframe in assets/html-fr/sharing.html
+[INTERNAL_LOG][2018-06-07 21:22:07,122][INFO][find_string()] File: assets/html-fr/whatsnew.html
+[INTERNAL_LOG][2018-06-07 21:22:07,122][INFO][find_string()] No iframe in assets/html-fr/whatsnew.html
+[INTERNAL_LOG][2018-06-07 21:22:07,122][INFO][find_string()] File: assets/html-it/about1d.html
+[INTERNAL_LOG][2018-06-07 21:22:07,123][INFO][find_string()] No iframe in assets/html-it/about1d.html
+[INTERNAL_LOG][2018-06-07 21:22:07,123][INFO][find_string()] File: assets/html-it/about2d.html
+[INTERNAL_LOG][2018-06-07 21:22:07,125][INFO][find_string()] No iframe in assets/html-it/about2d.html
+[INTERNAL_LOG][2018-06-07 21:22:07,125][INFO][find_string()] File: assets/html-it/index.html
+[INTERNAL_LOG][2018-06-07 21:22:07,126][INFO][find_string()] No iframe in assets/html-it/index.html
+[INTERNAL_LOG][2018-06-07 21:22:07,126][INFO][find_string()] File: assets/html-it/license.html
+[INTERNAL_LOG][2018-06-07 21:22:07,127][INFO][find_string()] No iframe in assets/html-it/license.html
+[INTERNAL_LOG][2018-06-07 21:22:07,127][INFO][find_string()] File: assets/html-it/scanning.html
+[INTERNAL_LOG][2018-06-07 21:22:07,128][INFO][find_string()] No iframe in assets/html-it/scanning.html
+[INTERNAL_LOG][2018-06-07 21:22:07,128][INFO][find_string()] File: assets/html-it/sharing.html
+[INTERNAL_LOG][2018-06-07 21:22:07,129][INFO][find_string()] No iframe in assets/html-it/sharing.html
+[INTERNAL_LOG][2018-06-07 21:22:07,130][INFO][find_string()] File: assets/html-it/whatsnew.html
+[INTERNAL_LOG][2018-06-07 21:22:07,130][INFO][find_string()] No iframe in assets/html-it/whatsnew.html
+[INTERNAL_LOG][2018-06-07 21:22:07,130][INFO][find_string()] File: assets/html-ja/about1d.html
+[INTERNAL_LOG][2018-06-07 21:22:07,132][INFO][find_string()] No iframe in assets/html-ja/about1d.html
+[INTERNAL_LOG][2018-06-07 21:22:07,132][INFO][find_string()] File: assets/html-ja/about2d.html
+[INTERNAL_LOG][2018-06-07 21:22:07,133][INFO][find_string()] No iframe in assets/html-ja/about2d.html
+[INTERNAL_LOG][2018-06-07 21:22:07,133][INFO][find_string()] File: assets/html-ja/index.html
+[INTERNAL_LOG][2018-06-07 21:22:07,135][INFO][find_string()] No iframe in assets/html-ja/index.html
+[INTERNAL_LOG][2018-06-07 21:22:07,135][INFO][find_string()] File: assets/html-ja/license.html
+[INTERNAL_LOG][2018-06-07 21:22:07,136][INFO][find_string()] No iframe in assets/html-ja/license.html
+[INTERNAL_LOG][2018-06-07 21:22:07,136][INFO][find_string()] File: assets/html-ja/scanning.html
+[INTERNAL_LOG][2018-06-07 21:22:07,138][INFO][find_string()] No iframe in assets/html-ja/scanning.html
+[INTERNAL_LOG][2018-06-07 21:22:07,138][INFO][find_string()] File: assets/html-ja/sharing.html
+[INTERNAL_LOG][2018-06-07 21:22:07,139][INFO][find_string()] No iframe in assets/html-ja/sharing.html
+[INTERNAL_LOG][2018-06-07 21:22:07,139][INFO][find_string()] File: assets/html-ja/whatsnew.html
+[INTERNAL_LOG][2018-06-07 21:22:07,277][INFO][find_string()] No iframe in assets/html-ja/whatsnew.html
+[INTERNAL_LOG][2018-06-07 21:22:07,297][INFO][find_string()] File: assets/html-ko/about1d.html
+[INTERNAL_LOG][2018-06-07 21:22:07,481][INFO][find_string()] No iframe in assets/html-ko/about1d.html
+[INTERNAL_LOG][2018-06-07 21:22:07,502][INFO][find_string()] File: assets/html-ko/about2d.html
+[INTERNAL_LOG][2018-06-07 21:22:07,804][INFO][find_string()] No iframe in assets/html-ko/about2d.html
+[INTERNAL_LOG][2018-06-07 21:22:07,825][INFO][find_string()] File: assets/html-ko/index.html
+[INTERNAL_LOG][2018-06-07 21:22:08,132][INFO][find_string()] No iframe in assets/html-ko/index.html
+[INTERNAL_LOG][2018-06-07 21:22:08,152][INFO][find_string()] File: assets/html-ko/license.html
+[INTERNAL_LOG][2018-06-07 21:22:10,373][INFO][find_string()] No iframe in assets/html-ko/license.html
+[INTERNAL_LOG][2018-06-07 21:22:10,389][INFO][find_string()] File: assets/html-ko/scanning.html
+[INTERNAL_LOG][2018-06-07 21:22:10,738][INFO][find_string()] No iframe in assets/html-ko/scanning.html
+[INTERNAL_LOG][2018-06-07 21:22:10,759][INFO][find_string()] File: assets/html-ko/sharing.html
+[INTERNAL_LOG][2018-06-07 21:22:11,093][INFO][find_string()] No iframe in assets/html-ko/sharing.html
+[INTERNAL_LOG][2018-06-07 21:22:11,114][INFO][find_string()] File: assets/html-ko/whatsnew.html
+[INTERNAL_LOG][2018-06-07 21:22:11,392][INFO][find_string()] No iframe in assets/html-ko/whatsnew.html
+[INTERNAL_LOG][2018-06-07 21:22:11,413][INFO][find_string()] File: assets/html-nl/about1d.html
+[INTERNAL_LOG][2018-06-07 21:22:11,587][INFO][find_string()] No iframe in assets/html-nl/about1d.html
+[INTERNAL_LOG][2018-06-07 21:22:11,608][INFO][find_string()] File: assets/html-nl/about2d.html
+[INTERNAL_LOG][2018-06-07 21:22:11,942][INFO][find_string()] No iframe in assets/html-nl/about2d.html
+[INTERNAL_LOG][2018-06-07 21:22:11,963][INFO][find_string()] File: assets/html-nl/index.html
+[INTERNAL_LOG][2018-06-07 21:22:12,369][INFO][find_string()] No iframe in assets/html-nl/index.html
+[INTERNAL_LOG][2018-06-07 21:22:12,390][INFO][find_string()] File: assets/html-nl/license.html
+[INTERNAL_LOG][2018-06-07 21:22:12,686][INFO][find_string()] No iframe in assets/html-nl/license.html
+[INTERNAL_LOG][2018-06-07 21:22:12,707][INFO][find_string()] File: assets/html-nl/scanning.html
+[INTERNAL_LOG][2018-06-07 21:22:12,916][INFO][find_string()] No iframe in assets/html-nl/scanning.html
+[INTERNAL_LOG][2018-06-07 21:22:12,937][INFO][find_string()] File: assets/html-nl/sharing.html
+[INTERNAL_LOG][2018-06-07 21:22:13,123][INFO][find_string()] No iframe in assets/html-nl/sharing.html
+[INTERNAL_LOG][2018-06-07 21:22:13,138][INFO][find_string()] File: assets/html-nl/whatsnew.html
+[INTERNAL_LOG][2018-06-07 21:22:13,272][INFO][find_string()] No iframe in assets/html-nl/whatsnew.html
+[INTERNAL_LOG][2018-06-07 21:22:13,293][INFO][find_string()] File: assets/html-pt/about1d.html
+[INTERNAL_LOG][2018-06-07 21:22:13,437][INFO][find_string()] No iframe in assets/html-pt/about1d.html
+[INTERNAL_LOG][2018-06-07 21:22:13,457][INFO][find_string()] File: assets/html-pt/about2d.html
+[INTERNAL_LOG][2018-06-07 21:22:13,751][INFO][find_string()] No iframe in assets/html-pt/about2d.html
+[INTERNAL_LOG][2018-06-07 21:22:13,771][INFO][find_string()] File: assets/html-pt/index.html
+[INTERNAL_LOG][2018-06-07 21:22:14,048][INFO][find_string()] No iframe in assets/html-pt/index.html
+[INTERNAL_LOG][2018-06-07 21:22:14,069][INFO][find_string()] File: assets/html-pt/license.html
+[INTERNAL_LOG][2018-06-07 21:22:14,331][INFO][find_string()] No iframe in assets/html-pt/license.html
+[INTERNAL_LOG][2018-06-07 21:22:14,352][INFO][find_string()] File: assets/html-pt/scanning.html
+[INTERNAL_LOG][2018-06-07 21:22:14,556][INFO][find_string()] No iframe in assets/html-pt/scanning.html
+[INTERNAL_LOG][2018-06-07 21:22:14,577][INFO][find_string()] File: assets/html-pt/sharing.html
+[INTERNAL_LOG][2018-06-07 21:22:14,745][INFO][find_string()] No iframe in assets/html-pt/sharing.html
+[INTERNAL_LOG][2018-06-07 21:22:14,766][INFO][find_string()] File: assets/html-pt/whatsnew.html
+[INTERNAL_LOG][2018-06-07 21:22:14,919][INFO][find_string()] No iframe in assets/html-pt/whatsnew.html
+[INTERNAL_LOG][2018-06-07 21:22:14,940][INFO][find_string()] File: assets/html-ru/about1d.html
+[INTERNAL_LOG][2018-06-07 21:22:15,139][INFO][find_string()] No iframe in assets/html-ru/about1d.html
+[INTERNAL_LOG][2018-06-07 21:22:15,160][INFO][find_string()] File: assets/html-ru/about2d.html
+[INTERNAL_LOG][2018-06-07 21:22:15,451][INFO][find_string()] No iframe in assets/html-ru/about2d.html
+[INTERNAL_LOG][2018-06-07 21:22:15,471][INFO][find_string()] File: assets/html-ru/index.html
+[INTERNAL_LOG][2018-06-07 21:22:15,762][INFO][find_string()] No iframe in assets/html-ru/index.html
+[INTERNAL_LOG][2018-06-07 21:22:15,782][INFO][find_string()] File: assets/html-ru/license.html
+[INTERNAL_LOG][2018-06-07 21:22:16,112][INFO][find_string()] No iframe in assets/html-ru/license.html
+[INTERNAL_LOG][2018-06-07 21:22:16,133][INFO][find_string()] File: assets/html-ru/scanning.html
+[INTERNAL_LOG][2018-06-07 21:22:16,380][INFO][find_string()] No iframe in assets/html-ru/scanning.html
+[INTERNAL_LOG][2018-06-07 21:22:16,400][INFO][find_string()] File: assets/html-ru/sharing.html
+[INTERNAL_LOG][2018-06-07 21:22:16,549][INFO][find_string()] No iframe in assets/html-ru/sharing.html
+[INTERNAL_LOG][2018-06-07 21:22:16,570][INFO][find_string()] File: assets/html-ru/whatsnew.html
+[INTERNAL_LOG][2018-06-07 21:22:16,734][INFO][find_string()] No iframe in assets/html-ru/whatsnew.html
+[INTERNAL_LOG][2018-06-07 21:22:16,754][INFO][find_string()] File: assets/html-uk/about1d.html
+[INTERNAL_LOG][2018-06-07 21:22:16,933][INFO][find_string()] No iframe in assets/html-uk/about1d.html
+[INTERNAL_LOG][2018-06-07 21:22:16,954][INFO][find_string()] File: assets/html-uk/about2d.html
+[INTERNAL_LOG][2018-06-07 21:22:17,247][INFO][find_string()] No iframe in assets/html-uk/about2d.html
+[INTERNAL_LOG][2018-06-07 21:22:17,268][INFO][find_string()] File: assets/html-uk/index.html
+[INTERNAL_LOG][2018-06-07 21:22:17,560][INFO][find_string()] No iframe in assets/html-uk/index.html
+[INTERNAL_LOG][2018-06-07 21:22:17,581][INFO][find_string()] File: assets/html-uk/license.html
+[INTERNAL_LOG][2018-06-07 21:22:17,843][INFO][find_string()] No iframe in assets/html-uk/license.html
+[INTERNAL_LOG][2018-06-07 21:22:17,864][INFO][find_string()] File: assets/html-uk/scanning.html
+[INTERNAL_LOG][2018-06-07 21:22:18,126][INFO][find_string()] No iframe in assets/html-uk/scanning.html
+[INTERNAL_LOG][2018-06-07 21:22:18,146][INFO][find_string()] File: assets/html-uk/sharing.html
+[INTERNAL_LOG][2018-06-07 21:22:18,315][INFO][find_string()] No iframe in assets/html-uk/sharing.html
+[INTERNAL_LOG][2018-06-07 21:22:18,335][INFO][find_string()] File: assets/html-uk/whatsnew.html
+[INTERNAL_LOG][2018-06-07 21:22:18,480][INFO][find_string()] No iframe in assets/html-uk/whatsnew.html
+[INTERNAL_LOG][2018-06-07 21:22:18,500][INFO][find_string()] File: assets/html-zh-rCN/about1d.html
+[INTERNAL_LOG][2018-06-07 21:22:18,675][INFO][find_string()] No iframe in assets/html-zh-rCN/about1d.html
+[INTERNAL_LOG][2018-06-07 21:22:18,696][INFO][find_string()] File: assets/html-zh-rCN/about2d.html
+[INTERNAL_LOG][2018-06-07 21:22:18,982][INFO][find_string()] No iframe in assets/html-zh-rCN/about2d.html
+[INTERNAL_LOG][2018-06-07 21:22:19,002][INFO][find_string()] File: assets/html-zh-rCN/index.html
+[INTERNAL_LOG][2018-06-07 21:22:19,284][INFO][find_string()] No iframe in assets/html-zh-rCN/index.html
+[INTERNAL_LOG][2018-06-07 21:22:19,305][INFO][find_string()] File: assets/html-zh-rCN/license.html
+[INTERNAL_LOG][2018-06-07 21:22:19,591][INFO][find_string()] No iframe in assets/html-zh-rCN/license.html
+[INTERNAL_LOG][2018-06-07 21:22:19,611][INFO][find_string()] File: assets/html-zh-rCN/scanning.html
+[INTERNAL_LOG][2018-06-07 21:22:19,851][INFO][find_string()] No iframe in assets/html-zh-rCN/scanning.html
+[INTERNAL_LOG][2018-06-07 21:22:19,872][INFO][find_string()] File: assets/html-zh-rCN/sharing.html
+[INTERNAL_LOG][2018-06-07 21:22:20,051][INFO][find_string()] No iframe in assets/html-zh-rCN/sharing.html
+[INTERNAL_LOG][2018-06-07 21:22:20,071][INFO][find_string()] File: assets/html-zh-rCN/whatsnew.html
+[INTERNAL_LOG][2018-06-07 21:22:20,215][INFO][find_string()] No iframe in assets/html-zh-rCN/whatsnew.html
+[INTERNAL_LOG][2018-06-07 21:22:20,236][INFO][find_string()] File: assets/html-zh-rHK/about1d.html
+[INTERNAL_LOG][2018-06-07 21:22:20,422][INFO][find_string()] No iframe in assets/html-zh-rHK/about1d.html
+[INTERNAL_LOG][2018-06-07 21:22:20,442][INFO][find_string()] File: assets/html-zh-rHK/about2d.html
+[INTERNAL_LOG][2018-06-07 21:22:20,924][INFO][find_string()] No iframe in assets/html-zh-rHK/about2d.html
+[INTERNAL_LOG][2018-06-07 21:22:20,925][INFO][find_string()] File: assets/html-zh-rHK/index.html
+[INTERNAL_LOG][2018-06-07 21:22:21,217][INFO][find_string()] No iframe in assets/html-zh-rHK/index.html
+[INTERNAL_LOG][2018-06-07 21:22:21,238][INFO][find_string()] File: assets/html-zh-rHK/license.html
+[INTERNAL_LOG][2018-06-07 21:22:21,561][INFO][find_string()] No iframe in assets/html-zh-rHK/license.html
+[INTERNAL_LOG][2018-06-07 21:22:21,582][INFO][find_string()] File: assets/html-zh-rHK/scanning.html
+[INTERNAL_LOG][2018-06-07 21:22:21,808][INFO][find_string()] No iframe in assets/html-zh-rHK/scanning.html
+[INTERNAL_LOG][2018-06-07 21:22:21,828][INFO][find_string()] File: assets/html-zh-rHK/sharing.html
+[INTERNAL_LOG][2018-06-07 21:22:22,038][INFO][find_string()] No iframe in assets/html-zh-rHK/sharing.html
+[INTERNAL_LOG][2018-06-07 21:22:22,259][INFO][find_string()] File: assets/html-zh-rHK/whatsnew.html
+[INTERNAL_LOG][2018-06-07 21:22:22,427][INFO][find_string()] No iframe in assets/html-zh-rHK/whatsnew.html
+[INTERNAL_LOG][2018-06-07 21:22:22,448][INFO][find_string()] File: assets/html-zh-rTW/about1d.html
+[INTERNAL_LOG][2018-06-07 21:22:22,627][INFO][find_string()] No iframe in assets/html-zh-rTW/about1d.html
+[INTERNAL_LOG][2018-06-07 21:22:22,648][INFO][find_string()] File: assets/html-zh-rTW/about2d.html
+[INTERNAL_LOG][2018-06-07 21:22:22,970][INFO][find_string()] No iframe in assets/html-zh-rTW/about2d.html
+[INTERNAL_LOG][2018-06-07 21:22:22,991][INFO][find_string()] File: assets/html-zh-rTW/index.html
+[INTERNAL_LOG][2018-06-07 21:22:23,287][INFO][find_string()] No iframe in assets/html-zh-rTW/index.html
+[INTERNAL_LOG][2018-06-07 21:22:23,308][INFO][find_string()] File: assets/html-zh-rTW/license.html
+[INTERNAL_LOG][2018-06-07 21:22:23,590][INFO][find_string()] No iframe in assets/html-zh-rTW/license.html
+[INTERNAL_LOG][2018-06-07 21:22:23,610][INFO][find_string()] File: assets/html-zh-rTW/scanning.html
+[INTERNAL_LOG][2018-06-07 21:22:23,820][INFO][find_string()] No iframe in assets/html-zh-rTW/scanning.html
+[INTERNAL_LOG][2018-06-07 21:22:23,841][INFO][find_string()] File: assets/html-zh-rTW/sharing.html
+[INTERNAL_LOG][2018-06-07 21:22:24,281][INFO][find_string()] No iframe in assets/html-zh-rTW/sharing.html
+[INTERNAL_LOG][2018-06-07 21:22:24,302][INFO][find_string()] File: assets/html-zh-rTW/whatsnew.html
+[INTERNAL_LOG][2018-06-07 21:22:24,456][INFO][find_string()] No iframe in assets/html-zh-rTW/whatsnew.html
+[INTERNAL_LOG][2018-06-07 21:22:24,477][INFO][find_string()] File: assets/welcome_animation.html
+[INTERNAL_LOG][2018-06-07 21:22:27,812][INFO][find_string()] No iframe in assets/welcome_animation.html
+[INTERNAL_LOG][2018-06-07 21:22:27,828][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-07 21:23:55,696][INFO][find_url_in_apk()] [START URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-07 21:23:55,696][INFO][find_url_in_apk()] https://onedrive.live.com/picker/accountchooser?ru=https://localhost:777&load_login=false
+
+[INTERNAL_LOG][2018-06-07 21:23:55,696][INFO][find_url_in_apk()] [END URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-07 21:23:56,141][INFO][find_string()] [START REMOTE FILE ANALYZE]
+[INTERNAL_LOG][2018-06-07 21:23:56,141][INFO][find_string()] Remote File in: temp_html_code/html_downloaded_Microsoft Launcher by Microsoft Corporation - com/localhost:777&load_login=false
+[INTERNAL_LOG][2018-06-07 21:23:56,141][INFO][find_string()] URL: https://onedrive.live.com/picker/accountchooser?ru=https://localhost:777&load_login=false
+[INTERNAL_LOG][2018-06-07 21:23:56,146][INFO][find_string()] No iframe in temp_html_code/html_downloaded_Microsoft Launcher by Microsoft Corporation - com/localhost:777&load_login=false
+[INTERNAL_LOG][2018-06-07 21:23:56,146][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-07 21:23:56,146][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-07 21:23:56,147][INFO][find_url_in_apk()] http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+https://appboy.data.placeiq.com/dataex/id/
+https://app.adjust.com
+https://app.adjust.com
+https://sondheim.appboy.com/api/v3/
+https://dev.appboy.com/api/v3/
+http://www.amazon.com/gp/mas/dl/android?asin=
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+https://www.googleapis.com/auth/games
+https://plus.google.com/
+https://app-measurement.com/a
+https://www.google.com
+http://zxing.appspot.com/scan
+http://www.google
+http://google.com/books
+http://books.google.
+http://books.google.
+http://books.google.
+http://www.google.com/books?id=
+http://www.google.com/books?vid=isbn
+http://maps.google.
+http://www.google.
+http://www.google.
+https://www.googleapis.com/books/v1/volumes?q=isbn:
+https://www.google.
+http://schemas.microsoft.com/rel/trusted-realm
+https://enterpriseregistration.
+http://state/path?
+https://in.appcenter.ms
+http://test-exp-s2s.msedge.net/ab
+https://config.edge.skype.com/config/v1/
+https://mobile.pipe.aria.microsoft.com/Collector/3.0/
+https://mobile.pipe.aria.microsoft.com/Collector/3.0/
+https://mobile.pipe.aria.microsoft.com/Collector/3.0/
+https://websockets.platform.cn.bing.com/ws/cu/v3
+https://websockets.platform.bing.com/ws/cu/v3
+https://speech.platform.bing.com/synthesize/android
+http://schema.org/
+http://platform.bing.com/maps/
+http://platform.bing.com/persons/
+http://www.w3.org/1999/02/22-rdf-syntax-ns#
+http://www.opengis.net/ont/geosparql#
+http://www.opengis.net/ont/geosparql/function/
+https://www.bing.com/CloudGraph/v1/Sync
+https://login.live.com/RST2.srf
+https://platform.bing.com/agents/oauth
+https://www.bing.com/agents/oauth
+https://appsearch.cortana.cn.bing.com/databasev2/downloadfile?language=
+https://appsearch.cortana.cn.bing.com/databasev2/checkversion?language=
+https://speech.%s/synthesize/android?outputformat=%s
+https://www.bing.com/spark/collectiontips?collectionid=%s&filterType=Service&setmkt=%s&setlang=%s&addfeaturesnoexpansion=coaweathernoti,coaweathernotish
+https://www.bing.com/spark/collectiontips?collectionid=%s&filterType=Service&setmkt=%s&setlang=%s&addfeaturesnoexpansion=coaweathernoti,coaweathernotish
+http://schema.org/reminder
+https://msbingclient.cloudapp.net:8080/sdklibs/1.2
+https://msbingclient.cloudapp.net:8080/sdklibs/1.2
+https://arrowlauncher.blob.core.windows.net/prod/sdklibs/1.2
+https://arrowlauncher.blob.core.windows.net/prod/sdklibs/1.2
+https://www.bing.com/search
+https://www.bing.com
+https://www.bing.com
+http://go.microsoft.com/fwlink/?LinkID=246338
+http://go.microsoft.com/fwlink/?LinkId=521839
+https://www.google.com/
+https://www.baidu.com/favicon.ico
+https://www.baidu.com/#ie={inputEncoding}&wd={searchTerms}
+http://suggestion.baidu.com/su?wd={searchTerms}&action=opensearch&ie={inputEncoding}
+https://m.baidu.com/sf/vsearch?pd=image_content&atn=page&word={searchTerms}
+https://m.baidu.com/sf/vsearch?pd=video&word={searchTerms}
+https://m.baidu.com/sf/vsearch?pd=realtime&word={searchTerms}
+https://www.sogou.com/images/logo/old/favicon.ico
+https://m.sogou.com/web/searchList.jsp?ie={inputEncoding}&keyword={searchTerms}
+http://api.sugg.sogou.com/su?type=addrbar&key={searchTerms}&ie={inputEncoding}
+https://pic.sogou.com/pic/searchList.jsp?mode=1&keyword={searchTerms}
+http://m.v.sogou.com/v?ie=utf8&query={searchTerms}
+http://news.sogou.com/news?query={searchTerms}
+https://www.so.com/favicon.ico
+https://m.so.com/s?q={searchTerms}
+https://sug.so.360.cn/suggest?encodein={inputEncoding}&encodeout={outputEncoding}&format=opensearch&word={searchTerms}
+https://m.image.so.com/i?q={searchTerms}
+http://m.video.so.com/android/search/index.php?kw={searchTerms}
+https://m.news.so.com/ns?q={searchTerms}
+http://www.google.com/favicon.ico
+https://www.google.com/search?q={searchTerms}&ie={inputEncoding}
+https://www.google.com/search?q={searchTerms}&tbm=isch
+https://www.google.com/search?q={searchTerms}&tbm=vid
+https://www.google.com/search?q={searchTerms}&tbm=nws
+https://yastatic.net/lego/_/pDu9OWAQKB0s2J9IojKpiS_Eho.ico
+https://yandex.by/{yandex:searchPath}?text={searchTerms}
+https://suggest.yandex.by/suggest-ff.cgi?part={searchTerms}
+https://yandex.by/images/search?text={searchTerms}
+https://yandex.by/video/search?text={searchTerms}
+https://m.news.yandex.by/yandsearch?text={searchTerms}&rpt=nnews2&grhow=clutop
+https://yandex.kz/{yandex:searchPath}?text={searchTerms}
+https://suggest.yandex.kz/suggest-ff.cgi?part={searchTerms}
+https://yandex.kz/images/search?text={searchTerms}
+https://yandex.kz/video/search?text={searchTerms}
+https://m.news.yandex.kz/yandsearch?text={searchTerms}&rpt=nnews2&grhow=clutop
+https://yandex.ru/{yandex:searchPath}?text={searchTerms}
+https://suggest.yandex.ru/suggest-ff.cgi?part={searchTerms}
+https://yandex.ru/images/search?text={searchTerms}
+https://yandex.ru/video/search?text={searchTerms}
+https://m.news.yandex.ru/yandsearch?text={searchTerms}&rpt=nnews2&grhow=clutop
+https://yastatic.net/lego/_/rBTjd6UOPk5913OSn5ZQVYMTQWQ.ico
+https://www.yandex.com.tr/{yandex:searchPath}?text={searchTerms}
+https://suggest.yandex.com.tr/suggest-ff.cgi?part={searchTerms}
+https://yandex.com.tr/gorsel/search?text={searchTerms}
+https://yandex.com.tr/video/search?text={searchTerms}
+https://yandex.ua/{yandex:searchPath}?text={searchTerms}
+https://suggest.yandex.ua/suggest-ff.cgi?part={searchTerms}
+https://yandex.ua/images/search?text={searchTerms}
+https://yandex.ua/video/search?text={searchTerms}
+https://m.news.yandex.ua/yandsearch?text={searchTerms}&rpt=nnews2&grhow=clutop
+https://uk.search.yahoo.com/favicon.ico
+https://uk.search.yahoo.com/search?ei={inputEncoding}&fr=crmas&p={searchTerms}
+https://uk.search.yahoo.com/sugg/chrome?output=fxjson&appid=crmas&command={searchTerms}
+https://uk.images.search.yahoo.com/search/images;?p={searchTerms}
+https://uk.video.search.yahoo.com/search/video;?p={searchTerms}
+https://uk.news.search.yahoo.com/search;?p={searchTerms}
+https://search.yahoo.co.jp/favicon.ico
+https://search.yahoo.co.jp/search?ei={inputEncoding}&fr=crmas&p={searchTerms}
+https://search.yahooapis.jp/AssistSearchService/V2/webassistSearch?p={searchTerms}&appid=oQsoxcyxg66enp0TYoirkKoryq6rF8bK76mW0KYxZ0v0WPLtn.Lix6wy8F_LwGWHUII-&output=fxjson&fr=crmas
+https://search.yahoo.co.jp/image/search?p={searchTerms}
+https://search.yahoo.co.jp/video/search?p={searchTerms}
+https://news.yahoo.co.jp/search/?p={searchTerms}
+https://br.search.yahoo.com/favicon.ico
+https://br.search.yahoo.com/search?ei={inputEncoding}&fr=crmas&p={searchTerms}
+https://br.search.yahoo.com/sugg/chrome?output=fxjson&appid=crmas&command={searchTerms}
+https://br.images.search.yahoo.com/search/images;?p={searchTerms}
+https://br.video.search.yahoo.com/search/video;?p={searchTerms}
+https://br.news.search.yahoo.com/search;?p={searchTerms}
+https://ch.search.yahoo.com/favicon.ico
+https://ch.search.yahoo.com/search?ei={inputEncoding}&fr=crmas&p={searchTerms}
+https://ch.search.yahoo.com/sugg/chrome?output=fxjson&appid=crmas&command={searchTerms}
+https://ch.images.search.yahoo.com/search/images;?p={searchTerms}
+https://ch.video.search.yahoo.com/search/video;?p={searchTerms}
+https://ch.news.search.yahoo.com/search;?p={searchTerms}
+https://co.search.yahoo.com/favicon.ico
+https://co.search.yahoo.com/search?ei={inputEncoding}&fr=crmas&p={searchTerms}
+https://co.search.yahoo.com/sugg/chrome?output=fxjson&appid=crmas&command={searchTerms}
+https://co.images.search.yahoo.com/search/images;?p={searchTerms}
+https://co.video.search.yahoo.com/search/video;?p={searchTerms}
+https://co.news.search.yahoo.com/search;?p={searchTerms}
+https://cl.search.yahoo.com/favicon.ico
+https://cl.search.yahoo.com/search?ei={inputEncoding}&fr=crmas&p={searchTerms}
+https://cl.search.yahoo.com/sugg/chrome?output=fxjson&appid=crmas&command={searchTerms}
+https://cl.images.search.yahoo.com/search/images;?p={searchTerms}
+https://cl.video.search.yahoo.com/search/video;?p={searchTerms}
+https://cl.news.search.yahoo.com/search;?p={searchTerms}
+https://ca.search.yahoo.com/favicon.ico
+https://ca.search.yahoo.com/search?ei={inputEncoding}&fr=crmas&p={searchTerms}
+https://ca.search.yahoo.com/sugg/chrome?output=fxjson&appid=crmas&command={searchTerms}
+https://ca.images.search.yahoo.com/search/images;?p={searchTerms}
+https://ca.video.search.yahoo.com/search/video;?p={searchTerms}
+https://ca.news.search.yahoo.com/search;?p={searchTerms}
+https://ro.search.yahoo.com/favicon.ico
+https://ro.search.yahoo.com/search?ei={inputEncoding}&fr=crmas&p={searchTerms}
+https://ro.images.search.yahoo.com/search/images;?p={searchTerms}
+https://ro.video.search.yahoo.com/search/video;?p={searchTerms}
+https://ro.news.search.yahoo.com/search;?p={searchTerms}
+https://dk.search.yahoo.com/favicon.ico
+https://dk.search.yahoo.com/search?ei={inputEncoding}&fr=crmas&p={searchTerms}
+https://dk.images.search.yahoo.com/search/images;?p={searchTerms}
+https://dk.video.search.yahoo.com/search/video;?p={searchTerms}
+https://dk.news.search.yahoo.com/search;?p={searchTerms}
+https://de.search.yahoo.com/favicon.ico
+https://de.search.yahoo.com/search?ei={inputEncoding}&fr=crmas&p={searchTerms}
+https://de.search.yahoo.com/sugg/chrome?output=fxjson&appid=crmas&command={searchTerms}
+https://de.images.search.yahoo.com/search/images;?p={searchTerms}
+https://de.video.search.yahoo.com/search/video;?p={searchTerms}
+https://de.news.search.yahoo.com/search;?p={searchTerms}
+https://th.search.yahoo.com/favicon.ico
+https://th.search.yahoo.com/search?ei={inputEncoding}&fr=crmas&p={searchTerms}
+https://th.search.yahoo.com/sugg/chrome?output=fxjson&appid=crmas&command={searchTerms}
+https://th.images.search.yahoo.com/search/images;?p={searchTerms}
+https://th.video.search.yahoo.com/search/video;?p={searchTerms}
+https://th.news.search.yahoo.com/search;?p={searchTerms}
+https://tr.search.yahoo.com/favicon.ico
+https://tr.search.yahoo.com/search?ei={inputEncoding}&fr=crmas&p={searchTerms}
+https://tr.images.search.yahoo.com/search/images;?p={searchTerms}
+https://tr.video.search.yahoo.com/search/video;?p={searchTerms}
+https://tr.news.search.yahoo.com/search;?p={searchTerms}
+https://ph.search.yahoo.com/favicon.ico
+https://ph.search.yahoo.com/search?ei={inputEncoding}&fr=crmas&p={searchTerms}
+https://ph.search.yahoo.com/sugg/chrome?output=fxjson&appid=crmas&command={searchTerms}
+https://ph.images.search.yahoo.com/search/images;?p={searchTerms}
+https://ph.video.search.yahoo.com/search/video;?p={searchTerms}
+https://ph.news.search.yahoo.com/search;?p={searchTerms}
+https://tw.search.yahoo.com/favicon.ico
+https://tw.search.yahoo.com/search?ei={inputEncoding}&fr=crmas&p={searchTerms}
+https://tw.search.yahoo.com/sugg/chrome?output=fxjson&appid=crmas&command={searchTerms}
+https://tw.images.search.yahoo.com/search/images;?p={searchTerms}
+https://tw.video.search.yahoo.com/search/video;?p={searchTerms}
+https://tw.news.search.yahoo.com/search;?p={searchTerms}
+https://es.search.yahoo.com/favicon.ico
+https://es.search.yahoo.com/search?ei={inputEncoding}&fr=crmas&p={searchTerms}
+https://es.search.yahoo.com/sugg/chrome?output=fxjson&appid=crmas&command={searchTerms}
+https://es.images.search.yahoo.com/search/images;?p={searchTerms}
+https://es.video.search.yahoo.com/search/video;?p={searchTerms}
+https://es.news.search.yahoo.com/search;?p={searchTerms}
+https://nz.search.yahoo.com/favicon.ico
+https://nz.search.yahoo.com/search?ei={inputEncoding}&fr=crmas&p={searchTerms}
+https://nz.search.yahoo.com/sugg/chrome?output=fxjson&appid=crmas&command={searchTerms}
+https://nz.images.search.yahoo.com/search/images;?p={searchTerms}
+https://nz.video.search.yahoo.com/search/video;?p={searchTerms}
+https://nz.news.search.yahoo.com/search;?p={searchTerms}
+https://qc.search.yahoo.com/favicon.ico
+https://qc.search.yahoo.com/search?ei={inputEncoding}&fr=crmas&p={searchTerms}
+https://qc.search.yahoo.com/sugg/chrome?output=fxjson&appid=crmas&command={searchTerms}
+https://qc.images.search.yahoo.com/search/images;?p={searchTerms}
+https://qc.video.search.yahoo.com/search/video;?p={searchTerms}
+https://qc.news.search.yahoo.com/search;?p={searchTerms}
+https://mx.search.yahoo.com/favicon.ico
+https://mx.search.yahoo.com/search?ei={inputEncoding}&fr=crmas&p={searchTerms}
+https://mx.search.yahoo.com/sugg/chrome?output=fxjson&appid=crmas&command={searchTerms}
+https://mx.images.search.yahoo.com/search/images;?p={searchTerms}
+https://mx.video.search.yahoo.com/search/video;?p={searchTerms}
+https://mx.news.search.yahoo.com/search;?p={searchTerms}
+https://nl.search.yahoo.com/favicon.ico
+https://nl.search.yahoo.com/search?ei={inputEncoding}&fr=crmas&p={searchTerms}
+https://nl.search.yahoo.com/sugg/chrome?output=fxjson&appid=crmas&command={searchTerms}
+https://nl.images.search.yahoo.com/search/images;?p={searchTerms}
+https://nl.video.search.yahoo.com/search/video;?p={searchTerms}
+https://nl.news.search.yahoo.com/search;?p={searchTerms}
+https://malaysia.search.yahoo.com/favicon.ico
+https://malaysia.search.yahoo.com/search?ei={inputEncoding}&fr=crmas&p={searchTerms}
+https://malaysia.search.yahoo.com/sugg/chrome?output=fxjson&appid=crmas&command={searchTerms}
+https://malaysia.images.search.yahoo.com/search/images;?p={searchTerms}
+https://malaysia.video.search.yahoo.com/search/video;?p={searchTerms}
+https://malaysia.news.search.yahoo.com/search;?p={searchTerms}
+https://fr.search.yahoo.com/favicon.ico
+https://fr.search.yahoo.com/search?ei={inputEncoding}&fr=crmas&p={searchTerms}
+https://fr.search.yahoo.com/sugg/chrome?output=fxjson&appid=crmas&command={searchTerms}
+https://fr.images.search.yahoo.com/search/images;?p={searchTerms}
+https://fr.video.search.yahoo.com/search/video;?p={searchTerms}
+https://fr.news.search.yahoo.com/search;?p={searchTerms}
+https://fi.search.yahoo.com/favicon.ico
+https://fi.search.yahoo.com/search?ei={inputEncoding}&fr=crmas&p={searchTerms}
+https://fi.images.search.yahoo.com/search/images;?p={searchTerms}
+https://fi.video.search.yahoo.com/search/video;?p={searchTerms}
+https://fi.news.search.yahoo.com/search;?p={searchTerms}
+https://ve.search.yahoo.com/favicon.ico
+https://ve.search.yahoo.com/search?ei={inputEncoding}&fr=crmas&p={searchTerms}
+https://ve.search.yahoo.com/sugg/chrome?output=fxjson&appid=crmas&command={searchTerms}
+https://ve.images.search.yahoo.com/search/images;?p={searchTerms}
+https://ve.video.search.yahoo.com/search/video;?p={searchTerms}
+https://ve.news.search.yahoo.com/search;?p={searchTerms}
+https://search.yahoo.com/favicon.ico
+https://search.yahoo.com/search;?ei={inputEncoding}&p={searchTerms}
+https://search.yahoo.com/sugg/chrome?output=fxjson&appid=crmas&command={searchTerms}
+https://images.search.yahoo.com/search/images;?p={searchTerms}
+https://video.search.yahoo.com/search/video;?p={searchTerms}
+https://news.search.yahoo.com/search;?p={searchTerms}
+https://vn.search.yahoo.com/favicon.ico
+https://vn.search.yahoo.com/search?ei={inputEncoding}&fr=crmas&p={searchTerms}
+https://vn.search.yahoo.com/sugg/chrome?output=fxjson&appid=crmas&command={searchTerms}
+https://vn.images.search.yahoo.com/search/images;?p={searchTerms}
+https://vn.video.search.yahoo.com/search/video;?p={searchTerms}
+https://vn.news.search.yahoo.com/search;?p={searchTerms}
+https://gr.search.yahoo.com/favicon.ico
+https://gr.search.yahoo.com/search?ei={inputEncoding}&fr=crmas&p={searchTerms}
+https://gr.images.search.yahoo.com/search/images;?p={searchTerms}
+https://gr.video.search.yahoo.com/search/video;?p={searchTerms}
+https://gr.news.search.yahoo.com/search;?p={searchTerms}
+https://hk.search.yahoo.com/favicon.ico
+https://hk.search.yahoo.com/search?ei={inputEncoding}&fr=crmas&p={searchTerms}
+https://hk.search.yahoo.com/sugg/chrome?output=fxjson&appid=crmas&command={searchTerms}
+https://hk.images.search.yahoo.com/search/images;?p={searchTerms}
+https://hk.video.search.yahoo.com/search/video;?p={searchTerms}
+https://hk.news.search.yahoo.com/search;?p={searchTerms}
+https://maktoob.search.yahoo.com/favicon.ico
+https://maktoob.search.yahoo.com/search?ei={inputEncoding}&fr=crmas&p={searchTerms}
+https://maktoob.images.search.yahoo.com/search/images;?p={searchTerms}
+https://maktoob.video.search.yahoo.com/search/video;?p={searchTerms}
+https://maktoob.news.search.yahoo.com/search;?p={searchTerms}
+https://se.search.yahoo.com/favicon.ico
+https://se.search.yahoo.com/search?ei={inputEncoding}&fr=crmas&p={searchTerms}
+https://se.images.search.yahoo.com/search/images;?p={searchTerms}
+https://se.video.search.yahoo.com/search/video;?p={searchTerms}
+https://se.news.search.yahoo.com/search;?p={searchTerms}
+https://sg.search.yahoo.com/favicon.ico
+https://sg.search.yahoo.com/search?ei={inputEncoding}&fr=crmas&p={searchTerms}
+https://sg.search.yahoo.com/sugg/chrome?output=fxjson&appid=crmas&command={searchTerms}
+https://sg.images.search.yahoo.com/search/images;?p={searchTerms}
+https://sg.video.search.yahoo.com/search/video;?p={searchTerms}
+https://sg.news.search.yahoo.com/search;?p={searchTerms}
+https://pe.search.yahoo.com/favicon.ico
+https://pe.search.yahoo.com/search?ei={inputEncoding}&fr=crmas&p={searchTerms}
+https://pe.search.yahoo.com/sugg/chrome?output=fxjson&appid=crmas&command={searchTerms}
+https://pe.images.search.yahoo.com/search/images;?p={searchTerms}
+https://pe.video.search.yahoo.com/search/video;?p={searchTerms}
+https://pe.news.search.yahoo.com/search;?p={searchTerms}
+https://in.search.yahoo.com/favicon.ico
+https://in.search.yahoo.com/search?ei={inputEncoding}&fr=crmas&p={searchTerms}
+https://in.search.yahoo.com/sugg/chrome?output=fxjson&appid=crmas&command={searchTerms}
+https://in.images.search.yahoo.com/search/images;?p={searchTerms}
+https://in.video.search.yahoo.com/search/video;?p={searchTerms}
+https://in.news.search.yahoo.com/search;?p={searchTerms}
+https://id.search.yahoo.com/favicon.ico
+https://id.search.yahoo.com/search?ei={inputEncoding}&fr=crmas&p={searchTerms}
+https://id.search.yahoo.com/sugg/chrome?output=fxjson&appid=crmas&command={searchTerms}
+https://id.images.search.yahoo.com/search/images;?p={searchTerms}
+https://id.video.search.yahoo.com/search/video;?p={searchTerms}
+https://id.news.search.yahoo.com/search;?p={searchTerms}
+https://at.search.yahoo.com/favicon.ico
+https://at.search.yahoo.com/search?ei={inputEncoding}&fr=crmas&p={searchTerms}
+https://at.search.yahoo.com/sugg/chrome?output=fxjson&appid=crmas&command={searchTerms}
+https://at.images.search.yahoo.com/search/images;?p={searchTerms}
+https://at.video.search.yahoo.com/search/video;?p={searchTerms}
+https://at.news.search.yahoo.com/search;?p={searchTerms}
+https://au.search.yahoo.com/favicon.ico
+https://au.search.yahoo.com/search?ei={inputEncoding}&p={searchTerms}
+https://au.search.yahoo.com/sugg/chrome?output=fxjson&appid=crmas&command={searchTerms}
+https://au.images.search.yahoo.com/search/images;?p={searchTerms}
+https://au.video.search.yahoo.com/search/video;?p={searchTerms}
+https://au.news.search.yahoo.com/search;?p={searchTerms}
+https://ar.search.yahoo.com/favicon.ico
+https://ar.search.yahoo.com/search?ei={inputEncoding}&fr=crmas&p={searchTerms}
+https://ar.search.yahoo.com/sugg/chrome?output=fxjson&appid=crmas&command={searchTerms}
+https://ar.images.search.yahoo.com/search/images;?p={searchTerms}
+https://ar.video.search.yahoo.com/search/video;?p={searchTerms}
+https://ar.news.search.yahoo.com/search;?p={searchTerms}
+https://www.bing.com/s/a/bing_p.ico
+https://www.bing.com/search?q={searchTerms}&setmkt={market}&PC={bingPartnerCode}&form={bingFormCode}
+https://www.bing.com/osjson.aspx?query={searchTerms}&language={language}&PC=U316
+https://www.bing.com/images/search?q={searchTerms}&setmkt={market}&PC={bingPartnerCode}&form={bingFormCode}
+https://www.bing.com/videos/search?q={searchTerms}&setmkt={market}&PC={bingPartnerCode}&form={bingFormCode}
+https://www.bing.com/news/search?q={searchTerms}&setmkt={market}&PC={bingPartnerCode}&form={bingFormCode}
+https://search.aol.com/favicon.ico
+https://search.aol.com/aol/search?q={searchTerms}
+http://autocomplete.search.aol.com/autocomplete/get?output=json&it=&q={searchTerms}
+https://search.aol.com/aol/image?q={searchTerms}
+https://search.aol.com/aol/video?q={searchTerms}
+https://search.aol.com/aol/news?q={searchTerms}
+http://sp.ask.com/sh/i/a16/favicon/favicon.ico
+https://www.ask.com/web?q={searchTerms}
+http://ss.ask.com/query?q={searchTerms}&li=ff
+https://www.ask.com/youtube?q={searchTerms}
+http://sp.br.ask.com/sh/i/a14/favicon/favicon.ico
+https://br.ask.com/web?q={searchTerms}
+https://br.ask.com/youtube?q={searchTerms}
+http://sp.uk.ask.com/sh/i/a16/favicon/favicon.ico
+https://uk.ask.com/web?q={searchTerms}
+http://ss.uk.ask.com/query?q={searchTerms}&li=ff
+https://uk.ask.com/youtube?q={searchTerms}
+https://c.bingapis.com/api/custom/opal/suggestions/images?q=%s&count=%d&version=5&setmkt=en-us&sf=opalv7
+https://c.bingapis.com/api/custom/opal/suggestions/videos?q=%s&count=%d&version=5&setmkt=en-us&sf=opalv7
+https://c.bingapis.com/api/custom/opal/suggestions/web?q=%s&count=%d&version=5&setmkt=en-us&sf=opalv7
+https://www.bingapis.com/api/v7/Suggestions?q=%s&count=%d&mkt=%s&appid=%s
+https://c.bingapis.com/api/custom/opal/search
+https://www.bing.com/th?
+https://www.bing.com/th?
+https://c.bingapis.com/api/custom/opal/news/trendingtopics?SortBy=date&EnableLockPosition=true&relatednews=true&weeklyquiz=true&count=%d&setmkt=%s
+https://settings.data.microsoft.com/settings/v2.0/androidLL/app
+https://vortex.data.microsoft.com/collect/v1
+https://settings.data.microsoft.com/settings/v2.0/telemetry/
+https://websockets.platform.bing.com/ws/speech/recognize
+https://websockets.platform.bing.com/ws/speech/recognize
+https://websockets.platform.bing.com/ws/speech/recognize/continuous
+https://websockets.platform.bing.com/ws/speech/recognize/continuous
+https://android.notify.windows.com
+https://android.notify.windows.com
+https://cdpcs.microsoft.com/api/userIdHash
+https://login.live.com/oauth20_token.srf
+https://login.live.com/oauth20_token.srf
+https://login.live.com/oauth20_token.srf
+https://login.live.com/oauth20_token.srf
+https://login.live.com/oauth20_token.srf
+https://login.live.com/oauth20_token.srf
+https://login.live.com/oauth20_authorize.srf
+https://login.live.com/oauth20_authorize.srf
+https://login.live.com/oauth20_authorize.srf
+https://login.live.com/oauth20_desktop.srf
+https://login.live.com/oauth20_desktop.srf
+https://login.live.com/oauth20_desktop.srf
+https://login.live.com/oauth20_desktop.srf
+https://login.live.com/oauth20_authorize.srf?redirect_uri=https://login.live.com/oauth20_desktop.srf&response_type=code&client_id=
+https://www.bing.com/cox/partnerapi/newsmore/v1?q=%s&first=%s&count=%s&mkt=%s
+https://www.bing.com/cox/partnerapi/newsmore/v1?q=%s&first=%s&count=%s&mkt=%s
+https://www.bing.com/cox/partnerapi/v1?interests=%s&mkt=%s
+https://www.bing.com/cox/partnerapi/v1?interests=%s&mkt=%s
+https://maps.google.com/maps?daddr=%s,%s
+https://msmamservice.api.application
+https://msmamservice.api.application
+https://msmamservice.api.application
+https://msmamservice.api.application
+https://login.windows.net/common/
+https://login.windows.net/common/oauth2/authorize
+https://login.windows.net/common/oauth2/authorize
+https://arrowsmart.azurewebsites.net/api/arrow/getnews?sources=%s&market=%s&category=%s&timestamp=%s
+https://rink.hockeyapp.net/api/2/apps/
+http://play.google.com/store/apps/details?id=
+http://play.google.com/store/apps/details?id=
+https://support.microsoft.com/en-us/instantanswers/d4efb316-79f0-1aa1-9ef3-dcada78f3fa0/get-the-windows-10-creators-update
+http://localhost/
+http://localhost/
+http://localhost/
+https://signup.live.com/signup
+https://signup.live.com/signup
+https://login.live.com/oauth20_logout.srf
+https://login.live.com/oauth20_logout.srf
+https://go.microsoft.com/fwlink/?LinkID=533051&clcid=0x409
+https://go.microsoft.com/fwlink/?LinkID=533051&clcid=0x409
+https://accout.microsoft.com/family?ref=MicrosoftLauncher
+https://accout.microsoft.com/family?ref=MicrosoftLauncher
+https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&hl=en
+https://lh3.googleusercontent.com/_gpQ5T1jLbbpyoaDHgYoJV_seHudPYAqfYe7me5MApKMYUuY91E_h6y3Jy_Cxe8OO8E=w300-rw
+https://play.google.com/store/apps/details?id=com.linkedin.android&hl=en
+https://lh3.googleusercontent.com/00APBMVQh3yraN704gKCeM63KzeQ-zHUi5wK6E9TjRQ26McyqYBt-zy__4i8GXDAfeys=w300-rw
+https://play.google.com/store/apps/details?id=com.skype.raider&hl=en
+https://lh3.googleusercontent.com/QfAEt_ya6-n8w_TD9-PsghFC2DMSO7fLGNZB4cQ3RtbBbHFkXJE_gxOc3l32-j6LXg=w300-rw
+https://play.google.com/store/apps/details?id=com.microsoft.cortana&hl=en
+https://lh3.googleusercontent.com/jiALSRhVXgmX7MHtfnnJHBWm8W2OYTHCP6FoU_bxsRRQJFfl2xXDeFu6hoAXMYBt4gYO=w300-rw
+https://play.google.com/store/apps/details?id=com.microsoft.office.onenote&hl=en
+https://lh3.googleusercontent.com/JYk-zTlx8PYPNaoV4wx3Z5JlkrleNKU57S_ho-bQcQi8tdAVQzk4fufcPobAOsMRo9c=w300-rw
+https://play.google.com/store/apps/details?id=com.microsoft.skydrive&hl=en
+https://lh3.googleusercontent.com/fvcvos7yoV2ARXkiudyQlKEL8Hohf_o2juAu_fuY8KLmp5GMbdE4CISdRFGsWRE4PyU=w300-rw
+https://play.google.com/store/apps/details?id=com.edge.player&hl=en
+https://lh4.ggpht.com/B6eQBj2lkWFh6Fr1S70Z8u0ajql7pNKog3qTDrCl4rbwKwZkS1xjofT1_CX2LeziFj8=w300-rw
+https://play.google.com/store/apps/details?id=com.touchtype.swiftkey&hl=en
+https://lh3.googleusercontent.com/cwGQJjbFjppZ9R-cyvUxjhHRp9C0feDpH0xZ9dvyHKp_az6RNHpf5AntBoA6FUGP1wk=w300-rw
+https://play.google.com/store/apps/details?id=com.microsoft.office.word&hl=en
+https://lh3.ggpht.com/j6aNgkpGRXp9PEinADFoSkyfup46-6Rb83bS41lfQC_Tc2qg96zQ_aqZcyiaV3M-Ai4=w300-rw
+https://play.google.com/store/apps/details?id=com.microsoft.office.excel&hl=en
+https://lh3.ggpht.com/GkNfqm17WFuzaIR87_oz690ErF63hL08Ngj73QtDxyWlCOF80d2gWd2GHrPLJJ-YmHYS=w300-rw
+https://play.google.com/store/apps/details?id=com.microsoft.office.powerpoint&hl=en
+https://lh4.ggpht.com/2T6WgtnsITUqVRZe-PmK_eopjqd_TjdbP7YhjIakzPgMuWoXDKLaZ-RCRK-6Hg7rWQ=w300-rw
+https://account.microsoft.com/profile/
+https://portal.office.com/account/#personalinfo
+https://onesettings-windowsservices-tas.msedge.net/ab?clientid=
+http://bing.com/maps?rtp=pos.%f_%f_%s~pos.%f_%f_%s&rtop=0~1~0&mode=%s
+http://play.google.com/store/apps/search?q=Icon Pack&c=apps
+https://storage.live.com/Users/-3083167969043005060/MyProfile/ExpressionProfile/ProfilePhoto:UserTileUncroppedOriginal,Win8Static,Default
+https://storage.live.com/Users/-3083167969043005060/MyProfile/ExpressionProfile/ProfilePhoto:UserTileSmall
+https://storage.live.com/Users/-3083167969043005060/MyProfile/ExpressionProfile/ProfilePhoto:UserTileStatic
+https://storage.live.com/Users/-3083167969043005060/MyProfile/ExpressionProfile/ProfilePhoto:Win8Static,UserTileMedium,UserTileStatic
+https://storage.live.com/Users/8286412028970777106/MyProfile/ExpressionProfile/ProfilePhoto:UserTileUncroppedOriginal,Win8Static,Default
+https://storage.live.com/Users/8286412028970777106/MyProfile/ExpressionProfile/ProfilePhoto:UserTileSmall
+https://storage.live.com/Users/8286412028970777106/MyProfile/ExpressionProfile/ProfilePhoto:UserTileStatic
+https://storage.live.com/Users/8286412028970777106/MyProfile/ExpressionProfile/ProfilePhoto:Win8Static,UserTileMedium,UserTileStatic
+https://mmx.activityreporting.family.microsoft.com
+https://mmx.activityreporting.family.microsoft.com/v1.0/principals/obo/feed
+https://mmx.management.family.microsoft.com
+https://mmx.management.family.microsoft.com/api/v0.0/groups(idNamespace='AuthTicket',id='Me')?$expand=members($select=idNamespace,id,cid,role,jsonWebToken)
+https://mmx.settings.family.microsoft.com
+https://mmx.settings.family.microsoft.com
+https://mmx.settings.family.microsoft.com/family/api/v0.0/settings(idNamespace='AuthTicket',id='me')?$expand=activitySettings,locationSettings
+https://find.microsoft-ppe.com
+https://find.microsoft-ppe.com
+https://find.microsoft-ppe.com
+https://find.microsoft.com
+https://find.microsoft.com
+https://find.microsoft.com
+https://dev.virtualearth.net/REST/v1/Imagery/Map/CanvasLight?ms=%d,%d%s&fmt=jpeg&mmd=%d&c=%s%s&key=%s
+https://dev.virtualearth.net/REST/v1/Locations/%f,%f?c=%s&key=%s
+https://dev.virtualearth.net/REST/v1/Imagery/Map/CanvasLight/0.00,0.00/2?ms=%d,%d&fmt=jpeg&c=%s%s&key=%s
+https://accout.microsoft.com/family/settings/recent-activity/
+https://accout.microsoft.com/family/settings/recent-activity/
+https://accout.microsoft.com/family/settings/find-your-child/
+https://aka.ms/getlauncherfamily
+https://aka.ms/launcheramchelper
+https://aka.ms/launcheramchelper
+https://api.onedrive.com/v1.0/drive/root:%s:/thumbnails/0/medium/content
+https://arrowsharehubtest.azurewebsites.net/api/v1.0/
+https://www.arrowlauncher.com/api/v1.0/
+https://arrowsharehubtest.azurewebsites.net/
+https://www.arrowlauncher.com/
+https://officeapps.live.com
+https://officeapps.live.com
+https://storage.live.com/users/0x%s/myprofile/expressionprofile/profilephoto:UserTileCroppedOriginal/avatar
+https://login.chinacloudapi.cn/common/oauth2/authorize
+https://partner.outlook.cn/
+https://partner.outlook.cn/
+https://outlook.office.com
+https://outlook.office.com
+https://arrowlauncher.blob.core.windows.net/apk/version.txt
+https://dlwnextsetting.blob.core.windows.net/microsoftappsicons/
+https://dlwnextsetting.blob.core.windows.net/microsoftappslist/
+https://d.docs.live.net/%s/%s%s
+https://ocws.officeapps.live.com/ocs/v2/recent
+https://api.onedrive.com/v1.0
+https://api.onedrive.com/v1.0
+https://onedrive.live.com/?cid
+https://onedrive.live.com/?cid=
+https://d.docs.live.net/
+https://api.office.com/discovery/
+https://api.office.com/discovery/v2.0/me/Services
+https://onedrive.live.com/view.aspx?resid=%s&app=%s
+https://rink.hockeyapp.net/apps/a39c25d5a29c4f68ab0506b0a2f0f540
+http://dlwnextsetting.cloudapp.net/WallPaper/show?name=%s
+https://join.microsoft.com/meet/zhanli/19HZRT31
+https://outlook.office.com/api/v2.0/
+https://outlook.office.com/api/v2.0/
+https://outlook.office.com/api/v2.0/
+https://outlook.office.com/api/v2.0/
+https://join.microsoft.com/meet
+https://meet.lync.com
+https://app.adjust.com/3vr8ey?campaign=Launcher_Dock
+https://rink.hockeyapp.net/api/2/apps/%s/crashes
+https://plus.google.com/communities/109393011462139141948
+https://plus.google.com/communities/109393011462139141948
+http://aka.ms/privacy
+http://aka.ms/msa
+https://arrowlauncher.com/thirdpartynotes.html
+https://arrowlauncher.uservoice.com/knowledgebase/articles/1162201-i-ve-enabled-notification-badges-in-settings-bu
+https://arrowlauncher.uservoice.com/knowledgebase/articles/1162201-i-ve-enabled-notification-badges-in-settings-bu
+https://arrowlauncher.uservoice.com/knowledgebase/articles/1162201-i-ve-enabled-notification-badges-in-settings-bu
+http://play.google.com/store/search?q=Icon Pack&c=apps
+https://app.adjust.com/uv8ydl?campaign=QR_Share
+https://app.adjust.com/uv8ydl?campaign=Social_Share
+https://arrowlauncher.uservoice.com/knowledgebase/articles/822849-problems-uninstalling-arrow
+http://dlwnextsetting.blob.core.windows.net/image/
+http://dlwnextsetting.blob.core.windows.net/image/
+http://dlwnextsetting.blob.core.windows.net/video/
+https://smart.arrowlauncher.com/api/predict
+https://smart.arrowlauncher.com/api/id
+https://accout.microsoft.com/family/addmember?ref=MicrosoftLauncher
+https://www.bing.com/HPImageArchive.aspx?n=7&idx=%s&format=js&mkt=en-ww
+http://www.foreca.com
+http://www.foreca.com
+https://www.msn.com/ar-ae/weather/today/%s/we-city?weadegreetype=%s
+https://www.msn.com/ar-eg/weather/today/%s/we-city?weadegreetype=%s
+https://www.msn.com/ar-sa/weather/today/%s/we-city?weadegreetype=%s
+https://www.msn.com/ar-xl/weather/today/%s/we-city?weadegreetype=%s
+https://www.msn.com/da-dk/vejr/i-dag/%s/we-city?weadegreetype=%s
+https://www.msn.com/de-ch/wetter/heute/%s/we-city?weadegreetype=%s
+https://www.msn.com/de-de/wetter/heute/%s/we-city?weadegreetype=%s
+https://www.msn.com/el-gr/weather/today/%s/we-city?weadegreetype=%s
+https://www.msn.com/en-ae/weather/today/%s/we-city?weadegreetype=%s
+https://www.msn.com/en-au/weather/today/%s/we-city?weadegreetype=%s
+https://www.msn.com/en-ca/weather/today/%s/we-city?weadegreetype=%s
+https://www.msn.com/en-gb/weather/today/%s/we-city?weadegreetype=%s
+https://www.msn.com/en-ie/weather/today/%s/we-city?weadegreetype=%s
+https://www.msn.com/en-in/weather/today/%s/we-city?weadegreetype=%s
+https://www.msn.com/en-my/weather/today/%s/we-city?weadegreetype=%s
+https://www.msn.com/en-nz/weather/today/%s/we-city?weadegreetype=%s
+https://www.msn.com/en-ph/weather/today/%s/we-city?weadegreetype=%s
+https://www.msn.com/en-sa/weather/today/%s/we-city?weadegreetype=%s
+https://www.msn.com/en-us/weather/today/%s/we-city?weadegreetype=%s
+https://www.msn.com/en-za/weather/today/%s/we-city?weadegreetype=%s
+https://www.msn.com/es-ar/el-tiempo/hoy/%s/we-city?weadegreetype=%s
+https://www.msn.com/es-cl/el-tiempo/hoy/%s/we-city?weadegreetype=%s
+https://www.msn.com/es-co/el-tiempo/hoy/%s/we-city?weadegreetype=%s
+https://www.msn.com/es-es/eltiempo/hoy/%s/we-city?weadegreetype=%s
+https://www.msn.com/es-mx/el-tiempo/hoy/%s/we-city?weadegreetype=%s
+https://www.msn.com/es-pe/el-tiempo/hoy/%s/we-city?weadegreetype=%s
+https://www.msn.com/es-us/el-tiempo/hoy/%s/we-city?weadegreetype=%s
+https://www.msn.com/es-ve/el-tiempo/hoy/%s/we-city?weadegreetype=%s
+https://www.msn.com/es-xl/el-tiempo/hoy/%s/we-city?weadegreetype=%s
+https://www.msn.com/fi-fi/saa/tanaan/%s/we-city?weadegreetype=%s
+https://www.msn.com/fr-be/meteo/aujourd-hui/%s/we-city?weadegreetype=%s
+https://www.msn.com/fr-ca/meteo/aujourd-hui/%s/we-city?weadegreetype=%s
+https://www.msn.com/fr-ch/meteo/aujourd-hui/%s/we-city?weadegreetype=%s
+https://www.msn.com/fr-fr/meteo/aujourd-hui/%s/we-city?weadegreetype=%s
+https://www.msn.com/id-id/cuaca/hariini/%s/we-city?weadegreetype=%s
+https://www.msn.com/it-it/meteo/oggi/%s/we-city?weadegreetype=%s
+https://www.msn.com/ja-jp/weather/today/%s/we-city?weadegreetype=%s
+https://www.msn.com/ko-kr/weather/today/%s/we-city?weadegreetype=%s
+https://www.msn.com/nb-no/weather/idag/%s/we-city?weadegreetype=%s
+https://www.msn.com/nl-be/weer/vandaag/%s/we-city?weadegreetype=%s
+https://www.msn.com/nl-nl/weer/vandaag/%s/we-city?weadegreetype=%s
+https://www.msn.com/pl-pl/pogoda/dzisiaj/%s/we-city?weadegreetype=%s
+https://www.msn.com/pt-br/clima/hoje/%s/we-city?weadegreetype=%s
+https://www.msn.com/pt-pt/meteorologia/hoje/%s/we-city?weadegreetype=%s
+https://www.msn.com/ru-ru/weather/today/%s/we-city?weadegreetype=%s
+https://www.msn.com/sv-se/weather/idag/%s/we-city?weadegreetype=%s
+https://www.msn.com/th-th/weather/today/%s/we-city?weadegreetype=%s
+https://www.msn.com/tr-tr/havadurumu/bugun/%s/we-city?weadegreetype=%s
+https://www.msn.com/zh-hk/weather/today/%s/we-city?weadegreetype=%s
+https://www.msn.com/zh-tw/weather/today/%s/we-city?weadegreetype=%s
+https://www.msn.com/ar-ae/weather/today/weather/we-city-%.3f,%.3f?weadegreetype=%s
+https://www.msn.com/ar-eg/weather/today/weather/we-city-%.3f,%.3f?weadegreetype=%s
+https://www.msn.com/ar-sa/weather/today/weather/we-city-%.3f,%.3f?weadegreetype=%s
+https://www.msn.com/ar-xl/weather/today/weather/we-city-%.3f,%.3f?weadegreetype=%s
+https://www.msn.com/da-dk/vejr/i-dag/weather/we-city-%.3f,%.3f?weadegreetype=%s
+https://www.msn.com/de-ch/wetter/heute/weather/we-city-%.3f,%.3f?weadegreetype=%s
+https://www.msn.com/de-de/wetter/heute/weather/we-city-%.3f,%.3f?weadegreetype=%s
+https://www.msn.com/el-gr/weather/today/weather/we-city-%.3f,%.3f?weadegreetype=%s
+https://www.msn.com/en-ae/weather/today/weather/we-city-%.3f,%.3f?weadegreetype=%s
+https://www.msn.com/en-au/weather/today/weather/we-city-%.3f,%.3f?weadegreetype=%s
+https://www.msn.com/en-ca/weather/today/weather/we-city-%.3f,%.3f?weadegreetype=%s
+https://www.msn.com/en-gb/weather/today/weather/we-city-%.3f,%.3f?weadegreetype=%s
+https://www.msn.com/en-ie/weather/today/weather/we-city-%.3f,%.3f?weadegreetype=%s
+https://www.msn.com/en-in/weather/today/weather/we-city-%.3f,%.3f?weadegreetype=%s
+https://www.msn.com/en-my/weather/today/weather/we-city-%.3f,%.3f?weadegreetype=%s
+https://www.msn.com/en-nz/weather/today/weather/we-city-%.3f,%.3f?weadegreetype=%s
+https://www.msn.com/en-ph/weather/today/weather/we-city-%.3f,%.3f?weadegreetype=%s
+https://www.msn.com/en-sa/weather/today/weather/we-city-%.3f,%.3f?weadegreetype=%s
+https://www.msn.com/en-us/weather/today/weather/we-city-%.3f,%.3f?weadegreetype=%s
+https://www.msn.com/en-za/weather/today/weather/we-city-%.3f,%.3f?weadegreetype=%s
+https://www.msn.com/es-ar/el-tiempo/hoy/weather/we-city-%.3f,%.3f?weadegreetype=%s
+https://www.msn.com/es-cl/el-tiempo/hoy/weather/we-city-%.3f,%.3f?weadegreetype=%s
+https://www.msn.com/es-co/el-tiempo/hoy/weather/we-city-%.3f,%.3f?weadegreetype=%s
+https://www.msn.com/es-es/eltiempo/hoy/weather/we-city-%.3f,%.3f?weadegreetype=%s
+https://www.msn.com/es-mx/el-tiempo/hoy/weather/we-city-%.3f,%.3f?weadegreetype=%s
+https://www.msn.com/es-pe/el-tiempo/hoy/weather/we-city-%.3f,%.3f?weadegreetype=%s
+https://www.msn.com/es-us/el-tiempo/hoy/weather/we-city-%.3f,%.3f?weadegreetype=%s
+https://www.msn.com/es-ve/el-tiempo/hoy/weather/we-city-%.3f,%.3f?weadegreetype=%s
+https://www.msn.com/es-xl/el-tiempo/hoy/weather/we-city-%.3f,%.3f?weadegreetype=%s
+https://www.msn.com/fi-fi/saa/tanaan/weather/we-city-%.3f,%.3f?weadegreetype=%s
+https://www.msn.com/fr-be/meteo/aujourd-hui/weather/we-city-%.3f,%.3f?weadegreetype=%s
+https://www.msn.com/fr-ca/meteo/aujourd-hui/weather/we-city-%.3f,%.3f?weadegreetype=%s
+https://www.msn.com/fr-ch/meteo/aujourd-hui/weather/we-city-%.3f,%.3f?weadegreetype=%s
+https://www.msn.com/fr-fr/meteo/aujourd-hui/weather/we-city-%.3f,%.3f?weadegreetype=%s
+https://www.msn.com/id-id/cuaca/hariini/weather/we-city-%.3f,%.3f?weadegreetype=%s
+https://www.msn.com/it-it/meteo/oggi/weather/we-city-%.3f,%.3f?weadegreetype=%s
+https://www.msn.com/ja-jp/weather/today/weather/we-city-%.3f,%.3f?weadegreetype=%s
+https://www.msn.com/ko-kr/weather/today/weather/we-city-%.3f,%.3f?weadegreetype=%s
+https://www.msn.com/nb-no/weather/idag/weather/we-city-%.3f,%.3f?weadegreetype=%s
+https://www.msn.com/nl-be/weer/vandaag/weather/we-city-%.3f,%.3f?weadegreetype=%s
+https://www.msn.com/nl-nl/weer/vandaag/weather/we-city-%.3f,%.3f?weadegreetype=%s
+https://www.msn.com/pl-pl/pogoda/dzisiaj/weather/we-city-%.3f,%.3f?weadegreetype=%s
+https://www.msn.com/pt-br/clima/hoje/weather/we-city-%.3f,%.3f?weadegreetype=%s
+https://www.msn.com/pt-pt/meteorologia/hoje/weather/we-city-%.3f,%.3f?weadegreetype=%s
+https://www.msn.com/ru-ru/weather/today/weather/we-city-%.3f,%.3f?weadegreetype=%s
+https://www.msn.com/sv-se/weather/idag/weather/we-city-%.3f,%.3f?weadegreetype=%s
+https://www.msn.com/th-th/weather/today/weather/we-city-%.3f,%.3f?weadegreetype=%s
+https://www.msn.com/tr-tr/havadurumu/bugun/weather/we-city-%.3f,%.3f?weadegreetype=%s
+https://www.msn.com/zh-hk/weather/today/weather/we-city-%.3f,%.3f?weadegreetype=%s
+https://www.msn.com/zh-tw/weather/today/weather/we-city-%.3f,%.3f?weadegreetype=%s
+https://service.weather.microsoft.com/%s/locations/search/%.3f,%.3f?formcode=ANDLSNT&appId=7593BBAF-FC22-4200-BFBB-252D66E29E0A
+https://service.weather.microsoft.com/%s/locations/search/%.3f,%.3f?formcode=ANDLSN&appId=7593BBAF-FC22-4200-BFBB-252D66E29E0A
+https://service.weather.microsoft.com/%s/locations/search/%s?formcode=ANDLSNT&appId=%s
+https://service.weather.microsoft.com/%s/locations/search/%s?formcode=ANDLSN&appId=%s
+https://service.weather.microsoft.com/%s/weather/forecast/hourly/%.3f,%.3f?units=%s&formcode=ANDLSNT&appId=7593BBAF-FC22-4200-BFBB-252D66E29E0A
+https://service.weather.microsoft.com/%s/weather/forecast/hourly/%.3f,%.3f?units=%s&formcode=ANDLSN&appId=7593BBAF-FC22-4200-BFBB-252D66E29E0A
+https://service.weather.microsoft.com/%s/weather/summary/%.3f,%.3f?days=5&units=%s&formcode=ANDLSN&appId=7593BBAF-FC22-4200-BFBB-252D66E29E0A
+https://graph.microsoft.com/v1.0/me/
+https://mmxsdktest.azurewebsites.net/
+http://schema.org
+https://graph.microsoft.com/beta/me/activities/
+https://rink.hockeyapp.net/api/2/apps/9b0677f0b80349158324a6ba9598791d/feedback
+https://apis.live.net/v5.0
+https://apis.live.net/v5.0
+https://pf.directory.live.com/profile/mine/WLX.Profiles.IC.json
+https://directory.services.live.com/profile/mine/System.ShortCircuitProfile.json
+https://oneclient.sfx.ms/mobile/ts_configuration.jwt
+http://a.wunderlist.com/api/v1/
+https://www.wunderlist.com/oauth/
+https://www.wunderlist.com/oauth/authorize?client_id=ca083081b8e746df371a&redirect_uri=https://www.arrowlauncher.com/wl2arrow.html?state=RANDOM
+https://onedrive.live.com/picker/accountchooser?ru=https://localhost:777&load_login=false
+https://login.microsoftonline.com/common/oauth2/authorize
+https://login.microsoftonline.com/common/oauth2/desktop
+https://login.microsoftonline.com/common/oauth2/logout
+https://login.microsoftonline.com/common/oauth2/token
+https://github.com/AzureAD/azure-activedirectory-library-for-android
+https://github.com/AzureAD/azure-activedirectory-library-for-android
+https://github.com/OneDrive/onedrive-sdk-android/issues
+
+[INTERNAL_LOG][2018-06-07 21:23:56,149][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-07 21:23:56,174][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-07 21:23:56,175][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-07 21:23:56,175][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-07 21:23:56,175][INFO][analyze_start()] End time:[Thu Jun  7 21:23:56 2018]

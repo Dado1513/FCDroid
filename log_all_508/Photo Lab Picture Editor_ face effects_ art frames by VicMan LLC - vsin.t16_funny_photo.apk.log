@@ -1,0 +1,153 @@
+[INTERNAL_LOG][2018-06-08 01:10:54,282][INFO][analyze_start()] Init Time [Fri Jun  8 01:10:54 2018]
+[INTERNAL_LOG][2018-06-08 01:10:54,352][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-08 01:10:54,354][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-08 01:10:54,355][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-08 01:10:54,355][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-08 01:10:54,355][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-08 01:10:54,355][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-08 01:10:54,355][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-08 01:10:54,355][INFO][is_hybird()] android.permission.READ_SYNC_SETTINGS
+[INTERNAL_LOG][2018-06-08 01:10:54,355][INFO][is_hybird()] android.permission.WRITE_SYNC_SETTINGS
+[INTERNAL_LOG][2018-06-08 01:10:54,355][INFO][is_hybird()] android.permission.AUTHENTICATE_ACCOUNTS
+[INTERNAL_LOG][2018-06-08 01:10:54,355][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-08 01:10:54,355][INFO][is_hybird()] com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+[INTERNAL_LOG][2018-06-08 01:10:54,355][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-08 01:10:54,355][INFO][is_hybird()] vsin.t16_funny_photo.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-08 01:10:54,355][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-08 01:10:54,355][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-08 01:10:54,356][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-08 01:10:54,356][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-08 01:11:42,186][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-08 01:11:42,187][INFO][find_url_in_apk()] http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+http://schemas.applovin.com/android/1.0
+http://schemas.applovin.com/android/1.0
+https://d.applovin.com/
+https://a.applovin.com/
+https://rt.applovin.com/med
+https://rt.applovin.com/pix
+https://d.applvn.com/
+https://a.applvn.com/
+https://rt.applvn.com/pix
+https://vid.applovin.com/,https://pdn.applovin.com/,https://img.applovin.com/,https://d.applovin.com/,https://assets.applovin.com/,https://cdnjs.cloudflare.com/,http://vid.applovin.com/,http://pdn.applovin.com/,http://img.applovin.com/,http://d.applovin.com/,http://assets.applovin.com/,http://cdnjs.cloudflare.com/
+https://www.facebook.com/audience_network/server_side_reward
+https://www.%s.facebook.com/audience_network/server_side_reward
+https://graph.facebook.com/network_ads_common
+https://graph.%s.facebook.com/network_ads_common
+https://www.facebook.com/adnw_logging/
+https://www.%s.facebook.com/adnw_logging/
+https://www.facebook.com/
+https://www.%s.facebook.com
+http://play.google.com/store/apps/
+https://graph.%s
+https://graph-video.%s
+https://facebook.com
+https://facebook.com/device?user_code=%1$s&qr=1
+http://www.w3.org/ns/ttml#parameter
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+http://hostname/?
+https://plus.google.com/
+https://pagead2.googlesyndication.com/pagead/gen_204
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/sdk-core-v40-impl.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://csi.gstatic.com/csi
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/native_ads.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/native_ads.js
+https://imasdk.googleapis.com/admob/sdkloader/native_video.html
+https://www.google.com/dfp/linkDevice
+https://www.google.com/dfp/inAppPreview
+https://www.google.com/dfp/debugSignals
+https://www.google.com/dfp/sendDebugData
+http://www.example.com
+http://www.example.com
+http://www.google-analytics.com
+https://ssl.google-analytics.com
+https://mobilecrashreporting.googleapis.com/v1/crashes:batchCreate?key=
+https://i.l.inmobicdn.net/sdk/sdk/500/android/mraid.js
+http://i.w.inmobi.com/showad.asm
+https://sdktm.w.inmobi.com/sdkpubreq
+http://config.inmobi.com/config-server/v1/config/secure.cfg
+http://www.inmobi.com/products/sdk/#downloads
+https://sdkm.w.inmobi.com/metrics/e.asm?v=1&
+https://www.facebook.com/dialog/feed?app_id=181821551957328&link=
+https://m.google.com/app/plus/x/?v=compose&content=
+http://twitter.com/home?status=
+https://api.instagram.com/oauth/authorize/?client_id={0}&redirect_uri={1}&response_type=token
+https://api.instagram.com/v1/users/self/?access_token=
+http://androidlog.ws.pho.to/?
+http://opeapi.ws.pho.to/
+https://play.google.com/redeem?code=
+https://play.google.com/store/apps/dev?id=6017800222101031429
+https://play.google.com/store/apps/dev?id=6017800222101031429
+https://www.facebook.com/Pho.to.Editor/
+https://www.instagram.com/photolabofficial/
+https://twitter.com/pho_to/
+http://testing.photolabsocialapi.pho.to/api/v1/
+http://photolabsocialapi.pho.to/api/v1/
+http://photolabsocialapi.pho.to/d/
+http://photolabsocialapi.pho.to/d/
+http://photolabsocialapi.pho.to/d/
+http://localhost/callback
+http://d3kk92hl2t7r5d.cloudfront.net/a/e/default/90000001.jpg
+https://designers.photolab.me/dashboard
+https://facebook.com/
+http://instagram.com/_u/
+http://instagram.com/
+http://photolabsocialapi.pho.to/feed/user/
+http://photolabsocialapi.pho.to/feed/children/
+http://photolabsocialapi.pho.to/effects/user/
+http://temp.ws.pho.to/upload.php
+http://testing.cfg.ws.pho.to/androidphotolab/conf.json
+http://cfg.ws.pho.to/androidphotolab/conf.json
+http://photolabsocialapi.pho.to/feed/best
+http://photolabsocialapi.pho.to/feed/recent
+http://photolabsocialapi.pho.to/feed/trending
+http://photolabsocialapi.pho.to/feed/teaser
+http://photolabsocialapi.pho.to/feed
+http://photolabsocialapi.pho.to/search
+http://photolabsocialapi.pho.to/me/feed
+http://photolabsocialapi.pho.to/me/effects
+http://photolabsocialapi.pho.to/community-effects
+http://photolabsocialapi.pho.to/comments
+https://play.google.com/store/apps/details?id=
+http://www.amazon.com/gp/mas/dl/android?p=
+http://d2mj7vjmpsq0p0.cloudfront.net/stickers/%s/preview.zip
+http://d2mj7vjmpsq0p0.cloudfront.net/stickers/stickers.json
+http://d2mj7vjmpsq0p0.cloudfront.net/stickers/
+http://lol.vungle.com/
+https://settings.crashlytics.com/spi/v2/platforms/android/apps/%s/settings
+http://www.facebook.com
+https://www.googleapis.com/auth/games_lite
+https://www.googleapis.com/auth/games
+http://www.google.com
+https://support.google.com/dfp_premium/answer/7160685#push
+https://app-measurement.com/a
+https://www.google.com
+http://schemas.android.com/apk/lib/com.inmobi.ads
+http://schemas.android.com/apk/lib/com.inmobi.ads
+http://dock.inmobi.com/carb/v1/i
+http://dock.inmobi.com/carb/v1/o
+https://sdkm.w.inmobi.com/user/e.asm
+https://mobile-static.adsafeprotected.com/avid-v2.js
+https://z.moatads.com/
+https://www.vungle.com/privacy/
+https://www.vungle.com/privacy/
+https://api.vungle.com/api/v4/
+https://ingest.vungle.com/
+https://e.crashlytics.com/spi/v2/events
+
+[INTERNAL_LOG][2018-06-08 01:11:42,187][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-08 01:11:42,190][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-08 01:11:42,190][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-08 01:11:42,190][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-08 01:11:42,190][INFO][analyze_start()] End time:[Fri Jun  8 01:11:42 2018]

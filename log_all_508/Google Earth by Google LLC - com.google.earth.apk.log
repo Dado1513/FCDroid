@@ -1,0 +1,48 @@
+[INTERNAL_LOG][2018-06-08 02:52:40,044][INFO][analyze_start()] Init Time [Fri Jun  8 02:52:40 2018]
+[INTERNAL_LOG][2018-06-08 02:52:40,079][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-08 02:52:40,080][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-08 02:52:40,080][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-08 02:52:40,080][INFO][is_hybird()] android.permission.ACCESS_FINE_LOCATION
+[INTERNAL_LOG][2018-06-08 02:52:40,080][INFO][is_hybird()] android.permission.ACCESS_COARSE_LOCATION
+[INTERNAL_LOG][2018-06-08 02:52:40,080][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-08 02:52:40,080][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-08 02:52:40,081][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-08 02:52:40,081][INFO][is_hybird()] android.permission.NFC
+[INTERNAL_LOG][2018-06-08 02:52:40,081][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-08 02:52:40,081][INFO][is_hybird()] com.google.android.providers.gsf.permission.READ_GSERVICES
+[INTERNAL_LOG][2018-06-08 02:52:40,081][INFO][is_hybird()] android.permission.GET_PACKAGE_SIZE
+[INTERNAL_LOG][2018-06-08 02:52:40,081][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-08 02:52:40,081][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-08 02:52:40,081][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-08 02:52:40,081][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-08 02:53:03,146][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-08 02:53:03,146][INFO][find_url_in_apk()] http://schemas.android.com/apk/res/android
+http://maps.google.com/?q=
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+http://www.google-analytics.com
+https://ssl.google-analytics.com
+https://plus.google.com/
+https://www.googleapis.com/auth/drive.file
+https://www.googleapis.com/auth/drive.appdata
+https://www.googleapis.com/auth/drive
+https://www.googleapis.com/auth/drive.apps
+http://play.google.com/store/apps/details
+https://static.panoramio.com.storage.googleapis.com/photos/original/
+https://static.panoramio.com.storage.googleapis.com/photos/large/
+https://ssl.panoramio.com/photos/original/
+https://ssl.panoramio.com/photos/large/
+https://www.googleapis.com/auth/spreadsheets.readonly
+http://hostname/?
+https://sheets.googleapis.com/
+https://www.googleapis.com/auth/games
+
+[INTERNAL_LOG][2018-06-08 02:53:03,146][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-08 02:53:03,148][INFO][check_method_conf()] [JavaScript enabled: False]
+
+[INTERNAL_LOG][2018-06-08 02:53:03,148][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-08 02:53:03,148][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-08 02:53:03,148][INFO][analyze_start()] End time:[Fri Jun  8 02:53:03 2018]

@@ -1,0 +1,190 @@
+[INTERNAL_LOG][2018-06-08 02:56:43,169][INFO][analyze_start()] Init Time [Fri Jun  8 02:56:43 2018]
+[INTERNAL_LOG][2018-06-08 02:56:43,244][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-08 02:56:43,247][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-08 02:56:43,247][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-08 02:56:43,247][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-08 02:56:43,247][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-08 02:56:43,247][INFO][is_hybird()] com.google.android.providers.gsf.permission.READ_GSERVICES
+[INTERNAL_LOG][2018-06-08 02:56:43,247][INFO][is_hybird()] android.permission.CAMERA
+[INTERNAL_LOG][2018-06-08 02:56:43,247][INFO][is_hybird()] com.sec.android.provider.badge.permission.READ
+[INTERNAL_LOG][2018-06-08 02:56:43,247][INFO][is_hybird()] com.sec.android.provider.badge.permission.WRITE
+[INTERNAL_LOG][2018-06-08 02:56:43,247][INFO][is_hybird()] android.permission.READ_PROFILE
+[INTERNAL_LOG][2018-06-08 02:56:43,248][INFO][is_hybird()] android.permission.READ_CONTACTS
+[INTERNAL_LOG][2018-06-08 02:56:43,248][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-08 02:56:43,248][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-08 02:56:43,248][INFO][is_hybird()] android.permission.RECEIVE_BOOT_COMPLETED
+[INTERNAL_LOG][2018-06-08 02:56:43,248][INFO][is_hybird()] android.permission.USE_CREDENTIALS
+[INTERNAL_LOG][2018-06-08 02:56:43,248][INFO][is_hybird()] android.permission.ACCESS_FINE_LOCATION
+[INTERNAL_LOG][2018-06-08 02:56:43,248][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-08 02:56:43,248][INFO][is_hybird()] com.pinterest.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-08 02:56:43,248][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-08 02:56:43,248][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-08 02:56:43,248][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-08 02:56:43,248][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-08 02:56:43,248][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-08 02:57:42,544][INFO][find_url_in_apk()] [START URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-08 02:57:42,544][INFO][find_url_in_apk()] https://api.pinterest.com/oauth/
+
+[INTERNAL_LOG][2018-06-08 02:57:42,544][INFO][find_url_in_apk()] [END URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-08 02:57:42,794][ERROR][download_page_loaded()] Failed response code: 400 for https://api.pinterest.com/oauth/  
+[INTERNAL_LOG][2018-06-08 02:57:42,795][INFO][find_string()] [START REMOTE FILE ANALYZE]
+[INTERNAL_LOG][2018-06-08 02:57:42,796][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-08 02:57:42,796][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-08 02:57:42,796][INFO][find_url_in_apk()] http://schemas.android.com/apk/res/android
+https://app.adjust.com
+https://bugsnag.com
+https://notify.bugsnag.com
+https://sessions.bugsnag.com
+http://www.w3.org/TR/SVG11/feature#
+http://www.w3.org/1999/xlink
+http://www.w3.org/1999/xlink
+http://www.w3.org/1999/xlink
+http://www.w3.org/1999/xlink
+http://www.w3.org/1999/xlink
+http://www.w3.org/1999/xlink
+http://xml.org/sax/properties/lexical-handler
+http://www.w3.org/2000/svg
+http://www.w3.org/2000/svg
+https://graph.accountkit.com
+https://www.accountkit.com/faq
+https://www.accountkit.com/faq
+https://www.accountkit.com/faq
+https://m.facebook.com/terms
+https://m.facebook.com/terms
+https://m.facebook.com/about/privacy/
+https://m.facebook.com/about/privacy/
+https://m.facebook.com/help/cookies/update
+https://m.facebook.com/help/cookies/update
+https://graph.%s
+https://graph-video.%s
+https://facebook.com
+https://facebook.com/device?user_code=%1$s&qr=1
+http://www.android.com/
+http://www.w3.org/ns/ttml#parameter
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+https://www.googleapis.com/auth/games_lite
+https://www.googleapis.com/auth/games
+https://plus.google.com/
+https://app-measurement.com/a
+https://www.google.com
+http://schemas.android.com/apk/lib/com.google.android.gms.plus
+https://uri.paypal.com/services/payments/futurepayments
+https://uri.paypal.com/services/paypalattributes
+https://api.paypal.com/v1/tracking/events
+https://cms.paypal.com/jp/cgi-bin/marketingweb?cmd=_render-content&content_ID=ua/Legal_Hub_full&locale.x=ja_JP
+https://www.paypal.jp/jp/contents/regulation/info/overseas-remittance/
+https://cms.paypal.com/jp/cgi-bin/marketingweb?cmd=_render-content&content_ID=ua/Legal_Hub_full&locale.x=en_US
+https://uri.paypal.com/services/payments/funding-options
+https://uri.paypal.com/services/pos/payments
+https://uri.paypal.com/services/mis/customer
+https://uri.paypal.com/services/wallet/financial-instruments/view
+https://uri.paypal.com/services/wallet/sendmoney
+https://uri.paypal.com/services/wallet/money-request/requests
+https://uri.paypal.com/services/loyalty/memberships/update
+https://uri.paypal.com/services/expresscheckout
+http://cancelurl
+http://returnurl
+https://api-m.paypal.com/v1/
+https://api-m.sandbox.paypal.com/v1/
+https://www.paypal.com/%s/cgi-bin/webscr?cmd=p/gen/ua/policy_privacy-outside
+https://www.paypal.com/signup/account?country.x=%s&locale.x=%s
+https://www.paypal.com/webapps/accountrecovery/passwordrecovery
+https://www.paypal.com/%s/cgi-bin/webscr?cmd=_account-recovery&from=%s&locale.x=%s
+https://www.paypal.com/%s/webapps/mpp/ua/useragreement-full
+https://svcs.paypal.com/AccessControl/LogRiskMetadata
+https://b.stats.paypal.com/counter.cgi?p=
+https://www.paypalobjects.com/webstatic/risk/dyson_config_android_v3.json
+https://www.pinterest.com/_/_/about/privacy/
+https://www.pinterest.com/_/_/business/tos/
+https://accounts.google.com
+https://accounts.google.com
+https://accounts.google.com
+https://accounts.google.com
+https://www.facebook.com
+https://www.facebook.com
+https://www.facebook.com
+https://i.pinimg.com/originals/f5/ab/f9/f5abf9e5d5e62c30fa1ab7f79d19f8a6.png
+https://i.pinimg.com/736x/f2/81/39/f28139f761c10cdb1b81ee11f32c1299.jpg
+http://www.pinterest.com
+http://www.pinterest.com/
+http://pinterest.com
+https://d.adroll.com/cm/x/out
+https://li.pxl.ace.advertising.com
+https://secure.adnxs.com
+https://ib.adnxs.com
+https://vcdn.adnxs.com
+https://bat.bing.com/action/0?ti=4018956&Ver=2
+https://cm.g.doubleclick.net
+https://bid.g.doubleclick.net
+https://www.facebook.com/tr
+https://www.googleadservices.com/pagead/conversion
+https://www.google.com/ads/user-lists
+https://googleads.g.doubleclick.net
+https://tpc.googlesyndication.com
+https://sync.mathtag.com/sync
+https://api.nanigans.com/event.php
+https://us-u.openx.net
+https://amplifypixel.outbrain.com/pixel
+https://pixel.rubiconproject.com
+https://insight.adsrvr.org
+https://www.google.com/ads/ga-audiences
+https://www.google-analytics.com/analytics.js
+https://s.thebrighttag.com
+https://connect.facebook.net/signals
+https://analytics.twitter.com
+https://t.co/i/adsct?p_id=Twitter
+https://platform.twitter.com/oct.js
+https://static.ads-twitter.com/oct.js
+https://api.pinterest.com/v3/%s
+https://api.pinterest.com/v3/%s
+https://api.pinterest.com/v3/%s
+https://trk.pinterest.com/v3/%s
+https://trk.pinterest.com/v3/%s
+https://trk.pinterest.com/v4/%s
+https://trk.pinterest.com/v4/%s
+https://trk.pinterest.com/log
+https://api-ming.pinterdev.com/v3/%s
+https://api-ming.pinterdev.com/v3/%s
+https://api-ming.pinterdev.com/v4/%s
+https://assets.pinterest.com/js/pinmarklet.js
+https://assets.pinterest.com/js/pinmarklet.js
+https://assets.pinterest.com/js/pinmarklet.js
+http://pinterest.com/pin/%s/?source_app=android
+https://pinterest.com/pin/%s/?source_app=android
+https://i.pinimg.com/avatars/ayuantest1_1502833033_444.jpg
+https://i.pinimg.com/736x/c3/0e/9b/c30e9bbaef3532e9b5b8964024f25a71--princess-cat-princess-aurora.jpg
+https://api.pinterest.com/v3/
+http://play.google.com/store/apps/
+https://help.pinterest.com/en/articles/pin-stats
+https://help.pinterest.com/articles/follow?source=follow_menu_mobile
+https://s3.amazonaws.com/pinterest-ota-builds/Android.json
+https://passets-cdn.pinterest.com/status/android_status.json
+http://play.google.com/store/apps/details?id=com.pinterest
+https://i.pinimg.com/_/_/r20.gif
+https://pinterest.com/search?q=
+http://media-cache-ak0.pinimg.com/assets/js/warm.js
+http://media-cache-ec0.pinimg.com/assets/js/warm.js
+https://s-media-cache-ak0.pinimg.com/assets/js/warm.js
+https://api.pinterest.com/oauth/
+https://api.stripe.com
+https://api.branch.io/
+https://bnc.lt/a/
+https://e.crashlytics.com/spi/v2/events
+https://settings.crashlytics.com/spi/v2/platforms/android/apps/%s/settings
+https://play.google.com/store/apps/details?id=%s
+http://localhost/
+http://localhost/
+http://localhost/
+http://localhost
+
+[INTERNAL_LOG][2018-06-08 02:57:42,797][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-08 02:57:42,815][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-08 02:57:42,815][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-08 02:57:42,815][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-08 02:57:42,816][INFO][analyze_start()] End time:[Fri Jun  8 02:57:42 2018]

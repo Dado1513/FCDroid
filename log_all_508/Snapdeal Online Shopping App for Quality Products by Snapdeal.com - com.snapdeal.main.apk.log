@@ -1,0 +1,366 @@
+[INTERNAL_LOG][2018-06-07 21:29:12,431][INFO][analyze_start()] Init Time [Thu Jun  7 21:29:12 2018]
+[INTERNAL_LOG][2018-06-07 21:29:12,501][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-07 21:29:12,505][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-07 21:29:12,510][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-07 21:29:12,510][INFO][is_hybird()] android.permission.CALL_PHONE
+[INTERNAL_LOG][2018-06-07 21:29:12,510][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-07 21:29:12,515][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-07 21:29:12,515][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-07 21:29:12,515][INFO][is_hybird()] android.permission.GET_TASKS
+[INTERNAL_LOG][2018-06-07 21:29:12,526][INFO][is_hybird()] android.permission.READ_PHONE_STATE
+[INTERNAL_LOG][2018-06-07 21:29:12,527][INFO][is_hybird()] android.permission.RECEIVE_BOOT_COMPLETED
+[INTERNAL_LOG][2018-06-07 21:29:12,532][INFO][is_hybird()] com.android.launcher.permission.INSTALL_SHORTCUT
+[INTERNAL_LOG][2018-06-07 21:29:12,539][INFO][is_hybird()] com.android.launcher.permission.UNINSTALL_SHORTCUT
+[INTERNAL_LOG][2018-06-07 21:29:12,539][INFO][is_hybird()] android.permission.READ_CONTACTS
+[INTERNAL_LOG][2018-06-07 21:29:12,539][INFO][is_hybird()] android.permission.WRITE_CONTACTS
+[INTERNAL_LOG][2018-06-07 21:29:12,539][INFO][is_hybird()] android.permission.CAMERA
+[INTERNAL_LOG][2018-06-07 21:29:12,539][INFO][is_hybird()] android.permission.FLASHLIGHT
+[INTERNAL_LOG][2018-06-07 21:29:12,539][INFO][is_hybird()] android.permission.RECEIVE_SMS
+[INTERNAL_LOG][2018-06-07 21:29:12,540][INFO][is_hybird()] android.permission.READ_SMS
+[INTERNAL_LOG][2018-06-07 21:29:12,540][INFO][is_hybird()] android.permission.SYSTEM_ALERT_WINDOW
+[INTERNAL_LOG][2018-06-07 21:29:12,540][INFO][is_hybird()] android.permission.READ_PROFILE
+[INTERNAL_LOG][2018-06-07 21:29:12,540][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-07 21:29:12,540][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-07 21:29:12,541][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-07 21:29:12,542][INFO][is_hybird()] android.permission.MANAGE_ACCOUNTS
+[INTERNAL_LOG][2018-06-07 21:29:12,542][INFO][is_hybird()] android.permission.BLUETOOTH
+[INTERNAL_LOG][2018-06-07 21:29:12,543][INFO][is_hybird()] android.permission.BLUETOOTH_ADMIN
+[INTERNAL_LOG][2018-06-07 21:29:12,543][INFO][is_hybird()] android.permission.RECORD_AUDIO
+[INTERNAL_LOG][2018-06-07 21:29:12,543][INFO][is_hybird()] android.permission.ACCESS_COARSE_LOCATION
+[INTERNAL_LOG][2018-06-07 21:29:12,543][INFO][is_hybird()] android.permission.ACCESS_FINE_LOCATION
+[INTERNAL_LOG][2018-06-07 21:29:12,543][INFO][is_hybird()] com.google.android.providers.gsf.permission.READ_GSERVICES
+[INTERNAL_LOG][2018-06-07 21:29:12,543][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-07 21:29:12,543][INFO][is_hybird()] com.snapdeal.main.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-07 21:29:12,543][INFO][is_hybird()] com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+[INTERNAL_LOG][2018-06-07 21:29:12,543][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-07 21:29:12,543][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-07 21:29:12,543][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-07 21:29:12,543][INFO][find_string()] File: assets/juspay/acs_blank.html
+[INTERNAL_LOG][2018-06-07 21:29:12,544][INFO][find_string()] No iframe in assets/juspay/acs_blank.html
+[INTERNAL_LOG][2018-06-07 21:29:12,544][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-07 21:31:44,843][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-07 21:31:44,843][INFO][find_url_in_apk()] http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+https://e-ssl.apsalar.com/api/v1
+https://exceptions.singular.net/v2/exceptions/android
+http://m.facebook.com/ads/ad_choices
+http://m.facebook.com/ads/ad_choices
+https://www.facebook.com/audience_network/server_side_reward
+https://www.%s.facebook.com/audience_network/server_side_reward
+https://graph.facebook.com/network_ads_common
+https://graph.%s.facebook.com/network_ads_common
+https://www.facebook.com/adnw_logging/
+https://www.%s.facebook.com/adnw_logging/
+https://www.facebook.com/
+https://www.facebook.com/
+https://www.%s.facebook.com
+http://www.facebook.com
+https://graph.%s
+https://graph-video.%s
+https://facebook.com
+http://www.w3.org/ns/ttml#parameter
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+http://hostname/?
+http://hostname/?
+https://accounts.google.com
+https://www.facebook.com
+https://www.googleapis.com/auth/games_lite
+https://www.googleapis.com/auth/games
+https://plus.google.com/
+https://pagead2.googlesyndication.com/pagead/gen_204
+http://www.google.com
+https://support.google.com/dfp_premium/answer/7160685#push
+http://www.google-analytics.com
+https://ssl.google-analytics.com
+https://app-measurement.com/a
+https://www.google.com
+http://www.example.com
+http://www.example.com
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/sdk-core-v40-impl.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://csi.gstatic.com/csi
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/native_ads.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/native_ads.js
+https://imasdk.googleapis.com/admob/sdkloader/native_video.html
+https://www.google.com/dfp/linkDevice
+https://www.google.com/dfp/inAppPreview
+https://www.google.com/dfp/debugSignals
+https://www.google.com/dfp/sendDebugData
+https://www.googletagmanager.com
+http://m.snapdeal.com/
+http://m.snapdeal.com/
+http://m.snapdeal.com/
+http://m.snapdeal.com/
+http://m.snapdeal.com/
+http://m.snapdeal.com/
+https://i3.sdlcdn.com/img/storeFrontFeaturedProductAdmin/01/dailyneeds-ios.png
+https://m.snapdeal.com/cancelorder
+https://m.snapdeal.com/cancelorder
+https://m.snapdeal.com/cancellationRefundReasons
+https://m.snapdeal.com/myorders/getNDRQuestions
+https://m.snapdeal.com/getInvoiceDetailBySuborderCode
+https://m.snapdeal.com/getNPRfeedback
+https://m.snapdeal.com/ryc
+https://mqa.snapdeal.com/myorders/identifyIssue
+https://m.snapdeal.com/captureCourierReceiptData
+https://m.snapdeal.com/getServiceCenterStatusOptions
+http://www.snapdeal.com/
+http://www.snapdeal.com/
+http://www.snapdeal.com/
+http://m.dummy.com
+http://m.dummy.com
+http://m.dummy.com
+http://m.dummy.com
+http://m.dummy.com
+http://m.dummy.com
+http://m.dummy.com
+http://m.dummy.com
+https://m.snapdeal.com
+https://m.snapdeal.com
+https://m.snapdeal.com
+https://m.snapdeal.com
+https://m.snapdeal.com
+https://m.snapdeal.com
+https://m.snapdeal.com
+http://m.snapdeal.com
+http://m.snapdeal.com
+http://m.snapdeal.com
+http://m.snapdeal.com
+http://m.snapdeal.com
+http://m.snapdeal.com
+http://m.snapdeal.com
+http://m.snapdeal.com
+http://m.snapdeal.com
+https://testmobssl.snapdeal.com
+https://testmobssl.snapdeal.com
+http://testmobssl.snapdeal.com
+http://testmobssl.snapdeal.com
+http://mlite.snapdeal.com
+http://mlite.snapdeal.com
+http://mlite.snapdeal.com
+http://mlite.snapdeal.com
+https://mlite.snapdeal.com
+https://mlite.snapdeal.com
+https://mlite.snapdeal.com
+https://mlite.snapdeal.com
+http://testsslmob.snapdeal.com
+http://testsslmob.snapdeal.com
+http://testsslmob.snapdeal.com
+http://testsslmob.snapdeal.com
+https://testsslmob.snapdeal.com
+https://testsslmob.snapdeal.com
+https://testsslmob.snapdeal.com
+https://testsslmob.snapdeal.com
+https://mqa.snapdeal.com
+https://mqa.snapdeal.com
+https://mqa.snapdeal.com
+https://mqa.snapdeal.com
+http://mqa.snapdeal.com
+http://mqa.snapdeal.com
+http://mqa.snapdeal.com
+http://mqa.snapdeal.com
+https://mbugbash.snapdeal.com
+https://mbugbash.snapdeal.com
+https://mbugbash.snapdeal.com
+https://mbugbash.snapdeal.com
+http://mbugbash.snapdeal.com
+http://mbugbash.snapdeal.com
+http://mbugbash.snapdeal.com
+http://mbugbash.snapdeal.com
+https://mob-engage-stg.snapdeal.com
+https://mob-engage-stg.snapdeal.com
+https://mob-engage-stg.snapdeal.com
+https://mob-engage-stg.snapdeal.com
+http://mob-engage-stg.snapdeal.com
+http://mob-engage-stg.snapdeal.com
+http://mob-engage-stg.snapdeal.com
+http://mob-engage-stg.snapdeal.com
+https://m.snapdeal.com/signin?
+https://mqa.snapdeal.com/signin?
+http://m.realestate.snapdeal.com
+http://m.snapdeal.com/page/TrustPay
+http://m.snapdeal.com/page/TrustPay
+http://play.google.com/store/apps/details?id=
+http://play.google.com/store/apps/details?id=
+http://play.google.com/store/apps/details?id=
+http://play.google.com/store/apps/details?id=
+http://play.google.com/store/apps/details?id=
+http://play.google.com/store/apps/details?id=
+http://m.snapdeal.com/info/contactus
+https://m.snapdeal.com/
+https://m.snapdeal.com/
+https://m.snapdeal.com/
+https://mobileapi.snapdeal.com/
+https://ase.clmbtech.com/sdk
+https://chatapi.moengage.com/v2/chat/sync
+https://apiv2mumbai.moengage.com
+https://apiv2.moengage.com
+https://apiv3india.moengage.com
+https://apiv3.moengage.com
+https://webhook.logentries.com/noformat/logs/
+https://log.snapdeal.com/eventDataV2/
+http://search-suggester.snapdeal.com/app/get/json/suggestions?num=%1$s&start=%2$s
+http://search-suggester.snapdeal.com/app/get/json/suggestions?num=
+https://sga.snapdeal.biz/pub/v2/getAd
+https://sga.snapdeal.biz/pub/v2/getAd
+https://sga.snapdeal.biz/pub/v2/getAd
+https://sga.snapdeal.biz/pub/v2/getAd
+https://sga.snapdeal.biz/pub/v2/getAd
+https://sga.snapdeal.biz/pub/v2/getAd
+https://www.snapdeal.com/search
+http://www.snpdl.in/swf
+https://snapdeal-res.cloudinary.com/image/upload/v1482324532/hard_bundling/Dec-21-2016/v4qx7lmtn9yvxbhasauh.jpg
+https://snapdeal-res.cloudinary.com/image/upload/v1482324532/hard_bundling/Dec-21-2016/v4qx7lmtn9yvxbhasauh.jpg
+https://n1.sdlcdn.com/imgs/g/k/g/viewall-be793.png
+https://push.snapdeal.com/
+https://authorization.snapdeal.com/auth-server-api
+https://authorization.snapdeal.com/auth-server-api/
+https://apigateway.snapdeal.com/
+https://apigateway.snapdeal.com/service/agg/saveAppointmentSlot
+http://api.powerreviews.com/
+https://push.snapdeal.com/service/push/saveDeviceData
+http://stg-apigateway-1119639262.ap-southeast-1.elb.amazonaws.com/service/agg/trackOrderGuest
+http://m.snapdeal.com/page/installation-services/
+http://stg-apigateway-1119639262.ap-southeast-1.elb.amazonaws.com/service/agg/ordersByEmail
+https://i1.sdlcdn.com/static/klikpay/json/wallet_static.json
+https://ug.snapdeal.com/dond
+http://ug1.snapdeal.com/bigboss
+https://apigateway.snapdeal.com/service/agg/issueCategoryTree
+http://m.snapdeal.com/info/TrustPay
+https://m.snapdeal.com/quickBuy
+https://m.snapdeal.com//checkout/quickBuy
+https://m.snapdeal.com/product/rpe
+https://apigateway.snapdeal.com/product_stats/show
+https://apigateway.snapdeal.com/experiments/event
+https://apigateway.snapdeal.com/experiments/event
+https://apigateway.snapdeal.com/experiments/event
+https://apigateway.snapdeal.com/experiments/event
+https://brandapp.snapdeal.com
+https://apigateway.snapdeal.com:443/faq
+https://apigateway.snapdeal.com:443/contact
+http://staging-apigateway.snapdeal.com/reviews-api/api/service/documents/upload
+http://search-suggester.snapdeal.com/app/getAutoSuggestions
+https://mobileapi.snapdeal.com/service/personalization/v2/get/getWidgetsData?
+https://graph.facebook.com/
+https://apigateway.snapdeal.com/service/agg/ndrQuestions
+https://apigateway.snapdeal.com/service/agg/saveCustomerNdrResponse
+https://apigateway.snapdeal.com/service/agg/sendInvoice
+https://apigateway.snapdeal.com/service/agg/orderByCode
+https://apigateway.snapdeal.com/service/agg/changeshippingaddress
+https://apigateway.snapdeal.com/service/agg/updateNeftdetail
+https://apigateway.snapdeal.com/ots/api/cs/pickupSlots
+https://apigateway.snapdeal.com/service/agg/reInitiateSuborderReturn
+http://54.169.229.171:6060/service/agg/sendReturnForm
+http://54.169.229.171:7003/service/agg/callme
+https://apigateway.snapdeal.com/service/agg/digitalProductDetail
+https://apigateway.snapdeal.com/service/agg/reviewAndRatingDetail
+http://54.254.153.61:8080/reviews-api/api/service/reviews/rating/storemandatoryrating
+https://apigateway.snapdeal.com/service/agg/saveDeliverySlot
+http://schemas.android.com/apk/res-auto
+http://m.snapdeal.com?systemCode
+http://m.snapdeal.com?systemCode
+http://m.snapdeal.com?systemCode
+http://m.snapdeal.com?systemCode
+http://m.snapdeal.com/?systemCode
+http://m.snapdeal.com/?systemCode
+http://m.snapdeal.com/search?keyword=
+http://m.snapdeal.com/search?keyword=
+http://m.snapdeal.com/search?keyword=
+http://www.snapdeal.com/offers/areabased_handling
+http://www.snapdeal.com/offers/areabased_handling
+http://m.snapdeal.com/product/
+http://m.snapdeal.com/product/
+http://www.snapdeal.com/offers/exchangeinfo
+http://www.snapdeal.com/offers/exchangeinfo
+https://qaapi.snapdeal.com
+https://mobileapi.snapdeal.com
+http://www.mocky.io/v2/576a6f9e25000029004ed5f0
+https://mqa.snapdeal.com/
+https://m.snapdeal.com/?systemCode
+https://m.snapdeal.com/?systemCode
+http://m.snapdeal.com/orderSummary?signinreqd=1&order=
+http://m.snapdeal.com/orderSummary?signinreqd=1&order=
+https://apigateway.snapdeal.com/api/service/qna/v1/answers
+https://apigateway.snapdeal.com/api/service/qna/v1/questions
+https://apigateway.snapdeal.com/api/service/qna/v1/products/%1$s/tags
+https://apigateway.snapdeal.com/api/service/qna/v1/products/%1$s/tags
+https://apigateway.snapdeal.com/api/service/qna/v1/votes
+https://apigateway.snapdeal.com/api/service/qna/v1/votes
+https://apigateway.snapdeal.com/api/service/qna/v1/products/%1$s/questions/search
+https://apigateway.snapdeal.com/api/service/qna/v1/products/%1$s/questions/search
+https://apigateway.snapdeal.com/api/service/qna/v1/products/%1$s/questions/search
+https://apigateway.snapdeal.com/api/service/qna/v1/products/%1$s/questions
+https://apigateway.snapdeal.com/api/service/qna/v1/products/%1$s/questions
+https://apigateway.snapdeal.com/api/service/qna/v1/products/%1$s/questions
+https://apigateway.snapdeal.com/api/service/qna/v1/products/%1$s/questions
+https://apigateway.snapdeal.com/api/service/qna/v1/questions/%1$s/answers
+https://apigateway.snapdeal.com/api/service/qna/v1/questions/%1$s/answers/search
+http://graph.facebook.com/
+http://graph.facebook.com/
+http://www.snapdeal.com/seller
+http://m.snapdeal.com/seller
+http://www.snapdeal.com
+http://snpotex.5b686f98d367.cashify.in/api/snpotex/v1/register
+http://snpotex.5b686f98d367.cashify.in/api/snpotex/v1/quote
+https://i1.sdlcdn.com/static/mobile/img/eventImage/05/TIME.png
+http://snapdeal-res.cloudinary.com/
+https://sgb.snapdeal.biz/pub/getAd
+https://sgb.snapdeal.biz/pub/getAd
+https://m.snapdeal.com/offers/apptaketour
+https://apigateway.snapdeal.com/service/agg/customerRatingFeedback
+https://apigateway.snapdeal.com/service/agg/customerRatingFeedback
+http://play.google.com/store/apps/details?id=com.snapdeal.seller
+http://m.snapdeal.com/product/prodname/
+https://apigateway.snapdeal.com/product_stats/
+https://www.facebook.com/Snapdeal
+https://twitter.com/snapdeal
+https://i1.sdlcdn.com/
+https://m.snapdeal.com/collection/<COLLECTION-NAME>/<COLLECTION-ID>
+https://m.snapdeal.com/product/<product-title>/<POG-ID><UTM_CAMPAINGN_STRING><SHARED_SOURCE>&viewinapp=1
+https://m.snapdeal.com/product/ucb-blue-tshirt/627595040570?utm_campaign=AppShare_productShare&viewinapp=1s
+https://www.googleapis.com/auth/plus.login
+https://www.googleapis.com/auth/userinfo.profile
+https://www.googleapis.com/auth/userinfo.email
+http://i1.sdlcdn.com/static/mobileapp/android/6.0.9/res/
+https://app3.mioot.com/snapdeal/addProductTicket
+https://app3.mioot.com/snapdeal/
+https://pay.freecharge.in/rest/payment/processPay
+https://m.snapdeal.com/omn/getOmnitureCodeByList/mPaymentType
+https://m.snapdeal.com/service/order/createOrder
+https://log.snapdeal.com/eventData/
+https://log.snapdeal.com/eventData/
+https://ade.clmbtech.com/cde/ae/2658/aea
+https://ade.clmbtech.com/cde/ae/2658/aea
+https://ade.clmbtech.com/cde/ae/2658/aea
+https://cdn.branch.io/sdk/uriskiplist_v#.json
+https://api.branch.io/
+https://bnc.lt/a/
+https://bnc.lt/a/
+https://e.crashlytics.com/spi/v2/events
+https://settings.crashlytics.com/spi/v2/platforms/android/apps/%s/settings
+https://s3-ap-southeast-1.amazonaws.com/godel-remote-assets/imageResources/info/juspay_info_dialog.png
+
+[INTERNAL_LOG][2018-06-07 21:31:44,844][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-07 21:31:44,853][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-07 21:31:44,853][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-07 21:31:44,853][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-07 21:31:44,853][INFO][analyze_start()] End time:[Thu Jun  7 21:31:44 2018]

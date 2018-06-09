@@ -1,0 +1,230 @@
+[INTERNAL_LOG][2018-06-08 02:44:42,134][INFO][analyze_start()] Init Time [Fri Jun  8 02:44:42 2018]
+[INTERNAL_LOG][2018-06-08 02:44:42,216][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-08 02:44:42,219][INFO][is_hybird()] Hybrid file found are: ['config.xml']
+[INTERNAL_LOG][2018-06-08 02:44:42,219][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-08 02:44:42,219][INFO][is_hybird()] android.permission.INTERACT_ACROSS_USERS_FULL
+[INTERNAL_LOG][2018-06-08 02:44:42,219][INFO][is_hybird()] android.permission.ACCESS_COARSE_LOCATION
+[INTERNAL_LOG][2018-06-08 02:44:42,219][INFO][is_hybird()] android.permission.ACCESS_FINE_LOCATION
+[INTERNAL_LOG][2018-06-08 02:44:42,219][INFO][is_hybird()] android.permission.ACCESS_GPS
+[INTERNAL_LOG][2018-06-08 02:44:42,230][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-08 02:44:42,240][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-08 02:44:42,247][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-08 02:44:42,247][INFO][is_hybird()] android.permission.CHANGE_WIFI_STATE
+[INTERNAL_LOG][2018-06-08 02:44:42,247][INFO][is_hybird()] android.permission.READ_PHONE_STATE
+[INTERNAL_LOG][2018-06-08 02:44:42,247][INFO][is_hybird()] android.permission.READ_CONTACTS
+[INTERNAL_LOG][2018-06-08 02:44:42,247][INFO][is_hybird()] android.permission.READ_CALL_LOG
+[INTERNAL_LOG][2018-06-08 02:44:42,248][INFO][is_hybird()] android.permission.WRITE_CONTACTS
+[INTERNAL_LOG][2018-06-08 02:44:42,258][INFO][is_hybird()] android.permission.READ_SMS
+[INTERNAL_LOG][2018-06-08 02:44:42,261][INFO][is_hybird()] android.permission.RECEIVE_SMS
+[INTERNAL_LOG][2018-06-08 02:44:42,261][INFO][is_hybird()] android.permission.RECORD_AUDIO
+[INTERNAL_LOG][2018-06-08 02:44:42,261][INFO][is_hybird()] android.permission.MODIFY_AUDIO_SETTINGS
+[INTERNAL_LOG][2018-06-08 02:44:42,261][INFO][is_hybird()] android.permission.BLUETOOTH
+[INTERNAL_LOG][2018-06-08 02:44:42,261][INFO][is_hybird()] android.permission.BROADCAST_STICKY
+[INTERNAL_LOG][2018-06-08 02:44:42,261][INFO][is_hybird()] android.permission.RECEIVE_BOOT_COMPLETED
+[INTERNAL_LOG][2018-06-08 02:44:42,263][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-08 02:44:42,263][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-08 02:44:42,263][INFO][is_hybird()] android.permission.DISABLE_KEYGUARD
+[INTERNAL_LOG][2018-06-08 02:44:42,263][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-08 02:44:42,263][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-08 02:44:42,263][INFO][is_hybird()] android.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-08 02:44:42,263][INFO][is_hybird()] android.permission.GET_TASKS
+[INTERNAL_LOG][2018-06-08 02:44:42,263][INFO][is_hybird()] android.permission.CAMERA
+[INTERNAL_LOG][2018-06-08 02:44:42,263][INFO][is_hybird()] zayhu.permission.ACCESS_SVC
+[INTERNAL_LOG][2018-06-08 02:44:42,263][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-08 02:44:42,264][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-08 02:44:42,264][INFO][is_hybird()] com.android.launcher.permission.INSTALL_SHORTCUT
+[INTERNAL_LOG][2018-06-08 02:44:42,264][INFO][is_hybird()] com.android.launcher.permission.UNINSTALL_SHORTCUT
+[INTERNAL_LOG][2018-06-08 02:44:42,264][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-08 02:44:42,264][INFO][is_hybird()] android.permission.MANAGE_ACCOUNTS
+[INTERNAL_LOG][2018-06-08 02:44:42,264][INFO][is_hybird()] android.permission.AUTHENTICATE_ACCOUNTS
+[INTERNAL_LOG][2018-06-08 02:44:42,264][INFO][is_hybird()] android.permission.WRITE_SYNC_SETTINGS
+[INTERNAL_LOG][2018-06-08 02:44:42,264][INFO][is_hybird()] android.permission.READ_SYNC_SETTINGS
+[INTERNAL_LOG][2018-06-08 02:44:42,264][INFO][is_hybird()] android.permission.READ_CALENDAR
+[INTERNAL_LOG][2018-06-08 02:44:42,264][INFO][is_hybird()] android.permission.WRITE_CALENDAR
+[INTERNAL_LOG][2018-06-08 02:44:42,264][INFO][is_hybird()] android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS
+[INTERNAL_LOG][2018-06-08 02:44:42,264][INFO][is_hybird()] android.permission.REQUEST_INSTALL_PACKAGES
+[INTERNAL_LOG][2018-06-08 02:44:42,264][INFO][is_hybird()] com.yeecall.app.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-08 02:44:42,264][INFO][is_hybird()] com.yeecall.app.permission.MIPUSH_RECEIVE
+[INTERNAL_LOG][2018-06-08 02:44:42,264][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-08 02:44:42,264][INFO][is_hybird()] Starting apktool
+[INTERNAL_LOG][2018-06-08 02:44:52,703][INFO][check_whitelist()] [INIT ACCESS ORIGIN LIST]
+[INTERNAL_LOG][2018-06-08 02:44:52,713][INFO][check_whitelist()] [END ACCESS ORIGIN LIST]
+
+[INTERNAL_LOG][2018-06-08 02:44:52,957][INFO][analyze_start()] TYPE APK: [HYBRID]
+
+[INTERNAL_LOG][2018-06-08 02:44:52,983][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-08 02:44:52,993][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-08 02:45:25,460][ERROR][find_url_in_apk()] Exception during find url in apk 'NoneType' object has no attribute 'get_end'
+[INTERNAL_LOG][2018-06-08 02:45:26,226][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-08 02:45:26,226][INFO][find_url_in_apk()] https://graph.accountkit.com
+https://graph.accountkit.com
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+https://itunes.apple.com
+https://itunes.apple.com
+http://play.google.com/store/apps/details?id=
+http://debugtbs.qq.com
+http://debugx5.qq.com
+http://www.w3.org/ns/ttml#parameter
+http://hostname/?
+https://plus.google.com/
+http://www.google-analytics.com
+https://ssl.google-analytics.com
+https://app-measurement.com/a
+https://www.google.com
+https://mobilecrashreporting.googleapis.com/v1/crashes:batchCreate?key=
+http://mdc.html5.qq.com/mh?channel_id=50079&u=
+http://pms.mb.qq.com/rsp204
+http://mdc.html5.qq.com/d/directdown.jsp?channel_id=11047
+http://mdc.html5.qq.com/d/directdown.jsp?channel_id=11041
+http://soft.tbs.imtt.qq.com/17421/tbs_res_imtt_tbs_DebugPlugin_DebugPlugin.tbs
+http://log.tbs.qq.com/ajax?c=pu&v=2&k=
+http://log.tbs.qq.com/ajax?c=pu&tk=
+http://wup.imtt.qq.com:8080
+http://log.tbs.qq.com/ajax?c=dl&k=
+http://cfg.imtt.qq.com/tbs?v=2&mk=
+http://log.tbs.qq.com/ajax?c=ul&v=2&k=
+http://mqqad.html5.qq.com/adjs
+http://log.tbs.qq.com/ajax?c=ucfu&k=
+http://www.w3.org/XML/1998/namespace
+http://www.w3.org/XML/1998/namespace
+http://10.237.12.17:9085/pass/register
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+http://www.yeecall.com/
+https://www.facebook.com/yeecall
+https://play.google.com/store/apps/details?id=com.yeecall.app
+https://itunes.apple.com/cn/app/yeecall-%E4%B8%80%E5%9D%97-messenger-%E9%AB%98%E6%B8%85%E7%BE%8E%E9%A2%9C%E8%A7%86%E9%A2%91%E9%80%9A%E8%AF%9D/id852211576?mt=8
+https://www.yeecall.com/
+https://www.aladdinh5.cc/qy-milier-server-arb/checkNews?timestamp=
+http://api.conf.yeecall.com
+https://ucs.yeecall.com/
+https://ucs.yeecall.com/
+https://ucs.yeecall.com/
+https://in.debug.yeecall.com:1443/
+https://in.debug.yeecall.com:1443/
+https://in.debug.yeecall.com:1443/
+https://in.debug.yeecall.com:1443/
+https://dl1cuv22ohf84.cloudfront.net/pic/aws.jpg
+https://sites.google.com/site/sc9332255/google.zip
+https://ucs.yeecall.cn/
+https://ta.yeeapp.xyz/
+https://pr1.yeeapp.xyz
+https://1e18e9b9323acc75.space-to-rent.com
+https://www.bing.com
+https://www.google.com/
+https://www.microsoft.com/
+https://www.facebook.com
+https://www.baidu.com
+https://www.yahoo.com
+https://www.wikipedia.org
+https://www.amazon.com
+http://www.yeecall.com
+http://www.yeecall.com
+http://www.yeecall.com
+http://www.yeecall.com
+http://www.yeecall.com
+http://uc.yeecall.com/
+http://in.debug.yeecall.com:5080/
+http://api.doodle.yeecall.com/
+http://in.debug.yeecall.com:8080/
+https://wallet.yeecall.com
+https://wallet.debug.yeecall.com:1443
+https://pfm.yeecall.com/
+https://in.debug.yeecall.com:5080/
+https://yeecall.ws.amberweather.com/api/v1/weather?lat=%s&lon=%s&lang=%s&appid=%s&token=%s
+http://crashreport.yeecall.com:8081/yeecall/index.php?pkg=com.yeecall.app&tk=
+http://crashreport.yeecall.com:8081/yeecall/index.php?pkg=com.yeecall.app&tk=
+http://crashreport.yeecall.com:8081/yeecall/index.php?pkg=com.yeecall.app&tk=
+http://crashreport.yeecall.com:8081/yeecall/index.php?pkg=com.yeecall.app&tk=
+http://www.qqtouxiang888.com/uploads/allimg/110816/2233022608-7.jpg
+http://geek.csdn.net/news/detail/36684
+http://blog.csdn.net/t12x3456/article/details/13769731/
+http://img5.imgtn.bdimg.com/it/u=718723926,4075319901&fm=21&gp=0.jpg
+http://news.sina.com.cn/o/2015-05-28/023931884234.shtml
+http://img0.gao7.com/files/appleimage/D79/D79B245F-0760-4963-BE03-3813B600ED5D.jpg
+http://img0.gao7.com/files/appleimage/D79/D79B245F-0760-4963-BE03-3813B600ED5D.jpg
+http://img0.gao7.com/files/appleimage/D79/D79B245F-0760-4963-BE03-3813B600ED5D.jpg
+http://img0.gao7.com/files/appleimage/D79/D79B245F-0760-4963-BE03-3813B600ED5D.jpg
+http://n1.itc.cn/img8/wb/smccloud/recom/2015/05/28/143275230127312380.JPEG
+http://n1.itc.cn/img8/wb/smccloud/recom/2015/05/28/143275230127312380.JPEG
+http://n1.itc.cn/img8/wb/smccloud/recom/2015/05/28/143275230127312380.JPEG
+http://n1.itc.cn/img8/wb/smccloud/recom/2015/05/28/143275230127312380.JPEG
+http://img0.imgtn.bdimg.com/it/u=638883758,2121887314&fm=15&gp=0.jpg
+http://finance.ifeng.com/a/20160321/14280176_0.shtml
+http://www.kejik.com/image/20151105/1446722581414.jpg
+http://news.china.com/social/1007/20160321/22216952.html
+http://easyread.ph.126.net/15ENx6wzzx0_bf8AP-UHmQ==/8796093022330281965.jpg
+http://www.baidu.com
+http://media.blacktrash.org/stsp.m3u8
+http://play.google.com/store/apps/details?id=com.yeecall.app
+http://play.google.com/store/apps/details?id=com.yeecall.app
+http://play.google.com/store/apps/details?id=com.yeecall.app
+http://m.yeecall.com/download.htm
+http://m.yeecall.com/download.htm
+http://m.yeecall.com/download.htm
+http://m.yeecall.com/download.htm
+http://m.yeecall.com/download.htm
+http://m.yeecall.com/download.htm
+http://m.yeecall.com/download.htm
+http://m.yeecall.com/download.htm
+http://cp.yeecall.com/legal/terms.html
+http://cp.yeecall.com/legal/terms.html
+http://m.yeecall.com/unknownmsg.html?category=%s&type=%s&version=%s&os=%s&device=%s&model=%s&osVer=%s
+http://yeecall.com
+http://m.yeecall.com/mfaq
+http://api.giphy.com/
+http://api.giphy.com/
+http://api.giphy.com/
+https://api.foursquare.com/v2/venues/search?client_id=12VAPUIHGNQ2JAGUSVUTO5KU33CUGFFUQRFQVAPGI2GXWHGB&client_secret=YO3OBCLZGHR2Y03J2BCEFW33HDGXH4UYOUWWPALRYZGFE3PE
+https://www.google.com/maps/search/?api=1&query=
+https://m.amberweather.com/?yeecall
+https://m.amberweather.com/?yeecall
+https://ysubcdn.gl.yeecall.com/activity/inviteFriend/index.html
+https://ysubcdn.gl.yeecall.com/activity/inviteFriend/index.html
+https://yeecall.gl.yeecall.com/activity/tbh/%s/comment/%s
+https://yeecall.gl.yeecall.com/activity/tbh/%s/%s/result/%s
+https://shimo.im/docs/zoYVdGwJ0889W6fe/
+https://shimo.im/docs/Z3tOivPXE2YIiOd4/
+https://shimo.im/docs/xUdaUrDuOtkYG1S3/
+http://wbp.yeecall.com/friapp/ad/list?lid=0
+http://10.18.101.3:8099/ad/list?lid=0
+https://ssl.gstatic.com/accessibility/javascript/android/
+http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+https://t.appsflyer.com/api/v
+https://events.appsflyer.com/api/v
+https://register.appsflyer.com/api/v
+https://validate.appsflyer.com/api/v
+https://stats.appsflyer.com/stats
+https://api.appsflyer.com/install_data/v3/
+https://monitorsdk.appsflyer.com/remote-debug?app_id=
+https://m.facebook.com/terms
+https://m.facebook.com/terms
+https://m.facebook.com/terms
+https://m.facebook.com/about/privacy/
+https://m.facebook.com/about/privacy/
+https://m.facebook.com/about/privacy/
+https://m.facebook.com/policies/cookies/
+https://m.facebook.com/policies/cookies/
+https://m.facebook.com/policies/cookies/
+https://www.accountkit.com/faq
+https://www.accountkit.com/faq
+https://www.accountkit.com/faq
+https://graph.%s
+https://graph-video.%s
+https://facebook.com
+
+[INTERNAL_LOG][2018-06-08 02:45:26,226][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-08 02:45:26,237][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-08 02:45:26,237][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-08 02:45:26,237][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-08 02:45:26,237][INFO][analyze_start()] End time:[Fri Jun  8 02:45:26 2018]

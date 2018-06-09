@@ -1,0 +1,28 @@
+[INTERNAL_LOG][2018-06-07 21:48:34,699][INFO][analyze_start()] Init Time [Thu Jun  7 21:48:34 2018]
+[INTERNAL_LOG][2018-06-07 21:48:34,722][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-07 21:48:34,723][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-07 21:48:34,723][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-07 21:48:34,723][INFO][is_hybird()] android.permission.GET_TASKS
+[INTERNAL_LOG][2018-06-07 21:48:34,723][INFO][is_hybird()] android.permission.ACCESS_FINE_LOCATION
+[INTERNAL_LOG][2018-06-07 21:48:34,723][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-07 21:48:34,723][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-07 21:48:34,723][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-07 21:48:34,723][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-07 21:48:34,723][INFO][is_hybird()] android.permission.CAMERA
+[INTERNAL_LOG][2018-06-07 21:48:34,723][INFO][is_hybird()] com.example.dado.chatgcm.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-07 21:48:34,723][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-07 21:48:34,723][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-07 21:48:34,723][INFO][is_hybird()] android.permission.USE_CREDENTIALS
+[INTERNAL_LOG][2018-06-07 21:48:34,723][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-07 21:48:34,723][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-07 21:48:34,724][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-07 21:48:34,724][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-07 21:48:35,225][INFO][check_method_conf()] [JavaScript enabled: False]
+
+[INTERNAL_LOG][2018-06-07 21:48:35,225][INFO][check_method_conf()] [Add interface WebView: False]
+
+[INTERNAL_LOG][2018-06-07 21:48:35,225][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-07 21:48:35,226][INFO][analyze_start()] End time:[Thu Jun  7 21:48:35 2018]

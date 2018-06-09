@@ -1,0 +1,458 @@
+[INTERNAL_LOG][2018-06-08 00:12:01,992][INFO][analyze_start()] Init Time [Fri Jun  8 00:12:01 2018]
+[INTERNAL_LOG][2018-06-08 00:12:02,061][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-08 00:12:02,062][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-08 00:12:02,062][INFO][is_hybird()] com.google.android.gms.permission.ACTIVITY_RECOGNITION
+[INTERNAL_LOG][2018-06-08 00:12:02,062][INFO][is_hybird()] android.permission.ACCESS_COARSE_LOCATION
+[INTERNAL_LOG][2018-06-08 00:12:02,062][INFO][is_hybird()] android.permission.RECEIVE_BOOT_COMPLETED
+[INTERNAL_LOG][2018-06-08 00:12:02,062][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-08 00:12:02,062][INFO][is_hybird()] android.permission.ACCESS_FINE_LOCATION
+[INTERNAL_LOG][2018-06-08 00:12:02,062][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-08 00:12:02,062][INFO][is_hybird()] android.permission.SYSTEM_ALERT_WINDOW
+[INTERNAL_LOG][2018-06-08 00:12:02,062][INFO][is_hybird()] android.permission.CHANGE_WIFI_STATE
+[INTERNAL_LOG][2018-06-08 00:12:02,062][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-08 00:12:02,062][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-08 00:12:02,062][INFO][is_hybird()] android.permission.BLUETOOTH
+[INTERNAL_LOG][2018-06-08 00:12:02,062][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-08 00:12:02,062][INFO][is_hybird()] android.permission.NFC
+[INTERNAL_LOG][2018-06-08 00:12:02,062][INFO][is_hybird()] com.ismaker.android.simsimi.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-08 00:12:02,063][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-08 00:12:02,063][INFO][is_hybird()] com.google.android.c2dm.permission.REGISTER
+[INTERNAL_LOG][2018-06-08 00:12:02,063][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-08 00:12:02,063][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-08 00:12:02,063][INFO][is_hybird()] com.google.android.providers.gsf.permission.READ_GSERVICES
+[INTERNAL_LOG][2018-06-08 00:12:02,063][INFO][is_hybird()] com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+[INTERNAL_LOG][2018-06-08 00:12:02,063][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-08 00:12:02,063][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-08 00:12:02,063][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-08 00:12:02,063][INFO][find_string()] File: assets/consentform.html
+[INTERNAL_LOG][2018-06-08 00:12:02,066][INFO][find_string()] No iframe in assets/consentform.html
+[INTERNAL_LOG][2018-06-08 00:12:02,066][INFO][find_string()] File: js/closebutton.html
+[INTERNAL_LOG][2018-06-08 00:12:02,066][INFO][find_string()] No iframe in js/closebutton.html
+[INTERNAL_LOG][2018-06-08 00:12:02,067][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-08 00:13:41,265][INFO][find_url_in_apk()] [START URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-08 00:13:41,265][INFO][find_url_in_apk()] https://secureapp.simsimi.com/v1/ad/banner
+http://play.google.com/store/apps/details?id=
+http://docs.google.com/gview?embedded=true&url=
+
+[INTERNAL_LOG][2018-06-08 00:13:41,265][INFO][find_url_in_apk()] [END URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-08 00:13:42,074][ERROR][download_page_loaded()] Failed response code: 400 for https://secureapp.simsimi.com/v1/ad/banner  
+[INTERNAL_LOG][2018-06-08 00:13:42,343][ERROR][download_page_loaded()] Failed response code: 404 for http://play.google.com/store/apps/details?id=  
+[INTERNAL_LOG][2018-06-08 00:13:42,422][ERROR][download_page_loaded()] Failed response code: 400 for http://docs.google.com/gview?embedded=true&url=  
+[INTERNAL_LOG][2018-06-08 00:13:42,422][INFO][find_string()] [START REMOTE FILE ANALYZE]
+[INTERNAL_LOG][2018-06-08 00:13:42,423][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-08 00:13:42,423][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-08 00:13:42,423][INFO][find_url_in_apk()] http://schemas.android.com/apk/res/android
+https://clickky.biz
+https://clickky.biz
+https://clickky.biz
+https://clickky.biz
+https://clickky.biz
+https://clickky.biz
+https://clickky.biz
+https://clickky.biz
+http://cpactions.com/api/v2.0/clk/track/impression
+http://cpactions.com/api/v2.0/clk/track/impression
+http://n185adserv.com/ads-api-v3
+http://sdklog.dev.cli.bz/api/v1.0/clk/sdk/banner/request
+https://us-east.cpactions.com/api/v2.0/units/native
+http://native.cli.bz/SDK/dialogads/data.json
+http://native.cli.bz/SDK/default_settings/data.json
+http://track.appservestar.com/trackcnt/QRFpVfD3fbg3t9qb/?
+http://track.appservestar.com/trackcnt/pZHcnzrfsYXVHRNk/?
+http://track.epomapps.com/trackcnt/yu2DCLdMMwap6S3D/?
+http://www.jscount.com/a/2381/b45d5762/z
+http://www.jscount.com/a/2382/5f6aec61/z
+http://www.jscount.com/a/2383/b0a8875f/z
+https://play.google.com/store/apps/
+https://play.google.com/store/apps/
+https://play.google.com/store/apps/
+https://play.google.com/store/apps/
+https://play.google.com/store/apps/
+https://play.google.com/store/apps/
+https://play.google.com/store/apps/
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+http://schemas.android.com/apk/res-auto
+http://schemas.android.com/apk/res-auto
+http://schemas.android.com/apk/res/
+https://apps.epom.com/user-policy
+http://cdn.epomapps.com/imgs/appnext_privacy_icon.png
+http://api.epom.com
+http://net.cleverjp.com/
+http://schemas.applovin.com/android/1.0
+http://schemas.applovin.com/android/1.0
+https://d.applovin.com/
+https://a.applovin.com/
+https://rt.applovin.com/med
+https://rt.applovin.com/pix
+https://d.applvn.com/
+https://a.applvn.com/
+https://rt.applvn.com/pix
+https://vid.applovin.com/,https://pdn.applovin.com/,https://img.applovin.com/,https://d.applovin.com/,https://assets.applovin.com/,https://cdnjs.cloudflare.com/,http://vid.applovin.com/,http://pdn.applovin.com/,http://img.applovin.com/,http://d.applovin.com/,http://assets.applovin.com/,http://cdnjs.cloudflare.com/
+http://www.appnext.com/privacy_policy/index.html?z=
+http://www.appnext.com/privacy_policy/index.html?z=
+http://schemas.microsoft.com/DRM/2007/03/protocols/AcquireLicense
+https://pagead2.googlesyndication.com/pagead/gen_204
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/sdk-core-v40-impl.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://csi.gstatic.com/csi
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/native_ads.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/native_ads.js
+https://imasdk.googleapis.com/admob/sdkloader/native_video.html
+https://www.google.com/dfp/linkDevice
+https://www.google.com/dfp/inAppPreview
+https://www.google.com/dfp/debugSignals
+https://www.google.com/dfp/sendDebugData
+http://www.example.com
+http://www.example.com
+https://secureapp.simsimi.com/v1/ad/banner
+https://secureapp.simsimi.com/v1/youngmi/block_user
+https://secureapp.simsimi.com/v1/buy/buyItem
+https://secureapp.simsimi.com/v1/youngmi/chatLogLike
+https://secureapp.simsimi.com/v1/youngmi/chatLogLikeCancel
+https://secureapp.simsimi.com/v1/youngmi/chatLogLikeCancelV2
+https://secureapp.simsimi.com/v1/youngmi/chatLogLikeHstI
+https://secureapp.simsimi.com/v1/youngmi/chatLogLikeHstMe
+https://secureapp.simsimi.com/v1/youngmi/chatLogLikeUserList
+https://secureapp.simsimi.com/v1/youngmi/chatLogLikeV2
+https://secureapp.simsimi.com/v1/setting/clientAppClose
+https://secureapp.simsimi.com/v1/youngmi/deleteChatlog
+https://secureapp.simsimi.com/v1/youngmi/deleteChatlogV2
+https://secureapp.simsimi.com/v1/simsimi/tsm/deleteSentenceLinkV2
+https://secureapp.simsimi.com/v1/simsimi/tsm/deleteSentenceLinkFromList
+https://secureapp.simsimi.com/v1/buy/earnGiftPoint
+https://extra2secureapp.simsimi.com/v1/gillime/getBlockDataV2
+https://secureapp.simsimi.com/v1/simsimi/tsm/getCyberbullKeyword
+https://secureapp.simsimi.com/v1/buy/getItemList
+https://secureapp.simsimi.com/v1/youngmi/getChannelDetail
+https://secureapp.simsimi.com/v1/youngmi/getChannelList
+https://secureapp.simsimi.com/v1/youngmi/getCountrySuggest
+https://secureapp.simsimi.com/v1/simsimi/tsm/getDeleteSentenceLinkItemPrice
+https://secureapp.simsimi.com/v1/youngmi/getLikedChannelList
+https://secureapp.simsimi.com/v1/simsimi/tsm/getMoreResponseBubble
+https://secureapp.simsimi.com/v1/setting/getProfileBasic
+https://secureapp.simsimi.com/v1/youngmi/getSearchWordDetail
+https://secureapp.simsimi.com/v1/youngmi/getSearchWordList
+https://secureapp.simsimi.com/v1/youngmi/getSearchWordListV2
+https://extra2secureapp.simsimi.com/v1/simsimi/mail/getSendMessageYoungmi
+https://secureapp.simsimi.com/v1/simsimi/tsm/getSentenceDetail
+https://secureapp.simsimi.com/v1/simsimi/tsm/getSentenceDetailV2
+https://secureapp.simsimi.com/v1/simsimi/tsm/getListV2
+https://secureapp.simsimi.com/v1/simsimi/tsm/getResponse
+https://secureapp.simsimi.com/v1/simsimi/tsm/getResponseV2
+https://secureapp.simsimi.com/v1/simsimi/tsm/getTouchResponse
+https://extra2secureapp.simsimi.com/v1/gillime/getTeachRecommendV2
+https://secureapp.simsimi.com/v1/simsimi/tsm/getTraceResponseItemPrice
+https://secureapp.simsimi.com/v1/buy/getUserPoint
+https://secureapp.simsimi.com/v1/youngmi/googleTranslate
+https://secureapp.simsimi.com/v1/simsimi/talkset/getGreetingInfo
+https://secureapp.simsimi.com/v1/simsimi/talkset/isValidURL
+https://secureapp.simsimi.com/v1/setting/postLocationInfoSave
+https://extra2secureapp.simsimi.com/v1/simsimi/mail/getCreateNickname
+https://extra2secureapp.simsimi.com/v1/simsimi/mail/getInbox
+https://extra2secureapp.simsimi.com/v1/simsimi/mail/getRandomFriends
+https://extra2secureapp.simsimi.com/v1/simsimi/mail/getSendMessage
+https://secureapp.simsimi.com/v1/setting/getPolicy
+https://secureapp.simsimi.com/v1/promotion/bubble/log
+https://secureapp.simsimi.com/v1/push/token
+https://secureapp.simsimi.com/v1/user/reCaptcha
+https://secureapp.simsimi.com/v1/youngmi/reportChatlog
+https://secureapp.simsimi.com/v1/youngmi/reportChatlogV2
+https://secureapp.simsimi.com/v1/setting/cyberBullingReport
+https://secureapp.simsimi.com/v1/youngmi/saveSearchNextHst
+https://extra2secureapp.simsimi.com/v1/gillime/saveServerVariable
+https://secureapp.simsimi.com/v1/setting/saveUserPrivateInfo
+https://secureapp.simsimi.com/v1/simsimi/tsm/insertCyberbullKeyword
+https://secureapp.simsimi.com/v1/simsimi/talkset/setReportWords
+https://secureapp.simsimi.com/v1/youngmi/setSearchOnOff
+https://secureapp.simsimi.com/v1/setting/client-control
+https://secureapp.simsimi.com/v1/setting/lc-list
+https://secureapp.simsimi.com/v1/simsimi/talkset
+https://secureapp.simsimi.com/v1/simsimi/talkset
+https://secureapp.simsimi.com/v1/simsimi/talkset/
+https://secureapp.simsimi.com/v1/simsimi/tsm/turnOnBoost
+https://secureapp.simsimi.com/v1/simsimi/tsm/turnOnBoostV2
+https://secureapp.simsimi.com/v1/simsimi/tsm/turnOnTraceResponse
+https://secureapp.simsimi.com/v1/simsimi/tsm/unlockResponseBubble
+https://secureapp.simsimi.com/v1/user/
+https://secureapp.simsimi.com/v1/user/
+https://secureapp.simsimi.com/v1/user
+https://secureapp.simsimi.com/v1/setting/writeClientLog
+https://twitter.com/%s/status/%s
+https://www.mopub.com/optout/
+https://www.mopub.com/optout/
+https://impact.staging.applifier.com/mobile/campaigns
+https://api.vungle.com/api/v4/
+https://ingest.vungle.com/
+http://lol.vungle.com/
+https://admin.appnext.com/adminService.asmx/SetRewards
+https://www.fqtag.com/pixel.cgi?org=TkBXEI5C3FBIr4zXwnmK&p=
+https://www.fqtag.com/pixel.cgi?org=TkBXEI5C3FBIr4zXwnmK&p=
+https://appnext.hs.llnwd.net/tools/sdk/interstitial/v63/script.min.js
+https://appnext.hs.llnwd.net/tools/sdk/rewarded/v63/script.min.js
+http://www.appnext.com/myid.html
+http://www.appnext.com/myid.html
+https://admin.appnext.com/AdminService.asmx/checkA?z=
+https://admin.appnext.com/AdminService.asmx/checkA?z=
+https://global.appnext.com
+https://global.appnext.com
+https://global.appnext.com
+http://appnext.hs.llnwd.net/tools/sdk/config
+http://appnext.hs.llnwd.net/tools/sdk/config
+http://appnext.hs.llnwd.net/tools/sdk/config/fullscreen_config.txt
+http://appnext.hs.llnwd.net/tools/sdk/config/rewarded_config.txt
+http://appnext.hs.llnwd.net/tools/sdk/config/interstitial_config.txt
+https://admin.appnext.com/AdminService.asmx/SetRL?guid=
+https://admin.appnext.com/AdminService.asmx/SetRL?guid=
+https://admin.appnext.com/AdminService.asmx/SetOpenV1
+https://admin.appnext.com/AdminService.asmx/SetOpenV1
+https://admin.appnext.com/AdminService.asmx/SetOpenV1
+https://admin.appnext.com/AdminService.asmx/
+https://admin.appnext.com/AdminService.asmx/
+http://appnext.hs.llnwd.net/tools/sdk/config/native_ads_config.txt
+https://api.appnxt.net
+http://appnext.hs.llnwd.net/tools/services/4.6.2/config.json
+http://appnext.hs.llnwd.net/tools/services/4.6.2/plist.zip
+https://admin.appnext.com/tools/navtac.html?bid=
+https://admin.appnext.com/tp12.aspx?tid=%s&vid=%s&osid=%s&auid=%s&session_id=%s&pid=%s&ref=%s&ads_type=%s&bid=%s&cid=%s
+https://appnext.hs.llnwd.net/banner/appnext.mp4
+https://api.ampiri.com
+https://signals.ampiri.com/v2/config
+https://signals.ampiri.com/v2/config
+https://signals.ampiri.com/v2/config
+https://live.chartboost.com
+http://market.android.com/
+http://market.android.com/
+http://m.facebook.com/ads/ad_choices
+http://m.facebook.com/ads/ad_choices
+https://www.facebook.com/audience_network/server_side_reward
+https://www.%s.facebook.com/audience_network/server_side_reward
+https://graph.facebook.com/network_ads_common
+https://graph.%s.facebook.com/network_ads_common
+https://www.facebook.com/adnw_logging/
+https://www.%s.facebook.com/adnw_logging/
+https://www.facebook.com/
+https://www.%s.facebook.com
+http://www.facebook.com
+http://adservice.google.com/getconfig/pubvendors
+http://www.w3.org/ns/ttml#parameter
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+http://hostname/?
+https://www.googleapis.com/auth/games_lite
+https://www.googleapis.com/auth/games
+https://plus.google.com/
+http://play.google.com/store/apps/category/GAME
+https://play.google.com/store/apps/details?id=%1$s&rdid=%1$s&rdot=%2$d
+https://plus.google.com/%s/about
+https://play.google.com/store/apps/details
+http://www.google.com
+https://support.google.com/dfp_premium/answer/7160685#push
+http://www.google-analytics.com
+https://ssl.google-analytics.com
+https://app-measurement.com/a
+https://www.google.com
+http://referrer.ad-brix.com?
+https://rpi-staging.adpopcorn.com/ap/v3/cmm/conversion/conversionservice.svc/completerewardvideocampaign
+https://rpi-staging.adpopcorn.com/ap/v3/cmm/conversion/conversionservice.svc/completerewardvideocampaign
+https://rpi.adpopcorn.com/ap/v3/cmm/conversion/conversionservice.svc/completerewardvideocampaign
+https://rpi.adpopcorn.com/ap/v3/cmm/conversion/conversionservice.svc/completerewardvideocampaign
+https://s3-ap-northeast-1.amazonaws.com/contents.igaworks.com/adPOPcorn/faq.html?v=1
+https://s3-ap-northeast-1.amazonaws.com/contents.igaworks.com/adPOPcorn/faq.html?v=1
+https://s3-ap-northeast-1.amazonaws.com/contents.igaworks.com/adPOPcorn/faq.html?v=1
+https://s3-ap-northeast-1.amazonaws.com/contents.igaworks.com/adPOPcorn/faq.html?v=1
+https://rpi-staging.adpopcorn.com/ap/v3/sdk/media/mediaservice.svc/cscampaign
+https://rpi.adpopcorn.com/ap/v3/sdk/media/mediaservice.svc/cscampaign
+https://rpi-staging.adpopcorn.com/ap/v3/sdk/media/mediaservice.svc/addcs
+https://rpi.adpopcorn.com/ap/v3/sdk/media/mediaservice.svc/addcs
+https://s3-ap-northeast-1.amazonaws.com/static.adbrix.igaworks.com/pluslock/new_offerwall_help_ko_01.png
+https://s3-ap-northeast-1.amazonaws.com/static.adbrix.igaworks.com/pluslock/new_offerwall_help_ko_01.png
+https://s3-ap-northeast-1.amazonaws.com/static.adbrix.igaworks.com/pluslock/new_offerwall_help_ja_01.png
+https://s3-ap-northeast-1.amazonaws.com/static.adbrix.igaworks.com/pluslock/new_offerwall_help_ja_01.png
+https://s3-ap-northeast-1.amazonaws.com/static.adbrix.igaworks.com/pluslock/new_offerwall_help_ch_01_A.PNG
+https://s3-ap-northeast-1.amazonaws.com/static.adbrix.igaworks.com/pluslock/new_offerwall_help_ch_01_A.PNG
+https://s3-ap-northeast-1.amazonaws.com/static.adbrix.igaworks.com/pluslock/new_offerwall_help_ch_01_B.PNG
+https://s3-ap-northeast-1.amazonaws.com/static.adbrix.igaworks.com/pluslock/new_offerwall_help_ch_01_B.PNG
+https://s3-ap-northeast-1.amazonaws.com/static.adbrix.igaworks.com/pluslock/new_offerwall_help_en_01.png
+https://s3-ap-northeast-1.amazonaws.com/static.adbrix.igaworks.com/pluslock/new_offerwall_help_en_01.png
+https://s3-ap-northeast-1.amazonaws.com/static.adbrix.igaworks.com/pluslock/offerwall_help_02.png
+https://s3-ap-northeast-1.amazonaws.com/static.adbrix.igaworks.com/pluslock/offerwall_help_02.png
+https://s3-ap-northeast-1.amazonaws.com/static.adbrix.igaworks.com/pluslock/offerwall_help_02.png
+http://rpi-staging.adpopcorn.com/ap/v3/sdk/media/MediaService.svc/campaignhistory
+http://rpi.adpopcorn.com/ap/v3/sdk/media/MediaService.svc/campaignhistory
+https://rpi-staging.adpopcorn.com/ap/v3/sdk/pluslock/pluslockservice.svc/pluslockgauge
+https://rpi.adpopcorn.com/ap/v3/sdk/pluslock/pluslockservice.svc/pluslockgauge
+http://www.igaworks.com/ko/rule_member.html
+http://www.igaworks.com/ko/rule_member.html
+http://adpopcorn.com
+http://rpi-staging.adpopcorn.com/ap/v3/sdk/media/MediaService.svc/checkcampaign
+http://rpi-staging.adpopcorn.com/ap/v3/sdk/media/MediaService.svc/joincampaign
+https://rpi-staging.adpopcorn.com/ap/v3/cmm/conversion/conversionservice.svc/completeinstallcampaign
+https://rpi-staging.adpopcorn.com/ap/v3/sdk/video/videoservice.svc/GetRewardVideoInfo?authkey=
+https://rpi-staging.adpopcorn.com/ap/v3/cmm/conversion/conversionservice.svc/completeexecutecampaign
+http://rpi.adpopcorn.com/ap/v3/sdk/media/MediaService.svc/checkcampaign
+http://rpi.adpopcorn.com/ap/v3/sdk/media/MediaService.svc/joincampaign
+https://rpi.adpopcorn.com/ap/v3/cmm/conversion/conversionservice.svc/completeinstallcampaign
+https://rpi.adpopcorn.com/ap/v3/sdk/video/videoservice.svc/GetRewardVideoInfo?authkey=
+https://rpi.adpopcorn.com/ap/v3/cmm/conversion/conversionservice.svc/completeexecutecampaign
+http://rpi.adpopcorn.com/ap/v3/sdk/media/MediaService.svc/offerwall
+https://rpi.adpopcorn.com/ap/v3/sdk/media/MediaService.svc/clientcompletereward
+https://rpi.adpopcorn.com/ap/v3/sdk/media/MediaService.svc/clientcompletereward
+https://rpi.adpopcorn.com/ap/v3/sdk/media/MediaService.svc/clientpendingreward
+https://rpi-staging.adpopcorn.com/ap/v3/sdk/video/videoservice.svc/videolist
+https://rpi.adpopcorn.com/ap/v3/sdk/video/videoservice.svc/videolist
+https://rpi-staging.adpopcorn.com/ap/v3/sdk/video/videoservice.svc/joinvideocampaign
+https://rpi.adpopcorn.com/ap/v3/sdk/video/videoservice.svc/joinvideocampaign
+https://rpi-staging.adpopcorn.com/ap/v3/sdk/behavior/behaviorservice.svc/action
+https://rpi-staging.adpopcorn.com/ap/v3/sdk/behavior/behaviorservice.svc/action
+https://rpi.adpopcorn.com/ap/v3/sdk/behavior/behaviorservice.svc/action
+https://rpi.adpopcorn.com/ap/v3/sdk/behavior/behaviorservice.svc/action
+https://rpi-staging.adpopcorn.com/ap/v3/cmm/conversion/conversionservice.svc/completeinstallcampaignlistener
+https://rpi.adpopcorn.com/ap/v3/cmm/conversion/conversionservice.svc/completeinstallcampaignlistener
+http://igaworks.com
+http://igaworks.com
+http://igaworks.com
+http://igaworks.com
+https://tracking.ad-brix.com/v1/
+https://cvr.ad-brix.com/v1/
+https://ref.ad-brix.com/v1/
+https://campaign.ad-brix.com/v1/
+https://config.ad-brix.com/
+https://igawcrashlytics.ad-brix.com/api/v1.0/
+https://apiab4c.ad-brix.com/v1/
+https://ads.ubee.in/api/v4
+https://tracking.inlocomedia.com/install
+https://tracking.inlocomedia.com/fo
+https://sdk.inlocomedia.com/v3/ads_config
+https://sdk-analytics.inlocomedia.com/ads/v1
+https://sdk-errors.inlocomedia.com/v1
+https://ads.ubee.in/api/v3
+https://sdk.inlocomedia.com/v3/location_config
+https://visits.inlocomedia.com/v2/notify
+https://visits.inlocomedia.com/v2/notify/bulk
+https://sdk-analytics.inlocomedia.com/location/v1
+http://schemas.android.com/apk/lib/com.inmobi.ads
+http://schemas.android.com/apk/lib/com.inmobi.ads
+https://i.l.inmobicdn.net/sdk/sdk/500/android/mraid.js
+https://i.w.inmobi.com/showad.asm
+https://sdktm.w.inmobi.com/sdkpubreq/v2
+https://crash-metrics.sdk.inmobi.com/trace
+https://config.inmobi.cn/config-server/v1/config/secure.cfg
+https://config.inmobi.cn/config-server/v1/config/secure.cfg
+https://config.inmobi.cn/config-server/v1/config/secure.cfg
+https://config.inmobi.com/config-server/v1/config/secure.cfg
+https://www.inmobi.com/products/sdk/#downloads
+https://telemetry.sdk.inmobi.com/metrics
+https://www.facebook.com/dialog/feed?app_id=181821551957328&link=
+https://m.google.com/app/plus/x/?v=compose&content=
+http://twitter.com/home?status=
+https://dock.inmobi.com/carb/v1/i
+https://dock.inmobi.com/carb/v1/o
+https://sdkm.w.inmobi.com/user/e.asm
+https://mobile-static.adsafeprotected.com/avid-v2.js
+https://mobile-static.adsafeprotected.com/avid-v2.js
+http://blog.simsimi.com/2012/02/simsimi-user-faq.html
+http://www.simsimi.com/?ref=android
+http://www.simsimi.com/?ref=android
+http://www.simsimi.com/?ref=android
+https://secureapp.simsimi.com/v1/setting/getHabitWordList
+https://secureapp.simsimi.com
+https://secureapp.simsimi.com
+https://extra2secureapp.simsimi.com
+https://extra2secureapp.simsimi.com
+https://www.mopub.com/legal/privacy/
+https://www.inmobi.com/privacy-policy/
+https://www.google.co.uk/about/company/user-consent-policy.html
+https://epom.com/privacy-policy
+https://ads.nexage.com
+https://z.moatads.com/
+https://z.moatads.com/
+https://z.moatads.com/
+https://z.moatads.com/
+https://px.moatads.com/pixel.gif?e=0&i=MOATSDK1&ac=1
+http://analytics.rayjump.com
+http://net.rayjump.com
+http://setting.rayjump.com
+https://play.google.com/store/apps/details?id=
+https://play.google.com/
+https://play.google.com/
+https://play.google.com/
+https://play.google.com/
+https://play.google.com/
+http://detect.rayjump.com/mapi/find
+http://detect.rayjump.com/mapi/result
+https://ads.mopub.com/
+http://appservestar.com/
+http://appservestar.com/
+http://appservestar.com/
+http://appservestar.com/
+http://appservestar.com/
+https://www.mopub.com/optout
+http://ads.mopub.com
+https://ads.mopub.com
+http://appclick.co/
+https://appclick.co/
+http://nativex-sdk-testapi.appspot.com/
+http://internal.teamfreeze.com/internal.mobile.com/Richmedia/Preview/RichmediaTemplatePreview.aspx
+http://internal2.teamfreeze.com/internal.mobile.com/Richmedia/Preview/RichmediaTemplatePreview.aspx
+https://dl.dropboxusercontent.com/u/15676262/AdSimulator/template.html
+https://dl.dropboxusercontent.com/s/uushlgxxnf77zml/mraid_test_video_page.html?token_hash=AAF2-x1x1estOcg9hbncFPpJ4Q0MMkK47QbtOtFV0_5esQ&dl=1
+http://market.android.com/details
+https://app.getsentry.com:443
+https://app.getsentry.com:443
+https://app.getsentry.com:443/api/43633/store/
+http://soma.smaato.net/oapi/reqAd.jsp?
+http://avr2.smaato.net/report2?
+http://i.xx.openx.com/ef3/ef31c13c898edcdfc73feb3c0193b64bcfa70082/754/7544eb4e2c8cb99b125559b8846ce948_2.jpeg
+http://www.smaato.com
+http://www.smaato.com
+http://smaato-android-sdk.s3.amazonaws.com/x.png
+http://play.google.com/store/apps/details?id=
+http://play.google.com/store/apps/details?id=
+http://play.google.com/store/apps/details?id=
+https://ws.tapjoyads.com/
+https://ws.tapjoyads.com/
+https://ws.tapjoyads.com/
+https://rpc.tapjoy.com/
+https://rpc.tapjoy.com/
+https://connect.tapjoy.com/
+https://connect.tapjoy.com/
+https://placements.tapjoy.com/
+http://docs.google.com/gview?embedded=true&url=
+https://market.android.com/
+http://play.google.com/store/apps/
+http://play.google.com/store/apps/
+http://play.google.com/store/apps/
+http://www.tnkfactory.com/tnk/sdk/privacy_policy_en.txt
+http://www.tnkfactory.com/tnk/sdk/privacy_policy_en.txt
+http://www.tnkfactory.com/tnk/sdk/privacy_policy_ja.txt
+http://www.tnkfactory.com/tnk/sdk/privacy_policy_ko.txt
+https://impact.applifier.com/mobile/campaigns
+https://www.vungle.com/privacy/
+https://www.vungle.com/privacy/
+https://sdk.youappi.com
+https://onlineapi.youappi.com/online
+https://e.crashlytics.com/spi/v2/events
+https://settings.crashlytics.com/spi/v2/platforms/android/apps/%s/settings
+https://issues.apache.org/jira/browse/MATH
+https://issues.apache.org/jira/browse/MATH
+https://android.revmob.com/api/v5
+https://trafficshieldsdk.revmob.com
+https://s3.amazonaws.com/test-localhost2/mraid.js
+https://s3.amazonaws.com/test-localhost2/mraid.js
+
+[INTERNAL_LOG][2018-06-08 00:13:42,425][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-08 00:13:42,450][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-08 00:13:42,451][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-08 00:13:42,451][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-08 00:13:42,451][INFO][analyze_start()] End time:[Fri Jun  8 00:13:42 2018]

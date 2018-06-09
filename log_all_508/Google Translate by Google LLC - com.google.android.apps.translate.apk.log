@@ -1,0 +1,109 @@
+[INTERNAL_LOG][2018-06-08 01:09:10,783][INFO][analyze_start()] Init Time [Fri Jun  8 01:09:10 2018]
+[INTERNAL_LOG][2018-06-08 01:09:10,844][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-08 01:09:10,844][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-08 01:09:10,844][INFO][is_hybird()] android.permission.CAMERA
+[INTERNAL_LOG][2018-06-08 01:09:10,845][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-08 01:09:10,845][INFO][is_hybird()] android.permission.BLUETOOTH
+[INTERNAL_LOG][2018-06-08 01:09:10,845][INFO][is_hybird()] android.permission.MODIFY_AUDIO_SETTINGS
+[INTERNAL_LOG][2018-06-08 01:09:10,845][INFO][is_hybird()] android.permission.READ_SMS
+[INTERNAL_LOG][2018-06-08 01:09:10,845][INFO][is_hybird()] android.permission.RECORD_AUDIO
+[INTERNAL_LOG][2018-06-08 01:09:10,845][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-08 01:09:10,845][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-08 01:09:10,845][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-08 01:09:10,845][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-08 01:09:10,845][INFO][is_hybird()] android.permission.USE_CREDENTIALS
+[INTERNAL_LOG][2018-06-08 01:09:10,845][INFO][is_hybird()] android.permission.MANAGE_ACCOUNTS
+[INTERNAL_LOG][2018-06-08 01:09:10,845][INFO][is_hybird()] android.permission.SYSTEM_ALERT_WINDOW
+[INTERNAL_LOG][2018-06-08 01:09:10,845][INFO][is_hybird()] android.permission.RECEIVE_BOOT_COMPLETED
+[INTERNAL_LOG][2018-06-08 01:09:10,845][INFO][is_hybird()] android.permission.NFC
+[INTERNAL_LOG][2018-06-08 01:09:10,845][INFO][is_hybird()] android.permission.GET_PACKAGE_SIZE
+[INTERNAL_LOG][2018-06-08 01:09:10,845][INFO][is_hybird()] com.google.android.providers.gsf.permission.READ_GSERVICES
+[INTERNAL_LOG][2018-06-08 01:09:10,845][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-08 01:09:10,845][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-08 01:09:10,845][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-08 01:09:10,845][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-08 01:09:40,301][INFO][find_url_in_apk()] [START URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-08 01:09:40,301][INFO][find_url_in_apk()] https://support.google.com/translate/topic/6142482
+
+[INTERNAL_LOG][2018-06-08 01:09:40,301][INFO][find_url_in_apk()] [END URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-08 01:09:40,817][INFO][find_string()] [START REMOTE FILE ANALYZE]
+[INTERNAL_LOG][2018-06-08 01:09:40,818][INFO][find_string()] Remote File in: temp_html_code/html_downloaded_Google Translate by Google LLC - com/6142482
+[INTERNAL_LOG][2018-06-08 01:09:40,818][INFO][find_string()] URL: https://support.google.com/translate/topic/6142482
+[INTERNAL_LOG][2018-06-08 01:09:40,849][INFO][find_string()] No iframe in temp_html_code/html_downloaded_Google Translate by Google LLC - com/6142482
+[INTERNAL_LOG][2018-06-08 01:09:40,850][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-08 01:09:40,850][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-08 01:09:40,850][INFO][find_url_in_apk()] http://www.google-analytics.com/collect
+http://www.google-analytics.com/collect
+http://www.google-analytics.com/collect
+https://ssl.google-analytics.com/collect
+https://support.google.com/translate/?p=device_requirements_Android
+https://ssl.gstatic.com/inputtools/js/kbd/1/
+https://www.gstatic.cn/inputtools/js/kbd/1/
+https://www.google.com/m/voice-search/
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+https://plus.google.com/
+https://www.gstatic.com/translate/fonts/
+https://www.gstatic.cn/translate/fonts/
+https://clients4.google.com/insights/consumersurveys/gk/prompt
+https://redirector.gvt1.com/edgedl
+https://redirector.gvt1.com/edgedl
+https://www.google.cn/tools/feedback/android/__submit
+https://dl.google.com
+http://schemas.android.com/apk/res/android
+https://www.gstatic.com/android-search/hotword/okgoogle/2485ffee9b354b09df6c27d88fdd9d28/hotword.data
+https://www.gstatic.com/android-search/hotword/okgoogle/d11515beb088c22a5b4cfcbe50ed64be/hotword.data
+https://www.gstatic.com/android-search/hotword/okgoogle/8b8b841e8ba422f84b724567fc1723c8/hotword.data
+https://www.gstatic.com/android-search/hotword/okgoogle/ba949b3b246db0e85d30edda09500a01/hotword.data
+https://www.gstatic.com/android-search/hotword/okgoogle/bbf10e9707209b75ad803852a5773783/hotword.data
+https://www.gstatic.com/android-search/hotword/okgoogle/S8zeg5gN1LsSFXVT4_iblQ/hotword.data
+https://www.gstatic.com/android-search/hotword/okgoogle/yF58f5Q7Gl0R0XVN3yIFHg/hotword.data
+https://www.gstatic.com/android-search/hotword/okgoogle/364856a986661fd24a75968e00a2118f/hotword.data
+https://www.gstatic.com/android-search/hotword/okgoogle/18b22498c1f27ad68110dc5c548d46e2/hotword.data
+https://www.gstatic.com/android-search/hotword/okgoogle/d98f01ef895d86d44d00697733b233c9/hotword.data
+https://www.gstatic.com/android-search/hotword/okgoogle/-IK1dVLF2I6RGW3nheXa4Q/hotword.data
+https://www.gstatic.com/android-search/hotword/okgoogle/4ESUlj0HRHAUlyuECwH6xQ/hotword.data
+https://www.gstatic.com/android-search/hotword/okgoogle/5c5f6deca4865258bad0871b5728554c/hotword.data
+https://www.gstatic.com/android-search/hotword/okgoogle/e3340d91c3deffe992402a2de28e2665/hotword.data
+https://www.gstatic.com/android-search/hotword/okgoogle/cJPv3p14FvaE6kMh1UjY-g/hotword.data
+https://www.gstatic.com/android-search/hotword/okgoogle/uwmVRTrBOBC3r64WIgdTUQ/hotword.data
+https://www.gstatic.com/android-search/hotword/okgoogle/ZKXiZHD3FDOJPMThW5strw/hotword.data
+https://www.gstatic.com/android-search/hotword/okgoogle/0559ba7321397cd7f7a5a1ae85d25681/hotword.data
+https://www.gstatic.com/android-search/hotword/okgoogle/838d30f0e485058558d9b7ddeb09e2ae/hotword.data
+https://www.gstatic.com/android-search/hotword/okgoogle/d30eaf80eecba65b28ab9d197652262a/hotword.data
+https://www.gstatic.com/android-search/hotword/okgoogle/376f62655eb0a86ac764725d67672c05/hotword.data
+https://www.gstatic.com/android-search/hotword/okgoogle/rUTTMaeBt6YkxO4hSE__Xw/hotword.data
+https://www.gstatic.com/android-search/hotword/okgoogle/b051c93dce7bb4dcb5d9ddcbbb2ca760/hotword.data
+https://www.gstatic.com/android-search/hotword/okgoogle/LSnpvzU0d4fwEyurQWCrw/hotword.data
+https://www.gstatic.com/android-search/hotword/okgoogle/825c2bbcc55a46f18abd97dfb47f6987/hotword.data
+https://www.gstatic.com/android-search/hotword/okgoogle/bf186bcb1b6401454110d5dcfc4a9d18/hotword.data
+https://www.gstatic.com/android-search/hotword/okgoogle/3c6deeb3e18e540c211d2c4c3cd2199b/hotword.data
+https://www.gstatic.com/android-search/hotword/okgoogle/c7221d4a909b722d8de65311e41a5e86/hotword.data
+https://www.gstatic.com/android-search/hotword/okgoogle/0d1511898edc069ec020b30c1ec90556/hotword.data
+https://www.google.com/m/voice-search/down?pair=
+https://www.google.com/m/voice-search/down?pair=
+https://www.google.com/m/voice-search/up?pair=
+https://www.google.com/m/voice-search/up?pair=
+https://inputtools.google.cn
+https://inputtools.google.com
+https://inputtools.google.com
+https://dl.google.com/translate/offline/locations.json
+https://dl.google.com/translate/offline/
+https://translate.googleapis.com/translate_a/w?client=at
+https://www.google.cn/m/voice-search/up?pair=
+https://www.google.cn/m/voice-search/down?pair=
+https://translate.google.com
+https://www.googleapis.com/auth/games
+https://support.google.com/translate/?p=tap_to_translate_Android
+https://support.google.com/translate/topic/6142482
+
+[INTERNAL_LOG][2018-06-08 01:09:40,850][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-08 01:09:40,857][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-08 01:09:40,857][INFO][check_method_conf()] [Add interface WebView: False]
+
+[INTERNAL_LOG][2018-06-08 01:09:40,857][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-08 01:09:40,857][INFO][analyze_start()] End time:[Fri Jun  8 01:09:40 2018]

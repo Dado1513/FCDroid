@@ -1,0 +1,95 @@
+[INTERNAL_LOG][2018-06-07 22:40:28,542][INFO][analyze_start()] Init Time [Thu Jun  7 22:40:28 2018]
+[INTERNAL_LOG][2018-06-07 22:40:28,652][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-07 22:40:28,652][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-07 22:40:28,652][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-07 22:40:28,652][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-07 22:40:28,652][INFO][is_hybird()] android.permission.READ_PHONE_STATE
+[INTERNAL_LOG][2018-06-07 22:40:28,652][INFO][is_hybird()] android.permission.CAMERA
+[INTERNAL_LOG][2018-06-07 22:40:28,652][INFO][is_hybird()] android.permission.FLASHLIGHT
+[INTERNAL_LOG][2018-06-07 22:40:28,652][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-07 22:40:28,652][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-07 22:40:28,652][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-07 22:40:28,652][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-07 22:40:28,652][INFO][is_hybird()] android.permission.CALL_PHONE
+[INTERNAL_LOG][2018-06-07 22:40:28,653][INFO][is_hybird()] android.permission.RECEIVE_SMS
+[INTERNAL_LOG][2018-06-07 22:40:28,653][INFO][is_hybird()] android.permission.READ_SMS
+[INTERNAL_LOG][2018-06-07 22:40:28,653][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-07 22:40:28,653][INFO][is_hybird()] android.permission.READ_CONTACTS
+[INTERNAL_LOG][2018-06-07 22:40:28,653][INFO][is_hybird()] android.permission.ACCESS_COARSE_LOCATION
+[INTERNAL_LOG][2018-06-07 22:40:28,653][INFO][is_hybird()] android.permission.ACCESS_FINE_LOCATION
+[INTERNAL_LOG][2018-06-07 22:40:28,653][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-07 22:40:28,653][INFO][is_hybird()] br.com.bb.android.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-07 22:40:28,653][INFO][is_hybird()] android.permission.NFC
+[INTERNAL_LOG][2018-06-07 22:40:28,653][INFO][is_hybird()] br.com.bb.android.permission.MAPS_RECEIVE
+[INTERNAL_LOG][2018-06-07 22:40:28,653][INFO][is_hybird()] com.google.android.providers.gsf.permission.READ_GSERVICES
+[INTERNAL_LOG][2018-06-07 22:40:28,653][INFO][is_hybird()] android.permission.USE_FINGERPRINT
+[INTERNAL_LOG][2018-06-07 22:40:28,653][INFO][is_hybird()] com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY
+[INTERNAL_LOG][2018-06-07 22:40:28,653][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-07 22:40:28,653][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-07 22:40:28,653][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-07 22:40:28,653][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-07 22:40:28,653][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-07 22:41:38,193][INFO][find_url_in_apk()] [START URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-07 22:41:38,193][INFO][find_url_in_apk()] https://www.google.com/cloudprint/confirmDialog.html
+https://www.google.com/cloudprint/confirmDialog.html
+http://zxing.appspot.com
+
+[INTERNAL_LOG][2018-06-07 22:41:38,193][INFO][find_url_in_apk()] [END URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-07 22:41:38,649][ERROR][download_page_loaded()] Failed response code: 404 for https://www.google.com/cloudprint/confirmDialog.html  
+[INTERNAL_LOG][2018-06-07 22:41:39,106][ERROR][download_page_loaded()] Failed response code: 404 for https://www.google.com/cloudprint/confirmDialog.html  
+[INTERNAL_LOG][2018-06-07 22:41:39,479][INFO][find_string()] [START REMOTE FILE ANALYZE]
+[INTERNAL_LOG][2018-06-07 22:41:39,480][INFO][find_string()] Remote File in: temp_html_code/html_downloaded_Banco do Brasil by Banco do Brasil SA - br/zxing.appspot.com
+[INTERNAL_LOG][2018-06-07 22:41:39,480][INFO][find_string()] URL: http://zxing.appspot.com
+[INTERNAL_LOG][2018-06-07 22:41:39,483][INFO][find_string()] No iframe in temp_html_code/html_downloaded_Banco do Brasil by Banco do Brasil SA - br/zxing.appspot.com
+[INTERNAL_LOG][2018-06-07 22:41:39,483][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-07 22:41:39,483][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-07 22:41:39,484][INFO][find_url_in_apk()] http://schemas.android.com/apk/res/android
+https://eni.bancobrasil.com.br/
+http://m.bb.com.br/portalmobi/
+http://m.bb.com.br/portalmobi/
+http://quiz.intranet.bb.com.br/quiz/index.php
+https://www63.bb.com.br/portalbb/boleto/index.bbx
+https://www63.bb.com.br/portalbb/boleto/index.bbx
+https://www63.bb.com.br/portalbb/boleto/index.bbx
+https://www.google.com/cloudprint/confirmDialog.html
+https://www.google.com/cloudprint/confirmDialog.html
+http://zxing.appspot.com
+http://www.encontreobb.com.br/
+http://www.encontreobb.com.br/
+http://www.encontreobb.com.br/
+https://www2.bancobrasil.com.br/aapf/
+https://api.desenv.bb.com.br/775239/v1/
+https://api.hm.bb.com.br/775239/v1/
+https://mobile.api.bb.com.br/775239/v1/
+http://hostname/?
+http://hostname/?
+https://play.google.com/store/apps/details?id=
+http://play.google.com/store/apps/details?id=
+http://play.google.com/store/apps/details?id=
+https://mobi.bb.com.br/lj
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+https://plus.google.com/
+http://www.google-analytics.com
+https://ssl.google-analytics.com
+https://www.googletagmanager.com
+https://settings.crashlytics.com/spi/v2/platforms/android/apps/%s/settings
+http://maps.google.com/maps?q=loc:
+http://www.bb.com.br/
+http://www.bb.com.br/
+http://portal.intranet.bb.com.br/wps/wcm/myconnect/6afcff87-3b4a-4d43-baa5-5ebcc2870ed9/Evento+0803+2+320.jpg?MOD=AJPERES
+http://www.google.com.br
+https://e.crashlytics.com/spi/v2/events
+http://commons.apache.org/proper/commons-compress/limitations.html#7Z
+https://www.googleapis.com/auth/games
+
+[INTERNAL_LOG][2018-06-07 22:41:39,484][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-07 22:41:39,518][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-07 22:41:39,518][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-07 22:41:39,518][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-07 22:41:39,519][INFO][analyze_start()] End time:[Thu Jun  7 22:41:39 2018]

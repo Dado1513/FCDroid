@@ -1,0 +1,65 @@
+[INTERNAL_LOG][2018-06-08 03:15:42,868][INFO][analyze_start()] Init Time [Fri Jun  8 03:15:42 2018]
+[INTERNAL_LOG][2018-06-08 03:15:43,046][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-08 03:15:43,048][INFO][is_hybird()] Hybrid file found are: ['config.xml']
+[INTERNAL_LOG][2018-06-08 03:15:43,048][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-08 03:15:43,048][INFO][is_hybird()] com.kabam.marvelbattle.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-08 03:15:43,048][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-08 03:15:43,048][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-08 03:15:43,049][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-08 03:15:43,049][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-08 03:15:43,049][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-08 03:15:43,049][INFO][is_hybird()] com.android.vending.CHECK_LICENSE
+[INTERNAL_LOG][2018-06-08 03:15:43,049][INFO][is_hybird()] android.permission.MODIFY_AUDIO_SETTINGS
+[INTERNAL_LOG][2018-06-08 03:15:43,049][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-08 03:15:43,049][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-08 03:15:43,049][INFO][is_hybird()] android.permission.DOWNLOAD_WITHOUT_NOTIFICATION
+[INTERNAL_LOG][2018-06-08 03:15:43,049][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-08 03:15:43,049][INFO][is_hybird()] Starting apktool
+[INTERNAL_LOG][2018-06-08 03:15:52,430][ERROR][is_hybird()] [ERROR file config.xmls] [Errno 2] No such file or directory: 'temp_dir/res/xml/config.xml' 
+
+[INTERNAL_LOG][2018-06-08 03:15:52,451][INFO][analyze_start()] TYPE APK: [HYBRID]
+
+[INTERNAL_LOG][2018-06-08 03:15:52,456][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-08 03:15:52,456][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-08 03:16:09,492][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-08 03:16:09,492][INFO][find_url_in_apk()] http://schemas.android.com/apk/res/android
+https://api.%s/install_data/v3/
+https://attr.%s/api/v
+https://t.%s/api/v
+https://events.%s/api/v
+https://register.%s/api/v
+https://stats.%s/stats
+https://onelink.%s/shortlink-sdk/v1
+https://onelink.%s/shortlink-sdk/v1
+https://validate.%s/api/v
+https://sdk-services.%s/validate-android-signature
+https://app.%s
+https://app.%s
+https://impression.%s
+https://monitorsdk.%s/remote-debug?app_id=
+https://api.nanigans.com/mobile.php?
+https://graph.%s
+https://graph-video.%s
+https://facebook.com
+http://play.google.com/store/apps/details?id=com.facebook.orca
+https://www.googleapis.com/auth/plus.me
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games
+http://plus.google.com/
+https://www.googleapis.com/auth/drive.file
+https://www.googleapis.com/auth/drive.appdata
+https://www.googleapis.com/auth/drive
+https://www.googleapis.com/auth/drive.apps
+https://www.googleapis.com/auth/games.firstparty
+https://www.googleapis.com/auth/games.firstparty
+
+[INTERNAL_LOG][2018-06-08 03:16:09,492][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-08 03:16:09,498][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-08 03:16:09,498][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-08 03:16:09,498][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-08 03:16:09,498][INFO][analyze_start()] End time:[Fri Jun  8 03:16:09 2018]

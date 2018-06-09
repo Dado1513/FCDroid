@@ -1,0 +1,33 @@
+
+-- Final Result -- 
+
+Apk analyzed: 359
+
+Percentual app with at least one html file inside: 60%
+
+Percentual app maybe vulnerable: 4.45%, based on tot 359.
+
+Percentual app with js enabled 94.25%
+
+Percentual app with js interface 91.25%
+
+Average time  single apk analyzed 44 sec
+
+This app maybe are vulnerable:
+- VivaVideo - Video Editor _ Photo Video Maker by _ QuVideo Inc. - com.quvideo.xiaoying.apk
+- Pet Rescue Saga by King - com.king.petrescuesaga.apk
+- Telegram by Telegram FZ-LLC - org.telegram.messenger.apk
+- Where_s My Water_ 2 by Disney - com.disney.wheresmywater2_goo.apk
+- YONO by SBI by State Bank of India - com.sbi.lotusintouch.apk
+- musical.ly by musical.ly - com.zhiliaoapp.musically.apk
+- frame_confusion_app.apk
+- PicsArt Photo Studio_ Collage Maker _ Pic Editor by PicsArt - com.picsart.studio.apk
+- MyAppPhoneGap.apk
+- Rafiki. by Blablapp - com.goodbarber.apptestapp.apk
+- Wattpad  _  Free Books by Wattpad.com - wp.wattpad.apk
+- Bubble Witch 2 Saga by King - com.midasplayer.apps.bubblewitchsaga2.apk
+- YONO.apk
+- Farm Heroes Saga by King - com.king.farmheroessaga.apk
+- Candy Crush Soda Saga by King - com.king.candycrushsodasaga.apk
+- Candy Crush Saga by King - com.king.candycrushsaga.apk
+- Samsung Internet Browser by Samsung Electronics Co._  Ltd. - com.sec.android.app.sbrowser.apk

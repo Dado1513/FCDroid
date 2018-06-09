@@ -1,0 +1,249 @@
+[INTERNAL_LOG][2018-06-07 22:38:22,100][INFO][analyze_start()] Init Time [Thu Jun  7 22:38:22 2018]
+[INTERNAL_LOG][2018-06-07 22:38:22,231][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-07 22:38:22,231][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-07 22:38:22,231][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-07 22:38:22,231][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-07 22:38:22,232][INFO][is_hybird()] com.cyberlink.youperfect.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-07 22:38:22,232][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-07 22:38:22,232][INFO][is_hybird()] android.permission.RECORD_AUDIO
+[INTERNAL_LOG][2018-06-07 22:38:22,232][INFO][is_hybird()] android.permission.GET_TASKS
+[INTERNAL_LOG][2018-06-07 22:38:22,232][INFO][is_hybird()] android.permission.CAMERA
+[INTERNAL_LOG][2018-06-07 22:38:22,232][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-07 22:38:22,232][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-07 22:38:22,232][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-07 22:38:22,232][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-07 22:38:22,232][INFO][is_hybird()] android.permission.READ_PHONE_STATE
+[INTERNAL_LOG][2018-06-07 22:38:22,232][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-07 22:38:22,232][INFO][is_hybird()] android.permission.ACCESS_COARSE_LOCATION
+[INTERNAL_LOG][2018-06-07 22:38:22,232][INFO][is_hybird()] android.permission.ACCESS_FINE_LOCATION
+[INTERNAL_LOG][2018-06-07 22:38:22,232][INFO][is_hybird()] android.permission.USE_FINGERPRINT
+[INTERNAL_LOG][2018-06-07 22:38:22,232][INFO][is_hybird()] android.permission.USE_CREDENTIALS
+[INTERNAL_LOG][2018-06-07 22:38:22,232][INFO][is_hybird()] android.permission.AUTHENTICATE_ACCOUNTS
+[INTERNAL_LOG][2018-06-07 22:38:22,232][INFO][is_hybird()] android.permission.MANAGE_ACCOUNTS
+[INTERNAL_LOG][2018-06-07 22:38:22,232][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-07 22:38:22,232][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-07 22:38:22,232][INFO][is_hybird()] android.permission.RECEIVE_BOOT_COMPLETED
+[INTERNAL_LOG][2018-06-07 22:38:22,233][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-07 22:38:22,233][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-07 22:38:22,233][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-07 22:38:22,233][INFO][find_string()] File: assets/license/DeepLink.html
+[INTERNAL_LOG][2018-06-07 22:38:22,311][INFO][find_string()] No iframe in assets/license/DeepLink.html
+[INTERNAL_LOG][2018-06-07 22:38:22,311][INFO][find_string()] File: assets/license/Licenses.html
+[INTERNAL_LOG][2018-06-07 22:38:22,313][INFO][find_string()] No iframe in assets/license/Licenses.html
+[INTERNAL_LOG][2018-06-07 22:38:22,313][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-07 22:39:52,840][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-07 22:39:52,840][INFO][find_url_in_apk()] http://schemas.android.com/apk/res/android
+http://net.cleverjp.com/
+https://www.beautycircle.com/shopcart
+http://graph.facebook.com/
+https://www.beautycircle.com/
+http://cdn.beautycircle.com/2/82460002/71/b35d3cf1-8392-47f2-8fd4-9900dc0a8521.jpg
+http://www.perfectcorp.com/ybc/twitter/callback
+http://www.perfectcorp.com/ybc/twitter/callback
+https://plugins.perfectcorp.com/showcase/category/look
+http://imgapi.nownews.com/?w=800&q=60&src=http%3A%2F%2Fs.nownews.com%2Fa8%2Fc8%2Fa8c851b2c22eadea6b29a0bdefb921c1.jpg
+https://stage2.cyberlink.com/prog/support/app/feedback.jsp
+https://archive.org/download/ksnn_compilation_master_the_internet/ksnn_compilation_master_the_internet_512kb.mp4
+http://app.perfectcorp.cn/service/V2/init
+https://apptest.perfectcorp.com/service/V2/init
+http://app-api-jp-471148002.ap-northeast-1.elb.amazonaws.com/service/V2/init
+http://app-api-us-352998339.us-west-2.elb.amazonaws.com/service/V2/init
+http://app-api-eu-1957564226.eu-west-1.elb.amazonaws.com/service/V2/init
+http://app-api-01.perfectcorp.com/service/V2/init
+http://app-api-02.perfectcorp.com/service/V2/init
+https://api.weixin.qq.com/sns/oauth2/access_token
+https://api.weixin.qq.com/sns/userinfo
+http://bc-api.beautycircle.cn/api/init
+http://bc-demo1.cyberlink.com/api/init
+http://bc-demo3.cyberlink.com/api/init
+http://bc-api-cn1.beautycircle.cn/api/init
+http://bc-api-jp1.cyberlink.com/api/init
+http://bc-api-us.cyberlink.com/api/init
+http://bc-api-ie.cyberlink.com/api/init
+http://bc-api-01.beautycircle.com/api/init
+http://bc-api-02.beautycircle.com/api/init
+http://live-demo1.beautycircle.cn/api/init.action
+http://bc.perfectcorp.com/share_in
+http://d2pfpk6p9jh6lc.cloudfront.net/1/287264001/560/33be2b03-ad77-4696-b8d0-7522259864b0.jpg
+https://www.pinterest.com/pin/create/button/?url=%s&media=%s&description=%s
+https://twitter.com/intent/tweet?text=%s&url=%s
+https://twitter.com/oauth/request_token
+https://twitter.com/oauth/access_token
+https://twitter.com/oauth/authenticate
+https://api.twitter.com/1.1/users/show.json?user_id=
+https://clad.perfectcorp.com
+https://clad.perfectcorp.com
+https://clad.perfectcorp.com
+https://pagead2.googlesyndication.com/pagead/gen_204
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/sdk-core-v40-impl.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://csi.gstatic.com/csi
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/native_ads.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/native_ads.js
+https://imasdk.googleapis.com/admob/sdkloader/native_video.html
+https://www.google.com/dfp/linkDevice
+https://www.google.com/dfp/inAppPreview
+https://www.google.com/dfp/debugSignals
+https://www.google.com/dfp/sendDebugData
+http://www.example.com
+http://www.example.com
+http://www.perfectcorp.cn/bcapp
+http://www.perfectcorp.cn/ymkapp
+http://www.perfectcorp.cn/ycpapp
+http://www.perfectcorp.cn/ycnapp
+https://open.weibo.cn/oauth2/authorize?
+https://www.googleapis.com/youtube/v3/videos?id=%s&key=
+https://api.weibo.com/2/users/show.json
+https://clad.cyberlink.com
+https://bcm-demo-api.beautycircle.com/api/broadcast/list-broadcast-message.action
+https://bcm-demo-api.beautycircle.com/api/broadcast/heatbeat-broadcast-message.action
+https://bcm-demo-api.beautycircle.com/api/broadcast/query-broadcast-message.action
+http://play.google.com/store/apps/details
+http://play.google.com/store/apps/details
+http://www.perfectcorp.com/stat/faq/youcam-perfect/redirect.jsp
+http://www.perfectcorp.cn/wechat/video/?app=ycp&videoUrl=
+https://appadtest.perfectcorp.com
+https://feedback.cyberlink.com
+http://app-api.perfectcorp.cn
+http://app-api-01.perfectcorp.com
+http://app-api-02.perfectcorp.com
+http://play.google.com/store/apps/details?id=
+https://www.facebook.com/
+https://www.facebook.com/
+http://xmlpull.org/v1/doc/features.html#indent-output
+http://xmlpull.org/v1/doc/features.html#indent-output
+https://play.google.com/store/apps/details?id=%s
+https://www.facebook.com/audience_network/server_side_reward
+https://www.%s.facebook.com/audience_network/server_side_reward
+https://graph.facebook.com/network_ads_common
+https://graph.%s.facebook.com/network_ads_common
+https://www.facebook.com/adnw_logging/
+https://www.%s.facebook.com/adnw_logging/
+http://play.google.com/store/apps/
+https://www.%s.facebook.com
+http://www.facebook.com
+https://graph.%s
+https://graph-video.%s
+https://facebook.com
+https://facebook.com/device?user_code=%1$s&qr=1
+http://play.google.com/store/apps/details?id=com.facebook.orca
+http://schemas.microsoft.com/DRM/2007/03/protocols/AcquireLicense
+http://schemas.microsoft.com/DRM/2007/03/protocols/AcquireLicense
+http://www.w3.org/ns/ttml#parameter
+http://www.w3.org/ns/ttml#parameter
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+https://www.googleapis.com/auth/games_lite
+https://www.googleapis.com/auth/games
+https://plus.google.com/
+http://www.google.com
+https://support.google.com/dfp_premium/answer/7160685#push
+https://app-measurement.com/a
+https://www.google.com
+https://www.youtube.com/playlist?list=
+https://www.youtube.com/playlist?list=
+https://www.youtube.com/channel/
+https://www.youtube.com/channel/
+https://www.youtube.com/watch?v=
+https://www.youtube.com/watch?v=
+https://www.youtube.com/user/
+https://www.youtube.com/user/
+https://dwzb7nsm427ad.cloudfront.net/1/
+https://d1zkodo2u3p4pe.cloudfront.net/1/
+https://geoinfo.i2w.io/api/1/geoinfo
+http://ce-global-dev-proxy-154916917.ap-northeast-1.elb.amazonaws.com/cdn/adcfg
+http://d2qmdcga8xwxzj.cloudfront.net/cdn/adcfg
+https://www.facebook.com/%s
+https://www.facebook.com/%s
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+https://mobile-static.adsafeprotected.com/avid-v2.js
+https://z.moatads.com/
+http://hybird.rayjump.com/rv/authoriztion.html
+http://analytics.rayjump.com
+http://net.rayjump.com
+http://setting.rayjump.com
+https://play.google.com/store/apps/details?id=
+https://play.google.com/
+https://play.google.com/
+https://play.google.com/
+http://detect.rayjump.com/mapi/find
+http://detect.rayjump.com/mapi/result
+https://mobile-api-01.perfectcorp.cn/api/
+https://mobile-api-01.perfectcorp.com/api/
+https://api.weibo.com/oauth2/access_token
+https://api.weibo.com/2/proxy/sdk/statistic.json
+https://api.weibo.com/oauth2/getaid.json
+https://api.weibo.com/oauth2/getaid.json
+http://m.weibo.cn/comment?
+http://m.weibo.cn/index/router?
+http://m.weibo.cn/index/router?
+https://m.weibo.cn/p/100103type=1&
+http://m.weibo.cn/mblog?
+http://m.weibo.cn/u/
+http://m.weibo.cn/
+http://media.weibo.cn/article?
+http://service.weibo.com/share/mobilesdk_uppic.php
+http://service.weibo.com/share/mobilesdk.php
+http://pingma.qq.com:80/mstat/report
+https://twitter.com/
+https://twitter.com/#!/search?q=%23
+https://twitter.com/#!/search?q=%24
+https://e.crashlytics.com/spi/v2/events
+https://settings.crashlytics.com/spi/v2/platforms/android/apps/%s/settings
+http://jabber.org/protocol/compress
+http://jabber.org/protocol/address
+http://jabber.org/protocol/address
+http://jabber.org/protocol/amp
+http://jabber.org/protocol/ibb
+http://jabber.org/protocol/ibb
+http://jabber.org/protocol/ibb
+http://jabber.org/protocol/ibb
+http://jabber.org/protocol/bytestreams
+http://jabber.org/protocol/bytestreams
+http://jabber.org/protocol/caps
+http://jabber.org/protocol/caps
+http://jabber.org/protocol/caps
+http://jabber.org/protocol/caps
+http://www.igniterealtime.org/projects/smack
+http://jabber.org/protocol/chatstates
+http://jabber.org/protocol/commands
+http://jabber.org/protocol/commands
+http://jabber.org/protocol/disco#info
+http://jabber.org/protocol/disco#info
+http://jabber.org/protocol/disco#items
+http://jabber.org/protocol/disco#items
+http://jabber.org/protocol/si/profile/file-transfer
+http://jabber.org/protocol/si/profile/file-transfer
+http://jabber.org/protocol/si
+http://www.jivesoftware.com/xmlns/xmpp/properties
+http://jabber.org/protocol/muc
+http://jabber.org/protocol/muc#rooms
+http://jabber.org/protocol/muc#user
+http://jabber.org/protocol/muc#user
+http://jabber.org/protocol/nick
+http://jabber.org/protocol/nick
+http://jabber.org/protocol/offline
+http://jabber.org/protocol/pubsub
+http://jabber.org/protocol/pubsub
+http://jabber.org/protocol/shim
+http://jabber.org/protocol/shim
+http://jabber.org/protocol/feature-neg
+http://jabber.org/protocol/xhtml-im
+http://jabber.org/protocol/xhtml-im
+http://jabber.org/protocol/xhtml-im
+
+[INTERNAL_LOG][2018-06-07 22:39:52,840][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-07 22:39:53,015][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-07 22:39:53,015][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-07 22:39:53,015][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-07 22:39:53,016][INFO][analyze_start()] End time:[Thu Jun  7 22:39:53 2018]

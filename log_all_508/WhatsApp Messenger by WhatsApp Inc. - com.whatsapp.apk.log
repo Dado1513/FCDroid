@@ -1,0 +1,170 @@
+[INTERNAL_LOG][2018-06-07 21:41:32,185][INFO][analyze_start()] Init Time [Thu Jun  7 21:41:32 2018]
+[INTERNAL_LOG][2018-06-07 21:41:32,319][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-07 21:41:32,324][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-07 21:41:32,324][INFO][is_hybird()] android.permission.ACCESS_COARSE_LOCATION
+[INTERNAL_LOG][2018-06-07 21:41:32,324][INFO][is_hybird()] android.permission.ACCESS_FINE_LOCATION
+[INTERNAL_LOG][2018-06-07 21:41:32,324][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-07 21:41:32,324][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-07 21:41:32,325][INFO][is_hybird()] android.permission.AUTHENTICATE_ACCOUNTS
+[INTERNAL_LOG][2018-06-07 21:41:32,325][INFO][is_hybird()] android.permission.BLUETOOTH
+[INTERNAL_LOG][2018-06-07 21:41:32,325][INFO][is_hybird()] android.permission.BROADCAST_STICKY
+[INTERNAL_LOG][2018-06-07 21:41:32,325][INFO][is_hybird()] android.permission.CAMERA
+[INTERNAL_LOG][2018-06-07 21:41:32,325][INFO][is_hybird()] android.permission.CHANGE_WIFI_STATE
+[INTERNAL_LOG][2018-06-07 21:41:32,325][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-07 21:41:32,325][INFO][is_hybird()] android.permission.GET_TASKS
+[INTERNAL_LOG][2018-06-07 21:41:32,325][INFO][is_hybird()] android.permission.INSTALL_SHORTCUT
+[INTERNAL_LOG][2018-06-07 21:41:32,325][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-07 21:41:32,325][INFO][is_hybird()] android.permission.MANAGE_ACCOUNTS
+[INTERNAL_LOG][2018-06-07 21:41:32,325][INFO][is_hybird()] android.permission.MODIFY_AUDIO_SETTINGS
+[INTERNAL_LOG][2018-06-07 21:41:32,325][INFO][is_hybird()] android.permission.NFC
+[INTERNAL_LOG][2018-06-07 21:41:32,325][INFO][is_hybird()] android.permission.READ_CONTACTS
+[INTERNAL_LOG][2018-06-07 21:41:32,325][INFO][is_hybird()] android.permission.READ_PHONE_STATE
+[INTERNAL_LOG][2018-06-07 21:41:32,325][INFO][is_hybird()] android.permission.READ_PROFILE
+[INTERNAL_LOG][2018-06-07 21:41:32,326][INFO][is_hybird()] android.permission.READ_SYNC_SETTINGS
+[INTERNAL_LOG][2018-06-07 21:41:32,326][INFO][is_hybird()] android.permission.READ_SYNC_STATS
+[INTERNAL_LOG][2018-06-07 21:41:32,326][INFO][is_hybird()] android.permission.RECEIVE_BOOT_COMPLETED
+[INTERNAL_LOG][2018-06-07 21:41:32,326][INFO][is_hybird()] android.permission.RECEIVE_SMS
+[INTERNAL_LOG][2018-06-07 21:41:32,326][INFO][is_hybird()] android.permission.RECORD_AUDIO
+[INTERNAL_LOG][2018-06-07 21:41:32,326][INFO][is_hybird()] android.permission.SEND_SMS
+[INTERNAL_LOG][2018-06-07 21:41:32,326][INFO][is_hybird()] android.permission.USE_CREDENTIALS
+[INTERNAL_LOG][2018-06-07 21:41:32,326][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-07 21:41:32,326][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-07 21:41:32,326][INFO][is_hybird()] android.permission.WRITE_CONTACTS
+[INTERNAL_LOG][2018-06-07 21:41:32,326][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-07 21:41:32,326][INFO][is_hybird()] android.permission.WRITE_SYNC_SETTINGS
+[INTERNAL_LOG][2018-06-07 21:41:32,326][INFO][is_hybird()] com.android.launcher.permission.INSTALL_SHORTCUT
+[INTERNAL_LOG][2018-06-07 21:41:32,326][INFO][is_hybird()] com.android.launcher.permission.UNINSTALL_SHORTCUT
+[INTERNAL_LOG][2018-06-07 21:41:32,326][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-07 21:41:32,327][INFO][is_hybird()] com.google.android.providers.gsf.permission.READ_GSERVICES
+[INTERNAL_LOG][2018-06-07 21:41:32,327][INFO][is_hybird()] com.sec.android.provider.badge.permission.READ
+[INTERNAL_LOG][2018-06-07 21:41:32,327][INFO][is_hybird()] com.sec.android.provider.badge.permission.WRITE
+[INTERNAL_LOG][2018-06-07 21:41:32,327][INFO][is_hybird()] com.htc.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-07 21:41:32,327][INFO][is_hybird()] com.htc.launcher.permission.UPDATE_SHORTCUT
+[INTERNAL_LOG][2018-06-07 21:41:32,327][INFO][is_hybird()] com.sonyericsson.home.permission.BROADCAST_BADGE
+[INTERNAL_LOG][2018-06-07 21:41:32,327][INFO][is_hybird()] com.sonymobile.home.permission.PROVIDER_INSERT_BADGE
+[INTERNAL_LOG][2018-06-07 21:41:32,327][INFO][is_hybird()] com.huawei.android.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-07 21:41:32,327][INFO][is_hybird()] com.huawei.android.launcher.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-07 21:41:32,327][INFO][is_hybird()] com.huawei.android.launcher.permission.CHANGE_BADGE
+[INTERNAL_LOG][2018-06-07 21:41:32,327][INFO][is_hybird()] com.whatsapp.permission.BROADCAST
+[INTERNAL_LOG][2018-06-07 21:41:32,327][INFO][is_hybird()] com.whatsapp.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-07 21:41:32,327][INFO][is_hybird()] com.whatsapp.permission.MAPS_RECEIVE
+[INTERNAL_LOG][2018-06-07 21:41:32,327][INFO][is_hybird()] com.whatsapp.permission.VOIP_CALL
+[INTERNAL_LOG][2018-06-07 21:41:32,328][INFO][is_hybird()] com.whatsapp.permission.REGISTRATION
+[INTERNAL_LOG][2018-06-07 21:41:32,328][INFO][is_hybird()] com.whatsapp.sticker.READ
+[INTERNAL_LOG][2018-06-07 21:41:32,328][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-07 21:41:32,328][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-07 21:41:32,328][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-07 21:41:32,328][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-07 21:41:32,328][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-07 21:42:14,423][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-07 21:42:14,423][INFO][find_url_in_apk()] https://static.whatsapp.net/downloadable?category=
+http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+https://l.wl.co/l?u=
+http://www.w3.org/TR/SVG11/feature#
+http://www.w3.org/1999/xlink
+http://www.w3.org/1999/xlink
+http://www.w3.org/1999/xlink
+http://www.w3.org/1999/xlink
+http://www.w3.org/1999/xlink
+http://www.w3.org/1999/xlink
+http://xml.org/sax/properties/lexical-handler
+http://www.w3.org/2000/svg
+http://www.w3.org/2000/svg
+https://www.facebook.com/images/here_maps/here_maps_logo_64px.png
+https://www.facebook.com/images/here_maps/here_maps_logo_32px.png
+https://graph.facebook.com/v2.2/maps_configs?fields=base_url,static_base_url,osm_config,url_override_config&pretty=0&access_token=
+https://www.facebook.com/maps/tile/?
+https://www.facebook.com/maps/static/?
+https://maps.instagram.com/maps/tile/?
+https://maps.instagram.com/maps/static/?
+https://logger.instagram.com/graph/server.php?_fb_url=v2.2/maps_configs&fields=base_url,static_base_url,osm_config,url_override_config&pretty=0&access_token=
+https://graph.whatsapp.net/v2.2/maps_configs?fields=base_url,static_base_url,osm_config,url_override_config&pretty=0&access_token=
+https://mts1.google.com/vt/lyrs=m&src=app&s=G&scale=
+https://dev503.prn2.facebook.com:8085/?width=
+http://1.base.maps.cit.api.here.com/maptile/2.1/maptile/newest/normal.day/
+http://api.tiles.mapbox.com/v4/kunalb.ipim2pep/
+http://www.w3.org/ns/ttml#parameter
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+https://www.googleapis.com/auth/games_lite
+https://www.googleapis.com/auth/games
+https://plus.google.com/
+https://app-measurement.com/a
+https://www.google.com
+https://whatsapp.com/dl/
+https://whatsapp.com/dl/
+https://whatsapp.com/dl/
+https://whatsapp.com/dl/
+https://whatsapp.com/dl/
+https://www.whatsapp.com
+https://www.whatsapp.com/security
+https://chat.whatsapp.com/
+https://whatsapp.com/android
+https://whatsapp.com/android
+https://whatsapp.com/android
+https://foursquare.com/v/
+https://www.facebook.com/images/places/topics/pin_72.png
+https://www.whatsapp.com/download/
+https://www.whatsapp.com/download/
+https://www.whatsapp.com/android/
+https://www.whatsapp.com/android/current/WhatsApp.apk
+https://www.whatsapp.com/legal/#terms-of-service
+https://www.whatsapp.com/legal/#privacy-policy
+https://www.whatsapp.com/legal/#privacy-policy
+https://faq.whatsapp.com/general/28030015/
+https://www.facebook.com/help/111814505650678
+https://faq.whatsapp.com/general/26000112/
+https://www.whatsapp.com/legal/#privacy-policy-managing-and-deleting-your-information
+https://www.whatsapp.com/legal/#privacy-policy-our-global-operations
+https://www.whatsapp.com/legal/#terms-of-service-age
+https://www.whatsapp.com/legal/#cookies
+https://maps.google.com/maps?q=
+https://www.whatsapp.com/security?lg=
+https://maps.google.com/?q=
+https://static.whatsapp.net/emoji?lgs=
+https://www.whatsapp.com/legal/
+https://play.google.com/apps/testing/
+http://www.google.com/settings/storage?emr=0&authuser=-1&utm_source=whatsapp
+https://www.googleapis.com/upload/drive/v2/files?uploadType=resumable
+https://www.googleapis.com/drive/v2/files
+https://www.googleapis.com/drive/v2/files/%s
+https://www.googleapis.com/drive/v2/files/%s
+https://www.googleapis.com/drive/v2/files/%s
+https://www.googleapis.com/drive/v2/files/%s
+https://www.googleapis.com/batch/drive/v2
+https://www.googleapis.com/drive/v2/files/%s?alt=media
+https://www.googleapis.com/upload/drive/v2/files
+https://www.googleapis.com/drive/v2/files/%s/properties
+https://api.giphy.com/v1/gifs/trending
+https://api.giphy.com/v1/gifs/search
+https://wa.tenor.co/v1/trending
+https://wa.tenor.co/v1/search
+https://maps.google.com/maps?q=loc:
+https://maps.google.com/maps?q=loc:(
+https://crashlogs.whatsapp.net/wa_clb_data
+https://crashlogs.whatsapp.net/wa_clb_data
+https://crashlogs.whatsapp.net/wa_clb_data
+https://crashlogs.whatsapp.net/wa_clb_data
+https://www.whatsapp.com/legal/payments/terms-of-service/
+https://www.whatsapp.com/legal/#payments-payment-provider-in
+https://www.whatsapp.com/legal/#payments-in
+http://etherx.jabber.org/streams
+http://jabber.org/protocol/chatstates
+https://static.whatsapp.net/sticker?img=
+https://static.whatsapp.net/sticker?img=
+https://static.whatsapp.net/sticker?id=
+https://static.whatsapp.net/sticker?cat=all
+https://crashlogs.whatsapp.net/wa_fls_upload_check
+https://www.whatsapp.com/android/WhatsAppWallpaper.apk
+
+[INTERNAL_LOG][2018-06-07 21:42:14,423][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-07 21:42:14,424][INFO][check_method_conf()] [JavaScript enabled: False]
+
+[INTERNAL_LOG][2018-06-07 21:42:14,424][INFO][check_method_conf()] [Add interface WebView: False]
+
+[INTERNAL_LOG][2018-06-07 21:42:14,424][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-07 21:42:14,424][INFO][analyze_start()] End time:[Thu Jun  7 21:42:14 2018]

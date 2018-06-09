@@ -1,0 +1,250 @@
+[INTERNAL_LOG][2018-06-08 02:21:27,235][INFO][analyze_start()] Init Time [Fri Jun  8 02:21:27 2018]
+[INTERNAL_LOG][2018-06-08 02:21:27,319][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-08 02:21:27,323][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-08 02:21:27,323][INFO][is_hybird()] android.permission.ACCESS_COARSE_LOCATION
+[INTERNAL_LOG][2018-06-08 02:21:27,323][INFO][is_hybird()] android.permission.ACCESS_FINE_LOCATION
+[INTERNAL_LOG][2018-06-08 02:21:27,323][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-08 02:21:27,323][INFO][is_hybird()] android.permission.CALL_PHONE
+[INTERNAL_LOG][2018-06-08 02:21:27,323][INFO][is_hybird()] android.permission.CAMERA
+[INTERNAL_LOG][2018-06-08 02:21:27,323][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-08 02:21:27,323][INFO][is_hybird()] android.permission.READ_CONTACTS
+[INTERNAL_LOG][2018-06-08 02:21:27,324][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-08 02:21:27,324][INFO][is_hybird()] android.permission.READ_PHONE_STATE
+[INTERNAL_LOG][2018-06-08 02:21:27,324][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-08 02:21:27,324][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-08 02:21:27,324][INFO][is_hybird()] android.permission.READ_CALENDAR
+[INTERNAL_LOG][2018-06-08 02:21:27,324][INFO][is_hybird()] android.permission.SEND_SMS
+[INTERNAL_LOG][2018-06-08 02:21:27,324][INFO][is_hybird()] android.permission.RECEIVE_SMS
+[INTERNAL_LOG][2018-06-08 02:21:27,324][INFO][is_hybird()] android.permission.BLUETOOTH
+[INTERNAL_LOG][2018-06-08 02:21:27,324][INFO][is_hybird()] android.permission.BLUETOOTH_ADMIN
+[INTERNAL_LOG][2018-06-08 02:21:27,324][INFO][is_hybird()] com.google.android.providers.gsf.permission.READ_GSERVICES
+[INTERNAL_LOG][2018-06-08 02:21:27,324][INFO][is_hybird()] android.permission.SYSTEM_ALERT_WINDOW
+[INTERNAL_LOG][2018-06-08 02:21:27,324][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-08 02:21:27,324][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-08 02:21:27,324][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-08 02:21:27,324][INFO][is_hybird()] me.lyft.android.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-08 02:21:27,324][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-08 02:21:27,324][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-08 02:21:27,324][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-08 02:21:27,324][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-08 02:23:04,612][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-08 02:23:04,612][INFO][find_url_in_apk()] http://schemas.android.com/apk/res/android
+http://10.0.2.2:3000/
+https://api.sandbox.braintreegateway.com/
+https://api.braintreegateway.com/
+https://notify.bugsnag.com
+https://sessions.bugsnag.com
+https://graph.%s
+https://graph-video.%s
+https://facebook.com
+http://play.google.com/store/apps/details?id=com.facebook.orca
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+https://plus.google.com/
+https://pagead2.googlesyndication.com/pagead/gen_204
+http://www.google.com
+https://support.google.com/dfp_premium/answer/7160685#push
+http://www.example.com
+http://www.example.com
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/sdk-core-v40-impl.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://csi.gstatic.com/csi
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/native_ads.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/native_ads.js
+https://imasdk.googleapis.com/admob/sdkloader/native_video.html
+https://www.google.com/dfp/linkDevice
+https://www.google.com/dfp/inAppPreview
+https://www.google.com/dfp/debugSignals
+https://www.google.com/dfp/sendDebugData
+https://ssl.kaptcha.com/logo.htm
+https://tst.kaptcha.com/logo.htm
+https://mqa.kaptcha.com/logo.htm
+https://m.fzed.io/api
+https://d13yacurqjgara.cloudfront.net/users/59100/screenshots/1938930/untitled-1.jpg
+https://www.lyft.com
+https://www.lyft.com
+https://lyft.com/drivers
+https://lyft.com/i
+https://lyft.com/i
+https://lyft.com/i
+https://s3.amazonaws.com/api.lyft.com/static/driver-onboarding/images/pin_destination.png
+https://docs.google.com/forms/d/e/1FAIpQLSe6Jb7aXBfhlGz1_hBa7aA_dJhShoRLb5mtiCzOANZwWExPUg/viewform?usp=pp_url&entry.956675061&entry.1570080458={0}&entry.1804406551={1}
+https://jira.lyft.net/browse/SXP-1192
+https://jira.lyft.net/browse/SXP-1076
+https://jira.lyft.net/browse/SXP-1048
+https://jira.lyft.net/browse/SXP-1006
+https://jira.lyft.net/browse/SXP-428
+https://jira.lyft.net/browse/SXP-914
+https://jira.lyft.net/browse/SXP-894
+https://jira.lyft.net/browse/GROW-556
+https://jira.lyft.net/browse/LYFT-50665
+https://jira.lyft.net/browse/LINE-1499
+https://jira.lyft.net/browse/SRXP-21
+https://jira.lyft.net/browse/DISPATCH-616
+https://jira.lyft.net/browse/SRXP-62
+https://jira.lyft.net/browse/LYFT-65415
+https://jira.lyft.net/browse/LYFT-65906
+https://jira.lyft.net/browse/LYFT-68477
+https://jira.lyft.net/browse/LYFT-97808
+https://jira.lyft.net/browse/LYFT-68200
+https://jira.lyft.net/browse/LYFT-97426
+https://jira.lyft.net/browse/LYFT-72400
+https://jira.lyft.net/browse/PG-4119
+https://jira.lyft.net/browse/PG-3860
+https://jira.lyft.net/browse/PG-3972
+https://jira.lyft.net/browse/PG-4049
+https://jira.lyft.net/browse/PG-3755
+https://jira.lyft.net/browse/PG-3645
+https://jira.lyft.net/browse/PG-3623
+https://jira.lyft.net/browse/PG-3547
+https://jira.lyft.net/browse/PG-3668
+https://jira.lyft.net/browse/PG-3994
+https://jira.lyft.net/browse/PG-3385
+https://jira.lyft.net/browse/GROW-1288
+https://jira.lyft.net/browse/GROW-1339
+https://jira.lyft.net/browse/ELC-297
+https://jira.lyft.net/browse/GROW-1440
+https://jira.lyft.net/browse/GROW-1626
+https://jira.lyft.net/browse/LYFT-75194
+https://jira.lyft.net/browse/LYFT-86317
+https://jira.lyft.net/browse/LYFT-75819
+https://jira.lyft.net/browse/LYFT-75725
+https://jira.lyft.net/browse/DO-1888
+https://jira.lyft.net/browse/DO-2254
+https://jira.lyft.net/browse/CLA-214
+https://jira.lyft.net/browse/PG-3308
+https://jira.lyft.net/browse/LYFT-78840
+https://jira.lyft.net/browse/DENY-221
+https://jira.lyft.net/browse/LYFT-92305
+https://jira.lyft.net/browse/MAPS-3097
+https://jira.lyft.net/browse/DB-264
+https://jira.lyft.net/browse/PXP-4008
+https://jira.lyft.net/browse/ACCT-795
+https://jira.lyft.net/browse/ID-717
+https://jira.lyft.net/browse/ID-1408
+https://jira.lyft.net/browse/ID-1435
+https://jira.lyft.net/browse/ID-1437
+https://jira.lyft.net/browse/ID-1501
+https://jira.lyft.net/browse/DB-310
+https://jira.lyft.net/browse/LYFT-85070
+https://jira.lyft.net/browse/CF-885
+https://jira.lyft.net/browse/PXP-4354
+https://go.lyft.com/x
+https://jira.lyft.net/browse/CORESRV-2986
+https://jira.lyft.net/browse/LYFT-87370
+https://jira.lyft.net/browse/PARIS-1950
+https://jira.lyft.net/browse/PARIS-1941
+https://jira.lyft.net/browse/PARIS-1999
+https://jira.lyft.net/browse/CORESRV-2799
+https://jira.lyft.net/browse/PXP-4629
+https://jira.lyft.net/browse/PARIS-2064
+https://jira.lyft.net/browse/LYFT-89486
+https://jira.lyft.net/browse/GRN-6906
+https://jira.lyft.net/browse/DB-450
+https://jira.lyft.net/browse/MAPS-4820
+https://jira.lyft.net/browse/LYFT-90422
+https://jira.lyft.net/browse/LYFT-90423
+https://jira.lyft.net/browse/LINE-1546
+https://jira.lyft.net/browse/MAPS-4899
+https://jira.lyft.net/browse/PARIS-2148
+https://jira.lyft.net/browse/LYFT-97741
+https://jira.lyft.net/browse/PICKUP-369
+https://jira.lyft.net/browse/MAPS-5281
+https://jira.lyft.net/browse/DENY-89
+https://jira.lyft.net/browse/LYFT-97556
+https://jira.lyft.net/browse/PX-1743
+https://go.lyft.com/strat-android
+https://jira.lyft.net/browse/LYFT-96045
+https://jira.lyft.net/browse/LYFT-96600
+https://jira.lyft.net/browse/LYFT-98075
+https://jira.lyft.net/browse/LYFT-98127
+https://jira.lyft.net/browse/LYFT-92693
+https://jira.lyft.net/browse/NETWORK-1643
+https://jira.lyft.net/browse/SR-800
+https://jira.lyft.net/browse/DENY-69
+https://jira.lyft.net/browse/LYFT-94406
+https://jira.lyft.net/browse/LYFT-93884
+https://jira.lyft.net/browse/REF-274
+https://jira.lyft.net/browse/REF-515
+https://jira.lyft.net/browse/CF-1370
+https://jira.lyft.net/browse/CF-1588
+https://jira.lyft.net/browse/VENUE-617
+https://jira.lyft.net/browse/NOTIF-1060
+https://jira.lyft.net/browse/INS-86
+https://jira.lyft.net/browse/LYFT-96613
+https://jira.lyft.net/browse/LYFT-98455
+https://jira.lyft.net/browse/LYFT-98456
+https://jira.lyft.net/browse/GRN-8398
+https://jira.lyft.net/browse/ENT-6025
+https://jira.lyft.net/browse/NETWORK-2051
+https://jira.lyft.net/browse/NETWORK-2254
+https://jira.lyft.net/browse/DPRO-156
+https://jira.lyft.net/browse/GRN-8476
+https://jira.lyft.net/browse/LYFT-97323
+https://jira.lyft.net/browse/VENUE-954
+https://jira.lyft.net/browse/DPRO-167
+https://jira.lyft.net/browse/VENUE-992
+https://jira.lyft.net/browse/GRN-8524
+https://jira.lyft.net/browse/LYFT-97590
+https://jira.lyft.net/browse/MOD-164
+https://jira.lyft.net/browse/SR-1207
+https://jira.lyft.net/browse/CON-1825
+https://jira.lyft.net/browse/PX-3217
+https://jira.lyft.net/browse/DPRO-159
+https://jira.lyft.net/browse/LYFT-98184
+https://jira.lyft.net/browse/INS-244
+https://jira.lyft.net/browse/PX-3798
+https://jira.lyft.net/browse/PX-3622
+https://jira.lyft.net/browse/LYFT-98641
+https://appboy.data.placeiq.com/dataex/id/
+https://sondheim.appboy.com/api/v2/
+https://dev.appboy.com/api/v2/
+http://www.amazon.com/gp/mas/dl/android?asin=
+https://play.google.com/store/apps/details?id=
+https://bugsnag.com
+https://play.google.com/apps/testing/
+https://google.com
+https://api.lyft.com
+https://www.googleapis.com/auth/games_lite
+https://www.googleapis.com/auth/games
+https://ca.slack-edge.com/T029A67TC-U0MKE0YV9-df378a451af2-1024
+http://static.webshopapp.com/shops/178694/files/136007156/marvel-iron-man-marvel-profile-displate.jpg
+https://accounts.google.com
+https://maps.googleapis.com/maps/api
+https://maps.googleapis.com/maps/api/streetview
+https://s3.amazonaws.com/api.lyft.com/static/driver-preaccept/pickup_pin.png
+https://lyft.com/round-up?c=
+https://ca.slack-edge.com/T029A67TC-U029A67TE-84f35c2cba79-512'), url('https://ca.slack-edge.com/T029A67TC-U029A67TE-84f35c2cba79-48
+https://s3.amazonaws.com
+https://help.lyft.com/hc/en-us/articles/115006393807
+https://blog.lyft.com/roundupanddonate-terms
+https://maps.googleapis.com/maps/api/staticmap?scale=2
+https://api-m.paypal.com/v1/
+https://api-m.paypal.com/v1/
+https://www.paypalobjects.com/webstatic/otc/otc-config.android.json
+https://svcs.paypal.com/AccessControl/LogRiskMetadata
+https://api-m.sandbox.paypal.com/v1/
+https://uri.paypal.com/services/payments/futurepayments
+https://uri.paypal.com/services/paypalattributes
+http://play.google.com/store/apps/details?%s
+http://www.amazon.com/gp/mas/dl/android?%s
+https://www.paypal.com
+https://b.stats.paypal.com/counter.cgi?p=
+https://www.paypalobjects.com/webstatic/risk/dyson_config_android_v3.json
+https://www.paypalobjects.com/webstatic/risk/dyson_config_android_v3.json
+https://uploads.stripe.com
+https://uploads.stripe.com
+https://uploads.stripe.com
+
+[INTERNAL_LOG][2018-06-08 02:23:04,612][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-08 02:23:04,619][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-08 02:23:04,619][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-08 02:23:04,619][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-08 02:23:04,619][INFO][analyze_start()] End time:[Fri Jun  8 02:23:04 2018]

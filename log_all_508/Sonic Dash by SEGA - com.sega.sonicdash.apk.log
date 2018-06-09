@@ -1,0 +1,218 @@
+[INTERNAL_LOG][2018-06-08 02:05:17,920][INFO][analyze_start()] Init Time [Fri Jun  8 02:05:17 2018]
+[INTERNAL_LOG][2018-06-08 02:05:18,080][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-08 02:05:18,080][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-08 02:05:18,081][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-08 02:05:18,081][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-08 02:05:18,081][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-08 02:05:18,081][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-08 02:05:18,081][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-08 02:05:18,081][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-08 02:05:18,081][INFO][is_hybird()] android.permission.GET_TASKS
+[INTERNAL_LOG][2018-06-08 02:05:18,081][INFO][is_hybird()] android.permission.DOWNLOAD_WITHOUT_NOTIFICATION
+[INTERNAL_LOG][2018-06-08 02:05:18,081][INFO][is_hybird()] android.permission.SYSTEM_ALERT_WINDOW
+[INTERNAL_LOG][2018-06-08 02:05:18,081][INFO][is_hybird()] com.android.vending.CHECK_LICENSE
+[INTERNAL_LOG][2018-06-08 02:05:18,081][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-08 02:05:18,082][INFO][is_hybird()] com.google.android.providers.gsf.permission.READ_GSERVICES
+[INTERNAL_LOG][2018-06-08 02:05:18,082][INFO][is_hybird()] com.google.android.gms.permission.ACTIVITY_RECOGNITION
+[INTERNAL_LOG][2018-06-08 02:05:18,082][INFO][is_hybird()] com.sega.sonicdash.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-08 02:05:18,082][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-08 02:05:18,082][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-08 02:05:18,082][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-08 02:05:18,082][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-08 02:05:18,082][INFO][find_string()] File: assets/js/closebutton.html
+[INTERNAL_LOG][2018-06-08 02:05:18,082][INFO][find_string()] No iframe in assets/js/closebutton.html
+[INTERNAL_LOG][2018-06-08 02:05:18,083][INFO][find_string()] File: assets/vpaid_html_template.html
+[INTERNAL_LOG][2018-06-08 02:05:18,084][INFO][find_string()] No iframe in assets/vpaid_html_template.html
+[INTERNAL_LOG][2018-06-08 02:05:18,084][INFO][find_string()] File: js/closebutton.html
+[INTERNAL_LOG][2018-06-08 02:05:18,084][INFO][find_string()] No iframe in js/closebutton.html
+[INTERNAL_LOG][2018-06-08 02:05:18,084][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-08 02:06:10,645][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-08 02:06:10,645][INFO][find_url_in_apk()] https://adc3-launch-server-staging.herokuapp.com/v4/launch
+https://adc3-launch.adcolony.com/v4/launch
+https://adc3-launch.adcolony.com/v4/launch
+https://wd.adcolony.com/logs
+http://schemas.applovin.com/android/1.0
+http://schemas.applovin.com/android/1.0
+https://d.applovin.com/
+https://a.applovin.com/
+https://rt.applovin.com/med
+https://rt.applovin.com/pix
+https://d.applvn.com/
+https://a.applvn.com/
+https://rt.applvn.com/pix
+https://vid.applovin.com/,https://pdn.applovin.com/,https://img.applovin.com/,https://d.applovin.com/,https://assets.applovin.com/,https://cdnjs.cloudflare.com/,http://vid.applovin.com/,http://pdn.applovin.com/,http://img.applovin.com/,http://d.applovin.com/,http://assets.applovin.com/,http://cdnjs.cloudflare.com/
+https://www.fqtag.com/pixel.cgi?org=TkBXEI5C3FBIr4zXwnmK&p=
+https://www.fqtag.com/pixel.cgi?org=TkBXEI5C3FBIr4zXwnmK&p=
+https://www.fqtag.com/pixel.cgi?org=TkBXEI5C3FBIr4zXwnmK&p=
+https://admin.appnext.com/adminService.asmx/SetRewards
+http://www.appnext.com/myid.html
+http://www.appnext.com/myid.html
+http://www.appnext.com/myid.html
+https://www.appnext.com/privacy_policy/index.html?z=
+https://www.appnext.com/privacy_policy/index.html?z=
+https://global.appnext.com
+https://global.appnext.com
+https://global.appnext.com
+https://cdn.appnext.com/tools/sdk/config/2.2.3
+https://cdn.appnext.com/tools/sdk/config/2.2.3
+https://cdn.appnext.com/tools/sdk/config/2.2.3/fullscreen_config.txt
+https://cdn.appnext.com/tools/sdk/config/2.2.3/rewarded_config.txt
+https://cdn.appnext.com/tools/sdk/interstitial/v68/script.min.js
+https://cdn.appnext.com/tools/sdk/config/2.2.3/interstitial_config.txt
+https://admin.appnext.com/AdminService.asmx/checkA?z=
+https://admin.appnext.com/AdminService.asmx/checkA?z=
+https://admin.appnext.com/AdminService.asmx/checkA?z=
+https://cdn.appnext.com/tools/sdk/config/2.2.3/banner_config.txt
+https://api.appnxt.net
+https://admin.appnext.com/AdminService.asmx/SetOpenV1
+https://admin.appnext.com/AdminService.asmx/SetOpenV1
+https://cdn.appnext.com/banner/appnext.mp4
+https://sdk-services.appsflyer.com/validate-android-signature
+https://api.appsflyer.com/install_data/v3/
+https://t.appsflyer.com/api/v
+https://events.appsflyer.com/api/v
+https://register.appsflyer.com/api/v
+https://stats.appsflyer.com/stats
+https://www.facebook.com/
+https://www.%s.facebook.com
+https://m.facebook.com/dialog/
+https://graph.facebook.com/
+https://api.facebook.com/restserver.php
+https://proton.flurry.com:443/sdk/v1/config
+http://data.flurry.com/aap.do
+https://data.flurry.com/aap.do
+http://schemas.microsoft.com/DRM/2007/03/protocols/AcquireLicense
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/drive.file
+https://www.googleapis.com/auth/drive.appdata
+https://www.googleapis.com/auth/drive.appdata
+https://www.googleapis.com/auth/drive
+https://www.googleapis.com/auth/drive.apps
+https://www.googleapis.com/auth/games_lite
+https://www.googleapis.com/auth/games.firstparty
+https://www.googleapis.com/auth/games.firstparty
+http://www.example.com
+http://www.example.com
+https://pagead2.googlesyndication.com/pagead/gen_204
+http://www.google.com
+https://support.google.com/dfp_premium/answer/7160685#push
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://csi.gstatic.com/csi
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/native_ads.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/native_video_ads.html
+https://www.google.com/dfp/linkDevice
+https://www.google.com/dfp/inAppPreview
+https://www.google.com/dfp/debugSignals
+https://www.google.com/dfp/sendDebugData
+https://www.googleapis.com/auth/plus.login
+https://www.googleapis.com/auth/plus.login
+https://www.googleapis.com/auth/plus.me
+http://schemas.android.com/apk/lib/com.google.android.gms.plus
+http://schemas.android.com/apk/lib/com.google.android.gms.plus
+https://github.com/playgameservices/android-samples/issues. 
+https://api-pnote.noahapps.jp/
+https://www.supersonicads.com/mobile/sdk5/log?method=
+https://www.supersonicads.com/mobile/sdk5/log?method=
+https://www.supersonicads.com/mobile/sdk5/log?method=
+https://www.supersonicads.com/mobile/sdk5/log?method=
+https://www.supersonicads.com/mobile/sdk5/log?method=
+https://www.supersonicads.com/mobile/sdk5/log?method=
+https://www.supersonicads.com/mobile/sdk5/log?method=
+https://www.supersonicads.com/mobile/sdk5/log?method=
+https://www.supersonicads.com/mobile/sdk5/log?method=extraParametersToJson
+https://www.supersonicads.com/mobile/sdk5/log?method=noProductType
+https://www.supersonicads.com/mobile/sdk5/log?method=encodeAppUserId
+https://www.supersonicads.com/mobile/sdk5/log?method=encodeAppKey
+https://www.supersonicads.com/mobile/sdk5/log?method=webviewLoadBlank
+https://www.supersonicads.com/mobile/sdk5/log?method=webviewLoadWithPath
+https://www.supersonicads.com/mobile/sdk5/log?method=htmlControllerDoesNotExistOnFileSystem
+https://www.supersonicads.com/mobile/sdk5/log?method=webviewPause
+https://www.supersonicads.com/mobile/sdk5/log?method=webviewResume
+https://ads.nexage.com
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+https://z.moatads.com/
+https://z.moatads.com/
+https://z.moatads.com/
+https://z.moatads.com/
+https://analytics.mopub.com/i/jot/exchange_client_event
+https://twitter.com/%s/status/%s
+https://www.mopub.com/optout
+https://www.mopub.com/optout/
+https://www.mopub.com/optout/
+https://hlsdk.hardlightdev.com/metrics-k.php
+https://rpc.tapjoy.com/
+https://rpc.tapjoy.com/
+https://connect.tapjoy.com/
+https://connect.tapjoy.com/
+https://ws.tapjoyads.com/
+https://ws.tapjoyads.com/
+https://ws.tapjoyads.com/
+https://api.vungle.com/
+https://ads.api.vungle.com/config
+https://e.crashlytics.com/spi/v2/events
+https://settings.crashlytics.com/spi/v2/platforms/android/apps/%s/settings
+http://localhost/
+http://localhost/
+http://localhost/
+http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+https://cdn.appnext.com/tools/services/4.6.5/config.json?packageId=
+https://cdn.appnext.com/tools/services/4.6.5/plist.zip
+https://admin.appnext.com/AdminService.asmx/bns
+https://admin.appnext.com/AdminService.asmx/SetRL?guid=
+https://admin.appnext.com/AdminService.asmx/SetRL?guid=
+https://admin.appnext.com/tools/navtac.html?bid=
+https://play.google.com/store/apps/
+https://admin.appnext.com/AdminService.asmx/
+https://admin.appnext.com/tp12.aspx?tid=%s&vid=%s&osid=%s&auid=%s&session_id=%s&pid=%s&ref=%s&ads_type=%s&bid=%s&cid=%s
+https://www.facebook.com/audience_network/server_side_reward
+https://www.%s.facebook.com/audience_network/server_side_reward
+http://play.google.com/store/apps/
+https://graph.facebook.com/network_ads_common
+https://graph.%s.facebook.com/network_ads_common
+https://www.facebook.com/adnw_logging/
+https://www.%s.facebook.com/adnw_logging/
+http://www.facebook.com
+https://graph.facebook.com/%s/picture
+https://graph.%s
+https://graph-video.%s
+https://facebook.com
+http://wv.inner-active.mobi/
+http://www.w3.org/ns/ttml#parameter
+https://plus.google.com/
+https://track.atom-data.io
+https://track.atom-data.io
+https://track.atom-data.io
+https://outcome.supersonicads.com/mediation/
+https://outcome.supersonicads.com/mediation/
+https://mobilelogs.supersonic.com
+https://mobilelogs.supersonic.com
+https://init.supersonicads.com/sdk/v
+https://www.supersonicads.com/mobile/sdk5/log?method=injectJavaScript
+https://px.moatads.com/pixel.gif?e=0&i=MOATSDK1&ac=1
+http://play.google.com/store/apps/details?id=
+https://placements.tapjoy.com/
+https://config.unityads.unity3d.com/webview/
+https://www.vungle.com/privacy/
+https://www.vungle.com/privacy/
+http://lol.vungle.com/
+
+[INTERNAL_LOG][2018-06-08 02:06:10,645][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-08 02:06:10,651][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-08 02:06:10,651][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-08 02:06:10,651][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-08 02:06:10,651][INFO][analyze_start()] End time:[Fri Jun  8 02:06:10 2018]

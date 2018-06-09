@@ -1,0 +1,110 @@
+[INTERNAL_LOG][2018-06-07 22:05:26,668][INFO][analyze_start()] Init Time [Thu Jun  7 22:05:26 2018]
+[INTERNAL_LOG][2018-06-07 22:05:26,742][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-07 22:05:26,745][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-07 22:05:26,745][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-07 22:05:26,745][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-07 22:05:26,745][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-07 22:05:26,745][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-07 22:05:26,745][INFO][is_hybird()] com.google.android.apps.photos.permission.GOOGLE_PHOTOS
+[INTERNAL_LOG][2018-06-07 22:05:26,745][INFO][is_hybird()] com.google.android.providers.gsf.permission.READ_GSERVICES
+[INTERNAL_LOG][2018-06-07 22:05:26,745][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-07 22:05:26,746][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-07 22:05:26,746][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-07 22:05:26,746][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-07 22:05:26,746][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-07 22:05:26,746][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-07 22:06:05,108][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-07 22:06:05,108][INFO][find_url_in_apk()] https://e.crashlytics.com/spi/v2/events
+https://settings.crashlytics.com/spi/v2/platforms/android/apps/%s/settings
+http://schemas.android.com/apk/res/android
+http://net.cleverjp.com/
+http://fb.inshot.org/error_service_zip.php
+http://fb.inshot.org/error_service_zip.php
+http://inshot.cc/cloud-packages/twitter_emoji.zip
+http://market.android.com/details?id=com.camerasideas.instashot
+https://plus.google.com/u/0/communities/110881012072122454808
+http://instagram.com/inshot.app
+http://instagram.com/_u/
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+http://www.myinstashot.com/setting.html
+http://ad.myinstashot.com/inshot
+http://ad.myinstashot.com/inshot
+http://ad.myinstashot.com/inshot
+http://inshot.cc/cloud-packages/android_sticker_seasonal.json
+http://inshot.cc/cloud-packages/android_sticker_packs.json
+http://inshot.cc/cloud-packages/android_sticker_packs.json
+http://www.myinstashot.com/faq.html
+http://www.myinstashot.com/thankyou.html
+http://www.myinstashot.com/privacypolicy.html
+http://www.myinstashot.com/legal.html
+http://inshot.cc/cloud-packages/
+http://inshot.cc/cloud-packages/android_sticker_packs_debug.json
+http://inshot.cc/config_update_android.json
+http://m.facebook.com/ads/ad_choices
+http://m.facebook.com/ads/ad_choices
+https://www.facebook.com/audience_network/server_side_reward
+https://www.%s.facebook.com/audience_network/server_side_reward
+https://www.facebook.com/adnw_logging/
+https://www.%s.facebook.com/adnw_logging/
+https://graph.facebook.com/network_ads_common
+https://graph.%s.facebook.com/network_ads_common
+https://www.facebook.com/
+https://www.%s.facebook.com
+http://www.facebook.com
+http://www.w3.org/ns/ttml#parameter
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+http://plus.google.com/
+http://www.google-analytics.com
+https://ssl.google-analytics.com
+http://www.example.com
+http://www.example.com
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://csi.gstatic.com/csi
+https://www.google.com/dfp/linkDevice
+https://www.google.com/dfp/inAppPreview
+https://www.google.com/dfp/debugSignals
+https://www.google.com/dfp/sendDebugData
+https://pagead2.googlesyndication.com/pagead/gen_204
+http://www.google.com
+https://www.googletagmanager.com
+http://hostname/?
+https://itunes.apple.com
+https://itunes.apple.com
+http://play.google.com/store/apps/details?id=
+http://play.google.com/store/apps/details?id=
+https://twitter.com/%s/status/%s
+https://www.vungle.com/privacy/
+http://api.vungle.com/api/v4/
+https://ingest.vungle.com/
+http://analytics.rayjump.com
+http://net.rayjump.com
+http://setting.rayjump.com
+https://play.google.com/
+https://play.google.com/
+https://play.google.com/
+http://detect.rayjump.com/mapi/find
+http://detect.rayjump.com/mapi/result
+https://analytics.mopub.com/i/jot/exchange_client_event
+https://www.mopub.com/optout
+https://ad.mail.ru/mobile/
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+https://target.my.com/
+http://play.google.com
+https://play.google.com
+http://market.android.com
+https://market.android.com
+
+[INTERNAL_LOG][2018-06-07 22:06:05,108][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-07 22:06:05,112][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-07 22:06:05,113][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-07 22:06:05,113][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-07 22:06:05,113][INFO][analyze_start()] End time:[Thu Jun  7 22:06:05 2018]

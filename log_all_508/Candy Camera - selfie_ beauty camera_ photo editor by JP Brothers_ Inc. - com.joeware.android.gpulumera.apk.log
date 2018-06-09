@@ -1,0 +1,204 @@
+[INTERNAL_LOG][2018-06-07 21:19:49,782][INFO][analyze_start()] Init Time [Thu Jun  7 21:19:49 2018]
+[INTERNAL_LOG][2018-06-07 21:19:49,944][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-07 21:19:49,946][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-07 21:19:49,946][INFO][is_hybird()] android.permission.READ_CONTACTS
+[INTERNAL_LOG][2018-06-07 21:19:49,946][INFO][is_hybird()] android.permission.READ_SMS
+[INTERNAL_LOG][2018-06-07 21:19:49,946][INFO][is_hybird()] android.permission.READ_PHONE_STATE
+[INTERNAL_LOG][2018-06-07 21:19:49,947][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-07 21:19:49,947][INFO][is_hybird()] android.permission.CALL_PHONE
+[INTERNAL_LOG][2018-06-07 21:19:49,947][INFO][is_hybird()] android.permission.MODIFY_AUDIO_SETTINGS
+[INTERNAL_LOG][2018-06-07 21:19:49,947][INFO][is_hybird()] android.permission.BLUETOOTH
+[INTERNAL_LOG][2018-06-07 21:19:49,947][INFO][is_hybird()] android.permission.PROCESS_OUTGOING_CALLS
+[INTERNAL_LOG][2018-06-07 21:19:49,947][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-07 21:19:49,947][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-07 21:19:49,947][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-07 21:19:49,947][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-07 21:19:49,947][INFO][is_hybird()] android.permission.RECORD_AUDIO
+[INTERNAL_LOG][2018-06-07 21:19:49,947][INFO][is_hybird()] android.permission.CAMERA
+[INTERNAL_LOG][2018-06-07 21:19:49,947][INFO][is_hybird()] android.permission.CHANGE_WIFI_STATE
+[INTERNAL_LOG][2018-06-07 21:19:49,947][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-07 21:19:49,947][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-07 21:19:49,947][INFO][is_hybird()] android.permission.ACCESS_COARSE_LOCATION
+[INTERNAL_LOG][2018-06-07 21:19:49,947][INFO][is_hybird()] android.permission.RECEIVE_BOOT_COMPLETED
+[INTERNAL_LOG][2018-06-07 21:19:49,947][INFO][is_hybird()] com.android.browser.permission.READ_HISTORY_BOOKMARKS
+[INTERNAL_LOG][2018-06-07 21:19:49,947][INFO][is_hybird()] android.permission.GET_TASKS
+[INTERNAL_LOG][2018-06-07 21:19:49,947][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-07 21:19:49,948][INFO][is_hybird()] com.android.launcher.permission.INSTALL_SHORTCUT
+[INTERNAL_LOG][2018-06-07 21:19:49,948][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-07 21:19:49,948][INFO][is_hybird()] com.joeware.android.gpulumera.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-07 21:19:49,948][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-07 21:19:49,948][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-07 21:19:49,948][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-07 21:19:49,948][INFO][find_string()] File: assets/consentform.html
+[INTERNAL_LOG][2018-06-07 21:19:49,950][INFO][find_string()] No iframe in assets/consentform.html
+[INTERNAL_LOG][2018-06-07 21:19:49,950][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-07 21:20:54,165][INFO][find_url_in_apk()] [START URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-07 21:20:54,165][INFO][find_url_in_apk()] https://play.google.com/store/apps/
+
+[INTERNAL_LOG][2018-06-07 21:20:54,165][INFO][find_url_in_apk()] [END URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-07 21:20:54,699][ERROR][download_page_loaded()] Failed download: https://play.google.com/store/apps/ for exception [Errno 21] Is a directory: 'temp_html_code/html_downloaded_Candy Camera - selfie_ beauty camera_ photo editor by JP Brothers_ Inc/'
+[INTERNAL_LOG][2018-06-07 21:20:54,700][INFO][find_string()] [START REMOTE FILE ANALYZE]
+[INTERNAL_LOG][2018-06-07 21:20:54,701][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-07 21:20:54,701][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-07 21:20:54,701][INFO][find_url_in_apk()] https://settings.crashlytics.com/spi/v2/platforms/android/apps/%s/settings
+http://schemas.android.com/apk/res/android
+https://androidquery.appspot.com
+https://play.google.com/store/apps/
+http://api.mobula.sdk.duapps.com/adunion/slot/tdmr?
+http://market.android.com
+https://market.android.com
+https://play.google.com
+http://play.google.com
+http://play.google.com/store/apps/
+https://www.facebook.com/
+https://www.%s.facebook.com
+https://graph.facebook.com/network_ads_common
+https://graph.%s.facebook.com/network_ads_common
+https://www.facebook.com/adnw_logging/
+https://www.%s.facebook.com/adnw_logging/
+http://www.facebook.com
+https://graph.%s
+https://graph-video.%s
+https://facebook.com
+https://facebook.com/device?user_code=%1$s&qr=1
+http://schemas.android.com/apk/res/
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+http://image.cauly.co.kr/optout/optout.png
+http://image.cauly.co.kr/optout/optout_exp.png
+http://rd.cauly.co.kr/opt-out?sdk_type=native&platform=Android&code=
+http://rd.cauly.co.kr/opt-out?sdk_type=native&platform=Android&code=
+http://adservice.google.com/getconfig/pubvendors
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+https://accounts.google.com
+https://www.facebook.com
+https://accounts.google.com/o/oauth2/revoke?token=
+https://plus.google.com/
+https://e.crashlytics.com/spi/v2/events
+http://www.cloudmobi.net
+http://cdn.image.cloudmobi.net/default/icon/20/20/corner/icon.png
+http://logtracker.cauly.co.kr:13000/log3d?
+http://schemas.microsoft.com/DRM/2007/03/protocols/AcquireLicense
+https://www.%s.facebook.com/audience_network/server_side_reward
+https://www.facebook.com/audience_network/server_side_reward
+http://hostname/?
+http://hostname/?
+https://m.facebook.com/terms
+https://m.facebook.com/terms
+https://m.facebook.com/terms
+https://m.facebook.com/about/privacy/
+https://m.facebook.com/about/privacy/
+https://m.facebook.com/about/privacy/
+https://m.facebook.com/policies/cookies/
+https://m.facebook.com/policies/cookies/
+https://m.facebook.com/policies/cookies/
+https://ad.cauly.co.kr/caulyAptResearch?
+https://ad.cauly.co.kr/CaulyImpressInform?
+https://ad.cauly.co.kr/CaulyImpressInform?
+http://ad.cauly.co.kr/CaulyImpressInform?
+http://ad.cauly.co.kr/CaulyImpressInform?
+http://image.cauly.co.kr:15151/sdk/blackdragon/module_info/GetModuleInfo.txt_3.4.11
+http://www.w3.org/ns/ttml#parameter
+https://www.googleapis.com/auth/games_lite
+https://www.googleapis.com/auth/games
+https://www.accountkit.com/faq
+https://www.accountkit.com/faq
+https://www.accountkit.com/faq
+https://ad.cauly.co.kr/checkCondition?
+http://ad.cauly.co.kr/checkCondition?
+https://ad.cauly.co.kr/caulyImpress?
+https://ad.cauly.co.kr/caulyImpress?
+https://ad.cauly.co.kr/caulyImpress?
+http://ad.cauly.co.kr/caulyImpress?
+http://ad.cauly.co.kr/caulyImpress?
+http://ad.cauly.co.kr/caulyImpress?
+https://xconf.cauly.co.kr/caulyXconf?
+https://click.cauly.co.kr/caulyClick?
+http://click.cauly.co.kr/caulyClick?
+https://click.cauly.co.kr/caulyPlay?
+http://click.cauly.co.kr/caulyPlay?
+https://tracker.cauly.co.kr/reporting?
+http://tracker.cauly.co.kr/reporting?
+https://pagead2.googlesyndication.com/pagead/gen_204
+http://www.google.com
+https://support.google.com/dfp_premium/answer/7160685#push
+http://www.google-analytics.com
+https://ssl.google-analytics.com
+https://app-measurement.com/a
+http://www.example.com
+http://www.example.com
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/sdk-core-v40-impl.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://csi.gstatic.com/csi
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/native_ads.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/native_ads.js
+https://imasdk.googleapis.com/admob/sdkloader/native_video.html
+https://www.google.com/dfp/linkDevice
+https://www.google.com/dfp/inAppPreview
+https://www.google.com/dfp/debugSignals
+https://www.google.com/dfp/sendDebugData
+https://www.googletagmanager.com
+https://mobile-static.adsafeprotected.com/avid-v2.js
+https://candy.jp-brothers.com/candy/privacy-policy
+https://candy.jp-brothers.com/candy/privacy-policy
+https://candy.jp-brothers.com/candy/privacy-policy
+https://candy.jp-brothers.com/candy/privacy-policy
+https://candy.jp-brothers.com/candy/terms
+https://candy.jp-brothers.com/candy/terms
+https://candy.jp-brothers.com/candy/terms
+http://www.jp-brothers.com/
+https://candy.jp-brothers.com/candy/license
+https://graph.facebook.com/
+https://graph.facebook.com/
+https://www.googleapis.com/auth/plus.login
+http://ccprivacy-policy.com/
+http://jack.jp-brothers.com:3001
+https://social-api.jp-brothers.com
+https://jack.jp-brothers.com
+https://social-rtc.jp-brothers.com
+https://s3-ap-northeast-1.amazonaws.com/jpb-tokyo/html/stickers/face/
+https://s3-ap-northeast-1.amazonaws.com/jpb-tokyo/html/stickers/face/
+https://s3-ap-northeast-1.amazonaws.com/jpb-tokyo/html/stickers/face/
+https://www.dropbox.com/s/sh6d5g735yt5eb6/sticker_list.json?dl=1&pl=1
+https://www.dropbox.com/s/ljmvnqtpjyyg6g3/sticker_version.json?dl=1&pl=1
+https://play.google.com/
+https://play.google.com/
+https://play.google.com/
+https://twitter.com/%s/status/%s
+https://appr.tc
+https://www.google.com
+http://localhost
+https://analytics.mopub.com/i/jot/exchange_client_event
+https://www.mopub.com/optout
+https://candy.jp-brothers.com/shop/premium-filters/list/
+http://npac-lb.jp-brothers.com/filters/
+http://npac-lb.jp-brothers.com/filters/
+https://candy.jp-brothers.com/shop/my-filters/version/
+https://candy.jp-brothers.com/shop/my-filters/buy/
+https://candy.jp-brothers.com/shop/my-filters/list/
+http://npac-lb.jp-brothers.com/filters/webps/
+https://www.facebook.com/candycamerapp
+https://instagram.com/_u/candycameraofficial
+https://www.instagram.com/candycameraofficial/
+https://instagram.com/candycameraofficial
+https://candy.jp-brothers.com/shop/beauty-menus/list/
+https://play.google.com/store/apps/details?id=com.google.android.gms
+https://candy.jp-brothers.com/android/a.json?country=
+
+[INTERNAL_LOG][2018-06-07 21:20:54,701][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-07 21:20:54,723][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-07 21:20:54,723][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-07 21:20:54,723][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-07 21:20:54,723][INFO][analyze_start()] End time:[Thu Jun  7 21:20:54 2018]

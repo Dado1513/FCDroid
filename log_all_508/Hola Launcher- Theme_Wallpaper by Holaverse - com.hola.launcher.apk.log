@@ -1,0 +1,397 @@
+[INTERNAL_LOG][2018-06-08 03:31:50,015][INFO][analyze_start()] Init Time [Fri Jun  8 03:31:50 2018]
+[INTERNAL_LOG][2018-06-08 03:31:50,079][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-08 03:31:50,081][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-08 03:31:50,081][INFO][is_hybird()] com.android.launcher.permission.INSTALL_SHORTCUT
+[INTERNAL_LOG][2018-06-08 03:31:50,081][INFO][is_hybird()] com.hola.launcher.plugin.notification.permission.READ_NOTIFICATION
+[INTERNAL_LOG][2018-06-08 03:31:50,081][INFO][is_hybird()] com.lazyswipe.permission.ACCESS_APPLICATION_DATA
+[INTERNAL_LOG][2018-06-08 03:31:50,081][INFO][is_hybird()] android.permission.READ_CALL_LOG
+[INTERNAL_LOG][2018-06-08 03:31:50,081][INFO][is_hybird()] android.permission.CALL_PHONE
+[INTERNAL_LOG][2018-06-08 03:31:50,082][INFO][is_hybird()] android.permission.EXPAND_STATUS_BAR
+[INTERNAL_LOG][2018-06-08 03:31:50,082][INFO][is_hybird()] android.permission.GET_TASKS
+[INTERNAL_LOG][2018-06-08 03:31:50,082][INFO][is_hybird()] android.permission.READ_CONTACTS
+[INTERNAL_LOG][2018-06-08 03:31:50,082][INFO][is_hybird()] android.permission.READ_SMS
+[INTERNAL_LOG][2018-06-08 03:31:50,082][INFO][is_hybird()] android.permission.SET_WALLPAPER
+[INTERNAL_LOG][2018-06-08 03:31:50,082][INFO][is_hybird()] android.permission.SET_WALLPAPER_HINTS
+[INTERNAL_LOG][2018-06-08 03:31:50,082][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-08 03:31:50,082][INFO][is_hybird()] android.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-08 03:31:50,082][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-08 03:31:50,082][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-08 03:31:50,082][INFO][is_hybird()] android.net.conn.CONNECTIVITY_CHANGE
+[INTERNAL_LOG][2018-06-08 03:31:50,082][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-08 03:31:50,082][INFO][is_hybird()] android.permission.KILL_BACKGROUND_PROCESSES
+[INTERNAL_LOG][2018-06-08 03:31:50,082][INFO][is_hybird()] android.permission.ACCESS_WEATHERCLOCK_PROVIDER
+[INTERNAL_LOG][2018-06-08 03:31:50,082][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-08 03:31:50,082][INFO][is_hybird()] android.permission.CHANGE_WIFI_STATE
+[INTERNAL_LOG][2018-06-08 03:31:50,082][INFO][is_hybird()] android.permission.CHANGE_NETWORK_STATE
+[INTERNAL_LOG][2018-06-08 03:31:50,082][INFO][is_hybird()] android.permission.BLUETOOTH_ADMIN
+[INTERNAL_LOG][2018-06-08 03:31:50,082][INFO][is_hybird()] android.permission.BLUETOOTH
+[INTERNAL_LOG][2018-06-08 03:31:50,082][INFO][is_hybird()] android.permission.READ_PHONE_STATE
+[INTERNAL_LOG][2018-06-08 03:31:50,082][INFO][is_hybird()] android.permission.FLASHLIGHT
+[INTERNAL_LOG][2018-06-08 03:31:50,082][INFO][is_hybird()] android.permission.HARDWARE_TEST
+[INTERNAL_LOG][2018-06-08 03:31:50,082][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-08 03:31:50,082][INFO][is_hybird()] android.permission.GET_PACKAGE_SIZE
+[INTERNAL_LOG][2018-06-08 03:31:50,082][INFO][is_hybird()] android.permission.SYSTEM_ALERT_WINDOW
+[INTERNAL_LOG][2018-06-08 03:31:50,083][INFO][is_hybird()] android.permission.CAMERA
+[INTERNAL_LOG][2018-06-08 03:31:50,083][INFO][is_hybird()] android.permission.BIND_ACCESSIBILITY_SERVICE
+[INTERNAL_LOG][2018-06-08 03:31:50,083][INFO][is_hybird()] android.permission.ACCESS_COARSE_LOCATION
+[INTERNAL_LOG][2018-06-08 03:31:50,083][INFO][is_hybird()] android.permission.ACCESS_FINE_LOCATION
+[INTERNAL_LOG][2018-06-08 03:31:50,088][INFO][is_hybird()] android.permission.RECEIVE_BOOT_COMPLETED
+[INTERNAL_LOG][2018-06-08 03:31:50,095][INFO][is_hybird()] android.permission.PACKAGE_USAGE_STATS
+[INTERNAL_LOG][2018-06-08 03:31:50,095][INFO][is_hybird()] android.permission.USE_FINGERPRINT
+[INTERNAL_LOG][2018-06-08 03:31:50,096][INFO][is_hybird()] com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY
+[INTERNAL_LOG][2018-06-08 03:31:50,096][INFO][is_hybird()] android.permission.DISABLE_KEYGUARD
+[INTERNAL_LOG][2018-06-08 03:31:50,096][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-08 03:31:50,096][INFO][is_hybird()] com.google.android.providers.gsf.permission.READ_GSERVICES
+[INTERNAL_LOG][2018-06-08 03:31:50,096][INFO][is_hybird()] com.hola.launcher.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-08 03:31:50,106][INFO][is_hybird()] android.permission.READ_LOGS
+[INTERNAL_LOG][2018-06-08 03:31:50,116][INFO][is_hybird()] com.android.browser.permission.READ_HISTORY_BOOKMARKS
+[INTERNAL_LOG][2018-06-08 03:31:50,121][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-08 03:31:50,121][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-08 03:31:50,121][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-08 03:31:50,121][INFO][find_string()] File: assets/html/hola_search.html
+[INTERNAL_LOG][2018-06-08 03:31:50,124][INFO][find_string()] No iframe in assets/html/hola_search.html
+[INTERNAL_LOG][2018-06-08 03:31:50,124][INFO][find_string()] File: assets/ynd.html
+[INTERNAL_LOG][2018-06-08 03:31:50,125][INFO][find_string()] No iframe in assets/ynd.html
+[INTERNAL_LOG][2018-06-08 03:31:50,125][INFO][find_string()] File: assets/yt.html
+[INTERNAL_LOG][2018-06-08 03:31:50,125][INFO][find_string()] No iframe in assets/yt.html
+[INTERNAL_LOG][2018-06-08 03:31:50,125][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-08 03:32:33,311][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-08 03:32:33,311][INFO][find_url_in_apk()] http://play.google.com/store/apps/details
+http://api.holalauncher.com/clients/config.json?v=%s&s=%s
+http://cfg.holalauncher.com/json?%s
+http://cfg.holalauncher.com/main?a=%s&v=%s&s=%s&gp=%s&gs=%s&fb=%s&uid=%s
+http://cfg.holalauncher.com/main?a=%s&v=%s&s=%s&gp=%s&gs=%s&fb=%s&uid=%s
+http://cfg.holalauncher.com/json?pid=400102&filename=ad_simulations&channel=%s&versioncode=%s
+http://i.holalauncher.com/adscfg?a=%s&v=%s&s=%s&gp=%s&gs=%s&fb=%s&uid=%s
+http://i.holalauncher.com/ads?
+http://www.google.com/m
+http://www.google.com/m
+http://www.google.com/m
+http://www.google.com/m
+http://a.holalauncher.com/appicon/icons?
+http://o.holalauncher.com/v1/e.php
+http://play.google.com/store/apps/details?
+http://play.google.com/store/apps/details?
+http://play.google.com/store/apps/details?
+https://play.google.com/store/apps/details?
+https://play.google.com/store/apps/details?
+https://play.google.com/store/apps/details?
+https://play.google.com/store/apps/details?
+http://market.android.com/details?
+http://market.android.com/details?
+https://market.android.com/details?
+https://market.android.com/details?
+http://a.holalauncher.com/apps?page=%s
+http://i.holalauncher.com/heart_app?type=%s&place=%s&page=%s&
+http://a.holalauncher.com/topapps/cate/list?cateCode=%s&place=%s&page=%s&
+http://a.holalauncher.com/apps/banners?p=%s&
+http://mm.holalauncher.com/share/apps.html?code=%s
+http://o.holalauncher.com/v1/gpurl.php?adid=
+http://a.lazyswipe.com/clients/latest?pid=400105&channel=90004
+http://a.lazyswipe.com/clients/latest?pid=400105&channel=90004
+http://a.lazyswipe.com/clients/latest?pid=400105&channel=90004
+http://a.lazyswipe.com/clients/latest?pid=400105&channel=90004
+http://a.lazyswipe.com/clients/latest?pid=400105&channel=90004
+http://a.lazyswipe.com/clients/latest?pid=400105&channel=90004
+http://a.lazyswipe.com/clients/latest?pid=400105&channel=90004
+http://a.lazyswipe.com/clients/latest?pid=400105&channel=90004
+http://a.holalauncher.com/splashs?w=%s&pcode=%s&vcode=%s&ver=%s
+http://a.holalauncher.com/clients/latest?pid=
+http://a.holalauncher.com/clients/latest?pid=
+http://a.holalauncher.com/wdiy/profile
+http://a.holalauncher.com/sigin
+http://a.holalauncher.com/votes/operate
+http://a.holalauncher.com/wallpapers?page=%s&psize=20&%s
+http://a.holalauncher.com/fonts?source=zip&psize=20&page=%s&%s
+http://a.holalauncher.com/wallpapers/specials?page=%s&psize=2&%s
+http://a.holalauncher.com/themes/get?codes=%s&%s
+http://a.holalauncher.com/wallpapers/bySpecial?code=%s&%s
+http://a.holalauncher.com/instant/themes?count=10&%s
+http://a.holalauncher.com/instant/wallpapers?count=3&%s
+http://a.holalauncher.com/wallpapers/tags?%s
+http://a.holalauncher.com/wallpapers/byTag?&page=%s&tagCode=%s&%s
+http://a.diylocker.lockerma.com/scene/recommends/all?pageNumber=%s&pageSize=20&%s
+http://a.holalauncher.com/themes/recommend?source=zip&code=%s&%s
+http://a.holalauncher.com/iconset?page=%s
+http://a.holalauncher.com/themes/tags?%s
+http://a.holalauncher.com/themes/byTag?&psize=30&page=%s&tagCode=%s&%s
+http://a.holalauncher.com/themes/omni?page=%s&%s
+http://a.holalauncher.com/focus/excellence?source=zip&type=%s&%s
+http://a.diylocker.lockerma.com/topic/detail?name=%s&pageNumber=1&pageSize=20&%s
+http://a.diylocker.lockerma.com/topic/newest?pageNumber=1&pageSize=20&%s
+http://a.holalauncher.com/themes/bySpecial?page=%s&code=%s&%s
+http://a.diylocker.lockerma.com/share/getScene?diyCode=%s&%s
+http://a.holalauncher.com/themes/excellence?source=zip&psize=10&page=%s&%s
+http://a.holalauncher.com/themes?source=zip&psize=30&page=%s&%s
+http://a.holalauncher.com/fw/bySpecial?scode=%s&psize=12&page=%s&%s
+http://a.holalauncher.com/fw/square?psize=10&page=%s&%s&%s
+http://a.holalauncher.com/wallpapers/specials/feeds?%s&tz=%s&%s
+http://a.holalauncher.com/wdiy/specials?psize=10&page=%s&%s
+http://a.holalauncher.com/wdiy/myUpload?psize=10&page=%s&%s
+http://a.holalauncher.com/wallpapers/get?codes=%s&%s
+http://a.holalauncher.com/fonts/get?codes=%s&%s
+http://a.holalauncher.com/wallpapers/pics?psize=10&page=%s&%s&%s
+http://a.holalauncher.com/votes/listByUid?psize=20&page=%s&%s
+http://a.holalauncher.com//fw/hots?psize=10&page=%s&%s
+http://a.holalauncher.com/themes/daily?psize=10%s
+http://a.holalauncher.com/store/getToken
+http://a.holalauncher.com/store/getToken
+http://a.holalauncher.com/store/put
+http://a.holalauncher.com/wdiy/report
+http://a.holalauncher.com/wdiy/delUpload
+http://a.holalauncher.com/wdiy/followSpecial
+http://a.holalauncher.com/config
+http://a.holalauncher.com/m/todayTask
+http://a.holalauncher.com/m/todayTask/submit
+http://a.holalauncher.com/m/checkin
+http://a.holalauncher.com/app/top/recommend?vendorCode=%s&productCode=%s&type=%s&ver=1&pageNumber=%s&pageSize=100
+http://res.holalauncher.com/hola/cleaner/hola_float_
+http://a.holalauncher.com
+http://a.holalauncher.com
+http://a.holalauncher.com
+http://a.holalauncher.com
+http://a.holalauncher.com
+http://a.holalauncher.com
+http://a.holagames.com/
+http://a.holalauncher.com/theme/diy/drag?lang=
+http://a.holalauncher.com/app/friends?appCode=
+http://a.holalauncher.com//wallpapers/recommend?psize=3&%s
+http://a.holalauncher.com/wallpapers/pics?psize=1&page=1&%s
+http://a.holalauncher.com/fw/square?page=%s&psize=3&%s
+http://res.holalauncher.com/privace/images/ad/pa.jpg
+http://a.privacyace.com
+http://appup.holaworld.cn/get/apk?pkg=com.hola.screenlock&lc=90001
+http://appup.holaworld.cn/get/apk?pkg=com.hola.screenlock&lc=90001
+http://appup.holaworld.cn/get/apk?pkg=com.hola.launcher.plugin.notification&lc=90000
+http://www.baidu.com
+http://a.holalauncher.com/users/activate
+http://ad.holalauncher.com/offline/preclick_ads
+http://a.holalauncher.com/deals?page=%s&
+http://i.holalauncher.com/games?page=%s&
+http://a.holalauncher.com/gcm?gid=
+http://api.holalauncher.com/holaclub/tips?lang=
+http://a.holalauncher.com/themes/count?id=
+http://a.holalauncher.com/apps/count?id=
+http://a.holalauncher.com/notices/news?w=
+http://a.holalauncher.com/notices?w=
+http://a.holalauncher.com/offers?lang=%s&androidVer=%s&ver=%s
+https://hola-launcher.firebaseio.com
+http://360.holalauncher.com/st?
+http://a.holalauncher.com/show/upload
+http://res.holalauncher.com/holalauncher/theme/hola_show_diy_theme.jpg
+http://a.holalauncher.com/show/vote
+http://a.holalauncher.com/show/list?page=%s&
+http://a.holalauncher.com/show/delete
+http://a.holalauncher.com/show/listByUid?page=%s&
+http://a.holalauncher.com/clients/upgrade?userId=%s&pkg=%s&ver=%s
+http://a.lazyswipe.com/clients/upgrade?pkg=com.lazyswipe&ver=
+http://mm.holalauncher.com/survey/uninstall.html?
+https://play.google.com/store
+https://plus.google.com/communities/101281323593453054445
+https://www.facebook.com/holaverse
+http://vk.com/holalauncher
+http://weibo.com/holalauncher
+http://tieba.baidu.com/f?kw=hola桌面
+http://t.cn/RZmiHHJ
+http://url.cn/b7h2Qo
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+http://res.holalauncher.com/holalauncher/dice/dice_extra.zip
+http://res.holalauncher.com/hola/dice/dice.zip
+http://api.holalauncher.com/res/share_qrcode_icon.png
+http://api.holalauncher.com/res/share_qrcode_a.png
+http://a.holalauncher.com/app/top/recommend?vendorCode=%s&productCode=%s&type=%s&ver=1&pageNumber=%s&pageSize=%s&lang=%s
+https://fb.me/1654408618143690
+https://lh3.googleusercontent.com/YnQBbyU-OWRo5Lol2ADaRvBEMGCnTz7vl-LV-Nmlf4OdAyEci1ldcJw_VMEOpH_QxeI=h900-rw
+https://play.google.com/store/apps/details?id=%s
+https://www.facebook.com/audience_network/server_side_reward
+https://www.%s.facebook.com/audience_network/server_side_reward
+https://graph.facebook.com/network_ads_common
+https://graph.%s.facebook.com/network_ads_common
+https://www.facebook.com/adnw_logging/
+https://www.%s.facebook.com/adnw_logging/
+http://play.google.com/store/apps/
+https://www.facebook.com/
+https://www.%s.facebook.com
+http://www.facebook.com
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+http://plus.google.com/
+https://app-measurement.com/a
+https://www.google.com
+http://www.example.com
+http://www.example.com
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://csi.gstatic.com/csi
+https://www.google.com/dfp/linkDevice
+https://www.google.com/dfp/inAppPreview
+https://www.google.com/dfp/debugSignals
+https://www.google.com/dfp/sendDebugData
+https://pagead2.googlesyndication.com/pagead/gen_204
+http://www.google.com
+https://www.youtube.com/playlist?list=
+https://www.youtube.com/playlist?list=
+https://www.youtube.com/channel/
+https://www.youtube.com/channel/
+https://www.youtube.com/watch?v=
+https://www.youtube.com/watch?v=
+https://www.youtube.com/user/
+https://www.youtube.com/user/
+http://trends.mobitech-search.xyz/v1/trends/
+http://trends.mobitech-search.xyz/v1/trends/
+http://a.holalauncher.com/themes/get?codes=
+http://a.holalauncher.com/themes/share/
+http://a.holalauncher.com/wallpapers/share/
+http://a.holalauncher.com/user/banner?psize=1&lang=
+http://mm.holalauncher.com/h5/indiana/index-product.html
+http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+https://play.google.com/store/apps/
+http://dbmif7yu1k6ym.cloudfront.net/static/highlight-keyword/highlight-keyword.min.js
+http://mm.holalauncher.com
+http://api.holalauncher.com/holashow.html?showId=
+http://ad.holalauncher.com/offline/preclick_ads_by_pkg
+http://mm.holalauncher.com/help/help.html?
+http://www.holalauncher.com/privacy/tos.html?
+http://www.holalauncher.com/privacy/privacy.html?
+http://a.holalauncher.com/dice/history?lang=
+http://a.holalauncher.com/site/popular?
+https://twitter.com/%s/status/%s
+http://54.245.13.36/general/redirect?
+http://54.245.13.36/general/redirect?
+http://cfg.holalauncher.com/json?filename=recommend_app_wall&pid=
+http://api.ad.holalauncher.com/ads/adwall?
+http://api.ad.holalauncher.com/ads/adwall?
+http://api.ad.holalauncher.com/ads/adwall?
+http://o.holalauncher.com/v1/e.php?p=3
+http://www.mysearch.com
+http://analytics.rayjump.com
+http://net.rayjump.com
+http://setting.rayjump.com
+https://play.google.com/
+https://play.google.com/
+https://play.google.com/
+https://startup.mobile.yandex.net/
+https://startup.mobile.yandex.net/
+https://startup.mobile.yandex.net/
+https://certificate.mobile.yandex.net/api/v1/pins
+https://certificate.mobile.yandex.net/api/v1/pins
+https://certificate.mobile.yandex.net/api/v1/pins
+https://certificate.mobile.yandex.net/api/v1/pins
+https://certificate.mobile.yandex.net/api/v1/pins
+https://tech.yandex.com/metrica-mobile-sdk/doc/mobile-sdk-dg/concepts/android-initialize-docpage/
+https://yandex.ru
+https://market.android
+http://market.android
+https://play.google
+http://play.google
+https://map
+http://map
+https://maps
+http://maps
+http://mobile.maps
+http://m.maps
+http://maps.yandex.ru
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+http://openbox.mobilem.360.cn/
+https://httpsapi.holalauncher.com/
+https://httpsapi.holalauncher.com/app/classify?p=
+http://weather.holalauncher.com/icons?dateStr=
+http://weather.qiigame.com/weather/icons?dateStr=
+http://weather.holalauncher.com/
+http://weather.holalauncher.com/
+http://weather.holalauncher.com/
+http://weather.holalauncher.com/forecasts/24hrs?twcId=
+http://a.holalauncher.com/feedbacks/send
+http://a.holalauncher.com/
+http://a.holalauncher.com/dice/submit
+http://res.holalauncher.com/holalauncher/h5/dice/index.html
+http://url.haloapps.com/com.kingslots.casino.grandwin?pid=ha_hola_int&c=holarole
+http://a.holalauncher.com/dice/scores?accessToken=
+http://a.holalauncher.com/dice/rank/friends?uid=
+http://res.holalauncher.com/hola/lucky/slot_machine_res.zip
+http://i.holalauncher.com/tkw?
+http://a.holalauncher.com/hotwords?
+http://a.holalauncher.com/holasearch/setting?
+http://cfg.holalauncher.com/json?filename=hola_search_engine
+http://api.holalauncher.com/feeds?pn=%s&psize=20
+http://api.holalauncher.com/feeds/info?id=%s
+http://cfg.holalauncher.com/json?filename=app_wall&pid=
+http://i.holalauncher.com/ad?
+http://i.holalauncher.com/oa?
+http://i.holalauncher.com/oa?spa=
+http://i.holalauncher.com/spads?
+http://adapi.holalauncher.com/impression?accessID=%s&deliveryID=%s&traceID=%s
+http://adapi.holalauncher.com/click?accessID=%s&deliveryID=%s&traceID=%s
+http://d.holaworld.cn/liveweather.png
+http://d.holaworld.cn/cover.jpg
+https://play.google.com/store/apps/details?id=com.hola.weather
+http://114.215.42.45:9000/
+http://cfg.holalauncher.com/
+http://adapi.holalauncher.com/fetch?placement=%s&net=%s&pkg=%s&pkgver=%s&isgp=%s&gaid=%s&isfb=%s&imei=%s&osver=%s&instime=%s&memory=%s&country=%s&language=%s&channel=%s&brand=%s&model=%s&os=%s&romver=%s
+http://v.holalauncher.com:8682/config
+http://cfg.holalauncher.com/json?pid=%s&filename=charge&country=%s&channel=%s&versionCode=%s
+https://itunes.apple.com
+http://play.google.com/store/apps/details?id=
+https://analytics.mopub.com/i/jot/exchange_client_event
+https://www.mopub.com/optout
+https://clck.yandex.ru/click/dtype=stred/pid=1/cid=72202
+https://zen.yandex.com/api/v3/launcher/config
+https://br.zen.yandex.com
+https://mx.zen.yandex.com
+https://uk.zen.yandex.com
+https://zen.yandex.com.tr
+https://zen.yandex.ru
+https://in.zen.yandex.com
+http://stat.haloapps.com/install
+http://st.holalauncher.com/r
+http://st.holaworld.cn/r
+http://gbsta.haloall.com/err
+http://sta.haloall.com/err
+http://dh.holalauncher.com/l/api/log/operate/write
+http://dh.holalauncher.com/l/api/log/operate/write
+http://log.test.qiigame.com/l/api/log/operate/write
+http://log.test.qiigame.com/l/api/log/operate/write
+http://dh.holaworld.cn/l/api/log/operate/write
+http://dh.holaworld.cn/l/api/log/operate/write
+http://dc.holalauncher.com/l/api/eventCollectRule/rule
+http://log.test.qiigame.com/l/api/eventCollectRule/rule
+http://dc.holaworld.cn/l/api/eventCollectRule/rule
+http://mo.haloapps.com/ad/api/log/ad/write
+http://mo.haloapps.com/ad/api/log/ad/write
+http://mo.test.haloapps.com/ad/api/log/ad/write
+http://mo.test.haloapps.com/ad/api/log/ad/write
+http://mo.haloapps.cn/ad/api/log/ad/write
+http://mo.haloapps.cn/ad/api/log/ad/write
+http://dr.holaworld.cn/l/api/log/timely/write
+http://dr.holaworld.cn/l/api/log/timely/write
+http://log.test.qiigame.com/l/api/log/timely/write
+http://log.test.qiigame.com/l/api/log/timely/write
+http://dr.holalauncher.com/l/api/log/timely/write
+http://dr.holalauncher.com/l/api/log/timely/write
+http://de.holaworld.cn/l/api/log/err/write
+http://log.test.qiigame.com/l/api/log/err/write
+http://de.holalauncher.com/l/api/log/err/write
+https://graph.%s
+https://graph-video.%s
+https://facebook.com
+http://play.google.com/store/apps/details?id=com.facebook.orca
+
+[INTERNAL_LOG][2018-06-08 03:32:33,311][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-08 03:32:33,314][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-08 03:32:33,314][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-08 03:32:33,314][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-08 03:32:33,314][INFO][analyze_start()] End time:[Fri Jun  8 03:32:33 2018]

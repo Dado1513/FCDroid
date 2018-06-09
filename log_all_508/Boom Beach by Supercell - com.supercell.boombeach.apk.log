@@ -1,0 +1,45 @@
+[INTERNAL_LOG][2018-06-08 00:05:29,064][INFO][analyze_start()] Init Time [Fri Jun  8 00:05:29 2018]
+[INTERNAL_LOG][2018-06-08 00:05:29,268][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-08 00:05:29,270][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-08 00:05:29,270][INFO][is_hybird()] com.supercell.boombeach.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-08 00:05:29,270][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-08 00:05:29,270][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-08 00:05:29,271][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-08 00:05:29,271][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-08 00:05:29,271][INFO][is_hybird()] android.permission.CHANGE_WIFI_STATE
+[INTERNAL_LOG][2018-06-08 00:05:29,271][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-08 00:05:29,271][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-08 00:05:29,271][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-08 00:05:29,271][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-08 00:05:29,271][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-08 00:05:29,271][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-08 00:05:29,271][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-08 00:05:29,271][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-08 00:05:51,400][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-08 00:05:51,400][INFO][find_url_in_apk()] https://settings.crashlytics.com/spi/v2/platforms/android/apps/%s/settings
+http://schemas.android.com/apk/res/android
+https://graph.%s
+https://graph-video.%s
+https://facebook.com
+https://facebook.com/device?user_code=%1$s&qr=1
+http://play.google.com/store/apps/details?id=com.facebook.orca
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+https://plus.google.com/
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games_lite
+https://www.googleapis.com/auth/games.firstparty
+https://www.googleapis.com/auth/games.firstparty
+https://e.crashlytics.com/spi/v2/events
+
+[INTERNAL_LOG][2018-06-08 00:05:51,400][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-08 00:05:51,408][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-08 00:05:51,409][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-08 00:05:51,409][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-08 00:05:51,409][INFO][analyze_start()] End time:[Fri Jun  8 00:05:51 2018]

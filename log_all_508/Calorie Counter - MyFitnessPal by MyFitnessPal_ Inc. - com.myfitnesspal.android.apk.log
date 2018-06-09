@@ -1,0 +1,317 @@
+[INTERNAL_LOG][2018-06-07 22:35:17,108][INFO][analyze_start()] Init Time [Thu Jun  7 22:35:17 2018]
+[INTERNAL_LOG][2018-06-07 22:35:17,197][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-07 22:35:17,197][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-07 22:35:17,197][INFO][is_hybird()] com.myfitnesspal.android.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-07 22:35:17,198][INFO][is_hybird()] android.permission.CHANGE_WIFI_STATE
+[INTERNAL_LOG][2018-06-07 22:35:17,198][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-07 22:35:17,198][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-07 22:35:17,198][INFO][is_hybird()] android.permission.CHANGE_NETWORK_STATE
+[INTERNAL_LOG][2018-06-07 22:35:17,198][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-07 22:35:17,198][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-07 22:35:17,198][INFO][is_hybird()] android.permission.FLASHLIGHT
+[INTERNAL_LOG][2018-06-07 22:35:17,198][INFO][is_hybird()] android.permission.RECEIVE_BOOT_COMPLETED
+[INTERNAL_LOG][2018-06-07 22:35:17,198][INFO][is_hybird()] android.permission.BLUETOOTH
+[INTERNAL_LOG][2018-06-07 22:35:17,198][INFO][is_hybird()] android.permission.BLUETOOTH_ADMIN
+[INTERNAL_LOG][2018-06-07 22:35:17,198][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-07 22:35:17,198][INFO][is_hybird()] android.permission.MANAGE_DOCUMENTS
+[INTERNAL_LOG][2018-06-07 22:35:17,198][INFO][is_hybird()] android.permission.USE_CREDENTIALS
+[INTERNAL_LOG][2018-06-07 22:35:17,198][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-07 22:35:17,198][INFO][is_hybird()] android.permission.ACCESS_FINE_LOCATION
+[INTERNAL_LOG][2018-06-07 22:35:17,198][INFO][is_hybird()] android.permission.ACCESS_COARSE_LOCATION
+[INTERNAL_LOG][2018-06-07 22:35:17,198][INFO][is_hybird()] android.permission.READ_CONTACTS
+[INTERNAL_LOG][2018-06-07 22:35:17,198][INFO][is_hybird()] android.permission.CAMERA
+[INTERNAL_LOG][2018-06-07 22:35:17,198][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-07 22:35:17,199][INFO][is_hybird()] com.samsung.accessory.permission.ACCESSORY_FRAMEWORK
+[INTERNAL_LOG][2018-06-07 22:35:17,199][INFO][is_hybird()] com.samsung.WATCH_APP_TYPE.Companion
+[INTERNAL_LOG][2018-06-07 22:35:17,199][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-07 22:35:17,199][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-07 22:35:17,199][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-07 22:35:17,199][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-07 22:35:17,199][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-07 22:35:17,199][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-07 22:35:17,199][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-07 22:35:17,199][INFO][find_string()] File: assets/tos/en.html
+[INTERNAL_LOG][2018-06-07 22:35:17,253][INFO][find_string()] No iframe in assets/tos/en.html
+[INTERNAL_LOG][2018-06-07 22:35:17,254][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-07 22:36:55,848][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-07 22:36:55,848][INFO][find_url_in_apk()] http://schemas.android.com/apk/res/android
+http://amazon-adsystem.com
+https://api.amplitude.com/
+https://metrics.brightcove.com/v2/tracker
+http://www.w3.org/XML/1998/namespace
+http://www.w3.org/ns/ttml#styling
+http://www.w3.org/ns/ttml#styling
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+http://play.google.com/store/apps/
+https://www.facebook.com/
+https://www.%s.facebook.com
+https://graph.facebook.com/network_ads_common
+https://graph.%s.facebook.com/network_ads_common
+https://www.facebook.com/adnw_logging/
+https://www.%s.facebook.com/adnw_logging/
+http://www.facebook.com
+https://graph.%s
+https://graph-video.%s
+https://facebook.com
+https://facebook.com/device?user_code=%1$s&qr=1
+http://play.google.com/store/apps/details?id=com.facebook.orca
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+https://plus.google.com/
+https://www.googleapis.com/auth/fitness.activity.read
+https://www.googleapis.com/auth/fitness.activity.read
+https://www.googleapis.com/auth/fitness.activity.read
+https://www.googleapis.com/auth/fitness.activity.read
+https://www.googleapis.com/auth/fitness.activity.write
+https://www.googleapis.com/auth/fitness.activity.write
+https://www.googleapis.com/auth/fitness.activity.write
+https://www.googleapis.com/auth/fitness.activity.write
+https://www.googleapis.com/auth/fitness.activity.write
+https://www.googleapis.com/auth/fitness.location.read
+https://www.googleapis.com/auth/fitness.location.read
+https://www.googleapis.com/auth/fitness.location.read
+https://www.googleapis.com/auth/fitness.location.write
+https://www.googleapis.com/auth/fitness.location.write
+https://www.googleapis.com/auth/fitness.location.write
+https://www.googleapis.com/auth/fitness.body.read
+https://www.googleapis.com/auth/fitness.body.read
+https://www.googleapis.com/auth/fitness.body.read
+https://www.googleapis.com/auth/fitness.body.write
+https://www.googleapis.com/auth/fitness.body.write
+https://www.googleapis.com/auth/fitness.body.write
+https://www.googleapis.com/auth/fitness.body.write
+https://www.googleapis.com/auth/fitness.nutrition.read
+https://www.googleapis.com/auth/fitness.nutrition.read
+https://www.googleapis.com/auth/fitness.nutrition.read
+https://www.googleapis.com/auth/fitness.nutrition.write
+https://www.googleapis.com/auth/fitness.nutrition.write
+https://www.googleapis.com/auth/fitness.nutrition.write
+https://www.googleapis.com/auth/fitness.nutrition.write
+https://www.googleapis.com/auth/fitness.blood_pressure.read
+https://www.googleapis.com/auth/fitness.blood_pressure.read
+https://www.googleapis.com/auth/fitness.blood_pressure.write
+https://www.googleapis.com/auth/fitness.blood_pressure.write
+https://www.googleapis.com/auth/fitness.blood_glucose.read
+https://www.googleapis.com/auth/fitness.blood_glucose.read
+https://www.googleapis.com/auth/fitness.blood_glucose.write
+https://www.googleapis.com/auth/fitness.blood_glucose.write
+https://www.googleapis.com/auth/fitness.oxygen_saturation.read
+https://www.googleapis.com/auth/fitness.oxygen_saturation.read
+https://www.googleapis.com/auth/fitness.oxygen_saturation.write
+https://www.googleapis.com/auth/fitness.oxygen_saturation.write
+https://www.googleapis.com/auth/fitness.body_temperature.read
+https://www.googleapis.com/auth/fitness.body_temperature.read
+https://www.googleapis.com/auth/fitness.body_temperature.write
+https://www.googleapis.com/auth/fitness.body_temperature.write
+https://www.googleapis.com/auth/fitness.reproductive_health.read
+https://www.googleapis.com/auth/fitness.reproductive_health.read
+https://www.googleapis.com/auth/fitness.reproductive_health.write
+https://www.googleapis.com/auth/fitness.reproductive_health.write
+https://account.underarmour.com/privacy
+https://account.underarmour.com/privacy
+http://myfitnesspal.desk.com/customer/portal/articles/2292940-join-the-beta-program
+http://myfitnesspal.desk.com/customer/portal/articles/2292940-join-the-beta-program
+https://www.underarmour.com/en-us/best-sellers/mens/g/3926z?cid=MMF|REF|MFPal|App|Nav|mens|
+https://www.underarmour.com/en-us/best-sellers/womens/g/3c26z?cid=MMF|REF|MFPal|App|Nav|womens|
+http://myfitnesspal.desk.com/customer/portal/articles/1859089
+http://myfitnesspal.desk.com/customer/portal/articles/1859089
+http://myfitnesspal.desk.com/customer/portal/articles/1859089
+http://www.myfitnesspal.com
+http://www.myfitnesspal.com
+http://amazon-adsystem.amazon.com/
+http://schemas.android.com/apk/lib/com.amazon.device.ads
+http://schemas.android.com/apk/res/
+https://wvlic.brightcove.com/proxy/
+http://schemas.microsoft.com/DRM/2007/03/protocols/AcquireLicense
+https://edge.api.brightcove.com/playback/v1
+https://edge.api.brightcove.com/playback/v1
+https://www.%s.facebook.com/audience_network/server_side_reward
+https://www.facebook.com/audience_network/server_side_reward
+http://hostname/?
+http://hostname/?
+http://media.api.ua.com/ua-media/image/upload/
+http://www.w3.org/ns/ttml#parameter
+https://www.googleapis.com/auth/games_lite
+https://www.googleapis.com/auth/games
+https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/17729925/UACF_M/MFP/Video&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&url=[referrer_url]&description_url=[description_url]&correlator=[timestamp]&ad_rule=1&cmsid=2458840&cust_params=vid=
+http://www.myfitnesspal.com/account/change_username
+https://play.google.com/store/apps/details?id=com.myfitnesspal.android
+https://pagead2.googlesyndication.com/pagead/gen_204
+http://www.google.com
+https://support.google.com/dfp_premium/answer/7160685#push
+http://www.google-analytics.com
+https://ssl.google-analytics.com
+http://www.example.com
+http://www.example.com
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/sdk-core-v40-impl.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://csi.gstatic.com/csi
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/native_ads.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/native_ads.js
+https://imasdk.googleapis.com/admob/sdkloader/native_video.html
+https://www.google.com/dfp/linkDevice
+https://www.google.com/dfp/inAppPreview
+https://www.google.com/dfp/debugSignals
+https://www.google.com/dfp/sendDebugData
+https://www.googletagmanager.com
+https://imasdk.googleapis.com/native/sdkloader/native_sdk_v3.html
+https://imasdk.googleapis.com/native/sdkloader/native_sdk_v3_debug.html
+http://schemas.android.com/apk/lib/com.inmobi.ads
+http://schemas.android.com/apk/lib/com.inmobi.ads
+https://i.l.inmobicdn.net/sdk/sdk/500/android/mraid.js
+http://www.inmobi.com/products/sdk/#downloads
+http://twitter.com/home?status=
+https://m.google.com/app/plus/x/?v=compose&content=
+https://www.facebook.com/dialog/feed?app_id=181821551957328&link=
+http://dock.inmobi.com/carb/v1/i
+http://dock.inmobi.com/carb/v1/o
+https://sdkm.w.inmobi.com/user/e.asm
+https://mobile-static.adsafeprotected.com/avid-v2.js
+https://mobile-static.adsafeprotected.com/avid-v2.js
+https://z.moatads.com/
+https://z.moatads.com/
+https://twitter.com/%s/status/%s
+https://www.mopub.com/optout/
+https://www.mopub.com/optout/
+http://blog.myfitnesspal.com.br/
+http://blog.myfitnesspal.de/
+http://myfitnesspal.staging.wpengine.com
+http://myfitnesspal.staging.wpengine.com
+http://blog.myfitnesspal.com/
+http://blog.myfitnesspal.com/
+http://www.myfitnesspal.com/dispatch/mobile/challenges
+http://www.myfitnesspal.com/dispatch/mobile/challenges
+https://account.underarmour.com/privacy#who-we-are
+https://account.underarmour.com/help
+https://account.underarmour.com/help
+https://myfitnesspal.desk.com/customer/portal/articles/1940192-how-do-i-cancel-my-premium-subscription-renewal-
+https://myfitnesspal.desk.com/customer/portal/articles/1940192-how-do-i-cancel-my-premium-subscription-renewal-
+https://myfitnesspal.desk.com/customer/portal/emails/new
+http://dakd0cjsv8wfa.cloudfront.net/images/api_clients/0/api_clients_337_4_20_0_47405.png
+http://dakd0cjsv8wfa.cloudfront.net/images/api_clients/0/api_clients_337_1_20_0_61931.png
+http://dakd0cjsv8wfa.cloudfront.net/images/api_clients/0/api_clients_362_1_20_0_60420.png
+http://dakd0cjsv8wfa.cloudfront.net/images/api_clients/0/api_clients_362_3_20_0_65171.png
+http://dakd0cjsv8wfa.cloudfront.net/images/api_clients/0/api_clients_362_3_20_0_65242.png
+http://dakd0cjsv8wfa.cloudfront.net/images/api_clients/0/api_clients_362_3_20_0_70485.png
+http://dakd0cjsv8wfa.cloudfront.net/images/api_clients/0/api_clients_362_3_20_0_19294.png
+http://myfitnesspal.desk.com/customer/portal/articles/1375583-a-message-about-myfitnesspal-s-updated-nutrition-goals
+http://myfitnesspal.desk.com/customer/portal/articles/2790188-nutrient-filters-for-meals
+https://integ.myfitnesspal.com
+https://integ.myfitnesspal.com
+https://integ.myfitnesspal.com
+https://integ.myfitnesspal.com
+https://integ.myfitnesspal.com
+https://integ.myfitnesspal.com
+https://integ.myfitnesspal.com
+https://qa.myfitnesspal.com
+https://qa.myfitnesspal.com
+https://qa.myfitnesspal.com
+https://qa.myfitnesspal.com
+https://qa.myfitnesspal.com
+http://www.dummy.com
+https://www.underarmour.com/en-us/ua-scale-ships-10-25-2016/pid1303998-001?cid=MMF%7CREF%7CMFPal%7CApp%7CHealthbox%7Cscale%7Cinterstitial
+https://www.underarmour.com/en-us/ua-scale-ships-10-25-2016/pid1303998-001?cid=MMF%7CREF%7CMFPal%7CApp%7CHealthbox%7Cscale%7Cprogress_entry
+https://www.underarmour.com/en-us/ua-scale-ships-10-25-2016/pid1303998-001?cid=MMF%7CREF%7CMFPal%7CApp%7CHealthbox%7Cscale%7Cprogress_entry
+https://integ-identity.api.ua.com/
+https://identity.api.ua.com/
+http://i.w.inmobi.com/showad.asm
+https://sdktm.w.inmobi.com/sdkpubreq
+https://sdkm.w.inmobi.com/metrics/e.asm?v=1&
+https://graph.facebook.com/%s/picture
+http://myfitnesspal.desk.com/customer/portal/emails/new
+https://account.underarmour.com/terms-and-conditions
+http://www.dom.com/path?
+https://analytics.mopub.com/i/jot/exchange_client_event
+https://www.mopub.com/optout
+http://myfitnesspal.vanillaforums.com
+http://blog.myfitnesspal.com
+http://blog.myfitnesspal.com
+https://androidconfig.myfitnesspal.com
+https://androidconfig.myfitnesspal.com
+https://androidconfig.myfitnesspal.com
+https://device-activator.api.ua.com
+https://device-activator.api.ua.com
+https://sync.myfitnesspal.com
+https://sync.myfitnesspal.com
+https://sync.myfitnesspal.com
+https://api.myfitnesspal.com
+https://api.myfitnesspal.com
+https://api.myfitnesspal.com
+https://www.myfitnesspal.com
+https://www.myfitnesspal.com
+https://www.myfitnesspal.com
+http://blog.myfitnesspal.com/video/
+http://blog.myfitnesspal.com/category/nutrition/
+http://blog.myfitnesspal.com/category/inspiration/
+http://blog.myfitnesspal.de/category/essen/
+http://blog.myfitnesspal.de/category/leben/
+http://blog.myfitnesspal.de/category/bewegen/
+https://www.facebook.com/myfitnesspal
+https://www.instagram.com/myfitnesspal/
+https://www.pinterest.com/myfitnesspal
+https://www.underarmour.com/top-gear-picks/mfp/womens?cid=MMF|REF|MFPal|Site|womens
+https://www.underarmour.com/girls
+https://www.underarmour.com/top-gear-picks/mfp/mens?cid=MMF|REF|MFPal|App|mens|atf
+https://www.underarmour.com/boys
+https://www.underarmour.com/footwear
+https://www.underarmour.com/technology
+https://www.underarmour.com/new-arrivals/
+https://www.underarmour.com/outlet/
+http://myfitnesspal.com
+http://beta-community.myfitnesspal.com
+http://www.beta-community.myfitnesspal.com
+http://api.myfitnesspal.com
+http://www.myfitnesspal.com/reports/weekly-digest
+https://integ-device-activator.api.ua.com
+https://dev1.myfitnesspal.com
+https://dev1.myfitnesspal.com
+https://preprod.myfitnesspal.com
+https://preprod.myfitnesspal.com
+https://preprod.myfitnesspal.com
+https://preprod.myfitnesspal.com
+https://www.underarmour.com/en-us/ua-scale-ships-10-25-2016/pid1303998-001?cid=MMF%7CREF%7CMFPal%7CApp%7CHealthbox%7Cscale%7Cadd_weight
+http://www.google.com/search
+https://www.myfitnesspal.com/year-in-review/
+http://schema.org/ViewAction
+https://inbox.api.ua.com
+https://dev-inbox.api.ua.com
+https://mobilesync.api.ua.com
+https://integ-mobilesync.api.ua.com
+https://consent.api.ua.com
+https://integ-consent.api.ua.com
+http://mrp.rubiconproject.com
+http://ec2-174-129-70-91.compute-1.amazonaws.com:8080/eventserver/save/event
+http://ec2-174-129-70-91.compute-1.amazonaws.com:8080/eventserver/save/snapshot
+http://hub.samsungapps.com/product/appCheck.as?
+http://platform-cdn.sharethrough.com/privacy-policy.html?opt_out_url={OPT_OUT_URL}&opt_out_text={OPT_OUT_TEXT}
+http://asap.sharethrough.com/v2
+https://twitter.com/
+https://twitter.com/#!/search?q=%23
+https://twitter.com/#!/search?q=%24
+https://api.twitter.com
+https://twitter.com/intent/tweet?text=%s&url=%s
+https://settings.crashlytics.com/spi/v2/platforms/android/apps/%s/settings
+http://www.myfitnesspal.com/vanilla/index
+http://btlr.sharethrough.com/v4
+https://syndication.twitter.com
+https://e.crashlytics.com/spi/v2/events
+http://code.google.com/p/android/issues/detail?id=10789
+https://www.youtube.com/str/
+http://localhost/
+http://localhost/
+http://localhost/
+
+[INTERNAL_LOG][2018-06-07 22:36:55,849][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-07 22:36:55,855][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-07 22:36:55,855][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-07 22:36:55,855][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-07 22:36:55,855][INFO][analyze_start()] End time:[Thu Jun  7 22:36:55 2018]

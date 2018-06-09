@@ -1,0 +1,110 @@
+[INTERNAL_LOG][2018-06-07 23:12:51,845][INFO][analyze_start()] Init Time [Thu Jun  7 23:12:51 2018]
+[INTERNAL_LOG][2018-06-07 23:12:51,864][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-07 23:12:51,865][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-07 23:12:51,865][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-07 23:12:51,865][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-07 23:12:51,865][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-07 23:12:51,865][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-07 23:12:51,865][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-07 23:12:51,865][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-07 23:12:51,865][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-07 23:12:51,865][INFO][find_string()] File: js/closebutton.html
+[INTERNAL_LOG][2018-06-07 23:12:51,866][INFO][find_string()] No iframe in js/closebutton.html
+[INTERNAL_LOG][2018-06-07 23:12:51,866][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-07 23:13:14,571][INFO][find_url_in_apk()] [START URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-07 23:13:14,571][INFO][find_url_in_apk()] http://play.google.com/store/apps/
+http://play.google.com/store/apps/
+http://featured.perfectionholic.com:8080/moregames/index_app.html
+http://featured.perfectionholic.com:8080/moregames/index_app.html
+http://featured.perfectionholic.com:8080/moregames/index.html
+http://featured.perfectionholic.com:8080/moregames/index.html
+
+[INTERNAL_LOG][2018-06-07 23:13:14,571][INFO][find_url_in_apk()] [END URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-07 23:13:15,345][ERROR][download_page_loaded()] Failed download: http://play.google.com/store/apps/ for exception [Errno 21] Is a directory: 'temp_html_code/html_downloaded_Pool Billiards Pro by TerranDroid - com/'
+[INTERNAL_LOG][2018-06-07 23:13:15,981][ERROR][download_page_loaded()] Failed download: http://play.google.com/store/apps/ for exception [Errno 21] Is a directory: 'temp_html_code/html_downloaded_Pool Billiards Pro by TerranDroid - com/'
+[INTERNAL_LOG][2018-06-07 23:13:16,659][ERROR][download_page_loaded()] Failed response code: 404 for http://featured.perfectionholic.com:8080/moregames/index_app.html  
+[INTERNAL_LOG][2018-06-07 23:13:17,278][INFO][find_string()] [START REMOTE FILE ANALYZE]
+[INTERNAL_LOG][2018-06-07 23:13:17,279][INFO][find_string()] Remote File in: temp_html_code/html_downloaded_Pool Billiards Pro by TerranDroid - com/index_app.html
+[INTERNAL_LOG][2018-06-07 23:13:17,279][INFO][find_string()] URL: http://featured.perfectionholic.com:8080/moregames/index_app.html
+[INTERNAL_LOG][2018-06-07 23:13:17,284][INFO][find_string()] No iframe in temp_html_code/html_downloaded_Pool Billiards Pro by TerranDroid - com/index_app.html
+[INTERNAL_LOG][2018-06-07 23:13:17,284][INFO][find_string()] Remote File in: temp_html_code/html_downloaded_Pool Billiards Pro by TerranDroid - com/index.html
+[INTERNAL_LOG][2018-06-07 23:13:17,285][INFO][find_string()] URL: http://featured.perfectionholic.com:8080/moregames/index.html
+[INTERNAL_LOG][2018-06-07 23:13:17,290][INFO][find_string()] No iframe in temp_html_code/html_downloaded_Pool Billiards Pro by TerranDroid - com/index.html
+[INTERNAL_LOG][2018-06-07 23:13:17,290][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-07 23:13:17,290][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-07 23:13:17,291][INFO][find_url_in_apk()] http://data2.doodlemobile.com:8080/dmdata_zmm/ReceiveServlet
+http://newfeatureview.perfectionholic.com/featureview/gettime/
+http://ec2-184-73-77-17.compute-1.amazonaws.com/featureview/gettime/
+http://f2.doodlemobile.com/feature_server/geo-ip/test.php
+http://newfeatureview.perfectionholic.com/featureview/getfeatureview/
+http://f2.doodlemobile.com/feature_server/fullScreen/get.php
+http://play.google.com/store/apps/
+http://play.google.com/store/apps/
+http://featured.perfectionholic.com:8080/moregames/index_app.html
+http://featured.perfectionholic.com:8080/moregames/index_app.html
+http://featured.perfectionholic.com:8080/moregames/index.html
+http://featured.perfectionholic.com:8080/moregames/index.html
+http://192.168.1.241:8080/featureserver/receiveuesraction
+https://graph.facebook.com/network_ads_common
+https://graph.%s.facebook.com/network_ads_common
+https://www.facebook.com/adnw_logging/
+https://www.%s.facebook.com/adnw_logging/
+https://www.facebook.com/
+https://www.%s.facebook.com
+http://www.facebook.com
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+https://plus.google.com/
+https://www.googleapis.com/auth/drive.file
+https://www.googleapis.com/auth/drive.appdata
+https://www.googleapis.com/auth/drive
+https://www.googleapis.com/auth/drive.apps
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games_lite
+https://www.googleapis.com/auth/games.firstparty
+https://www.googleapis.com/auth/games.firstparty
+https://pagead2.googlesyndication.com/pagead/gen_204
+http://www.google.com
+https://support.google.com/dfp_premium/answer/7160685#push
+http://www.example.com
+http://www.example.com
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://csi.gstatic.com/csi
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/native_ads.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/native_video_ads.html
+https://www.google.com/dfp/linkDevice
+https://www.google.com/dfp/inAppPreview
+https://www.google.com/dfp/debugSignals
+https://www.google.com/dfp/sendDebugData
+https://connect.tapjoy.com/
+https://connect.tapjoy.com/
+https://ws.tapjoyads.com/
+https://ws.tapjoyads.com/
+https://ws.tapjoyads.com/
+https://ws.tapjoyads.com/
+http://content-js.tapjoy.com
+https://events.tapjoy.com/
+https://s3.amazonaws.com/tapjoy/videos/assets/watermark.png
+https://config.unityads.unity3d.com/webview/
+http://m.facebook.com/ads/ad_choices
+http://m.facebook.com/ads/ad_choices
+https://www.facebook.com/audience_network/server_side_reward
+https://www.%s.facebook.com/audience_network/server_side_reward
+http://data.flurry.com/aap.do
+https://data.flurry.com/aap.do
+
+[INTERNAL_LOG][2018-06-07 23:13:17,291][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-07 23:13:17,316][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-07 23:13:17,316][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-07 23:13:17,316][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-07 23:13:17,316][INFO][analyze_start()] End time:[Thu Jun  7 23:13:17 2018]

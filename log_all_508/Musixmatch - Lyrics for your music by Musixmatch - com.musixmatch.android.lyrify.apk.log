@@ -1,0 +1,243 @@
+[INTERNAL_LOG][2018-06-08 00:21:15,041][INFO][analyze_start()] Init Time [Fri Jun  8 00:21:15 2018]
+[INTERNAL_LOG][2018-06-08 00:21:15,118][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-08 00:21:15,120][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-08 00:21:15,120][INFO][is_hybird()] android.permission.BLUETOOTH
+[INTERNAL_LOG][2018-06-08 00:21:15,120][INFO][is_hybird()] android.permission.BLUETOOTH_ADMIN
+[INTERNAL_LOG][2018-06-08 00:21:15,120][INFO][is_hybird()] android.permission.BROADCAST_STICKY
+[INTERNAL_LOG][2018-06-08 00:21:15,120][INFO][is_hybird()] android.permission.GET_TASKS
+[INTERNAL_LOG][2018-06-08 00:21:15,120][INFO][is_hybird()] android.permission.MODIFY_AUDIO_SETTINGS
+[INTERNAL_LOG][2018-06-08 00:21:15,120][INFO][is_hybird()] android.permission.RECEIVE_BOOT_COMPLETED
+[INTERNAL_LOG][2018-06-08 00:21:15,120][INFO][is_hybird()] android.permission.RECORD_AUDIO
+[INTERNAL_LOG][2018-06-08 00:21:15,120][INFO][is_hybird()] android.permission.USE_CREDENTIALS
+[INTERNAL_LOG][2018-06-08 00:21:15,120][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-08 00:21:15,121][INFO][is_hybird()] android.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-08 00:21:15,121][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-08 00:21:15,121][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-08 00:21:15,121][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-08 00:21:15,121][INFO][is_hybird()] android.permission.DISABLE_KEYGUARD
+[INTERNAL_LOG][2018-06-08 00:21:15,121][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-08 00:21:15,121][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-08 00:21:15,121][INFO][is_hybird()] android.permission.READ_PHONE_STATE
+[INTERNAL_LOG][2018-06-08 00:21:15,121][INFO][is_hybird()] android.permission.SYSTEM_ALERT_WINDOW
+[INTERNAL_LOG][2018-06-08 00:21:15,121][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-08 00:21:15,121][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-08 00:21:15,121][INFO][is_hybird()] com.musixmatch.android.lyrify.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-08 00:21:15,127][INFO][is_hybird()] com.musixmatch.android.lyrify.permission.SCROBBLET_PRIVATE_SERVICE
+[INTERNAL_LOG][2018-06-08 00:21:15,138][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-08 00:21:15,138][INFO][is_hybird()] android.permission.CHANGE_WIFI_MULTICAST_STATE
+[INTERNAL_LOG][2018-06-08 00:21:15,138][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-08 00:21:15,138][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-08 00:21:15,138][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-08 00:21:15,138][INFO][find_string()] File: assets/privacy_update.html
+[INTERNAL_LOG][2018-06-08 00:21:15,169][INFO][find_string()] No iframe in assets/privacy_update.html
+[INTERNAL_LOG][2018-06-08 00:21:15,170][INFO][find_string()] File: assets/oss_licenses.html
+[INTERNAL_LOG][2018-06-08 00:21:15,180][INFO][find_string()] No iframe in assets/oss_licenses.html
+[INTERNAL_LOG][2018-06-08 00:21:15,180][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-08 00:22:07,374][INFO][find_url_in_apk()] [START URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-08 00:22:07,375][INFO][find_url_in_apk()] https://apic.musixmatch.com/connect/tw?app_id=android-player-v1.0
+https://apic.musixmatch.com/connect/tw?app_id=android-player-v1.0
+https://www.musixmatch.com/edit-guidelines
+
+[INTERNAL_LOG][2018-06-08 00:22:07,375][INFO][find_url_in_apk()] [END URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-08 00:22:10,792][ERROR][download_page_loaded()] Failed response code: 404 for https://www.musixmatch.com/edit-guidelines  
+[INTERNAL_LOG][2018-06-08 00:22:10,793][INFO][find_string()] [START REMOTE FILE ANALYZE]
+[INTERNAL_LOG][2018-06-08 00:22:10,793][INFO][find_string()] Remote File in: temp_html_code/html_downloaded_Musixmatch - Lyrics for your music by Musixmatch - com/tw?app_id=android-player-v1.0
+[INTERNAL_LOG][2018-06-08 00:22:10,793][INFO][find_string()] URL: https://apic.musixmatch.com/connect/tw?app_id=android-player-v1.0
+[INTERNAL_LOG][2018-06-08 00:22:10,796][INFO][find_string()] No iframe in temp_html_code/html_downloaded_Musixmatch - Lyrics for your music by Musixmatch - com/tw?app_id=android-player-v1.0
+[INTERNAL_LOG][2018-06-08 00:22:10,796][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-08 00:22:10,796][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-08 00:22:10,797][INFO][find_url_in_apk()] https://twitter.com/%s/status/%s
+https://apic.musixmatch.com/connect/tw?app_id=android-player-v1.0
+https://apic.musixmatch.com/connect/tw?app_id=android-player-v1.0
+https://www.musixmatch.com/edit-guidelines
+http://static.musixmatch.com/images/albums/nocover.png
+http://open.spotify.com/track/
+https://www.musixmatch.com/profile/%1$s
+http://static.musixmatch.com/licenses/faqandroid.html
+https://play.google.com/apps/testing/com.musixmatch.android.lyrify
+https://crowdin.net/project/musixmatch-android
+http://play.google.com/store/apps/details?id=
+https://www.youtube.com/watch?v=WxnN05vOuSM
+https://musixmatch.com/privacy-policy
+https://forum.musixmatch.com/category/14/android
+https://apic.musixmatch.com/callback?
+https://apic.musixmatch.com/callback?
+https://apic.musixmatch.com
+https://apic.musixmatch.com
+https://apic.musixmatch.com/connect/sp?app_id=android-player-v1.0&response_type=code&usertoken=
+https://apic.musixmatch.com/sp/callback
+https://app-measurement.com/a
+http://www.example.com
+http://www.example.com
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/sdk-core-v40-impl.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://csi.gstatic.com/csi
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/native_ads.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/native_ads.js
+https://imasdk.googleapis.com/admob/sdkloader/native_video.html
+https://www.google.com/dfp/linkDevice
+https://www.google.com/dfp/inAppPreview
+https://www.google.com/dfp/debugSignals
+https://www.google.com/dfp/sendDebugData
+https://pubads.g.doubleclick.net
+http://play.google.com/store/apps/details
+http://www.w3.org/2001/XMLSchema-instance
+http://schemas.microsoft.com/netservices/2010/10/servicebus/connect
+http://www.w3.org/2005/Atom
+http://about.musixmatch.com/gamification_rank.html?version=2&rank_name=%1$s&ratio_to_next_rank=%2$d&language=%3$s&username=%4$s&curator=%5$d
+https://www.musixmatch.com/community-rules?inapp=true
+http://static.musixmatch.com/share-the-love/A/facebook%20link.png
+http://static.musixmatch.com/share-the-love/A/twitter.png
+http://static.musixmatch.com/share-the-love/A/Instagram.png
+http://static.musixmatch.com/share-the-love/B/facebook%20link.png
+http://static.musixmatch.com/share-the-love/B/twitter.png
+http://static.musixmatch.com/share-the-love/B/Instagram.png
+http://static.musixmatch.com/share-the-love/C/facebook%20link.png
+http://static.musixmatch.com/share-the-love/C/twitter.png
+http://static.musixmatch.com/share-the-love/C/Instagram.png
+http://static.musixmatch.com/share-the-love/D/facebook%20link.png
+http://static.musixmatch.com/share-the-love/D/twitter.png
+http://static.musixmatch.com/share-the-love/D/Instagram.png
+http://musixmatch.com
+https://www.dropbox.com/s/k5rov7i1b76fx89/com.musixmatch.id.gn.apk
+https://www.dropbox.com/s/n8ivnwhg7ugn9zf/com.musixmatch.id.axwave.apk
+http://www.youtube.com
+http://static.musixmatch.com/lyricscard/xmas_0.jpg
+http://static.musixmatch.com/lyricscard/xmas_1.jpg
+http://static.musixmatch.com/lyricscard/xmas_2.jpg
+http://static.musixmatch.com/lyricscard/0.jpg
+http://static.musixmatch.com/lyricscard/1.jpg
+http://static.musixmatch.com/lyricscard/2.jpg
+http://static.musixmatch.com/lyricscard/3.jpg
+http://static.musixmatch.com/lyricscard/4.jpg
+http://static.musixmatch.com/lyricscard/5.jpg
+http://static.musixmatch.com/lyricscard/6.jpg
+http://static.musixmatch.com/lyricscard/7.jpg
+http://static.musixmatch.com/lyricscard/8.jpg
+http://static.musixmatch.com/lyricscard/9.jpg
+http://static.musixmatch.com/lyricscard/10.jpg
+http://static.musixmatch.com/lyricscard/11.jpg
+http://static.musixmatch.com/lyricscard/12.jpg
+http://static.musixmatch.com/lyricscard/13.jpg
+http://static.musixmatch.com/lyricscard/14.jpg
+http://static.musixmatch.com/lyricscard/15.jpg
+http://static.musixmatch.com/lyricscard/16.jpg
+http://static.musixmatch.com/lyricscard/17.jpg
+http://static.musixmatch.com/lyricscard/18.jpg
+http://static.musixmatch.com/lyricscard/19.jpg
+http://static.musixmatch.com/lyricscard/20.jpg
+http://static.musixmatch.com/lyricscard/21.jpg
+https://api.spotify.com/v1
+https://bnc.lt/a/
+http://musicbrainz.org
+http://musicbrainz.org
+http://musicbrainz.org
+https://analytics.mopub.com/i/jot/exchange_client_event
+https://www.mopub.com/optout
+https://www.google.com
+http://tracking.musixmatch.com/
+http://twitter4j.org/en/twitter4j-
+https://api.twitter.com/oauth/request_token
+https://api.twitter.com/oauth/request_token
+https://api.twitter.com/oauth/authorize
+https://api.twitter.com/oauth/authorize
+https://api.twitter.com/oauth/access_token
+https://api.twitter.com/oauth/access_token
+https://api.twitter.com/oauth/authenticate
+https://api.twitter.com/oauth/authenticate
+https://api.twitter.com/oauth2/token
+https://api.twitter.com/oauth2/invalidate_token
+https://api.twitter.com/1.1/
+https://api.twitter.com/1.1/
+https://stream.twitter.com/1.1/
+https://userstream.twitter.com/1.1/
+https://sitestream.twitter.com/1.1/
+https://www.facebook.com/audience_network/server_side_reward
+https://www.%s.facebook.com/audience_network/server_side_reward
+http://play.google.com/store/apps/
+https://www.facebook.com/
+https://www.%s.facebook.com
+https://graph.facebook.com/network_ads_common
+https://graph.%s.facebook.com/network_ads_common
+https://www.facebook.com/adnw_logging/
+https://www.%s.facebook.com/adnw_logging/
+http://www.facebook.com
+https://facebook.com
+https://graph.%s
+https://graph-video.%s
+https://facebook.com/device?user_code=%1$s&qr=1
+http://www.android.com/
+https://adlog.flurry.com
+http://adlog.flurry.com
+https://www.tumblr.com/oauth/access_token
+https://www.tumblr.com/oauth/authorize?oauth_token=%s
+https://api.tumblr.com/v2/blog/
+https://api.tumblr.com/v2/blog/
+https://www.tumblr.com/oauth/request_token
+https://api.tumblr.com/v2/user/info
+http://www.tumblr.com/connect/login_success.html
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+https://data.flurry.com/pcr.do
+https://ads.flurry.com/v17/getAds.do
+http://ads.flurry.com/v17/getAds.do
+https://cdn.flurry.com/vast/videocontrols/v2/android.zip
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+http://twitter.com/
+https://twitter.com/
+https://static.musixmatch.com/badges/sharecards/
+https://static.musixmatch.com/badges/level_cards/level
+https://s.mxmcdn.net/user/user_empty.png
+https://graph.facebook.com/
+http://www.google-analytics.com
+https://ssl.google-analytics.com
+http://mxmscripts.s3.amazonaws.com/status
+http://mxmscripts.s3.amazonaws.com/status
+https://apic.musixmatch.com/captcha.html?callback_url=
+https://accounts.google.com/o/oauth2/revoke?token=
+https://accounts.google.com/o/oauth2/revoke?token=
+https://ws.audioscrobbler.com/2.0/
+https://ws.audioscrobbler.com/2.0/
+http://mxmt.ch/t/
+https://static.musixmatch.com/translations/flags/%s-flag@3x.png
+http://www.google.com/events/io/2011/
+https://play.google.com/store/apps/details?id=com.musixmatch.android.lyrify
+https://static.musixmatch.com/translations/languages.json
+https://play.google.com/store/apps/details?id=com.musixmatch.android.lockscreen
+https://open.spotify.com/user/spotify/playlist/4hOKQuZbraPDIfaGbM3lKI
+http://ws.audioscrobbler.com/2.0/
+https://api.branch.io/
+https://settings.crashlytics.com/spi/v2/platforms/android/apps/%s/settings
+http://hostname/?
+https://plus.google.com/
+https://pagead2.googlesyndication.com/pagead/gen_204
+http://www.google.com
+https://support.google.com/dfp_premium/answer/7160685#push
+http://schemas.android.com/apk/res/android
+http://api.acrcloud.com/v1/devices/login
+https://proton.flurry.com/sdk/v1/config
+https://data.flurry.com/aap.do
+http://data.flurry.com/aap.do
+http://www.amazon.com/gp/mas/dl/android?p=
+http://musixmatch.com/musixmatch-terms-conditions-apps/
+https://e.crashlytics.com/spi/v2/events
+https://www.googleapis.com/auth/games_lite
+https://www.googleapis.com/auth/games
+https://play.google.com/store/account/subscriptions
+http://www.w3.org/ns/ttml#parameter
+
+[INTERNAL_LOG][2018-06-08 00:22:10,797][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-08 00:22:10,803][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-08 00:22:10,803][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-08 00:22:10,803][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-08 00:22:10,803][INFO][analyze_start()] End time:[Fri Jun  8 00:22:10 2018]

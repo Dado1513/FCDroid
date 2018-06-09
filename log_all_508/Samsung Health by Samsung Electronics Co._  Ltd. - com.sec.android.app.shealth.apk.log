@@ -1,0 +1,433 @@
+[INTERNAL_LOG][2018-06-08 04:13:24,981][INFO][analyze_start()] Init Time [Fri Jun  8 04:13:24 2018]
+[INTERNAL_LOG][2018-06-08 04:13:25,281][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-08 04:13:25,287][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-08 04:13:25,287][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-08 04:13:25,287][INFO][is_hybird()] android.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-08 04:13:25,287][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-08 04:13:25,287][INFO][is_hybird()] android.permission.ACCESS_FINE_LOCATION
+[INTERNAL_LOG][2018-06-08 04:13:25,287][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-08 04:13:25,287][INFO][is_hybird()] com.google.android.providers.gsf.permission.READ_GSERVICES
+[INTERNAL_LOG][2018-06-08 04:13:25,287][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-08 04:13:25,287][INFO][is_hybird()] android.permission.READ_PHONE_STATE
+[INTERNAL_LOG][2018-06-08 04:13:25,287][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-08 04:13:25,287][INFO][is_hybird()] android.permission.CAMERA
+[INTERNAL_LOG][2018-06-08 04:13:25,287][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-08 04:13:25,287][INFO][is_hybird()] android.permission.SEND_SMS
+[INTERNAL_LOG][2018-06-08 04:13:25,287][INFO][is_hybird()] android.permission.RECEIVE_SMS
+[INTERNAL_LOG][2018-06-08 04:13:25,287][INFO][is_hybird()] android.permission.READ_CONTACTS
+[INTERNAL_LOG][2018-06-08 04:13:25,287][INFO][is_hybird()] android.permission.RECEIVE_BOOT_COMPLETED
+[INTERNAL_LOG][2018-06-08 04:13:25,288][INFO][is_hybird()] android.permission.BLUETOOTH
+[INTERNAL_LOG][2018-06-08 04:13:25,288][INFO][is_hybird()] android.permission.BLUETOOTH_ADMIN
+[INTERNAL_LOG][2018-06-08 04:13:25,288][INFO][is_hybird()] android.permission.NFC
+[INTERNAL_LOG][2018-06-08 04:13:25,288][INFO][is_hybird()] com.sec.android.service.health.permission.SWEIGHTSENSOR
+[INTERNAL_LOG][2018-06-08 04:13:25,288][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-08 04:13:25,288][INFO][is_hybird()] com.sec.android.app.shealth.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-08 04:13:25,288][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-08 04:13:25,288][INFO][is_hybird()] com.samsung.android.app.withtv.ACCESS_WITH_TV
+[INTERNAL_LOG][2018-06-08 04:13:25,288][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-08 04:13:25,288][INFO][is_hybird()] android.permission.AUTHENTICATE_ACCOUNTS
+[INTERNAL_LOG][2018-06-08 04:13:25,288][INFO][is_hybird()] android.permission.READ_SYNC_STATS
+[INTERNAL_LOG][2018-06-08 04:13:25,288][INFO][is_hybird()] android.permission.READ_SYNC_SETTINGS
+[INTERNAL_LOG][2018-06-08 04:13:25,288][INFO][is_hybird()] android.permission.WRITE_SYNC_SETTINGS
+[INTERNAL_LOG][2018-06-08 04:13:25,288][INFO][is_hybird()] com.sec.spp.permission.PUSH_SERVICE_PROVIDER
+[INTERNAL_LOG][2018-06-08 04:13:25,288][INFO][is_hybird()] com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY
+[INTERNAL_LOG][2018-06-08 04:13:25,288][INFO][is_hybird()] android.permission.MANAGE_ACCOUNTS
+[INTERNAL_LOG][2018-06-08 04:13:25,288][INFO][is_hybird()] android.permission.RECORD_AUDIO
+[INTERNAL_LOG][2018-06-08 04:13:25,288][INFO][is_hybird()] android.permission.MODIFY_AUDIO_SETTINGS
+[INTERNAL_LOG][2018-06-08 04:13:25,288][INFO][is_hybird()] android.permission.GET_TASKS
+[INTERNAL_LOG][2018-06-08 04:13:25,288][INFO][is_hybird()] android.permission.WRITE_SMS
+[INTERNAL_LOG][2018-06-08 04:13:25,288][INFO][is_hybird()] android.permission.READ_PROFILE
+[INTERNAL_LOG][2018-06-08 04:13:25,288][INFO][is_hybird()] android.permission.READ_PRIVILEGED_PHONE_STATE
+[INTERNAL_LOG][2018-06-08 04:13:25,288][INFO][is_hybird()] com.samsung.android.coreapps.permission.ENHANCED_FEATURES
+[INTERNAL_LOG][2018-06-08 04:13:25,288][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-08 04:13:25,288][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-08 04:13:25,289][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-08 04:13:25,289][INFO][find_string()] File: assets/enterprise/enterprise_no_network.html
+[INTERNAL_LOG][2018-06-08 04:13:25,289][INFO][find_string()] No iframe in assets/enterprise/enterprise_no_network.html
+[INTERNAL_LOG][2018-06-08 04:13:25,289][INFO][find_string()] File: assets/hwebview_test.html
+[INTERNAL_LOG][2018-06-08 04:13:25,299][INFO][find_string()] No iframe in assets/hwebview_test.html
+[INTERNAL_LOG][2018-06-08 04:13:25,299][INFO][find_string()] File: assets/hwebview_test_internal.html
+[INTERNAL_LOG][2018-06-08 04:13:25,305][INFO][find_string()] No iframe in assets/hwebview_test_internal.html
+[INTERNAL_LOG][2018-06-08 04:13:25,305][INFO][find_string()] File: assets/hwebview_test_scheme.html
+[INTERNAL_LOG][2018-06-08 04:13:25,309][INFO][find_string()] No iframe in assets/hwebview_test_scheme.html
+[INTERNAL_LOG][2018-06-08 04:13:25,378][INFO][find_string()] File: assets/hwebview_test_service.html
+[INTERNAL_LOG][2018-06-08 04:13:25,546][INFO][find_string()] No iframe in assets/hwebview_test_service.html
+[INTERNAL_LOG][2018-06-08 04:13:25,546][INFO][find_string()] File: assets/hwebview_test_welldoc.html
+[INTERNAL_LOG][2018-06-08 04:13:25,550][INFO][find_string()] No iframe in assets/hwebview_test_welldoc.html
+[INTERNAL_LOG][2018-06-08 04:13:25,550][INFO][find_string()] File: assets/promotion_test.html
+[INTERNAL_LOG][2018-06-08 04:13:25,554][INFO][find_string()] No iframe in assets/promotion_test.html
+[INTERNAL_LOG][2018-06-08 04:13:25,554][INFO][find_string()] File: assets/samsung_fire_test.html
+[INTERNAL_LOG][2018-06-08 04:13:25,560][INFO][find_string()] No iframe in assets/samsung_fire_test.html
+[INTERNAL_LOG][2018-06-08 04:13:25,560][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-08 04:15:42,130][INFO][find_url_in_apk()] [START URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-08 04:15:42,131][INFO][find_url_in_apk()] http://static.bada.com/contents/legal/kor/kor/locationinfortnc.html
+http://health.apps.samsung.com/policy/ko
+http://mobile.vpay.co.kr/jsp/MISP/andown.jsp
+http://market.android.com
+http://m.ahnlab.com/kr/site/download
+https://api.imhealth.co.kr/Web/Hospital
+
+[INTERNAL_LOG][2018-06-08 04:15:42,131][INFO][find_url_in_apk()] [END URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-08 04:15:44,917][ERROR][download_page_loaded()] Invalid Schema exception for url: http://mobile.vpay.co.kr/jsp/MISP/andown.jsp, try add http:// 
+[INTERNAL_LOG][2018-06-08 04:15:44,948][ERROR][download_page_loaded()] Failed connection errror after add http download: http://http://mobile.vpay.co.kr/jsp/MISP/andown.jsp 
+[INTERNAL_LOG][2018-06-08 04:15:48,496][ERROR][download_page_loaded()] Failed response code: 404 for http://m.ahnlab.com/kr/site/download  
+[INTERNAL_LOG][2018-06-08 04:15:50,653][INFO][find_string()] [START REMOTE FILE ANALYZE]
+[INTERNAL_LOG][2018-06-08 04:15:50,653][INFO][find_string()] Remote File in: temp_html_code/html_downloaded_Samsung Health by Samsung Electronics Co/locationinfortnc.html
+[INTERNAL_LOG][2018-06-08 04:15:50,653][INFO][find_string()] URL: http://static.bada.com/contents/legal/kor/kor/locationinfortnc.html
+[INTERNAL_LOG][2018-06-08 04:15:50,661][INFO][find_string()] No iframe in temp_html_code/html_downloaded_Samsung Health by Samsung Electronics Co/locationinfortnc.html
+[INTERNAL_LOG][2018-06-08 04:15:50,661][INFO][find_string()] Remote File in: temp_html_code/html_downloaded_Samsung Health by Samsung Electronics Co/ko
+[INTERNAL_LOG][2018-06-08 04:15:50,661][INFO][find_string()] URL: http://health.apps.samsung.com/policy/ko
+[INTERNAL_LOG][2018-06-08 04:15:50,663][INFO][find_string()] No iframe in temp_html_code/html_downloaded_Samsung Health by Samsung Electronics Co/ko
+[INTERNAL_LOG][2018-06-08 04:15:50,663][INFO][find_string()] Remote File in: temp_html_code/html_downloaded_Samsung Health by Samsung Electronics Co/market.android.com
+[INTERNAL_LOG][2018-06-08 04:15:50,663][INFO][find_string()] URL: http://market.android.com
+[INTERNAL_LOG][2018-06-08 04:15:50,780][INFO][find_string()] No iframe in temp_html_code/html_downloaded_Samsung Health by Samsung Electronics Co/market.android.com
+[INTERNAL_LOG][2018-06-08 04:15:50,780][INFO][find_string()] Remote File in: temp_html_code/html_downloaded_Samsung Health by Samsung Electronics Co/Hospital
+[INTERNAL_LOG][2018-06-08 04:15:50,780][INFO][find_string()] URL: https://api.imhealth.co.kr/Web/Hospital
+[INTERNAL_LOG][2018-06-08 04:15:50,883][INFO][find_string()] No iframe in temp_html_code/html_downloaded_Samsung Health by Samsung Electronics Co/Hospital
+[INTERNAL_LOG][2018-06-08 04:15:50,884][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-08 04:15:50,884][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-08 04:15:50,884][INFO][find_url_in_apk()] http://schemas.android.com/apk/res/android
+http://tm.amap.com
+http://wprd0%d.is.autonavi.com
+http://webrd0%d.is.autonavi.com
+http://mst0%d.is.autonavi.com
+http://grid.amap.com/grid/%d/%d/%d?ds=
+https://restapi.amap.com/v3/iasdkauth
+http://restapi.amap.com/v3/iasdkauth
+http://restapi.amap.com
+http://logs.amap.com/ws/log/upload?product=%s&type=%s&platform=%s&channel=%s&sign=%s
+http://apilocate.amap.com/mobile/binary
+https://openrcv.baidu.com/1010/bplus.gif
+https://dxp.baidu.com/upgrade?
+https://hmma.baidu.com/app.gif
+http://www.w3.org/TR/SVG11/feature#
+http://www.w3.org/1999/xlink
+http://www.w3.org/1999/xlink
+http://www.w3.org/1999/xlink
+http://www.w3.org/1999/xlink
+http://www.w3.org/1999/xlink
+http://www.w3.org/1999/xlink
+http://www.w3.org/1999/xlink
+http://www.w3.org/1999/xlink
+http://www.w3.org/1999/xlink
+http://www.w3.org/1999/xlink
+http://www.w3.org/1999/xlink
+http://www.w3.org/1999/xlink
+http://www.w3.org/1999/xlink
+http://www.w3.org/1999/xlink
+http://www.w3.org/2000/svg
+http://www.w3.org/2000/svg
+http://www.w3.org/2000/svg
+http://www.w3.org/2000/svg
+http://xml.org/sax/properties/lexical-handler
+http://xml.org/sax/properties/lexical-handler
+https://graph.%s
+https://graph-video.%s
+https://facebook.com
+http://hostname/?
+http://www.google-analytics.com
+https://ssl.google-analytics.com
+http://plus.google.com/
+http://shealth-tnc.samsunghealth.com/android
+http://shealth-tnc.samsunghealth.com/android
+http://vas.samsungapps.com/stub/stubUpdateCheck.as?
+http://vas.samsungapps.com/stub/stubUpdateCheck.as?
+https://health.apps.samsung.com/
+https://data-api-stg.samsunghealth.com
+https://data-api.samsunghealth.com
+https://enterprise-service-user.samsunghealth.com/
+https://enterprise-user-stg.test.samsunghealth.com/
+http://52.38.160.88:8081/
+http://52.38.160.88:8081/
+https://enterprise-service-client.samsunghealth.com/
+https://enterprise-client-api-stg.test.samsunghealth.com/
+http://abcde.com/12345.jpg
+http://api-ae-kr-dev.samsungknowledge.com
+https://api-tpip-us.samsungknowledge.com
+https://api-ae-stg.samsungknowledge.com
+https://www.lybrate.com/Shealth/v5.0/search_sugg/
+https://www.lybrate.com/Shealth/v5.0/search_doc_sugg/
+https://www.lybrate.com/Shealth/v5.0/search
+https://www.lybrate.com/Shealth/v5.0/article/
+https://www.lybrate.com/Shealth/v5.0/questions/
+https://www.lybrate.com/Shealth/v5.0/city
+https://www.lybrate.com/Shealth/v5.0/questions
+https://www.lybrate.com/Shealth/v5.0/kins
+https://www.lybrate.com/Shealth/v5.0/doctor_types
+https://www.lybrate.com/Shealth/v5.0/create/account/users
+https://www.lybrate.com/Shealth/v5.0/locality
+https://www.lybrate.com/Shealth/v5.0/get/slot
+https://www.lybrate.com/Shealth/v5.0/book/slot
+https://www.lybrate.com/Shealth/v5.0/search_doctor
+https://www.lybrate.com/Shealth/v5.0/doctor/
+https://www.lybrate.com/Shealth/v5.0/media/upload
+https://www.lybrate.com/Shealth/v5.0/default_doc_search_sugg
+https://www.lybrate.com/Shealth/v5.0/edit/kin
+https://www.lybrate.com/Shealth/v5.0/create/conversation
+https://www.lybrate.com/Shealth/v5.0/enquiry/action
+https://www.lybrate.com/Shealth/v5.0/get/account
+https://www.lybrate.com/Shealth/v5.0/get/history/qna
+https://www.lybrate.com/Shealth/v5.0/get/history/appointment
+https://www.lybrate.com/Shealth/v5.0/get/history/chat
+https://www.lybrate.com/Shealth/v5.0/reset/account
+https://www.lybrate.com/Shealth/v5.0/popular/city
+https://www.lybrate.com/Shealth/v5.0/cancel/appointment/
+https://www.lybrate.com/Shealth/v5.0/reschedule/appointment/
+https://www.lybrate.com/Shealth/v5.0/delete/account
+https://www.lybrate.com/Shealth/v5.0/appointment/
+https://www.lybrate.com/Shealth/v5.0/search/localities/
+https://www.lybrate.com/Shealth/v5.0/city/details/by/lat/long
+https://www.lybrate.com/Shealth/v5.0/update/disclaimer
+https://www.lybrate.com/Shealth/v5.0/mark/messages/as/read
+https://www.lybrate.com/Shealth/
+https://latest.lybrate.com/Shealth/
+http://raven.lybrate.com:20085/Shealth/
+http://52.74.167.17:20140/Shealth/
+http://52.74.167.17:20137/Shealth/
+https://api.samsungosp.com/v2/profile/user/user/
+https://ae-us-aed-stg.aeshealth.com/aed/
+https://help.content.samsung.com/csweb/auth/gosupport.do?serviceCd=shealth&_common_country=
+https://help.content.samsung.com/csweb/auth/gosupport.do?serviceCd=shealth&_common_country=
+https://help.content.samsung.com/csweb/auth/gosupport.do?serviceCd=shealth&_common_country=
+http://google.com/generate_204
+https://oc182.mytelehealth.com
+https://ae-us-aedapi.samsunghealth.com:443
+https://aeu-contents.s3.amazonaws.com
+https://iot107.myonlinecare.com:8421/
+https://ae-us-aed-stg.aeshealth.com:443
+https://ae-us-s3-stg.aeshealth.com
+https://shealth.life/v1/contentsList
+http://cdn.flipboard.com/s-health-app/index.html
+https://prod.yana.asideas.de/api/v2/shealth/tab/en
+https://prod.yana.asideas.de/api/v2/shealth/tab/fr
+https://prod.yana.asideas.de/api/v2/shealth/tab/de
+https://prod.yana.asideas.de/api/v2/shealth/tab/pl
+https://sapp.flipchina.cn/s-health-app/index.html
+http://m.onlymyhealth.com/samsung/list
+http://49.254.11.204:8081/v3/contentsList
+http://staging.onlymyhealth.com/samsung/list
+https://shealth.life/v3/contentsList
+https://shealth.life
+http://www.samsungapps.com
+http://img.lum.dolimg.com/v1/images/b5da8e4c0046a83b81dbd945719f6b354edd764b.jpeg
+https://media2.wnyc.org/i/800/658/l/80/1/annasale11_square_nRebwBO.jpg
+https://pbs.twimg.com/profile_images/637248384638828544/Sq-A1jdW.jpg
+http://www.hellomagazine.com/imagenes/celebrities/2015091827269/ellie-goulding-on-my-mind-ed-sheeran/0-136-189/ellie-goulding--z.jpg
+http://orig13.deviantart.net/edf6/f/2014/276/f/a/the_last_of_us___ellie__01__by_beethy-d81f68u.jpg
+http://webapp-dev.samsungknowledge.com
+http://webapp-dev.samsungknowledge.com
+http://webapp-stg.samsungknowledge.com
+http://webapp-stg.samsungknowledge.com
+http://webapp.samsungknowledge.com
+http://webapp.samsungknowledge.com
+http://collector-dev.samsungknowledge.com/knowledge-collect/v1.0/usage
+https://collector-stg.samsungknowledge.com/knowledge-collect/v1.0/usage
+https://collector.samsungknowledge.com/knowledge-collect/v1.0/usage
+http://api-dev.samsungknowledge.com/knowledge-ws/v1.2/users
+https://api-stg.samsungknowledge.com/knowledge-ws/v1.2/users
+https://api.samsungknowledge.com/knowledge-ws/v1.2/users
+http://static.bada.com/contents/legal/kor/kor/locationinfortnc.html
+http://static.bada.com/contents/legal/kor/kor/locationinfortnc.html
+http://health.apps.samsung.com/policy/ko
+http://health.apps.samsung.com/policy/ko
+https://qa2-dsm.testwd.com/Portal/Guest/Samsung/dropprogram.htm
+https://qa2-dsm.testwd.com/Portal/Guest/Samsung/dropprogram.htm
+https://api.samsungknowledge.com/knowledge-ws/v1.2/auth/access_token
+https://api.samsungknowledge.com/knowledge-ws/v1.2/auth/access_token
+https://api.samsungknowledge.com/knowledge-ws/v1.2/auth/access_token
+http://api-dev.samsungknowledge.com/knowledge-ws/v1.2/auth/access_token
+http://api-dev.samsungknowledge.com/knowledge-ws/v1.2/auth/access_token
+http://api-dev.samsungknowledge.com/knowledge-ws/v1.2/auth/access_token
+http://api-stg.samsungknowledge.com/knowledge-ws/v1.2/auth/access_token
+http://api-stg.samsungknowledge.com/knowledge-ws/v1.2/auth/access_token
+http://api-stg.samsungknowledge.com/knowledge-ws/v1.2/auth/access_token
+https://qa2-dsm.testwd.com/Service/api/Samsung/Notification/Accept
+https://qa2-dsm.testwd.com/Service/api/Samsung/Notification/Accept
+https://qa2-dsm.testwd.com/Portal/Guest/Samsung/terms.htm
+https://qa2-dsm.testwd.com/Portal/Guest/Samsung/terms.htm
+https://qa2-dsm.testwd.com/Portal/Guest/Samsung/login.htm
+https://qa2-dsm.testwd.com/Portal/Guest/Samsung/login.htm
+https://qa2-dsm.testwd.com/Portal/Guest/samsung/sessionreport.htm?programid={sessionId}
+https://qa2-dsm.testwd.com/Portal/Guest/samsung/sessionreport.htm?programid={sessionId}
+https://qa2-dsm.testwd.com/Service/api/Samsung/Session/{sessionId}
+https://qa2-dsm.testwd.com/Service/api/Samsung/Session/{sessionId}
+http://content-dev.samsungknowledge.com/program/microsite/hq/index.html
+http://content-dev.samsungknowledge.com/program/microsite/hq/index.html#/body
+http://LB-SKnowledge-PROGRAM-DEV-1843664841.us-west-2.elb.amazonaws.com/welldoc/v1/session/{sessionId}
+http://LB-SKnowledge-PROGRAM-DEV-1843664841.us-west-2.elb.amazonaws.com/welldoc/v1/session/{sessionId}/noti
+https://api-promo
+http://api-promo-dev
+https://api-promo-stg
+http://android.myapp.com/myapp/detail.htm?apkName=
+http://play.google.com/store/apps/details?id=
+http://mobile.vpay.co.kr/jsp/MISP/andown.jsp
+http://mobile.vpay.co.kr/jsp/MISP/andown.jsp
+http://mobile.vpay.co.kr/jsp/MISP/andown.jsp
+http://market.android.com
+http://market.android.com
+http://market.android.com
+http://m.ahnlab.com/kr/site/download
+http://m.ahnlab.com/kr/site/download
+http://m.ahnlab.com/kr/site/download
+https://health.welstorymall.com/mobile/secure/login/
+https://shealth-api.samsunghealth.com/
+https://shealth-api.samsunghealth.com/
+https://shealth-api.samsunghealth.com/
+https://shealth-api.samsunghealth.com/
+https://shealth-api.samsunghealth.com/
+https://shealth-api.samsunghealth.com/
+https://shealth-api.samsunghealth.com/
+https://shealth-stg-api.samsunghealth.com/
+https://shealth-stg-api.samsunghealth.com/
+https://shealth-stg-api.samsunghealth.com/
+https://shealth-stg-api.samsunghealth.com/
+https://shealth-stg-api.samsunghealth.com/
+https://shealth-stg-api.samsunghealth.com/
+https://shealth-stg-api.samsunghealth.com/
+https://oa.welstorymall.com/
+http://shealth.samsung.com/deepLink?sc_id=app.main&action=view&destination=together
+http://shealth.samsung.com/deepLink?sc_id=app.main&action=view&destination=together&qr=
+http://shealth.samsung.com/deepLink?sc_id=app.main&action=view&destination=together&qr=
+https://shealth-social-api.samsunghealth.com/social/v0/
+https://shealth-social-api.samsunghealth.com/social/v0/
+https://dev.samsunghealth.com/social/v0/
+https://shealth-social-stg-api.samsunghealth.com/social/v0/
+http://www.w3.org/TR/Svg11/feature#
+https://shealth-api.samsunghealth.com/v1/feedback
+https://ifood.boohee.com/v2/ifoods/find_by_barcode
+http://ifood.boohee.com/v2/ifoods
+https://ifood.boohee.com/v2/ifoods/
+https://ifood.boohee.com/v2/ifoods/search
+https://ifood.boohee.com/v2/ifoods/suggest_search
+https://platform.fatsecret.com/rest/server.api?method=food.get&include_sub_categories=true&oauth_consumer_key=
+https://platform.fatsecret.com/rest/server.api?method=foods.autocomplete&oauth_consumer_key=
+https://platform.fatsecret.com/rest/server.api?method=food.find_id_for_barcode&oauth_consumer_key=
+https://platform.fatsecret.com/rest/server.api?method=foods.search&oauth_consumer_key=
+https://foodinfo.samsungknowledge.com/platform/food/getFoodInfo
+https://foodinfo.samsungknowledge.com/platform/food/searchFood
+http://www.nationalacademies.org/hmd/>
+http://www.kns.or.kr>
+http://www.shealth.com
+http://www.shealth.com
+http://www.shealth.com
+http://www.shealth.com
+http://www.shealth.com
+https://stg.imhealth.co.kr
+https://api.imhealth.co.kr
+http://www.shealth.com&
+http://www.shealth.com&
+https://api.imhealth.co.kr/Web/Hospital
+https://api.imhealth.co.kr/Web/Hospital
+https://account.samsung.com
+https://account.samsung.com
+http://samsunghealth.etribe.co.kr
+http://samsunghealth.etribe.co.kr
+https://stg.samsunghealth.etribe.co.kr
+https://stg.samsunghealth.etribe.co.kr
+https://anyfit.samsungfire.com
+https://anyfit.samsungfire.com
+http://xmlpull.org/v1/doc/features.html#indent-output
+http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd
+http://www.topografix.com/GPX/1/1
+http://www.w3.org/2001/XMLSchema-instance
+http://www.w3.org/2001/XMLSchema-instance
+http://www.topografix.com/GPX/1/0
+http://gpstracker.android.sogeti.n1/GPX/1/0
+http://play.google.com/store/apps/details?id=com.accuweather.android
+https://api.weather.com/v2/aggcommon/v3-wx-observations-current;v3-links?units=m&format=json&geocode=%s,%s&apiKey=bd5f51004e1549f79f51004e15f9f7dd&par=samsung_health&language=%s
+https://weather.com/
+http://web.cn-weathernews.cn
+http://galaxy.wni.com/cn/weather.cgi?lat=%s&lon=%s&format=%s
+http://www.jp-weathernews.com
+http://weathernews.jp:80/api/partialSearch.fcgi?q=%s&format=%s&lang=EN&ver=1.0
+http://weathernews.jp/api/wxfcst.cgi?loc=%s&lang=EN&format=%s&ver=1.0
+http://www.kr-weathernews.com
+http://galaxy.wni.com/api/searchcityntheme.cgi?query=%s&format=%s
+http://galaxy.wni.com/api/weather.cgi?loc=%s&format=%s
+https://www.samsung.com
+https://redirect.shealth.samsung.com/runkeeper
+https://redirect.shealth.samsung.com/runkeeper
+https://redirect.shealth.samsung.com/facebook
+https://redirect.shealth.samsung.com/facebook
+https://redirect.shealth.samsung.com/misfitwearables
+https://redirect.shealth.samsung.com/misfitwearables
+https://redirect.shealth.samsung.com/fitbit
+https://redirect.shealth.samsung.com/fitbit
+https://redirect.shealth.samsung.com/microsofthealth
+https://redirect.shealth.samsung.com/microsofthealth
+https://redirect.shealth.samsung.com/microsofthealth
+https://api.runkeeper.com/user
+https://jawbone.com/nudge/api/v.1.1/users/@me
+https://api.misfitwearables.com/move/resource/v1/user/me/profile
+https://runkeeper.com/apps/de-authorize
+https://www.strava.com/oauth/deauthorize
+https://graph.facebook.com/oauth/authorize
+https://jawbone.com/auth/oauth2/token
+https://jawbone.com/auth/oauth2/token
+https://runkeeper.com/apps/token
+https://www.strava.com/oauth/token
+https://api.misfitwearables.com/auth/tokens/exchange
+https://api.fitbit.com/oauth2/token
+https://api.fitbit.com/oauth2/token
+https://login.live.com/oauth20_token.srf
+https://login.live.com/oauth20_token.srf
+https://graph.facebook.com/oauth/access_token
+https://redirect.shealth.samsung.com/jawbone
+https://api.fitbit.com/1.2/user/-/sleep/date/
+https://api.misfitwearables.com/move/resource/v1/user/me/device
+https://api.misfitwearables.com/move/resource/v1/user/me/activity/sessions?start_date=
+https://api.misfitwearables.com/move/resource/v1/user/me/activity/sleeps?start_date=
+https://api.microsofthealth.net/v1/me/Activities?activityTypes=Run,Bike,GOLF,FreePlay,GuidedWorkout&activityIncludes=Details,MinuteSummaries,MapPoints&startTime=
+https://api.microsofthealth.net/v1/me/Activities?activityTypes=Sleep&activityIncludes=Details,MinuteSummaries,MapPoints&startTime=
+https://api.runkeeper.com
+https://api.runkeeper.com
+https://api.runkeeper.com
+https://api.runkeeper.com
+https://www.strava.com/api/v3/uploads
+https://www.strava.com/api/v3/uploads/
+http://www.garmin.com/xmlschemas/ActivityExtension/v2
+http://www8.garmin.com/xmlschemas/TrainingCenterDatabasev2.xsd
+http://www.garmin.com/xmlschemas/TrainingCenterDatabase/v2
+https://analytics-dev-api.test.samsunghealth.com/analytics/v0/logs
+https://analytics-dev-api.test.samsunghealth.com/analytics/v0/logs
+https://shealth-analytics-stg-api.samsunghealth.com/analytics/v0/logs
+https://shealth-analytics-stg-api.samsunghealth.com/analytics/v0/logs
+https://shealth-analytics-api.samsunghealth.com/analytics/v0/logs
+https://shealth-analytics-api.samsunghealth.com/analytics/v0/logs
+https://shealth-analytics-api.samsunghealth.com.cn/analytics/v0/logs
+https://shealth-analytics-api.samsunghealth.com.cn/analytics/v0/logs
+https://analytics-dev-api.test.samsunghealth.com/
+https://shealth-analytics-stg-api.samsunghealth.com/
+https://shealth-analytics-api.samsunghealth.com/
+https://shealth-analytics-api.samsunghealth.com.cn/
+http://localhost/
+http://localhost/
+https://pre-dpr.samsungcloud.com
+https://cas.samsungcloud.com
+https://cn-api.samsungosp.com
+https://api.samsungosp.com
+http://hub.samsungapps.com/product/appCheck.as?
+https://chn.account.samsung.com
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+https://stg-service.samsungcloud.com
+https://cn-api.samsungcloud.com
+https://api.samsungcloud.com
+https://shealth.samsungcloud.com
+https://shealth-api.samsunghealth.com
+https://shealth-api.samsunghealth.com
+https://shealth-api.samsunghealth.com
+https://eu2-scloud-proxy.ssp.samsungosp.com
+https://dc.di.atlas.samsung.com
+
+[INTERNAL_LOG][2018-06-08 04:15:50,884][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-08 04:15:50,893][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-08 04:15:50,893][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-08 04:15:50,893][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-08 04:15:50,893][INFO][analyze_start()] End time:[Fri Jun  8 04:15:50 2018]
