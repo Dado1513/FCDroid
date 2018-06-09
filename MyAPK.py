@@ -215,7 +215,7 @@ class MyAPK:
                 list_src_iframe = []
 
                 try:
-                    if self.search_tag: 
+                    if self.search_tag and not file_to_inspect.endswith(".js"): 
                         list_tag = soup.findAll(self.string_to_find)
                         file_line = file_read.split("\n")
                         for name_tag in list_tag:
