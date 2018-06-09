@@ -23,7 +23,6 @@ apk_with_js_interface = list()
 
 
 def analyze_start(conf, apk_to_analyze, tag, string_to_find, api_monitor_dict=None, network_dict=None):
-    print("\n")
     print(bcolors.BOLD+apk_to_analyze.split("/")[-1]+bcolors.ENDC)
     if not os.path.exists("log"):
         os.makedirs("log")
@@ -127,7 +126,7 @@ def main():
                 list_apk_to_analyze = glob.glob(args.dir_apk+"*.apk")
             list_apk_yet_analyzed = list()
             for apk_to_analyze in list_apk_to_analyze:
-                print(bcolors.BOLD+" APK: {0}".format(number_apk))
+                print(bcolors.BOLD+"\n APK: {0}".format(number_apk))
                 number_apk = number_apk + 1
                 scan = analyze_start(conf, apk_to_analyze,tag, args.string_to_find)
                 if scan is not None and not scan: # non ho fatto analisi perchè già presente:
