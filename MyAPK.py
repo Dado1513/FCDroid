@@ -96,7 +96,7 @@ class MyAPK:
             for name in self.list_file:
                 for file_to_check in list_file_to_find:
                     # name = name.split("/")[-1]
-                    if file_to_check  in name:            
+                    if file_to_check in name:            
                         self.is_contain_file_hybrid = True  # almeno un file
                         self.file_hybrid.append(name) # add file hybrid founded
             # Add se trova il file config.xml all'interno allora lo memorizzo:
