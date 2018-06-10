@@ -222,9 +222,11 @@ class MyAPK:
                             try:
                                 if name_tag["src"] is not None:
                                     list_src_iframe.append(name_tag["src"])
-                            except KeyError:
+                            except KeyError: 
+                                # allora i file js dovrebbero fare a caso nostro, dovrei cercare l'id dell'iframe all'interno del file javascript
                                 pass
                             find_iframe = True
+                            self.logger.logger.info("Found this tag {0}".format(name_tag))
                             list_row_string.append(name_tag)
 
                             
@@ -238,14 +240,19 @@ class MyAPK:
                     if find_iframe and self.string_to_find == "iframe":
                         self.dict_file_with_string[file_to_inspect] = list_row_string
                         self.src_iframe[file_to_inspect] = list_src_iframe
-                        if not self.search_tag:
+                        # TODO search id iframe in file js in script src
+                        if not self.search_tag or file_to_inspect.endswith(".js"): 
+                            # non devo cercare il tag oppure il file finisce con js
+                            
                             print(bcolors.FAIL+"Found "+self.string_to_find+" in line "+str(list_row_string)+bcolors.ENDC)  
                             self.logger.logger.info("Found  %s file %s in line %s",self.string_to_find,file_to_inspect,str(list_row_string)) 
                         else:
                             print(bcolors.FAIL+"Found tag "+self.string_to_find +",  "+str(len(list_row_string)) +" times "+bcolors.ENDC)
                             self.logger.logger.info("Found in file %s tag %s , %s times",file_to_inspect,self.string_to_find,str(len(list_row_string)) )
-                            self.logger.logger.info("Founded this src {0} in iframe tag inside file {1}".format(str(self.src_iframe[file_to_inspect]),file_to_inspect))
-
+                            if len(self.src_iframe[file_to_inspect]) > 0:
+                                self.logger.logger.info("Founded this src {0} in iframe tag inside file {1}".format(str(self.src_iframe[file_to_inspect]),file_to_inspect))
+                            else:
+                                self.logger.logger.info("No src founded in iframe tag inside file {0}".format(file_to_inspect))
                         # TODO aggiungere il content e fare conclusioni su di esso
                         find_csp  = soup.find("meta",{"http-equiv":"Content-Security-Policy"})
                         if find_csp is not None:
