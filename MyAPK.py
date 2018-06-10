@@ -95,8 +95,8 @@ class MyAPK:
 
             for name in self.list_file:
                 for file_to_check in list_file_to_find:
-                    name = name.split("/")[-1]
-                    if file_to_check == name:            
+                    # name = name.split("/")[-1]
+                    if file_to_check  in name:            
                         self.is_contain_file_hybrid = True  # almeno un file
                         self.file_hybrid.append(name) # add file hybrid founded
             # Add se trova il file config.xml all'interno allora lo memorizzo:
@@ -253,9 +253,9 @@ class MyAPK:
                                 self.logger.logger.info("Founded this src {0} in iframe tag inside file {1}".format(str(self.src_iframe[file_to_inspect]),file_to_inspect))
                             else:
                                 self.logger.logger.info("No src founded in iframe tag inside file {0}".format(file_to_inspect))
-                        # TODO aggiungere il content e fare conclusioni su di esso
+                        # TODO aggiungere il content e fare conclusioni su di esso e per i file JavaScript
                         find_csp  = soup.find("meta",{"http-equiv":"Content-Security-Policy"})
-                        if find_csp is not None:
+                        if find_csp is not None :
                             print(bcolors.OKGREEN+"Find CSP with content: [" +find_csp["content"]+"]"+bcolors.ENDC)
                             self.logger.logger.info("Find CSP with content: [" +find_csp["content"]+"]")
                             self.find_csp[file_to_inspect] = True

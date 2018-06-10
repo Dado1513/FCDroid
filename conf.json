@@ -1,5 +1,5 @@
 {
-    "file_to_check":[ "config.xml",
+    "file_to_check":[ "res/xml/config.xml",
         "cordova.xml",
         "phonegap.xml",
         "cordova.xml"
