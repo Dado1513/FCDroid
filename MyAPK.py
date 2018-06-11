@@ -48,6 +48,7 @@ class MyAPK:
         self.javascript_enabled = False
         self.internet_enabled = False
         self.file_vulnerable_frame_confusion = list()
+        self.file_js_with_iframe = list()
         self.isHybrid = None
         self.method = dict()  # dict indexes with name method and get encoded methods where function was called
         self.all_url = list()  # all url in the apk
@@ -232,8 +233,9 @@ class MyAPK:
                             
                     else:
                         file_line = file_read.split("\n")
+                        string_regex = re.compile("\b"+self.string_to_find+"\b") # only string complete
                         for (counter,value) in enumerate(file_line):
-                            if self.string_to_find in value:
+                            if re.search(string_regex,value):
                                 list_row_string.append(str(counter+1))
                                 find_iframe = True
 
@@ -241,28 +243,34 @@ class MyAPK:
                         self.dict_file_with_string[file_to_inspect] = list_row_string
                         self.src_iframe[file_to_inspect] = list_src_iframe
                         # TODO search id iframe in file js in script src
-                        if not self.search_tag or file_to_inspect.endswith(".js"): 
-                            # non devo cercare il tag oppure il file finisce con js
-                            
+                       
+                        if not self.search_tag or file_to_inspect.endswith(".js"):
+                            self.file_js_with_iframe.append(file_to_inspect) # append file with iframe                             
                             print(bcolors.FAIL+"Found "+self.string_to_find+" in line "+str(list_row_string)+bcolors.ENDC)  
                             self.logger.logger.info("Found  %s file %s in line %s",self.string_to_find,file_to_inspect,str(list_row_string)) 
+
                         else:
                             print(bcolors.FAIL+"Found tag "+self.string_to_find +",  "+str(len(list_row_string)) +" times "+bcolors.ENDC)
                             self.logger.logger.info("Found in file %s tag %s , %s times",file_to_inspect,self.string_to_find,str(len(list_row_string)) )
+
                             if len(self.src_iframe[file_to_inspect]) > 0:
                                 self.logger.logger.info("Founded this src {0} in iframe tag inside file {1}".format(str(self.src_iframe[file_to_inspect]),file_to_inspect))
+
                             else:
                                 self.logger.logger.info("No src founded in iframe tag inside file {0}".format(file_to_inspect))
+                       
                         # TODO aggiungere il content e fare conclusioni su di esso e per i file JavaScript
                         find_csp  = soup.find("meta",{"http-equiv":"Content-Security-Policy"})
                         if find_csp is not None :
                             print(bcolors.OKGREEN+"Find CSP with content: [" +find_csp["content"]+"]"+bcolors.ENDC)
                             self.logger.logger.info("Find CSP with content: [" +find_csp["content"]+"]")
                             self.find_csp[file_to_inspect] = True
-                        else:
+
+                        elif not file_to_inspect.endswith(".js"): # only file html
                             print(bcolors.FAIL+"No CSP found!"+bcolors.ENDC)
                             self.logger.logger.info("No CSP found!")
                             self.find_csp[file_to_inspect] = False
+
                     else:
                         print(bcolors.OKGREEN+"No "+self.string_to_find+" in "+file_to_inspect+bcolors.ENDC)
                         self.logger.logger.info("No "+self.string_to_find+" in "+file_to_inspect)
@@ -524,6 +532,7 @@ class MyAPK:
                 #p rint("Load url in this function but not url string inside: "+url_to_find)
         return False
         
+    # check vulnerability
     def vulnerable_frame_confusion(self):
         """ 
             check if app is vulnerable on frame confusion

@@ -17,6 +17,7 @@ except ImportError:
 dir_log = "log"
 file_conf = "conf.json"
 apk_vulnerable = list()
+apk_maybe_vulnerable = list()
 apk_with_html_file = list() # numero di apk con file html all'interno
 apk_with_js_enabled = list()
 apk_with_js_interface = list()
@@ -63,17 +64,28 @@ def analyze_start(conf, apk_to_analyze, tag, string_to_find, api_monitor_dict=No
 
             if not thread_decompilyng.error:
                 apk.find_url_in_apk()
+                
                 if apk.vulnerable_frame_confusion():
                     print(bcolors.FAIL + "\nThis app might be vulnerable on attack frame confusion." +bcolors.ENDC)
                     apk_vulnerable.append(apk_to_analyze)
                     print(bcolors.FAIL + "This file are vulnerable " + str(apk.file_vulnerable_frame_confusion)+bcolors.ENDC)
                     logger.logger.info("This app might be vulnerable on attack frame confusion, This file are vulnerable %s", str(apk.file_vulnerable_frame_confusion))
+                    if len(apk.file_js_with_iframe) > 0:
+                        apk_maybe_vulnerable.append(apk_to_analyze)
+                        print(bcolors.WARNING+ "This file are suspect, contain iframe string inside:{0} ".format(apk.file_js_with_iframe))
+                        logger.logger.info("This file are suspects, containe string iframe inside: {0}".format(apk.file_js_with_iframe))
                     logger.logger.info("End time:[%s]",time.ctime())
-                else:
-                    print(bcolors.OKGREEN+"\nThis app might be not vulnerable on attack frame confusion"+bcolors.ENDC)
+                
+                elif len(apk.file_js_with_iframe) == 0:
+                    print(bcolors.OKGREEN+"\nThis app might be not vulnerable on attack iframe confusion"+bcolors.ENDC)
                     logger.logger.info("This app might be not vulnerable on  attack frame confusion.")
                     logger.logger.info("End time:["+str(time.ctime())+"]")
                 
+                else:
+                    print(bcolors.WARNING+"\nThis app might be vulnerabile (found string iframe), in this file: "+str(apk.file_js_with_iframe + bcolors.ENDC)
+                    logger.logger.info("This app might be vulnerabile (found string iframe), in this file {0}".format(apk.file_js_with_iframe))
+                    apk_maybe_vulnerable.append(apk_to_analyze)
+                    
                 if apk.javascript_enabled:
                     apk_with_js_enabled.append(apk_to_analyze)
                 if apk.javascript_interface:
@@ -141,11 +153,13 @@ def main():
                 percentual_html_apk = len(apk_with_html_file) / len(list_apk_to_analyze) # app with at least one html page
                 percentual_js_enabled = len(apk_with_js_enabled) / len(list_apk_to_analyze) # app with js enable
                 percentual_js_interface = len(apk_with_js_interface) / len(list_apk_to_analyze) # app with js interface
+                percentual_iframe_not_in_html = len(apk_maybe_vulnerable) / len(list_apk_to_analyze) 
 
                 string_html = "Percentual app with at least one html file inside: {0}%\n".format(percentual_html_apk*100)
                 string_js_enabled = "Percentual app with js enabled {0}%\n".format(percentual_js_enabled * 100)
                 string_js_interface = "Percentual app with js interface {0}%\n".format(percentual_js_interface * 100)
                 string_percentual_vuln = "Percentual app maybe vulnerable: {0}%, based on tot {1}.\n".format(percentual_vuln*100,len(list_apk_to_analyze))
+                string_percentual_iframe_not_in_html = "Percentual app with iframe not in html file {0}\n".format(percentual_iframe_not_in_html*100)
                 second_finish= time.time()
                 average_time_apk = (second_finish - second_start)/len(list_apk_to_analyze)
                 string_time_percentual = "Average time  single apk analyzed {0} sec\n".format(average_time_apk)
@@ -156,6 +170,7 @@ def main():
                 file_stat_final.write(string_js_enabled)
                 file_stat_final.write(string_js_interface)
                 file_stat_final.write(string_percentual_vuln)
+                file_stat_final.write(string_percentual_iframe_not_in_html)
                 file_stat_final.write(string_time_percentual)
                 
                 # print on terminal
@@ -164,9 +179,10 @@ def main():
                 print(bcolors.BOLD+"-- Final Result -- \n")
                 print("Apk analyzed: {0}\n".format(len(list_apk_to_analyze)))
                 print(string_html)
-                print(string_percentual_vuln)
                 print(string_js_enabled)
                 print(string_js_interface)
+                print(string_percentual_vuln)
+                print(string_percentual_iframe_not_in_html)
                 print(string_time_percentual)
 
                 if len(apk_vulnerable) > 0:
@@ -174,7 +190,12 @@ def main():
                     file_stat_final.write("\nThis app maybe are vulnerable:\n"+string_app_vulnerable)    
                     print("This app maybe are vulnerable:"+bcolors.ENDC)
                     print(bcolors.FAIL+string_app_vulnerable+bcolors.ENDC)
-                
+                if len(apk_maybe_vulnerable) > 0:
+                    string_app_iframe_inside = "".join(("- "+str(i).split("/")[-1]+"\n" for i in apk_maybe_vulnerable))
+                    file_stat_final.write("\nThis app have inside iframe string :\n"+string_app_iframe_inside)    
+                    print("This app have inside iframe stringe:"+bcolors.ENDC)
+                    print(bcolors.WARNING+string_app_iframe_inside+bcolors.ENDC)
+                if l
                 file_stat_final.close()
 
         elif args.file_name is not None:
