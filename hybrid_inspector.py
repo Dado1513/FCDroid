@@ -48,11 +48,14 @@ def analyze_start(conf, apk_to_analyze, tag, string_to_find, api_monitor_dict=No
             logger.logger.info("TYPE APK: "+type_apk+"\n")
             print(bcolors.OKBLUE+type_apk+bcolors.ENDC)
 
+            logger.logger.info("Start HTML file")
             apk.find_string(apk.html_file)
+            logger.logger.info("End HTML file")
             # TODO 
             # to fix here da mettere apposto nel caso di file js
-            apk.find_string(apk.javascript_file)
-            
+            logger.logger.info("Start JavaScript file")
+            apk.find_string(apk.javascript_file) 
+            logger.logger.info("End JavaScript file")
             # print("\n")
             list_loading = ["\\","|","/","-"]
             n = 1
