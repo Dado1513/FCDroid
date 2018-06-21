@@ -9,6 +9,8 @@ from ThreadDecompyling import ThreadDecompyling
 import time
 from bcolors import bcolors
 from Logger import Logger
+import pymongo
+
 try:
     from StringIO import StringIO
 except ImportError:
@@ -21,6 +23,18 @@ apk_maybe_vulnerable = list()
 apk_with_html_file = list() # numero di apk con file html all'interno
 apk_with_js_enabled = list()
 apk_with_js_interface = list()
+
+if 'DATABASE_URL' in os.environ:
+    db_url = os.environ['DATABASE_URL']
+    client = MongoClient(db_url, connect=False)
+else:
+    db_url = 'mongodb://localhost:27117/db'
+    client = MongoClient(db_url, connect=False)
+try:
+    db = client['db']
+    analysis_db = db['DynamicAnalysis']
+except Exception:
+    print("Unable to connect mongodb")
 
 
 def analyze_start(conf, apk_to_analyze, tag, string_to_find, api_monitor_dict=None, network_dict=None):
