@@ -1,0 +1,340 @@
+[INTERNAL_LOG][2018-06-12 00:09:05,269][INFO][analyze_start()] Init Time [Tue Jun 12 00:09:05 2018]
+[INTERNAL_LOG][2018-06-12 00:09:05,367][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 00:09:05,369][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 00:09:05,369][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 00:09:05,369][INFO][is_hybird()] com.android.vending.CHECK_LICENSE
+[INTERNAL_LOG][2018-06-12 00:09:05,369][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 00:09:05,369][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 00:09:05,369][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 00:09:05,369][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 00:09:05,369][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 00:09:05,369][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-12 00:09:05,369][INFO][is_hybird()] android.permission.READ_PHONE_STATE
+[INTERNAL_LOG][2018-06-12 00:09:05,369][INFO][is_hybird()] com.sec.android.iap.permission.BILLING
+[INTERNAL_LOG][2018-06-12 00:09:05,369][INFO][is_hybird()] android.permission.RECEIVE_BOOT_COMPLETED
+[INTERNAL_LOG][2018-06-12 00:09:05,369][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 00:09:05,369][INFO][is_hybird()] android.permission.ACCESS_COARSE_LOCATION
+[INTERNAL_LOG][2018-06-12 00:09:05,369][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-12 00:09:05,369][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 00:09:05,370][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 00:09:05,370][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 00:09:05,370][INFO][find_string()] File: js/closebutton.html
+[INTERNAL_LOG][2018-06-12 00:09:05,370][INFO][find_string()] No iframe in js/closebutton.html
+[INTERNAL_LOG][2018-06-12 00:09:05,370][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 00:09:05,370][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 00:09:05,371][INFO][find_string()] File: js/mraid.js
+[INTERNAL_LOG][2018-06-12 00:09:05,372][INFO][find_string()] No iframe in js/mraid.js
+[INTERNAL_LOG][2018-06-12 00:09:05,373][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 00:09:51,563][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 00:09:51,563][INFO][find_url_in_apk()] http://www.amazon.com/gp/mas/get-appstore/android/ref=mas_mx_mba_iap_dl
+https://live.chartboost.com
+http://market.android.com/
+https://m.facebook.com/dialog/
+https://graph.facebook.com/
+https://api.facebook.com/restserver.php
+https://graph.facebook.com/%s/picture
+https://graph.%s
+https://graph-video.%s
+https://facebook.com
+https://play.google.com/store/apps/details?id=
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+http://data.flurry.com/aap.do
+https://data.flurry.com/aap.do
+https://ads.flurry.com/v12/getAds.do
+http://ads.flurry.com/v12/getAds.do
+https://adlog.flurry.com
+http://adlog.flurry.com
+http://flurry.cachefly.net/vast/videocontrols/v1/android.zip
+https://analytics.query.yahoo.com/v1/public/yql?
+https://accounts.google.com
+https://accounts.google.com
+https://www.facebook.com
+https://www.facebook.com
+https://www.googleapis.com/auth/plus.me
+https://www.googleapis.com/auth/plus.me
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games
+http://plus.google.com/
+https://www.googleapis.com/auth/drive.file
+https://www.googleapis.com/auth/drive.appdata
+https://www.googleapis.com/auth/drive
+https://www.googleapis.com/auth/drive.apps
+https://www.googleapis.com/auth/fitness.activity.read
+https://www.googleapis.com/auth/fitness.activity.read
+https://www.googleapis.com/auth/fitness.activity.write
+https://www.googleapis.com/auth/fitness.activity.write
+https://www.googleapis.com/auth/fitness.location.read
+https://www.googleapis.com/auth/fitness.location.read
+https://www.googleapis.com/auth/fitness.location.write
+https://www.googleapis.com/auth/fitness.location.write
+https://www.googleapis.com/auth/fitness.body.read
+https://www.googleapis.com/auth/fitness.body.read
+https://www.googleapis.com/auth/fitness.body.write
+https://www.googleapis.com/auth/fitness.body.write
+https://www.googleapis.com/auth/fitness.nutrition.read
+https://www.googleapis.com/auth/fitness.nutrition.read
+https://www.googleapis.com/auth/fitness.nutrition.write
+https://www.googleapis.com/auth/fitness.nutrition.write
+https://www.googleapis.com/auth/games.firstparty
+https://www.googleapis.com/auth/games.firstparty
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://csi.gstatic.com/csi
+https://www.googleapis.com/auth/plus.login
+http://mobile-api.geo.kontagent.net/fb-install/%s/activities/?event=MOBILE_APP_INSTALL&attribution=%s
+http://api.geo.kontagent.net/api/v0/ping/
+http://ads.mp.mydas.mobi/appConfigServlet?apid=
+https://ads.mp.mydas.mobi/appConfigServlet?apid=
+http://androidsdk.ads.mp.mydas.mobi/getAd.php5?
+http://androidsdk.ads.mp.mydas.mobi/getAd.php5?
+http://cvt.mydas.mobi/handleConversion?firstlaunch=
+http://millennialmedia.com/android/schema
+http://images.millennialmedia.com/9513/192134.gif
+http://ads.mp.mydas.mobi/pixel?id=
+http://cdn.millennialmedia.com/mmjs/v1.7/mm.js
+https://twitter.com/%s/status/%s
+https://www.mopub.com/optout/
+https://www.mopub.com/optout/
+http://app.sina.cn/appdetail.php?appID=84560
+https://open.weibo.cn/oauth2/authorize?
+https://api.weibo.com/2/comments/to_me.json
+https://api.weibo.com/2/comments/by_me.json
+https://api.weibo.com/2/comments/show.json
+https://api.weibo.com/2/comments/timeline.json
+https://api.weibo.com/2/comments/mentions.json
+https://api.weibo.com/2/comments/show_batch.json
+https://api.weibo.com/2/comments/create.json
+https://api.weibo.com/2/comments/destroy.json
+https://api.weibo.com/2/comments/sdestroy_batch.json
+https://api.weibo.com/2/comments/reply.json
+https://m.api.weibo.com/2/messages/invite.json
+https://m.api.weibo.com/2/messages/invite.json
+https://api.weibo.com/oauth2/revokeoauth2
+https://api.weibo.com/2/statuses/friends_timeline.json
+https://api.weibo.com/2/statuses/friends_timeline.json
+https://api.weibo.com/2/statuses/mentions.json
+https://api.weibo.com/2/statuses/mentions.json
+https://api.weibo.com/2/statuses/repost.json
+https://api.weibo.com/2/statuses/repost.json
+https://api.weibo.com/2/statuses/update.json
+https://api.weibo.com/2/statuses/update.json
+https://api.weibo.com/2/statuses/upload.json
+https://api.weibo.com/2/statuses/upload.json
+https://api.weibo.com/2/statuses/upload_url_text.json
+https://api.weibo.com/2/statuses/upload_url_text.json
+https://api.weibo.com/2/users/show.json
+https://api.weibo.com/2/users/domain_show.json
+https://api.weibo.com/2/users/counts.json
+https://api.weibo.com/2/account/end_session.json
+https://api.weibo.com/2/account/get_privacy.json
+https://api.weibo.com/2/account/get_uid.json
+https://api.weibo.com/2/account/rate_limit_status.json
+https://api.weibo.com/2/account/profile/school_list.json
+https://api.weibo.com/2/common/get_city.json
+https://api.weibo.com/2/common/get_country.json
+https://api.weibo.com/2/common/get_timezone.json
+https://api.weibo.com/2/favorites/by_tags.json
+https://api.weibo.com/2/favorites/by_tags/ids.json
+https://api.weibo.com/2/favorites/create.json
+https://api.weibo.com/2/favorites/destroy.json
+https://api.weibo.com/2/favorites/destroy_batch.json
+https://api.weibo.com/2/favorites.json
+https://api.weibo.com/2/favorites/ids.json
+https://api.weibo.com/2/favorites/show.json
+https://api.weibo.com/2/favorites/tags.json
+https://api.weibo.com/2/favorites/tags/destroy_batch.json
+https://api.weibo.com/2/favorites/tags/update.json
+https://api.weibo.com/2/favorites/tags/update_batch.json
+https://api.weibo.com/2/friendships/friends/bilateral.json
+https://api.weibo.com/2/friendships/friends/bilateral/ids.json
+https://api.weibo.com/2/friendships/friends_chain/followers.json
+https://api.weibo.com/2/friendships/create.json
+https://api.weibo.com/2/friendships/create.json
+https://api.weibo.com/2/friendships/destroy.json
+https://api.weibo.com/2/friendships/destroy.json
+https://api.weibo.com/2/friendships/followers.json
+https://api.weibo.com/2/friendships/followers.json
+https://api.weibo.com/2/friendships/followers/active.json
+https://api.weibo.com/2/friendships/followers/ids.json
+https://api.weibo.com/2/friendships/followers/ids.json
+https://api.weibo.com/2/friendships/friends.json
+https://api.weibo.com/2/friendships/friends.json
+https://api.weibo.com/2/friendships/friends/ids.json
+https://api.weibo.com/2/friendships/friends/ids.json
+https://api.weibo.com/2/friendships/friends/in_common.json
+https://api.weibo.com/2/friendships/show.json
+https://api.weibo.com/2/friendships/show.json
+https://api.weibo.com/2/friendships/show.json
+https://api.weibo.com/2/friendships/show.json
+https://api.weibo.com/2/friendships/groups/members/add.json
+https://api.weibo.com/2/friendships/groups/members/add_batch.json
+https://api.weibo.com/2/friendships/groups/create.json
+https://api.weibo.com/2/friendships/groups/destroy.json
+https://api.weibo.com/2/friendships/groups/members/destroy.json
+https://api.weibo.com/2/friendships/groups.json
+https://api.weibo.com/2/friendships/groups/is_member.json
+https://api.weibo.com/2/friendships/groups/members.json
+https://api.weibo.com/2/friendships/groups/order.json
+https://api.weibo.com/2/friendships/groups/show.json
+https://api.weibo.com/2/friendships/groups/show_batch.json
+https://api.weibo.com/2/friendships/groups/timeline.json
+https://api.weibo.com/2/friendships/groups/update.json
+https://api.weibo.com/2/friendships/groups/members/update.json
+https://api.weibo.com/2/location/geo/gps_to_offset.json
+https://api.weibo.com/2/location/pois/search/by_geo.json
+https://api.weibo.com/2/location/geo/geo_to_address.json
+https://api.weibo.com/2/place/friends_timeline.json
+https://api.weibo.com/2/place/nearby/photos.json
+https://api.weibo.com/2/place/nearby/pois.json
+https://api.weibo.com/2/place/nearby_timeline.json
+https://api.weibo.com/2/place/nearby_users/list.json
+https://api.weibo.com/2/place/nearby/users.json
+https://api.weibo.com/2/place/nearby_users/create.json
+https://api.weibo.com/2/place/nearby_users/destory.json
+https://api.weibo.com/2/place/poi_timeline.json
+https://api.weibo.com/2/place/pois/add_checkin.json
+https://api.weibo.com/2/place/pois/add_photo.json
+https://api.weibo.com/2/place/pois/add_tip.json
+https://api.weibo.com/2/place/pois/add_todo.json
+https://api.weibo.com/2/place/pois/category.json
+https://api.weibo.com/2/place/pois/create.json
+https://api.weibo.com/2/place/pois/photos.json
+https://api.weibo.com/2/place/pois/search.json
+https://api.weibo.com/2/place/pois/show.json
+https://api.weibo.com/2/place/pois/tips.json
+https://api.weibo.com/2/place/pois/users.json
+https://api.weibo.com/2/place/public_timelin.json
+https://api.weibo.com/2/place/statuses/show.json
+https://api.weibo.com/2/place/user_timeline.json
+https://api.weibo.com/2/place/users/checkins.json
+https://api.weibo.com/2/place/users/photos.json
+https://api.weibo.com/2/place/users/show.json
+https://api.weibo.com/2/place/users/tips.json
+https://api.weibo.com/2/place/users/todos.json
+https://api.weibo.com/2/register/verify_nickname.json
+https://api.weibo.com/2/search/suggestions/apps.json
+https://api.weibo.com/2/search/suggestions/at_users.json
+https://api.weibo.com/2/search/suggestions/companies.json
+https://api.weibo.com/2/search/suggestions/schools.json
+https://api.weibo.com/2/search/suggestions/statuses.json
+https://api.weibo.com/2/search/suggestions/users.json
+https://api.weibo.com/2/short_url/clicks.json
+https://api.weibo.com/2/short_url/comment/counts.json
+https://api.weibo.com/2/short_url/comment/comments.json
+https://api.weibo.com/2/short_url/expand.json
+https://api.weibo.com/2/short_url/expand.json
+https://api.weibo.com/2/short_url/locations.json
+https://api.weibo.com/2/short_url/referers.json
+https://api.weibo.com/2/short_url/share/counts.json
+https://api.weibo.com/2/short_url/share/statuses.json
+https://api.weibo.com/2/short_url/shorten.json
+https://api.weibo.com/2/statuses/bilateral_timeline.json
+https://api.weibo.com/2/statuses/count.json
+https://api.weibo.com/2/statuses/destroy.json
+https://api.weibo.com/2/emotions.json
+https://api.weibo.com/2/statuses/friends_timeline/ids.json
+https://api.weibo.com/2/statuses/home_timeline.json
+https://api.weibo.com/2/statuses/hot/comments_daily.json
+https://api.weibo.com/2/statuses/hot/comments_weekly.json
+https://api.weibo.com/2/statuses/hot/repost_daily.json
+https://api.weibo.com/2/statuses/hot/repost_weekly.json
+https://api.weibo.com/2/statuses/mentions/ids.json
+https://api.weibo.com/2/statuses/public_timeline.json
+https://api.weibo.com/2/statuses/queryid.json
+https://api.weibo.com/2/statuses/querymid.json
+https://api.weibo.com/2/statuses/repost_by_me.json
+https://api.weibo.com/2/statuses/repost_timeline.json
+https://api.weibo.com/2/statuses/repost_timeline/ids.json
+https://api.weibo.com/2/statuses/show.json
+https://api.weibo.com/2/statuses/user_timeline.json
+https://api.weibo.com/2/statuses/user_timeline.json
+https://api.weibo.com/2/statuses/user_timeline.json
+https://api.weibo.com/2/statuses/user_timeline/ids.json
+https://api.weibo.com/2/statuses/user_timeline/ids.json
+https://api.weibo.com/2/suggestions/users/may_interested.json
+https://api.weibo.com/2/suggestions/users/may_interested.json
+https://api.weibo.com/2/suggestions/favorites/hot.json
+https://api.weibo.com/2/suggestions/users/not_interested.json
+https://api.weibo.com/2/suggestions/statuses/hot.json
+https://api.weibo.com/2/suggestions/users/hot.json
+https://api.weibo.com/2/tags/create.json
+https://api.weibo.com/2/tags/destroy.json
+https://api.weibo.com/2/tags/destroy_batch.json
+https://api.weibo.com/2/tags/suggestions.json
+https://api.weibo.com/2/tags.json
+https://api.weibo.com/2/tags/tags_batch.json
+https://api.weibo.com/2/trends/daily.json
+https://api.weibo.com/2/trends/destroy.json
+https://api.weibo.com/2/trends/follow.json
+https://api.weibo.com/2/trends/hourly.json
+https://api.weibo.com/2/trends/is_follow.json
+https://api.weibo.com/2/trends.json
+https://api.weibo.com/2/trends/weekly.json
+http://play.google.com/store/apps/details?id=
+http://play.google.com/store/apps/details?id=
+https://ws.tapjoyads.com/
+https://ws.tapjoyads.com/
+https://ws.tapjoyads.com/
+https://rpc.tapjoy.com/
+https://connect.tapjoy.com/
+https://connect.tapjoy.com/
+http://content-js.tapjoy.com
+http://placements.tapjoy.com/
+https://s3.amazonaws.com/tapjoy/videos/assets/watermark.png
+http://api.vungle.com/api/v1/
+https://www.trialpay.com/dispatch/
+http://www.sina.com
+http://app.sina.com.cn/appdetail.php?appID=770915
+http://hubimage.com2us.com/hubweb/contents/123_499.jpg
+https://open.weibo.cn/oauth2/access_token
+https://graph.facebook.com/network_ads_common/
+https://graph.%s.facebook.com/network_ads_common/
+https://www.facebook.com/
+https://www.%s.facebook.com
+http://hostname/?
+http://hostname/?
+http://www.google-analytics.com
+https://ssl.google-analytics.com
+http://www.google.com
+https://app-measurement.com/a
+http://schemas.android.com/apk/lib/com.google.android.gms.plus
+http://schemas.android.com/apk/lib/com.google.android.gms.plus
+https://www.googletagmanager.com
+https://www.facebook.com/dialog/feed?app_id=181821551957328&link=
+https://m.google.com/app/plus/x/?v=compose&content=
+http://twitter.com/home?status=
+http://a.ai.inmobi.com/v2/ad.html
+https://rules-ltvp.inmobi.com/v2/rules.json
+https://e-ltvp.inmobi.com/storm/v1/event
+https://sdkm.w.inmobi.com/user/e.asm
+https://d.appsdt.com/download/tracker/?
+https://d.appsdt.com/sdkdwnldbeacon.html
+https://d.appsdt.com/download/tracker/iatsdkconfs?
+https://sdkm.w.inmobi.com/metrics/e.asm
+http://i.w.inmobi.com/showad.asm
+http://dock.inmobi.com/carb/v1/i
+http://dock.inmobi.com/carb/v1/i
+http://dock.inmobi.com/carb/v1/o
+http://dock.inmobi.com/carb/v1/o
+https://androidads23.adcolony.com/configure
+https://analytics.mopub.com/i/jot/exchange_client_event
+https://www.mopub.com/optout
+https://www.trialpay.com
+http://geo.tp-cdn.com
+http://d2n8p8eh14pae1.cloudfront.net/static/fontawesome-webfont.ttf?r=b983eacb
+http://www.amazon.com/gp/mas/dl/android?p=
+
+[INTERNAL_LOG][2018-06-12 00:09:51,563][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 00:09:51,569][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 00:09:51,569][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 00:09:51,570][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 00:09:51,570][INFO][analyze_start()] End time:[Tue Jun 12 00:09:51 2018]

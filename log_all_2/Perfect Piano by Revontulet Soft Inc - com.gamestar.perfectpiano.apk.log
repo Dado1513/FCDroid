@@ -1,0 +1,301 @@
+[INTERNAL_LOG][2018-06-12 00:07:59,535][INFO][analyze_start()] Init Time [Tue Jun 12 00:07:59 2018]
+[INTERNAL_LOG][2018-06-12 00:07:59,595][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 00:07:59,596][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 00:07:59,596][INFO][is_hybird()] android.permission.ACCESS_COARSE_LOCATION
+[INTERNAL_LOG][2018-06-12 00:07:59,596][INFO][is_hybird()] android.permission.ACCESS_FINE_LOCATION
+[INTERNAL_LOG][2018-06-12 00:07:59,596][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 00:07:59,596][INFO][is_hybird()] android.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 00:07:59,596][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 00:07:59,596][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 00:07:59,596][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 00:07:59,596][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-12 00:07:59,596][INFO][is_hybird()] android.permission.RECORD_AUDIO
+[INTERNAL_LOG][2018-06-12 00:07:59,597][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-12 00:07:59,597][INFO][is_hybird()] android.permission.CAMERA
+[INTERNAL_LOG][2018-06-12 00:07:59,597][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-12 00:07:59,597][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 00:07:59,597][INFO][is_hybird()] com.gamestar.perfectpiano.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-12 00:07:59,597][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 00:07:59,597][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 00:07:59,597][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 00:07:59,597][INFO][find_string()] File: assets/about_cn.html
+[INTERNAL_LOG][2018-06-12 00:07:59,599][INFO][find_string()] No iframe in assets/about_cn.html
+[INTERNAL_LOG][2018-06-12 00:07:59,599][INFO][find_string()] File: assets/about_en.html
+[INTERNAL_LOG][2018-06-12 00:07:59,628][INFO][find_string()] No iframe in assets/about_en.html
+[INTERNAL_LOG][2018-06-12 00:07:59,628][INFO][find_string()] File: assets/device_management_help_cn.html
+[INTERNAL_LOG][2018-06-12 00:07:59,630][INFO][find_string()] No iframe in assets/device_management_help_cn.html
+[INTERNAL_LOG][2018-06-12 00:07:59,630][INFO][find_string()] File: assets/device_management_help_en.html
+[INTERNAL_LOG][2018-06-12 00:07:59,631][INFO][find_string()] No iframe in assets/device_management_help_en.html
+[INTERNAL_LOG][2018-06-12 00:07:59,632][INFO][find_string()] File: assets/device_management_help_tw.html
+[INTERNAL_LOG][2018-06-12 00:07:59,633][INFO][find_string()] No iframe in assets/device_management_help_tw.html
+[INTERNAL_LOG][2018-06-12 00:07:59,633][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 00:07:59,633][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 00:07:59,633][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 00:08:39,132][INFO][find_url_in_apk()] [START URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-12 00:08:39,133][INFO][find_url_in_apk()] http://qzs.qq.com/open/mobile/login/qzsjump.html?
+
+[INTERNAL_LOG][2018-06-12 00:08:39,133][INFO][find_url_in_apk()] [END URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-12 00:08:39,682][INFO][find_string()] [START REMOTE FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 00:08:39,682][INFO][find_string()] Remote File in: temp_html_code/html_downloaded_Perfect Piano by Revontulet Soft Inc - com/qzsjump.html?
+[INTERNAL_LOG][2018-06-12 00:08:39,682][INFO][find_string()] URL: http://qzs.qq.com/open/mobile/login/qzsjump.html?
+[INTERNAL_LOG][2018-06-12 00:08:39,686][INFO][find_string()] Found this tag <iframe id="jumpIframe" style="display:none;"></iframe>
+[INTERNAL_LOG][2018-06-12 00:08:39,686][INFO][find_string()] Found in file temp_html_code/html_downloaded_Perfect Piano by Revontulet Soft Inc - com/qzsjump.html? tag iframe , 1 times
+[INTERNAL_LOG][2018-06-12 00:08:39,687][INFO][find_string()] No src founded in iframe tag inside file temp_html_code/html_downloaded_Perfect Piano by Revontulet Soft Inc - com/qzsjump.html?
+[INTERNAL_LOG][2018-06-12 00:08:39,688][INFO][find_string()] No CSP found!
+[INTERNAL_LOG][2018-06-12 00:08:39,688][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 00:08:39,688][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 00:08:39,688][INFO][find_url_in_apk()] http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+http://api.mobula.sdk.duapps.com/adunion/slot/getDlAd?
+http://api.mobula.sdk.duapps.com/adunion/slot/getDlAd?
+http://api.mobula.sdk.duapps.com/adunion/rtb/getInmobiAd?
+http://api.mobula.sdk.duapps.com/adunion/rtb/getInmobiAd?
+http://api.mobula.sdk.duapps.com/adunion/rtb/fetchAd?
+http://api.mobula.sdk.duapps.com/adunion/rtb/fetchAd?
+http://sandbox.duapps.com:8124/adunion/slot/getDlAd?
+http://sandbox.duapps.com:8124/adunion/rtb/getInmobiAd?
+http://sandbox.duapps.com:8124/adunion/rtb/fetchAd?
+http://api.mobula.sdk.duapps.com/adunion/slot/getSrcPrio?
+http://api.mobula.sdk.duapps.com/adunion/slot/getSrcPrio?
+http://api.mobula.sdk.duapps.com/adunion/slot/getSrcPrio?
+http://api.mobula.sdk.duapps.com/adunion/slot/getSrcPrio?
+http://sandbox.duapps.com:8124/adunion/slot/getSrcPrio?
+http://sandbox.duapps.com:8124/adunion/slot/getSrcPrio?
+http://api.mobula.sdk.duapps.com/adunion/slot/tdmr?
+http://rts.mobula.sdk.duapps.com/orts/rp?
+http://rts.mobula.sdk.duapps.com/orts/rp?
+http://rts.mobula.sdk.duapps.com/orts/rpb?
+http://rts.mobula.sdk.duapps.com/orts/rpb?
+http://sandbox.duapps.com:8124/orts/rp?
+http://sandbox.duapps.com:8124/orts/rpb?
+http://market.android.com
+https://market.android.com
+https://play.google.com
+http://play.google.com
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+https://www.facebook.com/audience_network/server_side_reward
+https://www.%s.facebook.com/audience_network/server_side_reward
+https://graph.facebook.com/network_ads_common
+https://graph.%s.facebook.com/network_ads_common
+https://www.facebook.com/adnw_logging/
+https://www.%s.facebook.com/adnw_logging/
+https://www.facebook.com/
+https://www.%s.facebook.com
+http://play.google.com/store/apps/
+http://www.facebook.com
+https://graph.%s
+https://graph-video.%s
+https://facebook.com
+https://facebook.com/device?user_code=%1$s&qr=1
+https://www.facebook.com/PerfectPiano
+https://www.facebook.com/PerfectPiano
+http://weibo.com/u/5571781116
+http://a.app.qq.com/o/simple.jsp?pkgname=com.gamestar.perfectpiano
+http://a.app.qq.com/o/simple.jsp?pkgname=com.gamestar.perfectpiano
+https://itunes.apple.com/app/perfectpiano/id942937409?mt=8 , 
+https://itunes.apple.com/app/perfectpiano/id942937409?mt=8 , 
+https://itunes.apple.com/app/perfectpiano/id942937409?mt=8 , 
+https://itunes.apple.com/app/perfectpiano/id942937409?mt=8 , 
+https://play.google.com/store/apps/details?id=com.gamestar.perfectpiano
+https://play.google.com/store/apps/details?id=com.gamestar.perfectpiano
+https://play.google.com/store/apps/details?id=com.gamestar.perfectpiano
+https://play.google.com/store/apps/details?id=com.gamestar.perfectpiano
+https://play.google.com/store/apps/details?id=com.gamestar.perfectpiano
+http://mediaen.perfectpiano.cn/plugin/zip/ElePiano.zip
+http://mediaen.perfectpiano.cn/plugin/zip/Strings.zip
+http://mediaen.perfectpiano.cn/plugin/zip/Yamaha.zip
+http://mediaen.perfectpiano.cn/plugin/zip/Cello.zip
+http://mediaen.perfectpiano.cn/plugin/zip/Flute.zip
+http://mediaen.perfectpiano.cn/plugin/zip/SaporanoSax.zip
+http://mediaen.perfectpiano.cn/plugin/zip/Violin.zip
+http://mediaen.perfectpiano.cn/plugin/zip/Trumpet.zip
+http://mediaen.perfectpiano.cn/plugin/zip/Xylophone.zip
+http://mediaen.perfectpiano.cn/plugin/zip/Sitar.zip
+http://mediaen.perfectpiano.cn/plugin/zip/SynthBass.zip
+http://mediaen.perfectpiano.cn/plugin/zip/SpaceVoice.zip
+http://mediaen.perfectpiano.cn/plugin/zip/Koto.zip
+http://mediaen.perfectpiano.cn/plugin/zip/Harp.zip
+http://mediaen.perfectpiano.cn/plugin/zip/Sawtooth.zip
+http://mediaen.perfectpiano.cn/plugin/zip/SteelKeyboard.zip
+http://mediaen.perfectpiano.cn/plugin/zip/Square.zip
+http://mediaen.perfectpiano.cn/plugin/zip/OverdriverKeyboard.zip
+http://mediaen.perfectpiano.cn/plugin/zip/JazzKeyboard.zip
+http://www.revontuletsoft.com/images/app_icon.png
+http://revontuletsoft.net:8080/updateMid
+http://revontuletsoft.com:8080/updateMid
+http://www.revontuletsoft.com:8080/songlist?language=en&songlist_statuc=1
+http://www.revontuletsoft.com:8080/songlist?language=en&songlist_statuc=1
+http://www.revontuletsoft.com:8080/songlist?language=en&songlist_statuc=1
+http://www.revontuletsoft.com:8080/songlist?language=en&songlist_statuc=1
+http://www.revontuletsoft.com:8080/midData?mid_id=
+http://www.revontuletsoft.com:8080/midData?mid_id=
+http://www.revontuletsoft.com:8080/midData?mid_id=
+http://www.revontuletsoft.com:8080/midData?mid_id=
+http://www.revontuletsoft.com:8080/midData?mid_id=
+http://www.revontuletsoft.net:8080/songlist?language=zh-CN&songlist_statuc=1
+http://www.revontuletsoft.net:8080/songlist?language=zh-CN&songlist_statuc=1
+http://www.revontuletsoft.net:8080/songlist?language=zh-CN&songlist_statuc=1
+http://www.revontuletsoft.net:8080/songlist?language=zh-TW&songlist_statuc=1
+http://www.revontuletsoft.net:8080/songlist?language=zh-TW&songlist_statuc=1
+http://www.revontuletsoft.net:8080/songlist?language=zh-TW&songlist_statuc=1
+http://www.revontuletsoft.net:8080/midData?mid_id=
+http://www.revontuletsoft.net:8080/midData?mid_id=
+http://www.revontuletsoft.net:8080/midData?mid_id=
+http://www.revontuletsoft.net:8080/midData?mid_id=
+http://www.revontuletsoft.com:8080/songlist?language=KR&songlist_statuc=1
+http://www.revontuletsoft.com:8080/songlist?language=KR&songlist_statuc=1
+http://www.revontuletsoft.com:8080/songlist?language=ru&songlist_statuc=1
+http://www.revontuletsoft.com:8080/songlist?language=ru&songlist_statuc=1
+http://www.revontuletsoft.com:8080/songlist?language=id&songlist_statuc=1
+http://www.revontuletsoft.com:8080/songlist?language=id&songlist_statuc=1
+http://www.revontuletsoft.com:8080/songlist?language=JP&songlist_statuc=1
+http://www.revontuletsoft.com:8080/songlist?language=JP&songlist_statuc=1
+http://www.revontuletsoft.com:8080/songlist?language=fr&songlist_statuc=1
+http://www.revontuletsoft.com:8080/songlist?language=fr&songlist_statuc=1
+https://api.weixin.qq.com/sns/userinfo?access_token=
+https://api.weixin.qq.com/sns/oauth2/access_token?appid=wx477e8f1094f49f91&secret=8643e8f1603e8b38b91e5419db873939&code=
+http://www.revontuletsoft.net
+https://api.weibo.com/2/users/show.json
+https://fb.me/812801358789362
+http://www.revontuletsoft.com/images/feature_new.jpg
+http://game.revontuletsoft.net:3001/
+http://us.revontuletsoft.net:3001/
+http://pz.perfectpiano.cn/
+http://media.perfectpiano.cn/
+http://pz.perfectpiano.cn/html/userDetail.html?picid=
+http://pzen.perfectpiano.cn/
+http://mediaen.perfectpiano.cn/
+http://pzen.perfectpiano.cn/html/userDetail.html?picid=
+http://www.revontuletsoft.com/privacy_perfectpiano.html
+http://openbox.mobilem.360.cn/d.php?p=com.gamestar.perfectpiano
+http://app.visualmidi.com/
+http://app.visualmidi.com/easysns/user/regUser.dhtml?language=
+http://app.visualmidi.com/easysns/comm/saveComm.dhtml?language=
+http://app.visualmidi.com/easysns/pic/findListPic.dhtml?language=
+http://app.visualmidi.com/easysns/comm/findtoIdComm.dhtml?language=
+http://app.visualmidi.com/easysns/like/addLike.dhtml?language=
+http://app.visualmidi.com/easysns/like/deleteLike.dhtml?language=
+http://app.visualmidi.com/easysns/pic/querybyNamePic.dhtml?language=
+http://app.visualmidi.com/easysns/like/findListLike.dhtml?language=
+http://app.visualmidi.com/easysns/pic/bulkUploadPic.dhtml?language=
+http://app.visualmidi.com/easysns/pic/upImgPic.dhtml?language=
+http://app.visualmidi.com/easysns/bl/saveBl.dhtml?language=
+http://app.visualmidi.com/easysns/bl/rmoBl.dhtml?language=
+http://app.visualmidi.com/easysns/pic/deletePic.dhtml?language=
+http://app.visualmidi.com/easysns/bl/ltobBl.dhtml?language=
+http://app.visualmidi.com/easysns/bl/lbBl.dhtml?language=
+http://app.visualmidi.com/easysns/user/userListUser.dhtml?language=
+http://app.visualmidi.com/easysns/pic/findFollByUidPic.dhtml?language=
+http://app.visualmidi.com/easysns/pic/findByUnamePic.dhtml?language=
+http://app.visualmidi.com/easysns/user/i_user_idUser.dhtml?language=
+http://app.visualmidi.com/easysns/pic/addplayPic.dhtml?language=
+http://app.visualmidi.com/easysns/pic/addlikePic.dhtml?language=
+http://app.visualmidi.com/easysns/user/upUser.dhtml?language=
+http://app.visualmidi.com/easysns/msg/addMsg.dhtml?language=
+http://app.visualmidi.com/easysns/msg/getmessunMsg.dhtml?language=
+http://app.visualmidi.com/easysns/msg/getMessMsg.dhtml?language=
+http://app.visualmidi.com/easysns/user/getUser.dhtml?language=
+http://app.visualmidi.com/easysns/pic/getListByGenrePic.dhtml?language=
+http://app.visualmidi.com/easysns/pic/getListByInstrumentPic.dhtml?language=
+http://app.visualmidi.com/easysns/pic/getAllListPic.dhtml?language=
+http://app.visualmidi.com/easysns/cmd/addCommend.dhtml?language=
+http://app.visualmidi.com/easysns/cmd/deleteCommend.dhtml?language=
+http://app.visualmidi.com/easysns/bl/findToMeBl.dhtml?language=
+http://app.visualmidi.com/easysns/bl/findMeBl.dhtml?language=
+http://app.visualmidi.com/easysns/bl/findBl.dhtml?language=
+http://app.visualmidi.com/easysns/bl/findToBl.dhtml?language=
+http://app.visualmidi.com/easysns/bl/deleteBl.dhtml?language=
+http://app.visualmidi.com/easysns/like/getListUidWillLike.dhtml?language=
+http://app.visualmidi.com/easysns/bl/getTopBl.dhtml?language=
+http://app.visualmidi.com/easysns/like/findCollectorsByPidLike.dhtml?language=
+http://app.visualmidi.com/easysns/cmd/getCommend.dhtml?language=
+http://app.visualmidi.com/easysns/solr/searchSOLR.dhtml?language=
+http://app.visualmidi.com/easysns/solr/getHotWordSOLR.dhtml?language=
+http://schemas.android.com/apk/res-auto
+http://www.w3.org/ns/ttml#parameter
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+http://hostname/?
+http://hostname/?
+https://www.googleapis.com/auth/games_lite
+https://www.googleapis.com/auth/games_lite
+https://www.googleapis.com/auth/games_lite
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games
+https://plus.google.com/
+https://www.googleapis.com/auth/games.firstparty
+https://www.googleapis.com/auth/games.firstparty
+https://www.google.com
+http://www.example.com
+http://www.example.com
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/sdk-core-v40-impl.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://csi.gstatic.com/csi
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/native_ads.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/native_ads.js
+https://imasdk.googleapis.com/admob/sdkloader/native_video.html
+https://www.google.com/dfp/linkDevice
+https://www.google.com/dfp/inAppPreview
+https://www.google.com/dfp/debugSignals
+https://www.google.com/dfp/sendDebugData
+https://pagead2.googlesyndication.com/pagead/gen_204
+http://www.google.com
+https://support.google.com/dfp_premium/answer/7160685#push
+http://www.google-analytics.com
+https://ssl.google-analytics.com
+http://schemas.android.com/apk/lib/com.google.android.gms.plus
+https://www.googleapis.com/auth/plus.login
+https://www.googleapis.com/auth/plus.me
+https://open.weibo.cn/oauth2/authorize?
+https://app-measurement.com/a
+https://www.googletagmanager.com
+https://uplog.qbox.me/log
+https://uc.qbox.me
+http://119.29.29.29/d?ttl=1&dn=
+https://api.weibo.com/oauth2/access_token
+https://api.weibo.com/2/proxy/sdk/statistic.json
+https://api.weibo.com/oauth2/getaid.json
+https://api.weibo.com/oauth2/getaid.json
+http://m.weibo.cn/comment?
+http://m.weibo.cn/index/router?
+http://m.weibo.cn/index/router?
+https://m.weibo.cn/p/100103type=1&
+http://m.weibo.cn/mblog?
+http://m.weibo.cn/u/
+http://m.weibo.cn/
+http://media.weibo.cn/article?
+http://service.weibo.com/share/mobilesdk_uppic.php
+http://service.weibo.com/share/mobilesdk.php
+http://openmobile.qq.com/oauth2.0/m_jump_by_version?
+http://appsupport.qq.com/cgi-bin/qzapps/mapp_addapp.cgi
+http://appsupport.qq.com/cgi-bin/qzapps/mapp_addapp.cgi
+http://openmobile.qq.com/oauth2.0/m_authorize?
+http://qzs.qq.com/open/mobile/login/qzsjump.html?
+http://qzs.qq.com/open/mobile/login/qzsjump.html?
+http://fusion.qq.com/cgi-bin/qzapps/unified_jump?appid=%1$s&from=%2$s&isOpenAppID=1
+http://fusion.qq.com/cgi-bin/qzapps/unified_jump?appid=%1$s&from=%2$s&isOpenAppID=1
+http://open.weixin.qq.com/connect/sdk/qrconnect?appid=%s&noncestr=%s&timestamp=%s&scope=%s&signature=%s
+https://long.open.weixin.qq.com/connect/l/qrconnect?f=json&uuid=%s
+http://c.isdspeed.qq.com/code.cgi
+http://wspeed.qq.com/w.cgi
+http://appsupport.qq.com/cgi-bin/appstage/mstats_batch_report
+https://openmobile.qq.com/
+http://cgi.connect.qq.com/qqconnectopen/openapi/policy_conf
+http://pingma.qq.com:80/mstat/report
+
+[INTERNAL_LOG][2018-06-12 00:08:39,689][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 00:08:39,702][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 00:08:39,702][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 00:08:39,703][INFO][analyze_start()] This app might be vulnerable on attack frame confusion, This file are vulnerable ['temp_html_code/html_downloaded_Perfect Piano by Revontulet Soft Inc - com/qzsjump.html?']
+[INTERNAL_LOG][2018-06-12 00:08:39,703][INFO][analyze_start()] End time:[Tue Jun 12 00:08:39 2018]

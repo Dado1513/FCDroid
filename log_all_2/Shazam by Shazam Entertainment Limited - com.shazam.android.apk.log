@@ -1,0 +1,128 @@
+[INTERNAL_LOG][2018-06-12 04:08:32,361][INFO][analyze_start()] Init Time [Tue Jun 12 04:08:32 2018]
+[INTERNAL_LOG][2018-06-12 04:08:32,421][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 04:08:32,421][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 04:08:32,421][INFO][is_hybird()] com.shazam.android.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-12 04:08:32,421][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-12 04:08:32,421][INFO][is_hybird()] android.permission.RECORD_AUDIO
+[INTERNAL_LOG][2018-06-12 04:08:32,421][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 04:08:32,421][INFO][is_hybird()] android.permission.ACCESS_COARSE_LOCATION
+[INTERNAL_LOG][2018-06-12 04:08:32,421][INFO][is_hybird()] android.permission.ACCESS_FINE_LOCATION
+[INTERNAL_LOG][2018-06-12 04:08:32,422][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 04:08:32,422][INFO][is_hybird()] android.permission.CAMERA
+[INTERNAL_LOG][2018-06-12 04:08:32,422][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 04:08:32,422][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 04:08:32,422][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-12 04:08:32,422][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 04:08:32,422][INFO][is_hybird()] android.permission.MODIFY_AUDIO_SETTINGS
+[INTERNAL_LOG][2018-06-12 04:08:32,422][INFO][is_hybird()] android.permission.SYSTEM_ALERT_WINDOW
+[INTERNAL_LOG][2018-06-12 04:08:32,422][INFO][is_hybird()] com.google.android.gms.permission.ACTIVITY_RECOGNITION
+[INTERNAL_LOG][2018-06-12 04:08:32,422][INFO][is_hybird()] com.shazam.android.preloadinfo.provider.ACCESS_DATA
+[INTERNAL_LOG][2018-06-12 04:08:32,422][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 04:08:32,422][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 04:08:32,422][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 04:08:32,422][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 04:08:32,422][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 04:08:32,422][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 04:09:16,154][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 04:09:16,154][INFO][find_url_in_apk()] http://schemas.android.com/apk/res/android
+http://localhost/
+https://sb.voicefive.com/rs/sdk/b.html
+https://sb.voicefive.com/rs/sdk/b.html
+https://sb.voicefive.com/rs/sdk/b.html
+https://sb.voicefive.com/rs/sdk/b.html
+http://b.voicefive.com/rs/sdk/gg.js
+https://sb.voicefive.com/rs/sdk/gg.js
+http://b.scorecardresearch.com/p2?
+https://sb.scorecardresearch.com/p2?
+http://udm.scorecardresearch.com/offline
+https://udm.scorecardresearch.com/offline
+https://resolver.digimarc.net
+https://resolver.digimarc.net
+http://www.google.com/search?q=
+https://www.google.com/search?q=%s&amp;tbm=shop
+https://www.google.com/search?q=%s&amp;tbm=shop
+https://labs-resolver.digimarc.net
+https://logs.loggly.com/inputs/e2fbb150-5d53-48c7-b065-de7b252a5eb5
+https://s3-eu-west-1.amazonaws.com/userimages.zappar.com/
+https://www.facebook.com/adnw_logging/
+https://www.%s.facebook.com/adnw_logging/
+http://play.google.com/store/apps/
+https://www.facebook.com/
+https://www.%s.facebook.com
+https://graph.facebook.com/network_ads_common
+https://graph.%s.facebook.com/network_ads_common
+http://www.facebook.com
+https://graph.%s
+https://graph-video.%s
+https://facebook.com
+https://facebook.com
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+https://plus.google.com/
+http://www.example.com
+http://www.example.com
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/sdk-core-v40-impl.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://csi.gstatic.com/csi
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/native_ads.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/native_ads.js
+https://imasdk.googleapis.com/admob/sdkloader/native_video.html
+https://www.google.com/dfp/linkDevice
+https://www.google.com/dfp/inAppPreview
+https://www.google.com/dfp/debugSignals
+https://www.google.com/dfp/sendDebugData
+http://www.google.com
+https://support.google.com/dfp_premium/answer/7160685#push
+https://app-measurement.com/a
+http://schemas.android.com/apk/lib/com.inmobi.ads
+http://schemas.android.com/apk/lib/com.inmobi.ads
+https://i.l.inmobicdn.net/sdk/sdk/500/android/mraid.js
+http://www.inmobi.com/products/sdk/#downloads
+http://twitter.com/home?status=
+https://m.google.com/app/plus/x/?v=compose&content=
+https://www.facebook.com/dialog/feed?app_id=181821551957328&link=
+http://dock.inmobi.com/carb/v1/i
+http://dock.inmobi.com/carb/v1/o
+https://sdkm.w.inmobi.com/user/e.asm
+https://mobile-static.adsafeprotected.com/avid-v2.js
+https://z.moatads.com/
+https://twitter.com/%s/status/%s
+https://www.mopub.com/optout/
+https://www.mopub.com/optout/
+https://facebook.com/device?user_code=%1$s&qr=1
+https://sdkm.w.inmobi.com/metrics/e.asm?v=1&
+https://www.mopub.com/optout
+https://auth.shazam.com/
+https://config.shazam.com/
+https://search.craftar.net/
+https://beacon.shazam.com/shazam/{appversion}/xx/XX/android/unconfigured/beacon/{inid}/
+https://www.shazam.com/validate-email/android?vkey={key}&redirect=shazam://validate-email?vkey={key}
+https://www.%s.facebook.com/audience_network/server_side_reward
+https://www.facebook.com/audience_network/server_side_reward
+https://www.google.com
+https://analytics.mopub.com/i/jot/exchange_client_event
+https://api.spotify.com/v1/users/
+https://api.spotify.com/v1/me
+http://localhost/?
+http://app.shazam.com/
+https://spotify.com
+https://de.ioam.de/tx.io
+https://config.ioam.de/appcfg.php
+http://psdev.de/LicensesDialog
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+https://settings.crashlytics.com/spi/v2/platforms/android/apps/%s/settings
+https://e.crashlytics.com/spi/v2/events
+
+[INTERNAL_LOG][2018-06-12 04:09:16,154][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 04:09:16,157][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 04:09:16,157][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 04:09:16,158][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 04:09:16,158][INFO][analyze_start()] End time:[Tue Jun 12 04:09:16 2018]

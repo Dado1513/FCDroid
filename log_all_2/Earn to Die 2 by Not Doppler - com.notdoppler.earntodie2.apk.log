@@ -1,0 +1,154 @@
+[INTERNAL_LOG][2018-06-12 06:28:31,899][INFO][analyze_start()] Init Time [Tue Jun 12 06:28:31 2018]
+[INTERNAL_LOG][2018-06-12 06:28:32,061][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 06:28:32,062][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 06:28:32,062][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-12 06:28:32,062][INFO][is_hybird()] com.android.vending.CHECK_LICENSE
+[INTERNAL_LOG][2018-06-12 06:28:32,062][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 06:28:32,062][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 06:28:32,062][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 06:28:32,062][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 06:28:32,062][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 06:28:32,062][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-12 06:28:32,062][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 06:28:32,062][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 06:28:32,062][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 06:28:32,062][INFO][find_string()] File: com/amazon/insights/package.html
+[INTERNAL_LOG][2018-06-12 06:28:32,063][INFO][find_string()] No iframe in com/amazon/insights/package.html
+[INTERNAL_LOG][2018-06-12 06:28:32,063][INFO][find_string()] File: com/amazon/insights/error/package.html
+[INTERNAL_LOG][2018-06-12 06:28:32,064][INFO][find_string()] No iframe in com/amazon/insights/error/package.html
+[INTERNAL_LOG][2018-06-12 06:28:32,064][INFO][find_string()] File: com/amazon/insights/monetization/package.html
+[INTERNAL_LOG][2018-06-12 06:28:32,064][INFO][find_string()] No iframe in com/amazon/insights/monetization/package.html
+[INTERNAL_LOG][2018-06-12 06:28:32,064][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 06:28:32,064][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 06:28:32,064][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 06:29:05,083][INFO][find_url_in_apk()] [START URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-12 06:29:05,083][INFO][find_url_in_apk()] https://cortana-gateway.amazon.com/cortana/gateway/getSignedDownloadUrl
+
+[INTERNAL_LOG][2018-06-12 06:29:05,083][INFO][find_url_in_apk()] [END URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-12 06:29:05,972][ERROR][download_page_loaded()] Failed response code: 500 for https://cortana-gateway.amazon.com/cortana/gateway/getSignedDownloadUrl  
+[INTERNAL_LOG][2018-06-12 06:29:05,973][INFO][find_string()] [START REMOTE FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 06:29:05,973][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 06:29:05,973][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 06:29:05,973][INFO][find_url_in_apk()] https://cortana-gateway.amazon.com/cortana/gateway/getSignedDownloadUrl
+https://ags-ext.amazon.com/service/gamedata/WhisperData
+https://ags-ext.amazon.com/service/gamedata/WhisperData
+http://amazon-adsystem.amazon.com/
+http://schemas.android.com/apk/lib/com.amazon.device.ads
+http://schemas.android.com/apk/res/
+http://amazon-adsystem.com
+http://www.amazon.com/gp/mas/get-appstore/android/ref=mas_mx_mba_iap_dl
+https://applab-sdk.amazon.com/1.0
+https://applab-sdk.amazon.com/1.0
+https://applab-sdk.amazon.com/1.0
+http://schemas.applovin.com/android/1.0
+http://schemas.applovin.com/android/1.0
+http://d.applovin.com/
+http://a.applovin.com/
+https://vid.applovin.com/,https://pdn.applovin.com/,https://img.applovin.com/,https://d.applovin.com/,https://assets.applovin.com/,https://cdnjs.cloudflare.com/,http://vid.applovin.com/,http://pdn.applovin.com/,http://img.applovin.com/,http://d.applovin.com/,http://assets.applovin.com/,http://cdnjs.cloudflare.com/
+http://rt.applovin.com/pix
+https://ads.flurry.com/v16/getAds.do
+http://ads.flurry.com/v16/getAds.do
+https://adlog.flurry.com
+http://adlog.flurry.com
+https://www.tumblr.com/oauth/access_token
+https://www.tumblr.com/oauth/authorize?oauth_token=%s
+https://api.tumblr.com/v2/blog/
+https://api.tumblr.com/v2/blog/
+https://www.tumblr.com/oauth/request_token
+https://api.tumblr.com/v2/user/info
+http://www.tumblr.com/connect/login_success.html
+https://play.google.com/store/apps/details?id=
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+https://proton.flurry.com/sdk/v1/config
+https://data.flurry.com/pcr.do
+http://data.flurry.com/aap.do
+https://data.flurry.com/aap.do
+https://cdn.flurry.com/vast/videocontrols/v2/android.zip
+http://hostname/?
+http://hostname/?
+http://www.google-analytics.com
+https://ssl.google-analytics.com
+https://www.googleapis.com/auth/plus.me
+https://www.googleapis.com/auth/plus.me
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games
+http://plus.google.com/
+https://www.googleapis.com/auth/drive.file
+https://www.googleapis.com/auth/drive.appdata
+https://www.googleapis.com/auth/drive
+https://www.googleapis.com/auth/drive.apps
+https://www.googleapis.com/auth/games.firstparty
+https://www.googleapis.com/auth/games.firstparty
+http://www.example.com
+http://www.example.com
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://csi.gstatic.com/csi
+https://sb-ssl.google.com/safebrowsing/clientreport/malware
+https://pagead2.googlesyndication.com/pagead/gen_204
+http://www.google.com
+https://www.googleapis.com/auth/plus.login
+http://schemas.android.com/apk/lib/com.google.android.gms.plus
+http://schemas.android.com/apk/lib/com.google.android.gms.plus
+https://www.googletagmanager.com
+http://schemas.android.com/apk/lib/com.inmobi.ads
+https://inmobisdk-a.akamaihd.net/sdk/500/android/mraid.js
+http://i.w.inmobi.com/showad.asm
+http://www.inmobi.com/products/sdk/#downloads
+http://tm.inmobi.com/telemetry-collector/v1/collect
+http://config.inmobi.com/config-server/v1/config/secure.cfg
+https://www.facebook.com/dialog/feed?app_id=181821551957328&link=
+https://m.google.com/app/plus/x/?v=compose&content=
+http://twitter.com/home?status=
+http://dock.inmobi.com/carb/v1/i
+http://dock.inmobi.com/carb/v1/o
+https://sdkm.w.inmobi.com/user/e.asm
+https://androidads23.adcolony.com/configure
+https://iap.samsungapps.com/iap/appsItemVerifyIAPReceipt.as?protocolVersion=2.0
+http://supersonic.ironbeast.io
+http://supersonic.ironbeast.io
+https://outcome.supersonicads.com/mediation/
+https://outcome.supersonicads.com/mediation/
+https://mobilelogs.supersonic.com
+https://mobilelogs.supersonic.com
+https://ua.supersonicads.com/api/rest/v1.1/uniqueusers?
+https://init.supersonicads.com/sdk/v
+https://www.supersonicads.com/timestamp.php
+https://www.supersonicads.com/mobile/sdk5/log?method=
+https://www.supersonicads.com/mobile/sdk5/log?method=
+https://www.supersonicads.com/mobile/sdk5/log?method=
+https://www.supersonicads.com/mobile/sdk5/log?method=
+https://www.supersonicads.com/mobile/sdk5/log?method=
+https://www.supersonicads.com/mobile/sdk5/log?method=
+https://www.supersonicads.com/mobile/sdk5/log?method=
+https://www.supersonicads.com/mobile/sdk5/log?method=
+https://www.supersonicads.com/mobile/sdk5/log?method=injectJavaScript
+https://www.supersonicads.com/mobile/sdk5/log?method=extraParametersToJson
+https://www.supersonicads.com/mobile/sdk5/log?method=noProductType
+https://www.supersonicads.com/mobile/sdk5/log?method=encodeAppUserId
+https://www.supersonicads.com/mobile/sdk5/log?method=encodeAppKey
+https://www.supersonicads.com/mobile/sdk5/log?method=setWebViewSettings
+https://www.supersonicads.com/mobile/sdk5/log?method=webviewLoadBlank
+https://www.supersonicads.com/mobile/sdk5/log?method=webviewLoadWithPath
+https://www.supersonicads.com/mobile/sdk5/log?method=htmlControllerDoesNotExistOnFileSystem
+https://www.supersonicads.com/mobile/sdk5/log?method=webviewPause
+https://www.supersonicads.com/mobile/sdk5/log?method=webviewResume
+https://www.vungle.com/privacy/
+http://api.vungle.com/api/v4/
+https://ingest.vungle.com/
+
+[INTERNAL_LOG][2018-06-12 06:29:05,974][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 06:29:05,981][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 06:29:05,981][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 06:29:05,981][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 06:29:05,981][INFO][analyze_start()] End time:[Tue Jun 12 06:29:05 2018]

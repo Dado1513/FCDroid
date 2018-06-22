@@ -1,0 +1,132 @@
+[INTERNAL_LOG][2018-06-12 08:06:21,465][INFO][analyze_start()] Init Time [Tue Jun 12 08:06:21 2018]
+[INTERNAL_LOG][2018-06-12 08:06:21,500][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 08:06:21,500][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 08:06:21,501][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 08:06:21,501][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 08:06:21,501][INFO][is_hybird()] android.permission.READ_PHONE_STATE
+[INTERNAL_LOG][2018-06-12 08:06:21,501][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 08:06:21,501][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 08:06:21,501][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 08:06:21,501][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 08:06:21,501][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 08:06:21,501][INFO][find_string()] File: js/closebutton.html
+[INTERNAL_LOG][2018-06-12 08:06:21,509][INFO][find_string()] No iframe in js/closebutton.html
+[INTERNAL_LOG][2018-06-12 08:06:21,509][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 08:06:21,509][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 08:06:21,510][INFO][find_string()] File: js/mraid.js
+[INTERNAL_LOG][2018-06-12 08:06:21,512][INFO][find_string()] No iframe in js/mraid.js
+[INTERNAL_LOG][2018-06-12 08:06:21,512][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 08:06:41,304][INFO][find_url_in_apk()] [START URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-12 08:06:41,304][INFO][find_url_in_apk()] http://107.20.206.35:8080/aquarium_v1/help.html
+http://play.google.com/store/apps/
+http://play.google.com/store/apps/
+http://featured.perfectionholic.com:8080/moregames/index_app.html
+http://featured.perfectionholic.com:8080/moregames/index_app.html
+http://featured.perfectionholic.com:8080/moregames/index.html
+http://featured.perfectionholic.com:8080/moregames/index.html
+http://www.citygamesllc.com/privacypolicy.htm
+
+[INTERNAL_LOG][2018-06-12 08:06:41,304][INFO][find_url_in_apk()] [END URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-12 08:06:51,319][ERROR][download_page_loaded()] Failed connection error download: http://107.20.206.35:8080/aquarium_v1/help.html 
+[INTERNAL_LOG][2018-06-12 08:06:52,062][ERROR][download_page_loaded()] Failed download: http://play.google.com/store/apps/ for exception [Errno 21] Is a directory: 'temp_html_code/html_downloaded_Shoot Bubble Deluxe by City Games LLC - com/'
+[INTERNAL_LOG][2018-06-12 08:06:52,681][ERROR][download_page_loaded()] Failed download: http://play.google.com/store/apps/ for exception [Errno 21] Is a directory: 'temp_html_code/html_downloaded_Shoot Bubble Deluxe by City Games LLC - com/'
+[INTERNAL_LOG][2018-06-12 08:06:53,165][ERROR][download_page_loaded()] Failed response code: 404 for http://featured.perfectionholic.com:8080/moregames/index_app.html  
+[INTERNAL_LOG][2018-06-12 08:06:53,472][ERROR][download_page_loaded()] Failed response code: 404 for http://featured.perfectionholic.com:8080/moregames/index_app.html  
+[INTERNAL_LOG][2018-06-12 08:06:55,009][INFO][find_string()] [START REMOTE FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 08:06:55,009][INFO][find_string()] Remote File in: temp_html_code/html_downloaded_Shoot Bubble Deluxe by City Games LLC - com/index.html
+[INTERNAL_LOG][2018-06-12 08:06:55,009][INFO][find_string()] URL: http://featured.perfectionholic.com:8080/moregames/index.html
+[INTERNAL_LOG][2018-06-12 08:06:55,016][INFO][find_string()] No iframe in temp_html_code/html_downloaded_Shoot Bubble Deluxe by City Games LLC - com/index.html
+[INTERNAL_LOG][2018-06-12 08:06:55,016][INFO][find_string()] Remote File in: temp_html_code/html_downloaded_Shoot Bubble Deluxe by City Games LLC - com/privacypolicy.htm
+[INTERNAL_LOG][2018-06-12 08:06:55,016][INFO][find_string()] URL: http://www.citygamesllc.com/privacypolicy.htm
+[INTERNAL_LOG][2018-06-12 08:06:55,016][ERROR][find_string()] Error unicode error 'utf-8' codec can't decode byte 0xb0 in position 1696: invalid start byte
+[INTERNAL_LOG][2018-06-12 08:06:55,016][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 08:06:55,016][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 08:06:55,016][INFO][find_url_in_apk()] http://data2.doodlemobile.com:8080/dmdata_zmm/ReceiveServlet
+http://data2.doodlemobile.com:8080/dmdata/ReceiveServlet
+http://107.20.206.35:8080/aquarium_v1/help.html
+http://newfeatureview.perfectionholic.com/featureview/gettime/
+http://ec2-184-73-77-17.compute-1.amazonaws.com/featureview/gettime/
+https://market.android.com/
+http://m.doodlemobile.com:8080/
+http://m.doodlemobile.com:8080/dm/DoodleMobileServlert2
+http://m.doodlemobile.com:8080/dm_v3/DoodleMobileServlert3
+http://nada
+http://touch.facebook.com/#/profile.php?id=
+http://f2.doodlemobile.com/feature_server/geo-ip/test.php
+http://newfeatureview.perfectionholic.com/featureview/getfeatureview/
+http://f.doodlemobile.com:8080/feature_server_v3/recommands
+http://f2.doodlemobile.com/feature_server/fullScreen/get.php
+https://s3.amazonaws.com/dm-games/feature1
+https://s3.amazonaws.com/dm-games/feature1
+http://play.google.com/store/apps/
+http://play.google.com/store/apps/
+http://featured.perfectionholic.com:8080/moregames/index_app.html
+http://featured.perfectionholic.com:8080/moregames/index_app.html
+http://featured.perfectionholic.com:8080/moregames/index.html
+http://featured.perfectionholic.com:8080/moregames/index.html
+http://192.168.1.241:8080/featureserver/receiveuesraction
+https://s3.amazonaws.com/dm-games/user_icons/
+https://graph.facebook.com/network_ads_common
+https://graph.%s.facebook.com/network_ads_common
+https://www.facebook.com/adnw_logging/
+https://www.%s.facebook.com/adnw_logging/
+https://www.facebook.com/
+https://www.%s.facebook.com
+http://www.facebook.com
+https://m.facebook.com/dialog/
+https://graph.facebook.com/
+https://api.facebook.com/restserver.php
+http://www.google-analytics.com
+https://ssl.google-analytics.com
+https://accounts.google.com
+https://accounts.google.com
+https://www.facebook.com
+https://www.facebook.com
+https://www.googleapis.com/auth/plus.me
+https://www.googleapis.com/auth/plus.me
+https://www.googleapis.com/auth/games
+http://plus.google.com/
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://csi.gstatic.com/csi
+http://www.google.com
+https://app-measurement.com/a
+https://www.googleapis.com/auth/plus.login
+http://schemas.android.com/apk/lib/com.google.android.gms.plus
+http://schemas.android.com/apk/lib/com.google.android.gms.plus
+http://code.google.com
+http://code.google.com
+https://connect.tapjoy.com/
+https://connect.tapjoy.com/
+https://ws.tapjoyads.com/
+https://ws.tapjoyads.com/
+https://ws.tapjoyads.com/
+https://ws.tapjoyads.com/
+http://content-js.tapjoy.com
+https://events.tapjoy.com/
+https://impact.applifier.com/mobile/campaigns
+http://f.doodlemobile.com:8080/feature_server_v3/featurescreen
+http://www.citygamesllc.com/privacypolicy.htm
+https://impact.staging.applifier.com/mobile/campaigns
+http://m.facebook.com/ads/ad_choices
+http://m.facebook.com/ads/ad_choices
+https://www.facebook.com/audience_network/server_side_reward
+https://www.%s.facebook.com/audience_network/server_side_reward
+http://data.flurry.com/aap.do
+https://data.flurry.com/aap.do
+http://hostname/?
+
+[INTERNAL_LOG][2018-06-12 08:06:55,016][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 08:06:55,044][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 08:06:55,044][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 08:06:55,044][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 08:06:55,044][INFO][analyze_start()] End time:[Tue Jun 12 08:06:55 2018]

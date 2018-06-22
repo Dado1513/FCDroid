@@ -1,0 +1,86 @@
+[INTERNAL_LOG][2018-06-12 04:59:44,713][INFO][analyze_start()] Init Time [Tue Jun 12 04:59:44 2018]
+[INTERNAL_LOG][2018-06-12 04:59:44,748][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 04:59:44,748][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 04:59:44,749][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 04:59:44,749][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 04:59:44,749][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 04:59:44,749][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 04:59:44,749][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-12 04:59:44,749][INFO][is_hybird()] android.permission.READ_PHONE_STATE
+[INTERNAL_LOG][2018-06-12 04:59:44,749][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 04:59:44,749][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 04:59:44,749][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 04:59:44,749][INFO][find_string()] File: js/closebutton.html
+[INTERNAL_LOG][2018-06-12 04:59:44,750][INFO][find_string()] No iframe in js/closebutton.html
+[INTERNAL_LOG][2018-06-12 04:59:44,750][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 04:59:44,750][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 04:59:44,750][INFO][find_string()] File: js/mraid.js
+[INTERNAL_LOG][2018-06-12 04:59:44,761][INFO][find_string()] No iframe in js/mraid.js
+[INTERNAL_LOG][2018-06-12 04:59:44,761][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 04:59:56,418][INFO][find_url_in_apk()] [START URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-12 04:59:56,418][INFO][find_url_in_apk()] http://play.google.com/store/apps/
+http://play.google.com/store/apps/
+http://featured.perfectionholic.com:8080/moregames/index_app.html
+http://featured.perfectionholic.com:8080/moregames/index_app.html
+http://featured.perfectionholic.com:8080/moregames/index.html
+http://featured.perfectionholic.com:8080/moregames/index.html
+
+[INTERNAL_LOG][2018-06-12 04:59:56,418][INFO][find_url_in_apk()] [END URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-12 04:59:57,145][ERROR][download_page_loaded()] Failed download: http://play.google.com/store/apps/ for exception [Errno 21] Is a directory: 'temp_html_code/html_downloaded_3D Tennis by Mouse Games - com/'
+[INTERNAL_LOG][2018-06-12 04:59:58,137][ERROR][download_page_loaded()] Failed download: http://play.google.com/store/apps/ for exception [Errno 21] Is a directory: 'temp_html_code/html_downloaded_3D Tennis by Mouse Games - com/'
+[INTERNAL_LOG][2018-06-12 04:59:58,819][ERROR][download_page_loaded()] Failed response code: 404 for http://featured.perfectionholic.com:8080/moregames/index_app.html  
+[INTERNAL_LOG][2018-06-12 04:59:59,844][INFO][find_string()] [START REMOTE FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 04:59:59,844][INFO][find_string()] Remote File in: temp_html_code/html_downloaded_3D Tennis by Mouse Games - com/index_app.html
+[INTERNAL_LOG][2018-06-12 04:59:59,845][INFO][find_string()] URL: http://featured.perfectionholic.com:8080/moregames/index_app.html
+[INTERNAL_LOG][2018-06-12 04:59:59,849][INFO][find_string()] No iframe in temp_html_code/html_downloaded_3D Tennis by Mouse Games - com/index_app.html
+[INTERNAL_LOG][2018-06-12 04:59:59,849][INFO][find_string()] Remote File in: temp_html_code/html_downloaded_3D Tennis by Mouse Games - com/index.html
+[INTERNAL_LOG][2018-06-12 04:59:59,849][INFO][find_string()] URL: http://featured.perfectionholic.com:8080/moregames/index.html
+[INTERNAL_LOG][2018-06-12 04:59:59,855][INFO][find_string()] No iframe in temp_html_code/html_downloaded_3D Tennis by Mouse Games - com/index.html
+[INTERNAL_LOG][2018-06-12 04:59:59,855][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 04:59:59,855][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 04:59:59,855][INFO][find_url_in_apk()] http://data2.doodlemobile.com:8080/dmdata_zmm/ReceiveServlet
+http://newfeatureview.perfectionholic.com/featureview/gettime/
+http://newfeatureview.perfectionholic.com/featureview/gettime/
+http://ec2-184-73-77-17.compute-1.amazonaws.com/featureview/gettime/
+http://ec2-184-73-77-17.compute-1.amazonaws.com/featureview/gettime/
+http://f2.doodlemobile.com/feature_server/geo-ip/test.php
+http://newfeatureview.perfectionholic.com/featureview/getfeatureview/
+http://f2.doodlemobile.com/feature_server/fullScreen/get.php
+http://play.google.com/store/apps/
+http://play.google.com/store/apps/
+http://featured.perfectionholic.com:8080/moregames/index_app.html
+http://featured.perfectionholic.com:8080/moregames/index_app.html
+http://featured.perfectionholic.com:8080/moregames/index.html
+http://featured.perfectionholic.com:8080/moregames/index.html
+http://192.168.1.241:8080/featureserver/receiveuesraction
+https://graph.facebook.com/network_ads_common/
+https://graph.%s.facebook.com/network_ads_common/
+https://www.facebook.com/
+https://www.%s.facebook.com
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+https://plus.google.com/
+https://connect.tapjoy.com/
+https://connect.tapjoy.com/
+https://ws.tapjoyads.com/
+https://ws.tapjoyads.com/
+https://ws.tapjoyads.com/
+https://ws.tapjoyads.com/
+http://content-js.tapjoy.com
+https://events.tapjoy.com/
+https://s3.amazonaws.com/tapjoy/videos/assets/watermark.png
+https://config.unityads.unity3d.com/webview/
+http://data.flurry.com/aap.do
+https://data.flurry.com/aap.do
+
+[INTERNAL_LOG][2018-06-12 04:59:59,855][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 04:59:59,864][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 04:59:59,865][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 04:59:59,865][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 04:59:59,865][INFO][analyze_start()] End time:[Tue Jun 12 04:59:59 2018]

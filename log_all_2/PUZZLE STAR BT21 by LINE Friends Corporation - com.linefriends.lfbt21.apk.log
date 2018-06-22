@@ -1,0 +1,57 @@
+[INTERNAL_LOG][2018-06-12 06:54:38,334][INFO][analyze_start()] Init Time [Tue Jun 12 06:54:38 2018]
+[INTERNAL_LOG][2018-06-12 06:54:38,421][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 06:54:38,422][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 06:54:38,422][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-12 06:54:38,422][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 06:54:38,422][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 06:54:38,422][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 06:54:38,422][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 06:54:38,422][INFO][is_hybird()] android.permission.READ_PHONE_STATE
+[INTERNAL_LOG][2018-06-12 06:54:38,422][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 06:54:38,422][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 06:54:38,422][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 06:54:38,423][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 06:54:38,423][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 06:54:38,423][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 06:54:38,423][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 06:55:01,420][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 06:55:01,420][INFO][find_url_in_apk()] http://schemas.android.com/apk/res/android
+https://graph.%s
+https://graph-video.%s
+https://facebook.com
+http://play.google.com/store/apps/details?id=com.facebook.orca
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+https://accounts.google.com
+https://www.facebook.com
+https://www.googleapis.com/auth/games
+https://plus.google.com/
+https://growthy-sandbox-growthywebcollector-80.gcld-line.com
+https://growthy-staging-growthywebcollector-80.gcld-line.com
+https://growthy-release-growthywebcollector-80-kr.gcld-line.com
+https://access.line.me/v2
+https://access.line.me/v2
+https://access.line.me/v2
+https://access.line.me/v2
+https://access.line.me/dialog/oauth/weblogin
+https://access.line.me/dialog/oauth/weblogin
+https://z.moatads.com/
+https://www.vungle.com/privacy/
+https://www.vungle.com/privacy/
+http://lol.vungle.com/
+https://api.vungle.com/
+https://ads.api.vungle.com/config
+http://localhost/
+http://localhost/
+http://localhost/
+
+[INTERNAL_LOG][2018-06-12 06:55:01,420][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 06:55:01,423][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 06:55:01,423][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 06:55:01,424][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 06:55:01,424][INFO][analyze_start()] End time:[Tue Jun 12 06:55:01 2018]

@@ -1,0 +1,345 @@
+[INTERNAL_LOG][2018-06-12 08:41:30,685][INFO][analyze_start()] Init Time [Tue Jun 12 08:41:30 2018]
+[INTERNAL_LOG][2018-06-12 08:41:30,898][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 08:41:30,900][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 08:41:30,900][INFO][is_hybird()] com.facebook.katana.provider.ACCESS
+[INTERNAL_LOG][2018-06-12 08:41:30,900][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 08:41:30,900][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 08:41:30,900][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 08:41:30,900][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 08:41:30,900][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-12 08:41:30,900][INFO][is_hybird()] android.permission.READ_CONTACTS
+[INTERNAL_LOG][2018-06-12 08:41:30,900][INFO][is_hybird()] android.permission.READ_CALL_LOG
+[INTERNAL_LOG][2018-06-12 08:41:30,900][INFO][is_hybird()] android.permission.READ_PROFILE
+[INTERNAL_LOG][2018-06-12 08:41:30,900][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 08:41:30,900][INFO][is_hybird()] android.permission.READ_PHONE_STATE
+[INTERNAL_LOG][2018-06-12 08:41:30,900][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 08:41:30,900][INFO][is_hybird()] android.permission.RECEIVE_BOOT_COMPLETED
+[INTERNAL_LOG][2018-06-12 08:41:30,900][INFO][is_hybird()] android.permission.READ_SYNC_SETTINGS
+[INTERNAL_LOG][2018-06-12 08:41:30,900][INFO][is_hybird()] android.permission.RECEIVE_MMS
+[INTERNAL_LOG][2018-06-12 08:41:30,900][INFO][is_hybird()] android.permission.READ_SMS
+[INTERNAL_LOG][2018-06-12 08:41:30,900][INFO][is_hybird()] android.permission.WRITE_SMS
+[INTERNAL_LOG][2018-06-12 08:41:30,900][INFO][is_hybird()] android.permission.SEND_SMS
+[INTERNAL_LOG][2018-06-12 08:41:30,900][INFO][is_hybird()] android.permission.CHANGE_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 08:41:30,901][INFO][is_hybird()] android.permission.RECORD_AUDIO
+[INTERNAL_LOG][2018-06-12 08:41:30,901][INFO][is_hybird()] android.permission.SYSTEM_ALERT_WINDOW
+[INTERNAL_LOG][2018-06-12 08:41:30,901][INFO][is_hybird()] android.permission.CALL_PHONE
+[INTERNAL_LOG][2018-06-12 08:41:30,901][INFO][is_hybird()] android.permission.MODIFY_AUDIO_SETTINGS
+[INTERNAL_LOG][2018-06-12 08:41:30,901][INFO][is_hybird()] android.permission.DOWNLOAD_WITHOUT_NOTIFICATION
+[INTERNAL_LOG][2018-06-12 08:41:30,901][INFO][is_hybird()] android.permission.AUTHENTICATE_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 08:41:30,901][INFO][is_hybird()] android.permission.MANAGE_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 08:41:30,901][INFO][is_hybird()] android.permission.PROCESS_OUTGOING_CALLS
+[INTERNAL_LOG][2018-06-12 08:41:30,901][INFO][is_hybird()] android.permission.WRITE_CONTACTS
+[INTERNAL_LOG][2018-06-12 08:41:30,901][INFO][is_hybird()] android.permission.WRITE_SYNC_SETTINGS
+[INTERNAL_LOG][2018-06-12 08:41:30,901][INFO][is_hybird()] android.permission.BLUETOOTH
+[INTERNAL_LOG][2018-06-12 08:41:30,901][INFO][is_hybird()] android.permission.NFC
+[INTERNAL_LOG][2018-06-12 08:41:30,901][INFO][is_hybird()] com.facebook.orca.provider.ACCESS
+[INTERNAL_LOG][2018-06-12 08:41:30,901][INFO][is_hybird()] com.facebook.permission.prod.FB_APP_COMMUNICATION
+[INTERNAL_LOG][2018-06-12 08:41:30,901][INFO][is_hybird()] com.facebook.mlite.provider.ACCESS
+[INTERNAL_LOG][2018-06-12 08:41:30,901][INFO][is_hybird()] android.permission.CAMERA
+[INTERNAL_LOG][2018-06-12 08:41:30,901][INFO][is_hybird()] android.permission.ACCESS_FINE_LOCATION
+[INTERNAL_LOG][2018-06-12 08:41:30,901][INFO][is_hybird()] android.permission.ACCESS_COARSE_LOCATION
+[INTERNAL_LOG][2018-06-12 08:41:30,901][INFO][is_hybird()] com.google.android.providers.gsf.permission.READ_GSERVICES
+[INTERNAL_LOG][2018-06-12 08:41:30,901][INFO][is_hybird()] com.huawei.android.launcher.permission.CHANGE_BADGE
+[INTERNAL_LOG][2018-06-12 08:41:30,901][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 08:41:30,901][INFO][is_hybird()] android.permission.REQUEST_INSTALL_PACKAGES
+[INTERNAL_LOG][2018-06-12 08:41:30,901][INFO][is_hybird()] com.facebook.orca.permission.CROSS_PROCESS_BROADCAST_MANAGER
+[INTERNAL_LOG][2018-06-12 08:41:30,901][INFO][is_hybird()] android.permission.BATTERY_STATS
+[INTERNAL_LOG][2018-06-12 08:41:30,901][INFO][is_hybird()] com.android.launcher.permission.INSTALL_SHORTCUT
+[INTERNAL_LOG][2018-06-12 08:41:30,902][INFO][is_hybird()] com.facebook.receiver.permission.ACCESS
+[INTERNAL_LOG][2018-06-12 08:41:30,902][INFO][is_hybird()] com.sec.android.provider.badge.permission.READ
+[INTERNAL_LOG][2018-06-12 08:41:30,902][INFO][is_hybird()] com.sec.android.provider.badge.permission.WRITE
+[INTERNAL_LOG][2018-06-12 08:41:30,902][INFO][is_hybird()] com.htc.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 08:41:30,902][INFO][is_hybird()] com.htc.launcher.permission.UPDATE_SHORTCUT
+[INTERNAL_LOG][2018-06-12 08:41:30,902][INFO][is_hybird()] com.sonyericsson.home.permission.BROADCAST_BADGE
+[INTERNAL_LOG][2018-06-12 08:41:30,902][INFO][is_hybird()] com.facebook.orca.permission.RECEIVE_ADM_MESSAGE
+[INTERNAL_LOG][2018-06-12 08:41:30,902][INFO][is_hybird()] com.amazon.device.messaging.permission.RECEIVE
+[INTERNAL_LOG][2018-06-12 08:41:30,902][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-12 08:41:30,902][INFO][is_hybird()] com.facebook.orca.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-12 08:41:30,902][INFO][is_hybird()] com.nokia.pushnotifications.permission.RECEIVE
+[INTERNAL_LOG][2018-06-12 08:41:30,902][INFO][is_hybird()] android.permission.RECEIVE_SMS
+[INTERNAL_LOG][2018-06-12 08:41:30,902][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 08:41:30,902][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 08:41:30,902][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 08:41:30,902][INFO][find_string()] File: assets/warning_template.html
+[INTERNAL_LOG][2018-06-12 08:41:30,903][INFO][find_string()] No iframe in assets/warning_template.html
+[INTERNAL_LOG][2018-06-12 08:41:30,903][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 08:41:30,904][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 08:41:30,904][INFO][find_string()] File: assets/MessengerBundle.js
+[INTERNAL_LOG][2018-06-12 08:41:36,707][INFO][find_string()] No iframe in assets/MessengerBundle.js
+[INTERNAL_LOG][2018-06-12 08:41:36,707][INFO][find_string()] File: assets/warning.js
+[INTERNAL_LOG][2018-06-12 08:41:36,708][INFO][find_string()] No iframe in assets/warning.js
+[INTERNAL_LOG][2018-06-12 08:41:36,708][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 08:46:06,971][ERROR][find_url_in_apk()] Exception during find url in apk 'tmp23'
+[INTERNAL_LOG][2018-06-12 08:46:18,478][ERROR][find_url_in_apk()] Exception during find url in apk 'tmp21'
+[INTERNAL_LOG][2018-06-12 08:46:18,530][ERROR][find_url_in_apk()] Exception during find url in apk 'tmp23'
+[INTERNAL_LOG][2018-06-12 08:46:19,101][ERROR][find_url_in_apk()] Exception during find url in apk 'tmp67'
+[INTERNAL_LOG][2018-06-12 08:46:20,215][INFO][find_url_in_apk()] [START URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-12 08:46:20,215][INFO][find_url_in_apk()] https://www.facebook.com/help/713015355575644?ref=iab
+
+[INTERNAL_LOG][2018-06-12 08:46:20,215][INFO][find_url_in_apk()] [END URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-12 08:46:21,194][INFO][find_string()] [START REMOTE FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 08:46:21,194][INFO][find_string()] Remote File in: temp_html_code/html_downloaded_Messenger _ Text and Video Chat for Free by Facebook - com/713015355575644?ref=iab
+[INTERNAL_LOG][2018-06-12 08:46:21,195][INFO][find_string()] URL: https://www.facebook.com/help/713015355575644?ref=iab
+[INTERNAL_LOG][2018-06-12 08:46:21,229][INFO][find_string()] No iframe in temp_html_code/html_downloaded_Messenger _ Text and Video Chat for Free by Facebook - com/713015355575644?ref=iab
+[INTERNAL_LOG][2018-06-12 08:46:21,229][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 08:46:21,229][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 08:46:21,230][INFO][find_url_in_apk()] https://www.facebook.com/mobile/orca_android_crash_logs/
+https://www.facebook.com/mobile/orca_android_crash_logs/
+http://www.android.com/
+https://developers.facebook.com
+https://m.facebook.com/mobile_builds
+https://market.android.com/details?id=com.facebook.orca
+https://www.facebook.com/help/messenger-app/522894144496549
+https://b-api.facebook.com/method/logging.clientevent
+http://java.sun.com/dtd/properties.dtd
+https://fburl.com/callsitedefault
+https://lookaside.facebook.com/assets/
+https://lookaside.facebook.com/redrawable/
+https://lookaside.facebook.com/redrawable/
+http://www1.cleanwaterpriority.org/w_mf_in_801?,https://0.freebasics.com/,http://our.intern.facebook.com/intern/px,https://pxl.cl,https://fburl.com,https://fb.quip.com,https://phabricator.fb.com,https://phabricator.intern.facebook.com,https://our.intern.facebook.com/intern,https://intern.facebook.com/intern,https://www.facebook.com/careers,https://bigzipfiles.facebook.com
+https://work.facebook.com/company_creation/invite/,https://work.alpha.facebook.com/company_creation/invite/
+https://www.facebook.com/help/713015355575644?ref=fb4a_iab
+https://www.facebook.com/help/713015355575644?ref=fb4a_iab
+https://developers.google.com/safe-browsing/v4/advisory
+https://developers.google.com/safe-browsing/v4/advisory
+https://m.facebook.com/terms.php
+https://m.facebook.com/terms.php
+https://m.facebook.com/terms.php
+https://m.facebook.com/terms.php
+https://m.facebook.com/download_bonfire
+https://173.252.112.83:443/favicon.ico?_iptest_timeout=15000&_iptest_expected_rc=200
+http://local-cdn.talolabs.net/store/%s
+http://facebook.com
+http://facebook.com
+https://m.mybonfire.com/download_bonfire
+https://lithium.facebook.com/lithium/stream
+https://www.facebook.com/marketplace_rating/popover/
+https://m.me/115016608835194
+https://m.facebook.com/work/terms/nav
+https://m.facebook.com/work/terms/nav
+https://m.facebook.com/work/terms/nav
+https://m.facebook.com/onthisday/preferences/?source=permalink
+https://m.facebook.com/onthisday/notification/settings/?source=permalink
+https://m.facebook.com/order_tracking
+https://m.facebook.com/jobs?source=%s
+http://m.facebook.com
+http://m.facebook.com
+http://m.facebook.com
+http://m.facebook.com
+https://m.facebook.com/help/contact/.*
+https://m.facebook.com/groups/create/.*
+https://m.facebook.com/.*/about.*
+https://m.facebook.com/timeline/app_section/.*
+https://api.
+https://graph.
+https://graph-video.
+https://graph.secure.
+https://secure.
+http://h.
+https://m.
+https://facebook.com/help/messenger-app/218228001910904
+https://facebook.com/android/messenger/upgrade/?user_agent=
+https://facebook.com/android/messenger/upgrade/?user_agent=
+http://portal.fb.com/mobile/redirect/
+https://web.facebook.com/images/zero/zero_pixel.gif
+https://web.facebook.com/images/zero/zero_pixel.gif
+https://broken.facebook.com
+http://our.graph.prod.intern.facebook.com/intern/flatbuffer_schema/10157378256836729
+https://www.facebook.com/help/messenger-app/677222715664928/
+https://www.facebook.com/music/spotify/auth/
+https://graph.facebook.com/v2.2/maps_configs?fields=base_url,static_base_url,osm_config,url_override_config&pretty=0&access_token=
+https://www.facebook.com/maps/tile/?
+https://www.facebook.com/maps/static/?
+https://maps.instagram.com/maps/tile/?
+https://maps.instagram.com/maps/static/?
+https://expresswifi.com/maps/tile/?
+https://expresswifi.com/maps/static/?
+https://b-api.facebook.com
+https://b-graph.facebook.com
+https://b-graph.secure.facebook.com
+https://www.facebook.com/help/189165674568397
+https://m.facebook.com/r.php
+https://m.facebook.com/recover/initiate
+https://facebook.com/settings?tab=payments&id=%s
+https://facebook.com/settings?tab=payments&id=%s
+https://m.facebook.com
+https://m.facebook.com
+https://m.facebook.com
+https://m.facebook.com
+https://m.facebook.com
+https://api.giphy.com/
+https://m.facebook.com/trust/afro/?reportable_ent_token=%s&initial_action=%s&story_location=%s
+https://m.facebook.com/trust/afro/?reportable_ent_token=%s&initial_action=%s&story_location=%s
+http://schemas.android.com/apk/res/android
+https://www.facebook.com/mobile/messenger/contacts
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+https://android.googleapis.com/gcm/send
+https://api.amazon.com/messaging/registrations/
+https://nnapi.ovi.com/nnapi/2.0/send
+https://www.facebook.com/
+https://www.facebook.com/
+https://www.facebook.com/
+https://m.facebook.com/help/messenger-app/1165699260192280
+https://m.facebook.com/help/contact/268228883256323?refid=69
+https://our.intern.facebook.com/intern/rtc/app_funnel_log
+https://www.facebook.com/maps/attribution_terms/
+https://facebook.com/
+https://facebook.com/
+https://facebook.com/
+https://reddit.com
+https://phabricator.intern.facebook.com/
+https://our.intern.facebook.com/intern/tasks/?t=
+https://our.intern.facebook.com/intern/sevmanager/view/s/
+https://www.facebook.com
+https://www.googleapis.com/auth/games
+https://www.facebook.com/help/314046672118572
+https://www.facebook.com/help/314046672118572
+https://www.facebook.com/help/work/240852079753311
+https://m.facebook.com/legal/FB_Work_Privacy?show_chrome=false
+https://m.facebook.com/about/privacy/
+https://m.facebook.com/about/privacy/
+https://m.facebook.com/about/privacy/
+https://www.facebook.com/maps/provider_by_viewport?
+https://www.facebook.com/maps/report/?
+http://schemas.android.com/apk/facebook
+http://schemas.android.com/apk/facebook
+https://www.facebook.com/images/here_maps/here_maps_logo_64px.png
+https://www.facebook.com/images/here_maps/here_maps_logo_32px.png
+https://mts1.google.com/vt/lyrs=m&src=app&s=G&scale=
+https://dev503.prn2.facebook.com:8085/?width=
+http://1.base.maps.cit.api.here.com/maptile/2.1/maptile/newest/normal.day/
+http://api.tiles.mapbox.com/v4/kunalb.ipim2pep/
+https://our.intern.facebook.com/intern/feedtools/feed_debugger?uid=
+http://m.facebook.com/about/privacy
+https://m.facebook.com/payments_terms
+https://m.facebook.com/payments_terms
+https://m.facebook.com/payments_terms
+https://m.facebook.com/payments_terms
+https://m.facebook.com/payments_terms
+https://m.facebook.com/payments_terms
+https://m.facebook.com/payer_protection
+https://m.facebook.com/payer_protection
+https://m.facebook.com/payer_protection
+https://m.facebook.com/
+http://www.facebook.com/
+http://www.facebook.com/
+http://m.facebook.com/
+http://facebook.com/
+https://graph.facebook.com/%s/picture?type=large
+https://connect.facebook.net/en_US/fbevents.js
+https://www.facebook.com/tr?
+https://www.facebook.com/tr/?
+https://www.google-analytics.com/analytics.js
+https://www.google-analytics.com/r/collect?
+https://www.google-analytics.com/r/collect/?
+https://www.facebook.com/help/713015355575644?ref=iab
+https://our.intern.facebook.com/intern/iab/bh/warning/
+https://our.intern.facebook.com/intern/iab/bh/warning/
+https://our.intern.facebook.com/intern/iab/sb/warning/
+https://www.facebook.com/help/1710719789144492
+https://www.facebook.com/help/messenger-app/1573402819647115/
+http://www.facebook.com
+http://www.facebook.com
+http://www.gstatic.com/android/sms/mms_ua_profile.xml
+http://portal.fb.com/mobile/status.php
+http://maps.google.com/maps
+http://maps.google.com/maps
+http://maps.google.com/maps
+https://graph.instagram.com/maps_configs?fields=base_url,static_base_url,osm_config,url_override_config&pretty=0&access_token=
+https://graph.whatsapp.net/v2.2/maps_configs?fields=base_url,static_base_url,osm_config,url_override_config&pretty=0&access_token=
+https://www.mapbox.com/feedback/
+https://m.me/join/
+https://www.facebook.com/help/messenger-app/1084673321594605
+https://facebook.com/help/messenger-app/147596532316790
+https://www.facebook.com/mobileassets/facedetection
+https://www.facebook.com/about/privacy
+http://dummy/?
+https://m.facebook.com/legal/thirdpartynotices
+https://m.facebook.com/legal/thirdpartynotices
+https://m.facebook.com/policies/cookies/
+https://m.facebook.com/privacy/touch/block/confirm?bid=%s&source=messenger_faceweb
+https://m.facebook.com/privacy/touch/block/
+https://m.facebook.com/neo/fallback
+https://www.facebook.com/help/112146705538576
+https://www.facebook.com/help/112146705538576
+https://m.facebook.com/reg
+https://facebook.com/help/messenger-app/391789114543620
+https://www.facebook.com/help/105399436216001
+http://www.w3.org/ns/ttml#parameter
+https://www.googleapis.com/auth/drive.file
+https://www.googleapis.com/auth/drive.appdata
+https://www.googleapis.com/auth/drive
+https://www.googleapis.com/auth/drive.apps
+https://m.facebook.com/profile.php?id=%s&v=info
+https://lookaside.fbsbx.com/si/neotenic/
+https://m.facebook.com/help/messenger-app/750020781733477
+https://m.facebook.com/help/messenger-app/750020781733477
+https://m.facebook.com/help/messenger-app/750020781733477
+https://m.facebook.com/help/messenger-app/750020781733477
+https://m.facebook.com/help/messenger-app/750020781733477
+https://m.facebook.com/help/messenger-app/750020781733477
+https://m.facebook.com/help/messenger-app/750020781733477
+https://m.facebook.com/help/messenger-app/750020781733477
+https://m.facebook.com/help/contact/614010102040957
+https://m.facebook.com/help/contact/614010102040957
+https://m.facebook.com/help/contact/614010102040957
+https://m.facebook.com/help/contact/223254857690713
+https://m.facebook.com/help/contact/223254857690713
+https://m.facebook.com/legal/m
+https://m.facebook.com/help/messenger-app/870471599656315
+https://m.facebook.com/help/messenger-app/1463256903894928
+https://m.facebook.com/help/messenger-app/1463256903894928
+https://m.facebook.com/help/contact/370238886476028
+https://m.facebook.com/help/contact/370238886476028
+https://m.facebook.com/help/contact/370238886476028
+https://m.facebook.com/help/messenger-app/1564459413784472
+https://m.facebook.com/help/messenger-app/1564459413784472
+https://m.facebook.com/help/messenger-app/818512131561533
+https://m.facebook.com/help/messenger-app/818512131561533
+https://m.facebook.com/help/android-app/376510072539297
+https://m.facebook.com/help/android-app/919479321397007
+http://m.me/1893610767591581
+https://m.facebook.com/help/messenger-app/369959656515129
+https://m.facebook.com/help/messenger-app/369959656515129
+https://m.facebook.com/help/messenger-app/369959656515129
+http://m.me/1893610767591581?ref=
+https://m.facebook.com/help/contact/828169843971429
+https://m.facebook.com/p2p/verify/?id=%s&source=orca_android&ts=%d&seed=%s
+https://m.facebook.com/help/messenger-app/android/1528535330720775
+https://m.facebook.com/help/messenger-app/728431013914433
+https://m.facebook.com/help/messenger-app/728431013914433
+https://shortwave.facebook.com/
+https://shortwave.facebook.com/v2/vp/text
+https://www.facebook.com/audience_network/server_side_reward
+https://www.%s.facebook.com/audience_network/server_side_reward
+https://www.facebook.com/adnw_logging/
+https://www.%s.facebook.com/adnw_logging/
+http://play.google.com/store/apps/
+https://www.%s.facebook.com
+https://graph.facebook.com/network_ads_common
+https://graph.%s.facebook.com/network_ads_common
+https://m.facebook.com/pay/payments/terms_and_policies?payment_type=%s
+https://www.facebook.com/communitystandards
+http://m.facebook.com/help/messenger-app/1526848634305688
+https://m.facebook.com/legal/FB_Work_AUP?show_chrome=false
+https://m.facebook.com/deactivate/messenger
+https://www.facebook.com/help/messenger-app/321774648351848
+https://m.facebook.com/privacy/touch/block
+https://www.facebook.com/policy.php
+http://play.google.com/store/apps/details?id=
+https://m.facebook.com/ads/manager/billing/
+https://m.facebook.com/help/1434403039959381
+https://m.facebook.com/help/contact/1937556639801443
+
+[INTERNAL_LOG][2018-06-12 08:46:21,230][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 08:46:21,236][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 08:46:21,236][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 08:46:21,236][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 08:46:21,236][INFO][analyze_start()] End time:[Tue Jun 12 08:46:21 2018]

@@ -1,0 +1,210 @@
+[INTERNAL_LOG][2018-06-12 09:07:34,181][INFO][analyze_start()] Init Time [Tue Jun 12 09:07:34 2018]
+[INTERNAL_LOG][2018-06-12 09:07:34,275][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 09:07:34,277][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 09:07:34,277][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 09:07:34,277][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 09:07:34,277][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 09:07:34,277][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 09:07:34,277][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 09:07:34,277][INFO][is_hybird()] android.permission.READ_CONTACTS
+[INTERNAL_LOG][2018-06-12 09:07:34,277][INFO][is_hybird()] android.permission.READ_LOGS
+[INTERNAL_LOG][2018-06-12 09:07:34,277][INFO][is_hybird()] android.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 09:07:34,277][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 09:07:34,277][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 09:07:34,277][INFO][is_hybird()] android.permission.READ_PHONE_STATE
+[INTERNAL_LOG][2018-06-12 09:07:34,277][INFO][is_hybird()] android.permission.ACCESS_COARSE_LOCATION
+[INTERNAL_LOG][2018-06-12 09:07:34,277][INFO][is_hybird()] android.permission.ACCESS_FINE_LOCATION
+[INTERNAL_LOG][2018-06-12 09:07:34,277][INFO][is_hybird()] android.permission.CAMERA
+[INTERNAL_LOG][2018-06-12 09:07:34,277][INFO][is_hybird()] android.permission.USE_FINGERPRINT
+[INTERNAL_LOG][2018-06-12 09:07:34,277][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-12 09:07:34,277][INFO][is_hybird()] ru.mts.service.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-12 09:07:34,278][INFO][is_hybird()] android.permission.NFC
+[INTERNAL_LOG][2018-06-12 09:07:34,278][INFO][is_hybird()] android.permission.CALL_PHONE
+[INTERNAL_LOG][2018-06-12 09:07:34,278][INFO][is_hybird()] android.permission.CHANGE_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 09:07:34,278][INFO][is_hybird()] android.permission.CHANGE_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 09:07:34,278][INFO][is_hybird()] android.permission.RECEIVE_SMS
+[INTERNAL_LOG][2018-06-12 09:07:34,278][INFO][is_hybird()] android.permission.GET_TASKS
+[INTERNAL_LOG][2018-06-12 09:07:34,278][INFO][is_hybird()] com.google.android.providers.gsf.permission.READ_GSERVICES
+[INTERNAL_LOG][2018-06-12 09:07:34,278][INFO][is_hybird()] android.permission.ACCESS_COARSE_UPDATES
+[INTERNAL_LOG][2018-06-12 09:07:34,278][INFO][is_hybird()] ru.mts.mymts.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-12 09:07:34,278][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-12 09:07:34,278][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 09:07:34,278][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 09:07:34,278][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 09:07:34,278][INFO][find_string()] File: main/example/chat.html
+[INTERNAL_LOG][2018-06-12 09:07:34,279][INFO][find_string()] No iframe in main/example/chat.html
+[INTERNAL_LOG][2018-06-12 09:07:34,279][INFO][find_string()] File: main/example/web-socket-js/index.html
+[INTERNAL_LOG][2018-06-12 09:07:34,280][INFO][find_string()] No iframe in main/example/web-socket-js/index.html
+[INTERNAL_LOG][2018-06-12 09:07:34,280][INFO][find_string()] File: res/raw/mtssdk_oferta.html
+[INTERNAL_LOG][2018-06-12 09:07:34,333][INFO][find_string()] No iframe in res/raw/mtssdk_oferta.html
+[INTERNAL_LOG][2018-06-12 09:07:34,333][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 09:07:34,333][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 09:07:34,333][INFO][find_string()] File: main/example/prototype.js
+[INTERNAL_LOG][2018-06-12 09:07:34,337][INFO][find_string()] No iframe in main/example/prototype.js
+[INTERNAL_LOG][2018-06-12 09:07:34,337][INFO][find_string()] File: main/example/web-socket-js/swfobject.js
+[INTERNAL_LOG][2018-06-12 09:07:34,338][INFO][find_string()] No iframe in main/example/web-socket-js/swfobject.js
+[INTERNAL_LOG][2018-06-12 09:07:34,338][INFO][find_string()] File: main/example/web-socket-js/web_socket.js
+[INTERNAL_LOG][2018-06-12 09:07:34,339][INFO][find_string()] No iframe in main/example/web-socket-js/web_socket.js
+[INTERNAL_LOG][2018-06-12 09:07:34,339][INFO][find_string()] File: org/apache/commons/validator/javascript/validateByte-compress.js
+[INTERNAL_LOG][2018-06-12 09:07:34,339][INFO][find_string()] No iframe in org/apache/commons/validator/javascript/validateByte-compress.js
+[INTERNAL_LOG][2018-06-12 09:07:34,339][INFO][find_string()] File: org/apache/commons/validator/javascript/validateByte.js
+[INTERNAL_LOG][2018-06-12 09:07:34,340][INFO][find_string()] No iframe in org/apache/commons/validator/javascript/validateByte.js
+[INTERNAL_LOG][2018-06-12 09:07:34,340][INFO][find_string()] File: org/apache/commons/validator/javascript/validateCreditCard-compress.js
+[INTERNAL_LOG][2018-06-12 09:07:34,340][INFO][find_string()] No iframe in org/apache/commons/validator/javascript/validateCreditCard-compress.js
+[INTERNAL_LOG][2018-06-12 09:07:34,340][INFO][find_string()] File: org/apache/commons/validator/javascript/validateCreditCard.js
+[INTERNAL_LOG][2018-06-12 09:07:34,341][INFO][find_string()] No iframe in org/apache/commons/validator/javascript/validateCreditCard.js
+[INTERNAL_LOG][2018-06-12 09:07:34,341][INFO][find_string()] File: org/apache/commons/validator/javascript/validateDate-compress.js
+[INTERNAL_LOG][2018-06-12 09:07:34,341][INFO][find_string()] No iframe in org/apache/commons/validator/javascript/validateDate-compress.js
+[INTERNAL_LOG][2018-06-12 09:07:34,341][INFO][find_string()] File: org/apache/commons/validator/javascript/validateDate.js
+[INTERNAL_LOG][2018-06-12 09:07:34,342][INFO][find_string()] No iframe in org/apache/commons/validator/javascript/validateDate.js
+[INTERNAL_LOG][2018-06-12 09:07:34,342][INFO][find_string()] File: org/apache/commons/validator/javascript/validateEmail-compress.js
+[INTERNAL_LOG][2018-06-12 09:07:34,343][INFO][find_string()] No iframe in org/apache/commons/validator/javascript/validateEmail-compress.js
+[INTERNAL_LOG][2018-06-12 09:07:34,343][INFO][find_string()] File: org/apache/commons/validator/javascript/validateEmail.js
+[INTERNAL_LOG][2018-06-12 09:07:34,344][INFO][find_string()] No iframe in org/apache/commons/validator/javascript/validateEmail.js
+[INTERNAL_LOG][2018-06-12 09:07:34,344][INFO][find_string()] File: org/apache/commons/validator/javascript/validateFloat-compress.js
+[INTERNAL_LOG][2018-06-12 09:07:34,344][INFO][find_string()] No iframe in org/apache/commons/validator/javascript/validateFloat-compress.js
+[INTERNAL_LOG][2018-06-12 09:07:34,344][INFO][find_string()] File: org/apache/commons/validator/javascript/validateFloat.js
+[INTERNAL_LOG][2018-06-12 09:07:34,344][INFO][find_string()] No iframe in org/apache/commons/validator/javascript/validateFloat.js
+[INTERNAL_LOG][2018-06-12 09:07:34,345][INFO][find_string()] File: org/apache/commons/validator/javascript/validateFloatRange-compress.js
+[INTERNAL_LOG][2018-06-12 09:07:34,345][INFO][find_string()] No iframe in org/apache/commons/validator/javascript/validateFloatRange-compress.js
+[INTERNAL_LOG][2018-06-12 09:07:34,345][INFO][find_string()] File: org/apache/commons/validator/javascript/validateFloatRange.js
+[INTERNAL_LOG][2018-06-12 09:07:34,345][INFO][find_string()] No iframe in org/apache/commons/validator/javascript/validateFloatRange.js
+[INTERNAL_LOG][2018-06-12 09:07:34,345][INFO][find_string()] File: org/apache/commons/validator/javascript/validateIntRange-compress.js
+[INTERNAL_LOG][2018-06-12 09:07:34,346][INFO][find_string()] No iframe in org/apache/commons/validator/javascript/validateIntRange-compress.js
+[INTERNAL_LOG][2018-06-12 09:07:34,346][INFO][find_string()] File: org/apache/commons/validator/javascript/validateIntRange.js
+[INTERNAL_LOG][2018-06-12 09:07:34,346][INFO][find_string()] No iframe in org/apache/commons/validator/javascript/validateIntRange.js
+[INTERNAL_LOG][2018-06-12 09:07:34,346][INFO][find_string()] File: org/apache/commons/validator/javascript/validateInteger-compress.js
+[INTERNAL_LOG][2018-06-12 09:07:34,347][INFO][find_string()] No iframe in org/apache/commons/validator/javascript/validateInteger-compress.js
+[INTERNAL_LOG][2018-06-12 09:07:34,347][INFO][find_string()] File: org/apache/commons/validator/javascript/validateInteger.js
+[INTERNAL_LOG][2018-06-12 09:07:34,347][INFO][find_string()] No iframe in org/apache/commons/validator/javascript/validateInteger.js
+[INTERNAL_LOG][2018-06-12 09:07:34,347][INFO][find_string()] File: org/apache/commons/validator/javascript/validateMask-compress.js
+[INTERNAL_LOG][2018-06-12 09:07:34,347][INFO][find_string()] No iframe in org/apache/commons/validator/javascript/validateMask-compress.js
+[INTERNAL_LOG][2018-06-12 09:07:34,347][INFO][find_string()] File: org/apache/commons/validator/javascript/validateMask.js
+[INTERNAL_LOG][2018-06-12 09:07:34,348][INFO][find_string()] No iframe in org/apache/commons/validator/javascript/validateMask.js
+[INTERNAL_LOG][2018-06-12 09:07:34,348][INFO][find_string()] File: org/apache/commons/validator/javascript/validateMaxLength-compress.js
+[INTERNAL_LOG][2018-06-12 09:07:34,348][INFO][find_string()] No iframe in org/apache/commons/validator/javascript/validateMaxLength-compress.js
+[INTERNAL_LOG][2018-06-12 09:07:34,348][INFO][find_string()] File: org/apache/commons/validator/javascript/validateMaxLength.js
+[INTERNAL_LOG][2018-06-12 09:07:34,349][INFO][find_string()] No iframe in org/apache/commons/validator/javascript/validateMaxLength.js
+[INTERNAL_LOG][2018-06-12 09:07:34,349][INFO][find_string()] File: org/apache/commons/validator/javascript/validateMinLength-compress.js
+[INTERNAL_LOG][2018-06-12 09:07:34,349][INFO][find_string()] No iframe in org/apache/commons/validator/javascript/validateMinLength-compress.js
+[INTERNAL_LOG][2018-06-12 09:07:34,349][INFO][find_string()] File: org/apache/commons/validator/javascript/validateMinLength.js
+[INTERNAL_LOG][2018-06-12 09:07:34,350][INFO][find_string()] No iframe in org/apache/commons/validator/javascript/validateMinLength.js
+[INTERNAL_LOG][2018-06-12 09:07:34,350][INFO][find_string()] File: org/apache/commons/validator/javascript/validateRequired-compress.js
+[INTERNAL_LOG][2018-06-12 09:07:34,350][INFO][find_string()] No iframe in org/apache/commons/validator/javascript/validateRequired-compress.js
+[INTERNAL_LOG][2018-06-12 09:07:34,351][INFO][find_string()] File: org/apache/commons/validator/javascript/validateRequired.js
+[INTERNAL_LOG][2018-06-12 09:07:34,351][INFO][find_string()] No iframe in org/apache/commons/validator/javascript/validateRequired.js
+[INTERNAL_LOG][2018-06-12 09:07:34,351][INFO][find_string()] File: org/apache/commons/validator/javascript/validateShort-compress.js
+[INTERNAL_LOG][2018-06-12 09:07:34,352][INFO][find_string()] No iframe in org/apache/commons/validator/javascript/validateShort-compress.js
+[INTERNAL_LOG][2018-06-12 09:07:34,352][INFO][find_string()] File: org/apache/commons/validator/javascript/validateShort.js
+[INTERNAL_LOG][2018-06-12 09:07:34,352][INFO][find_string()] No iframe in org/apache/commons/validator/javascript/validateShort.js
+[INTERNAL_LOG][2018-06-12 09:07:34,352][INFO][find_string()] File: org/apache/commons/validator/javascript/validateUtilities-compress.js
+[INTERNAL_LOG][2018-06-12 09:07:34,353][INFO][find_string()] No iframe in org/apache/commons/validator/javascript/validateUtilities-compress.js
+[INTERNAL_LOG][2018-06-12 09:07:34,353][INFO][find_string()] File: org/apache/commons/validator/javascript/validateUtilities.js
+[INTERNAL_LOG][2018-06-12 09:07:34,354][INFO][find_string()] No iframe in org/apache/commons/validator/javascript/validateUtilities.js
+[INTERNAL_LOG][2018-06-12 09:07:34,354][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 09:08:24,338][INFO][find_url_in_apk()] [START URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-12 09:08:24,339][INFO][find_url_in_apk()] http://mts-money/cancel
+http://mts-money/cancel
+http://mts-service.mts.ru/speedtest/testfile.bin
+http://mts-service.mts.ru/speedtest/testfile.bin
+http://mts-service.mts.ru/speedtest/testfile.bin
+http://mts-service.mts.ru/speedtest/upload.php
+http://mts-service.mts.ru/speedtest/upload.php
+http://mts-service.mts.ru/speedtest/upload.php
+
+[INTERNAL_LOG][2018-06-12 09:08:24,339][INFO][find_url_in_apk()] [END URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-12 09:08:24,376][ERROR][download_page_loaded()] Failed connection error download: http://mts-money/cancel 
+[INTERNAL_LOG][2018-06-12 09:08:24,405][ERROR][download_page_loaded()] Failed connection error download: http://mts-money/cancel 
+[INTERNAL_LOG][2018-06-12 09:09:40,044][INFO][find_string()] [START REMOTE FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 09:09:40,044][INFO][find_string()] Remote File in: temp_html_code/html_downloaded_Мой МТС by MTS PJSC - ru/testfile.bin
+[INTERNAL_LOG][2018-06-12 09:09:40,045][INFO][find_string()] URL: http://mts-service.mts.ru/speedtest/testfile.bin
+[INTERNAL_LOG][2018-06-12 09:09:40,056][ERROR][find_string()] Error unicode error 'utf-8' codec can't decode byte 0xaa in position 2: invalid start byte
+[INTERNAL_LOG][2018-06-12 09:09:40,056][INFO][find_string()] Remote File in: temp_html_code/html_downloaded_Мой МТС by MTS PJSC - ru/upload.php
+[INTERNAL_LOG][2018-06-12 09:09:40,056][INFO][find_string()] URL: http://mts-service.mts.ru/speedtest/upload.php
+[INTERNAL_LOG][2018-06-12 09:09:40,057][INFO][find_string()] No iframe in temp_html_code/html_downloaded_Мой МТС by MTS PJSC - ru/upload.php
+[INTERNAL_LOG][2018-06-12 09:09:40,057][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 09:09:40,057][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 09:09:40,057][INFO][find_url_in_apk()] http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+http://hostname/?
+http://hostname/?
+https://www.googleapis.com/auth/games
+https://plus.google.com/
+http://www.google-analytics.com
+https://ssl.google-analytics.com
+https://app-measurement.com/a
+https://www.google.com
+https://www.googletagmanager.com
+https://startup.mobile.yandex.net/
+https://certificate.mobile.yandex.net/api/v1/pins
+https://certificate.mobile.yandex.net/api/v1/pins
+https://certificate.mobile.yandex.net/api/v1/pins
+https://certificate.mobile.yandex.net/api/v1/pins
+https://certificate.mobile.yandex.net/api/v1/pins
+https://tech.yandex.com/metrica-mobile-sdk/doc/mobile-sdk-dg/concepts/android-initialize-docpage/
+https://e.crashlytics.com/spi/v2/events
+https://settings.crashlytics.com/spi/v2/platforms/android/apps/%s/settings
+http://mobileapps.nfcmobile.ru/applet_management_api
+http://localhost/3dsres/?mdOrder=
+http://play.google.com/store/apps/details?id=
+http://play.google.com/store/apps/details?id=
+https://mtsmoney.mts.ru:3227/
+https://websocket-test.imb2bs.com:3238/
+http://mts-money/cancel
+http://mts-money/cancel
+http://mts-money/cancel
+http://mts-money/cancel
+https://suggestions.dadata.ru/suggestions/api/4_1/rs/suggest/address
+http://static.mts.ru/uploadmsk/contents/1655/soglashenie_easy_pay.pdf?_ga=1.125490114.915762629.1465198111
+https://mtsmoney.mts.ru/smart_money
+https://play.google.com/
+https://play.google.com/
+http://mts-service/
+http://mts-service/
+http://mts-service/
+http://mymts-ci.prostream.ru:7887/login?client_id=
+https://mymts-service-dev.prostream.ru/auth/callback.php
+https://mymts-service-dev.prostream.ru/auth/callback.php
+https://mymts-dev.prostream.ru:3237/
+http://mymts-ci.prostream.ru/return-to-noauth
+http://mymts-ci.prostream.ru/amserver/UI/Logout
+http://mymts-dev.prostream.ru/screen_pointer/
+http://mymts-ci.prostream.ru/mob_connect/tariffs/tariffs/archive/
+https://login.mts.ru/amserver/oauth2/auth?client_id=
+https://mts-service.mts.ru/auth/callback.php
+https://mts-service.mts.ru/auth/callback.php
+https://mts-service.mts.ru:3237/
+http://mts-service/return-to-noauth
+https://login.mts.ru/amserver/UI/Logout
+http://www.mts.ru/mob_connect/tariffs/tariffs/archive/
+http://priz.mts.ru/
+https://play.google.com/store/apps/details?id=com.google.android.gms
+http://mts-service.mts.ru/speedtest/testfile.bin
+http://mts-service.mts.ru/speedtest/testfile.bin
+http://mts-service.mts.ru/speedtest/testfile.bin
+http://mts-service.mts.ru/speedtest/upload.php
+http://mts-service.mts.ru/speedtest/upload.php
+http://mts-service.mts.ru/speedtest/upload.php
+https://play.google.com/store/apps/details?id=com.google.android.webview
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+https://mts-service.mts.ru/storage/uploads/mob_bil.png
+https://play.google.com/store/apps/details?id=
+https://mts-service.mts.ru/app
+https://mts-service.mts.ru/app
+https://login.mts.ru:443/amserver/UI/Login?service=oauth2sso&%s&goto=%s&gotoOnFail=%s
+https://api.mobile.maps.yandex.net/mapkit
+https://api.mobile.maps.yandex.net/mapkit
+
+[INTERNAL_LOG][2018-06-12 09:09:40,057][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 09:09:40,062][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 09:09:40,062][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 09:09:40,062][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 09:09:40,062][INFO][analyze_start()] End time:[Tue Jun 12 09:09:40 2018]

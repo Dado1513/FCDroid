@@ -1,0 +1,259 @@
+[INTERNAL_LOG][2018-06-12 08:46:21,248][INFO][analyze_start()] Init Time [Tue Jun 12 08:46:21 2018]
+[INTERNAL_LOG][2018-06-12 08:46:21,280][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 08:46:21,280][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 08:46:21,280][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 08:46:21,280][INFO][is_hybird()] android.permission.MODIFY_AUDIO_SETTINGS
+[INTERNAL_LOG][2018-06-12 08:46:21,280][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 08:46:21,280][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 08:46:21,280][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-12 08:46:21,281][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 08:46:21,281][INFO][is_hybird()] com.android.vending.CHECK_LICENSE
+[INTERNAL_LOG][2018-06-12 08:46:21,281][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 08:46:21,281][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 08:46:21,281][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 08:46:21,281][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 08:46:21,281][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 08:46:21,281][INFO][find_string()] File: assets/Webviews/DeveloperInfoEN.html
+[INTERNAL_LOG][2018-06-12 08:46:21,302][INFO][find_string()] No iframe in assets/Webviews/DeveloperInfoEN.html
+[INTERNAL_LOG][2018-06-12 08:46:21,302][INFO][find_string()] File: assets/Webviews/DeveloperInfoFR.html
+[INTERNAL_LOG][2018-06-12 08:46:21,305][INFO][find_string()] No iframe in assets/Webviews/DeveloperInfoFR.html
+[INTERNAL_LOG][2018-06-12 08:46:21,305][INFO][find_string()] File: assets/Webviews/DeveloperInfoGE.html
+[INTERNAL_LOG][2018-06-12 08:46:21,306][INFO][find_string()] No iframe in assets/Webviews/DeveloperInfoGE.html
+[INTERNAL_LOG][2018-06-12 08:46:21,306][INFO][find_string()] File: assets/Webviews/DeveloperInfoIT.html
+[INTERNAL_LOG][2018-06-12 08:46:21,307][INFO][find_string()] No iframe in assets/Webviews/DeveloperInfoIT.html
+[INTERNAL_LOG][2018-06-12 08:46:21,307][INFO][find_string()] File: assets/Webviews/DeveloperInfoSP.html
+[INTERNAL_LOG][2018-06-12 08:46:21,308][INFO][find_string()] No iframe in assets/Webviews/DeveloperInfoSP.html
+[INTERNAL_LOG][2018-06-12 08:46:21,308][INFO][find_string()] File: assets/Webviews/privacyEN.html
+[INTERNAL_LOG][2018-06-12 08:46:21,311][INFO][find_string()] No iframe in assets/Webviews/privacyEN.html
+[INTERNAL_LOG][2018-06-12 08:46:21,311][INFO][find_string()] File: assets/Webviews/privacyIntroEN.html
+[INTERNAL_LOG][2018-06-12 08:46:21,312][INFO][find_string()] No iframe in assets/Webviews/privacyIntroEN.html
+[INTERNAL_LOG][2018-06-12 08:46:21,312][INFO][find_string()] File: assets/Webviews/privacyIntroExistingEN.html
+[INTERNAL_LOG][2018-06-12 08:46:21,313][INFO][find_string()] No iframe in assets/Webviews/privacyIntroExistingEN.html
+[INTERNAL_LOG][2018-06-12 08:46:21,313][INFO][find_string()] File: assets/Webviews/smurfs_help.html
+[INTERNAL_LOG][2018-06-12 08:46:28,319][INFO][find_string()] No iframe in assets/Webviews/smurfs_help.html
+[INTERNAL_LOG][2018-06-12 08:46:28,339][INFO][find_string()] File: assets/Webviews/termsEN.html
+[INTERNAL_LOG][2018-06-12 08:46:30,068][INFO][find_string()] No iframe in assets/Webviews/termsEN.html
+[INTERNAL_LOG][2018-06-12 08:46:30,089][INFO][find_string()] File: assets/Webviews/termsFR.html
+[INTERNAL_LOG][2018-06-12 08:46:31,719][INFO][find_string()] No iframe in assets/Webviews/termsFR.html
+[INTERNAL_LOG][2018-06-12 08:46:31,740][INFO][find_string()] File: assets/Webviews/termsGE.html
+[INTERNAL_LOG][2018-06-12 08:46:33,089][INFO][find_string()] No iframe in assets/Webviews/termsGE.html
+[INTERNAL_LOG][2018-06-12 08:46:33,110][INFO][find_string()] File: assets/Webviews/termsIT.html
+[INTERNAL_LOG][2018-06-12 08:46:34,725][INFO][find_string()] No iframe in assets/Webviews/termsIT.html
+[INTERNAL_LOG][2018-06-12 08:46:34,745][INFO][find_string()] File: assets/Webviews/termsIntroCN.html
+[INTERNAL_LOG][2018-06-12 08:46:35,008][INFO][find_string()] No iframe in assets/Webviews/termsIntroCN.html
+[INTERNAL_LOG][2018-06-12 08:46:35,028][INFO][find_string()] File: assets/Webviews/termsIntroEN.html
+[INTERNAL_LOG][2018-06-12 08:46:35,284][INFO][find_string()] No iframe in assets/Webviews/termsIntroEN.html
+[INTERNAL_LOG][2018-06-12 08:46:35,305][INFO][find_string()] File: assets/Webviews/termsIntroFR.html
+[INTERNAL_LOG][2018-06-12 08:46:35,562][INFO][find_string()] No iframe in assets/Webviews/termsIntroFR.html
+[INTERNAL_LOG][2018-06-12 08:46:35,583][INFO][find_string()] File: assets/Webviews/termsIntroGE.html
+[INTERNAL_LOG][2018-06-12 08:46:35,865][INFO][find_string()] No iframe in assets/Webviews/termsIntroGE.html
+[INTERNAL_LOG][2018-06-12 08:46:35,886][INFO][find_string()] File: assets/Webviews/termsIntroIT.html
+[INTERNAL_LOG][2018-06-12 08:46:36,163][INFO][find_string()] No iframe in assets/Webviews/termsIntroIT.html
+[INTERNAL_LOG][2018-06-12 08:46:36,184][INFO][find_string()] File: assets/Webviews/termsIntroPT.html
+[INTERNAL_LOG][2018-06-12 08:46:36,457][INFO][find_string()] No iframe in assets/Webviews/termsIntroPT.html
+[INTERNAL_LOG][2018-06-12 08:46:36,478][INFO][find_string()] File: assets/Webviews/termsIntroSP.html
+[INTERNAL_LOG][2018-06-12 08:46:36,765][INFO][find_string()] No iframe in assets/Webviews/termsIntroSP.html
+[INTERNAL_LOG][2018-06-12 08:46:36,786][INFO][find_string()] File: assets/Webviews/termsPT.html
+[INTERNAL_LOG][2018-06-12 08:46:38,765][INFO][find_string()] No iframe in assets/Webviews/termsPT.html
+[INTERNAL_LOG][2018-06-12 08:46:38,786][INFO][find_string()] File: assets/Webviews/termsSP.html
+[INTERNAL_LOG][2018-06-12 08:46:41,950][INFO][find_string()] No iframe in assets/Webviews/termsSP.html
+[INTERNAL_LOG][2018-06-12 08:46:41,950][INFO][find_string()] File: assets/js/closebutton.html
+[INTERNAL_LOG][2018-06-12 08:46:41,951][INFO][find_string()] No iframe in assets/js/closebutton.html
+[INTERNAL_LOG][2018-06-12 08:46:41,951][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 08:46:41,951][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 08:46:41,951][INFO][find_string()] File: assets/js/mraid.js
+[INTERNAL_LOG][2018-06-12 08:46:41,953][INFO][find_string()] No iframe in assets/js/mraid.js
+[INTERNAL_LOG][2018-06-12 08:46:41,953][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 08:47:24,330][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 08:47:24,330][INFO][find_url_in_apk()] http://schemas.android.com/apk/res/android
+https://adc3-launch-server-staging.herokuapp.com/v4/launch
+https://adc3-launch.adcolony.com/v4/launch
+https://wd.adcolony.com/logs
+http://adincube/mraid.js
+http://adincube/index.html
+https://mobile.mediabrix.com/v2/manifest/
+https://ads.aerserv.com/as/sdk/v3/
+https://ads.aerserv.com/as/sdk/v3/
+https://ads.aerserv.com/as/sdk/v3/
+https://staging.ads.aerserv.com/as/sdk/v3/
+https://staging.ads.aerserv.com/as/sdk/v3/
+https://dmp.aerserv.com/update
+https://debug.aerserv.com/sybok/analytics
+https://ads.aerserv.com/as/sdk/configure/
+https://debug.aerserv.com/sybok/
+https://debug.aerserv.com/sybok/sdk/timeout
+http://www.amazon.com/gp/mas/get-appstore/android/ref=mas_mx_mba_iap_dl
+http://schemas.applovin.com/android/1.0
+http://schemas.applovin.com/android/1.0
+https://d.applovin.com/
+https://a.applovin.com/
+https://rt.applovin.com/med
+https://rt.applovin.com/pix
+https://d.applvn.com/
+https://a.applvn.com/
+https://rt.applvn.com/pix
+https://vid.applovin.com/,https://pdn.applovin.com/,https://img.applovin.com/,https://d.applovin.com/,https://assets.applovin.com/,https://cdnjs.cloudflare.com/,http://vid.applovin.com/,http://pdn.applovin.com/,http://img.applovin.com/,http://d.applovin.com/,http://assets.applovin.com/,http://cdnjs.cloudflare.com/
+https://www.fqtag.com/pixel.cgi?org=TkBXEI5C3FBIr4zXwnmK&p=
+https://www.fqtag.com/pixel.cgi?org=TkBXEI5C3FBIr4zXwnmK&p=
+https://www.fqtag.com/pixel.cgi?org=TkBXEI5C3FBIr4zXwnmK&p=
+https://admin.appnext.com/AdminService.asmx/checkA?z=
+https://admin.appnext.com/AdminService.asmx/checkA?z=
+https://admin.appnext.com/AdminService.asmx/checkA?z=
+http://www.appnext.com/myid.html
+http://www.appnext.com/myid.html
+http://www.appnext.com/myid.html
+http://www.appnext.com/myid.html
+https://admin.appnext.com/AdminService.asmx/SetRL?guid=
+https://admin.appnext.com/AdminService.asmx/SetRL?guid=
+https://admin.appnext.com/AdminService.asmx/SetRL?guid=
+https://admin.appnext.com/AdminService.asmx/SetRL?guid=
+https://admin.appnext.com/AdminService.asmx/SetOpenV1
+https://admin.appnext.com/AdminService.asmx/SetOpenV1
+https://admin.appnext.com/AdminService.asmx/SetOpenV1
+https://admin.appnext.com/AdminService.asmx/
+https://admin.appnext.com/AdminService.asmx/
+https://www.appnext.com/privacy_policy/index.html?z=
+https://www.appnext.com/privacy_policy/index.html?z=
+https://www.appnext.com/privacy_policy/index.html?z=
+https://api.appnxt.net
+https://play.google.com/store/apps/
+https://admin.appnext.com/tp12.aspx?tid=%s&vid=%s&osid=%s&auid=%s&session_id=%s&pid=%s&ref=%s&ads_type=%s&bid=%s&cid=%s
+https://appnext.hs.llnwd.net/banner/appnext.mp4
+http://appnext.hs.llnwd.net/tools/sdk/config/2.2.1
+http://appnext.hs.llnwd.net/tools/sdk/config/2.2.1
+https://graph.facebook.com/
+http://www.amazon.com/gp/mas/dl/android?p=com.capcom.smurfsandroid
+https://market.android.com/details?id=com.capcom.smurfsandroid
+http://smurfs.bongfish.com/FBIcon.png
+http://smurfs.bongfish.com/FBIcon.png
+http://market.android.com/
+http://play.google.com/store/apps/
+https://www.facebook.com/
+https://www.%s.facebook.com
+https://graph.facebook.com/network_ads_common
+https://graph.%s.facebook.com/network_ads_common
+https://www.facebook.com/adnw_logging/
+https://www.%s.facebook.com/adnw_logging/
+http://www.facebook.com
+https://graph.%s
+https://graph-video.%s
+https://facebook.com
+https://facebook.com/device?user_code=%1$s&qr=1
+https://service.fyber.com/actions/v2
+https://service.fyber.com/installs/v2
+https://api.fyber.com/vcs/v1/new_credit.json
+https://video.fyber.com
+https://rewarded-video.fyber.com/tracker
+https://offer.fyber.com/mobile
+https://interstitial.fyber.com/interstitial
+https://interstitial.fyber.com/tracker
+https://sdk-config.fyber.com
+https://engine.fyber.com/video-cache
+https://banner.fyber.com/banner
+https://banner.fyber.com/tracker
+https://testsuite.fyber.com/tracker
+https://api-rewarded-video.fyber.com/video
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+https://plus.google.com/
+https://www.googleapis.com/auth/drive.file
+https://www.googleapis.com/auth/drive.appdata
+https://www.googleapis.com/auth/drive
+https://www.googleapis.com/auth/drive.apps
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games_lite
+https://www.googleapis.com/auth/games.firstparty
+https://www.googleapis.com/auth/games.firstparty
+https://d3tplke66d0j4g.cloudfront.net/sdk-vpaid/0.3/VPAID.html
+https://d3tplke66d0j4g.cloudfront.net/sdk-vpaid/0.3/VPAID.js
+https://d3tplke66d0j4g.cloudfront.net/sdk-vpaid/0.3/VPAIDBridge.js
+https://d3tplke66d0j4g.cloudfront.net/img/poster.gif
+https://global.appnext.com
+https://global.appnext.com
+https://global.appnext.com
+https://global.appnext.com
+http://appnext.hs.llnwd.net/tools/sdk/config/2.2.1/fullscreen_config.txt
+http://appnext.hs.llnwd.net/tools/sdk/config/2.2.1/rewarded_config.txt
+https://appnext.hs.llnwd.net/tools/sdk/interstitial/v68/script.min.js
+http://appnext.hs.llnwd.net/tools/sdk/config/2.2.1/interstitial_config.txt
+http://appnext.hs.llnwd.net/tools/sdk/config/2.1.0/native_ads_config.txt
+http://appnext.hs.llnwd.net/tools/sdk/config/2.2.1/banner_config.txt
+https://admin.appnext.com/tools/navtac.html?bid=
+https://live.chartboost.com
+http://schemas.microsoft.com/DRM/2007/03/protocols/AcquireLicense
+http://appnext.hs.llnwd.net/tools/services/4.6.4/config.json?packageId=
+http://appnext.hs.llnwd.net/tools/services/4.6.4/plist.zip
+https://www.%s.facebook.com/audience_network/server_side_reward
+https://www.facebook.com/audience_network/server_side_reward
+http://www.w3.org/ns/ttml#parameter
+https://pagead2.googlesyndication.com/pagead/gen_204
+http://www.google.com
+https://support.google.com/dfp_premium/answer/7160685#push
+http://www.example.com
+http://www.example.com
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://csi.gstatic.com/csi
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/native_ads.html
+https://imasdk.googleapis.com/admob/sdkloader/native_video.html
+https://www.google.com/dfp/linkDevice
+https://www.google.com/dfp/inAppPreview
+https://www.google.com/dfp/debugSignals
+https://www.google.com/dfp/sendDebugData
+https://mobile-static.adsafeprotected.com/avid-v2.js
+http://mbxrt.mediabrix.com/geoencode
+http://mbxrt.mediabrix.com/geoencode?IpAddress=
+http://metrics-qa.tbliab.net/v2/metrics/?adsvrLineItemID=
+https://cpi.mediabrix.com/cpi/activation
+https://ap.tbliab.net/mprofiles
+http://www.mediabrix.com
+https://metrics.tbliab.net/v2/metrics/?adsvrLineItemID=%LINE_ITEM_ID%&adsvrAdvertiserID=%ADVERTISER_ID%&adsvrOrderID=%ORDID%&adsvrCreativeID=%CRID%&adsvrPropertyAdUnit=%PROPERTY%&adsvrZoneAdUnit=%ZONE%&mbrixAppKey=%APP_ID%&mbrixDeviceID=%DEVICE_ID%&mbrixVideoDuration=%VIDEO_DURATION%&mbrixHost=%DFP_URL%&mbrixSDKVersion=%SDK_VERSION%&mbrixSDKBuild=%SDK_BUILD_VERSION%&mbrixOS=%OS%&mbrixPlatform=%PLATFORM%&mbrixAction=%EVENT_NAME%&mbrixClientTimeStamp=%TIME_STAMP%&mbrixClientWidth=%SCREEN_WIDTH%&mbrixClientHeight=%SCREEN_HEIGHT%&mbrixAppSession=%SESSION_ID%&mbrixValue=%VALUE%
+http://mobileloggerqa.cloudapp.net/logger
+https://z.moatads.com/
+https://z.moatads.com/
+https://z.moatads.com/
+https://z.moatads.com/
+https://z.moatads.com/
+https://px.moatads.com/pixel.gif?e=0&i=MOATSDK1&ac=1
+https://play.google.com/store/apps/details?id=
+https://play.google.com/
+https://play.google.com/
+https://play.google.com/
+https://play.google.com/
+https://twitter.com/%s/status/%s
+https://api.rollbar.com/api/1/items/
+https://rpc.tapjoy.com/
+https://connect.tapjoy.com/
+https://connect.tapjoy.com/
+https://ws.tapjoyads.com/
+https://ws.tapjoyads.com/
+https://ws.tapjoyads.com/
+https://placements.tapjoy.com/
+https://config.unityads.unity3d.com/webview/
+http://lol.vungle.com/
+https://api.vungle.com/
+https://settings.crashlytics.com/spi/v2/platforms/android/apps/%s/settings
+http://localhost/
+http://localhost/
+http://localhost/
+https://ads.api.vungle.com/config
+https://e.crashlytics.com/spi/v2/events
+https://analytics.mopub.com/i/jot/exchange_client_event
+https://www.mopub.com/optout
+https://www.vungle.com/privacy/
+https://www.vungle.com/privacy/
+
+[INTERNAL_LOG][2018-06-12 08:47:24,330][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 08:47:24,338][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 08:47:24,338][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 08:47:24,338][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 08:47:24,338][INFO][analyze_start()] End time:[Tue Jun 12 08:47:24 2018]

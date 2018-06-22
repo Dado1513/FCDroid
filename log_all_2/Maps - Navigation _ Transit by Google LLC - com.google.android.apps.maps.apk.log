@@ -1,0 +1,244 @@
+[INTERNAL_LOG][2018-06-12 04:53:08,657][INFO][analyze_start()] Init Time [Tue Jun 12 04:53:08 2018]
+[INTERNAL_LOG][2018-06-12 04:53:08,810][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 04:53:08,811][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 04:53:08,811][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 04:53:08,811][INFO][is_hybird()] com.google.android.providers.gsf.permission.READ_GSERVICES
+[INTERNAL_LOG][2018-06-12 04:53:08,811][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 04:53:08,811][INFO][is_hybird()] android.permission.ACCESS_COARSE_LOCATION
+[INTERNAL_LOG][2018-06-12 04:53:08,812][INFO][is_hybird()] android.permission.ACCESS_FINE_LOCATION
+[INTERNAL_LOG][2018-06-12 04:53:08,812][INFO][is_hybird()] com.google.android.gms.permission.ACTIVITY_RECOGNITION
+[INTERNAL_LOG][2018-06-12 04:53:08,812][INFO][is_hybird()] com.android.launcher.permission.INSTALL_SHORTCUT
+[INTERNAL_LOG][2018-06-12 04:53:08,812][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 04:53:08,812][INFO][is_hybird()] android.permission.MANAGE_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 04:53:08,812][INFO][is_hybird()] android.permission.USE_CREDENTIALS
+[INTERNAL_LOG][2018-06-12 04:53:08,812][INFO][is_hybird()] android.permission.READ_SYNC_SETTINGS
+[INTERNAL_LOG][2018-06-12 04:53:08,812][INFO][is_hybird()] android.permission.WRITE_SYNC_SETTINGS
+[INTERNAL_LOG][2018-06-12 04:53:08,812][INFO][is_hybird()] android.permission.DISABLE_KEYGUARD
+[INTERNAL_LOG][2018-06-12 04:53:08,812][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 04:53:08,812][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 04:53:08,812][INFO][is_hybird()] android.permission.CHANGE_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 04:53:08,812][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-12 04:53:08,812][INFO][is_hybird()] com.google.android.apps.maps.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-12 04:53:08,812][INFO][is_hybird()] android.permission.DOWNLOAD_WITHOUT_NOTIFICATION
+[INTERNAL_LOG][2018-06-12 04:53:08,812][INFO][is_hybird()] com.google.android.gms.permission.CAR_SPEED
+[INTERNAL_LOG][2018-06-12 04:53:08,812][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-12 04:53:08,812][INFO][is_hybird()] android.permission.NFC
+[INTERNAL_LOG][2018-06-12 04:53:08,812][INFO][is_hybird()] android.permission.READ_CONTACTS
+[INTERNAL_LOG][2018-06-12 04:53:08,812][INFO][is_hybird()] android.permission.FOREGROUND_SERVICE
+[INTERNAL_LOG][2018-06-12 04:53:08,812][INFO][is_hybird()] com.google.android.apps.maps.permission.PREFETCH
+[INTERNAL_LOG][2018-06-12 04:53:08,812][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 04:53:08,813][INFO][is_hybird()] android.permission.RECEIVE_BOOT_COMPLETED
+[INTERNAL_LOG][2018-06-12 04:53:08,813][INFO][is_hybird()] android.permission.BROADCAST_STICKY
+[INTERNAL_LOG][2018-06-12 04:53:08,813][INFO][is_hybird()] android.permission.GET_PACKAGE_SIZE
+[INTERNAL_LOG][2018-06-12 04:53:08,813][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 04:53:08,813][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 04:53:08,813][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 04:53:08,813][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 04:53:08,813][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 04:53:08,813][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 04:55:33,390][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 04:55:33,396][INFO][find_url_in_apk()] https://lh3.googleusercontent.com/a/default-user=s120-cc
+https://lh3.googleusercontent.com/a/default-user=s120-cc
+https://lh3.googleusercontent.com/a/default-user=s120-cc
+https://www.gstatic.com/generate_204
+http://play.google.com/store/apps/details
+https://notifications-pa.googleapis.com:443
+https://autopush-notifications-pa.sandbox.googleapis.com:443
+http://mt0.google.com/vt/icon/name=icons/spotlight/measle_ad_spotlight_L.png&scale=4
+http://mt0.google.com/vt/icon/name=icons/spotlight/measle_ad_spotlight_L.png&scale=4
+http://mt0.google.com/vt/icon/name=icons/spotlight/measle_ad_monroe_spotlight_L.png&scale=4
+http://mt0.google.com/vt/icon/name=icons/spotlight/measle_ad_monroe_spotlight_L.png&scale=4
+http://mt0.google.com/vt/icon/name=icons/spotlight/measle_spotlight_L.png&scale=4
+http://mt0.google.com/vt/icon/name=icons/spotlight/measle_spotlight_L.png&scale=4
+http://mt0.google.com/vt/icon/name=icons/spotlight/measle_spotlight_L.png&scale=4
+https://mts0.google.com/vt/icon/name=assets/icons/poi/quantum/container_background-2-medium.png,assets/icons/poi/quantum/container-2-medium.png,assets/icons/search-experiment/parking_es-2-medium.png&highlight=ffffff,ffffff,4285f4&scale=4
+https://mts0.google.com/vt/icon/name=assets/icons/poi/quantum/container_background-2-medium.png,assets/icons/poi/quantum/container-2-medium.png,assets/icons/poi/quantum/parking-2-medium.png&highlight=ffffff,ffffff,4285f4&scale=4
+http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+https://autopush-streetviewpublish.sandbox.googleapis.com
+https://support.google.com/maps/answer/6291838
+http://www.google.com/history?hl=
+https://support.google.com/gmm/?p=maps_android_getstarted
+https://support.google.com/gmm/?p=maps_android_contacts
+https://support.google.com/gmm/?p=maps_android_gestures
+https://support.google.com/gmm/?p=maps_android_tips_tricks
+https://support.google.com/gmm/?p=maps_android
+https://tpc.googlesyndication.com/simgad/1918457838082851549
+https://www.gstatic.com/maps/promotions/promotedpins/17_pinlet_bg.png
+https://www.gstatic.com/maps/promotions/promotedpins/23_pinlet_bg.png
+https://geo0.ggpht.com/cbk
+https://support.google.com/legal/troubleshooter/1114905?rd=1#ts=1115658,1115689,2364966
+https://www.google.com/local/place/rap/addanaddress?isEmbedded=true
+https://support.google.com/accounts?p=block_list
+https://www.google.com/maps/vt/
+https://support.google.com/gmm/?p=questions_help
+https://support.google.com/gmm/?p=questions_help
+https://s.youtube.com/api/stats/
+https://myaccount.google.com/blocklist
+http://10.0.2.2:3000/
+https://api.sandbox.braintreegateway.com/
+https://api.braintreegateway.com/
+https://google.com
+http://0.0.0.0
+http://0.0.0.0
+http://www.google.com/
+https://www.google.com
+https://www.google.com
+https://www.google.com/maps/reserve
+https://www.google.com/maps/reserve
+https://www.gstatic.com/maps/reserve/home/hero.jpg
+https://www.gstatic.com/maps/reserve/home/hero.jpg
+https://www.google.com/intl/ko/policies/terms/location/
+https://www.google.com/intl/ko/policies/terms/location/
+https://support.google.com/offers/?p=OffersApp_GetOffers_Android
+http://maps.google.com/maps
+https://www.google.com/search?q=weather
+http://www.gstatic.com/maps/promotions/india/right_caret.png
+http://www.gstatic.com/maps/promotions/india/left_caret.png
+https://mts0.google.com/vt/icon/name=icons/spotlight/measle_5px.png&scale=4
+https://www.google.com/maps/vt/icon/name=assets/icons/spotlight/spotlight_pin_v2_shadow-1-small.png,assets/icons/spotlight/spotlight_pin_v2-1-small.png,assets/icons/spotlight/spotlight_pin_v2_dot-1-small.png,assets/icons/spotlight/spotlight_pin_v2_accent-1-small.png&highlight=ff000000,ea4335,960a0a,ff000000&color=ff000000?scale=4
+https://www.google.com/maps/vt/icon/name=assets/icons/spotlight/spotlight_pin_v2_shadow-1-small.png,assets/icons/spotlight/spotlight_pin_v2-1-small.png,assets/icons/spotlight/spotlight_pin_v2_dot-1-small.png,assets/icons/spotlight/spotlight_pin_v2_accent-1-small.png&highlight=ff000000,ea4335,960a0a,ff000000&color=ff000000?scale=4
+https://history.google.com/history
+http://lh3.googleusercontent.com/dlqLDtGD_bhgV5lEv2y00SvzUeNFua2PKzqURfJj-Ho0AmNXLyJb5g
+http://www.google.com
+https://maps.google.com/?q=
+https://maps.google.com/?cid=
+https://www.gstatic.com/maps/reserve/home/bootcamp.jpg
+https://www.gstatic.com/maps/reserve/home/yoga.jpg
+https://www.gstatic.com/maps/reserve/home/pilates.jpg
+https://www.gstatic.com/maps/reserve/home/barre2.jpg
+https://www.gstatic.com/maps/reserve/home/cycling_opt_small.jpg
+https://www.gstatic.com/maps/reserve/home/dancing.jpg
+https://www.gstatic.com/maps/reserve/home/feeling_lucky.jpg
+https://www.gstatic.com/maps/reserve/home/beauty_default_small.jpg
+https://www.gstatic.com/maps/reserve/home/w_hair_opt_small.jpg
+https://www.gstatic.com/maps/reserve/home/massage_opt_small.jpg
+https://www.gstatic.com/maps/reserve/home/wax_opt_small.jpg
+https://www.gstatic.com/maps/reserve/home/nails_opt_small.jpg
+https://www.gstatic.com/maps/reserve/home/spa_opt_small.jpg
+https://www.gstatic.com/maps/reserve/home/m_hair_opt_small.jpg
+https://lh3.googleusercontent.com/
+https://play.google.com/store/apps/details?id=com.google.android.projection.gearhead&referrer=utm_source%3Dgmm%26utm_campaign%3Dgmm_home_screen
+https://hulk-debug-tool.corp.google.com/?lat=
+https://aboutme.google.com
+https://aboutme.google.com
+https://mqa.kaptcha.com/logo.htm
+https://ssl.kaptcha.com/logo.htm
+https://tst.kaptcha.com/logo.htm
+https://sandbox.secure.checkout.visa.com
+https://secure.checkout.visa.com
+https://www.google.com/maps/timeline
+https://maps.gstatic.com/mapfiles/traffic/svg/
+https://maps.gstatic.com/mapfiles/traffic/svg_light/
+https://maps.gstatic.com/mapfiles/traffic/svg_toast/
+https://maps.gstatic.com/mapfiles/traffic/svg_light_toast/
+https://www.google.com/maps/offline/region/view/
+https://www.google.com/maps/offline
+https://mt0.google.com/vt/icon/name=assets/icons/poi/quantum/
+https://mt0.google.com/vt/icon/name=icons/spotlight/stickers/
+https://mt0.google.com/vt/icon/name=icons/spotlight/stickers/%s_M_4x.png&scale=4
+https://plus.google.com/
+https://plus.google.com/
+https://www.google.com/maps/contrib/
+https://www.google.com/maps/contrib/
+https://www.google.com/maps/contrib/
+https://maps.google.com/maps/contrib/
+https://plus.google.com/photos/
+https://accounts.google.com/AccountChooser?continue=%s&Email=%s
+https://accounts\.google\.%s(/.*)?
+https://www\.google\.%s/search.*
+https://www\.google\.%s/maps.*
+https://www\.google\.%s/local.*
+https://www\.google\.%s/travel/hotels/.*
+https://myaccount\.google\.com(/.*)?
+https://ondemandplatform\.google\.%s/food/.*
+http://maps.google.com/
+https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=%s
+https://www.gstatic.com/images/icons/material/system/1x/directions_bus_white_24dp.png
+https://www.gstatic.com/images/icons/material/system/1x/directions_boat_white_24dp.png
+https://www.gstatic.com/images/icons/material/system/1x/directions_subway_white_24dp.png
+https://www.gstatic.com/images/icons/material/system/1x/directions_railway_white_24dp.png
+https://www.google.com/maps/contrib
+https://www.google.com/maps/contrib
+https://www.google.com/maps/contrib/%s/reviews/
+https://support.google.com/gmm/topic/6011919
+https://support.google.com/gmm/answer/3131570
+https://www.google.com/intl/en_US/local/guides/rules/
+https://www.google.com/intl/en_US/policies/privacy/
+https://www.google.com/help/legalnotices_maps.html
+https://www.google.com/intl/en_US/help/terms_maps_earth.html
+https://play.google.com/store/apps/details?id=
+https://mts0.google.com/vt/icon/name=icons/spotlight/measle_8px.png&scale=4
+https://mts0.google.com/vt/icon/name=icons/spotlight/measle_night_8px.png&scale=4
+https://play.google.com/store/apps/details?id=com.google.android.projection.gearhead&referrer=utm_source%3Dgmm%26utm_campaign%3Dgmm_navigation
+https://play.google.com/store/apps/details?id=com.google.android.projection.gearhead&referrer=utm_source%3Dgmm%26utm_campaign%3Dgmm_arrival
+http://maps.google.com/maps?q=
+https://aboutme.google.com/
+https://www.google.com/maps/contrib/%s
+https://support.google.com/maps/answer/7421661
+https://maps.gstatic.com/mapsactivities/icons/poi_icons/mobile/0/xxhdpi/generic_visited.png
+https://www.google.com/search?q=%s+%s&hl=%s
+http://www.google.com/search?q=%s
+http://www.w3.org/ns/ttml#parameter
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+http://www.google-analytics.com
+https://ssl.google-analytics.com
+https://www.googleapis.com/auth/games_lite
+https://www.googleapis.com/auth/games
+https://www.googletagmanager.com
+http://hostname/?
+https://app-measurement.com/a
+http://www.
+https://www.
+https://www.googleapis.com/auth/myphonenumbers
+https://myphonenumbers-pa.googleapis.com
+https://oauthintegrations.googleapis.com:443
+https://www.googleapis.com/auth/oauth_integrations
+http://www.example.com
+http://www.example.com
+https://www-googleapis-staging.sandbox.google.com
+https://www-googleapis-test.sandbox.google.com
+https://www.googleapis.com
+https://www.google.com/insights/consumersurveys/async_survey
+https://www.google.com/insights/consumersurveys/
+https://www.google.com/maps/preview/log204
+https://clients4.google.com/insights/consumersurveys/
+https://csi.gstatic.com/
+https://ssl.gstatic.com/
+https://www.gstatic.com/
+https://lh3.googleusercontent.com
+https://images
+https://api-m.paypal.com/v1/
+https://api-m.paypal.com/v1/
+https://www.paypalobjects.com/webstatic/otc/otc-config.android.json
+https://api-m.sandbox.paypal.com/v1/
+https://uri.paypal.com/services/payments/futurepayments
+https://uri.paypal.com/services/paypalattributes
+https://support.google.com/
+https://www.google.com/policies/privacy/
+https://accounts.google.com/o/oauth2/token
+https://www.paypal.com
+https://www.googleapis.com/
+https://streetviewpublish.googleapis.com/
+
+[INTERNAL_LOG][2018-06-12 04:55:33,396][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 04:55:33,399][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 04:55:33,399][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 04:55:33,399][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 04:55:33,399][INFO][analyze_start()] End time:[Tue Jun 12 04:55:33 2018]

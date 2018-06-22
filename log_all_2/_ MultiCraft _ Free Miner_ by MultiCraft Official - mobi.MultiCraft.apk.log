@@ -1,0 +1,149 @@
+[INTERNAL_LOG][2018-06-12 00:40:22,806][INFO][analyze_start()] Init Time [Tue Jun 12 00:40:22 2018]
+[INTERNAL_LOG][2018-06-12 00:40:22,841][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 00:40:22,841][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 00:40:22,841][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 00:40:22,841][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 00:40:22,841][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 00:40:22,841][INFO][is_hybird()] android.permission.ACCESS_COARSE_LOCATION
+[INTERNAL_LOG][2018-06-12 00:40:22,841][INFO][is_hybird()] com.android.launcher.permission.INSTALL_SHORTCUT
+[INTERNAL_LOG][2018-06-12 00:40:22,841][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-12 00:40:22,841][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 00:40:22,841][INFO][is_hybird()] android.permission.RECEIVE_BOOT_COMPLETED
+[INTERNAL_LOG][2018-06-12 00:40:22,842][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-12 00:40:22,842][INFO][is_hybird()] mobi.MultiCraft.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-12 00:40:22,842][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 00:40:22,842][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 00:40:22,842][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 00:40:22,842][INFO][find_string()] File: assets/js/closebutton.html
+[INTERNAL_LOG][2018-06-12 00:40:22,843][INFO][find_string()] No iframe in assets/js/closebutton.html
+[INTERNAL_LOG][2018-06-12 00:40:22,843][INFO][find_string()] File: assets/mobvista_jscommon_authtext.html
+[INTERNAL_LOG][2018-06-12 00:40:22,859][INFO][find_string()] No iframe in assets/mobvista_jscommon_authtext.html
+[INTERNAL_LOG][2018-06-12 00:40:22,859][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 00:40:22,859][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 00:40:22,860][INFO][find_string()] File: assets/js/mraid.js
+[INTERNAL_LOG][2018-06-12 00:40:22,861][INFO][find_string()] No iframe in assets/js/mraid.js
+[INTERNAL_LOG][2018-06-12 00:40:22,861][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 00:41:04,017][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 00:41:04,017][INFO][find_url_in_apk()] http://schemas.android.com/apk/res/android
+https://adc3-launch-server-staging.herokuapp.com/v4/launch
+https://adc3-launch.adcolony.com/v4/launch
+https://adc3-launch.adcolony.com/v4/launch
+https://wd.adcolony.com/logs
+http://net.cleverjp.com/
+http://mads.amazon-adsystem.com/
+http://schemas.android.com/apk/lib/com.amazon.device.ads
+http://schemas.android.com/apk/res/
+https://dwxjayoxbnyrr.cloudfront.net/amazon-ads.viewablejs
+http://amazon-adsystem.com
+http://schemas.applovin.com/android/1.0
+http://schemas.applovin.com/android/1.0
+https://d.applovin.com/
+https://a.applovin.com/
+https://rt.applovin.com/med
+https://rt.applovin.com/pix
+https://d.applvn.com/
+https://a.applvn.com/
+https://rt.applvn.com/pix
+https://vid.applovin.com/,https://pdn.applovin.com/,https://img.applovin.com/,https://d.applovin.com/,https://assets.applovin.com/,https://cdnjs.cloudflare.com/,http://vid.applovin.com/,http://pdn.applovin.com/,http://img.applovin.com/,http://d.applovin.com/,http://assets.applovin.com/,http://cdnjs.cloudflare.com/
+http://appodeal.herokuapp.com/android_waterfall_interstitial
+http://appodeal.herokuapp.com/android_waterfall_banner
+http://appodeal.herokuapp.com/android_waterfall_mrec
+http://appodeal.herokuapp.com/android_waterfall_native
+http://appodeal.herokuapp.com/android_waterfall_video
+http://appodeal.herokuapp.com/android_waterfall_rewarded_video
+https://adwatch.appodeal.com/api/v1/rtb/submit
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+https://rri.appodeal.com/api/stat
+https://api.pubnative.net/api/v3/native
+http://localhost
+http://localhost
+https://adwatch.appodeal.com/api/v1/complains/submit
+https://adwatch.appodeal.com/api/v1/complains/submit
+https://adwatch.appodeal.com/api/v1/impressions/submit
+https://ach.appodeal.com/api/v0/android/crashes
+https://live.chartboost.com
+http://market.android.com/
+http://xmlpull.org/v1/doc/features.html#indent-output
+http://xmlpull.org/v1/doc/features.html#indent-output
+http://xmlpull.org/v1/doc/features.html#indent-output
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+https://www.googleapis.com/auth/games_lite
+https://www.googleapis.com/auth/games
+https://plus.google.com/
+http://play.google.com/store/apps/category/GAME
+https://play.google.com/store/apps/details?id=%1$s&rdid=%1$s&rdot=%2$d
+https://plus.google.com/%s/about
+https://play.google.com/store/apps/details
+https://pagead2.googlesyndication.com/pagead/gen_204
+http://www.google.com
+https://support.google.com/dfp_premium/answer/7160685#push
+http://www.example.com
+http://www.example.com
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/sdk-core-v40-impl.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://csi.gstatic.com/csi
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/native_ads.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/native_ads.js
+https://imasdk.googleapis.com/admob/sdkloader/native_video.html
+https://www.google.com/dfp/linkDevice
+https://www.google.com/dfp/inAppPreview
+https://www.google.com/dfp/debugSignals
+https://www.google.com/dfp/sendDebugData
+https://mobile-static.adsafeprotected.com/avid-v2.js
+https://px.moatads.com/pixel.gif?e=0&i=MOATSDK1&ac=1
+https://z.moatads.com/
+http://hybird.rayjump.com/rv/authoriztion.html
+http://analytics.rayjump.com
+http://net.rayjump.com
+http://setting.rayjump.com
+https://play.google.com/
+https://play.google.com/
+https://play.google.com/
+http://detect.rayjump.com/mapi/find
+http://detect.rayjump.com/mapi/result
+https://analytics.mopub.com/i/jot/exchange_client_event
+https://twitter.com/%s/status/%s
+https://www.mopub.com/optout
+https://ad.mail.ru/mobile/
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+https://target.my.com/
+http://play.google.com
+http://play.google.com
+https://play.google.com
+https://play.google.com
+http://market.android.com
+https://market.android.com
+https://d1byvlfiet2h9q.cloudfront.net/InApp/resources/adInformationDialog3.html
+https://d1byvlfiet2h9q.cloudfront.net/InApp/resources/adInformationDialog3.html
+https://www.com.startapp.com/policy/sdk-policy/
+https://www.com.startapp.com/policy/sdk-policy/
+https://info.startappservice.com/InApp/resources/info_l.png
+https://config.unityads.unity3d.com/webview/
+https://config.unityads.unity3d.com/webview/
+https://startup.mobile.yandex.net/
+https://certificate.mobile.yandex.net/api/v1/pins
+https://certificate.mobile.yandex.net/api/v1/pins
+https://certificate.mobile.yandex.net/api/v1/pins
+https://certificate.mobile.yandex.net/api/v1/pins
+https://certificate.mobile.yandex.net/api/v1/pins
+https://tech.yandex.com/metrica-mobile-sdk/doc/mobile-sdk-dg/concepts/android-initialize-docpage/
+http://clients3.google.com/generate_204
+http://g.cn/generate_204
+https://raw.githubusercontent.com/MoNTE48/MultiCraft-links/master/ver.txt
+
+[INTERNAL_LOG][2018-06-12 00:41:04,017][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 00:41:04,030][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 00:41:04,031][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 00:41:04,031][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 00:41:04,031][INFO][analyze_start()] End time:[Tue Jun 12 00:41:04 2018]

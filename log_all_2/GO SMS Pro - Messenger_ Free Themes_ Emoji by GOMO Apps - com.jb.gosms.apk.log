@@ -1,0 +1,380 @@
+[INTERNAL_LOG][2018-06-12 09:00:15,655][INFO][analyze_start()] Init Time [Tue Jun 12 09:00:15 2018]
+[INTERNAL_LOG][2018-06-12 09:00:15,772][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 09:00:15,773][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 09:00:15,774][INFO][is_hybird()] com.jb.gosms.permission.provider.CHAT_INFO_ACCESS
+[INTERNAL_LOG][2018-06-12 09:00:15,774][INFO][is_hybird()] com.jb.gosms.permission.SERVICE
+[INTERNAL_LOG][2018-06-12 09:00:15,774][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-12 09:00:15,774][INFO][is_hybird()] android.permission.PROCESS_OUTGOING_CALLS
+[INTERNAL_LOG][2018-06-12 09:00:15,774][INFO][is_hybird()] android.permission.PACKAGE_USAGE_STATS
+[INTERNAL_LOG][2018-06-12 09:00:15,774][INFO][is_hybird()] android.permission.SYSTEM_ALERT_WINDOW
+[INTERNAL_LOG][2018-06-12 09:00:15,774][INFO][is_hybird()] android.permission.RECEIVE_BOOT_COMPLETED
+[INTERNAL_LOG][2018-06-12 09:00:15,774][INFO][is_hybird()] android.permission.CALL_PHONE
+[INTERNAL_LOG][2018-06-12 09:00:15,774][INFO][is_hybird()] android.permission.READ_CONTACTS
+[INTERNAL_LOG][2018-06-12 09:00:15,774][INFO][is_hybird()] android.permission.WRITE_CONTACTS
+[INTERNAL_LOG][2018-06-12 09:00:15,774][INFO][is_hybird()] android.permission.RECEIVE_SMS
+[INTERNAL_LOG][2018-06-12 09:00:15,774][INFO][is_hybird()] android.permission.RECEIVE_MMS
+[INTERNAL_LOG][2018-06-12 09:00:15,774][INFO][is_hybird()] android.permission.SEND_SMS
+[INTERNAL_LOG][2018-06-12 09:00:15,774][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-12 09:00:15,774][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 09:00:15,774][INFO][is_hybird()] android.permission.READ_SMS
+[INTERNAL_LOG][2018-06-12 09:00:15,774][INFO][is_hybird()] android.permission.WRITE_SMS
+[INTERNAL_LOG][2018-06-12 09:00:15,774][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 09:00:15,775][INFO][is_hybird()] android.permission.CHANGE_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 09:00:15,775][INFO][is_hybird()] android.permission.READ_PHONE_STATE
+[INTERNAL_LOG][2018-06-12 09:00:15,775][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 09:00:15,775][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 09:00:15,775][INFO][is_hybird()] android.permission.INSTALL_DRM
+[INTERNAL_LOG][2018-06-12 09:00:15,775][INFO][is_hybird()] android.permission.GET_TASKS
+[INTERNAL_LOG][2018-06-12 09:00:15,775][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 09:00:15,775][INFO][is_hybird()] android.permission.DISABLE_KEYGUARD
+[INTERNAL_LOG][2018-06-12 09:00:15,775][INFO][is_hybird()] android.permission.RESTART_PACKAGES
+[INTERNAL_LOG][2018-06-12 09:00:15,775][INFO][is_hybird()] android.permission.PERSISTENT_ACTIVITY
+[INTERNAL_LOG][2018-06-12 09:00:15,775][INFO][is_hybird()] com.android.launcher.permission.INSTALL_SHORTCUT
+[INTERNAL_LOG][2018-06-12 09:00:15,775][INFO][is_hybird()] android.permission.RECEIVE_WAP_PUSH
+[INTERNAL_LOG][2018-06-12 09:00:15,775][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 09:00:15,775][INFO][is_hybird()] android.permission.CHANGE_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 09:00:15,775][INFO][is_hybird()] android.permission.ACCESS_COARSE_LOCATION
+[INTERNAL_LOG][2018-06-12 09:00:15,775][INFO][is_hybird()] android.permission.BROADCAST_STICKY
+[INTERNAL_LOG][2018-06-12 09:00:15,775][INFO][is_hybird()] android.permission.READ_CALL_LOG
+[INTERNAL_LOG][2018-06-12 09:00:15,775][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 09:00:15,775][INFO][is_hybird()] android.permission.RECORD_AUDIO
+[INTERNAL_LOG][2018-06-12 09:00:15,775][INFO][is_hybird()] android.permission.MODIFY_AUDIO_SETTINGS
+[INTERNAL_LOG][2018-06-12 09:00:15,775][INFO][is_hybird()] android.permission.CAMERA
+[INTERNAL_LOG][2018-06-12 09:00:15,776][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-12 09:00:15,776][INFO][is_hybird()] com.jb.gosms.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-12 09:00:15,776][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 09:00:15,776][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 09:00:15,776][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 09:00:15,776][INFO][find_string()] File: assets/privacy_en.html
+[INTERNAL_LOG][2018-06-12 09:00:15,777][INFO][find_string()] No iframe in assets/privacy_en.html
+[INTERNAL_LOG][2018-06-12 09:00:15,777][INFO][find_string()] File: assets/privacy_zh.html
+[INTERNAL_LOG][2018-06-12 09:00:15,777][INFO][find_string()] No iframe in assets/privacy_zh.html
+[INTERNAL_LOG][2018-06-12 09:00:15,777][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 09:00:15,778][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 09:00:15,778][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 09:01:34,014][INFO][find_url_in_apk()] [START URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-12 09:01:34,014][INFO][find_url_in_apk()] http://indchat.3g.cn/gosmsthemestore/goindex.jsp
+
+[INTERNAL_LOG][2018-06-12 09:01:34,015][INFO][find_url_in_apk()] [END URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-12 09:01:35,569][ERROR][download_page_loaded()] Failed response code: 404 for http://indchat.3g.cn/gosmsthemestore/goindex.jsp  
+[INTERNAL_LOG][2018-06-12 09:01:35,570][INFO][find_string()] [START REMOTE FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 09:01:35,570][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 09:01:35,570][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 09:01:35,571][INFO][find_url_in_apk()] http://www.gstatic.com/android/sms/mms_ua_profile.xml
+http://www.gstatic.com/android/sms/mms_ua_profile.xml
+http://s3.amazonaws.com/doc/2006-03-01/
+http://s3.amazonaws.com/doc/2006-03-01/
+http://s3.amazonaws.com/doc/2006-03-01/
+http://s3.amazonaws.com/doc/2006-03-01/
+http://s3.amazonaws.com/doc/2006-03-01/
+http://s3.amazonaws.com/doc/2006-03-01/
+http://s3.amazonaws.com/doc/2006-03-01/
+http://s3.amazonaws.com/doc/2006-03-01/
+http://s3.amazonaws.com/doc/2006-03-01/
+http://d.applovin.com/
+http://a.applovin.com/
+https://vid.applovin.com/,https://pdn.applovin.com/,https://img.applovin.com/,https://d.applovin.com/,https://assets.applovin.com/,https://cdnjs.cloudflare.com/,http://vid.applovin.com/,http://pdn.applovin.com/,http://img.applovin.com/,http://d.applovin.com/,http://assets.applovin.com/,http://cdnjs.cloudflare.com/
+http://rt.applovin.com/pix
+https://attr.%s/api/v
+https://t.%s/api/v
+https://events.%s/api/v
+https://register.%s/api/v
+https://stats.%s/stats
+https://protect.ppmobiles.com
+http://m.facebook.com/ads/ad_choices
+http://m.facebook.com/ads/ad_choices
+https://www.facebook.com/
+https://www.%s.facebook.com
+http://www.example.com
+http://www.example.com
+http://www.example.com
+https://firebase-api.goforandroid.com
+https://play.google.com/store/apps/details?
+https://play.google.com/store/apps/details?
+https://play.google.com/store/apps/details?
+https://play.google.com/store/apps/details
+https://play.google.com/store/apps/details
+https://play.google.com/store/apps/details
+https://play.google.com/store/apps/details
+https://play.google.com/store/apps/details
+https://play.google.com/store/apps/details
+https://play.google.com/store/apps/details
+https://authenticator.goforandroid.com
+https://www.googleapis.com/auth/games
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://csi.gstatic.com/csi
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/native_ads.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/native_video_ads.html
+https://www.google.com/dfp/linkDevice
+https://www.google.com/dfp/inAppPreview
+https://www.google.com/dfp/debugSignals
+https://www.google.com/dfp/sendDebugData
+https://pagead2.googlesyndication.com/pagead/gen_204
+http://3g.cn
+http://newstoredata.goforandroid.com/newstore/usertype?aid=
+http://imupdate.3g.cn:8888/versions/check?
+http://gosmstheme.3g.cn:8080/CountryInterface/Interface3.aspx?
+http://gosmstheme.3g.cn:8080/CountryInterface/hotthemedownload
+http://gosmstheme.3g.cn:8080/CountryInterface/downBanner
+http://gosmstheme.3g.cn:8080/CountryInterface/stickerbanner
+http://smssts.3g.cn/mobileAdv/log_new
+http://goupdate.3g.cn/GOClientData/DR?ptl=10
+http://goupdate.3g.cn/GOClientData/DR?ptl=10
+http://goupdate.3g.cn/GOClientData/DR?ptl=10
+http://goupdate.3g.cn/GOClientData/DR?ptl=10
+https://www.googleapis.com/auth/drive.file
+https://www.googleapis.com/auth/drive.file
+https://www.googleapis.com/auth/drive.appdata
+https://www.googleapis.com/auth/drive.appdata
+http://webbr.goforandroid.com/GoSmsBackup/Upload.do
+https://www.dropbox.com/terms#terms
+http://godfs.3g.cn/
+http://gosmsdl.goforandroid.com/
+http://play.google.com/store/apps/details?id=
+http://play.google.com/store/apps/details?id=
+http://gosms.3g.cn/plugins?fid=2
+http://gosms.3g.cn/plugins?fid=5
+http://android.waptw.com/?app=50
+http://soft.3g.cn/xuan/index.aspx?fr=gosms
+http://www.google.com/oha/rdf/ua-profile-kila.xml
+http://www.google.com/oha/rdf/ua-profile-kila.xml
+https://www.facebook.com/gosmspro
+https://www.facebook.com/gosmspro
+https://www.facebook.com/gosmspro
+http://gosms.3g.cn/D?f=
+https://api.giphy.com/v1/gifs/
+https://api.giphy.com/v1/gifs/
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+http://www.w3.org/2001/SMIL20/Language
+http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8246419
+http://maps\.google\.com/maps\?q=([0-9,\.]+)
+http://goo\.gl/[a-z0-9A-Z]+
+http://maps.google.com/maps/api/staticmap?
+http://goo\.gl/([a-z0-9A-Z]+)
+http://indchat.3g.cn:8080/GoSMSMarket/common?
+http://smsmarket.3g.cn/GoSMSMarket/common?
+http://smsmarket.goforandroid.com/GoSMSMarket/common?
+http://gocurrency.goforandroid.com/gocurrency/common?funid=2&rd=
+http://gocurrency.goforandroid.com/gocurrency/common?funid=2&rd=
+https://m.facebook.com/ads/ad_choices
+https://play.google.com/store/apps/details?id=com.mx.browser&referrer=utm_source%3D3GGo%26utm_medium%3D3GGoDestop%26utm_term%3Dmaxthon_browser%26utm_content%3DScreen0%26utm_campaign%3D6200889000
+https://play.google.com/store/apps/details?id=com.mx.browser&referrer=utm_source%3D3GGo%26utm_medium%3D3GGoDestop%26utm_term%3Dmaxthon_browser%26utm_content%3DScreen0%26utm_campaign%3D6200889000
+http://gosms.gomocdn.com/
+https://gs.3g.cn/upload
+http://gosms.3g.cn/plugins?fid=
+http://gosmstheme.3g.cn:8080/CountryInterface/holiday
+http://gosmstheme.3g.cn:8080/CountryInterface/holiday
+http://schemas.android.com/apk/res-auto
+http://schemas.android.com/apk/res-auto
+http://schemas.android.com/apk/res-auto
+http://schemas.android.com/apk/res-auto
+http://schemas.android.com/apk/res-auto
+http://resource.gomocdn.com/GOMO_Apps/GO_SMS_Pro_privacy.html
+http://share.goforandroid.com/gosms/index.html
+http://share.goforandroid.com/gosms/index.html
+http://share.goforandroid.com/gosms/index.html
+http://conf.api.hk.goforandroid.com
+http://conf.api.hk.goforandroid.com
+http://www.qq.com
+http://i.niupic.com/images/2016/06/23/GNx2B1.png
+http://www.uimaker.com/uploads/allimg/111101/1_111101085050_5.png
+http://spreadsheets.google.com/formResponse?formkey=
+http://advshield.goforandroid.com/adv_shield/shield/confirmShield
+http://advonline.goforandroid.com/adv_online/onlineadv
+http://csr.goforandroid.com/consume_record/common?funid=2&rd=
+http://csr.goforandroid.com/consume_record/common?funid=1&rd=
+https://twitter.com/%s/status/%s
+https://sebz.goforandroid.com
+http://acs.amazonaws.com/groups/global/AllUsers
+http://acs.amazonaws.com/groups/global/AuthenticatedUsers
+http://acs.amazonaws.com/groups/s3/LogDelivery
+http://www.w3.org/2001/XMLSchema-instance
+http://www.w3.org/2001/XMLSchema-instance
+http://www.w3.org/2001/XMLSchema-instance
+http://schemas.applovin.com/android/1.0
+http://schemas.applovin.com/android/1.0
+https://onelink.%s/shortlink-sdk/v1
+https://monitorsdk.%s/remote-debug?app_id=
+https://api.%s/install_data/v3/
+http://cmpsh.goforandroid.com/
+http://cmpsh.goforandroid.com/
+https://www.facebook.com/audience_network/server_side_reward
+https://www.%s.facebook.com/audience_network/server_side_reward
+https://graph.facebook.com/network_ads_common
+https://graph.%s.facebook.com/network_ads_common
+https://www.facebook.com/adnw_logging/
+https://www.%s.facebook.com/adnw_logging/
+http://www.facebook.com
+https://ads.flurry.com/v17/getAds.do
+http://ads.flurry.com/v17/getAds.do
+https://cdn.flurry.com/vast/videocontrols/v2/android.zip
+https://adlog.flurry.com
+http://adlog.flurry.com
+https://www.tumblr.com/oauth/access_token
+https://www.tumblr.com/oauth/authorize?oauth_token=%s
+https://api.tumblr.com/v2/blog/
+https://api.tumblr.com/v2/blog/
+https://www.tumblr.com/oauth/request_token
+https://api.tumblr.com/v2/user/info
+http://www.tumblr.com/connect/login_success.html
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+https://cfg.flurry.com/sdk/v1/config
+https://cfg.flurry.com/sdk/v1/config
+https://proton.flurry.com/sdk/v1/config
+https://data.flurry.com/pcr.do
+https://data.flurry.com/aap.do
+http://data.flurry.com/aap.do
+http://gostat.3g.cn/GOClientData/DR?ptl=10&is_zip=1
+http://gostat.3g.cn/GOClientData/DR?ptl=10&is_zip=1
+http://goupdate.3g.cn/GOClientData/DR?ptl=10&is_zip=1
+http://goupdate.3g.cn/GOClientData/DR?ptl=10&is_zip=1
+http://61.145.124.212:8083/GOClientData/DR?ptl=10&is_zip=1
+http://61.145.124.212:8083/GOClientData/DC
+http://goupdate.3g.cn/GOClientData/DC
+https://abtest.goforandroid.com/abtestcenter/ab?gzip=0&sid=%s&cid=%d&cversion=%d&local=%s&utm_source=%s&entrance=%d&cdays=%d&isupgrade=%d&aid=%s&sdk_stat=%d&pkgname=%s&user_from=%s&sv=14
+https://abtest.goforandroid.com/abtestcenter/config?gzip=0&sid=%s&cid=%d&cversion=%d&local=%s&utm_source=%s&entrance=%d&cdays=%d&isupgrade=%d&aid=%s&sdk_stat=%d&pkgname=%s&user_from=%s&sv=14
+http://54.183.194.20/http/monitor
+http://54.183.194.216/http/monitor
+https://dns.google.com
+https://conf.goforandroid.com
+https://conf.goforandroid.com
+https://version.goforandroid.com
+https://version.goforandroid.com
+http://www.w3.org/ns/ttml#parameter
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+https://accounts.google.com
+https://www.facebook.com
+https://plus.google.com/
+https://app-measurement.com/a
+https://www.google.com
+https://mobilecrashreporting.googleapis.com/v1/crashes:batchCreate?key=
+http://www.google.com
+https://support.google.com/dfp_premium/answer/7160685#push
+https://www.googleapis.com/batch
+https://www.googleapis.com/
+https://www.googleapis.com/auth/drive
+https://www.googleapis.com/auth/drive.metadata
+https://www.googleapis.com/auth/drive.metadata.readonly
+https://www.googleapis.com/auth/drive.photos.readonly
+https://www.googleapis.com/auth/drive.readonly
+https://www.googleapis.com/auth/drive.scripts
+http://play.google.com/store/apps/details
+http://play.google.com/store/apps/details
+http://play.google.com/store/apps/details
+http://play.google.com/store/apps/details
+http://play.google.com/store/apps/details
+http://play.google.com/store/apps/details
+https://api.douban.com/v2/movie/top250?start=0&count=3
+https://api.douban.com/v2/movie/top250?start=0&count=3
+https://api.douban.com/v2/movie/top250?start=0&count=3
+https://api.douban.com/v2/movie/top250?start=0&count=3
+https://api.douban.com/v2/movie/top250?start=0&count=3
+https://api.douban.com/v2/movie/top250?start=0&count=3
+http://abtest.goforandroid.com/abtestcenter/ab?sid=292&gzip=0&utm_source=unknown_buychannel&isupgrade=2&aid=4ff9050001bb056f&local=US&cversion=500&user_from=-1&pkgname=com.commerce.chargelockerdemo&cid=6&cdays=1&entrance=999
+http://abtest.goforandroid.com/abtestcenter/
+http://adviw.goforandroid.com/api/v1/func
+http://adviw.goforandroid.com/api/v1/func
+https://api.douban.com/v2/movie
+https://api.douban.com/v2/movie
+https://api.douban.com/v2/movie/repeat
+https://api.douban.com/v2/movie/repeat
+https://api.douban.com/v2/movie/retry
+https://api.douban.com/v2/movie/retry
+http://newstoredis.3g.net.cn/
+http://newstoredis.goforandroid.com/
+http://gosms.3g.cn/error/404/404.htm
+http://abtest.goforandroid.com/abtestcenter/ab?
+http://lightapp.3g.cn/lightapp/common?
+http://indchat.3g.cn/gosmsthemestore/goindex.jsp
+http://newstoredata.goforandroid.com/newstore/common?funid=13&rd=
+https://authenticator.goforandroid.com/
+https://www.baidu.com/
+https://plus.google.com/communities/101889041913381333536
+http://goappdl.goforandroid.com/Upload_zh.html
+http://goappdl.goforandroid.com/Upload_en.html
+http://gosmsdiy.goforandroid.com/gosmsdiyUploadService/upload?
+http://gosmsdiy.goforandroid.com/gosmsdiyUploadService/check/pkName?
+http://overseaactivity.goforandroid.com/overseaactivity/common?funid=1
+https://www.googleapis.com/urlshortener/v1/url?shortUrl=
+http://advtimedown.goforandroid.com/adv_time/time/getSysTime
+http://adviap.goforandroid.com/adv_iap/smartload
+http://adviap.goforandroid.com/adv_iap/smartload_install
+http://advsearch.goforandroid.com/adv_search/search
+http://newstoredata.goforandroid.com/newstore/
+http://abtest.goforandroid.com/abtestcenter/config
+http://abtest.goforandroid.com/abtestcenter/config
+http://newstoredata.goforandroid.com/newstore/usertype
+http://newstoredis.3g.net.cn/newstore_dis/common?funid=3&rd=
+http://newstoredis.goforandroid.com/newstore_dis/common?funid=3&rd=
+http://advs2sonline.goforandroid.com/s2sadv
+http://gotest.3g.net.cn/newstore/
+http://adviap.goforandroid.com/adv_iap/userTag
+http://version.api.goforandroid.com
+http://advuser.goforandroid.com/api/v1/info
+https://lh5.ggpht.com/HKFhUntndVynDunfNlfTU19WeTq8N9vzOKXCoOYnxmmmvQwiUgQA-K7SPMvtLFMb6VQ=w300
+https://lh3.ggpht.com/0wX4W3LB86Zm6219yuNDwZq1iZKx5JKqmFxiPhcHhq3-i_A2XekCe-CGgrooNpHfDqiT=w300
+https://lh3.googleusercontent.com/0SW1ZR22u1NEQxoFM52EshBaTg6xwkeWntKlXXGET1T4lpnzmebeIueYMyKxunp10xTW=w300
+https://lh3.ggpht.com/z9fCV7KrucWwGZqzDoaWWq5cskhSnCVPAv6i7dFCM3Z1RAWJ3AgYkxk2UF1-DnvNdg8=w300
+https://lh6.ggpht.com/D5QHd_XpqxxfCMGWv5IKZ9guO5z03P0m-2ZiG31cUfTxhi7qacJDp922wzjafbR_8B0=w300
+http://advonline.goforandroid.com/adv_online/integralwall
+http://gotest.3g.net.cn/gocurrency/common?funid=5&rd=
+http://gocurrency.goforandroid.com/gocurrency/common?funid=5&rd=
+https://integralwall.goforandroid.com/IntegralWall/accountOper
+https://integralwall.goforandroid.com/IntegralWall/accountOper
+https://integralmarket.goforandroid.com/gointegralMarket/commodity/commodityList
+https://integralmarket.goforandroid.com/gointegralMarket/commodity/commodityList
+https://integralmarket.goforandroid.com/gointegralMarket/commodity/commodityList
+http://pcomwebs01.la.gomo.com:8088/gointegralMarket/commodity/commodityList
+https://navigation.gomo.com/
+http://m.v9.com/web?from=gomolauncher&q=
+http://search.coo123.net/?cid=NDP.mobi6&query=
+http://search.coo123.net/?cid=NDP.mobi6.a1&disableTitle=true&query=
+http://www.searchthis.com/web?mgct=sb&o=B10003&q=
+http://www.searchthis.com/web?o=B10010&mgct=sb&q=
+http://m.v9.com/web?from=golocker&q=
+https://www.google.com/#newwindow=0&q=
+http://godfs.3g.cn
+http://goappdl.goforandroid.com/
+http://sdk.a-mo.net/
+http://tracking.a-mo.net/d/v1/elog
+https://analytics.mopub.com/i/jot/exchange_client_event
+https://www.mopub.com/optout
+https://config.unityads.unity3d.com/webview/
+http://goload.wecloud.io/goload
+http://218.213.248.178/goload/
+http://218.213.248.137/goload
+http://localhost/
+http://localhost/
+http://localhost/
+
+[INTERNAL_LOG][2018-06-12 09:01:35,572][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 09:01:35,579][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 09:01:35,579][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 09:01:35,579][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 09:01:35,579][INFO][analyze_start()] End time:[Tue Jun 12 09:01:35 2018]

@@ -1,0 +1,98 @@
+[INTERNAL_LOG][2018-06-12 03:45:54,303][INFO][analyze_start()] Init Time [Tue Jun 12 03:45:54 2018]
+[INTERNAL_LOG][2018-06-12 03:45:54,391][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 03:45:54,392][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 03:45:54,392][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 03:45:54,393][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 03:45:54,393][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 03:45:54,393][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 03:45:54,393][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-12 03:45:54,393][INFO][is_hybird()] android.permission.RECEIVE_SMS
+[INTERNAL_LOG][2018-06-12 03:45:54,393][INFO][is_hybird()] android.permission.READ_SMS
+[INTERNAL_LOG][2018-06-12 03:45:54,393][INFO][is_hybird()] com.stn.mobile_player.provider.permission.READ_DATA
+[INTERNAL_LOG][2018-06-12 03:45:54,393][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 03:45:54,393][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-12 03:45:54,393][INFO][is_hybird()] com.stn.mobile_player.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-12 03:45:54,393][INFO][is_hybird()] android.permission.SYSTEM_ALERT_WINDOW
+[INTERNAL_LOG][2018-06-12 03:45:54,393][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 03:45:54,393][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 03:45:54,393][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 03:45:54,393][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 03:45:54,393][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 03:45:54,393][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 03:46:16,500][INFO][find_url_in_apk()] [START URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-12 03:46:16,500][INFO][find_url_in_apk()] https://member.dangi.co.kr/member/join
+https://member.conects.com/member/login?is_app=Y&app_type=DP
+
+[INTERNAL_LOG][2018-06-12 03:46:16,500][INFO][find_url_in_apk()] [END URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-12 03:46:19,965][INFO][find_string()] [START REMOTE FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 03:46:19,965][INFO][find_string()] Remote File in: temp_html_code/html_downloaded_단기PLAYER by ST Unitas - com/join
+[INTERNAL_LOG][2018-06-12 03:46:19,965][INFO][find_string()] URL: https://member.dangi.co.kr/member/join
+[INTERNAL_LOG][2018-06-12 03:46:19,966][INFO][find_string()] No iframe in temp_html_code/html_downloaded_단기PLAYER by ST Unitas - com/join
+[INTERNAL_LOG][2018-06-12 03:46:19,966][INFO][find_string()] Remote File in: temp_html_code/html_downloaded_단기PLAYER by ST Unitas - com/login?is_app=Y&app_type=DP
+[INTERNAL_LOG][2018-06-12 03:46:19,966][INFO][find_string()] URL: https://member.conects.com/member/login?is_app=Y&app_type=DP
+[INTERNAL_LOG][2018-06-12 03:46:19,968][INFO][find_string()] No iframe in temp_html_code/html_downloaded_단기PLAYER by ST Unitas - com/login?is_app=Y&app_type=DP
+[INTERNAL_LOG][2018-06-12 03:46:19,968][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 03:46:19,968][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 03:46:19,968][INFO][find_url_in_apk()] http://schemas.android.com/apk/res/android
+https://cfg.flurry.com/sdk/v1/config
+https://cfg.flurry.com/sdk/v1/config
+https://proton.flurry.com/sdk/v1/config
+https://data.flurry.com/pcr.do
+https://data.flurry.com/aap.do
+http://data.flurry.com/aap.do
+http://schemas.microsoft.com/DRM/2007/03/protocols/AcquireLicense
+http://www.w3.org/ns/ttml#parameter
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+http://hostname/?
+http://hostname/?
+https://www.googleapis.com/auth/games
+https://plus.google.com/
+http://www.google-analytics.com
+https://ssl.google-analytics.com
+https://app-measurement.com/a
+https://www.google.com
+https://www.google-analytics.com
+http://127.0.0.1:%d/%d?type=%d
+http://127.0.0.1:%d/%d?type=%d
+http://127.0.0.1:%d/%d?type=%d
+http://127.0.0.1:%d/%d?type=%d
+http://127.0.0.1:%d/%d?type=%d
+http://mapi.chdangi.co.kr/api/v2/ad_popup/
+http://mapi.chdangi.co.kr/api/v2/attend/
+http://mapi.chdangi.co.kr/api/v2/board/
+http://mapi.chdangi.co.kr/api/v2/auth/check/
+http://mapi.chdangi.co.kr/api/v2/course/get_course/
+https://mapi.chdangi.co.kr/api/v2/download_mode/get_info/
+https://mapi.chdangi.co.kr/api/v2/download_mode/set_info/
+http://mapi.chdangi.co.kr/api/v2/lecture/get_lecture/
+http://mapi.chdangi.co.kr/api/v2/lecture/get_lecture_with_progress/
+https://mapi.chdangi.co.kr/api/v2/auth/login/
+http://mapi.chdangi.co.kr/api/v2/media_token/create_player_url_v2/
+http://mapi.chdangi.co.kr/api/v2/media_token/create_player_url/
+http://mapi.chdangi.co.kr/api/v2/product/
+http://mapi.chdangi.co.kr/api/v2/qa/get_content/
+http://mapi.chdangi.co.kr/api/v2/qa/get_content_list/
+http://mapi.chdangi.co.kr/api/v2/qa/update_content/
+http://mapi.chdangi.co.kr/api/v2/qa/ins_content/
+https://member.dangi.co.kr/forget/find/mobile_id
+https://member.dangi.co.kr/forget/find/mobile_pass
+https://member.dangi.co.kr/member/join/mobile
+https://member.dangi.co.kr/member/join
+https://member.conects.com/member/login?is_app=Y&app_type=DP
+http://myclass.dangi.co.kr/m/main/main
+http://member.dangi.co.kr/member/popup_info/private_agree
+http://docs.google.com/viewer?url=
+https://member.conects.com/member/appHandler
+
+[INTERNAL_LOG][2018-06-12 03:46:19,968][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 03:46:19,973][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 03:46:19,973][INFO][check_method_conf()] [Add interface WebView: False]
+
+[INTERNAL_LOG][2018-06-12 03:46:19,973][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 03:46:19,973][INFO][analyze_start()] End time:[Tue Jun 12 03:46:19 2018]

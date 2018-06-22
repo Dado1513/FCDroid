@@ -1,0 +1,224 @@
+[INTERNAL_LOG][2018-06-12 02:18:19,276][INFO][analyze_start()] Init Time [Tue Jun 12 02:18:19 2018]
+[INTERNAL_LOG][2018-06-12 02:18:19,381][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 02:18:19,382][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 02:18:19,382][INFO][is_hybird()] android.permission.ACCESS_FINE_LOCATION
+[INTERNAL_LOG][2018-06-12 02:18:19,382][INFO][is_hybird()] android.permission.ACCESS_COARSE_LOCATION
+[INTERNAL_LOG][2018-06-12 02:18:19,382][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 02:18:19,383][INFO][is_hybird()] android.permission.CALL_PHONE
+[INTERNAL_LOG][2018-06-12 02:18:19,383][INFO][is_hybird()] android.permission.CAMERA
+[INTERNAL_LOG][2018-06-12 02:18:19,383][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 02:18:19,383][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 02:18:19,383][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 02:18:19,383][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-12 02:18:19,383][INFO][is_hybird()] com.ubercab.eats.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-12 02:18:19,383][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 02:18:19,383][INFO][is_hybird()] android.permission.RECEIVE_SMS
+[INTERNAL_LOG][2018-06-12 02:18:19,383][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-12 02:18:19,383][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 02:18:19,383][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 02:18:19,383][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 02:18:19,383][INFO][find_string()] File: assets/base.html
+[INTERNAL_LOG][2018-06-12 02:18:19,384][INFO][find_string()] No iframe in assets/base.html
+[INTERNAL_LOG][2018-06-12 02:18:19,384][INFO][find_string()] File: assets/licenses/licenses.html
+[INTERNAL_LOG][2018-06-12 02:18:19,387][INFO][find_string()] No iframe in assets/licenses/licenses.html
+[INTERNAL_LOG][2018-06-12 02:18:19,387][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 02:18:19,387][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 02:18:19,387][INFO][find_string()] File: assets/XMLHttpRequest.js
+[INTERNAL_LOG][2018-06-12 02:18:19,388][INFO][find_string()] No iframe in assets/XMLHttpRequest.js
+[INTERNAL_LOG][2018-06-12 02:18:19,388][INFO][find_string()] File: assets/debug_draft.js
+[INTERNAL_LOG][2018-06-12 02:18:19,389][INFO][find_string()] No iframe in assets/debug_draft.js
+[INTERNAL_LOG][2018-06-12 02:18:19,402][INFO][find_string()] File: assets/fetch.js
+[INTERNAL_LOG][2018-06-12 02:18:19,443][INFO][find_string()] No iframe in assets/fetch.js
+[INTERNAL_LOG][2018-06-12 02:18:19,443][INFO][find_string()] File: assets/framework.js
+[INTERNAL_LOG][2018-06-12 02:18:19,446][INFO][find_string()] No iframe in assets/framework.js
+[INTERNAL_LOG][2018-06-12 02:18:19,446][INFO][find_string()] File: assets/promise.js
+[INTERNAL_LOG][2018-06-12 02:18:19,446][INFO][find_string()] No iframe in assets/promise.js
+[INTERNAL_LOG][2018-06-12 02:18:19,446][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 02:20:08,842][INFO][find_url_in_apk()] [START URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-12 02:20:08,842][INFO][find_url_in_apk()] http://google.com
+
+[INTERNAL_LOG][2018-06-12 02:20:08,842][INFO][find_url_in_apk()] [END URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-12 02:20:09,036][INFO][find_string()] [START REMOTE FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 02:20:09,036][INFO][find_string()] Remote File in: temp_html_code/html_downloaded_Uber Eats_ Local Food Delivery by Uber Technologies_ Inc/google.com
+[INTERNAL_LOG][2018-06-12 02:20:09,036][INFO][find_string()] URL: http://google.com
+[INTERNAL_LOG][2018-06-12 02:20:09,037][ERROR][find_string()] Error unicode error 'utf-8' codec can't decode byte 0xe0 in position 8035: invalid continuation byte
+[INTERNAL_LOG][2018-06-12 02:20:09,037][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 02:20:09,038][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 02:20:09,038][INFO][find_url_in_apk()] http://10.0.2.2:3000/
+https://api.sandbox.braintreegateway.com/
+https://api.braintreegateway.com/
+https://plus.google.com/
+https://pagead2.googlesyndication.com/pagead/gen_204
+http://www.google.com
+https://support.google.com/dfp_premium/answer/7160685#push
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+https://uri.paypal.com/services/payments/futurepayments
+https://uri.paypal.com/services/payments/futurepayments
+https://uri.paypal.com/services/paypalattributes
+https://uri.paypal.com/services/paypalattributes
+https://svcs.paypal.com/AccessControl/LogRiskMetadata
+https://svcs.paypal.com/AccessControl/LogRiskMetadata
+https://svcs.paypal.com/AccessControl/LogRiskMetadata
+https://svcs.paypal.com/AccessControl/LogRiskMetadata
+https://b.stats.paypal.com/counter.cgi?p=
+https://b.stats.paypal.com/counter.cgi?p=
+https://www.paypalobjects.com/webstatic/risk/dyson_config_android_v3.json
+https://www.paypalobjects.com/webstatic/risk/dyson_config_android_v3.json
+https://www.paypalobjects.com/webstatic/risk/dyson_config_android_v3.json
+https://cms.paypal.com/jp/cgi-bin/marketingweb?cmd=_render-content&content_ID=ua/Legal_Hub_full&locale.x=ja_JP
+https://cms.paypal.com/jp/cgi-bin/marketingweb?cmd=_render-content&content_ID=ua/Legal_Hub_full&locale.x=en_US
+https://www.paypal.jp/jp/contents/regulation/info/overseas-remittance/
+https://uri.paypal.com/services/payments/funding-options
+https://uri.paypal.com/services/pos/payments
+https://uri.paypal.com/services/mis/customer
+https://uri.paypal.com/services/wallet/financial-instruments/view
+https://uri.paypal.com/services/wallet/sendmoney
+https://uri.paypal.com/services/wallet/money-request/requests
+https://uri.paypal.com/services/loyalty/memberships/update
+https://uri.paypal.com/services/expresscheckout
+https://api-m.paypal.com/v1/
+https://api-m.paypal.com/v1/
+https://api-m.paypal.com/v1/
+https://www.paypalobjects.com/webstatic/otc/otc-config.android.json
+https://api-m.sandbox.paypal.com/v1/
+https://api-m.sandbox.paypal.com/v1/
+https://uri.paypal.com/services/payments/basic
+https://www.paypal.com/%s/cgi-bin/webscr?cmd=_account-recovery&from=%s&locale.x=%s
+https://www.paypal.com/webapps/accountrecovery/passwordrecovery
+https://www.paypal.com/%s/webapps/mpp/ua/useragreement-full
+https://www.paypal.com/signup/account?country.x=%s&locale.x=%s
+https://www.paypal.com/%s/cgi-bin/webscr?cmd=p/gen/ua/policy_privacy-outside
+https://code.uberinternal.com/
+https://app-measurement.com/a
+http://www.example.com
+http://www.example.com
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/sdk-core-v40-impl.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://csi.gstatic.com/csi
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/native_ads.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/native_ads.js
+https://imasdk.googleapis.com/admob/sdkloader/native_video.html
+https://www.google.com/dfp/linkDevice
+https://www.google.com/dfp/inAppPreview
+https://www.google.com/dfp/debugSignals
+https://www.google.com/dfp/sendDebugData
+https://secure.payu.in/js/sdk_js/v3/
+https://secure.payu.in/js/sdk_js/v3/
+https://secure.payu.in/js/sdk_js/v3/
+https://info.payu.in/merchant/postservice.php?form=2
+https://info.payu.in/merchant/postservice.php?form=2
+https://info.payu.in/merchant/mobileWebService.php
+https://info.payu.in/merchant/mobileWebService.php
+http://juspay.in
+http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+https://settings.crashlytics.com/spi/v2/platforms/android/apps/%s/settings
+https://www.paypal.com
+https://jsbeasynet.jsbnet.in
+https://d3dt5tsgfu6lcf.cloudfront.net/style/driver/native
+https://d3dt5tsgfu6lcf.cloudfront.net/style/driver/native
+https://e.crashlytics.com/spi/v2/events
+https://api.paypal.com/v1/tracking/events
+https://www.google.com
+https://secure.payu.in/_payment_options
+https://mwsrec.npci.org.in/MWS/Scripts/MerchantScript_v1.0.js
+https://swasrec2.npci.org.in
+https://swasrec.npci.org.in
+https://secure.payu.in/_payment
+https://secure.payu.in/_secure_payment
+https://www.payumoney.com/txn/#/user/
+https://mpi.onlinesbi.com/electraSECURE/vbv/MPIEntry.jsp
+https://netsafe.hdfcbank.com/ACSWeb/com.enstage.entransact.servers.AccessControlServerSSL
+https://www.citibank.co.in/acspage/cap_nsapi.so
+https://acs.icicibank.com/acspage/cap
+https://www.citibank.co.in/servlets/TransReq
+https://netsafe.hdfcbank.com/ACSWeb/jsp/MerchantPost.jsp
+https://netsafe.hdfcbank.com/ACSWeb/jsp/SCode.jsp
+https://netsafe.hdfcbank.com/ACSWeb/jsp/payerAuthOptions.jsp
+https://cardsecurity.enstage.com/ACSWeb/EnrollWeb/KotakBank/server/AccessControlServer
+https://cardsecurity.enstage.com/ACSWeb/EnrollWeb/KotakBank/server/OtpServer
+https://secureonline.idbibank.com/ACSWeb/EnrollWeb/IDBIBank/server/AccessControlServer
+https://vpos.amxvpos.com/vpcpay
+https://www.googleapis.com/auth/games_lite
+https://www.googleapis.com/auth/games
+http://cancelurl
+http://returnurl
+http://google.com
+https://cn-dc1.uber.com/ramen/events/recv
+https://cn-dc1.uber.com/
+https://cn-dc1.uber.com/
+https://cn-dc1.uber.com/
+https://cn-dc1.geixahba.com/
+https://cn-dc1.geixahba.com/
+https://cn-dc1.shaipeeg.net/
+https://cn-dc1.shaipeeg.net/
+https://cn-dc1.oojoovae.org/
+https://cn-dc1.oojoovae.org/
+https://cn-dc1.ooshahwa.biz/
+https://cn-dc1.ooshahwa.biz/
+https://cn-dc1.naevooda.co/
+https://cn-dc1.naevooda.co/
+http://localhost/
+http://localhost/
+http://localhost/
+http://cn-geo1.uber.com
+https://cn-geo1.uber.com/
+https://help.uber.com
+https://code.uberinternal.com/%s
+https://cn-geo1.uber.com/event/user/v2
+https://chromium-i18n.appspot.com/ssl-address
+http://www.uber.com/legal/policies/service-animal-policy/
+https://native.uber.com/add_funds_response?STATUS=TXN_SUCCESS&GATEWAYNAME=WALLET
+https://native.uber.com/add_funds_response?STATUS=TXN_SUCCESS&GATEWAYNAME=WALLET
+https://secure.paytm.in/oltp-web/cancelTransaction
+https://secure.paytm.in/oltp-web/cancelTransaction
+https://secure.paytm.in/oltp-web/cancelTransaction
+https://hubble.uber.com/view?url=
+https://www.uber.com/legal/terms
+https://www.uber.com/legal/terms
+https://www.uber.com/legal/privacy/users
+https://www.uber.com/legal/privacy/users
+https://accounts.google.com
+https://accounts.google.com
+https://accounts.google.com
+https://accounts.google.com
+https://accounts.google.com
+https://accounts.google.com
+https://accounts.google.com
+https://www.facebook.com
+https://www.facebook.com
+https://www.facebook.com
+https://www.facebook.com
+https://www.facebook.com
+https://www.facebook.com
+https://www.facebook.com
+https://kcp-gateway.uber.com/eats
+https://en.facebookbrand.com/wp-content/uploads/2016/05/FB-fLogo-Blue-broadcast-2.png
+https://auth.uber.com/login/mobile-captcha.html
+https://auth.uber.com/login/mobile-captcha.html
+https://auth.uber.com/login/mobile-captcha.html
+https://get.uber.com/app-signup-success
+https://www.paypal.com/webapps/mpp/ua/legalhub-full
+https://www.placebear.com/%d/%d
+http://www.uber.com
+https://get.uber.com/app-signup
+https://www.facebook.com/connect/login_success.html
+https://www.facebook.com/connect/login_success.html#access_token
+https://www.facebook.com/connect/login_success.html?error=access_denied
+http://eats.uber.com
+
+[INTERNAL_LOG][2018-06-12 02:20:09,039][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 02:20:09,063][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 02:20:09,063][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 02:20:09,063][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 02:20:09,064][INFO][analyze_start()] End time:[Tue Jun 12 02:20:09 2018]

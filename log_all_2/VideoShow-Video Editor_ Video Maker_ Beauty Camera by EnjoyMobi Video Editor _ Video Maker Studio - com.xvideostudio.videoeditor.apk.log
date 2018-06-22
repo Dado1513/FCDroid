@@ -1,0 +1,256 @@
+[INTERNAL_LOG][2018-06-12 05:52:27,545][INFO][analyze_start()] Init Time [Tue Jun 12 05:52:27 2018]
+[INTERNAL_LOG][2018-06-12 05:52:27,624][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 05:52:27,625][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 05:52:27,625][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 05:52:27,625][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 05:52:27,625][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 05:52:27,625][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 05:52:27,625][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 05:52:27,625][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 05:52:27,625][INFO][is_hybird()] android.permission.READ_PHONE_STATE
+[INTERNAL_LOG][2018-06-12 05:52:27,625][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 05:52:27,625][INFO][is_hybird()] android.permission.RECORD_AUDIO
+[INTERNAL_LOG][2018-06-12 05:52:27,626][INFO][is_hybird()] com.google.android.providers.gsf.permission.READ_GSERVICES
+[INTERNAL_LOG][2018-06-12 05:52:27,626][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-12 05:52:27,626][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-12 05:52:27,626][INFO][is_hybird()] android.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 05:52:27,626][INFO][is_hybird()] android.permission.RECEIVE_BOOT_COMPLETED
+[INTERNAL_LOG][2018-06-12 05:52:27,626][INFO][is_hybird()] android.permission.CAMERA
+[INTERNAL_LOG][2018-06-12 05:52:27,626][INFO][is_hybird()] android.permission.RECORD_VIDEO
+[INTERNAL_LOG][2018-06-12 05:52:27,626][INFO][is_hybird()] com.android.launcher.permission.INSTALL_SHORTCUT
+[INTERNAL_LOG][2018-06-12 05:52:27,626][INFO][is_hybird()] com.android.launcher.permission.UNINSTALL_SHORTCUT
+[INTERNAL_LOG][2018-06-12 05:52:27,626][INFO][is_hybird()] android.permission.FLASHLIGHT
+[INTERNAL_LOG][2018-06-12 05:52:27,626][INFO][is_hybird()] android.permission.SYSTEM_ALERT_WINDOW
+[INTERNAL_LOG][2018-06-12 05:52:27,626][INFO][is_hybird()] android.permission.KILL_BACKGROUND_PROCESSES
+[INTERNAL_LOG][2018-06-12 05:52:27,626][INFO][is_hybird()] android.permission.DISABLE_KEYGUARD
+[INTERNAL_LOG][2018-06-12 05:52:27,626][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-12 05:52:27,626][INFO][is_hybird()] com.xvideostudio.videoeditor.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-12 05:52:27,626][INFO][is_hybird()] android.permission.GET_TASKS
+[INTERNAL_LOG][2018-06-12 05:52:27,626][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 05:52:27,626][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 05:52:27,626][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 05:52:27,627][INFO][find_string()] File: assets/help/setting_help_en-US.html
+[INTERNAL_LOG][2018-06-12 05:52:27,628][INFO][find_string()] No iframe in assets/help/setting_help_en-US.html
+[INTERNAL_LOG][2018-06-12 05:52:27,629][INFO][find_string()] File: assets/help/setting_help_es-AR.html
+[INTERNAL_LOG][2018-06-12 05:52:27,673][INFO][find_string()] No iframe in assets/help/setting_help_es-AR.html
+[INTERNAL_LOG][2018-06-12 05:52:27,673][INFO][find_string()] File: assets/help/setting_help_ja-JPN.html
+[INTERNAL_LOG][2018-06-12 05:52:27,675][INFO][find_string()] No iframe in assets/help/setting_help_ja-JPN.html
+[INTERNAL_LOG][2018-06-12 05:52:27,675][INFO][find_string()] File: assets/help/setting_help_ko-Kr.html
+[INTERNAL_LOG][2018-06-12 05:52:27,677][INFO][find_string()] No iframe in assets/help/setting_help_ko-Kr.html
+[INTERNAL_LOG][2018-06-12 05:52:27,677][INFO][find_string()] File: assets/help/setting_terms_privacy.html
+[INTERNAL_LOG][2018-06-12 05:52:27,680][INFO][find_string()] No iframe in assets/help/setting_terms_privacy.html
+[INTERNAL_LOG][2018-06-12 05:52:27,680][INFO][find_string()] File: assets/help/youtubeJS.html
+[INTERNAL_LOG][2018-06-12 05:52:27,681][INFO][find_string()] No iframe in assets/help/youtubeJS.html
+[INTERNAL_LOG][2018-06-12 05:52:27,681][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 05:52:27,681][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 05:52:27,681][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 05:53:21,372][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 05:53:21,372][INFO][find_url_in_apk()] http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+http://net.cleverjp.com/
+http://xmlpull.org/v1/doc/features.html#indent-output
+http://xmlpull.org/v1/doc/features.html#indent-output
+http://api.mobula.sdk.duapps.com/adunion/slot/getDlAd?
+http://api.mobula.sdk.duapps.com/adunion/rtb/getInmobiAd?
+http://api.mobula.sdk.duapps.com/adunion/rtb/fetchAd?
+http://api.mobula.sdk.duapps.com/adunion/slot/getSrcPrio?
+http://api.mobula.sdk.duapps.com/adunion/slot/getSrcPrio?
+http://api.mobula.sdk.duapps.com/adunion/slot/tdmr?
+http://rts.mobula.sdk.duapps.com/orts/rp?
+http://rts.mobula.sdk.duapps.com/orts/rpb?
+http://market.android.com
+https://market.android.com
+https://play.google.com
+https://play.google.com
+https://play.google.com
+https://play.google.com
+https://play.google.com
+https://play.google.com
+http://play.google.com
+http://play.google.com
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+https://apipool.zhugeio.com/APIPOOL/
+https://apipoolback.zhugeio.com/upload
+https://www.facebook.com/audience_network/server_side_reward
+https://www.%s.facebook.com/audience_network/server_side_reward
+http://play.google.com/store/apps/
+https://www.facebook.com/
+https://www.%s.facebook.com
+https://graph.facebook.com/network_ads_common
+https://graph.%s.facebook.com/network_ads_common
+https://www.facebook.com/adnw_logging/
+https://www.%s.facebook.com/adnw_logging/
+http://www.facebook.com
+https://graph.%s
+https://graph-video.%s
+https://facebook.com
+http://play.google.com/store/apps/details?id=com.facebook.orca
+https://play.google.com/store/apps/details?id=com.xvideostudio.vcamera&referrer=utm_source%3Dvideoshow_camera
+https://play.google.com/store/apps/details?id=com.xvideostudio.vcamera&referrer=utm_source%3Dvideoshow_camera
+https://api.giphy.com
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+http://hostname/?
+http://hostname/?
+https://www.googleapis.com/auth/games
+https://plus.google.com/
+https://app-measurement.com/a
+https://www.google.com
+http://www.example.com
+http://www.example.com
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://csi.gstatic.com/csi
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/native_ads.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/native_video_ads.html
+https://www.google.com/dfp/linkDevice
+https://www.google.com/dfp/inAppPreview
+https://www.google.com/dfp/debugSignals
+https://www.google.com/dfp/sendDebugData
+https://pagead2.googlesyndication.com/pagead/gen_204
+http://www.google.com
+https://support.google.com/dfp_premium/answer/7160685#push
+http://www.google-analytics.com
+https://ssl.google-analytics.com
+https://www.googletagmanager.com
+http://cn-staging-2114457898.cn-north-1.elb.amazonaws.com.cn/cdn/v2/adconfig/1/
+https://crystalexpress.optimix.cn/cdn/v2/adconfig/1/
+https://dwzb7nsm427ad.cloudfront.net/1/
+https://d1zkodo2u3p4pe.cloudfront.net/1/
+https://geoinfo.crystalexpress.optimix.cn/api/1/geoinfo
+https://geoinfo.i2w.io/api/1/geoinfo
+http://s3.cn-north-1.amazonaws.com.cn/ce-dev/cdn/adcfg
+http://crystalexpress.optimix.cn/cdn/adcfg
+http://ce-global-dev-proxy-154916917.ap-northeast-1.elb.amazonaws.com/cdn/adcfg
+http://d2qmdcga8xwxzj.cloudfront.net/cdn/adcfg
+http://ddad-dev-metadata.intowow.com/adcfg
+http://ddad-prod-metadata.intowow.com/adcfg
+https://www.facebook.com/%s
+https://www.facebook.com/%s
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+https://mobile-static.adsafeprotected.com/avid-v2.js
+https://play.google
+https://play.google.com/store/apps/details?id=com.xvideostudio.videoeditorpro&referrer=
+http://weixin.qq.com/
+http://weixin.qq.com/
+http://weixin.qq.com/
+http://weixin.qq.com/
+http://mobile.youku.com/index/wireless
+http://mobile.youku.com/index/wireless
+http://mobile.youku.com/index/wireless
+http://mobile.youku.com/index/wireless
+http://m.weibo.com/web/cellphone.php?topnav=1&wvr=4#android
+http://m.weibo.com/web/cellphone.php?topnav=1&wvr=4#android
+http://m.weibo.com/web/cellphone.php?topnav=1&wvr=4#android
+http://m.weibo.com/web/cellphone.php?topnav=1&wvr=4#android
+http://test.videoshowapp.com:8091/libs/armeabi/libffmpeg.so
+https://z.moatads.com/
+http://analytics.rayjump.com
+http://net.rayjump.com
+http://setting.rayjump.com
+https://play.google.com/
+https://play.google.com/
+https://play.google.com/
+https://play.google.com/
+http://detect.rayjump.com/mapi/find
+http://detect.rayjump.com/mapi/result
+http://100.69.165.28/agoo/report
+http://agoodm.m.taobao.com/agoo/report
+http://agoodm.wapa.taobao.com/agoo/report
+http://100.69.168.33/agoo/report
+http://alogus.umeng.com/app_logs
+http://alog.umeng.com/app_logs
+http://alog.umeng.co/app_logs
+http://log.umsns.com/share/api/
+https://umengacs.m.taobao.com
+http://sns.whalecloud.com
+https://log.umsns.com/
+https://stats.umsns.com/
+http://cdn.yun.galaxyfont.com/xmht_android_fonts/%s/%s/%s/%s/%s/%s/%s.ttf
+http://api.yun.galaxyfont.com/index/min_ttf?appKey=%s&fontIdNo=%s&str=%s&type=%s
+http://cdn.sdk.galaxyfont.com/flow/move?appKey=%s
+http://cdn.sdk.galaxyfont.com/font/list?appKey=%s&currPage=%s&offset=%s&type=%s
+http://cdn.sdk.galaxyfont.com/font/list?appKey=%s&currPage=%s&offset=%s&type=%s
+https://play.google.com/store/apps/details?id=com.instagram.android
+https://play.google.com/store/apps/details?id=com.google.android.youtube
+https://play.google.com/store/apps/details?id=com.facebook.katana
+http://tsso.videoshowapp.com:88/zone/1.0.1
+http://tsso.videoshowapp.com:88/zone/1.0.1
+http://api.videoshowapp.com:8087/api/v1/clientlogs?app_version=
+http://videoshowapp.com/get
+http://videoshowapp.com/get
+https://m.facebook.com/videoshowapp
+https://m.facebook.com/videoshowapp
+https://m.facebook.com/videoshowapp
+https://m.facebook.com/videoshowapp
+http://www.videoshowapp.com/img/share_big.png
+http://www.videoshowapp.com/img/share_big.png
+http://www.videoshowapp.com/get
+http://www.videoshowapp.com/get
+https://goo.gl/uWPD21
+https://goo.gl/uWPD21
+https://goo.gl/uWPD21
+https://goo.gl/uWPD21
+https://goo.gl/uWPD21
+https://goo.gl/uWPD21
+http://api.fanyi.baidu.com/api/trans/vip/translate?q=
+https://docs.google.com/forms/d/e/1FAIpQLSdY6PST94JHM5Z7_RCPbMWAj6X3Ig4JNSni0wVlICyfOJuycw/viewform?usp=sf_link
+https://docs.google.com/forms/d/e/1FAIpQLSdY6PST94JHM5Z7_RCPbMWAj6X3Ig4JNSni0wVlICyfOJuycw/viewform?usp=sf_link
+https://docs.google.com/forms/d/e/1FAIpQLSdXzK0RZaoCO00lcC2YcAA7AfDx1w75H239LtQeidGCCA3P-g/viewform?usp=sf_link
+https://play.google.com/store/apps/details?id=com.xvideostudio.videocompress&referrer=utm_source%3Dvideoshow_tools
+https://play.google.com/store/apps/details?id=com.xvideostudio.videocompress&referrer=utm_source%3Dvideoshow_tools
+https://play.google.com/store/apps/details?id=com.xvideostudio.videocompress&referrer=utm_source%3Dvideoshow_tools
+https://play.google.com/store/apps/details?id=com.xvideostudio.flickmomentlite&referrer=utm_source%3Dvideoshow_tools
+https://play.google.com/store/apps/details?id=com.xvideostudio.gifguru&referrer=utm_source%3Dvideoshow_tools
+https://play.google.com/store/apps/details?id=com.xvideostudio.gifguru&referrer=utm_source%3Dvideoshow_tools
+https://play.google.com/store/apps/details?id=com.xvideostudio.gifguru&referrer=utm_source%3Dvideoshow_tools
+https://play.google.com/store/apps/details?id=com.xvideostudio.gifguru&referrer=utm_source%3Dvideoshow_tools
+https://play.google.com/store/apps/details?id=com.xvideostudio.gifguru&referrer=utm_source%3Dvideoshow_tools
+https://play.google.com/store/apps/details?id=com.xvideostudio.tapslide&referrer=utm_source%3Dvideoshow_tools
+https://play.google.com/store/apps/details?id=com.xvideostudio.vcamera&referrer=utm_source%3Dvideoshow_tools
+https://play.google.com/store/apps/details?id=com.xvideostudio.vcamera&referrer=utm_source%3Dvideoshow_tools
+https://play.google.com/store/apps/details?id=com.xvideostudio.vcamera&referrer=utm_source%3Dvideoshow_tools
+https://www.instagram.com/videoshowapp
+https://twitter.com/videoshowapp
+https://www.youtube.com/channel/UCDn_lwV1FHYhfim4ZNTUneA
+http://www.weibo.com/u/3946714889
+http://i.youku.com/videoshowapp
+http://u.meitu.com/eu2e6rh
+http://u.meitu.com/eu2e6rh
+https://goo.gl/h6Qj8i
+https://play.google.com/store/apps/details?id=com.emoji.android.emojidiy
+http://xvideostudio.energysh.com
+http://api.videoshowapp.com:8087
+http://test.videoshowapp.com:8087
+http://api.videoshowapp.com:8090/videoshow/api/v2/config?type=
+http://test.videoshowapp.com:8090/videoshow/api/v2/config?type=
+http://api.videoshowapp.com:8091/libs/armeabi/libffmpegv6.so
+http://test.videoshowapp.com:8091/libs/armeabi/libffmpegv6.so
+http://api.videoshowapp.com:8091/libs/armeabi/libffmpegx86.so
+http://test.videoshowapp.com:8091/libs/armeabi/libffmpegx86.so
+http://tsso.videoshowapp.com:88/zone/
+http://sso.videoshowapp.com/zone/
+http://test.videoshowapp.com:8091/libs/guide/20151016/
+http://api.videoshowapp.com:8091/libs/guide/20151016/
+http://tzone.videoshowapp.com:88/vcZone/1.0.1
+http://tzone.videoshowapp.com:88/vcZone/1.0.1
+http://upload.zone.videoshowapp.com/vcZone/1.0.1
+http://zone.videoshowapp.com/vcZone/1.0.1
+http://tsso.videoshowapp.com:8092/
+http://sso.videoshowapp.com:8091/
+http://sso.videoshowapp.com/zone/1.0.1
+
+[INTERNAL_LOG][2018-06-12 05:53:21,372][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 05:53:21,378][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 05:53:21,378][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 05:53:21,378][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 05:53:21,378][INFO][analyze_start()] End time:[Tue Jun 12 05:53:21 2018]

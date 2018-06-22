@@ -1,0 +1,53 @@
+[INTERNAL_LOG][2018-06-12 06:24:33,070][INFO][analyze_start()] Init Time [Tue Jun 12 06:24:33 2018]
+[INTERNAL_LOG][2018-06-12 06:24:33,147][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 06:24:33,147][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 06:24:33,147][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 06:24:33,147][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-12 06:24:33,148][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-12 06:24:33,148][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 06:24:33,148][INFO][is_hybird()] android.permission.READ_PHONE_STATE
+[INTERNAL_LOG][2018-06-12 06:24:33,148][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 06:24:33,148][INFO][is_hybird()] com.king.cross.kingapp.provider.ACCESS
+[INTERNAL_LOG][2018-06-12 06:24:33,148][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 06:24:33,148][INFO][is_hybird()] com.king.blossomblast.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-12 06:24:33,148][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-12 06:24:33,148][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 06:24:33,148][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 06:24:33,148][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 06:24:33,148][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 06:24:33,148][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 06:24:33,148][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 06:24:33,148][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 06:24:41,761][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 06:24:41,761][INFO][find_url_in_apk()] http://www.amazon.com/gp/mas/get-appstore/android/ref=mas_mx_mba_iap_dl
+https://graph.%s
+https://graph-video.%s
+https://facebook.com
+http://play.google.com/store/apps/details?id=com.facebook.orca
+https://www.googleapis.com/auth/appstate
+https://www.googleapis.com/auth/appstate
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games
+http://googleads.g.doubleclick.net
+http://www.google.com
+http://media.admob.com/mraid/v1/mraid_app_interstitial.js
+http://media.admob.com/mraid/v1/mraid_app_expanded_banner.js
+http://media.admob.com/mraid/v1/mraid_app_banner.js
+http://plus.google.com/
+https://www.googleapis.com/auth/games.firstparty
+https://www.googleapis.com/auth/plus.login
+https://www.googleapis.com/auth/plus.login
+http://schemas.android.com/apk/lib/com.google.android.gms.plus
+http://schemas.android.com/apk/lib/com.google.android.gms.plus
+
+[INTERNAL_LOG][2018-06-12 06:24:41,761][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 06:24:41,764][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 06:24:41,764][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 06:24:41,764][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 06:24:41,764][INFO][analyze_start()] End time:[Tue Jun 12 06:24:41 2018]

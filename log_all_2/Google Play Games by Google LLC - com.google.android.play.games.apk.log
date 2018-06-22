@@ -1,0 +1,137 @@
+[INTERNAL_LOG][2018-06-12 00:51:34,024][INFO][analyze_start()] Init Time [Tue Jun 12 00:51:34 2018]
+[INTERNAL_LOG][2018-06-12 00:51:34,080][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 00:51:34,081][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 00:51:34,081][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 00:51:34,081][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 00:51:34,081][INFO][is_hybird()] android.permission.USE_CREDENTIALS
+[INTERNAL_LOG][2018-06-12 00:51:34,081][INFO][is_hybird()] android.permission.REQUEST_DELETE_PACKAGES
+[INTERNAL_LOG][2018-06-12 00:51:34,081][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 00:51:34,081][INFO][is_hybird()] com.google.android.providers.gsf.permission.READ_GSERVICES
+[INTERNAL_LOG][2018-06-12 00:51:34,081][INFO][is_hybird()] com.google.android.providers.gsf.permission.WRITE_GSERVICES
+[INTERNAL_LOG][2018-06-12 00:51:34,081][INFO][is_hybird()] com.google.android.gms.permission.INTERNAL_BROADCAST
+[INTERNAL_LOG][2018-06-12 00:51:34,081][INFO][is_hybird()] com.google.android.gms.game.notifications.permission.READ
+[INTERNAL_LOG][2018-06-12 00:51:34,081][INFO][is_hybird()] com.google.android.gms.permission.GAMES_DEBUG_SETTINGS
+[INTERNAL_LOG][2018-06-12 00:51:34,081][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-12 00:51:34,082][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 00:51:34,082][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 00:51:34,082][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 00:51:34,082][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 00:51:34,082][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 00:51:34,082][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 00:51:59,645][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 00:51:59,646][INFO][find_url_in_apk()] http://schemas.android.com/apk/res/android
+http://www.w3.org/1999/xlink
+http://www.w3.org/1999/xlink
+http://www.w3.org/TR/SVG11/feature#
+http://xml.org/sax/properties/lexical-handler
+http://www.w3.org/2000/svg
+http://www.w3.org/2000/svg
+https://www.youtube.com/watch?v=
+http://www.example.com
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+http://www.google-analytics.com
+https://ssl.google-analytics.com
+https://www.googleapis.com/auth/games_lite
+https://www.googleapis.com/auth/games_lite
+https://www.googleapis.com/auth/games_lite
+https://www.googleapis.com/auth/games_lite
+https://www.googleapis.com/auth/games_lite
+https://www.googleapis.com/auth/games_lite
+https://www.googleapis.com/auth/games_lite
+https://www.googleapis.com/auth/games_lite
+https://www.googleapis.com/auth/games_lite
+https://www.googleapis.com/auth/games_lite
+https://www.googleapis.com/auth/games_lite
+https://www.googleapis.com/auth/games_lite
+https://www.googleapis.com/auth/games_lite
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games
+https://support.google.com/?p=google_settings
+https://www.googleapis.com
+https://www.googleapis.com
+https://www.googleapis.com
+https://www.googleapis.com
+https://passwords.google.com
+https://plus.google.com/
+http://play.google.com/store/apps/category/GAME
+https://plus.google.com/%s/about
+https://play.google.com/store/apps/details
+https://www.googleapis.com/auth/drive.file
+https://www.googleapis.com/auth/drive.appdata
+https://www.googleapis.com/auth/drive.appdata
+https://www.googleapis.com/auth/drive.appdata
+https://www.googleapis.com/auth/drive.appdata
+https://www.googleapis.com/auth/drive
+https://www.googleapis.com/auth/drive.apps
+https://drive.google.com/otservice
+https://lh3.googleusercontent.com/d/%s
+https://www.googleapis.com/auth/games.firstparty
+https://www.googleapis.com/auth/games.firstparty
+https://www.googleapis.com/auth/games.firstparty
+https://www.googleapis.com/auth/games.firstparty
+https://www.googleapis.com/auth/games.firstparty
+https://www.googleapis.com/auth/games.firstparty
+https://www.googleapis.com/auth/games.firstparty
+https://www.googleapis.com/auth/games.firstparty
+https://www.googleapis.com/auth/games.firstparty
+https://www.googleapis.com/auth/games.firstparty
+https://www.googleapis.com/auth/games.firstparty
+https://www.googleapis.com/auth/games.firstparty
+https://www.googleapis.com/auth/games.firstparty
+https://www.googleapis.com/auth/games.firstparty
+https://market.android.com
+https://play.googleapis.com/play/log
+https://play.googleapis.com/play/log
+https://play.googleapis.com/play/log
+http://games.google.com/sync/match/
+http://games.google.com/sync/request/
+https://www.googleapis.com/auth/plus.circles.read
+https://www.googleapis.com/auth/plus.circles.read
+https://www.googleapis.com/auth/plus.circles.read
+https://www.googleapis.com/auth/plus.circles.read
+https://www.googleapis.com/auth/plus.circles.members
+https://www.googleapis.com/auth/plus.circles.write
+https://www.googleapis.com/auth/plus.circles.write
+https://www.googleapis.com/auth/plus.login
+https://www.googleapis.com/auth/plus.login
+https://support.google.com/googleplay/topic/6026775
+https://support.google.com/googleplay/?p=games_visibility
+https://support.google.com/googleplay/?p=games_notifications
+https://support.google.com/googleplay/?p=game_profile_visibility
+https://support.google.com/googleplay/?p=play_games_nearby
+https://www-googleapis-staging.sandbox.google.com
+https://staging-www.sandbox.googleapis.com
+https://support.google.com/googleplay/?p=games_signin
+https://www.google.com
+https://www.google.com
+http://schemas.android.com/apk/res-auto
+https://clients4.google.com/insights/consumersurveys/gk/prompt
+https://lh3.googleusercontent.com
+https://images
+https://play.googleapis.com/play/log/timestamp
+https://android.clients.google.com/fdfe/
+http://play.google.com/store/apps/details
+https://www.googleapis.com/auth/googleplay
+
+[INTERNAL_LOG][2018-06-12 00:51:59,646][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 00:51:59,653][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 00:51:59,654][INFO][check_method_conf()] [Add interface WebView: False]
+
+[INTERNAL_LOG][2018-06-12 00:51:59,654][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 00:51:59,654][INFO][analyze_start()] End time:[Tue Jun 12 00:51:59 2018]

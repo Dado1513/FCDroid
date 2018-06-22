@@ -1,0 +1,629 @@
+[INTERNAL_LOG][2018-06-12 01:26:28,593][INFO][analyze_start()] Init Time [Tue Jun 12 01:26:28 2018]
+[INTERNAL_LOG][2018-06-12 01:26:28,790][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 01:26:28,792][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 01:26:28,792][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-12 01:26:28,792][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 01:26:28,792][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 01:26:28,792][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 01:26:28,792][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 01:26:28,792][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 01:26:28,792][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-12 01:26:28,792][INFO][is_hybird()] android.permission.USE_CREDENTIALS
+[INTERNAL_LOG][2018-06-12 01:26:28,792][INFO][is_hybird()] android.permission.RECEIVE_BOOT_COMPLETED
+[INTERNAL_LOG][2018-06-12 01:26:28,792][INFO][is_hybird()] com.google.android.providers.gsf.permission.READ_GSERVICES
+[INTERNAL_LOG][2018-06-12 01:26:28,792][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-12 01:26:28,792][INFO][is_hybird()] com.longtech.lastwars.gp.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-12 01:26:28,793][INFO][is_hybird()] android.permission.CHANGE_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 01:26:28,793][INFO][is_hybird()] android.permission.MANAGE_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 01:26:28,793][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 01:26:28,793][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 01:26:28,793][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 01:26:28,793][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 01:26:28,793][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 01:26:28,793][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 01:26:28,793][INFO][is_hybird()] android.permission.SET_DEBUG_APP
+[INTERNAL_LOG][2018-06-12 01:26:28,793][INFO][is_hybird()] android.permission.CAMERA
+[INTERNAL_LOG][2018-06-12 01:26:28,793][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 01:26:28,793][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 01:26:28,793][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 01:26:28,793][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 01:26:28,793][INFO][is_hybird()] android.permission.RECORD_AUDIO
+[INTERNAL_LOG][2018-06-12 01:26:28,793][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 01:26:28,793][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 01:26:28,793][INFO][is_hybird()] android.permission.CAMERA
+[INTERNAL_LOG][2018-06-12 01:26:28,793][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 01:26:28,793][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 01:26:28,793][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 01:26:28,794][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 01:26:28,794][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 01:26:28,794][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 01:26:28,794][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 01:27:50,391][INFO][find_url_in_apk()] [START URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-12 01:27:50,391][INFO][find_url_in_apk()] http://m.alipay.com/?action=h5quit
+http://m.alipay.com/?action=h5quit
+http://qzs.qq.com/open/mobile/login/qzsjump.html?
+https://www.youtube.com
+http://www.aparat.com/video/video/embed/vt/frame/showvideo/yes/videohash/%s
+https://coub.com/api/v2/coubs/%s.json
+https://api.twitch.tv/kraken/streams/%s?stream_type=all
+https://api.twitch.tv/api/channels/%s/access_token
+https://player.vimeo.com/video/%s/config
+https://www.youtube.com/embed/
+https://www.youtube.com/get_video_info?
+
+[INTERNAL_LOG][2018-06-12 01:27:50,391][INFO][find_url_in_apk()] [END URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-12 01:29:09,239][ERROR][download_page_loaded()] Failed response code: 400 for http://www.aparat.com/video/video/embed/vt/frame/showvideo/yes/videohash/%s  
+[INTERNAL_LOG][2018-06-12 01:29:09,557][ERROR][download_page_loaded()] Failed response code: 400 for https://coub.com/api/v2/coubs/%s.json  
+[INTERNAL_LOG][2018-06-12 01:29:09,850][ERROR][download_page_loaded()] Failed response code: 400 for https://api.twitch.tv/kraken/streams/%s?stream_type=all  
+[INTERNAL_LOG][2018-06-12 01:29:10,157][ERROR][download_page_loaded()] Failed response code: 400 for https://api.twitch.tv/api/channels/%s/access_token  
+[INTERNAL_LOG][2018-06-12 01:29:10,405][ERROR][download_page_loaded()] Failed response code: 400 for https://player.vimeo.com/video/%s/config  
+[INTERNAL_LOG][2018-06-12 01:29:10,566][ERROR][download_page_loaded()] Failed download: https://www.youtube.com/embed/ for exception [Errno 21] Is a directory: 'temp_html_code/html_downloaded_Last Empire - War Z_ Strategy by im30/'
+[INTERNAL_LOG][2018-06-12 01:29:10,708][INFO][find_string()] [START REMOTE FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 01:29:10,708][INFO][find_string()] Remote File in: temp_html_code/html_downloaded_Last Empire - War Z_ Strategy by im30/?action=h5quit
+[INTERNAL_LOG][2018-06-12 01:29:10,708][INFO][find_string()] URL: http://m.alipay.com/?action=h5quit
+[INTERNAL_LOG][2018-06-12 01:29:10,710][INFO][find_string()] No iframe in temp_html_code/html_downloaded_Last Empire - War Z_ Strategy by im30/?action=h5quit
+[INTERNAL_LOG][2018-06-12 01:29:10,710][INFO][find_string()] Remote File in: temp_html_code/html_downloaded_Last Empire - War Z_ Strategy by im30/qzsjump.html?
+[INTERNAL_LOG][2018-06-12 01:29:10,710][INFO][find_string()] URL: http://qzs.qq.com/open/mobile/login/qzsjump.html?
+[INTERNAL_LOG][2018-06-12 01:29:10,712][INFO][find_string()] Found this tag <iframe id="jumpIframe" style="display:none;"></iframe>
+[INTERNAL_LOG][2018-06-12 01:29:10,712][INFO][find_string()] Found in file temp_html_code/html_downloaded_Last Empire - War Z_ Strategy by im30/qzsjump.html? tag iframe , 1 times
+[INTERNAL_LOG][2018-06-12 01:29:10,712][INFO][find_string()] No src founded in iframe tag inside file temp_html_code/html_downloaded_Last Empire - War Z_ Strategy by im30/qzsjump.html?
+[INTERNAL_LOG][2018-06-12 01:29:10,712][INFO][find_string()] No CSP found!
+[INTERNAL_LOG][2018-06-12 01:29:10,712][INFO][find_string()] Remote File in: temp_html_code/html_downloaded_Last Empire - War Z_ Strategy by im30/www.youtube.com
+[INTERNAL_LOG][2018-06-12 01:29:10,712][INFO][find_string()] URL: https://www.youtube.com
+[INTERNAL_LOG][2018-06-12 01:29:10,791][INFO][find_string()] Found this tag <iframe id="signin-passive" src="https://accounts.google.com/ServiceLogin?service=youtube&amp;hl=it&amp;uilel=3&amp;continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Fhl%3Dit%26next%3D%252Fsignin_passive%26feature%3Dpassive%26app%3Ddesktop%26action_handle_signin%3Dtrue&amp;passive=true"></iframe>
+[INTERNAL_LOG][2018-06-12 01:29:10,792][INFO][find_string()] Found in file temp_html_code/html_downloaded_Last Empire - War Z_ Strategy by im30/www.youtube.com tag iframe , 1 times
+[INTERNAL_LOG][2018-06-12 01:29:10,792][INFO][find_string()] Founded this src ['https://accounts.google.com/ServiceLogin?service=youtube&hl=it&uilel=3&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Fhl%3Dit%26next%3D%252Fsignin_passive%26feature%3Dpassive%26app%3Ddesktop%26action_handle_signin%3Dtrue&passive=true'] in iframe tag inside file temp_html_code/html_downloaded_Last Empire - War Z_ Strategy by im30/www.youtube.com
+[INTERNAL_LOG][2018-06-12 01:29:10,811][INFO][find_string()] No CSP found!
+[INTERNAL_LOG][2018-06-12 01:29:10,811][INFO][find_string()] Remote File in: temp_html_code/html_downloaded_Last Empire - War Z_ Strategy by im30/get_video_info?
+[INTERNAL_LOG][2018-06-12 01:29:10,811][INFO][find_string()] URL: https://www.youtube.com/get_video_info?
+[INTERNAL_LOG][2018-06-12 01:29:10,812][INFO][find_string()] No iframe in temp_html_code/html_downloaded_Last Empire - War Z_ Strategy by im30/get_video_info?
+[INTERNAL_LOG][2018-06-12 01:29:10,812][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 01:29:10,812][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 01:29:10,812][INFO][find_url_in_apk()] http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+https://app.adjust.io
+https://mobilegw.alipay.com/mgw.htm
+https://mobilegw.alipay.com/mgw.htm
+https://mobilegw.alipay.com/mgw.htm
+http://mobilegw.stable.alipay.net/mgw.htm
+http://mobilegw-1-64.test.alipay.net/mgw.htm
+http://m.alipay.com/?action=h5quit
+http://m.alipay.com/?action=h5quit
+http://mcgw.alipay.com/gateway.do
+https://mclient.alipay.com/sdkErrorlog.do
+https://api.%s/install_data/v3/
+https://attr.%s/api/v
+https://t.%s/api/v
+https://events.%s/api/v
+https://register.%s/api/v
+https://stats.%s/stats
+https://onelink.%s/shortlink-sdk/v1
+https://onelink.%s/shortlink-sdk/v1
+https://validate.%s/api/v
+https://sdk-services.%s/validate-android-signature
+https://app.%s
+https://app.%s
+https://impression.%s
+https://monitorsdk.%s/remote-debug?app_id=
+https://live.chartboost.com
+http://market.android.com/
+http://warz.im30.net/get_cn_apk_ver.php?ch=
+https://api.weibo.com/oauth2/default.html
+http://cok.eleximg.com/cok/config/chat_service_res/pic_update_remote.json
+http://cok.eleximg.com/cok/config/chat_service_res/
+http://cok.eleximg.com/cok/config/chat_service_res/
+https://translate.im30app.com/v2/client.php
+http://107.178.245.119/server/links
+http://10.0.0.19:81/server/links
+http://img.im30app.com/az/img/
+http://img.im30app.com/az/photo/
+https://translate.google.com/translate_a/t?client=x&text=
+https://graph.%s
+https://graph-video.%s
+https://facebook.com
+http://play.google.com/store/apps/details?id=com.facebook.orca
+http://hostname/
+http://hostname/?
+http://hostname/?
+http://hostname/?
+https://pubads.g.doubleclick.net/activity;dc_iu=
+https://pubads.g.doubleclick.net/activity;xsp=
+https://www.googleadservices.com/pagead/conversion/
+https://www.googleadservices.com/pagead/conversion/
+http://plus.google.com/
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games
+https://plus.google.com/
+https://www.googleapis.com/auth/drive.file
+https://www.googleapis.com/auth/drive.appdata
+https://www.googleapis.com/auth/drive
+https://www.googleapis.com/auth/drive.apps
+https://www.googleapis.com/auth/games_lite
+https://www.googleapis.com/auth/games.firstparty
+https://www.googleapis.com/auth/games.firstparty
+https://www.googleapis.com/auth/plus.login
+https://www.googleapis.com/auth/plus.me
+http://api.twitter.com/oauth/request_token
+http://api.twitter.com/oauth/request_token
+http://api.twitter.com/oauth/access_token
+http://api.twitter.com/oauth/access_token
+http://api.twitter.com/oauth/authorize
+http://api.twitter.com/oauth/authorize
+http://api.twitter.com/1
+https://api.io.watchmouse.com/synth/current/39657/folder/7617/?fields=info;cur;24h.uptime
+http://twitter.com/
+http://tl.gd/
+http://www.twitlonger.com/api_read/
+http://search.twitter.com/search.json
+http://www.twitlonger.com/api_post
+http://www.twitlonger.com/api_set_id
+http://upload.twitter.com/1/statuses/update_with_media.json
+https://stream.twitter.com/1/statuses/
+https://userstream.twitter.com/2/user.json?delimited=length
+https://api.weibo.com/2/friendships/friends/bilateral.json
+https://api.weibo.com/2/friendships/friends/bilateral/ids.json
+https://api.weibo.com/2/friendships/friends_chain/followers.json
+https://api.weibo.com/2/friendships/create.json
+https://api.weibo.com/2/friendships/create.json
+https://api.weibo.com/2/friendships/destroy.json
+https://api.weibo.com/2/friendships/destroy.json
+https://api.weibo.com/2/friendships/followers.json
+https://api.weibo.com/2/friendships/followers.json
+https://api.weibo.com/2/friendships/followers/active.json
+https://api.weibo.com/2/friendships/followers/ids.json
+https://api.weibo.com/2/friendships/followers/ids.json
+https://api.weibo.com/2/friendships/friends.json
+https://api.weibo.com/2/friendships/friends.json
+https://api.weibo.com/2/friendships/friends/ids.json
+https://api.weibo.com/2/friendships/friends/ids.json
+https://api.weibo.com/2/friendships/friends/in_common.json
+https://api.weibo.com/2/friendships/show.json
+https://api.weibo.com/2/friendships/show.json
+https://api.weibo.com/2/friendships/show.json
+https://api.weibo.com/2/friendships/show.json
+https://api.weibo.com/2/friendships/show.json
+https://app-measurement.com/a
+https://www.google.com
+http://www.google-analytics.com
+https://ssl.google-analytics.com
+http://schemas.android.com/apk/lib/com.google.android.gms.plus
+http://schemas.android.com/apk/lib/com.google.android.gms.plus
+https://www.googletagmanager.com
+http://www.w3.org/ns/ttml
+http://www.w3.org/ns/ttml
+http://www.smpte-ra.org/schemas/2052-1/2010/smpte-tt
+http://www.smpte-ra.org/schemas/2052-1/2010/smpte-tt
+http://www.smpte-ra.org/schemas/2052-1/2010/smpte-tt
+https://www.facebook.com/dialog/feed?app_id=181821551957328&link=
+https://m.google.com/app/plus/x/?v=compose&content=
+http://twitter.com/home?status=
+http://a.ai.inmobi.com/v2/ad.html
+https://rules-ltvp.inmobi.com/v2/rules.json
+https://e-ltvp.inmobi.com/storm/v1/event
+https://sdkm.w.inmobi.com/user/e.asm
+https://d.appsdt.com/download/tracker/?
+https://d.appsdt.com/sdkdwnldbeacon.html
+https://d.appsdt.com/download/tracker/iatsdkconfs?
+https://sdkm.w.inmobi.com/metrics/e.asm
+http://i.w.inmobi.com/showad.asm
+http://dock.inmobi.com/carb/v1/i
+http://dock.inmobi.com/carb/v1/i
+http://dock.inmobi.com/carb/v1/o
+http://dock.inmobi.com/carb/v1/o
+http://acs.ksyun.com/groups/global/AllUsers
+http://acs.amazonaws.com/groups/global/AuthenticatedUsers
+http://acs.amazonaws.com/groups/s3/LogDelivery
+http://mlog.ksyun.com
+http://mlog.ksyun.com
+http://mlog.ksyun.com
+http://120.131.2.241/kssiplist
+http://120.131.2.241/kssiplist
+http://123.59.35.94/kssiplist
+http://123.59.35.94/kssiplist
+http://www.baidu.com
+http://www.google.com
+http://www.163.com
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+http://localhost/
+http://www.cs30.net/elva/IM/elvaM.aspx?k=
+https://cs30.net/elva/api/init
+http://cs30.net/elva/api/init
+https://cs30.net/elva/api/crmtoken
+http://cs30.net/elva/api/crmtoken
+https://cs30.net/elva/km/faq.aspx?id=
+https://cs30.net/elva/mFAQ/Naval.aspx
+https://cs30.net/elva/api/elvaapi
+https://cs30.net/elva/mFAQ/show.aspx
+http://pv.sohu.com/cityjson?ie=utf-8
+https://ulpaz.im30app.com/gameservice/upload_chatimg.php?pvr=%s
+http://d.g.mi.com/c.do​
+http://d.g.mi.com/c.do​
+http://42.62.94.67/c.do​
+http://42.62.94.67/c.do​
+http://d.g.mi.com/t.html
+http://kssws.ks-cdn.com
+https://engine.mobileapptracking.com/v1/Integrations/Sdk/GetLog?sdk=android&package_name=
+https://engine.mobileapptracking.com/serve?action=click&sdk=android
+https://api.nanigans.com
+http://api.nanigans.com/disallowed.php?
+http://gslb.live.126.net/getpushurl
+http://gslbhz.live.126.net/getpushurl
+http://sdkoptedge.chinanetcenter.com
+http://dnlive.fastcdn.com/wangyiget
+http://sdkstats.live.126.net/sdkstats/report/type=1?version=1
+http://sdkstats.live.126.net/closechannel
+http://statistic.live.126.net/sdkstats/report/type=2?version=1
+http://sdkstats.live.126.net/sdkstats/report/type=2?version=1
+http://statistic.live.126.net/statistic/speedtest
+http://sdkstats.live.126.net/statistic/speedtest
+http://sdkstats.live.126.net/sdklog/uploadsdklog
+http://sdkstats.live.126.net/sdklog/uploadsdklog
+http://statistic.live.126.net/statistic/cmds
+https://vcloud.163.com//app/vod/encrypt/getKey
+https://appr.tc
+http://sdkrules.live.126.net/sdk/metadata
+http://statistic.live.126.net/sdkstats/report/type=4?version=1
+http://statistic.live.126.net/sdkstats/report/type=4?version=1
+https://m.facebook.com/dialog/
+https://graph.facebook.com/
+https://graph.facebook.com/
+https://api.facebook.com/restserver.php
+http://abcd.ef
+http://api.twitter.com/1/geo/id/
+http://twitter.com/account/rate_limit_status.json
+http://twitter.com
+http://api.klout.com/1/klout.json
+http://api.peerindex.net/v2/profile/show.json
+http://api.infochimps.com/soc/net/tw/trstrank.json
+http://otter.topsy.com/urlinfo.json
+https://uri.paypal.com/services/payments/futurepayments
+https://uri.paypal.com/services/paypalattributes
+https://uri.paypal.com/services/payments/funding-options
+https://uri.paypal.com/services/pos/payments
+https://uri.paypal.com/services/mis/customer
+https://uri.paypal.com/services/wallet/financial-instruments/view
+https://uri.paypal.com/services/wallet/sendmoney
+https://uri.paypal.com/services/wallet/money-request/requests
+https://uri.paypal.com/services/loyalty/memberships/update
+https://uri.paypal.com/services/expresscheckout
+https://uri.paypal.com/services/payments/basic
+https://uri.paypal.com/services/payments/basic
+https://svcs.paypal.com/AccessControl/LogRiskMetadata
+https://b.stats.paypal.com/counter.cgi?p=
+https://www.paypalobjects.com/webstatic/risk/dyson_config_v2.json
+https://api.paypal.com/v1/tracking/events
+http://cancelurl
+http://returnurl
+https://paypal.112.2o7.net/b/ss/paypalglobal/0/OIP-2.1.6/
+https://cms.paypal.com/jp/cgi-bin/marketingweb?cmd=_render-content&content_ID=ua/Legal_Hub_full&locale.x=ja_JP
+https://www.paypal.jp/jp/contents/regulation/info/overseas-remittance/
+https://cms.paypal.com/jp/cgi-bin/marketingweb?cmd=_render-content&content_ID=ua/Legal_Hub_full&locale.x=en_US
+https://www.paypal.com/%s/cgi-bin/webscr?cmd=p/gen/ua/policy_privacy-outside
+https://www.paypal.com/webapps/accountrecovery/passwordrecovery
+https://www.paypal.com/%s/cgi-bin/webscr?cmd=_account-recovery&from=%s&locale.x=%s
+https://www.paypal.com/%s/webapps/mpp/ua/useragreement-full
+https://api-m.paypal.com/v1/
+https://api-m.sandbox.paypal.com/v1/
+https://www.paypal.com/signup/account?country.x=%s&locale.x=%s
+http://app.sina.cn/appdetail.php?appID=84560
+https://open.weibo.cn/oauth2/authorize?
+http://weibo.cn/dpool/ttt/maps.php?xy=%s,%s&amp;size=320x320&amp;offset=%s
+http://weibo.cn/dpool/ttt/maps.php?xy=%s,%s&amp;size=320x320&amp;offset=%s
+http://api.weibo.cn/2/client/common_config
+https://api.weibo.com/2/proxy/darwin/graph/game/
+http://widget.weibo.com/invitation/app.php?
+http://widget.weibo.com/invitation/appinfo.php?
+http://service.weibo.com/share/mobilesdk.php
+http://service.weibo.com/share/mobilesdk_uppic.php
+http://widget.weibo.com/relationship/followsdk.php
+http://widget.weibo.com/distribution/socail_comments_sdk.php
+https://api.weibo.com/oauth2/access_token
+https://api.weibo.com/2/statuses/repost.json
+https://api.weibo.com/2/statuses/repost.json
+https://api.weibo.com/2/statuses/repost.json
+https://api.weibo.com/2/statuses/update.json
+https://api.weibo.com/2/statuses/update.json
+https://api.weibo.com/2/statuses/update.json
+https://api.weibo.com/2/statuses/upload.json
+https://api.weibo.com/2/statuses/upload.json
+https://api.weibo.com/2/statuses/upload.json
+https://api.weibo.com/2/comments/to_me.json
+https://api.weibo.com/2/comments/by_me.json
+https://api.weibo.com/2/comments/show.json
+https://api.weibo.com/2/comments/timeline.json
+https://api.weibo.com/2/comments/mentions.json
+https://api.weibo.com/2/comments/show_batch.json
+https://api.weibo.com/2/comments/create.json
+https://api.weibo.com/2/comments/destroy.json
+https://api.weibo.com/2/comments/sdestroy_batch.json
+https://api.weibo.com/2/comments/reply.json
+https://m.api.weibo.com/2/messages/invite.json
+https://m.api.weibo.com/2/messages/invite.json
+https://api.weibo.com/oauth2/revokeoauth2
+https://api.weibo.com/2/statuses/friends_timeline.json
+https://api.weibo.com/2/statuses/friends_timeline.json
+https://api.weibo.com/2/statuses/mentions.json
+https://api.weibo.com/2/statuses/mentions.json
+https://api.weibo.com/2/statuses/upload_url_text.json
+https://api.weibo.com/2/statuses/upload_url_text.json
+https://api.weibo.com/2/users/show.json
+https://api.weibo.com/2/users/domain_show.json
+https://api.weibo.com/2/users/counts.json
+https://api.weibo.com/2/account/end_session.json
+https://api.weibo.com/2/account/get_privacy.json
+https://api.weibo.com/2/account/get_uid.json
+https://api.weibo.com/2/account/rate_limit_status.json
+https://api.weibo.com/2/account/profile/school_list.json
+https://api.weibo.com/2/common/get_city.json
+https://api.weibo.com/2/common/get_country.json
+https://api.weibo.com/2/common/get_timezone.json
+https://api.weibo.com/2/favorites/by_tags.json
+https://api.weibo.com/2/favorites/by_tags/ids.json
+https://api.weibo.com/2/favorites/create.json
+https://api.weibo.com/2/favorites/destroy.json
+https://api.weibo.com/2/favorites/destroy_batch.json
+https://api.weibo.com/2/favorites.json
+https://api.weibo.com/2/favorites/ids.json
+https://api.weibo.com/2/favorites/show.json
+https://api.weibo.com/2/favorites/tags.json
+https://api.weibo.com/2/favorites/tags/destroy_batch.json
+https://api.weibo.com/2/favorites/tags/update.json
+https://api.weibo.com/2/favorites/tags/update_batch.json
+https://api.weibo.com/2/friendships/groups/members/add.json
+https://api.weibo.com/2/friendships/groups/members/add_batch.json
+https://api.weibo.com/2/friendships/groups/create.json
+https://api.weibo.com/2/friendships/groups/destroy.json
+https://api.weibo.com/2/friendships/groups/members/destroy.json
+https://api.weibo.com/2/friendships/groups.json
+https://api.weibo.com/2/friendships/groups/is_member.json
+https://api.weibo.com/2/friendships/groups/members.json
+https://api.weibo.com/2/friendships/groups/order.json
+https://api.weibo.com/2/friendships/groups/show.json
+https://api.weibo.com/2/friendships/groups/show_batch.json
+https://api.weibo.com/2/friendships/groups/timeline.json
+https://api.weibo.com/2/friendships/groups/update.json
+https://api.weibo.com/2/friendships/groups/members/update.json
+https://api.weibo.com/2/location/geo/gps_to_offset.json
+https://api.weibo.com/2/location/pois/search/by_geo.json
+https://api.weibo.com/2/location/geo/geo_to_address.json
+https://api.weibo.com/2/place/friends_timeline.json
+https://api.weibo.com/2/place/nearby/photos.json
+https://api.weibo.com/2/place/nearby/pois.json
+https://api.weibo.com/2/place/nearby_timeline.json
+https://api.weibo.com/2/place/nearby_users/list.json
+https://api.weibo.com/2/place/nearby/users.json
+https://api.weibo.com/2/place/nearby_users/create.json
+https://api.weibo.com/2/place/nearby_users/destory.json
+https://api.weibo.com/2/place/poi_timeline.json
+https://api.weibo.com/2/place/pois/add_checkin.json
+https://api.weibo.com/2/place/pois/add_photo.json
+https://api.weibo.com/2/place/pois/add_tip.json
+https://api.weibo.com/2/place/pois/add_todo.json
+https://api.weibo.com/2/place/pois/category.json
+https://api.weibo.com/2/place/pois/create.json
+https://api.weibo.com/2/place/pois/photos.json
+https://api.weibo.com/2/place/pois/search.json
+https://api.weibo.com/2/place/pois/show.json
+https://api.weibo.com/2/place/pois/tips.json
+https://api.weibo.com/2/place/pois/users.json
+https://api.weibo.com/2/place/public_timelin.json
+https://api.weibo.com/2/place/statuses/show.json
+https://api.weibo.com/2/place/user_timeline.json
+https://api.weibo.com/2/place/users/checkins.json
+https://api.weibo.com/2/place/users/photos.json
+https://api.weibo.com/2/place/users/show.json
+https://api.weibo.com/2/place/users/tips.json
+https://api.weibo.com/2/place/users/todos.json
+https://api.weibo.com/2/register/verify_nickname.json
+https://api.weibo.com/2/search/suggestions/apps.json
+https://api.weibo.com/2/search/suggestions/at_users.json
+https://api.weibo.com/2/search/suggestions/companies.json
+https://api.weibo.com/2/search/suggestions/schools.json
+https://api.weibo.com/2/search/suggestions/statuses.json
+https://api.weibo.com/2/search/suggestions/users.json
+https://api.weibo.com/2/short_url/clicks.json
+https://api.weibo.com/2/short_url/comment/counts.json
+https://api.weibo.com/2/short_url/comment/comments.json
+https://api.weibo.com/2/short_url/expand.json
+https://api.weibo.com/2/short_url/expand.json
+https://api.weibo.com/2/short_url/locations.json
+https://api.weibo.com/2/short_url/referers.json
+https://api.weibo.com/2/short_url/share/counts.json
+https://api.weibo.com/2/short_url/share/statuses.json
+https://api.weibo.com/2/short_url/shorten.json
+https://api.weibo.com/2/statuses/bilateral_timeline.json
+https://api.weibo.com/2/statuses/count.json
+https://api.weibo.com/2/statuses/destroy.json
+https://api.weibo.com/2/emotions.json
+https://api.weibo.com/2/statuses/friends_timeline/ids.json
+https://api.weibo.com/2/statuses/home_timeline.json
+https://api.weibo.com/2/statuses/hot/comments_daily.json
+https://api.weibo.com/2/statuses/hot/comments_weekly.json
+https://api.weibo.com/2/statuses/hot/repost_daily.json
+https://api.weibo.com/2/statuses/hot/repost_weekly.json
+https://api.weibo.com/2/statuses/mentions/ids.json
+https://api.weibo.com/2/statuses/public_timeline.json
+https://api.weibo.com/2/statuses/queryid.json
+https://api.weibo.com/2/statuses/querymid.json
+https://api.weibo.com/2/statuses/repost_by_me.json
+https://api.weibo.com/2/statuses/repost_timeline.json
+https://api.weibo.com/2/statuses/repost_timeline/ids.json
+https://api.weibo.com/2/statuses/show.json
+https://api.weibo.com/2/statuses/user_timeline.json
+https://api.weibo.com/2/statuses/user_timeline.json
+https://api.weibo.com/2/statuses/user_timeline.json
+https://api.weibo.com/2/statuses/user_timeline/ids.json
+https://api.weibo.com/2/statuses/user_timeline/ids.json
+https://api.weibo.com/2/suggestions/users/may_interested.json
+https://api.weibo.com/2/suggestions/users/may_interested.json
+https://api.weibo.com/2/suggestions/favorites/hot.json
+https://api.weibo.com/2/suggestions/users/not_interested.json
+https://api.weibo.com/2/suggestions/statuses/hot.json
+https://api.weibo.com/2/suggestions/users/hot.json
+https://api.weibo.com/2/tags/create.json
+https://api.weibo.com/2/tags/destroy.json
+https://api.weibo.com/2/tags/destroy_batch.json
+https://api.weibo.com/2/tags/suggestions.json
+https://api.weibo.com/2/tags.json
+https://api.weibo.com/2/tags/tags_batch.json
+https://api.weibo.com/2/trends/daily.json
+https://api.weibo.com/2/trends/destroy.json
+https://api.weibo.com/2/trends/follow.json
+https://api.weibo.com/2/trends/hourly.json
+https://api.weibo.com/2/trends/is_follow.json
+https://api.weibo.com/2/trends.json
+https://api.weibo.com/2/trends/weekly.json
+http://weibo.cn/dpool/ttt/h5/regagreement.php?from=h5&lang=
+http://m.weibo.cn/reg/privacyagreement?from=h5&wm=3349&lang=
+http://api.weibo.com/oauth2/sms_authorize/send
+http://api.weibo.com/oauth2/sms_authorize/submit
+https://api.weibo.com/2/proxy/sdk/statistic.json
+https://api.weibo.com/oauth2/getaid.json
+https://staging.sws.sponsorpay.com/actions/v2
+https://service.sponsorpay.com/actions/v2
+https://staging.sws.sponsorpay.com/installs/v2
+https://service.sponsorpay.com/installs/v2
+https://staging-iframe.sponsorpay.com/mobile
+https://staging-iframe.sponsorpay.com/mobile
+https://iframe.sponsorpay.com/mobile
+https://iframe.sponsorpay.com/mobile
+https://staging-iframe.sponsorpay.com/mobile?
+https://iframe.sponsorpay.com/mobile?
+https://staging-iframe.sponsorpay.com/unlock?
+https://iframe.sponsorpay.com/unlock?
+https://staging.iframe.sponsorpay.com/vcs/v1/
+https://api.sponsorpay.com/vcs/v1/
+https://api.sponsorpay.com/vcs/v1/
+https://staging-iframe.sponsorpay.com/vcs/v1/
+https://api.stripe.com
+http://hydra.alibaba.com/
+http://xmlpull.org/v1/doc/features.html#indent-output
+http://xmlpull.org/v1/doc/features.html#indent-output
+http://openmobile.qq.com/oauth2.0/m_jump_by_version?
+http://qzs.qq.com/open/mobile/login/qzsjump.html?
+http://qzs.qq.com/open/mobile/login/qzsjump.html?
+http://qzs.qq.com/open/mobile/login/qzsjump.html?
+http://appsupport.qq.com/cgi-bin/qzapps/mapp_addapp.cgi
+http://appsupport.qq.com/cgi-bin/qzapps/mapp_addapp.cgi
+http://openmobile.qq.com/oauth2.0/m_authorize?
+https://openmobile.qq.com/user/user_login_statis
+https://openmobile.qq.com/v3/user/get_info
+http://fusion.qq.com/cgi-bin/qzapps/unified_jump?appid=%1$s&from=%2$s&isOpenAppID=1
+http://fusion.qq.com/cgi-bin/qzapps/unified_jump?appid=%1$s&from=%2$s&isOpenAppID=1
+http://qzs.qq.com/open/mobile/request/sdk_request.html?
+http://qzs.qq.com/open/mobile/invite/sdk_invite.html?
+http://qzs.qq.com/open/mobile/sendstory/sdk_sendstory_v1.3.html?
+http://qzs.qq.com
+http://c.isdspeed.qq.com/code.cgi
+http://wspeed.qq.com/w.cgi
+http://appsupport.qq.com/cgi-bin/appstage/mstats_batch_report
+https://openmobile.qq.com/
+http://cgi.connect.qq.com/qqconnectopen/openapi/policy_conf
+https://oauth.vk.com/blank.html
+https://oauth.vk.com/blank.html
+https://oauth.vk.com/authorize?client_id=%s&scope=%s&redirect_uri=%s&display=mobile&v=%s&response_type=token&revoke=%d
+http://vk.com/images/community_50.gif
+http://vk.com/images/community_100.gif
+http://vk.com/images/s_noalbum.png
+http://vk.com/images/m_noalbum.png
+http://vk.com/images/x_noalbum.png
+http://vk.com/images/camera_c.gif
+http://vk.com/images/camera_c.gif
+http://vk.com/images/camera_c.gif
+http://vk.com/images/camera_b.gif
+http://vk.com/images/camera_b.gif
+http://vk.com/images/camera_b.gif
+http://vk.com/images/camera_a.gif
+http://vk.com/images/camera_a.gif
+http://vk.com/images/camera_a.gif
+https://api.branch.io/
+https://bnc.lt/a/
+https://e.crashlytics.com/spi/v2/events
+https://settings.crashlytics.com/spi/v2/platforms/android/apps/%s/settings
+https://sdk.hockeyapp.net/
+https://sdk.hockeyapp.net/
+https://sdk.hockeyapp.net/
+https://sdk.hockeyapp.net/
+https://sdk.hockeyapp.net/
+https://sdk.hockeyapp.net/
+https://sdk.hockeyapp.net/
+https://sdk.hockeyapp.net/
+https://sdk.hockeyapp.net/
+https://sdk.hockeyapp.net/
+https://gate.hockeyapp.net/v2/track
+https://web.lobi.co/special/community-lp/%s
+http://ad.doubleclick.net/ddm/activity/src=4755474;cat=s3y7ybnb;type=invmedia;dc_muid=
+http://xa.xingcloud.com/v4/cok/
+https://www.facebook.com/AgainstZombies
+https://www.facebook.com/Clash.of.Kings.fans
+https://apiaz.im30app.com/push/postback.php?
+http://www.w3.org/XML/1998/namespace
+http://www.w3.org/XML/1998/namespace
+http://temporary
+http://xml.org/sax/features/validation
+http://xml.org/sax/features/validation
+http://xml.org/sax/features/validation
+http://xml.org/sax/features/validation
+http://xml.org/sax/features/validation
+http://xml.org/sax/features/namespaces
+http://xml.org/sax/features/namespaces
+http://xml.org/sax/features/namespaces
+http://xml.org/sax/features/namespaces
+http://xml.org/sax/features/namespaces
+http://java.sun.com/xml/jaxp/properties/schemaLanguage
+http://java.sun.com/xml/jaxp/properties/schemaSource
+http://xml.org/sax/features/namespace-prefixes
+http://xml.org/sax/features/namespace-prefixes
+http://xml.org/sax/features/namespace-prefixes
+http://xml.org/sax/features/external-general-entities
+http://xml.org/sax/handlers/LexicalHandler
+http://xml.org/sax/handlers/LexicalHandler
+http://xml.org/sax/handlers/LexicalHandler
+http://xml.org/sax/handlers/LexicalHandler
+http://xml.org/sax/properties/lexical-handler
+http://xml.org/sax/properties/lexical-handler
+http://xml.org/sax/properties/lexical-handler
+http://xml.org/sax/properties/lexical-handler
+http://xml.org/sax/properties/declaration-handler
+http://xml.org/sax/properties/declaration-handler
+http://xml.org/sax/properties/declaration-handler
+http://xml.org/sax/properties/declaration-handler
+http://xml.org/sax/handlers/DeclHandler
+http://xml.org/sax/handlers/DeclHandler
+http://xml.org/sax/handlers/DeclHandler
+http://schemas.microsoft.com/DRM/2007/03/protocols/AcquireLicense
+http://www.w3.org/ns/ttml#parameter
+https://im30-i.akamaized.net/chat/%s/%s
+https://maps.googleapis.com/maps/api/staticmap?center=%f,%f&zoom=15&size=72x72&maptype=roadmap&scale=%d&markers=color:red|size:small|%f,%f&sensor=false
+http://youtube.com
+http://youtube.com
+https://www.youtube.com
+https://www.youtube.com
+http://www.aparat.com/video/video/embed/vt/frame/showvideo/yes/videohash/%s
+https://coub.com/api/v2/coubs/%s.json
+https://api.twitch.tv/kraken/streams/%s?stream_type=all
+https://api.twitch.tv/api/channels/%s/access_token
+https://youtube.googleapis.com/v/
+https://youtube.googleapis.com/v/
+https://usher.ttvnw.net/api/channel/hls/%s.m3u8?%s
+https://player.vimeo.com/video/%s/config
+https://www.youtube.com/embed/
+https://www.youtube.com/get_video_info?
+
+[INTERNAL_LOG][2018-06-12 01:29:10,813][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 01:29:10,823][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 01:29:10,823][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 01:29:10,824][INFO][analyze_start()] This app might be vulnerable on attack frame confusion, This file are vulnerable ['temp_html_code/html_downloaded_Last Empire - War Z_ Strategy by im30/qzsjump.html?', 'temp_html_code/html_downloaded_Last Empire - War Z_ Strategy by im30/www.youtube.com']
+[INTERNAL_LOG][2018-06-12 01:29:10,824][INFO][analyze_start()] End time:[Tue Jun 12 01:29:10 2018]

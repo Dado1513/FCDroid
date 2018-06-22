@@ -1,0 +1,373 @@
+[INTERNAL_LOG][2018-06-12 09:27:47,264][INFO][analyze_start()] Init Time [Tue Jun 12 09:27:47 2018]
+[INTERNAL_LOG][2018-06-12 09:27:47,372][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 09:27:47,373][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 09:27:47,374][INFO][is_hybird()] android.permission.READ_CONTACTS
+[INTERNAL_LOG][2018-06-12 09:27:47,374][INFO][is_hybird()] android.permission.WRITE_CONTACTS
+[INTERNAL_LOG][2018-06-12 09:27:47,374][INFO][is_hybird()] android.permission.READ_SMS
+[INTERNAL_LOG][2018-06-12 09:27:47,374][INFO][is_hybird()] android.permission.WRITE_SMS
+[INTERNAL_LOG][2018-06-12 09:27:47,374][INFO][is_hybird()] android.permission.READ_PHONE_STATE
+[INTERNAL_LOG][2018-06-12 09:27:47,374][INFO][is_hybird()] android.permission.CALL_PHONE
+[INTERNAL_LOG][2018-06-12 09:27:47,374][INFO][is_hybird()] android.permission.SEND_SMS
+[INTERNAL_LOG][2018-06-12 09:27:47,374][INFO][is_hybird()] android.permission.RECEIVE_SMS
+[INTERNAL_LOG][2018-06-12 09:27:47,374][INFO][is_hybird()] android.permission.RECEIVE_BOOT_COMPLETED
+[INTERNAL_LOG][2018-06-12 09:27:47,374][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 09:27:47,374][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 09:27:47,374][INFO][is_hybird()] android.permission.SUBSCRIBED_FEEDS_READ
+[INTERNAL_LOG][2018-06-12 09:27:47,374][INFO][is_hybird()] android.permission.READ_SYNC_SETTINGS
+[INTERNAL_LOG][2018-06-12 09:27:47,374][INFO][is_hybird()] android.permission.WRITE_SYNC_SETTINGS
+[INTERNAL_LOG][2018-06-12 09:27:47,374][INFO][is_hybird()] android.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 09:27:47,374][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 09:27:47,374][INFO][is_hybird()] android.permission.ACCESS_COARSE_LOCATION
+[INTERNAL_LOG][2018-06-12 09:27:47,374][INFO][is_hybird()] android.permission.ACCESS_FINE_LOCATION
+[INTERNAL_LOG][2018-06-12 09:27:47,374][INFO][is_hybird()] android.permission.READ_CALL_LOG
+[INTERNAL_LOG][2018-06-12 09:27:47,374][INFO][is_hybird()] android.permission.WRITE_CALL_LOG
+[INTERNAL_LOG][2018-06-12 09:27:47,375][INFO][is_hybird()] android.permission.RECORD_AUDIO
+[INTERNAL_LOG][2018-06-12 09:27:47,375][INFO][is_hybird()] android.permission.SET_PREFERRED_APPLICATIONS
+[INTERNAL_LOG][2018-06-12 09:27:47,375][INFO][is_hybird()] android.permission.WRITE_APN_SETTINGS
+[INTERNAL_LOG][2018-06-12 09:27:47,375][INFO][is_hybird()] android.permission.READ_CALENDAR
+[INTERNAL_LOG][2018-06-12 09:27:47,375][INFO][is_hybird()] android.permission.WRITE_CALENDAR
+[INTERNAL_LOG][2018-06-12 09:27:47,375][INFO][is_hybird()] android.permission.KILL_BACKGROUND_PROCESSES
+[INTERNAL_LOG][2018-06-12 09:27:47,375][INFO][is_hybird()] android.permission.RESTART_PACKAGES
+[INTERNAL_LOG][2018-06-12 09:27:47,375][INFO][is_hybird()] android.permission.MANAGE_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 09:27:47,375][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 09:27:47,375][INFO][is_hybird()] android.permission.MODIFY_PHONE_STATE
+[INTERNAL_LOG][2018-06-12 09:27:47,375][INFO][is_hybird()] android.permission.CHANGE_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 09:27:47,375][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 09:27:47,375][INFO][is_hybird()] android.permission.ACCESS_LOCATION_EXTRA_COMMANDS
+[INTERNAL_LOG][2018-06-12 09:27:47,375][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 09:27:47,375][INFO][is_hybird()] android.permission.CHANGE_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 09:27:47,375][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-12 09:27:47,375][INFO][is_hybird()] android.permission.READ_LOGS
+[INTERNAL_LOG][2018-06-12 09:27:47,375][INFO][is_hybird()] android.permission.GET_TASKS
+[INTERNAL_LOG][2018-06-12 09:27:47,375][INFO][is_hybird()] android.permission.EXPAND_STATUS_BAR
+[INTERNAL_LOG][2018-06-12 09:27:47,375][INFO][is_hybird()] com.android.browser.permission.READ_HISTORY_BOOKMARKS
+[INTERNAL_LOG][2018-06-12 09:27:47,375][INFO][is_hybird()] com.android.browser.permission.WRITE_HISTORY_BOOKMARKS
+[INTERNAL_LOG][2018-06-12 09:27:47,376][INFO][is_hybird()] android.permission.CAMERA
+[INTERNAL_LOG][2018-06-12 09:27:47,376][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-12 09:27:47,376][INFO][is_hybird()] android.permission.SYSTEM_ALERT_WINDOW
+[INTERNAL_LOG][2018-06-12 09:27:47,376][INFO][is_hybird()] android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS
+[INTERNAL_LOG][2018-06-12 09:27:47,376][INFO][is_hybird()] android.permission.BATTERY_STATS
+[INTERNAL_LOG][2018-06-12 09:27:47,376][INFO][is_hybird()] android.permission.MODIFY_AUDIO_SETTINGS
+[INTERNAL_LOG][2018-06-12 09:27:47,376][INFO][is_hybird()] com.kms.free.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-12 09:27:47,376][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-12 09:27:47,376][INFO][is_hybird()] android.permission.REORDER_TASKS
+[INTERNAL_LOG][2018-06-12 09:27:47,376][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 09:27:47,376][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 09:27:47,376][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 09:27:47,376][INFO][find_string()] File: assets/ipm_error.html
+[INTERNAL_LOG][2018-06-12 09:27:47,377][INFO][find_string()] No iframe in assets/ipm_error.html
+[INTERNAL_LOG][2018-06-12 09:27:47,377][INFO][find_string()] File: res/raw-cs/eula_basic.html
+[INTERNAL_LOG][2018-06-12 09:27:47,434][INFO][find_string()] No iframe in res/raw-cs/eula_basic.html
+[INTERNAL_LOG][2018-06-12 09:27:47,434][INFO][find_string()] File: res/raw-cs/eula_gdpr.html
+[INTERNAL_LOG][2018-06-12 09:27:47,448][INFO][find_string()] No iframe in res/raw-cs/eula_gdpr.html
+[INTERNAL_LOG][2018-06-12 09:27:47,448][INFO][find_string()] File: res/raw-cs/ksn_basic.html
+[INTERNAL_LOG][2018-06-12 09:27:47,457][INFO][find_string()] No iframe in res/raw-cs/ksn_basic.html
+[INTERNAL_LOG][2018-06-12 09:27:47,457][INFO][find_string()] File: res/raw-cs/ksn_marketing.html
+[INTERNAL_LOG][2018-06-12 09:27:48,463][INFO][find_string()] No iframe in res/raw-cs/ksn_marketing.html
+[INTERNAL_LOG][2018-06-12 09:27:48,484][INFO][find_string()] File: res/raw-cs/ksn_non_marketing.html
+[INTERNAL_LOG][2018-06-12 09:27:56,583][INFO][find_string()] No iframe in res/raw-cs/ksn_non_marketing.html
+[INTERNAL_LOG][2018-06-12 09:27:56,604][INFO][find_string()] File: res/raw-cs/license.html
+[INTERNAL_LOG][2018-06-12 09:27:56,711][INFO][find_string()] No iframe in res/raw-cs/license.html
+[INTERNAL_LOG][2018-06-12 09:27:56,732][INFO][find_string()] File: res/raw-da/eula_basic.html
+[INTERNAL_LOG][2018-06-12 09:28:04,775][INFO][find_string()] No iframe in res/raw-da/eula_basic.html
+[INTERNAL_LOG][2018-06-12 09:28:04,796][INFO][find_string()] File: res/raw-da/eula_gdpr.html
+[INTERNAL_LOG][2018-06-12 09:28:08,559][INFO][find_string()] No iframe in res/raw-da/eula_gdpr.html
+[INTERNAL_LOG][2018-06-12 09:28:08,559][INFO][find_string()] File: res/raw-da/ksn_basic.html
+[INTERNAL_LOG][2018-06-12 09:28:08,566][INFO][find_string()] No iframe in res/raw-da/ksn_basic.html
+[INTERNAL_LOG][2018-06-12 09:28:08,566][INFO][find_string()] File: res/raw-da/ksn_marketing.html
+[INTERNAL_LOG][2018-06-12 09:28:11,579][INFO][find_string()] No iframe in res/raw-da/ksn_marketing.html
+[INTERNAL_LOG][2018-06-12 09:28:11,599][INFO][find_string()] File: res/raw-da/ksn_non_marketing.html
+[INTERNAL_LOG][2018-06-12 09:28:14,642][INFO][find_string()] No iframe in res/raw-da/ksn_non_marketing.html
+[INTERNAL_LOG][2018-06-12 09:28:14,663][INFO][find_string()] File: res/raw-da/license.html
+[INTERNAL_LOG][2018-06-12 09:28:14,776][INFO][find_string()] No iframe in res/raw-da/license.html
+[INTERNAL_LOG][2018-06-12 09:28:14,797][INFO][find_string()] File: res/raw-de/eula_basic.html
+[INTERNAL_LOG][2018-06-12 09:28:19,607][INFO][find_string()] No iframe in res/raw-de/eula_basic.html
+[INTERNAL_LOG][2018-06-12 09:28:19,607][INFO][find_string()] File: res/raw-de/eula_gdpr.html
+[INTERNAL_LOG][2018-06-12 09:28:19,619][INFO][find_string()] No iframe in res/raw-de/eula_gdpr.html
+[INTERNAL_LOG][2018-06-12 09:28:19,619][INFO][find_string()] File: res/raw-de/ksn_basic.html
+[INTERNAL_LOG][2018-06-12 09:28:19,626][INFO][find_string()] No iframe in res/raw-de/ksn_basic.html
+[INTERNAL_LOG][2018-06-12 09:28:19,627][INFO][find_string()] File: res/raw-de/ksn_marketing.html
+[INTERNAL_LOG][2018-06-12 09:28:19,630][INFO][find_string()] No iframe in res/raw-de/ksn_marketing.html
+[INTERNAL_LOG][2018-06-12 09:28:19,630][INFO][find_string()] File: res/raw-de/ksn_non_marketing.html
+[INTERNAL_LOG][2018-06-12 09:28:19,634][INFO][find_string()] No iframe in res/raw-de/ksn_non_marketing.html
+[INTERNAL_LOG][2018-06-12 09:28:19,634][INFO][find_string()] File: res/raw-de/license.html
+[INTERNAL_LOG][2018-06-12 09:28:19,635][INFO][find_string()] No iframe in res/raw-de/license.html
+[INTERNAL_LOG][2018-06-12 09:28:19,635][INFO][find_string()] File: res/raw-es-rUS/eula_basic.html
+[INTERNAL_LOG][2018-06-12 09:28:19,645][INFO][find_string()] No iframe in res/raw-es-rUS/eula_basic.html
+[INTERNAL_LOG][2018-06-12 09:28:19,645][INFO][find_string()] File: res/raw-es-rUS/eula_gdpr.html
+[INTERNAL_LOG][2018-06-12 09:28:19,655][INFO][find_string()] No iframe in res/raw-es-rUS/eula_gdpr.html
+[INTERNAL_LOG][2018-06-12 09:28:19,655][INFO][find_string()] File: res/raw-es-rUS/ksn_basic.html
+[INTERNAL_LOG][2018-06-12 09:28:19,661][INFO][find_string()] No iframe in res/raw-es-rUS/ksn_basic.html
+[INTERNAL_LOG][2018-06-12 09:28:19,661][INFO][find_string()] File: res/raw-es-rUS/ksn_marketing.html
+[INTERNAL_LOG][2018-06-12 09:28:19,665][INFO][find_string()] No iframe in res/raw-es-rUS/ksn_marketing.html
+[INTERNAL_LOG][2018-06-12 09:28:19,665][INFO][find_string()] File: res/raw-es-rUS/ksn_non_marketing.html
+[INTERNAL_LOG][2018-06-12 09:28:19,669][INFO][find_string()] No iframe in res/raw-es-rUS/ksn_non_marketing.html
+[INTERNAL_LOG][2018-06-12 09:28:19,669][INFO][find_string()] File: res/raw-es/eula_basic.html
+[INTERNAL_LOG][2018-06-12 09:28:19,679][INFO][find_string()] No iframe in res/raw-es/eula_basic.html
+[INTERNAL_LOG][2018-06-12 09:28:19,679][INFO][find_string()] File: res/raw-es/eula_gdpr.html
+[INTERNAL_LOG][2018-06-12 09:28:19,689][INFO][find_string()] No iframe in res/raw-es/eula_gdpr.html
+[INTERNAL_LOG][2018-06-12 09:28:19,689][INFO][find_string()] File: res/raw-es/ksn_basic.html
+[INTERNAL_LOG][2018-06-12 09:28:19,696][INFO][find_string()] No iframe in res/raw-es/ksn_basic.html
+[INTERNAL_LOG][2018-06-12 09:28:19,696][INFO][find_string()] File: res/raw-es/ksn_marketing.html
+[INTERNAL_LOG][2018-06-12 09:28:19,700][INFO][find_string()] No iframe in res/raw-es/ksn_marketing.html
+[INTERNAL_LOG][2018-06-12 09:28:19,700][INFO][find_string()] File: res/raw-es/ksn_non_marketing.html
+[INTERNAL_LOG][2018-06-12 09:28:19,704][INFO][find_string()] No iframe in res/raw-es/ksn_non_marketing.html
+[INTERNAL_LOG][2018-06-12 09:28:19,704][INFO][find_string()] File: res/raw-fi/eula_basic.html
+[INTERNAL_LOG][2018-06-12 09:28:19,716][INFO][find_string()] No iframe in res/raw-fi/eula_basic.html
+[INTERNAL_LOG][2018-06-12 09:28:19,716][INFO][find_string()] File: res/raw-fi/eula_gdpr.html
+[INTERNAL_LOG][2018-06-12 09:28:19,726][INFO][find_string()] No iframe in res/raw-fi/eula_gdpr.html
+[INTERNAL_LOG][2018-06-12 09:28:19,726][INFO][find_string()] File: res/raw-fi/ksn_basic.html
+[INTERNAL_LOG][2018-06-12 09:28:19,733][INFO][find_string()] No iframe in res/raw-fi/ksn_basic.html
+[INTERNAL_LOG][2018-06-12 09:28:19,733][INFO][find_string()] File: res/raw-fi/ksn_marketing.html
+[INTERNAL_LOG][2018-06-12 09:28:19,738][INFO][find_string()] No iframe in res/raw-fi/ksn_marketing.html
+[INTERNAL_LOG][2018-06-12 09:28:19,738][INFO][find_string()] File: res/raw-fi/ksn_non_marketing.html
+[INTERNAL_LOG][2018-06-12 09:28:19,742][INFO][find_string()] No iframe in res/raw-fi/ksn_non_marketing.html
+[INTERNAL_LOG][2018-06-12 09:28:19,742][INFO][find_string()] File: res/raw-fi/license.html
+[INTERNAL_LOG][2018-06-12 09:28:19,742][INFO][find_string()] No iframe in res/raw-fi/license.html
+[INTERNAL_LOG][2018-06-12 09:28:19,742][INFO][find_string()] File: res/raw-fr/eula_basic.html
+[INTERNAL_LOG][2018-06-12 09:28:19,754][INFO][find_string()] No iframe in res/raw-fr/eula_basic.html
+[INTERNAL_LOG][2018-06-12 09:28:19,754][INFO][find_string()] File: res/raw-fr/eula_gdpr.html
+[INTERNAL_LOG][2018-06-12 09:28:19,765][INFO][find_string()] No iframe in res/raw-fr/eula_gdpr.html
+[INTERNAL_LOG][2018-06-12 09:28:19,765][INFO][find_string()] File: res/raw-fr/ksn_basic.html
+[INTERNAL_LOG][2018-06-12 09:28:19,772][INFO][find_string()] No iframe in res/raw-fr/ksn_basic.html
+[INTERNAL_LOG][2018-06-12 09:28:19,773][INFO][find_string()] File: res/raw-fr/ksn_marketing.html
+[INTERNAL_LOG][2018-06-12 09:28:19,777][INFO][find_string()] No iframe in res/raw-fr/ksn_marketing.html
+[INTERNAL_LOG][2018-06-12 09:28:19,777][INFO][find_string()] File: res/raw-fr/ksn_non_marketing.html
+[INTERNAL_LOG][2018-06-12 09:28:19,781][INFO][find_string()] No iframe in res/raw-fr/ksn_non_marketing.html
+[INTERNAL_LOG][2018-06-12 09:28:19,781][INFO][find_string()] File: res/raw-fr/license.html
+[INTERNAL_LOG][2018-06-12 09:28:19,782][INFO][find_string()] No iframe in res/raw-fr/license.html
+[INTERNAL_LOG][2018-06-12 09:28:19,782][INFO][find_string()] File: res/raw-hu/eula_basic.html
+[INTERNAL_LOG][2018-06-12 09:28:19,798][INFO][find_string()] No iframe in res/raw-hu/eula_basic.html
+[INTERNAL_LOG][2018-06-12 09:28:19,798][INFO][find_string()] File: res/raw-hu/eula_gdpr.html
+[INTERNAL_LOG][2018-06-12 09:28:19,811][INFO][find_string()] No iframe in res/raw-hu/eula_gdpr.html
+[INTERNAL_LOG][2018-06-12 09:28:19,812][INFO][find_string()] File: res/raw-hu/ksn_basic.html
+[INTERNAL_LOG][2018-06-12 09:28:19,821][INFO][find_string()] No iframe in res/raw-hu/ksn_basic.html
+[INTERNAL_LOG][2018-06-12 09:28:19,821][INFO][find_string()] File: res/raw-hu/ksn_marketing.html
+[INTERNAL_LOG][2018-06-12 09:28:19,826][INFO][find_string()] No iframe in res/raw-hu/ksn_marketing.html
+[INTERNAL_LOG][2018-06-12 09:28:19,826][INFO][find_string()] File: res/raw-hu/ksn_non_marketing.html
+[INTERNAL_LOG][2018-06-12 09:28:19,831][INFO][find_string()] No iframe in res/raw-hu/ksn_non_marketing.html
+[INTERNAL_LOG][2018-06-12 09:28:19,831][INFO][find_string()] File: res/raw-hu/license.html
+[INTERNAL_LOG][2018-06-12 09:28:19,832][INFO][find_string()] No iframe in res/raw-hu/license.html
+[INTERNAL_LOG][2018-06-12 09:28:19,832][INFO][find_string()] File: res/raw-it/eula_basic.html
+[INTERNAL_LOG][2018-06-12 09:28:19,842][INFO][find_string()] No iframe in res/raw-it/eula_basic.html
+[INTERNAL_LOG][2018-06-12 09:28:19,843][INFO][find_string()] File: res/raw-it/eula_gdpr.html
+[INTERNAL_LOG][2018-06-12 09:28:19,851][INFO][find_string()] No iframe in res/raw-it/eula_gdpr.html
+[INTERNAL_LOG][2018-06-12 09:28:19,851][INFO][find_string()] File: res/raw-it/ksn_basic.html
+[INTERNAL_LOG][2018-06-12 09:28:19,857][INFO][find_string()] No iframe in res/raw-it/ksn_basic.html
+[INTERNAL_LOG][2018-06-12 09:28:19,857][INFO][find_string()] File: res/raw-it/ksn_marketing.html
+[INTERNAL_LOG][2018-06-12 09:28:19,861][INFO][find_string()] No iframe in res/raw-it/ksn_marketing.html
+[INTERNAL_LOG][2018-06-12 09:28:19,861][INFO][find_string()] File: res/raw-it/ksn_non_marketing.html
+[INTERNAL_LOG][2018-06-12 09:28:19,866][INFO][find_string()] No iframe in res/raw-it/ksn_non_marketing.html
+[INTERNAL_LOG][2018-06-12 09:28:19,866][INFO][find_string()] File: res/raw-it/license.html
+[INTERNAL_LOG][2018-06-12 09:28:19,866][INFO][find_string()] No iframe in res/raw-it/license.html
+[INTERNAL_LOG][2018-06-12 09:28:19,866][INFO][find_string()] File: res/raw-nb/eula_basic.html
+[INTERNAL_LOG][2018-06-12 09:28:19,877][INFO][find_string()] No iframe in res/raw-nb/eula_basic.html
+[INTERNAL_LOG][2018-06-12 09:28:19,877][INFO][find_string()] File: res/raw-nb/eula_gdpr.html
+[INTERNAL_LOG][2018-06-12 09:28:19,885][INFO][find_string()] No iframe in res/raw-nb/eula_gdpr.html
+[INTERNAL_LOG][2018-06-12 09:28:19,885][INFO][find_string()] File: res/raw-nb/ksn_basic.html
+[INTERNAL_LOG][2018-06-12 09:28:19,892][INFO][find_string()] No iframe in res/raw-nb/ksn_basic.html
+[INTERNAL_LOG][2018-06-12 09:28:19,892][INFO][find_string()] File: res/raw-nb/ksn_marketing.html
+[INTERNAL_LOG][2018-06-12 09:28:19,896][INFO][find_string()] No iframe in res/raw-nb/ksn_marketing.html
+[INTERNAL_LOG][2018-06-12 09:28:19,897][INFO][find_string()] File: res/raw-nb/ksn_non_marketing.html
+[INTERNAL_LOG][2018-06-12 09:28:19,900][INFO][find_string()] No iframe in res/raw-nb/ksn_non_marketing.html
+[INTERNAL_LOG][2018-06-12 09:28:19,900][INFO][find_string()] File: res/raw-nb/license.html
+[INTERNAL_LOG][2018-06-12 09:28:19,901][INFO][find_string()] No iframe in res/raw-nb/license.html
+[INTERNAL_LOG][2018-06-12 09:28:19,901][INFO][find_string()] File: res/raw-nl/eula_basic.html
+[INTERNAL_LOG][2018-06-12 09:28:19,910][INFO][find_string()] No iframe in res/raw-nl/eula_basic.html
+[INTERNAL_LOG][2018-06-12 09:28:19,910][INFO][find_string()] File: res/raw-nl/eula_gdpr.html
+[INTERNAL_LOG][2018-06-12 09:28:19,918][INFO][find_string()] No iframe in res/raw-nl/eula_gdpr.html
+[INTERNAL_LOG][2018-06-12 09:28:19,918][INFO][find_string()] File: res/raw-nl/ksn_basic.html
+[INTERNAL_LOG][2018-06-12 09:28:19,925][INFO][find_string()] No iframe in res/raw-nl/ksn_basic.html
+[INTERNAL_LOG][2018-06-12 09:28:19,925][INFO][find_string()] File: res/raw-nl/ksn_marketing.html
+[INTERNAL_LOG][2018-06-12 09:28:19,929][INFO][find_string()] No iframe in res/raw-nl/ksn_marketing.html
+[INTERNAL_LOG][2018-06-12 09:28:19,929][INFO][find_string()] File: res/raw-nl/ksn_non_marketing.html
+[INTERNAL_LOG][2018-06-12 09:28:19,932][INFO][find_string()] No iframe in res/raw-nl/ksn_non_marketing.html
+[INTERNAL_LOG][2018-06-12 09:28:19,933][INFO][find_string()] File: res/raw-nl/license.html
+[INTERNAL_LOG][2018-06-12 09:28:19,933][INFO][find_string()] No iframe in res/raw-nl/license.html
+[INTERNAL_LOG][2018-06-12 09:28:19,933][INFO][find_string()] File: res/raw-pl/eula_basic.html
+[INTERNAL_LOG][2018-06-12 09:28:19,943][INFO][find_string()] No iframe in res/raw-pl/eula_basic.html
+[INTERNAL_LOG][2018-06-12 09:28:19,943][INFO][find_string()] File: res/raw-pl/eula_gdpr.html
+[INTERNAL_LOG][2018-06-12 09:28:19,951][INFO][find_string()] No iframe in res/raw-pl/eula_gdpr.html
+[INTERNAL_LOG][2018-06-12 09:28:19,951][INFO][find_string()] File: res/raw-pl/ksn_basic.html
+[INTERNAL_LOG][2018-06-12 09:28:19,960][INFO][find_string()] No iframe in res/raw-pl/ksn_basic.html
+[INTERNAL_LOG][2018-06-12 09:28:19,960][INFO][find_string()] File: res/raw-pl/ksn_marketing.html
+[INTERNAL_LOG][2018-06-12 09:28:19,963][INFO][find_string()] No iframe in res/raw-pl/ksn_marketing.html
+[INTERNAL_LOG][2018-06-12 09:28:19,963][INFO][find_string()] File: res/raw-pl/ksn_non_marketing.html
+[INTERNAL_LOG][2018-06-12 09:28:19,967][INFO][find_string()] No iframe in res/raw-pl/ksn_non_marketing.html
+[INTERNAL_LOG][2018-06-12 09:28:19,967][INFO][find_string()] File: res/raw-pl/license.html
+[INTERNAL_LOG][2018-06-12 09:28:19,967][INFO][find_string()] No iframe in res/raw-pl/license.html
+[INTERNAL_LOG][2018-06-12 09:28:19,967][INFO][find_string()] File: res/raw-pt-rBR/eula_basic.html
+[INTERNAL_LOG][2018-06-12 09:28:19,978][INFO][find_string()] No iframe in res/raw-pt-rBR/eula_basic.html
+[INTERNAL_LOG][2018-06-12 09:28:19,978][INFO][find_string()] File: res/raw-pt-rBR/eula_gdpr.html
+[INTERNAL_LOG][2018-06-12 09:28:19,988][INFO][find_string()] No iframe in res/raw-pt-rBR/eula_gdpr.html
+[INTERNAL_LOG][2018-06-12 09:28:19,988][INFO][find_string()] File: res/raw-pt-rBR/ksn_basic.html
+[INTERNAL_LOG][2018-06-12 09:28:19,996][INFO][find_string()] No iframe in res/raw-pt-rBR/ksn_basic.html
+[INTERNAL_LOG][2018-06-12 09:28:19,996][INFO][find_string()] File: res/raw-pt-rBR/ksn_marketing.html
+[INTERNAL_LOG][2018-06-12 09:28:20,000][INFO][find_string()] No iframe in res/raw-pt-rBR/ksn_marketing.html
+[INTERNAL_LOG][2018-06-12 09:28:20,000][INFO][find_string()] File: res/raw-pt-rBR/ksn_non_marketing.html
+[INTERNAL_LOG][2018-06-12 09:28:20,004][INFO][find_string()] No iframe in res/raw-pt-rBR/ksn_non_marketing.html
+[INTERNAL_LOG][2018-06-12 09:28:20,004][INFO][find_string()] File: res/raw-pt/eula_basic.html
+[INTERNAL_LOG][2018-06-12 09:28:20,015][INFO][find_string()] No iframe in res/raw-pt/eula_basic.html
+[INTERNAL_LOG][2018-06-12 09:28:20,015][INFO][find_string()] File: res/raw-pt/eula_gdpr.html
+[INTERNAL_LOG][2018-06-12 09:28:20,026][INFO][find_string()] No iframe in res/raw-pt/eula_gdpr.html
+[INTERNAL_LOG][2018-06-12 09:28:20,026][INFO][find_string()] File: res/raw-pt/ksn_basic.html
+[INTERNAL_LOG][2018-06-12 09:28:20,033][INFO][find_string()] No iframe in res/raw-pt/ksn_basic.html
+[INTERNAL_LOG][2018-06-12 09:28:20,033][INFO][find_string()] File: res/raw-pt/ksn_marketing.html
+[INTERNAL_LOG][2018-06-12 09:28:20,038][INFO][find_string()] No iframe in res/raw-pt/ksn_marketing.html
+[INTERNAL_LOG][2018-06-12 09:28:20,038][INFO][find_string()] File: res/raw-pt/ksn_non_marketing.html
+[INTERNAL_LOG][2018-06-12 09:28:20,041][INFO][find_string()] No iframe in res/raw-pt/ksn_non_marketing.html
+[INTERNAL_LOG][2018-06-12 09:28:20,041][INFO][find_string()] File: res/raw-ru/eula_basic.html
+[INTERNAL_LOG][2018-06-12 09:28:20,050][INFO][find_string()] No iframe in res/raw-ru/eula_basic.html
+[INTERNAL_LOG][2018-06-12 09:28:20,050][INFO][find_string()] File: res/raw-ru/eula_gdpr.html
+[INTERNAL_LOG][2018-06-12 09:28:20,061][INFO][find_string()] No iframe in res/raw-ru/eula_gdpr.html
+[INTERNAL_LOG][2018-06-12 09:28:20,061][INFO][find_string()] File: res/raw-ru/ksn_basic.html
+[INTERNAL_LOG][2018-06-12 09:28:20,067][INFO][find_string()] No iframe in res/raw-ru/ksn_basic.html
+[INTERNAL_LOG][2018-06-12 09:28:20,068][INFO][find_string()] File: res/raw-ru/ksn_marketing.html
+[INTERNAL_LOG][2018-06-12 09:28:20,072][INFO][find_string()] No iframe in res/raw-ru/ksn_marketing.html
+[INTERNAL_LOG][2018-06-12 09:28:20,072][INFO][find_string()] File: res/raw-ru/ksn_non_marketing.html
+[INTERNAL_LOG][2018-06-12 09:28:20,076][INFO][find_string()] No iframe in res/raw-ru/ksn_non_marketing.html
+[INTERNAL_LOG][2018-06-12 09:28:20,076][INFO][find_string()] File: res/raw-sv/eula_basic.html
+[INTERNAL_LOG][2018-06-12 09:28:20,087][INFO][find_string()] No iframe in res/raw-sv/eula_basic.html
+[INTERNAL_LOG][2018-06-12 09:28:20,087][INFO][find_string()] File: res/raw-sv/eula_gdpr.html
+[INTERNAL_LOG][2018-06-12 09:28:20,099][INFO][find_string()] No iframe in res/raw-sv/eula_gdpr.html
+[INTERNAL_LOG][2018-06-12 09:28:20,099][INFO][find_string()] File: res/raw-sv/ksn_basic.html
+[INTERNAL_LOG][2018-06-12 09:28:20,106][INFO][find_string()] No iframe in res/raw-sv/ksn_basic.html
+[INTERNAL_LOG][2018-06-12 09:28:20,106][INFO][find_string()] File: res/raw-sv/ksn_marketing.html
+[INTERNAL_LOG][2018-06-12 09:28:20,110][INFO][find_string()] No iframe in res/raw-sv/ksn_marketing.html
+[INTERNAL_LOG][2018-06-12 09:28:20,110][INFO][find_string()] File: res/raw-sv/ksn_non_marketing.html
+[INTERNAL_LOG][2018-06-12 09:28:20,115][INFO][find_string()] No iframe in res/raw-sv/ksn_non_marketing.html
+[INTERNAL_LOG][2018-06-12 09:28:20,115][INFO][find_string()] File: res/raw-sv/license.html
+[INTERNAL_LOG][2018-06-12 09:28:20,115][INFO][find_string()] No iframe in res/raw-sv/license.html
+[INTERNAL_LOG][2018-06-12 09:28:20,116][INFO][find_string()] File: res/raw-tr/eula_basic.html
+[INTERNAL_LOG][2018-06-12 09:28:20,127][INFO][find_string()] No iframe in res/raw-tr/eula_basic.html
+[INTERNAL_LOG][2018-06-12 09:28:20,127][INFO][find_string()] File: res/raw-tr/eula_gdpr.html
+[INTERNAL_LOG][2018-06-12 09:28:20,138][INFO][find_string()] No iframe in res/raw-tr/eula_gdpr.html
+[INTERNAL_LOG][2018-06-12 09:28:20,138][INFO][find_string()] File: res/raw-tr/ksn_basic.html
+[INTERNAL_LOG][2018-06-12 09:28:20,145][INFO][find_string()] No iframe in res/raw-tr/ksn_basic.html
+[INTERNAL_LOG][2018-06-12 09:28:20,146][INFO][find_string()] File: res/raw-tr/ksn_marketing.html
+[INTERNAL_LOG][2018-06-12 09:28:20,150][INFO][find_string()] No iframe in res/raw-tr/ksn_marketing.html
+[INTERNAL_LOG][2018-06-12 09:28:20,150][INFO][find_string()] File: res/raw-tr/ksn_non_marketing.html
+[INTERNAL_LOG][2018-06-12 09:28:20,154][INFO][find_string()] No iframe in res/raw-tr/ksn_non_marketing.html
+[INTERNAL_LOG][2018-06-12 09:28:20,154][INFO][find_string()] File: res/raw-tr/license.html
+[INTERNAL_LOG][2018-06-12 09:28:20,154][INFO][find_string()] No iframe in res/raw-tr/license.html
+[INTERNAL_LOG][2018-06-12 09:28:20,155][INFO][find_string()] File: res/raw/eula_basic.html
+[INTERNAL_LOG][2018-06-12 09:28:20,164][INFO][find_string()] No iframe in res/raw/eula_basic.html
+[INTERNAL_LOG][2018-06-12 09:28:20,164][INFO][find_string()] File: res/raw/eula_gdpr.html
+[INTERNAL_LOG][2018-06-12 09:28:20,173][INFO][find_string()] No iframe in res/raw/eula_gdpr.html
+[INTERNAL_LOG][2018-06-12 09:28:20,173][INFO][find_string()] File: res/raw/external_code.html
+[INTERNAL_LOG][2018-06-12 09:28:20,193][INFO][find_string()] No iframe in res/raw/external_code.html
+[INTERNAL_LOG][2018-06-12 09:28:20,193][INFO][find_string()] File: res/raw/ksn_basic.html
+[INTERNAL_LOG][2018-06-12 09:28:20,200][INFO][find_string()] No iframe in res/raw/ksn_basic.html
+[INTERNAL_LOG][2018-06-12 09:28:20,200][INFO][find_string()] File: res/raw/ksn_marketing.html
+[INTERNAL_LOG][2018-06-12 09:28:20,204][INFO][find_string()] No iframe in res/raw/ksn_marketing.html
+[INTERNAL_LOG][2018-06-12 09:28:20,204][INFO][find_string()] File: res/raw/ksn_non_marketing.html
+[INTERNAL_LOG][2018-06-12 09:28:20,207][INFO][find_string()] No iframe in res/raw/ksn_non_marketing.html
+[INTERNAL_LOG][2018-06-12 09:28:20,207][INFO][find_string()] File: res/raw/permission_denied.html
+[INTERNAL_LOG][2018-06-12 09:28:20,209][INFO][find_string()] No iframe in res/raw/permission_denied.html
+[INTERNAL_LOG][2018-06-12 09:28:20,209][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 09:28:20,209][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 09:28:20,209][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 09:28:20,780][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 09:28:20,780][INFO][find_url_in_apk()] http://www.w3.org/2000/xmlns/
+http://www.w3.org/2000/xmlns/
+http://www.w3.org/2000/xmlns/
+http://www.w3.org/2000/xmlns/
+http://www.w3.org/2000/xmlns/
+http://www.w3.org/2000/xmlns/
+http://ws-i.org/profiles/basic/1.1/xsd
+http://ws-i.org/profiles/basic/1.1/xsd
+http://ws-i.org/profiles/basic/1.1/xsd
+http://www.w3.org/XML/1998/namespace
+http://www.w3.org/XML/1998/namespace
+http://www.w3.org/XML/1998/namespace
+http://www.w3.org/XML/1998/namespace
+http://www.w3.org/XML/1998/namespace
+http://www.w3.org/XML/1998/namespace
+http://java.sun.com/xml/ns/jaxb
+http://java.sun.com/xml/ns/jaxb
+http://www.w3.org/2005/05/xmlmime
+http://www.w3.org/2005/05/xmlmime
+http://www.w3.org/2005/05/xmlmime
+http://www.w3.org/2005/05/xmlmime
+http://www.w3.org/2005/05/xmlmime
+http://www.w3.org/2001/XMLSchema-instance
+http://www.w3.org/2001/XMLSchema-instance
+http://www.w3.org/2001/XMLSchema-instance
+http://www.w3.org/2001/XMLSchema-instance
+http://www.w3.org/2001/XMLSchema-instance
+http://www.w3.org/2001/XMLSchema-instance
+http://www.w3.org/2001/XMLSchema-instance
+http://www.w3.org/2001/XMLSchema-instance
+http://www.w3.org/2001/XMLSchema-instance
+http://www.w3.org/2001/XMLSchema-instance
+http://www.w3.org/2001/XMLSchema-instance
+http://www.w3.org/2001/XMLSchema-instance
+http://www.w3.org/2001/XMLSchema-instance
+http://www.w3.org/2001/XMLSchema-instance
+http://www.w3.org/2001/XMLSchema-instance
+http://www.w3.org/2001/XMLSchema-instance
+http://www.w3.org/2001/XMLSchema
+http://www.w3.org/2001/XMLSchema
+http://www.w3.org/2001/XMLSchema
+http://www.w3.org/2001/XMLSchema
+http://www.w3.org/2001/XMLSchema
+http://www.w3.org/2001/XMLSchema
+http://www.w3.org/2001/XMLSchema
+http://www.w3.org/2001/XMLSchema
+http://www.w3.org/2001/XMLSchema
+http://www.w3.org/2001/XMLSchema
+http://www.w3.org/2001/XMLSchema
+http://www.w3.org/2001/XMLSchema
+http://www.w3.org/2004/08/xop/include
+http://www.w3.org/2004/08/xop/include
+http://www.w3.org/2004/08/xop/include
+http://jaxb.dev.java.net/array
+http://java.sun.com/xml/stream/properties/implementation-name
+http://xml.org/sax/features/string-interning
+http://ws-i.org/profiles/basic/1.1/swaref.xsd
+http://www.amazon.com/gp/mas/get-appstore/android/ref=mas_mx_mba_iap_dl
+http://s3.amazonaws.com/doc/2006-03-01/
+http://s3.amazonaws.com/doc/2006-03-01/
+http://s3.amazonaws.com/doc/2006-03-01/
+http://s3.amazonaws.com/doc/2006-03-01/
+http://s3.amazonaws.com/doc/2006-03-01/
+http://s3.amazonaws.com/doc/2006-03-01/
+http://s3.amazonaws.com/doc/2006-03-01/
+http://s3.amazonaws.com/doc/2006-03-01/
+http://s3.amazonaws.com/doc/2006-03-01/
+http://acs.amazonaws.com/groups/global/AllUsers
+http://acs.amazonaws.com/groups/global/AuthenticatedUsers
+http://acs.amazonaws.com/groups/s3/LogDelivery
+https://plus.google.com/
+http://www.google-analytics.com
+https://ssl.google-analytics.com
+https://app-measurement.com/a
+https://www.google.com
+http://hostname/?
+http://hostname/?
+http://schemas.android.com/apk/res/android
+https://e.crashlytics.com/spi/v2/events
+https://settings.crashlytics.com/spi/v2/platforms/android/apps/%s/settings
+https://api.%s/install_data/v3/
+https://attr.%s/api/v
+https://t.%s/api/v
+https://events.%s/api/v
+https://register.%s/api/v
+https://stats.%s/stats
+https://onelink.%s/shortlink-sdk/v1
+https://monitorsdk.%s/remote-debug?app_id=
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+http://xml.org/sax/features/namespaces
+http://xml.org/sax/features/namespace-prefixes
+
+[INTERNAL_LOG][2018-06-12 09:28:20,780][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 09:28:20,791][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 09:28:20,791][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 09:28:20,791][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 09:28:20,791][INFO][analyze_start()] End time:[Tue Jun 12 09:28:20 2018]

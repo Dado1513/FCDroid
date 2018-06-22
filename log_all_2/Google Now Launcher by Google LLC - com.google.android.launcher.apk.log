@@ -1,0 +1,21 @@
+[INTERNAL_LOG][2018-06-12 03:11:46,237][INFO][analyze_start()] Init Time [Tue Jun 12 03:11:46 2018]
+[INTERNAL_LOG][2018-06-12 03:11:46,255][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 03:11:46,255][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 03:11:46,255][INFO][is_hybird()] com.android.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 03:11:46,255][INFO][is_hybird()] com.android.launcher.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 03:11:46,255][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 03:11:46,255][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 03:11:46,256][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 03:11:46,256][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 03:11:46,256][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 03:11:46,256][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 03:11:46,757][INFO][check_method_conf()] [JavaScript enabled: False]
+
+[INTERNAL_LOG][2018-06-12 03:11:46,757][INFO][check_method_conf()] [Add interface WebView: False]
+
+[INTERNAL_LOG][2018-06-12 03:11:46,758][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 03:11:46,758][INFO][analyze_start()] End time:[Tue Jun 12 03:11:46 2018]

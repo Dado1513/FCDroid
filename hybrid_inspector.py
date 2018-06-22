@@ -228,6 +228,7 @@ def scan_retire(apk):
         #print(str(out))
         output = str(err,'utf-8') # output retire js
         output_retire_apk_tool = json.loads(output)
+        print(output_retire_apk_tool)
 
     dir_html_code = "temp_html_code/html_downlaoded_"+apk.name_only_apk
     cmd.remove(dir_apk_tool)
@@ -238,6 +239,7 @@ def scan_retire(apk):
         #print(str(out))
         output = str(err,'utf-8') # output retire js
         output_retire_remote = json.loads(output)
+        print(output_retire_remote)
     cmd_remove_dir = ["rm","-rf",dir_apk_tool]
     subprocess.call(cmd_remove_dir)
     

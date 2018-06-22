@@ -1,0 +1,317 @@
+[INTERNAL_LOG][2018-06-12 02:15:07,473][INFO][analyze_start()] Init Time [Tue Jun 12 02:15:07 2018]
+[INTERNAL_LOG][2018-06-12 02:15:07,583][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 02:15:07,585][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 02:15:07,585][INFO][is_hybird()] android.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:15:07,585][INFO][is_hybird()] android.permission.PROCESS_INCOMING_CALLS
+[INTERNAL_LOG][2018-06-12 02:15:07,585][INFO][is_hybird()] android.permission.PROCESS_OUTGOING_CALLS
+[INTERNAL_LOG][2018-06-12 02:15:07,585][INFO][is_hybird()] android.permission.SYSTEM_ALERT_WINDOW
+[INTERNAL_LOG][2018-06-12 02:15:07,585][INFO][is_hybird()] android.permission.READ_SMS
+[INTERNAL_LOG][2018-06-12 02:15:07,585][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 02:15:07,585][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 02:15:07,585][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-12 02:15:07,585][INFO][is_hybird()] android.permission.CAMERA
+[INTERNAL_LOG][2018-06-12 02:15:07,585][INFO][is_hybird()] android.permission.FLASHLIGHT
+[INTERNAL_LOG][2018-06-12 02:15:07,585][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-12 02:15:07,585][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 02:15:07,585][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 02:15:07,585][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 02:15:07,585][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 02:15:07,585][INFO][is_hybird()] android.permission.RECORD_AUDIO
+[INTERNAL_LOG][2018-06-12 02:15:07,585][INFO][is_hybird()] android.permission.MODIFY_AUDIO_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:15:07,585][INFO][is_hybird()] android.permission.RECEIVE_BOOT_COMPLETED
+[INTERNAL_LOG][2018-06-12 02:15:07,586][INFO][is_hybird()] android.permission.WRITE_CONTACTS
+[INTERNAL_LOG][2018-06-12 02:15:07,586][INFO][is_hybird()] android.permission.READ_CONTACTS
+[INTERNAL_LOG][2018-06-12 02:15:07,586][INFO][is_hybird()] android.permission.CALL_PHONE
+[INTERNAL_LOG][2018-06-12 02:15:07,586][INFO][is_hybird()] android.permission.READ_PHONE_STATE
+[INTERNAL_LOG][2018-06-12 02:15:07,586][INFO][is_hybird()] android.permission.ACCESS_FINE_LOCATION
+[INTERNAL_LOG][2018-06-12 02:15:07,586][INFO][is_hybird()] android.permission.ACCESS_COARSE_LOCATION
+[INTERNAL_LOG][2018-06-12 02:15:07,586][INFO][is_hybird()] android.permission.CHANGE_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 02:15:07,586][INFO][is_hybird()] android.permission.READ_CALL_LOG
+[INTERNAL_LOG][2018-06-12 02:15:07,586][INFO][is_hybird()] android.permission.WRITE_CALL_LOG
+[INTERNAL_LOG][2018-06-12 02:15:07,586][INFO][is_hybird()] android.permission.READ_SMS
+[INTERNAL_LOG][2018-06-12 02:15:07,586][INFO][is_hybird()] android.permission.GET_TASKS
+[INTERNAL_LOG][2018-06-12 02:15:07,586][INFO][is_hybird()] android.permission.CHANGE_CONFIGURATION
+[INTERNAL_LOG][2018-06-12 02:15:07,586][INFO][is_hybird()] android.permission.MANAGE_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 02:15:07,586][INFO][is_hybird()] android.permission.AUTHENTICATE_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 02:15:07,586][INFO][is_hybird()] android.permission.WRITE_SYNC_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:15:07,586][INFO][is_hybird()] android.permission.READ_SYNC_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:15:07,586][INFO][is_hybird()] android.permission.USE_CREDENTIALS
+[INTERNAL_LOG][2018-06-12 02:15:07,586][INFO][is_hybird()] android.permission.SET_DEBUG_APP
+[INTERNAL_LOG][2018-06-12 02:15:07,586][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 02:15:07,586][INFO][is_hybird()] com.android.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:15:07,586][INFO][is_hybird()] com.android.launcher.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:15:07,586][INFO][is_hybird()] com.android.launcher.permission.INSTALL_SHORTCUT
+[INTERNAL_LOG][2018-06-12 02:15:07,586][INFO][is_hybird()] android.permission.READ_LOGS
+[INTERNAL_LOG][2018-06-12 02:15:07,586][INFO][is_hybird()] android.permission.BLUETOOTH
+[INTERNAL_LOG][2018-06-12 02:15:07,586][INFO][is_hybird()] android.permission.BLUETOOTH_ADMIN
+[INTERNAL_LOG][2018-06-12 02:15:07,587][INFO][is_hybird()] android.permission.BROADCAST_STICKY
+[INTERNAL_LOG][2018-06-12 02:15:07,587][INFO][is_hybird()] android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+[INTERNAL_LOG][2018-06-12 02:15:07,587][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 02:15:07,587][INFO][is_hybird()] com.cmcm.whatscall.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-12 02:15:07,587][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-12 02:15:07,587][INFO][is_hybird()] android.permission.RECEIVE_SMS
+[INTERNAL_LOG][2018-06-12 02:15:07,587][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 02:15:07,587][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 02:15:07,587][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 02:15:07,587][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 02:15:07,587][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 02:15:07,587][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 02:16:25,890][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 02:16:25,890][INFO][find_url_in_apk()] http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+http://d.applovin.com/
+http://a.applovin.com/
+https://vid.applovin.com/,https://pdn.applovin.com/,https://img.applovin.com/,https://d.applovin.com/,https://assets.applovin.com/,https://cdnjs.cloudflare.com/,http://vid.applovin.com/,http://pdn.applovin.com/,http://img.applovin.com/,http://d.applovin.com/,http://assets.applovin.com/,http://cdnjs.cloudflare.com/
+http://rt.applovin.com/pix
+https://attr.%s/api/v
+https://t.%s/api/v
+https://events.%s/api/v
+https://register.%s/api/v
+https://stats.%s/stats
+http://help.pc120.com/dump/publicnet/querydumpkey.php
+https://sad.ksmobile.net/api/index
+https://callblock.ksmobile.net/
+https://callblock.ksmobile.net/
+https://callblock.ksmobile.net/
+https://callblock.ksmobile.net/
+https://callblock.ksmobile.net/
+https://callblock.ksmobile.net/
+https://callblock.ksmobile.net/
+https://callblock.ksmobile.net/
+https://callblock.ksmobile.net/
+https://callblock.ksmobile.net/
+http://img.cm.ksmobile.com/cmsecurity/res/drawable/cb_whatscall_promote_7d936cf5-d8a3-44f0-aa66-22c1681c86f5.png
+http://img.cm.ksmobile.com/cmsecurity/res/drawable/cb_whatscall_promote_7d936cf5-d8a3-44f0-aa66-22c1681c86f5.png
+https://goo.gl/
+http://img.cm.ksmobile.com/cmsecurity/res/drawable/diagram_icon_whatscall_7d936cf5-d8a3-44f0-aa66-22c1681c86f5.png
+http://img.cm.ksmobile.com/cmsecurity/res/drawable/diagram_icon_whatscall_7d936cf5-d8a3-44f0-aa66-22c1681c86f5.png
+http://wcfcdn-us.cmcm.com/
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+https://ad.apps.fm/-NYuRMeErzlxuw3MA4U9qDVfM2rdysTU2PkqtDje9rIOc2rTxNSQJoPiUud7svG143kzEwV5_miLY1tuBxOYUOeaDCWPICVPknII0Ndr02M
+http://img.cm.ksmobile.com/cmsecurity/callblock/country_icons/default/%s.png
+http://www.facebook.com/cmwhatscall
+http://www.facebook.com/cmwhatscall
+http://ad.cmcm.com/
+https://whatscall-api.cmcm.com/phone/region?phone=
+http://whatscall.cmcm.com/m/activity/wsc_invite_code_v2/main.html?apiver=%s&source=1
+http://whatscall.cmcm.com/%s/m/whatscall/charitable_donations/info.html?apiver=%s&source=3
+https://www.facebook.com/
+https://www.facebook.com/
+http://whatscall.cmcm.com/m/whatscall/moments/?apiver=%s
+http://whatscall.cmcm.com/%s/m/whatscall/charitable_donations/info.html?apiver=%s&source=2
+http://whatscall.cmcm.com/%s/m/whatscall/charitable_donations/info.html?apiver=%s&source=2
+http://whatscall.cmcm.com/%s/m/whatscall/charitable_donations/info.html?apiver=%s&source=2
+https://iopen.ksmobile.com/1/api/account/telesign_token?xid=
+http://play.google.com
+http://play.google.com
+https://play.google.com
+https://play.google.com
+https://plus.google.com
+https://plus.google.com
+http://plus.google.com
+http://plus.google.com
+https://www.facebook.com
+https://www.facebook.com
+https://www.facebook.com
+http://www.facebook.com
+http://www.facebook.com
+http://www.facebook.com
+https://www.youtube.com
+https://www.youtube.com
+http://www.youtube.com
+http://www.youtube.com
+http://whatscall.cmcm.com/client_cloud_res/wsc/common/data/cloud_config_v125_1.json?
+http://whatscall.cmcm.com/client_cloud_res/wsc/common/data/cloud_config_v125_1.json
+http://whatscall.cmcm.com/client_cloud_res/wsc/common/data/
+http://whatscall.cmcm.com/client_cloud_res/wsc/common/rule/phone_rules_5th.json
+http://whatscall.cmcm.com/client_cloud_res/wsc/common/rule/phone_rules_5th.json?
+http://m.facebook.com/ads/ad_choices
+http://m.facebook.com/ads/ad_choices
+https://www.%s.facebook.com
+http://hostname/?
+http://hostname/?
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://csi.gstatic.com/csi
+https://www.google.com/dfp/linkDevice
+https://www.google.com/dfp/inAppPreview
+https://www.google.com/dfp/debugSignals
+https://www.google.com/dfp/sendDebugData
+http://www.example.com
+http://www.example.com
+https://pagead2.googlesyndication.com/pagead/gen_204
+https://ups.ksmobile.net/
+https://ws.ksmobile.net/api/GetCloudMsgAdv
+https://ws.ksmobile.net/api/GetCloudMsgAdv
+https://twitter.com/%s/status/%s
+https://www.mopub.com/optout/
+https://www.mopub.com/optout/
+http://whatscall.cmcm.com/%s/m/whatscall/treasure_v2/main.html?apiver=%s
+http://whatscall.cmcm.com/%s/m/whatscall/treasure_v2/main.html?apiver=%s
+http://whatscall.cmcm.com/client_cloud_res/wsc/common/picture/whatscall/qr_whatscall.jpg
+http://whatscall.cmcm.com/client_cloud_res/wsc/common/picture/whatscall/qr_whatscall.jpg
+https://whatscall.cmcm.com/%s/m/others/wsc_fb_share/main.html?uid=%d&t=%d
+https://whatscall.cmcm.com/%s/m/others/wsc_fb_share/main.html?uid=%d&t=%d
+https://fb.me/512709888923383?shareUserId=%d&channel=1073
+http://whatscall.cmcm.com/client_cloud_res/wsc/common/picture/promotion/freecall_001.png
+http://www.weihuitel.com/tutorial/authorization.html
+http://www.weihuitel.com/tutorial/authorization.html
+https://play.google.com/store/apps/details?id=com.cmcm.whatscall&referrer=utm_source%3D6051
+http://www.cmcm.com/protocol/site/ad-choice.html
+http://www.bigo.sg/u/
+http://www.bigo.sg/handler/do?
+https://whatscall.cmcm.com/%s/m/others/wsc_translator/main.html
+http://fk.cm.ksmobile.com/report
+http://report.weihuitel.com/logs/upload_log.php?cookie=
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+http://yyfs.yy.com/FileUploadDownload/uploadv2.php?cookie=
+http://yyfs.yy.com/FileUploadDownload/uploadv2_t.php?cookie=
+http://yyfs.yy.com/FileUploadDownload/uploadv2_t.php?cookie=
+http://www.weihuitel.com/web/document/
+http://www.weihuitel.com/web/document/2
+https://play.google.com/store/apps/details?id=com.cmcm.freevpn&referrer=utm_source%3D261523199
+http://whatscall.cmcm.com/en/m/others/wsc_pricing_tips/main.html
+http://schemas.applovin.com/android/1.0
+http://schemas.applovin.com/android/1.0
+https://onelink.%s/shortlink-sdk/v1
+https://monitorsdk.%s/remote-debug?app_id=
+https://api.%s/install_data/v3/
+https://callblock.ksmobile.net/0.1/batchSearch
+http://cmscdn.cmcm.com/callblock/offline_db/mcc
+http://nq.mobile.cloud.duba.net/qn
+http://www.cmcm.com/protocol/cmsecurity/privacy.html
+http://img.cm.ksmobile.com/cmsecurity/res/drawable/intl_callblock_diagram_namecard_7d936cf5-d8a3-44f0-aa66-22c1681c86f5.png
+http://img.cm.ksmobile.com/cmsecurity/res/drawable/intl_callblock_diagram_namecard_7d936cf5-d8a3-44f0-aa66-22c1681c86f5.png
+http://img.cm.ksmobile.com/cmsecurity/res/drawable/dialog_icon_whatscall_7d936cf5-d8a3-44f0-aa66-22c1681c86f5.png
+http://img.cm.ksmobile.com/cmsecurity/res/drawable/cb_dialog_icon_permission_f9cb0f20-b5b5-11e4-9f5c-0800200c9a66.png
+http://img.cm.ksmobile.com/cmsecurity/res/drawable/cb_dialog_icon_permission_f9cb0f20-b5b5-11e4-9f5c-0800200c9a66.png
+http://www.baidu.com/
+http://www.google.com/xhtml
+https://plus.google.com/
+https://whatscall-api.cmcm.com/crowdssourcing/search/upload
+https://whatscall-api.cmcm.com/crowdssourcing/search/keywords
+https://whatscall-api.cmcm.com/crowdssourcing/search/getcredits
+http://unconf.adkmob.com/b/
+http://ufs.adkmob.com/p/
+http://ud.adkmob.com/r/?
+https://raw.githubusercontent.com/iofabriclist/wcli/master/debug/config.json
+https://raw.githubusercontent.com/iofabriclist/wcli/master/config.json
+http://whatscall.cmcm.com/en/m/others/wsc_personal_brief/main.html?friend_num=
+http://whatscall.cmcm.com/en/m/others/wsc_personal_brief/main.html?friend_num=
+https://cmbackup01001.cmcm.com/v2
+https://cmbackup01001.cmcm.com:51000/v2
+https://cmbackup.cmcm.com/v2
+https://cmbackup.cmcm.com:51000/v2
+https://tbackup.cmcm.com
+https://cmbackup.cmcm.com
+https://cmbackup.cmcm.com/v3
+https://cmbackup.cmcm.com:51000/v3
+http://10.20.220.117:80/v1
+http://54.76.11.190/v1
+http://54.76.11.190:51000/v1
+http://54.86.16.15/v1
+http://54.86.16.15:51000/v1
+http://54.172.134.35:51000/v1
+http://54.72.189.156:51000/v1
+http://54.169.119.129:51000/v1
+https://cmbackup.ksmobile.net/v3
+https://tealand.cmcm.com/api/v1/soil/uuid
+https://tealand.cmcm.com/api/v1/soil/uuid
+https://ms.cmcm.com/app
+https://ups.ksmobile.net/%s/getversions.php
+https://play.google.com/store/apps/details
+http://play.google.com/store/apps/details
+http://gcm.ksmobile.net/rpc/gcm/report
+http://cm.gcm.ksmobile.com/rpc/user/device
+http://cm.gcm.ksmobile.com/rpc/user/device
+http://gcm.ksmobile.net/rpc/taskback/gcm
+https://ssdk.adkmob.com/rp/
+https://pegasus.cmcm.com/offer/
+http://119.147.146.243/nep/v1/
+http://119.147.146.243/nep/v1/
+http://119.147.146.243/nep/v1/
+http://119.147.146.243/nep/v1/
+http://helpshoujikong0.ksmobile.com/nep/v1/
+http://helpshoujikong0.ksmobile.com/nep/v1/
+http://whatscall.cmcm.com/m/others/wsc_survey/ready.html?source=1&sub_source=1
+http://whatscall.cmcm.com/%s/m/activity/wsc_fighting/main.html?timeTamp=%s&apiver=%s
+http://whatscall.cmcm.com/%s/m/activity/wsc_fighting/main.html?timeTamp=%s&apiver=%s
+http://whatscall.cmcm.com/%s/m/activity/wsc_fighting/main.html?timeTamp=%s&apiver=%s
+http://whatscall.cmcm.com/m/whatscall/crowdsourcing/entry.html?apiver=%s
+http://whatscall.cmcm.com/m/whatscall/recommend/app.html?from=1&v=2
+http://theme.cmcm.com/themelist/?f=whatscall_wall_themes&showheader=1
+http://whatscall.cmcm.com/m/whatscall/news_examination/main.html?apiver=2.2&times=
+http://1.cmcm.com/m/mall/login/redirect.html?channel=5&session=
+http://qa.www.liveme.com/activity/push/cm/whatscalllive/?countryCode=SA&source=560001&appid=615427&winzoom=1
+http://whatscall.cmcm.com/client_cloud_res/wsc/common/share/
+https://play.google.com/store/apps/details?id=com.cmcm.whatscalllite
+https://play.google.com/store/apps/details?id=com.cmcm.whatscalllite
+https://www.facebook.com/audience_network/server_side_reward
+https://www.%s.facebook.com/audience_network/server_side_reward
+https://graph.facebook.com/network_ads_common
+https://graph.%s.facebook.com/network_ads_common
+https://www.facebook.com/adnw_logging/
+https://www.%s.facebook.com/adnw_logging/
+https://graph.%s
+https://graph-video.%s
+https://facebook.com
+http://play.google.com/store/apps/details?id=com.facebook.orca
+http://www.w3.org/ns/ttml#parameter
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+http://www.google-analytics.com
+https://ssl.google-analytics.com
+https://accounts.google.com
+http://plus.google.com/
+http://www.google.com
+https://goo.gl/FZRIUV
+https://app-measurement.com/a
+https://www.googletagmanager.com
+http://analytics.rayjump.com
+http://net.rayjump.com
+http://setting.rayjump.com
+https://play.google.com/
+https://play.google.com/
+https://play.google.com/
+https://analytics.mopub.com/i/jot/exchange_client_event
+https://www.mopub.com/optout
+http://s.yulorepages.com/logo
+http://s.dianhua.cn/
+http://gift-api.biaoqingmm.com/gift-api/token
+http://gift-api.biaoqingmm.com/gift-api/token/platform
+http://gift-api.biaoqingmm.com/gift-api/
+https://rest-mobile.telesign.com
+https://config.unityads.unity3d.com/webview/
+https://play.google.com/store/apps/details?id=com.cmcm.whatscall
+http://www.weihuitel.com/web/res/emojiconfig
+http://www.weihuitel.com/web/res/emoji/
+http://www.weihuitel.com/
+https://cmbackup.cmcm.com/v3/video/get
+https://cmbackup.cmcm.com/v3/video/commit
+https://cmbackup.cmcm.com/v3/video/request
+https://cmbackup.cmcm.com/v3/video/list
+https://whatscall-api.cmcm.com/video/publish
+http://192.168.1.99:8080/ssm/common/upload
+http://api.theme.cmcm.com/signature?pkgname=
+https://whatscall-api.cmcm.com
+http://ip.taobao.com/service/getIpInfo.php?ip=myip
+http://weihuialert.yy.com
+
+[INTERNAL_LOG][2018-06-12 02:16:25,890][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 02:16:25,897][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 02:16:25,897][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 02:16:25,897][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 02:16:25,897][INFO][analyze_start()] End time:[Tue Jun 12 02:16:25 2018]

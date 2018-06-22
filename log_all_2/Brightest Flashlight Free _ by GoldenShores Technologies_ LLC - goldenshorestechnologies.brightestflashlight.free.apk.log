@@ -1,0 +1,122 @@
+[INTERNAL_LOG][2018-06-12 05:21:45,294][INFO][analyze_start()] Init Time [Tue Jun 12 05:21:45 2018]
+[INTERNAL_LOG][2018-06-12 05:21:45,312][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 05:21:45,313][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 05:21:45,313][INFO][is_hybird()] android.permission.CAMERA
+[INTERNAL_LOG][2018-06-12 05:21:45,313][INFO][is_hybird()] android.permission.FLASHLIGHT
+[INTERNAL_LOG][2018-06-12 05:21:45,313][INFO][is_hybird()] android.permission.STATUS_BAR
+[INTERNAL_LOG][2018-06-12 05:21:45,313][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 05:21:45,313][INFO][is_hybird()] android.permission.ACCESS_COARSE_LOCATION
+[INTERNAL_LOG][2018-06-12 05:21:45,313][INFO][is_hybird()] android.permission.ACCESS_FINE_LOCATION
+[INTERNAL_LOG][2018-06-12 05:21:45,313][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 05:21:45,313][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 05:21:45,313][INFO][is_hybird()] android.permission.READ_PHONE_STATE
+[INTERNAL_LOG][2018-06-12 05:21:45,313][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 05:21:45,313][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 05:21:45,313][INFO][is_hybird()] com.android.launcher.permission.INSTALL_SHORTCUT
+[INTERNAL_LOG][2018-06-12 05:21:45,315][INFO][is_hybird()] com.android.launcher.permission.UNINSTALL_SHORTCUT
+[INTERNAL_LOG][2018-06-12 05:21:45,318][INFO][is_hybird()] com.android.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 05:21:45,319][INFO][is_hybird()] com.htc.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 05:21:45,319][INFO][is_hybird()] com.motorola.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 05:21:45,319][INFO][is_hybird()] com.motorola.dlauncher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 05:21:45,319][INFO][is_hybird()] com.fede.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 05:21:45,319][INFO][is_hybird()] com.lge.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 05:21:45,319][INFO][is_hybird()] org.adw.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 05:21:45,319][INFO][is_hybird()] com.motorola.launcher.permission.INSTALL_SHORTCUT
+[INTERNAL_LOG][2018-06-12 05:21:45,319][INFO][is_hybird()] com.motorola.dlauncher.permission.INSTALL_SHORTCUT
+[INTERNAL_LOG][2018-06-12 05:21:45,319][INFO][is_hybird()] com.lge.launcher.permission.INSTALL_SHORTCUT
+[INTERNAL_LOG][2018-06-12 05:21:45,319][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-12 05:21:45,319][INFO][is_hybird()] goldenshorestechnologies.brightestflashlight.free.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-12 05:21:45,320][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 05:21:45,320][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 05:21:45,320][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 05:21:45,320][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 05:21:45,320][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 05:21:45,320][INFO][find_string()] File: assets/mmadsdk/actionsQueue.js
+[INTERNAL_LOG][2018-06-12 05:21:45,321][INFO][find_string()] No iframe in assets/mmadsdk/actionsQueue.js
+[INTERNAL_LOG][2018-06-12 05:21:45,321][INFO][find_string()] File: assets/mmadsdk/mm.js
+[INTERNAL_LOG][2018-06-12 05:21:45,323][INFO][find_string()] No iframe in assets/mmadsdk/mm.js
+[INTERNAL_LOG][2018-06-12 05:21:45,323][INFO][find_string()] File: assets/mmadsdk/mraid.js
+[INTERNAL_LOG][2018-06-12 05:21:45,324][INFO][find_string()] No iframe in assets/mmadsdk/mraid.js
+[INTERNAL_LOG][2018-06-12 05:21:45,324][INFO][find_string()] File: assets/mmadsdk/vpaid.js
+[INTERNAL_LOG][2018-06-12 05:21:45,327][INFO][find_string()] No iframe in assets/mmadsdk/vpaid.js
+[INTERNAL_LOG][2018-06-12 05:21:45,327][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 05:22:08,701][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 05:22:08,701][INFO][find_url_in_apk()] http://schemas.applovin.com/android/1.0
+http://schemas.applovin.com/android/1.0
+https://d.applovin.com/
+https://a.applovin.com/
+https://rt.applovin.com/med
+https://rt.applovin.com/pix
+https://d.applvn.com/
+https://a.applvn.com/
+https://rt.applvn.com/pix
+https://vid.applovin.com/,https://pdn.applovin.com/,https://img.applovin.com/,https://d.applovin.com/,https://assets.applovin.com/,https://cdnjs.cloudflare.com/,http://vid.applovin.com/,http://pdn.applovin.com/,http://img.applovin.com/,http://d.applovin.com/,http://assets.applovin.com/,http://cdnjs.cloudflare.com/
+https://data.flurry.com/pcr.do
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+https://plus.google.com/
+https://app-measurement.com/a
+http://www.example.com
+http://www.example.com
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://csi.gstatic.com/csi
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/native_ads.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/native_video_ads.html
+https://www.google.com/dfp/linkDevice
+https://www.google.com/dfp/inAppPreview
+https://www.google.com/dfp/debugSignals
+https://www.google.com/dfp/sendDebugData
+https://pagead2.googlesyndication.com/pagead/gen_204
+http://www.google.com
+https://support.google.com/dfp_premium/answer/7160685#push
+http://schemas.android.com/apk/lib/com.inmobi.ads
+http://schemas.android.com/apk/lib/com.inmobi.ads
+https://i.l.inmobicdn.net/sdk/sdk/500/android/mraid.js
+http://www.inmobi.com/products/sdk/#downloads
+https://www.facebook.com/dialog/feed?app_id=181821551957328&link=
+https://m.google.com/app/plus/x/?v=compose&content=
+http://twitter.com/home?status=
+http://dock.inmobi.com/carb/v1/i
+http://dock.inmobi.com/carb/v1/o
+https://sdkm.w.inmobi.com/user/e.asm
+https://mobile-static.adsafeprotected.com/avid-v2.js
+https://secure.mdotm.com/ads/feed.php
+https://secure.mdotm.com/ads/feed.php
+https://ads.nexage.com
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+https://z.moatads.com/
+https://z.moatads.com/
+http://r.tapit.com/adrequest.php
+http://market.android.com/details?
+http://market.android.com/details?
+https://market.android.com/details?
+https://market.android.com/details?
+http://play.google.com/store/apps/details?
+http://play.google.com/store/apps/details?
+https://play.google.com/store/apps/details?
+https://play.google.com/store/apps/details?
+http://r.tapit.com
+https://proton.flurry.com/sdk/v1/config
+http://data.flurry.com/aap.do
+https://data.flurry.com/aap.do
+http://i.w.inmobi.com/showad.asm
+https://sdktm.w.inmobi.com/sdkpubreq
+http://config.inmobi.com/config-server/v1/config/secure.cfg
+https://sdkm.w.inmobi.com/metrics/e.asm?v=1&
+https://www.google.com
+https://www.googleapis.com/auth/games
+
+[INTERNAL_LOG][2018-06-12 05:22:08,701][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 05:22:08,704][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 05:22:08,704][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 05:22:08,704][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 05:22:08,704][INFO][analyze_start()] End time:[Tue Jun 12 05:22:08 2018]

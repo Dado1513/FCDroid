@@ -1,0 +1,170 @@
+[INTERNAL_LOG][2018-06-12 02:20:58,389][INFO][analyze_start()] Init Time [Tue Jun 12 02:20:58 2018]
+[INTERNAL_LOG][2018-06-12 02:20:58,475][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 02:20:58,476][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 02:20:58,476][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 02:20:58,476][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 02:20:58,476][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 02:20:58,476][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 02:20:58,476][INFO][is_hybird()] android.permission.USE_CREDENTIALS
+[INTERNAL_LOG][2018-06-12 02:20:58,476][INFO][is_hybird()] android.permission.RECEIVE_BOOT_COMPLETED
+[INTERNAL_LOG][2018-06-12 02:20:58,476][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-12 02:20:58,476][INFO][is_hybird()] android.permission.CAMERA
+[INTERNAL_LOG][2018-06-12 02:20:58,476][INFO][is_hybird()] android.permission.READ_CONTACTS
+[INTERNAL_LOG][2018-06-12 02:20:58,476][INFO][is_hybird()] android.permission.READ_PROFILE
+[INTERNAL_LOG][2018-06-12 02:20:58,476][INFO][is_hybird()] android.permission.ACCESS_FINE_LOCATION
+[INTERNAL_LOG][2018-06-12 02:20:58,476][INFO][is_hybird()] android.permission.RECORD_AUDIO
+[INTERNAL_LOG][2018-06-12 02:20:58,477][INFO][is_hybird()] android.permission.MODIFY_AUDIO_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:20:58,477][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 02:20:58,477][INFO][is_hybird()] android.permission.READ_PHONE_STATE
+[INTERNAL_LOG][2018-06-12 02:20:58,477][INFO][is_hybird()] android.permission.RECEIVE_SMS
+[INTERNAL_LOG][2018-06-12 02:20:58,477][INFO][is_hybird()] com.android.launcher.permission.INSTALL_SHORTCUT
+[INTERNAL_LOG][2018-06-12 02:20:58,477][INFO][is_hybird()] com.android.launcher.permission.UNINSTALL_SHORTCUT
+[INTERNAL_LOG][2018-06-12 02:20:58,477][INFO][is_hybird()] com.instagram.direct.permission.PROTECTED_DEEPLINKING
+[INTERNAL_LOG][2018-06-12 02:20:58,477][INFO][is_hybird()] com.instagram.direct.permission.DIRECT_APP_THREAD_STORE_SERVICE
+[INTERNAL_LOG][2018-06-12 02:20:58,477][INFO][is_hybird()] com.htc.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:20:58,477][INFO][is_hybird()] com.htc.launcher.permission.UPDATE_SHORTCUT
+[INTERNAL_LOG][2018-06-12 02:20:58,477][INFO][is_hybird()] com.huawei.android.launcher.permission.CHANGE_BADGE
+[INTERNAL_LOG][2018-06-12 02:20:58,477][INFO][is_hybird()] com.sonyericsson.home.permission.BROADCAST_BADGE
+[INTERNAL_LOG][2018-06-12 02:20:58,477][INFO][is_hybird()] .permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-12 02:20:58,477][INFO][is_hybird()] .permission.RECEIVE_ADM_MESSAGE
+[INTERNAL_LOG][2018-06-12 02:20:58,477][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-12 02:20:58,477][INFO][is_hybird()] com.amazon.device.messaging.permission.RECEIVE
+[INTERNAL_LOG][2018-06-12 02:20:58,477][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 02:20:58,477][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 02:20:58,477][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 02:20:58,477][INFO][find_string()] File: assets/webview_error.html
+[INTERNAL_LOG][2018-06-12 02:20:58,478][INFO][find_string()] No iframe in assets/webview_error.html
+[INTERNAL_LOG][2018-06-12 02:20:58,478][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 02:20:58,478][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 02:20:58,478][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 02:22:03,120][ERROR][find_url_in_apk()] Exception during find url in apk 'tmp73'
+[INTERNAL_LOG][2018-06-12 02:22:04,317][INFO][find_url_in_apk()] [START URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-12 02:22:04,317][INFO][find_url_in_apk()] https://oauth.ameba.jp/authorize?response_type=code&client_id=4d0c1bbd6846e97622631d869d293f53baeb7b75afe27a2d31fa5794ae2e705a&display=smartphone&scope=w_ameba
+https://oauth.vk.com/authorize?client_id=3698024&scope=wall,photos,offline&redirect_uri=https://oauth.vk.com/blank.html&display=wap&response_type=token&v=3.0
+
+[INTERNAL_LOG][2018-06-12 02:22:04,317][INFO][find_url_in_apk()] [END URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-12 02:22:07,347][INFO][find_string()] [START REMOTE FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 02:22:07,347][INFO][find_string()] Remote File in: temp_html_code/html_downloaded_Instagram by Instagram - com/authorize?response_type=code&client_id=4d0c1bbd6846e97622631d869d293f53baeb7b75afe27a2d31fa5794ae2e705a&display=smartphone&scope=w_ameba
+[INTERNAL_LOG][2018-06-12 02:22:07,347][INFO][find_string()] URL: https://oauth.ameba.jp/authorize?response_type=code&client_id=4d0c1bbd6846e97622631d869d293f53baeb7b75afe27a2d31fa5794ae2e705a&display=smartphone&scope=w_ameba
+[INTERNAL_LOG][2018-06-12 02:22:07,355][INFO][find_string()] No iframe in temp_html_code/html_downloaded_Instagram by Instagram - com/authorize?response_type=code&client_id=4d0c1bbd6846e97622631d869d293f53baeb7b75afe27a2d31fa5794ae2e705a&display=smartphone&scope=w_ameba
+[INTERNAL_LOG][2018-06-12 02:22:07,355][INFO][find_string()] Remote File in: temp_html_code/html_downloaded_Instagram by Instagram - com/blank.html&display=wap&response_type=token&v=3.0
+[INTERNAL_LOG][2018-06-12 02:22:07,355][INFO][find_string()] URL: https://oauth.vk.com/authorize?client_id=3698024&scope=wall,photos,offline&redirect_uri=https://oauth.vk.com/blank.html&display=wap&response_type=token&v=3.0
+[INTERNAL_LOG][2018-06-12 02:22:07,366][INFO][find_string()] No iframe in temp_html_code/html_downloaded_Instagram by Instagram - com/blank.html&display=wap&response_type=token&v=3.0
+[INTERNAL_LOG][2018-06-12 02:22:07,366][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 02:22:07,366][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 02:22:07,367][INFO][find_url_in_apk()] https://b-api.facebook.com/method/logging.clientevent
+http://www.android.com/
+https://www.facebook.com/mobile/instagram_android_crash_logs/
+https://www.facebook.com/mobile/instagram_android_beta_crash_logs/
+https://www.instagram.com
+https://facebook.com/
+https://connect.facebook.net/en_US/fbevents.js
+https://www.facebook.com/tr?
+https://www.facebook.com/tr/?
+https://www.google-analytics.com/analytics.js
+https://www.google-analytics.com/r/collect?
+https://www.google-analytics.com/r/collect/?
+http://m.facebook.com
+https://facebook.com
+https://help.instagram.com/581066165581870
+https://help.instagram.com/519522125107875
+https://i.instagram.com/legal/cookies/
+https://www.instagram.com/%s?r=nametag
+https://graph.%s/
+https://mtouch.%s
+https://lookaside.facebook.com/assets/
+http://help.instagram.com/227486307449481
+http://help.instagram.com/227486307449481
+http://instagram.com/
+http://instagram.com/p-ng
+https://oauth.ameba.jp/authorize?response_type=code&client_id=4d0c1bbd6846e97622631d869d293f53baeb7b75afe27a2d31fa5794ae2e705a&display=smartphone&scope=w_ameba
+https://platform.ameba.jp/api/blog/user/getThemeList/json
+http://blog.instagram.com/
+http://blog.instagram.com/
+http://blog.instagram.com/
+http://api.tumblr.com/v2/user/follow
+https://www.tumblr.com/oauth/access_token
+https://api.twitter.com/1.1/users/show.json?screen_name=
+https://oauth.vk.com/authorize?client_id=3698024&scope=wall,photos,offline&redirect_uri=https://oauth.vk.com/blank.html&display=wap&response_type=token&v=3.0
+https://instagram.com/p/%s
+https://instagram.com/p/%s
+http://schemas.android.com/apk/facebook
+https://www.facebook.com/maps/provider_by_viewport?
+https://graph.facebook.com/v2.2/maps_configs?fields=base_url,static_base_url,osm_config,url_override_config&pretty=0&access_token=
+https://www.facebook.com/maps/tile/?
+https://www.facebook.com/maps/static/?
+https://maps.instagram.com/maps/tile/?
+https://maps.instagram.com/maps/static/?
+https://expresswifi.com/maps/tile/?
+https://expresswifi.com/maps/static/?
+https://www.facebook.com/maps/report/?
+http://base.url
+http://delta.url
+http://delta.url
+https://www.googleapis.com/auth/games
+https://plus.google.com/
+https://help.instagram.com/176296189679904?ref=tos
+https://help.instagram.com/478745558852511
+https://www.facebook.com/page_guidelines.php
+https://www.facebook.com/page_guidelines.php
+https://www.facebook.com/page_guidelines.php
+https://www.
+https://www.facebook.com/
+https://www.facebook.com/policies/ads/#data_use_restrictions
+https://help.instagram.com/contact/293397334168432
+https://i.instagram.com
+https://help.instagram.com/128845584325492
+https://help.instagram.com/128845584325492
+https://www.facebook.com/business/help/1907693709488725
+https://www.facebook.com/business/help/1944109912526524
+https://www.example.com
+https://help.instagram.com/1199202110205564
+https://help.instagram.com/1199202110205564
+https://www.facebook.com/policies/brandedcontent/
+https://www.facebook.com/policies/brandedcontent/
+https://help.instagram.com/861508690592298
+https://help.instagram.com/
+http://help.instagram.com/374546259294234/
+http://maps.google.com/maps?q=
+http://maps.google.com/maps?q=
+http://help.instagram.com/433611883398929
+http://help.instagram.com/433611883398929
+https://help.instagram.com/1338860172903668
+https://www.instagram.com/%s/
+https://www.facebook.com/help/resources/73056757
+https://www.facebook.com/help/resources/73056757
+https://www.facebook.com/help/instagram/517920941588885?ref=igapp
+https://www.facebook.com/help/instagram/289098941190483?ref=igapp
+https://www.facebook.com/help/instagram/1177797265575168?ref=igapp
+https://www.facebook.com/help/instagram/1133988223332503?ref=igapp
+https://help.instagram.com/198034803689028?ref=igapp
+https://help.instagram.com/192435014247952?ref=igapp
+https://www.facebook.com/help/instagram/1769410010008691?ref=igapp
+https://www.facebook.com/help/instagram/1105548539497125?ref=igapp
+https://help.instagram.com/188848648282410?ref=igapp
+https://help.instagram.com/116024195217477?ref=igapp
+https://help.instagram.com/488619974671134?ref=igapp
+https://help.instagram.com/566810106808145?ref=igapp
+https://help.instagram.com/426700567389543?ref=igapp
+https://www.facebook.com/help/instagram/413012278753813?ref=igapp
+https://help.instagram.com/496738090375985?ref=igapp
+https://www.facebook.com/help/instagram/700284123459336?ref=igapp
+https://www.facebook.com/help/instagram/1766818986917552?ref=igapp
+http://help.instagram.com/372161259539444/
+http://help.instagram.com/
+https://confirm_email/?nonce=%s&encoded_email=%s
+https://instagram.com/download/
+https://maps.googleapis.com/maps/api/staticmap?
+
+[INTERNAL_LOG][2018-06-12 02:22:07,367][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 02:22:07,374][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 02:22:07,374][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 02:22:07,374][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 02:22:07,374][INFO][analyze_start()] End time:[Tue Jun 12 02:22:07 2018]

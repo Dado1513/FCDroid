@@ -1,0 +1,78 @@
+[INTERNAL_LOG][2018-06-12 04:51:14,577][INFO][analyze_start()] Init Time [Tue Jun 12 04:51:14 2018]
+[INTERNAL_LOG][2018-06-12 04:51:14,780][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 04:51:14,782][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 04:51:14,782][INFO][is_hybird()] android.permission.ACCESS_COARSE_LOCATION
+[INTERNAL_LOG][2018-06-12 04:51:14,782][INFO][is_hybird()] android.permission.ACCESS_FINE_LOCATION
+[INTERNAL_LOG][2018-06-12 04:51:14,782][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 04:51:14,782][INFO][is_hybird()] android.permission.ACCESS_LOCATION_EXTRA_COMMANDS
+[INTERNAL_LOG][2018-06-12 04:51:14,782][INFO][is_hybird()] android.permission.MODIFY_AUDIO_SETTINGS
+[INTERNAL_LOG][2018-06-12 04:51:14,782][INFO][is_hybird()] android.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 04:51:14,782][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 04:51:14,782][INFO][is_hybird()] android.permission.RECORD_AUDIO
+[INTERNAL_LOG][2018-06-12 04:51:14,782][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 04:51:14,782][INFO][is_hybird()] android.permission.CAMERA
+[INTERNAL_LOG][2018-06-12 04:51:14,782][INFO][is_hybird()] android.permission.BLUETOOTH
+[INTERNAL_LOG][2018-06-12 04:51:14,783][INFO][is_hybird()] android.permission.RECEIVE_SMS
+[INTERNAL_LOG][2018-06-12 04:51:14,783][INFO][is_hybird()] android.permission.READ_SMS
+[INTERNAL_LOG][2018-06-12 04:51:14,783][INFO][is_hybird()] android.permission.AUTHENTICATE_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 04:51:14,783][INFO][is_hybird()] android.permission.READ_PHONE_STATE
+[INTERNAL_LOG][2018-06-12 04:51:14,783][INFO][is_hybird()] android.permission.READ_CONTACTS
+[INTERNAL_LOG][2018-06-12 04:51:14,783][INFO][is_hybird()] android.permission.WRITE_CONTACTS
+[INTERNAL_LOG][2018-06-12 04:51:14,783][INFO][is_hybird()] android.permission.USE_CREDENTIALS
+[INTERNAL_LOG][2018-06-12 04:51:14,783][INFO][is_hybird()] android.permission.MANAGE_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 04:51:14,783][INFO][is_hybird()] android.permission.READ_SYNC_STATS
+[INTERNAL_LOG][2018-06-12 04:51:14,783][INFO][is_hybird()] android.permission.READ_SYNC_SETTINGS
+[INTERNAL_LOG][2018-06-12 04:51:14,783][INFO][is_hybird()] android.permission.WRITE_SYNC_SETTINGS
+[INTERNAL_LOG][2018-06-12 04:51:14,783][INFO][is_hybird()] android.permission.READ_CALENDAR
+[INTERNAL_LOG][2018-06-12 04:51:14,783][INFO][is_hybird()] android.permission.READ_PROFILE
+[INTERNAL_LOG][2018-06-12 04:51:14,783][INFO][is_hybird()] android.permission.BLUETOOTH_ADMIN
+[INTERNAL_LOG][2018-06-12 04:51:14,783][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 04:51:14,783][INFO][is_hybird()] android.permission.RECEIVE_BOOT_COMPLETED
+[INTERNAL_LOG][2018-06-12 04:51:14,783][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-12 04:51:14,783][INFO][is_hybird()] android.permission.BROADCAST_STICKY
+[INTERNAL_LOG][2018-06-12 04:51:14,783][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 04:51:14,783][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-12 04:51:14,783][INFO][is_hybird()] com.waze.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-12 04:51:14,783][INFO][is_hybird()] pioneer.permission.appradio.AAM2
+[INTERNAL_LOG][2018-06-12 04:51:14,783][INFO][is_hybird()] pioneer.permission.appradio.ADVANCED_APPMODE
+[INTERNAL_LOG][2018-06-12 04:51:14,783][INFO][is_hybird()] com.google.android.gms.permission.ACTIVITY_RECOGNITION
+[INTERNAL_LOG][2018-06-12 04:51:14,783][INFO][is_hybird()] com.abaltatech.WEBLINK
+[INTERNAL_LOG][2018-06-12 04:51:14,783][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 04:51:14,784][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 04:51:14,784][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 04:51:14,784][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 04:51:14,784][INFO][find_string()] File: assets/res/about.html
+[INTERNAL_LOG][2018-06-12 04:51:14,790][INFO][find_string()] No iframe in assets/res/about.html
+[INTERNAL_LOG][2018-06-12 04:51:14,790][INFO][find_string()] File: assets/res/adios.html
+[INTERNAL_LOG][2018-06-12 04:51:14,791][INFO][find_string()] No iframe in assets/res/adios.html
+[INTERNAL_LOG][2018-06-12 04:51:14,791][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 04:51:14,791][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 04:51:14,791][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 04:51:41,706][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 04:51:41,707][INFO][find_url_in_apk()] http://schemas.android.com/apk/res/android
+http://www.abaltatech.com
+https://graph.%s
+https://graph-video.%s
+https://facebook.com
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+https://www.googleapis.com/auth/games_lite
+https://www.googleapis.com/auth/games
+https://plus.google.com/
+https://maps.googleapis.com/maps/api/place/queryautocomplete/json
+https://play.google.com/store/apps/details?id=com.ridewith
+http://rt.waze.com/rtserver
+http://www.waze.com/images/facebook/share-image.png
+http://www.waze.com
+https://play.google.com/store/apps/details?id=com.waze
+
+[INTERNAL_LOG][2018-06-12 04:51:41,707][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 04:51:41,712][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 04:51:41,712][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 04:51:41,712][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 04:51:41,713][INFO][analyze_start()] End time:[Tue Jun 12 04:51:41 2018]

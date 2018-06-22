@@ -1,0 +1,169 @@
+[INTERNAL_LOG][2018-06-12 02:25:14,656][INFO][analyze_start()] Init Time [Tue Jun 12 02:25:14 2018]
+[INTERNAL_LOG][2018-06-12 02:25:14,721][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 02:25:14,722][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 02:25:14,722][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 02:25:14,722][INFO][is_hybird()] android.permission.MANAGE_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 02:25:14,722][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 02:25:14,722][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-12 02:25:14,722][INFO][is_hybird()] android.permission.READ_CONTACTS
+[INTERNAL_LOG][2018-06-12 02:25:14,722][INFO][is_hybird()] android.permission.READ_CALENDAR
+[INTERNAL_LOG][2018-06-12 02:25:14,722][INFO][is_hybird()] android.permission.WRITE_CALENDAR
+[INTERNAL_LOG][2018-06-12 02:25:14,722][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 02:25:14,722][INFO][is_hybird()] android.permission.USE_CREDENTIALS
+[INTERNAL_LOG][2018-06-12 02:25:14,722][INFO][is_hybird()] android.permission.READ_SYNC_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:25:14,722][INFO][is_hybird()] android.permission.RECEIVE_BOOT_COMPLETED
+[INTERNAL_LOG][2018-06-12 02:25:14,722][INFO][is_hybird()] android.permission.ACCESS_COARSE_LOCATION
+[INTERNAL_LOG][2018-06-12 02:25:14,722][INFO][is_hybird()] android.permission.READ_SYNC_STATS
+[INTERNAL_LOG][2018-06-12 02:25:14,722][INFO][is_hybird()] android.permission.WRITE_SYNC_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:25:14,722][INFO][is_hybird()] com.google.android.googleapps.permission.GOOGLE_AUTH
+[INTERNAL_LOG][2018-06-12 02:25:14,722][INFO][is_hybird()] android.permission.SUBSCRIBED_FEEDS_READ
+[INTERNAL_LOG][2018-06-12 02:25:14,722][INFO][is_hybird()] android.permission.SUBSCRIBED_FEEDS_WRITE
+[INTERNAL_LOG][2018-06-12 02:25:14,723][INFO][is_hybird()] com.google.android.providers.gsf.permission.READ_GSERVICES
+[INTERNAL_LOG][2018-06-12 02:25:14,723][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-12 02:25:14,723][INFO][is_hybird()] com.google.android.calendar.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-12 02:25:14,723][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 02:25:14,723][INFO][is_hybird()] com.google.android.gm.permission.READ_GMAIL
+[INTERNAL_LOG][2018-06-12 02:25:14,723][INFO][is_hybird()] com.google.android.gm.exchange.BIND
+[INTERNAL_LOG][2018-06-12 02:25:14,723][INFO][is_hybird()] android.permission.GET_PACKAGE_SIZE
+[INTERNAL_LOG][2018-06-12 02:25:14,723][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 02:25:14,723][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 02:25:14,723][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 02:25:14,723][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 02:25:14,723][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 02:25:14,723][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 02:25:49,876][INFO][find_url_in_apk()] [START URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-12 02:25:49,876][INFO][find_url_in_apk()] https://clients4.google.com/insights/consumersurveys/gk/prompt
+
+[INTERNAL_LOG][2018-06-12 02:25:49,876][INFO][find_url_in_apk()] [END URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-12 02:25:50,005][INFO][find_string()] [START REMOTE FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 02:25:50,006][INFO][find_string()] Remote File in: temp_html_code/html_downloaded_Google Calendar by Google LLC - com/prompt
+[INTERNAL_LOG][2018-06-12 02:25:50,006][INFO][find_string()] URL: https://clients4.google.com/insights/consumersurveys/gk/prompt
+[INTERNAL_LOG][2018-06-12 02:25:50,007][INFO][find_string()] No iframe in temp_html_code/html_downloaded_Google Calendar by Google LLC - com/prompt
+[INTERNAL_LOG][2018-06-12 02:25:50,007][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 02:25:50,007][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 02:25:50,008][INFO][find_url_in_apk()] http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+https://ssl.google-analytics.com/collect
+http://www.google-analytics.com/collect
+http://www.google-analytics.com/collect
+http://www.google-analytics.com/collect
+https://ssl.gstatic.com/tmly/f8944938hffheth4ew890ht4i8/flairs/
+https://ssl.gstatic.com/tmly/f8944938hffheth4ew890ht4i8/flairs/
+http://www.ccil.org/~cowan/tagsoup/properties/schema
+http://www.ccil.org/~cowan/tagsoup/properties/schema
+http://www.ccil.org/~cowan/tagsoup/properties/schema
+http://www.ccil.org/~cowan/tagsoup/properties/schema
+https://support.google.com/calendar?p=fit_goal_android
+https://maps.googleapis.com/maps/api/place/details/json?reference=[REFERENCE_ID]&sensor=true&key=AIzaSyDwzOp5nlDuTO2MtXeMek6aD5e6rQs49Mk
+https://maps.googleapis.com/maps/api/place/photo?photoreference=[PHOTO_REFERENCE]&[DIMENSION_RESTRICTIONS]&sensor=true&key=AIzaSyDwzOp5nlDuTO2MtXeMek6aD5e6rQs49Mk
+https://maps.googleapis.com/maps/api/place/details/json
+https://support.google.com/calendar/
+https://maps.googleapis.com/maps/api/place/autocomplete/json
+https://maps.googleapis.com/maps/api/staticmap?size=[WIDTH]x[HEIGHT]&maptype=roadmap&sensor=true&key=AIzaSyDwzOp5nlDuTO2MtXeMek6aD5e6rQs49Mk&visual_refresh=true&markers=color:red%7Clabel:dot%7C[LATITUDE],[LONGITUDE]&visible=[VISIBLE]
+https://ssl.gstatic.com/docs/doclist/images/
+https://ssl.gstatic.com/docs/doclist/images/icon_10_generic_list.png
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+http://plus.google.com/
+https://www.googleapis.com/auth/drive.file
+https://www.googleapis.com/auth/drive.appdata
+https://www.googleapis.com/auth/drive
+https://www.googleapis.com/auth/drive.apps
+https://www.googleapis.com/auth/fitness.activity.read
+https://www.googleapis.com/auth/fitness.activity.read
+https://www.googleapis.com/auth/fitness.activity.write
+https://www.googleapis.com/auth/fitness.activity.write
+https://www.googleapis.com/auth/fitness.location.read
+https://www.googleapis.com/auth/fitness.location.read
+https://www.googleapis.com/auth/fitness.location.write
+https://www.googleapis.com/auth/fitness.location.write
+https://www.googleapis.com/auth/fitness.body.read
+https://www.googleapis.com/auth/fitness.body.read
+https://www.googleapis.com/auth/fitness.body.write
+https://www.googleapis.com/auth/fitness.body.write
+https://www.googleapis.com/auth/fitness.nutrition.read
+https://www.googleapis.com/auth/fitness.nutrition.read
+https://www.googleapis.com/auth/fitness.nutrition.write
+https://www.googleapis.com/auth/fitness.nutrition.write
+https://clients4.google.com/insights/consumersurveys/gk/prompt
+https://www.google.com/policies/privacy/
+http://www.google.com/calendar/feeds/%/events/%
+https://www.google.com/calendar/feeds/
+http://www.google.com/calendar/feeds/
+http://www.google.com/calendar/feeds/
+http://calendar.google.com/
+http://calendar.google.com/
+http://calendar.google.com/
+http://calendar.google.com/
+http://calendar.google.com/
+http://calendar.google.com/
+http://www.w3.org/XML/1998/namespace
+http://www.example.com
+http://www.gstatic.com/meet/phone/public_regional_config.bin
+http://www.gstatic.com/meet/phone/public_regional_config.bin
+http://www.w3.org/1999/xhtml
+http://xml.org/sax/features/namespaces
+http://xml.org/sax/features/namespaces
+http://xml.org/sax/features/namespace-prefixes
+http://xml.org/sax/features/external-general-entities
+http://xml.org/sax/features/external-parameter-entities
+http://xml.org/sax/features/is-standalone
+http://xml.org/sax/features/lexical-handler/parameter-entities
+http://xml.org/sax/features/resolve-dtd-uris
+http://xml.org/sax/features/string-interning
+http://xml.org/sax/features/use-attributes2
+http://xml.org/sax/features/use-locator2
+http://xml.org/sax/features/use-entity-resolver2
+http://xml.org/sax/features/validation
+http://xml.org/sax/features/xmlns-uris
+http://xml.org/sax/features/xml-1.1
+http://www.ccil.org/~cowan/tagsoup/features/ignore-bogons
+http://www.ccil.org/~cowan/tagsoup/features/ignore-bogons
+http://www.ccil.org/~cowan/tagsoup/features/bogons-empty
+http://www.ccil.org/~cowan/tagsoup/features/bogons-empty
+http://www.ccil.org/~cowan/tagsoup/features/root-bogons
+http://www.ccil.org/~cowan/tagsoup/features/root-bogons
+http://www.ccil.org/~cowan/tagsoup/features/default-attributes
+http://www.ccil.org/~cowan/tagsoup/features/default-attributes
+http://www.ccil.org/~cowan/tagsoup/features/translate-colons
+http://www.ccil.org/~cowan/tagsoup/features/translate-colons
+http://www.ccil.org/~cowan/tagsoup/features/restart-elements
+http://www.ccil.org/~cowan/tagsoup/features/restart-elements
+http://www.ccil.org/~cowan/tagsoup/features/ignorable-whitespace
+http://www.ccil.org/~cowan/tagsoup/features/ignorable-whitespace
+http://www.ccil.org/~cowan/tagsoup/features/cdata-elements
+http://www.ccil.org/~cowan/tagsoup/features/cdata-elements
+http://xml.org/sax/properties/lexical-handler
+http://xml.org/sax/properties/lexical-handler
+http://www.ccil.org/~cowan/tagsoup/properties/scanner
+http://www.ccil.org/~cowan/tagsoup/properties/scanner
+http://www.ccil.org/~cowan/tagsoup/properties/auto-detector
+http://www.ccil.org/~cowan/tagsoup/properties/auto-detector
+https://keep.google.com/?reminder=
+https://www.googleapis.com/
+https://www.googleapis.com/
+https://support.google.com/calendar?p=familycalendar
+https://www.googleapis.com/auth/fitness.blood_pressure.read
+https://www.googleapis.com/auth/fitness.blood_pressure.write
+https://www.googleapis.com/auth/fitness.blood_glucose.read
+https://www.googleapis.com/auth/fitness.blood_glucose.write
+https://www.googleapis.com/auth/fitness.oxygen_saturation.read
+https://www.googleapis.com/auth/fitness.oxygen_saturation.write
+https://www.googleapis.com/auth/fitness.body_temperature.read
+https://www.googleapis.com/auth/fitness.body_temperature.write
+https://www.googleapis.com/auth/fitness.reproductive_health.read
+https://www.googleapis.com/auth/fitness.reproductive_health.write
+
+[INTERNAL_LOG][2018-06-12 02:25:50,008][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 02:25:50,012][INFO][check_method_conf()] [JavaScript enabled: False]
+
+[INTERNAL_LOG][2018-06-12 02:25:50,012][INFO][check_method_conf()] [Add interface WebView: False]
+
+[INTERNAL_LOG][2018-06-12 02:25:50,012][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 02:25:50,013][INFO][analyze_start()] End time:[Tue Jun 12 02:25:50 2018]

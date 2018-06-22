@@ -1,0 +1,111 @@
+[INTERNAL_LOG][2018-06-12 06:43:53,966][INFO][analyze_start()] Init Time [Tue Jun 12 06:43:53 2018]
+[INTERNAL_LOG][2018-06-12 06:43:54,013][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 06:43:54,013][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 06:43:54,013][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-12 06:43:54,014][INFO][is_hybird()] com.android.vending.CHECK_LICENSE
+[INTERNAL_LOG][2018-06-12 06:43:54,014][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 06:43:54,014][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 06:43:54,014][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 06:43:54,014][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 06:43:54,014][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 06:43:54,014][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 06:43:54,014][INFO][is_hybird()] android.permission.READ_PHONE_STATE
+[INTERNAL_LOG][2018-06-12 06:43:54,014][INFO][is_hybird()] android.permission.ACCESS_FINE_LOCATION
+[INTERNAL_LOG][2018-06-12 06:43:54,014][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-12 06:43:54,014][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-12 06:43:54,015][INFO][is_hybird()] android.permission.RECEIVE_BOOT_COMPLETED
+[INTERNAL_LOG][2018-06-12 06:43:54,015][INFO][is_hybird()] com.teenpatti.hd.gold.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-12 06:43:54,015][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 06:43:54,015][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 06:43:54,015][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 06:43:54,015][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 06:43:54,015][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 06:43:54,015][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 06:44:15,934][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 06:44:15,934][INFO][find_url_in_apk()] http://schemas.android.com/apk/res/android
+https://validate.%s/api/v
+https://sdk-services.%s/validate-android-signature
+https://app.%s
+https://app.%s
+https://impression.%s
+https://monitorsdk.%s/remote-debug?app_id=
+https://graph.%s
+https://graph-video.%s
+https://facebook.com
+http://play.google.com/store/apps/details?id=com.facebook.orca
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+http://plus.google.com/
+https://www.googleapis.com/auth/drive.file
+https://www.googleapis.com/auth/drive.appdata
+https://www.googleapis.com/auth/drive
+https://www.googleapis.com/auth/drive.apps
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games.firstparty
+https://www.googleapis.com/auth/games.firstparty
+http://www.google-analytics.com
+https://ssl.google-analytics.com
+http://hostname/?
+http://hostname/?
+https://www.googletagmanager.com
+https://mobilelogs.supersonic.com
+https://mobilelogs.supersonic.com
+https://ua.supersonicads.com/api/rest/v1.1/uniqueusers?
+https://init.supersonicads.com/sdk/v
+https://www.supersonicads.com/mobile/sdk5/log?method=
+https://www.supersonicads.com/mobile/sdk5/log?method=
+https://www.supersonicads.com/mobile/sdk5/log?method=
+https://www.supersonicads.com/mobile/sdk5/log?method=
+https://www.supersonicads.com/mobile/sdk5/log?method=
+https://www.supersonicads.com/mobile/sdk5/log?method=
+https://www.supersonicads.com/mobile/sdk5/log?method=
+https://www.supersonicads.com/mobile/sdk5/log?method=
+https://www.supersonicads.com/mobile/sdk5/log?method=injectJavaScript
+https://graph.facebook.com/
+https://d2dejozc1aqhol.cloudfront.net/assets/avatars/
+https://prod-stats-tpg.moonfroglabs.in
+https://config.unityads.unity3d.com/webview/
+https://api.vungle.com/api/v4/
+https://ingest.vungle.com/
+https://settings.crashlytics.com/spi/v2/platforms/android/apps/%s/settings
+https://app.adjust.io
+https://api.%s/install_data/v3/
+https://attr.%s/api/v
+https://t.%s/api/v
+https://events.%s/api/v
+https://register.%s/api/v
+https://stats.%s/stats
+https://onelink.%s/shortlink-sdk/v1
+https://onelink.%s/shortlink-sdk/v1
+https://track.atom-data.io
+https://track.atom-data.io
+https://outcome.supersonicads.com/mediation/
+https://outcome.supersonicads.com/mediation/
+https://www.supersonicads.com/mobile/sdk5/log?method=extraParametersToJson
+https://www.supersonicads.com/mobile/sdk5/log?method=noProductType
+https://www.supersonicads.com/mobile/sdk5/log?method=encodeAppUserId
+https://www.supersonicads.com/mobile/sdk5/log?method=encodeAppKey
+https://www.supersonicads.com/mobile/sdk5/log?method=setWebViewSettings
+https://www.supersonicads.com/mobile/sdk5/log?method=webviewLoadBlank
+https://www.supersonicads.com/mobile/sdk5/log?method=webviewLoadWithPath
+https://www.supersonicads.com/mobile/sdk5/log?method=htmlControllerDoesNotExistOnFileSystem
+https://www.supersonicads.com/mobile/sdk5/log?method=webviewPause
+https://www.supersonicads.com/mobile/sdk5/log?method=webviewResume
+http://lol.vungle.com/
+https://e.crashlytics.com/spi/v2/events
+https://www.supersonicads.com/timestamp.php
+http://teenpattigold.com/?pid=
+https://www.vungle.com/privacy/
+https://www.vungle.com/privacy/
+
+[INTERNAL_LOG][2018-06-12 06:44:15,934][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 06:44:15,943][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 06:44:15,943][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 06:44:15,943][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 06:44:15,943][INFO][analyze_start()] End time:[Tue Jun 12 06:44:15 2018]

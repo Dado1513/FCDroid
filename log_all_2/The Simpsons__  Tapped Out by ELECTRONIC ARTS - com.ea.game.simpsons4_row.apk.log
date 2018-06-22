@@ -1,0 +1,138 @@
+[INTERNAL_LOG][2018-06-12 02:34:21,236][INFO][analyze_start()] Init Time [Tue Jun 12 02:34:21 2018]
+[INTERNAL_LOG][2018-06-12 02:34:21,313][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 02:34:21,314][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 02:34:21,314][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 02:34:21,314][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 02:34:21,314][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 02:34:21,314][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 02:34:21,314][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-12 02:34:21,314][INFO][is_hybird()] com.ea.game.simpsons4_row.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-12 02:34:21,314][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-12 02:34:21,314][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-12 02:34:21,314][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 02:34:21,314][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 02:34:21,314][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 02:34:21,315][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 02:34:21,315][INFO][find_string()] File: res/raw-da/help.html
+[INTERNAL_LOG][2018-06-12 02:34:21,316][INFO][find_string()] No iframe in res/raw-da/help.html
+[INTERNAL_LOG][2018-06-12 02:34:21,316][INFO][find_string()] File: res/raw-de/help.html
+[INTERNAL_LOG][2018-06-12 02:34:21,317][INFO][find_string()] No iframe in res/raw-de/help.html
+[INTERNAL_LOG][2018-06-12 02:34:21,317][INFO][find_string()] File: res/raw-en/help.html
+[INTERNAL_LOG][2018-06-12 02:34:21,318][INFO][find_string()] No iframe in res/raw-en/help.html
+[INTERNAL_LOG][2018-06-12 02:34:21,318][INFO][find_string()] File: res/raw-es/help.html
+[INTERNAL_LOG][2018-06-12 02:34:21,319][INFO][find_string()] No iframe in res/raw-es/help.html
+[INTERNAL_LOG][2018-06-12 02:34:21,319][INFO][find_string()] File: res/raw-fr/help.html
+[INTERNAL_LOG][2018-06-12 02:34:21,320][INFO][find_string()] No iframe in res/raw-fr/help.html
+[INTERNAL_LOG][2018-06-12 02:34:21,320][INFO][find_string()] File: res/raw-it/help.html
+[INTERNAL_LOG][2018-06-12 02:34:21,321][INFO][find_string()] No iframe in res/raw-it/help.html
+[INTERNAL_LOG][2018-06-12 02:34:21,321][INFO][find_string()] File: res/raw-kh-rCN/help.html
+[INTERNAL_LOG][2018-06-12 02:34:21,322][INFO][find_string()] No iframe in res/raw-kh-rCN/help.html
+[INTERNAL_LOG][2018-06-12 02:34:21,323][INFO][find_string()] File: res/raw-ko/help.html
+[INTERNAL_LOG][2018-06-12 02:34:21,324][INFO][find_string()] No iframe in res/raw-ko/help.html
+[INTERNAL_LOG][2018-06-12 02:34:21,324][INFO][find_string()] File: res/raw-nb/help.html
+[INTERNAL_LOG][2018-06-12 02:34:21,325][INFO][find_string()] No iframe in res/raw-nb/help.html
+[INTERNAL_LOG][2018-06-12 02:34:21,326][INFO][find_string()] File: res/raw-nl/help.html
+[INTERNAL_LOG][2018-06-12 02:34:21,327][INFO][find_string()] No iframe in res/raw-nl/help.html
+[INTERNAL_LOG][2018-06-12 02:34:21,327][INFO][find_string()] File: res/raw-nn/help.html
+[INTERNAL_LOG][2018-06-12 02:34:21,328][INFO][find_string()] No iframe in res/raw-nn/help.html
+[INTERNAL_LOG][2018-06-12 02:34:21,328][INFO][find_string()] File: res/raw-no/help.html
+[INTERNAL_LOG][2018-06-12 02:34:21,329][INFO][find_string()] No iframe in res/raw-no/help.html
+[INTERNAL_LOG][2018-06-12 02:34:21,329][INFO][find_string()] File: res/raw-pt-rPT/help.html
+[INTERNAL_LOG][2018-06-12 02:34:21,330][INFO][find_string()] No iframe in res/raw-pt-rPT/help.html
+[INTERNAL_LOG][2018-06-12 02:34:21,330][INFO][find_string()] File: res/raw-pt/help.html
+[INTERNAL_LOG][2018-06-12 02:34:21,331][INFO][find_string()] No iframe in res/raw-pt/help.html
+[INTERNAL_LOG][2018-06-12 02:34:21,331][INFO][find_string()] File: res/raw-ru/help.html
+[INTERNAL_LOG][2018-06-12 02:34:21,333][INFO][find_string()] No iframe in res/raw-ru/help.html
+[INTERNAL_LOG][2018-06-12 02:34:21,333][INFO][find_string()] File: res/raw-sv/help.html
+[INTERNAL_LOG][2018-06-12 02:34:21,334][INFO][find_string()] No iframe in res/raw-sv/help.html
+[INTERNAL_LOG][2018-06-12 02:34:21,335][INFO][find_string()] File: res/raw-th/help.html
+[INTERNAL_LOG][2018-06-12 02:34:21,390][INFO][find_string()] No iframe in res/raw-th/help.html
+[INTERNAL_LOG][2018-06-12 02:34:21,390][INFO][find_string()] File: res/raw-tr/help.html
+[INTERNAL_LOG][2018-06-12 02:34:21,391][INFO][find_string()] No iframe in res/raw-tr/help.html
+[INTERNAL_LOG][2018-06-12 02:34:21,391][INFO][find_string()] File: res/raw-zh-rCN/help.html
+[INTERNAL_LOG][2018-06-12 02:34:21,392][INFO][find_string()] No iframe in res/raw-zh-rCN/help.html
+[INTERNAL_LOG][2018-06-12 02:34:21,392][INFO][find_string()] File: res/raw-zh-rTW/help.html
+[INTERNAL_LOG][2018-06-12 02:34:21,393][INFO][find_string()] No iframe in res/raw-zh-rTW/help.html
+[INTERNAL_LOG][2018-06-12 02:34:21,393][INFO][find_string()] File: res/raw-zh/help.html
+[INTERNAL_LOG][2018-06-12 02:34:21,394][INFO][find_string()] No iframe in res/raw-zh/help.html
+[INTERNAL_LOG][2018-06-12 02:34:21,394][INFO][find_string()] File: res/raw/help.html
+[INTERNAL_LOG][2018-06-12 02:34:21,395][INFO][find_string()] No iframe in res/raw/help.html
+[INTERNAL_LOG][2018-06-12 02:34:21,395][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 02:34:21,395][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 02:34:21,395][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 02:34:52,592][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 02:34:52,593][INFO][find_url_in_apk()] http://schemas.android.com/apk/res/android
+http://www.amazon.com/gp/mas/get-appstore/android/ref=mas_mx_mba_iap_dl
+http://www.ea.com
+http://www.ea.com
+http://cdn.skum.eamobile.com
+http://cdn.skum.eamobile.com
+https://syn-dir.sn.eamobile.com
+https://director-int.sn.eamobile.com
+https://director-stage.sn.eamobile.com
+http://www.namcogames.com
+https://graph.%s
+https://graph-video.%s
+https://facebook.com
+http://play.google.com/store/apps/details?id=com.facebook.orca
+http://hostname/?
+http://hostname/?
+http://www.google-analytics.com
+https://ssl.google-analytics.com
+https://accounts.google.com
+https://accounts.google.com
+https://www.facebook.com
+https://www.facebook.com
+https://www.googleapis.com/auth/plus.me
+https://www.googleapis.com/auth/plus.me
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games
+http://plus.google.com/
+https://www.googleapis.com/auth/drive.file
+https://www.googleapis.com/auth/drive.appdata
+https://www.googleapis.com/auth/drive
+https://www.googleapis.com/auth/drive.apps
+https://www.googleapis.com/auth/fitness.activity.read
+https://www.googleapis.com/auth/fitness.activity.read
+https://www.googleapis.com/auth/fitness.activity.write
+https://www.googleapis.com/auth/fitness.activity.write
+https://www.googleapis.com/auth/fitness.location.read
+https://www.googleapis.com/auth/fitness.location.read
+https://www.googleapis.com/auth/fitness.location.write
+https://www.googleapis.com/auth/fitness.location.write
+https://www.googleapis.com/auth/fitness.body.read
+https://www.googleapis.com/auth/fitness.body.read
+https://www.googleapis.com/auth/fitness.body.write
+https://www.googleapis.com/auth/fitness.body.write
+https://www.googleapis.com/auth/fitness.nutrition.read
+https://www.googleapis.com/auth/fitness.nutrition.read
+https://www.googleapis.com/auth/fitness.nutrition.write
+https://www.googleapis.com/auth/fitness.nutrition.write
+https://www.googleapis.com/auth/games.firstparty
+https://www.googleapis.com/auth/games.firstparty
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://csi.gstatic.com/csi
+http://www.google.com
+https://app-measurement.com/a
+https://www.googleapis.com/auth/plus.login
+http://schemas.android.com/apk/lib/com.google.android.gms.plus
+http://schemas.android.com/apk/lib/com.google.android.gms.plus
+https://www.googletagmanager.com
+https://e.crashlytics.com/spi/v2/events
+https://settings.crashlytics.com/spi/v2/platforms/android/apps/%s/settings
+
+[INTERNAL_LOG][2018-06-12 02:34:52,593][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 02:34:52,598][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 02:34:52,598][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 02:34:52,598][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 02:34:52,598][INFO][analyze_start()] End time:[Tue Jun 12 02:34:52 2018]

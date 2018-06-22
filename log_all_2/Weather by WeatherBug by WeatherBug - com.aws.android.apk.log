@@ -1,0 +1,186 @@
+[INTERNAL_LOG][2018-06-12 08:34:16,381][INFO][analyze_start()] Init Time [Tue Jun 12 08:34:16 2018]
+[INTERNAL_LOG][2018-06-12 08:34:16,586][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 08:34:16,588][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 08:34:16,588][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 08:34:16,588][INFO][is_hybird()] android.permission.RECEIVE_BOOT_COMPLETED
+[INTERNAL_LOG][2018-06-12 08:34:16,588][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 08:34:16,588][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 08:34:16,588][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 08:34:16,589][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-12 08:34:16,589][INFO][is_hybird()] android.permission.ACCESS_FINE_LOCATION
+[INTERNAL_LOG][2018-06-12 08:34:16,589][INFO][is_hybird()] android.permission.ACCESS_COARSE_LOCATION
+[INTERNAL_LOG][2018-06-12 08:34:16,589][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 08:34:16,589][INFO][is_hybird()] com.android.vending.CHECK_LICENSE
+[INTERNAL_LOG][2018-06-12 08:34:16,589][INFO][is_hybird()] com.aws.action.wb.permission.MAPS_RECEIVE
+[INTERNAL_LOG][2018-06-12 08:34:16,589][INFO][is_hybird()] com.google.android.providers.gsf.permission.READ_GSERVICES
+[INTERNAL_LOG][2018-06-12 08:34:16,589][INFO][is_hybird()] android.permission.READ_PHONE_STATE
+[INTERNAL_LOG][2018-06-12 08:34:16,589][INFO][is_hybird()] com.aws.action.wb.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-12 08:34:16,589][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-12 08:34:16,589][INFO][is_hybird()] com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+[INTERNAL_LOG][2018-06-12 08:34:16,589][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 08:34:16,589][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 08:34:16,589][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 08:34:16,589][INFO][find_string()] File: assets/onboarding.html
+[INTERNAL_LOG][2018-06-12 08:34:16,591][INFO][find_string()] No iframe in assets/onboarding.html
+[INTERNAL_LOG][2018-06-12 08:34:16,591][INFO][find_string()] File: res/raw/index.html
+[INTERNAL_LOG][2018-06-12 08:34:16,592][INFO][find_string()] No iframe in res/raw/index.html
+[INTERNAL_LOG][2018-06-12 08:34:16,592][INFO][find_string()] File: res/raw/jwplayer_container.html
+[INTERNAL_LOG][2018-06-12 08:34:16,592][INFO][find_string()] No iframe in res/raw/jwplayer_container.html
+[INTERNAL_LOG][2018-06-12 08:34:16,592][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 08:34:16,593][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 08:34:16,593][INFO][find_string()] File: com/robotium/solo/RobotiumWeb.js
+[INTERNAL_LOG][2018-06-12 08:34:16,593][INFO][find_string()] No iframe in com/robotium/solo/RobotiumWeb.js
+[INTERNAL_LOG][2018-06-12 08:34:16,593][INFO][find_string()] File: res/raw/anjam.js
+[INTERNAL_LOG][2018-06-12 08:34:16,594][INFO][find_string()] No iframe in res/raw/anjam.js
+[INTERNAL_LOG][2018-06-12 08:34:16,594][INFO][find_string()] File: res/raw/apn_mraid.js
+[INTERNAL_LOG][2018-06-12 08:34:16,596][INFO][find_string()] No iframe in res/raw/apn_mraid.js
+[INTERNAL_LOG][2018-06-12 08:34:16,596][INFO][find_string()] File: res/raw/astmediationmanager.js
+[INTERNAL_LOG][2018-06-12 08:34:16,602][INFO][find_string()] No iframe in res/raw/astmediationmanager.js
+[INTERNAL_LOG][2018-06-12 08:34:16,602][INFO][find_string()] File: res/raw/controlbar.js
+[INTERNAL_LOG][2018-06-12 08:34:16,603][INFO][find_string()] No iframe in res/raw/controlbar.js
+[INTERNAL_LOG][2018-06-12 08:34:16,603][INFO][find_string()] File: res/raw/html5_provider_mobile.js
+[INTERNAL_LOG][2018-06-12 08:34:16,604][INFO][find_string()] No iframe in res/raw/html5_provider_mobile.js
+[INTERNAL_LOG][2018-06-12 08:34:16,604][INFO][find_string()] File: res/raw/jw_pings.js
+[INTERNAL_LOG][2018-06-12 08:34:16,605][INFO][find_string()] No iframe in res/raw/jw_pings.js
+[INTERNAL_LOG][2018-06-12 08:34:16,605][INFO][find_string()] File: res/raw/jwplayer.js
+[INTERNAL_LOG][2018-06-12 08:34:16,675][INFO][find_string()] No iframe in res/raw/jwplayer.js
+[INTERNAL_LOG][2018-06-12 08:34:16,696][INFO][find_string()] File: res/raw/mobile_workarounds.js
+[INTERNAL_LOG][2018-06-12 08:34:16,720][INFO][find_string()] No iframe in res/raw/mobile_workarounds.js
+[INTERNAL_LOG][2018-06-12 08:34:16,731][INFO][find_string()] File: res/raw/mobilevastplayer.js
+[INTERNAL_LOG][2018-06-12 08:34:16,768][INFO][find_string()] No iframe in res/raw/mobilevastplayer.js
+[INTERNAL_LOG][2018-06-12 08:34:16,768][INFO][find_string()] File: res/raw/polyfills_promise.js
+[INTERNAL_LOG][2018-06-12 08:34:16,768][INFO][find_string()] No iframe in res/raw/polyfills_promise.js
+[INTERNAL_LOG][2018-06-12 08:34:16,769][INFO][find_string()] File: res/raw/polyfills_vttrenderer.js
+[INTERNAL_LOG][2018-06-12 08:34:16,769][INFO][find_string()] No iframe in res/raw/polyfills_vttrenderer.js
+[INTERNAL_LOG][2018-06-12 08:34:16,770][INFO][find_string()] File: res/raw/related.js
+[INTERNAL_LOG][2018-06-12 08:34:17,734][INFO][find_string()] No iframe in res/raw/related.js
+[INTERNAL_LOG][2018-06-12 08:34:17,755][INFO][find_string()] File: res/raw/sdkjs.js
+[INTERNAL_LOG][2018-06-12 08:34:17,828][INFO][find_string()] No iframe in res/raw/sdkjs.js
+[INTERNAL_LOG][2018-06-12 08:34:17,848][INFO][find_string()] File: res/raw/vast.js
+[INTERNAL_LOG][2018-06-12 08:34:23,173][INFO][find_string()] No iframe in res/raw/vast.js
+[INTERNAL_LOG][2018-06-12 08:34:23,194][INFO][find_string()] File: res/raw/vttparser.js
+[INTERNAL_LOG][2018-06-12 08:34:23,403][INFO][find_string()] No iframe in res/raw/vttparser.js
+[INTERNAL_LOG][2018-06-12 08:34:23,418][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 08:35:18,896][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 08:35:18,896][INFO][find_url_in_apk()] http://schemas.android.com/apk/res/android
+https://app.adjust.com
+https://app.adjust.com
+https://app.adjust.com
+https://gdpr.adjust.com
+https://gdpr.adjust.com
+https://gdpr.adjust.com
+https://ads.aerserv.com/as/sdk/v2/
+https://ads.aerserv.com/as/sdk/v2/
+https://ads.aerserv.com/as/sdk/v2/
+https://ads.aerserv.com/as/sdk/v2/
+https://staging.ads.aerserv.com/as/sdk/v2/
+https://staging.ads.aerserv.com/as/sdk/v2/
+https://dmp.aerserv.com/update
+https://ads.aerserv.com/as/sdk/configure/
+https://debug.aerserv.com/sybok/analytics
+https://debug.aerserv.com/sybok/
+https://d3tplke66d0j4g.cloudfront.net/sdk-vpaid/0.3/VPAID.html
+https://d3tplke66d0j4g.cloudfront.net/sdk-vpaid/0.3/VPAID.js
+https://d3tplke66d0j4g.cloudfront.net/sdk-vpaid/0.3/VPAIDBridge.js
+https://d3tplke66d0j4g.cloudfront.net/img/poster.gif
+http://mads.amazon-adsystem.com/
+http://schemas.android.com/apk/lib/com.amazon.device.ads
+http://schemas.android.com/apk/res/
+https://dwxjayoxbnyrr.cloudfront.net/amazon-ads.viewablejs
+http://amazon-adsystem.com
+http://mediation.adnxs.com/ut/v2
+http://mediation.adnxs.com
+http://mediation.adnxs.com/
+http://mediation.adnxs.com/mob?
+http://mediation.adnxs.com/install?
+https://mediation.adnxs.com
+http://www.amazon.com/gp/mas/dl/android?p=
+http://www.amazon.com/gp/mas/dl/android?p=
+http://play.google.com/store/apps/details?id=
+http://play.google.com/store/apps/details?id=
+http://privacy-policy.truste.com/certified-policy/mobile/app/en/WeatherBug.com/validation.html
+http://privacy-policy.truste.com/certified-policy/mobile/app/en/WeatherBug.com/validation.html
+http://ext.config.earthnetworks.com.s3.amazonaws.com/mobile/android/v04_05_4.json
+https://datamart.earthnetworks.com/DataMart/Lightning/1.0/NClosestPulses
+https://pulse.earthnetworks.com
+https://and-obs.pulse.weatherbug.net
+https://sc.va.app.ext.weatherbug.com
+https://qc.va.app.ext.weatherbug.com
+https://dc.va.app.ext.weatherbug.com
+https://and-clog.pulse.weatherbug.net/clog/v1/submit?
+https://twitter.com/weatherbug
+https://twitter.com/weatherbug
+http://www.android.com/
+http://hostname/?
+https://pagead2.googlesyndication.com/pagead/gen_204
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/sdk-core-v40-impl.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://csi.gstatic.com/csi
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/native_ads.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/native_ads.js
+https://imasdk.googleapis.com/admob/sdkloader/native_video.html
+https://www.google.com/dfp/linkDevice
+https://www.google.com/dfp/inAppPreview
+https://www.google.com/dfp/debugSignals
+https://www.google.com/dfp/sendDebugData
+http://www.example.com
+http://www.example.com
+http://www.google-analytics.com
+https://ssl.google-analytics.com
+https://www.mapbox.com/map-feedback/#/%f/%f/%d
+https://www.mapbox.com/map-feedback
+https://www.mapbox.com/map-feedback
+https://playlist.ma.tune.com
+https://configuration.ma.tune.com
+https://analytics.ma.tune.com/analytics
+https://s3.amazonaws.com/uploaded-assets-production
+https://connected.ma.tune.com
+https://graph.%s
+https://graph-video.%s
+https://facebook.com
+http://play.google.com/store/apps/details?id=com.facebook.orca
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+https://www.googleapis.com/auth/games_lite
+https://www.googleapis.com/auth/games
+https://plus.google.com/
+http://play.google.com/store/apps/category/GAME
+https://play.google.com/store/apps/details?id=%1$s&rdid=%1$s&rdot=%2$d
+https://plus.google.com/%s/about
+https://play.google.com/store/apps/details
+http://www.google.com
+https://support.google.com/dfp_premium/answer/7160685#push
+https://ssl.p.jwpcdn.com/android/#SDK_VERSION#/manifest
+http://intercept.jw/
+http://intercept.jw/
+http://intercept.jw/
+http://intercept.jw/
+https://entitlements.jwplayer.com/#TOKEN#.json
+https://www.mapbox.com/telemetry/
+https://www.mapbox.com/map-feedback/
+https://www.mapbox.com/about/maps/
+https://events.mapbox.com
+https://events.mapbox.cn
+https://z.moatads.com/
+https://api.twitter.com
+https://syndication.twitter.com
+https://twitter.com/%s/status/%d
+https://e.crashlytics.com/spi/v2/events
+https://settings.crashlytics.com/spi/v2/platforms/android/apps/%s/settings
+http://localhost/
+http://localhost/
+http://localhost/
+
+[INTERNAL_LOG][2018-06-12 08:35:18,897][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 08:35:18,909][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 08:35:18,909][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 08:35:18,909][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 08:35:18,910][INFO][analyze_start()] End time:[Tue Jun 12 08:35:18 2018]

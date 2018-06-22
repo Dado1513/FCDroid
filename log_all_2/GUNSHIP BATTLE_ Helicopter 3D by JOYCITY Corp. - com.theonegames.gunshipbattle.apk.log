@@ -1,0 +1,55 @@
+[INTERNAL_LOG][2018-06-12 08:11:02,329][INFO][analyze_start()] Init Time [Tue Jun 12 08:11:02 2018]
+[INTERNAL_LOG][2018-06-12 08:11:02,468][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 08:11:02,469][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 08:11:02,469][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 08:11:02,469][INFO][is_hybird()] android.permission.SET_ORIENTATION
+[INTERNAL_LOG][2018-06-12 08:11:02,469][INFO][is_hybird()] android.permission.DEVICE_POWER
+[INTERNAL_LOG][2018-06-12 08:11:02,469][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 08:11:02,469][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 08:11:02,469][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-12 08:11:02,470][INFO][is_hybird()] android.permission.GET_TASKS
+[INTERNAL_LOG][2018-06-12 08:11:02,470][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 08:11:02,470][INFO][is_hybird()] com.android.vending.CHECK_LICENSE
+[INTERNAL_LOG][2018-06-12 08:11:02,470][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-12 08:11:02,470][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 08:11:02,470][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 08:11:02,470][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 08:11:02,470][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 08:11:02,470][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 08:11:02,470][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 08:11:02,470][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 08:11:02,470][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-12 08:11:02,470][INFO][is_hybird()] com.android.vending.CHECK_LICENSE
+[INTERNAL_LOG][2018-06-12 08:11:02,470][INFO][is_hybird()] com.android.vending.CHECK_LICENSE
+[INTERNAL_LOG][2018-06-12 08:11:02,470][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 08:11:02,470][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 08:11:02,470][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 08:11:02,470][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 08:11:02,470][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 08:11:02,470][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 08:11:02,470][INFO][is_hybird()] com.theonegames.gunshipbattle.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-12 08:11:02,470][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-12 08:11:02,471][INFO][is_hybird()] com.google.android.c2dm.permission.REGISTRATION
+[INTERNAL_LOG][2018-06-12 08:11:02,471][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 08:11:02,471][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 08:11:02,471][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 08:11:02,471][INFO][is_hybird()] android.permission.RECORD_AUDIO
+[INTERNAL_LOG][2018-06-12 08:11:02,471][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 08:11:02,471][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 08:11:02,471][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 08:11:02,471][INFO][find_string()] File: js/closebutton.html
+[INTERNAL_LOG][2018-06-12 08:11:02,471][INFO][find_string()] No iframe in js/closebutton.html
+[INTERNAL_LOG][2018-06-12 08:11:02,472][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 08:11:02,472][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 08:11:02,472][INFO][find_string()] File: assets/s3eWebView.js
+[INTERNAL_LOG][2018-06-12 08:11:02,472][INFO][find_string()] No iframe in assets/s3eWebView.js
+[INTERNAL_LOG][2018-06-12 08:11:02,472][INFO][find_string()] File: js/mraid.js
+[INTERNAL_LOG][2018-06-12 08:11:02,474][INFO][find_string()] No iframe in js/mraid.js
+[INTERNAL_LOG][2018-06-12 08:11:02,474][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 08:11:13,395][ERROR][run()] Error decompiler Invalid Instruction for 0x200:bytearray(b"\x00\x02 \xb0J\x81IQx\x97\xbf\x08\x1b u\xb0\xa3\xb2\x814\x1bv\x8d%C\xba2\xc5(\xba\'\xbdC\xa2") 
+
+[INTERNAL_LOG][2018-06-12 08:11:13,701][ERROR][analyze_start()] Some error during decompilation.

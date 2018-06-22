@@ -1,0 +1,39 @@
+[INTERNAL_LOG][2018-06-12 04:50:57,662][INFO][analyze_start()] Init Time [Tue Jun 12 04:50:57 2018]
+[INTERNAL_LOG][2018-06-12 04:50:57,731][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 04:50:57,731][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 04:50:57,731][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 04:50:57,731][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 04:50:57,731][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 04:50:57,731][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 04:50:57,731][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 04:50:57,731][INFO][is_hybird()] com.android.vending.CHECK_LICENSE
+[INTERNAL_LOG][2018-06-12 04:50:57,731][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 04:50:57,731][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 04:50:57,732][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 04:50:57,732][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 04:50:57,732][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 04:50:57,732][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 04:51:14,568][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 04:51:14,569][INFO][find_url_in_apk()] https://app.adjust.com
+https://api.mixpanel.com/track?ip=1
+http://api.mixpanel.com/track?ip=1
+https://api.mixpanel.com/engage
+http://api.mixpanel.com/engage
+https://decide.mixpanel.com/decide
+http://decide.mixpanel.com/decide
+http://market.android.com/details?id=
+https://e.crashlytics.com/spi/v2/events
+https://settings.crashlytics.com/spi/v2/platforms/android/apps/%s/settings
+https://ssl.gstatic.com/accessibility/javascript/android/chromeandroidvox.js
+
+[INTERNAL_LOG][2018-06-12 04:51:14,569][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 04:51:14,573][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 04:51:14,573][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 04:51:14,573][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 04:51:14,573][INFO][analyze_start()] End time:[Tue Jun 12 04:51:14 2018]

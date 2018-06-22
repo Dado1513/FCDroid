@@ -1,0 +1,183 @@
+[INTERNAL_LOG][2018-06-12 09:16:39,755][INFO][analyze_start()] Init Time [Tue Jun 12 09:16:39 2018]
+[INTERNAL_LOG][2018-06-12 09:16:39,895][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 09:16:39,897][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 09:16:39,897][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-12 09:16:39,897][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 09:16:39,897][INFO][is_hybird()] android.permission.MODIFY_AUDIO_SETTINGS
+[INTERNAL_LOG][2018-06-12 09:16:39,897][INFO][is_hybird()] android.permission.RECORD_AUDIO
+[INTERNAL_LOG][2018-06-12 09:16:39,898][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 09:16:39,898][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 09:16:39,898][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-12 09:16:39,898][INFO][is_hybird()] android.permission.RECEIVE_BOOT_COMPLETED
+[INTERNAL_LOG][2018-06-12 09:16:39,898][INFO][is_hybird()] android.permission.CHANGE_CONFIGURATION
+[INTERNAL_LOG][2018-06-12 09:16:39,898][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 09:16:39,898][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 09:16:39,898][INFO][is_hybird()] android.permission.CAMERA
+[INTERNAL_LOG][2018-06-12 09:16:39,898][INFO][is_hybird()] android.permission.READ_CONTACTS
+[INTERNAL_LOG][2018-06-12 09:16:39,898][INFO][is_hybird()] android.permission.WRITE_CONTACTS
+[INTERNAL_LOG][2018-06-12 09:16:39,898][INFO][is_hybird()] com.android.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 09:16:39,898][INFO][is_hybird()] android.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 09:16:39,898][INFO][is_hybird()] android.permission.ACCESS_FINE_LOCATION
+[INTERNAL_LOG][2018-06-12 09:16:39,898][INFO][is_hybird()] com.google.android.providers.gsf.permission.READ_GSERVICES
+[INTERNAL_LOG][2018-06-12 09:16:39,898][INFO][is_hybird()] android.permission.ACCESS_COARSE_LOCATION
+[INTERNAL_LOG][2018-06-12 09:16:39,898][INFO][is_hybird()] android.permission.READ_SMS
+[INTERNAL_LOG][2018-06-12 09:16:39,898][INFO][is_hybird()] android.permission.READ_PHONE_STATE
+[INTERNAL_LOG][2018-06-12 09:16:39,898][INFO][is_hybird()] android.permission.BROADCAST_STICKY
+[INTERNAL_LOG][2018-06-12 09:16:39,898][INFO][is_hybird()] com.android.launcher.permission.INSTALL_SHORTCUT
+[INTERNAL_LOG][2018-06-12 09:16:39,899][INFO][is_hybird()] com.android.launcher.permission.UNINSTALL_SHORTCUT
+[INTERNAL_LOG][2018-06-12 09:16:39,899][INFO][is_hybird()] android.permission.BLUETOOTH
+[INTERNAL_LOG][2018-06-12 09:16:39,899][INFO][is_hybird()] android.permission.BLUETOOTH_ADMIN
+[INTERNAL_LOG][2018-06-12 09:16:39,899][INFO][is_hybird()] android.permission.SYSTEM_ALERT_WINDOW
+[INTERNAL_LOG][2018-06-12 09:16:39,899][INFO][is_hybird()] android.permission.CHANGE_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 09:16:39,899][INFO][is_hybird()] android.permission.USE_CREDENTIALS
+[INTERNAL_LOG][2018-06-12 09:16:39,899][INFO][is_hybird()] android.permission.GET_TASKS
+[INTERNAL_LOG][2018-06-12 09:16:39,899][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 09:16:39,899][INFO][is_hybird()] android.permission.MANAGE_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 09:16:39,899][INFO][is_hybird()] android.permission.AUTHENTICATE_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 09:16:39,899][INFO][is_hybird()] android.permission.READ_SYNC_SETTINGS
+[INTERNAL_LOG][2018-06-12 09:16:39,899][INFO][is_hybird()] android.permission.WRITE_SYNC_SETTINGS
+[INTERNAL_LOG][2018-06-12 09:16:39,899][INFO][is_hybird()] android.permission.READ_PROFILE
+[INTERNAL_LOG][2018-06-12 09:16:39,899][INFO][is_hybird()] com.beetalk.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-12 09:16:39,899][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-12 09:16:39,899][INFO][is_hybird()] android.permission.CALL_PHONE
+[INTERNAL_LOG][2018-06-12 09:16:39,899][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 09:16:39,899][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 09:16:39,899][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 09:16:39,899][INFO][find_string()] File: assets/location.html
+[INTERNAL_LOG][2018-06-12 09:16:39,900][INFO][find_string()] No iframe in assets/location.html
+[INTERNAL_LOG][2018-06-12 09:16:39,900][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 09:16:39,900][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 09:16:39,901][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 09:17:32,513][INFO][find_url_in_apk()] [START URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-12 09:17:32,514][INFO][find_url_in_apk()] http://public.beetalkmobile.com/broadcast/history/view?serviceid=%d&userid=%d
+
+[INTERNAL_LOG][2018-06-12 09:17:32,514][INFO][find_url_in_apk()] [END URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-12 09:17:34,573][ERROR][download_page_loaded()] Failed response code: 404 for http://public.beetalkmobile.com/broadcast/history/view?serviceid=%d&userid=%d  
+[INTERNAL_LOG][2018-06-12 09:17:34,574][INFO][find_string()] [START REMOTE FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 09:17:34,574][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 09:17:34,574][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 09:17:34,574][INFO][find_url_in_apk()] http://schemas.android.com/apk/res/android
+https://e.crashlytics.com/spi/v2/events
+https://settings.crashlytics.com/spi/v2/platforms/android/apps/%s/settings
+http://203.116.180.99/crash/logs/
+http://203.116.180.99/crash/logs/
+https://testdjapplication.beetalk.in.th/api/login
+https://djapplication.beetalk.in.th/api/login
+https://djapplication.beetalk.in.th/api/login
+http://cdn.beetalkapp.com/client/android/images/fb_post_beetalk.png
+http://cdn.beetalkapp.com/client/android/images/fb_post_beetalk.png
+https://fb.me/878984198881149
+https://fb.me/878984198881149
+https://fb.me/878984198881149
+https://fb.me/878984198881149
+https://fb.me/878984198881149
+https://play.google.com/store/apps/details?id=com.beetalk
+http://cdn.beetalkapp.com/client/forum/search_keywords.json
+http://forum.beetalkmobile.com/go/
+http://cdn.beetalkapp.com/client/beetalk/images/forum_thread_img_facebook_default.png
+https://testconnect.garena.com
+https://testconnect.garena.com
+https://connect.garena.com
+https://connect.garena.com
+http://testconnect.garenanow.com/app/info/get
+http://connect.garenanow.com/app/info/get
+http://connect.garenanow.com/app/feedback
+http://cdn.beetalkapp.com/client/music/files/
+http://cdn.beetalkapp.com/client/stickers/
+http://cdn.beetalkapp.com/client/stickers/
+http://cdn.beetalkapp.com/client/stickers/
+http://cdn.beetalkapp.com/client/stickers/
+http://cdn.beetalkapp.com/client/stickers/
+http://cdn.beetalkapp.com/client/stickers/
+http://cdn.beetalkapp.com/client/android/ads/
+http://cdn.beetalkapp.com/client/android/ads/
+http://filestoresg1.beetalkmobile.com:8081/file
+http://cdn.beetalkapp.com/client/android/serverinfo_v3.json
+http://filestoreth1.beetalkmobile.com:8081/file/
+http://cdn.garenanow.com/talktalk/talktalk_android/img/%s/avatar_normal_icon_s.png
+http://t.garena.com/join/%1$d/%2$d
+http://cdn.garenanow.com/talktalk/talktalk_android/gift/%1$s/%2$d.png
+http://cdn.beetalkapp.com/client/club/keyword_%s.json
+http://club.beetalkmobile.com/#!/
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+http://cdn.beetalkapp.com/client/ads/game_ads_android_v2.json
+http://cdn.beetalkapp.com/client/psa/pa_recommend_listv2.json
+http://play.google.com/store/apps/details?id=
+http://play.google.com/store/apps/details?id=
+http://play.google.com/store/apps/details?id=
+http://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=com.garena.android.beetalklive
+http://t.garena.in.th/
+http://maps.googleapis.com/maps/api/geocode/json?latlng=%s
+http://maps.google.com/maps?dirflg=w&daddr=%f,%f(%s)
+http://maps.google.com/maps?dirflg=w&daddr=%f,%f(%s)
+http://testpassword.beetalkmobile.com/
+https://password.beetalkmobile.com/
+http://beetalkmobile.com/eula/
+http://beetalkmobile.com/eula/
+http://beetalkmobile.com/eula/
+http://beetalkmobile.com/tos/
+http://beetalk.tw/guideline.html
+http://beetalk.in.th/guideline
+https://beetalk.co.id/community-guidance.html
+http://beecard.beetalkmobile.com/
+http://public.beetalkmobile.com/broadcast/history/view?serviceid=%d&userid=%d
+http://public.beetalkmobile.com/broadcast/history/view?serviceid=%d&userid=%d
+http://public.beetalkmobile.com/broadcast/history/view?serviceid=%d&userid=%d
+http://cdn.beetalkapp.com/client/android/apk/beetalk_2_0_3_320_google_play.apk
+http://beecard.beetalkmobile.com/u
+http://fbcallback.beetalkmobile.com/getpage?lang=en&type=beecard&card=
+http://qr.beetalkmobile.com/
+https://public.beetalkmobile.com/info/view?serviceid=
+https://public.beetalkmobile.com/info/view?serviceid=
+https://play.google.com/
+https://play.google.com/
+https://play.google.com/store/apps/details?id=
+http://cdn.beetalkapp.com/client/android/beetalk/web_options.json
+http://cdn.beetalkapp.com/client/android/beetalk/ffmpeg.json
+https://v.beetalkmobile.com/video/
+http://cdn.beetalkapp.com/client/android/beetalk_mm.json
+http://cdn.beetalkapp.com/client/android/beetalk/apk_update_mm.json
+http://cdn.beetalkapp.com/client/android/beetalk.json
+http://cdn.beetalkapp.com/client/android/beetalk/apk_update.json
+http://urlexsg1.beetalkmobile.com:10070/extract?url=
+http://cdn.beetalkapp.com/client/animation/
+http://cdn.beetalkapp.com/client/animation/animation.json
+http://testappinfo.garenanow.com
+http://appinfo.garenanow.com
+http://cdn.beetalkapp.com/client/android/sticker/
+http://cdn.beetalkapp.com/client/club/club_stickerV2.json
+http://cdn.beetalkapp.com/client/android/sticker/packages_v3.json
+http://cdn.beetalkapp.com/client/forum/forum_sticker.json
+https://graph.%s
+https://graph-video.%s
+https://facebook.com
+http://play.google.com/store/apps/details?id=com.facebook.orca
+http://cdn.beetalkapp.com/client/android/images/default_avatar.png
+http://f.gxx.garenanow.com/download/
+http://cdn.garenanow.com/talktalk/talktalk_android/%1$s/%2$s/%3$d.png
+http://cdn.garenanow.com/talktalk/talktalk_android/%1$s/%2$s/%3$d.png
+http://cdn.garenanow.com/talktalk/Badge/icons/
+http://avatar.garenanow.com/avatar/user
+http://cdn.garenanow.com/webmain/static/images/avatars
+http://avatar.garenanow.com/avatar/channel
+http://avatar.garenanow.com/avatar/singer
+http://avatar.garenanow.com/avatar/subchannel
+http://avatar.garenanow.com/avatar/battle_system
+http://cdn.garenanow.com/talktalk/lobby_slides/region_mobile/TH_mobile_banner.json
+http://cdn.garenanow.com/talktalk/talktalk_android/super_gift/%1$s/%2$d.png
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+http://plus.google.com/
+
+[INTERNAL_LOG][2018-06-12 09:17:34,574][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 09:17:34,582][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 09:17:34,582][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 09:17:34,582][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 09:17:34,583][INFO][analyze_start()] End time:[Tue Jun 12 09:17:34 2018]

@@ -1,0 +1,448 @@
+[INTERNAL_LOG][2018-06-12 02:47:21,785][INFO][analyze_start()] Init Time [Tue Jun 12 02:47:21 2018]
+[INTERNAL_LOG][2018-06-12 02:47:21,875][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 02:47:21,876][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 02:47:21,876][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 02:47:21,876][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 02:47:21,876][INFO][is_hybird()] android.permission.BLUETOOTH
+[INTERNAL_LOG][2018-06-12 02:47:21,876][INFO][is_hybird()] android.permission.BLUETOOTH_ADMIN
+[INTERNAL_LOG][2018-06-12 02:47:21,876][INFO][is_hybird()] android.permission.BROADCAST_STICKY
+[INTERNAL_LOG][2018-06-12 02:47:21,876][INFO][is_hybird()] android.permission.CHANGE_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 02:47:21,876][INFO][is_hybird()] android.permission.CHANGE_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 02:47:21,876][INFO][is_hybird()] android.permission.DISABLE_KEYGUARD
+[INTERNAL_LOG][2018-06-12 02:47:21,876][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 02:47:21,876][INFO][is_hybird()] android.permission.GET_TASKS
+[INTERNAL_LOG][2018-06-12 02:47:21,876][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 02:47:21,876][INFO][is_hybird()] android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+[INTERNAL_LOG][2018-06-12 02:47:21,876][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 02:47:21,876][INFO][is_hybird()] android.permission.READ_PHONE_STATE
+[INTERNAL_LOG][2018-06-12 02:47:21,876][INFO][is_hybird()] android.permission.SYSTEM_ALERT_WINDOW
+[INTERNAL_LOG][2018-06-12 02:47:21,876][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-12 02:47:21,876][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 02:47:21,877][INFO][is_hybird()] android.permission.WRITE_MEDIA_STORAGE
+[INTERNAL_LOG][2018-06-12 02:47:21,877][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 02:47:21,877][INFO][is_hybird()] android.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,877][INFO][is_hybird()] android.permission.READ_CONTACTS
+[INTERNAL_LOG][2018-06-12 02:47:21,877][INFO][is_hybird()] android.permission.WRITE_CONTACTS
+[INTERNAL_LOG][2018-06-12 02:47:21,877][INFO][is_hybird()] android.permission.ACCESS_COARSE_LOCATION
+[INTERNAL_LOG][2018-06-12 02:47:21,877][INFO][is_hybird()] android.permission.ACCESS_FINE_LOCATION
+[INTERNAL_LOG][2018-06-12 02:47:21,877][INFO][is_hybird()] android.permission.MODIFY_AUDIO_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,877][INFO][is_hybird()] android.permission.EXPAND_STATUS_BAR
+[INTERNAL_LOG][2018-06-12 02:47:21,877][INFO][is_hybird()] android.permission.RECEIVE_BOOT_COMPLETED
+[INTERNAL_LOG][2018-06-12 02:47:21,877][INFO][is_hybird()] android.permission.REQUEST_INSTALL_PACKAGES
+[INTERNAL_LOG][2018-06-12 02:47:21,877][INFO][is_hybird()] android.permission.GET_PACKAGE_SIZE
+[INTERNAL_LOG][2018-06-12 02:47:21,877][INFO][is_hybird()] android.permission.CLEAR_APP_CACHE
+[INTERNAL_LOG][2018-06-12 02:47:21,877][INFO][is_hybird()] android.permission.RESTART_PACKAGES
+[INTERNAL_LOG][2018-06-12 02:47:21,877][INFO][is_hybird()] com.lenovo.anyshare.gps.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-12 02:47:21,877][INFO][is_hybird()] android.permission.CAMERA
+[INTERNAL_LOG][2018-06-12 02:47:21,877][INFO][is_hybird()] android.permission.SET_WALLPAPER
+[INTERNAL_LOG][2018-06-12 02:47:21,877][INFO][is_hybird()] com.android.launcher.permission.INSTALL_SHORTCUT
+[INTERNAL_LOG][2018-06-12 02:47:21,877][INFO][is_hybird()] com.android.launcher.permission.UNINSTALL_SHORTCUT
+[INTERNAL_LOG][2018-06-12 02:47:21,877][INFO][is_hybird()] com.android.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,877][INFO][is_hybird()] com.android.launcher.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,877][INFO][is_hybird()] com.android.launcher2.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,878][INFO][is_hybird()] com.android.launcher2.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,878][INFO][is_hybird()] com.android.launcher3.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,878][INFO][is_hybird()] com.android.launcher3.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,878][INFO][is_hybird()] org.adw.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,878][INFO][is_hybird()] org.adw.launcher.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,878][INFO][is_hybird()] com.htc.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,878][INFO][is_hybird()] com.htc.launcher.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,878][INFO][is_hybird()] com.qihoo360.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,878][INFO][is_hybird()] com.qihoo360.launcher.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,878][INFO][is_hybird()] com.lge.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,878][INFO][is_hybird()] com.lge.launcher.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,878][INFO][is_hybird()] net.qihoo.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,878][INFO][is_hybird()] net.qihoo.launcher.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,878][INFO][is_hybird()] org.adwfreak.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,878][INFO][is_hybird()] org.adwfreak.launcher.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,878][INFO][is_hybird()] org.adw.launcher_donut.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,878][INFO][is_hybird()] org.adw.launcher_donut.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,878][INFO][is_hybird()] com.huawei.launcher3.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,878][INFO][is_hybird()] com.huawei.launcher3.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,878][INFO][is_hybird()] com.fede.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,878][INFO][is_hybird()] com.fede.launcher.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,879][INFO][is_hybird()] com.sec.android.app.twlauncher.settings.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,879][INFO][is_hybird()] com.sec.android.app.twlauncher.settings.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,879][INFO][is_hybird()] com.anddoes.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,879][INFO][is_hybird()] com.anddoes.launcher.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,889][INFO][is_hybird()] com.tencent.qqlauncher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,894][INFO][is_hybird()] com.tencent.qqlauncher.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,895][INFO][is_hybird()] com.huawei.launcher2.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,895][INFO][is_hybird()] com.huawei.launcher2.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,895][INFO][is_hybird()] com.android.mylauncher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,895][INFO][is_hybird()] com.android.mylauncher.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,895][INFO][is_hybird()] com.ebproductions.android.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,905][INFO][is_hybird()] com.ebproductions.android.launcher.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,916][INFO][is_hybird()] com.oppo.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,921][INFO][is_hybird()] com.oppo.launcher.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,921][INFO][is_hybird()] com.miui.mihome2.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,931][INFO][is_hybird()] com.miui.mihome2.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,933][INFO][is_hybird()] com.huawei.android.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,933][INFO][is_hybird()] com.huawei.android.launcher.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,933][INFO][is_hybird()] telecom.mdesk.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,933][INFO][is_hybird()] telecom.mdesk.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,933][INFO][is_hybird()] dianxin.permission.ACCESS_LAUNCHER_DATA
+[INTERNAL_LOG][2018-06-12 02:47:21,933][INFO][is_hybird()] com.zte.mifavor.launcher.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,933][INFO][is_hybird()] com.zte.mifavor.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,934][INFO][is_hybird()] com.tct.launcher.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,934][INFO][is_hybird()] com.tct.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,934][INFO][is_hybird()] com.sec.android.provider.badge.permission.WRITE
+[INTERNAL_LOG][2018-06-12 02:47:21,934][INFO][is_hybird()] com.sec.android.provider.badge.permission.READ
+[INTERNAL_LOG][2018-06-12 02:47:21,934][INFO][is_hybird()] com.samsung.android.launcher.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,934][INFO][is_hybird()] com.samsung.android.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,934][INFO][is_hybird()] com.motorola.launcher3.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,934][INFO][is_hybird()] com.motorola.launcher3.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,934][INFO][is_hybird()] com.lge.launcher3.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,934][INFO][is_hybird()] com.lge.launcher3.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,934][INFO][is_hybird()] com.gionee.amisystem.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,934][INFO][is_hybird()] com.gionee.amisystem.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,934][INFO][is_hybird()] com.bbk.launcher2.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,934][INFO][is_hybird()] com.bbk.launcher2.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,934][INFO][is_hybird()] com.asus.launcher3.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,934][INFO][is_hybird()] com.asus.launcher3.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,934][INFO][is_hybird()] com.asus.launcher.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,934][INFO][is_hybird()] com.asus.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,935][INFO][is_hybird()] com.google.android.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,935][INFO][is_hybird()] com.google.android.launcher.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,935][INFO][is_hybird()] com.mx.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,935][INFO][is_hybird()] com.mx.launcher.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,935][INFO][is_hybird()] com.nd.android.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,936][INFO][is_hybird()] com.nd.android.launcher.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,936][INFO][is_hybird()] com.gau.go.launcherex.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,936][INFO][is_hybird()] com.gau.go.launcherex.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,937][INFO][is_hybird()] com.modaco.android.launchergb.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,937][INFO][is_hybird()] com.modaco.android.launchergb.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,937][INFO][is_hybird()] com.sec.android.app.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,937][INFO][is_hybird()] com.sec.android.app.launcher.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,937][INFO][is_hybird()] com.l.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,937][INFO][is_hybird()] com.l.launcher.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,938][INFO][is_hybird()] com.lollipop.launcher.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,938][INFO][is_hybird()] com.lollipop.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,938][INFO][is_hybird()] com.alphalp.launcher.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,938][INFO][is_hybird()] com.alphalp.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,938][INFO][is_hybird()] app.cobo.launcher.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,938][INFO][is_hybird()] app.cobo.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,938][INFO][is_hybird()] com.android.lewalauncher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,938][INFO][is_hybird()] com.android.lewalauncher.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,938][INFO][is_hybird()] com.epic.launcher.tw.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,938][INFO][is_hybird()] com.epic.launcher.tw.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,938][INFO][is_hybird()] com.huaqin.launcherEx.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,938][INFO][is_hybird()] com.huaqin.launcherEx.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,938][INFO][is_hybird()] com.slim.slimlauncher.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,938][INFO][is_hybird()] com.slim.slimlauncher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,938][INFO][is_hybird()] com.lenovo.launcherhdmarket.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,938][INFO][is_hybird()] com.lenovo.launcherhdmarket.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,938][INFO][is_hybird()] com.tul.aviate.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,938][INFO][is_hybird()] com.tul.aviate.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,938][INFO][is_hybird()] com.tsf.shell.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,938][INFO][is_hybird()] com.tsf.shell.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,938][INFO][is_hybird()] com.mgyun.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,939][INFO][is_hybird()] com.mgyun.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,939][INFO][is_hybird()] com.zte.mobile.ZteLauncher3D.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,939][INFO][is_hybird()] com.zte.mobile.ZteLauncher3D.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,939][INFO][is_hybird()] com.s.launcher.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,939][INFO][is_hybird()] com.s.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,939][INFO][is_hybird()] com.lo.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,939][INFO][is_hybird()] com.lo.launcher.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,939][INFO][is_hybird()] com.zui.launcher.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,939][INFO][is_hybird()] com.zui.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,939][INFO][is_hybird()] com.ibingo.launcher.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,939][INFO][is_hybird()] com.ibingo.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,939][INFO][is_hybird()] com.fineos.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,939][INFO][is_hybird()] com.fineos.launcher.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,939][INFO][is_hybird()] com.baoruan.launcher2.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,939][INFO][is_hybird()] com.baoruan.launcher2.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,939][INFO][is_hybird()] com.zte.lqsoft.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,939][INFO][is_hybird()] com.zte.lqsoft.launcher.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,939][INFO][is_hybird()] com.ztemt.launcher.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,939][INFO][is_hybird()] com.ztemt.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,939][INFO][is_hybird()] com.meizu.flyme.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,939][INFO][is_hybird()] com.meizu.flyme.launcher.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,939][INFO][is_hybird()] com.teslacoilsw.launcher.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,940][INFO][is_hybird()] com.teslacoilsw.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:47:21,940][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-12 02:47:21,940][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 02:47:21,940][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 02:47:21,940][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 02:47:21,940][INFO][find_string()] File: assets/help/ht_slow.html
+[INTERNAL_LOG][2018-06-12 02:47:21,943][INFO][find_string()] No iframe in assets/help/ht_slow.html
+[INTERNAL_LOG][2018-06-12 02:47:21,943][INFO][find_string()] File: assets/help/hc_find.html
+[INTERNAL_LOG][2018-06-12 02:47:21,945][INFO][find_string()] No iframe in assets/help/hc_find.html
+[INTERNAL_LOG][2018-06-12 02:47:21,945][INFO][find_string()] File: assets/help/hp_privileges.html
+[INTERNAL_LOG][2018-06-12 02:47:21,947][INFO][find_string()] No iframe in assets/help/hp_privileges.html
+[INTERNAL_LOG][2018-06-12 02:47:21,947][INFO][find_string()] File: assets/help/hcoin_value.html
+[INTERNAL_LOG][2018-06-12 02:47:21,948][INFO][find_string()] No iframe in assets/help/hcoin_value.html
+[INTERNAL_LOG][2018-06-12 02:47:21,948][INFO][find_string()] File: assets/help/hc_vpn.html
+[INTERNAL_LOG][2018-06-12 02:47:21,949][INFO][find_string()] No iframe in assets/help/hc_vpn.html
+[INTERNAL_LOG][2018-06-12 02:47:21,949][INFO][find_string()] File: assets/help/hd_crash.html
+[INTERNAL_LOG][2018-06-12 02:47:21,951][INFO][find_string()] No iframe in assets/help/hd_crash.html
+[INTERNAL_LOG][2018-06-12 02:47:21,951][INFO][find_string()] File: assets/help/hcoin_account.html
+[INTERNAL_LOG][2018-06-12 02:47:21,952][INFO][find_string()] No iframe in assets/help/hcoin_account.html
+[INTERNAL_LOG][2018-06-12 02:47:21,952][INFO][find_string()] File: assets/help/hs_find.html
+[INTERNAL_LOG][2018-06-12 02:47:21,953][INFO][find_string()] No iframe in assets/help/hs_find.html
+[INTERNAL_LOG][2018-06-12 02:47:21,953][INFO][find_string()] File: assets/help/hp_what.html
+[INTERNAL_LOG][2018-06-12 02:47:21,954][INFO][find_string()] No iframe in assets/help/hp_what.html
+[INTERNAL_LOG][2018-06-12 02:47:21,954][INFO][find_string()] File: assets/help/hcoin_failed.html
+[INTERNAL_LOG][2018-06-12 02:47:21,957][INFO][find_string()] No iframe in assets/help/hcoin_failed.html
+[INTERNAL_LOG][2018-06-12 02:47:21,957][INFO][find_string()] File: assets/help/hs_savesd.html
+[INTERNAL_LOG][2018-06-12 02:47:21,958][INFO][find_string()] No iframe in assets/help/hs_savesd.html
+[INTERNAL_LOG][2018-06-12 02:47:21,958][INFO][find_string()] File: assets/help/hd_misafe.html
+[INTERNAL_LOG][2018-06-12 02:47:21,960][INFO][find_string()] No iframe in assets/help/hd_misafe.html
+[INTERNAL_LOG][2018-06-12 02:47:21,960][INFO][find_string()] File: assets/help/hs_movesd.html
+[INTERNAL_LOG][2018-06-12 02:47:21,961][INFO][find_string()] No iframe in assets/help/hs_movesd.html
+[INTERNAL_LOG][2018-06-12 02:47:21,961][INFO][find_string()] File: assets/help/hs_location.html
+[INTERNAL_LOG][2018-06-12 02:47:21,962][INFO][find_string()] No iframe in assets/help/hs_location.html
+[INTERNAL_LOG][2018-06-12 02:47:21,962][INFO][find_string()] File: assets/help/hd_package.html
+[INTERNAL_LOG][2018-06-12 02:47:21,963][INFO][find_string()] No iframe in assets/help/hd_package.html
+[INTERNAL_LOG][2018-06-12 02:47:21,963][INFO][find_string()] File: assets/help/hd_mipad.html
+[INTERNAL_LOG][2018-06-12 02:47:21,964][INFO][find_string()] No iframe in assets/help/hd_mipad.html
+[INTERNAL_LOG][2018-06-12 02:47:21,964][INFO][find_string()] File: assets/help/hp_pay.html
+[INTERNAL_LOG][2018-06-12 02:47:21,965][INFO][find_string()] No iframe in assets/help/hp_pay.html
+[INTERNAL_LOG][2018-06-12 02:47:21,965][INFO][find_string()] File: assets/help/ht_backstage.html
+[INTERNAL_LOG][2018-06-12 02:47:21,967][INFO][find_string()] No iframe in assets/help/ht_backstage.html
+[INTERNAL_LOG][2018-06-12 02:47:21,967][INFO][find_string()] File: assets/help/hp_open.html
+[INTERNAL_LOG][2018-06-12 02:47:21,968][INFO][find_string()] No iframe in assets/help/hp_open.html
+[INTERNAL_LOG][2018-06-12 02:47:21,968][INFO][find_string()] File: assets/help/hcoin_recharge.html
+[INTERNAL_LOG][2018-06-12 02:47:21,970][INFO][find_string()] No iframe in assets/help/hcoin_recharge.html
+[INTERNAL_LOG][2018-06-12 02:47:21,970][INFO][find_string()] File: assets/help/hcoin_charge.html
+[INTERNAL_LOG][2018-06-12 02:47:21,971][INFO][find_string()] No iframe in assets/help/hcoin_charge.html
+[INTERNAL_LOG][2018-06-12 02:47:21,971][INFO][find_string()] File: assets/help/hcoin_get.html
+[INTERNAL_LOG][2018-06-12 02:47:21,972][INFO][find_string()] No iframe in assets/help/hcoin_get.html
+[INTERNAL_LOG][2018-06-12 02:47:21,972][INFO][find_string()] File: assets/help/hs_android4.4.html
+[INTERNAL_LOG][2018-06-12 02:47:21,973][INFO][find_string()] No iframe in assets/help/hs_android4.4.html
+[INTERNAL_LOG][2018-06-12 02:47:21,973][INFO][find_string()] File: assets/help/ht_pc.html
+[INTERNAL_LOG][2018-06-12 02:47:21,975][INFO][find_string()] No iframe in assets/help/ht_pc.html
+[INTERNAL_LOG][2018-06-12 02:47:21,975][INFO][find_string()] File: assets/help/ht_interrupt.html
+[INTERNAL_LOG][2018-06-12 02:47:21,976][INFO][find_string()] No iframe in assets/help/ht_interrupt.html
+[INTERNAL_LOG][2018-06-12 02:47:21,976][INFO][find_string()] File: assets/help/hp_month.html
+[INTERNAL_LOG][2018-06-12 02:47:21,977][INFO][find_string()] No iframe in assets/help/hp_month.html
+[INTERNAL_LOG][2018-06-12 02:47:21,977][INFO][find_string()] File: assets/help/hp_vip.html
+[INTERNAL_LOG][2018-06-12 02:47:21,978][INFO][find_string()] No iframe in assets/help/hp_vip.html
+[INTERNAL_LOG][2018-06-12 02:47:21,979][INFO][find_string()] File: assets/help/ht_open.html
+[INTERNAL_LOG][2018-06-12 02:47:21,980][INFO][find_string()] No iframe in assets/help/ht_open.html
+[INTERNAL_LOG][2018-06-12 02:47:21,980][INFO][find_string()] File: assets/help/hcoin_given.html
+[INTERNAL_LOG][2018-06-12 02:47:21,981][INFO][find_string()] No iframe in assets/help/hcoin_given.html
+[INTERNAL_LOG][2018-06-12 02:47:21,981][INFO][find_string()] File: assets/help/hc_unconnect.html
+[INTERNAL_LOG][2018-06-12 02:47:21,982][INFO][find_string()] No iframe in assets/help/hc_unconnect.html
+[INTERNAL_LOG][2018-06-12 02:47:21,982][INFO][find_string()] File: assets/help/hcoin_encash.html
+[INTERNAL_LOG][2018-06-12 02:47:21,983][INFO][find_string()] No iframe in assets/help/hcoin_encash.html
+[INTERNAL_LOG][2018-06-12 02:47:21,983][INFO][find_string()] File: assets/help/hd_sony.html
+[INTERNAL_LOG][2018-06-12 02:47:21,984][INFO][find_string()] No iframe in assets/help/hd_sony.html
+[INTERNAL_LOG][2018-06-12 02:47:21,984][INFO][find_string()] File: assets/help/ht_group.html
+[INTERNAL_LOG][2018-06-12 02:47:21,986][INFO][find_string()] No iframe in assets/help/ht_group.html
+[INTERNAL_LOG][2018-06-12 02:47:21,987][INFO][find_string()] File: assets/help/hcoin_passbook.html
+[INTERNAL_LOG][2018-06-12 02:47:21,987][INFO][find_string()] No iframe in assets/help/hcoin_passbook.html
+[INTERNAL_LOG][2018-06-12 02:47:21,988][INFO][find_string()] File: assets/help/hd_yuphoria.html
+[INTERNAL_LOG][2018-06-12 02:47:21,989][INFO][find_string()] No iframe in assets/help/hd_yuphoria.html
+[INTERNAL_LOG][2018-06-12 02:47:21,989][INFO][find_string()] File: assets/help/hp_privileges_intro.html
+[INTERNAL_LOG][2018-06-12 02:47:21,990][INFO][find_string()] No iframe in assets/help/hp_privileges_intro.html
+[INTERNAL_LOG][2018-06-12 02:47:21,990][INFO][find_string()] File: assets/help/hc_multi.html
+[INTERNAL_LOG][2018-06-12 02:47:21,991][INFO][find_string()] No iframe in assets/help/hc_multi.html
+[INTERNAL_LOG][2018-06-12 02:47:21,991][INFO][find_string()] File: assets/help/hcoin_use.html
+[INTERNAL_LOG][2018-06-12 02:47:22,175][INFO][find_string()] No iframe in assets/help/hcoin_use.html
+[INTERNAL_LOG][2018-06-12 02:47:22,196][INFO][find_string()] File: assets/help/hcoin_expiry.html
+[INTERNAL_LOG][2018-06-12 02:47:22,582][INFO][find_string()] No iframe in assets/help/hcoin_expiry.html
+[INTERNAL_LOG][2018-06-12 02:47:22,602][INFO][find_string()] File: assets/help/hd_nexus7.html
+[INTERNAL_LOG][2018-06-12 02:47:23,065][INFO][find_string()] No iframe in assets/help/hd_nexus7.html
+[INTERNAL_LOG][2018-06-12 02:47:23,086][INFO][find_string()] File: assets/help/ht_find.html
+[INTERNAL_LOG][2018-06-12 02:47:29,075][INFO][find_string()] No iframe in assets/help/ht_find.html
+[INTERNAL_LOG][2018-06-12 02:47:29,091][INFO][find_string()] File: assets/help/ht_save.html
+[INTERNAL_LOG][2018-06-12 02:47:29,536][INFO][find_string()] No iframe in assets/help/ht_save.html
+[INTERNAL_LOG][2018-06-12 02:47:29,556][INFO][find_string()] File: assets/help/ht_ios.html
+[INTERNAL_LOG][2018-06-12 02:47:30,311][INFO][find_string()] No iframe in assets/help/ht_ios.html
+[INTERNAL_LOG][2018-06-12 02:47:30,331][INFO][find_string()] File: assets/help/ht_wlan.html
+[INTERNAL_LOG][2018-06-12 02:47:30,853][INFO][find_string()] No iframe in assets/help/ht_wlan.html
+[INTERNAL_LOG][2018-06-12 02:47:30,874][INFO][find_string()] File: assets/help/hd_xiaomi.html
+[INTERNAL_LOG][2018-06-12 02:47:31,244][INFO][find_string()] No iframe in assets/help/hd_xiaomi.html
+[INTERNAL_LOG][2018-06-12 02:47:31,264][INFO][find_string()] File: assets/help/hcoin_shareit.html
+[INTERNAL_LOG][2018-06-12 02:47:31,660][INFO][find_string()] No iframe in assets/help/hcoin_shareit.html
+[INTERNAL_LOG][2018-06-12 02:47:31,681][INFO][find_string()] File: assets/help/hc_startap.html
+[INTERNAL_LOG][2018-06-12 02:47:32,154][INFO][find_string()] No iframe in assets/help/hc_startap.html
+[INTERNAL_LOG][2018-06-12 02:47:32,174][INFO][find_string()] File: assets/WebShare.html
+[INTERNAL_LOG][2018-06-12 02:47:32,637][INFO][find_string()] No iframe in assets/WebShare.html
+[INTERNAL_LOG][2018-06-12 02:47:32,658][INFO][find_string()] File: assets/Home.html
+[INTERNAL_LOG][2018-06-12 02:47:32,900][INFO][find_string()] No iframe in assets/Home.html
+[INTERNAL_LOG][2018-06-12 02:47:32,920][INFO][find_string()] File: assets/help/ht_update.html
+[INTERNAL_LOG][2018-06-12 02:47:33,356][INFO][find_string()] No iframe in assets/help/ht_update.html
+[INTERNAL_LOG][2018-06-12 02:47:33,377][INFO][find_string()] File: assets/help/hcoin_bonus.html
+[INTERNAL_LOG][2018-06-12 02:47:33,746][INFO][find_string()] No iframe in assets/help/hcoin_bonus.html
+[INTERNAL_LOG][2018-06-12 02:47:33,761][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 02:47:33,787][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 02:47:33,802][INFO][find_string()] File: assets/help/index.min.js
+[INTERNAL_LOG][2018-06-12 02:47:33,864][INFO][find_string()] No iframe in assets/help/index.min.js
+[INTERNAL_LOG][2018-06-12 02:47:33,880][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 02:48:12,020][INFO][find_url_in_apk()] [START URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-12 02:48:12,020][INFO][find_url_in_apk()] http://www.ushareit.com
+http://cdn.weshow.me/w/weshow/hq-question/video.html
+
+[INTERNAL_LOG][2018-06-12 02:48:12,020][INFO][find_url_in_apk()] [END URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-12 02:48:12,996][INFO][find_string()] [START REMOTE FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 02:48:12,996][INFO][find_string()] Remote File in: temp_html_code/html_downloaded_SHAREit - Transfer _ Share by SHAREit Technologies Co/www.ushareit.com
+[INTERNAL_LOG][2018-06-12 02:48:12,996][INFO][find_string()] URL: http://www.ushareit.com
+[INTERNAL_LOG][2018-06-12 02:48:13,019][INFO][find_string()] No iframe in temp_html_code/html_downloaded_SHAREit - Transfer _ Share by SHAREit Technologies Co/www.ushareit.com
+[INTERNAL_LOG][2018-06-12 02:48:13,019][INFO][find_string()] Remote File in: temp_html_code/html_downloaded_SHAREit - Transfer _ Share by SHAREit Technologies Co/video.html
+[INTERNAL_LOG][2018-06-12 02:48:13,019][INFO][find_string()] URL: http://cdn.weshow.me/w/weshow/hq-question/video.html
+[INTERNAL_LOG][2018-06-12 02:48:13,020][INFO][find_string()] No iframe in temp_html_code/html_downloaded_SHAREit - Transfer _ Share by SHAREit Technologies Co/video.html
+[INTERNAL_LOG][2018-06-12 02:48:13,020][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 02:48:13,020][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 02:48:13,021][INFO][find_url_in_apk()] http://m.facebook.com/ads/ad_choices
+http://m.facebook.com/ads/ad_choices
+https://www.facebook.com/audience_network/server_side_reward
+https://www.%s.facebook.com/audience_network/server_side_reward
+https://graph.facebook.com/network_ads_common
+https://graph.%s.facebook.com/network_ads_common
+https://www.facebook.com/adnw_logging/
+https://www.%s.facebook.com/adnw_logging/
+https://www.facebook.com/
+https://www.facebook.com/
+https://www.%s.facebook.com
+http://www.facebook.com
+https://graph.%s
+https://graph-video.%s
+https://facebook.com
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+https://www.googleapis.com/auth/games
+https://plus.google.com/
+http://www.example.com
+http://www.example.com
+https://pagead2.googlesyndication.com/pagead/gen_204
+http://www.google.com
+https://support.google.com/dfp_premium/answer/7160685#push
+https://app-measurement.com/a
+https://www.google.com
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://csi.gstatic.com/csi
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/native_ads.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/native_video_ads.html
+https://www.google.com/dfp/linkDevice
+https://www.google.com/dfp/inAppPreview
+https://www.google.com/dfp/debugSignals
+https://www.google.com/dfp/sendDebugData
+https://www.youtube.com/playlist?list=
+https://www.youtube.com/playlist?list=
+https://www.youtube.com/channel/
+https://www.youtube.com/channel/
+https://www.youtube.com/watch?v=
+https://www.youtube.com/watch?v=
+https://www.youtube.com/user/
+https://www.youtube.com/user/
+http://play.google.com/store/apps/details
+https://play.google.com/apps/testing/
+http://weibo.com/u/2826538361
+http://tieba.baidu.com/f?ie=utf-8&kw=%E8%8C%84%E5%AD%90%E5%BF%AB%E4%BC%A0&fr=search#
+http://www.ushareit.cn/m.php
+http://www.w3.org/ns/ttml#parameter
+http://www.ushareit.cn/CLEANit-Lenovo-Phone-SHAREIT.apk
+http://www.ushareit.cn/LISTENit-Lenovo-Phone-SHAREIT.apk
+http://www.ushareit.cn/LOCKit-SHAREIT.apk
+http://w.ushareit.com/w/shareit/help/
+http://ushareit.com/device/
+http://ushareit.com/
+http://ushareit.com/
+http://www.ushareit.com
+https://play.google.com/
+https://play.google.com/
+https://play.google.com/
+https://play.google.com/
+http://m.youtube.com/watch?v=
+http://m.youtube.com/results?q=
+https://play.google.com/store/apps/details?id=%s&%s
+https://play.google.com/store/apps/details?id=%s&%s
+https://play.google.com/store/apps/details?id=%s&%s
+https://pguat.paytm.com/oltp/HANDLER_INTERNAL/TXNSTATUS
+https://pguat.paytm.com/oltp/HANDLER_INTERNAL/CANCEL_TXN
+https://pguat.paytm.com/oltp-web/processTransaction
+https://secure.paytm.in/oltp/HANDLER_INTERNAL/TXNSTATUS
+https://secure.paytm.in/oltp/HANDLER_INTERNAL/CANCEL_TXN
+https://secure.paytm.in/oltp-web/processTransaction
+http://ec2-54-161-191-80.compute-1.amazonaws.com/2/ac
+https://dts.ushareit.com/2/ac
+http://xyq-test-162855100.ap-southeast-1.elb.amazonaws.com/
+https://api.eqmob.com/
+https://dts.ushareit.com
+http://dts.ushareit.com
+http://cdn.ushareit.com/c/d/clean_data_zip_v1705021500
+http://cdn.ushareit.com/c/d/clean_data_v1705021500
+http://h5-dev.mall.wshareit.com/index.html
+http://h5-dev.mall.wshareit.com/index.html
+http://h5-alpha.mall.wshareit.com/index.html
+http://h5-alpha.mall.wshareit.com/index.html
+http://h5.mall.wshareit.com/index.html
+http://www.bing.com
+https://play.google.com/store/apps/details?id=%s
+https://play.google.com/store/apps/details?id=%s
+http://52.80.157.3:9090/relayserver
+https://cf.ushareit.com/relayserver
+http://cf.ushareit.com/relayserver
+http://52.80.157.3:8050/relayserver
+http://52.80.157.3:8050/relayserver
+https://cm.ushareit.com/relayserver
+http://cm.ushareit.com/relayserver
+https://relay.ushareit.com/relayserver
+http://relay.ushareit.com/relayserver
+https://gcmapi.wshareit.com
+http://ec2-52-221-249-137.ap-southeast-1.compute.amazonaws.com:7788
+http://shareit-api-alb-1510661729.ap-southeast-1.elb.amazonaws.com
+http://shareit-api-alb-1510661729.ap-southeast-1.elb.amazonaws.com
+http://shareit-api-alb-1510661729.ap-southeast-1.elb.amazonaws.com
+http://cdn.wshareit.com/
+http://weshow-dev-348072767.ap-south-1.elb.amazonaws.com
+http://weshow-1461899548.ap-south-1.elb.amazonaws.com
+http://cdn.weshow.me
+http://cdn.weshow.me/w/weshow/hq-share/index.html?id=%s&source=2&avatar=%s
+http://cdn.weshow.me/w/weshow/hq-help/help.html
+https://uyi7h2m2p4.execute-api.ap-southeast-1.amazonaws.com/dev
+https://sz-loc.ushareit.com
+http://dumy
+https://www.youtube.com
+http://52.220.33.47:8080
+http://OpenResty-Test-312828972.ap-southeast-1.elb.amazonaws.com
+https://api.wshareit.com
+http://shareitapi-test-558403243.ap-southeast-1.elb.amazonaws.com:8080
+http://api.daily.wshareit.com
+http://api.wshareit.com
+https://api.daily.wshareit.com
+https://pmapi.wshareit.com
+http://payment-1444215404.ap-southeast-1.elb.amazonaws.com
+https://pm.daily.wshareit.com
+https://twitter.com/%s/status/%s
+http://www.ushareit.cn/CLONEit-Lenovo-Phone-SHAREIT.apk
+http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+https://play.google.com
+https://play.google.com
+https://play.google.com
+https://play.google.com
+https://play.google.com
+https://play.google.com
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+https://itunes.apple.com
+https://itunes.apple.com
+http://play.google.com/store/apps/details?id=
+https://analytics.mopub.com/i/jot/exchange_client_event
+https://www.mopub.com/optout
+http://alog.umeng.com/app_logs
+http://alog.umengcloud.com/app_logs
+https://cmnsguider.yunos.com:443/genDeviceToken
+https://uop.umeng.com
+http://log.umsns.com/share/api/
+http://cdn.wshareit.com/sz2/profile/icons/common_preset_user_icon_
+http://cdn.weshow.me/w/weshow/hq-question/video.html
+http://cdn.weshow.me/w/weshow/hq-help/rules.html
+
+[INTERNAL_LOG][2018-06-12 02:48:13,021][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 02:48:13,033][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 02:48:13,033][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 02:48:13,033][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 02:48:13,033][INFO][analyze_start()] End time:[Tue Jun 12 02:48:13 2018]

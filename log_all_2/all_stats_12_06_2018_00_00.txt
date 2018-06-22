@@ -1,0 +1,47 @@
+Apk analyzed: 717
+Percentual app with at least one html file inside: 60.3905160390516%
+Percentual app with js enabled 94.97907949790795%
+Percentual app with js interface 92.18967921896792%
+Percentual app maybe vulnerable: 5.299860529986053%, based on tot 717.
+Percentual app with iframe not in html file 0.0
+Average time  single apk analyzed 48.44757030831554 sec
+
+This app maybe are vulnerable:
+- VivaVideo - Video Editor _ Photo Video Maker by _ QuVideo Inc. - com.quvideo.xiaoying.apk
+- Perfect Piano by Revontulet Soft Inc - com.gamestar.perfectpiano.apk
+- Papa Pear Saga by King - com.midasplayer.apps.papapearsaga.apk
+- Bubble Witch 3 Saga by King - com.king.bubblewitch3.apk
+- Dropbox by Dropbox_ Inc. - com.dropbox.android.apk
+- Diamond Digger Saga by King - com.midasplayer.apps.diamonddiggersaga.apk
+- Pet Rescue Saga by King - com.king.petrescuesaga.apk
+- Telegram by Telegram FZ-LLC - org.telegram.messenger.apk
+- Last Empire - War Z_ Strategy by im30.net - com.longtech.lastwars.gp.apk
+- Candy Crush Jelly Saga by King - com.king.candycrushjellysaga.apk
+- Rail Rush by Miniclip.com - com.miniclip.railrush.apk
+- Where_s My Water_ 2 by Disney - com.disney.wheresmywater2_goo.apk
+- YONO by SBI by State Bank of India - com.sbi.lotusintouch.apk
+- Star Wars__ Commander by Disney - com.lucasarts.starts_goo.apk
+- Recharges_ Bill Payments_ UPI_ Mutual Funds by FreeCharge - com.freecharge.android.apk
+- musical.ly by musical.ly - com.zhiliaoapp.musically.apk
+- NITRO NATION_ 6 by Creative Mobile - com.creativemobile.nno.apk
+- MovieStarPlanet by MovieStarPlanet ApS - air.MSPMobile.apk
+- WPS Office - Word_ Docs_ PDF_ Note_ Slide _ Sheet by Kingsoft Office Software Corporation Limited - cn.wps.moffice_eng.apk
+- frame_confusion_app.apk
+- Angry Gran Run - Running Game by Ace Viral - com.aceviral.angrygranrun.apk
+- Farm Heroes Super Saga by King - com.king.farmheroessupersaga.apk
+- LINE Camera - Photo editor by LINE Corporation - jp.naver.linecamera.android.apk
+- GO-JEK - Ojek Taxi Booking_ Delivery and Payment by PT. Aplikasi Karya Anak Bangsa - com.gojek.app.apk
+- PicsArt Photo Studio_ Collage Maker _ Pic Editor by PicsArt - com.picsart.studio.apk
+- Frozen Free Fall by Disney - com.disney.frozensaga_goo.apk
+- MomentCam Cartoons _ Stickers by MomentCam Hong Kong Co._ Limited - com.manboker.headportrait.apk
+- MyAppPhoneGap.apk
+- Wattpad  _  Free Books by Wattpad.com - wp.wattpad.apk
+- Bubble Witch 2 Saga by King - com.midasplayer.apps.bubblewitchsaga2.apk
+- YONO.apk
+- CamScanner - Phone PDF Creator by INTSIG Information Co._Ltd - com.intsig.camscanner.apk
+- Farm Heroes Saga by King - com.king.farmheroessaga.apk
+- Candy Crush Soda Saga by King - com.king.candycrushsodasaga.apk
+- Groupon - Shop Deals_ Discounts _ Coupons by Groupon_ Inc. - com.groupon.apk
+- Candy Crush Saga by King - com.king.candycrushsaga.apk
+- Pyramid Solitaire Saga by King - com.king.pyramidsolitairesaga.apk
+- Samsung Internet Browser by Samsung Electronics Co._  Ltd. - com.sec.android.app.sbrowser.apk

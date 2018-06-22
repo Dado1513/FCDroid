@@ -1,0 +1,59 @@
+[INTERNAL_LOG][2018-06-12 09:28:20,798][INFO][analyze_start()] Init Time [Tue Jun 12 09:28:20 2018]
+[INTERNAL_LOG][2018-06-12 09:28:20,805][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 09:28:20,805][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 09:28:20,805][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 09:28:20,806][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 09:28:20,806][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 09:28:20,806][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 09:28:20,806][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 09:28:20,806][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 09:28:20,806][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 09:28:20,809][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 09:28:20,809][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 09:28:33,580][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 09:28:33,581][INFO][find_url_in_apk()] http://sdk.appbrain.com,http://sdk-b.apptornado.com
+http://applift-a.apptornado.com,http://applift-b.apptornado.com
+http://applift-a.apptornado.com
+http://play.google.com
+https://play.google.com
+http://market.android.com
+https://market.android.com
+http://schemas.android.com/apk/lib/com.appbrain
+http://schemas.android.com/apk/lib/com.appbrain
+http://schemas.android.com/apk/lib/com.appbrain
+http://10.0.2.2
+http://192.168.
+https://www.googleapis.com/auth/plus.me
+https://www.googleapis.com/auth/games
+http://plus.google.com/
+http://www.example.com
+http://www.example.com
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://csi.gstatic.com/csi
+https://sb-ssl.google.com/safebrowsing/clientreport/malware
+https://pagead2.googlesyndication.com/pagead/gen_204
+http://www.google.com
+http://sites.google.com/site/gson/gson-user-guide#TOC-Serializing-and-Deserializing-Gener
+http://www.notyx.com/publicitat2/privatePolicy.xml
+http://www.notyx.com/publicitat2
+http://ads.notyx.com/publicitat2
+http://publi.notyx.com/publicitat2
+http://ads2.notyx.com/publicitat2
+https://play.google.com/store/apps/details?id=com.quelaba.sopaletras
+https://play.google.com/store/apps/details?id=com.quelaba.sopaletras
+http://www.facebook.com/notyx
+
+[INTERNAL_LOG][2018-06-12 09:28:33,581][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 09:28:33,582][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 09:28:33,582][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 09:28:33,583][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 09:28:33,583][INFO][analyze_start()] End time:[Tue Jun 12 09:28:33 2018]

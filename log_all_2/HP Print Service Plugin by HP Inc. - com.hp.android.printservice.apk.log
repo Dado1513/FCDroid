@@ -1,0 +1,57 @@
+[INTERNAL_LOG][2018-06-12 01:53:09,711][INFO][analyze_start()] Init Time [Tue Jun 12 01:53:09 2018]
+[INTERNAL_LOG][2018-06-12 01:53:09,749][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 01:53:09,749][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 01:53:09,750][INFO][is_hybird()] hp.enterprise.print.extension.permission
+[INTERNAL_LOG][2018-06-12 01:53:09,750][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 01:53:09,750][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 01:53:09,750][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 01:53:09,750][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 01:53:09,750][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 01:53:09,750][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 01:53:09,750][INFO][is_hybird()] android.permission.CHANGE_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 01:53:09,750][INFO][is_hybird()] android.permission.CHANGE_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 01:53:09,750][INFO][is_hybird()] android.permission.NFC
+[INTERNAL_LOG][2018-06-12 01:53:09,750][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-12 01:53:09,750][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-12 01:53:09,750][INFO][is_hybird()] com.hp.android.printservice.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-12 01:53:09,750][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 01:53:09,750][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 01:53:09,750][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 01:53:09,750][INFO][find_string()] File: assets/legal_notice.html
+[INTERNAL_LOG][2018-06-12 01:53:09,770][INFO][find_string()] No iframe in assets/legal_notice.html
+[INTERNAL_LOG][2018-06-12 01:53:09,770][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 01:53:09,770][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 01:53:09,771][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 01:53:21,755][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 01:53:21,755][INFO][find_url_in_apk()] http://schemas.android.com/apk/res/android
+https://e.crashlytics.com/spi/v2/events
+https://settings.crashlytics.com/spi/v2/platforms/android/apps/%s/settings
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+http://hostname/?
+http://www.google-analytics.com
+https://ssl.google-analytics.com
+https://app-measurement.com/a
+https://www.google.com
+https://plus.google.com/
+http://www.hp.com
+http://www.hp.com/go/privacy
+http://www.hp.com/go/sweula
+https://h20615.www2.hp.com/onramp
+http://www.hp.com/schemas/imaging/con/cloud/onramp/2009/12/20
+http://www.hp.com/schemas/imaging/con/cloud/onramp/2009/12/20
+http://www.hp.com/schemas/imaging/con/cloud/onramp/2009/12/20
+http://www.hp.com/schemas/imaging/con/cloud/onramp/2009/12/20
+http://www.hp.com/schemas/imaging/con/dictionaries/1.0/
+http://www.hp.com/schemas/imaging/ljs/shopforsuppliesrequest/2007/11/07
+
+[INTERNAL_LOG][2018-06-12 01:53:21,755][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 01:53:21,756][INFO][check_method_conf()] [JavaScript enabled: False]
+
+[INTERNAL_LOG][2018-06-12 01:53:21,756][INFO][check_method_conf()] [Add interface WebView: False]
+
+[INTERNAL_LOG][2018-06-12 01:53:21,756][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 01:53:21,756][INFO][analyze_start()] End time:[Tue Jun 12 01:53:21 2018]

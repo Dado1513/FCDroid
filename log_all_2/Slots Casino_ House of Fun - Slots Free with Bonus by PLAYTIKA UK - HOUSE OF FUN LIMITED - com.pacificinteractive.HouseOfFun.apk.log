@@ -1,0 +1,170 @@
+[INTERNAL_LOG][2018-06-12 08:48:06,316][INFO][analyze_start()] Init Time [Tue Jun 12 08:48:06 2018]
+[INTERNAL_LOG][2018-06-12 08:48:06,482][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 08:48:06,483][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 08:48:06,483][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 08:48:06,483][INFO][is_hybird()] android.permission.KILL_BACKGROUND_PROCESSES
+[INTERNAL_LOG][2018-06-12 08:48:06,483][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 08:48:06,483][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 08:48:06,483][INFO][is_hybird()] android.permission.READ_PHONE_STATE
+[INTERNAL_LOG][2018-06-12 08:48:06,483][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 08:48:06,483][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 08:48:06,483][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-12 08:48:06,483][INFO][is_hybird()] android.permission.GET_TASKS
+[INTERNAL_LOG][2018-06-12 08:48:06,483][INFO][is_hybird()] android.permission.RECEIVE_BOOT_COMPLETED
+[INTERNAL_LOG][2018-06-12 08:48:06,483][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-12 08:48:06,483][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-12 08:48:06,484][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 08:48:06,484][INFO][is_hybird()] com.amazon.device.messaging.permission.RECEIVE
+[INTERNAL_LOG][2018-06-12 08:48:06,484][INFO][is_hybird()] com.pacificinteractive.HouseOfFun.permission.RECEIVE_ADM_MESSAGE
+[INTERNAL_LOG][2018-06-12 08:48:06,484][INFO][is_hybird()] com.pacificinteractive.HouseOfFun.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-12 08:48:06,484][INFO][is_hybird()] com.sec.android.provider.badge.permission.READ
+[INTERNAL_LOG][2018-06-12 08:48:06,484][INFO][is_hybird()] com.sec.android.provider.badge.permission.WRITE
+[INTERNAL_LOG][2018-06-12 08:48:06,484][INFO][is_hybird()] com.htc.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 08:48:06,484][INFO][is_hybird()] com.htc.launcher.permission.UPDATE_SHORTCUT
+[INTERNAL_LOG][2018-06-12 08:48:06,484][INFO][is_hybird()] com.sonyericsson.home.permission.BROADCAST_BADGE
+[INTERNAL_LOG][2018-06-12 08:48:06,484][INFO][is_hybird()] com.sonymobile.home.permission.PROVIDER_INSERT_BADGE
+[INTERNAL_LOG][2018-06-12 08:48:06,484][INFO][is_hybird()] com.anddoes.launcher.permission.UPDATE_COUNT
+[INTERNAL_LOG][2018-06-12 08:48:06,484][INFO][is_hybird()] com.majeur.launcher.permission.UPDATE_BADGE
+[INTERNAL_LOG][2018-06-12 08:48:06,484][INFO][is_hybird()] com.huawei.android.launcher.permission.CHANGE_BADGE
+[INTERNAL_LOG][2018-06-12 08:48:06,484][INFO][is_hybird()] com.huawei.android.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 08:48:06,484][INFO][is_hybird()] com.huawei.android.launcher.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 08:48:06,484][INFO][is_hybird()] android.permission.READ_APP_BADGE
+[INTERNAL_LOG][2018-06-12 08:48:06,484][INFO][is_hybird()] com.oppo.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 08:48:06,484][INFO][is_hybird()] com.oppo.launcher.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 08:48:06,484][INFO][is_hybird()] me.everything.badger.permission.BADGE_COUNT_READ
+[INTERNAL_LOG][2018-06-12 08:48:06,484][INFO][is_hybird()] me.everything.badger.permission.BADGE_COUNT_WRITE
+[INTERNAL_LOG][2018-06-12 08:48:06,484][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 08:48:06,484][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 08:48:06,484][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 08:48:06,484][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 08:48:06,485][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 08:48:06,485][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 08:48:29,949][INFO][find_url_in_apk()] [START URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-12 08:48:29,949][INFO][find_url_in_apk()] https://cortana-gateway.amazon.com/cortana/gateway/getSignedDownloadUrl
+
+[INTERNAL_LOG][2018-06-12 08:48:29,949][INFO][find_url_in_apk()] [END URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-12 08:48:30,789][ERROR][download_page_loaded()] Failed response code: 500 for https://cortana-gateway.amazon.com/cortana/gateway/getSignedDownloadUrl  
+[INTERNAL_LOG][2018-06-12 08:48:30,790][INFO][find_string()] [START REMOTE FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 08:48:30,790][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 08:48:30,790][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 08:48:30,790][INFO][find_url_in_apk()] https://cortana-gateway.amazon.com/cortana/gateway/getSignedDownloadUrl
+http://www.amazon.com/gp/mas/get-appstore/android/ref=mas_mx_mba_iap_dl
+https://applab-sdk.amazon.com/1.0
+https://applab-sdk.amazon.com/1.0
+https://applab-sdk.amazon.com/1.0
+https://attr.%s/api/v
+https://t.%s/api/v
+https://events.%s/api/v
+https://register.%s/api/v
+https://stats.%s/stats
+https://validate.%s/api/v
+https://sdk-services.%s/validate-android-signature
+https://monitorsdk.%s/remote-debug?app_id=
+https://app.%s
+https://app.%s
+https://impression.%s
+https://live.chartboost.com
+http://market.android.com/
+https://graph.%s
+https://graph-video.%s
+https://facebook.com
+http://play.google.com/store/apps/details?id=com.facebook.orca
+http://hostname/
+http://hostname/?
+https://pubads.g.doubleclick.net/activity;dc_iu=
+https://pubads.g.doubleclick.net/activity;xsp=
+https://www.googleadservices.com/pagead/conversion/
+https://www.googleadservices.com/pagead/conversion/
+http://plus.google.com/
+http://plus.google.com/
+https://accounts.google.com
+https://accounts.google.com
+https://www.facebook.com
+https://www.googleapis.com/auth/plus.login
+https://www.googleapis.com/auth/plus.login
+https://www.googleapis.com/auth/plus.me
+https://www.googleapis.com/auth/plus.me
+http://schemas.android.com/apk/lib/com.google.android.gms.plus
+http://schemas.android.com/apk/lib/com.google.android.gms.plus
+https://www.google.com
+https://developers.google.com/accounts/docs/application-default-credentials
+https://www.googleapis.com/oauth2/v1/certs
+http://metadata.google.internal
+http://metadata.google.internal
+https://www.googleapis.com/batch
+http://google.com/
+http://google.com/
+https://www.googleapis.com/auth/userinfo.email
+https://www.googleapis.com/auth/userinfo.profile
+https://www.googleapis.com/auth/youtube
+https://www.googleapis.com/auth/youtube
+https://www.googleapis.com/auth/youtube
+https://www.googleapis.com/auth/youtube.force-ssl
+https://www.googleapis.com/auth/youtube.readonly
+https://www.googleapis.com/auth/youtube.upload
+https://www.googleapis.com/auth/youtubepartner
+https://www.googleapis.com/auth/youtubepartner-channel-audit
+https://play.google.com/store/apps/details?id=com.pacificinteractive.HouseOfFun
+https://play.google.com/store/apps/details?id=com.pacificinteractive.HouseOfFun
+https://play.google.com/store/apps/details?id=com.pacificinteractive.HouseOfFun
+https://play.google.com/store/apps/details?id=com.pacificinteractive.HouseOfFun
+https://play.google.com/store/apps/details?id=com.pacificinteractive.HouseOfFun
+https://play.google.com/store/apps/details?id=com.pacificinteractive.HouseOfFun
+http://ets-lb-01.houseoffuns.com/core/services/handle.php
+https://settings.crashlytics.com/spi/v2/platforms/android/apps/%s/settings
+http://jetty.mortbay.org/configure.dtd
+http://jetty.mortbay.org/configure_1_3.dtd
+http://jetty.mortbay.org/configure_1_2.dtd
+http://jetty.mortbay.org/configure_1_1.dtd
+http://jetty.mortbay.org/configure_1_0.dtd
+http://apache.org/xml/features/validation/schema
+http://xml.org/sax/features/validation
+http://xml.org/sax/features/namespaces
+http://xml.org/sax/features/namespace-prefixes
+https://ags-ext.amazon.com/service/gamedata/WhisperData
+https://ags-ext.amazon.com/service/gamedata/WhisperData
+https://api.%s/install_data/v3/
+https://onelink.%s/shortlink-sdk/v1
+https://onelink.%s/shortlink-sdk/v1
+https://services.projone.net/reward/1.1/instrument
+http://data.flurry.com/aap.do
+https://data.flurry.com/aap.do
+https://accounts.google.com/o/oauth2/token
+https://accounts.google.com/o/oauth2/token
+https://accounts.google.com/o/oauth2/token
+https://accounts.google.com/o/oauth2/token
+https://accounts.google.com/o/oauth2/token
+https://accounts.google.com/o/oauth2/token
+https://accounts.google.com/o/oauth2/auth
+https://accounts.google.com/o/oauth2/auth
+https://accounts.google.com/o/oauth2/auth
+https://accounts.google.com/o/oauth2/auth
+http://metadata/computeMetadata/v1/instance/service-accounts/default/token
+http://metadata/computeMetadata/v1/instance/service-accounts/default/token
+http://metadata/computeMetadata/v1/instance/service-accounts/default/token
+https://e.crashlytics.com/spi/v2/events
+http://www.w3.org/2001/XMLSchema.dtd
+http://java.sun.com/xml/ns/j2ee/jsp_2_0.xsd
+http://java.sun.com/xml/ns/javaee/jsp_2_1.xsd
+http://java.sun.com/xml/ns/j2ee/j2ee_1_4.xsd
+http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd
+http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd
+http://www.w3.org/2001/xml.xsd
+http://www.w3.org/2001/datatypes.dtd
+http://www.ibm.com/webservices/xsd/j2ee_web_services_client_1_1.xsd
+http://www.ibm.com/webservices/xsd/javaee_web_services_client_1_2.xsd
+https://www.googleapis.com/
+https://www.googleapis.com/
+
+[INTERNAL_LOG][2018-06-12 08:48:30,790][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 08:48:30,810][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 08:48:30,810][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 08:48:30,810][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 08:48:30,810][INFO][analyze_start()] End time:[Tue Jun 12 08:48:30 2018]

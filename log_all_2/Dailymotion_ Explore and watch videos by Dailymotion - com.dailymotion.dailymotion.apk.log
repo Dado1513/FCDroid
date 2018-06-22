@@ -1,0 +1,125 @@
+[INTERNAL_LOG][2018-06-12 04:11:07,557][INFO][analyze_start()] Init Time [Tue Jun 12 04:11:07 2018]
+[INTERNAL_LOG][2018-06-12 04:11:07,602][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 04:11:07,603][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 04:11:07,603][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 04:11:07,603][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 04:11:07,603][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 04:11:07,603][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 04:11:07,603][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 04:11:07,603][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 04:11:07,603][INFO][is_hybird()] com.htc.album.permission.UseHtcGallery
+[INTERNAL_LOG][2018-06-12 04:11:07,603][INFO][is_hybird()] com.htc.permission.APP_MEDIA
+[INTERNAL_LOG][2018-06-12 04:11:07,603][INFO][is_hybird()] com.htc.sense.permission.album.GENERAL
+[INTERNAL_LOG][2018-06-12 04:11:07,603][INFO][is_hybird()] android.permission.CAMERA
+[INTERNAL_LOG][2018-06-12 04:11:07,603][INFO][is_hybird()] android.permission.RECORD_AUDIO
+[INTERNAL_LOG][2018-06-12 04:11:07,603][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 04:11:07,603][INFO][is_hybird()] android.permission.SYSTEM_ALERT_WINDOW
+[INTERNAL_LOG][2018-06-12 04:11:07,603][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-12 04:11:07,604][INFO][is_hybird()] com.dailymotion.dailymotion.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-12 04:11:07,604][INFO][is_hybird()] android.permission.REQUEST_INSTALL_PACKAGES
+[INTERNAL_LOG][2018-06-12 04:11:07,604][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 04:11:07,604][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 04:11:07,604][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 04:11:07,604][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 04:11:07,604][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 04:11:07,604][INFO][find_string()] File: assets/appboy-html-in-app-message-javascript-component.js
+[INTERNAL_LOG][2018-06-12 04:11:07,605][INFO][find_string()] No iframe in assets/appboy-html-in-app-message-javascript-component.js
+[INTERNAL_LOG][2018-06-12 04:11:07,605][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 04:11:52,499][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 04:11:52,499][INFO][find_url_in_apk()] http://schemas.android.com/apk/res/android
+https://attr.%s/api/v
+https://t.%s/api/v
+https://events.%s/api/v
+https://register.%s/api/v
+https://stats.%s/stats
+https://monitorsdk.%s/remote-debug?app_id=
+https://sb.scorecardresearch.com/p2?
+http://b.scorecardresearch.com/p2?
+https://udm.scorecardresearch.com/offline
+http://udm.scorecardresearch.com/offline
+https://www.dailymotion.com/embed/
+https://www.dailymotion.com/embed/
+https://static1-ssl.dmcdn.net/log/nr/daily/and
+https://www.dailymotion.com/user/
+https://www.dailymotion.com/playlist/
+https://dailymotion.zendesk.com
+https://dailymotion.com/video/%s?start=%s
+https://dailymotion.zendesk.com/api/v2/ticket_fields/{field_id}/options.json?locale={locale}
+https://stage-01.dailymotion.com/embed/
+https://faq.dailymotion.com
+https://www.dailymotion.com/legal/terms
+https://graphql-stage.api.dailymotion.com
+https://graphql.api.dailymotion.com
+https://graphql-stage.api.dailymotion.com/
+https://graphql.api.dailymotion.com/
+https://mebed-01.stg.dc3.dailymotion.com/
+https://mebed.dm.gg
+https://graph.%s
+https://graph-video.%s
+https://facebook.com
+https://facebook.com/device?user_code=%1$s&qr=1
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+https://plus.google.com/
+https://sondheim.appboy.com/api/v3/
+https://dev.appboy.com/api/v3/
+http://www.amazon.com/gp/mas/dl/android?asin=
+https://play.google.com/store/apps/details?id=
+https://api.%s/install_data/v3/
+https://onelink.%s/shortlink-sdk/v1
+http://www.dailymotion.com
+http://www.dailymotion.com/json/complete/
+https://accounts.google.com
+https://accounts.google.com
+https://accounts.google.com
+https://twitter.com
+https://www.googleapis.com/auth/games_lite
+https://www.googleapis.com/auth/games
+https://pagead2.googlesyndication.com/pagead/gen_204
+http://www.google.com
+https://support.google.com/dfp_premium/answer/7160685#push
+http://www.google-analytics.com
+https://ssl.google-analytics.com
+http://www.example.com
+http://www.example.com
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/sdk-core-v40-impl.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://csi.gstatic.com/csi
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/native_ads.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/native_ads.js
+https://imasdk.googleapis.com/admob/sdkloader/native_video.html
+https://www.google.com/dfp/linkDevice
+https://www.google.com/dfp/inAppPreview
+https://www.google.com/dfp/debugSignals
+https://www.google.com/dfp/sendDebugData
+https://app-measurement.com/a
+http://schemas.android.com/apk/lib/com.google.android.gms.plus
+http://schemas.android.com/apk/lib/com.google.android.gms.plus
+https://www.googletagmanager.com
+http://hostname/?
+http://psdev.de/LicensesDialog
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+https://api.branch.io/
+https://settings.crashlytics.com/spi/v2/platforms/android/apps/%s/settings
+https://sdk.hockeyapp.net/
+https://sdk.hockeyapp.net/
+http://localhost/
+http://localhost/
+http://localhost/
+https://goo.gl/FZRIUV
+https://bnc.lt/a/
+https://e.crashlytics.com/spi/v2/events
+
+[INTERNAL_LOG][2018-06-12 04:11:52,499][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 04:11:52,506][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 04:11:52,506][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 04:11:52,507][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 04:11:52,507][INFO][analyze_start()] End time:[Tue Jun 12 04:11:52 2018]

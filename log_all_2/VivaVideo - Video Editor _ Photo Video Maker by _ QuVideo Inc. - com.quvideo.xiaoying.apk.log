@@ -1,0 +1,522 @@
+[INTERNAL_LOG][2018-06-12 00:03:20,266][INFO][analyze_start()] Init Time [Tue Jun 12 00:03:20 2018]
+[INTERNAL_LOG][2018-06-12 00:03:20,436][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 00:03:20,438][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 00:03:20,438][INFO][is_hybird()] com.vivavideo.mobile.settings.READ
+[INTERNAL_LOG][2018-06-12 00:03:20,438][INFO][is_hybird()] com.vivavideo.mobile.settings.READ
+[INTERNAL_LOG][2018-06-12 00:03:20,438][INFO][is_hybird()] com.android.launcher.permission.INSTALL_SHORTCUT
+[INTERNAL_LOG][2018-06-12 00:03:20,438][INFO][is_hybird()] com.android.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 00:03:20,438][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 00:03:20,438][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 00:03:20,438][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 00:03:20,438][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 00:03:20,438][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 00:03:20,438][INFO][is_hybird()] com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+[INTERNAL_LOG][2018-06-12 00:03:20,438][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 00:03:20,438][INFO][is_hybird()] android.permission.RECEIVE_BOOT_COMPLETED
+[INTERNAL_LOG][2018-06-12 00:03:20,438][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-12 00:03:20,438][INFO][is_hybird()] android.permission.MODIFY_AUDIO_SETTINGS
+[INTERNAL_LOG][2018-06-12 00:03:20,438][INFO][is_hybird()] android.permission.CAMERA
+[INTERNAL_LOG][2018-06-12 00:03:20,439][INFO][is_hybird()] android.permission.RECORD_AUDIO
+[INTERNAL_LOG][2018-06-12 00:03:20,439][INFO][is_hybird()] android.permission.READ_PHONE_STATE
+[INTERNAL_LOG][2018-06-12 00:03:20,439][INFO][is_hybird()] android.permission.BAIDU_LOCATION_SERVICE
+[INTERNAL_LOG][2018-06-12 00:03:20,439][INFO][is_hybird()] android.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 00:03:20,439][INFO][is_hybird()] com.quvideo.xiaoying.permission.JPUSH_MESSAGE
+[INTERNAL_LOG][2018-06-12 00:03:20,439][INFO][is_hybird()] android.permission.RECEIVE_USER_PRESENT
+[INTERNAL_LOG][2018-06-12 00:03:20,439][INFO][is_hybird()] android.permission.ACCESS_COARSE_LOCATION
+[INTERNAL_LOG][2018-06-12 00:03:20,439][INFO][is_hybird()] android.permission.ACCESS_FINE_LOCATION
+[INTERNAL_LOG][2018-06-12 00:03:20,439][INFO][is_hybird()] android.permission.ACCESS_FINE_LOCATION
+[INTERNAL_LOG][2018-06-12 00:03:20,439][INFO][is_hybird()] android.permission.GET_TASKS
+[INTERNAL_LOG][2018-06-12 00:03:20,439][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-12 00:03:20,439][INFO][is_hybird()] com.quvideo.xiaoying.permission.MIPUSH_RECEIVE
+[INTERNAL_LOG][2018-06-12 00:03:20,439][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-12 00:03:20,439][INFO][is_hybird()] com.quvideo.xiaoying.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-12 00:03:20,439][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 00:03:20,439][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 00:03:20,439][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 00:03:20,439][INFO][find_string()] File: assets/mobvista_jscommon_authtext.html
+[INTERNAL_LOG][2018-06-12 00:03:20,442][INFO][find_string()] No iframe in assets/mobvista_jscommon_authtext.html
+[INTERNAL_LOG][2018-06-12 00:03:20,442][INFO][find_string()] File: assets/pingpp_web.html
+[INTERNAL_LOG][2018-06-12 00:03:20,443][INFO][find_string()] No iframe in assets/pingpp_web.html
+[INTERNAL_LOG][2018-06-12 00:03:20,443][INFO][find_string()] File: assets/GDPR.html
+[INTERNAL_LOG][2018-06-12 00:03:20,446][INFO][find_string()] No iframe in assets/GDPR.html
+[INTERNAL_LOG][2018-06-12 00:03:20,446][INFO][find_string()] File: assets/xiaoying/help/index.html
+[INTERNAL_LOG][2018-06-12 00:03:20,446][INFO][find_string()] No iframe in assets/xiaoying/help/index.html
+[INTERNAL_LOG][2018-06-12 00:03:20,446][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 00:03:20,447][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 00:03:20,447][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 00:05:06,591][INFO][find_url_in_apk()] [START URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-12 00:05:06,591][INFO][find_url_in_apk()] https://play.google.com/store/apps/
+http://play.google.com/store/apps/
+http://m.alipay.com/?action=h5quit
+http://qzs.qq.com/open/mobile/login/qzsjump.html?
+https://hybrid.xiaoying.tv/web/vivavideo/agreement.html
+http://www1.xiaoying.tv/userprotocol/userprotocol.html
+
+[INTERNAL_LOG][2018-06-12 00:05:06,591][INFO][find_url_in_apk()] [END URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-12 00:05:07,152][ERROR][download_page_loaded()] Failed download: https://play.google.com/store/apps/ for exception [Errno 21] Is a directory: 'temp_html_code/html_downloaded_VivaVideo - Video Editor _ Photo Video Maker by _ QuVideo Inc/'
+[INTERNAL_LOG][2018-06-12 00:05:08,166][ERROR][download_page_loaded()] Failed download: http://play.google.com/store/apps/ for exception [Errno 21] Is a directory: 'temp_html_code/html_downloaded_VivaVideo - Video Editor _ Photo Video Maker by _ QuVideo Inc/'
+[INTERNAL_LOG][2018-06-12 00:05:12,360][INFO][find_string()] [START REMOTE FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 00:05:12,360][INFO][find_string()] Remote File in: temp_html_code/html_downloaded_VivaVideo - Video Editor _ Photo Video Maker by _ QuVideo Inc/?action=h5quit
+[INTERNAL_LOG][2018-06-12 00:05:12,360][INFO][find_string()] URL: http://m.alipay.com/?action=h5quit
+[INTERNAL_LOG][2018-06-12 00:05:12,367][INFO][find_string()] No iframe in temp_html_code/html_downloaded_VivaVideo - Video Editor _ Photo Video Maker by _ QuVideo Inc/?action=h5quit
+[INTERNAL_LOG][2018-06-12 00:05:12,367][INFO][find_string()] Remote File in: temp_html_code/html_downloaded_VivaVideo - Video Editor _ Photo Video Maker by _ QuVideo Inc/qzsjump.html?
+[INTERNAL_LOG][2018-06-12 00:05:12,367][INFO][find_string()] URL: http://qzs.qq.com/open/mobile/login/qzsjump.html?
+[INTERNAL_LOG][2018-06-12 00:05:12,372][INFO][find_string()] Found this tag <iframe id="jumpIframe" style="display:none;"></iframe>
+[INTERNAL_LOG][2018-06-12 00:05:12,372][INFO][find_string()] Found in file temp_html_code/html_downloaded_VivaVideo - Video Editor _ Photo Video Maker by _ QuVideo Inc/qzsjump.html? tag iframe , 1 times
+[INTERNAL_LOG][2018-06-12 00:05:12,372][INFO][find_string()] No src founded in iframe tag inside file temp_html_code/html_downloaded_VivaVideo - Video Editor _ Photo Video Maker by _ QuVideo Inc/qzsjump.html?
+[INTERNAL_LOG][2018-06-12 00:05:12,375][INFO][find_string()] No CSP found!
+[INTERNAL_LOG][2018-06-12 00:05:12,375][INFO][find_string()] Remote File in: temp_html_code/html_downloaded_VivaVideo - Video Editor _ Photo Video Maker by _ QuVideo Inc/agreement.html
+[INTERNAL_LOG][2018-06-12 00:05:12,375][INFO][find_string()] URL: https://hybrid.xiaoying.tv/web/vivavideo/agreement.html
+[INTERNAL_LOG][2018-06-12 00:05:12,398][INFO][find_string()] No iframe in temp_html_code/html_downloaded_VivaVideo - Video Editor _ Photo Video Maker by _ QuVideo Inc/agreement.html
+[INTERNAL_LOG][2018-06-12 00:05:12,398][INFO][find_string()] Remote File in: temp_html_code/html_downloaded_VivaVideo - Video Editor _ Photo Video Maker by _ QuVideo Inc/userprotocol.html
+[INTERNAL_LOG][2018-06-12 00:05:12,399][INFO][find_string()] URL: http://www1.xiaoying.tv/userprotocol/userprotocol.html
+[INTERNAL_LOG][2018-06-12 00:05:12,405][INFO][find_string()] No iframe in temp_html_code/html_downloaded_VivaVideo - Video Editor _ Photo Video Maker by _ QuVideo Inc/userprotocol.html
+[INTERNAL_LOG][2018-06-12 00:05:12,405][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 00:05:12,405][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 00:05:12,405][INFO][find_url_in_apk()] https://viva.api.xiaoying.co/api/rest/service/user/
+https://api.instagram.com/v1/users/self/media/recent?access_token=
+http://www.xiaoying.tv/api/
+http://www.vivavideo.tv/
+http://www.vivavideo.tv/
+https://api.instagram.com/oauth/access_token
+https://api.instagram.com/oauth/authorize/?client_id=
+https://api.weibo.com
+https://api.weibo.com/oauth2/default.html
+https://api.weixin.qq.com/sns/oauth2/access_token
+https://api.weixin.qq.com/sns/userinfo
+https://play.google.com/store/apps/
+https://play.google.com/store/apps/
+https://play.google.com/store/apps/
+https://play.google.com/store/apps/
+https://viva.api.xiaoying.co/api/rest/
+https://viva.api.xiaoying.co/api/rest/
+http://hybrid.xiaoying.tv/vivavideo/help/cn/FAQindex.html
+http://hybrid.xiaoying.tv/vivavideo/help/cn/FAQindex.html
+https://hybrid.xiaoying.tv/web/active/arFAQ0118/index.html#/
+https://hybrid.xiaoying.tv/web/active/arFAQ0118/index.html#/
+https://hybrid.xiaoying.tv/web/active/arFAQ0118/index.html#/
+http://hybrid.xiaoying.tv/vivavideo/help/en/FAQindex.html
+http://hybrid.xiaoying.tv/vivavideo/help/en/FAQindex.html
+http://api.giphy.com/v1/gifs
+http://api.giphy.com/v1/stickers
+http://acs.amazonaws.com/groups/global/AllUsers
+http://acs.amazonaws.com/groups/global/AuthenticatedUsers
+http://acs.amazonaws.com/groups/s3/LogDelivery
+http://www.w3.org/2001/XMLSchema-instance
+http://www.w3.org/2001/XMLSchema-instance
+http://www.w3.org/2001/XMLSchema-instance
+http://s3.amazonaws.com/doc/2006-03-01/
+http://s3.amazonaws.com/doc/2006-03-01/
+http://s3.amazonaws.com/doc/2006-03-01/
+http://s3.amazonaws.com/doc/2006-03-01/
+http://s3.amazonaws.com/doc/2006-03-01/
+http://s3.amazonaws.com/doc/2006-03-01/
+http://s3.amazonaws.com/doc/2006-03-01/
+http://s3.amazonaws.com/doc/2006-03-01/
+http://s3.amazonaws.com/doc/2006-03-01/
+http://s3.amazonaws.com/doc/2006-03-01/
+http://s3.amazonaws.com/doc/2006-03-01/
+http://s3.amazonaws.com/doc/2006-03-01/
+https://onelink.%s/shortlink-sdk/v1
+https://monitorsdk.%s/remote-debug?app_id=
+https://api.%s/install_data/v3/
+https://attr.%s/api/v
+https://t.%s/api/v
+https://events.%s/api/v
+https://register.%s/api/v
+https://stats.%s/stats
+https://api.map.baidu.com/sdkcs/verify
+https://api.map.baidu.com/sdkcs/verify
+http://loc.map.baidu.com/cc.php
+http://itsdata.map.baidu.com/long-conn-gps/sdk.php
+http://loc.map.baidu.com/sdk.php
+http://loc.map.baidu.com/sdk_ep.php
+http://loc.map.baidu.com/user_err.php
+http://loc.map.baidu.com/oqur.php
+http://loc.map.baidu.com/tcu.php
+http://loc.map.baidu.com/rtbu.php
+http://loc.map.baidu.com/iofd.php
+http://loc.map.baidu.com/wloc
+https://loc.map.baidu.com/sdk.php
+https://daup.map.baidu.com/cltr/rcvr
+https://api.cloudmobi.net/api/
+https://logger.cloudmobi.net/
+https://v.cloudmobi.net/video/v4/creative/get
+https://v.cloudmobi.net/video/v4/ad/get
+http://www.cloudmobi.net
+http://cdn.image.cloudmobi.net/default/icon/20/20/corner/icon.png
+https://mblapi.ssl2.duapps.com/adunion/slot/getDlAd?
+https://mblapi.ssl2.duapps.com/adunion/slot/getDlAd?
+https://mblapi.ssl2.duapps.com/adunion/rtb/getInmobiAd?
+https://mblapi.ssl2.duapps.com/adunion/rtb/getInmobiAd?
+https://mblapi.ssl2.duapps.com/adunion/rtb/fetchAd?
+https://mblapi.ssl2.duapps.com/adunion/rtb/fetchAd?
+http://sandbox.duapps.com:8124/adunion/slot/getDlAd?
+http://sandbox.duapps.com:8124/adunion/rtb/getInmobiAd?
+http://sandbox.duapps.com:8124/adunion/rtb/fetchAd?
+https://mblapi.ssl2.duapps.com/adunion/slot/tdmr?
+https://mblapi.ssl2.duapps.com/adunion/slot/getSrcPrio?
+https://mblapi.ssl2.duapps.com/adunion/slot/getSrcPrio?
+https://mblapi.ssl2.duapps.com/adunion/slot/getSrcPrio?
+https://mblapi.ssl2.duapps.com/adunion/slot/getSrcPrio?
+http://sandbox.duapps.com:8124/adunion/slot/getSrcPrio?
+http://sandbox.duapps.com:8124/adunion/slot/getSrcPrio?
+https://rts.ssl2.duapps.com/orts/rp?
+https://rts.ssl2.duapps.com/orts/rp?
+https://rts.ssl2.duapps.com/orts/rpb?
+https://rts.ssl2.duapps.com/orts/rpb?
+http://sandbox.duapps.com:8124/orts/rp?
+http://sandbox.duapps.com:8124/orts/rpb?
+http://market.android.com
+https://market.android.com
+https://play.google.com
+https://play.google.com
+https://play.google.com
+https://play.google.com
+https://play.google.com
+https://play.google.com
+https://play.google.com
+http://play.google.com
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+https://m.facebook.com/terms
+https://m.facebook.com/terms
+https://m.facebook.com/terms
+https://m.facebook.com/about/privacy/
+https://m.facebook.com/about/privacy/
+https://m.facebook.com/about/privacy/
+https://m.facebook.com/policies/cookies/
+https://m.facebook.com/policies/cookies/
+https://m.facebook.com/policies/cookies/
+https://www.accountkit.com/faq
+https://www.accountkit.com/faq
+https://www.accountkit.com/faq
+https://play.google.com/store/apps/details?id=%s
+https://www.facebook.com/audience_network/server_side_reward
+https://www.%s.facebook.com/audience_network/server_side_reward
+https://graph.facebook.com/network_ads_common
+https://graph.%s.facebook.com/network_ads_common
+https://www.facebook.com/adnw_logging/
+https://www.%s.facebook.com/adnw_logging/
+http://play.google.com/store/apps/
+http://play.google.com/store/apps/
+https://www.facebook.com/
+https://www.facebook.com/
+https://www.facebook.com/
+https://www.facebook.com/
+https://www.facebook.com/
+https://www.%s.facebook.com
+http://www.facebook.com
+https://graph.%s
+https://graph-video.%s
+https://facebook.com
+https://facebook.com/device?user_code=%1$s&qr=1
+http://offlinelog.faceplusplus.com/log/newlog
+https://data.flurry.com/pcr.do
+http://data.flurry.com/aap.do
+https://data.flurry.com/aap.do
+https://proton.flurry.com/sdk/v1/config
+http://schemas.microsoft.com/DRM/2007/03/protocols/AcquireLicense
+http://www.w3.org/ns/ttml#parameter
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+http://hostname/?
+http://hostname/?
+https://accounts.google.com
+https://www.facebook.com
+https://www.googleapis.com/auth/games_lite
+https://www.googleapis.com/auth/games
+https://plus.google.com/
+http://www.google.com
+https://support.google.com/dfp_premium/answer/7160685#push
+http://www.google-analytics.com
+https://ssl.google-analytics.com
+https://app-measurement.com/a
+https://www.google.com
+http://www.example.com
+http://www.example.com
+https://www.googletagmanager.com
+https://itunes.apple.com
+https://itunes.apple.com
+http://play.google.com/store/apps/details?id=
+http://hybird.rayjump.com/rv/authoriztion.html
+http://analytics.rayjump.com
+http://net.rayjump.com
+http://setting.rayjump.com
+https://play.google.com/
+https://play.google.com/
+https://play.google.com/
+http://schemas.android.com/apk/res/android
+http://182.92.20.189:9099/
+https://app.adjust.com
+http://m-adash.m.taobao.com/rest/sur
+https://adashbc.ut.taobao.com/rest/sur
+https://adashxgc.ut.taobao.com/rest/gc2
+https://mobilegw.alipay.com/mgw.htm
+http://mobilegw.stable.alipay.net/mgw.htm
+http://mobilegw-1-64.test.alipay.net/mgw.htm
+http://mobilegw.aaa.alipay.net/mgw.htm
+http://mobilegw.alipay.com/mgw.htm
+http://h5.m.taobao.com/trade/paySuccess.html?bizOrderId=$OrderId$&
+http://h5.m.taobao.com/trade/paySuccess.html?bizOrderId=$OrderId$&
+http://h5.m.taobao.com/trade/paySuccess.html?bizOrderId=$OrderId$&
+http://h5.m.taobao.com/trade/paySuccess.html?bizOrderId=$OrderId$&
+http://h5.m.taobao.com/trade/paySuccess.html?bizOrderId=$OrderId$&
+http://h5.m.taobao.com/trade/paySuccess.html?bizOrderId=$OrderId$&
+http://h5.m.taobao.com/trade/paySuccess.html?bizOrderId=$OrderId$&
+http://mcgw.alipay.com/sdklog.do
+http://m.alipay.com/?action=h5quit
+http://gtsdk.batmobi.net/sdk/priority
+http://sts.batmobi.net/commonstat
+http://net.cleverjp.com/
+https://s3-us-west-1.amazonaws.com
+http://www.android.com/
+https://pagead2.googlesyndication.com/pagead/gen_204
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/sdk-core-v40-impl.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://csi.gstatic.com/csi
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/native_ads.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/native_ads.js
+https://imasdk.googleapis.com/admob/sdkloader/native_video.html
+https://www.google.com/dfp/linkDevice
+https://www.google.com/dfp/inAppPreview
+https://www.google.com/dfp/debugSignals
+https://www.google.com/dfp/sendDebugData
+https://hybrid.xiaoying.tv/web/xiaoying/upend/upend10.html
+http://d.api.xiaoying.co/api/rest/d
+http://a.api.xiaoying.co/api/rest/a
+http://u.api.xiaoying.co/api/rest/u
+http://v.api.xiaoying.co/api/rest/v
+http://v.api.xiaoying.co/api/rest/v
+http://s.api.xiaoying.co/api/rest/s
+http://s.api.xiaoying.co/api/rest/s
+http://r.api.xiaoying.co/api/rest/r
+http://r.api.xiaoying.co/api/rest/r
+http://m.api.xiaoying.co/api/rest/m
+http://m.api.xiaoying.co/api/rest/m
+http://t.api.xiaoying.co/api/rest/t
+http://t.api.xiaoying.co/api/rest/t
+http://y.api.xiaoying.co/api/rest/y
+http://y.api.xiaoying.co/api/rest/y
+http://p.api.xiaoying.co/api/rest/p
+http://p.api.xiaoying.co/api/rest/p
+http://g.api.xiaoying.co/api/rest/g
+http://g.api.xiaoying.co/api/rest/g
+http://search.api.xiaoying.co/api/rest/search
+http://search.api.xiaoying.co/api/rest/search
+http://h.api.xiaoying.co/api/rest/h
+http://s.api.xiaoying.co/api/rest/ad
+http://s.api.xiaoying.co/api/rest/ad
+http://push.api.xiaoying.co/api/rest/push
+http://push.api.xiaoying.co/api/rest/push
+http://push.api.xiaoying.co/api/rest/push
+http://d.api.pre.xiaoying.co/api/rest/d
+http://a.api.pre.xiaoying.co/api/rest/a
+http://u.api.pre.xiaoying.co/api/rest/u
+http://v.api.pre.xiaoying.co/api/rest/v
+http://v.api.pre.xiaoying.co/api/rest/v
+http://s.api.pre.xiaoying.co/api/rest/s
+http://s.api.pre.xiaoying.co/api/rest/s
+http://r.api.pre.xiaoying.co/api/rest/r
+http://r.api.pre.xiaoying.co/api/rest/r
+http://m.api.pre.xiaoying.co/api/rest/m
+http://m.api.pre.xiaoying.co/api/rest/m
+http://t.api.pre.xiaoying.co/api/rest/t
+http://t.api.pre.xiaoying.co/api/rest/t
+http://y.api.pre.xiaoying.co/api/rest/y
+http://y.api.pre.xiaoying.co/api/rest/y
+http://p.api.pre.xiaoying.co/api/rest/p
+http://p.api.pre.xiaoying.co/api/rest/p
+http://g.api.pre.xiaoying.co/api/rest/g
+http://g.api.pre.xiaoying.co/api/rest/g
+http://search.api.pre.xiaoying.co/api/rest/search
+http://search.api.pre.xiaoying.co/api/rest/search
+http://h.api.pre.xiaoying.co/api/rest/h
+http://s.api.pre.xiaoying.co/api/rest/ad
+http://s.api.pre.xiaoying.co/api/rest/ad
+http://push.api.pre.xiaoying.co/api/rest/push
+http://push.api.pre.xiaoying.co/api/rest/push
+http://push.api.pre.xiaoying.co/api/rest/push
+https://j8ef.app.link/oblilMrBIB
+https://j8ef.app.link/oblilMrBIB
+http://hybrid.xiaoying.tv/vivavideo/track_data.zip
+https://d.api.xiaoying.co/api/rest/d
+https://a.api.xiaoying.co/api/rest/a
+https://u.api.xiaoying.co/api/rest/u
+https://h.api.xiaoying.co/api/rest/h
+https://d.api.pre.xiaoying.co/api/rest/d
+https://a.api.pre.xiaoying.co/api/rest/a
+https://u.api.pre.xiaoying.co/api/rest/u
+https://h.api.pre.xiaoying.co/api/rest/h
+http://xiaoying.tv
+http://xiaoying.tv
+https://open.weibo.cn/oauth2/authorize?
+https://stats.cn.ronghub.com/active.json
+http://nav.cn.ronghub.com/navipush.json
+https://api.weibo.com/oauth2/access_token
+https://api.weibo.com/2/proxy/sdk/statistic.json
+https://api.weibo.com/oauth2/getaid.json
+https://api.weibo.com/oauth2/getaid.json
+http://m.weibo.cn/comment?
+http://m.weibo.cn/index/router?
+http://m.weibo.cn/index/router?
+https://m.weibo.cn/p/100103type=1&
+http://m.weibo.cn/mblog?
+http://m.weibo.cn/u/
+http://m.weibo.cn/
+http://media.weibo.cn/article?
+http://service.weibo.com/share/mobilesdk_uppic.php
+http://service.weibo.com/share/mobilesdk.php
+http://hydra.alibaba.com/
+http://xmlpull.org/v1/doc/features.html#indent-output
+http://xmlpull.org/v1/doc/features.html#indent-output
+http://openmobile.qq.com/oauth2.0/m_jump_by_version?
+http://qzs.qq.com/open/mobile/login/qzsjump.html?
+http://qzs.qq.com/open/mobile/login/qzsjump.html?
+http://qzs.qq.com/open/mobile/login/qzsjump.html?
+http://appsupport.qq.com/cgi-bin/qzapps/mapp_addapp.cgi
+http://appsupport.qq.com/cgi-bin/qzapps/mapp_addapp.cgi
+https://openmobile.qq.com/oauth2.0/m_authorize?
+https://openmobile.qq.com/user/user_login_statis
+https://openmobile.qq.com/v3/user/get_info
+http://fusion.qq.com/cgi-bin/qzapps/unified_jump?appid=%1$s&from=%2$s&isOpenAppID=1
+http://fusion.qq.com/cgi-bin/qzapps/unified_jump?appid=%1$s&from=%2$s&isOpenAppID=1
+https://open.weixin.qq.com/connect/sdk/qrconnect?appid=%s&noncestr=%s&timestamp=%s&scope=%s&signature=%s
+https://long.open.weixin.qq.com/connect/l/qrconnect?f=json&uuid=%s
+https://long.open.weixin.qq.com/connect/l/qrconnect?f=json&uuid=%s
+http://open.weixin.qq.com/connect/sdk/qrconnect?appid=%s&noncestr=%s&timestamp=%s&scope=%s&signature=%s
+http://qzs.qq.com/open/mobile/request/sdk_request.html?
+http://qzs.qq.com/open/mobile/invite/sdk_invite.html?
+http://qzs.qq.com/open/mobile/sendstory/sdk_sendstory_v1.3.html?
+http://qzs.qq.com
+http://c.isdspeed.qq.com/code.cgi
+http://wspeed.qq.com/w.cgi
+http://appsupport.qq.com/cgi-bin/appstage/mstats_batch_report
+https://openmobile.qq.com/
+http://cgi.connect.qq.com/qqconnectopen/openapi/policy_conf
+http://pingma.qq.com:80/mstat/report
+https://api.twitter.com
+https://syndication.twitter.com
+http://alog.umeng.com/app_logs
+http://alog.umengcloud.com/app_logs
+http://log.umsns.com/share/api/
+http://oc.umeng.com/v2/check_config_update
+http://oc.umeng.com/v2/get_update_time
+http://video.batmobi.net/api/v1/video?serviceid=1
+http://play.google.com/store/apps/details
+https://play.google.com/store/apps/details
+https://play.google.com/store/apps/details
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+http://resolver.msg.xiaomi.net/psc/?t=a
+https://cmnsguider.yunos.com:443/genDeviceToken
+https://uop.umeng.com
+https://e.crashlytics.com/spi/v2/events
+https://settings.crashlytics.com/spi/v2/platforms/android/apps/%s/settings
+https://api.branch.io/
+https://bnc.lt/a/
+http://feedback.cn.ronghub.com
+http://nav.cn.ronghub.com/navi.xml
+http://nav.cn.ronghub.com/navi.xml
+https://access.line.me
+https://api.line.me
+http://detect.rayjump.com/mapi/find
+http://detect.rayjump.com/mapi/result
+https://statistics.pingxx.com/report
+http://sissi.pingxx.com/mock.php?ch_id=%s&channel=%s
+http://sissi.pingxx.com/mock.php?ch_id=%s&channel=%s&or_id=%s
+https://www.baifubao.com/wap/0/wallet/0/transaction/0
+https://m.baifubao.com/
+http://wappass.baidu.com/passport/reg?
+http://wappass.baidu.com/passport/getpass?
+http://wappass.baidu.com/passport/agreement?
+https://netpay.cmbchina.com/netpayment/BaseHttp.dll?MB_EUserP_PayOK
+http://61.144.248.29:801/netpayment/BaseHttp.dll?MB_EUserP_PayOK
+http://m.mall.fenqile.com/app/order/result/
+http://m.mall.fenqile.com/app/order/result/
+http://bt.xyqb.com/order-landing?
+https://wap.memedai.cn/merchantApp/sdk/web/ending?
+https://wap.memedai.cn/merchantApp/sdk/web/ending?
+http://wapzt.189.cn/pages/login/login_userLogin.html#/pages/password/passwordNoLogin.html
+https://uac.10010.com/cust/resetpwd/inputName
+http://bj.ac.10086.cn/login
+http://pingxx/?payResult=success
+http://m.mall.fenqile.com/
+http://m.fenqile.com/
+https://h5pay.jd.com/jdpay/payResult?
+https://m.jdpay.com/wepay/web/pay
+https://www.jdpay.com/
+https://ok.yeepay.com/paymobile/api/pay/request?merchantaccount=%s&encryptkey=%s&data=%s
+http://mobiletest.yeepay.com/paymobile/api/pay/request?merchantaccount=%s&encryptkey=%s&data=%s
+http://shouyin.yeepay.com/nc-cashier-wap/wap/query/result
+https://ok.yeepay.com/paymobile/query/pay/success?
+http://mobiletest.yeepay.com/paymobile/query/pay/success?
+http://52.38.247.56:8800/v3/sdk-api
+https://sdkvideo.s3.amazonaws.com/21b4e810618f8719c209eef568606f4c.js
+https://hybrid.xiaoying.tv/web/live/process.html
+https://hybrid.xiaoying.tv/web/vivavideo_logo.jpg
+https://hybrid.xiaoying.tv/web/vivavideo_logo.jpg
+https://hybrid.xiaoying.tv/web/vivavideo_logo.jpg
+https://hybrid.xiaoying.tv/web/vivavideo_logo.jpg
+https://hybrid.xiaoying.tv/web/vivavideo_logo.jpg
+https://hybrid.xiaoying.tv/web/vivavideo_logo.jpg
+https://impression.appsflyer.com/
+https://app.appsflyer.com/
+https://hybrid.xiaoying.tv/web/vivavideo/h5template/h5/index.html?id=557
+http://s.api.xiaoying.co/api/rest/rt/appconfig
+http://graph.facebook.com/
+https://hybrid.xiaoying.tv/web/vivaVideo/TermsPrivacy.html
+https://hybrid.xiaoying.tv/web/vivaVideo/TermsPrivacy.html
+http://hybrid.xiaoying.tv/web/vivaVideo/index/TermsCN.html
+http://market.android.com/support/bin/answer.py?answer=1050566&amp;hl=%lang%&amp;dl=%region%
+http://market.android.com/support/bin/answer.py?answer=1050566&amp;hl=%lang%&amp;dl=%region%
+http://rt.api.xiaoying.co/api/rest/rt/
+http://rt.api.xiaoying.co/api/rest/rt/
+http://s-qa.api.xiaoying.co/api/rest/rt/
+http://s-dev.api.xiaoying.co/api/rest/rt
+http://rt.uwx1.xyz/api/rest/rt/
+https://hybrid.xiaoying.tv/web/vivavideo/agreement.html
+http://www1.xiaoying.tv/userprotocol/userprotocol.html
+https://j8ef.app.link/do1ZOvOVLB
+http://www.xiaoying.tv/
+https://xiaoying.tv/FAQ
+http://www.amazon.com/gp/mas/dl/android?p=[
+http://www.facebook.com/vivavideoapp
+http://www.facebook.com/vivavideoapp
+https://twitter.com/vivavideoapp
+https://twitter.com/vivavideoapp
+http://instagram.com/_u/
+http://instagram.com/_u/
+http://instagram.com/
+http://instagram.com/
+https://xiaoying.tv/
+http://vivavideo.tv/
+http://meast.vivavideo.tv/
+http://asia.vivavideo.tv/
+http://admaster.union.ucweb.com/appwall
+https://hybrid.xiaoying.tv/web/vivaVideo/GDPR.html?Language=
+https://hybrid.xiaoying.tv/web/vivaVideo/daren/index/index.html?a=
+http://hybrid.xiaoying.tv/web/vcm/grade/creator/a.html#/
+http://reportevent.xiaoying.co/event
+
+[INTERNAL_LOG][2018-06-12 00:05:12,406][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 00:05:12,417][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 00:05:12,418][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 00:05:12,418][INFO][analyze_start()] This app might be vulnerable on attack frame confusion, This file are vulnerable ['temp_html_code/html_downloaded_VivaVideo - Video Editor _ Photo Video Maker by _ QuVideo Inc/qzsjump.html?']
+[INTERNAL_LOG][2018-06-12 00:05:12,418][INFO][analyze_start()] End time:[Tue Jun 12 00:05:12 2018]

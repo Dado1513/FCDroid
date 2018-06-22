@@ -1,0 +1,124 @@
+[INTERNAL_LOG][2018-06-12 06:29:30,512][INFO][analyze_start()] Init Time [Tue Jun 12 06:29:30 2018]
+[INTERNAL_LOG][2018-06-12 06:29:30,536][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 06:29:30,536][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 06:29:30,536][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 06:29:30,537][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 06:29:30,537][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-12 06:29:30,537][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 06:29:30,537][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-12 06:29:30,537][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 06:29:30,537][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 06:29:30,537][INFO][is_hybird()] com.android.vending.CHECK_LICENSE
+[INTERNAL_LOG][2018-06-12 06:29:30,537][INFO][is_hybird()] android.permission.READ_CONTACTS
+[INTERNAL_LOG][2018-06-12 06:29:30,537][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-12 06:29:30,537][INFO][is_hybird()] android.permission.GET_TASKS
+[INTERNAL_LOG][2018-06-12 06:29:30,537][INFO][is_hybird()] com.ketchapp.zigzaggame.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-12 06:29:30,537][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 06:29:30,537][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 06:29:30,537][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 06:29:30,537][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 06:29:30,537][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 06:29:30,537][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 06:29:56,286][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 06:29:56,286][INFO][find_url_in_apk()] https://www.googleapis.com/games/v1management/leaderboards/
+https://www.googleapis.com/games/v1management/achievements/reset?access_token=
+https://www.googleapis.com/games/v1management/achievements/
+https://ad6.liverail.com/
+https://ad6.%s.liverail.com/
+https://graph.facebook.com/network_ads_common/
+https://graph.%s.facebook.com/network_ads_common/
+https://www.facebook.com/
+https://www.%s.facebook.com
+http://www.google-analytics.com
+https://ssl.google-analytics.com
+https://www.googleapis.com/auth/appstate
+https://www.googleapis.com/auth/appstate
+https://accounts.google.com
+https://www.facebook.com
+http://plus.google.com/
+https://www.googleapis.com/auth/drive.file
+https://www.googleapis.com/auth/drive.appdata
+https://www.googleapis.com/auth/drive
+https://www.googleapis.com/auth/drive.apps
+https://www.googleapis.com/auth/fitness.activity.read
+https://www.googleapis.com/auth/fitness.activity.read
+https://www.googleapis.com/auth/fitness.activity.write
+https://www.googleapis.com/auth/fitness.activity.write
+https://www.googleapis.com/auth/fitness.location.read
+https://www.googleapis.com/auth/fitness.location.read
+https://www.googleapis.com/auth/fitness.location.write
+https://www.googleapis.com/auth/fitness.location.write
+https://www.googleapis.com/auth/fitness.body.read
+https://www.googleapis.com/auth/fitness.body.read
+https://www.googleapis.com/auth/fitness.body.write
+https://www.googleapis.com/auth/fitness.body.write
+https://www.googleapis.com/auth/fitness.nutrition.read
+https://www.googleapis.com/auth/fitness.nutrition.read
+https://www.googleapis.com/auth/fitness.nutrition.write
+https://www.googleapis.com/auth/fitness.nutrition.write
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games.firstparty
+https://www.googleapis.com/auth/games.firstparty
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://csi.gstatic.com/csi
+http://www.google.com
+https://www.google-analytics.com
+https://www.googleapis.com/auth/plus.login
+https://www.googleapis.com/auth/plus.me
+http://schemas.android.com/apk/lib/com.google.android.gms.plus
+http://schemas.android.com/apk/lib/com.google.android.gms.plus
+http://hostname/?
+http://hostname/?
+https://www.googletagmanager.com
+http://www.w3.org/2001/XMLSchema
+http://ads.heyzap.com/in_game_api/ads
+https://med.heyzap.com/click
+https://med.heyzap.com/fetch
+https://med.heyzap.com/impression
+https://med.heyzap.com/complete
+https://androidads21.adcolony.com/configure
+http://play.google.com/store/apps/details?id=
+http://www.facebook.com/ketchappgames
+http://www.facebook.com/mauigogames
+http://presselite.com/iphone/pushnotification/interstitiel_android.php?app=zigzag
+https://twitter.com/ketchappgames
+https://twitter.com/mauigogames
+https://impact.applifier.com/mobile/campaigns
+https://med.heyzap.com/start
+https://med.heyzap.com/mediate
+https://med.heyzap.com/info
+https://x.heyzap.com/_/0/ad
+https://impact.staging.applifier.com/mobile/campaigns
+http://api.vungle.com/api/v1/
+http://twitter4j.org/en/twitter4j-
+http://api.twitter.com/oauth/request_token
+http://api.twitter.com/oauth/request_token
+http://api.twitter.com/oauth/authorize
+http://api.twitter.com/oauth/authorize
+http://api.twitter.com/oauth/access_token
+http://api.twitter.com/oauth/access_token
+http://api.twitter.com/oauth/authenticate
+http://api.twitter.com/oauth/authenticate
+https://api.twitter.com/oauth2/token
+https://api.twitter.com/oauth2/invalidate_token
+http://api.twitter.com/1.1/
+http://api.twitter.com/1.1/
+https://stream.twitter.com/1.1/
+https://userstream.twitter.com/1.1/
+https://sitestream.twitter.com/1.1/
+
+[INTERNAL_LOG][2018-06-12 06:29:56,286][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 06:29:56,290][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 06:29:56,290][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 06:29:56,290][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 06:29:56,290][INFO][analyze_start()] End time:[Tue Jun 12 06:29:56 2018]

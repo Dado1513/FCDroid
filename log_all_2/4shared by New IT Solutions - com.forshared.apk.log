@@ -1,0 +1,311 @@
+[INTERNAL_LOG][2018-06-12 00:56:59,609][INFO][analyze_start()] Init Time [Tue Jun 12 00:56:59 2018]
+[INTERNAL_LOG][2018-06-12 00:56:59,684][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 00:56:59,685][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 00:56:59,685][INFO][is_hybird()] android.permission.ACCESS_FINE_LOCATION
+[INTERNAL_LOG][2018-06-12 00:56:59,685][INFO][is_hybird()] android.permission.ACCESS_COARSE_LOCATION
+[INTERNAL_LOG][2018-06-12 00:56:59,685][INFO][is_hybird()] android.permission.READ_PHONE_STATE
+[INTERNAL_LOG][2018-06-12 00:56:59,685][INFO][is_hybird()] com.google.android.providers.gsf.permission.READ_GSERVICES
+[INTERNAL_LOG][2018-06-12 00:56:59,685][INFO][is_hybird()] com.google.android.gms.permission.ACTIVITY_RECOGNITION
+[INTERNAL_LOG][2018-06-12 00:56:59,685][INFO][is_hybird()] com.forshared.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-12 00:56:59,685][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-12 00:56:59,685][INFO][is_hybird()] android.permission.READ_CONTACTS
+[INTERNAL_LOG][2018-06-12 00:56:59,685][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 00:56:59,685][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 00:56:59,685][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 00:56:59,685][INFO][is_hybird()] android.permission.USE_CREDENTIALS
+[INTERNAL_LOG][2018-06-12 00:56:59,685][INFO][is_hybird()] android.permission.MANAGE_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 00:56:59,685][INFO][is_hybird()] android.permission.AUTHENTICATE_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 00:56:59,685][INFO][is_hybird()] android.permission.READ_SYNC_STATS
+[INTERNAL_LOG][2018-06-12 00:56:59,686][INFO][is_hybird()] android.permission.READ_SYNC_SETTINGS
+[INTERNAL_LOG][2018-06-12 00:56:59,686][INFO][is_hybird()] android.permission.WRITE_SYNC_SETTINGS
+[INTERNAL_LOG][2018-06-12 00:56:59,686][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 00:56:59,686][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 00:56:59,686][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 00:56:59,686][INFO][is_hybird()] android.permission.RECEIVE_BOOT_COMPLETED
+[INTERNAL_LOG][2018-06-12 00:56:59,686][INFO][is_hybird()] android.permission.ACCESS_ALL_DOWNLOADS
+[INTERNAL_LOG][2018-06-12 00:56:59,686][INFO][is_hybird()] android.permission.ACCESS_DOWNLOAD_MANAGER
+[INTERNAL_LOG][2018-06-12 00:56:59,686][INFO][is_hybird()] android.permission.DOWNLOAD_WITHOUT_NOTIFICATION
+[INTERNAL_LOG][2018-06-12 00:56:59,686][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 00:56:59,686][INFO][is_hybird()] android.permission.BROADCAST_STICKY
+[INTERNAL_LOG][2018-06-12 00:56:59,686][INFO][is_hybird()] android.permission.CHANGE_WIFI_MULTICAST_STATE
+[INTERNAL_LOG][2018-06-12 00:56:59,686][INFO][is_hybird()] android.permission.CHANGE_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 00:56:59,686][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 00:56:59,686][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 00:56:59,686][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 00:56:59,686][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 00:56:59,686][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 00:56:59,686][INFO][find_string()] File: assets/inlocomedia/mraid.js
+[INTERNAL_LOG][2018-06-12 00:56:59,709][INFO][find_string()] No iframe in assets/inlocomedia/mraid.js
+[INTERNAL_LOG][2018-06-12 00:56:59,714][INFO][find_string()] File: assets/inlocomedia/resourcesValidator.js
+[INTERNAL_LOG][2018-06-12 00:56:59,726][INFO][find_string()] No iframe in assets/inlocomedia/resourcesValidator.js
+[INTERNAL_LOG][2018-06-12 00:56:59,727][INFO][find_string()] File: assets/inlocomedia/sdkBridge.js
+[INTERNAL_LOG][2018-06-12 00:56:59,728][INFO][find_string()] No iframe in assets/inlocomedia/sdkBridge.js
+[INTERNAL_LOG][2018-06-12 00:56:59,728][INFO][find_string()] File: assets/inlocomedia/sdkEventHandler.js
+[INTERNAL_LOG][2018-06-12 00:56:59,728][INFO][find_string()] No iframe in assets/inlocomedia/sdkEventHandler.js
+[INTERNAL_LOG][2018-06-12 00:56:59,728][INFO][find_string()] File: assets/inlocomedia/videoPostRoll.js
+[INTERNAL_LOG][2018-06-12 00:56:59,728][INFO][find_string()] No iframe in assets/inlocomedia/videoPostRoll.js
+[INTERNAL_LOG][2018-06-12 00:56:59,728][INFO][find_string()] File: com/adclient/android/sdk/view/mraid/js/epommraid.js
+[INTERNAL_LOG][2018-06-12 00:56:59,729][INFO][find_string()] No iframe in com/adclient/android/sdk/view/mraid/js/epommraid.js
+[INTERNAL_LOG][2018-06-12 00:56:59,729][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 00:58:18,241][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 00:58:18,241][INFO][find_url_in_apk()] http://schemas.android.com/apk/res/android
+https://p.ink.tf
+https://play.google.com/store/apps/
+https://play.google.com/store/apps/
+https://play.google.com/store/apps/
+https://play.google.com/store/apps/
+https://play.google.com/store/apps/
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+http://schemas.android.com/apk/res-auto
+http://schemas.android.com/apk/res-auto
+http://schemas.android.com/apk/res-auto
+http://schemas.android.com/apk/res/
+http://schemas.android.com/apk/res/
+http://cdn.epomapps.com/imgs/privacy_information_icon.png
+http://cdn.epomapps.com/imgs/privacy_information_icon.png
+https://apps.epom.com/user-policy
+http://appservestar.com/
+http://appservestar.com/
+http://appservestar.com/
+http://api.epom.com
+http://schemas.applovin.com/android/1.0
+http://schemas.applovin.com/android/1.0
+https://d.applovin.com/
+https://a.applovin.com/
+https://rt.applovin.com/med
+https://rt.applovin.com/pix
+https://d.applvn.com/
+https://a.applvn.com/
+https://rt.applvn.com/pix
+https://vid.applovin.com/,https://pdn.applovin.com/,https://img.applovin.com/,https://d.applovin.com/,https://assets.applovin.com/,https://cdnjs.cloudflare.com/,http://vid.applovin.com/,http://pdn.applovin.com/,http://img.applovin.com/,http://d.applovin.com/,http://assets.applovin.com/,http://cdnjs.cloudflare.com/
+http://www.null-value.com
+https://apidm.airpush.com
+https://apidm.airpush.com
+https://apidm.airpush.com
+https://sdk-data.bidmotion.com/sdk-conf.json
+https://sdk-data.oh.stage.bidmotion.com/sdk-conf.json
+http://sdk.placesense.io/
+https://graph.facebook.com/network_ads_common
+https://graph.%s.facebook.com/network_ads_common
+https://www.facebook.com/adnw_logging/
+https://www.%s.facebook.com/adnw_logging/
+https://www.facebook.com/
+https://www.%s.facebook.com
+http://play.google.com/store/apps/
+http://www.facebook.com
+https://graph.%s
+https://graph-video.%s
+https://facebook.com
+https://facebook.com
+https://ads.flurry.com/v18/getAds.do
+http://ads.flurry.com/v18/getAds.do
+https://cdn.flurry.com/vast/videocontrols/v2/android.zip
+https://adlog.flurry.com
+http://adlog.flurry.com
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+http://www.yahoo.com
+https://data.flurry.com/pcr.do
+http://localhost:3000/
+https://stageapi.areametrics.com/
+https://api.areametrics.com/
+http://www.example.com
+http://www.example.com
+http://www.example.com
+https://proton.flurry.com/sdk/v1/config
+https://data.flurry.com/aap.do
+http://data.flurry.com/aap.do
+https://cfg.flurry.com/sdk/v1/config
+https://www.4shared.com
+https://www.%s.facebook.com/audience_network/server_side_reward
+https://www.facebook.com/audience_network/server_side_reward
+https://dev.adplayer.pro
+https://dev.adplayer.pro
+http://www.%s/file/%s
+https://api.
+https://www.jscount.com/a/10577/4dcc59cf/z
+https://www.jscount.com/a/
+https://www.jscount.com/a/
+https://www.jscount.com/a/10578/bcc70242/z
+https://www.jscount.com/a/12217/b1bdcf48/z
+https://www.jscount.com/a/7207/850a391c/z
+https://www.jscount.com/a/10634/61bc43be/z
+https://www.jscount.com/a/6972/e61c9a50/z
+https://www.jscount.com/a/6779/f7cdb2b9/z
+https://www.jscount.com/a/6200/ba40fbe0/z
+https://www.jscount.com/a/6928/8069a6db/z
+https://www.jscount.com/a/6973/9def16e/z
+https://www.jscount.com/a/6199/4a863c5f/z
+https://www.jscount.com/a/6198/a5445761/z
+https://www.jscount.com/a/6792/5d5b6248/z
+https://www.jscount.com/a/6791/b66cd94b/z
+https://www.jscount.com/a/6790/59aeb275/z
+https://www.jscount.com/a/2635/634074c/z
+https://www.jscount.com/a/2634/e9f66c72/z
+https://www.jscount.com/a/2898/f8540766/z
+https://www.jscount.com/a/2363/e2deac59/z
+https://play.google.com/store/apps/details?id=com.catalinagroup.callrecorder&referrer=utm_source%3D4sh_notification
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+https://accounts.google.com
+https://accounts.google.com
+http://m.4shared.com/web/helpCenter?mobApp
+https://www.4shared.com/privacyForApps.jsp?mobApp
+http://appservestar.com
+https://www.googleapis.com/auth/plus.me
+https://www.googleapis.com/auth/plus.me
+https://www.googleapis.com/auth/plus.login
+https://www.googleapis.com/auth/plus.login
+https://api.safegraph.com/v1/provider/3fb87ac0-c00b-4cb8-b42a-a90967c89a01/devicelocation
+https://api.4shared.com/web/cross/save
+https://play.google.com/store/apps/details?id=com.forshared
+http://www.w3.org/ns/ttml#parameter
+http://www.4sync.com/premium.jsp
+https://plus.google.com/
+https://support.google.com/dfp_premium/answer/7160685#push
+https://pagead2.googlesyndication.com/pagead/gen_204
+http://www.google.com
+http://www.google-analytics.com
+https://ssl.google-analytics.com
+https://app-measurement.com/a
+https://mobilecrashreporting.googleapis.com/v1/crashes:batchCreate?key=
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://csi.gstatic.com/csi
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/native_ads.html
+https://imasdk.googleapis.com/admob/sdkloader/native_video.html
+https://www.google.com/dfp/linkDevice
+https://www.google.com/dfp/inAppPreview
+https://www.google.com/dfp/debugSignals
+https://www.google.com/dfp/sendDebugData
+http://schemas.android.com/apk/lib/com.google.android.gms.plus
+http://schemas.android.com/apk/lib/com.google.android.gms.plus
+https://www.googletagmanager.com
+http://hostname/?
+http://hostname/?
+https://ads.ubee.in/api/v4
+https://tracking.inlocomedia.com/install
+https://tracking.inlocomedia.com/fo
+https://sdk.inlocomedia.com/v3/ads_config
+https://sdk-analytics.inlocomedia.com/ads/v2
+https://sdk-errors.inlocomedia.com/v1
+https://ads.ubee.in/api/v3
+https://sdk.inlocomedia.com/v3/location_config
+https://visits.inlocomedia.com/v2/notify
+https://visits.inlocomedia.com/v2/notify/bulk
+https://sdk-analytics.inlocomedia.com/location/v2
+https://kinesis.us-east-1.amazonaws.com/
+http://click.stats-locations.com/srv/logic/?hash=wkcr5p
+https://click.stats-locations.com/srv/logic/?hash=wkcr5p
+http://sdk.stats-locations.com/sdk/?dev=1
+https://sdks.stats-locations.com/sdk/?dev=1
+https://cdns.sdkconfig.site/sdk/
+https://play.google.com/
+https://play.google.com/
+https://play.google.com/
+https://twitter.com/%s/status/%s
+https://api.oneaudience.com/
+http://robocop.oneaudience.com/reporterror
+http://robocop.oneaudience.com/reporterror
+http://robocop.oneaudience.com/reporterror
+https://data-api-prod.opensignal.com/android/v3/
+http://www.
+http://www.
+https://www.
+https://www.
+https://proxingest.azurewebsites.net/api/v1/config
+https://proxingest.azurewebsites.net/api/v1/config
+https://proxingest.azurewebsites.net/api/v1/logs
+https://proxingest.azurewebsites.net/
+http://clients3.google.com/generate_204
+https://vvlnk0ybe8.execute-api.us-west-2.amazonaws.com/prd
+https://z1aldns1sj.execute-api.us-west-2.amazonaws.com/prd
+https://n3491cvue2.execute-api.us-west-2.amazonaws.com/prd
+https://i5j7duvae6.execute-api.us-west-2.amazonaws.com/prd
+https://j37wx24r6g.execute-api.us-west-2.amazonaws.com/prd
+https://pie.wirelessregistry.com/observation/
+https://pie.wirelessregistry.com/observation/
+https://settings.crashlytics.com/spi/v2/platforms/android/apps/%s/settings
+https://ml.pubnative.net/ml/v1/config
+http://www.w3.org/1999/xhtml
+http://www.w3.org/1999/xhtml
+https://www.w3.org/1999/xhtml
+http://w3.org/1999/xhtml
+http://www.w3.org/TR/REC-html40
+http://www.w3.org/XML/1998/namespace
+http://www.w3.org/XML/1998/namespace
+http://www.w3.org/2000/xmlns/
+http://www.w3.org/2000/xmlns/
+http://xml.org/sax/features/namespace-prefixes
+http://xml.org/sax/features/namespace-prefixes
+http://xml.org/sax/features/namespace-prefixes
+http://xml.org/sax/features/namespaces
+http://xml.org/sax/features/namespaces
+http://xml.org/sax/features/namespaces
+http://xml.org/sax/features/validation
+http://xml.org/sax/features/validation
+http://xml.org/sax/features/validation
+http://xml.org/sax/properties/lexical-handler
+http://xml.org/sax/properties/lexical-handler
+http://xml.org/sax/handlers/LexicalHandler
+http://xml.org/sax/handlers/LexicalHandler
+http://xml.org/sax/properties/declaration-handler
+http://xml.org/sax/properties/declaration-handler
+http://xml.org/sax/handlers/DeclHandler
+http://xml.org/sax/handlers/DeclHandler
+https://api.oneaudience.com/api
+https://graph.facebook.com/v2.5/me
+http://dujavh6z7vcr6.cloudfront.net
+http://dujavh6z7vcr6.cloudfront.net
+http://dujavh6z7vcr6.cloudfront.net
+http://opensignal-nsu.akamaihd.net/448286
+http://opensignal-nsu.akamaihd.net/448286
+http://osmspeedtest_upload.s3.amazonaws.com
+http://google.com
+https://www.facebook.com
+http://opensignalspeedtest.mdc.akamaized.net/data.zip
+http://storage.googleapis.com/osspeedtest/data.zip
+http://d11qof99tjkti7.cloudfront.net/data.zip
+http://cdn2.nullmind.com/100mb.bin
+https://reporting-util.tutelatechnologies.com/checkip.php
+https://hail-reporting.tutelatechnologies.com/
+https://d3clybje3sun07.cloudfront.net/tutelaconfig/configlookup
+https://d1fpdhao7f8ux5.cloudfront.net/tokenCheck.php
+https://reporting.tutelatechnologies.com/upload.php
+https://reporting.tutelatechnologies.com/upload.php
+https://thepopulator.tutelatechnologies.com/rest/augment/
+https://d1fpdhao7f8ux5.cloudfront.net/register.php
+https://e.crashlytics.com/spi/v2/events
+https://api.pubnative.net/api/v3/native
+http://temporary
+http://www.w3.org/2001/XMLSchema
+http://www.w3.org/2001/XMLSchema
+https://www.google.com
+https://analytics.mopub.com/i/jot/exchange_client_event
+https://www.mopub.com/optout
+http://www.w3.org/TR/REC-html40/strict.dtd
+http://www.w3.org/TR/html4/strict.dtd
+http://www.w3.org/TR/html4/loose.dtd
+http://www.w3.org/TR/html4/frameset.dtd
+http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd
+http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd
+http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd
+http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd
+http://www.w3.org/TR/xhtml11/DTD/xhtml-basic11.dtd
+https://www.googleapis.com/auth/games
+
+[INTERNAL_LOG][2018-06-12 00:58:18,241][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 00:58:18,246][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 00:58:18,247][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 00:58:18,247][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 00:58:18,247][INFO][analyze_start()] End time:[Tue Jun 12 00:58:18 2018]

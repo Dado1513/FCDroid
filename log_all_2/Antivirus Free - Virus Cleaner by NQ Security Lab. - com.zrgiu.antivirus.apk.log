@@ -1,0 +1,166 @@
+[INTERNAL_LOG][2018-06-12 00:55:46,574][INFO][analyze_start()] Init Time [Tue Jun 12 00:55:46 2018]
+[INTERNAL_LOG][2018-06-12 00:55:46,621][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 00:55:46,621][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 00:55:46,622][INFO][is_hybird()] android.permission.CHANGE_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 00:55:46,636][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 00:55:46,636][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 00:55:46,636][INFO][is_hybird()] android.permission.READ_PHONE_STATE
+[INTERNAL_LOG][2018-06-12 00:55:46,645][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 00:55:46,645][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 00:55:46,645][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 00:55:46,645][INFO][is_hybird()] android.permission.GET_PACKAGE_SIZE
+[INTERNAL_LOG][2018-06-12 00:55:46,645][INFO][is_hybird()] android.permission.EXPAND_STATUS_BAR
+[INTERNAL_LOG][2018-06-12 00:55:46,645][INFO][is_hybird()] com.android.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 00:55:46,645][INFO][is_hybird()] com.android.launcher.permission.INSTALL_SHORTCUT
+[INTERNAL_LOG][2018-06-12 00:55:46,645][INFO][is_hybird()] com.android.launcher.permission.UNINSTALL_SHORTCUT
+[INTERNAL_LOG][2018-06-12 00:55:46,645][INFO][is_hybird()] android.permission.SYSTEM_ALERT_WINDOW
+[INTERNAL_LOG][2018-06-12 00:55:46,646][INFO][is_hybird()] android.permission.GET_TASKS
+[INTERNAL_LOG][2018-06-12 00:55:46,646][INFO][is_hybird()] android.permission.PACKAGE_USAGE_STATS
+[INTERNAL_LOG][2018-06-12 00:55:46,646][INFO][is_hybird()] android.permission.BLUETOOTH
+[INTERNAL_LOG][2018-06-12 00:55:46,646][INFO][is_hybird()] android.permission.BLUETOOTH_ADMIN
+[INTERNAL_LOG][2018-06-12 00:55:46,646][INFO][is_hybird()] android.permission.CHANGE_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 00:55:46,646][INFO][is_hybird()] android.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 00:55:46,646][INFO][is_hybird()] android.permission.CAMERA
+[INTERNAL_LOG][2018-06-12 00:55:46,646][INFO][is_hybird()] android.permission.ACCESS_NOTIFICATION_POLICY
+[INTERNAL_LOG][2018-06-12 00:55:46,647][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 00:55:46,647][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 00:55:46,647][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 00:55:46,648][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 00:55:46,648][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 00:55:46,648][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 00:55:46,648][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 00:56:14,736][INFO][find_url_in_apk()] [START URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-12 00:56:14,736][INFO][find_url_in_apk()] https://play.google.com
+
+[INTERNAL_LOG][2018-06-12 00:56:14,736][INFO][find_url_in_apk()] [END URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-12 00:56:15,296][INFO][find_string()] [START REMOTE FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 00:56:15,296][INFO][find_string()] Remote File in: temp_html_code/html_downloaded_Antivirus Free - Virus Cleaner by NQ Security Lab/play.google.com
+[INTERNAL_LOG][2018-06-12 00:56:15,296][INFO][find_string()] URL: https://play.google.com
+[INTERNAL_LOG][2018-06-12 00:56:15,427][INFO][find_string()] No iframe in temp_html_code/html_downloaded_Antivirus Free - Virus Cleaner by NQ Security Lab/play.google.com
+[INTERNAL_LOG][2018-06-12 00:56:15,427][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 00:56:15,427][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 00:56:15,427][INFO][find_url_in_apk()] http://schemas.android.com/apk/res/android
+https://api.appsflyer.com/install_data/v3/
+https://t.appsflyer.com/api/v
+https://events.appsflyer.com/api/v
+https://register.appsflyer.com/api/v
+https://stats.appsflyer.com/stats
+http://api.tinyhoneybee.com/api/getADConfig
+http://smart.tinyhoneybee.com/log/receive
+http://recommend.kikakeyboard.com/list
+http://recommend.kikakeyboard.com/list
+http://recommend.kikakeyboard.com/list
+http://recommend.kikakeyboard.com/list
+http://recommend.kikakeyboard.com/list
+http://recommend.kikakeyboard.com/list
+http://recommend.kikakeyboard.com/list
+https://play.google.com/store/apps/
+https://play.google.com/store/apps/
+http://api.tinyhoneybee.com/api/getADResource
+http://ka-test0.tinyhoneybee.com/api/getADResource
+https://play.google.com
+https://play.google.com
+https://play.google.com
+https://play.google.com
+http://play.google.com
+http://play.google.com
+http://play.google.com
+http://api.accuweather.com/
+http://api.accuweather.com/
+http://apidev.accuweather.com/
+http://api.mobula.sdk.duapps.com/adunion/slot/getDlAd?
+http://api.mobula.sdk.duapps.com/adunion/rtb/getInmobiAd?
+http://api.mobula.sdk.duapps.com/adunion/rtb/fetchAd?
+http://api.mobula.sdk.duapps.com/adunion/slot/getSrcPrio?
+http://api.mobula.sdk.duapps.com/adunion/slot/getSrcPrio?
+http://api.mobula.sdk.duapps.com/adunion/slot/tdmr?
+http://rts.mobula.sdk.duapps.com/orts/rp?
+http://rts.mobula.sdk.duapps.com/orts/rpb?
+http://market.android.com
+https://market.android.com
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+https://whosthat.ssl2.duapps.com
+https://whosthat.ssl2.duapps.com
+https://api.findbetterapp.com/query/baike/app
+http://192.8.19.81:8080/BOSS_SUPPORT_BAIKE/baike/app
+http://192.168.33.186:8099/BOSS_SUPPORT_BAIKE/baike/app
+https://xp-app.easyxapp.com/BOSS_CS_PP
+https://xp-krapp.easyxapp.com/BOSS_CS_KR_SDK
+http://192.8.19.45:8080/BOSS_CS_PP
+http://192.168.62.225:8081/krsdk
+https://xp-vrf-en.easyxapp.com/BOSS_CS_PP
+http://192.168.33.186:8215/BOSS_CS_KR_SDK
+https://xp-rel.easyxapp.com/BOSS_CS_PP
+https://xp-rel.easyxapp.com/BOSS_CS_KR_SDK
+http://schemas.android.com/apk/lib/com.easyxapp.xp.view
+http://m.facebook.com/ads/ad_choices
+http://m.facebook.com/ads/ad_choices
+https://www.facebook.com/audience_network/server_side_reward
+https://www.%s.facebook.com/audience_network/server_side_reward
+https://graph.facebook.com/network_ads_common
+https://graph.%s.facebook.com/network_ads_common
+https://www.facebook.com/adnw_logging/
+https://www.%s.facebook.com/adnw_logging/
+https://www.facebook.com/
+https://www.%s.facebook.com
+http://www.facebook.com
+https://graph.%s
+https://graph-video.%s
+https://facebook.com
+http://www.w3.org/ns/ttml#parameter
+http://www.google-analytics.com
+https://ssl.google-analytics.com
+http://hostname/?
+http://hostname/?
+http://plus.google.com/
+http://www.example.com
+http://www.example.com
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://csi.gstatic.com/csi
+https://www.google.com/dfp/linkDevice
+https://www.google.com/dfp/inAppPreview
+https://www.google.com/dfp/debugSignals
+https://www.google.com/dfp/sendDebugData
+https://pagead2.googlesyndication.com/pagead/gen_204
+http://www.google.com
+https://www.googletagmanager.com
+http://news.tcyclops.com/market/?param=
+http://192.168.36.59:9212/BOSS_AD_SDKPlatform/
+https://adsdk.easyxapp.com/BOSS_AD_SDKPlatform/
+https://analytics.mopub.com/i/jot/exchange_client_event
+https://twitter.com/%s/status/%s
+https://www.mopub.com/optout
+http://www.nq-mobile.com/privacy
+https://app-atf.nq.com/BOSS_CS_ATF/app.htm
+https://scandroidsec.nq.com/CloudScan/
+https://m.nq.com/feedback/report.jsp?
+https://adplatform.nq.com/BOSS_CS_ADPlatform/adStrategy
+https://api.findbetterapp.com/query/baike/notificationclick
+http://release.netqin.com:8297/BOSS_CS_AV_V4_01/app.htm
+http://192.168.33.215:8082/CloudScan/
+http://m.nq.com/feedback/report.jsp?
+http://192.168.33.121:8066/BOSS_CS_ADPlatform/adStrategy
+http://192.168.33.186:8099/BOSS_SUPPORT_BAIKE/baike/notificationclick
+http://verify-av-v4.nq.com/BOSS_CS_AV_V4/app.htm
+https://www.baidu.com/
+http://api.mobula.sdk.duapps.com/adunion/slot/fetchConfig
+http://common.duapps.com/appLock/getConf
+http://s.duapps.com/weather/weather.zip
+
+[INTERNAL_LOG][2018-06-12 00:56:15,427][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 00:56:15,429][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 00:56:15,429][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 00:56:15,429][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 00:56:15,429][INFO][analyze_start()] End time:[Tue Jun 12 00:56:15 2018]

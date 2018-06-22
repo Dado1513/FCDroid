@@ -1,0 +1,151 @@
+[INTERNAL_LOG][2018-06-12 00:47:50,969][INFO][analyze_start()] Init Time [Tue Jun 12 00:47:50 2018]
+[INTERNAL_LOG][2018-06-12 00:47:51,051][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 00:47:51,052][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 00:47:51,052][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 00:47:51,052][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 00:47:51,052][INFO][is_hybird()] android.permission.CAMERA
+[INTERNAL_LOG][2018-06-12 00:47:51,052][INFO][is_hybird()] android.permission.RECORD_AUDIO
+[INTERNAL_LOG][2018-06-12 00:47:51,052][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 00:47:51,052][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 00:47:51,052][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 00:47:51,052][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 00:47:51,052][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 00:47:51,052][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 00:47:51,052][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 00:47:51,052][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 00:47:51,052][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 00:48:17,304][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 00:48:17,304][INFO][find_url_in_apk()] http://schemas.android.com/apk/res/android
+https://notify.bugsnag.com
+https://bugsnag.com
+https://www.facebook.com/audience_network/server_side_reward
+https://www.%s.facebook.com/audience_network/server_side_reward
+http://play.google.com/store/apps/
+https://www.facebook.com/
+https://www.%s.facebook.com
+https://graph.facebook.com/network_ads_common
+https://graph.%s.facebook.com/network_ads_common
+https://www.facebook.com/adnw_logging/
+https://www.%s.facebook.com/adnw_logging/
+http://www.facebook.com
+http://www.w3.org/ns/ttml#parameter
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+http://www.example.com
+http://www.example.com
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/sdk-core-v40-impl.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://csi.gstatic.com/csi
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/native_ads.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/native_ads.js
+https://imasdk.googleapis.com/admob/sdkloader/native_video.html
+https://www.google.com/dfp/linkDevice
+https://www.google.com/dfp/inAppPreview
+https://www.google.com/dfp/debugSignals
+https://www.google.com/dfp/sendDebugData
+https://pagead2.googlesyndication.com/pagead/gen_204
+http://www.google.com
+https://support.google.com/dfp_premium/answer/7160685#push
+https://app-measurement.com/a
+https://www.google.com
+https://s3-us-west-2.amazonaws.com/lyrebirdstudio/face_mask/masks_v3/list.txt
+http://www.facebook.com/connect/connect_to_external_page_widget_loggedin.php
+https://twitter.com/lyrebirdstudio
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+http://instagram.com/_u/lyrebird_studio
+http://instagram.com/lyrebird_studio
+http://159.203.164.37/lyrebirdstudio/stickerV5.json
+http://159.203.164.37/lyrebirdstudio/stickerV5.json
+http://159.203.164.37/lyrebirdstudio/stickerV5.json
+https://s3-us-west-2.amazonaws.com/lyrebirdstudio/patterns/preview_denim.jpg
+https://s3-us-west-2.amazonaws.com/lyrebirdstudio/patterns/pattern_denim.zip
+https://s3-us-west-2.amazonaws.com/lyrebirdstudio/patterns/preview_doodle.jpg
+https://s3-us-west-2.amazonaws.com/lyrebirdstudio/patterns/pattern_doodle.zip
+https://s3-us-west-2.amazonaws.com/lyrebirdstudio/patterns/preview_fur.jpg
+https://s3-us-west-2.amazonaws.com/lyrebirdstudio/patterns/pattern_fur.zip
+https://s3-us-west-2.amazonaws.com/lyrebirdstudio/patterns/preview_leaf.jpg
+https://s3-us-west-2.amazonaws.com/lyrebirdstudio/patterns/pattern_leaf.zip
+https://s3-us-west-2.amazonaws.com/lyrebirdstudio/patterns/preview_metal.jpg
+https://s3-us-west-2.amazonaws.com/lyrebirdstudio/patterns/pattern_metal.zip
+https://s3-us-west-2.amazonaws.com/lyrebirdstudio/patterns/preview_wood.jpg
+https://s3-us-west-2.amazonaws.com/lyrebirdstudio/patterns/pattern_wood.zip
+https://s3-us-west-2.amazonaws.com/lyrebirdstudio/patterns/icons/pattern_143.jpg
+https://s3-us-west-2.amazonaws.com/lyrebirdstudio/patterns/icons/pattern_144.jpg
+https://s3-us-west-2.amazonaws.com/lyrebirdstudio/patterns/icons/pattern_145.jpg
+https://s3-us-west-2.amazonaws.com/lyrebirdstudio/patterns/icons/pattern_146.jpg
+https://s3-us-west-2.amazonaws.com/lyrebirdstudio/patterns/icons/pattern_147.jpg
+https://s3-us-west-2.amazonaws.com/lyrebirdstudio/patterns/icons/pattern_148.jpg
+https://s3-us-west-2.amazonaws.com/lyrebirdstudio/patterns/icons/pattern_149.jpg
+https://s3-us-west-2.amazonaws.com/lyrebirdstudio/patterns/icons/pattern_150.jpg
+https://s3-us-west-2.amazonaws.com/lyrebirdstudio/patterns/icons/pattern_151.jpg
+https://s3-us-west-2.amazonaws.com/lyrebirdstudio/patterns/icons/pattern_152.jpg
+https://s3-us-west-2.amazonaws.com/lyrebirdstudio/patterns/icons/pattern_153.jpg
+https://s3-us-west-2.amazonaws.com/lyrebirdstudio/patterns/icons/pattern_154.jpg
+https://s3-us-west-2.amazonaws.com/lyrebirdstudio/patterns/icons/pattern_155.jpg
+https://s3-us-west-2.amazonaws.com/lyrebirdstudio/patterns/icons/pattern_156.jpg
+https://s3-us-west-2.amazonaws.com/lyrebirdstudio/patterns/icons/pattern_157.jpg
+https://s3-us-west-2.amazonaws.com/lyrebirdstudio/patterns/icons/pattern_158.jpg
+https://s3-us-west-2.amazonaws.com/lyrebirdstudio/patterns/icons/pattern_159.jpg
+https://s3-us-west-2.amazonaws.com/lyrebirdstudio/patterns/icons/pattern_160.jpg
+https://s3-us-west-2.amazonaws.com/lyrebirdstudio/patterns/icons/pattern_161.jpg
+https://s3-us-west-2.amazonaws.com/lyrebirdstudio/patterns/icons/pattern_162.jpg
+https://s3-us-west-2.amazonaws.com/lyrebirdstudio/patterns/icons/pattern_163.jpg
+https://s3-us-west-2.amazonaws.com/lyrebirdstudio/patterns/icons/pattern_164.jpg
+https://s3-us-west-2.amazonaws.com/lyrebirdstudio/patterns/icons/pattern_165.jpg
+https://s3-us-west-2.amazonaws.com/lyrebirdstudio/patterns/icons/pattern_166.jpg
+https://s3-us-west-2.amazonaws.com/lyrebirdstudio/patterns/icons/pattern_167.jpg
+https://s3-us-west-2.amazonaws.com/lyrebirdstudio/patterns/icons/pattern_168.jpg
+https://s3-us-west-2.amazonaws.com/lyrebirdstudio/patterns/icons/pattern_169.jpg
+https://s3-us-west-2.amazonaws.com/lyrebirdstudio/patterns/icons/pattern_170.jpg
+https://s3-us-west-2.amazonaws.com/lyrebirdstudio/patterns/icons/pattern_171.jpg
+https://s3-us-west-2.amazonaws.com/lyrebirdstudio/patterns/icons/pattern_172.jpg
+https://s3-us-west-2.amazonaws.com/lyrebirdstudio/patterns/icons/pattern_173.jpg
+https://s3-us-west-2.amazonaws.com/lyrebirdstudio/patterns/icons/pattern_174.jpg
+https://s3-us-west-2.amazonaws.com/lyrebirdstudio/patterns/icons/pattern_175.jpg
+https://s3-us-west-2.amazonaws.com/lyrebirdstudio/patterns/icons/pattern_176.jpg
+https://s3-us-west-2.amazonaws.com/lyrebirdstudio/patterns/icons/pattern_177.jpg
+https://s3-us-west-2.amazonaws.com/lyrebirdstudio/patterns/icons/pattern_178.jpg
+https://s3-us-west-2.amazonaws.com/lyrebirdstudio/patterns/icons/pattern_179.jpg
+https://s3-us-west-2.amazonaws.com/lyrebirdstudio/patterns/icons/pattern_180.jpg
+https://s3-us-west-2.amazonaws.com/lyrebirdstudio/patterns/icons/pattern_181.jpg
+https://s3-us-west-2.amazonaws.com/lyrebirdstudio/patterns/icons/pattern_182.jpg
+https://s3-us-west-2.amazonaws.com/lyrebirdstudio/patterns/icons/pattern_183.jpg
+https://s3-us-west-2.amazonaws.com/lyrebirdstudio/patterns/icons/pattern_184.jpg
+https://s3-us-west-2.amazonaws.com/lyrebirdstudio/patterns/icons/pattern_185.jpg
+https://s3-us-west-2.amazonaws.com/lyrebirdstudio/patterns/icons/pattern_186.jpg
+https://s3-us-west-2.amazonaws.com/lyrebirdstudio/patterns/icons/pattern_187.jpg
+https://s3-us-west-2.amazonaws.com/lyrebirdstudio/patterns/icons/pattern_188.jpg
+https://s3-us-west-2.amazonaws.com/lyrebirdstudio/patterns/icons/pattern_189.jpg
+https://s3-us-west-2.amazonaws.com/lyrebirdstudio/patterns/icons/pattern_190.jpg
+https://s3-us-west-2.amazonaws.com/lyrebirdstudio/patterns/icons/pattern_191.jpg
+https://s3-us-west-2.amazonaws.com/lyrebirdstudio/patterns/icons/pattern_192.jpg
+https://s3-us-west-2.amazonaws.com/lyrebirdstudio/patterns/icons/pattern_193.jpg
+https://s3-us-west-2.amazonaws.com/lyrebirdstudio/patterns/icons/pattern_194.jpg
+https://s3-us-west-2.amazonaws.com/lyrebirdstudio/patterns/icons/pattern_195.jpg
+https://s3-us-west-2.amazonaws.com/lyrebirdstudio/patterns/icons/pattern_196.jpg
+https://s3-us-west-2.amazonaws.com/lyrebirdstudio/patterns/icons/pattern_197.jpg
+https://s3-us-west-2.amazonaws.com/lyrebirdstudio/patterns/icons/pattern_198.jpg
+https://s3-us-west-2.amazonaws.com/lyrebirdstudio/patterns/icons/pattern_199.jpg
+https://play.google.com/store/apps/dev?id=8117239212302166287
+http://159.203.164.37/lyrebirdstudio/
+https://s3-us-west-2.amazonaws.com/lyrebirdstudio/stickers/emoji/emoji_
+https://s3-us-west-2.amazonaws.com/lyrebirdstudio/stickers/animal/sticker_animal_
+https://issues.apache.org/jira/browse/MATH
+
+[INTERNAL_LOG][2018-06-12 00:48:17,304][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 00:48:17,313][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 00:48:17,313][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 00:48:17,313][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 00:48:17,313][INFO][analyze_start()] End time:[Tue Jun 12 00:48:17 2018]

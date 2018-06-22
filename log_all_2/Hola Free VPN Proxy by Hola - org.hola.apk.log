@@ -1,0 +1,99 @@
+[INTERNAL_LOG][2018-06-12 00:05:12,430][INFO][analyze_start()] Init Time [Tue Jun 12 00:05:12 2018]
+[INTERNAL_LOG][2018-06-12 00:05:12,474][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 00:05:12,474][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 00:05:12,475][INFO][is_hybird()] android.permission.RECEIVE_BOOT_COMPLETED
+[INTERNAL_LOG][2018-06-12 00:05:12,475][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 00:05:12,475][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 00:05:12,475][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 00:05:12,475][INFO][is_hybird()] android.permission.READ_PHONE_STATE
+[INTERNAL_LOG][2018-06-12 00:05:12,475][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 00:05:12,475][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 00:05:12,475][INFO][is_hybird()] android.permission.GET_TASKS
+[INTERNAL_LOG][2018-06-12 00:05:12,475][INFO][is_hybird()] android.permission.SYSTEM_ALERT_WINDOW
+[INTERNAL_LOG][2018-06-12 00:05:12,475][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 00:05:12,475][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-12 00:05:12,475][INFO][is_hybird()] org.hola.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-12 00:05:12,475][INFO][is_hybird()] com.android.browser.permission.READ_HISTORY_BOOKMARKS
+[INTERNAL_LOG][2018-06-12 00:05:12,475][INFO][is_hybird()] com.android.browser.permission.WRITE_HISTORY_BOOKMARKS
+[INTERNAL_LOG][2018-06-12 00:05:12,475][INFO][is_hybird()] android.permission.ACCESS_FINE_LOCATION
+[INTERNAL_LOG][2018-06-12 00:05:12,475][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 00:05:12,475][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 00:05:12,475][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 00:05:12,475][INFO][find_string()] File: com/androidquery/util/web_image.html
+[INTERNAL_LOG][2018-06-12 00:05:12,476][INFO][find_string()] No iframe in com/androidquery/util/web_image.html
+[INTERNAL_LOG][2018-06-12 00:05:12,476][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 00:05:12,476][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 00:05:12,476][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 00:05:30,898][INFO][find_url_in_apk()] [START URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-12 00:05:30,898][INFO][find_url_in_apk()] http://google.com
+
+[INTERNAL_LOG][2018-06-12 00:05:30,898][INFO][find_url_in_apk()] [END URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-12 00:05:31,098][INFO][find_string()] [START REMOTE FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 00:05:31,098][INFO][find_string()] Remote File in: temp_html_code/html_downloaded_Hola Free VPN Proxy by Hola - org/google.com
+[INTERNAL_LOG][2018-06-12 00:05:31,098][INFO][find_string()] URL: http://google.com
+[INTERNAL_LOG][2018-06-12 00:05:31,099][ERROR][find_string()] Error unicode error 'utf-8' codec can't decode byte 0xe0 in position 8042: invalid continuation byte
+[INTERNAL_LOG][2018-06-12 00:05:31,099][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 00:05:31,099][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 00:05:31,099][INFO][find_url_in_apk()] https://www.google.com/s2/favicons?domain_url=
+https://www.google.com/s2/favicons?domain_url=
+http://www.pandora.com/
+https://www.google.com/search?client=lightning&ie=UTF-8&oe=UTF-8&q=
+https://www.google.com/search?client=lightning&ie=UTF-8&oe=UTF-8&q=
+https://www.google.com/search?client=lightning&ie=UTF-8&oe=UTF-8&q=
+http://www.androidsearchresult.com/search.pg?aff=olb&keyword=
+http://www.bing.com/search?q=
+http://search.yahoo.com/search?p=
+https://startpage.com/do/search?language=english&query=
+https://startpage.com/do/m/mobilesearch?language=english&query=
+https://duckduckgo.com/?t=lightning&q=
+https://duckduckgo.com/lite/?t=lightning&q=
+http://www.baidu.com/s?wd=
+http://yandex.ru/yandsearch?lr=21411&text=
+http://www.mozilla.org/MPL/2.0/
+http://www.apache.org/licenses/LICENSE-2.0
+http://hosts-file.net/
+http://www.google.com
+http://www.google.com
+http://www.google.com
+http://google.com
+http://google.com/complete/search
+http://imgs.xkcd.com/comics/compiling.png
+http://imgs.xkcd.com/comics/compiling.png
+http://schemas.android.com/apk/res/android
+https://androidquery.appspot.com
+http://www.google-analytics.com
+https://ssl.google-analytics.com
+http://plus.google.com/
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://csi.gstatic.com/csi
+https://www.google-analytics.com
+http://schemas.android.com/apk/lib/com.google.android.gms.plus
+http://schemas.android.com/apk/lib/com.google.android.gms.plus
+http://hostname/?
+https://www.googletagmanager.com
+http://hola.org/faq#intro-howfree
+http://hola.org/faq#intro-howfree
+http://hola.org/legal/sla
+https://play.google.com/store/apps/details?id=
+http://hola.org/blog
+http://translate.hola.org/projects/hola/android/
+http://hola.org/legal/dmca
+http://127.0.0.1:6853/
+http://hola.org
+http://hola.org
+
+[INTERNAL_LOG][2018-06-12 00:05:31,100][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 00:05:31,117][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 00:05:31,117][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 00:05:31,117][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 00:05:31,117][INFO][analyze_start()] End time:[Tue Jun 12 00:05:31 2018]

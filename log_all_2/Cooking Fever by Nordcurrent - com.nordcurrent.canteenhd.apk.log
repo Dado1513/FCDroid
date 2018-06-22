@@ -1,0 +1,116 @@
+[INTERNAL_LOG][2018-06-12 08:04:57,268][INFO][analyze_start()] Init Time [Tue Jun 12 08:04:57 2018]
+[INTERNAL_LOG][2018-06-12 08:04:57,395][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 08:04:57,396][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 08:04:57,396][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 08:04:57,396][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 08:04:57,396][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 08:04:57,396][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 08:04:57,396][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-12 08:04:57,396][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-12 08:04:57,396][INFO][is_hybird()] com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+[INTERNAL_LOG][2018-06-12 08:04:57,396][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 08:04:57,396][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 08:04:57,396][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 08:04:57,396][INFO][find_string()] File: js/closebutton.html
+[INTERNAL_LOG][2018-06-12 08:04:57,397][INFO][find_string()] No iframe in js/closebutton.html
+[INTERNAL_LOG][2018-06-12 08:04:57,397][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 08:04:57,397][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 08:04:57,397][INFO][find_string()] File: js/mraid.js
+[INTERNAL_LOG][2018-06-12 08:04:57,399][INFO][find_string()] No iframe in js/mraid.js
+[INTERNAL_LOG][2018-06-12 08:04:57,399][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 08:05:27,501][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 08:05:27,501][INFO][find_url_in_apk()] http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+https://adc3-launch-server-staging.herokuapp.com/v4/launch
+https://adc3-launch.adcolony.com/v4/launch
+https://adc3-launch.adcolony.com/v4/launch
+https://wd.adcolony.com/logs
+https://live.chartboost.com
+http://market.android.com/
+https://graph.%s
+https://graph-video.%s
+https://facebook.com
+http://play.google.com/store/apps/details?id=com.facebook.orca
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+https://plus.google.com/
+https://www.googleapis.com/auth/drive.file
+https://www.googleapis.com/auth/drive.appdata
+https://www.googleapis.com/auth/drive
+https://www.googleapis.com/auth/drive.apps
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games_lite
+https://www.googleapis.com/auth/games_lite
+https://www.googleapis.com/auth/games_lite
+https://www.googleapis.com/auth/games.firstparty
+https://www.googleapis.com/auth/games.firstparty
+https://pagead2.googlesyndication.com/pagead/gen_204
+http://www.google.com
+http://www.google.com
+https://support.google.com/dfp_premium/answer/7160685#push
+http://www.example.com
+http://www.example.com
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/sdk-core-v40-impl.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://csi.gstatic.com/csi
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/native_ads.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/native_ads.js
+https://imasdk.googleapis.com/admob/sdkloader/native_video.html
+https://www.google.com/dfp/linkDevice
+https://www.google.com/dfp/inAppPreview
+https://www.google.com/dfp/debugSignals
+https://www.google.com/dfp/sendDebugData
+https://mobile-static.adsafeprotected.com/avid-v2.js
+https://z.moatads.com/
+http://server1.nordcurrent.com/UDS/update_hd.php
+https://graph.facebook.com/
+https://rpc.tapjoy.com/
+https://rpc.tapjoy.com/
+https://connect.tapjoy.com/
+https://connect.tapjoy.com/
+https://ws.tapjoyads.com/
+https://ws.tapjoyads.com/
+https://ws.tapjoyads.com/
+https://placements.tapjoy.com/
+https://playlist.ma.tune.com
+https://configuration.ma.tune.com
+https://analytics.ma.tune.com/analytics
+https://s3.amazonaws.com/uploaded-assets-production
+https://connected.ma.tune.com
+http://www.amazon.com/gp/mas/dl/android?%s
+http://play.google.com/store/apps/details?%s
+https://proton.flurry.com:443/sdk/v1/config
+http://data.flurry.com/aap.do
+https://data.flurry.com/aap.do
+http://server1.nordcurrent.com/store/apps/details?id=com.nordcurrent.canteenhd
+https://play.google.com/store/apps/details?id=com.nordcurrent.canteenhd
+http://www.facebook.com/
+http://play.google.com/store/apps/details?id=
+http://twitter4j.org/en/twitter4j-
+https://api.twitter.com/oauth/request_token
+https://api.twitter.com/oauth/authorize
+https://api.twitter.com/oauth/access_token
+https://api.twitter.com/oauth/authenticate
+https://api.twitter.com/oauth2/token
+https://api.twitter.com/oauth2/invalidate_token
+https://api.twitter.com/1.1/
+https://stream.twitter.com/1.1/
+https://userstream.twitter.com/1.1/
+https://sitestream.twitter.com/1.1/
+https://upload.twitter.com/1.1/
+
+[INTERNAL_LOG][2018-06-12 08:05:27,501][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 08:05:27,510][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 08:05:27,511][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 08:05:27,511][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 08:05:27,511][INFO][analyze_start()] End time:[Tue Jun 12 08:05:27 2018]

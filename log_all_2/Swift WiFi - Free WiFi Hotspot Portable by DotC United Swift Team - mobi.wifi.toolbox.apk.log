@@ -1,0 +1,184 @@
+[INTERNAL_LOG][2018-06-12 01:35:53,851][INFO][analyze_start()] Init Time [Tue Jun 12 01:35:53 2018]
+[INTERNAL_LOG][2018-06-12 01:35:53,898][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 01:35:53,899][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 01:35:53,899][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 01:35:53,899][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 01:35:53,899][INFO][is_hybird()] android.permission.ACCESS_FINE_LOCATION
+[INTERNAL_LOG][2018-06-12 01:35:53,899][INFO][is_hybird()] android.permission.ACCESS_COARSE_LOCATION
+[INTERNAL_LOG][2018-06-12 01:35:53,899][INFO][is_hybird()] android.permission.CHANGE_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 01:35:53,899][INFO][is_hybird()] android.permission.CHANGE_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 01:35:53,899][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 01:35:53,899][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 01:35:53,899][INFO][is_hybird()] android.permission.READ_PHONE_STATE
+[INTERNAL_LOG][2018-06-12 01:35:53,899][INFO][is_hybird()] android.permission.SYSTEM_ALERT_WINDOW
+[INTERNAL_LOG][2018-06-12 01:35:53,899][INFO][is_hybird()] android.permission.GET_TASKS
+[INTERNAL_LOG][2018-06-12 01:35:53,899][INFO][is_hybird()] com.android.launcher.permission.INSTALL_SHORTCUT
+[INTERNAL_LOG][2018-06-12 01:35:53,899][INFO][is_hybird()] com.android.launcher.permission.UNINSTALL_SHORTCUT
+[INTERNAL_LOG][2018-06-12 01:35:53,899][INFO][is_hybird()] com.android.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 01:35:53,899][INFO][is_hybird()] com.android.launcher.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 01:35:53,900][INFO][is_hybird()] com.htc.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 01:35:53,900][INFO][is_hybird()] com.htc.launcher.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 01:35:53,900][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 01:35:53,900][INFO][is_hybird()] android.permission.RECEIVE_BOOT_COMPLETED
+[INTERNAL_LOG][2018-06-12 01:35:53,900][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 01:35:53,900][INFO][is_hybird()] android.permission.USE_CREDENTIALS
+[INTERNAL_LOG][2018-06-12 01:35:53,900][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-12 01:35:53,900][INFO][is_hybird()] mobi.wifi.toolbox.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-12 01:35:53,900][INFO][is_hybird()] android.permission.SYSTEM_OVERLAY_WINDOW
+[INTERNAL_LOG][2018-06-12 01:35:53,900][INFO][is_hybird()] android.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 01:35:53,900][INFO][is_hybird()] android.permission.CHANGE_WIFI_MULTICAST_STATE
+[INTERNAL_LOG][2018-06-12 01:35:53,900][INFO][is_hybird()] android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+[INTERNAL_LOG][2018-06-12 01:35:53,900][INFO][is_hybird()] android.permission.BLUETOOTH
+[INTERNAL_LOG][2018-06-12 01:35:53,900][INFO][is_hybird()] android.permission.BLUETOOTH_ADMIN
+[INTERNAL_LOG][2018-06-12 01:35:53,900][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 01:35:53,900][INFO][is_hybird()] com.google.android.providers.gsf.permission.READ_GSERVICES
+[INTERNAL_LOG][2018-06-12 01:35:53,900][INFO][is_hybird()] com.google.android.gms.permission.ACTIVITY_RECOGNITION
+[INTERNAL_LOG][2018-06-12 01:35:53,900][INFO][is_hybird()] android.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 01:35:53,900][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 01:35:53,900][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 01:35:53,900][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 01:35:53,900][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 01:35:53,900][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 01:35:53,901][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 01:36:15,260][INFO][find_url_in_apk()] [START URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-12 01:36:15,260][INFO][find_url_in_apk()] http://www.baidu.com
+
+[INTERNAL_LOG][2018-06-12 01:36:15,261][INFO][find_url_in_apk()] [END URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-12 01:36:15,839][INFO][find_string()] [START REMOTE FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 01:36:15,839][INFO][find_string()] Remote File in: temp_html_code/html_downloaded_Swift WiFi - Free WiFi Hotspot Portable by DotC United Swift Team - mobi/www.baidu.com
+[INTERNAL_LOG][2018-06-12 01:36:15,839][INFO][find_string()] URL: http://www.baidu.com
+[INTERNAL_LOG][2018-06-12 01:36:15,842][INFO][find_string()] No iframe in temp_html_code/html_downloaded_Swift WiFi - Free WiFi Hotspot Portable by DotC United Swift Team - mobi/www.baidu.com
+[INTERNAL_LOG][2018-06-12 01:36:15,842][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 01:36:15,842][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 01:36:15,843][INFO][find_url_in_apk()] https://api.%s/install_data/v3/
+https://attr.%s/api/v
+https://t.%s/api/v
+https://events.%s/api/v
+https://register.%s/api/v
+https://stats.%s/stats
+https://onelink.%s/shortlink-sdk/v1
+https://onelink.%s/shortlink-sdk/v1
+https://validate.%s/api/v
+https://sdk-services.%s/validate-android-signature
+https://app.%s
+https://app.%s
+https://impression.%s
+https://monitorsdk.%s/remote-debug?app_id=
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+http://192.168.43.1:
+https://graph.%s
+https://graph-video.%s
+https://facebook.com
+http://play.google.com/store/apps/details?id=com.facebook.orca
+http://www.google-analytics.com
+https://ssl.google-analytics.com
+http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+https://e.crashlytics.com/spi/v2/events
+https://settings.crashlytics.com/spi/v2/platforms/android/apps/%s/settings
+http://go.onelink.me/3263378070?pid=WiFi_Push_News&c=WiFi_Push_News&af_dp=market%3A%2F%2Fdetails%3Fid%3Dcom.dotc.ime.latin.flash%26amp%3Breferrer%3Dwifitoolbox
+https://play.google.com/store/apps/details?id=com.dotc.ime.latin.flash
+https://play.google.com/store/apps/details?id=com.dotc.ime.latin.flash
+https://play.google.com/store/apps/details?id=com.dotc.ime.latin.flash
+https://play.google.com/store/apps/details?id=com.dotc.ime.latin.flash
+https://play.google.com/store/apps/details?id=com.dotc.ime.latin.flash
+http://maps.googleapis.com/maps/api/geocode/json?
+https://maps.googleapis.com/maps/api/directions/
+http://maps.googleapis.com/maps/api/geocode/json?latlng=
+http://app.appsflyer.com/com.dotc.ime.latin.flash?pid=Wifi_Floatball&c=Wifi_Floatball
+http://www.apple.com/library/test/success.html
+http://www.apple.com/library/test/success.html
+http://www.apple.com/library/test/success.html
+http://www.apple.com/library/test/success.html
+http://www.apple.com/
+http://www.apple.com/
+http://app.appsflyer.com/com.dotc.ime.latin.flash?pid=Wifi_toolbox&c=20160121
+http://app.appsflyer.com/com.dotc.ime.latin.flash?pid=Wifi_toolbox&c=20160121
+https://play.google.com/store/apps/details?id=dotc.mobi.swift.browser
+https://play.google.com/store/apps/details?id=dotc.mobi.swift.browser
+http://go.onelink.me/3263378070?pid=Result&c=Result&af_dp=market%3A%2F%2Fdetails%3Fid%3Dcom.dotc.ime.latin.flash%26amp%3Breferrer%3Dwifitoolbox
+http://www.baidu.com
+http://cdn.wifimaster.mobi/statics/test_sucess.html
+http://cdn.wifimaster.mobi/statics/test_sucess.html
+http://hk.api.wifimaster.mobi/p/p
+http://hk.api.wifimaster.mobi/p/p
+http://hk.api.wifimaster.mobi/p/m
+http://hk.api.wifimaster.mobi/p/m
+http://hk.api.wifimaster.mobi/p/s
+http://hk.api.wifimaster.mobi/p/s
+http://hk.api.wifimaster.mobi/r/c
+http://hk.api.wifimaster.mobi/r/c
+http://hk.api.wifimaster.mobi/p/at
+http://hk.api.wifimaster.mobi/p/at
+http://hostname/?
+http://plus.google.com/
+https://app-measurement.com/a
+https://www.google.com
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+http://coin.wifimaster.mobi/v1/wifi/userset
+http://coin.wifimaster.mobi/v1/wifi/userset
+http://cdn.wifimaster.mobi/images/invite/Shared_Facebook_Dialog.jpg
+http://cdn.wifimaster.mobi/images/invite/swift_wifi_invite.png
+http://cdn.wifimaster.mobi/images/invite/Invite_Friends_2.jpg
+http://cdn.wifimaster.mobi/images/invite/shared_signal.png
+http://cdn.wifimaster.mobi/statics/4dd15a5bb9dcb465f1f8e0067a93b0e6_2560x1600.jpg
+http://hk.api.wifimaster.mobi//v1/wifi/clickadincentive
+http://coin.wifimaster.mobi/v1/wifi/coinhistory
+http://coinapi.wifimaster.mobi//complain/uploadcomplain
+http://coin.wifimaster.mobi/v1/wifi/connected
+http://hk.api.wifimaster.mobi/e/s
+http://coin.wifimaster.mobi/v1/wifi/firstboot
+http://coin.wifimaster.mobi/v1/wifi/reward
+http://coin.wifimaster.mobi/v1/wifi/sharereport
+http://coin.wifimaster.mobi/v1/wifi/sharehistory
+http://coin.wifimaster.mobi/v1/wifi/statistics
+http://coin.wifimaster.mobi//v1/wifi/stopsharing
+http://coin.wifimaster.mobi/v1/wifi/userget
+http://coinapi.wifimaster.mobi//v1/wifi/userget/batch
+http://coin.wifimaster.mobi/v1/wifi/bind
+http://coin.wifimaster.mobi/v1/wifi/wifiget
+http://coin.wifimaster.mobi/v1/wifi/login
+https://www.facebook.com/pages/Swift-Wifi/740973382690093?fref=ts
+http://download.wifimaster.mobi/swiftwifi/2016/gift.gif
+http://news.yahoo.com/
+http://app4.jiwire.com/android/app_query.php
+http://hk.api.wifimaster.mobi/v/t
+http://wf.wifimaster.mobi
+http://cf.wifimaster.mobi
+http://hk.api.wifimaster.mobi/u/gc
+http://cf.wifimaster.mobi/m/config
+http://hk.api.wifimaster.mobi/f/r
+http://hk.api.wifimaster.mobi/p/go
+http://hk.api.wifimaster.mobi/s/g
+http://hk.api.wifimaster.mobi/u/i
+http://hk.api.wifimaster.mobi/p/mp
+http://hk.api.wifimaster.mobi/ap/mapConfig
+http://cf.wifimaster.mobi/p/config
+http://hk.api.wifimaster.mobi/p/t
+http://hk.api.wifimaster.mobi/i/g
+http://hk.api.wifimaster.mobi/v/s
+http://stt.wifimaster.mobi
+http://hk.api.wifimaster.mobi/v/a
+http://hk.api.wifimaster.mobi/v/u
+http://hk.api.wifimaster.mobi/p/l
+http://192.168.2.152:8180/report/test
+
+[INTERNAL_LOG][2018-06-12 01:36:15,843][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 01:36:15,848][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 01:36:15,848][INFO][check_method_conf()] [Add interface WebView: False]
+
+[INTERNAL_LOG][2018-06-12 01:36:15,848][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 01:36:15,848][INFO][analyze_start()] End time:[Tue Jun 12 01:36:15 2018]

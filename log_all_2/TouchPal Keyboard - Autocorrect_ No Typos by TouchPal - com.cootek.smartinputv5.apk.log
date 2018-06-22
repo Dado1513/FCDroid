@@ -1,0 +1,283 @@
+[INTERNAL_LOG][2018-06-12 00:00:38,034][INFO][analyze_start()] Init Time [Tue Jun 12 00:00:38 2018]
+[INTERNAL_LOG][2018-06-12 00:00:38,328][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 00:00:38,329][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 00:00:38,329][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 00:00:38,329][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-12 00:00:38,329][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 00:00:38,329][INFO][is_hybird()] android.permission.READ_CONTACTS
+[INTERNAL_LOG][2018-06-12 00:00:38,330][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 00:00:38,330][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 00:00:38,330][INFO][is_hybird()] android.permission.READ_SMS
+[INTERNAL_LOG][2018-06-12 00:00:38,330][INFO][is_hybird()] android.permission.READ_USER_DICTIONARY
+[INTERNAL_LOG][2018-06-12 00:00:38,330][INFO][is_hybird()] android.permission.RECEIVE_BOOT_COMPLETED
+[INTERNAL_LOG][2018-06-12 00:00:38,330][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 00:00:38,330][INFO][is_hybird()] android.permission.READ_PHONE_STATE
+[INTERNAL_LOG][2018-06-12 00:00:38,330][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-12 00:00:38,330][INFO][is_hybird()] com.android.launcher.permission.INSTALL_SHORTCUT
+[INTERNAL_LOG][2018-06-12 00:00:38,330][INFO][is_hybird()] com.android.launcher.permission.UNINSTALL_SHORTCUT
+[INTERNAL_LOG][2018-06-12 00:00:38,330][INFO][is_hybird()] android.permission.SYSTEM_ALERT_WINDOW
+[INTERNAL_LOG][2018-06-12 00:00:38,330][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 00:00:38,330][INFO][is_hybird()] android.permission.RECORD_AUDIO
+[INTERNAL_LOG][2018-06-12 00:00:38,330][INFO][is_hybird()] android.permission.ACCESS_FINE_LOCATION
+[INTERNAL_LOG][2018-06-12 00:00:38,330][INFO][is_hybird()] android.permission.CAMERA
+[INTERNAL_LOG][2018-06-12 00:00:38,330][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-12 00:00:38,330][INFO][is_hybird()] com.cootek.smartinputv5.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-12 00:00:38,331][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 00:00:38,331][INFO][is_hybird()] com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+[INTERNAL_LOG][2018-06-12 00:00:38,331][INFO][is_hybird()] com.sec.android.provider.badge.permission.READ
+[INTERNAL_LOG][2018-06-12 00:00:38,331][INFO][is_hybird()] com.sec.android.provider.badge.permission.WRITE
+[INTERNAL_LOG][2018-06-12 00:00:38,331][INFO][is_hybird()] com.htc.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 00:00:38,331][INFO][is_hybird()] com.htc.launcher.permission.UPDATE_SHORTCUT
+[INTERNAL_LOG][2018-06-12 00:00:38,331][INFO][is_hybird()] com.sonyericsson.home.permission.BROADCAST_BADGE
+[INTERNAL_LOG][2018-06-12 00:00:38,331][INFO][is_hybird()] com.sonymobile.home.permission.PROVIDER_INSERT_BADGE
+[INTERNAL_LOG][2018-06-12 00:00:38,331][INFO][is_hybird()] com.anddoes.launcher.permission.UPDATE_COUNT
+[INTERNAL_LOG][2018-06-12 00:00:38,331][INFO][is_hybird()] com.majeur.launcher.permission.UPDATE_BADGE
+[INTERNAL_LOG][2018-06-12 00:00:38,331][INFO][is_hybird()] com.huawei.android.launcher.permission.CHANGE_BADGE
+[INTERNAL_LOG][2018-06-12 00:00:38,331][INFO][is_hybird()] com.huawei.android.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 00:00:38,331][INFO][is_hybird()] com.huawei.android.launcher.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 00:00:38,331][INFO][is_hybird()] android.permission.READ_APP_BADGE
+[INTERNAL_LOG][2018-06-12 00:00:38,331][INFO][is_hybird()] com.oppo.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 00:00:38,331][INFO][is_hybird()] com.oppo.launcher.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 00:00:38,331][INFO][is_hybird()] me.everything.badger.permission.BADGE_COUNT_READ
+[INTERNAL_LOG][2018-06-12 00:00:38,331][INFO][is_hybird()] me.everything.badger.permission.BADGE_COUNT_WRITE
+[INTERNAL_LOG][2018-06-12 00:00:38,331][INFO][is_hybird()] com.android.launcher.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 00:00:38,331][INFO][is_hybird()] com.android.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 00:00:38,331][INFO][is_hybird()] com.android.launcher2.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 00:00:38,332][INFO][is_hybird()] com.android.launcher2.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 00:00:38,332][INFO][is_hybird()] com.android.launcher3.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 00:00:38,332][INFO][is_hybird()] com.android.launcher3.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 00:00:38,332][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 00:00:38,332][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 00:00:38,332][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 00:00:38,332][INFO][find_string()] File: assets/network_error.html
+[INTERNAL_LOG][2018-06-12 00:00:38,333][INFO][find_string()] No iframe in assets/network_error.html
+[INTERNAL_LOG][2018-06-12 00:00:38,333][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 00:00:38,333][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 00:00:38,333][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 00:01:50,290][INFO][find_url_in_apk()] [START URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-12 00:01:50,290][INFO][find_url_in_apk()] http://play.google.com/store/apps/
+http://usa.ime.cdn.cootekservice.com/ad/h5player.html
+http://usa.ime.cdn.cootekservice.com/ad/vpaid.html?
+
+[INTERNAL_LOG][2018-06-12 00:01:50,290][INFO][find_url_in_apk()] [END URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-12 00:01:51,544][ERROR][download_page_loaded()] Failed download: http://play.google.com/store/apps/ for exception [Errno 21] Is a directory: 'temp_html_code/html_downloaded_TouchPal Keyboard - Autocorrect_ No Typos by TouchPal - com/'
+[INTERNAL_LOG][2018-06-12 00:01:51,980][INFO][find_string()] [START REMOTE FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 00:01:51,980][INFO][find_string()] Remote File in: temp_html_code/html_downloaded_TouchPal Keyboard - Autocorrect_ No Typos by TouchPal - com/h5player.html
+[INTERNAL_LOG][2018-06-12 00:01:51,982][INFO][find_string()] URL: http://usa.ime.cdn.cootekservice.com/ad/h5player.html
+[INTERNAL_LOG][2018-06-12 00:01:51,985][INFO][find_string()] No iframe in temp_html_code/html_downloaded_TouchPal Keyboard - Autocorrect_ No Typos by TouchPal - com/h5player.html
+[INTERNAL_LOG][2018-06-12 00:01:51,985][INFO][find_string()] Remote File in: temp_html_code/html_downloaded_TouchPal Keyboard - Autocorrect_ No Typos by TouchPal - com/vpaid.html?
+[INTERNAL_LOG][2018-06-12 00:01:51,985][INFO][find_string()] URL: http://usa.ime.cdn.cootekservice.com/ad/vpaid.html?
+[INTERNAL_LOG][2018-06-12 00:01:51,988][INFO][find_string()] No iframe in temp_html_code/html_downloaded_TouchPal Keyboard - Autocorrect_ No Typos by TouchPal - com/vpaid.html?
+[INTERNAL_LOG][2018-06-12 00:01:51,989][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 00:01:51,989][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 00:01:51,990][INFO][find_url_in_apk()] http://www.just-anchor.com?
+http://www.facebook.com/sharer.php?
+http://service.cootek.cn:80
+http://service.cootek.com:80
+http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+http://suggestqueries.google.com/complete/search?client=toolbar&q=
+https://www.facebook.com/dialog/feed?app_id=606141872785367
+https://twitter.com/intent/tweet?text=
+http://gif.co/download?pid=
+http://localhost
+http://localhost
+http://localhost
+https://accounts.google.com
+https://accounts.google.com
+https://accounts.google.com/o/oauth2/auth?scope=email%20profile&redirect_uri=http://localhost&response_type=code&client_id=86843878091-a5sh71ndls2jbvngmkj6e5pm7n4hiv9h.apps.googleusercontent.com
+https://api.twitter.com/oauth/access_token
+https://api.twitter.com/oauth/access_token
+http://localhost/sign-in-with-twitter/
+http://localhost/sign-in-with-twitter/
+https://api.twitter.com/oauth/request_token
+https://api.twitter.com/oauth/request_token
+https://api.twitter.com/oauth/authorize?oauth_token=
+https://api.twitter.com/oauth/authorize?oauth_token=
+https://api.twitter.com
+https://api.twitter.com/1.1/statuses/user_timeline.json
+https://api.twitter.com/1.1/statuses/update.json
+https://api.twitter.com/1.1/users/show.json
+https://api.twitter.com/1.1/friendships/lookup.json
+https://api.twitter.com/1.1/friendships/create.json
+http://www.chubao.cn
+http://www.chubao.cn
+http://ime.cdn.service.cootek.com/international/temp/test1.zip
+http://ime.cdn.service.cootek.com/international/temp/test2.zip
+http://cdngc.ime.cdn.host.cootekservice.com/international/temp/test1.zip
+http://cdngc.ime.cdn.host.cootekservice.com/international/temp/test2.zip
+http://www.example.com
+http://www.example.com
+http://www.example.com
+http://www.example.com
+http://m.facebook.com/ads/ad_choices
+http://m.facebook.com/ads/ad_choices
+https://www.facebook.com/audience_network/server_side_reward
+https://www.%s.facebook.com/audience_network/server_side_reward
+https://graph.facebook.com/network_ads_common
+https://graph.%s.facebook.com/network_ads_common
+https://www.facebook.com/adnw_logging/
+https://www.%s.facebook.com/adnw_logging/
+https://www.facebook.com/
+https://www.%s.facebook.com
+http://www.facebook.com
+https://graph.%s
+https://graph-video.%s
+https://facebook.com
+http://play.google.com/store/apps/details?id=com.facebook.orca
+https://ads.flurry.com/v17/getAds.do
+http://ads.flurry.com/v17/getAds.do
+https://cdn.flurry.com/vast/videocontrols/v2/android.zip
+https://adlog.flurry.com
+http://adlog.flurry.com
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+http://www.yahoo.com
+https://cfg.flurry.com/sdk/v1/config
+https://cfg.flurry.com/sdk/v1/config
+https://proton.flurry.com/sdk/v1/config
+https://data.flurry.com/pcr.do
+https://data.flurry.com/aap.do
+http://data.flurry.com/aap.do
+http://schemas.microsoft.com/DRM/2007/03/protocols/AcquireLicense
+http://www.w3.org/ns/ttml#parameter
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+https://www.facebook.com
+https://www.googleapis.com/auth/games
+https://plus.google.com/
+https://app-measurement.com/a
+https://www.google.com
+http://www.google.com
+https://support.google.com/dfp_premium/answer/7160685#push
+https://z.moatads.com/
+http://play.google.com/store/apps/
+http://app.advertising/sdk?v=09m=
+http://cdn.88-f.net
+http://88.88-f.net/hbx/hberr?v=2.3.8
+https://analytics.mopub.com/i/jot/exchange_client_event
+https://www.mopub.com/optout
+https://r.my.com/mobile/
+https://ad.mail.ru/mobile/
+https://target.my.com/
+http://play.google.com
+https://play.google.com
+http://market.android.com
+https://market.android.com
+http://usa.ime.cdn.cootekservice.com/ad/h5player.html
+http://usa.ime.cdn.cootekservice.com/ad/vpaid.html
+http://usa.ime.cdn.cootekservice.com/ad/vpaid.html?
+http://adx.ime.cootek.com/adx/test/request
+http://adx.ime.cootek.com/adx/request
+http://adx.ime.cootek.com/adx/test/sspstat
+http://adx.ime.cootek.com/adx/sspstat
+https://api.weibo.com/2/
+http://api.t.sina.com.cn/oauth/request_token
+http://api.t.sina.com.cn/oauth/authorize
+http://api.t.sina.com.cn/oauth/access_token
+http://api.t.sina.com.cn/oauth/authenticate
+https://api.weibo.com/oauth2/access_token
+https://api.weibo.com/oauth2/authorize
+http://extern.yahoo.com/b
+http://extern.yahoo.com/c
+http://extern.yahoo.com/p
+https://syndication.site.yahoo.net/sapps/api/v1
+http://localhost/
+http://localhost/
+http://localhost/
+http://schemas.applovin.com/android/1.0
+http://schemas.applovin.com/android/1.0
+https://d.applovin.com/
+https://a.applovin.com/
+https://rt.applovin.com/med
+https://rt.applovin.com/pix
+https://d.applvn.com/
+https://a.applvn.com/
+https://rt.applvn.com/pix
+https://vid.applovin.com/,https://pdn.applovin.com/,https://img.applovin.com/,https://d.applovin.com/,https://assets.applovin.com/,https://cdnjs.cloudflare.com/,http://vid.applovin.com/,http://pdn.applovin.com/,http://img.applovin.com/,http://d.applovin.com/,http://assets.applovin.com/,http://cdnjs.cloudflare.com/
+https://api.%s/install_data/v3/
+https://attr.%s/api/v
+https://t.%s/api/v
+https://events.%s/api/v
+https://register.%s/api/v
+https://stats.%s/stats
+https://onelink.%s/shortlink-sdk/v1
+https://onelink.%s/shortlink-sdk/v1
+https://validate.%s/api/v
+https://sdk-services.%s/validate-android-signature
+https://app.%s
+https://app.%s
+https://impression.%s
+https://monitorsdk.%s/remote-debug?app_id=
+http://api.cloudmobi.net/api/
+http://logger.cloudmobi.net/
+http://www.cloudmobi.net
+http://cdn.image.cloudmobi.net/default/icon/20/20/corner/icon.png
+https://ups.ksmobile.net/csk_search/getversions.php
+http://dl.cm.ksmobile.com/static/res/fixed/d7/cskconfigurations.json
+http://extern.yahoo.com/c?
+http://extern.yahoo.com/b?
+http://ws2.cootekservice.com
+http://ws2.cootekservice.com
+http://ws2.cootekservice.com
+http://www.searchmobileonline.com
+http://www.searchmobileonline.com/?pubid=211761934&q=
+https://play.google.com/store/apps/details
+https://www.facebook.com/sharer.php?
+https://twitter.com/share?
+http://service.weibo.com/share/mobile.php?
+http://www.touchpal.com/store
+http://www.touchpal.com/store
+https://goo.gl/forms/uClN1psXUdtw3HC02
+https://goo.gl/forms/uMvrjGcktBLTsuaj1
+https://goo.gl/forms/qrFuizm9QVjV57832
+https://goo.gl/forms/vR64XWayTQ7UgVha2
+https://goo.gl/forms/5i5Njr4KvRe4bMfS2
+https://goo.gl/forms/OTXnK7SkTFcUTQ522
+http://s.touchp.al
+http://ap.ime.cootek.com
+http://ap.ime.cootek.com
+http://usa.ime.cootek.com
+http://usa.ime.cootek.com
+http://eu.ime.cootek.com
+http://eu.ime.cootek.com
+http://zh-cn.ime.cootek.com
+http://zh-cn.ime.cootek.com
+http://play.google.com/store/apps/details?id=
+http://3g.sina.com.cn
+https://twitter.com/TouchPal/followers
+https://twitter.com/TouchPal
+http://www.android.com/
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://csi.gstatic.com/csi
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/native_ads.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/native_video_ads.html
+https://www.google.com/dfp/linkDevice
+https://www.google.com/dfp/inAppPreview
+https://www.google.com/dfp/debugSignals
+https://www.google.com/dfp/sendDebugData
+https://pagead2.googlesyndication.com/pagead/gen_204
+https://twitter.com/%s/status/%s
+
+[INTERNAL_LOG][2018-06-12 00:01:51,996][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 00:01:52,060][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 00:01:52,061][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 00:01:52,061][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 00:01:52,061][INFO][analyze_start()] End time:[Tue Jun 12 00:01:52 2018]

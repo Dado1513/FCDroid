@@ -1,0 +1,111 @@
+[INTERNAL_LOG][2018-06-12 05:38:29,156][INFO][analyze_start()] Init Time [Tue Jun 12 05:38:29 2018]
+[INTERNAL_LOG][2018-06-12 05:38:29,191][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 05:38:29,191][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 05:38:29,192][INFO][is_hybird()] android.permission.RECEIVE_BOOT_COMPLETED
+[INTERNAL_LOG][2018-06-12 05:38:29,192][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-12 05:38:29,192][INFO][is_hybird()] android.permission.READ_CONTACTS
+[INTERNAL_LOG][2018-06-12 05:38:29,192][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 05:38:29,192][INFO][is_hybird()] android.permission.READ_PHONE_STATE
+[INTERNAL_LOG][2018-06-12 05:38:29,192][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 05:38:29,192][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 05:38:29,192][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 05:38:29,192][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-12 05:38:29,192][INFO][is_hybird()] com.ludia.jurassicpark.permission.UA_DATA
+[INTERNAL_LOG][2018-06-12 05:38:29,192][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 05:38:29,192][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 05:38:29,192][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-12 05:38:29,192][INFO][is_hybird()] com.ludia.jurassicpark.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-12 05:38:29,192][INFO][is_hybird()] android.permission.ACCESS_COARSE_LOCATION
+[INTERNAL_LOG][2018-06-12 05:38:29,192][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 05:38:29,193][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 05:38:29,193][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 05:38:29,193][INFO][find_string()] File: js/closebutton.html
+[INTERNAL_LOG][2018-06-12 05:38:29,193][INFO][find_string()] No iframe in js/closebutton.html
+[INTERNAL_LOG][2018-06-12 05:38:29,194][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 05:38:29,194][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 05:38:29,194][INFO][find_string()] File: js/mraid.js
+[INTERNAL_LOG][2018-06-12 05:38:29,208][INFO][find_string()] No iframe in js/mraid.js
+[INTERNAL_LOG][2018-06-12 05:38:29,208][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 05:38:50,545][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 05:38:50,545][INFO][find_url_in_apk()] https://live.chartboost.com
+http://market.android.com/
+https://graph.facebook.com
+https://graph.facebook.com
+http://graph.%s.facebook.com
+https://www.facebook.com/
+https://www.%s.facebook.com
+https://m.facebook.com/dialog/
+https://graph.facebook.com/
+https://api.facebook.com/restserver.php
+https://graph.facebook.com/%s/picture
+https://graph.%s
+https://graph-video.%s
+https://facebook.com
+https://www.googleapis.com/auth/appstate
+https://www.googleapis.com/auth/appstate
+https://www.googleapis.com/auth/appstate
+https://www.googleapis.com/auth/drive.file
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games.firstparty
+https://www.googleapis.com/auth/games.firstparty
+http://googleads.g.doubleclick.net
+http://www.google.com
+http://plus.google.com/
+https://www.googleapis.com/auth/plus.login
+https://www.googleapis.com/auth/plus.login
+https://www.googleapis.com/auth/plus.login
+https://www.googleapis.com/auth/plus.me
+http://schemas.android.com/apk/lib/com.google.android.gms.plus
+http://schemas.android.com/apk/lib/com.google.android.gms.plus
+https://androidads23.adcolony.com/configure
+https://rink.hockeyapp.net/api/2/apps/
+https://api.mixpanel.com/track?ip=1
+https://api.mixpanel.com/engage
+https://api.nanigans.com
+http://api.nanigans.com/disallowed.php?
+https://api.sessionm.com
+http://api.tb.sessionm.com
+https://m.s.sessionm.com
+https://api.reward.rakuten.jp
+https://portal.sessionm.com
+https://portal.reward.rakuten.jp
+https://ads.sessionm.com
+https://ads.reward.rakuten.jp
+https://rpc.tapjoy.com/
+https://rpc.tapjoy.com/
+https://connect.tapjoy.com/
+https://connect.tapjoy.com/
+https://ws.tapjoyads.com/
+https://ws.tapjoyads.com/
+https://ws.tapjoyads.com/
+https://placements.tapjoy.com/
+https://boxoffice.urbanairship.com
+https://sdk.hockeyapp.net/
+https://sdk.hockeyapp.net/
+https://sdk.hockeyapp.net/
+https://sdk.hockeyapp.net/
+https://sdk.hockeyapp.net/
+https://sdk.hockeyapp.net/
+https://sdk.hockeyapp.net/
+http://media.admob.com/mraid/v1/mraid_app_interstitial.js
+http://media.admob.com/mraid/v1/mraid_app_expanded_banner.js
+http://media.admob.com/mraid/v1/mraid_app_banner.js
+http://about:blank
+http://play.google.com/store/apps/details?id=
+https://device-api.urbanairship.com/
+https://combine.urbanairship.com/
+https://dl.urbanairship.com/aaa/
+
+[INTERNAL_LOG][2018-06-12 05:38:50,546][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 05:38:50,550][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 05:38:50,550][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 05:38:50,550][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 05:38:50,550][INFO][analyze_start()] End time:[Tue Jun 12 05:38:50 2018]

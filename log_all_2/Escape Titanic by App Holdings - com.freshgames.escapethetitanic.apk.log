@@ -1,0 +1,134 @@
+[INTERNAL_LOG][2018-06-12 09:32:51,493][INFO][analyze_start()] Init Time [Tue Jun 12 09:32:51 2018]
+[INTERNAL_LOG][2018-06-12 09:32:51,560][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 09:32:51,560][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 09:32:51,560][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 09:32:51,560][INFO][is_hybird()] android.permission.BATTERY_STATS
+[INTERNAL_LOG][2018-06-12 09:32:51,560][INFO][is_hybird()] android.permission.MODIFY_AUDIO_SETTINGS
+[INTERNAL_LOG][2018-06-12 09:32:51,561][INFO][is_hybird()] android.permission.SET_ORIENTATION
+[INTERNAL_LOG][2018-06-12 09:32:51,561][INFO][is_hybird()] android.permission.DEVICE_POWER
+[INTERNAL_LOG][2018-06-12 09:32:51,561][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 09:32:51,561][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 09:32:51,561][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-12 09:32:51,561][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 09:32:51,561][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 09:32:51,561][INFO][is_hybird()] android.permission.RECORD_AUDIO
+[INTERNAL_LOG][2018-06-12 09:32:51,561][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-12 09:32:51,561][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-12 09:32:51,561][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 09:32:51,561][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 09:32:51,561][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 09:32:51,561][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 09:32:51,561][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 09:32:51,561][INFO][find_string()] File: assets/s3eWebView.js
+[INTERNAL_LOG][2018-06-12 09:32:51,562][INFO][find_string()] No iframe in assets/s3eWebView.js
+[INTERNAL_LOG][2018-06-12 09:32:51,562][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 09:33:19,030][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 09:33:19,030][INFO][find_url_in_apk()] http://www.amazon.com/gp/mas/get-appstore/android/ref=mas_mx_mba_iap_dl
+http://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/
+https://play.google.com/store/apps/
+http://admin.appnext.com/AdminService.asmx/SetOpenV1
+http://admin.appnext.com/AdminService.asmx/
+https://admin.appnext.com/tools/sdkhtml/video/index197.html?id=
+https://admin.appnext.com/tools/sdkhtml/rewarded/index197.html?id=
+https://live.chartboost.com
+http://market.android.com/
+https://play.google.com/store/apps/details?id=%s
+https://www.facebook.com/audience_network/server_side_reward
+https://www.%s.facebook.com/audience_network/server_side_reward
+https://graph.facebook.com/network_ads_common
+https://graph.%s.facebook.com/network_ads_common
+https://www.facebook.com/adnw_logging/
+https://www.%s.facebook.com/adnw_logging/
+http://play.google.com/store/apps/
+https://www.facebook.com/
+https://www.%s.facebook.com
+http://www.facebook.com
+https://m.facebook.com/dialog/
+https://graph.facebook.com/
+https://api.facebook.com/restserver.php
+https://graph.facebook.com/%s/picture
+https://graph.%s
+https://graph-video.%s
+https://facebook.com
+http://data.flurry.com/aap.do
+https://data.flurry.com/aap.do
+http://ads.appchair.com/
+https://service.fyber.com/actions/v2
+https://service.fyber.com/installs/v2
+https://api.fyber.com/vcs/v1/new_credit.json
+https://video.fyber.com
+https://rewarded-video.fyber.com/tracker
+https://offer.fyber.com/mobile
+https://interstitial.fyber.com/interstitial
+https://interstitial.fyber.com/tracker
+https://engine.fyber.com/sdk-config
+https://engine.fyber.com/video-cache
+https://banner.fyber.com/banner
+https://banner.fyber.com/tracker
+https://testsuite.fyber.com/tracker
+http://hostname/?
+http://hostname/?
+http://www.google-analytics.com/collect
+http://www.google-analytics.com/collect
+https://ssl.google-analytics.com/collect
+https://ssl.google-analytics.com
+https://www.googleapis.com/auth/appstate
+https://www.googleapis.com/auth/appstate
+https://www.googleapis.com/auth/drive.file
+https://www.googleapis.com/auth/drive.appdata
+https://www.googleapis.com/auth/drive
+https://www.googleapis.com/auth/drive.apps
+https://www.googleapis.com/auth/fitness.activity.read
+https://www.googleapis.com/auth/fitness.activity.read
+https://www.googleapis.com/auth/fitness.activity.write
+https://www.googleapis.com/auth/fitness.activity.write
+https://www.googleapis.com/auth/fitness.location.read
+https://www.googleapis.com/auth/fitness.location.read
+https://www.googleapis.com/auth/fitness.location.write
+https://www.googleapis.com/auth/fitness.location.write
+https://www.googleapis.com/auth/fitness.body.read
+https://www.googleapis.com/auth/fitness.body.read
+https://www.googleapis.com/auth/fitness.body.write
+https://www.googleapis.com/auth/fitness.body.write
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games.firstparty
+https://www.googleapis.com/auth/games.firstparty
+https://googleads.g.doubleclick.net/mads/static/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/native_ads.html
+http://www.google.com
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+http://plus.google.com/
+https://www.googleapis.com/auth/plus.login
+https://www.googleapis.com/auth/plus.login
+https://www.googleapis.com/auth/plus.me
+http://schemas.android.com/apk/lib/com.google.android.gms.plus
+http://schemas.android.com/apk/lib/com.google.android.gms.plus
+https://www.googletagmanager.com
+http://ads.heyzap.com/in_game_api/ads
+http://ads.heyzap.com
+http://ads.heyzap.com/in_game_api/ads/
+https://analytics.mopub.com/i/jot/exchange_client_event
+https://twitter.com/%s/status/%s
+https://www.mopub.com/optout
+https://www.mopub.com/optout/
+https://www.mopub.com/optout/
+https://config.unityads.unity3d.com/webview/
+
+[INTERNAL_LOG][2018-06-12 09:33:19,030][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 09:33:19,034][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 09:33:19,034][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 09:33:19,034][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 09:33:19,034][INFO][analyze_start()] End time:[Tue Jun 12 09:33:19 2018]

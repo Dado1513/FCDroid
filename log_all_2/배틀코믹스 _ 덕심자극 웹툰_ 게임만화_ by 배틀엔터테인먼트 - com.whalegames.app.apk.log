@@ -1,0 +1,253 @@
+[INTERNAL_LOG][2018-06-12 07:58:02,807][INFO][analyze_start()] Init Time [Tue Jun 12 07:58:02 2018]
+[INTERNAL_LOG][2018-06-12 07:58:02,869][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 07:58:02,869][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 07:58:02,870][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 07:58:02,870][INFO][is_hybird()] android.permission.READ_PHONE_STATE
+[INTERNAL_LOG][2018-06-12 07:58:02,870][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 07:58:02,870][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 07:58:02,870][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 07:58:02,870][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 07:58:02,870][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-12 07:58:02,870][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 07:58:02,870][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-12 07:58:02,870][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-12 07:58:02,870][INFO][is_hybird()] com.sec.android.provider.badge.permission.READ
+[INTERNAL_LOG][2018-06-12 07:58:02,870][INFO][is_hybird()] com.sec.android.provider.badge.permission.WRITE
+[INTERNAL_LOG][2018-06-12 07:58:02,870][INFO][is_hybird()] com.htc.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 07:58:02,870][INFO][is_hybird()] com.htc.launcher.permission.UPDATE_SHORTCUT
+[INTERNAL_LOG][2018-06-12 07:58:02,870][INFO][is_hybird()] com.sonyericsson.home.permission.BROADCAST_BADGE
+[INTERNAL_LOG][2018-06-12 07:58:02,870][INFO][is_hybird()] com.anddoes.launcher.permission.UPDATE_COUNT
+[INTERNAL_LOG][2018-06-12 07:58:02,870][INFO][is_hybird()] com.majeur.launcher.permission.UPDATE_BADGE
+[INTERNAL_LOG][2018-06-12 07:58:02,870][INFO][is_hybird()] com.whalegames.app.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-12 07:58:02,871][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 07:58:02,871][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 07:58:02,871][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 07:58:02,871][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 07:58:02,871][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 07:58:02,871][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 07:59:04,003][INFO][find_url_in_apk()] [START URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-12 07:59:04,003][INFO][find_url_in_apk()] https://s3.ap-northeast-2.amazonaws.com/daum-address/postcode.html?platform=android
+https://s3.ap-northeast-2.amazonaws.com/battlecomics-webview/roulette/index_v2.html?platform=android
+
+[INTERNAL_LOG][2018-06-12 07:59:04,003][INFO][find_url_in_apk()] [END URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-12 07:59:07,762][INFO][find_string()] [START REMOTE FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 07:59:07,762][INFO][find_string()] Remote File in: temp_html_code/html_downloaded_배틀코믹스 _ 덕심자극 웹툰_ 게임만화_ by 배틀엔터테인먼트 - com/postcode.html?platform=android
+[INTERNAL_LOG][2018-06-12 07:59:07,762][INFO][find_string()] URL: https://s3.ap-northeast-2.amazonaws.com/daum-address/postcode.html?platform=android
+[INTERNAL_LOG][2018-06-12 07:59:07,763][INFO][find_string()] No iframe in temp_html_code/html_downloaded_배틀코믹스 _ 덕심자극 웹툰_ 게임만화_ by 배틀엔터테인먼트 - com/postcode.html?platform=android
+[INTERNAL_LOG][2018-06-12 07:59:07,763][INFO][find_string()] Remote File in: temp_html_code/html_downloaded_배틀코믹스 _ 덕심자극 웹툰_ 게임만화_ by 배틀엔터테인먼트 - com/index_v2.html?platform=android
+[INTERNAL_LOG][2018-06-12 07:59:07,763][INFO][find_string()] URL: https://s3.ap-northeast-2.amazonaws.com/battlecomics-webview/roulette/index_v2.html?platform=android
+[INTERNAL_LOG][2018-06-12 07:59:07,766][INFO][find_string()] No iframe in temp_html_code/html_downloaded_배틀코믹스 _ 덕심자극 웹툰_ 게임만화_ by 배틀엔터테인먼트 - com/index_v2.html?platform=android
+[INTERNAL_LOG][2018-06-12 07:59:07,766][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 07:59:07,766][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 07:59:07,766][INFO][find_url_in_apk()] http://schemas.android.com/apk/res/android
+https://settings.crashlytics.com/spi/v2/platforms/android/apps/%s/settings
+http://ad.buzzvil.com/offerwall/
+https://graph.%s
+https://graph-video.%s
+https://facebook.com
+https://facebook.com/device?user_code=%1$s&qr=1
+http://www.android.com/
+http://schemas.android.com/apk/res/
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+http://image.cauly.co.kr/optout/optout.png
+http://image.cauly.co.kr/optout/optout_exp.png
+http://rd.cauly.co.kr/opt-out?sdk_type=native&platform=Android&code=
+http://rd.cauly.co.kr/opt-out?sdk_type=native&platform=Android&code=
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+https://plus.google.com/
+http://www.google.com
+http://www.google.com
+http://www.google.com
+https://e.crashlytics.com/spi/v2/events
+http://logtracker.cauly.co.kr:13000/log3d?
+http://hostname/?
+https://ad.cauly.co.kr/caulyAptResearch?
+https://ad.cauly.co.kr/CaulyImpressInform?
+https://ad.cauly.co.kr/CaulyImpressInform?
+http://ad.cauly.co.kr/CaulyImpressInform?
+http://ad.cauly.co.kr/CaulyImpressInform?
+http://image.cauly.co.kr:15151/sdk/blackdragon/module_info/GetModuleInfo.txt_3.4.11
+https://www.googleapis.com/auth/games_lite
+https://www.googleapis.com/auth/games
+https://ad.cauly.co.kr/checkCondition?
+http://ad.cauly.co.kr/checkCondition?
+https://ad.cauly.co.kr/caulyImpress?
+https://ad.cauly.co.kr/caulyImpress?
+https://ad.cauly.co.kr/caulyImpress?
+http://ad.cauly.co.kr/caulyImpress?
+http://ad.cauly.co.kr/caulyImpress?
+http://ad.cauly.co.kr/caulyImpress?
+https://xconf.cauly.co.kr/caulyXconf?
+https://click.cauly.co.kr/caulyClick?
+http://click.cauly.co.kr/caulyClick?
+https://click.cauly.co.kr/caulyPlay?
+http://click.cauly.co.kr/caulyPlay?
+https://tracker.cauly.co.kr/reporting?
+http://tracker.cauly.co.kr/reporting?
+http://www.example.com
+http://www.example.com
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/sdk-core-v40-impl.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://csi.gstatic.com/csi
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/native_ads.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/native_ads.js
+https://imasdk.googleapis.com/admob/sdkloader/native_video.html
+https://www.google.com/dfp/linkDevice
+https://www.google.com/dfp/inAppPreview
+https://www.google.com/dfp/debugSignals
+https://www.google.com/dfp/sendDebugData
+https://pagead2.googlesyndication.com/pagead/gen_204
+https://support.google.com/dfp_premium/answer/7160685#push
+http://www.google-analytics.com
+https://ssl.google-analytics.com
+https://app-measurement.com/a
+http://referrer.ad-brix.com?
+http://static.adbrix.igaworks.com/adbrix_res/sdk_res/play_bt_circle.png
+http://static.adbrix.igaworks.com/adbrix_res/sdk_res/popup_close_bt.png
+http://static.adbrix.igaworks.com/adbrix_res/sdk_res/mission_check_off.png
+http://static.adbrix.igaworks.com/adbrix_res/sdk_res/mission_check_on.png
+http://static.adbrix.igaworks.com/adbrix_res/sdk_res/bg_pt.png
+http://static.adbrix.igaworks.com/adbrix_res/sdk_res/app_select_arrow.png
+http://static.adbrix.igaworks.com/adbrix_res/sdk_res/img_slide_left.png
+http://static.adbrix.igaworks.com/adbrix_res/sdk_res/img_slide_right.png
+http://static.adbrix.igaworks.com/adbrix_res/sdk_res/play_bt_square.png
+http://static.adbrix.igaworks.com/adbrix_res/sdk_res/step_arrow.png
+https://s3-ap-northeast-1.amazonaws.com/contents.igaworks.com/adPOPcorn/faq.html?v=1
+https://s3-ap-northeast-1.amazonaws.com/contents.igaworks.com/adPOPcorn/faq.html?v=1
+https://s3-ap-northeast-1.amazonaws.com/contents.igaworks.com/adPOPcorn/faq.html?v=1
+https://s3-ap-northeast-1.amazonaws.com/contents.igaworks.com/adPOPcorn/faq.html?v=1
+http://play.google.com/store/apps/
+https://play.google.com/store/apps/
+http://www.igaworks.com/ko/rule_member.html
+http://www.igaworks.com/ko/rule_member.html
+http://adpopcorn.com
+https://rpi.adpopcorn.com/ap/v3/sdk/media/MediaService.svc/offerwall
+http://igaworks.com
+http://igaworks.com
+http://igaworks.com
+https://sspi.adpopcorn.com/v2_sdk/interstitial
+https://sspi.adpopcorn.com/v2_sdk/banner
+https://play.google.com/store/apps/details?id=com.kakao.talk&referrer=
+https://play.google.com/store/apps/details?id=com.kakao.talk&referrer=
+https://mtag.mman.kr
+http://218.49.170.187
+https://ssp.meba.kr/ssp.mezzo
+http://advimg.ad-mapps.com/ad_images/link_mezzo_home.html
+http://advimg.ad-mapps.com/ad_images/link_mezzo_home.html
+https://play.google.com/
+https://play.google.com/
+https://play.google.com/
+https://twitter.com/%s/status/%s
+https://beacon-api.battlecomics.co.kr/
+http://www.battlecomics.co.kr/password/new
+http://localhost/
+http://localhost/
+http://localhost/
+https://rpi-staging.adpopcorn.com/ap/v3/cmm/conversion/conversionservice.svc/completerewardvideocampaign
+https://rpi.adpopcorn.com/ap/v3/cmm/conversion/conversionservice.svc/completerewardvideocampaign
+https://rpi-staging.adpopcorn.com/ap/v3/sdk/media/mediaservice.svc/cscampaign
+https://rpi.adpopcorn.com/ap/v3/sdk/media/mediaservice.svc/cscampaign
+https://rpi-staging.adpopcorn.com/ap/v3/sdk/media/mediaservice.svc/addcs
+https://rpi.adpopcorn.com/ap/v3/sdk/media/mediaservice.svc/addcs
+https://rpi-staging.adpopcorn.com/ap/v3/sdk/media/MediaService.svc/campaignhistory
+https://rpi.adpopcorn.com/ap/v3/sdk/media/MediaService.svc/campaignhistory
+https://rpi-staging.adpopcorn.com/ap/v3/sdk/media/MediaService.svc/checkcampaign
+https://rpi-staging.adpopcorn.com/ap/v3/sdk/media/MediaService.svc/checkcampaign
+https://rpi-staging.adpopcorn.com/ap/v3/sdk/media/MediaService.svc/joincampaign
+https://rpi-staging.adpopcorn.com/ap/v3/sdk/media/MediaService.svc/joincampaign
+https://rpi-staging.adpopcorn.com/ap/v3/cmm/conversion/conversionservice.svc/completeinstallcampaign
+https://rpi-staging.adpopcorn.com/ap/v3/cmm/conversion/conversionservice.svc/completeinstallcampaign
+https://rpi-staging.adpopcorn.com/ap/v3/sdk/video/videoservice.svc/getrewardvideodetail
+https://rpi-staging.adpopcorn.com/ap/v3/sdk/video/videoservice.svc/getrewardvideodetail
+https://rpi-staging.adpopcorn.com/ap/v3/cmm/conversion/conversionservice.svc/completeexecutecampaign
+https://rpi-staging.adpopcorn.com/ap/v3/cmm/conversion/conversionservice.svc/completeexecutecampaign
+https://rpi.adpopcorn.com/ap/v3/sdk/media/MediaService.svc/checkcampaign
+https://rpi.adpopcorn.com/ap/v3/sdk/media/MediaService.svc/checkcampaign
+https://rpi.adpopcorn.com/ap/v3/sdk/media/MediaService.svc/joincampaign
+https://rpi.adpopcorn.com/ap/v3/sdk/media/MediaService.svc/joincampaign
+https://rpi.adpopcorn.com/ap/v3/cmm/conversion/conversionservice.svc/completeinstallcampaign
+https://rpi.adpopcorn.com/ap/v3/cmm/conversion/conversionservice.svc/completeinstallcampaign
+https://rpi.adpopcorn.com/ap/v3/sdk/video/videoservice.svc/getrewardvideodetail
+https://rpi.adpopcorn.com/ap/v3/sdk/video/videoservice.svc/getrewardvideodetail
+https://rpi.adpopcorn.com/ap/v3/cmm/conversion/conversionservice.svc/completeexecutecampaign
+https://rpi.adpopcorn.com/ap/v3/cmm/conversion/conversionservice.svc/completeexecutecampaign
+https://rpi.adpopcorn.com/ap/v3/sdk/media/MediaService.svc/clientcompletereward
+https://rpi.adpopcorn.com/ap/v3/sdk/media/MediaService.svc/clientcompletereward
+https://rpi.adpopcorn.com/ap/v3/sdk/media/MediaService.svc/clientpendingreward
+https://rpi-staging.adpopcorn.com/ap/v3/sdk/video/videoservice.svc/videolist
+https://rpi.adpopcorn.com/ap/v3/sdk/video/videoservice.svc/videolist
+https://rpi-staging.adpopcorn.com/ap/v3/sdk/video/videoservice.svc/joinvideocampaign
+https://rpi.adpopcorn.com/ap/v3/sdk/video/videoservice.svc/joinvideocampaign
+https://rpi-staging.adpopcorn.com/ap/v3/sdk/behavior/behaviorservice.svc/action
+https://rpi-staging.adpopcorn.com/ap/v3/sdk/behavior/behaviorservice.svc/action
+https://rpi.adpopcorn.com/ap/v3/sdk/behavior/behaviorservice.svc/action
+https://rpi.adpopcorn.com/ap/v3/sdk/behavior/behaviorservice.svc/action
+https://rpi-staging.adpopcorn.com/ap/v3/cmm/conversion/conversionservice.svc/completeinstallcampaignlistener
+https://rpi.adpopcorn.com/ap/v3/cmm/conversion/conversionservice.svc/completeinstallcampaignlistener
+http://www.tnkfactory.com/tnk/sdk/privacy_policy_en.txt
+http://www.tnkfactory.com/tnk/sdk/privacy_policy_en.txt
+http://www.tnkfactory.com/tnk/sdk/privacy_policy_ja.txt
+http://www.tnkfactory.com/tnk/sdk/privacy_policy_ko.txt
+http://ads.vrixon.com/vast/vast_battlecomics.vrix?invenid=PARLO
+http://battlecomics.co.kr/challenge/webtoons/{id}/episodes/{eid}
+http://staging.battlecomics.co.kr/challenge/webtoons/{id}/episodes/{eid}
+http://www.battlecomics.co.kr/challenge/webtoons/{id}/episodes/{eid}
+https://battlecomics.co.kr/challenge/webtoons/{id}/episodes/{eid}
+https://staging.battlecomics.co.kr/challenge/webtoons/{id}/episodes/{eid}
+https://www.battlecomics.co.kr/challenge/webtoons/{id}/episodes/{eid}
+http://battlecomics.co.kr/webtoons/{id}/episodes/{eid}
+http://staging.battlecomics.co.kr/webtoons/{id}/episodes/{eid}
+http://www.battlecomics.co.kr/webtoons/{id}/episodes/{eid}
+https://battlecomics.co.kr/webtoons/{id}/episodes/{eid}
+https://staging.battlecomics.co.kr/webtoons/{id}/episodes/{eid}
+https://www.battlecomics.co.kr/webtoons/{id}/episodes/{eid}
+http://battlecomics.co.kr/challenge/webtoons/{id}
+http://staging.battlecomics.co.kr/challenge/webtoons/{id}
+http://www.battlecomics.co.kr/challenge/webtoons/{id}
+https://battlecomics.co.kr/challenge/webtoons/{id}
+https://staging.battlecomics.co.kr/challenge/webtoons/{id}
+https://www.battlecomics.co.kr/challenge/webtoons/{id}
+http://battlecomics.co.kr/webtoons/{id}
+http://staging.battlecomics.co.kr/webtoons/{id}
+http://www.battlecomics.co.kr/webtoons/{id}
+https://battlecomics.co.kr/webtoons/{id}
+https://staging.battlecomics.co.kr/webtoons/{id}
+https://www.battlecomics.co.kr/webtoons/{id}
+http://battlecomics.co.kr
+http://staging.battlecomics.co.kr
+http://www.battlecomics.co.kr
+https://battlecomics.co.kr
+https://staging.battlecomics.co.kr
+https://www.battlecomics.co.kr
+https://www.facebook.com/sharer/sharer.php
+https://www.facebook.com/sharer/sharer.php
+http://www.battlecomics.co.kr/challenge/webtoons/
+http://www.battlecomics.co.kr/webtoons/
+https://www.google.com
+https://analytics.mopub.com/i/jot/exchange_client_event
+http://www.battlecomics.co.kr/feeds/officials
+http://www.battlecomics.co.kr/fanarts
+https://s3.ap-northeast-2.amazonaws.com/daum-address/postcode.html?platform=android
+http://storefarm.naver.com/battlecomics
+https://s3.ap-northeast-2.amazonaws.com/battlecomics-webview/roulette/index_v2.html?platform=android
+
+[INTERNAL_LOG][2018-06-12 07:59:07,766][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 07:59:07,772][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 07:59:07,772][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 07:59:07,772][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 07:59:07,772][INFO][analyze_start()] End time:[Tue Jun 12 07:59:07 2018]

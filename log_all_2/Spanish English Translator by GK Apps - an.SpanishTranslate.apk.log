@@ -1,0 +1,38 @@
+[INTERNAL_LOG][2018-06-12 03:54:15,509][INFO][analyze_start()] Init Time [Tue Jun 12 03:54:15 2018]
+[INTERNAL_LOG][2018-06-12 03:54:15,519][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 03:54:15,520][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 03:54:15,520][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 03:54:15,520][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 03:54:15,520][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 03:54:15,520][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 03:54:15,520][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 03:54:15,520][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 03:54:15,521][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 03:54:15,522][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 03:54:19,154][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 03:54:19,154][INFO][find_url_in_apk()] http://on.fb.me/1fOIHf6
+https://graph.facebook.com/network_ads_common
+https://graph.%s.facebook.com/network_ads_common
+https://www.facebook.com/adnw_logging/
+https://www.%s.facebook.com/adnw_logging/
+http://play.google.com/store/apps/
+https://www.facebook.com/
+https://www.%s.facebook.com
+http://www.facebook.com
+https://play.google.com/store/apps/details?id=%s
+https://api.cognitive.microsoft.com/sts/v1.0/issueToken
+https://api.microsofttranslator.com/v2/http.svc/Translate?appid=
+https://www.%s.facebook.com/audience_network/server_side_reward
+https://www.facebook.com/audience_network/server_side_reward
+
+[INTERNAL_LOG][2018-06-12 03:54:19,154][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 03:54:19,157][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 03:54:19,157][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 03:54:19,157][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 03:54:19,157][INFO][analyze_start()] End time:[Tue Jun 12 03:54:19 2018]

@@ -1,0 +1,170 @@
+[INTERNAL_LOG][2018-06-12 04:03:35,627][INFO][analyze_start()] Init Time [Tue Jun 12 04:03:35 2018]
+[INTERNAL_LOG][2018-06-12 04:03:35,671][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 04:03:35,672][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 04:03:35,672][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 04:03:35,672][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-12 04:03:35,672][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 04:03:35,672][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 04:03:35,672][INFO][is_hybird()] android.permission.ACCESS_COARSE_LOCATION
+[INTERNAL_LOG][2018-06-12 04:03:35,673][INFO][is_hybird()] android.permission.ACCESS_FINE_LOCATION
+[INTERNAL_LOG][2018-06-12 04:03:35,673][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 04:03:35,673][INFO][is_hybird()] android.permission.READ_PHONE_STATE
+[INTERNAL_LOG][2018-06-12 04:03:35,673][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 04:03:35,673][INFO][is_hybird()] android.permission.USE_CREDENTIALS
+[INTERNAL_LOG][2018-06-12 04:03:35,673][INFO][is_hybird()] android.permission.READ_PROFILE
+[INTERNAL_LOG][2018-06-12 04:03:35,673][INFO][is_hybird()] android.permission.READ_CONTACTS
+[INTERNAL_LOG][2018-06-12 04:03:35,673][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-12 04:03:35,673][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 04:03:35,673][INFO][is_hybird()] com.jaumo.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-12 04:03:35,673][INFO][is_hybird()] com.jaumo.permission.MAPS_RECEIVE
+[INTERNAL_LOG][2018-06-12 04:03:35,673][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 04:03:35,673][INFO][is_hybird()] com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+[INTERNAL_LOG][2018-06-12 04:03:35,673][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-12 04:03:35,673][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 04:03:35,673][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 04:03:35,674][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 04:03:35,674][INFO][find_string()] File: assets/consentform.html
+[INTERNAL_LOG][2018-06-12 04:03:35,699][INFO][find_string()] No iframe in assets/consentform.html
+[INTERNAL_LOG][2018-06-12 04:03:35,699][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 04:03:35,699][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 04:03:35,699][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 04:04:40,564][INFO][find_url_in_apk()] [START URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-12 04:04:40,564][INFO][find_url_in_apk()] http://www.jaumo.com
+
+[INTERNAL_LOG][2018-06-12 04:04:40,564][INFO][find_url_in_apk()] [END URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-12 04:04:40,881][INFO][find_string()] [START REMOTE FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 04:04:40,881][INFO][find_string()] Remote File in: temp_html_code/html_downloaded_JAUMO Dating_ Flirt _ Live Video by Jaumo - com/www.jaumo.com
+[INTERNAL_LOG][2018-06-12 04:04:40,881][INFO][find_string()] URL: http://www.jaumo.com
+[INTERNAL_LOG][2018-06-12 04:04:40,917][INFO][find_string()] No iframe in temp_html_code/html_downloaded_JAUMO Dating_ Flirt _ Live Video by Jaumo - com/www.jaumo.com
+[INTERNAL_LOG][2018-06-12 04:04:40,917][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 04:04:40,917][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 04:04:40,918][INFO][find_url_in_apk()] http://schemas.android.com/apk/res/android
+https://register.appsflyer.com/api/v4/androidevent?buildnumber=3.5&app_id=
+https://stats.appsflyer.com/stats
+https://t.appsflyer.com/api/v4/androidevent?buildnumber=3.5&app_id=
+https://events.appsflyer.com/api/v4/androidevent?buildnumber=3.5&app_id=
+https://graph.facebook.com/network_ads_common
+https://graph.%s.facebook.com/network_ads_common
+https://www.facebook.com/adnw_logging/
+https://www.%s.facebook.com/adnw_logging/
+https://www.facebook.com/
+https://www.%s.facebook.com
+http://play.google.com/store/apps/
+http://www.facebook.com
+https://graph.%s
+https://graph-video.%s
+https://facebook.com
+https://facebook.com/device?user_code=%1$s&qr=1
+http://play.google.com/store/apps/details?id=com.facebook.orca
+http://www.android.com/
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+https://ads.flurry.com/v19/getAds.do
+http://ads.flurry.com/v19/getAds.do
+https://s3.amazonaws.com/flurrysdk/Android/v2/android.zip
+https://adlog.flurry.com
+http://adlog.flurry.com
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+http://www.yahoo.com
+https://data.flurry.com/pcr.do
+http://www.example.com
+http://www.example.com
+http://www.example.com
+http://www.example.com
+http://adservice.google.com/getconfig/pubvendors
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+https://plus.google.com/
+http://play.google.com/store/apps/category/GAME
+https://play.google.com/store/apps/details?id=%1$s&rdid=%1$s&rdot=%2$d
+https://plus.google.com/%s/about
+https://play.google.com/store/apps/details
+https://api.jaumo.com/
+https://api.jaumo.com/
+https://api.youlove.it/
+https://api.appsflyer.com/install_data/v3/
+https://service.cmp.oath.com/cmp/v0/location/eu
+https://proton.flurry.com/sdk/v1/config
+https://data.flurry.com/aap.do
+http://data.flurry.com/aap.do
+https://api.login.yahoo.com/oauth2/device_session
+https://cfg.flurry.com/sdk/v1/config
+http://schemas.microsoft.com/DRM/2007/03/protocols/AcquireLicense
+https://www.%s.facebook.com/audience_network/server_side_reward
+https://www.facebook.com/audience_network/server_side_reward
+http://www.w3.org/ns/ttml#parameter
+http://www.w3.org/ns/ttml#parameter
+https://www.googleapis.com/auth/games_lite
+https://www.googleapis.com/auth/games
+https://pagead2.googlesyndication.com/pagead/gen_204
+http://www.google.com
+https://support.google.com/dfp_premium/answer/7160685#push
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/sdk-core-v40-impl.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://csi.gstatic.com/csi
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/native_ads.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/native_ads.js
+https://imasdk.googleapis.com/admob/sdkloader/native_video.html
+https://www.google.com/dfp/linkDevice
+https://www.google.com/dfp/inAppPreview
+https://www.google.com/dfp/debugSignals
+https://www.google.com/dfp/sendDebugData
+https://app-measurement.com/a
+http://www.jaumo.com
+https://www.jaumo.com/img/
+http://maps.google.com/maps/api/staticmap?center=
+https://twitter.com/%s/status/%s
+http://ads.mopub.com
+https://ads.mopub.com
+https://oauth.vk.com/blank.html
+https://oauth.vk.com/blank.html
+https://oauth.vk.com/authorize?client_id=%s&scope=%s&redirect_uri=%s&display=mobile&v=%s&response_type=token&revoke=%d
+https://settings.crashlytics.com/spi/v2/platforms/android/apps/%s/settings
+https://i.jaumo.com/la/279,095cb49b142226d3.webp
+https://i.jaumo.com/la/278,095cb49fbb1a5f6f.webp
+https://i.jaumo.com/la/277,095cb4a158cd2c4d.webp
+https://i.jaumo.com/la/279,095cb4a38ef4bb76.webp
+https://i.jaumo.com/la/277,095cb4a952f36879.webp
+https://i.jaumo.com/la/277,095cb4b3467b4938.webp
+https://i.jaumo.com/la/278,095cb4b97ad61306.webp
+https://i.jaumo.com/la/277,095cb4c0256b22ff.webp
+https://play.google.com/store/apps/details?id=com.jaumo.plus
+https://fb.me/864160257011960
+https://api.jaumo.com/v2/broadcast/
+https://graph.facebook.com/
+https://ads.mopub.com/
+https://e.crashlytics.com/spi/v2/events
+https://play.google.com/store/apps/details?id=%s
+https://www.mopub.com/optout
+http://vk.com/images/community_50.gif
+http://vk.com/images/community_100.gif
+http://vk.com/images/s_noalbum.png
+http://vk.com/images/m_noalbum.png
+http://vk.com/images/x_noalbum.png
+http://vk.com/images/camera_c.gif
+http://vk.com/images/camera_c.gif
+http://vk.com/images/camera_b.gif
+http://vk.com/images/camera_b.gif
+http://vk.com/images/camera_a.gif
+http://vk.com/images/camera_a.gif
+https://api.instagram.com/v1/users/self/media/recent?count=100&access_token=
+https://play.google.com/apps/testing/
+https://www.google.com
+http://localhost/
+http://localhost/
+http://localhost/
+
+[INTERNAL_LOG][2018-06-12 04:04:40,918][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 04:04:40,928][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 04:04:40,928][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 04:04:40,928][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 04:04:40,928][INFO][analyze_start()] End time:[Tue Jun 12 04:04:40 2018]

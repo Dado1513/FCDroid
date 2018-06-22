@@ -1,0 +1,277 @@
+[INTERNAL_LOG][2018-06-12 09:15:23,800][INFO][analyze_start()] Init Time [Tue Jun 12 09:15:23 2018]
+[INTERNAL_LOG][2018-06-12 09:15:23,916][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 09:15:23,918][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 09:15:23,918][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 09:15:23,918][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 09:15:23,918][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 09:15:23,918][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-12 09:15:23,918][INFO][is_hybird()] android.permission.GET_TASKS
+[INTERNAL_LOG][2018-06-12 09:15:23,918][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-12 09:15:23,918][INFO][is_hybird()] com.sec.android.provider.badge.permission.READ
+[INTERNAL_LOG][2018-06-12 09:15:23,918][INFO][is_hybird()] com.sec.android.provider.badge.permission.WRITE
+[INTERNAL_LOG][2018-06-12 09:15:23,918][INFO][is_hybird()] com.htc.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 09:15:23,918][INFO][is_hybird()] com.htc.launcher.permission.UPDATE_SHORTCUT
+[INTERNAL_LOG][2018-06-12 09:15:23,918][INFO][is_hybird()] com.sonyericsson.home.permission.BROADCAST_BADGE
+[INTERNAL_LOG][2018-06-12 09:15:23,918][INFO][is_hybird()] com.sonymobile.home.permission.PROVIDER_INSERT_BADGE
+[INTERNAL_LOG][2018-06-12 09:15:23,918][INFO][is_hybird()] com.anddoes.launcher.permission.UPDATE_COUNT
+[INTERNAL_LOG][2018-06-12 09:15:23,918][INFO][is_hybird()] com.majeur.launcher.permission.UPDATE_BADGE
+[INTERNAL_LOG][2018-06-12 09:15:23,918][INFO][is_hybird()] com.huawei.android.launcher.permission.CHANGE_BADGE
+[INTERNAL_LOG][2018-06-12 09:15:23,918][INFO][is_hybird()] com.huawei.android.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 09:15:23,919][INFO][is_hybird()] com.huawei.android.launcher.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 09:15:23,919][INFO][is_hybird()] android.permission.READ_APP_BADGE
+[INTERNAL_LOG][2018-06-12 09:15:23,919][INFO][is_hybird()] com.oppo.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 09:15:23,919][INFO][is_hybird()] com.oppo.launcher.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 09:15:23,919][INFO][is_hybird()] me.everything.badger.permission.BADGE_COUNT_READ
+[INTERNAL_LOG][2018-06-12 09:15:23,919][INFO][is_hybird()] me.everything.badger.permission.BADGE_COUNT_WRITE
+[INTERNAL_LOG][2018-06-12 09:15:23,919][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 09:15:23,919][INFO][is_hybird()] android.permission.BROADCAST_STICKY
+[INTERNAL_LOG][2018-06-12 09:15:23,919][INFO][is_hybird()] android.permission.SEND_DOWNLOAD_COMPLETED_INTENTS
+[INTERNAL_LOG][2018-06-12 09:15:23,919][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 09:15:23,919][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 09:15:23,919][INFO][is_hybird()] com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+[INTERNAL_LOG][2018-06-12 09:15:23,919][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-12 09:15:23,919][INFO][is_hybird()] com.cardinalblue.piccollage.google.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-12 09:15:23,919][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 09:15:23,919][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 09:15:23,919][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 09:15:23,919][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 09:15:23,919][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 09:15:23,919][INFO][find_string()] File: js/mraid.js
+[INTERNAL_LOG][2018-06-12 09:15:23,922][INFO][find_string()] No iframe in js/mraid.js
+[INTERNAL_LOG][2018-06-12 09:15:23,922][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 09:16:38,684][INFO][find_url_in_apk()] [START URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-12 09:16:38,685][INFO][find_url_in_apk()] https://api.instagram.com/oauth/authorize/?client_id=
+
+[INTERNAL_LOG][2018-06-12 09:16:38,685][INFO][find_url_in_apk()] [END URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-12 09:16:39,698][INFO][find_string()] [START REMOTE FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 09:16:39,699][INFO][find_string()] Remote File in: temp_html_code/html_downloaded_Pic Collage - Photo Editor by Cardinal Blue Software_ Inc/?client_id=
+[INTERNAL_LOG][2018-06-12 09:16:39,699][INFO][find_string()] URL: https://api.instagram.com/oauth/authorize/?client_id=
+[INTERNAL_LOG][2018-06-12 09:16:39,712][INFO][find_string()] No iframe in temp_html_code/html_downloaded_Pic Collage - Photo Editor by Cardinal Blue Software_ Inc/?client_id=
+[INTERNAL_LOG][2018-06-12 09:16:39,712][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 09:16:39,712][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 09:16:39,713][INFO][find_url_in_apk()] http://schemas.android.com/apk/res/android
+https://receipts.aviary.com/api/feedback
+https://s3.amazonaws.com/static-sites-aviary-prod-us-east-1/android-survey-redirect.html
+https://s3.amazonaws.com/static-sites-aviary-prod-us-east-1/android-survey-redirect.html
+https://cc-api-aviary-cds.adobe.io/v2/content
+https://cc-api-aviary-cds.adobe.io/v2/content
+http://assets.aviary.com
+http://assets.aviary.com
+https://cc-api-aviary-cds.adobe.io/v1
+http://cds-gateway.aviary.com/v1/gateway
+https://cc-api-aviary-cds.adobe.io/v2/receipt/android/free
+https://cc-api-aviary-cds.adobe.io/v2/receipt/android/paid
+https://cc-api-aviary-cds.adobe.io
+https://cc-api-aviary-cds.adobe.io?
+http://foo.com
+http://foo.com
+https://www.behance.net/v2/users/
+https://entitlements.adobe.io
+https://entitlements-stage.adobe.io
+https://adobe.com
+https://ims-na1.adobelogin.com
+https://ims-na1-stg1.adobelogin.com
+https://ims-na1-qa1.adobelogin.com
+https://ims-na1-qa2.adobelogin.com
+http://schemas.android.com/apk/lib/com.amobee.adsdk.AmobeeAdPlaceholder
+http://play.google.com/store/apps/details?id=%s
+https://play.google.com/store/apps/details?id=com.cardinalblue.piccollage.google
+https://www.youtube.com/watch?v=%s
+https://pic-collage.com
+https://pic-collage.com
+http://mobile.mediabrix.com/v2/manifest/
+http://mobile.mediabrix.com/v2/manifest/
+http://cdn.pic-collage.com/bundles/backgrounds/PicCollage/background_bundles.json
+https://oa.connect.auone.jp/net/opi/hny_oauth_rt_net/cca?ID=OpenAPITokenCodeReq
+https://oa.connect.auone.jp/net/opi/hny_oauth_rt_net/cca?ID=OpenAPIAcpt&response_type=code&client_id=%s&redirect_uri=%s&scope=%s&state=
+https://i.ytimg.com/vi/
+https://i.ytimg.com/vi/
+http://api.bing.com/osjson.aspx
+https://pagead2.googlesyndication.com/pagead/gen_204
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/sdk-core-v40-impl.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://csi.gstatic.com/csi
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/native_ads.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/native_ads.js
+https://imasdk.googleapis.com/admob/sdkloader/native_video.html
+https://www.google.com/dfp/linkDevice
+https://www.google.com/dfp/inAppPreview
+https://www.google.com/dfp/debugSignals
+https://www.google.com/dfp/sendDebugData
+http://www.example.com
+http://www.example.com
+https://uploads.stripe.com
+https://uploads.stripe.com
+https://uploads.stripe.com
+https://ads.api.vungle.com/config
+https://api.vungle.com/api/v4/unfilled
+https://ingest.vungle.com/api/v1/sdkErrors
+https://ingest.vungle.com/
+https://oa.connect.auone.jp/net/opi/hny_oauth_rt_net/cca?ID=OpenAPITokenRefreshReq
+https://au-cloud-api.auone.jp/v1/service/
+https://au-cloud-api.auone.jp/v1/service/
+https://au-cloud-api.auone.jp/v1/service/
+https://graph.facebook.com/%s/picture
+http://img.au-market.com/mapi/policy/7240200000001
+https://www.facebook.com/audience_network/server_side_reward
+https://www.%s.facebook.com/audience_network/server_side_reward
+https://graph.facebook.com/network_ads_common
+https://graph.%s.facebook.com/network_ads_common
+https://www.facebook.com/adnw_logging/
+https://www.%s.facebook.com/adnw_logging/
+https://www.facebook.com/
+https://www.%s.facebook.com
+http://play.google.com/store/apps/
+http://www.facebook.com
+https://graph.%s
+https://graph-video.%s
+https://facebook.com
+https://facebook.com/device?user_code=%1$s&qr=1
+http://play.google.com/store/apps/details?id=com.facebook.orca
+https://cfg.flurry.com/sdk/v1/config
+https://cfg.flurry.com/sdk/v1/config
+https://proton.flurry.com/sdk/v1/config
+https://data.flurry.com/pcr.do
+https://data.flurry.com/aap.do
+http://data.flurry.com/aap.do
+http://rrmprod.amobee.com/upsteed/wap/adrequest
+http://www.w3.org/ns/ttml#parameter
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+http://hostname/?
+https://www.googleapis.com/auth/games_lite
+https://www.googleapis.com/auth/games
+https://plus.google.com/
+https://support.google.com/dfp_premium/answer/7160685#push
+http://www.google.com
+http://www.google-analytics.com
+https://ssl.google-analytics.com
+https://app-measurement.com/a
+https://www.google.com
+http://www.youtube.com/watch?v=
+http://www.youtube.com/watch?v=
+http://play.google.com/store/apps/details
+http://schemas.android.com/apk/lib/com.inmobi.ads
+http://schemas.android.com/apk/lib/com.inmobi.ads
+https://i.l.inmobicdn.net/sdk/sdk/500/android/mraid.js
+http://i.w.inmobi.com/showad.asm
+https://sdktm.w.inmobi.com/sdkpubreq
+http://config.inmobi.com/config-server/v1/config/secure.cfg
+http://www.inmobi.com/products/sdk/#downloads
+https://sdkm.w.inmobi.com/metrics/e.asm?v=1&
+https://www.facebook.com/dialog/feed?app_id=181821551957328&link=
+https://m.google.com/app/plus/x/?v=compose&content=
+http://twitter.com/home?status=
+http://dock.inmobi.com/carb/v1/i
+http://dock.inmobi.com/carb/v1/o
+https://sdkm.w.inmobi.com/user/e.asm
+https://mobile-static.adsafeprotected.com/avid-v2.js
+https://mobile-static.adsafeprotected.com/avid-v2.js
+https://track.atom-data.io
+https://track.atom-data.io
+https://track.atom-data.io
+https://outcome.supersonicads.com/mediation/
+https://outcome.supersonicads.com/mediation/
+https://init.supersonicads.com/sdk/v
+https://www.supersonicads.com/mobile/sdk5/log?method=
+https://www.supersonicads.com/mobile/sdk5/log?method=
+https://www.supersonicads.com/mobile/sdk5/log?method=
+https://www.supersonicads.com/mobile/sdk5/log?method=
+https://www.supersonicads.com/mobile/sdk5/log?method=
+https://www.supersonicads.com/mobile/sdk5/log?method=
+https://www.supersonicads.com/mobile/sdk5/log?method=
+https://www.supersonicads.com/mobile/sdk5/log?method=
+https://www.supersonicads.com/mobile/sdk5/log?method=injectJavaScript
+https://www.supersonicads.com/mobile/sdk5/log?method=extraParametersToJson
+https://www.supersonicads.com/mobile/sdk5/log?method=noProductType
+https://www.supersonicads.com/mobile/sdk5/log?method=encodeAppUserId
+https://www.supersonicads.com/mobile/sdk5/log?method=encodeAppKey
+https://www.supersonicads.com/mobile/sdk5/log?method=setWebViewSettings
+https://www.supersonicads.com/mobile/sdk5/log?method=webviewLoadBlank
+https://www.supersonicads.com/mobile/sdk5/log?method=webviewLoadWithPath
+https://www.supersonicads.com/mobile/sdk5/log?method=htmlControllerDoesNotExistOnFileSystem
+https://www.supersonicads.com/mobile/sdk5/log?method=webviewPause
+https://www.supersonicads.com/mobile/sdk5/log?method=webviewResume
+https://pushapi.localytics.com/push_test?platform=android&type=prod&campaign=%s&creative=%s&token=%s&install_id=%s&client_ts=%s
+http://mbxrt.mediabrix.com/geoencode
+http://mbxrt.mediabrix.com/geoencode?IpAddress=
+http://metrics-qa.tbliab.net/v2/metrics/?adsvrLineItemID=
+https://ap.tbliab.net/mprofiles
+http://www.mediabrix.com
+https://metrics.tbliab.net/v2/metrics/?adsvrLineItemID=%LINE_ITEM_ID%&adsvrAdvertiserID=%ADVERTISER_ID%&adsvrOrderID=%ORDID%&adsvrCreativeID=%CRID%&adsvrPropertyAdUnit=%PROPERTY%&adsvrZoneAdUnit=%ZONE%&mbrixAppKey=%APP_ID%&mbrixDeviceID=%DEVICE_ID%&mbrixVideoDuration=%VIDEO_DURATION%&mbrixHost=%DFP_URL%&mbrixSDKVersion=%SDK_VERSION%&mbrixSDKBuild=%SDK_BUILD_VERSION%&mbrixOS=%OS%&mbrixPlatform=%PLATFORM%&mbrixAction=%EVENT_NAME%&mbrixClientTimeStamp=%TIME_STAMP%&mbrixClientWidth=%SCREEN_WIDTH%&mbrixClientHeight=%SCREEN_HEIGHT%&mbrixAppSession=%SESSION_ID%&mbrixValue=%VALUE%
+http://mobileloggerqa.cloudapp.net/logger
+https://z.moatads.com/
+https://z.moatads.com/
+https://z.moatads.com/
+https://z.moatads.com/
+https://px.moatads.com/pixel.gif?e=0&i=MOATSDK1&ac=1
+https://uri.paypal.com/services/payments/futurepayments
+https://uri.paypal.com/services/paypalattributes
+https://api.paypal.com/v1/tracking/events
+https://cms.paypal.com/jp/cgi-bin/marketingweb?cmd=_render-content&content_ID=ua/Legal_Hub_full&locale.x=ja_JP
+https://www.paypal.jp/jp/contents/regulation/info/overseas-remittance/
+https://cms.paypal.com/jp/cgi-bin/marketingweb?cmd=_render-content&content_ID=ua/Legal_Hub_full&locale.x=en_US
+https://uri.paypal.com/services/payments/funding-options
+https://uri.paypal.com/services/pos/payments
+https://uri.paypal.com/services/mis/customer
+https://uri.paypal.com/services/wallet/financial-instruments/view
+https://uri.paypal.com/services/wallet/sendmoney
+https://uri.paypal.com/services/wallet/money-request/requests
+https://uri.paypal.com/services/loyalty/memberships/update
+https://uri.paypal.com/services/expresscheckout
+http://cancelurl
+http://returnurl
+https://svcs.paypal.com/AccessControl/LogRiskMetadata
+https://www.paypal.com/%s/cgi-bin/webscr?cmd=p/gen/ua/policy_privacy-outside
+https://api-m.paypal.com/v1/
+https://api-m.sandbox.paypal.com/v1/
+https://uri.paypal.com/services/payments/basic
+https://www.paypal.com/signup/account?country.x=%s&locale.x=%s
+https://www.paypal.com/webapps/accountrecovery/passwordrecovery
+https://www.paypal.com/%s/cgi-bin/webscr?cmd=_account-recovery&from=%s&locale.x=%s
+https://www.paypal.com/%s/webapps/mpp/ua/useragreement-full
+https://b.stats.paypal.com/counter.cgi?p=
+https://www.paypalobjects.com/webstatic/risk/dyson_config_android_v3.json
+https://play.google.com/store/apps/details?id=
+http://www.amazon.com/gp/mas/dl/android?p=
+https://api.stripe.com
+https://www.vungle.com/privacy/
+https://www.vungle.com/privacy/
+http://lol.vungle.com/
+https://e.crashlytics.com/spi/v2/events
+https://settings.crashlytics.com/spi/v2/platforms/android/apps/%s/settings
+https://api.kite.ly/v3.0
+https://staging.kite.ly/v3.0
+https://api.mixpanel.com/track/?ip=1&data=
+https://api.instagram.com/oauth/authorize/?client_id=
+https://api.instagram.com/v1/users/self/media/recent
+http://api.kite.ly/public_upload/%s
+https://s3-eu-west-1.amazonaws.com/co.oceanlabs.ps/kiosk/%s.jpeg
+https://is.gd/create.php?format=json&url=%s
+http://twitter4j.org/en/twitter4j-
+https://api.twitter.com/oauth/request_token
+https://api.twitter.com/oauth/authorize
+https://api.twitter.com/oauth/access_token
+https://api.twitter.com/oauth/authenticate
+https://api.twitter.com/oauth2/token
+https://api.twitter.com/oauth2/invalidate_token
+https://api.twitter.com/1.1/
+https://stream.twitter.com/1.1/
+https://userstream.twitter.com/1.1/
+https://sitestream.twitter.com/1.1/
+https://upload.twitter.com/1.1/
+
+[INTERNAL_LOG][2018-06-12 09:16:39,714][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 09:16:39,747][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 09:16:39,747][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 09:16:39,747][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 09:16:39,747][INFO][analyze_start()] End time:[Tue Jun 12 09:16:39 2018]

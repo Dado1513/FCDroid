@@ -1,0 +1,37 @@
+[INTERNAL_LOG][2018-06-12 07:44:34,847][INFO][analyze_start()] Init Time [Tue Jun 12 07:44:34 2018]
+[INTERNAL_LOG][2018-06-12 07:44:34,969][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 07:44:34,969][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 07:44:34,969][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 07:44:34,970][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 07:44:34,970][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 07:44:34,970][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-12 07:44:34,970][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 07:44:34,970][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-12 07:44:34,970][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 07:44:34,970][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 07:44:34,970][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 07:44:34,970][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 07:44:34,970][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 07:44:34,970][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 07:44:40,153][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 07:44:40,153][INFO][find_url_in_apk()] https://api.appsflyer.com/install_data/v3/
+https://t.appsflyer.com/api/v
+https://events.appsflyer.com/api/v
+https://register.appsflyer.com/api/v
+https://validate.appsflyer.com/api/v
+https://stats.appsflyer.com/stats
+https://sdk-services.appsflyer.com/validate-android-signature
+https://monitorsdk.appsflyer.com/remote-debug?app_id=
+https://config.unityads.unity3d.com/webview/
+
+[INTERNAL_LOG][2018-06-12 07:44:40,159][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 07:44:40,167][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 07:44:40,168][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 07:44:40,168][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 07:44:40,168][INFO][analyze_start()] End time:[Tue Jun 12 07:44:40 2018]

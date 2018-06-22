@@ -1,0 +1,141 @@
+[INTERNAL_LOG][2018-06-12 01:32:09,480][INFO][analyze_start()] Init Time [Tue Jun 12 01:32:09 2018]
+[INTERNAL_LOG][2018-06-12 01:32:09,524][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 01:32:09,524][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 01:32:09,524][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 01:32:09,525][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 01:32:09,525][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 01:32:09,525][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 01:32:09,525][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 01:32:09,525][INFO][is_hybird()] android.permission.READ_PHONE_STATE
+[INTERNAL_LOG][2018-06-12 01:32:09,525][INFO][is_hybird()] android.permission.MODIFY_AUDIO_SETTINGS
+[INTERNAL_LOG][2018-06-12 01:32:09,525][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-12 01:32:09,525][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 01:32:09,525][INFO][is_hybird()] com.fingersoft.benjibananas.gcm.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-12 01:32:09,525][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-12 01:32:09,525][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 01:32:09,525][INFO][is_hybird()] android.permission.ACCESS_COARSE_LOCATION
+[INTERNAL_LOG][2018-06-12 01:32:09,525][INFO][is_hybird()] android.permission.SYSTEM_ALERT_WINDOW
+[INTERNAL_LOG][2018-06-12 01:32:09,525][INFO][is_hybird()] com.google.android.gms.permission.ACTIVITY_RECOGNITION
+[INTERNAL_LOG][2018-06-12 01:32:09,525][INFO][is_hybird()] android.permission.ACCESS_FINE_LOCATION
+[INTERNAL_LOG][2018-06-12 01:32:09,526][INFO][is_hybird()] com.google.android.providers.gsf.permission.READ_GSERVICES
+[INTERNAL_LOG][2018-06-12 01:32:09,526][INFO][is_hybird()] android.permission.GET_TASKS
+[INTERNAL_LOG][2018-06-12 01:32:09,526][INFO][is_hybird()] android.permission.BROADCAST_STICKY
+[INTERNAL_LOG][2018-06-12 01:32:09,526][INFO][is_hybird()] com.fingersoft.benjibananas.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-12 01:32:09,526][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 01:32:09,526][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 01:32:09,526][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 01:32:09,526][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 01:32:09,526][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 01:32:09,526][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 01:32:38,730][INFO][find_url_in_apk()] [START URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-12 01:32:38,730][INFO][find_url_in_apk()] http://play.google.com/store/apps/
+
+[INTERNAL_LOG][2018-06-12 01:32:38,730][INFO][find_url_in_apk()] [END URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-12 01:32:39,929][ERROR][download_page_loaded()] Failed download: http://play.google.com/store/apps/ for exception [Errno 21] Is a directory: 'temp_html_code/html_downloaded_Benji Bananas by Benji Bananas - com/'
+[INTERNAL_LOG][2018-06-12 01:32:39,931][INFO][find_string()] [START REMOTE FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 01:32:39,931][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 01:32:39,931][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 01:32:39,931][INFO][find_url_in_apk()] http://www.yvolver.com
+http://www.yvolver.com
+http://www.yvolver.com
+https://config-prod.yvolver.com/api/public/app/config
+https://config-swap.yvolver.com/api/public/app/config
+https://config-alpha.yvolver.com/api/public/app/config
+https://config-staging.yvolver.com/api/public/app/config
+http://config-dev.yvolver.com/api/public/app/config
+https://adc3-launch.adcolony.com/v4/launch
+https://wd.adcolony.com/logs
+https://live.chartboost.com
+http://market.android.com/
+https://proton.flurry.com/sdk/v1/config
+https://proton.flurry.com/sdk/v1/config
+https://data.flurry.com/pcr.do
+https://data.flurry.com/pcr.do
+http://data.flurry.com/aap.do
+http://data.flurry.com/aap.do
+https://data.flurry.com/aap.do
+https://data.flurry.com/aap.do
+https://service.fyber.com/actions/v2
+https://service.fyber.com/installs/v2
+https://api.fyber.com/vcs/v1/new_credit.json
+https://video.fyber.com
+https://rewarded-video.fyber.com/tracker
+https://offer.fyber.com/mobile
+https://interstitial.fyber.com/interstitial
+https://interstitial.fyber.com/tracker
+https://engine.fyber.com/sdk-config
+https://engine.fyber.com/video-cache
+https://banner.fyber.com/banner
+https://banner.fyber.com/tracker
+https://testsuite.fyber.com/tracker
+http://hostname/?
+http://hostname/?
+http://www.google-analytics.com/collect
+http://www.google-analytics.com/collect
+https://ssl.google-analytics.com/collect
+https://ssl.google-analytics.com
+https://www.googleapis.com/auth/appstate
+https://www.googleapis.com/auth/appstate
+https://www.googleapis.com/auth/drive.file
+https://www.googleapis.com/auth/drive.appdata
+https://www.googleapis.com/auth/drive
+https://www.googleapis.com/auth/drive.apps
+https://www.googleapis.com/auth/fitness.activity.read
+https://www.googleapis.com/auth/fitness.activity.read
+https://www.googleapis.com/auth/fitness.activity.write
+https://www.googleapis.com/auth/fitness.activity.write
+https://www.googleapis.com/auth/fitness.location.read
+https://www.googleapis.com/auth/fitness.location.read
+https://www.googleapis.com/auth/fitness.location.write
+https://www.googleapis.com/auth/fitness.location.write
+https://www.googleapis.com/auth/fitness.body.read
+https://www.googleapis.com/auth/fitness.body.read
+https://www.googleapis.com/auth/fitness.body.write
+https://www.googleapis.com/auth/fitness.body.write
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games.firstparty
+https://www.googleapis.com/auth/games.firstparty
+https://googleads.g.doubleclick.net/mads/static/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/native_ads.html
+http://www.google.com
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+http://plus.google.com/
+https://www.googleapis.com/auth/plus.login
+https://www.googleapis.com/auth/plus.login
+https://www.googleapis.com/auth/plus.me
+http://schemas.android.com/apk/lib/com.google.android.gms.plus
+http://schemas.android.com/apk/lib/com.google.android.gms.plus
+https://www.googletagmanager.com
+https://fyc.heyzap.com/fyber/credentials/
+http://play.google.com/store/apps/
+https://config.unityads.unity3d.com/webview/
+https://www.vungle.com/privacy/
+https://www.vungle.com/privacy/
+https://api.vungle.com/api/v4/
+https://ingest.vungle.com/
+http://lol.vungle.com/
+https://api2.
+http://www.grambleworld.com/terms-conditions/
+http://www.grambleworld.com/terms-conditions/
+http://www.grambleworld.com/terms-conditions/
+http://www.grambleworld.com/terms-conditions
+http://www.grambleworld.com/terms-conditions
+
+[INTERNAL_LOG][2018-06-12 01:32:39,932][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 01:32:39,958][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 01:32:39,958][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 01:32:39,958][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 01:32:39,958][INFO][analyze_start()] End time:[Tue Jun 12 01:32:39 2018]

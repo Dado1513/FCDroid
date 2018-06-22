@@ -1,0 +1,38 @@
+[INTERNAL_LOG][2018-06-12 01:47:47,659][INFO][analyze_start()] Init Time [Tue Jun 12 01:47:47 2018]
+[INTERNAL_LOG][2018-06-12 01:47:47,690][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 01:47:47,691][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 01:47:47,691][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 01:47:47,691][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 01:47:47,691][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 01:47:47,691][INFO][is_hybird()] android.permission.CAMERA
+[INTERNAL_LOG][2018-06-12 01:47:47,691][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 01:47:47,691][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 01:47:47,691][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 01:47:47,691][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 01:47:47,691][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 01:47:47,692][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 01:47:47,692][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 01:48:02,296][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 01:48:02,296][INFO][find_url_in_apk()] https://graph.%s
+https://graph-video.%s
+https://facebook.com
+http://www.android.com/
+https://www.instagram.com
+https://www.facebook.com/mobile/generic_android_crash_logs/
+https://instagram.com/about/legal/privacy
+https://instagram.com/about/legal/terms
+https://instagram.com/boomerangfrominstagram
+https://instagram.com/_u/boomerangfrominstagram
+https://graph.%s/
+
+[INTERNAL_LOG][2018-06-12 01:48:02,297][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 01:48:02,305][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 01:48:02,305][INFO][check_method_conf()] [Add interface WebView: False]
+
+[INTERNAL_LOG][2018-06-12 01:48:02,305][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 01:48:02,305][INFO][analyze_start()] End time:[Tue Jun 12 01:48:02 2018]

@@ -1,0 +1,71 @@
+[INTERNAL_LOG][2018-06-12 03:45:31,487][INFO][analyze_start()] Init Time [Tue Jun 12 03:45:31 2018]
+[INTERNAL_LOG][2018-06-12 03:45:31,634][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 03:45:31,634][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 03:45:31,635][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 03:45:31,635][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-12 03:45:31,635][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 03:45:31,635][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 03:45:31,635][INFO][is_hybird()] com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+[INTERNAL_LOG][2018-06-12 03:45:31,635][INFO][is_hybird()] net.peakgames.toonblast.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-12 03:45:31,635][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-12 03:45:31,635][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 03:45:31,635][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-12 03:45:31,635][INFO][is_hybird()] android.permission.RECEIVE_BOOT_COMPLETED
+[INTERNAL_LOG][2018-06-12 03:45:31,635][INFO][is_hybird()] com.sec.android.provider.badge.permission.READ
+[INTERNAL_LOG][2018-06-12 03:45:31,635][INFO][is_hybird()] com.sec.android.provider.badge.permission.WRITE
+[INTERNAL_LOG][2018-06-12 03:45:31,635][INFO][is_hybird()] com.htc.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 03:45:31,635][INFO][is_hybird()] com.htc.launcher.permission.UPDATE_SHORTCUT
+[INTERNAL_LOG][2018-06-12 03:45:31,635][INFO][is_hybird()] com.sonyericsson.home.permission.BROADCAST_BADGE
+[INTERNAL_LOG][2018-06-12 03:45:31,636][INFO][is_hybird()] com.sonymobile.home.permission.PROVIDER_INSERT_BADGE
+[INTERNAL_LOG][2018-06-12 03:45:31,636][INFO][is_hybird()] com.anddoes.launcher.permission.UPDATE_COUNT
+[INTERNAL_LOG][2018-06-12 03:45:31,636][INFO][is_hybird()] com.majeur.launcher.permission.UPDATE_BADGE
+[INTERNAL_LOG][2018-06-12 03:45:31,636][INFO][is_hybird()] com.huawei.android.launcher.permission.CHANGE_BADGE
+[INTERNAL_LOG][2018-06-12 03:45:31,636][INFO][is_hybird()] com.huawei.android.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 03:45:31,636][INFO][is_hybird()] com.huawei.android.launcher.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 03:45:31,636][INFO][is_hybird()] android.permission.READ_APP_BADGE
+[INTERNAL_LOG][2018-06-12 03:45:31,636][INFO][is_hybird()] com.oppo.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 03:45:31,636][INFO][is_hybird()] com.oppo.launcher.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 03:45:31,636][INFO][is_hybird()] me.everything.badger.permission.BADGE_COUNT_READ
+[INTERNAL_LOG][2018-06-12 03:45:31,636][INFO][is_hybird()] me.everything.badger.permission.BADGE_COUNT_WRITE
+[INTERNAL_LOG][2018-06-12 03:45:31,636][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 03:45:31,636][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 03:45:31,636][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 03:45:31,636][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 03:45:31,636][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 03:45:31,636][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 03:45:54,289][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 03:45:54,289][INFO][find_url_in_apk()] http://schemas.android.com/apk/res/android
+https://app.adjust.com
+https://app.adjust.com
+https://app.adjust.com
+http://www.amazon.com/gp/mas/get-appstore/android/ref=mas_mx_mba_iap_dl
+https://graph.%s
+https://graph-video.%s
+https://facebook.com
+http://play.google.com/store/apps/details?id=com.facebook.orca
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+https://accounts.google.com
+https://www.facebook.com
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games
+https://plus.google.com/
+https://www.googleapis.com/auth/games_lite
+https://www.googleapis.com/auth/games.firstparty
+https://www.googleapis.com/auth/games.firstparty
+https://onesignal.com/android_frame.html
+https://onesignal.com/api/v1/
+https://e.crashlytics.com/spi/v2/events
+https://settings.crashlytics.com/spi/v2/platforms/android/apps/%s/settings
+
+[INTERNAL_LOG][2018-06-12 03:45:54,289][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 03:45:54,294][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 03:45:54,294][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 03:45:54,294][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 03:45:54,294][INFO][analyze_start()] End time:[Tue Jun 12 03:45:54 2018]

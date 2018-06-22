@@ -1,0 +1,250 @@
+[INTERNAL_LOG][2018-06-12 01:50:53,717][INFO][analyze_start()] Init Time [Tue Jun 12 01:50:53 2018]
+[INTERNAL_LOG][2018-06-12 01:50:53,775][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 01:50:53,776][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 01:50:53,776][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-12 01:50:53,776][INFO][is_hybird()] android.permission.CAMERA
+[INTERNAL_LOG][2018-06-12 01:50:53,776][INFO][is_hybird()] android.permission.READ_CONTACTS
+[INTERNAL_LOG][2018-06-12 01:50:53,776][INFO][is_hybird()] android.permission.WRITE_CONTACTS
+[INTERNAL_LOG][2018-06-12 01:50:53,777][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 01:50:53,777][INFO][is_hybird()] android.permission.ACCESS_COARSE_LOCATION
+[INTERNAL_LOG][2018-06-12 01:50:53,777][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 01:50:53,777][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 01:50:53,777][INFO][is_hybird()] android.permission.READ_SMS
+[INTERNAL_LOG][2018-06-12 01:50:53,777][INFO][is_hybird()] android.permission.SEND_SMS
+[INTERNAL_LOG][2018-06-12 01:50:53,777][INFO][is_hybird()] android.permission.RECEIVE_SMS
+[INTERNAL_LOG][2018-06-12 01:50:53,777][INFO][is_hybird()] android.permission.READ_CALL_LOG
+[INTERNAL_LOG][2018-06-12 01:50:53,777][INFO][is_hybird()] android.permission.WRITE_CALL_LOG
+[INTERNAL_LOG][2018-06-12 01:50:53,777][INFO][is_hybird()] android.permission.READ_PHONE_STATE
+[INTERNAL_LOG][2018-06-12 01:50:53,777][INFO][is_hybird()] android.permission.PROCESS_OUTGOING_CALLS
+[INTERNAL_LOG][2018-06-12 01:50:53,777][INFO][is_hybird()] android.permission.CALL_PHONE
+[INTERNAL_LOG][2018-06-12 01:50:53,777][INFO][is_hybird()] android.permission.WRITE_SMS
+[INTERNAL_LOG][2018-06-12 01:50:53,777][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 01:50:53,777][INFO][is_hybird()] android.permission.GET_TASKS
+[INTERNAL_LOG][2018-06-12 01:50:53,777][INFO][is_hybird()] android.permission.RECEIVE_BOOT_COMPLETED
+[INTERNAL_LOG][2018-06-12 01:50:53,777][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 01:50:53,777][INFO][is_hybird()] android.permission.WRITE_APN_SETTINGS
+[INTERNAL_LOG][2018-06-12 01:50:53,777][INFO][is_hybird()] com.android.launcher.permission.INSTALL_SHORTCUT
+[INTERNAL_LOG][2018-06-12 01:50:53,777][INFO][is_hybird()] com.android.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 01:50:53,777][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 01:50:53,778][INFO][is_hybird()] android.permission.CHANGE_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 01:50:53,778][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 01:50:53,778][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-12 01:50:53,778][INFO][is_hybird()] android.permission.DISABLE_KEYGUARD
+[INTERNAL_LOG][2018-06-12 01:50:53,778][INFO][is_hybird()] android.permission.RESTART_PACKAGES
+[INTERNAL_LOG][2018-06-12 01:50:53,778][INFO][is_hybird()] com.android.launcher.permission.UNINSTALL_SHORTCUT
+[INTERNAL_LOG][2018-06-12 01:50:53,778][INFO][is_hybird()] android.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 01:50:53,778][INFO][is_hybird()] com.android.launcher.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 01:50:53,778][INFO][is_hybird()] android.permission.READ_LOGS
+[INTERNAL_LOG][2018-06-12 01:50:53,778][INFO][is_hybird()] android.permission.SYSTEM_ALERT_WINDOW
+[INTERNAL_LOG][2018-06-12 01:50:53,778][INFO][is_hybird()] android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+[INTERNAL_LOG][2018-06-12 01:50:53,778][INFO][is_hybird()] android.permission.WRITE_MEDIA_STORAGE
+[INTERNAL_LOG][2018-06-12 01:50:53,778][INFO][is_hybird()] com.android.browser.permission.READ_HISTORY_BOOKMARKS
+[INTERNAL_LOG][2018-06-12 01:50:53,778][INFO][is_hybird()] android.permission.UPDATE_APP_OPS_STATS
+[INTERNAL_LOG][2018-06-12 01:50:53,778][INFO][is_hybird()] android.permission.ACCESS_FINE_LOCATION
+[INTERNAL_LOG][2018-06-12 01:50:53,778][INFO][is_hybird()] android.permission.ACCESS_NOTIFICATION_POLICY
+[INTERNAL_LOG][2018-06-12 01:50:53,778][INFO][is_hybird()] com.android.launcher2.permission.INSTALL_SHORTCUT
+[INTERNAL_LOG][2018-06-12 01:50:53,778][INFO][is_hybird()] android.permission.PACKAGE_USAGE_STATS
+[INTERNAL_LOG][2018-06-12 01:50:53,778][INFO][is_hybird()] android.permission.USE_FINGERPRINT
+[INTERNAL_LOG][2018-06-12 01:50:53,789][INFO][is_hybird()] com.netqin.ps.PAYMENT_BROADCAST_PERMISSION
+[INTERNAL_LOG][2018-06-12 01:50:53,791][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-12 01:50:53,792][INFO][is_hybird()] com.netqin.ps.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-12 01:50:53,792][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 01:50:53,807][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 01:50:53,814][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 01:50:53,814][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 01:50:53,814][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 01:50:53,814][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 01:51:30,715][INFO][find_url_in_apk()] [START URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-12 01:51:30,716][INFO][find_url_in_apk()] https://play.google.com/store/apps/
+
+[INTERNAL_LOG][2018-06-12 01:51:30,716][INFO][find_url_in_apk()] [END URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-12 01:51:31,311][ERROR][download_page_loaded()] Failed download: https://play.google.com/store/apps/ for exception [Errno 21] Is a directory: 'temp_html_code/html_downloaded_Vault-Hide SMS_Pics _ Videos_App Lock_Cloud backup by NQ Mobile Security _NYSE_NQ_ - com/'
+[INTERNAL_LOG][2018-06-12 01:51:31,312][INFO][find_string()] [START REMOTE FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 01:51:31,312][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 01:51:31,312][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 01:51:31,313][INFO][find_url_in_apk()] http://schemas.android.com/apk/res/android
+https://onelink.%s/shortlink-sdk/v1
+https://monitorsdk.%s/remote-debug?app_id=
+https://api.%s/install_data/v3/
+https://attr.%s/api/v
+https://t.%s/api/v
+https://events.%s/api/v
+https://register.%s/api/v
+https://stats.%s/stats
+http://api.accuweather.com/
+http://api.accuweather.com/
+http://apidev.accuweather.com/
+https://mblapi.ssl2.duapps.com/adunion/slot/getDlAd?
+https://mblapi.ssl2.duapps.com/adunion/slot/getDlAd?
+https://mblapi.ssl2.duapps.com/adunion/rtb/getInmobiAd?
+https://mblapi.ssl2.duapps.com/adunion/rtb/getInmobiAd?
+https://mblapi.ssl2.duapps.com/adunion/rtb/fetchAd?
+https://mblapi.ssl2.duapps.com/adunion/rtb/fetchAd?
+http://sandbox.duapps.com:8124/adunion/slot/getDlAd?
+http://sandbox.duapps.com:8124/adunion/rtb/getInmobiAd?
+http://sandbox.duapps.com:8124/adunion/rtb/fetchAd?
+https://mblapi.ssl2.duapps.com/adunion/slot/getSrcPrio?
+https://mblapi.ssl2.duapps.com/adunion/slot/getSrcPrio?
+https://mblapi.ssl2.duapps.com/adunion/slot/getSrcPrio?
+https://mblapi.ssl2.duapps.com/adunion/slot/getSrcPrio?
+http://sandbox.duapps.com:8124/adunion/slot/getSrcPrio?
+http://sandbox.duapps.com:8124/adunion/slot/getSrcPrio?
+https://mblapi.ssl2.duapps.com/adunion/slot/tdmr?
+https://rts.ssl2.duapps.com/orts/rp?
+https://rts.ssl2.duapps.com/orts/rp?
+https://rts.ssl2.duapps.com/orts/rpb?
+https://rts.ssl2.duapps.com/orts/rpb?
+http://sandbox.duapps.com:8124/orts/rp?
+http://sandbox.duapps.com:8124/orts/rpb?
+http://market.android.com
+https://market.android.com
+https://play.google.com
+http://play.google.com
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+https://whosthat.ssl2.duapps.com
+https://whosthat.ssl2.duapps.com
+https://www.facebook.com/audience_network/server_side_reward
+https://www.%s.facebook.com/audience_network/server_side_reward
+https://graph.facebook.com/network_ads_common
+https://graph.%s.facebook.com/network_ads_common
+https://www.facebook.com/adnw_logging/
+https://www.%s.facebook.com/adnw_logging/
+https://www.facebook.com/
+https://www.%s.facebook.com
+http://play.google.com/store/apps/
+http://www.facebook.com
+https://facebook.com
+https://graph.%s
+https://graph-video.%s
+http://schemas.microsoft.com/DRM/2007/03/protocols/AcquireLicense
+http://www.w3.org/ns/ttml#parameter
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+http://hostname/?
+http://hostname/?
+https://www.googleapis.com/auth/games_lite
+https://www.googleapis.com/auth/games
+https://plus.google.com/
+https://support.google.com/dfp_premium/answer/7160685#push
+https://pagead2.googlesyndication.com/pagead/gen_204
+http://www.google.com
+http://www.google-analytics.com
+https://ssl.google-analytics.com
+https://app-measurement.com/a
+https://www.google.com
+http://www.example.com
+http://www.example.com
+http://www.example.com
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/sdk-core-v40-impl.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://csi.gstatic.com/csi
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/native_ads.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/native_ads.js
+https://imasdk.googleapis.com/admob/sdkloader/native_video.html
+https://www.google.com/dfp/linkDevice
+https://www.google.com/dfp/inAppPreview
+https://www.google.com/dfp/debugSignals
+https://www.google.com/dfp/sendDebugData
+https://www.googletagmanager.com
+https://rel-adsdk.a8a7a6.com/BOSS_AD_SDKPlatform/
+https://adsdk.easyxapp.com/BOSS_AD_SDKPlatform/
+https://vault.nqintelligence.com/BOSS_CS_VT/VTServlet_2-0
+https://vault-release.netqin.com/BOSS_CS_VT/VTServlet_2-0
+http://release.netqin.com:8297/BOSS_USServlet
+https://mpay-rel.nq.com/vip/buy/buy_cm4.jsp
+http://192.168.36.31:7070/BOSS_CS_CLOUD/cloud
+https://vm.netqin.cn:4090/uc/goResetPassAndroid.html
+https://vm.netqin.cn:4090/uc/goResetPassAndroid.html?l=ru
+https://vm.netqin.cn:4090/uc/goResetPassAndroid.html?l=en_us
+https://vault-release.netqin.com/BOSS_CS_MSG/messenger
+http://vt2.nq.com/l10n?l=en
+https://vault-release.netqin.com/BOSS_CS_VT/cardspace
+https://vault-release.netqin.com/BOSS_CS_JFIMAGE/image/upload
+https://vault-release.netqin.com/BOSS_CS_VG/gallery
+http://192.168.36.31:7070/BOSS_CS_UPLOAD/upload
+http://192.168.36.56:8080/safe_email/se/setupEmail
+http://192.168.36.56:8080/safe_email/se/querySafeEmail
+http://192.168.36.56:8080/safe_email/se/sendRandomCode
+http://192.168.36.56:8080/safe_email/se/validateCode
+https://vault-verify.nqintelligence.com/BOSS_CS_VT/VTServlet_2-0
+http://verify.netqin.com:8297/BOSS_USServlet
+https://mpay-ver.nq.com/vip/buy/buy_cm4.jsp
+https://cloud-ver.nq.com/BOSS_CS_CLOUD/cloud
+https://uc-cn-vrf.nq.com/uc/goResetPassAndroid.html
+https://uc-cn-vrf.nq.com/uc/goResetPassAndroid.html?l=ru
+https://uc-cn-vrf.nq.com/uc/goResetPassAndroid.html?l=en_us
+https://msg-verify.nqintelligence.com/BOSS_CS_MSG/messenger
+https://vt1.nq.com/l10n?l=en
+https://vault-verify.netqin.com/BOSS_CS_VT/cardspace
+https://vg-en-vrf.nqintelligence.com/BOSS_CS_JFIMAGE/image/upload
+https://vg-en-vrf.nqintelligence.com/BOSS_CS_VG/gallery
+https://vt-upload-us-vrf.nq.com/BOSS_CS_UPLOAD/upload
+https://moduleupgrade.nq.com/BOSS_US/UPSServlet
+https://mpay.nq.com/vip/buy/buy_cm4.jsp
+https://cloudapp.nq.com/BOSS_CS_CLOUD/cloud
+https://www.netqin.com/uc/goResetPassAndroid.html
+https://www.netqin.com/uc/goResetPassAndroid.html?l=ru
+https://www.netqin.com/uc/goResetPassAndroid.html?l=en_us
+https://m.nqintelligence.com/BOSS_CS_MSG/messenger
+https://vt.nq.com/l10n?l=en
+https://vault.nqintelligence.com/BOSS_CS_VT/cardspace
+https://vg-en.nqintelligence.com/BOSS_CS_JFIMAGE/image/upload
+https://vg-en.nqintelligence.com/BOSS_CS_VG/gallery
+https://vt-upload-us.nq.com/BOSS_CS_UPLOAD/upload
+https://vt-safemail-en.nq.com/BOSS_SAFE_EMAIL/se/setupEmail
+https://vt-safemail-en.nq.com/BOSS_SAFE_EMAIL/se/querySafeEmail
+https://vt-safemail-en.nq.com/BOSS_SAFE_EMAIL/se/sendRandomCode
+https://vt-safemail-en.nq.com/BOSS_SAFE_EMAIL/se/validateCode
+https://play.google.com/store/apps/
+https://play.google.com/store/apps/
+https://play.google.com/store/apps/
+https://play.google.com/store/apps/
+https://play.google.com/store/apps/
+https://play.google.com/store/apps/
+https://play.google.com/store/apps/
+https://nfs-pp.nq.com/apk/com.ps.vaultprotector.apk
+https://vt.nq.com/help
+http://nqvault.easyxapp.com/vault_help_web
+http://www.google.com/search?q=
+http://tieba.baidu.com/
+https://vt.easyxapp.com/BOSS_CS_VT_WRAP/forwardHttp
+http://rtb.adkmob.com/b/?
+https://play.google.com/store/apps/details?id=com.nqmobile.calculator
+https://www.nq-mobile.com/eula.html
+https://www.nq-mobile.com/eula.html
+https://www.nq-mobile.com/eula.html
+https://www.nq-mobile.com/privacy.html
+https://www.nq-mobile.com/privacy.html
+https://www.nq-mobile.com/privacy.html
+http://dl-messenger.picooapps.com
+https://activate.nq.com/faq
+https://activate.nq.com/faq
+https://ssdk.adkmob.com/rp/?IA_qPWFWPjK-PW0vPWbYuyRzriu-XZKGujY4P1IxrH6zg1nsnWuxnW0snauduvRqnzudmyTqPiuVp1dMUvqMUARhUyfquvqEuvk-gv4-XZN1QHRhuZfqniuVm1cqnBuWIjdGU-tkP-qVIydBmybhmLw8U1YknjD3nzuWUWdGUBuhIWYYFhkY5HDdnjndPWc4rjmhIAu15Hchmh6qFhkGpyfqn1ndnzuYmyTqnauVI7qGujY1njRvn1T4FhPYTWYsQW0snj0snau9TZKxTv9EIdqYXgK-5HRsnjD3Fh7sT7qGujY1njRvn1T3Fh-1myfqniuzugPxIZ-suHY3nauspvIxUh7VuHYkn1mYri31njRvn1TvFhI9pyfqujf3m1uhrHDkPhfYPhm1mzusu1YsFhq1UjYznzusUjYzFhkv5iu8ugwxIZ-suHYkFhd-uA-9gv-b5HcznHmhTAq1pyfqnWckPWDsnau9UhwzUv-bgv-b5yfYrAnvuWbknHubPjuhnvnhUA785yN8Fh4-Idq_my3quy3hmvqdUMwzXHdGUBuVmvnqnWf3FhPC5iuWUgu-TWYhmLuz5H08nj0snj0sFMFYTWYsQW0snj0snauWIMFh5H08nj0snj0sFhNWTAYqna3snau-mLKVnHYsQW0sFhPs5HchTAk9U-qGujY1njRvn1TvFhFG5HDhIy-b5HD1PWf4Fh7Mpyfqn10dPWnLrau9TA3qnHnvPjb8n10dPWnLPBusUA7WuHYkFhP9IANMULF4gv-b5H0hmgbqnzusTWYsFhN35H0hUMTqnauWuMfqna3snj0snj0huLKz5H08nj0hpgPdu1YsFhIvUvsqnausUA-b5iu9mh6qnBuJUynqU-G1TL9JwAw8ph4bR7IWPZFJIgw8PBuWThnqnWbkrj6&ac=50
+https://ssdk.adkmob.com/rp/?IA_qPWFWPjK-PW0vPWbYuyRzriu-XZKGujY4P1IxrH6zg1nsnWuxnW0snauduvRqnzudmyTqPiuVp1dMUvqMUARhUyfquvqEuvk-gv4-XZN1QHRhuZfqniuVm1cqnBuWIjdGU-tkP-qVIydBmybhmLw8U1YknjD3nzuWUWdGUBuhIWYYFhkY5HDdnjndPWc4rjmhIAu15Hchmh6qFhkGpyfqn1ndnzuYmyTqnauVI7qGujY1njRvn1T4FhPYTWYsQW0snj0snau9TZKxTv9EIdqYXgK-5HRsnjD3Fh7sT7qGujY1njRvn1T3Fh-1myfqniuzugPxIZ-suHY3nauspvIxUh7VuHYkn1mYri31njRvn1TvFhI9pyfqujf3m1uhrHDkPhfYPhm1mzusu1YsFhq1UjYznzusUjYzFhkv5iu8ugwxIZ-suHYkFhd-uA-9gv-b5HcznHmhTAq1pyfqnWckPWDsnau9UhwzUv-bgv-b5yfYrAnvuWbknHubPjuhnvnhUA785yN8Fh4-Idq_my3quy3hmvqdUMwzXHdGUBuVmvnqnWf3FhPC5iuWUgu-TWYhmLuz5H08nj0snj0sFMFYTWYsQW0snj0snauWIMFh5H08nj0snj0sFhNWTAYqna3snau-mLKVnHYsQW0sFhPs5HchTAk9U-qGujY1njRvn1TvFhFG5HDhIy-b5HD1PWf4Fh7Mpyfqn10dPWnLrau9TA3qnHnvPjb8n10dPWnLPBusUA7WuHYkFhP9IANMULF4gv-b5H0hmgbqnzusTWYsFhN35H0hUMTqnauWuMfqna3snj0snj0huLKz5H08nj0hpgPdu1YsFhIvUvsqnausUA-b5iu9mh6qnBuJUynqU-G1TL9JwAw8ph4bR7IWPZFJIgw8PBuWThnqnWbkrj6&ac=50
+http://api.mobula.sdk.duapps.com/adunion/slot/fetchConfig
+http://common.duapps.com/appLock/getConf
+http://s.duapps.com/weather/weather.zip
+http://pay.fortumo.com/mobile_widget
+https://a.fortumo.com/
+https://a.fortumo.com/
+https://a.fortumo.com/
+https://api.fortumo.com/
+https://wutlar.fortumo.com/
+
+[INTERNAL_LOG][2018-06-12 01:51:31,313][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 01:51:31,324][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 01:51:31,324][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 01:51:31,325][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 01:51:31,325][INFO][analyze_start()] End time:[Tue Jun 12 01:51:31 2018]

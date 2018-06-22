@@ -1,0 +1,233 @@
+[INTERNAL_LOG][2018-06-12 02:56:11,756][INFO][analyze_start()] Init Time [Tue Jun 12 02:56:11 2018]
+[INTERNAL_LOG][2018-06-12 02:56:11,815][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 02:56:11,816][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 02:56:11,816][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 02:56:11,816][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 02:56:11,816][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 02:56:11,816][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-12 02:56:11,817][INFO][is_hybird()] android.permission.CAMERA
+[INTERNAL_LOG][2018-06-12 02:56:11,817][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 02:56:11,817][INFO][is_hybird()] android.permission.AUTHENTICATE_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 02:56:11,817][INFO][is_hybird()] android.permission.USE_CREDENTIALS
+[INTERNAL_LOG][2018-06-12 02:56:11,817][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 02:56:11,817][INFO][is_hybird()] android.permission.MANAGE_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 02:56:11,817][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 02:56:11,817][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 02:56:11,817][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 02:56:11,817][INFO][find_string()] File: assets/javascript/index.html
+[INTERNAL_LOG][2018-06-12 02:56:11,818][INFO][find_string()] No iframe in assets/javascript/index.html
+[INTERNAL_LOG][2018-06-12 02:56:11,818][INFO][find_string()] File: res/raw-cs/adc_readermobile_getstarted.html
+[INTERNAL_LOG][2018-06-12 02:56:11,821][INFO][find_string()] No iframe in res/raw-cs/adc_readermobile_getstarted.html
+[INTERNAL_LOG][2018-06-12 02:56:11,838][INFO][find_string()] File: res/raw-cs/fillsign.html
+[INTERNAL_LOG][2018-06-12 02:56:11,851][INFO][find_string()] No iframe in res/raw-cs/fillsign.html
+[INTERNAL_LOG][2018-06-12 02:56:11,851][INFO][find_string()] File: res/raw-cs/whatsnew.html
+[INTERNAL_LOG][2018-06-12 02:56:11,852][INFO][find_string()] No iframe in res/raw-cs/whatsnew.html
+[INTERNAL_LOG][2018-06-12 02:56:11,852][INFO][find_string()] File: res/raw-da/adc_readermobile_getstarted.html
+[INTERNAL_LOG][2018-06-12 02:56:11,854][INFO][find_string()] No iframe in res/raw-da/adc_readermobile_getstarted.html
+[INTERNAL_LOG][2018-06-12 02:56:11,854][INFO][find_string()] File: res/raw-da/fillsign.html
+[INTERNAL_LOG][2018-06-12 02:56:11,855][INFO][find_string()] No iframe in res/raw-da/fillsign.html
+[INTERNAL_LOG][2018-06-12 02:56:11,855][INFO][find_string()] File: res/raw-da/whatsnew.html
+[INTERNAL_LOG][2018-06-12 02:56:11,856][INFO][find_string()] No iframe in res/raw-da/whatsnew.html
+[INTERNAL_LOG][2018-06-12 02:56:11,856][INFO][find_string()] File: res/raw-de/adc_readermobile_getstarted.html
+[INTERNAL_LOG][2018-06-12 02:56:11,858][INFO][find_string()] No iframe in res/raw-de/adc_readermobile_getstarted.html
+[INTERNAL_LOG][2018-06-12 02:56:11,859][INFO][find_string()] File: res/raw-de/fillsign.html
+[INTERNAL_LOG][2018-06-12 02:56:11,860][INFO][find_string()] No iframe in res/raw-de/fillsign.html
+[INTERNAL_LOG][2018-06-12 02:56:11,860][INFO][find_string()] File: res/raw-de/whatsnew.html
+[INTERNAL_LOG][2018-06-12 02:56:11,861][INFO][find_string()] No iframe in res/raw-de/whatsnew.html
+[INTERNAL_LOG][2018-06-12 02:56:11,861][INFO][find_string()] File: res/raw-en/adc_readermobile_getstarted.html
+[INTERNAL_LOG][2018-06-12 02:56:11,863][INFO][find_string()] No iframe in res/raw-en/adc_readermobile_getstarted.html
+[INTERNAL_LOG][2018-06-12 02:56:11,863][INFO][find_string()] File: res/raw-en/fillsign.html
+[INTERNAL_LOG][2018-06-12 02:56:11,863][INFO][find_string()] No iframe in res/raw-en/fillsign.html
+[INTERNAL_LOG][2018-06-12 02:56:11,864][INFO][find_string()] File: res/raw-en/whatsnew.html
+[INTERNAL_LOG][2018-06-12 02:56:11,865][INFO][find_string()] No iframe in res/raw-en/whatsnew.html
+[INTERNAL_LOG][2018-06-12 02:56:11,865][INFO][find_string()] File: res/raw-es/adc_readermobile_getstarted.html
+[INTERNAL_LOG][2018-06-12 02:56:11,866][INFO][find_string()] No iframe in res/raw-es/adc_readermobile_getstarted.html
+[INTERNAL_LOG][2018-06-12 02:56:11,866][INFO][find_string()] File: res/raw-es/fillsign.html
+[INTERNAL_LOG][2018-06-12 02:56:11,867][INFO][find_string()] No iframe in res/raw-es/fillsign.html
+[INTERNAL_LOG][2018-06-12 02:56:11,867][INFO][find_string()] File: res/raw-es/whatsnew.html
+[INTERNAL_LOG][2018-06-12 02:56:11,868][INFO][find_string()] No iframe in res/raw-es/whatsnew.html
+[INTERNAL_LOG][2018-06-12 02:56:11,868][INFO][find_string()] File: res/raw-fi/adc_readermobile_getstarted.html
+[INTERNAL_LOG][2018-06-12 02:56:11,871][INFO][find_string()] No iframe in res/raw-fi/adc_readermobile_getstarted.html
+[INTERNAL_LOG][2018-06-12 02:56:11,871][INFO][find_string()] File: res/raw-fi/fillsign.html
+[INTERNAL_LOG][2018-06-12 02:56:11,871][INFO][find_string()] No iframe in res/raw-fi/fillsign.html
+[INTERNAL_LOG][2018-06-12 02:56:11,872][INFO][find_string()] File: res/raw-fi/whatsnew.html
+[INTERNAL_LOG][2018-06-12 02:56:11,873][INFO][find_string()] No iframe in res/raw-fi/whatsnew.html
+[INTERNAL_LOG][2018-06-12 02:56:11,873][INFO][find_string()] File: res/raw-fr/adc_readermobile_getstarted.html
+[INTERNAL_LOG][2018-06-12 02:56:11,876][INFO][find_string()] No iframe in res/raw-fr/adc_readermobile_getstarted.html
+[INTERNAL_LOG][2018-06-12 02:56:11,876][INFO][find_string()] File: res/raw-fr/fillsign.html
+[INTERNAL_LOG][2018-06-12 02:56:11,876][INFO][find_string()] No iframe in res/raw-fr/fillsign.html
+[INTERNAL_LOG][2018-06-12 02:56:11,877][INFO][find_string()] File: res/raw-fr/whatsnew.html
+[INTERNAL_LOG][2018-06-12 02:56:11,878][INFO][find_string()] No iframe in res/raw-fr/whatsnew.html
+[INTERNAL_LOG][2018-06-12 02:56:11,878][INFO][find_string()] File: res/raw-it/adc_readermobile_getstarted.html
+[INTERNAL_LOG][2018-06-12 02:56:11,880][INFO][find_string()] No iframe in res/raw-it/adc_readermobile_getstarted.html
+[INTERNAL_LOG][2018-06-12 02:56:11,880][INFO][find_string()] File: res/raw-it/fillsign.html
+[INTERNAL_LOG][2018-06-12 02:56:11,881][INFO][find_string()] No iframe in res/raw-it/fillsign.html
+[INTERNAL_LOG][2018-06-12 02:56:11,881][INFO][find_string()] File: res/raw-it/whatsnew.html
+[INTERNAL_LOG][2018-06-12 02:56:11,882][INFO][find_string()] No iframe in res/raw-it/whatsnew.html
+[INTERNAL_LOG][2018-06-12 02:56:11,882][INFO][find_string()] File: res/raw-ja/adc_readermobile_getstarted.html
+[INTERNAL_LOG][2018-06-12 02:56:11,883][INFO][find_string()] No iframe in res/raw-ja/adc_readermobile_getstarted.html
+[INTERNAL_LOG][2018-06-12 02:56:11,884][INFO][find_string()] File: res/raw-ja/fillsign.html
+[INTERNAL_LOG][2018-06-12 02:56:11,884][INFO][find_string()] No iframe in res/raw-ja/fillsign.html
+[INTERNAL_LOG][2018-06-12 02:56:11,884][INFO][find_string()] File: res/raw-ja/whatsnew.html
+[INTERNAL_LOG][2018-06-12 02:56:11,886][INFO][find_string()] No iframe in res/raw-ja/whatsnew.html
+[INTERNAL_LOG][2018-06-12 02:56:11,887][INFO][find_string()] File: res/raw-ko/adc_readermobile_getstarted.html
+[INTERNAL_LOG][2018-06-12 02:56:11,888][INFO][find_string()] No iframe in res/raw-ko/adc_readermobile_getstarted.html
+[INTERNAL_LOG][2018-06-12 02:56:11,888][INFO][find_string()] File: res/raw-ko/fillsign.html
+[INTERNAL_LOG][2018-06-12 02:56:11,889][INFO][find_string()] No iframe in res/raw-ko/fillsign.html
+[INTERNAL_LOG][2018-06-12 02:56:11,889][INFO][find_string()] File: res/raw-ko/whatsnew.html
+[INTERNAL_LOG][2018-06-12 02:56:11,890][INFO][find_string()] No iframe in res/raw-ko/whatsnew.html
+[INTERNAL_LOG][2018-06-12 02:56:11,891][INFO][find_string()] File: res/raw-nb/adc_readermobile_getstarted.html
+[INTERNAL_LOG][2018-06-12 02:56:11,959][INFO][find_string()] No iframe in res/raw-nb/adc_readermobile_getstarted.html
+[INTERNAL_LOG][2018-06-12 02:56:11,980][INFO][find_string()] File: res/raw-nb/fillsign.html
+[INTERNAL_LOG][2018-06-12 02:56:12,211][INFO][find_string()] No iframe in res/raw-nb/fillsign.html
+[INTERNAL_LOG][2018-06-12 02:56:12,232][INFO][find_string()] File: res/raw-nb/whatsnew.html
+[INTERNAL_LOG][2018-06-12 02:56:12,657][INFO][find_string()] No iframe in res/raw-nb/whatsnew.html
+[INTERNAL_LOG][2018-06-12 02:56:12,678][INFO][find_string()] File: res/raw-nl/adc_readermobile_getstarted.html
+[INTERNAL_LOG][2018-06-12 02:56:12,935][INFO][find_string()] No iframe in res/raw-nl/adc_readermobile_getstarted.html
+[INTERNAL_LOG][2018-06-12 02:56:12,955][INFO][find_string()] File: res/raw-nl/fillsign.html
+[INTERNAL_LOG][2018-06-12 02:56:13,199][INFO][find_string()] No iframe in res/raw-nl/fillsign.html
+[INTERNAL_LOG][2018-06-12 02:56:13,220][INFO][find_string()] File: res/raw-nl/whatsnew.html
+[INTERNAL_LOG][2018-06-12 02:56:13,669][INFO][find_string()] No iframe in res/raw-nl/whatsnew.html
+[INTERNAL_LOG][2018-06-12 02:56:13,690][INFO][find_string()] File: res/raw-pl/adc_readermobile_getstarted.html
+[INTERNAL_LOG][2018-06-12 02:56:14,435][INFO][find_string()] No iframe in res/raw-pl/adc_readermobile_getstarted.html
+[INTERNAL_LOG][2018-06-12 02:56:14,455][INFO][find_string()] File: res/raw-pl/fillsign.html
+[INTERNAL_LOG][2018-06-12 02:56:14,669][INFO][find_string()] No iframe in res/raw-pl/fillsign.html
+[INTERNAL_LOG][2018-06-12 02:56:14,690][INFO][find_string()] File: res/raw-pl/whatsnew.html
+[INTERNAL_LOG][2018-06-12 02:56:15,139][INFO][find_string()] No iframe in res/raw-pl/whatsnew.html
+[INTERNAL_LOG][2018-06-12 02:56:15,160][INFO][find_string()] File: res/raw-pt/adc_readermobile_getstarted.html
+[INTERNAL_LOG][2018-06-12 02:56:15,768][INFO][find_string()] No iframe in res/raw-pt/adc_readermobile_getstarted.html
+[INTERNAL_LOG][2018-06-12 02:56:15,788][INFO][find_string()] File: res/raw-pt/fillsign.html
+[INTERNAL_LOG][2018-06-12 02:56:16,015][INFO][find_string()] No iframe in res/raw-pt/fillsign.html
+[INTERNAL_LOG][2018-06-12 02:56:16,036][INFO][find_string()] File: res/raw-pt/whatsnew.html
+[INTERNAL_LOG][2018-06-12 02:56:16,508][INFO][find_string()] No iframe in res/raw-pt/whatsnew.html
+[INTERNAL_LOG][2018-06-12 02:56:16,528][INFO][find_string()] File: res/raw-ru/adc_readermobile_getstarted.html
+[INTERNAL_LOG][2018-06-12 02:56:17,124][INFO][find_string()] No iframe in res/raw-ru/adc_readermobile_getstarted.html
+[INTERNAL_LOG][2018-06-12 02:56:17,145][INFO][find_string()] File: res/raw-ru/fillsign.html
+[INTERNAL_LOG][2018-06-12 02:56:17,361][INFO][find_string()] No iframe in res/raw-ru/fillsign.html
+[INTERNAL_LOG][2018-06-12 02:56:17,382][INFO][find_string()] File: res/raw-ru/whatsnew.html
+[INTERNAL_LOG][2018-06-12 02:56:17,725][INFO][find_string()] No iframe in res/raw-ru/whatsnew.html
+[INTERNAL_LOG][2018-06-12 02:56:17,746][INFO][find_string()] File: res/raw-sv/adc_readermobile_getstarted.html
+[INTERNAL_LOG][2018-06-12 02:56:18,423][INFO][find_string()] No iframe in res/raw-sv/adc_readermobile_getstarted.html
+[INTERNAL_LOG][2018-06-12 02:56:18,444][INFO][find_string()] File: res/raw-sv/fillsign.html
+[INTERNAL_LOG][2018-06-12 02:56:18,663][INFO][find_string()] No iframe in res/raw-sv/fillsign.html
+[INTERNAL_LOG][2018-06-12 02:56:18,684][INFO][find_string()] File: res/raw-sv/whatsnew.html
+[INTERNAL_LOG][2018-06-12 02:56:19,161][INFO][find_string()] No iframe in res/raw-sv/whatsnew.html
+[INTERNAL_LOG][2018-06-12 02:56:19,182][INFO][find_string()] File: res/raw-tr/adc_readermobile_getstarted.html
+[INTERNAL_LOG][2018-06-12 02:56:19,886][INFO][find_string()] No iframe in res/raw-tr/adc_readermobile_getstarted.html
+[INTERNAL_LOG][2018-06-12 02:56:19,906][INFO][find_string()] File: res/raw-tr/fillsign.html
+[INTERNAL_LOG][2018-06-12 02:56:20,125][INFO][find_string()] No iframe in res/raw-tr/fillsign.html
+[INTERNAL_LOG][2018-06-12 02:56:20,146][INFO][find_string()] File: res/raw-tr/whatsnew.html
+[INTERNAL_LOG][2018-06-12 02:56:20,680][INFO][find_string()] No iframe in res/raw-tr/whatsnew.html
+[INTERNAL_LOG][2018-06-12 02:56:20,700][INFO][find_string()] File: res/raw-zh-rCN/adc_readermobile_getstarted.html
+[INTERNAL_LOG][2018-06-12 02:56:21,326][INFO][find_string()] No iframe in res/raw-zh-rCN/adc_readermobile_getstarted.html
+[INTERNAL_LOG][2018-06-12 02:56:21,346][INFO][find_string()] File: res/raw-zh-rCN/fillsign.html
+[INTERNAL_LOG][2018-06-12 02:56:21,568][INFO][find_string()] No iframe in res/raw-zh-rCN/fillsign.html
+[INTERNAL_LOG][2018-06-12 02:56:21,588][INFO][find_string()] File: res/raw-zh-rCN/whatsnew.html
+[INTERNAL_LOG][2018-06-12 02:56:21,937][INFO][find_string()] No iframe in res/raw-zh-rCN/whatsnew.html
+[INTERNAL_LOG][2018-06-12 02:56:21,958][INFO][find_string()] File: res/raw-zh-rTW/adc_readermobile_getstarted.html
+[INTERNAL_LOG][2018-06-12 02:56:22,554][INFO][find_string()] No iframe in res/raw-zh-rTW/adc_readermobile_getstarted.html
+[INTERNAL_LOG][2018-06-12 02:56:22,574][INFO][find_string()] File: res/raw-zh-rTW/fillsign.html
+[INTERNAL_LOG][2018-06-12 02:56:22,780][INFO][find_string()] No iframe in res/raw-zh-rTW/fillsign.html
+[INTERNAL_LOG][2018-06-12 02:56:22,801][INFO][find_string()] File: res/raw-zh-rTW/whatsnew.html
+[INTERNAL_LOG][2018-06-12 02:56:23,125][INFO][find_string()] No iframe in res/raw-zh-rTW/whatsnew.html
+[INTERNAL_LOG][2018-06-12 02:56:23,146][INFO][find_string()] File: res/raw/adc_errorpage.html
+[INTERNAL_LOG][2018-06-12 02:56:23,396][INFO][find_string()] No iframe in res/raw/adc_errorpage.html
+[INTERNAL_LOG][2018-06-12 02:56:23,417][INFO][find_string()] File: res/raw/adc_readermobile_getstarted.html
+[INTERNAL_LOG][2018-06-12 02:56:25,890][INFO][find_string()] No iframe in res/raw/adc_readermobile_getstarted.html
+[INTERNAL_LOG][2018-06-12 02:56:25,911][INFO][find_string()] File: res/raw/adc_readermobile_sso_getstarted.html
+[INTERNAL_LOG][2018-06-12 02:56:26,450][INFO][find_string()] No iframe in res/raw/adc_readermobile_sso_getstarted.html
+[INTERNAL_LOG][2018-06-12 02:56:26,471][INFO][find_string()] File: res/raw/cpdf_processing_purchase.html
+[INTERNAL_LOG][2018-06-12 02:56:26,676][INFO][find_string()] No iframe in res/raw/cpdf_processing_purchase.html
+[INTERNAL_LOG][2018-06-12 02:56:26,697][INFO][find_string()] File: res/raw/cpdf_processing_purchase_app_pane.html
+[INTERNAL_LOG][2018-06-12 02:56:26,881][INFO][find_string()] No iframe in res/raw/cpdf_processing_purchase_app_pane.html
+[INTERNAL_LOG][2018-06-12 02:56:26,901][INFO][find_string()] File: res/raw/cpdf_wait.html
+[INTERNAL_LOG][2018-06-12 02:56:27,287][INFO][find_string()] No iframe in res/raw/cpdf_wait.html
+[INTERNAL_LOG][2018-06-12 02:56:27,308][INFO][find_string()] File: res/raw/cpdf_wait_app_pane.html
+[INTERNAL_LOG][2018-06-12 02:56:27,499][INFO][find_string()] No iframe in res/raw/cpdf_wait_app_pane.html
+[INTERNAL_LOG][2018-06-12 02:56:27,519][INFO][find_string()] File: res/raw/epdf_processing_purchase.html
+[INTERNAL_LOG][2018-06-12 02:56:27,714][INFO][find_string()] No iframe in res/raw/epdf_processing_purchase.html
+[INTERNAL_LOG][2018-06-12 02:56:27,735][INFO][find_string()] File: res/raw/epdf_processing_purchase_app_pane.html
+[INTERNAL_LOG][2018-06-12 02:56:27,945][INFO][find_string()] No iframe in res/raw/epdf_processing_purchase_app_pane.html
+[INTERNAL_LOG][2018-06-12 02:56:27,966][INFO][find_string()] File: res/raw/epdf_wait.html
+[INTERNAL_LOG][2018-06-12 02:56:28,170][INFO][find_string()] No iframe in res/raw/epdf_wait.html
+[INTERNAL_LOG][2018-06-12 02:56:28,191][INFO][find_string()] File: res/raw/epdf_wait_app_pane.html
+[INTERNAL_LOG][2018-06-12 02:56:28,392][INFO][find_string()] No iframe in res/raw/epdf_wait_app_pane.html
+[INTERNAL_LOG][2018-06-12 02:56:28,412][INFO][find_string()] File: res/raw/fillsign.html
+[INTERNAL_LOG][2018-06-12 02:56:28,633][INFO][find_string()] No iframe in res/raw/fillsign.html
+[INTERNAL_LOG][2018-06-12 02:56:28,891][INFO][find_string()] File: res/raw/whatsnew.html
+[INTERNAL_LOG][2018-06-12 02:56:29,291][INFO][find_string()] No iframe in res/raw/whatsnew.html
+[INTERNAL_LOG][2018-06-12 02:56:29,307][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 02:56:29,333][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 02:56:29,348][INFO][find_string()] File: assets/javascript/AForm.js
+[INTERNAL_LOG][2018-06-12 02:56:30,413][INFO][find_string()] No iframe in assets/javascript/AForm.js
+[INTERNAL_LOG][2018-06-12 02:56:30,434][INFO][find_string()] File: assets/javascript/App.js
+[INTERNAL_LOG][2018-06-12 02:56:30,465][INFO][find_string()] No iframe in assets/javascript/App.js
+[INTERNAL_LOG][2018-06-12 02:56:30,476][INFO][find_string()] File: assets/javascript/Doc.js
+[INTERNAL_LOG][2018-06-12 02:56:30,625][INFO][find_string()] No iframe in assets/javascript/Doc.js
+[INTERNAL_LOG][2018-06-12 02:56:30,645][INFO][find_string()] File: assets/javascript/EScriptString.js
+[INTERNAL_LOG][2018-06-12 02:56:30,677][INFO][find_string()] No iframe in assets/javascript/EScriptString.js
+[INTERNAL_LOG][2018-06-12 02:56:30,697][INFO][find_string()] File: assets/javascript/Event.js
+[INTERNAL_LOG][2018-06-12 02:56:30,744][INFO][find_string()] No iframe in assets/javascript/Event.js
+[INTERNAL_LOG][2018-06-12 02:56:30,765][INFO][find_string()] File: assets/javascript/Field.js
+[INTERNAL_LOG][2018-06-12 02:56:30,955][INFO][find_string()] No iframe in assets/javascript/Field.js
+[INTERNAL_LOG][2018-06-12 02:56:30,976][INFO][find_string()] File: assets/javascript/Util.js
+[INTERNAL_LOG][2018-06-12 02:56:31,470][INFO][find_string()] No iframe in assets/javascript/Util.js
+[INTERNAL_LOG][2018-06-12 02:56:31,491][INFO][find_string()] File: assets/javascript/sprintf.js
+[INTERNAL_LOG][2018-06-12 02:56:31,691][INFO][find_string()] No iframe in assets/javascript/sprintf.js
+[INTERNAL_LOG][2018-06-12 02:56:31,711][INFO][find_string()] File: assets/javascript/utils.js
+[INTERNAL_LOG][2018-06-12 02:56:31,717][INFO][find_string()] No iframe in assets/javascript/utils.js
+[INTERNAL_LOG][2018-06-12 02:56:31,723][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 02:56:38,541][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 02:56:38,541][INFO][find_url_in_apk()] http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+https://entitlements.adobe.io
+https://entitlements-stage.adobe.io
+https://cc-api-data-stage.adobe.io/ingest
+https://cc-api-data.adobe.io/ingest
+https://adobe.com
+https://ims-na1.adobelogin.com
+https://ims-na1-stg1.adobelogin.com
+https://ims-na1-qa1.adobelogin.com
+https://ims-na1-qa2.adobelogin.com
+https://gps.echosigndr.com
+https://gps.echosignpreview.com
+https://gps.echosigndemo.com
+https://gps.echosignstage.com
+https://gps.echosign.com
+https://files.acrobat.com/api
+https://files.stage.acrobat.com/api
+https://files.stage.acrobat.com/api
+https://files.test.dexilab.acrobat.com/api
+https://files.test.dexilab.acrobat.com/api
+https://createpdf.acrobat.com/createpdf/api
+https://createpdf.stage.acrobat.com/createpdf/api
+https://createpdf.stage.acrobat.com/createpdf/api
+https://createpdf.test.dexilab.acrobat.com/createpdf/api
+https://createpdf.test.dexilab.acrobat.com/createpdf/api
+https://na1p.licenses.adobe.com/inapp/v2/claim
+https://na1p-stg1.licenses.adobe.com/inapp/v2/claim
+https://www.adobe.com/go/acro_android_feedback
+https://www.adobe.com/go/acro_android_feedback
+https://www.adobe.com/go/acro_android_feedback
+https://www.adobe.com/go/acrobatandroid
+https://www.adobe.com/go/acrobatandroid
+https://graph.%s
+https://graph-video.%s
+https://facebook.com
+https://www.googleapis.com/auth/games
+https://plus.google.com/
+https://sdk.hockeyapp.net/
+https://sdk.hockeyapp.net/
+https://sdk.hockeyapp.net/
+
+[INTERNAL_LOG][2018-06-12 02:56:38,541][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 02:56:38,545][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 02:56:38,545][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 02:56:38,545][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 02:56:38,545][INFO][analyze_start()] End time:[Tue Jun 12 02:56:38 2018]

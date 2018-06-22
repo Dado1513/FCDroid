@@ -1,0 +1,148 @@
+[INTERNAL_LOG][2018-06-12 04:00:01,505][INFO][analyze_start()] Init Time [Tue Jun 12 04:00:01 2018]
+[INTERNAL_LOG][2018-06-12 04:00:01,530][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 04:00:01,530][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 04:00:01,530][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-12 04:00:01,531][INFO][is_hybird()] android.permission.CAMERA
+[INTERNAL_LOG][2018-06-12 04:00:01,531][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 04:00:01,531][INFO][is_hybird()] android.permission.READ_PHONE_STATE
+[INTERNAL_LOG][2018-06-12 04:00:01,531][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 04:00:01,531][INFO][is_hybird()] android.permission.CHANGE_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 04:00:01,531][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 04:00:01,531][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 04:00:01,531][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 04:00:01,531][INFO][is_hybird()] com.android.vending.CHECK_LICENSE
+[INTERNAL_LOG][2018-06-12 04:00:01,531][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 04:00:01,531][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-12 04:00:01,531][INFO][is_hybird()] android.permission.RECEIVE_BOOT_COMPLETED
+[INTERNAL_LOG][2018-06-12 04:00:01,531][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-12 04:00:01,531][INFO][is_hybird()] com.naturalmotion.clumsyninja.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-12 04:00:01,531][INFO][is_hybird()] com.sec.android.provider.badge.permission.READ
+[INTERNAL_LOG][2018-06-12 04:00:01,531][INFO][is_hybird()] com.sec.android.provider.badge.permission.WRITE
+[INTERNAL_LOG][2018-06-12 04:00:01,531][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 04:00:01,531][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 04:00:01,531][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 04:00:01,532][INFO][find_string()] File: assets/js/closebutton.html
+[INTERNAL_LOG][2018-06-12 04:00:01,532][INFO][find_string()] No iframe in assets/js/closebutton.html
+[INTERNAL_LOG][2018-06-12 04:00:01,532][INFO][find_string()] File: res/raw/format.html
+[INTERNAL_LOG][2018-06-12 04:00:01,533][INFO][find_string()] No iframe in res/raw/format.html
+[INTERNAL_LOG][2018-06-12 04:00:01,533][INFO][find_string()] File: res/raw/w2e_congrats.html
+[INTERNAL_LOG][2018-06-12 04:00:01,548][INFO][find_string()] No iframe in res/raw/w2e_congrats.html
+[INTERNAL_LOG][2018-06-12 04:00:01,548][INFO][find_string()] File: res/raw/w2e_congrats_default.html
+[INTERNAL_LOG][2018-06-12 04:00:01,550][INFO][find_string()] No iframe in res/raw/w2e_congrats_default.html
+[INTERNAL_LOG][2018-06-12 04:00:01,550][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 04:00:01,550][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 04:00:01,550][INFO][find_string()] File: assets/js/mraid.js
+[INTERNAL_LOG][2018-06-12 04:00:01,552][INFO][find_string()] No iframe in assets/js/mraid.js
+[INTERNAL_LOG][2018-06-12 04:00:01,552][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 04:00:30,718][INFO][find_url_in_apk()] [START URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-12 04:00:30,718][INFO][find_url_in_apk()] https://cortana-gateway.amazon.com/cortana/gateway/getSignedDownloadUrl
+
+[INTERNAL_LOG][2018-06-12 04:00:30,718][INFO][find_url_in_apk()] [END URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-12 04:00:31,532][ERROR][download_page_loaded()] Failed response code: 500 for https://cortana-gateway.amazon.com/cortana/gateway/getSignedDownloadUrl  
+[INTERNAL_LOG][2018-06-12 04:00:31,533][INFO][find_string()] [START REMOTE FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 04:00:31,534][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 04:00:31,534][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 04:00:31,534][INFO][find_url_in_apk()] https://app.adjust.com
+https://cortana-gateway.amazon.com/cortana/gateway/getSignedDownloadUrl
+https://ags-ext.amazon.com/service/gamedata/WhisperData
+https://ags-ext.amazon.com/service/gamedata/WhisperData
+https://applab-sdk.amazon.com/1.0
+https://applab-sdk.amazon.com/1.0
+https://applab-sdk.amazon.com/1.0
+http://e.apsalar.com/api/v1/event
+http://e.apsalar.com/api/v1/event
+http://e.apsalar.com/api/v1/canonical
+http://e.apsalar.com/api/v1/resolve
+http://e.apsalar.com/api/v1/start
+https://live.chartboost.com
+http://market.android.com/
+https://m.facebook.com/dialog/
+https://graph.facebook.com/
+https://api.facebook.com/restserver.php
+https://graph.facebook.com/%s/picture
+https://graph.%s
+https://graph-video.%s
+https://facebook.com
+https://www.tumblr.com/oauth/access_token
+https://www.tumblr.com/oauth/authorize?oauth_token=%s
+https://api.tumblr.com/v2/blog/
+https://api.tumblr.com/v2/blog/
+https://www.tumblr.com/oauth/request_token
+https://api.tumblr.com/v2/user/info
+http://www.tumblr.com/connect/login_success.html
+https://play.google.com/store/apps/details?id=
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+https://proton.flurry.com/sdk/v1/config
+https://data.flurry.com/pcr.do
+http://data.flurry.com/aap.do
+https://data.flurry.com/aap.do
+https://ads.flurry.com/v14/getAds.do
+http://ads.flurry.com/v14/getAds.do
+https://adlog.flurry.com
+http://adlog.flurry.com
+https://cdn.flurry.com/vast/videocontrols/v2/android.zip
+https://analytics.query.yahoo.com/v1/public/yql?
+https://accounts.google.com
+https://accounts.google.com
+https://www.facebook.com
+https://www.facebook.com
+https://www.googleapis.com/auth/plus.me
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games
+http://plus.google.com/
+https://www.googleapis.com/auth/games.firstparty
+https://www.googleapis.com/auth/games.firstparty
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://csi.gstatic.com/csi
+http://www.google.com
+https://app-measurement.com/a
+http://fake.com?
+http://fake.com?
+https://androidads23.adcolony.com/configure
+http://play.google.com/store/apps/details?id=
+https://ws.tapjoyads.com/
+https://ws.tapjoyads.com/
+https://ws.tapjoyads.com/
+https://rpc.tapjoy.com/
+https://rpc.tapjoy.com/
+https://connect.tapjoy.com/
+https://connect.tapjoy.com/
+http://content-js.tapjoy.com
+https://placements.tapjoy.com/
+https://api.zynga.com
+http://www.amazon.com/gp/mas/dl/android?p=
+https://www.googleapis.com/auth/games;
+https://www.googleapis.com/auth/plus.login;
+https://www.googleapis.com/auth/appstate;
+https://api.twitter.com/oauth/request_token
+https://api.twitter.com/oauth/request_token
+https://api.twitter.com/oauth/access_token
+https://api.twitter.com/oauth/access_token
+https://api.twitter.com/oauth/authorize
+https://api.twitter.com/oauth/authorize
+http://twitter4j.org/en/twitter4j-
+https://api.twitter.com/oauth/authenticate
+https://api.twitter.com/oauth2/token
+https://api.twitter.com/oauth2/invalidate_token
+https://api.twitter.com/1.1/
+https://stream.twitter.com/1.1/
+https://userstream.twitter.com/1.1/
+https://sitestream.twitter.com/1.1/
+https://upload.twitter.com/1.1/
+
+[INTERNAL_LOG][2018-06-12 04:00:31,534][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 04:00:31,542][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 04:00:31,542][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 04:00:31,542][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 04:00:31,542][INFO][analyze_start()] End time:[Tue Jun 12 04:00:31 2018]

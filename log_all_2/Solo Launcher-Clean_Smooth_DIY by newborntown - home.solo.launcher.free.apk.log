@@ -1,0 +1,198 @@
+[INTERNAL_LOG][2018-06-12 00:32:55,523][INFO][analyze_start()] Init Time [Tue Jun 12 00:32:55 2018]
+[INTERNAL_LOG][2018-06-12 00:32:55,566][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 00:32:55,567][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 00:32:55,567][INFO][is_hybird()] android.permission.WRITE_CALENDAR
+[INTERNAL_LOG][2018-06-12 00:32:55,567][INFO][is_hybird()] android.permission.NFC
+[INTERNAL_LOG][2018-06-12 00:32:55,567][INFO][is_hybird()] android.permission.AUTHENTICATE_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 00:32:55,567][INFO][is_hybird()] android.permission.GET_PACKAGE_SIZE
+[INTERNAL_LOG][2018-06-12 00:32:55,567][INFO][is_hybird()] android.permission.READ_CONTACTS
+[INTERNAL_LOG][2018-06-12 00:32:55,567][INFO][is_hybird()] android.permission.READ_SMS
+[INTERNAL_LOG][2018-06-12 00:32:55,567][INFO][is_hybird()] android.permission.ACCESS_WEATHERCLOCK_PROVIDER
+[INTERNAL_LOG][2018-06-12 00:32:55,567][INFO][is_hybird()] android.permission.WRITE_SYNC_SETTINGS
+[INTERNAL_LOG][2018-06-12 00:32:55,567][INFO][is_hybird()] home.solo.launcher.free.permission.UPDATE_COUNTER
+[INTERNAL_LOG][2018-06-12 00:32:55,567][INFO][is_hybird()] home.solo.launcher.free.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 00:32:55,567][INFO][is_hybird()] home.solo.launcher.free.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 00:32:55,567][INFO][is_hybird()] android.permission.CALL_PHONE
+[INTERNAL_LOG][2018-06-12 00:32:55,567][INFO][is_hybird()] android.permission.SET_WALLPAPER
+[INTERNAL_LOG][2018-06-12 00:32:55,567][INFO][is_hybird()] android.permission.SET_WALLPAPER_HINTS
+[INTERNAL_LOG][2018-06-12 00:32:55,567][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-12 00:32:55,567][INFO][is_hybird()] android.permission.EXPAND_STATUS_BAR
+[INTERNAL_LOG][2018-06-12 00:32:55,568][INFO][is_hybird()] android.permission.READ_PHONE_STATE
+[INTERNAL_LOG][2018-06-12 00:32:55,568][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 00:32:55,568][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 00:32:55,568][INFO][is_hybird()] android.permission.KILL_BACKGROUND_PROCESSES
+[INTERNAL_LOG][2018-06-12 00:32:55,568][INFO][is_hybird()] android.permission.GET_TASKS
+[INTERNAL_LOG][2018-06-12 00:32:55,568][INFO][is_hybird()] android.permission.RECEIVE_BOOT_COMPLETED
+[INTERNAL_LOG][2018-06-12 00:32:55,568][INFO][is_hybird()] android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+[INTERNAL_LOG][2018-06-12 00:32:55,568][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 00:32:55,568][INFO][is_hybird()] android.permission.DISABLE_KEYGUARD
+[INTERNAL_LOG][2018-06-12 00:32:55,568][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 00:32:55,568][INFO][is_hybird()] android.permission.CHANGE_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 00:32:55,568][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 00:32:55,568][INFO][is_hybird()] android.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 00:32:55,568][INFO][is_hybird()] android.permission.BLUETOOTH
+[INTERNAL_LOG][2018-06-12 00:32:55,568][INFO][is_hybird()] android.permission.BLUETOOTH_ADMIN
+[INTERNAL_LOG][2018-06-12 00:32:55,568][INFO][is_hybird()] com.sec.android.app.factorymode.permission.KEYSTRING
+[INTERNAL_LOG][2018-06-12 00:32:55,568][INFO][is_hybird()] android.permission.CAMERA
+[INTERNAL_LOG][2018-06-12 00:32:55,568][INFO][is_hybird()] android.permission.BROADCAST_STICKY
+[INTERNAL_LOG][2018-06-12 00:32:55,568][INFO][is_hybird()] com.android.launcher.permission.INSTALL_SHORTCUT
+[INTERNAL_LOG][2018-06-12 00:32:55,568][INFO][is_hybird()] com.android.alarm.permission.SET_ALARM
+[INTERNAL_LOG][2018-06-12 00:32:55,569][INFO][is_hybird()] huawei.android.permission.HW_SIGNATURE_OR_SYSTEM
+[INTERNAL_LOG][2018-06-12 00:32:55,579][INFO][is_hybird()] com.android.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 00:32:55,580][INFO][is_hybird()] android.permission.FLASHLIGHT
+[INTERNAL_LOG][2018-06-12 00:32:55,580][INFO][is_hybird()] android.permission.SYSTEM_ALERT_WINDOW
+[INTERNAL_LOG][2018-06-12 00:32:55,580][INFO][is_hybird()] android.permission.CHANGE_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 00:32:55,592][INFO][is_hybird()] android.permission.ACCESS_COARSE_LOCATION
+[INTERNAL_LOG][2018-06-12 00:32:55,592][INFO][is_hybird()] android.permission.ACCESS_FINE_LOCATION
+[INTERNAL_LOG][2018-06-12 00:32:55,592][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 00:32:55,592][INFO][is_hybird()] android.permission.RECORD_AUDIO
+[INTERNAL_LOG][2018-06-12 00:32:55,592][INFO][is_hybird()] android.permission.READ_LOGS
+[INTERNAL_LOG][2018-06-12 00:32:55,592][INFO][is_hybird()] android.permission.ACCESS_NOTIFICATION_POLICY
+[INTERNAL_LOG][2018-06-12 00:32:55,592][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 00:32:55,592][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 00:32:55,592][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 00:32:55,592][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 00:32:55,592][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 00:32:55,592][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 00:32:55,592][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 00:33:20,683][INFO][find_url_in_apk()] [START URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-12 00:33:20,683][INFO][find_url_in_apk()] https://plus.google.com/communities/117765065146909485220
+
+[INTERNAL_LOG][2018-06-12 00:33:20,683][INFO][find_url_in_apk()] [END URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-12 00:33:21,788][INFO][find_string()] [START REMOTE FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 00:33:21,789][INFO][find_string()] Remote File in: temp_html_code/html_downloaded_Solo Launcher-Clean_Smooth_DIY by newborntown - home/117765065146909485220
+[INTERNAL_LOG][2018-06-12 00:33:21,789][INFO][find_string()] URL: https://plus.google.com/communities/117765065146909485220
+[INTERNAL_LOG][2018-06-12 00:33:21,849][INFO][find_string()] No iframe in temp_html_code/html_downloaded_Solo Launcher-Clean_Smooth_DIY by newborntown - home/117765065146909485220
+[INTERNAL_LOG][2018-06-12 00:33:21,849][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 00:33:21,850][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 00:33:21,850][INFO][find_url_in_apk()] http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+https://api.appsflyer.com/install_data/v3/
+https://t.appsflyer.com/api/v
+https://events.appsflyer.com/api/v
+https://register.appsflyer.com/api/v
+https://stats.appsflyer.com/stats
+http://m.facebook.com/ads/ad_choices
+http://m.facebook.com/ads/ad_choices
+https://www.facebook.com/audience_network/server_side_reward
+https://www.%s.facebook.com/audience_network/server_side_reward
+https://graph.facebook.com/network_ads_common
+https://graph.%s.facebook.com/network_ads_common
+https://www.facebook.com/adnw_logging/
+https://www.%s.facebook.com/adnw_logging/
+https://www.facebook.com/
+https://www.%s.facebook.com
+http://www.facebook.com
+http://www.w3.org/ns/ttml#parameter
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+https://www.googleapis.com/auth/games
+https://plus.google.com/
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://csi.gstatic.com/csi
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/native_ads.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/native_video_ads.html
+https://www.google.com/dfp/linkDevice
+https://www.google.com/dfp/inAppPreview
+https://www.google.com/dfp/debugSignals
+https://www.google.com/dfp/sendDebugData
+http://www.example.com
+http://www.example.com
+https://pagead2.googlesyndication.com/pagead/gen_204
+http://www.google.com
+https://support.google.com/dfp_premium/answer/7160685#push
+http://api.ahameet.com/
+http://debugtbs.qq.com
+http://debugtbs.qq.com/
+http://api.pingstart.com/v3/sdk-api
+http://api.pingstart.com/mediation/config?
+http://api.pingstart.com/v1/apps?
+http://api.pingstart.com/v3/api/nativeads?
+http://api.pingstart.com/api/trace_log?
+http://api.pingstart.com/v4/package/get?
+https://api.pingstart.com/v3/event/collection_apps
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+http://rqd.uu.qq.com/rqd/sync
+http://android.bugly.qq.com/rqd/async
+http://log.tbs.qq.com/ajax?c=pu&v=2&k=
+http://wup.imtt.qq.com:8080
+http://log.tbs.qq.com/ajax?c=dl&k=
+http://cfg.imtt.qq.com/tbs?v=2&mk=
+http://log.tbs.qq.com/ajax?c=ul&v=2&k=
+http://mqqad.html5.qq.com/adjs
+http://log.tbs.qq.com/ajax?c=ucfu&k=
+http://mdc.html5.qq.com/mh?channel_id=50079&u=
+http://pms.mb.qq.com/rsp204
+http://extern.yahoo.com/b
+http://extern.yahoo.com/b
+http://extern.yahoo.com/c
+http://extern.yahoo.com/c
+http://extern.yahoo.com/p
+http://extern.yahoo.com/p
+https://syndication.site.yahoo.net/sapps/api/v1
+https://syndication.site.yahoo.net/sapps/api/v1
+https://ads.flurry.com/nonSDK/v1/getAds.do
+https://m.search.yahoo.com/v1.1/%s/i/view
+https://m.search.yahoo.com/v1.1/en-US/l
+https://m.search.yahoo.com/v1/%s/s
+https://m.search.yahoo.com/v1.1/%s/v/play
+http://www.dailymotion.com/swf/
+https://app.appsflyer.com/com.newborntown.android.solo.security.free?pid=SoloLauncher&c=DesktopDrawer
+https://app.appsflyer.com/com.newborntown.android.solocleaner?pid=sololauncher
+https://app.appsflyer.com/com.newborntown.android.solocleaner?pid=sololauncher
+https://app.appsflyer.com/com.newborntown.android.solo.batteryapp?pid=SoloLauncher&c=Deaktopdrawer
+https://app.appsflyer.com/online.oflline.music.player.local?pid=SoloLauncher
+http://news.solo-launcher.com/hot?ref=icon
+http://news.solo-launcher.com/hot?ref=icon
+http://game.solo-launcher.com/?ref=icon
+http://game.solo-launcher.com/?ref=icon
+http://news.solo-launcher.com/funny?ref=icon
+http://news.solo-launcher.com/funny?ref=icon
+https://plus.google.com/communities/117765065146909485220
+https://plus.google.com/communities/117765065146909485220
+https://plus.google.com/communities/117765065146909485220
+https://plus.google.com/communities/117765065146909485220
+https://plus.google.com/communities/117765065146909485220
+https://plus.google.com/communities/117765065146909485220
+https://plus.google.com/communities/117765065146909485220
+http://feedback.solo-launcher.com/privacy
+https://m.facebook.com/sololauncher
+https://app.adjust.com/l5q4r8
+http://api1.solo-launcher.com
+http://api1.solo-launcher.com
+https://www.facebook.com/sololauncher
+http://www.newborn-town.com/
+http://111.202.141.2:8001
+https://s.yimg.com/aq/autoc?query={0}&region={1}&callback=YAHOO.util.UHScriptNodeDataSource.callbacks
+http://yandex.ru/touchsearch?text=
+http://search.yahoo.com/search?p=%s
+http://api.meetsmiles.com/api/shuffle/users
+http://schemas.android.com/apk/res-auto
+https://s-media-cache-ak0.pinimg.com/originals/df/5f/2a/df5f2af6cd5b94993e4dc4b896fe42a0.jpg
+https://s-media-cache-ak0.pinimg.com/originals/5c/b8/bd/5cb8bd784e1f0da2f3bcdec8d298982f.jpg
+https://s-media-cache-ak0.pinimg.com/originals/bb/22/56/bb2256142e486956262eb7a88688622d.jpg
+https://s-media-cache-ak0.pinimg.com/originals/1e/2c/f0/1e2cf04b77b845cea1615e47d4e21f5a.jpg
+https://s-media-cache-ak0.pinimg.com/originals/ec/87/41/ec87412a20aba7c7f057d76e9616225e.jpg
+https://s-media-cache-ak0.pinimg.com/originals/b4/c0/f6/b4c0f61cd3b7156579eccdef9250a75b.jpg
+https://s-media-cache-ak0.pinimg.com/originals/98/de/be/98debe7fad5d885f397121c56e516041.jpg
+https://s-media-cache-ak0.pinimg.com/originals/9e/0d/98/9e0d985fdcdc43d028cb1f0c66f04f03.jpg
+http://api1.solo-launcher.com/v2/weather/backgounds
+http://search.yahoo.com/sugg/gossip/gossip-gl-location/?appid=weather&output=sd1&p2=cn,t,pt,z&p1=%1$s,%2$s&command=%3$s
+http://weather.yahoo.com
+http://query.yahooapis.com/v1/public/yql?format=json&q=select%20*%20from%20weather.forecast%20where%20woeid%3D
+
+[INTERNAL_LOG][2018-06-12 00:33:21,850][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 00:33:21,851][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 00:33:21,851][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 00:33:21,852][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 00:33:21,852][INFO][analyze_start()] End time:[Tue Jun 12 00:33:21 2018]

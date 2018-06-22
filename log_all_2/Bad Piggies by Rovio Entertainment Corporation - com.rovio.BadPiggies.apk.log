@@ -1,0 +1,109 @@
+[INTERNAL_LOG][2018-06-12 01:37:21,510][INFO][analyze_start()] Init Time [Tue Jun 12 01:37:21 2018]
+[INTERNAL_LOG][2018-06-12 01:37:21,638][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 01:37:21,638][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 01:37:21,639][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 01:37:21,639][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 01:37:21,639][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-12 01:37:21,639][INFO][is_hybird()] com.rovio.BadPiggies.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-12 01:37:21,639][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-12 01:37:21,639][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 01:37:21,639][INFO][is_hybird()] android.permission.RECEIVE_BOOT_COMPLETED
+[INTERNAL_LOG][2018-06-12 01:37:21,639][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 01:37:21,639][INFO][is_hybird()] android.permission.CAMERA
+[INTERNAL_LOG][2018-06-12 01:37:21,639][INFO][is_hybird()] android.permission.RECORD_AUDIO
+[INTERNAL_LOG][2018-06-12 01:37:21,639][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 01:37:21,639][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-12 01:37:21,639][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 01:37:21,639][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 01:37:21,639][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 01:37:21,639][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 01:37:21,639][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 01:37:21,640][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 01:37:51,123][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 01:37:51,123][INFO][find_url_in_apk()] http://schemas.android.com/apk/res/android
+http://www.yvolver.com
+http://www.yvolver.com
+http://www.yvolver.com
+https://config-prod.yvolver.com/api/public/app/config
+https://config-swap.yvolver.com/api/public/app/config
+https://config-alpha.yvolver.com/api/public/app/config
+https://config-staging.yvolver.com/api/public/app/config
+http://config-dev.yvolver.com/api/public/app/config
+https://adc3-launch.adcolony.com/v4/launch
+https://wd.adcolony.com/logs
+http://schemas.applovin.com/android/1.0
+http://schemas.applovin.com/android/1.0
+http://d.applovin.com/
+http://a.applovin.com/
+https://vid.applovin.com/,https://pdn.applovin.com/,https://img.applovin.com/,https://d.applovin.com/,https://assets.applovin.com/,https://cdnjs.cloudflare.com/,http://vid.applovin.com/,http://pdn.applovin.com/,http://img.applovin.com/,http://d.applovin.com/,http://assets.applovin.com/,http://cdnjs.cloudflare.com/
+http://rt.applovin.com/pix
+https://m.everyplay.com
+https://everyplay.com/apiv2/auth/connect
+https://everyplay.com/
+https://api.everyplay.com/
+https://everyplay.com/apiv2/auth/oauth/access_token
+https://m.everyplay.com/newconnect
+https://everyplay.com/terms-of-service
+https://everyplay.com/privacy-policy
+https://everyplay.com
+http://m.facebook.com/ads/ad_choices
+http://m.facebook.com/ads/ad_choices
+https://www.facebook.com/audience_network/server_side_reward
+https://www.%s.facebook.com/audience_network/server_side_reward
+https://graph.facebook.com/network_ads_common
+https://graph.%s.facebook.com/network_ads_common
+https://www.facebook.com/adnw_logging/
+https://www.%s.facebook.com/adnw_logging/
+https://www.facebook.com/
+https://www.%s.facebook.com
+http://www.facebook.com
+https://graph.%s
+https://graph-video.%s
+https://facebook.com
+http://play.google.com/store/apps/details?id=com.facebook.orca
+https://proton.flurry.com:443/sdk/v1/config
+http://data.flurry.com/aap.do
+https://data.flurry.com/aap.do
+https://www.googleapis.com/auth/plus.me
+https://www.googleapis.com/auth/games
+http://plus.google.com/
+http://www.example.com
+http://www.example.com
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://csi.gstatic.com/csi
+https://sb-ssl.google.com/safebrowsing/clientreport/malware
+https://pagead2.googlesyndication.com/pagead/gen_204
+http://www.google.com
+http://www.rovio.com/privacy/
+http://www.rovio.com/privacy/
+http://www.rovio.com/privacy/
+http://www.rovio.com/eula
+http://www.rovio.com/eula
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+https://play.google.com/store/apps/details?id=
+https://config.unityads.unity3d.com/webview/
+https://sdk.hockeyapp.net/
+https://sdk.hockeyapp.net/
+https://sdk.hockeyapp.net/
+https://sdk.hockeyapp.net/
+https://sdk.hockeyapp.net/
+https://sdk.hockeyapp.net/
+https://sdk.hockeyapp.net/
+https://sdk.hockeyapp.net/
+https://sdk.hockeyapp.net/
+https://sdk.hockeyapp.net/
+
+[INTERNAL_LOG][2018-06-12 01:37:51,123][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 01:37:51,134][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 01:37:51,134][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 01:37:51,134][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 01:37:51,134][INFO][analyze_start()] End time:[Tue Jun 12 01:37:51 2018]

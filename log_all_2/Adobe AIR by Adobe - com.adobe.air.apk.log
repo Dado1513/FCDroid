@@ -1,0 +1,257 @@
+[INTERNAL_LOG][2018-06-12 04:07:55,869][INFO][analyze_start()] Init Time [Tue Jun 12 04:07:55 2018]
+[INTERNAL_LOG][2018-06-12 04:07:55,912][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 04:07:55,912][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 04:07:55,912][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 04:07:55,912][INFO][is_hybird()] android.permission.BROADCAST_STICKY
+[INTERNAL_LOG][2018-06-12 04:07:55,912][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 04:07:55,913][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-12 04:07:55,913][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 04:07:55,913][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 04:07:55,913][INFO][is_hybird()] android.permission.RECEIVE_BOOT_COMPLETED
+[INTERNAL_LOG][2018-06-12 04:07:55,913][INFO][is_hybird()] android.permission.GET_TASKS
+[INTERNAL_LOG][2018-06-12 04:07:55,913][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 04:07:55,913][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 04:07:55,913][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 04:07:55,913][INFO][find_string()] File: assets/index.html
+[INTERNAL_LOG][2018-06-12 04:07:55,914][INFO][find_string()] No iframe in assets/index.html
+[INTERNAL_LOG][2018-06-12 04:07:55,914][INFO][find_string()] File: res/raw/startga.html
+[INTERNAL_LOG][2018-06-12 04:07:55,915][INFO][find_string()] No iframe in res/raw/startga.html
+[INTERNAL_LOG][2018-06-12 04:07:55,915][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 04:07:55,915][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 04:07:55,915][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 04:08:32,351][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 04:08:32,351][INFO][find_url_in_apk()] https://airdownload2.adobe.com/air?
+https://www.adobe.com/airgames/5/
+https://www.adobe.com/airgames/4/
+https://www.adobe.com/airgames/4/
+https://www.adobe.com/airgames/4/
+http://s3-us-west-1.amazonaws.com/gamepreview/prod/airandroid/air.properties
+http://www.adobe.com/airgames/3/
+https://www.adobe.com/gamepreview/?game=notification/notificationClicked.html_
+http://gamespace.adobe.com
+https://dh8vjmvwgc27o.cloudfront.net
+http://dh8vjmvwgc27o.cloudfront.net/AIRGamepad/connect_ping.txt
+http://dh8vjmvwgc27o.cloudfront.net/AIRGamepad/connect_ping.txt?publisher=
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+https://ims-na1.adobelogin.com/ims/logout/v1/?client_id=Playpanel1&redirect_uri=
+https://www.google.com
+https://s3.amazonaws.com/pingcheck/dnd.json
+https://play.google.com/store/apps/details?id=com.adobe.air
+http://img.meilishuo.net/css/images/AndroidShare/Meilishuo_3.6.1_10006.apk
+http://www.google-analytics.com/collect
+http://www.google-analytics.com/collect
+https://ssl.google-analytics.com/collect
+https://ssl.google-analytics.com/collect
+https://www.googleapis.com/auth/appstate
+https://www.googleapis.com/auth/appstate
+http://plus.google.com/
+https://www.googleapis.com/auth/drive.file
+https://www.googleapis.com/auth/drive.appdata
+https://www.googleapis.com/auth/drive
+https://www.googleapis.com/auth/drive.apps
+https://www.googleapis.com/auth/fitness.activity.read
+https://www.googleapis.com/auth/fitness.activity.read
+https://www.googleapis.com/auth/fitness.activity.read
+https://www.googleapis.com/auth/fitness.activity.write
+https://www.googleapis.com/auth/fitness.activity.write
+https://www.googleapis.com/auth/fitness.activity.write
+https://www.googleapis.com/auth/fitness.location.read
+https://www.googleapis.com/auth/fitness.location.read
+https://www.googleapis.com/auth/fitness.location.read
+https://www.googleapis.com/auth/fitness.location.write
+https://www.googleapis.com/auth/fitness.location.write
+https://www.googleapis.com/auth/fitness.location.write
+https://www.googleapis.com/auth/fitness.body.read
+https://www.googleapis.com/auth/fitness.body.read
+https://www.googleapis.com/auth/fitness.body.read
+https://www.googleapis.com/auth/fitness.body.write
+https://www.googleapis.com/auth/fitness.body.write
+https://www.googleapis.com/auth/fitness.body.write
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games.firstparty
+https://www.googleapis.com/auth/games.firstparty
+https://googleads.g.doubleclick.net/mads/static/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/native_ads.html
+http://www.google.com
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://www.googleapis.com/auth/plus.login
+https://www.googleapis.com/auth/plus.login
+https://www.googleapis.com/auth/plus.login
+https://www.googleapis.com/auth/plus.me
+http://schemas.android.com/apk/lib/com.google.android.gms.plus
+http://schemas.android.com/apk/lib/com.google.android.gms.plus
+http://hostname/?
+https://www.googletagmanager.com
+http://www.youtube.com/playlist?list=
+http://www.youtube.com/playlist?list=
+http://www.youtube.com/watch?v=
+http://www.youtube.com/watch?v=
+http://www.youtube.com/user/
+http://www.youtube.com/user/
+http://play.google.com/store/apps/details
+http://schemas.android.com/apk/res/android
+http://www.w3.org/2001/XMLSchema
+http://www.w3.org/TR/REC-xml
+http://apache.org/xml/features/namespaces
+http://apache.org/xml/features/namespaces
+http://apache.org/xml/features/validation/warn-on-duplicate-attdef
+http://apache.org/xml/features/validation/warn-on-duplicate-attdef
+http://apache.org/xml/features/validation/warn-on-undeclared-elemdef
+http://apache.org/xml/features/validation/warn-on-undeclared-elemdef
+http://apache.org/xml/features/allow-java-encodings
+http://apache.org/xml/features/allow-java-encodings
+http://apache.org/xml/features/allow-java-encodings
+http://apache.org/xml/features/allow-java-encodings
+http://apache.org/xml/features/allow-java-encodings
+http://apache.org/xml/properties/internal/symbol-table
+http://apache.org/xml/properties/internal/symbol-table
+http://apache.org/xml/properties/internal/symbol-table
+http://apache.org/xml/properties/internal/symbol-table
+http://apache.org/xml/properties/internal/symbol-table
+http://apache.org/xml/properties/internal/symbol-table
+http://apache.org/xml/properties/internal/symbol-table
+http://apache.org/xml/properties/internal/symbol-table
+http://apache.org/xml/properties/internal/symbol-table
+http://apache.org/xml/properties/internal/symbol-table
+http://apache.org/xml/properties/internal/symbol-table
+http://apache.org/xml/properties/internal/symbol-table
+http://apache.org/xml/properties/internal/symbol-table
+http://apache.org/xml/properties/internal/symbol-table
+http://apache.org/xml/properties/internal/symbol-table
+http://apache.org/xml/properties/internal/error-reporter
+http://apache.org/xml/properties/internal/error-reporter
+http://apache.org/xml/properties/internal/error-reporter
+http://apache.org/xml/properties/internal/error-reporter
+http://apache.org/xml/properties/internal/error-reporter
+http://apache.org/xml/properties/internal/error-reporter
+http://apache.org/xml/properties/internal/error-reporter
+http://apache.org/xml/properties/internal/error-reporter
+http://apache.org/xml/properties/internal/error-reporter
+http://apache.org/xml/properties/internal/error-reporter
+http://apache.org/xml/properties/internal/error-reporter
+http://apache.org/xml/properties/internal/error-reporter
+http://apache.org/xml/properties/internal/error-reporter
+http://apache.org/xml/properties/internal/error-reporter
+http://apache.org/xml/properties/internal/error-reporter
+http://apache.org/xml/properties/internal/error-handler
+http://apache.org/xml/properties/internal/error-handler
+http://apache.org/xml/properties/internal/error-handler
+http://apache.org/xml/properties/internal/entity-resolver
+http://apache.org/xml/properties/internal/entity-resolver
+http://apache.org/xml/properties/internal/entity-resolver
+http://apache.org/xml/properties/internal/dtd-scanner
+http://apache.org/xml/properties/internal/dtd-scanner
+http://apache.org/xml/properties/internal/dtd-scanner
+http://xml.org/sax/features/
+http://xml.org/sax/properties/
+http://apache.org/xml/features/
+http://apache.org/xml/features/
+http://apache.org/xml/features/
+http://apache.org/xml/features/
+http://apache.org/xml/features/
+http://apache.org/xml/features/
+http://apache.org/xml/properties/
+http://apache.org/xml/properties/
+http://apache.org/xml/properties/
+http://apache.org/xml/properties/
+http://apache.org/xml/properties/
+http://apache.org/xml/properties/
+http://xml.org/sax/features/string-interning
+http://xml.org/sax/features/string-interning
+http://java.sun.com/xml/stream/properties/report-cdata-event
+http://java.sun.com/xml/stream/properties/report-cdata-event
+http://java.sun.com/xml/stream/properties/ignore-external-dtd
+http://java.sun.com/xml/stream/properties/ignore-external-dtd
+http://apache.org/xml/features/warn-on-duplicate-entitydef
+http://apache.org/xml/features/warn-on-duplicate-entitydef
+http://apache.org/xml/features/warn-on-duplicate-entitydef
+http://java.sun.com/xml/stream/properties/implementation-name
+http://java.sun.com/xml/stream/properties/implementation-name
+http://java.sun.com/xml/stream/properties/outputstream
+http://java.sun.com/xml/stream/properties/outputstream
+http://apache.org/xml/properties/internal/stax-entity-resolver
+http://apache.org/xml/properties/internal/stax-entity-resolver
+http://apache.org/xml/properties/internal/stax-entity-resolver
+http://apache.org/xml/features/continue-after-fatal-error
+http://apache.org/xml/features/continue-after-fatal-error
+http://www.w3.org/TR/1998/REC-xml-19980210
+http://www.w3.org/TR/1998/REC-xml-19980210
+http://www.w3.org/TR/1998/REC-xml-19980210
+http://www.w3.org/TR/1998/REC-xml-19980210
+http://www.w3.org/TR/1998/REC-xml-19980210
+http://www.w3.org/TR/1998/REC-xml-19980210
+http://www.w3.org/TR/1998/REC-xml-19980210
+http://www.w3.org/TR/1998/REC-xml-19980210
+http://www.w3.org/TR/1998/REC-xml-19980210
+http://www.w3.org/TR/1998/REC-xml-19980210
+http://www.w3.org/TR/1998/REC-xml-19980210
+http://www.w3.org/TR/1998/REC-xml-19980210
+http://www.w3.org/TR/1998/REC-xml-19980210
+http://www.w3.org/TR/1998/REC-xml-19980210
+http://www.w3.org/TR/1998/REC-xml-19980210
+http://xml.org/sax/features/validation
+http://xml.org/sax/features/validation
+http://xml.org/sax/features/validation
+http://xml.org/sax/features/validation
+http://xml.org/sax/features/validation
+http://xml.org/sax/features/validation
+http://xml.org/sax/features/validation
+http://apache.org/xml/features/scanner/notify-char-refs
+http://apache.org/xml/features/scanner/notify-char-refs
+http://apache.org/xml/features/scanner/notify-char-refs
+http://apache.org/xml/features/scanner/notify-char-refs
+http://apache.org/xml/features/scanner/notify-char-refs
+http://apache.org/xml/properties/internal/entity-manager
+http://apache.org/xml/properties/internal/entity-manager
+http://apache.org/xml/properties/internal/entity-manager
+http://apache.org/xml/properties/internal/entity-manager
+http://apache.org/xml/properties/internal/entity-manager
+http://xml.org/sax/features/namespaces
+http://xml.org/sax/features/namespaces
+http://xml.org/sax/features/namespaces
+http://xml.org/sax/features/namespaces
+http://xml.org/sax/features/namespaces
+http://apache.org/xml/features/scanner/notify-builtin-refs
+http://apache.org/xml/features/scanner/notify-builtin-refs
+http://apache.org/xml/features/nonvalidating/load-external-dtd
+http://apache.org/xml/features/nonvalidating/load-external-dtd
+http://apache.org/xml/features/disallow-doctype-decl
+http://apache.org/xml/features/disallow-doctype-decl
+http://apache.org/xml/properties/internal/validation-manager
+http://apache.org/xml/properties/internal/validation-manager
+http://xml.org/sax/features/external-general-entities
+http://xml.org/sax/features/external-general-entities
+http://xml.org/sax/features/external-parameter-entities
+http://xml.org/sax/features/external-parameter-entities
+http://apache.org/xml/properties/input-buffer-size
+http://www.w3.org/TR/1999/REC-xml-names-19990114
+http://www.w3.org/TR/1999/REC-xml-names-19990114
+http://www.w3.org/TR/1999/REC-xml-names-19990114
+http://www.w3.org/2000/xmlns/
+http://www.w3.org/2000/xmlns/
+http://www.w3.org/2000/xmlns/
+http://www.w3.org/2000/xmlns/
+http://www.w3.org/2000/xmlns/
+http://www.w3.org/2000/xmlns/
+http://www.w3.org/XML/1998/namespace
+http://www.w3.org/XML/1998/namespace
+http://www.w3.org/XML/1998/namespace
+
+[INTERNAL_LOG][2018-06-12 04:08:32,352][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 04:08:32,357][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 04:08:32,357][INFO][check_method_conf()] [Add interface WebView: False]
+
+[INTERNAL_LOG][2018-06-12 04:08:32,357][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 04:08:32,357][INFO][analyze_start()] End time:[Tue Jun 12 04:08:32 2018]

@@ -1,0 +1,286 @@
+[INTERNAL_LOG][2018-06-12 09:37:44,956][INFO][analyze_start()] Init Time [Tue Jun 12 09:37:44 2018]
+[INTERNAL_LOG][2018-06-12 09:37:45,125][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 09:37:45,126][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 09:37:45,126][INFO][is_hybird()] com.samsung.android.samsungpass.permission.EASYSIGNIN
+[INTERNAL_LOG][2018-06-12 09:37:45,126][INFO][is_hybird()] com.samsung.android.samsungpass.permission.setting.READ
+[INTERNAL_LOG][2018-06-12 09:37:45,126][INFO][is_hybird()] com.samsung.android.samsungpass.permission.setting.WRITE
+[INTERNAL_LOG][2018-06-12 09:37:45,126][INFO][is_hybird()] com.samsung.android.bixby.agent.permission.READ_LANGUAGE
+[INTERNAL_LOG][2018-06-12 09:37:45,126][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 09:37:45,126][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 09:37:45,126][INFO][is_hybird()] android.permission.WRITE_MEDIA_STORAGE
+[INTERNAL_LOG][2018-06-12 09:37:45,126][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 09:37:45,126][INFO][is_hybird()] com.android.launcher.permission.INSTALL_SHORTCUT
+[INTERNAL_LOG][2018-06-12 09:37:45,126][INFO][is_hybird()] android.permission.ACCESS_COARSE_LOCATION
+[INTERNAL_LOG][2018-06-12 09:37:45,127][INFO][is_hybird()] android.permission.ACCESS_FINE_LOCATION
+[INTERNAL_LOG][2018-06-12 09:37:45,127][INFO][is_hybird()] android.permission.AUTHENTICATE_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 09:37:45,127][INFO][is_hybird()] android.permission.DEVICE_POWER
+[INTERNAL_LOG][2018-06-12 09:37:45,127][INFO][is_hybird()] android.permission.GET_ACCOUNTS_PRIVILEGED
+[INTERNAL_LOG][2018-06-12 09:37:45,127][INFO][is_hybird()] android.permission.MANAGE_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 09:37:45,127][INFO][is_hybird()] android.permission.MANAGE_USERS
+[INTERNAL_LOG][2018-06-12 09:37:45,127][INFO][is_hybird()] android.permission.USE_CREDENTIALS
+[INTERNAL_LOG][2018-06-12 09:37:45,127][INFO][is_hybird()] android.permission.READ_SYNC_STATS
+[INTERNAL_LOG][2018-06-12 09:37:45,127][INFO][is_hybird()] android.permission.READ_SYNC_SETTINGS
+[INTERNAL_LOG][2018-06-12 09:37:45,127][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 09:37:45,127][INFO][is_hybird()] android.permission.WRITE_SYNC_SETTINGS
+[INTERNAL_LOG][2018-06-12 09:37:45,127][INFO][is_hybird()] android.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 09:37:45,127][INFO][is_hybird()] android.permission.WRITE_SECURE_SETTINGS
+[INTERNAL_LOG][2018-06-12 09:37:45,127][INFO][is_hybird()] android.permission.SYSTEM_ALERT_WINDOW
+[INTERNAL_LOG][2018-06-12 09:37:45,127][INFO][is_hybird()] android.permission.REORDER_TASKS
+[INTERNAL_LOG][2018-06-12 09:37:45,127][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 09:37:45,127][INFO][is_hybird()] android.permission.NFC
+[INTERNAL_LOG][2018-06-12 09:37:45,127][INFO][is_hybird()] android.permission.READ_CONTACTS
+[INTERNAL_LOG][2018-06-12 09:37:45,127][INFO][is_hybird()] com.sec.android.stk.permission.EVENT
+[INTERNAL_LOG][2018-06-12 09:37:45,127][INFO][is_hybird()] com.sec.android.permission.SIDESYNC_URL
+[INTERNAL_LOG][2018-06-12 09:37:45,127][INFO][is_hybird()] com.samsung.android.dualscreen.permission.USE_INTERNAL_APIS
+[INTERNAL_LOG][2018-06-12 09:37:45,127][INFO][is_hybird()] android.permission.sec.MDM_AUDIT_LOG
+[INTERNAL_LOG][2018-06-12 09:37:45,127][INFO][is_hybird()] android.permission.sec.MDM_CERTIFICATE
+[INTERNAL_LOG][2018-06-12 09:37:45,127][INFO][is_hybird()] android.permission.sec.MDM_FIREWALL
+[INTERNAL_LOG][2018-06-12 09:37:45,127][INFO][is_hybird()] com.sec.smartcard.pinservice.permission.SMARTCARD_PIN_ACCESS
+[INTERNAL_LOG][2018-06-12 09:37:45,127][INFO][is_hybird()] com.sec.smartcard.pinservice.permission.SMARTCARD_CRYPTO
+[INTERNAL_LOG][2018-06-12 09:37:45,128][INFO][is_hybird()] com.wssnps.permission.COM_WSSNPS
+[INTERNAL_LOG][2018-06-12 09:37:45,128][INFO][is_hybird()] com.samsung.android.scloud.sync.permission.READ
+[INTERNAL_LOG][2018-06-12 09:37:45,128][INFO][is_hybird()] com.samsung.android.scloud.sync.permission.WRITE
+[INTERNAL_LOG][2018-06-12 09:37:45,128][INFO][is_hybird()] com.samsung.android.scloud.backup.lib.read
+[INTERNAL_LOG][2018-06-12 09:37:45,128][INFO][is_hybird()] com.samsung.android.scloud.backup.lib.write
+[INTERNAL_LOG][2018-06-12 09:37:45,128][INFO][is_hybird()] com.sec.android.settings.permission.SOFT_RESET
+[INTERNAL_LOG][2018-06-12 09:37:45,128][INFO][is_hybird()] com.samsung.android.app.assistantmenu.permission.ADVERTISE_ASSISTANTMENU
+[INTERNAL_LOG][2018-06-12 09:37:45,128][INFO][is_hybird()] com.samsung.android.permission.FINGERPRINT_WEB_SIGNIN
+[INTERNAL_LOG][2018-06-12 09:37:45,128][INFO][is_hybird()] com.samsung.android.permission.FINGERPRINT_PRIVILEGED
+[INTERNAL_LOG][2018-06-12 09:37:45,128][INFO][is_hybird()] com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY
+[INTERNAL_LOG][2018-06-12 09:37:45,128][INFO][is_hybird()] com.sec.spp.permission.TOKEN_72b3588973288bacf9f7ff71eef276ae144820b9f7c020b672eb4fab6eb2074ad8ca270639d317de30f53b636797f28ea5adee40ffea9bbdc78b0d8d767865a7aed9341f4b30925f95c8d53ee789f7c824ea5fe428e7d3ecb7d5aaa57ba4102684befe003be35ca421d02bcd6906540f67d78930c3db11bbd7460cb936e7e556
+[INTERNAL_LOG][2018-06-12 09:37:45,128][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-12 09:37:45,128][INFO][is_hybird()] android.permission.BLUETOOTH
+[INTERNAL_LOG][2018-06-12 09:37:45,128][INFO][is_hybird()] android.permission.BLUETOOTH_ADMIN
+[INTERNAL_LOG][2018-06-12 09:37:45,128][INFO][is_hybird()] android.permission.RECEIVE_BOOT_COMPLETED
+[INTERNAL_LOG][2018-06-12 09:37:45,128][INFO][is_hybird()] android.permission.READ_LOGS
+[INTERNAL_LOG][2018-06-12 09:37:45,128][INFO][is_hybird()] com.sec.android.diagmonagent.permission.DIAGMON
+[INTERNAL_LOG][2018-06-12 09:37:45,128][INFO][is_hybird()] android.permission.CHANGE_WIFI_MULTICAST_STATE
+[INTERNAL_LOG][2018-06-12 09:37:45,128][INFO][is_hybird()] android.permission.CONFIGURE_WIFI_DISPLAY
+[INTERNAL_LOG][2018-06-12 09:37:45,128][INFO][is_hybird()] android.permission.INTERACT_ACROSS_USERS_FULL
+[INTERNAL_LOG][2018-06-12 09:37:45,128][INFO][is_hybird()] com.samsung.android.permission.IRIS_WEB_SIGNIN
+[INTERNAL_LOG][2018-06-12 09:37:45,128][INFO][is_hybird()] com.samsung.android.camera.iris.permission.MANAGE_IRIS
+[INTERNAL_LOG][2018-06-12 09:37:45,128][INFO][is_hybird()] com.samsung.android.camera.iris.permission.RESET_IRIS_LOCKOUT
+[INTERNAL_LOG][2018-06-12 09:37:45,128][INFO][is_hybird()] com.samsung.android.camera.iris.permission.USE_IRIS
+[INTERNAL_LOG][2018-06-12 09:37:45,128][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 09:37:45,129][INFO][is_hybird()] android.permission.DOWNLOAD_WITHOUT_NOTIFICATION
+[INTERNAL_LOG][2018-06-12 09:37:45,129][INFO][is_hybird()] com.samsung.android.permission.SSRM_NOTIFICATION_PERMISSION
+[INTERNAL_LOG][2018-06-12 09:37:45,129][INFO][is_hybird()] android.permission.MANAGE_ACTIVITY_STACKS
+[INTERNAL_LOG][2018-06-12 09:37:45,129][INFO][is_hybird()] com.samsung.android.rubin.app.ui.permission.LAUNCH_RUBIN_SETTING
+[INTERNAL_LOG][2018-06-12 09:37:45,129][INFO][is_hybird()] android.permission.REQUEST_INSTALL_PACKAGES
+[INTERNAL_LOG][2018-06-12 09:37:45,129][INFO][is_hybird()] android.permission.SET_PREFERRED_APPLICATIONS
+[INTERNAL_LOG][2018-06-12 09:37:45,129][INFO][is_hybird()] android.permission.GRANT_RUNTIME_PERMISSIONS
+[INTERNAL_LOG][2018-06-12 09:37:45,129][INFO][is_hybird()] com.sec.android.app.sbrowser.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-12 09:37:45,129][INFO][is_hybird()] com.samsung.android.pass.permissions.USE_PASS_SERVICE
+[INTERNAL_LOG][2018-06-12 09:37:45,129][INFO][is_hybird()] com.samsung.android.pass.permissions.MANAGE_PASS_SERVICE
+[INTERNAL_LOG][2018-06-12 09:37:45,129][INFO][is_hybird()] android.permission.CAMERA
+[INTERNAL_LOG][2018-06-12 09:37:45,129][INFO][is_hybird()] android.permission.MODIFY_AUDIO_SETTINGS
+[INTERNAL_LOG][2018-06-12 09:37:45,129][INFO][is_hybird()] android.permission.RECORD_AUDIO
+[INTERNAL_LOG][2018-06-12 09:37:45,129][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-12 09:37:45,129][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 09:37:45,129][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 09:37:45,129][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 09:37:45,129][INFO][find_string()] File: assets/UCChina/navipage/html/index.html
+[INTERNAL_LOG][2018-06-12 09:37:45,137][INFO][find_string()] Found this tag <iframe id="" name="logIframe" style="display:none"></iframe>
+[INTERNAL_LOG][2018-06-12 09:37:45,137][INFO][find_string()] Found in file assets/UCChina/navipage/html/index.html tag iframe , 1 times
+[INTERNAL_LOG][2018-06-12 09:37:45,137][INFO][find_string()] No src founded in iframe tag inside file assets/UCChina/navipage/html/index.html
+[INTERNAL_LOG][2018-06-12 09:37:45,139][INFO][find_string()] No CSP found!
+[INTERNAL_LOG][2018-06-12 09:37:45,139][INFO][find_string()] File: assets/UCIndia/navipage/html/index.html
+[INTERNAL_LOG][2018-06-12 09:37:45,141][INFO][find_string()] No iframe in assets/UCIndia/navipage/html/index.html
+[INTERNAL_LOG][2018-06-12 09:37:45,141][INFO][find_string()] File: assets/pinned.mhtml
+[INTERNAL_LOG][2018-06-12 09:37:45,143][INFO][find_string()] No iframe in assets/pinned.mhtml
+[INTERNAL_LOG][2018-06-12 09:37:45,143][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 09:37:45,143][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 09:37:45,143][INFO][find_string()] File: assets/MultiSelection.js
+[INTERNAL_LOG][2018-06-12 09:37:45,145][INFO][find_string()] No iframe in assets/MultiSelection.js
+[INTERNAL_LOG][2018-06-12 09:37:45,145][INFO][find_string()] File: assets/UCChina/navipage/js/main.js
+[INTERNAL_LOG][2018-06-12 09:37:45,265][INFO][find_string()] No iframe in assets/UCChina/navipage/js/main.js
+[INTERNAL_LOG][2018-06-12 09:37:45,265][INFO][find_string()] File: assets/UCIndia/navipage/js/build.js
+[INTERNAL_LOG][2018-06-12 09:37:45,280][INFO][find_string()] No iframe in assets/UCIndia/navipage/js/build.js
+[INTERNAL_LOG][2018-06-12 09:37:45,280][INFO][find_string()] File: assets/UCIndia/navipage/js/ua-parser.js
+[INTERNAL_LOG][2018-06-12 09:37:45,281][INFO][find_string()] No iframe in assets/UCIndia/navipage/js/ua-parser.js
+[INTERNAL_LOG][2018-06-12 09:37:45,281][INFO][find_string()] File: assets/UCIndia/navipage/js/zepto.js
+[INTERNAL_LOG][2018-06-12 09:37:45,283][INFO][find_string()] No iframe in assets/UCIndia/navipage/js/zepto.js
+[INTERNAL_LOG][2018-06-12 09:37:45,283][INFO][find_string()] File: assets/WifiCode.js
+[INTERNAL_LOG][2018-06-12 09:37:45,284][INFO][find_string()] No iframe in assets/WifiCode.js
+[INTERNAL_LOG][2018-06-12 09:37:45,284][INFO][find_string()] File: assets/reader.js
+[INTERNAL_LOG][2018-06-12 09:37:45,287][INFO][find_string()] No iframe in assets/reader.js
+[INTERNAL_LOG][2018-06-12 09:37:45,287][INFO][find_string()] File: assets/saved_page_description_extractor.js
+[INTERNAL_LOG][2018-06-12 09:37:45,287][INFO][find_string()] No iframe in assets/saved_page_description_extractor.js
+[INTERNAL_LOG][2018-06-12 09:37:45,287][INFO][find_string()] File: assets/wml_content_extractor.js
+[INTERNAL_LOG][2018-06-12 09:37:45,288][INFO][find_string()] No iframe in assets/wml_content_extractor.js
+[INTERNAL_LOG][2018-06-12 09:37:45,288][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 09:38:36,173][INFO][find_url_in_apk()] [START URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-12 09:38:36,173][INFO][find_url_in_apk()] https://www.google.com/search?ie=UTF-8&client=ms-android-sprint-us&source=android-browser
+
+[INTERNAL_LOG][2018-06-12 09:38:36,174][INFO][find_url_in_apk()] [END URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-12 09:38:36,390][INFO][find_string()] [START REMOTE FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 09:38:36,390][INFO][find_string()] Remote File in: temp_html_code/html_downloaded_Samsung Internet Browser by Samsung Electronics Co/search?ie=UTF-8&client=ms-android-sprint-us&source=android-browser
+[INTERNAL_LOG][2018-06-12 09:38:36,391][INFO][find_string()] URL: https://www.google.com/search?ie=UTF-8&client=ms-android-sprint-us&source=android-browser
+[INTERNAL_LOG][2018-06-12 09:38:36,391][ERROR][find_string()] Error unicode error 'utf-8' codec can't decode byte 0xe0 in position 8166: invalid continuation byte
+[INTERNAL_LOG][2018-06-12 09:38:36,391][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 09:38:36,391][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 09:38:36,392][INFO][find_url_in_apk()] http://schemas.android.com/apk/res/android
+http://www.w3.org/TR/SVG11/feature#
+http://www.w3.org/1999/xlink
+http://www.w3.org/1999/xlink
+http://www.w3.org/1999/xlink
+http://www.w3.org/1999/xlink
+http://www.w3.org/1999/xlink
+http://www.w3.org/1999/xlink
+http://xml.org/sax/properties/lexical-handler
+http://www.w3.org/2000/svg
+http://www.w3.org/2000/svg
+http://hmma.baidu.com/app.gif
+https://hmma.baidu.com/app.gif
+http://openrcv.baidu.com/1010/bplus.gif
+https://openrcv.baidu.com/1010/bplus.gif
+http://datax.baidu.com/xs.gif
+http://dxp.baidu.com/upgrade
+https://datax.baidu.com/xs.gif
+https://dxp.baidu.com/upgrade
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+https://www.googleapis.com/auth/games
+https://plus.google.com/
+https://app-measurement.com/a
+https://www.google.com
+https://www.google.com
+https://developers.google.com/accounts/docs/application-default-credentials
+https://accounts.google.com/o/oauth2/token
+https://accounts.google.com/o/oauth2/token
+https://accounts.google.com/o/oauth2/token
+https://accounts.google.com/o/oauth2/token
+https://accounts.google.com/o/oauth2/token
+https://accounts.google.com/o/oauth2/token
+https://accounts.google.com/o/oauth2/token
+https://accounts.google.com/o/oauth2/auth
+https://accounts.google.com/o/oauth2/auth
+https://accounts.google.com/o/oauth2/auth
+https://accounts.google.com/o/oauth2/auth
+https://accounts.google.com
+https://www.googleapis.com/oauth2/v1/certs
+http://169.254.169.254
+https://www.googleapis.com/batch
+http://google.com/
+http://google.com/
+https://support.google.com/daydream?p=daydream_help_menu
+https://google.com/cardboard/cfg
+https://ridibooks.com/api/search/book?isbn=
+http://book.naver.com/search/search.nhn?query=
+http://book.daum.net/search/bookSearch.do?query=
+http://m.book.daum.net/mobile/search/book.do?query=
+http://graph.baidu.com/s?barcode=
+http://graph.baidu.com/s?barcode=
+https://dc.di.atlas.samsung.com
+https://webstore.samqaicongen.com/product/manifestconfig.json
+http://play.google.com/store/apps/details?id=
+http://play.google.com/store/apps/details?id=
+https://config.samqaicongen.com/ratingPopupConfig.json
+http://api.dev.closeby.internet.apps.samsung.com/
+http://r.dev.closeby.internet.apps.samsung.com/
+https://api.closeby.internet.apps.samsung.com/
+http://r.closeby.internet.apps.samsung.com/
+http://api.stg.closeby.internet.apps.samsung.com/
+http://r.stg.closeby.internet.apps.samsung.com/
+https://contentsblock.samqaicongen.com/
+http://www.samsungapps.com/appquery/appDetail.as?appId=
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+https://contents.internet.apps.samsung.com
+https://contents.internet.apps.samsung.com
+https://contents.internet.apps.samsung.com
+https://contents.internet.apps.samsung.com
+https://s3-ap-southeast-1.amazonaws.com/contents.internet.apps.samsung.com/test/index.html
+https://s3-ap-southeast-1.amazonaws.com/contents.internet.apps.samsung.com/test/index.html
+https://s3-ap-southeast-1.amazonaws.com/contents.internet.apps.samsung.com/test/index.html
+https://token.services.mozilla.com/1.0/sync/1.5
+https://token.services.mozilla.com/1.0/sync/1.5
+https://api.accounts.firefox.com/v1
+https://api.accounts.firefox.com/v1
+https://api.accounts.firefox.com/v1!https://token.services.mozilla.com/1.0/sync/1.5
+https://api.accounts.firefox.com/v1!https://token.services.mozilla.com/1.0/sync/1.5
+https://config.samqaicongen.com/PcExtensionURL.json
+http://developer.samsung.com/internet/terms-of-service
+http://developer.samsung.com/internet/terms-of-service
+https://webstore.samqaicongen.com/privacypolicy.html
+https://account.samsung.com/membership/pp
+https://www.google.com/search?ie=UTF-8&client=ms-android-sprint-us&source=android-browser
+https://www.google.com/search?ie=UTF-8&client=ms-android-sprint-us&source=android-browser
+https://www.google.com/search?q={searchTerms}&client=ms-android-samsung-bixby&channel=bixbysearch
+http://search.naver.com/search.naver?ie=UTF8&query={searchTerms}&sm=sam_bix
+https://maps.google.com/
+http://127.0.0.1:8080/sa-live.html
+http://www.youtube.com/oembed?url=
+https://vimeo.com/api/oembed.json?url=
+http://www.dailymotion.com/services/oembed?format=json&url=
+http://img.youtube.com/vi/
+https://adblock.samqaicongen.com/SDCDemo/internet_ic.png
+http://s-multiselect/
+http://s-multiselect/
+http://stg-ap-api.samsungfeed.com/oauth/token?
+https://stg-ap-api.samsungfeed.com/v1/card/internet/getContent?countryCode=
+https://config.samqaicongen.com/newtabContentConfig.json
+https://spay.samsung.com
+https://spay.samsung.com
+https://spay.samsung.com
+https://config.samqaicongen.com/
+https://config.samqaicongen.com/bookMarkWhiteList.json
+https://dev-api.samqaicongen.com/getCPItems
+https://stg-api.samqaicongen.com/getCPItems
+https://secureapi.samqaicongen.com/QuickAccess/getCPItems
+http://dev-api.rewards.internet.apps.samsung.com/api/v1
+https://api.rewards.internet.apps.samsung.com/api/v1
+http://stg-api.rewards.internet.apps.samsung.com/api/v1
+https://paytest.github.io/promo-noti/proxy/cardcapture_promotion_url_v3.json
+http://promo.webpayments.closeby.internet.apps.samsung.com/proxy/cardcapture_promotion_url_v3.json
+https://paytest.github.io/promo-noti/proxy/promo_url_list_v2.json
+http://promo.webpayments.closeby.internet.apps.samsung.com/proxy/promo_url_list_v2.json
+https://play.google.com/store/apps/details?id=com.samsung.android.spay
+http://contents.internet.apps.samsung.com
+https://account.samsung.com
+https://account.samsung.cn
+https://cn-api.samsungcloud.com
+https://api.samsungcloud.com
+https://play.google.com/store/apps/details?id=com.mygalaxy
+https://play.google.com/store/apps/details?id=com.opera.max.oem
+http://vas.samsungapps.com/stub/stubUpdateCheck.as
+http://cn-ms.samsungapps.com/getCNVasURL.as
+https://contentsblock.samqaicongen.com/tracker_block/tracker_block_config.json
+https://contentsblock.samqaicongen.com/tracker_block/v2/tracker_block_filter.json
+https://disconnect.me/Samsung
+http://navi-cn.internet.apps.samsung.com/config.txt
+http://navi-in.internet.apps.samsung.com/config.txt
+http://navi-cn.internet.apps.samsung.com/navipage.zip
+http://navi-in.internet.apps.samsung.com/navipage.zip
+https://help.content.samsung.com/csweb/auth/gosupport.do?serviceCd=sbrowser
+https://help.content.samsung.com/csweb/auth/gosupport.do?serviceCd=sbrowser
+https://help.content.samsung.com/csweb/auth/gosupport.do?serviceCd=sbrowser
+http://www.google.com/m?client=ms-android-google&source=android-home
+http://www.google.com/m?client={CID}&source=android-home
+http://www.google.com/m?client=ms-android-samsung&source=android-home
+http://m5.baidu.com/s?from=124n&word=%s
+http://www.google.com/m?q=%s
+https://vas.samsungapps.com/stub/stubDownload.as
+https://vas.samsungapps.com/stub/stubUpdateCheck.as
+https://play.google.com/store/apps/details?id=
+https://config.samqaicongen.com/promotionNotificationConfig.json
+https://secureapi.samqaicongen.com/QuickAccess/getextensionlistv2
+https://stg-api.samqaicongen.com/getextensionlistv2
+https://dev-api.samqaicongen.com/getextensionlistv2
+https://m.facebook.com/settings/notifications/push/
+https://www.googleapis.com/auth/cloud-translation
+https://config.samqaicongen.com/translation_service_account.json
+http://pingma.qq.com:80/mstat/report
+http://www.
+https://www.
+
+[INTERNAL_LOG][2018-06-12 09:38:36,393][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 09:38:36,407][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 09:38:36,407][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 09:38:36,408][INFO][analyze_start()] This app might be vulnerable on attack frame confusion, This file are vulnerable ['assets/UCChina/navipage/html/index.html']
+[INTERNAL_LOG][2018-06-12 09:38:36,408][INFO][analyze_start()] End time:[Tue Jun 12 09:38:36 2018]

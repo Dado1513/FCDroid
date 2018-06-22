@@ -1,0 +1,190 @@
+[INTERNAL_LOG][2018-06-12 07:50:21,362][INFO][analyze_start()] Init Time [Tue Jun 12 07:50:21 2018]
+[INTERNAL_LOG][2018-06-12 07:50:21,438][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 07:50:21,439][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 07:50:21,439][INFO][is_hybird()] com.omgpop.dstfree.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-12 07:50:21,439][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-12 07:50:21,439][INFO][is_hybird()] com.sec.android.provider.badge.permission.READ
+[INTERNAL_LOG][2018-06-12 07:50:21,439][INFO][is_hybird()] com.sec.android.provider.badge.permission.WRITE
+[INTERNAL_LOG][2018-06-12 07:50:21,439][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 07:50:21,439][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 07:50:21,439][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 07:50:21,439][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-12 07:50:21,439][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 07:50:21,439][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 07:50:21,439][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-12 07:50:21,439][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 07:50:21,439][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 07:50:21,439][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 07:50:21,439][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 07:50:21,439][INFO][find_string()] File: assets/format.html
+[INTERNAL_LOG][2018-06-12 07:50:21,440][INFO][find_string()] No iframe in assets/format.html
+[INTERNAL_LOG][2018-06-12 07:50:21,440][INFO][find_string()] File: res/raw/w2e_congrats.html
+[INTERNAL_LOG][2018-06-12 07:50:21,442][INFO][find_string()] No iframe in res/raw/w2e_congrats.html
+[INTERNAL_LOG][2018-06-12 07:50:21,443][INFO][find_string()] File: res/raw/w2e_congrats_default.html
+[INTERNAL_LOG][2018-06-12 07:50:21,445][INFO][find_string()] No iframe in res/raw/w2e_congrats_default.html
+[INTERNAL_LOG][2018-06-12 07:50:21,445][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 07:50:21,445][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 07:50:21,445][INFO][find_string()] File: assets/mmadsdk/actionsQueue.js
+[INTERNAL_LOG][2018-06-12 07:50:21,446][INFO][find_string()] No iframe in assets/mmadsdk/actionsQueue.js
+[INTERNAL_LOG][2018-06-12 07:50:21,446][INFO][find_string()] File: assets/mmadsdk/mm.js
+[INTERNAL_LOG][2018-06-12 07:50:21,475][INFO][find_string()] No iframe in assets/mmadsdk/mm.js
+[INTERNAL_LOG][2018-06-12 07:50:21,475][INFO][find_string()] File: assets/mmadsdk/mraid.js
+[INTERNAL_LOG][2018-06-12 07:50:21,477][INFO][find_string()] No iframe in assets/mmadsdk/mraid.js
+[INTERNAL_LOG][2018-06-12 07:50:21,477][INFO][find_string()] File: assets/mmadsdk/vpaid.js
+[INTERNAL_LOG][2018-06-12 07:50:21,481][INFO][find_string()] No iframe in assets/mmadsdk/vpaid.js
+[INTERNAL_LOG][2018-06-12 07:50:21,481][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 07:51:25,887][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 07:51:25,887][INFO][find_url_in_apk()] https://dmp.aerserv.com/update
+https://d3tplke66d0j4g.cloudfront.net/sdk-vpaid/0.3/VPAID.html
+https://d3tplke66d0j4g.cloudfront.net/sdk-vpaid/0.3/VPAID.js
+https://d3tplke66d0j4g.cloudfront.net/sdk-vpaid/0.3/VPAIDBridge.js
+https://d3tplke66d0j4g.cloudfront.net/img/poster.gif
+https://d.applovin.com/
+https://a.applovin.com/
+https://rt.applovin.com/med
+https://rt.applovin.com/pix
+https://d.applvn.com/
+https://a.applvn.com/
+https://rt.applvn.com/pix
+https://vid.applovin.com/,https://pdn.applovin.com/,https://img.applovin.com/,https://d.applovin.com/,https://assets.applovin.com/,https://cdnjs.cloudflare.com/,http://vid.applovin.com/,http://pdn.applovin.com/,http://img.applovin.com/,http://d.applovin.com/,http://assets.applovin.com/,http://cdnjs.cloudflare.com/
+http://m.facebook.com/ads/ad_choices
+http://m.facebook.com/ads/ad_choices
+https://www.facebook.com/
+https://www.%s.facebook.com
+https://facebook.com
+https://www.googleapis.com/auth/plus.me
+https://www.googleapis.com/auth/plus.me
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games
+http://plus.google.com/
+https://www.googleapis.com/auth/fitness.activity.read
+https://www.googleapis.com/auth/fitness.activity.read
+https://www.googleapis.com/auth/fitness.activity.write
+https://www.googleapis.com/auth/fitness.activity.write
+https://www.googleapis.com/auth/fitness.location.read
+https://www.googleapis.com/auth/fitness.location.read
+https://www.googleapis.com/auth/fitness.location.write
+https://www.googleapis.com/auth/fitness.location.write
+https://www.googleapis.com/auth/fitness.body.read
+https://www.googleapis.com/auth/fitness.body.read
+https://www.googleapis.com/auth/fitness.body.write
+https://www.googleapis.com/auth/fitness.body.write
+https://www.googleapis.com/auth/fitness.nutrition.read
+https://www.googleapis.com/auth/fitness.nutrition.read
+https://www.googleapis.com/auth/fitness.nutrition.write
+https://www.googleapis.com/auth/fitness.nutrition.write
+https://www.googleapis.com/auth/games.firstparty
+https://www.googleapis.com/auth/games.firstparty
+http://www.example.com
+http://www.example.com
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://csi.gstatic.com/csi
+https://sb-ssl.google.com/safebrowsing/clientreport/malware
+https://pagead2.googlesyndication.com/pagead/gen_204
+https://www.googleapis.com/auth/plus.login
+http://hostname/?
+http://hostname/?
+http://i.w.inmobi.com/showad.asm
+https://sdktm.w.inmobi.com/sdkpubreq
+http://config.inmobi.com/config-server/v1/config/secure.cfg
+http://dock.inmobi.com/carb/v1/i
+http://dock.inmobi.com/carb/v1/o
+https://sdkm.w.inmobi.com/user/e.asm
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+https://twitter.com/%s/status/%s
+https://www.mopub.com/optout/
+https://www.mopub.com/optout/
+https://s3.amazonaws.com/
+https://api.safedk.com
+https://config.safedk.com/
+https://a.applovin.com/3.0/ad
+http://a.applovin.com/2.0/ad
+https://a.applovin.com/2.0/ad
+http://a.applovin.com/nad
+https://graph.facebook.com/network_ads_common
+https://graph.facebook.com/network_ads_common
+https://www.facebook.com/adnw_logging
+http://ads.mopub.com/m/ad
+https://play.google.com/store/apps/details?id=
+https://www.amazon.com/gp/mas/dl/android?p=
+https://www.samsungapps.com/appquery/appDetail.as?appId=
+http://api.sdkbox.com/SSS
+https://api.vungle.com/api/v4/
+https://ingest.vungle.com/
+http://lol.vungle.com/
+https://api.zynga.com
+http://schemas.android.com/apk/res/android
+https://app.adjust.com
+https://debug.aerserv.com/sybok/analytics
+https://debug.aerserv.com/sybok/
+https://ads.aerserv.com/as/sdk/v2/
+https://ads.aerserv.com/as/sdk/v2/
+https://ads.aerserv.com/as/sdk/v2/
+https://ads.aerserv.com/as/sdk/v2/
+http://schemas.applovin.com/android/1.0
+http://schemas.applovin.com/android/1.0
+https://www.facebook.com/audience_network/server_side_reward
+https://www.%s.facebook.com/audience_network/server_side_reward
+https://graph.%s.facebook.com/network_ads_common
+https://www.facebook.com/adnw_logging/
+https://www.%s.facebook.com/adnw_logging/
+http://www.facebook.com
+https://graph.%s
+https://graph-video.%s
+http://play.google.com/store/apps/details?id=com.facebook.orca
+https://proton.flurry.com:443/sdk/v1/config
+http://data.flurry.com/aap.do
+https://data.flurry.com/aap.do
+http://www.google-analytics.com
+https://ssl.google-analytics.com
+https://accounts.google.com
+https://www.facebook.com
+https://www.google-analytics.com
+http://schemas.android.com/apk/lib/com.google.android.gms.plus
+http://schemas.android.com/apk/lib/com.google.android.gms.plus
+https://www.googletagmanager.com
+http://schemas.android.com/apk/lib/com.inmobi.ads
+http://schemas.android.com/apk/lib/com.inmobi.ads
+https://i.l.inmobicdn.net/sdk/sdk/500/android/mraid.js
+http://www.inmobi.com/products/sdk/#downloads
+https://sdkm.w.inmobi.com/metrics/e.asm?v=1&
+https://www.facebook.com/dialog/feed?app_id=181821551957328&link=
+https://m.google.com/app/plus/x/?v=compose&content=
+http://twitter.com/home?status=
+https://ads.nexage.com
+https://z.moatads.com/
+https://z.moatads.com/
+https://z.moatads.com/
+https://analytics.mopub.com/i/jot/exchange_client_event
+https://www.mopub.com/optout
+https://config.unityads.unity3d.com/webview/
+https://e.crashlytics.com/spi/v2/events
+https://settings.crashlytics.com/spi/v2/platforms/android/apps/%s/settings
+https://staging.ads.aerserv.com/as/sdk/v2/
+https://staging.ads.aerserv.com/as/sdk/v2/
+https://ads.aerserv.com/as/sdk/configure/
+https://www.googleapis.com/auth/drive.file
+https://www.googleapis.com/auth/drive.appdata
+https://www.googleapis.com/auth/drive
+https://www.googleapis.com/auth/drive.apps
+http://www.google.com
+https://mobile-static.adsafeprotected.com/avid-v2.js
+http://update.sdkbox.com/check
+https://www.vungle.com/privacy/
+https://www.vungle.com/privacy/
+
+[INTERNAL_LOG][2018-06-12 07:51:25,887][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 07:51:25,893][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 07:51:25,893][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 07:51:25,893][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 07:51:25,893][INFO][analyze_start()] End time:[Tue Jun 12 07:51:25 2018]

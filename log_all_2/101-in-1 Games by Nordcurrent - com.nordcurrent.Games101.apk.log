@@ -1,0 +1,125 @@
+[INTERNAL_LOG][2018-06-12 07:20:19,407][INFO][analyze_start()] Init Time [Tue Jun 12 07:20:19 2018]
+[INTERNAL_LOG][2018-06-12 07:20:19,474][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 07:20:19,475][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 07:20:19,475][INFO][is_hybird()] android.permission.READ_PHONE_STATE
+[INTERNAL_LOG][2018-06-12 07:20:19,475][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 07:20:19,475][INFO][is_hybird()] android.permission.ACCESS_COARSE_LOCATION
+[INTERNAL_LOG][2018-06-12 07:20:19,475][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-12 07:20:19,475][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 07:20:19,475][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 07:20:19,476][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 07:20:19,476][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 07:20:19,476][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 07:20:19,476][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 07:20:19,476][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 07:20:19,476][INFO][find_string()] File: js/closebutton.html
+[INTERNAL_LOG][2018-06-12 07:20:19,476][INFO][find_string()] No iframe in js/closebutton.html
+[INTERNAL_LOG][2018-06-12 07:20:19,477][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 07:20:19,477][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 07:20:19,477][INFO][find_string()] File: js/mraid.js
+[INTERNAL_LOG][2018-06-12 07:20:19,479][INFO][find_string()] No iframe in js/mraid.js
+[INTERNAL_LOG][2018-06-12 07:20:19,479][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 07:20:38,003][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 07:20:38,003][INFO][find_url_in_apk()] https://live.chartboost.com
+http://market.android.com/
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+http://flurry.cachefly.net/vast/videocontrols/v1/android.zip
+https://www.googleapis.com/auth/appstate
+https://www.googleapis.com/auth/appstate
+https://www.googleapis.com/auth/drive.file
+https://www.googleapis.com/auth/drive.appdata
+https://www.googleapis.com/auth/drive
+https://www.googleapis.com/auth/drive.apps
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games.firstparty
+https://www.googleapis.com/auth/games.firstparty
+http://googleads.g.doubleclick.net/mads/static/sdk/native/sdk-core-v40.html
+http://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+http://www.google.com
+http://plus.google.com/
+https://www.googleapis.com/auth/plus.login
+https://www.googleapis.com/auth/plus.login
+https://www.googleapis.com/auth/plus.login
+https://www.googleapis.com/auth/plus.me
+http://schemas.android.com/apk/lib/com.google.android.gms.plus
+http://schemas.android.com/apk/lib/com.google.android.gms.plus
+http://hostname/?
+https://www.googletagmanager.com
+http://i.w.inmobi.com/showad.asm
+http://i.w.inmobi.com/showad.asm
+http://i.w.inmobi.com/showad.asm
+http://i.w.inmobi.com/showad.asm
+http://i.w.inmobi.com/showad.asm
+https://www.facebook.com/dialog/feed?app_id=181821551957328&link=
+https://m.google.com/app/plus/x/?v=compose&content=
+http://twitter.com/home?status=
+http://appgalleries.inmobi.com/inmobi_sdk
+http://dock.inmobi.com/carb/v1/i
+http://dock.inmobi.com/carb/v1/i
+http://dock.inmobi.com/carb/v1/o
+http://dock.inmobi.com/carb/v1/o
+http://a.ai.inmobi.com/v2/ad.html
+https://rules-ltvp.inmobi.com/v2/rules.json
+https://e-ltvp.inmobi.com/storm/v1/event
+https://sdkm.w.inmobi.com/user/e.asm
+https://d.appsdt.com/download/tracker/?
+https://d.appsdt.com/sdkdwnldbeacon.html
+https://d.appsdt.com/download/tracker/iatsdkconfs?
+https://sdkm.w.inmobi.com/metrics/e.asm
+https://apt.md.inmobi.net/ruleserver/RuleService
+http://ads.mp.mydas.mobi/appConfigServlet?apid=
+https://ads.mp.mydas.mobi/appConfigServlet?apid=
+http://androidsdk.ads.mp.mydas.mobi/getAd.php5?
+http://androidsdk.ads.mp.mydas.mobi/getAd.php5?
+http://cvt.mydas.mobi/handleConversion?firstlaunch=
+http://ads.mp.mydas.mobi/pixel?id=
+http://cdn.millennialmedia.com/mmjs/v1.7/mm.js
+http://www.facebook.com/nordcurrent
+https://service.sponsorpay.com
+https://service.sponsorpay.com/actions/v2
+https://service.sponsorpay.com/installs/v2
+https://api.sponsorpay.com/vcs/v1/new_credit.json
+https://iframe.sponsorpay.com/mbe
+https://iframe.sponsorpay.com/mobile
+https://engine.sponsorpay.com/interstitial
+https://engine.sponsorpay.com/tracker
+https://connect.tapjoy.com/
+https://connect.tapjoy.com/
+https://ws.tapjoyads.com/
+https://ws.tapjoyads.com/
+https://ws.tapjoyads.com/
+https://ws.tapjoyads.com/
+http://content-js.tapjoy.com
+https://events.tapjoy.com/
+https://s3.amazonaws.com/tapjoy/videos/assets/watermark.png
+https://ads.flurry.com/v10/getAds.do
+http://ads.flurry.com/v10/getAds.do
+https://adlog.flurry.com
+http://adlog.flurry.com
+https://play.google.com/store/apps/details?id=
+https://market.android.com/details?id=
+http://www.google-analytics.com/collect
+http://www.google-analytics.com/collect
+https://ssl.google-analytics.com/collect
+https://ssl.google-analytics.com/collect
+http://media.admob.com/mraid/v1/mraid_app_interstitial.js
+http://media.admob.com/mraid/v1/mraid_app_expanded_banner.js
+http://media.admob.com/mraid/v1/mraid_app_banner.js
+http://server1.nordcurrent.com/UDS/update_hd.php
+http://data.flurry.com/aap.do
+https://data.flurry.com/aap.do
+http://millennialmedia.com/android/schema
+http://images.millennialmedia.com/9513/192134.gif
+
+[INTERNAL_LOG][2018-06-12 07:20:38,003][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 07:20:38,008][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 07:20:38,008][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 07:20:38,008][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 07:20:38,008][INFO][analyze_start()] End time:[Tue Jun 12 07:20:38 2018]

@@ -1,0 +1,363 @@
+[INTERNAL_LOG][2018-06-12 00:26:27,491][INFO][analyze_start()] Init Time [Tue Jun 12 00:26:27 2018]
+[INTERNAL_LOG][2018-06-12 00:26:27,748][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 00:26:27,751][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 00:26:27,751][INFO][is_hybird()] com.google.android.googlequicksearchbox.permission.FINISH_GEL_ACTIVITY
+[INTERNAL_LOG][2018-06-12 00:26:27,751][INFO][is_hybird()] com.google.android.apps.now.CURRENT_ACCOUNT_ACCESS
+[INTERNAL_LOG][2018-06-12 00:26:27,751][INFO][is_hybird()] com.google.android.googlequicksearchbox.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-12 00:26:27,751][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-12 00:26:27,751][INFO][is_hybird()] android.permission.GLOBAL_SEARCH
+[INTERNAL_LOG][2018-06-12 00:26:27,752][INFO][is_hybird()] android.permission.READ_CONTACTS
+[INTERNAL_LOG][2018-06-12 00:26:27,752][INFO][is_hybird()] android.permission.WRITE_CONTACTS
+[INTERNAL_LOG][2018-06-12 00:26:27,752][INFO][is_hybird()] com.android.browser.permission.READ_HISTORY_BOOKMARKS
+[INTERNAL_LOG][2018-06-12 00:26:27,752][INFO][is_hybird()] com.android.browser.permission.WRITE_HISTORY_BOOKMARKS
+[INTERNAL_LOG][2018-06-12 00:26:27,752][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 00:26:27,752][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 00:26:27,752][INFO][is_hybird()] com.google.android.launcher.permission.CONTENT_REDIRECT
+[INTERNAL_LOG][2018-06-12 00:26:27,752][INFO][is_hybird()] com.google.android.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 00:26:27,752][INFO][is_hybird()] com.google.android.launcher.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 00:26:27,752][INFO][is_hybird()] com.google.android.launcher.permission.RECEIVE_LAUNCH_BROADCASTS
+[INTERNAL_LOG][2018-06-12 00:26:27,752][INFO][is_hybird()] com.google.android.launcher.permission.RECEIVE_FIRST_LOAD_BROADCAST
+[INTERNAL_LOG][2018-06-12 00:26:27,752][INFO][is_hybird()] android.permission.USE_CREDENTIALS
+[INTERNAL_LOG][2018-06-12 00:26:27,752][INFO][is_hybird()] android.permission.MANAGE_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 00:26:27,752][INFO][is_hybird()] android.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 00:26:27,752][INFO][is_hybird()] com.google.android.providers.settings.permission.READ_GSETTINGS
+[INTERNAL_LOG][2018-06-12 00:26:27,752][INFO][is_hybird()] com.google.android.providers.settings.permission.WRITE_GSETTINGS
+[INTERNAL_LOG][2018-06-12 00:26:27,752][INFO][is_hybird()] com.google.android.providers.gsf.permission.READ_GSERVICES
+[INTERNAL_LOG][2018-06-12 00:26:27,752][INFO][is_hybird()] com.google.android.voicesearch.SHORTCUTS_ACCESS
+[INTERNAL_LOG][2018-06-12 00:26:27,752][INFO][is_hybird()] com.google.android.voicesearch.ACCESS_SETTINGS
+[INTERNAL_LOG][2018-06-12 00:26:27,753][INFO][is_hybird()] com.android.browser.permission.PRELOAD
+[INTERNAL_LOG][2018-06-12 00:26:27,753][INFO][is_hybird()] com.google.android.ears.permission.WRITE
+[INTERNAL_LOG][2018-06-12 00:26:27,753][INFO][is_hybird()] android.permission.BROADCAST_STICKY
+[INTERNAL_LOG][2018-06-12 00:26:27,753][INFO][is_hybird()] android.permission.MEDIA_CONTENT_CONTROL
+[INTERNAL_LOG][2018-06-12 00:26:27,753][INFO][is_hybird()] android.permission.INTERACT_ACROSS_USERS
+[INTERNAL_LOG][2018-06-12 00:26:27,753][INFO][is_hybird()] android.permission.FOREGROUND_SERVICE
+[INTERNAL_LOG][2018-06-12 00:26:27,753][INFO][is_hybird()] com.google.android.googlequicksearchbox.permission.PAUSE_HOTWORD
+[INTERNAL_LOG][2018-06-12 00:26:27,753][INFO][is_hybird()] android.permission.GET_PACKAGE_SIZE
+[INTERNAL_LOG][2018-06-12 00:26:27,753][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 00:26:27,753][INFO][is_hybird()] android.permission.CHANGE_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 00:26:27,753][INFO][is_hybird()] android.permission.BLUETOOTH_ADMIN
+[INTERNAL_LOG][2018-06-12 00:26:27,753][INFO][is_hybird()] android.permission.CHANGE_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 00:26:27,753][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 00:26:27,753][INFO][is_hybird()] android.permission.RECEIVE_BOOT_COMPLETED
+[INTERNAL_LOG][2018-06-12 00:26:27,753][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 00:26:27,753][INFO][is_hybird()] com.google.android.gms.permission.ACTIVITY_RECOGNITION
+[INTERNAL_LOG][2018-06-12 00:26:27,753][INFO][is_hybird()] android.permission.READ_PROFILE
+[INTERNAL_LOG][2018-06-12 00:26:27,753][INFO][is_hybird()] com.google.googlenav.friend.permission.OPT_IN
+[INTERNAL_LOG][2018-06-12 00:26:27,753][INFO][is_hybird()] com.google.android.apps.maps.permission.PREFETCH
+[INTERNAL_LOG][2018-06-12 00:26:27,753][INFO][is_hybird()] android.permission.ACCESS_COARSE_LOCATION
+[INTERNAL_LOG][2018-06-12 00:26:27,753][INFO][is_hybird()] android.permission.ACCESS_FINE_LOCATION
+[INTERNAL_LOG][2018-06-12 00:26:27,753][INFO][is_hybird()] android.permission.BLUETOOTH
+[INTERNAL_LOG][2018-06-12 00:26:27,754][INFO][is_hybird()] android.permission.CALL_PHONE
+[INTERNAL_LOG][2018-06-12 00:26:27,754][INFO][is_hybird()] android.permission.CALL_PRIVILEGED
+[INTERNAL_LOG][2018-06-12 00:26:27,754][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 00:26:27,754][INFO][is_hybird()] android.permission.MODIFY_AUDIO_SETTINGS
+[INTERNAL_LOG][2018-06-12 00:26:27,754][INFO][is_hybird()] android.permission.READ_CALENDAR
+[INTERNAL_LOG][2018-06-12 00:26:27,754][INFO][is_hybird()] android.permission.READ_SMS
+[INTERNAL_LOG][2018-06-12 00:26:27,754][INFO][is_hybird()] android.permission.READ_PHONE_STATE
+[INTERNAL_LOG][2018-06-12 00:26:27,754][INFO][is_hybird()] android.permission.READ_SYNC_SETTINGS
+[INTERNAL_LOG][2018-06-12 00:26:27,754][INFO][is_hybird()] android.permission.RECORD_AUDIO
+[INTERNAL_LOG][2018-06-12 00:26:27,754][INFO][is_hybird()] android.permission.SEND_SMS
+[INTERNAL_LOG][2018-06-12 00:26:27,754][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-12 00:26:27,754][INFO][is_hybird()] android.permission.GET_TASKS
+[INTERNAL_LOG][2018-06-12 00:26:27,754][INFO][is_hybird()] android.permission.REAL_GET_TASKS
+[INTERNAL_LOG][2018-06-12 00:26:27,754][INFO][is_hybird()] android.permission.WRITE_CALENDAR
+[INTERNAL_LOG][2018-06-12 00:26:27,754][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 00:26:27,754][INFO][is_hybird()] android.permission.WRITE_SMS
+[INTERNAL_LOG][2018-06-12 00:26:27,754][INFO][is_hybird()] com.android.alarm.permission.SET_ALARM
+[INTERNAL_LOG][2018-06-12 00:26:27,754][INFO][is_hybird()] com.google.android.apps.googlevoice.permission.AUTO_SEND
+[INTERNAL_LOG][2018-06-12 00:26:27,754][INFO][is_hybird()] com.google.android.gm.permission.AUTO_SEND
+[INTERNAL_LOG][2018-06-12 00:26:27,754][INFO][is_hybird()] com.google.android.gm.permission.READ_GMAIL
+[INTERNAL_LOG][2018-06-12 00:26:27,754][INFO][is_hybird()] com.google.android.googleapps.permission.GOOGLE_AUTH.cp
+[INTERNAL_LOG][2018-06-12 00:26:27,754][INFO][is_hybird()] com.google.android.googleapps.permission.GOOGLE_AUTH
+[INTERNAL_LOG][2018-06-12 00:26:27,754][INFO][is_hybird()] com.google.android.hangouts.START_HANGOUT
+[INTERNAL_LOG][2018-06-12 00:26:27,755][INFO][is_hybird()] com.google.android.voicesearch.AUDIO_FILE_ACCESS
+[INTERNAL_LOG][2018-06-12 00:26:27,755][INFO][is_hybird()] android.permission.CAMERA
+[INTERNAL_LOG][2018-06-12 00:26:27,755][INFO][is_hybird()] android.permission.FLASHLIGHT
+[INTERNAL_LOG][2018-06-12 00:26:27,755][INFO][is_hybird()] android.permission.DOWNLOAD_WITHOUT_NOTIFICATION
+[INTERNAL_LOG][2018-06-12 00:26:27,755][INFO][is_hybird()] android.permission.MANAGE_VOICE_KEYPHRASES
+[INTERNAL_LOG][2018-06-12 00:26:27,755][INFO][is_hybird()] com.android.chrome.PRERENDER_URL
+[INTERNAL_LOG][2018-06-12 00:26:27,755][INFO][is_hybird()] android.permission.CAPTURE_AUDIO_HOTWORD
+[INTERNAL_LOG][2018-06-12 00:26:27,755][INFO][is_hybird()] android.permission.STOP_APP_SWITCHES
+[INTERNAL_LOG][2018-06-12 00:26:27,755][INFO][is_hybird()] android.permission.SET_WALLPAPER
+[INTERNAL_LOG][2018-06-12 00:26:27,755][INFO][is_hybird()] android.permission.SET_WALLPAPER_HINTS
+[INTERNAL_LOG][2018-06-12 00:26:27,755][INFO][is_hybird()] android.permission.BIND_APPWIDGET
+[INTERNAL_LOG][2018-06-12 00:26:27,755][INFO][is_hybird()] com.android.launcher.permission.INSTALL_SHORTCUT
+[INTERNAL_LOG][2018-06-12 00:26:27,755][INFO][is_hybird()] android.permission.USE_FINGERPRINT
+[INTERNAL_LOG][2018-06-12 00:26:27,755][INFO][is_hybird()] android.permission.CHANGE_WIFI_MULTICAST_STATE
+[INTERNAL_LOG][2018-06-12 00:26:27,755][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 00:26:27,755][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 00:26:27,755][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 00:26:27,755][INFO][find_string()] File: res/raw/offline_help_content.html
+[INTERNAL_LOG][2018-06-12 00:26:27,760][INFO][find_string()] No iframe in res/raw/offline_help_content.html
+[INTERNAL_LOG][2018-06-12 00:26:27,760][INFO][find_string()] File: res/raw/rendered_card_template.html
+[INTERNAL_LOG][2018-06-12 00:26:27,761][INFO][find_string()] No iframe in res/raw/rendered_card_template.html
+[INTERNAL_LOG][2018-06-12 00:26:27,761][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 00:26:27,761][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 00:26:27,761][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 00:29:20,733][INFO][find_url_in_apk()] [START URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-12 00:29:20,739][INFO][find_url_in_apk()] https://www.gstatic.com/bisto/oobe/hear_notifs/index.html
+
+[INTERNAL_LOG][2018-06-12 00:29:20,740][INFO][find_url_in_apk()] [END URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-12 00:29:20,926][INFO][find_string()] [START REMOTE FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 00:29:20,927][INFO][find_string()] Remote File in: temp_html_code/html_downloaded_Google by Google LLC - com/index.html
+[INTERNAL_LOG][2018-06-12 00:29:20,927][INFO][find_string()] URL: https://www.gstatic.com/bisto/oobe/hear_notifs/index.html
+[INTERNAL_LOG][2018-06-12 00:29:20,940][INFO][find_string()] No iframe in temp_html_code/html_downloaded_Google by Google LLC - com/index.html
+[INTERNAL_LOG][2018-06-12 00:29:20,940][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 00:29:20,941][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 00:29:20,941][INFO][find_url_in_apk()] http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res-auto/com.android.launcher3
+http://schemas.android.com/apk/res-auto/com.android.launcher3
+https://support.google.com/googlehome
+https://support.google.com/googlehome
+https://support.google.com/googlehome
+https://support.google.com/googlehome/?p=speakerid_unsupported
+https://support.google.com/googlehome/?p=multiuser_max
+https://accounts.google.com/RecoverAccount?Email=%email%
+https://accounts.google.com/RecoverAccount?Email=%email%
+https://oauthintegrations.googleapis.com
+https://www.google.com/s2/favicons?domain_url=
+https://support.google.com/websearch/?p=m_ws_serp_gethelp
+https://www.google.com/maps/uv*
+https://www.google.com/local/place/reviews/reply*
+https://accounts.google.com/Login
+https://accounts.google.com/oauth/multilogin
+https://www.google.com
+https://www.google.com
+https://www.google.com
+https://www.google.com
+https://history.google.com/history/optout?agsa=1
+https://clients6.google.com/adblocking/v2/users/me/ads/block
+https://adssettings.google.com
+https://save.googleapis.com/v1:batch?alt=proto
+https://save.googleapis.com/v1:batch?alt=proto
+https://assistant.google.com/explore
+https://www.google.com/a/google.com/ServiceLogin
+https://clients5.google.com/cast/chromecast/home/proto
+https://support.google.com/websearch/?p=AMP
+https://www.googleadservices.com
+https://connectivitycheck.gstatic.com/generate_204
+https://connectivitycheck.gstatic.com/generate_204
+https://chromium-i18n.appspot.com/ssl-address
+https://support.google.com/googlehome/?p=voice_unlinked
+https://support.google.com/googlehome/?p=voice_unlinked
+https://www.gstatic.com/android-search/hotword/okgoogle/2485ffee9b354b09df6c27d88fdd9d28/hotword.data
+https://www.gstatic.com/android-search/hotword/okgoogle/d11515beb088c22a5b4cfcbe50ed64be/hotword.data
+https://www.gstatic.com/android-search/hotword/okgoogle/8b8b841e8ba422f84b724567fc1723c8/hotword.data
+https://www.gstatic.com/android-search/hotword/okgoogle/ba949b3b246db0e85d30edda09500a01/hotword.data
+https://www.gstatic.com/android-search/hotword/okgoogle/bbf10e9707209b75ad803852a5773783/hotword.data
+https://www.gstatic.com/android-search/hotword/okgoogle/S8zeg5gN1LsSFXVT4_iblQ/hotword.data
+https://www.gstatic.com/android-search/hotword/okgoogle/yF58f5Q7Gl0R0XVN3yIFHg/hotword.data
+https://www.gstatic.com/android-search/hotword/okgoogle/364856a986661fd24a75968e00a2118f/hotword.data
+https://www.gstatic.com/android-search/hotword/okgoogle/18b22498c1f27ad68110dc5c548d46e2/hotword.data
+https://www.gstatic.com/android-search/hotword/okgoogle/d98f01ef895d86d44d00697733b233c9/hotword.data
+https://www.gstatic.com/android-search/hotword/okgoogle/-IK1dVLF2I6RGW3nheXa4Q/hotword.data
+https://www.gstatic.com/android-search/hotword/okgoogle/4ESUlj0HRHAUlyuECwH6xQ/hotword.data
+https://www.gstatic.com/android-search/hotword/okgoogle/5c5f6deca4865258bad0871b5728554c/hotword.data
+https://www.gstatic.com/android-search/hotword/okgoogle/e3340d91c3deffe992402a2de28e2665/hotword.data
+https://www.gstatic.com/android-search/hotword/okgoogle/cJPv3p14FvaE6kMh1UjY-g/hotword.data
+https://www.gstatic.com/android-search/hotword/okgoogle/uwmVRTrBOBC3r64WIgdTUQ/hotword.data
+https://www.gstatic.com/android-search/hotword/okgoogle/ZKXiZHD3FDOJPMThW5strw/hotword.data
+https://www.gstatic.com/android-search/hotword/okgoogle/0559ba7321397cd7f7a5a1ae85d25681/hotword.data
+https://www.gstatic.com/android-search/hotword/okgoogle/838d30f0e485058558d9b7ddeb09e2ae/hotword.data
+https://www.gstatic.com/android-search/hotword/okgoogle/d30eaf80eecba65b28ab9d197652262a/hotword.data
+https://www.gstatic.com/android-search/hotword/okgoogle/376f62655eb0a86ac764725d67672c05/hotword.data
+https://www.gstatic.com/android-search/hotword/okgoogle/rUTTMaeBt6YkxO4hSE__Xw/hotword.data
+https://www.gstatic.com/android-search/hotword/okgoogle/b051c93dce7bb4dcb5d9ddcbbb2ca760/hotword.data
+https://www.gstatic.com/android-search/hotword/okgoogle/LSnpvzU0d4fwEyurQWCrw/hotword.data
+https://www.gstatic.com/android-search/hotword/okgoogle/825c2bbcc55a46f18abd97dfb47f6987/hotword.data
+https://www.gstatic.com/android-search/hotword/okgoogle/bf186bcb1b6401454110d5dcfc4a9d18/hotword.data
+https://www.gstatic.com/android-search/hotword/okgoogle/3c6deeb3e18e540c211d2c4c3cd2199b/hotword.data
+https://www.gstatic.com/android-search/hotword/okgoogle/c7221d4a909b722d8de65311e41a5e86/hotword.data
+https://www.gstatic.com/android-search/hotword/okgoogle/0d1511898edc069ec020b30c1ec90556/hotword.data
+https://lh3.googleusercontent.com/-UEPl48qJmSo/AAAAAAAAAAI/AAAAAAAAABQ/dOACo6F94o4/s36-p-k-rw-no/photo.jpg
+https://support.google.com/headphones
+https://support.google.com/headphones
+https://support.google.com/headphones/?p=basic_controls
+http://g.co/pixelbuds/SafetyInfo
+https://www.gstatic.com/bisto/oobe/b10/header-173145-apollo-black.png
+https://www.gstatic.com/bisto/oobe/b10/header-369012-apollo-denim.png
+https://www.gstatic.com/bisto/oobe/b10/header-473082-apollo-white.png
+https://support.google.com/googlepixelbuds/?p=index
+https://support.google.com/googlepixelbuds
+https://support.google.com/googlepixelbuds
+https://support.google.com/googlepixelbuds
+https://myactivity.google.com/product/assistant/embed?utm_source=opa&utm_medium=er&utm_campaign=
+https://myactivity.google.com/product/assistant/embed?utm_source=opa&utm_medium=er&utm_campaign=
+https://assistant.google.com/explore/
+http://www.npr.org/donations/1A?utm_source=googlepodcasts&utm_medium=app&utm_campaign=googlepoddonate
+http://www.npr.org/donations/allsongs?utm_source=googlepodcasts&utm_medium=app&utm_campaign=googlepoddonate
+http://www.npr.org/donations/alt?utm_source=googlepodcasts&utm_medium=app&utm_campaign=googlepoddonate
+http://www.npr.org/donations/AMA?utm_source=googlepodcasts&utm_medium=app&utm_campaign=googlepoddonate
+http://www.npr.org/donations/bullseye?utm_source=googlepodcasts&utm_medium=app&utm_campaign=googlepoddonate
+http://www.npr.org/donations/cartalk?utm_source=googlepodcasts&utm_medium=app&utm_campaign=googlepoddonate
+http://www.npr.org/donations/codeswitch?utm_source=googlepodcasts&utm_medium=app&utm_campaign=googlepoddonate
+http://www.npr.org/donations/embedded?utm_source=googlepodcasts&utm_medium=app&utm_campaign=googlepoddonate
+http://www.npr.org/donations/freshair?utm_source=googlepodcasts&utm_medium=app&utm_campaign=googlepoddonate
+http://www.npr.org/donations/here?utm_source=googlepodcasts&utm_medium=app&utm_campaign=googlepoddonate
+http://www.npr.org/donations/hiddenbrain?utm_source=googlepodcasts&utm_medium=app&utm_campaign=googlepoddonate
+http://www.npr.org/donations/built?utm_source=googlepodcasts&utm_medium=app&utm_campaign=googlepoddonate
+http://www.npr.org/donations/indicator?utm_source=googlepodcasts&utm_medium=app&utm_campaign=googlepoddonate
+http://www.npr.org/donations/invisibilia?utm_source=googlepodcasts&utm_medium=app&utm_campaign=googlepoddonate
+http://www.npr.org/donations/sam?utm_source=googlepodcasts&utm_medium=app&utm_campaign=googlepoddonate
+http://www.npr.org/donations/latino?utm_source=googlepodcasts&utm_medium=app&utm_campaign=googlepoddonate
+http://www.npr.org/donations/news?utm_source=googlepodcasts&utm_medium=app&utm_campaign=googlepoddonate
+http://www.npr.org/donations/politics?utm_source=googlepodcasts&utm_medium=app&utm_campaign=googlepoddonate
+http://www.npr.org/donations/onpoint?utm_source=googlepodcasts&utm_medium=app&utm_campaign=googlepoddonate
+http://www.npr.org/donations/game?utm_source=googlepodcasts&utm_medium=app&utm_campaign=googlepoddonate
+http://www.npr.org/donations/planetmoney?utm_source=googlepodcasts&utm_medium=app&utm_campaign=googlepoddonate
+http://www.npr.org/donations/happy?utm_source=googlepodcasts&utm_medium=app&utm_campaign=googlepoddonate
+http://www.npr.org/donations/radioambulante?utm_source=googlepodcasts&utm_medium=app&utm_campaign=googlepoddonate
+http://www.npr.org/donations/translation?utm_source=googlepodcasts&utm_medium=app&utm_campaign=googlepoddonate
+http://www.npr.org/donations/story?utm_source=googlepodcasts&utm_medium=app&utm_campaign=googlepoddonate
+http://www.npr.org/donations/TedRadio?utm_source=googlepodcasts&utm_medium=app&utm_campaign=googlepoddonate
+http://www.npr.org/donations/listen?utm_source=googlepodcasts&utm_medium=app&utm_campaign=googlepoddonate
+http://www.npr.org/donations/upfirst?utm_source=googlepodcasts&utm_medium=app&utm_campaign=googlepoddonate
+http://www.npr.org/donations/wait?utm_source=googlepodcasts&utm_medium=app&utm_campaign=googlepoddonate
+http://www.npr.org/donations/whatsgood?utm_source=googlepodcasts&utm_medium=app&utm_campaign=googlepoddonate
+http://www.npr.org/donations/wow?utm_source=googlepodcasts&utm_medium=app&utm_campaign=googlepoddonate
+http://commitchange.com/nonprofits/4341/donate?offsite=t&custom_amounts=10,20,30,70,100,200,1000&designation=The%20Truth&utm_campaign=googlepoddonate
+http://commitchange.com/nonprofits/4341/donate?offsite=t&custom_amounts=10,20,30,70,100,200,1000&designation=Criminal&utm_campaign=googlepoddonate
+http://commitchange.com/nonprofits/4341/donate?designation=99%25%20Invisible&utm_campaign=googlepoddonate
+http://commitchange.com/nonprofits/4341/donate?offsite=t&custom_amounts=10,20,30,70,100,200,1000&designation=Ear%20Hustle&utm_campaign=googlepoddonate
+http://commitchange.com/nonprofits/4341/donate?offsite=t&custom_amounts=10,20,30,70,100,200,1000&designation=The%20Allusionist&utm_campaign=googlepoddonate
+http://commitchange.com/nonprofits/4341/donate?offsite=t&custom_amounts=10,20,30,70,100,200,1000&designation=The%20Bugle&utm_campaign=googlepoddonate
+http://commitchange.com/nonprofits/4341/donate?offsite=t&custom_amounts=10,20,30,70,100,200,1000&designation=Love%20and%20Radio&utm_campaign=googlepoddonate
+http://commitchange.com/nonprofits/4341/donate?offsite=t&custom_amounts=10,20,30,70,100,200,1000&designation=The%20Memory%20Palace&utm_campaign=googlepoddonate
+http://commitchange.com/nonprofits/4341/donate?offsite=t&custom_amounts=10,20,30,70,100,200,1000&designation=Song%20Exploder&utm_campaign=googlepoddonate
+http://commitchange.com/nonprofits/4341/donate?offsite=t&custom_amounts=10,20,30,70,100,200,1000&designation=The%20West%20Wing%20Weekly&utm_campaign=googlepoddonate
+https://myactivity.google.com
+https://myactivity.google.com
+https://myactivity.google.com
+https://myactivity.google.com
+https://ssl.gstatic.com/images/icons/material/apps/weather/1x/not_available_light_color_32dp.png
+https://ssl.gstatic.com/images/icons/material/apps/weather/1x/not_available_light_color_48dp.png
+https://ssl.gstatic.com/images/icons/material/apps/weather/1x/not_available_light_color_64dp.png
+https://ssl.gstatic.com/images/icons/material/apps/weather/1x/not_available_light_color_96dp.png
+https://ssl.gstatic.com/images/icons/material/apps/weather/2x/not_available_light_color_64dp.png
+https://ssl.gstatic.com/images/icons/material/apps/weather/2x/not_available_light_color_96dp.png
+http://maps.google.com/maps?q=%1$s
+https://support.google.com/websearch?p=contact_relationships
+http://maps.google.com/maps/place
+http://maps.google.com/
+https://www.gstatic.com/bisto/oobe/b10/apollo-black-highres.png
+https://www.gstatic.com/bisto/oobe/b10/mp-987368-apollo-denim-highres.png
+https://www.gstatic.com/bisto/oobe/b10/mp-729939-apollo-white-highres.png
+https://android.googleapis.com/tg/fe
+http://maps.gstatic.com/mapfiles/transit/iw2/8/walk.png
+https://www.gstatic.com/googlenow/cards
+https://www.gstatic.com/googlenow/cards
+https://www.gstatic.com/images/icons/material
+https://www.google.com/history/settings
+https://mail.google.com/mail?extsrc=sync&client=h&plid=
+http://schema.org/CompletedActionStatus
+http://schema.org/FailedActionStatus
+https://play.google.com/store/apps/details?id=%1$s&rdid=%1$s&rdot=%2$d
+https://support.google.com/websearch?p=chrome_custom_tabs
+https://play.google.com/store/apps/details?id=com.google.android.googlequicksearchbox&referrer=utm_source%3Dgoogle%26utm_campaign%3Dupdate_awareness
+https://support.google.com/websearch/answer/7384753
+https://www.google.com/maps/search/
+https://www.google.com/maps/dir/?api=1&destination=%s,%s
+https://www.google.com/s2/favicons?sz=48&domain_url=
+http://www.gstatic.com/bisto/device_customization/%08x/dev.pb
+http://www.gstatic.com/bisto/device_customization/%08x/info.pb
+https://www.gstatic.com/bisto/oobe/b10/fit/index.html
+https://www.gstatic.com/bisto/oobe/b10/fit/index.html
+https://www.gstatic.com/bisto/oobe/hear_notifs/index.html
+https://www.gstatic.com/bisto/oobe/hear_notifs/index.html
+https://www.gstatic.com/bisto/oobe/b10/sleep_mode/index.html
+https://www.gstatic.com/bisto/oobe/b10/sleep_mode/index.html
+https://www.gstatic.com/bisto/oobe/b10/talk_to_assistant/index.html
+https://www.gstatic.com/bisto/oobe/b10/talk_to_assistant/index.html
+https://www.gstatic.com/bisto/oobe/talk_to_assistant/index.html
+https://www.gstatic.com/bisto/oobe/talk_to_assistant/index.html
+https://www.gstatic.com/bisto/oobe/000000ff/oobe.html
+https://www.gstatic.com/bisto/oobe/000000ff/fit.html
+https://www.googleapis.com/auth/webhistory
+https://www.googleapis.com/auth/webhistory
+https://ssl.gstatic.com/onebox/sports/soccer_timeline/soccer-ball-retina.png
+https://www.googleapis.com/reauth/v1beta/users/%user_id%/reauthProofTokens
+https://www.googleapis.com/reauth/v1beta/users/%user_id%/reauthProofTokens
+http://maps.gstatic.com/tactile/directions/cards/arrow-right-2x.png
+https://myactivity.google.com/product/assistant/embed
+https://support.google.com/assistant/?p=google_partners
+https://support.google.com/assistant/?p=reset_id
+https://support.google.com/assistant/?p=google_lens_donate
+https://www.google.com/intl/%s/policies/terms/
+https://www.google.com/intl/%s/policies/terms/
+https://www.google.com/intl/%s/policies/privacy/
+https://www.google.com/intl/%s/policies/privacy/
+https://www.gstatic.com/images/icons/material/system/2x/domain_grey600_48dp.png
+https://www.gstatic.com/images/icons/material/system/2x/https_grey600_48dp.png
+https://google.com/maps/photometa/v1
+https://ssl.gstatic.com/chromecast/home/weather/condition_icons/clear.png
+https://www.gstatic.com/images/icons/material/apps/weather/2x/sunny_dark_color_96dp.png
+https://ssl.gstatic.com/chromecast/home/weather/condition_icons/cloudy.png
+https://www.gstatic.com/images/icons/material/apps/weather/2x/cloudy_dark_color_96dp.png
+https://ssl.gstatic.com/chromecast/home/weather/condition_icons/haze_dust_snow_fog_etc.png
+https://www.gstatic.com/images/icons/material/apps/weather/2x/haze_fog_dust_smoke_dark_color_96dp.png
+https://ssl.gstatic.com/chromecast/home/weather/condition_icons/partially_cloudy.png
+https://www.gstatic.com/images/icons/material/apps/weather/2x/partly_cloudy_dark_color_96dp.png
+https://ssl.gstatic.com/chromecast/home/weather/condition_icons/rain.png
+https://www.gstatic.com/images/icons/material/apps/weather/2x/heavy_rain_dark_color_96dp.png
+https://ssl.gstatic.com/chromecast/home/weather/condition_icons/snow.png
+https://www.gstatic.com/images/icons/material/apps/weather/2x/heavy_snow_dark_color_96dp.png
+https://ssl.gstatic.com/chromecast/home/weather/condition_icons/thunderstorm.png
+https://www.gstatic.com/images/icons/material/apps/weather/2x/strong_tstorms_dark_color_96dp.png
+https://ssl.gstatic.com/chromecast/home/weather/condition_icons/windy.png
+https://www.gstatic.com/images/icons/material/apps/weather/2x/windy_breezy_dark_color_96dp.png
+https://storage.googleapis.com/staging.quartz-156515.appspot.com/chirp_active.png
+https://storage.googleapis.com/staging.quartz-156515.appspot.com/assistant_connected.png
+https://ssl.gstatic.com/assistant-visuals/static/weather/hot.webm
+https://ssl.gstatic.com/assistant-visuals/static/weather/rain.webm
+https://ssl.gstatic.com/assistant-visuals/static/weather/snow.webm
+https://ssl.gstatic.com/assistant-visuals/static/weather/sunny.webm
+https://www.googleapis.com/youtube/v3/playlistItems?part=contentDetails&maxResults=1&key=AIzaSyDVnIvX76kibsBvpPBINVleuJc1jcUOZkM&playlistId=
+https://www.gstatic.com/bisto/oobe/b10/cord_wrap/index.html
+https://www.gstatic.com/android_search/partnertab/%s/logo.png
+https://www.gstatic.com/quartz/broadcast/animations/CANNED_DINNER/data.json
+https://www.gstatic.com/quartz/broadcast/animations/
+https://lh3.googleusercontent.com/a/default-user
+https://www.google.com/intl/en/googlefinance/disclaimer/
+https://mail.google.com/mail
+http://translate.google.com/m/translate
+https://www.gstatic.com/images/icons/material/system/2x/share_googblue_48dp.png
+https://www.gstatic.com/images/icons/material/system/2x/drive_keep_googblue_48dp.png
+https://www.google.com/?exprollouts=ActiveDoodle.DebugInteractive:true&fpdoodle=1
+https://www.google.com/search?q=
+https://www.google.com/search?q=
+https://support.google.com/mobile/?hl=%locale%
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+http://www.google-analytics.com
+https://ssl.google-analytics.com
+https://plus.google.com/
+https://www.googletagmanager.com
+http://hostname/?
+https://www.googleapis.com/auth/myphonenumbers
+https://myphonenumbers-pa.googleapis.com
+https://oauthintegrations.googleapis.com:443
+https://www.googleapis.com/auth/oauth_integrations
+http://www.example.com
+http://www.example.com
+https://clients4.google.com/insights/consumersurveys/gk/prompt
+https://keep.google.com/?reminder=
+http://play.google.com/store/apps/details
+https://www.google.com/policies/privacy/
+http://www.w3.org/ns/ttml#parameter
+http://www.w3.org/ns/ttml#parameter
+https://imasdk.googleapis.com/native/sdkloader/native_sdk_v3.html
+https://imasdk.googleapis.com/native/sdkloader/native_sdk_v3_debug.html
+http://www.dom.com/path?
+
+[INTERNAL_LOG][2018-06-12 00:29:20,942][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 00:29:20,969][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 00:29:20,969][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 00:29:20,969][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 00:29:20,969][INFO][analyze_start()] End time:[Tue Jun 12 00:29:20 2018]

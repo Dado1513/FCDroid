@@ -1,0 +1,84 @@
+[INTERNAL_LOG][2018-06-12 07:21:57,115][INFO][analyze_start()] Init Time [Tue Jun 12 07:21:57 2018]
+[INTERNAL_LOG][2018-06-12 07:21:57,283][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 07:21:57,284][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 07:21:57,285][INFO][is_hybird()] com.playtika.wsop.gp.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-12 07:21:57,285][INFO][is_hybird()] com.playtika.wsop.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-12 07:21:57,285][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 07:21:57,285][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 07:21:57,285][INFO][is_hybird()] com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+[INTERNAL_LOG][2018-06-12 07:21:57,285][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 07:21:57,285][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-12 07:21:57,285][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-12 07:21:57,285][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 07:21:57,285][INFO][is_hybird()] android.permission.CHANGE_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 07:21:57,285][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-12 07:21:57,285][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 07:21:57,285][INFO][is_hybird()] com.android.vending.CHECK_LICENSE
+[INTERNAL_LOG][2018-06-12 07:21:57,285][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 07:21:57,285][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 07:21:57,285][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 07:21:57,285][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 07:21:57,286][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 07:21:57,286][INFO][find_string()] File: assets/appboy-html-in-app-message-javascript-component.js
+[INTERNAL_LOG][2018-06-12 07:21:57,286][INFO][find_string()] No iframe in assets/appboy-html-in-app-message-javascript-component.js
+[INTERNAL_LOG][2018-06-12 07:21:57,286][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 07:22:18,320][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 07:22:18,320][INFO][find_url_in_apk()] http://schemas.android.com/apk/res/android
+https://appboy.data.placeiq.com/dataex/id/
+https://sondheim.appboy.com/api/v3/
+https://dev.appboy.com/api/v3/
+http://www.amazon.com/gp/mas/dl/android?asin=
+https://play.google.com/store/apps/details?id=
+https://api.%s/install_data/v3/
+https://attr.%s/api/v
+https://t.%s/api/v
+https://events.%s/api/v
+https://register.%s/api/v
+https://stats.%s/stats
+https://onelink.%s/shortlink-sdk/v1
+https://onelink.%s/shortlink-sdk/v1
+https://validate.%s/api/v
+https://sdk-services.%s/validate-android-signature
+https://app.%s
+https://app.%s
+https://impression.%s
+https://monitorsdk.%s/remote-debug?app_id=
+https://graph.%s
+https://graph-video.%s
+https://facebook.com
+http://play.google.com/store/apps/details?id=com.facebook.orca
+http://www.google-analytics.com/collect
+http://www.google-analytics.com/collect
+https://ssl.google-analytics.com/collect
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+http://hostname/?
+http://hostname/?
+http://hostname/?
+https://www.googleapis.com/auth/games
+https://plus.google.com/
+http://www.google-analytics.com
+https://ssl.google-analytics.com
+https://www.googletagmanager.com
+https://www.googletagmanager.com
+https://sdk.hockeyapp.net/
+https://sdk.hockeyapp.net/
+https://sdk.hockeyapp.net/
+https://sdk.hockeyapp.net/
+https://sdk.hockeyapp.net/
+https://sdk.hockeyapp.net/
+https://sdk.hockeyapp.net/
+https://sdk.hockeyapp.net/
+https://sdk.hockeyapp.net/
+https://sdk.hockeyapp.net/
+
+[INTERNAL_LOG][2018-06-12 07:22:18,320][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 07:22:18,326][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 07:22:18,326][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 07:22:18,326][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 07:22:18,326][INFO][analyze_start()] End time:[Tue Jun 12 07:22:18 2018]

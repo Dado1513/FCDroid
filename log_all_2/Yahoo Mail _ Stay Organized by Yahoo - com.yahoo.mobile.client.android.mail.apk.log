@@ -1,0 +1,441 @@
+[INTERNAL_LOG][2018-06-12 06:09:41,751][INFO][analyze_start()] Init Time [Tue Jun 12 06:09:41 2018]
+[INTERNAL_LOG][2018-06-12 06:09:41,833][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 06:09:41,834][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 06:09:41,834][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 06:09:41,835][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 06:09:41,835][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 06:09:41,835][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-12 06:09:41,835][INFO][is_hybird()] com.yahoo.mobile.client.android.mail.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-12 06:09:41,835][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 06:09:41,835][INFO][is_hybird()] android.permission.ACCESS_COARSE_LOCATION
+[INTERNAL_LOG][2018-06-12 06:09:41,835][INFO][is_hybird()] android.permission.AUTHENTICATE_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 06:09:41,835][INFO][is_hybird()] android.permission.READ_SYNC_SETTINGS
+[INTERNAL_LOG][2018-06-12 06:09:41,835][INFO][is_hybird()] android.permission.WRITE_SYNC_SETTINGS
+[INTERNAL_LOG][2018-06-12 06:09:41,835][INFO][is_hybird()] android.permission.ACCESS_FINE_LOCATION
+[INTERNAL_LOG][2018-06-12 06:09:41,835][INFO][is_hybird()] android.permission.WRITE_CONTACTS
+[INTERNAL_LOG][2018-06-12 06:09:41,835][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-12 06:09:41,835][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 06:09:41,835][INFO][is_hybird()] com.yahoo.mobile.client.android.permissions.YAHOO_INTER_APP
+[INTERNAL_LOG][2018-06-12 06:09:41,835][INFO][is_hybird()] android.permission.READ_CONTACTS
+[INTERNAL_LOG][2018-06-12 06:09:41,835][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 06:09:41,835][INFO][is_hybird()] android.permission.READ_SYNC_STATS
+[INTERNAL_LOG][2018-06-12 06:09:41,835][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-12 06:09:41,835][INFO][is_hybird()] android.permission.USE_CREDENTIALS
+[INTERNAL_LOG][2018-06-12 06:09:41,835][INFO][is_hybird()] android.permission.MANAGE_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 06:09:41,835][INFO][is_hybird()] com.yahoo.mobile.client.android.mail.permission.RECEIVE_ADM_MESSAGE
+[INTERNAL_LOG][2018-06-12 06:09:41,835][INFO][is_hybird()] com.amazon.device.messaging.permission.RECEIVE
+[INTERNAL_LOG][2018-06-12 06:09:41,836][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 06:09:41,836][INFO][is_hybird()] android.permission.RECEIVE_BOOT_COMPLETED
+[INTERNAL_LOG][2018-06-12 06:09:41,836][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 06:09:41,836][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 06:09:41,836][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 06:09:41,836][INFO][find_string()] File: assets/credits/credits.html
+[INTERNAL_LOG][2018-06-12 06:09:41,887][INFO][find_string()] No iframe in assets/credits/credits.html
+[INTERNAL_LOG][2018-06-12 06:09:41,887][INFO][find_string()] File: assets/docspad/docViewer.html
+[INTERNAL_LOG][2018-06-12 06:09:41,888][INFO][find_string()] No iframe in assets/docspad/docViewer.html
+[INTERNAL_LOG][2018-06-12 06:09:41,888][INFO][find_string()] File: assets/message_composer/composer.html
+[INTERNAL_LOG][2018-06-12 06:09:41,894][INFO][find_string()] No iframe in assets/message_composer/composer.html
+[INTERNAL_LOG][2018-06-12 06:09:41,894][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 06:09:41,894][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 06:09:41,894][INFO][find_string()] File: assets/common/js/ImagesController.js
+[INTERNAL_LOG][2018-06-12 06:09:41,895][INFO][find_string()] No iframe in assets/common/js/ImagesController.js
+[INTERNAL_LOG][2018-06-12 06:09:41,895][INFO][find_string()] File: assets/common/js/ImgViewController.js
+[INTERNAL_LOG][2018-06-12 06:09:41,896][INFO][find_string()] No iframe in assets/common/js/ImgViewController.js
+[INTERNAL_LOG][2018-06-12 06:09:41,896][INFO][find_string()] File: assets/common/js/ViewController.js
+[INTERNAL_LOG][2018-06-12 06:09:41,897][INFO][find_string()] No iframe in assets/common/js/ViewController.js
+[INTERNAL_LOG][2018-06-12 06:09:41,897][INFO][find_string()] File: assets/common/js/constants.js
+[INTERNAL_LOG][2018-06-12 06:09:41,898][INFO][find_string()] No iframe in assets/common/js/constants.js
+[INTERNAL_LOG][2018-06-12 06:09:41,898][INFO][find_string()] File: assets/common/js/documentEventBridge.js
+[INTERNAL_LOG][2018-06-12 06:09:41,898][INFO][find_string()] No iframe in assets/common/js/documentEventBridge.js
+[INTERNAL_LOG][2018-06-12 06:09:41,898][INFO][find_string()] File: assets/common/js/log.js
+[INTERNAL_LOG][2018-06-12 06:09:41,899][INFO][find_string()] No iframe in assets/common/js/log.js
+[INTERNAL_LOG][2018-06-12 06:09:41,899][INFO][find_string()] File: assets/common/js/map.js
+[INTERNAL_LOG][2018-06-12 06:09:41,899][INFO][find_string()] No iframe in assets/common/js/map.js
+[INTERNAL_LOG][2018-06-12 06:09:41,899][INFO][find_string()] File: assets/common/js/mustache.js
+[INTERNAL_LOG][2018-06-12 06:09:41,901][INFO][find_string()] No iframe in assets/common/js/mustache.js
+[INTERNAL_LOG][2018-06-12 06:09:41,901][INFO][find_string()] File: assets/common/js/polyfill.js
+[INTERNAL_LOG][2018-06-12 06:09:41,901][INFO][find_string()] No iframe in assets/common/js/polyfill.js
+[INTERNAL_LOG][2018-06-12 06:09:41,901][INFO][find_string()] File: assets/common/js/tracking.js
+[INTERNAL_LOG][2018-06-12 06:09:41,902][INFO][find_string()] No iframe in assets/common/js/tracking.js
+[INTERNAL_LOG][2018-06-12 06:09:41,902][INFO][find_string()] File: assets/common/js/utils.js
+[INTERNAL_LOG][2018-06-12 06:09:41,903][INFO][find_string()] No iframe in assets/common/js/utils.js
+[INTERNAL_LOG][2018-06-12 06:09:41,903][INFO][find_string()] File: assets/conversations/js/conversationJavascriptInterface.js
+[INTERNAL_LOG][2018-06-12 06:09:41,904][INFO][find_string()] No iframe in assets/conversations/js/conversationJavascriptInterface.js
+[INTERNAL_LOG][2018-06-12 06:09:41,904][INFO][find_string()] File: assets/conversations/js/formController.js
+[INTERNAL_LOG][2018-06-12 06:09:41,905][INFO][find_string()] No iframe in assets/conversations/js/formController.js
+[INTERNAL_LOG][2018-06-12 06:09:41,905][INFO][find_string()] File: assets/conversations/js/messageFormatter.js
+[INTERNAL_LOG][2018-06-12 06:09:41,906][INFO][find_string()] No iframe in assets/conversations/js/messageFormatter.js
+[INTERNAL_LOG][2018-06-12 06:09:41,906][INFO][find_string()] File: assets/docspad/DocViewer.js
+[INTERNAL_LOG][2018-06-12 06:09:41,909][INFO][find_string()] No iframe in assets/docspad/DocViewer.js
+[INTERNAL_LOG][2018-06-12 06:09:41,909][INFO][find_string()] File: assets/docspad/FetchUtils.js
+[INTERNAL_LOG][2018-06-12 06:09:41,911][INFO][find_string()] No iframe in assets/docspad/FetchUtils.js
+[INTERNAL_LOG][2018-06-12 06:09:41,911][INFO][find_string()] File: assets/docspad/IO.js
+[INTERNAL_LOG][2018-06-12 06:09:41,911][INFO][find_string()] No iframe in assets/docspad/IO.js
+[INTERNAL_LOG][2018-06-12 06:09:41,912][INFO][find_string()] File: assets/docspad/NativeNotifier.js
+[INTERNAL_LOG][2018-06-12 06:09:41,912][INFO][find_string()] No iframe in assets/docspad/NativeNotifier.js
+[INTERNAL_LOG][2018-06-12 06:09:41,912][INFO][find_string()] File: assets/docspad/android/custom.js
+[INTERNAL_LOG][2018-06-12 06:09:41,913][INFO][find_string()] No iframe in assets/docspad/android/custom.js
+[INTERNAL_LOG][2018-06-12 06:09:41,913][INFO][find_string()] File: assets/docspad/android/initializer.js
+[INTERNAL_LOG][2018-06-12 06:09:41,913][INFO][find_string()] No iframe in assets/docspad/android/initializer.js
+[INTERNAL_LOG][2018-06-12 06:09:41,914][INFO][find_string()] File: assets/docspad/initializer.js
+[INTERNAL_LOG][2018-06-12 06:09:41,914][INFO][find_string()] No iframe in assets/docspad/initializer.js
+[INTERNAL_LOG][2018-06-12 06:09:41,914][INFO][find_string()] File: assets/docspad/strings/strings.js
+[INTERNAL_LOG][2018-06-12 06:09:41,915][INFO][find_string()] No iframe in assets/docspad/strings/strings.js
+[INTERNAL_LOG][2018-06-12 06:09:41,915][INFO][find_string()] File: assets/docspad/strings/strings_ar-JO.js
+[INTERNAL_LOG][2018-06-12 06:09:41,916][INFO][find_string()] No iframe in assets/docspad/strings/strings_ar-JO.js
+[INTERNAL_LOG][2018-06-12 06:09:41,916][INFO][find_string()] File: assets/docspad/strings/strings_bg-BG.js
+[INTERNAL_LOG][2018-06-12 06:09:41,917][INFO][find_string()] No iframe in assets/docspad/strings/strings_bg-BG.js
+[INTERNAL_LOG][2018-06-12 06:09:41,917][INFO][find_string()] File: assets/docspad/strings/strings_bn-BD.js
+[INTERNAL_LOG][2018-06-12 06:09:41,918][INFO][find_string()] No iframe in assets/docspad/strings/strings_bn-BD.js
+[INTERNAL_LOG][2018-06-12 06:09:41,918][INFO][find_string()] File: assets/docspad/strings/strings_bn-IN.js
+[INTERNAL_LOG][2018-06-12 06:09:41,919][INFO][find_string()] No iframe in assets/docspad/strings/strings_bn-IN.js
+[INTERNAL_LOG][2018-06-12 06:09:41,919][INFO][find_string()] File: assets/docspad/strings/strings_cs-CZ.js
+[INTERNAL_LOG][2018-06-12 06:09:41,920][INFO][find_string()] No iframe in assets/docspad/strings/strings_cs-CZ.js
+[INTERNAL_LOG][2018-06-12 06:09:41,920][INFO][find_string()] File: assets/docspad/strings/strings_da-DK.js
+[INTERNAL_LOG][2018-06-12 06:09:41,920][INFO][find_string()] No iframe in assets/docspad/strings/strings_da-DK.js
+[INTERNAL_LOG][2018-06-12 06:09:41,920][INFO][find_string()] File: assets/docspad/strings/strings_de-AT.js
+[INTERNAL_LOG][2018-06-12 06:09:41,921][INFO][find_string()] No iframe in assets/docspad/strings/strings_de-AT.js
+[INTERNAL_LOG][2018-06-12 06:09:41,921][INFO][find_string()] File: assets/docspad/strings/strings_de-CH.js
+[INTERNAL_LOG][2018-06-12 06:09:41,922][INFO][find_string()] No iframe in assets/docspad/strings/strings_de-CH.js
+[INTERNAL_LOG][2018-06-12 06:09:41,922][INFO][find_string()] File: assets/docspad/strings/strings_de-DE.js
+[INTERNAL_LOG][2018-06-12 06:09:41,923][INFO][find_string()] No iframe in assets/docspad/strings/strings_de-DE.js
+[INTERNAL_LOG][2018-06-12 06:09:41,923][INFO][find_string()] File: assets/docspad/strings/strings_el-GR.js
+[INTERNAL_LOG][2018-06-12 06:09:41,924][INFO][find_string()] No iframe in assets/docspad/strings/strings_el-GR.js
+[INTERNAL_LOG][2018-06-12 06:09:41,924][INFO][find_string()] File: assets/docspad/strings/strings_en-035.js
+[INTERNAL_LOG][2018-06-12 06:09:41,925][INFO][find_string()] No iframe in assets/docspad/strings/strings_en-035.js
+[INTERNAL_LOG][2018-06-12 06:09:41,925][INFO][find_string()] File: assets/docspad/strings/strings_en-AU.js
+[INTERNAL_LOG][2018-06-12 06:09:41,926][INFO][find_string()] No iframe in assets/docspad/strings/strings_en-AU.js
+[INTERNAL_LOG][2018-06-12 06:09:41,926][INFO][find_string()] File: assets/docspad/strings/strings_en-CA-x-rogers.js
+[INTERNAL_LOG][2018-06-12 06:09:41,927][INFO][find_string()] No iframe in assets/docspad/strings/strings_en-CA-x-rogers.js
+[INTERNAL_LOG][2018-06-12 06:09:41,927][INFO][find_string()] File: assets/docspad/strings/strings_en-CA.js
+[INTERNAL_LOG][2018-06-12 06:09:41,928][INFO][find_string()] No iframe in assets/docspad/strings/strings_en-CA.js
+[INTERNAL_LOG][2018-06-12 06:09:41,928][INFO][find_string()] File: assets/docspad/strings/strings_en-GB-x-bt.js
+[INTERNAL_LOG][2018-06-12 06:09:41,929][INFO][find_string()] No iframe in assets/docspad/strings/strings_en-GB-x-bt.js
+[INTERNAL_LOG][2018-06-12 06:09:41,929][INFO][find_string()] File: assets/docspad/strings/strings_en-GB-x-sky.js
+[INTERNAL_LOG][2018-06-12 06:09:41,930][INFO][find_string()] No iframe in assets/docspad/strings/strings_en-GB-x-sky.js
+[INTERNAL_LOG][2018-06-12 06:09:41,930][INFO][find_string()] File: assets/docspad/strings/strings_en-GB.js
+[INTERNAL_LOG][2018-06-12 06:09:41,931][INFO][find_string()] No iframe in assets/docspad/strings/strings_en-GB.js
+[INTERNAL_LOG][2018-06-12 06:09:41,931][INFO][find_string()] File: assets/docspad/strings/strings_en-IE.js
+[INTERNAL_LOG][2018-06-12 06:09:41,932][INFO][find_string()] No iframe in assets/docspad/strings/strings_en-IE.js
+[INTERNAL_LOG][2018-06-12 06:09:41,932][INFO][find_string()] File: assets/docspad/strings/strings_en-IN-x-mts.js
+[INTERNAL_LOG][2018-06-12 06:09:41,933][INFO][find_string()] No iframe in assets/docspad/strings/strings_en-IN-x-mts.js
+[INTERNAL_LOG][2018-06-12 06:09:41,933][INFO][find_string()] File: assets/docspad/strings/strings_en-IN.js
+[INTERNAL_LOG][2018-06-12 06:09:41,934][INFO][find_string()] No iframe in assets/docspad/strings/strings_en-IN.js
+[INTERNAL_LOG][2018-06-12 06:09:41,934][INFO][find_string()] File: assets/docspad/strings/strings_en-JO.js
+[INTERNAL_LOG][2018-06-12 06:09:41,935][INFO][find_string()] No iframe in assets/docspad/strings/strings_en-JO.js
+[INTERNAL_LOG][2018-06-12 06:09:41,935][INFO][find_string()] File: assets/docspad/strings/strings_en-MY.js
+[INTERNAL_LOG][2018-06-12 06:09:41,935][INFO][find_string()] No iframe in assets/docspad/strings/strings_en-MY.js
+[INTERNAL_LOG][2018-06-12 06:09:41,936][INFO][find_string()] File: assets/docspad/strings/strings_en-NZ-x-tnz.js
+[INTERNAL_LOG][2018-06-12 06:09:41,936][INFO][find_string()] No iframe in assets/docspad/strings/strings_en-NZ-x-tnz.js
+[INTERNAL_LOG][2018-06-12 06:09:41,936][INFO][find_string()] File: assets/docspad/strings/strings_en-NZ.js
+[INTERNAL_LOG][2018-06-12 06:09:41,937][INFO][find_string()] No iframe in assets/docspad/strings/strings_en-NZ.js
+[INTERNAL_LOG][2018-06-12 06:09:41,937][INFO][find_string()] File: assets/docspad/strings/strings_en-PH.js
+[INTERNAL_LOG][2018-06-12 06:09:41,938][INFO][find_string()] No iframe in assets/docspad/strings/strings_en-PH.js
+[INTERNAL_LOG][2018-06-12 06:09:41,938][INFO][find_string()] File: assets/docspad/strings/strings_en-SG.js
+[INTERNAL_LOG][2018-06-12 06:09:41,939][INFO][find_string()] No iframe in assets/docspad/strings/strings_en-SG.js
+[INTERNAL_LOG][2018-06-12 06:09:41,939][INFO][find_string()] File: assets/docspad/strings/strings_en-US-x-ftr.js
+[INTERNAL_LOG][2018-06-12 06:09:41,939][INFO][find_string()] No iframe in assets/docspad/strings/strings_en-US-x-ftr.js
+[INTERNAL_LOG][2018-06-12 06:09:41,940][INFO][find_string()] File: assets/docspad/strings/strings_en-US-x-sbc.js
+[INTERNAL_LOG][2018-06-12 06:09:41,941][INFO][find_string()] No iframe in assets/docspad/strings/strings_en-US-x-sbc.js
+[INTERNAL_LOG][2018-06-12 06:09:41,941][INFO][find_string()] File: assets/docspad/strings/strings_en-US-x-verizon.js
+[INTERNAL_LOG][2018-06-12 06:09:41,942][INFO][find_string()] No iframe in assets/docspad/strings/strings_en-US-x-verizon.js
+[INTERNAL_LOG][2018-06-12 06:09:41,942][INFO][find_string()] File: assets/docspad/strings/strings_en-US.js
+[INTERNAL_LOG][2018-06-12 06:09:41,943][INFO][find_string()] No iframe in assets/docspad/strings/strings_en-US.js
+[INTERNAL_LOG][2018-06-12 06:09:41,943][INFO][find_string()] File: assets/docspad/strings/strings_en-ZA.js
+[INTERNAL_LOG][2018-06-12 06:09:41,944][INFO][find_string()] No iframe in assets/docspad/strings/strings_en-ZA.js
+[INTERNAL_LOG][2018-06-12 06:09:41,944][INFO][find_string()] File: assets/docspad/strings/strings_es-AR.js
+[INTERNAL_LOG][2018-06-12 06:09:41,945][INFO][find_string()] No iframe in assets/docspad/strings/strings_es-AR.js
+[INTERNAL_LOG][2018-06-12 06:09:41,945][INFO][find_string()] File: assets/docspad/strings/strings_es-CL.js
+[INTERNAL_LOG][2018-06-12 06:09:41,945][INFO][find_string()] No iframe in assets/docspad/strings/strings_es-CL.js
+[INTERNAL_LOG][2018-06-12 06:09:41,945][INFO][find_string()] File: assets/docspad/strings/strings_es-CO.js
+[INTERNAL_LOG][2018-06-12 06:09:41,946][INFO][find_string()] No iframe in assets/docspad/strings/strings_es-CO.js
+[INTERNAL_LOG][2018-06-12 06:09:41,946][INFO][find_string()] File: assets/docspad/strings/strings_es-ES.js
+[INTERNAL_LOG][2018-06-12 06:09:41,947][INFO][find_string()] No iframe in assets/docspad/strings/strings_es-ES.js
+[INTERNAL_LOG][2018-06-12 06:09:41,947][INFO][find_string()] File: assets/docspad/strings/strings_es-MX.js
+[INTERNAL_LOG][2018-06-12 06:09:41,948][INFO][find_string()] No iframe in assets/docspad/strings/strings_es-MX.js
+[INTERNAL_LOG][2018-06-12 06:09:41,948][INFO][find_string()] File: assets/docspad/strings/strings_es-PE.js
+[INTERNAL_LOG][2018-06-12 06:09:41,948][INFO][find_string()] No iframe in assets/docspad/strings/strings_es-PE.js
+[INTERNAL_LOG][2018-06-12 06:09:41,949][INFO][find_string()] File: assets/docspad/strings/strings_es-US-x-sbc.js
+[INTERNAL_LOG][2018-06-12 06:09:42,046][INFO][find_string()] No iframe in assets/docspad/strings/strings_es-US-x-sbc.js
+[INTERNAL_LOG][2018-06-12 06:09:42,067][INFO][find_string()] File: assets/docspad/strings/strings_es-US.js
+[INTERNAL_LOG][2018-06-12 06:09:42,154][INFO][find_string()] No iframe in assets/docspad/strings/strings_es-US.js
+[INTERNAL_LOG][2018-06-12 06:09:42,175][INFO][find_string()] File: assets/docspad/strings/strings_es-VE.js
+[INTERNAL_LOG][2018-06-12 06:09:42,257][INFO][find_string()] No iframe in assets/docspad/strings/strings_es-VE.js
+[INTERNAL_LOG][2018-06-12 06:09:42,278][INFO][find_string()] File: assets/docspad/strings/strings_et-EE.js
+[INTERNAL_LOG][2018-06-12 06:09:42,376][INFO][find_string()] No iframe in assets/docspad/strings/strings_et-EE.js
+[INTERNAL_LOG][2018-06-12 06:09:42,396][INFO][find_string()] File: assets/docspad/strings/strings_fi-FI.js
+[INTERNAL_LOG][2018-06-12 06:09:42,494][INFO][find_string()] No iframe in assets/docspad/strings/strings_fi-FI.js
+[INTERNAL_LOG][2018-06-12 06:09:42,514][INFO][find_string()] File: assets/docspad/strings/strings_fil-PH.js
+[INTERNAL_LOG][2018-06-12 06:09:42,617][INFO][find_string()] No iframe in assets/docspad/strings/strings_fil-PH.js
+[INTERNAL_LOG][2018-06-12 06:09:42,638][INFO][find_string()] File: assets/docspad/strings/strings_fr-BE.js
+[INTERNAL_LOG][2018-06-12 06:09:42,716][INFO][find_string()] No iframe in assets/docspad/strings/strings_fr-BE.js
+[INTERNAL_LOG][2018-06-12 06:09:42,737][INFO][find_string()] File: assets/docspad/strings/strings_fr-CA-x-rogers.js
+[INTERNAL_LOG][2018-06-12 06:09:42,824][INFO][find_string()] No iframe in assets/docspad/strings/strings_fr-CA-x-rogers.js
+[INTERNAL_LOG][2018-06-12 06:09:42,845][INFO][find_string()] File: assets/docspad/strings/strings_fr-CA.js
+[INTERNAL_LOG][2018-06-12 06:09:42,866][INFO][find_string()] No iframe in assets/docspad/strings/strings_fr-CA.js
+[INTERNAL_LOG][2018-06-12 06:09:42,887][INFO][find_string()] File: assets/docspad/strings/strings_fr-CH.js
+[INTERNAL_LOG][2018-06-12 06:09:42,980][INFO][find_string()] No iframe in assets/docspad/strings/strings_fr-CH.js
+[INTERNAL_LOG][2018-06-12 06:09:43,000][INFO][find_string()] File: assets/docspad/strings/strings_fr-FR.js
+[INTERNAL_LOG][2018-06-12 06:09:43,088][INFO][find_string()] No iframe in assets/docspad/strings/strings_fr-FR.js
+[INTERNAL_LOG][2018-06-12 06:09:43,108][INFO][find_string()] File: assets/docspad/strings/strings_gu-IN.js
+[INTERNAL_LOG][2018-06-12 06:09:43,227][INFO][find_string()] No iframe in assets/docspad/strings/strings_gu-IN.js
+[INTERNAL_LOG][2018-06-12 06:09:43,248][INFO][find_string()] File: assets/docspad/strings/strings_he-IL.js
+[INTERNAL_LOG][2018-06-12 06:09:45,840][INFO][find_string()] No iframe in assets/docspad/strings/strings_he-IL.js
+[INTERNAL_LOG][2018-06-12 06:09:45,861][INFO][find_string()] File: assets/docspad/strings/strings_hi-IN.js
+[INTERNAL_LOG][2018-06-12 06:09:46,013][INFO][find_string()] No iframe in assets/docspad/strings/strings_hi-IN.js
+[INTERNAL_LOG][2018-06-12 06:09:46,033][INFO][find_string()] File: assets/docspad/strings/strings_hr-HR.js
+[INTERNAL_LOG][2018-06-12 06:09:46,070][INFO][find_string()] No iframe in assets/docspad/strings/strings_hr-HR.js
+[INTERNAL_LOG][2018-06-12 06:09:46,081][INFO][find_string()] File: assets/docspad/strings/strings_hu-HU.js
+[INTERNAL_LOG][2018-06-12 06:09:46,148][INFO][find_string()] No iframe in assets/docspad/strings/strings_hu-HU.js
+[INTERNAL_LOG][2018-06-12 06:09:46,170][INFO][find_string()] File: assets/docspad/strings/strings_id-ID.js
+[INTERNAL_LOG][2018-06-12 06:09:46,308][INFO][find_string()] No iframe in assets/docspad/strings/strings_id-ID.js
+[INTERNAL_LOG][2018-06-12 06:09:46,329][INFO][find_string()] File: assets/docspad/strings/strings_it-IT.js
+[INTERNAL_LOG][2018-06-12 06:09:46,432][INFO][find_string()] No iframe in assets/docspad/strings/strings_it-IT.js
+[INTERNAL_LOG][2018-06-12 06:09:46,452][INFO][find_string()] File: assets/docspad/strings/strings_ja-JP.js
+[INTERNAL_LOG][2018-06-12 06:09:46,632][INFO][find_string()] No iframe in assets/docspad/strings/strings_ja-JP.js
+[INTERNAL_LOG][2018-06-12 06:09:46,652][INFO][find_string()] File: assets/docspad/strings/strings_kn-IN.js
+[INTERNAL_LOG][2018-06-12 06:09:46,766][INFO][find_string()] No iframe in assets/docspad/strings/strings_kn-IN.js
+[INTERNAL_LOG][2018-06-12 06:09:46,787][INFO][find_string()] File: assets/docspad/strings/strings_ko-KR.js
+[INTERNAL_LOG][2018-06-12 06:09:46,972][INFO][find_string()] No iframe in assets/docspad/strings/strings_ko-KR.js
+[INTERNAL_LOG][2018-06-12 06:09:46,993][INFO][find_string()] File: assets/docspad/strings/strings_lt-LT.js
+[INTERNAL_LOG][2018-06-12 06:09:47,076][INFO][find_string()] No iframe in assets/docspad/strings/strings_lt-LT.js
+[INTERNAL_LOG][2018-06-12 06:09:47,096][INFO][find_string()] File: assets/docspad/strings/strings_lv-LV.js
+[INTERNAL_LOG][2018-06-12 06:09:47,200][INFO][find_string()] No iframe in assets/docspad/strings/strings_lv-LV.js
+[INTERNAL_LOG][2018-06-12 06:09:47,220][INFO][find_string()] File: assets/docspad/strings/strings_ml-IN.js
+[INTERNAL_LOG][2018-06-12 06:09:47,324][INFO][find_string()] No iframe in assets/docspad/strings/strings_ml-IN.js
+[INTERNAL_LOG][2018-06-12 06:09:47,344][INFO][find_string()] File: assets/docspad/strings/strings_mr-IN.js
+[INTERNAL_LOG][2018-06-12 06:09:47,438][INFO][find_string()] No iframe in assets/docspad/strings/strings_mr-IN.js
+[INTERNAL_LOG][2018-06-12 06:09:47,458][INFO][find_string()] File: assets/docspad/strings/strings_ms-MY-x-temp.js
+[INTERNAL_LOG][2018-06-12 06:09:47,546][INFO][find_string()] No iframe in assets/docspad/strings/strings_ms-MY-x-temp.js
+[INTERNAL_LOG][2018-06-12 06:09:47,566][INFO][find_string()] File: assets/docspad/strings/strings_ms-MY.js
+[INTERNAL_LOG][2018-06-12 06:09:47,659][INFO][find_string()] No iframe in assets/docspad/strings/strings_ms-MY.js
+[INTERNAL_LOG][2018-06-12 06:09:47,679][INFO][find_string()] File: assets/docspad/strings/strings_nb-NO.js
+[INTERNAL_LOG][2018-06-12 06:09:47,826][INFO][find_string()] No iframe in assets/docspad/strings/strings_nb-NO.js
+[INTERNAL_LOG][2018-06-12 06:09:47,847][INFO][find_string()] File: assets/docspad/strings/strings_nl-BE.js
+[INTERNAL_LOG][2018-06-12 06:09:47,924][INFO][find_string()] No iframe in assets/docspad/strings/strings_nl-BE.js
+[INTERNAL_LOG][2018-06-12 06:09:47,944][INFO][find_string()] File: assets/docspad/strings/strings_nl-NL.js
+[INTERNAL_LOG][2018-06-12 06:09:48,042][INFO][find_string()] No iframe in assets/docspad/strings/strings_nl-NL.js
+[INTERNAL_LOG][2018-06-12 06:09:48,063][INFO][find_string()] File: assets/docspad/strings/strings_pl-PL.js
+[INTERNAL_LOG][2018-06-12 06:09:48,155][INFO][find_string()] No iframe in assets/docspad/strings/strings_pl-PL.js
+[INTERNAL_LOG][2018-06-12 06:09:48,176][INFO][find_string()] File: assets/docspad/strings/strings_pt-BR.js
+[INTERNAL_LOG][2018-06-12 06:09:48,263][INFO][find_string()] No iframe in assets/docspad/strings/strings_pt-BR.js
+[INTERNAL_LOG][2018-06-12 06:09:48,284][INFO][find_string()] File: assets/docspad/strings/strings_pt-PT.js
+[INTERNAL_LOG][2018-06-12 06:09:48,371][INFO][find_string()] No iframe in assets/docspad/strings/strings_pt-PT.js
+[INTERNAL_LOG][2018-06-12 06:09:48,392][INFO][find_string()] File: assets/docspad/strings/strings_ro-RO.js
+[INTERNAL_LOG][2018-06-12 06:09:48,489][INFO][find_string()] No iframe in assets/docspad/strings/strings_ro-RO.js
+[INTERNAL_LOG][2018-06-12 06:09:48,510][INFO][find_string()] File: assets/docspad/strings/strings_ru-RU.js
+[INTERNAL_LOG][2018-06-12 06:09:48,598][INFO][find_string()] No iframe in assets/docspad/strings/strings_ru-RU.js
+[INTERNAL_LOG][2018-06-12 06:09:48,618][INFO][find_string()] File: assets/docspad/strings/strings_sk-SK.js
+[INTERNAL_LOG][2018-06-12 06:09:48,712][INFO][find_string()] No iframe in assets/docspad/strings/strings_sk-SK.js
+[INTERNAL_LOG][2018-06-12 06:09:48,732][INFO][find_string()] File: assets/docspad/strings/strings_sl-SI.js
+[INTERNAL_LOG][2018-06-12 06:09:48,819][INFO][find_string()] No iframe in assets/docspad/strings/strings_sl-SI.js
+[INTERNAL_LOG][2018-06-12 06:09:48,840][INFO][find_string()] File: assets/docspad/strings/strings_sr-Cyrl-RS.js
+[INTERNAL_LOG][2018-06-12 06:09:48,934][INFO][find_string()] No iframe in assets/docspad/strings/strings_sr-Cyrl-RS.js
+[INTERNAL_LOG][2018-06-12 06:09:48,954][INFO][find_string()] File: assets/docspad/strings/strings_sv-SE.js
+[INTERNAL_LOG][2018-06-12 06:09:49,052][INFO][find_string()] No iframe in assets/docspad/strings/strings_sv-SE.js
+[INTERNAL_LOG][2018-06-12 06:09:49,072][INFO][find_string()] File: assets/docspad/strings/strings_ta-IN.js
+[INTERNAL_LOG][2018-06-12 06:09:49,166][INFO][find_string()] No iframe in assets/docspad/strings/strings_ta-IN.js
+[INTERNAL_LOG][2018-06-12 06:09:49,186][INFO][find_string()] File: assets/docspad/strings/strings_te-IN.js
+[INTERNAL_LOG][2018-06-12 06:09:49,295][INFO][find_string()] No iframe in assets/docspad/strings/strings_te-IN.js
+[INTERNAL_LOG][2018-06-12 06:09:49,316][INFO][find_string()] File: assets/docspad/strings/strings_th-TH.js
+[INTERNAL_LOG][2018-06-12 06:09:49,388][INFO][find_string()] No iframe in assets/docspad/strings/strings_th-TH.js
+[INTERNAL_LOG][2018-06-12 06:09:49,409][INFO][find_string()] File: assets/docspad/strings/strings_tr-TR.js
+[INTERNAL_LOG][2018-06-12 06:09:49,507][INFO][find_string()] No iframe in assets/docspad/strings/strings_tr-TR.js
+[INTERNAL_LOG][2018-06-12 06:09:49,527][INFO][find_string()] File: assets/docspad/strings/strings_uk-UA.js
+[INTERNAL_LOG][2018-06-12 06:09:49,646][INFO][find_string()] No iframe in assets/docspad/strings/strings_uk-UA.js
+[INTERNAL_LOG][2018-06-12 06:09:49,666][INFO][find_string()] File: assets/docspad/strings/strings_vi-VN.js
+[INTERNAL_LOG][2018-06-12 06:09:49,765][INFO][find_string()] No iframe in assets/docspad/strings/strings_vi-VN.js
+[INTERNAL_LOG][2018-06-12 06:09:49,785][INFO][find_string()] File: assets/docspad/strings/strings_zh-Hans-CN-x-alibaba.js
+[INTERNAL_LOG][2018-06-12 06:09:49,857][INFO][find_string()] No iframe in assets/docspad/strings/strings_zh-Hans-CN-x-alibaba.js
+[INTERNAL_LOG][2018-06-12 06:09:49,878][INFO][find_string()] File: assets/docspad/strings/strings_zh-Hans-CN-x-yahoocn.js
+[INTERNAL_LOG][2018-06-12 06:09:49,981][INFO][find_string()] No iframe in assets/docspad/strings/strings_zh-Hans-CN-x-yahoocn.js
+[INTERNAL_LOG][2018-06-12 06:09:50,002][INFO][find_string()] File: assets/docspad/strings/strings_zh-Hans-CN.js
+[INTERNAL_LOG][2018-06-12 06:09:50,089][INFO][find_string()] No iframe in assets/docspad/strings/strings_zh-Hans-CN.js
+[INTERNAL_LOG][2018-06-12 06:09:50,110][INFO][find_string()] File: assets/docspad/strings/strings_zh-Hant-HK.js
+[INTERNAL_LOG][2018-06-12 06:09:50,213][INFO][find_string()] No iframe in assets/docspad/strings/strings_zh-Hant-HK.js
+[INTERNAL_LOG][2018-06-12 06:09:50,234][INFO][find_string()] File: assets/docspad/strings/strings_zh-Hant-TW.js
+[INTERNAL_LOG][2018-06-12 06:09:50,306][INFO][find_string()] No iframe in assets/docspad/strings/strings_zh-Hant-TW.js
+[INTERNAL_LOG][2018-06-12 06:09:50,327][INFO][find_string()] File: assets/docspad/strings/strings_zh-Hant-US.js
+[INTERNAL_LOG][2018-06-12 06:09:50,420][INFO][find_string()] No iframe in assets/docspad/strings/strings_zh-Hant-US.js
+[INTERNAL_LOG][2018-06-12 06:09:50,440][INFO][find_string()] File: assets/message_composer/js/CardViewController.js
+[INTERNAL_LOG][2018-06-12 06:09:50,549][INFO][find_string()] No iframe in assets/message_composer/js/CardViewController.js
+[INTERNAL_LOG][2018-06-12 06:09:50,569][INFO][find_string()] File: assets/message_composer/js/CloudCardViewController.js
+[INTERNAL_LOG][2018-06-12 06:09:50,683][INFO][find_string()] No iframe in assets/message_composer/js/CloudCardViewController.js
+[INTERNAL_LOG][2018-06-12 06:09:50,703][INFO][find_string()] File: assets/message_composer/js/Template.js
+[INTERNAL_LOG][2018-06-12 06:09:52,488][INFO][find_string()] No iframe in assets/message_composer/js/Template.js
+[INTERNAL_LOG][2018-06-12 06:09:52,508][INFO][find_string()] File: assets/message_composer/js/attachmentCardFactory.js
+[INTERNAL_LOG][2018-06-12 06:09:52,612][INFO][find_string()] No iframe in assets/message_composer/js/attachmentCardFactory.js
+[INTERNAL_LOG][2018-06-12 06:09:52,632][INFO][find_string()] File: assets/message_composer/js/attachmentsController.js
+[INTERNAL_LOG][2018-06-12 06:09:52,902][INFO][find_string()] No iframe in assets/message_composer/js/attachmentsController.js
+[INTERNAL_LOG][2018-06-12 06:09:52,923][INFO][find_string()] File: assets/message_composer/js/autoSaveController.js
+[INTERNAL_LOG][2018-06-12 06:09:52,954][INFO][find_string()] No iframe in assets/message_composer/js/autoSaveController.js
+[INTERNAL_LOG][2018-06-12 06:09:52,975][INFO][find_string()] File: assets/message_composer/js/ccBccFromSummaryFieldController.js
+[INTERNAL_LOG][2018-06-12 06:09:53,102][INFO][find_string()] No iframe in assets/message_composer/js/ccBccFromSummaryFieldController.js
+[INTERNAL_LOG][2018-06-12 06:09:53,123][INFO][find_string()] File: assets/message_composer/js/composeContentFocusController.js
+[INTERNAL_LOG][2018-06-12 06:09:53,262][INFO][find_string()] No iframe in assets/message_composer/js/composeContentFocusController.js
+[INTERNAL_LOG][2018-06-12 06:09:53,282][INFO][find_string()] File: assets/message_composer/js/composer.js
+[INTERNAL_LOG][2018-06-12 06:09:53,431][INFO][find_string()] No iframe in assets/message_composer/js/composer.js
+[INTERNAL_LOG][2018-06-12 06:09:53,451][INFO][find_string()] File: assets/message_composer/js/contactSearchController.js
+[INTERNAL_LOG][2018-06-12 06:09:53,595][INFO][find_string()] No iframe in assets/message_composer/js/contactSearchController.js
+[INTERNAL_LOG][2018-06-12 06:09:53,616][INFO][find_string()] File: assets/message_composer/js/imageTapDeleteController.js
+[INTERNAL_LOG][2018-06-12 06:09:53,734][INFO][find_string()] No iframe in assets/message_composer/js/imageTapDeleteController.js
+[INTERNAL_LOG][2018-06-12 06:09:53,755][INFO][find_string()] File: assets/message_composer/js/linkEnhancr.js
+[INTERNAL_LOG][2018-06-12 06:09:53,833][INFO][find_string()] No iframe in assets/message_composer/js/linkEnhancr.js
+[INTERNAL_LOG][2018-06-12 06:09:53,843][INFO][find_string()] File: assets/message_composer/js/linkExtractor.js
+[INTERNAL_LOG][2018-06-12 06:09:54,161][INFO][find_string()] No iframe in assets/message_composer/js/linkExtractor.js
+[INTERNAL_LOG][2018-06-12 06:09:54,181][INFO][find_string()] File: assets/message_composer/js/loadStrings.js
+[INTERNAL_LOG][2018-06-12 06:09:54,370][INFO][find_string()] No iframe in assets/message_composer/js/loadStrings.js
+[INTERNAL_LOG][2018-06-12 06:09:54,391][INFO][find_string()] File: assets/message_composer/js/lozengeController.js
+[INTERNAL_LOG][2018-06-12 06:09:55,186][INFO][find_string()] No iframe in assets/message_composer/js/lozengeController.js
+[INTERNAL_LOG][2018-06-12 06:09:55,207][INFO][find_string()] File: assets/message_composer/js/nativeBridge.js
+[INTERNAL_LOG][2018-06-12 06:09:55,244][INFO][find_string()] No iframe in assets/message_composer/js/nativeBridge.js
+[INTERNAL_LOG][2018-06-12 06:09:55,244][INFO][find_string()] File: assets/message_composer/js/profileImageController.js
+[INTERNAL_LOG][2018-06-12 06:09:55,301][INFO][find_string()] No iframe in assets/message_composer/js/profileImageController.js
+[INTERNAL_LOG][2018-06-12 06:09:55,311][INFO][find_string()] File: assets/message_composer/js/subjectTextController.js
+[INTERNAL_LOG][2018-06-12 06:09:55,343][INFO][find_string()] No iframe in assets/message_composer/js/subjectTextController.js
+[INTERNAL_LOG][2018-06-12 06:09:55,363][INFO][find_string()] File: assets/stationery/android/android_utils.js
+[INTERNAL_LOG][2018-06-12 06:09:55,436][INFO][find_string()] No iframe in assets/stationery/android/android_utils.js
+[INTERNAL_LOG][2018-06-12 06:09:55,456][INFO][find_string()] File: assets/stationery/stationery.js
+[INTERNAL_LOG][2018-06-12 06:09:55,706][INFO][find_string()] No iframe in assets/stationery/stationery.js
+[INTERNAL_LOG][2018-06-12 06:09:55,727][INFO][find_string()] File: assets/stationery/stationeryThemeConfig.js
+[INTERNAL_LOG][2018-06-12 06:09:57,176][INFO][find_string()] No iframe in assets/stationery/stationeryThemeConfig.js
+[INTERNAL_LOG][2018-06-12 06:09:57,197][INFO][find_string()] File: assets/stationery/strings.js
+[INTERNAL_LOG][2018-06-12 06:09:57,229][INFO][find_string()] No iframe in assets/stationery/strings.js
+[INTERNAL_LOG][2018-06-12 06:09:57,244][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 06:10:31,051][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 06:10:31,051][INFO][find_url_in_apk()] http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+http://yahoo.com
+https://api.login.yahoo.com/oauth2/device_session
+http://xmlpull.org/v1/doc/features.html#indent-output
+http://xmlpull.org/v1/doc/features.html#indent-output
+http://m.facebook.com/ads/ad_choices
+http://m.facebook.com/ads/ad_choices
+https://play.google.com/store/apps/details?id=%s
+https://www.facebook.com/audience_network/server_side_reward
+https://www.%s.facebook.com/audience_network/server_side_reward
+https://www.facebook.com/adnw_logging/
+https://www.%s.facebook.com/adnw_logging/
+https://graph.facebook.com/network_ads_common
+https://graph.%s.facebook.com/network_ads_common
+http://play.google.com/store/apps/
+https://www.facebook.com/
+https://www.%s.facebook.com
+http://www.facebook.com
+https://data.flurry.com/pcr.do
+https://proton.flurry.com/sdk/v1/config
+https://data.flurry.com/aap.do
+http://data.flurry.com/aap.do
+https://service.cmp.oath.com/cmp/v0/location/eu
+http://www.example.com
+http://www.example.com
+http://www.example.com
+http://www.example.com
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+https://adlog.flurry.com
+http://adlog.flurry.com
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+https://ads.flurry.com/v19/getAds.do
+http://ads.flurry.com/v19/getAds.do
+http://www.yahoo.com
+https://s3.amazonaws.com/flurrysdk/Android/v2/android.zip
+https://m.yap.yahoo.com
+http://www.w3.org/ns/ttml#parameter
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+https://www.googleapis.com/auth/games
+https://plus.google.com/
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://csi.gstatic.com/csi
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/native_ads.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/native_video_ads.html
+https://www.google.com/dfp/linkDevice
+https://www.google.com/dfp/inAppPreview
+https://www.google.com/dfp/debugSignals
+https://www.google.com/dfp/sendDebugData
+https://pagead2.googlesyndication.com/pagead/gen_204
+http://www.google.com
+https://support.google.com/dfp_premium/answer/7160685#push
+https://proddata.xobni.yahoo.com
+https://proddata.xobni.yahoo.com
+http://play.google.com/store/apps/details?id=%s
+http://www.amazon.com/gp/mas/dl/android?p=%s
+https://pr.comet.yahoo.com/comet
+https://pr.comet.yahoo.com
+https://upgrade.mail.yahoo.com/
+http://schema.org
+http://schema.org/RsvpResponseYes
+http://schema.org/RsvpResponseNo
+http://schema.org/RsvpResponseMaybe
+http://schema.org/RsvpResponseInvited
+http://schema.org/CompletedActionStatus
+http://schema.org/PropertyValue
+https://overview.mail.yahoo.com
+https://overview.mail.yahoo.com
+https://play.google.com/store/account
+https://www.google.com/maps/dir/?api=1&destination=
+http://www.google.com/search?q=
+https://s.yimg.com/nq/storm/assets/compose-assist/logos/10/tumblr-logo-1x.png
+https://s.yimg.com/nq/gif-providers/1/gif-providers/tenor.png
+https://video.media.yql.yahoo.com/v1/video/sapi/streams/%s
+https://crashes.mobile.yahoo.com/
+https://crashes.mobile.yahoo.com/
+https://exceptions.mobile.yahoo.com/
+https://exceptions.mobile.yahoo.com/
+https://api-onepush.query.yahoo.com/v1/public/yql?format=json
+https://onepush.query.yahoo.com/v1/public/yql?env=stage
+https://onepush.query.yahoo.com/v1/public/yql?env=stage
+https://onepush.query.yahoo.com/v1/public/yql?env=prod
+https://onepush.query.yahoo.com/v1/public/yql?env=prod
+https://carddav.address.yahoo.com
+https://carddav.address.yahoo.com
+http://calendarserver.org/ns/
+http://calendarserver.org/ns/
+https://stg-pam-app.assistant.yahoo.com:4443/
+https://pam-app.assistant.yahoo.com/
+https://s.yimg.com/ik/aspen/config/1.json
+https://sb.scorecardresearch.com/p2
+https://pubads.g.doubleclick.net/gampad/ads?sz=640x360&iu=/4595/nfl.[PLATFORM]&ciu_szs=&impl=s&gdfp_req=1&env=vp&output=xml_vast2&unviewed_position_start=1&cust_params=test%3D%26slot%3Dpreroll%26s3%3D[CHANNEL_ID]&url=[referrer_url]&correlator=[timestamp]
+https://pubads.g.doubleclick.net/gampad/ads?sz=640x360&iu=/4595/nfl.[PLATFORM]&ciu_szs=&impl=s&gdfp_req=1&env=vp&output=xml_vast2&unviewed_position_start=1&cust_params=test%3D%26slot%3Donloader%26s3%3D[CHANNEL_ID]&url=[referrer_url]&correlator=[timestamp]
+https://pubads.g.doubleclick.net/gampad/ads?sz=640x360&iu=/4595/team.[CLUB].[PLATFORM]&ciu_szs=&impl=s&gdfp_req=1&env=vp&output=xml_vast2&unviewed_position_start=1&cust_params=test%3D%26slot%3Dpreroll%26s3%3D[CHANNEL_ID]&url=[referrer_url]&correlator=[timestamp]
+https://video.media.yql.yahoo.com/v1/video/alias/channels/wf-channel=related-videos
+https://placeholder.com/
+https://us.adserver.yahoo.com/a?c=x&p=Not%20Used&f=
+https://login.yahoo.com
+https://login.yahoo.com
+https://login.yahoo.com
+https://login.yahoo.com
+https://mobileexchange.yahoo.com
+https://mobileexchange.yahoo.com
+https://mobileexchange.yahoo.com
+https://www.yahoo.com
+https://login.yahoo.com/asdk/v1/accountsprovider
+https://login.yahoo.com/asdk/v1/phoneprovider
+https://login.yahoo.com/asdk/v1/getverificationsms
+http://clients3.google.com/generate_204
+https://mobileexchange.yahoo.com/dismiss
+https://mobileexchange.yahoo.com/signIn
+http://gazingraising.corp.ne1.yahoo.com/v3/items?vertical=
+http://l
+https://s
+https://onepush.query.yahoo.com/v1/public/yql?env=int
+https://stage.android.register.push.mobile.yahoo.com:443/reg/device/
+https://android.register.push.mobile.yahoo.com:443/reg/device/
+https://stage.android.register.push.mobile.yahoo.com:443/config/
+https://android.register.push.mobile.yahoo.com:443/config/
+
+[INTERNAL_LOG][2018-06-12 06:10:31,051][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 06:10:31,083][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 06:10:31,083][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 06:10:31,083][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 06:10:31,083][INFO][analyze_start()] End time:[Tue Jun 12 06:10:31 2018]

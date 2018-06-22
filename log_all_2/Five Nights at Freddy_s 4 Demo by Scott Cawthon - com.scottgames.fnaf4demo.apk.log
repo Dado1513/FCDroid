@@ -1,0 +1,23 @@
+[INTERNAL_LOG][2018-06-12 03:54:19,158][INFO][analyze_start()] Init Time [Tue Jun 12 03:54:19 2018]
+[INTERNAL_LOG][2018-06-12 03:54:19,222][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 03:54:19,222][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 03:54:19,222][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 03:54:19,222][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 03:54:19,222][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 03:54:19,222][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 03:54:19,222][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 03:54:19,223][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 03:54:25,308][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 03:54:25,308][INFO][find_url_in_apk()] http://bugs.clickteam.com/report.php
+
+[INTERNAL_LOG][2018-06-12 03:54:25,308][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 03:54:25,308][INFO][check_method_conf()] [JavaScript enabled: False]
+
+[INTERNAL_LOG][2018-06-12 03:54:25,308][INFO][check_method_conf()] [Add interface WebView: False]
+
+[INTERNAL_LOG][2018-06-12 03:54:25,308][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 03:54:25,308][INFO][analyze_start()] End time:[Tue Jun 12 03:54:25 2018]

@@ -1,0 +1,178 @@
+[INTERNAL_LOG][2018-06-12 08:52:02,345][INFO][analyze_start()] Init Time [Tue Jun 12 08:52:02 2018]
+[INTERNAL_LOG][2018-06-12 08:52:02,394][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 08:52:02,395][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 08:52:02,395][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 08:52:02,395][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 08:52:02,395][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 08:52:02,395][INFO][is_hybird()] android.permission.CHANGE_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 08:52:02,395][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 08:52:02,395][INFO][is_hybird()] android.permission.ACCESS_COARSE_LOCATION
+[INTERNAL_LOG][2018-06-12 08:52:02,395][INFO][is_hybird()] android.permission.ACCESS_FINE_LOCATION
+[INTERNAL_LOG][2018-06-12 08:52:02,395][INFO][is_hybird()] android.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 08:52:02,396][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 08:52:02,396][INFO][is_hybird()] android.permission.WRITE_INTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 08:52:02,396][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 08:52:02,396][INFO][is_hybird()] com.google.android.providers.gsf.permission.READ_GSERVICES
+[INTERNAL_LOG][2018-06-12 08:52:02,396][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-12 08:52:02,396][INFO][is_hybird()] com.studiosol.palcomp3.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-12 08:52:02,396][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 08:52:02,396][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 08:52:02,396][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 08:52:02,396][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 08:52:02,396][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 08:52:02,396][INFO][find_string()] File: assets/inlocomedia/mraid.js
+[INTERNAL_LOG][2018-06-12 08:52:02,398][INFO][find_string()] No iframe in assets/inlocomedia/mraid.js
+[INTERNAL_LOG][2018-06-12 08:52:02,398][INFO][find_string()] File: assets/inlocomedia/resourcesValidator.js
+[INTERNAL_LOG][2018-06-12 08:52:02,399][INFO][find_string()] No iframe in assets/inlocomedia/resourcesValidator.js
+[INTERNAL_LOG][2018-06-12 08:52:02,414][INFO][find_string()] File: assets/inlocomedia/sdkBridge.js
+[INTERNAL_LOG][2018-06-12 08:52:02,425][INFO][find_string()] No iframe in assets/inlocomedia/sdkBridge.js
+[INTERNAL_LOG][2018-06-12 08:52:02,426][INFO][find_string()] File: assets/inlocomedia/sdkEventHandler.js
+[INTERNAL_LOG][2018-06-12 08:52:02,426][INFO][find_string()] No iframe in assets/inlocomedia/sdkEventHandler.js
+[INTERNAL_LOG][2018-06-12 08:52:02,426][INFO][find_string()] File: assets/inlocomedia/videoPostRoll.js
+[INTERNAL_LOG][2018-06-12 08:52:02,427][INFO][find_string()] No iframe in assets/inlocomedia/videoPostRoll.js
+[INTERNAL_LOG][2018-06-12 08:52:02,427][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 08:52:56,235][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 08:52:56,235][INFO][find_url_in_apk()] http://www.w3.org/ns/ttml#parameter
+http://hostname/?
+http://hostname/?
+https://plus.google.com/
+http://schemas.android.com/apk/res/android
+https://pagead2.googlesyndication.com/pagead/gen_204
+http://www.google.com
+https://support.google.com/dfp_premium/answer/7160685#push
+http://www.google-analytics.com
+https://ssl.google-analytics.com
+https://app-measurement.com/a
+https://www.google.com
+http://www.example.com
+http://www.example.com
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://csi.gstatic.com/csi
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/native_ads.html
+https://imasdk.googleapis.com/admob/sdkloader/native_video.html
+https://www.google.com/dfp/linkDevice
+https://www.google.com/dfp/inAppPreview
+https://www.google.com/dfp/debugSignals
+https://www.google.com/dfp/sendDebugData
+http://segment-data-us-east.zqtk.net/%s?url=%s&c2=%s&c12=%s&ns_ap_bi=%s&ns_ap_sv=%s&ns_ap_an=%s&ns_ap_ver=%s&ns_ap_pn=android
+http://b.voicefive.com/rs/sdk/gg.js
+https://sb.voicefive.com/rs/sdk/gg.js
+http://b.scorecardresearch.com/rs/mobile/ntv/vce_st.js
+https://sb.scorecardresearch.com/rs/mobile/ntv/vce_st.js
+http://localhost/
+https://sb.voicefive.com/rs/sdk/b.html
+https://sb.voicefive.com/rs/sdk/b.html
+https://sb.voicefive.com/rs/sdk/b.html
+https://sb.voicefive.com/rs/sdk/b.html
+https://sb.voicefive.com/rs/sdk/b.html
+https://www.facebook.com/audience_network/server_side_reward
+https://www.%s.facebook.com/audience_network/server_side_reward
+https://graph.facebook.com/network_ads_common
+https://graph.%s.facebook.com/network_ads_common
+https://www.facebook.com/adnw_logging/
+https://www.%s.facebook.com/adnw_logging/
+https://www.facebook.com/
+https://www.%s.facebook.com
+http://play.google.com/store/apps/
+http://www.facebook.com
+https://graph.%s
+https://graph-video.%s
+https://facebook.com
+https://facebook.com/device?user_code=%1$s&qr=1
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+https://twitter.com/%s/status/%s
+https://ns.sascdn.com/diff/templates/js/mobile/mraid/bridges/android-sdk-mraid-bridge-2.3.js
+https://www.palcomp3.com/%s/%s
+http://i1.ytimg.com/vi/%s/default.jpg
+http://i1.ytimg.com/vi/%s/mqdefault.jpg
+https://api.palcomp3.com/v4/
+http://api.letras.mus.br/v3/
+https://api.palcomp3.com/v2/
+https://api.palcomp3.com/
+https://ads.ubee.in/api/v4
+https://tracking.inlocomedia.com/install
+https://tracking.inlocomedia.com/fo
+https://sdk.inlocomedia.com/v3/ads_config
+https://sdk-analytics.inlocomedia.com/ads/v1
+https://sdk-errors.inlocomedia.com/v1
+https://sdk.inlocoengage.com/
+https://sdk.inlocomedia.com/v3/engage_config
+https://sdk-analytics.inlocoengage.com/engage/v1
+https://ads.ubee.in/api/v3
+https://sdk.inlocomedia.com/v3/location_config
+https://visits.inlocomedia.com/v2/notify
+https://visits.inlocomedia.com/v2/notify/bulk
+https://sdk-analytics.inlocomedia.com/location/v1
+https://mobile-static.adsafeprotected.com/avid-v2.js
+https://px.moatads.com/pixel.gif?e=0&i=MOATSDK1&ac=1
+https://z.moatads.com/
+https://ads.mopub.com/
+https://www.mopub.com/optout
+https://www.mopub.com/optout/
+https://www.mopub.com/optout/
+http://ads.mopub.com
+https://ads.mopub.com
+http://mobile.smartadserver.com
+http://mobile.smartadserver.com
+http://mobile.smartadserver.com
+http://mobile.smartadserver.com
+http://diffdev44.smartadserver.com/diff/templates/js/mobile/sdk/sas-vpaid-resources/outstream-wrapper.1.0.html
+http://diffdev44.smartadserver.com/diff/templates/js/mobile/sdk/sas-vpaid-resources/outstream-wrapper.1.0.html
+http://ak-ns.sascdn.com/diff/templates/js/mobile/sdk/sas-vpaid-resources/outstream-wrapper.1.0.html
+http://ak-ns.sascdn.com/diff/templates/js/mobile/sdk/sas-vpaid-resources/outstream-wrapper.1.0.html
+https://www.palcomp3.com/%s/
+https://www.palcomp3.com/%s/agenda.htm
+https://www.palcomp3.com/%s/albuns.htm
+https://www.palcomp3.com/%s/info.htm
+https://www.palcomp3.com/%s/discografia/%s/
+https://www.palcomp3.com/%s/album/%s/
+https://www.palcomp3.com/mp3/%s/
+https://www.palcomp3.com/
+https://www.palcomp3.com/
+https://www.palcomp3.com/
+https://www.palcomp3.com/
+https://www.palcomp3.com/
+https://www.palcomp3.com/destaques.htm
+https://www.palcomp3.com/destaques.htm
+https://www.palcomp3.com/aviso_legal.htm
+http://ssmnc.studiosol.com.br/gcm/register_gcm_device.php
+https://upload.twitter.com
+https://www.googletagmanager.com
+http://play.google.com/store/apps/details
+https://www.youtube.com/watch?v=
+https://twitter.com/
+https://www.palcomp3.com/contato.htm
+https://www.palcomp3.com/estilos-musicais.htm
+https://www.palcomp3.com/top-artistas/
+https://www.palcomp3.com/top-artistas/
+https://www.palcomp3.com/top-musicas/
+https://www.palcomp3.com/top-albuns/
+http://img.youtube.com/vi/
+https://api.twitter.com
+https://syndication.twitter.com
+https://caps.twitter.com
+https://twitter.com/intent/tweet?text=%s&url=%s
+https://twitter.com/%s/status/%d
+https://e.crashlytics.com/spi/v2/events
+https://settings.crashlytics.com/spi/v2/platforms/android/apps/%s/settings
+http://musicbrainz.org
+http://musicbrainz.org
+http://musicbrainz.org
+https://api.digits.com
+http://xmlpull.org/v1/doc/features.html#indent-output
+http://xmlpull.org/v1/doc/features.html#indent-output
+
+[INTERNAL_LOG][2018-06-12 08:52:56,235][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 08:52:56,241][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 08:52:56,241][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 08:52:56,241][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 08:52:56,241][INFO][analyze_start()] End time:[Tue Jun 12 08:52:56 2018]

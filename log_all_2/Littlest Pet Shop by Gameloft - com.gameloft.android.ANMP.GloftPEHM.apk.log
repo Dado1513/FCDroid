@@ -1,0 +1,359 @@
+[INTERNAL_LOG][2018-06-12 04:47:59,094][INFO][analyze_start()] Init Time [Tue Jun 12 04:47:59 2018]
+[INTERNAL_LOG][2018-06-12 04:47:59,137][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 04:47:59,137][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 04:47:59,137][INFO][is_hybird()] android.permission.ACCESS_COARSE_LOCATION
+[INTERNAL_LOG][2018-06-12 04:47:59,137][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-12 04:47:59,137][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 04:47:59,137][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 04:47:59,137][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 04:47:59,137][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 04:47:59,137][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 04:47:59,138][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 04:47:59,138][INFO][is_hybird()] com.gameloft.android.ANMP.GloftPEHM.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-12 04:47:59,138][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-12 04:47:59,138][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-12 04:47:59,138][INFO][is_hybird()] android.permission.RECEIVE_BOOT_COMPLETED
+[INTERNAL_LOG][2018-06-12 04:47:59,138][INFO][is_hybird()] glshare.permission.ACCESS_SHARED_DATA
+[INTERNAL_LOG][2018-06-12 04:47:59,138][INFO][is_hybird()] android.permission.CAMERA
+[INTERNAL_LOG][2018-06-12 04:47:59,138][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 04:47:59,138][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 04:47:59,138][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 04:47:59,138][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 04:47:59,138][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 04:47:59,138][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 04:48:38,188][INFO][find_url_in_apk()] [START URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-12 04:48:38,188][INFO][find_url_in_apk()] http://livewebapp.gameloft.com/glive/friends/index/select/yes?user_name=
+http://livewebapp.gameloft.com/glive/signal-back
+http://livewebapp.gameloft.com/glive/friends/show-invite-email
+http://201205igp.gameloft.com/redir/?from
+http://livewebapp.gameloft.com/glive/messages/index
+http://livewebapp.gameloft.com/glive/friends
+http://livewebapp.gameloft.com/glive/games
+http://livewebapp.gameloft.com/glive/
+http://livewebapp.gameloft.com/glive/info/
+http://dl.gameloft.com
+http://livewebapp.gameloft.com/glive/friends/index/select/yes/?user_name=
+http://livewebapp.gameloft.com/glive/friends/add-friends/
+http://livewebapp.gameloft.com/glive/games/recommend-via-mail/id/
+http://livewebapp.gameloft.com/glive/games/recommend-via-mail/id/
+http://livewebapp.gameloft.com/glive/friends/?select=yes
+http://livewebapp.gameloft.com/glive/messages/sent/
+http://livewebapp.gameloft.com/glive/challenges/create-challenge?challenged_user_id=
+http://livewebapp.gameloft.com/glive/challenges/create-challenge?challenged_user_id=
+http://livewebapp.gameloft.com/glive/games/compare/uid/
+http://livewebapp.gameloft.com/glive/games/compare/uid/
+http://livewebapp.gameloft.com/glive/games/compare/uid/
+http://livewebapp.gameloft.com/glive/games/compare/uid/
+http://livewebapp.gameloft.com/glive/friends/delete-friend/uid/
+http://livewebapp.gameloft.com/glive/friends/delete-friend/uid/
+http://livewebapp.gameloft.com/glive/account/add-friend/uid/
+http://201205igp.gameloft.com/redir/
+
+[INTERNAL_LOG][2018-06-12 04:48:38,188][INFO][find_url_in_apk()] [END URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-12 04:48:39,884][ERROR][download_page_loaded()] Failed response code: 404 for http://livewebapp.gameloft.com/glive/signal-back  
+[INTERNAL_LOG][2018-06-12 04:48:47,161][ERROR][download_page_loaded()] Failed download: http://livewebapp.gameloft.com/glive/ for exception [Errno 21] Is a directory: 'temp_html_code/html_downloaded_Littlest Pet Shop by Gameloft - com/'
+[INTERNAL_LOG][2018-06-12 04:48:48,490][ERROR][download_page_loaded()] Failed download: http://livewebapp.gameloft.com/glive/info/ for exception [Errno 21] Is a directory: 'temp_html_code/html_downloaded_Littlest Pet Shop by Gameloft - com/'
+[INTERNAL_LOG][2018-06-12 04:48:48,793][ERROR][download_page_loaded()] Failed response code: 404 for http://dl.gameloft.com  
+[INTERNAL_LOG][2018-06-12 04:48:51,462][ERROR][download_page_loaded()] Failed download: http://livewebapp.gameloft.com/glive/friends/add-friends/ for exception [Errno 21] Is a directory: 'temp_html_code/html_downloaded_Littlest Pet Shop by Gameloft - com/'
+[INTERNAL_LOG][2018-06-12 04:48:52,790][ERROR][download_page_loaded()] Failed download: http://livewebapp.gameloft.com/glive/games/recommend-via-mail/id/ for exception [Errno 21] Is a directory: 'temp_html_code/html_downloaded_Littlest Pet Shop by Gameloft - com/'
+[INTERNAL_LOG][2018-06-12 04:48:54,016][ERROR][download_page_loaded()] Failed download: http://livewebapp.gameloft.com/glive/games/recommend-via-mail/id/ for exception [Errno 21] Is a directory: 'temp_html_code/html_downloaded_Littlest Pet Shop by Gameloft - com/'
+[INTERNAL_LOG][2018-06-12 04:48:56,578][ERROR][download_page_loaded()] Failed download: http://livewebapp.gameloft.com/glive/messages/sent/ for exception [Errno 21] Is a directory: 'temp_html_code/html_downloaded_Littlest Pet Shop by Gameloft - com/'
+[INTERNAL_LOG][2018-06-12 04:49:00,675][ERROR][download_page_loaded()] Failed download: http://livewebapp.gameloft.com/glive/games/compare/uid/ for exception [Errno 21] Is a directory: 'temp_html_code/html_downloaded_Littlest Pet Shop by Gameloft - com/'
+[INTERNAL_LOG][2018-06-12 04:49:01,904][ERROR][download_page_loaded()] Failed download: http://livewebapp.gameloft.com/glive/games/compare/uid/ for exception [Errno 21] Is a directory: 'temp_html_code/html_downloaded_Littlest Pet Shop by Gameloft - com/'
+[INTERNAL_LOG][2018-06-12 04:49:03,235][ERROR][download_page_loaded()] Failed download: http://livewebapp.gameloft.com/glive/games/compare/uid/ for exception [Errno 21] Is a directory: 'temp_html_code/html_downloaded_Littlest Pet Shop by Gameloft - com/'
+[INTERNAL_LOG][2018-06-12 04:49:04,566][ERROR][download_page_loaded()] Failed download: http://livewebapp.gameloft.com/glive/games/compare/uid/ for exception [Errno 21] Is a directory: 'temp_html_code/html_downloaded_Littlest Pet Shop by Gameloft - com/'
+[INTERNAL_LOG][2018-06-12 04:49:05,796][ERROR][download_page_loaded()] Failed download: http://livewebapp.gameloft.com/glive/friends/delete-friend/uid/ for exception [Errno 21] Is a directory: 'temp_html_code/html_downloaded_Littlest Pet Shop by Gameloft - com/'
+[INTERNAL_LOG][2018-06-12 04:49:07,127][ERROR][download_page_loaded()] Failed download: http://livewebapp.gameloft.com/glive/friends/delete-friend/uid/ for exception [Errno 21] Is a directory: 'temp_html_code/html_downloaded_Littlest Pet Shop by Gameloft - com/'
+[INTERNAL_LOG][2018-06-12 04:49:08,809][ERROR][download_page_loaded()] Failed download: http://livewebapp.gameloft.com/glive/account/add-friend/uid/ for exception [Errno 21] Is a directory: 'temp_html_code/html_downloaded_Littlest Pet Shop by Gameloft - com/'
+[INTERNAL_LOG][2018-06-12 04:49:09,171][ERROR][download_page_loaded()] Failed download: http://201205igp.gameloft.com/redir/ for exception [Errno 21] Is a directory: 'temp_html_code/html_downloaded_Littlest Pet Shop by Gameloft - com/'
+[INTERNAL_LOG][2018-06-12 04:49:09,171][INFO][find_string()] [START REMOTE FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 04:49:09,171][INFO][find_string()] Remote File in: temp_html_code/html_downloaded_Littlest Pet Shop by Gameloft - com/yes?user_name=
+[INTERNAL_LOG][2018-06-12 04:49:09,172][INFO][find_string()] URL: http://livewebapp.gameloft.com/glive/friends/index/select/yes?user_name=
+[INTERNAL_LOG][2018-06-12 04:49:09,174][INFO][find_string()] No iframe in temp_html_code/html_downloaded_Littlest Pet Shop by Gameloft - com/yes?user_name=
+[INTERNAL_LOG][2018-06-12 04:49:09,175][INFO][find_string()] Remote File in: temp_html_code/html_downloaded_Littlest Pet Shop by Gameloft - com/show-invite-email
+[INTERNAL_LOG][2018-06-12 04:49:09,175][INFO][find_string()] URL: http://livewebapp.gameloft.com/glive/friends/show-invite-email
+[INTERNAL_LOG][2018-06-12 04:49:09,177][INFO][find_string()] No iframe in temp_html_code/html_downloaded_Littlest Pet Shop by Gameloft - com/show-invite-email
+[INTERNAL_LOG][2018-06-12 04:49:09,177][INFO][find_string()] Remote File in: temp_html_code/html_downloaded_Littlest Pet Shop by Gameloft - com/?from
+[INTERNAL_LOG][2018-06-12 04:49:09,177][INFO][find_string()] URL: http://201205igp.gameloft.com/redir/?from
+[INTERNAL_LOG][2018-06-12 04:49:09,178][INFO][find_string()] No iframe in temp_html_code/html_downloaded_Littlest Pet Shop by Gameloft - com/?from
+[INTERNAL_LOG][2018-06-12 04:49:09,178][INFO][find_string()] Remote File in: temp_html_code/html_downloaded_Littlest Pet Shop by Gameloft - com/index
+[INTERNAL_LOG][2018-06-12 04:49:09,178][INFO][find_string()] URL: http://livewebapp.gameloft.com/glive/messages/index
+[INTERNAL_LOG][2018-06-12 04:49:09,179][INFO][find_string()] No iframe in temp_html_code/html_downloaded_Littlest Pet Shop by Gameloft - com/index
+[INTERNAL_LOG][2018-06-12 04:49:09,179][INFO][find_string()] Remote File in: temp_html_code/html_downloaded_Littlest Pet Shop by Gameloft - com/friends
+[INTERNAL_LOG][2018-06-12 04:49:09,179][INFO][find_string()] URL: http://livewebapp.gameloft.com/glive/friends
+[INTERNAL_LOG][2018-06-12 04:49:09,181][INFO][find_string()] No iframe in temp_html_code/html_downloaded_Littlest Pet Shop by Gameloft - com/friends
+[INTERNAL_LOG][2018-06-12 04:49:09,181][INFO][find_string()] Remote File in: temp_html_code/html_downloaded_Littlest Pet Shop by Gameloft - com/games
+[INTERNAL_LOG][2018-06-12 04:49:09,181][INFO][find_string()] URL: http://livewebapp.gameloft.com/glive/games
+[INTERNAL_LOG][2018-06-12 04:49:09,182][INFO][find_string()] No iframe in temp_html_code/html_downloaded_Littlest Pet Shop by Gameloft - com/games
+[INTERNAL_LOG][2018-06-12 04:49:09,182][INFO][find_string()] Remote File in: temp_html_code/html_downloaded_Littlest Pet Shop by Gameloft - com/?user_name=
+[INTERNAL_LOG][2018-06-12 04:49:09,182][INFO][find_string()] URL: http://livewebapp.gameloft.com/glive/friends/index/select/yes/?user_name=
+[INTERNAL_LOG][2018-06-12 04:49:09,184][INFO][find_string()] No iframe in temp_html_code/html_downloaded_Littlest Pet Shop by Gameloft - com/?user_name=
+[INTERNAL_LOG][2018-06-12 04:49:09,184][INFO][find_string()] Remote File in: temp_html_code/html_downloaded_Littlest Pet Shop by Gameloft - com/?select=yes
+[INTERNAL_LOG][2018-06-12 04:49:09,184][INFO][find_string()] URL: http://livewebapp.gameloft.com/glive/friends/?select=yes
+[INTERNAL_LOG][2018-06-12 04:49:09,186][INFO][find_string()] No iframe in temp_html_code/html_downloaded_Littlest Pet Shop by Gameloft - com/?select=yes
+[INTERNAL_LOG][2018-06-12 04:49:09,186][INFO][find_string()] Remote File in: temp_html_code/html_downloaded_Littlest Pet Shop by Gameloft - com/create-challenge?challenged_user_id=
+[INTERNAL_LOG][2018-06-12 04:49:09,186][INFO][find_string()] URL: http://livewebapp.gameloft.com/glive/challenges/create-challenge?challenged_user_id=
+[INTERNAL_LOG][2018-06-12 04:49:09,188][INFO][find_string()] No iframe in temp_html_code/html_downloaded_Littlest Pet Shop by Gameloft - com/create-challenge?challenged_user_id=
+[INTERNAL_LOG][2018-06-12 04:49:09,188][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 04:49:09,188][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 04:49:09,188][INFO][find_url_in_apk()] https://m.facebook.com/dialog/
+https://graph.facebook.com/
+https://api.facebook.com/restserver.php
+https://graph.facebook.com/%s/picture
+https://graph.%s
+https://graph-video.%s
+https://facebook.com
+https://201205igp.gameloft.com/redir/ads_server.php?game_code=GAME_CODE&udid=0000000&hdidfv=HDIDFV&androidid=0000000&d=DEVICE_NAME&f=FIRMWARE&lg=LANGUAGE&game_ver=GAMEVERSION&check_pau=1&os=android
+https://201205igp.gameloft.com/redir/ads_server.php?game_code=GAME_CODE&udid=0000000&hdidfv=HDIDFV&androidid=0000000&device_model=DEVICE_NAME&f=FIRMWARE&country=COUNTRY&lg=LANGUAGE&game_ver=GAMEVERSION&os=android&igp_rev=1005&game=GAME_CODE
+http://201205igp.gameloft.com/redir/ads_server.php?game_code=GAME_CODE&udid=0000000&hdidfv=HDIDFV&androidid=0000000&d=DEVICE_NAME&f=FIRMWARE&country=COUNTRY&lg=LANGUAGE&game_ver=GAMEVERSION&os=android&igp_rev=1005&freecash=1
+https://201205igp.gameloft.com/redir/ads_capping.php?game=GAME_CODE&udid=0000000&hdidfv=HDIDFV&androidid=0000000&igp_rev=1005
+http://201205igp.gameloft.com/redir/ads/ads_server_view.php?from=GAME_CODE&country=COUNTRY&lg=LANGUAGE&udid=0000000&hdidfv=HDIDFV&androidid=0000000&d=DEVICE_NAME&f=FIRMWARE&game_ver=GAMEVERSION&ver=GAMEVERSION&rewards=1&os=android&igp_rev=1005
+https://201205igp.gameloft.com/redir/ads/interstitial_view.php?from=FROM&country=COUNTRY&lg=LANG&udid=0000000&hdidfv=HDIDFV&androidid=0000000&d=DEVICE&f=FIRMWARE&game_ver=VERSION&igp_rev=1005&os=android
+http://market.android.com/
+http://market.android.com/
+http://market.android.com/
+http://market.android.com/
+http://www.youtube.com/watch?v=
+http://www.youtube.com/watch?v=
+http://www.youtube.com/watch?v=
+http://www.youtube.com/watch?v=
+http://www.youtube.com/watch?v=
+http://www.youtube.com/watch?v=
+http://www.google.com
+http://www.google.com
+http://www.google.com
+https://201205igp.gameloft.com/redir/freecash/ro_view.php
+https://201205igp.gameloft.com/redir/freecash/rv_view.php
+https://201205igp.gameloft.com/redir/freecash/cinema_view.php
+http://201205igp.gameloft.com/redir/hdloading.php?game=#GAME#&country=#COUNTRY#&lg=#LANG#&ver=#IGP_VERSION#&device=#DEVICE#&f=#FIRMWARE#&hdidfv=#HDIDFV#&g_ver=#VERSION#&line_number=#LINE_NUMBER#&google_adid=#GOOGLE_ADID#&google_optout=#GOOGLE_OPTOUT#
+https://secure.gameloft.com/tryandbuy/notifications/
+https://secure.gameloft.com/tryandbuy/notifications/
+http://201205igp.gameloft.com/redir/hdloading.php
+http://201205igp.gameloft.com/redir/hdloading.php
+https://secure.gameloft.com/android/3g_carrier.php
+https://secure.gameloft.com/android/3g_carrier.php
+http://eve.gameloft.com:20001/config/1367:52235:2.3.3d:android:googleplay/datacenters
+http://eve.gameloft.com:20001/config/1367:52235:2.3.3d:android:googleplay/datacenters/
+https://livewebapp-beta.gameloft.com/glive3d/?udid=0000000&hdidfv=HDIDFV&lg=LANG&country=COUNTRY&d=DEVICE_ANDROID&f=FIRMWARE_ANDROID&apptype=_html5&GGI=GGI_GAME&game_ver=GAMEVERSION&height=HEIGHT&width=WIDTH&leftframe=yes
+https://livewebapp.gameloft.com/glive3d/?udid=0000000&hdidfv=HDIDFV&lg=LANG&country=COUNTRY&d=DEVICE_ANDROID&f=FIRMWARE_ANDROID&apptype=_html5&GGI=GGI_GAME&game_ver=GAMEVERSION&height=HEIGHT&width=WIDTH&leftframe=yes
+https://livewebapp.gameloft.com/scripts/settings.php?udid=0000000&hdidfv=HDIDFV&lg=LANG&d=DEVICE_ANDROID&f=FIRMWARE_ANDROID&version=1.0.1
+https://livewebapp.gameloft.com/scripts/ckecklogin.php?identifier=UDID&hdidfv=HDIDFV&lg=LANG&version=1.0.1&username=_USER_&password=_PASS_&GGI=GGI_GAME
+https://livewebapp.gameloft.com/scripts/unlock.php?trophy=NUMTROPHY&identifier=UDID&hdidfv=HDIDFV&lg=LANG&d=DEVICE_ANDROID&f=FIRMWARE_ANDROID&GGI=GGI_GAME&igp_code=GLIA&game_ver=GAMEVERSION&username=_USER_&password=_PASS_
+http://livewebapp.gameloft.com/glive/?lg=LANG&country=COUNTRY_DETECTED&d=DEVICE_ANDROID&f=FIRMWARE_ANDROID&udid=0000000&GGI=GGIGAME&device_token=DEV_TOKEN&username=USER_NAME&pass=PASSWORD&remember_me=AUTOLOGIN&type=ANDROID&height=SCREEN_HEIGHT
+http://livewebapp.gameloft.com/glive/?lg=LANG&country=COUNTRY_DETECTED&d=DEVICE_ANDROID&f=FIRMWARE_ANDROID&udid=0000000&GGI=GGIGAME&device_token=DEV_TOKEN&username=USER_NAME&pass=PASSWORD&remember_me=AUTOLOGIN&type=ANDROID&height=SCREEN_HEIGHT
+http://livewebapp.gameloft.com/glive/?lg=LANG&country=COUNTRY_DETECTED&d=DEVICE_ANDROID&f=FIRMWARE_ANDROID&udid=0000000&GGI=GGIGAME&device_token=DEV_TOKEN&username=USER_NAME&pass=PASSWORD&remember_me=AUTOLOGIN&type=ANDROID&height=SCREEN_HEIGHT
+http://livewebapp.gameloft.com/glive/?lg=LANG&country=COUNTRY_DETECTED&d=DEVICE_ANDROID&f=FIRMWARE_ANDROID&udid=0000000&GGI=GGIGAME&device_token=DEV_TOKEN&username=USER_NAME&pass=PASSWORD&remember_me=AUTOLOGIN&type=ANDROID&height=SCREEN_HEIGHT&fb=1
+http://livewebapp.gameloft.com/glive/?lg=LANG&country=COUNTRY_DETECTED&d=DEVICE_ANDROID&f=FIRMWARE_ANDROID&udid=0000000&GGI=GGIGAME&device_token=DEV_TOKEN&username=USER_NAME&pass=PASSWORD&remember_me=AUTOLOGIN&type=ANDROID&height=SCREEN_HEIGHT&fb=1
+http://livewebapp.gameloft.com/glive/?lg=LANG&country=COUNTRY_DETECTED&d=DEVICE_ANDROID&f=FIRMWARE_ANDROID&udid=0000000&GGI=GGIGAME&device_token=DEV_TOKEN&username=USER_NAME&pass=PASSWORD&remember_me=AUTOLOGIN&type=ANDROID&height=SCREEN_HEIGHT&fb=1
+http://livewebapp.gameloft.com/glive/leaderboards/
+http://livewebapp.gameloft.com/glive/leaderboards/
+http://livewebapp.gameloft.com/glive/leaderboards
+http://livewebapp.gameloft.com/glive/leaderboards
+http://livewebapp.gameloft.com/glive/ranking/
+http://livewebapp.gameloft.com/glive/ranking/
+http://livewebapp.gameloft.com/glive/ranking
+http://livewebapp.gameloft.com/glive/ranking
+http://livewebapp.gameloft.com/glive/games/show-game/gid/
+http://livewebapp.gameloft.com/glive/games/show-game/gid/
+http://livewebapp.gameloft.com/glive/friends/add-friends/fb_new/inv/fb_q/1
+http://livewebapp.gameloft.com/glive/friends/add-friends/fb_new/inv/fb_q/1
+http://livewebapp.gameloft.com/glive/friends/add-friends/fb_new/src/fb_q/1
+http://livewebapp.gameloft.com/glive/friends/add-friends/fb_new/src/fb_q/1
+https://www.facebook.com/login.php?login_attempt=1&popup=1
+https://www.facebook.com/login.php?login_attempt=1&popup=1
+http://livewebapp.gameloft.com/glive/games/trophies/gid/
+http://livewebapp.gameloft.com/glive/games/trophies/gid/
+http://livewebapp.gameloft.com/glive/account/index/uid
+http://livewebapp.gameloft.com/glive/account/index/uid
+http://livewebapp.gameloft.com/glive/friends/?iDelete=
+http://livewebapp.gameloft.com/glive/friends/?iDelete=
+http://livewebapp.gameloft.com/glive/friends?iDelete=
+http://livewebapp.gameloft.com/glive/friends?iDelete=
+http://livewebapp.gameloft.com/glive/login/recover-password
+http://livewebapp.gameloft.com/glive/login/recover-password
+http://livewebapp.gameloft.com/glive/login/recover-password
+http://livewebapp.gameloft.com/glive/account/username
+http://livewebapp.gameloft.com/glive/account/username
+http://livewebapp.gameloft.com/glive/account/password
+http://livewebapp.gameloft.com/glive/account/password
+http://livewebapp.gameloft.com/glive/account/email
+http://livewebapp.gameloft.com/glive/account/email
+http://livewebapp.gameloft.com/glive/account/avatar
+http://livewebapp.gameloft.com/glive/account/avatar
+http://livewebapp.gameloft.com/glive/account/edit
+http://livewebapp.gameloft.com/glive/account/edit
+http://livewebapp.gameloft.com/glive/friends?select=yes
+http://livewebapp.gameloft.com/glive/friends?select=yes
+http://livewebapp.gameloft.com/glive/friends/index/select/yes?user_name=
+http://livewebapp.gameloft.com/glive/friends/index/select/yes?user_name=
+http://livewebapp.gameloft.com/glive/friends/index/select/yes?user_name=
+http://livewebapp.gameloft.com/glive/signal-back
+http://livewebapp.gameloft.com/glive/signal-back
+http://livewebapp.gameloft.com/glive/signal-back
+http://livewebapp.gameloft.com/glive/friends/show-invite-email
+http://livewebapp.gameloft.com/glive/friends/show-invite-email
+http://livewebapp.gameloft.com/glive/friends/show-invite-email
+http://livewebapp.gameloft.com/glive/games/recommend-via-mail/id
+http://livewebapp.gameloft.com/glive/games/recommend-via-mail/id
+http://wapshop.gameloft.com/wifi/hdplus_full_shop
+http://wapshop.gameloft.com/wifi/hdplus_full_shop
+http://201205igp.gameloft.com/redir/?from
+http://201205igp.gameloft.com/redir/?from
+http://201205igp.gameloft.com/redir/?from
+http://livewebapp.gameloft.com/glive/messages/index
+http://livewebapp.gameloft.com/glive/messages/index
+http://livewebapp.gameloft.com/glive/messages/index
+http://livewebapp.gameloft.com/glive/friends
+http://livewebapp.gameloft.com/glive/friends
+http://livewebapp.gameloft.com/glive/friends
+http://livewebapp.gameloft.com/glive/games
+http://livewebapp.gameloft.com/glive/games
+http://livewebapp.gameloft.com/glive/games
+http://livewebapp.gameloft.com/glive/games
+http://livewebapp.gameloft.com/glive/
+http://livewebapp.gameloft.com/glive/
+http://livewebapp.gameloft.com/glive/games/show-game/
+http://livewebapp.gameloft.com/glive/account/index/uid/
+http://livewebapp.gameloft.com/glive/friends/
+http://livewebapp.gameloft.com/glive/friends?iDelete
+http://livewebapp.gameloft.com/glive/friends/index/page
+http://livewebapp.gameloft.com/glive/login/index
+http://livewebapp.gameloft.com/glive/index/index
+http://livewebapp.gameloft.com/glive/login
+http://livewebapp.gameloft.com/glive/login?iDelete
+http://livewebapp.gameloft.com/glive/messages/
+http://livewebapp.gameloft.com/glive/messages/show/mid
+http://livewebapp.gameloft.com/glive/messages/show-sent/mid
+http://livewebapp.gameloft.com/glive/messages/friend/uid/
+http://livewebapp.gameloft.com/glive/messages/play/id/
+http://livewebapp.gameloft.com/glive/logout
+http://livewebapp.gameloft.com/glive/login?iDelete=2
+http://livewebapp.gameloft.com/glive/info/
+http://livewebapp.gameloft.com/glive/info/
+http://livewebapp.gameloft.com/glive/info
+http://twitter.com/oauth/authorize?oauth_token
+https://www.facebook.com/login.php?api_key
+http://livewebapp.gameloft.com/glive/messages/sent
+http://livewebapp.gameloft.com/glive/messages/friends
+http://livewebapp.gameloft.com/glive/messages/plays
+http://livewebapp.gameloft.com/glive/friends/add-friends
+http://livewebapp.gameloft.com/glive/?lg=
+http://livewebapp.gameloft.com/scripts/banners_click.php
+http://dl.gameloft.com
+http://livewebapp.gameloft.com/glive/friends/index/select/yes/?user_name=
+http://livewebapp.gameloft.com/glive/friends/evaluate/fid/FRIEND_ID/value/
+http://livewebapp.gameloft.com/glive/account
+http://livewebapp.gameloft.com/glive/index/add-trophy
+https://livewebapp.gameloft.com/glive/account/creation/
+https://livewebapp.gameloft.com/glive/login/recover-password/
+http://livewebapp.gameloft.com/glive/games/recommend-via-twitter/id/
+http://livewebapp.gameloft.com/glive/games/show-game/gid/GAMEID/fb_send/yes
+http://livewebapp.gameloft.com/glive/leaderboards/index/gid/
+http://livewebapp.gameloft.com/glive/leaderboards/index/gid
+http://livewebapp.gameloft.com/glive/leaderboards/national/gid/
+http://livewebapp.gameloft.com/glive/leaderboards/friends/gid/
+http://201205igp.gameloft.com/redir/?from=#SOURCEGAMECODE#&op=#MARKET#&pp=1&game=#SOURCEGAMECODE#&ver=#GAMEVERSION#&lg=#LANGCODE#&country=#COUNTRYOFDEVICE#&d=#DEVICETYPE#&f=#FIRMWARE#&udid=0000000&hdidfv=#HDIDFV#&androidid=0000000&ctg=FBOOK
+http://201205igp.gameloft.com/redir/?from=SOURCEGAMECODE&op=MARKET&t=review&game=SOURCEGAMECODE&ctg=GAME_REVIEW&ver=GAMEVERSION&lg=LANGCODE&country=COUNTRYOFDEVICE&d=DEVICETYPE&f=FIRMWARE&udid=0000000
+https://201205igp.gameloft.com
+http://201205igp.gameloft.com
+https://201205igp.gameloft.com/redir/freemium/hdfreemium.php?from=GAME_CODE&country=COUNTRY_DETECTED&lg=LANG&udid=0000000&hdidfv=HDIDFV&androidid=0000000&d=DEVICE&f=FIRMWARE&game_ver=VERSION&os=android&igp_rev=1005
+https://signal-back.com
+https://201205igp.gameloft.com/redir/android/index.php?page=gameinformation
+https://201205igp.gameloft.com/redir/?from=
+https://play.google.com/store/apps/details
+https://play.google.com/store/apps/details
+https://play.google.com/store/search
+https://play.google.com/store/search
+http://tsto.re/
+http://tsto.re/
+http://tsto.re/
+http://tsto.re/
+https://play.google.com/store/apps/details?
+https://play.google.com/store/apps/details?
+https://play.google.com/store/search?
+https://play.google.com/store/search?
+http://201205igp.gameloft.com/redir/ads/splashscreen_view.php?from=FROM&country=COUNTRY&lg=LANG&udid=0000000&hdidfv=HDIDFV&androidid=0000000&d=DEVICE&f=FIRMWARE&game_ver=VERSION&igp_rev=1005&os=android&dl=1
+http://201205igp.gameloft.com/redir/ads/hocscreen.php?from=FROM&country=COUNTRY&lg=LANG&udid=0000000&hdidfv=HDIDFV&androidid=0000000&d=DEVICE&f=FIRMWARE&game_ver=VERSION&igp_rev=1005&os=android
+http://www.youtube.com/get_video_info?&video_id=
+http://gdata.youtube.com/feeds/api/playlists/
+http://livewebapp.gameloft.com/glive/friends/add-friends/
+http://livewebapp.gameloft.com/glive/games/recommend-via-mail/id/
+http://livewebapp.gameloft.com/glive/games/recommend-via-mail/id/
+http://livewebapp.gameloft.com/glive/games/recommend-via-mail/id/
+http://livewebapp.gameloft.com/glive/friends/show-invite-email/android_uid/
+http://livewebapp.gameloft.com/glive/friends/?select=yes
+http://livewebapp.gameloft.com/glive/messages/send-message/android_uid/
+http://livewebapp.gameloft.com/glive/messages/sent/
+http://livewebapp.gameloft.com/glive/challenges/create-challenge?challenged_user_id=
+http://livewebapp.gameloft.com/glive/challenges/create-challenge?challenged_user_id=
+http://livewebapp.gameloft.com/glive/games/compare/uid/
+http://livewebapp.gameloft.com/glive/games/compare/uid/
+http://livewebapp.gameloft.com/glive/games/compare/uid/
+http://livewebapp.gameloft.com/glive/games/compare/uid/
+http://livewebapp.gameloft.com/glive/friends/delete-friend/uid/
+http://livewebapp.gameloft.com/glive/friends/delete-friend/uid/
+http://livewebapp.gameloft.com/glive/account/add-friend/uid/
+https://201205igp.gameloft.com/redir/rewards.php?action=retrieveItems&game_code=
+http://201205igp.gameloft.com/redir/
+http://www.w3.org/2001/XMLSchema
+http://hostname/?
+http://hostname/?
+http://www.google-analytics.com
+https://ssl.google-analytics.com
+https://accounts.google.com
+https://accounts.google.com
+https://www.facebook.com
+https://www.facebook.com
+https://www.googleapis.com/auth/plus.me
+https://www.googleapis.com/auth/plus.me
+https://www.googleapis.com/auth/plus.me
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games
+http://plus.google.com/
+https://www.googleapis.com/auth/drive.file
+https://www.googleapis.com/auth/drive.appdata
+https://www.googleapis.com/auth/drive
+https://www.googleapis.com/auth/drive.apps
+https://www.googleapis.com/auth/fitness.activity.read
+https://www.googleapis.com/auth/fitness.activity.read
+https://www.googleapis.com/auth/fitness.activity.write
+https://www.googleapis.com/auth/fitness.activity.write
+https://www.googleapis.com/auth/fitness.location.read
+https://www.googleapis.com/auth/fitness.location.read
+https://www.googleapis.com/auth/fitness.location.write
+https://www.googleapis.com/auth/fitness.location.write
+https://www.googleapis.com/auth/fitness.body.read
+https://www.googleapis.com/auth/fitness.body.read
+https://www.googleapis.com/auth/fitness.body.write
+https://www.googleapis.com/auth/fitness.body.write
+https://www.googleapis.com/auth/fitness.nutrition.read
+https://www.googleapis.com/auth/fitness.nutrition.read
+https://www.googleapis.com/auth/fitness.nutrition.write
+https://www.googleapis.com/auth/fitness.nutrition.write
+https://www.googleapis.com/auth/games.firstparty
+https://www.googleapis.com/auth/games.firstparty
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://csi.gstatic.com/csi
+https://app-measurement.com/a
+https://www.googleapis.com/auth/plus.login
+http://schemas.android.com/apk/lib/com.google.android.gms.plus
+http://schemas.android.com/apk/lib/com.google.android.gms.plus
+https://www.googletagmanager.com
+
+[INTERNAL_LOG][2018-06-12 04:49:09,188][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 04:49:09,198][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 04:49:09,198][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 04:49:09,198][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 04:49:09,198][INFO][analyze_start()] End time:[Tue Jun 12 04:49:09 2018]

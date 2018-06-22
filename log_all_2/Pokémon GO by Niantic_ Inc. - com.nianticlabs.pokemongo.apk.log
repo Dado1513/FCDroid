@@ -1,0 +1,57 @@
+[INTERNAL_LOG][2018-06-12 06:16:43,018][INFO][analyze_start()] Init Time [Tue Jun 12 06:16:43 2018]
+[INTERNAL_LOG][2018-06-12 06:16:43,195][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 06:16:43,195][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 06:16:43,196][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-12 06:16:43,196][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-12 06:16:43,196][INFO][is_hybird()] android.permission.BLUETOOTH
+[INTERNAL_LOG][2018-06-12 06:16:43,196][INFO][is_hybird()] android.permission.BLUETOOTH_ADMIN
+[INTERNAL_LOG][2018-06-12 06:16:43,196][INFO][is_hybird()] android.permission.ACCESS_FINE_LOCATION
+[INTERNAL_LOG][2018-06-12 06:16:43,196][INFO][is_hybird()] android.permission.ACCESS_COARSE_LOCATION
+[INTERNAL_LOG][2018-06-12 06:16:43,196][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 06:16:43,196][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 06:16:43,196][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 06:16:43,196][INFO][is_hybird()] android.permission.USE_CREDENTIALS
+[INTERNAL_LOG][2018-06-12 06:16:43,196][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 06:16:43,196][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 06:16:43,197][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-12 06:16:43,197][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 06:16:43,197][INFO][is_hybird()] com.nianticlabs.pokemongo.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-12 06:16:43,197][INFO][is_hybird()] android.permission.CAMERA
+[INTERNAL_LOG][2018-06-12 06:16:43,197][INFO][is_hybird()] com.google.android.gms.permission.ACTIVITY_RECOGNITION
+[INTERNAL_LOG][2018-06-12 06:16:43,197][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 06:16:43,197][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 06:16:43,197][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 06:16:43,197][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 06:16:43,197][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 06:16:43,197][INFO][find_string()] File: assets/www/error.js
+[INTERNAL_LOG][2018-06-12 06:16:43,198][INFO][find_string()] No iframe in assets/www/error.js
+[INTERNAL_LOG][2018-06-12 06:16:43,199][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 06:17:00,489][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 06:17:00,489][INFO][find_url_in_apk()] https://apm.
+https://api.
+https://txn.ingest.
+https://appload.ingest.
+https://graph.%s
+https://graph-video.%s
+https://facebook.com
+http://play.google.com/store/apps/details?id=com.facebook.orca
+http://plus.google.com/
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://csi.gstatic.com/csi
+http://google.com/cardboard/cfg
+http://www.fuseboxx.com
+
+[INTERNAL_LOG][2018-06-12 06:17:00,489][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 06:17:00,493][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 06:17:00,493][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 06:17:00,493][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 06:17:00,493][INFO][analyze_start()] End time:[Tue Jun 12 06:17:00 2018]

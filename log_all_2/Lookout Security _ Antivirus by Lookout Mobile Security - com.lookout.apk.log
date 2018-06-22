@@ -1,0 +1,253 @@
+[INTERNAL_LOG][2018-06-12 06:08:46,338][INFO][analyze_start()] Init Time [Tue Jun 12 06:08:46 2018]
+[INTERNAL_LOG][2018-06-12 06:08:46,384][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 06:08:46,385][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 06:08:46,385][INFO][is_hybird()] android.permission.ACCESS_COARSE_LOCATION
+[INTERNAL_LOG][2018-06-12 06:08:46,385][INFO][is_hybird()] android.permission.ACCESS_FINE_LOCATION
+[INTERNAL_LOG][2018-06-12 06:08:46,385][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 06:08:46,385][INFO][is_hybird()] android.permission.CHANGE_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 06:08:46,385][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 06:08:46,385][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-12 06:08:46,385][INFO][is_hybird()] android.permission.KILL_BACKGROUND_PROCESSES
+[INTERNAL_LOG][2018-06-12 06:08:46,385][INFO][is_hybird()] android.permission.MODIFY_AUDIO_SETTINGS
+[INTERNAL_LOG][2018-06-12 06:08:46,385][INFO][is_hybird()] android.permission.MANAGE_DEVICE_ADMINS
+[INTERNAL_LOG][2018-06-12 06:08:46,386][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 06:08:46,386][INFO][is_hybird()] com.lookout.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-12 06:08:46,386][INFO][is_hybird()] android.permission.READ_SMS
+[INTERNAL_LOG][2018-06-12 06:08:46,386][INFO][is_hybird()] android.permission.RECEIVE_SMS
+[INTERNAL_LOG][2018-06-12 06:08:46,386][INFO][is_hybird()] android.permission.WRITE_SECURE_SETTINGS
+[INTERNAL_LOG][2018-06-12 06:08:46,386][INFO][is_hybird()] com.google.android.providers.gsf.permission.READ_GSERVICES
+[INTERNAL_LOG][2018-06-12 06:08:46,386][INFO][is_hybird()] android.permission.FLASHLIGHT
+[INTERNAL_LOG][2018-06-12 06:08:46,386][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-12 06:08:46,386][INFO][is_hybird()] android.permission.DISABLE_KEYGUARD
+[INTERNAL_LOG][2018-06-12 06:08:46,386][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-12 06:08:46,386][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 06:08:46,386][INFO][is_hybird()] android.permission.CAMERA
+[INTERNAL_LOG][2018-06-12 06:08:46,386][INFO][is_hybird()] android.permission.READ_PHONE_STATE
+[INTERNAL_LOG][2018-06-12 06:08:46,386][INFO][is_hybird()] android.permission.GET_TASKS
+[INTERNAL_LOG][2018-06-12 06:08:46,386][INFO][is_hybird()] android.permission.RECEIVE_BOOT_COMPLETED
+[INTERNAL_LOG][2018-06-12 06:08:46,386][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 06:08:46,386][INFO][is_hybird()] android.permission.READ_CONTACTS
+[INTERNAL_LOG][2018-06-12 06:08:46,386][INFO][is_hybird()] android.permission.READ_CALL_LOG
+[INTERNAL_LOG][2018-06-12 06:08:46,386][INFO][is_hybird()] android.permission.WRITE_CALL_LOG
+[INTERNAL_LOG][2018-06-12 06:08:46,386][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 06:08:46,386][INFO][is_hybird()] android.permission.WRITE_MEDIA_STORAGE
+[INTERNAL_LOG][2018-06-12 06:08:46,386][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 06:08:46,386][INFO][is_hybird()] android.permission.CHANGE_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 06:08:46,386][INFO][is_hybird()] com.lookout.permission.REGISTER_ACCOUNT
+[INTERNAL_LOG][2018-06-12 06:08:46,386][INFO][is_hybird()] com.android.browser.permission.READ_HISTORY_BOOKMARKS
+[INTERNAL_LOG][2018-06-12 06:08:46,387][INFO][is_hybird()] com.android.browser.permission.WRITE_HISTORY_BOOKMARKS
+[INTERNAL_LOG][2018-06-12 06:08:46,387][INFO][is_hybird()] com.zte.browser.permission.WRITE_History
+[INTERNAL_LOG][2018-06-12 06:08:46,387][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 06:08:46,387][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 06:08:46,387][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 06:08:46,387][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 06:08:46,387][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 06:08:46,387][INFO][find_string()] File: assets/appboy-html-in-app-message-javascript-component.js
+[INTERNAL_LOG][2018-06-12 06:08:46,387][INFO][find_string()] No iframe in assets/appboy-html-in-app-message-javascript-component.js
+[INTERNAL_LOG][2018-06-12 06:08:46,398][INFO][find_string()] File: org/apache/commons/validator/javascript/validateByte-compress.js
+[INTERNAL_LOG][2018-06-12 06:08:46,399][INFO][find_string()] No iframe in org/apache/commons/validator/javascript/validateByte-compress.js
+[INTERNAL_LOG][2018-06-12 06:08:46,413][INFO][find_string()] File: org/apache/commons/validator/javascript/validateByte.js
+[INTERNAL_LOG][2018-06-12 06:08:46,414][INFO][find_string()] No iframe in org/apache/commons/validator/javascript/validateByte.js
+[INTERNAL_LOG][2018-06-12 06:08:46,415][INFO][find_string()] File: org/apache/commons/validator/javascript/validateCreditCard-compress.js
+[INTERNAL_LOG][2018-06-12 06:08:46,415][INFO][find_string()] No iframe in org/apache/commons/validator/javascript/validateCreditCard-compress.js
+[INTERNAL_LOG][2018-06-12 06:08:46,416][INFO][find_string()] File: org/apache/commons/validator/javascript/validateCreditCard.js
+[INTERNAL_LOG][2018-06-12 06:08:46,416][INFO][find_string()] No iframe in org/apache/commons/validator/javascript/validateCreditCard.js
+[INTERNAL_LOG][2018-06-12 06:08:46,416][INFO][find_string()] File: org/apache/commons/validator/javascript/validateDate-compress.js
+[INTERNAL_LOG][2018-06-12 06:08:46,417][INFO][find_string()] No iframe in org/apache/commons/validator/javascript/validateDate-compress.js
+[INTERNAL_LOG][2018-06-12 06:08:46,417][INFO][find_string()] File: org/apache/commons/validator/javascript/validateDate.js
+[INTERNAL_LOG][2018-06-12 06:08:46,417][INFO][find_string()] No iframe in org/apache/commons/validator/javascript/validateDate.js
+[INTERNAL_LOG][2018-06-12 06:08:46,417][INFO][find_string()] File: org/apache/commons/validator/javascript/validateEmail-compress.js
+[INTERNAL_LOG][2018-06-12 06:08:46,418][INFO][find_string()] No iframe in org/apache/commons/validator/javascript/validateEmail-compress.js
+[INTERNAL_LOG][2018-06-12 06:08:46,418][INFO][find_string()] File: org/apache/commons/validator/javascript/validateEmail.js
+[INTERNAL_LOG][2018-06-12 06:08:46,418][INFO][find_string()] No iframe in org/apache/commons/validator/javascript/validateEmail.js
+[INTERNAL_LOG][2018-06-12 06:08:46,419][INFO][find_string()] File: org/apache/commons/validator/javascript/validateFloat-compress.js
+[INTERNAL_LOG][2018-06-12 06:08:46,419][INFO][find_string()] No iframe in org/apache/commons/validator/javascript/validateFloat-compress.js
+[INTERNAL_LOG][2018-06-12 06:08:46,419][INFO][find_string()] File: org/apache/commons/validator/javascript/validateFloat.js
+[INTERNAL_LOG][2018-06-12 06:08:46,419][INFO][find_string()] No iframe in org/apache/commons/validator/javascript/validateFloat.js
+[INTERNAL_LOG][2018-06-12 06:08:46,420][INFO][find_string()] File: org/apache/commons/validator/javascript/validateFloatRange-compress.js
+[INTERNAL_LOG][2018-06-12 06:08:46,420][INFO][find_string()] No iframe in org/apache/commons/validator/javascript/validateFloatRange-compress.js
+[INTERNAL_LOG][2018-06-12 06:08:46,420][INFO][find_string()] File: org/apache/commons/validator/javascript/validateFloatRange.js
+[INTERNAL_LOG][2018-06-12 06:08:46,420][INFO][find_string()] No iframe in org/apache/commons/validator/javascript/validateFloatRange.js
+[INTERNAL_LOG][2018-06-12 06:08:46,420][INFO][find_string()] File: org/apache/commons/validator/javascript/validateIntRange-compress.js
+[INTERNAL_LOG][2018-06-12 06:08:46,421][INFO][find_string()] No iframe in org/apache/commons/validator/javascript/validateIntRange-compress.js
+[INTERNAL_LOG][2018-06-12 06:08:46,421][INFO][find_string()] File: org/apache/commons/validator/javascript/validateIntRange.js
+[INTERNAL_LOG][2018-06-12 06:08:46,421][INFO][find_string()] No iframe in org/apache/commons/validator/javascript/validateIntRange.js
+[INTERNAL_LOG][2018-06-12 06:08:46,421][INFO][find_string()] File: org/apache/commons/validator/javascript/validateInteger-compress.js
+[INTERNAL_LOG][2018-06-12 06:08:46,422][INFO][find_string()] No iframe in org/apache/commons/validator/javascript/validateInteger-compress.js
+[INTERNAL_LOG][2018-06-12 06:08:46,422][INFO][find_string()] File: org/apache/commons/validator/javascript/validateInteger.js
+[INTERNAL_LOG][2018-06-12 06:08:46,422][INFO][find_string()] No iframe in org/apache/commons/validator/javascript/validateInteger.js
+[INTERNAL_LOG][2018-06-12 06:08:46,422][INFO][find_string()] File: org/apache/commons/validator/javascript/validateMask-compress.js
+[INTERNAL_LOG][2018-06-12 06:08:46,422][INFO][find_string()] No iframe in org/apache/commons/validator/javascript/validateMask-compress.js
+[INTERNAL_LOG][2018-06-12 06:08:46,422][INFO][find_string()] File: org/apache/commons/validator/javascript/validateMask.js
+[INTERNAL_LOG][2018-06-12 06:08:46,423][INFO][find_string()] No iframe in org/apache/commons/validator/javascript/validateMask.js
+[INTERNAL_LOG][2018-06-12 06:08:46,423][INFO][find_string()] File: org/apache/commons/validator/javascript/validateMaxLength-compress.js
+[INTERNAL_LOG][2018-06-12 06:08:46,423][INFO][find_string()] No iframe in org/apache/commons/validator/javascript/validateMaxLength-compress.js
+[INTERNAL_LOG][2018-06-12 06:08:46,424][INFO][find_string()] File: org/apache/commons/validator/javascript/validateMaxLength.js
+[INTERNAL_LOG][2018-06-12 06:08:46,424][INFO][find_string()] No iframe in org/apache/commons/validator/javascript/validateMaxLength.js
+[INTERNAL_LOG][2018-06-12 06:08:46,424][INFO][find_string()] File: org/apache/commons/validator/javascript/validateMinLength-compress.js
+[INTERNAL_LOG][2018-06-12 06:08:46,424][INFO][find_string()] No iframe in org/apache/commons/validator/javascript/validateMinLength-compress.js
+[INTERNAL_LOG][2018-06-12 06:08:46,425][INFO][find_string()] File: org/apache/commons/validator/javascript/validateMinLength.js
+[INTERNAL_LOG][2018-06-12 06:08:46,425][INFO][find_string()] No iframe in org/apache/commons/validator/javascript/validateMinLength.js
+[INTERNAL_LOG][2018-06-12 06:08:46,425][INFO][find_string()] File: org/apache/commons/validator/javascript/validateRequired-compress.js
+[INTERNAL_LOG][2018-06-12 06:08:46,425][INFO][find_string()] No iframe in org/apache/commons/validator/javascript/validateRequired-compress.js
+[INTERNAL_LOG][2018-06-12 06:08:46,426][INFO][find_string()] File: org/apache/commons/validator/javascript/validateRequired.js
+[INTERNAL_LOG][2018-06-12 06:08:46,426][INFO][find_string()] No iframe in org/apache/commons/validator/javascript/validateRequired.js
+[INTERNAL_LOG][2018-06-12 06:08:46,426][INFO][find_string()] File: org/apache/commons/validator/javascript/validateShort-compress.js
+[INTERNAL_LOG][2018-06-12 06:08:46,427][INFO][find_string()] No iframe in org/apache/commons/validator/javascript/validateShort-compress.js
+[INTERNAL_LOG][2018-06-12 06:08:46,427][INFO][find_string()] File: org/apache/commons/validator/javascript/validateShort.js
+[INTERNAL_LOG][2018-06-12 06:08:46,427][INFO][find_string()] No iframe in org/apache/commons/validator/javascript/validateShort.js
+[INTERNAL_LOG][2018-06-12 06:08:46,427][INFO][find_string()] File: org/apache/commons/validator/javascript/validateUtilities-compress.js
+[INTERNAL_LOG][2018-06-12 06:08:46,428][INFO][find_string()] No iframe in org/apache/commons/validator/javascript/validateUtilities-compress.js
+[INTERNAL_LOG][2018-06-12 06:08:46,428][INFO][find_string()] File: org/apache/commons/validator/javascript/validateUtilities.js
+[INTERNAL_LOG][2018-06-12 06:08:46,429][INFO][find_string()] No iframe in org/apache/commons/validator/javascript/validateUtilities.js
+[INTERNAL_LOG][2018-06-12 06:08:46,429][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 06:09:41,742][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 06:09:41,742][INFO][find_url_in_apk()] http://schemas.android.com/apk/res/android
+https://appboy.data.placeiq.com/dataex/id/
+https://api.branch.io/
+https://bnc.lt/a/
+https://e.crashlytics.com/spi/v2/events
+https://settings.crashlytics.com/spi/v2/platforms/android/apps/%s/settings
+https://sondheim.appboy.com/api/v3/
+https://dev.appboy.com/api/v3/
+http://www.amazon.com/gp/mas/dl/android?asin=
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+http://10.0.2.2:3000/
+https://api.sandbox.braintreegateway.com/
+https://api.braintreegateway.com/
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+http://plus.google.com/
+https://discovery.lookout.com/api/v1
+http://captive.apple.com/
+http://connectivitycheck.android.com/generate_204
+https://spengler.mobilethreat.net
+https://appintel.mobilethreat.net
+https://appintel.mobilethreat.net/api/v1/assessment_descriptions/find_by_locale_and_id.json
+https://tprodsmsx.att.net/commonLogin/nxsATS/AuthZCode
+https://tprodsmsx.att.net/commonLogin/nxsATS/TokenGen
+https://www.lookout.com
+https://www.lookout.com
+https://www.lookout.com
+https://about.att.com/sites/privacy_policy
+https://api.att.com/oauth/v4/token
+https://api.att.com/serviceProvisioning/v4/services/securewifi/eligibility
+https://api.att.com/serviceProvisioning/v4/services/securewifi/account
+https://api.att.com/serviceProvisioning/v3/services/securewifi/notification
+https://api.att.com/legalAgreements/v1/mobilityServices/securewifi/termsAndConditions
+https://registrar-prod.prod.lkt.is/api/register/public/att/sn/device
+https://www.att.com/esupport/article.html#!/wireless/KM1185527
+https://www.att.com/callprotectterms
+https://billing.lookout.com/api/billing/public/v1/accounts
+https://dm.lookout.com/api/billing/public/v1/account_info
+https://billing.lookout.com/api/billing/public/v1/payment_plans
+https://binacq-priority-c.prod1.flexilis.org/api/binacq_priority/public/v1/manifests
+https://binacq-sink-c.prod1.flexilis.org/api/binacq_sink/public/v1/
+https://bismarck1.mobilethreat.net
+https://breachreport.prod.lkt.is/api/breach/v1/public
+https://breachreport.prod.lkt.is/api/breach/v1/internal
+https://breachreport.prod.lkt.is/api/breach/v1/service
+https://breaches.lookout.com
+https://billing.lookout.com/api/billing/client/v1/braintree_token
+https://backup.lookout.com/api/backup/public/v1/calls
+https://dm.lookout.com/api/capabilities/public/v1/device
+https://billing.lookout.com/api/billing/client/v1
+https://billing.lookout.com/api/billing/client/v1/accounts
+https://billing.lookout.com/api/billing/client/v2/events
+https://billing.lookout.com/api/billing/client/v2/apple_purchase_confirmation
+https://backup.lookout.com/api/backup/public/v1/contacts
+https://dm.lookout.com/api/metadata/public/v1/device_guid
+https://my.lookout.com/api/v1/web/devices
+https://dm.lookout.com/api/metadata/public/v1/device
+https://dm.lookout.com/api/settings/public/v1/device
+https://registrar-prod.prod.lkt.is/api/register/public/docomo/anshin/device
+http://ee-he.partners.lookout.com/api/billing/ee/public/v1/header-enrichment
+https://entitler-prod.prod.lkt.is/api/entitler/v1/public/features
+https://dm.lookout.com/api/features/public/v1/device
+https://i.lookout.com/android/prod/forced-update-config.json
+https://dm.lookout.com/api/v1/ios/devices
+https://idpro.prod.lkt.is/api/idpro/v1/public
+https://idpro.prod.lkt.is/api/idpro/v1/service
+https://kddi-he.partners.lookout.com/api/v2/kddi/link
+https://lop.loau.kddi.ne.jp/proxy_server/lookoutProxy/
+https://my.lookout.com/api/v2/kddi/unlink
+https://kddi-he.partners.lookout.com/api/billing/kddi/public/v1/header-enrichment
+https://dm.lookout.com/api/v2/kddi/link
+https://dm.lookout.com/api/v2/kddi/unlink
+https://my.lookout.com/m/pro_basic
+https://my.lookout.com/m/pro_basic
+https://keymaster.lookout.com
+https://keymaster.lookout.com/api/auth/public/v1
+https://dm.lookout.com/api/location/public/v1/locations
+https://dm.lookout.com/api/missing_device/public/v1/locks
+https://my.lookout.com/user/login.json
+https://my.lookout.com/
+https://dm.lookout.com/api/lock_screen_photos/public/v1
+https://tm1.lookout.com/api/telemetry/public/v1/event
+https://my.lookout.com/m/lookup_msisdn
+http://orange-connect.orange.fr/amp/connect/lookout/public/orangeAuth
+https://notifications-orange.partners.lookout.com/api/billing/orange/client/v1/update_orange_auth
+https://notifications-orange.partners.lookout.com/partners/orange/retrievePartnerId
+https://orange-he.partners.lookout.com/partners/orange/retrievePartnerId
+https://orange-he.partners.lookout.com/partners/orange/updateOrangeAuth
+https://ota.cloudfront.lookout.com/api/v1/avdef/
+https://backup.lookout.com/api/backup/public/v1/photos
+https://www.lookout.com/legal/privacy-policy/personal-app-privacy-policy
+https://pushcart.lookout.com/api/push/public/v1/messages
+https://pushcart.lookout.com/api/push/public/v1/tokens
+https://pushcart.lookout.com/api/push/public/v1
+https://dm.lookout.com/api/billing/apple/public/v1/purchase
+https://my.lookout.com/m/recover
+https://my.lookout.com/api/v1/msisdn/refresh
+https://my.lookout.com/api/register/public/v3/consumer/device
+https://dm.lookout.com/api/rollouts/public/v1/device
+https://dm.lookout.com/api/safe_browse/public/v1/token
+https://dm.lookout.com/api/missing_device/public/v1/screams
+https://business.lookout.com/b/api/public/v1/devices
+http://oap7.sprintpcs.com/http://sprint-he.partners.lookout.com/api/billing/sprint/public/v1/header-enrichment
+https://sprintpromo.lookout.com/sprintpromo/uapii
+https://my.lookout.com/account/start_trial
+https://www.lookout.com/legal/consumer-terms
+https://www.lookout.com/legal/consumer-terms-app
+https://www.lookout.com/legal/consumer-terms-app
+https://www.lookout.com/legal/privacy-policy/personal-app-privacy-policy-app
+https://www.lookout.com/legal/privacy-policy/personal-app-privacy-policy-app
+http://tmobile-he.partners.lookout.com/api/billing/t_mobile/public/v1/header-enrichment
+https://client-notifications.lookout.com/update-notifications/response.json
+https://my.lookout.com/api/v1/web/user
+https://dm.lookout.com/api/settings/public/v1/user
+https://vpnprofile-prod.prod.lkt.is/api/client/vpn_profile
+https://dm.lookout.com/api/missing_device/public/v1/wipes
+https://personal.lookout.com/mitm/mitm-config.json
+https://locate-prod.prod.lkt.is/api/locate/v2/service/latest
+https://personal.support.lookout.com/
+https://www.lookout.com/m/terms
+https://www.lookout.com/m/terms
+https://www.lookout.com/m/privacy
+https://www.lookout.com/m/privacy
+https://www.lookout.com/jp/legal/terms
+https://www.lookout.com/jp/legal/privacy-policy
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+https://www.lookout.com/m/user/login
+https://www.lookout.com/m/user/login
+https://www.lookout.com/m/recover
+https://www.lookout.com/m/recover
+https://qa0.lookoutqa.com/m/pro_basic
+https://api-m.paypal.com/v1/
+https://www.paypalobjects.com/webstatic/otc/otc-config.android.json
+https://uri.paypal.com/services/payments/futurepayments
+https://uri.paypal.com/services/paypalattributes
+
+[INTERNAL_LOG][2018-06-12 06:09:41,743][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 06:09:41,748][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 06:09:41,748][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 06:09:41,748][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 06:09:41,748][INFO][analyze_start()] End time:[Tue Jun 12 06:09:41 2018]
