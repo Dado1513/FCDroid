@@ -15,3 +15,15 @@ class MongoDB:
             self.analysis_db = self.db['HybridAnalysis']
         except Exception:
             print("Unable to connect mongodb")
+
+    def find_analysis(self,apk_name):
+        """
+            search if analysis are  yet executed
+        """
+        result = self.client.find_one({"name_apk":apk_name})
+
+    def insert_analysis(self,apk,retire_local,retire_remote):
+        """
+            function to insert element in mongo db after scan
+
+        """

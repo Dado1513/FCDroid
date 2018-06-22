@@ -26,17 +26,7 @@ apk_with_js_enabled = list()
 apk_with_js_interface = list()
 
 
-def find_analysis(apk_name):
-    """
-        search if analysis are  yet executed
-    """
-    result = client.find_one({"name_apk":apk_name})
 
-def insert_analysis(apk,retire_local,retire_remote):
-    """
-        function to insert element in mongo db after scan
-
-    """
 
 def analyze_start(conf, apk_to_analyze, tag, string_to_find, api_monitor_dict=None, network_dict=None):
     print(bcolors.BOLD+apk_to_analyze.split("/")[-1]+bcolors.ENDC)
