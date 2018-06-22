@@ -20,7 +20,7 @@ class MongoDB:
         """
             search if analysis are  yet executed
         """
-        result = self.client.find_one({"name_apk":apk_name})
+        result = self.analysis_db.find_one({"name_apk":apk_name})
         return result
 
     def insert_analysis(self,apk,retire_local,retire_remote):
@@ -29,7 +29,20 @@ class MongoDB:
 
         """
         dict_to_insert = dict()
+        dict_to_insert["name_apk"] = apk.name_only_apk
         dict_to_insert["html_file"] = list(apk.html_file.keys()) # all html file
         dict_to_insert["js_file"] = list(apk.javascript_file.keys())
-        dict_to_insert["is_hybrid"] = str(apk.is_hybrid)
-        dict_to_insert["permission"] = apk.get_permissions()
+        dict_to_insert["is_hybrid"] = str(apk.isHybrid)
+        dict_to_insert["permission"] = apk.apk.get_permissions()
+        dict_to_insert["frame_confusion_vulnerable"] = apk.vulnerable_frame_confusion()
+        dict_to_insert["file_config_hybrid"] = apk.file_hybrid
+        dict_to_insert["file_origin_access"] = apk.list_origin_access
+        dict_to_insert["file_without_csp"] = [key for key,value in apk.find_csp.items() if not value ]
+        dict_to_insert["file_js_with_iframe"] = apk.file_js_with_iframe
+        if retire_local is not None:
+            dict_to_insert["retire_locale"] = retire_local 
+        if retire_remote is not None:   
+            dict_to_insert["retire_remote"] = retire_remote
+        self.analysis_db.insert_one(dict_to_insert)
+
+    

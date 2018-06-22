@@ -133,7 +133,7 @@ class MyAPK:
             try:
                 if self.isHybrid:
                     # now can search file in temp_dir
-                    file_xml = open("temp_dir/res/xml/config.xml")
+                    file_xml = open("temp_dir_{0}/res/xml/config.xml".format(self.name_only_apk))
                     file_data_xml = str(file_xml.read())
                     self.file_config_hybrid = file_data_xml
                     # parsing file config

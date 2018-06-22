@@ -33,16 +33,19 @@ def analyze_start(conf, apk_to_analyze, tag, string_to_find, api_monitor_dict=No
         os.makedirs("log")
     
     log_file = "log/"+apk_to_analyze.split("/")[-1]+".log"
-    if not os.path.exists(log_file):
+    #if not os.path.exists(log_file):
 
-        logger = Logger(log_file)
-        # file_log = open(log_file,"w")
-        print(bcolors.WARNING+"[*] Searching in "+apk_to_analyze+bcolors.ENDC)
-        logger.logger.info("Init Time ["+time.ctime()+"]")
-        try:
-            apk = MyAPK(apk_to_analyze, conf, log_file, tag, string_to_find, logger, \
-                        api_monitor_dict=api_monitor_dict, network_dict=network_dict) # dict che arrivano dall'analisi dinamica
+    logger = Logger(log_file)
+    # file_log = open(log_file,"w")
+    print(bcolors.WARNING+"[*] Searching in "+apk_to_analyze+bcolors.ENDC)
+    logger.logger.info("Init Time ["+time.ctime()+"]")
+    try:
+        apk = MyAPK(apk_to_analyze, conf, log_file, tag, string_to_find, logger, \
+                    api_monitor_dict=api_monitor_dict, network_dict=network_dict) # dict che arrivano dall'analisi dinamica
         
+        mongo = MongoDB()
+        result = mongo.find_analysis(apk.name_only_apk)
+        if result is None:
             # thread per la decompilazione
             thread_decompilyng = ThreadDecompyling(apk,logger)
             # TODO gestire keyboard interrupt
@@ -105,15 +108,17 @@ def analyze_start(conf, apk_to_analyze, tag, string_to_find, api_monitor_dict=No
                 logger.logger.error("Some error during decompilation.")
 
             logger.shutdown()
-        except BadZipfile:
-            logger.logger.error("APK corrupted")
-            print(bcolors.FAIL+"APK corrupted"+bcolors.ENDC)
+            apktool_retire,remote_retire = scan_retire(apk)
+            mongo.insert_analysis(apk,apktool_retire,remote_retire)
+        else:
+            print(result)
+
+    except BadZipfile:
+        logger.logger.error("APK corrupted")
+        print(bcolors.FAIL+"APK corrupted"+bcolors.ENDC)
+
+ 
     
-        scan_retire(apk)
-    else:
-        print("Analysis already done see file {0}\n".format(log_file))
-        return False
-   
 def main():
     second_start = time.time()
     parser = argparse.ArgumentParser(
@@ -223,26 +228,29 @@ def scan_retire(apk):
     process = subprocess.Popen(cmd,stdout=subprocess.PIPE,stderr=subprocess.PIPE)
     out,err = process.communicate()
     #print(str(out))
+    output_retire_apk_tool = None
     if process.returncode == 13:
         #print(process.returncode)
         #print(str(out))
         output = str(err,'utf-8') # output retire js
         output_retire_apk_tool = json.loads(output)
-        print(output_retire_apk_tool)
+        #print(output_retire_apk_tool)
 
     dir_html_code = "temp_html_code/html_downlaoded_"+apk.name_only_apk
     cmd.remove(dir_apk_tool)
     cmd.append(dir_html_code)
     process = subprocess.Popen(cmd,stdout=subprocess.PIPE,stderr=subprocess.PIPE)
     out,err = process.communicate()
+    output_retire_remote = None
     if process.returncode == 13:
         #print(str(out))
         output = str(err,'utf-8') # output retire js
         output_retire_remote = json.loads(output)
-        print(output_retire_remote)
+        #print(output_retire_remote)
     cmd_remove_dir = ["rm","-rf",dir_apk_tool]
     subprocess.call(cmd_remove_dir)
     
+    return output_retire_apk_tool,output_retire_remote
 
 
 def load_conf_file(file_name):
