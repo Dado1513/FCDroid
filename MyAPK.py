@@ -29,6 +29,7 @@ class MyAPK:
     def __init__(self, name_file, conf, file_log, tag, string_to_find, logger, api_monitor_dict=None, network_dict=None):
         
         self.name_apk = name_file
+        self.name_only_apk = self.name_apk.split("/")[-1].split(".")[0]
         self.conf = conf
         self.apk = APK(name_file)
         self.dalviks_format = None
@@ -118,35 +119,28 @@ class MyAPK:
             self.is_contain_permission = len(permission_find) == len(list_permission_to_find)
 
             self.isHybrid = self.is_contain_permission and self.is_contain_file_hybrid
+            # non sempre funziona a volte bisogna decompilare l'app manualmente per ottenere questo file
+            # axml = AXMLPrinter(self.apk.get_file("res/xml/config.xml"))
+            # self.file_config_hybrid = axml.get_xml()
+            
+            # using apktool
+            FNULL = open(os.devnull, 'w')
+            print(bcolors.WARNING+"[*] Starting apktool "+bcolors.ENDC)
+            self.logger.logger.info("Starting apktool")
+            cmd = ["apktool","d","-o","temp_dir_"+self.name_only_apk,self.name_apk,"-f"]
+            subprocess.call(cmd, stdout=FNULL,stderr=subprocess.STDOUT)
+            
             try:
                 if self.isHybrid:
-                    # non sempre funziona a volte bisogna decompilare l'app manualmente per ottenere questo file
-                    # axml = AXMLPrinter(self.apk.get_file("res/xml/config.xml"))
-                    # self.file_config_hybrid = axml.get_xml()
-                    
-                    # using apktool
-                    FNULL = open(os.devnull, 'w')
-                    print(bcolors.WARNING+"[*] Starting apktool "+bcolors.ENDC)
-                    self.logger.logger.info("Starting apktool")
-                    cmd = ["apktool","d","-o","temp_dir",self.name_apk,"-f"]
-                    subprocess.call(cmd, stdout=FNULL,stderr=subprocess.STDOUT)
                     # now can search file in temp_dir
                     file_xml = open("temp_dir/res/xml/config.xml")
                     file_data_xml = str(file_xml.read())
                     self.file_config_hybrid = file_data_xml
                     # parsing file config
                     self.check_whitelist()
-                    # delete directory
-                    cmd = ["rm","-rf","temp_dir"]
-                    subprocess.call(cmd)
-
-            
+                    
             except OSError as e:
                 print(bcolors.FAIL+"File config.xml not found, it is necessary to decompile the application first"+bcolors.ENDC)
-                cmd = ["rm","-rf","temp_dir"]
-                subprocess.call(cmd)
-            
-
                 # remove dir
                 self.logger.logger.error("[ERROR file config.xmls] {0} \n".format(e))
 
@@ -441,7 +435,8 @@ class MyAPK:
             self.logger.logger.info("[START URL LOADED INSIDE LOAD FUNCTION]")
             self.logger.logger.info("".join(str(i)+"\n" for i in self.url_loaded))
             self.logger.logger.info("[END URL LOADED INSIDE LOAD FUNCTION]")
-            self.download_page_loaded()
+            #self.download_page_loaded()
+            self.download_page_loaded_with_wget()
             self.find_string(self.file_download_to_analyze, remote=True)
 
         if len(self.all_url) > 0 :
@@ -463,15 +458,34 @@ class MyAPK:
             #self.logger.logger.error("Error as encoded_method {0} on method get_source_code {1}".format(encoded_method,e))
             return None
 
+    def download_page_loaded_with_wget(self):
+        """
+            function to download the page loaded by the app
+            using list self.url_loaded
+            after this -> check if frame confusion may come from this
+        """
+        html_dir = "temp_html_code/html_downloaded_"+self.name_only_apk
+        print(bcolors.WARNING+"\n[*] Download remote page in: "+html_dir+bcolors.ENDC)
+        cmd_wget = ['wget' ,'-E', '-H' ,'-k',' -K ','-T','5','-nd' ,'-N', '-p','-P', html_dir]
+        FNULL = open(os.devnull, 'w')
+        for url in self.url_loaded:
+            cmd_wget.append(url)
+            subprocess.call(cmd_wget,stdout=FNULL,stderr=FNULL)
+            name_file = url.split("/")[-1]
+            path_complete = html_dir+"/"+name_file
+            self.name_to_url[path_complete] = url 
+            self.file_download_to_analyze[path_complete] = False
+            cmd_wget.remove(url)
+            
     def download_page_loaded(self):
         """
             function to download the page loaded by the app
             using list self.url_loaded
             after this -> check if frame confusion may come from this
         """
-        name_only_apk = self.name_apk.split("/")[-1].split(".")[0]
+        #name_only_apk = self.name_apk.split("/")[-1].split(".")[0]
         
-        html_dir = "temp_html_code/html_downloaded_"+name_only_apk
+        html_dir = "temp_html_code/html_downloaded_"+self.name_only_apk
         if not os.path.exists(html_dir):
             os.makedirs(html_dir)
         print(bcolors.WARNING+"\n[*] Download remote page in: "+html_dir+bcolors.ENDC)

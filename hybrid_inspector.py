@@ -2,6 +2,7 @@
 import argparse
 import glob
 import json
+import subprocess
 from zipfile import BadZipfile
 import os
 from MyAPK import MyAPK
@@ -9,7 +10,7 @@ from ThreadDecompyling import ThreadDecompyling
 import time
 from bcolors import bcolors
 from Logger import Logger
-import pymongo
+from pymongo import MongoClient
 
 try:
     from StringIO import StringIO
@@ -32,7 +33,7 @@ else:
     client = MongoClient(db_url, connect=False)
 try:
     db = client['db']
-    analysis_db = db['DynamicAnalysis']
+    analysis_db = db['HybridAnalysis']
 except Exception:
     print("Unable to connect mongodb")
 
@@ -118,6 +119,8 @@ def analyze_start(conf, apk_to_analyze, tag, string_to_find, api_monitor_dict=No
         except BadZipfile:
             logger.logger.error("APK corrupted")
             print(bcolors.FAIL+"APK corrupted"+bcolors.ENDC)
+    
+        scan_retire(apk)
     else:
         print("Analysis already done see file {0}\n".format(log_file))
         return False
@@ -220,6 +223,35 @@ def main():
             parser.error(bcolors.FAIL+"tool required -f file-name or -d dir-apk "+bcolors.ENDC)    
     else:
         print(bcolors.FAIL+"file "+file_conf+" not found"+bcolors.ENDC)
+
+def scan_retire(apk):
+    """
+        method that use retirejs to scan eventually vulnerability 
+        in library js used by app
+    """
+    dir_apk_tool = "temp_dir_"+apk.name_only_apk
+    cmd = ['retire','-j','--outputformat','json','--path',dir_apk_tool]
+    process = subprocess.Popen(cmd,stdout=subprocess.PIPE,stderr=subprocess.PIPE)
+    out,err = process.communicate()
+    #print(str(out))
+    if process.returncode == 13:
+        #print(process.returncode)
+        #print(str(out))
+        output = str(err,'utf-8') # output retire js
+        output_retire_apk_tool = json.loads(output)
+
+    dir_html_code = "temp_html_code/html_downlaoded_"+apk.name_only_apk
+    cmd.remove(dir_apk_tool)
+    cmd.append(dir_html_code)
+    process = subprocess.Popen(cmd,stdout=subprocess.PIPE,stderr=subprocess.PIPE)
+    out,err = process.communicate()
+    if process.returncode == 13:
+        #print(str(out))
+        output = str(err,'utf-8') # output retire js
+        output_retire_remote = json.loads(output)
+    cmd_remove_dir = ["rm","-rf",dir_apk_tool]
+    subprocess.call(cmd_remove_dir)
+    
 
 
 def load_conf_file(file_name):
