@@ -35,6 +35,10 @@ class MongoDB:
         dict_to_insert["is_hybrid"] = str(apk.isHybrid)
         dict_to_insert["permission"] = apk.apk.get_permissions()
         dict_to_insert["frame_confusion_vulnerable"] = apk.vulnerable_frame_confusion()
+        dict_to_insert["js_enable"] = apk.javascript_enabled
+        dict_to_insert["js_interface"] = apk.javascript_interface
+        dict_to_insert["url_loaded"] = apk.url_loaded
+        dict_to_insert["all_url"] = apk.all_url
         dict_to_insert["file_config_hybrid"] = apk.file_hybrid
         dict_to_insert["file_origin_access"] = apk.list_origin_access
         dict_to_insert["file_without_csp"] = [key for key,value in apk.find_csp.items() if not value ]

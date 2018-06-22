@@ -111,7 +111,20 @@ def analyze_start(conf, apk_to_analyze, tag, string_to_find, api_monitor_dict=No
             apktool_retire,remote_retire = scan_retire(apk)
             mongo.insert_analysis(apk,apktool_retire,remote_retire)
         else:
-            print(result)
+            #print(result)
+            #print(result["name_apk"])
+            print("Analysis yet done")
+            if len(result["file_js_with_iframe"]) > 0:
+                apk_maybe_vulnerable.append(apk_to_analyze)
+            if result["frame_confusion_vulnerable"]:
+                apk_vulnerable.append(apk_to_analyze)
+            if result["js_enable"]:
+                apk_with_js_enabled.append(apk_to_analyze)
+            if result["js_interface"]:
+                apk_with_js_interface.append(apk_to_analyze)
+            if len(result["html_file"]) > 0 or len(result["url_loaded"]) > 0:
+                apk_with_html_file.append(apk)
+            
 
     except BadZipfile:
         logger.logger.error("APK corrupted")
