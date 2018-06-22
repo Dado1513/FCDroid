@@ -10,8 +10,7 @@ from ThreadDecompyling import ThreadDecompyling
 import time
 from bcolors import bcolors
 from Logger import Logger
-from pymongo import MongoClient
-
+from mongo_utils import MongoDB
 try:
     from StringIO import StringIO
 except ImportError:
