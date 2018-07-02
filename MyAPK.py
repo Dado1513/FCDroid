@@ -6,7 +6,7 @@ import re
 import zipfile
 import subprocess
 from xssdom import Page
-
+import re
 from bs4 import BeautifulSoup
 import requests
 from androguard.core.analysis.analysis import Analysis
@@ -615,11 +615,25 @@ class MyAPK:
             if keys in function_load_url:
                 url_api_monitor = list(set().union(url_api_monitor,self.api_monitor_dict[keys]["args"]))
         url_api_monitor = filter(lambda x: x.startswith("http://") or x.startswith("https://"),url_api_monitor)
+        
         # ora devo filtrare solo le url che sono http/https
         url_network = list()
         for keys in self.network_dict.keys():
+            # TODO check
+            url_list_new = list()
+            for url in self.network_dict[keys]["url"]:
+                # search ip
+                ip = re.findall(r"[0-9]+(?:\.[0-9]+){3}",url)
+                if ip != None and len(ip) > 0:
+                    # change ip with host
+                    url_new = url.replace(ip[0],self.network_dict[keys]["host"])
+                    url_list_new.append(url_new)
+                else:
+                    url_list_new.append(url)
+            # add new url
+            self.network_dict[keys]["url"] = url_list_new
             url_network = list(set().union(url_network,self.network_dict[keys]["url"]))
-        
+
         self.url_loaded = list(set().union(self.url_loaded,url_api_monitor,url_network))
         self.all_url = list(set().union(self.all_url,self.url_loaded))
         self.logger.logger.info("".join(str(i)+"\n" for i in self.url_loaded))
