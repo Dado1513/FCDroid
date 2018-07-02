@@ -5,6 +5,8 @@ import os
 import re
 import zipfile
 import subprocess
+from xssdom import Page
+
 from bs4 import BeautifulSoup
 import requests
 from androguard.core.analysis.analysis import Analysis
@@ -19,6 +21,7 @@ from androguard.decompiler.decompiler import (DecompilerJADX,
 from androguard.misc import AnalyzeAPK
 from androguard.core.analysis.analysis import StringAnalysis
 from bcolors import bcolors
+import threading
 import xml.etree.ElementTree as ET
 
 show_logging(level=logging.CRITICAL)
@@ -67,6 +70,7 @@ class MyAPK:
         self.javascript_file = dict()
         self.__find_js_file()
         self.src_iframe = dict()
+        self.page_xss_vuln = list()
         
     
     def __find_html_file(self):
@@ -176,6 +180,15 @@ class MyAPK:
                 self.logger.logger.info("origin: %s",value)
             self.logger.logger.info("[END ACCESS ORIGIN LIST]\n")
 
+    def analyze_xss_dom(self, file_name, file_content):
+        """ 
+            search static dom xss based on regex
+        """
+        page_analyze = Page(file_name,file_content)
+        page_analyze.analyze_page() # analyze 
+        if len(page_analyze.sink) > 0 or len(page_analyze.source) > 0:
+            self.page_xss_vuln.append(page_analyze)
+
     def find_string(self,  file_to_search, remote=False, debug=False):
         """
             find string inside file of apk(html,xml,ecc..) (not yet decompiled)
@@ -208,6 +221,11 @@ class MyAPK:
                 data = self.zip.open(file_to_inspect)
             else:
                 data = open(file_to_inspect,"r")
+            
+            # start xss analysis on this file
+            thread = threading.Thread(name="xss_"+file_to_inspect,target=self.analyze_xss_dom,args=(file_to_inspect,data,))
+            thread.start()
+            
             try:
                 file_read = str(data.read())
                 soup = BeautifulSoup(file_read,'lxml')
