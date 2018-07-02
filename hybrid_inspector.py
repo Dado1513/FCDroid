@@ -109,11 +109,10 @@ def analyze_start(conf, apk_to_analyze, tag, string_to_find, api_monitor_dict=No
 
             logger.shutdown()
             apktool_retire,remote_retire = scan_retire(apk)
-            mongo.insert_analysis(apk,apktool_retire,remote_retire)
+            logger.logger.info("RetireJS: {0} \n {1} ".format(apktool_retire, remote_retire))
+            mongo.insert_analysis(apk,apktool_retire,remote_retire,logger)
         else:
-            #print(result)
-            #print(result["name_apk"])
-            print("Analysis yet done")
+            logger.logger.info("Analysis yet done")
             if len(result["file_js_with_iframe"]) > 0:
                 apk_maybe_vulnerable.append(apk_to_analyze)
             if result["frame_confusion_vulnerable"]:

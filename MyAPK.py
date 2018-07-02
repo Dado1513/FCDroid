@@ -469,6 +469,8 @@ class MyAPK:
         cmd_wget = ['wget' ,'-E', '-H' ,'-k',' -K ','-T','5','-nd' ,'-N', '-p','-P', html_dir]
         FNULL = open(os.devnull, 'w')
         for url in self.url_loaded:
+            if url[-1] == "/":
+                url = url[:-1]    
             cmd_wget.append(url)
             subprocess.call(cmd_wget,stdout=FNULL,stderr=FNULL)
             name_file = url.split("/")[-1]
