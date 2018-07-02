@@ -588,7 +588,7 @@ class MyAPK:
             dall'analisi dinamica
         """
 
-        self.logger.logger.info("Init add url dynamic analysis")
+        self.logger.logger.info("[Init add url dynamic ]")
         function_load_url = ["loadUrl"] # funzioni che caricano url in Android
         url_api_monitor = list()
         for keys in self.api_monitor_dict.keys():
@@ -603,4 +603,4 @@ class MyAPK:
         self.url_loaded = list(set().union(self.url_loaded,url_api_monitor,url_network))
         self.all_url = list(set().union(self.all_url,self.url_loaded))
         self.logger.logger.info("".join(str(i)+"\n" for i in self.url_loaded))
-        self.logger.logger.info("End, url dynamic analysis added")
+        self.logger.logger.info("[End url dynamic ]")
