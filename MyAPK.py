@@ -67,6 +67,7 @@ class MyAPK:
         self.javascript_file = dict()
         self.__find_js_file()
         self.src_iframe = dict()
+        
     
     def __find_html_file(self):
         
@@ -197,6 +198,11 @@ class MyAPK:
                     print("URL: "+self.name_to_url[file_to_inspect])
                     self.logger.logger.info("Remote File in: %s",file_to_inspect)
                     self.logger.logger.info("URL: %s",self.name_to_url[file_to_inspect])
+            
+            if remote and not (file_to_inspect.endswith(".js") or file_to_inspect.endswith(".html")): 
+                # add extension html on file
+                # of default wget add this extension
+                file_to_inspect = file_to_inspect + ".html"
                 
             if insideAPK:
                 data = self.zip.open(file_to_inspect)
@@ -327,7 +333,7 @@ class MyAPK:
                 # from method_name get list dove esso viene chiamato
                 self.method[method_name] = list(method_analys.get_xref_from())
         
-        else: # TODO to make faster analysis
+        else: # TODO to make faster analysis but not work
             self.dalvik_format = DalvikVMFormat(self.apk)
             for encoded_method in self.dalvik_format.get_methods():
                 method_analysis = MethodClassAnalysis(encoded_method)

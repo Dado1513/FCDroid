@@ -6,9 +6,9 @@ SINKS_RE = re.compile("""/((src|href|data|location|code|value|action)\s*["'\]]*\
 # try to add outerHTML
 # jQuery like html|append|after|before|replaceAll|replaceWith|
 class Page:
-    def __init__(self, name_file):
+    def __init__(self, name_file, source=None):
         self.name_file = name_file
-        self.source = open(name_file,"r").read()
+        self.source = source if source != None else open(name_file,"r").read()
         self.sink = []
         self.source = []
 

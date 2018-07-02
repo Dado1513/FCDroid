@@ -109,7 +109,7 @@ def analyze_start(conf, apk_to_analyze, tag, string_to_find, api_monitor_dict=No
 
             logger.shutdown()
             apktool_retire,remote_retire = scan_retire(apk)
-            logger.logger.info("RetireJS: {0} \n {1} ".format(apktool_retire, remote_retire))
+            logger.logger.info("RetireJS: {0} , {1} ".format(apktool_retire, remote_retire))
             mongo.insert_analysis(apk,apktool_retire,remote_retire,logger)
         else:
             logger.logger.info("Analysis yet done")
