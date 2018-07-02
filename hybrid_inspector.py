@@ -74,8 +74,8 @@ def analyze_start(conf, apk_to_analyze, tag, string_to_find, api_monitor_dict=No
 
             if not thread_decompilyng.error:
                 apk.find_url_in_apk()
-                
-                if apk.vulnerable_frame_confusion():
+                apk.vulnerable_frame_confusion()
+                if apk.is_vulnerable_frame_confusion:
                     print(bcolors.FAIL + "\nThis app might be vulnerable on attack frame confusion." +bcolors.ENDC)
                     apk_vulnerable.append(apk_to_analyze)
                     print(bcolors.FAIL + "This file are vulnerable " + str(apk.file_vulnerable_frame_confusion)+bcolors.ENDC)
@@ -110,7 +110,9 @@ def analyze_start(conf, apk_to_analyze, tag, string_to_find, api_monitor_dict=No
             logger.shutdown()
             apktool_retire,remote_retire = scan_retire(apk)
             logger.logger.info("RetireJS: {0} , {1} ".format(apktool_retire, remote_retire))
+            print(apk.page_xss_vuln.keys())  
             mongo.insert_analysis(apk,apktool_retire,remote_retire,logger)
+
         else:
             logger.logger.info("Analysis yet done")
             if len(result["file_js_with_iframe"]) > 0:

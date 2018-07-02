@@ -4,15 +4,16 @@ from pymongo import MongoClient
 
 class MongoDB:
     def __init__(self):
-        if 'DATABASE_URL' in os.environ:
-            self.db_url = os.environ['DATABASE_URL']
-            self.client = MongoClient(self.db_url, connect=False)
-        else:
-            self.db_url = 'mongodb://localhost:27117/db' # conencto to mongodb inside docker
-            self.client = MongoClient(self.db_url, connect=False)
         try:
-            self.db = self.client['db']
-            self.analysis_db = self.db['HybridAnalysis']
+
+            if 'DATABASE_URL' in os.environ:
+                self.db_url = os.environ['DATABASE_URL']
+                self.client = MongoClient(self.db_url, connect=False)
+            else:
+                self.db_url = 'mongodb://localhost:27117/db' # conencto to mongodb inside docker
+                self.client = MongoClient(self.db_url, connect=False)
+                self.db = self.client['db']
+                self.analysis_db = self.db['HybridAnalysis']
         except Exception:
             print("Unable to connect mongodb")
 
@@ -28,14 +29,14 @@ class MongoDB:
             function to insert element in mongo db after scan
 
         """
-        logger.logger.info("Insert documen in collection db")
+        logger.logger.info("Insert document in collection db")
         dict_to_insert = dict()
         dict_to_insert["name_apk"] = apk.name_only_apk
         dict_to_insert["html_file"] = list(apk.html_file.keys()) # all html file
         dict_to_insert["js_file"] = list(apk.javascript_file.keys())
         dict_to_insert["is_hybrid"] = str(apk.isHybrid)
         dict_to_insert["permission"] = apk.apk.get_permissions()
-        dict_to_insert["frame_confusion_vulnerable"] = apk.vulnerable_frame_confusion()
+        dict_to_insert["frame_confusion_vulnerable"] = apk.is_vulnerable_frame_confusion
         dict_to_insert["js_enable"] = apk.javascript_enabled
         dict_to_insert["js_interface"] = apk.javascript_interface
         dict_to_insert["url_loaded"] = apk.url_loaded

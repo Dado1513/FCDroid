@@ -70,7 +70,8 @@ class MyAPK:
         self.javascript_file = dict()
         self.__find_js_file()
         self.src_iframe = dict()
-        self.page_xss_vuln = list()
+        self.page_xss_vuln = dict()
+        self.is_vulnerable_frame_confusion = False
         
     
     def __find_html_file(self):
@@ -187,7 +188,8 @@ class MyAPK:
         page_analyze = Page(file_name,file_content)
         page_analyze.analyze_page() # analyze 
         if len(page_analyze.sink) > 0 or len(page_analyze.source) > 0:
-            self.page_xss_vuln.append(page_analyze)
+            self.page_xss_vuln[file_name] = page_analyze
+        
 
     def find_string(self,  file_to_search, remote=False, debug=False):
         """
@@ -593,7 +595,7 @@ class MyAPK:
         
         # se vero whitelist implementato male
         white_list_bug = len(self.list_origin_access) == 0 or "*" in self.list_origin_access
-        return ("iframe" in self.string_to_find and 
+        self.is_vulnerable_frame_confusion = ("iframe" in self.string_to_find and 
                 self.check_method_conf()  and 
                 len(self.dict_file_with_string) > 0 and
                 self.is_contain_permission and

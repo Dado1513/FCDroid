@@ -8,7 +8,7 @@ SINKS_RE = re.compile("""/((src|href|data|location|code|value|action)\s*["'\]]*\
 class Page:
     def __init__(self, name_file, source=None):
         self.name_file = name_file
-        self.source = source if source != None else open(name_file,"r").read()
+        self.source_code = source if source != None else open(name_file,"r").read()
         self.sink = []
         self.source = []
 
@@ -23,7 +23,8 @@ class Page:
         
     def analyze_page(self):
 
-        for k, line in enumerate(self.source.split("\n")):
+    
+        for k, line in enumerate(self.source_code.split("\n")):
             for pattern in re.finditer(SOURCES_RE, line):
                 for grp in pattern.groups():
                     if grp is None: continue
