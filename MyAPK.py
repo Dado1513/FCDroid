@@ -223,7 +223,7 @@ class MyAPK:
                 data = open(file_to_inspect,"r")
             
             # start xss analysis on this file
-            thread = threading.Thread(name="xss_"+file_to_inspect,target=self.analyze_xss_dom,args=(file_to_inspect,data,))
+            thread = threading.Thread(name="xss_"+file_to_inspect,target=self.analyze_xss_dom,args=(file_to_inspect,str(data.read()),))
             thread.start()
             
             try:
