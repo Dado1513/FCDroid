@@ -1,0 +1,701 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta name="google-site-verification" content="6pdsOQXRQS8cF4V-K6FB-Eeb0t5P6STGdnot97MGwLA" />
+        <meta name="com.silverpop.brandeddomains" content="www.pages03.net,sygic.com,sygic.mkt6669.com" />
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+                <link rel="alternate" hreflang="en" href="https://www.sygic.com/company/privacy-policy" />
+                <link rel="alternate" hreflang="de" href="https://www.sygic.com/de/company/privacy-policy" />
+                <link rel="alternate" hreflang="sk" href="https://www.sygic.com/sk/company/privacy-policy" />
+                <link rel="alternate" hreflang="it" href="https://www.sygic.com/it/company/privacy-policy" />
+                <link rel="alternate" hreflang="fr" href="https://www.sygic.com/fr/company/privacy-policy" />
+                <link rel="alternate" hreflang="es" href="https://www.sygic.com/es/company/privacy-policy" />
+                <link rel="alternate" hreflang="pt" href="https://www.sygic.com/pt-br/company/privacy-policy" />
+                <link rel="alternate" hreflang="pl" href="https://www.sygic.com/pl/company/privacy-policy" />
+        
+        <title>Privacy policy - Company - Sygic | Bringing life to maps</title>
+        <meta name="description" content="Sygic creates the world&lsquo;s most installed GPS navigation software and location based applications for iPhone, Android and Widlows Phone. Our software powers professional solutions for governments and private companies." />
+        <meta name="keywords" content="GPS,navigation,gps navigation,android,android navigation,navigation for android,navigation for smartphones,car navigation,navigation software,poi,sygic,gps software,navigation for iphone,iphone,route guidance,directions,maps,gps navigation systems" />
+
+        <link rel="stylesheet" href="https://www.sygic.com/assets/css/main-old.css?upd21052018">        <link rel="stylesheet" href="https://www.sygic.com/assets/css/font-awesome.min.css">        <link rel="stylesheet" href="https://www.sygic.com/assets/css/header.min.css?upd27041601">
+        <meta property="og:title" content="Privacy policy" />
+        <meta property="og:url" content="https://www.sygic.com/company/privacy-policy" />
+        <meta property="og:description" content="Sygic creates the world&lsquo;s most installed GPS navigation software and location based applications for iPhone, Android and Widlows Phone. Our software powers professional solutions for governments and private companies." />
+
+</head>
+<body>
+
+  <header class="header light">
+    <div class="header__logo">
+      <a href="https://www.sygic.com/gps-navigation"><span><!-- logo --></span></a>
+    </div>
+    <div class="header__buttons">
+            <div class="header__eshop">
+        <i class="fa fa-shopping-basket"></i>
+        <a href="//eshop.sygic.com/en/">Pricing</a>
+      </div>
+            <div class="header__languages">
+        <i class="fa fa-globe"></i>
+        <a href="#">English</a>
+      </div>
+      <div class="header__menu">
+        <i class="fa fa-bars"></i>
+        <a href="#">Menu</a>
+      </div>
+    </div>
+        <div class="header__navigation">
+      <nav>
+                <ul>
+                    <li><a   onClick="ga('send', 'event', 'Web - Menu', 'click', 'Menu - Company - GPS Navigation');" href="https://www.sygic.com/gps-navigation">GPS Navigation</a></li>
+                    <li><a   onClick="ga('send', 'event', 'Web - Menu', 'click', 'Menu - Company - Car Navigation');" href="https://www.sygic.com/car-navigation">Car Navigation</a></li>
+                    <li><a   onClick="ga('send', 'event', 'Web - Menu', 'click', 'Menu - Company - Travel');" href="https://www.sygic.com/travel">Travel</a></li>
+                    <li><a   onClick="ga('send', 'event', 'Web - Menu', 'click', 'Menu - Company - About');" href="https://www.sygic.com/about">About</a></li>
+                    <li><a   onClick="ga('send', 'event', 'Web - Menu', 'click', 'Menu - Company - Support');" href="https://www.sygic.com/help">Support</a></li>
+                    <li><a   onClick="ga('send', 'event', 'Web - Menu', 'click', 'Menu - Company - Business');" href="https://www.sygic.com/business">Business</a></li>
+                    <li><a   onClick="ga('send', 'event', 'Web - Menu', 'click', 'Menu - Company - Developers');" href="https://www.sygic.com/developers">Developers</a></li>
+                  </ul>
+              </nav>
+    </div>
+      </header>
+
+  <div class="sitemap" style="display: none;">
+  <div class="sitemap__box">
+    <div class="sitemap__headline">
+        <ul>
+          <li><a data-value="languages" href="#"><i class="fa fa-globe"></i> Select language</a></li>
+          <li><a data-value="navigation" href="#"><i class="fa fa-bars"></i> Navigate through website</a></li>
+        </ul>
+      <span class="sitemap__headline--close">
+        <img src="https://www.sygic.com/assets/images/close_icon.svg" alt="close" />
+      </span>
+    </div>
+    <div class="sitemap__line--borders"><hr /></div>
+    <div class="sitemap__content" data-value="languages">
+      <div class="sitemap__column">
+        <a href="https://www.sygic.com/company/privacy-policy">
+          <img src="https://www.sygic.com/assets/images/en.svg" />
+          <p>English</p>
+        </a>
+      </div>
+      <div class="sitemap__column">
+        <a href="https://www.sygic.com/de/company/privacy-policy">
+          <img src="https://www.sygic.com/assets/images/de.svg" />
+          <p>Deutsch</p>
+        </a>
+      </div>
+      <div class="sitemap__column">
+        <a href="https://www.sygic.com/sk/company/privacy-policy">
+          <img src="https://www.sygic.com/assets/images/sk.svg" />
+          <p>Slovensky</p>
+        </a>
+      </div>
+      <div class="sitemap__column">
+        <a href="https://www.sygic.com/it/company/privacy-policy">
+          <img src="https://www.sygic.com/assets/images/it.svg" />
+          <p>Italiano</p>
+        </a>
+      </div>
+      <div class="sitemap__column">
+        <a href="https://www.sygic.com/fr/company/privacy-policy">
+          <img src="https://www.sygic.com/assets/images/fr.svg" />
+          <p>Fran&ccedil;ais</p>
+        </a>
+      </div>
+      <div class="sitemap__column">
+        <a href="https://www.sygic.com/es/company/privacy-policy">
+          <img src="https://www.sygic.com/assets/images/es.svg" />
+          <p>Espa&ntilde;ol</p>
+        </a>
+      </div>
+    </div>
+    <div class="sitemap__content" data-value="navigation">
+      <!-- PRODUCTS -->
+            <div class="sitemap__column">
+        <a href="https://www.sygic.com/gps-navigation" >
+          <img src="https://www.sygic.com/content/p_gps-navigation-icon.jpg" />
+          <p>GPS Navigation</p>
+        </a>
+      </div>
+            <div class="sitemap__column">
+        <a href="https://www.sygic.com/car-navigation" >
+          <img src="https://www.sygic.com/content/p_car-navigation-icon.jpg" />
+          <p>Car Navigation</p>
+        </a>
+      </div>
+            <div class="sitemap__column">
+        <a href="https://www.sygic.com/family-locator" >
+          <img src="https://www.sygic.com/content/p_family-locator-icon.jpg" />
+          <p>Family Locator</p>
+        </a>
+      </div>
+            <div class="sitemap__column">
+        <a href="https://www.sygic.com/speed-cameras" >
+          <img src="https://www.sygic.com/content/p_speed-cameras-icon.jpg" />
+          <p>Speed Cameras</p>
+        </a>
+      </div>
+            <div class="sitemap__column">
+        <a href="https://www.sygic.com/truck-gps-navigation" >
+          <img src="https://www.sygic.com/content/p_truck-navigation-icon.jpg" />
+          <p>Truck Navigation</p>
+        </a>
+      </div>
+            <div class="sitemap__column">
+        <a href="https://www.sygic.com/taxi-navigation" >
+          <img src="https://www.sygic.com/content/p_taxi-navigation-icon.jpg" />
+          <p>Taxi Navigation</p>
+        </a>
+      </div>
+            <div class="sitemap__column">
+        <a href="https://www.sygic.com/travel" >
+          <img src="https://www.sygic.com/content/p_travel-icon.png" />
+          <p>Travel</p>
+        </a>
+      </div>
+      
+      <!-- SITE LINKS -->
+      <div class="sitemap__line"><hr /></div>
+            <div class="sitemap__column">
+        <a href="https://www.sygic.com/love">
+          <img class="no-radius" src="https://www.sygic.com/content/menu_icon_love_white.svg" />
+          <p>Spread the love</p>
+        </a>
+      </div>
+            <div class="sitemap__column">
+        <a href="https://www.sygic.com/what-is">
+          <img class="no-radius" src="https://www.sygic.com/content/s_icon_glossary.svg" />
+          <p>Glossary</p>
+        </a>
+      </div>
+            <div class="sitemap__column">
+        <a href="https://www.sygic.com/blog">
+          <img class="no-radius" src="https://www.sygic.com/content/s_icon-blog.svg" />
+          <p>Blog</p>
+        </a>
+      </div>
+            <div class="sitemap__column">
+        <a href="https://www.sygic.com/help">
+          <img class="no-radius" src="https://www.sygic.com/content/s_icon-support.svg" />
+          <p>Support Center</p>
+        </a>
+      </div>
+            <div class="sitemap__column">
+        <a href="https://www.sygic.com/about">
+          <img class="no-radius" src="https://www.sygic.com/content/s_icon-about.svg" />
+          <p>About Sygic</p>
+        </a>
+      </div>
+            <div class="sitemap__column">
+        <a href="https://www.sygic.com/careers">
+          <img class="no-radius" src="https://www.sygic.com/content/s_icon-careeer.svg" />
+          <p>Career in Sygic</p>
+        </a>
+      </div>
+            <div class="sitemap__column">
+        <a href="https://www.sygic.com/press">
+          <img class="no-radius" src="https://www.sygic.com/content/s_icon-press.svg" />
+          <p>Press room</p>
+        </a>
+      </div>
+      
+      <!-- SOCIAL MEDIA -->
+      <div class="sitemap__line"><hr /></div>
+          <div class="sitemap__socialmedia">
+            <p>
+              <a href="//www.facebook.com/sygicofficial"><i class="fa fa-facebook"></i> Facebook</a>
+              <a href="//www.twitter.com/sygicofficial"><i class="fa fa-twitter"></i> Twitter</a>
+              <a href="//www.linkedin.com/company/sygic"><i class="fa fa-linkedin"></i> LinkedIn</a>
+              <a href="//www.youtube.com/user/Sygic"><i class="fa fa-youtube-play"></i> Youtube</a></p>
+        </div>
+      </div>
+
+  </div>
+</div>
+
+    <section id="article">
+        <div class="container">
+            <div class="holder">
+                <div class="row clearfix">
+                    <div class="column header">
+                        <div id="submenu">
+                            <h2>Privacy policy</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="holder narrow">
+                <div class="row clearfix">
+                    <div class="column">
+                        <p><strong>Last Updated: May 18, 2018</strong><br />
+This is the privacy policy of Sygic a. s., with its registered seat at <a id="seat"></a>TwinCity, C, Mlynské Nivy 16, 821 08 Bratislava, Slovakia, company ID No. (IČO): 35 892 030 and affiliated companies belonging to Sygic Group (collectively, “Sygic”, “we”, “us”, “our”, or “we”). This privacy policy provides an overview about how we process personal data about users of our mobile applications, software, websites or generally our products and services we provide to you (the “Services”).</p>
+<h1>Our privacy commitment</h1>
+<p>We take privacy very seriously. Being an EU-based company, we must comply with the <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679&from=EN#d1e1374-1-1">EU general data protection regulation</a> (the „GDPR“) when processing the personal data. We provide our Services either directly to natural person end-users or to our business clients in which case we process personal data about their employees or users. We regard all natural person users of our Services data subjects according to the GDPR.</p>
+<h1>Contact us</h1>
+<p>If you have any questions concerning how we process your personal data, you can contact us at <a href="mailto:privacy@sygic.com">privacy@sygic.com</a> or by post using our <a href="#seat">registered seat address </a>above. All privacy enquiries sent to us are received and reviewed by our data protection officer (‘DPO’) appointed to serve as a contact point for you and supervisory authorities.</p>
+<h1>Why do we process your personal data?</h1>
+<p>Generally, we need to process your personal data in order to:</p>
+<ul>
+<li>provide the Services;</li>
+<li>meet our legal or contractual obligations;</li>
+<li>pursue our legitimate software developer interests.</li>
+</ul>
+<p>In particular, we process your personal data for the following purposes:</p>
+<div class="table-box">
+<table>
+    <thead>
+<tr>
+<td>Purpose</td>
+<td>Legal basis</td>
+</tr>
+</thead>
+<tr>
+<td><a href="#provision_of_the_services">Provision of the Services</a></td>
+<td>Performance of contract pursuant to the Art. 6(1)(b) of the GDPR</td>
+</tr>
+
+<tr>
+<td><a href="#development">Development, improvement &amp; testing</a></td>
+<td>Legitimate interest pursuant to the Art. 6(1)(f) of the GDPR</td>
+</tr>
+
+<tr>
+<td><a href="#direct_marketing">Direct marketing communications (newsletter &amp; push notifications)</a></td>
+<td>Consent pursuant to the Art. 6(1)(a) of the GDPR or similar products or services</td>
+</tr>
+
+<tr>
+<td><a href="#marketing_analytics">Marketing analytics</a></td>
+<td>Legitimate interest pursuant to the Art. 6(1)(f) of the GDPR</td>
+</tr>
+
+<tr>
+<td><a href="#statistics">Statistics</a></td>
+<td>Article 89 of the GDPR</td>
+</tr>
+
+<tr>
+<td><a href="#social_media">Maintaining social media profiles</a></td>
+<td>Legitimate interest pursuant to the Art. 6(1)(f) of the GDPR</td>
+</tr>
+
+<tr>
+<td><a href="#consumer_contests">Consumer contests</a></td>
+<td>Performance of contract pursuant to the Art. 6(1)(b) of the GDPR</td>
+</tr>
+
+<tr>
+<td><a href="#accounting">Billing, Tax &amp; Accounting</a></td>
+<td>Compliance with legal obligations pursuant to the Art. 6(1)(c) of the GDPR</td>
+</tr>
+
+<tr>
+<td><a href="#security">Security of personal data</a></td>
+<td>Compliance with legal obligation the Art. 6(1)(c) of the GDPR</td>
+</tr>
+
+<tr>
+<td><a href="#user_requests">Handling user requests</a></td>
+<td>Compliance with legal obligation the Art. 6(1)(c) of the GDPR</td>
+</tr>
+
+<tr>
+<td><a href="#legal">Legal enforcement</a></td>
+<td>Legitimate interest pursuant to the Art. 6(1)(f) of the GDPR</td>
+</tr>
+</table>
+</div>
+<h1>What do these purposes mean?</h1>
+<h2><a id="provision_of_the_services"></a>Provision of the Services</h2>
+<p>Every time you download any application from Sygic whether through Google Play, iTunes, <a href="https://eshop.sygic.com">Sygic E-Shop</a>, or other stores, you agree to and conclude with us the <a href="eula">End-User-Licence-Agreement</a> which represents a contract concluded between us (“<a href="eula">EULA</a>”). According to <a href="eula">EULA</a>, we are obliged to provide you with the Services which correspond to the specific functionality of the particular application and your in-product purchases. Any processing which is necessary to perform our obligations from the <a href="eula">EULA</a> as explained above is regarded a separate purpose of processing and is not subject to a separate data subject consent. For example, this includes:</p>
+<ul>
+<li>Ensuring the basic functionality and additional functionality of the application (add-ons, features);</li>
+<li>User registration and administration of the user accounts (user login);</li>
+<li>Customer pre-contractual relationship management;</li>
+<li>Handling orders and purchases via app or e-shop;</li>
+<li>Recommendations for better user experience;</li>
+<li>Customer support; or</li>
+<li>Communication of service information to user.</li>
+</ul>
+<p>Provision of the Services covers all the below listed applications while the <a href="eula">EULA</a> might be concluded on behalf of us by different affiliated companies belonging to Sygic Group, as shown below. For avoidance of doubts, Sygic entity acting shown next to your application is “Sygic” according to this privacy policy to you.</p>
+<div class="table-box">
+<table>
+<col width="25%">
+<col width="60%">
+<col width="15%">
+    <thead>
+<tr>
+<td>Application</td>
+<td>Basic functionality description</td>
+<td>Sygic entity, data controller, Service provider</td>
+</tr>
+</thead>
+<tr>
+
+</tr>
+<tr>
+<td>
+<a href="https://play.google.com/store/apps/details?id=com.sygic.aura">GPS Navigation &amp; Offline Maps (Android)</a><br>
+<a href="https://itunes.apple.com/us/app/sygic-gps-navigation-maps/id585193266?mt=8">Sygic GPS Navigation &amp; Maps (iOS)</a>
+</td>
+<td>Offline GPS navigation app with real-time traffic for Android with free 3D offline maps from TomTom. Sygic offers the most accurate real-time traffic information with data collected from 500 million users world-wide, provided by global automotive, mobile operators, mapping &amp; traffic information suppliers.<br>
+This includes following paid apps:<br>
+<a href="https://itunes.apple.com/sk/app/sygic-world-gps-navigation-maps-traffic/id1178904747">Sygic World: GPS Navigation, Maps &amp; Traffic</a><br>
+<a href="https://itunes.apple.com/sk/app/sygic-europe-gps-navigation/id306486840">Sygic Europe - GPS Navigation</a><br>
+</td>
+<td>Sygic, a.s. (Slovakia)</td>
+</tr>
+
+<tr>
+<td>
+<a href="https://play.google.com/store/apps/details?id=com.sygic.incar">Car Navigation (Android)</a><br>
+<a href="https://itunes.apple.com/sk/app/car-navigation-maps-gps/id820326185">Car Navigation: Maps &amp; GPS (iOS)</a>
+</td>
+<td>Navigation app especially optimized to work with your car’s built-in infotainment system via smartphone to in-dash connectivity.</td>
+<td>Sygic, a.s. (Slovakia)</td>
+</tr>
+
+<tr>
+<td>
+<a href="https://play.google.com/store/apps/details?id=com.sygic.truck">Truck GPS Navigation (Android)</a><br>
+<a href="https://itunes.apple.com/sk/app/sygic-truck-gps-navigation/id992127700">Truck GPS Navigation (iOS)</a>
+</td>
+<td>Navigation apps for professionals with special routing for Truck/RV/Van/Caravan/Camper/Bus/Car and detailed navigation &amp; trucker paths for large vehicles with specific restrictions in the offline map.</td>
+<td>Sygic, a.s. (Slovakia)</td>
+</tr>
+
+<tr>
+<td><a href="https://play.google.com/store/apps/details?id=com.sygic.fleet">Professional Navigation</a></td>
+<td>GPS Navigation for professionals with SDK for integration, configurable for any large scale deployment with special routing for Truck, Van, Bus and Car with detailed navigation &amp; trucker paths for large vehicles with specific restrictions in the offline map.</td>
+<td>Sygic, a.s. (Slovakia)</td>
+</tr>
+
+<tr>
+<td><a href="https://play.google.com/store/apps/details?id=com.kajda.fuelio">Fuelio: Gas log &amp; costs</a></td>
+<td>Simple, easy to use android application to track your mileage, gas consumption and gas costs. Using this App you can track car expenses, auto service, your fill-ups, fuel consumption, car´s mileage, gas costs/gas prices and save money.</td>
+<td>Sygic, a.s. (Slovakia)</td>
+</tr>
+
+<tr>
+<td><a href="https://play.google.com/store/apps/details?id=jdc.client.apk">FleetWork</a></td>
+<td>Job dispatch and fleet tracking solution with integrated Sygic GPS Navigation with truck features not requiring additional hardware and ready for integration with enterprise systems.</td>
+<td>Sygic, a.s. (Slovakia)</td>
+</tr>
+
+<tr>
+<td><a href="https://play.google.com/store/apps/details?id=com.sygiclabs.voice">Voice Recorder</a></td>
+<td>Allows you to record your own navigation instructions for Sygic GPS Navigation.</td>
+<td>Sygic, a.s. (Slovakia)</td>
+</tr>
+
+<tr>
+<td>
+<a href="https://play.google.com/store/apps/details?id=com.tripomatic">Sygic Travel Maps Offline &amp; Trip Planner (Android)</a><br>
+<a href="https://itunes.apple.com/us/app/sygic-travel-maps-offline/id519058033?mt=8">Sygic Travel Maps Offline (iOS)</a><br>
+<a href="https://travel.sygic.com">Sygic Travel Maps</a><br>
+<a href="https://maps.sygic.com">Sygic Maps</a>
+</td>
+<td>Maps based applications designed for travelers. Combining detailed travel maps with information from in-house editors, Wikipedia and other sources.</td>
+<td>Tripomatic s.r.o. (Czech Republic)</td>
+<td></td>
+</tr>
+
+<tr>
+<td>Travel guides</td>
+<td>Maps based applications designed for travelers and tailored to selected destinations. Combining detailed travel maps with information from in-house editors, Wikipedia and other sources.<br>Consists of these apps:<br>
+<a href="https://itunes.apple.com/us/app/africa-trip-planner-travel-guide-offline-city-map-for/id694600792?mt=8">Africa Trip Planner, Travel Guide &amp; Offline City Map for Johannesburg, Lagos or Cairo</a><br>
+<a href="https://itunes.apple.com/us/app/amsterdam-offline-map-and-city-guide/id877577243?mt=8">Amsterdam Offline Map and City Guide</a><br>
+<a href="https://itunes.apple.com/us/app/australia-new-zealand-trip-planner-travel-guide-offline/id694597255?mt=8">Australia &amp; New Zealand Trip Planner, Travel Guide &amp; Offline City Map for Sydney, Melbourne or Wellington</a><br>
+<a href="https://itunes.apple.com/us/app/bali-offline-map-guide/id888612463?mt=8">Bali Offline Map &amp; Guide</a><br>
+<a href="https://itunes.apple.com/us/app/barcelona-offline-map-city-guide/id627457117?mt=8">Barcelona Offline Map &amp; City Guide</a><br>
+<a href="https://itunes.apple.com/us/app/berlin-offline-map-city-guide/id630454773?mt=8">Berlin Offline Map &amp; City Guide</a><br>
+<a href="https://itunes.apple.com/us/app/budapest-offline-map-and-city-guide/id905224815?mt=8">Budapest Offline Map and City Guide</a><br>
+<a href="https://itunes.apple.com/us/app/caribbean-south-america-trip-planner-travel-guide-offline/id687637356?mt=8">Caribbean &amp; South America Trip Planner, Travel Guide &amp; Offline Map for Bahamas, Cancun, Costa Rica or Rio de Janeiro</a><br>
+<a href="https://itunes.apple.com/us/app/cebu-island-offline-map-guide-by-tripomatic/id946010342?mt=8">Cebu Island Offline Map &amp; Guide by Tripomatic</a><br>
+<a href="https://itunes.apple.com/us/app/copenhagen-offline-map-and-city-guide/id930446810?mt=8">Copenhagen Offline Map and City Guide</a><br>
+<a href="https://itunes.apple.com/us/app/dubai-offline-map-city-guide/id612920876?mt=8">Dubai Offline Map &amp; City Guide</a><br>
+<a href="https://itunes.apple.com/us/app/florence-trip-planner-travel-guide-offline-city-map/id975492397?mt=8">Florence Trip Planner, Travel Guide &amp; Offline City Map</a><br>
+<a href="https://itunes.apple.com/us/app/france-trip-planner-travel-guide-offline-city-map-for/id681783452?mt=8">France Trip Planner, Travel Guide &amp; Offline City Map for Nice, Lyon or Marseille</a><br>
+<a href="https://itunes.apple.com/us/app/greece-cyprus-trip-planner-travel-guide-offline-city/id694627952?mt=8">Greece and Cyprus Trip Planner, Travel Guide &amp; Offline City Map</a><br>
+<a href="https://itunes.apple.com/us/app/hawaii-oahu-maui-molokai-lanai-and-kauai-offline-map-guide/id899104063?mt=8">Hawaii, Oahu, Maui, Molokai, Lanai and Kauai Offline Map &amp; Guide</a><br>
+<a href="https://itunes.apple.com/us/app/hong-kong-offline-map-city-guide/id612908099?mt=8">Hong Kong Offline Map &amp; City Guide</a><br>
+<a href="https://itunes.apple.com/us/app/italy-vatican-trip-planner-by-tripomatic-travel-guide/id681811095?mt=8">Italy &amp; Vatican Trip Planner by Tripomatic, Travel Guide &amp; Offline City Map</a><br>
+<a href="https://itunes.apple.com/us/app/jamaica-trip-planner-travel-guide-offline-city-map/id953027709?mt=8">Jamaica Trip Planner, Travel Guide &amp; Offline City Map for Kingston, Montego Bay or Negril</a><br>
+<a href="https://itunes.apple.com/us/app/kuala-lumpur-offline-map-and-guide-by-tripomatic/id935281551?mt=8">Kuala Lumpur Offline Map and Guide by Tripomatic</a><br>
+<a href="https://itunes.apple.com/us/app/london-offline-map-city-guide/id603437271?mt=8">London Offline Map &amp; City Guide</a><br>
+<a href="https://itunes.apple.com/us/app/madeira-offline-map-guide-by-tripomatic/id948199885?mt=8">Madeira Offline Map &amp; Guide by Tripomatic</a><br>
+<a href="https://itunes.apple.com/us/app/madrid-trip-planner-travel-guide-offline-city-map/id1008069844?mt=8">Madrid Trip Planner, Travel Guide &amp; Offline City Map</a><br>
+<a href="https://itunes.apple.com/us/app/middle-east-trip-planner-travel-guide-offline-city/id705159059?mt=8">Middle East Trip Planner, Travel Guide &amp; Offline City Map for Istanbul, Jerusalem or Tel Aviv</a><br>
+<a href="https://itunes.apple.com/us/app/milan-trip-planner-travel-guide-offline-city-map/id985958359?mt=8">Milan Trip Planner, Travel Guide &amp; Offline City Map</a><br>
+<a href="https://itunes.apple.com/us/app/munich-offline-map-and-guide-by-tripomatic/id919483516?mt=8">Munich Offline Map and Guide by Tripomatic</a><br>
+<a href="https://itunes.apple.com/us/app/new-york-offline-map-city-guide/id626671066?mt=8">New York Offline Map &amp; City Guide</a><br>
+<a href="https://itunes.apple.com/us/app/paris-offline-map-city-guide/id625155752?mt=8">Paris Offline Map &amp; City Guide</a><br>
+<a href="https://itunes.apple.com/us/app/prague-offline-map-city-guide/id603449215?mt=8">Prague Offline Map &amp; City Guide</a><br>
+<a href="https://itunes.apple.com/us/app/puerto-rico-trip-planner-travel-guide-offline-city-map/id958571823?mt=8">Puerto Rico Trip Planner, Travel Guide &amp; Offline City Map</a><br>
+<a href="https://itunes.apple.com/us/app/rome-offline-map-city-guide/id627432594?mt=8">Rome Offline Map &amp; City Guide</a><br>
+<a href="https://itunes.apple.com/us/app/san-diego-offline-map-guide-by-tripomatic/id612943339?mt=8">San Diego Offline Map &amp; Guide by Tripomatic</a><br>
+<a href="https://itunes.apple.com/us/app/scandinavia-trip-planner-travel-guide-offline-city/id687656376?mt=8">Scandinavia Trip Planner, Travel Guide &amp; Offline City Map for Oslo, Stockholm, Helsinki, Copenhagen or Reykjavik</a><br>
+<a href="https://itunes.apple.com/us/app/sochi-offline-map-travel-guide-by-tripomatic/id793151183?mt=8">Sochi Offline Map &amp; Travel Guide by Tripomatic</a><br>
+<a href="https://itunes.apple.com/us/app/spain-portugal-trip-planner-by-tripomatic-travel-guide/id680566069?mt=8">Spain &amp; Portugal Trip Planner by Tripomatic, Travel Guide &amp; Offline City Map</a><br>
+<a href="https://itunes.apple.com/us/app/tokyo-city-map-and-guide-by-tripomatic/id916106930?mt=8">Tokyo City Map and Guide by Tripomatic</a><br>
+<a href="https://itunes.apple.com/us/app/travel-guide-offline-map-for-western-europe/id694602983?mt=8">Travel Guide &amp; Offline Map for Western Europe</a><br>
+<a href="https://itunes.apple.com/us/app/trip-planner-travel-guide-offline-city-map-for-china/id705873151?mt=8">Trip Planner, Travel Guide &amp; Offline City Map for China, Japan, South Korea and Taiwan</a><br>
+<a href="https://itunes.apple.com/us/app/trip-planner-travel-guide-offline-city-map-for-czech/id705158961?mt=8">Trip Planner, Travel Guide &amp; Offline City Map for Czech Republic, Slovakia, Poland, Hungary, Russia and Romania</a><br>
+<a href="https://itunes.apple.com/us/app/trip-planner-travel-guide-offline-city-map-for-thailand/id687657548?mt=8">Trip Planner, Travel Guide &amp; Offline City Map for Thailand, Indonesia, Malaysia, India, Cambodia, Vietnam and Singapore</a><br>
+<a href="https://itunes.apple.com/us/app/uk-ireland-trip-planner-travel-guide-offline-city-map/id674492910?mt=8">UK &amp; Ireland Trip Planner, Travel Guide &amp; Offline City Map</a><br>
+<a href="https://itunes.apple.com/us/app/united-states-america-canada-trip-planner-travel-guide/id687635448?mt=8">United States of America &amp; Canada Trip Planner, Travel Guide &amp; Offline City Map</a><br>
+<a href="https://itunes.apple.com/us/app/venice-offline-map-city-guide/id630508828?mt=8">Venice Offline Map &amp; City Guide</a><br>
+<a href="https://itunes.apple.com/us/app/vienna-travel-guide-offline-city-map/id970430545?mt=8">Vienna Travel Guide &amp; Offline City Map</a><br>
+<a href="https://itunes.apple.com/us/app/washington-d-c-offline-map-city-guide/id895416238?mt=8">Washington D.C. Offline Map &amp; City Guide</a><br>
+</td>
+<td>Tripomatic s.r.o (Czech Republic)</td>
+<td></td>
+</tr>
+
+<tr>
+<td><a href="https://play.google.com/store/apps/details?id=com.sygic.VrTravel">Travel VR</a></td>
+<td>With Sygic Travel VR you'll explore lots of beautiful and interesting places all over the world from the comfort of your home.</td>
+<td>Sygic, a.s. (Slovakia)</td>
+<td></td>
+</tr>
+
+<tr>
+<td>
+<a href="https://play.google.com/store/apps/details?id=com.sygic.familywhere.android">Family Locator (Android)</a><br>
+<a href="https://itunes.apple.com/sk/app/family-locator-and-gps-tracker/id588364107">Family Locator and GPS Tracker (iOS)</a>
+</td>
+<td>GPS Phone tracker app lets your family be in touch and stay connected with your friends anytime</td>
+<td>Sygic, a.s. (Slovakia)</td>
+</tr>
+
+<tr>
+<td><a href="https://play.google.com/store/apps/details?id=com.sygic.speedcamapp">Speed Cameras &amp; Traffic Sygic</a></td>
+<td>GPS based app, which lets you see the speed limits, get the real-time alerts of mobile radar traps and fixed speed cameras location, speed limit changes &amp; exceeding the speed limit, drive more safely thanks to acoustic and visual warning, track your mileage and useful driving stats using Trip log feature and record videos of your trips with the premium Dash Cam function</td>
+<td>Sygic, a.s. (Slovakia)</td>
+</tr>
+
+<tr>
+<td><a href="https://play.google.com/store/apps/details?id=cz.aponia.bor3">Free GPS Navigation</a></td>
+<td>Free offline GPS Navigation app for your trips and routes. Great search makes your trip planning easy and voice navigation with offline maps makes your driving fast and effortless. Instruction are easy to follow so you will always come to your target destination. </td>
+<td>Sygic Czech Republic, s.r.o. (Czech Republic)</td>
+</tr>
+
+<tr>
+<td><a href="https://play.google.com/store/apps/details?id=com.navigation.offlinemaps.gps">Offline Maps &amp; Navigation</a></td>
+<td>Free navigation app that combines the best of offline and online features to create the ultimate navigation experience.
+</td>
+<td>Sygic, a.s. (Slovakia)</td>
+</tr>
+
+<tr>
+<td>
+<a href="https://play.google.com/store/apps/details?id=com.gps.navigation.maps.route.directions">GPS Navigation &amp; Maps (Android)</a><br>
+<a href="https://itunes.apple.com/us/app/gps-navigation-maps/id1206711655">GPS Navigation &amp; Maps (iOS)</a>
+</td>
+<td>
+Powerful GPS navigation app with free offline &amp; online maps. You have the option to use the app for free in online or offline mode. Drive with detailed voice directions and a lot of smart navigation features.
+</td>
+<td>Sygic, a.s. (Slovakia)</td>
+</tr>
+
+</table>
+</div>
+<h2><a id="development"></a>Development, improvement &amp; testing</h2>
+<p>As a software developer we need to be able to continuously develop, improve, maintain and test our software products which we regard our own legitimate interest. This typically includes:</p>
+<ul>
+<li>Removal of bugs and other software faults or errors;</li>
+<li>Development of new application updates, versions or functionalities (features);</li>
+<li>General analysis of application;</li>
+<li>Analysis of user trends within the application including general user profiling based on that;</li>
+<li>Accuracy analysis (location, speed, direction or other values);</li>
+<li>Customer polls focused on improvement of the Services;</li>
+<li>Customer feedback on design and user experience;</li>
+<li>Testing on the production copies of partially anonymized data.</li>
+</ul>
+<h2><a id="direct_marketing"></a>Direct marketing communications (newsletter &amp; push notifications)</h2>
+<p>We do not send-out direct marketing communication to everyone. If you receive a direct marketing message from us it’s either because you have previously granted us a specific direct marketing consent or because we have obtained your email within the process of providing you with our Services and the message relates to a similar product or service. Irrespective of that, you can always opt-out from receiving any further direct marketing communication and/or object to processing of your personal data for direct marketing purposes as explained <a href="#right_to_object">below</a>.</p>
+<h2><a id="marketing_analytics"></a>Marketing analytics</h2>
+<p>We regard our marketing analytics a distinct purpose of processing personal data from sending out direct marketing communications. Some of the below activities might not necessarily involve processing of personal data. However, we would like to be transparent about the processing activities we undertake (with data generally) and would like to give our users full control over marketing related processing of personal data, as explained <a href="#right_to_object">here</a>. All of the below activities do correspond with our legitimate interest of better understanding our customers, customer trends and expectations when providing or offering our Services. For example, marketing analytics may include:</p>
+<ul>
+<li>General analysis of user behavior for better marketing strategies, decision or more personalized targeted advertising;</li>
+<li>Targeted advertising of Sygic products or services for example via Facebook App Install ads, Google AdWords, PayPerClick and similar tools;</li>
+<li>Performance analysis of different marketing campaigns (e.g. Exponea, Google Analytics);</li>
+<li>Cross-device linking (pairing of data about different devices of the same user);</li>
+<li>User segmentation for more personalized direct marketing communication (if conditions for direct marketing communications are met).</li>
+</ul>
+<h2><a id="statistics"></a>Statistics</h2>
+<p>We keep various anonymous or aggregated statistics based on which one cannot identify an individual. For example, we might keep statistics about how many users are using our applications or what is the average usage time of our applications. Although these statistics are made by conversion or analysis of real personal data, the statistic findings or results are not personal data.</p>
+<h2><a id="social_media"></a>Maintaining social media profiles</h2>
+<p>We maintain several business profiles on social media platforms where you can interact or communicate with us. By doing so, we are pursuing our legitimate interest: increasing company/brand awareness in online environment. We might process your personal data via our social media profiles when you write to us, comment, like or share our posts. Your provision of personal data via social media to us is voluntary. Please read relevant privacy policies to better understand processing of your personal data by providers of social media platforms. We only have a typical admin control over the personal data processed by us via our own company profiles. We assume that by using these social media platforms, you understand that your personal data might be processed for other purposes and that your personal data might by transferred to other third countries and third parties by providers of social media platforms. You can currently find us on Facebook, Linkedin, Twitter, Instagram, Pinterest, Youtube, Stack Overflow, Github, Tumblr, Dribble and Behance.</p>
+<h2><a id="consumer_contests"></a>Consumer contests</h2>
+<p>We might organize customer contests, price giveaways or similar promotional activities for example via our social media profiles. When we do so, we typically put forwards terms &amp; conditions or statute which you need to accept before joining the contest. By doing so, you conclude a contract with us meaning we do not need your consent for participation and related processing of your personal data. However, we would always ask your consent should the circumstances require so.</p>
+<h2><a id="accounting"></a>Billing, Tax &amp; Accounting</h2>
+<p>When you purchase any paid add-on, feature or application from us, we must process your personal data in line with the applicable billing, tax and accounting legislation. Invoices and invoicing documentation might include your personal data. However, we are obliged to process, keep and store such data for statutory periods in order to be compliant with local law. Specific provisions of billing, tax and accounting legislation might vary across different jurisdictions.</p>
+<h2><a id="security"></a>Security of personal data</h2>
+<p>We are obliged to adopt measures to ensure appropriate level of personal data security. Although these measures are not primarily directed for processing of personal data (which is rather a by-product of their purpose), processing of your personal data to some necessary extent might be needed in order for these measures to be implemented (for example encryption, pseudonymization, logging, backups, crash reporting, breach/incident reporting, security investigations and documentations, access control, harmful content detection, etc.).</p>
+<h2><a id="user_requests"></a>Handling user requests</h2>
+<p>Every time we are legally required to handle your requests, we must necessarily process your personal data. For example, when you approach us with request based on your data subject rights stemming from GDPR, we must process your personal data in order to comply with GDPR requirements.</p>
+<h2><a id="legal"></a>Legal enforcement</h2>
+<p>From time to time, we might need to pursue a legal claim, ask for compensation or off-court settlement, keep evidence for potential dispute, manage legal contracts, request legal advice from external advisors, report illegal activity to law enforcement authorities or otherwise protect our legitimate legal interests (i.e. enforcing our legal rights). Although these activities do not automatically involve processing of personal data about our users (which happens very rarely), we would like to be transparent about such purpose of processing in case it does.</p>
+<p>By virtue of this privacy policy, all of the above purposes are determined by us generally against all users of our Services from the moment of their collection despite the fact that the actual processing operation or purpose might not be relevant to every individual in every case. From this reason, we do not regard these as “other” purposes pursuant to Art. 6(4) of the GDPR which would require us to inform you about such purposes once they become relevant in future.</p>
+<h1>How do we collect your personal data?</h1>
+<p>Generally, we collect your personal data directly from you (source), for example when you decide to download our app, make a purchase, register your account, fill-out marketing consent form, contact us or otherwise use our Services. Provision of personal data to us by you might happen directly, for example by filling-out registration, order or consent form but might also happen indirectly for example by using our apps which need to collect data in order to operate and in order to provide you with the Services requested. For example, when using our navigation or localization apps, we must collect your precise location, speed and bearings. Provision of personal data by you is voluntary or presents either a requirement to enter into a contract or a contractual requirement (EULA). Certain processing of personal data might be required by law or required by us in order to pursue our own legitimate interests, as explained above. However, if you decide not to provide us your personal data in the first place, these additional statutory or legitimate interest provisions of data should not happen.</p>
+<h1>Who are recipients of your personal data?</h1>
+<p>We take the confidentiality of your personal data very seriously and have policies in place to ensure that your data is only shared with authorized personnel of Sygic or a verified third party. Our employees might have access to your personal data on a strictly need-to-know basis typically governed and limited by function, role and department of the particular employee. We also use sub-contractors to support us in providing the Services who might process personal data for us. We ensure that selection of our sub-contractors and any processing of personal data by them is compliant with the GDPR. Categories of recipients of your personal data are:</p>
+<ul>
+<li>Affiliated Sygic companies;</li>
+<li>Hosting or cloud services providers;</li>
+<li>Marketing and analytics software service providers;</li>
+<li>Social media platform operators;</li>
+<li>Authorized personnel of the above.</li>
+<li>We share anonymous and aggregated data which is not linkable to an individual with our business partners. We make sure such data is not a personal data.</li>
+</ul>
+<h1>What countries do we transfer your personal data to?</h1>
+<p>By default, we seek not to transfer your personal data outside the EU and/or European Economic Area where not necessary. However, some of our sub-contractors or the above-mentioned recipients of personal data might be based or their servers might be located in the United States of America (U.S.). As such, US is regarded a third party not ensuring adequate level of protection. However, companies certified under the EU-US Privacy Shield mechanism according to the EU Commision (<a href="https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016D1250&from=EN">Text of the Commission’s EU-US Privacy Shield Decision</a>) are regarded as ensuring adequate level of protection. Any transfer of personal data outside the European Economic Area is done by us only under strict compliance with the GDPR. We ensure the third-party recipients are either certified under the EU-US Privacy Shield, concluded EU model clauses with us or follow equivalent safeguards in place.</p>
+<h1>How long we store your personal data?</h1>
+<p>We must not and we do not want to store your personal data for longer than necessary for the given purpose of processing. Due to this legal requirement but also due to technical and financial aspects of data storage we actively delete data where no longer necessary. In general, storage periods of the following purposes are linked to active usage of our apps and the actual data on our product servers at the given time:</p>
+<ul>
+<li>Provision of the Services</li>
+<li>Development, improvement &amp; testing</li>
+<li>Marketing analytics</li>
+<li>Statistics</li>
+<li>Security of personal data</li>
+</ul>
+<p>This means (in general) that if you stop using our app, we stop processing your personal data for the above purposes of processing. If you uninstall our app, we delete personal data collected by the app. However, depending on the circumstances we delete some data sooner or later than that, for example:</p>
+<ul>
+<li>Data used for application improvement after 3 months</li>
+<li>Security and system logs after 1 year</li>
+<li>Back-ups for security purposes after 3 years</li>
+</ul>
+<p>Some of our users might have a life-time license for our apps. In that case, we must store credentials of the license holder for a period equivalent to “life-time” period which is 90 years from license purchase. If you request us to erase your personal data including your license credentials we can do so, but you will loose the life-time license as well (i.e. you will no longer be in the list of license holders). Please note that if you then decide to use our apps again in the future, you might not be able to rely on your license unless you prove to us that you had the license before. We therefore suggest you keep evidence of our communication about the license credentials erasure.</p>
+<p>As regards the purpose of <a href="#direct_marketing">direct marketing communications</a> (newsletter &amp; push notifications), the storage period generally lasts until you revoke your consent (opt-out) or object against <a href="#direct_marketing">direct marketing</a>.</p>
+<p>As regards <a href="#accounting">Billing, Tax &amp; Accounting</a> purposes the retention period are governed by local law and depending on the type of information or document in which billing personal data might be included the storage period is 10 years.</p>
+<p>It stems from the nature of <a href="#social_media">social media profiles</a> that we do not actively delete the history of our profiles, but you are free do so or request us to do so at any time. We delete old private messages via social media once every 3 years.</p>
+<p>In general, storage periods for <a href="#consumer_contests">consumer contests</a> is the duration of the contest.</p>
+<p>As regards <a href="#user_requests">handling user requests</a> and <a href="#legal">legal enforcement</a>, we might keep your personal data if we believe it might be necessary for us in court, criminal or administrative proceedings in the future. General limitation period under Slovak law is 3 years.</p>
+<h1><a id="right_to_object"></a>What rights do you have?</h1>
+<div class="highlight">
+  <p class="bold">You have right to object to any processing that is based on legitimate interest including to profiling based on such legitimate interest pursuant to the Article 21 GDPR.</p>
+
+  <p>We rely on legitimate interest for purposes of <a href="#development">Development, improvement &amp; testing</a>, <a href="#marketing_analytics">Marketing analytics</a>, <a href="#social_media">Maintaining social media profiles</a> and <a href="#legal">Legal enforcement</a>.</p>
+</div>
+<div class="highlight">
+  <p class="bold">You also have a right to object to any <a href="#direct_marketing">direct marketing</a> processing of your personal data including profiling.</p>
+</div>
+<p>If we process your personal data, you have so-called data subject rights under the Article 15 to 22 of the GDPR. Among others, you have right to request access to your personal data, rectification or erasure of personal data or restriction of processing or right to object to processing as well as the right to data portability. However, these are not absolute rights and they only exist if the relevant conditions are met. For example, right for erasure does not apply in case when such personal data is required for compliance with legal obligation (<a href="#accounting">Billing, Tax &amp; Accounting</a>) or for the establishment, exercise or defence of legal claims (<a href="#legal">Legal enforcement</a>). Please contact us at <a href="mailto:privacy@sygic.com">privacy@sygic.com</a> if you have a general query about your data subject rights.<br />
+You have a right to lodge a complaint related to personal data to the relevant data protection supervisory authority. Please note that our lead data protection authority is the <a href="https://dataprotection.gov.sk">Office for Protection of Personal Data of the Slovak Republic</a>.</p>
+<p>If you are not sure about whether we process your personal data, you can request our confirmation by reference to the right of access under the Art. 15(1) of the GDPR. If we do process your personal data you can request the following information:</p>
+<ul>
+<li>the purposes of the processing;</li>
+<li>the categories of personal data concerned;</li>
+<li>the recipients or categories of recipient to whom the personal data have been or will be disclosed, in particular recipients in third countries or international organizations;</li>
+<li>where possible, the envisaged period for which the personal data will be stored, or, if not possible, the criteria used to determine that period;</li>
+<li>the existence of the right to request from the controller rectification or erasure of personal data or restriction of processing of personal data concerning the data subject or to object to such processing;</li>
+<li>the right to lodge a complaint with a supervisory authority;</li>
+<li>where the personal data are not collected from the data subject, any available information as to their source;</li>
+<li>the existence of automated decision-making, including profiling, referred to in Article 22(1) and (4) and, at least in those cases, meaningful information about the logic involved, as well as the significance and the envisaged consequences of such processing for the data subject.</li>
+</ul>
+<p>Please note, that if you use our apps, most of the above information is already included in this privacy policy. You have also right to request copy of your personal data pursuant to the Art. 15(3) of the GDPR. You have right to request some of your personal data in a structured, commonly used and machine-readable format provided that the conditions for data portability under Art. 20 of the GDPR are met. These conditions might be met where the legal basis for processing is your consent or performance of contract (provision of the Services, newsletters and consumer contest) where you provide the personal data to us.</p>
+<p>When we process your personal data based on your consent, you can always revoke your consent at any time. You can always use our general contact details for revoking consent or objecting to processing. In case of email newsletters, you will find opt-out button at the bottom of every direct marketing email.</p>
+<p>If you feel that we are processing incorrect personal data about you given the purpose and circumstances and you cannot change such personal data via functionality of the app, account or website, you can request rectification of incorrect or incomplete personal data using the below supplementary statement (all information is voluntary) and/or our general contact details:</p>
+<div class="table-box">
+<table>
+<thead>
+<tr>
+<td colspan="2">Supplementary statement for rectification of personal data</td>
+</tr>
+</thead>
+
+<tr>
+<td>Your name and surname:</td>
+<td></td>
+</tr>
+
+<tr>
+<td>Account email:</td>
+<td></td>
+</tr>
+
+<tr>
+<td>Type of Sygic service used:</td>
+<td>Please indicate what application, website or service your request relates to</td>
+</tr>
+
+<tr>
+<td>Nature of your rectification:</td>
+<td>Please explain whether you would like to request correction of incorrect or completion of incomplete personal data</td>
+</tr>
+
+<tr>
+<td>Context of your rectification request:</td>
+<td>Please explain us why you believe we are processing incorrect or incomplete data</td>
+</tr>
+
+<tr>
+<td>Rectification:</td>
+<td>Please express the correction or completion of the particular personal data you are requesting</td>
+</tr>
+</table>
+</div>
+<p>This supplementary statement for rectification can be send to Sygic at <a href="mailto:privacy@sygic.com">privacy@sygic.com</a></p>
+<p>When enforcing your data subject rights, please be as explicit and detailed as possible. Otherwise, we might respond with request to clarify a generic, vague or too general requests which in turn delays getting the information you request.</p>
+<h1>Cookies</h1>
+<p>When processing your personal data, operating our websites or generally providing or supporting our Services we may use cookies and similar technologies. Specifically, we use these technologies for <a href="#direct_marketing">Direct marketing communications</a> (newsletter &amp; push notifications) and <a href="#marketing_analytics">Marketing analytics</a>. You have a control about the use of cookies via setting of your internet browser, where you can disable cookies at any time.</p>
+<h1>Changes to this privacy policy</h1>
+<p>We may change this privacy policy from time to time by posting the most current privacy policy and its effective date on our website. In case we change this privacy policy substantially, we may bring such changes to your attention by explicit notice in our apps, on our websites or by email.</p>                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+<!-- JS -->
+<script src="https://www.sygic.com/assets/js/jquery-1.11.2.min.js"></script>
+<script src="https://www.sygic.com/assets/js/jquery-ui.min.js"></script>
+<script src="https://www.sygic.com/assets/js/jquery.validate.js"></script>
+<script src="https://www.sygic.com/assets/js/magnific.min.js"></script>
+<script src="https://www.sygic.com/assets/js/counter.min.js"></script>
+<script src="https://www.sygic.com/assets/js/vide.js"></script>
+<script src="https://www.sygic.com/assets/js/custom.min.js?upd21052018"></script>
+<script>
+$('.eu-cookies button').click(function() {
+    var date = new Date();
+    date.setFullYear(date.getFullYear() + 10);
+    document.cookie = 'eu-cookies=1; path=/; expires=' + date.toGMTString();
+    $('.eu-cookies').hide();
+});
+</script>
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-7825305-2', 'auto');
+ga('require', 'displayfeatures');
+ga('send', 'pageview');
+</script>
+
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','//connect.facebook.net/en_US/fbevents.js');
+
+fbq('init', '811908252211221');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=811908252211221&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+
+</body>
+</html>

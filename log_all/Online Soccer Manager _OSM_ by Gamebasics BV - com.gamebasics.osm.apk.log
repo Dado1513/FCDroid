@@ -1,0 +1,314 @@
+[INTERNAL_LOG][2018-06-07 22:45:52,071][INFO][analyze_start()] Init Time [Thu Jun  7 22:45:52 2018]
+[INTERNAL_LOG][2018-06-07 22:45:52,118][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-07 22:45:52,121][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-07 22:45:52,121][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-07 22:45:52,121][INFO][is_hybird()] android.permission.READ_PHONE_STATE
+[INTERNAL_LOG][2018-06-07 22:45:52,121][INFO][is_hybird()] android.permission.RECEIVE_SMS
+[INTERNAL_LOG][2018-06-07 22:45:52,122][INFO][is_hybird()] android.permission.SEND_SMS
+[INTERNAL_LOG][2018-06-07 22:45:52,122][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-07 22:45:52,122][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-07 22:45:52,122][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-07 22:45:52,122][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-07 22:45:52,122][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-07 22:45:52,122][INFO][is_hybird()] com.gamebasics.osm.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-07 22:45:52,122][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-07 22:45:52,122][INFO][is_hybird()] com.google.android.gms.permission.ACTIVITY_RECOGNITION
+[INTERNAL_LOG][2018-06-07 22:45:52,122][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-07 22:45:52,122][INFO][is_hybird()] com.gamebasics.osm.PAYMENT_BROADCAST_PERMISSION
+[INTERNAL_LOG][2018-06-07 22:45:52,122][INFO][is_hybird()] com.google.android.providers.gsf.permission.READ_GSERVICES
+[INTERNAL_LOG][2018-06-07 22:45:52,122][INFO][is_hybird()] com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+[INTERNAL_LOG][2018-06-07 22:45:52,122][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-07 22:45:52,122][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-07 22:45:52,122][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-07 22:45:52,122][INFO][find_string()] File: js/closebutton.html
+[INTERNAL_LOG][2018-06-07 22:45:52,123][INFO][find_string()] No iframe in js/closebutton.html
+[INTERNAL_LOG][2018-06-07 22:45:52,123][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-07 22:46:59,630][INFO][find_url_in_apk()] [START URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-07 22:46:59,630][INFO][find_url_in_apk()] https://sdk.starbolt.io/dist/waterfall/waterfall.html
+https://sdk.starbolt.io/dist/tagInterstitialAndroid.html
+https://sdk.starbolt.io/dist/tagVideoAndroid.html
+
+[INTERNAL_LOG][2018-06-07 22:46:59,630][INFO][find_url_in_apk()] [END URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-07 22:47:00,206][INFO][find_string()] [START REMOTE FILE ANALYZE]
+[INTERNAL_LOG][2018-06-07 22:47:00,206][INFO][find_string()] Remote File in: temp_html_code/html_downloaded_Online Soccer Manager _OSM_ by Gamebasics BV - com/waterfall.html
+[INTERNAL_LOG][2018-06-07 22:47:00,206][INFO][find_string()] URL: https://sdk.starbolt.io/dist/waterfall/waterfall.html
+[INTERNAL_LOG][2018-06-07 22:47:00,208][INFO][find_string()] No iframe in temp_html_code/html_downloaded_Online Soccer Manager _OSM_ by Gamebasics BV - com/waterfall.html
+[INTERNAL_LOG][2018-06-07 22:47:00,208][INFO][find_string()] Remote File in: temp_html_code/html_downloaded_Online Soccer Manager _OSM_ by Gamebasics BV - com/tagInterstitialAndroid.html
+[INTERNAL_LOG][2018-06-07 22:47:00,209][INFO][find_string()] URL: https://sdk.starbolt.io/dist/tagInterstitialAndroid.html
+[INTERNAL_LOG][2018-06-07 22:47:00,210][INFO][find_string()] No iframe in temp_html_code/html_downloaded_Online Soccer Manager _OSM_ by Gamebasics BV - com/tagInterstitialAndroid.html
+[INTERNAL_LOG][2018-06-07 22:47:00,211][INFO][find_string()] Remote File in: temp_html_code/html_downloaded_Online Soccer Manager _OSM_ by Gamebasics BV - com/tagVideoAndroid.html
+[INTERNAL_LOG][2018-06-07 22:47:00,211][INFO][find_string()] URL: https://sdk.starbolt.io/dist/tagVideoAndroid.html
+[INTERNAL_LOG][2018-06-07 22:47:00,213][INFO][find_string()] No iframe in temp_html_code/html_downloaded_Online Soccer Manager _OSM_ by Gamebasics BV - com/tagVideoAndroid.html
+[INTERNAL_LOG][2018-06-07 22:47:00,213][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-07 22:47:00,213][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-07 22:47:00,214][INFO][find_url_in_apk()] http://schemas.android.com/apk/res/android
+https://adc3-launch-server-staging.herokuapp.com/v4/launch
+https://adc3-launch.adcolony.com/v4/launch
+https://wd.adcolony.com/logs
+https://app.adjust.com
+https://app.adjust.com
+https://gdpr.adjust.com
+https://gdpr.adjust.com
+http://schemas.applovin.com/android/1.0
+http://schemas.applovin.com/android/1.0
+https://d.applovin.com/
+https://a.applovin.com/
+https://rt.applovin.com/med
+https://rt.applovin.com/pix
+https://d.applvn.com/
+https://a.applvn.com/
+https://rt.applvn.com/pix
+https://vid.applovin.com/,https://pdn.applovin.com/,https://img.applovin.com/,https://d.applovin.com/,https://assets.applovin.com/,https://cdnjs.cloudflare.com/,http://vid.applovin.com/,http://pdn.applovin.com/,http://img.applovin.com/,http://d.applovin.com/,http://assets.applovin.com/,http://cdnjs.cloudflare.com/
+http://market.android.com/
+https://graph.facebook.com/network_ads_common
+https://graph.%s.facebook.com/network_ads_common
+https://www.facebook.com/adnw_logging/
+https://www.%s.facebook.com/adnw_logging/
+https://www.facebook.com/
+https://www.%s.facebook.com
+http://play.google.com/store/apps/
+http://www.facebook.com
+https://graph.%s
+https://graph-video.%s
+https://facebook.com
+https://facebook.com/device?user_code=%1$s&qr=1
+http://play.google.com/store/apps/details?id=com.facebook.orca
+https://service.fyber.com/actions/v2
+https://service.fyber.com/installs/v2
+https://api.fyber.com/vcs/v1/new_credit.json
+https://video.fyber.com
+https://rewarded-video.fyber.com/tracker
+https://offer.fyber.com/mobile
+https://interstitial.fyber.com/interstitial
+https://interstitial.fyber.com/tracker
+https://sdk-config.fyber.com
+https://engine.fyber.com/video-cache
+https://banner.fyber.com/banner
+https://banner.fyber.com/tracker
+https://testsuite.fyber.com/tracker
+https://api-rewarded-video.fyber.com/video
+https://play.google.com/store/apps/details?id=com.gamebasics.osm
+https://www.youtube.com/v/yrtKHrXcGC4
+https://www.onlinesoccermanager.com/Branch?leagueId=
+https://www.onlinesoccermanager.com/Branch?
+https://live.chartboost.com
+https://www.facebook.com/onlinesoccermanager/
+https://www.facebook.com/onlinesoccermanager/
+https://www.instagram.com/onlinesoccermanager/
+http://instagram.com/_u/onlinesoccermanager/
+https://twitter.com/osmlikeaboss
+https://www.%s.facebook.com/audience_network/server_side_reward
+https://www.facebook.com/audience_network/server_side_reward
+http://www.onlinesoccermanager.nl/Privacy
+http://onlinesoccermanager.com/Privacy
+http://www.onlinesoccermanager.nl/Terms
+http://onlinesoccermanager.com/Terms
+http://onlinesoccermanager.com/Login?nextUrl=https:%2F%2Fforum.onlinesoccermanager.com%2F
+http://shop.onlinesoccermanager.com
+https://apigamebasics.quickblox.com
+http://osm.one/WebOSM
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+https://accounts.google.com/o/oauth2/revoke?token=
+https://plus.google.com/
+http://play.google.com/store/apps/category/GAME
+https://play.google.com/store/apps/details?id=%1$s&rdid=%1$s&rdot=%2$d
+https://plus.google.com/%s/about
+https://play.google.com/store/apps/details
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games_lite
+https://www.googleapis.com/auth/games_lite
+https://www.googleapis.com/auth/games_lite
+https://www.googleapis.com/auth/games.firstparty
+https://www.googleapis.com/auth/games.firstparty
+https://pagead2.googlesyndication.com/pagead/gen_204
+http://www.google.com
+https://support.google.com/dfp_premium/answer/7160685#push
+http://www.example.com
+http://www.example.com
+http://www.example.com
+http://www.example.com
+http://www.example.com
+http://www.example.com
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/sdk-core-v40-impl.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://csi.gstatic.com/csi
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/native_ads.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/native_ads.js
+https://imasdk.googleapis.com/admob/sdkloader/native_video.html
+https://www.google.com/dfp/linkDevice
+https://www.google.com/dfp/inAppPreview
+https://www.google.com/dfp/debugSignals
+https://www.google.com/dfp/sendDebugData
+http://www.google-analytics.com
+https://ssl.google-analytics.com
+https://app-measurement.com/a
+https://mobile-static.adsafeprotected.com/avid-v2.js
+https://mobile-static.adsafeprotected.com/avid-v2.js
+https://track.atom-data.io
+https://track.atom-data.io
+https://track.atom-data.io
+https://www.supersonicads.com/mobile/sdk5/log?method=injectJavaScript
+https://www.supersonicads.com/mobile/sdk5/log?method=
+https://www.supersonicads.com/mobile/sdk5/log?method=
+https://www.supersonicads.com/mobile/sdk5/log?method=
+https://www.supersonicads.com/mobile/sdk5/log?method=
+https://www.supersonicads.com/mobile/sdk5/log?method=
+https://www.supersonicads.com/mobile/sdk5/log?method=
+https://www.supersonicads.com/mobile/sdk5/log?method=
+https://www.supersonicads.com/mobile/sdk5/log?method=
+http://leanplum:close
+http://leanplum:close
+http://leanplum:close
+http://leanplum:close
+http://leanplum:loadFinished
+http://leanplum:loadFinished
+http://leanplum:loadFinished
+http://leanplum:runAction
+http://leanplum:runAction
+http://leanplum:runAction
+http://leanplum:runTrackedAction
+http://leanplum:runTrackedAction
+http://leanplum:runTrackedAction
+http://leanplum:track
+http://leanplum:track
+http://leanplum:track
+https://z.moatads.com/
+https://z.moatads.com/
+https://z.moatads.com/
+https://z.moatads.com/
+https://z.moatads.com/
+https://z.moatads.com/
+https://px.moatads.com/pixel.gif?e=0&i=MOATSDK1&ac=1
+https://px.moatads.com/pixel.gif?e=0&i=MOATSDK1&ac=1
+https://px.moatads.com/pixel.gif?e=0&i=MOATSDK1&ac=1
+https://px.moatads.com/pixel.gif?e=0&i=MOATSDK1&ac=1
+http://schemas.android.com/apk/lib/com.mobfox.sdk
+https://sdk.starbolt.io/waterfalls.json
+http://sdk-logs.matomy.com:12201/gelf
+http://sdk-logs.matomy.com:12201/gelf
+https://alkutbay.starbolt.io/
+https://sdk.starbolt.io/dist/waterfall/waterfall.html
+https://tracker.mtrtb.com/tracker/mobfox_conversion
+https://twitter.com/%s/status/%s
+https://www.mopub.com/optout/
+https://www.mopub.com/optout/
+http://ads.mopub.com
+https://ads.mopub.com
+https://rpc.tapjoy.com/
+https://connect.tapjoy.com/
+https://connect.tapjoy.com/
+https://ws.tapjoyads.com/
+https://ws.tapjoyads.com/
+https://ws.tapjoyads.com/
+https://placements.tapjoy.com/
+https://config.unityads.unity3d.com/webview/
+https://api.branch.io/
+https://settings.crashlytics.com/spi/v2/platforms/android/apps/%s/settings
+http://pay.fortumo.com/mobile_widget
+https://wutlar.fortumo.com/
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+http://jabber.org/protocol/compress
+http://jabber.org/protocol/compress
+http://jabber.org/protocol/compress
+http://jabber.org/protocol/compress
+http://jabber.org/protocol/compress
+http://jabber.org/protocol/compress
+http://xmlpull.org/v1/doc/features.html#xml-roundtrip
+http://xmlpull.org/v1/doc/features.html#xml-roundtrip
+http://xmlpull.org/v1/doc/features.html#xml-roundtrip
+http://jabber.org/protocol/muc#user
+http://jabber.org/protocol/muc#user
+http://jabber.org/protocol/muc#user
+http://jabber.org/protocol/muc#user
+http://jabber.org/protocol/muc#request
+http://jabber.org/protocol/offline
+http://jabber.org/protocol/offline
+http://jabber.org/protocol/offline
+http://jabber.org/protocol/offline
+http://jabber.org/protocol/offline
+http://jabber.org/protocol/offline
+http://jabber.org/protocol/rsm
+http://jabber.org/protocol/rsm
+http://jabber.org/protocol/rsm
+https://outcome.supersonicads.com/mediation/
+https://outcome.supersonicads.com/mediation/
+https://www.supersonicads.com/mobile/sdk5/log?method=noProductType
+https://www.supersonicads.com/mobile/sdk5/log?method=encodeAppUserId
+https://www.supersonicads.com/mobile/sdk5/log?method=encodeAppKey
+https://www.supersonicads.com/mobile/sdk5/log?method=extraParametersToJson
+https://www.supersonicads.com/mobile/sdk5/log?method=webviewLoadBlank
+https://www.supersonicads.com/mobile/sdk5/log?method=webviewLoadWithPath
+https://www.supersonicads.com/mobile/sdk5/log?method=htmlControllerDoesNotExistOnFileSystem
+https://www.supersonicads.com/mobile/sdk5/log?method=webviewPause
+https://www.supersonicads.com/mobile/sdk5/log?method=webviewResume
+https://sdk.starbolt.io/dist/tagBanner.html
+https://sdk.starbolt.io/dist/tagBanner.html
+https://sdk.starbolt.io/dist/tagInterstitialAndroid.html
+https://sdk.starbolt.io/dist/tagVideoAndroid.html
+https://sdk.starbolt.io/
+https://sdk.starbolt.io/
+https://sdk.starbolt.io/
+https://ads.mopub.com/
+https://api.quickblox.com/account_settings.json
+http://jabber.org/protocol/chatstates
+http://jabber.org/protocol/chatstates
+http://jabber.org/protocol/chatstates
+http://jabber.org/protocol/chatstates
+http://jabber.org/protocol/chatstates
+http://jabber.org/protocol/chatstates
+http://jabber.org/protocol/chatstates
+https://bnc.lt/a/
+https://bnc.lt/a/
+https://cdn.branch.io/sdk/uriskiplist_v#.json
+https://e.crashlytics.com/spi/v2/events
+https://a.fortumo.com/
+https://a.fortumo.com/
+https://a.fortumo.com/
+https://api.fortumo.com/
+http://jabber.org/protocol/disco#info
+http://jabber.org/protocol/disco#info
+http://jabber.org/protocol/disco#items
+http://jabber.org/protocol/disco#items
+http://jabber.org/protocol/disco#publish
+http://jabber.org/protocol/muc
+http://jabber.org/protocol/muc
+http://jabber.org/protocol/muc
+http://jabber.org/protocol/muc
+http://jabber.org/protocol/muc
+http://jabber.org/protocol/muc#rooms
+http://jabber.org/protocol/muc#rooms
+http://jabber.org/protocol/xdata-layout
+http://jabber.org/protocol/xdata-layout
+http://jabber.org/protocol/xdata-layout
+http://jabber.org/protocol/xdata-validate
+http://jabber.org/protocol/xdata-validate
+http://jabber.org/protocol/xdata-validate
+https://www.mopub.com/optout
+http://chat.quickblox.com/presence_extension
+http://www.w3.org/ns/ttml#parameter
+http://jabber.org/features/iq-register
+https://www.google.com
+http://etherx.jabber.org/streams
+http://etherx.jabber.org/streams
+http://tigase.org/protocol/mobile#v3
+http://jabber.org/protocol/muc#admin
+http://jabber.org/protocol/muc#owner
+
+[INTERNAL_LOG][2018-06-07 22:47:00,215][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-07 22:47:00,229][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-07 22:47:00,230][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-07 22:47:00,230][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-07 22:47:00,230][INFO][analyze_start()] End time:[Thu Jun  7 22:47:00 2018]

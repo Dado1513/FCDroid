@@ -1,0 +1,37 @@
+[INTERNAL_LOG][2018-06-12 01:23:55,707][INFO][analyze_start()] Init Time [Tue Jun 12 01:23:55 2018]
+[INTERNAL_LOG][2018-06-12 01:23:55,771][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 01:23:55,772][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 01:23:55,772][INFO][is_hybird()] org.videolan.vlc.permission.READ_EXTENSION_DATA
+[INTERNAL_LOG][2018-06-12 01:23:55,772][INFO][is_hybird()] org.videolan.vlc.permission.BIND_DATA_CONSUMER
+[INTERNAL_LOG][2018-06-12 01:23:55,772][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-12 01:23:55,772][INFO][is_hybird()] android.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 01:23:55,772][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 01:23:55,772][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 01:23:55,772][INFO][is_hybird()] android.permission.RECEIVE_BOOT_COMPLETED
+[INTERNAL_LOG][2018-06-12 01:23:55,772][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 01:23:55,772][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 01:23:55,772][INFO][is_hybird()] android.permission.MODIFY_AUDIO_SETTINGS
+[INTERNAL_LOG][2018-06-12 01:23:55,772][INFO][is_hybird()] android.permission.BLUETOOTH
+[INTERNAL_LOG][2018-06-12 01:23:55,772][INFO][is_hybird()] android.permission.SYSTEM_ALERT_WINDOW
+[INTERNAL_LOG][2018-06-12 01:23:55,772][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 01:23:55,772][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 01:23:55,773][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 01:23:55,773][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 01:23:55,773][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 01:23:55,773][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 01:24:12,506][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 01:24:12,506][INFO][find_url_in_apk()] http://schemas.android.com/apk/res/android
+http://play.google.com/store/apps/details?id=org.videolan.vlc
+http://api.opensubtitles.org/xml-rpc
+
+[INTERNAL_LOG][2018-06-12 01:24:12,506][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 01:24:12,508][INFO][check_method_conf()] [JavaScript enabled: False]
+
+[INTERNAL_LOG][2018-06-12 01:24:12,508][INFO][check_method_conf()] [Add interface WebView: False]
+
+[INTERNAL_LOG][2018-06-12 01:24:12,508][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 01:24:12,508][INFO][analyze_start()] End time:[Tue Jun 12 01:24:12 2018]

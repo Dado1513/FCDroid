@@ -1,0 +1,242 @@
+[INTERNAL_LOG][2018-06-12 07:46:56,739][INFO][analyze_start()] Init Time [Tue Jun 12 07:46:56 2018]
+[INTERNAL_LOG][2018-06-12 07:46:56,933][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 07:46:56,934][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 07:46:56,934][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 07:46:56,934][INFO][is_hybird()] android.permission.READ_PHONE_STATE
+[INTERNAL_LOG][2018-06-12 07:46:56,935][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 07:46:56,935][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 07:46:56,935][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 07:46:56,935][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 07:46:56,935][INFO][is_hybird()] android.permission.GET_TASKS
+[INTERNAL_LOG][2018-06-12 07:46:56,935][INFO][is_hybird()] android.permission.RECEIVE_BOOT_COMPLETED
+[INTERNAL_LOG][2018-06-12 07:46:56,935][INFO][is_hybird()] android.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 07:46:56,935][INFO][is_hybird()] android.permission.RECEIVE_USER_PRESENT
+[INTERNAL_LOG][2018-06-12 07:46:56,935][INFO][is_hybird()] android.permission.RECORD_AUDIO
+[INTERNAL_LOG][2018-06-12 07:46:56,935][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 07:46:56,935][INFO][is_hybird()] android.permission.CAPTURE_AUDIO_OUTPUT
+[INTERNAL_LOG][2018-06-12 07:46:56,935][INFO][is_hybird()] android.permission.BLUETOOTH
+[INTERNAL_LOG][2018-06-12 07:46:56,935][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 07:46:56,935][INFO][is_hybird()] android.permission.CHANGE_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 07:46:56,935][INFO][is_hybird()] com.android.launcher.permission.INSTALL_SHORTCUT
+[INTERNAL_LOG][2018-06-12 07:46:56,935][INFO][is_hybird()] com.android.launcher.permission.UNINSTALL_SHORTCUT
+[INTERNAL_LOG][2018-06-12 07:46:56,935][INFO][is_hybird()] android.permission.RECORD_AUDIO
+[INTERNAL_LOG][2018-06-12 07:46:56,935][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-12 07:46:56,935][INFO][is_hybird()] android.permission.GET_TASKS
+[INTERNAL_LOG][2018-06-12 07:46:56,936][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 07:46:56,936][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 07:46:56,936][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 07:46:56,936][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 07:46:56,936][INFO][is_hybird()] android.permission.USE_CREDENTIALS
+[INTERNAL_LOG][2018-06-12 07:46:56,936][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 07:46:56,936][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 07:46:56,936][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 07:46:56,936][INFO][is_hybird()] android.permission.CHANGE_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 07:46:56,936][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-12 07:46:56,936][INFO][is_hybird()] com.google.android.gms.permission.ACTIVITY_RECOGNITION
+[INTERNAL_LOG][2018-06-12 07:46:56,936][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 07:46:56,936][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 07:46:56,936][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-12 07:46:56,936][INFO][is_hybird()] com.gtarcade.lod.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-12 07:46:56,936][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 07:46:56,936][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 07:46:56,936][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 07:46:56,936][INFO][find_string()] File: assets/js/closebutton.html
+[INTERNAL_LOG][2018-06-12 07:46:56,937][INFO][find_string()] No iframe in assets/js/closebutton.html
+[INTERNAL_LOG][2018-06-12 07:46:56,937][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 07:46:56,937][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 07:46:56,937][INFO][find_string()] File: assets/js/mraid.js
+[INTERNAL_LOG][2018-06-12 07:46:56,939][INFO][find_string()] No iframe in assets/js/mraid.js
+[INTERNAL_LOG][2018-06-12 07:46:56,940][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 07:47:29,120][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 07:47:29,120][INFO][find_url_in_apk()] http://schemas.android.com/apk/res/android
+https://graph.facebook.com/v2.8/
+https://www.facebook.com/dialog/feed?
+https://graph.facebook.com/v2.8/me/feed
+https://graph.facebook.com/v2.8/me/photos
+https://graph.facebook.com/v2.8
+https://www.facebook.com/dialog/oauth
+http://api.share.mob.com:80
+http://up.sharesdk.cn/upload/image
+http://l.mob.com/url/ShareSdkMapping.do
+https://www.googleapis.com/auth/plus.me
+https://www.googleapis.com/auth/plus.login
+https://www.googleapis.com/auth/plus.login
+https://www.googleapis.com/auth/userinfo.email
+https://plus.google.com/share?
+https://www.googleapis.com/oauth2/v4/token
+https://www.googleapis.com/plus/v1/people/
+https://www.googleapis.com/plus/v1/people/
+https://accounts.google.com/o/oauth2/v2/auth?
+http://schemas.google.com/AddActivity
+http://schemas.google.com/BuyActivity
+http://instagram.com/
+http://instagram.com/
+https://api.instagram.com/oauth/access_token
+https://api.instagram.com/v1/users/
+https://api.instagram.com/v1/users/
+https://api.instagram.com/v1/users/
+https://api.instagram.com/oauth/authorize/?
+https://twitter.com/
+https://twitter.com/
+https://upload.twitter.com/1.1/media/upload.json
+https://upload.twitter.com/1.1/media/upload.json
+https://upload.twitter.com/1.1/media/upload.json
+https://upload.twitter.com/1.1/media/upload.json
+https://api.twitter.com/oauth/access_token
+https://api.twitter.com/1.1/users/show.json
+https://api.twitter.com/1.1/friends/list.json
+https://api.twitter.com/1.1/followers/list.json
+https://api.twitter.com/1.1/statuses/update.json
+https://api.twitter.com/1.1/statuses/update_with_media.json
+https://api.twitter.com/oauth/request_token
+https://api.twitter.com/oauth/authorize?oauth_token=
+http://vk.com/id
+http://vk.com/id
+https://api.vk.com/method/wall.post
+https://api.vk.com/method/photos.saveWallPhoto
+https://api.vk.com/method/friends.get
+https://oauth.vk.com/blank.html
+https://api.vk.com/method/users.get
+https://api.vk.com/method/photos.getWallUploadServer
+https://oauth.vk.com/authorize?
+http://report.fancy3d.com:8111/log/
+http://datarep.fancy3d.com:8010/monitor?
+https://api.%s/install_data/v3/
+https://attr.%s/api/v
+https://t.%s/api/v
+https://events.%s/api/v
+https://register.%s/api/v
+https://stats.%s/stats
+https://onelink.%s/shortlink-sdk/v1
+https://onelink.%s/shortlink-sdk/v1
+https://validate.%s/api/v
+https://sdk-services.%s/validate-android-signature
+https://app.%s
+https://app.%s
+https://impression.%s
+https://monitorsdk.%s/remote-debug?app_id=
+https://graph.%s
+https://graph-video.%s
+https://facebook.com
+http://play.google.com/store/apps/details?id=com.facebook.orca
+http://hostname/
+http://hostname/?
+https://pubads.g.doubleclick.net/activity;dc_iu=
+https://pubads.g.doubleclick.net/activity;xsp=
+https://www.googleadservices.com/pagead/conversion/
+https://www.googleadservices.com/pagead/conversion/
+http://plus.google.com/
+http://plus.google.com/
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+https://accounts.google.com
+https://www.facebook.com
+http://www.example.com
+http://www.example.com
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://csi.gstatic.com/csi
+https://www.google.com/dfp/linkDevice
+https://www.google.com/dfp/inAppPreview
+https://www.google.com/dfp/debugSignals
+https://www.google.com/dfp/sendDebugData
+https://pagead2.googlesyndication.com/pagead/gen_204
+http://www.google.com
+https://goo.gl/FZRIUV
+https://app-measurement.com/a
+http://api.u.mob.com/exchange
+http://api.u.mob.com/modify
+http://api.u.mob.com/login
+http://api.u.mob.com/logout
+http://m.data.mob.com/v4/cconf
+http://devs.data.mob.com:80
+http://devs.data.mob.com:80
+http://devs.data.mob.com:80/dinfo
+http://devs.data.mob.com:80/dsign
+http://devs.data.mob.com:80/dgen
+http://c.data.mob.com/v3/cdata
+http://v.data.mob.com/cpl
+http://v.data.mob.com/vpl
+http://up.sdk.mob.com
+http://api.exc.mob.com:80
+http://api.utag.mob.com/conf
+http://api.utag.mob.com/bdata
+https://ws.tapjoyads.com/
+https://ws.tapjoyads.com/
+https://ws.tapjoyads.com/
+https://ws.tapjoyads.com/
+https://connect.tapjoy.com/
+https://connect.tapjoy.com/
+http://content-js.tapjoy.com
+https://events.tapjoy.com/
+http://pingma.qq.com:80
+http://pingma.qq.com:80/mstat/report/
+http://pingmid.qq.com:80/
+https://twitter.com/?
+https://api.twitter.com/1.1/account/verify_credentials.json
+https://api.twitter.com
+https://d.aiwaya.cn
+https://d.aiwaya.cn
+https://d.aiwaya.cn
+http://106.75.74.53:8080/voice/realtime/column/typeinfo
+http://vmodel.aiwaya.cn/voice/realtime/column/typeinfo
+http://106.75.103.152:6557/polymerize/add_root
+http://106.75.74.38:8555/index
+https://voice.aiwaya.cn/index
+http://u01.aya.yunva.com:8555/index
+http://u01.aya.yunva.com:8555/index
+http://voicetest.yayaim.com:8555/index
+http://mixvoice.yunva.com:8555/index
+http://203.107.1.67/161083/d?host=
+https://comstat.youzu.com
+https://comstat.youzu.com
+https://comstat.gtarcade.com
+http://sdk.gtarcade.com/api/monitor/failedreport
+http://xmlpull.org/v1/doc/features.html#indent-output
+https://sdk.gtarcade.com/sdk/v4/refreshCaptcha
+https://sdk.gtarcade.com/sdk/v4/showCaptcha
+https://sdk.gtarcade.com/sdk/v4/bind
+https://sdk.gtarcade.com/sdk/v4/checkEmailBinds
+https://sdk.gtarcade.com/sdk/v4/checkEmailBinds
+https://sdk.gtarcade.com/sdk/v4/send
+https://user.gtarcade.com/password/SdkForgotPassword
+https://sdk.gtarcade.com/sdk/v4/changeAccount
+https://sdk.gtarcade.com/sdk/v4/otherAccountUpgrade
+https://sdk.gtarcade.com/sdk/v4/getAllUserType
+https://sdk.gtarcade.com/sdk/v4/logout
+https://sdk.gtarcade.com/sdk/v4/config
+https://sdk.gtarcade.com/sdk/v4/tLogin
+https://sdk.gtarcade.com/sdk/v4/login
+https://sdk.gtarcade.com/sdk/v4/otherAuth
+https://sdk.gtarcade.com/sdk/v4/verify
+https://sdk.gtarcade.com/sdk/v4/checkAccount
+https://sdk.gtarcade.com/sdk/v4/register
+https://sdk.gtarcade.com/sdk/v4/register
+https://119.23.145.204:8888/text2audio?
+https://text2audio.aiwaya.cn/text2audio
+https://ustext2audio.aiwaya.cn
+http://119.23.145.204:8888/text2audio?
+http://plugin.yunva.com:9777/speechDiscern2
+http://yuyin.yunva.com:9999/speechDiscern2
+http://plugin.yunva.com/
+https://upfile.aiwaya.cn/
+https://upfile.aiwaya.cn/uploadFile
+https://upfile.aiwaya.cn/speechDiscern
+https://translator2speech.aiwaya.cn
+http://translator-speech.yayaim.com:8080
+http://translator-speech.yayaim.com:8080
+https://e.crashlytics.com/spi/v2/events
+https://settings.crashlytics.com/spi/v2/platforms/android/apps/%s/settings
+
+[INTERNAL_LOG][2018-06-12 07:47:29,121][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 07:47:29,126][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 07:47:29,126][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 07:47:29,126][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 07:47:29,126][INFO][analyze_start()] End time:[Tue Jun 12 07:47:29 2018]

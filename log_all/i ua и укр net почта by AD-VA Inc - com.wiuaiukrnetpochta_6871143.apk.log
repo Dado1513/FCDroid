@@ -1,0 +1,246 @@
+[INTERNAL_LOG][2018-06-07 21:21:26,849][INFO][analyze_start()] Init Time [Thu Jun  7 21:21:26 2018]
+[INTERNAL_LOG][2018-06-07 21:21:26,889][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-07 21:21:26,890][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-07 21:21:26,890][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-07 21:21:26,890][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-07 21:21:26,890][INFO][is_hybird()] com.android.launcher.permission.INSTALL_SHORTCUT
+[INTERNAL_LOG][2018-06-07 21:21:26,890][INFO][is_hybird()] android.webkit.permission.PLUGIN
+[INTERNAL_LOG][2018-06-07 21:21:26,890][INFO][is_hybird()] android.permission.ACCESS_FINE_LOCATION
+[INTERNAL_LOG][2018-06-07 21:21:26,890][INFO][is_hybird()] android.permission.ACCESS_COARSE_LOCATION
+[INTERNAL_LOG][2018-06-07 21:21:26,890][INFO][is_hybird()] android.permission.SYSTEM_ALERT_WINDOW
+[INTERNAL_LOG][2018-06-07 21:21:26,890][INFO][is_hybird()] android.permission.RECEIVE_BOOT_COMPLETED
+[INTERNAL_LOG][2018-06-07 21:21:26,890][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-07 21:21:26,891][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-07 21:21:26,891][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-07 21:21:26,891][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-07 21:21:26,891][INFO][is_hybird()] android.permission.CHANGE_WIFI_STATE
+[INTERNAL_LOG][2018-06-07 21:21:26,891][INFO][is_hybird()] android.permission.BLUETOOTH
+[INTERNAL_LOG][2018-06-07 21:21:26,891][INFO][is_hybird()] android.permission.BLUETOOTH_ADMIN
+[INTERNAL_LOG][2018-06-07 21:21:26,891][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-07 21:21:26,891][INFO][is_hybird()] com.android.alarm.permission.SET_ALARM
+[INTERNAL_LOG][2018-06-07 21:21:26,891][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-07 21:21:26,891][INFO][is_hybird()] android.permission.READ_PHONE_STATE
+[INTERNAL_LOG][2018-06-07 21:21:26,891][INFO][is_hybird()] com.android.browser.permission.READ_HISTORY_BOOKMARKS
+[INTERNAL_LOG][2018-06-07 21:21:26,891][INFO][is_hybird()] com.google.android.gms.permission.ACTIVITY_RECOGNITION
+[INTERNAL_LOG][2018-06-07 21:21:26,891][INFO][is_hybird()] com.sec.android.provider.badge.permission.READ
+[INTERNAL_LOG][2018-06-07 21:21:26,891][INFO][is_hybird()] com.sec.android.provider.badge.permission.WRITE
+[INTERNAL_LOG][2018-06-07 21:21:26,891][INFO][is_hybird()] com.htc.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-07 21:21:26,891][INFO][is_hybird()] com.htc.launcher.permission.UPDATE_SHORTCUT
+[INTERNAL_LOG][2018-06-07 21:21:26,891][INFO][is_hybird()] com.sonyericsson.home.permission.BROADCAST_BADGE
+[INTERNAL_LOG][2018-06-07 21:21:26,891][INFO][is_hybird()] com.sonymobile.home.permission.PROVIDER_INSERT_BADGE
+[INTERNAL_LOG][2018-06-07 21:21:26,891][INFO][is_hybird()] com.anddoes.launcher.permission.UPDATE_COUNT
+[INTERNAL_LOG][2018-06-07 21:21:26,892][INFO][is_hybird()] com.majeur.launcher.permission.UPDATE_BADGE
+[INTERNAL_LOG][2018-06-07 21:21:26,892][INFO][is_hybird()] com.huawei.android.launcher.permission.CHANGE_BADGE
+[INTERNAL_LOG][2018-06-07 21:21:26,892][INFO][is_hybird()] com.huawei.android.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-07 21:21:26,892][INFO][is_hybird()] com.huawei.android.launcher.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-07 21:21:26,892][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-07 21:21:26,892][INFO][is_hybird()] android.permission.ACCESS_COARSE_LOCATION
+[INTERNAL_LOG][2018-06-07 21:21:26,892][INFO][is_hybird()] android.permission.ACCESS_FINE_LOCATION
+[INTERNAL_LOG][2018-06-07 21:21:26,892][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-07 21:21:26,898][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-07 21:21:26,898][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-07 21:21:26,904][INFO][find_string()] File: assets/zip_7935160/index.html
+[INTERNAL_LOG][2018-06-07 21:21:26,911][INFO][find_string()] No iframe in assets/zip_7935160/index.html
+[INTERNAL_LOG][2018-06-07 21:21:26,912][INFO][find_string()] File: res/raw/flashplayer_not_exist.html
+[INTERNAL_LOG][2018-06-07 21:21:26,913][INFO][find_string()] No iframe in res/raw/flashplayer_not_exist.html
+[INTERNAL_LOG][2018-06-07 21:21:26,914][INFO][find_string()] File: res/raw/index.html
+[INTERNAL_LOG][2018-06-07 21:21:26,915][INFO][find_string()] No iframe in res/raw/index.html
+[INTERNAL_LOG][2018-06-07 21:21:26,915][INFO][find_string()] File: res/raw/insuffient_sdk_version.html
+[INTERNAL_LOG][2018-06-07 21:21:26,915][INFO][find_string()] No iframe in res/raw/insuffient_sdk_version.html
+[INTERNAL_LOG][2018-06-07 21:21:26,916][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-07 21:22:06,451][INFO][find_url_in_apk()] [START URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-07 21:22:06,451][INFO][find_url_in_apk()] http://www.appsgeyser.com/paused/
+
+[INTERNAL_LOG][2018-06-07 21:22:06,451][INFO][find_url_in_apk()] [END URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-07 21:22:06,870][ERROR][download_page_loaded()] Failed response code: 404 for http://www.appsgeyser.com/paused/  
+[INTERNAL_LOG][2018-06-07 21:22:06,870][INFO][find_string()] [START REMOTE FILE ANALYZE]
+[INTERNAL_LOG][2018-06-07 21:22:06,870][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-07 21:22:06,870][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-07 21:22:06,871][INFO][find_url_in_apk()] http://schemas.android.com/apk/res/android
+https://wd.adcolony.com/logs
+https://adc3-launch.adcolony.com/v4/launch
+http://data.altbeacon.org/android-distance.json
+http://data.altbeacon.org/android-distance.json
+http://data.altbeacon.org/android-distance.json
+http://www.
+http://www.
+http://www.
+https://www.
+https://www.
+https://www.
+https://admin.appnext.com/adminService.asmx/SetRewards
+https://www.fqtag.com/pixel.cgi?org=TkBXEI5C3FBIr4zXwnmK&p=
+https://www.fqtag.com/pixel.cgi?org=TkBXEI5C3FBIr4zXwnmK&p=
+http://www.appnext.com/privacy_policy/index.html?z=
+http://www.appnext.com/privacy_policy/index.html?z=
+https://appnext.hs.llnwd.net/tools/sdk/interstitial/v63/script.min.js
+https://appnext.hs.llnwd.net/tools/sdk/rewarded/v63/script.min.js
+http://www.appnext.com/myid.html
+http://www.appnext.com/myid.html
+https://admin.appnext.com/AdminService.asmx/checkA?z=
+https://admin.appnext.com/AdminService.asmx/checkA?z=
+https://global.appnext.com
+https://global.appnext.com
+https://global.appnext.com
+http://appnext.hs.llnwd.net/tools/sdk/config
+http://appnext.hs.llnwd.net/tools/sdk/config
+http://appnext.hs.llnwd.net/tools/sdk/config/fullscreen_config.txt
+http://appnext.hs.llnwd.net/tools/sdk/config/rewarded_config.txt
+http://appnext.hs.llnwd.net/tools/sdk/config/interstitial_config.txt
+https://admin.appnext.com/AdminService.asmx/SetRL?guid=
+https://admin.appnext.com/AdminService.asmx/SetRL?guid=
+https://admin.appnext.com/AdminService.asmx/SetOpenV1
+https://admin.appnext.com/AdminService.asmx/SetOpenV1
+https://admin.appnext.com/AdminService.asmx/SetOpenV1
+https://admin.appnext.com/AdminService.asmx/
+https://admin.appnext.com/AdminService.asmx/
+http://appnext.hs.llnwd.net/tools/sdk/config/native_ads_config.txt
+https://api.appnxt.net
+http://appnext.hs.llnwd.net/tools/services/4.6.2/config.json
+http://appnext.hs.llnwd.net/tools/services/4.6.2/plist.zip
+https://admin.appnext.com/tools/navtac.html?bid=
+https://play.google.com/store/apps/
+https://admin.appnext.com/tp12.aspx?tid=%s&vid=%s&osid=%s&auid=%s&session_id=%s&pid=%s&ref=%s&ads_type=%s&bid=%s&cid=%s
+https://appnext.hs.llnwd.net/banner/appnext.mp4
+http://google.com/complete/search?output=toolbar&q=
+http://www.appsgeyser.com/paused/
+http://ads.appsgeyser.com/
+http://splash.appsgeyser.com/
+http://splash.appsgeyser.com/
+http://splash.appsgeyser.com/
+http://splash.appsgeyser.com/?widgetid=
+http://stat.appsgeyser.com/sdk_statistics.php?action=
+http://stat.appioapp.com/statistics.php?action=
+http://config.appsgeyser.com/?widgetId=
+http://ads.appsgeyser.com/checkstatus.php?wid=
+http://www.appsgeyser.com
+http://www.appsgeyser.com
+https://apidm.airpush.com
+https://apidm.airpush.com
+https://apidm.airpush.com
+http://www.null-value.com
+http://bookmarked.com
+https://live.chartboost.com
+http://market.android.com/
+https://profiler.42matters.com/1/advertising_id
+https://profiler.42matters.com/1/device
+https://profiler.42matters.com/1/settings
+https://www.facebook.com/audience_network/server_side_reward
+https://www.%s.facebook.com/audience_network/server_side_reward
+http://play.google.com/store/apps/
+https://www.facebook.com/
+https://www.%s.facebook.com
+https://graph.facebook.com/network_ads_common
+https://graph.%s.facebook.com/network_ads_common
+https://www.facebook.com/adnw_logging/
+https://www.%s.facebook.com/adnw_logging/
+http://www.facebook.com
+https://service.fyber.com/actions/v2
+https://service.fyber.com/installs/v2
+https://api.fyber.com/vcs/v1/new_credit.json
+https://video.fyber.com
+https://rewarded-video.fyber.com/tracker
+https://offer.fyber.com/mobile
+https://interstitial.fyber.com/interstitial
+https://interstitial.fyber.com/tracker
+https://engine.fyber.com/sdk-config
+https://engine.fyber.com/video-cache
+https://banner.fyber.com/banner
+https://banner.fyber.com/tracker
+https://testsuite.fyber.com/tracker
+https://api-rewarded-video.fyber.com/video
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+https://www.googleapis.com/auth/games
+https://plus.google.com/
+http://www.example.com
+http://www.example.com
+https://pagead2.googlesyndication.com/pagead/gen_204
+http://www.google.com
+https://support.google.com/dfp_premium/answer/7160685#push
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://csi.gstatic.com/csi
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/native_ads.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/native_video_ads.html
+https://www.google.com/dfp/linkDevice
+https://www.google.com/dfp/inAppPreview
+https://www.google.com/dfp/debugSignals
+https://www.google.com/dfp/sendDebugData
+http://play.google.com/store/apps/details
+https://i.l.inmobicdn.net/sdk/sdk/500/android/mraid.js
+http://i.w.inmobi.com/showad.asm
+https://sdktm.w.inmobi.com/sdkpubreq
+http://www.inmobi.com/products/sdk/#downloads
+http://config.inmobi.com/config-server/v1/config/secure.cfg
+https://sdkm.w.inmobi.com/metrics/e.asm?v=1&
+https://www.facebook.com/dialog/feed?app_id=181821551957328&link=
+https://m.google.com/app/plus/x/?v=compose&content=
+http://twitter.com/home?status=
+http://dock.inmobi.com/carb/v1/i
+http://dock.inmobi.com/carb/v1/o
+https://sdkm.w.inmobi.com/user/e.asm
+https://mobile-static.adsafeprotected.com/avid-v2.js
+https://ads.nexage.com
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+https://z.moatads.com/
+https://z.moatads.com/
+http://sdk.starbolt.io/waterfalls.json
+https://dmp.starbolt.io/logger.json
+http://sdk-logs.matomy.com:12201/gelf
+https://devices.starbolt.io/
+http://sdk.starbolt.io/
+http://sdk.starbolt.io/
+http://sdk.starbolt.io/
+https://analytics.mopub.com/i/jot/exchange_client_event
+https://twitter.com/%s/status/%s
+https://www.mopub.com/optout
+https://www.mopub.com/optout/
+https://www.mopub.com/optout/
+https://api.oneaudience.com/
+https://api.oneaudience.com/api
+http://robocop.oneaudience.com/reporterror
+http://robocop.oneaudience.com/reporterror
+https://graph.facebook.com/v2.5/me
+https://onesignal.com/api/v1/
+http://silvermob.com/marketplace/api/ads?c=sdk&v=1.0&size=320x480&format=json&ua=
+https://play.google.com/store/apps/details?id=
+https://vvlnk0ybe8.execute-api.us-west-2.amazonaws.com/prd
+https://vvlnk0ybe8.execute-api.us-west-2.amazonaws.com/prd
+https://z1aldns1sj.execute-api.us-west-2.amazonaws.com/prd
+https://z1aldns1sj.execute-api.us-west-2.amazonaws.com/prd
+https://n3491cvue2.execute-api.us-west-2.amazonaws.com/prd
+https://n3491cvue2.execute-api.us-west-2.amazonaws.com/prd
+https://i5j7duvae6.execute-api.us-west-2.amazonaws.com/prd
+https://i5j7duvae6.execute-api.us-west-2.amazonaws.com/prd
+https://j37wx24r6g.execute-api.us-west-2.amazonaws.com/prd
+https://j37wx24r6g.execute-api.us-west-2.amazonaws.com/prd
+https://pie.wirelessregistry.com/observation/
+https://pie.wirelessregistry.com/observation/
+http://sdata.elephantdata.net/cc/v1/api?serviceid=1
+https://www.vungle.com/privacy/
+https://www.vungle.com/privacy/
+https://api.vungle.com/api/v4/
+https://ingest.vungle.com/
+http://lol.vungle.com/
+https://startup.mobile.yandex.net/
+https://startup.mobile.yandex.net/
+https://certificate.mobile.yandex.net/api/v1/pins
+https://certificate.mobile.yandex.net/api/v1/pins
+https://certificate.mobile.yandex.net/api/v1/pins
+https://certificate.mobile.yandex.net/api/v1/pins
+https://certificate.mobile.yandex.net/api/v1/pins
+https://tech.yandex.com/metrica-mobile-sdk/doc/mobile-sdk-dg/concepts/android-initialize-docpage/
+
+[INTERNAL_LOG][2018-06-07 21:22:06,871][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-07 21:22:06,879][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-07 21:22:06,879][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-07 21:22:06,879][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-07 21:22:06,879][INFO][analyze_start()] End time:[Thu Jun  7 21:22:06 2018]

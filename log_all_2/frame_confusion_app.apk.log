@@ -1,0 +1,29 @@
+[INTERNAL_LOG][2018-06-12 03:03:30,304][INFO][analyze_start()] Init Time [Tue Jun 12 03:03:30 2018]
+[INTERNAL_LOG][2018-06-12 03:03:30,319][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 03:03:30,319][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 03:03:30,319][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 03:03:30,319][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 03:03:30,319][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 03:03:30,319][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 03:03:30,319][INFO][find_string()] File: assets/index.html
+[INTERNAL_LOG][2018-06-12 03:03:30,324][INFO][find_string()] Found this tag <iframe allowfullscreen="" height="100%" src="http://davidecaputo93.altervista.org/index.html" width="100%"></iframe>
+[INTERNAL_LOG][2018-06-12 03:03:30,324][INFO][find_string()] Found in file assets/index.html tag iframe , 1 times
+[INTERNAL_LOG][2018-06-12 03:03:30,324][INFO][find_string()] Founded this src ['http://davidecaputo93.altervista.org/index.html'] in iframe tag inside file assets/index.html
+[INTERNAL_LOG][2018-06-12 03:03:30,325][INFO][find_string()] No CSP found!
+[INTERNAL_LOG][2018-06-12 03:03:30,325][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 03:03:30,325][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 03:03:30,325][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 03:03:38,572][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 03:03:38,572][INFO][find_url_in_apk()] http://schemas.android.com/apk/res/android
+
+[INTERNAL_LOG][2018-06-12 03:03:38,572][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 03:03:38,574][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 03:03:38,575][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 03:03:38,575][INFO][analyze_start()] This app might be vulnerable on attack frame confusion, This file are vulnerable ['assets/index.html']
+[INTERNAL_LOG][2018-06-12 03:03:38,575][INFO][analyze_start()] End time:[Tue Jun 12 03:03:38 2018]

@@ -1,0 +1,172 @@
+[INTERNAL_LOG][2018-06-12 06:03:15,943][INFO][analyze_start()] Init Time [Tue Jun 12 06:03:15 2018]
+[INTERNAL_LOG][2018-06-12 06:03:16,128][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 06:03:16,128][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 06:03:16,128][INFO][is_hybird()] android.permission.DISABLE_KEYGUARD
+[INTERNAL_LOG][2018-06-12 06:03:16,128][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 06:03:16,128][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-12 06:03:16,129][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-12 06:03:16,129][INFO][is_hybird()] com.google.android.c2dm.permission.SEND
+[INTERNAL_LOG][2018-06-12 06:03:16,129][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 06:03:16,129][INFO][is_hybird()] android.permission.RECORD_AUDIO
+[INTERNAL_LOG][2018-06-12 06:03:16,129][INFO][is_hybird()] android.permission.CAMERA
+[INTERNAL_LOG][2018-06-12 06:03:16,129][INFO][is_hybird()] android.permission.MODIFY_AUDIO_SETTINGS
+[INTERNAL_LOG][2018-06-12 06:03:16,129][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 06:03:16,129][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 06:03:16,129][INFO][is_hybird()] android.permission.GET_TASKS
+[INTERNAL_LOG][2018-06-12 06:03:16,129][INFO][is_hybird()] android.permission.READ_PHONE_STATE
+[INTERNAL_LOG][2018-06-12 06:03:16,129][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 06:03:16,129][INFO][is_hybird()] android.permission.RECEIVE_SMS
+[INTERNAL_LOG][2018-06-12 06:03:16,129][INFO][is_hybird()] android.permission.READ_SMS
+[INTERNAL_LOG][2018-06-12 06:03:16,129][INFO][is_hybird()] android.permission.FLASHLIGHT
+[INTERNAL_LOG][2018-06-12 06:03:16,129][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-12 06:03:16,129][INFO][is_hybird()] com.sonyericsson.home.permission.BROADCAST_BADGE
+[INTERNAL_LOG][2018-06-12 06:03:16,129][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 06:03:16,129][INFO][is_hybird()] android.permission.USE_CREDENTIALS
+[INTERNAL_LOG][2018-06-12 06:03:16,129][INFO][is_hybird()] android.permission.ACCESS_GPS
+[INTERNAL_LOG][2018-06-12 06:03:16,130][INFO][is_hybird()] android.permission.ACCESS_LOCATION
+[INTERNAL_LOG][2018-06-12 06:03:16,130][INFO][is_hybird()] android.permission.ACCESS_COARSE_LOCATION
+[INTERNAL_LOG][2018-06-12 06:03:16,130][INFO][is_hybird()] android.permission.ACCESS_FINE_LOCATION
+[INTERNAL_LOG][2018-06-12 06:03:16,130][INFO][is_hybird()] android.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 06:03:16,130][INFO][is_hybird()] android.permission.READ_CONTACTS
+[INTERNAL_LOG][2018-06-12 06:03:16,130][INFO][is_hybird()] android.permission.READ_PROFILE
+[INTERNAL_LOG][2018-06-12 06:03:16,130][INFO][is_hybird()] android.permission.WRITE_CONTACTS
+[INTERNAL_LOG][2018-06-12 06:03:16,130][INFO][is_hybird()] android.permission.WRITE_PROFILE
+[INTERNAL_LOG][2018-06-12 06:03:16,130][INFO][is_hybird()] android.permission.READ_SYNC_SETTINGS
+[INTERNAL_LOG][2018-06-12 06:03:16,130][INFO][is_hybird()] android.permission.WRITE_SYNC_SETTINGS
+[INTERNAL_LOG][2018-06-12 06:03:16,130][INFO][is_hybird()] android.permission.AUTHENTICATE_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 06:03:16,130][INFO][is_hybird()] android.permission.MANAGE_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 06:03:16,130][INFO][is_hybird()] android.permission.SYSTEM_ALERT_WINDOW
+[INTERNAL_LOG][2018-06-12 06:03:16,130][INFO][is_hybird()] com.android.launcher.permission.INSTALL_SHORTCUT
+[INTERNAL_LOG][2018-06-12 06:03:16,130][INFO][is_hybird()] android.permission.READ_CALENDAR
+[INTERNAL_LOG][2018-06-12 06:03:16,130][INFO][is_hybird()] android.permission.WRITE_CALENDAR
+[INTERNAL_LOG][2018-06-12 06:03:16,130][INFO][is_hybird()] com.google.android.providers.gsf.permission.READ_GSERVICES
+[INTERNAL_LOG][2018-06-12 06:03:16,130][INFO][is_hybird()] android.permission.RECEIVE_BOOT_COMPLETED
+[INTERNAL_LOG][2018-06-12 06:03:16,130][INFO][is_hybird()] com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+[INTERNAL_LOG][2018-06-12 06:03:16,131][INFO][is_hybird()] ru.ok.android.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-12 06:03:16,131][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 06:03:16,131][INFO][is_hybird()] android.permission.CHANGE_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 06:03:16,131][INFO][is_hybird()] android.permission.BLUETOOTH
+[INTERNAL_LOG][2018-06-12 06:03:16,131][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 06:03:16,131][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 06:03:16,131][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 06:03:16,131][INFO][find_string()] File: assets/YTPlayerView-iframe-player.html
+[INTERNAL_LOG][2018-06-12 06:03:16,132][INFO][find_string()] No iframe in assets/YTPlayerView-iframe-player.html
+[INTERNAL_LOG][2018-06-12 06:03:16,132][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 06:03:16,132][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 06:03:16,132][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 06:04:38,141][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 06:04:38,141][INFO][find_url_in_apk()] http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+https://facebook.com
+https://graph.%s
+https://graph-video.%s
+https://facebook.com/device?user_code=%1$s&qr=1
+http://www.android.com/
+http://www.w3.org/ns/ttml#parameter
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+http://hostname/?
+https://accounts.google.com
+https://www.facebook.com
+https://www.googleapis.com/auth/games_lite
+https://www.googleapis.com/auth/games
+https://accounts.google.com/o/oauth2/revoke?token=
+https://plus.google.com/
+http://play.google.com/store/apps/category/GAME
+https://play.google.com/store/apps/details?id=%1$s&rdid=%1$s&rdot=%2$d
+https://plus.google.com/%s/about
+https://play.google.com/store/apps/details
+https://www.googleapis.com/auth/plus.login
+https://www.googleapis.com/auth/plus.login
+https://www.googleapis.com/auth/plus.me
+https://www.googleapis.com/auth/plus.me
+http://schemas.android.com/apk/lib/com.google.android.gms.plus
+http://schemas.android.com/apk/lib/com.google.android.gms.plus
+https://api.odnoklassniki.ru
+https://st.mycdn.me/static/pro3/1-0-91/_storage/gifts/chest/chest_square.png
+https://st.mycdn.me/static/pro3/1-0-91/_storage/gifts/chest/chest_empty_square.png
+https://i.mycdn.me/i?r=AWFNOzansQ8N8QoDienYVMnGFOSv3v5oSrpA3Hj8ekG2PdHxMHRfdtveGCK8Hd79mOSCDVL9XknNz0zVoEEfMYfgaDbzmgFd5j5UF92-Yv77Tj2HfFQq28UE15yVsU5hsoQ
+https://i.mycdn.me/i?r=AWFu6E_3ojdIji3ddxncN0mHJNNdbPSNk3NAG5fgF5j_-tHxMHRfdtveGCK8Hd79mOSCDVL9XknNz0zVoEEfMYfg8hfRrZ54U6EN7FpfkA2zt_HyB6PQa7gT2gORQuNWa8g
+https://ok.ru/
+https://ok.ru/
+http://dsm.odnoklassniki.ru/
+https://m.ok.ru/
+http://wmf1.odnoklassniki.ru
+http://m.ok.ru/game/%d?custom_args=opponentId%%3D%s&refplace=%d
+http://m.ok.ru/dk?st.cmd=chatGames&st.opponentId=%s
+https://ad.apps.fm/MpAr5khkyPFEJOLF8eMxT65px440Px0vtrw1ww5B54y0c3-TOh0G2o9k_XZsYC-tT1wYFC6eQuBLsDSqHA7WqA
+http://ok.ru/apphook/vk_auth
+http://ok.ru/apphook/vk_auth
+http://www.google-analytics.com
+https://ssl.google-analytics.com
+https://app-measurement.com/a
+https://www.google.com
+https://ad.mail.ru/mobile/
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+https://target.my.com/
+http://play.google.com
+https://play.google.com
+http://market.android.com
+https://market.android.com
+https://my.com/?
+https://tracker-api.my.com/v2/
+https://tracker-api.my.com/v2/
+https://e.crashlytics.com/spi/v2/events
+https://settings.crashlytics.com/spi/v2/platforms/android/apps/%s/settings
+https://clientapi.mail.ru/
+https://clientapi.mail.ru/
+http://127.0.0.1:
+http://stest.mycdn.me/static/surprises/2016-09/gift-hearts/embed.zip
+http://stest.mycdn.me/static/surprises/2016-09/gift-flowers-30-18/embed.zip
+http://stest.mycdn.me/static/surprises/2016-09/gift-butterfly/embed.zip
+http://stest.mycdn.me/static/surprises/2016-09/gift-leafs/embed.zip
+http://stest.mycdn.me/static/surprises/2016-09/gift-flowers-15-25/embed.zip
+https://suggestqueries.google.com/complete/search?client=es-people-picker&q=
+https://www.googleapis.com/plus/v1/people/
+https://play.google.com/store/apps/details?id=
+http://stg.odnoklassniki.ru/static/mobapp-android/1-0-1/img/places/ic_
+http://stg.odnoklassniki.ru/static/mobapp-android/1-0-1/img/places/ic_
+http://m.ok.ru/
+http://https://
+http://ftp://
+http://172.19.112.35:8065/v1.zip
+http://www.google.com/
+http://schema.org/ViewAction
+https://mtest.ok.ru/
+https://mtest.ok.ru/
+https://apitest.ok.ru
+http://5.61.16.164
+http://test.ok.ru/
+https://mobile.ok.ru
+https://play.google.com/store/apps/details?id=ru.ok.live
+http://www.odnoklassniki.ru/profile/
+http://m.ok.ru
+http://ok.ru
+http://odnoklassniki.ru
+http://m.odnoklassniki.ru
+https://m.ok.ru
+https://ok.ru
+https://odnoklassniki.ru
+https://m.odnoklassniki.ru
+https://play.google.com/store/apps/
+https://play.google.com/store/apps/
+http://www.example.com
+http://scontent.cdninstagram.com
+https://api.ok.ru
+https://api.ok.ru
+https://api.ok.ru
+https://dns.google.com/resolve
+
+[INTERNAL_LOG][2018-06-12 06:04:38,141][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 06:04:38,149][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 06:04:38,149][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 06:04:38,149][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 06:04:38,149][INFO][analyze_start()] End time:[Tue Jun 12 06:04:38 2018]

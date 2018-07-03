@@ -1,0 +1,44 @@
+[INTERNAL_LOG][2018-06-09 18:03:29,626][INFO][analyze_start()] Init Time [Sat Jun  9 18:03:29 2018]
+[INTERNAL_LOG][2018-06-09 18:03:29,653][INFO][is_hybird()] Hybrid file found are: ['config.xml']
+[INTERNAL_LOG][2018-06-09 18:03:29,653][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-09 18:03:29,653][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-09 18:03:29,654][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-09 18:03:29,654][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-09 18:03:29,654][INFO][is_hybird()] android.permission.ACCESS_COARSE_LOCATION
+[INTERNAL_LOG][2018-06-09 18:03:29,654][INFO][is_hybird()] android.permission.ACCESS_FINE_LOCATION
+[INTERNAL_LOG][2018-06-09 18:03:29,654][INFO][is_hybird()] android.permission.RECORD_AUDIO
+[INTERNAL_LOG][2018-06-09 18:03:29,654][INFO][is_hybird()] android.permission.RECORD_VIDEO
+[INTERNAL_LOG][2018-06-09 18:03:29,654][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-09 18:03:29,655][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-09 18:03:29,655][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-09 18:03:29,655][INFO][is_hybird()] android.permission.READ_CONTACTS
+[INTERNAL_LOG][2018-06-09 18:03:29,655][INFO][is_hybird()] android.permission.WRITE_CONTACTS
+[INTERNAL_LOG][2018-06-09 18:03:29,655][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-09 18:03:29,655][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-09 18:03:29,655][INFO][is_hybird()] Starting apktool
+[INTERNAL_LOG][2018-06-09 18:03:33,501][INFO][check_whitelist()] [INIT ACCESS ORIGIN LIST]
+[INTERNAL_LOG][2018-06-09 18:03:33,507][INFO][check_whitelist()] origin: *
+[INTERNAL_LOG][2018-06-09 18:03:33,508][INFO][check_whitelist()] [END ACCESS ORIGIN LIST]
+
+[INTERNAL_LOG][2018-06-09 18:03:33,600][INFO][analyze_start()] TYPE APK: [HYBRID]
+
+[INTERNAL_LOG][2018-06-09 18:03:33,606][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-09 18:03:33,606][INFO][find_string()] File: assets/www/index.html
+[INTERNAL_LOG][2018-06-09 18:03:33,609][INFO][find_string()] Found in file assets/www/index.html tag iframe , 1 times
+[INTERNAL_LOG][2018-06-09 18:03:33,609][INFO][find_string()] Founded this src ['http://davidecaputo93.altervista.org/index_cordova_26.html'] in iframe tag inside file assets/www/index.html
+[INTERNAL_LOG][2018-06-09 18:03:33,610][INFO][find_string()] No CSP found!
+[INTERNAL_LOG][2018-06-09 18:03:33,610][INFO][find_string()] File: assets/www/spec.html
+[INTERNAL_LOG][2018-06-09 18:03:33,611][INFO][find_string()] No iframe in assets/www/spec.html
+[INTERNAL_LOG][2018-06-09 18:03:33,611][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-09 18:03:37,795][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-09 18:03:37,795][INFO][find_url_in_apk()] https://ssl.gstatic.com/accessibility/javascript/android/
+
+[INTERNAL_LOG][2018-06-09 18:03:37,795][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-09 18:03:37,816][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-09 18:03:37,816][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-09 18:03:37,816][INFO][analyze_start()] This app might be vulnerable on attack frame confusion, This file are vulnerable ['assets/www/index.html']
+[INTERNAL_LOG][2018-06-09 18:03:37,816][INFO][analyze_start()] End time:[Sat Jun  9 18:03:37 2018]

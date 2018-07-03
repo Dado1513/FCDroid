@@ -1,0 +1,192 @@
+[INTERNAL_LOG][2018-06-12 08:59:30,724][INFO][analyze_start()] Init Time [Tue Jun 12 08:59:30 2018]
+[INTERNAL_LOG][2018-06-12 08:59:30,796][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 08:59:30,797][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 08:59:30,797][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 08:59:30,797][INFO][is_hybird()] android.permission.CAMERA
+[INTERNAL_LOG][2018-06-12 08:59:30,797][INFO][is_hybird()] android.permission.GET_PACKAGE_SIZE
+[INTERNAL_LOG][2018-06-12 08:59:30,797][INFO][is_hybird()] com.android.launcher.permission.UNINSTALL_SHORTCUT
+[INTERNAL_LOG][2018-06-12 08:59:30,797][INFO][is_hybird()] android.permission.DOWNLOAD_WITHOUT_NOTIFICATION
+[INTERNAL_LOG][2018-06-12 08:59:30,797][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 08:59:30,797][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 08:59:30,797][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 08:59:30,797][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 08:59:30,797][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 08:59:30,797][INFO][is_hybird()] android.permission.USE_CREDENTIALS
+[INTERNAL_LOG][2018-06-12 08:59:30,797][INFO][is_hybird()] android.permission.MANAGE_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 08:59:30,797][INFO][is_hybird()] android.permission.READ_SYNC_STATS
+[INTERNAL_LOG][2018-06-12 08:59:30,797][INFO][is_hybird()] android.permission.READ_SYNC_SETTINGS
+[INTERNAL_LOG][2018-06-12 08:59:30,797][INFO][is_hybird()] android.permission.WRITE_SYNC_SETTINGS
+[INTERNAL_LOG][2018-06-12 08:59:30,797][INFO][is_hybird()] android.permission.READ_CONTACTS
+[INTERNAL_LOG][2018-06-12 08:59:30,797][INFO][is_hybird()] android.permission.SUBSCRIBED_FEEDS_READ
+[INTERNAL_LOG][2018-06-12 08:59:30,797][INFO][is_hybird()] android.permission.SUBSCRIBED_FEEDS_WRITE
+[INTERNAL_LOG][2018-06-12 08:59:30,798][INFO][is_hybird()] com.google.android.gm.permission.READ_GMAIL
+[INTERNAL_LOG][2018-06-12 08:59:30,798][INFO][is_hybird()] com.google.android.googleapps.permission.GOOGLE_AUTH
+[INTERNAL_LOG][2018-06-12 08:59:30,798][INFO][is_hybird()] com.google.android.googleapps.permission.GOOGLE_AUTH.OTHER_SERVICES
+[INTERNAL_LOG][2018-06-12 08:59:30,798][INFO][is_hybird()] com.google.android.googleapps.permission.GOOGLE_AUTH.ALL_SERVICES
+[INTERNAL_LOG][2018-06-12 08:59:30,798][INFO][is_hybird()] com.google.android.googleapps.permission.GOOGLE_AUTH.writely
+[INTERNAL_LOG][2018-06-12 08:59:30,798][INFO][is_hybird()] com.google.android.googleapps.permission.GOOGLE_AUTH.wise
+[INTERNAL_LOG][2018-06-12 08:59:30,798][INFO][is_hybird()] com.google.android.providers.gsf.permission.READ_GSERVICES
+[INTERNAL_LOG][2018-06-12 08:59:30,798][INFO][is_hybird()] com.google.android.apps.docs.permission.READ_MY_DATA
+[INTERNAL_LOG][2018-06-12 08:59:30,798][INFO][is_hybird()] com.google.android.apps.docs.permission.SYNC_STATUS
+[INTERNAL_LOG][2018-06-12 08:59:30,798][INFO][is_hybird()] com.android.launcher.permission.INSTALL_SHORTCUT
+[INTERNAL_LOG][2018-06-12 08:59:30,798][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-12 08:59:30,798][INFO][is_hybird()] com.google.android.apps.docs.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-12 08:59:30,798][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-12 08:59:30,798][INFO][is_hybird()] android.permission.NFC
+[INTERNAL_LOG][2018-06-12 08:59:30,798][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 08:59:30,798][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 08:59:30,798][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 08:59:30,798][INFO][find_string()] File: res/raw/spreadsheet_header.html
+[INTERNAL_LOG][2018-06-12 08:59:30,800][INFO][find_string()] No iframe in res/raw/spreadsheet_header.html
+[INTERNAL_LOG][2018-06-12 08:59:30,800][INFO][find_string()] File: res/raw/trix_offline.html
+[INTERNAL_LOG][2018-06-12 08:59:30,801][INFO][find_string()] No iframe in res/raw/trix_offline.html
+[INTERNAL_LOG][2018-06-12 08:59:30,801][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 08:59:30,801][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 08:59:30,801][INFO][find_string()] File: assets/photo_backup_announce/i18n.js
+[INTERNAL_LOG][2018-06-12 08:59:30,803][INFO][find_string()] No iframe in assets/photo_backup_announce/i18n.js
+[INTERNAL_LOG][2018-06-12 08:59:30,818][INFO][find_string()] File: assets/photo_backup_announce/i18nizer.js
+[INTERNAL_LOG][2018-06-12 08:59:30,819][INFO][find_string()] No iframe in assets/photo_backup_announce/i18nizer.js
+[INTERNAL_LOG][2018-06-12 08:59:30,819][INFO][find_string()] File: assets/promo/promo.js
+[INTERNAL_LOG][2018-06-12 08:59:30,842][INFO][find_string()] No iframe in assets/promo/promo.js
+[INTERNAL_LOG][2018-06-12 08:59:30,843][INFO][find_string()] File: assets/welcome/i18n.js
+[INTERNAL_LOG][2018-06-12 08:59:30,847][INFO][find_string()] No iframe in assets/welcome/i18n.js
+[INTERNAL_LOG][2018-06-12 08:59:30,847][INFO][find_string()] File: assets/welcome/i18nizer.js
+[INTERNAL_LOG][2018-06-12 08:59:30,848][INFO][find_string()] No iframe in assets/welcome/i18nizer.js
+[INTERNAL_LOG][2018-06-12 08:59:30,848][INFO][find_string()] File: assets/welcome/welcome.js
+[INTERNAL_LOG][2018-06-12 08:59:30,848][INFO][find_string()] No iframe in assets/welcome/welcome.js
+[INTERNAL_LOG][2018-06-12 08:59:30,848][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 09:00:15,304][INFO][find_url_in_apk()] [START URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-12 09:00:15,304][INFO][find_url_in_apk()] https://www.google.com/cloudprint/dialog.html
+
+[INTERNAL_LOG][2018-06-12 09:00:15,304][INFO][find_url_in_apk()] [END URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-12 09:00:15,622][INFO][find_string()] [START REMOTE FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 09:00:15,622][INFO][find_string()] Remote File in: temp_html_code/html_downloaded_Google Drive by Google LLC - com/dialog.html
+[INTERNAL_LOG][2018-06-12 09:00:15,623][INFO][find_string()] URL: https://www.google.com/cloudprint/dialog.html
+[INTERNAL_LOG][2018-06-12 09:00:15,632][INFO][find_string()] No iframe in temp_html_code/html_downloaded_Google Drive by Google LLC - com/dialog.html
+[INTERNAL_LOG][2018-06-12 09:00:15,633][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 09:00:15,633][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 09:00:15,633][INFO][find_url_in_apk()] https://ssl.gstatic.com/docs/android/
+https://ssl.gstatic.com/docs/android/drive/
+https://www.gstatic.com/images/icons/material/product/2x/drive_48dp.png
+https://www.gstatic.com/images/icons/material/product/2x/slides_48dp.png
+https://www.gstatic.com/images/icons/material/product/2x/sheets_48dp.png
+https://www.gstatic.com/images/icons/material/product/2x/forms_48dp.png
+https://www.gstatic.com/images/icons/material/system/2x/drive_pdf_googred_48dp.png
+https://www.gstatic.com/images/icons/material/system/2x/drive_image_googblue_48dp.png
+https://www.gstatic.com/images/icons/material/system/2x/drive_ms_word_googblue_48dp.png
+https://www.gstatic.com/images/icons/material/system/2x/drive_zip_grey600_48dp.png
+https://www.gstatic.com/images/icons/material/product/2x/drawings_48dp.png
+https://www.gstatic.com/images/icons/material/product/2x/docs_48dp.png
+https://www.gstatic.com/images/icons/material/system/2x/folder_mydrive_grey600_48dp.png
+https://icing.drive.google.com/open?id=
+https://www.google.com/settings/storage?hl=%s
+https://www.google.com/intl/%s/policies/terms/
+https://www.google.com/intl/%s/policies/terms/
+https://www.google.com/cloudprint/tools/convertdocument
+http://www.w3.org/TR/SVG11/feature#
+http://www.w3.org/1999/xlink
+http://www.w3.org/1999/xlink
+http://xml.org/sax/properties/lexical-handler
+http://www.w3.org/2000/svg
+http://www.w3.org/2000/svg
+https://calendar.google.com
+https://contacts.google.com
+https://photos.google.com
+https://docs.google.com/get_video_info?mobile=true
+https://docs.google.com/get_video_info?formats=android
+https://www.googleapis.com/auth/drive
+https://www.googleapis.com/auth/drive
+https://www.googleapis.com/auth/youtube
+https://www.googleapis.com/auth/youtube.readonly
+https://www.googleapis.com/
+https://www.googleapis.com/
+https://www.googleapis.com/
+https://www.googleapis.com/
+https://www.googleapis.com/
+https://www.googleapis.com/auth/activity
+https://www.googleapis.com/auth/activity
+https://drive.google.com/?androidweblogin
+https://accounts\.google(\.co(m?))?(\.\w{2})?/.*
+https://support.google.com/drive?hl=%s&p=team_drives
+https://support.google.com/drive?p=backup_and_sync_signin
+http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+https://docs.google.com/timedtext?fmts=1&tlangs=1&type=list
+https://docs.google.com/timedtext?format=vtt&type=track
+https://docs.google.com/feeds/download/documents/export/Export?id=%s&exportFormat=pdf&format=pdf
+https://docs.google.com/feeds/download/drawings/Export?id=%s&exportFormat=pdf
+https://docs.google.com/spreadsheets/export?id=%s&exportFormat=pdf
+https://docs.google.com/feeds/download/presentations/Export?id=%s&exportFormat=pdf
+https://support.google.com/drive/answer/7286514?hl=%s
+https://www.googleapis.com/auth/drive.metadata.readonly
+https://www.googleapis.com/auth/drive.readonly
+https://docs.google.com/feeds
+https://docs.googleusercontent.com
+https://spreadsheets.google.com/feeds
+https://www.googleapis.com/auth/cloudprint
+https://www.googleapis.com/auth/discussions
+https://www.googleapis.com/auth/docs
+https://www.googleapis.com/auth/drive.apps
+https://www.googleapis.com/auth/memento
+https://www.googleapis.com/auth/spreadsheets
+https://www.googleapis.com/auth/vouchers
+https://www.googleapis.com/auth/plus.me
+https://www.googleapis.com/auth/plus.native
+https://www.googleapis.com/auth/gmail.readonly
+https://www.googleapis.com/auth/drive.file
+http://this.is-a-simple-domain-xyzzy.name
+https://support.google.com/drive?hl=%s&p=drive_view_comments
+https://support.google.com/drive?hl=%s&p=drive_view_comments
+https://drive.google.com/folderview?id=%1$s
+https://lh3.googleusercontent.com/d/
+https://viewer.google.com/?androidweblogin
+https://www.gstatic.com/apps/viewer/android/mimetypes.json
+http://localhost/
+https://www.googleapis.com/drive/v3/files
+https://googledrive.com/p/convert/
+https://lh3.googleusercontent.com/d
+https://www.googleapis.com/drive
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+http://www.google-analytics.com
+https://ssl.google-analytics.com
+https://plus.google.com/
+https://clients4.google.com/insights/consumersurveys/gk/prompt
+http://support.google.com/drive/?hl=%s&p=drive_mobile_data
+https://www.google.com/cloudprint/dialog.html
+https://www.google.com/cloudprint/dialog.html
+https://www.google.com/cloudprint/dialog.html
+https://support.google.com/drive/topic/4525997
+https://support.google.com/drive/answer/6156103
+https://www.googleapis.com/voucherredemption/v1/products
+http://zxing.appspot.com
+https://www.googleapis.com/auth/admin.directory.user.security.appaccesssettings
+http://localhost:8080
+https://localhost
+https://www.googleapis.com/auth/games_lite
+https://www.googleapis.com/auth/games
+http://hostname/?
+https://support.google.com/drive?hl=%s&p=share_photos
+https://drive.google.com/open?id=
+https://support.google.com/drive/answer/148505
+https://www.google.com/intl/%s/policies/privacy/
+https://play.google.com/store/apps/details?id=%1$s&rdid=%1$s&rdot=%2$d
+https://drive.google.com/abuse
+https://drive.google.com/settings/storage-upgrade
+https://www.googleapis.com/batch
+http://google.com/
+https://blobcomments-pa.googleapis.com/
+
+[INTERNAL_LOG][2018-06-12 09:00:15,634][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 09:00:15,649][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 09:00:15,650][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 09:00:15,650][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 09:00:15,650][INFO][analyze_start()] End time:[Tue Jun 12 09:00:15 2018]

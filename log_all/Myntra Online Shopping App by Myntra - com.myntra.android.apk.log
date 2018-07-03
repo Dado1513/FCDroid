@@ -1,0 +1,230 @@
+[INTERNAL_LOG][2018-06-08 02:51:51,747][INFO][analyze_start()] Init Time [Fri Jun  8 02:51:51 2018]
+[INTERNAL_LOG][2018-06-08 02:51:51,811][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-08 02:51:51,814][INFO][is_hybird()] Hybrid file found are: ['config.xml']
+[INTERNAL_LOG][2018-06-08 02:51:51,814][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-08 02:51:51,814][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-08 02:51:51,814][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-08 02:51:51,814][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-08 02:51:51,814][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-08 02:51:51,814][INFO][is_hybird()] android.permission.RECEIVE_BOOT_COMPLETED
+[INTERNAL_LOG][2018-06-08 02:51:51,814][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-08 02:51:51,814][INFO][is_hybird()] android.permission.USE_CREDENTIALS
+[INTERNAL_LOG][2018-06-08 02:51:51,814][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-08 02:51:51,814][INFO][is_hybird()] android.permission.READ_SMS
+[INTERNAL_LOG][2018-06-08 02:51:51,814][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-08 02:51:51,814][INFO][is_hybird()] android.permission.READ_PHONE_STATE
+[INTERNAL_LOG][2018-06-08 02:51:51,814][INFO][is_hybird()] android.permission.ACCESS_FINE_LOCATION
+[INTERNAL_LOG][2018-06-08 02:51:51,814][INFO][is_hybird()] android.permission.RECEIVE_SMS
+[INTERNAL_LOG][2018-06-08 02:51:51,814][INFO][is_hybird()] com.myntra.android.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-08 02:51:51,814][INFO][is_hybird()] android.permission.CAMERA
+[INTERNAL_LOG][2018-06-08 02:51:51,814][INFO][is_hybird()] android.permission.SEND_SMS
+[INTERNAL_LOG][2018-06-08 02:51:51,815][INFO][is_hybird()] android.permission.ACCESS_COARSE_LOCATION
+[INTERNAL_LOG][2018-06-08 02:51:51,815][INFO][is_hybird()] com.google.android.providers.gsf.permission.READ_GSERVICES
+[INTERNAL_LOG][2018-06-08 02:51:51,815][INFO][is_hybird()] com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+[INTERNAL_LOG][2018-06-08 02:51:51,815][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-08 02:51:51,815][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-08 02:51:51,815][INFO][is_hybird()] Starting apktool
+[INTERNAL_LOG][2018-06-08 02:52:01,309][ERROR][is_hybird()] [ERROR file config.xmls] [Errno 2] No such file or directory: 'temp_dir/res/xml/config.xml' 
+
+[INTERNAL_LOG][2018-06-08 02:52:01,319][INFO][analyze_start()] TYPE APK: [HYBRID]
+
+[INTERNAL_LOG][2018-06-08 02:52:01,340][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-08 02:52:01,355][INFO][find_string()] File: assets/juspay/acs_blank.html
+[INTERNAL_LOG][2018-06-08 02:52:01,530][INFO][find_string()] No iframe in assets/juspay/acs_blank.html
+[INTERNAL_LOG][2018-06-08 02:52:01,546][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-08 02:52:40,038][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-08 02:52:40,039][INFO][find_url_in_apk()] http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+https://api.%s/install_data/v3/
+https://attr.%s/api/v
+https://t.%s/api/v
+https://events.%s/api/v
+https://register.%s/api/v
+https://stats.%s/stats
+https://onelink.%s/shortlink-sdk/v1
+https://monitorsdk.%s/remote-debug?app_id=
+https://github.com/bugsnag/bugsnag-react-native
+https://notify.bugsnag.com
+https://sessions.bugsnag.com
+https://bugsnag.com
+https://graph.%s
+https://graph-video.%s
+https://facebook.com
+https://facebook.com/device?user_code=%1$s&qr=1
+http://www.android.com/
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+http://hostname/?
+http://hostname/?
+https://www.googleapis.com/auth/games_lite
+https://www.googleapis.com/auth/games
+https://plus.google.com/
+http://www.google-analytics.com
+https://ssl.google-analytics.com
+https://app-measurement.com/a
+https://www.google.com
+https://www.googletagmanager.com
+http://www.youtube.com/watch?v=
+http://www.youtube.com/watch?v=
+http://play.google.com/store/apps/details
+https://www.googleapis.com/auth/plus.login
+https://www.youtube.com/watch?v=
+https://www.youtube.com/watch?v=
+https://www.youtube.com/watch?v=
+http://www.myntra.com/mailers/
+https://www.googleapis.com/language/translate/v2?key=AIzaSyATekXNfo_n2JgqOWPF0hXtJ-X0E-Uid8I&target=en&q=
+https://www.googleapis.com/language/translate/v2/detect?key=AIzaSyATekXNfo_n2JgqOWPF0hXtJ-X0E-Uid8I&q=
+http://www.myntra.com
+http://developer.myntra.com
+http://developer.myntra.com
+https://developer.myntra.com/forum
+https://developer.myntra.com/magasin
+http://www.myntra.com/checkout/cart
+https://secure.myntra.com/checkout/cart
+https://secure.myntra.com/giftcard
+http://www.myntra.com/checkout/wishlist
+http://www.myntra.com/my/myntrapoints
+http://www.myntra.com/size-chart/
+http://touch.myntra.com
+https://madalytics-qa.myntra.com
+http://developer.myntra.com/lgp
+http://developer.myntra.com/lgp
+https://developer.myntra.com
+https://developer.myntra.com
+http://developer.myntra.com/assets/all
+https://api.myntra.com
+https://api.myntra.com
+https://www.myntra.com/artees/ar.html
+http://assets.myntassets.com/assets/images/2016/1/20/11453292012634-placeholder.jpg
+http://assets.myntassets.com/assets/images/2016/1/20/11453291423406-image_1.jpg
+http://assets.myntassets.com/assets/images/2016/1/20/11453291761739-image_2.jpg
+http://developer.myntra.com/healthcheck
+https://plugins-myntra.perfectcorp.com/c1819/Venus-20180209.data
+http://developer.myntra.com/lgp/v2
+http://www.example.com
+https://play.google.com/store/apps/details?id=
+http://myntra.com/
+http://myntra.com/
+http://myntra.com/
+http://www.myntra.com/mailers/u/
+https://metrique.myntrainfo.com
+https://play.google.com/store/apps/details?id=com.google.android.webview
+https://play.google.com/store/apps/details?id=com.android.chrome
+http://assets.myntassets.com/
+http://assets.myntassets.com/
+http://assets.myntassets.com/
+http://assets.myntassets.com/
+http://assets.myntassets.com/
+http://assets.myntassets.com/
+https://developer.myntra.com/packages/android-jsbundle-3.25.1/
+https://developer.myntra.com/packages
+http://www.myntra.com/termofuse-referral
+http://www.myntra.com/faqs-referral
+http://assets.myntassets.com/assets/images/banners/2017/11/30/11512048834015-Screen-Shot-2017-11-30-at-18.30.01.png
+https://www.myntra.com
+https://developer.myntra.com/idp/refreshandredirect
+https://assets.myntassets.com/
+https://assets.myntassets.com/
+https://assets.myntassets.com/
+https://assets.myntassets.com/
+https://www.phonepe.com/
+https://playlist.ma.tune.com
+https://configuration.ma.tune.com
+https://analytics.ma.tune.com/analytics
+https://s3.amazonaws.com/uploaded-assets-production
+https://connected.ma.tune.com
+https://s3-ap-southeast-1.amazonaws.com/godel-remote-assets/imageResources/info/juspay_info_dialog.png
+http://www.w3.org/2000/09/xmldsig#
+http://www.w3.org/2000/09/xmldsig#
+http://www.w3.org/2000/09/xmldsig#
+http://www.w3.org/2000/09/xmldsig#
+http://www.w3.org/2000/09/xmldsig#
+http://www.w3.org/2000/09/xmldsig#
+http://www.w3.org/2000/09/xmldsig#
+http://www.w3.org/2000/09/xmldsig#
+http://www.w3.org/2000/09/xmldsig#
+http://www.w3.org/2000/09/xmldsig#
+http://www.w3.org/2000/09/xmldsig#
+http://www.w3.org/2000/09/xmldsig#
+http://www.w3.org/2000/09/xmldsig#
+http://www.w3.org/2000/09/xmldsig#
+http://www.w3.org/2000/09/xmldsig#
+http://www.w3.org/2000/09/xmldsig#
+https://api.branch.io/
+https://bnc.lt/a/
+https://e.crashlytics.com/spi/v2/events
+https://settings.crashlytics.com/spi/v2/platforms/android/apps/%s/settings
+http://www.xmlsecurity.org/NS/#configuration
+http://www.xmlsecurity.org/NS/#configuration
+http://www.w3.org/2001/04/xmlenc#
+http://www.w3.org/2001/04/xmlenc#
+http://www.w3.org/2001/04/xmlenc#
+http://www.w3.org/2001/04/xmldsig-more#hmac-md5
+http://www.w3.org/2001/04/xmldsig-more#hmac-ripemd160
+http://www.w3.org/2000/09/xmldsig#hmac-sha1
+http://www.w3.org/2001/04/xmldsig-more#hmac-sha256
+http://www.w3.org/2001/04/xmldsig-more#hmac-sha384
+http://www.w3.org/2001/04/xmldsig-more#hmac-sha512
+http://www.w3.org/2001/04/xmldsig-more#rsa-md5
+http://www.w3.org/2001/04/xmldsig-more#rsa-ripemd160
+http://www.w3.org/2000/09/xmldsig#rsa-sha1
+http://www.w3.org/2001/04/xmldsig-more#rsa-sha256
+http://www.w3.org/2001/04/xmldsig-more#rsa-sha384
+http://www.w3.org/2001/04/xmldsig-more#rsa-sha512
+http://www.w3.org/2000/09/xmldsig#dsa-sha1
+http://www.w3.org/2001/04/xmldsig-more#ecdsa-sha1
+http://www.w3.org/2000/xmlns/
+http://www.w3.org/2000/xmlns/
+http://www.w3.org/2000/xmlns/
+http://www.w3.org/2000/xmlns/
+http://www.w3.org/2000/xmlns/
+http://www.w3.org/2000/xmlns/
+http://www.w3.org/2000/xmlns/
+http://www.w3.org/2000/xmlns/
+http://www.w3.org/2000/xmlns/
+http://www.w3.org/2000/xmlns/
+http://www.w3.org/2000/xmlns/
+http://www.w3.org/2000/xmlns/
+http://www.w3.org/2000/xmlns/
+http://www.w3.org/XML/1998/namespace
+http://www.w3.org/XML/1998/namespace
+http://www.w3.org/XML/1998/namespace
+http://www.w3.org/XML/1998/namespace
+http://www.w3.org/XML/1998/namespace
+http://www.w3.org/XML/1998/namespace
+http://www.w3.org/XML/1998/namespace
+http://www.w3.org/XML/1998/namespace
+http://www.w3.org/2006/12/xml-c14n11
+http://www.w3.org/2006/12/xml-c14n11
+http://www.w3.org/2000/09/xmldsig#Manifest
+http://www.w3.org/TR/2001/REC-xml-c14n-20010315
+http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments
+http://www.w3.org/2001/10/xml-exc-c14n#
+http://www.w3.org/2001/10/xml-exc-c14n#
+http://www.w3.org/2001/10/xml-exc-c14n#
+http://www.w3.org/2001/10/xml-exc-c14n#
+http://www.w3.org/2001/10/xml-exc-c14n#
+http://www.w3.org/2001/10/xml-exc-c14n#WithComments
+http://www.w3.org/2001/10/xml-exc-c14n#WithComments
+http://www.w3.org/2006/12/xml-c14n11#WithComments
+http://www.w3.org/2002/06/xmldsig-filter2
+http://www.w3.org/2002/06/xmldsig-filter2
+http://www.w3.org/TR/2001/WD-xptr-20010108
+http://www.w3.org/1999/XSL/Transform
+http://javax.xml.XMLConstants/feature/secure-processing
+http://www.w3.org/2002/04/xmldsig-filter2
+http://www.nue.et-inf.uni-siegen.de/~geuer-pollmann/#xpathFilter
+http://schemas.xmlsoap.org/soap/security/2000-12
+http://www.w3.org/2002/03/xkms#
+http://localhost/
+http://localhost/
+http://localhost/
+
+[INTERNAL_LOG][2018-06-08 02:52:40,039][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-08 02:52:40,041][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-08 02:52:40,041][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-08 02:52:40,041][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-08 02:52:40,041][INFO][analyze_start()] End time:[Fri Jun  8 02:52:40 2018]

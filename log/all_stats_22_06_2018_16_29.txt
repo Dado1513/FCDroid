@@ -1,0 +1,7 @@
+Apk analyzed: 4
+Percentual app with at least one html file inside: 0.0%
+Percentual app with js enabled 0.0%
+Percentual app with js interface 0.0%
+Percentual app maybe vulnerable: 0.0%, based on tot 4.
+Percentual app with iframe not in html file 0.0
+Average time  single apk analyzed 0.08335250616073608 sec

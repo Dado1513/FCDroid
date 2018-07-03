@@ -1,0 +1,181 @@
+[INTERNAL_LOG][2018-06-12 04:38:15,111][INFO][analyze_start()] Init Time [Tue Jun 12 04:38:15 2018]
+[INTERNAL_LOG][2018-06-12 04:38:15,284][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 04:38:15,285][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 04:38:15,285][INFO][is_hybird()] com.android.browser.permission.READ_HISTORY_BOOKMARKS
+[INTERNAL_LOG][2018-06-12 04:38:15,285][INFO][is_hybird()] com.sec.android.provider.badge.permission.READ
+[INTERNAL_LOG][2018-06-12 04:38:15,285][INFO][is_hybird()] com.sec.android.provider.badge.permission.WRITE
+[INTERNAL_LOG][2018-06-12 04:38:15,285][INFO][is_hybird()] com.htc.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 04:38:15,285][INFO][is_hybird()] com.htc.launcher.permission.UPDATE_SHORTCUT
+[INTERNAL_LOG][2018-06-12 04:38:15,285][INFO][is_hybird()] com.sonyericsson.home.permission.BROADCAST_BADGE
+[INTERNAL_LOG][2018-06-12 04:38:15,285][INFO][is_hybird()] com.anddoes.launcher.permission.UPDATE_COUNT
+[INTERNAL_LOG][2018-06-12 04:38:15,285][INFO][is_hybird()] com.majeur.launcher.permission.UPDATE_BADGE
+[INTERNAL_LOG][2018-06-12 04:38:15,285][INFO][is_hybird()] android.permission.USE_FINGERPRINT
+[INTERNAL_LOG][2018-06-12 04:38:15,285][INFO][is_hybird()] android.permission.ACCESS_FINE_LOCATION
+[INTERNAL_LOG][2018-06-12 04:38:15,285][INFO][is_hybird()] android.permission.ACCESS_COARSE_LOCATION
+[INTERNAL_LOG][2018-06-12 04:38:15,285][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 04:38:15,285][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 04:38:15,285][INFO][is_hybird()] android.permission.CHANGE_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 04:38:15,285][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 04:38:15,285][INFO][is_hybird()] android.permission.USE_CREDENTIALS
+[INTERNAL_LOG][2018-06-12 04:38:15,286][INFO][is_hybird()] android.permission.MANAGE_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 04:38:15,286][INFO][is_hybird()] android.permission.AUTHENTICATE_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 04:38:15,286][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 04:38:15,286][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-12 04:38:15,286][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 04:38:15,286][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 04:38:15,286][INFO][is_hybird()] android.permission.RECORD_AUDIO
+[INTERNAL_LOG][2018-06-12 04:38:15,286][INFO][is_hybird()] android.permission.MODIFY_AUDIO_SETTINGS
+[INTERNAL_LOG][2018-06-12 04:38:15,286][INFO][is_hybird()] android.permission.CAMERA
+[INTERNAL_LOG][2018-06-12 04:38:15,286][INFO][is_hybird()] android.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 04:38:15,286][INFO][is_hybird()] android.permission.RECEIVE_BOOT_COMPLETED
+[INTERNAL_LOG][2018-06-12 04:38:15,286][INFO][is_hybird()] android.permission.SET_WALLPAPER
+[INTERNAL_LOG][2018-06-12 04:38:15,286][INFO][is_hybird()] com.android.alarm.permission.SET_ALARM
+[INTERNAL_LOG][2018-06-12 04:38:15,286][INFO][is_hybird()] com.android.launcher.permission.INSTALL_SHORTCUT
+[INTERNAL_LOG][2018-06-12 04:38:15,286][INFO][is_hybird()] com.android.launcher.permission.UNINSTALL_SHORTCUT
+[INTERNAL_LOG][2018-06-12 04:38:15,286][INFO][is_hybird()] com.yandex.browser.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-12 04:38:15,286][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-12 04:38:15,286][INFO][is_hybird()] com.yandex.browser.permission.HANDLE_UNSAFE_APK
+[INTERNAL_LOG][2018-06-12 04:38:15,286][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 04:38:15,286][INFO][is_hybird()] com.yandex.permission.READ_CREDENTIALS
+[INTERNAL_LOG][2018-06-12 04:38:15,286][INFO][is_hybird()] com.yandex.permission.AM_COMMUNICATION
+[INTERNAL_LOG][2018-06-12 04:38:15,286][INFO][is_hybird()] com.yandex.alice.icon.permission.READ_STATE
+[INTERNAL_LOG][2018-06-12 04:38:15,286][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 04:38:15,286][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 04:38:15,287][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 04:38:15,287][INFO][find_string()] File: assets/ynd.html
+[INTERNAL_LOG][2018-06-12 04:38:15,287][INFO][find_string()] No iframe in assets/ynd.html
+[INTERNAL_LOG][2018-06-12 04:38:15,287][INFO][find_string()] File: assets/yt.html
+[INTERNAL_LOG][2018-06-12 04:38:15,288][INFO][find_string()] No iframe in assets/yt.html
+[INTERNAL_LOG][2018-06-12 04:38:15,288][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 04:38:15,288][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 04:38:15,288][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 04:38:53,000][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 04:38:53,000][INFO][find_url_in_apk()] http://yandex.ru/images-apphost/image-download
+https://yandex.ru
+https://yandex.ru
+https://market.android
+http://market.android
+https://play.google
+http://play.google
+https://map
+http://map
+https://maps
+http://maps
+http://mobile.maps
+http://m.maps
+http://maps.yandex.ru
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+http://www.yandex.ru/clck/jsredir?from=yandex.ru;suggest;%s&text=
+https://clck.yandex.ru/click/dtype=stred/pid=1/cid=72202
+https://zen.yandex.com
+https://alice.yandex.ru/help
+https://alice.yandex.ru/help
+https://dialogs.yandex.ru/store
+http://www.
+https://www.
+https://clientservices.googleapis.com/chrome-variations/seed?osname=
+https://www.facebook.com/adnw_logging/
+https://www.%s.facebook.com/adnw_logging/
+http://play.google.com/store/apps/
+http://play.google.com/store/apps/
+https://www.facebook.com/
+https://www.%s.facebook.com
+https://graph.facebook.com/network_ads_common
+https://graph.%s.facebook.com/network_ads_common
+http://www.facebook.com
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+https://plus.google.com/
+https://api.yamb-test.mssngr.yandex-team.ru/api/
+https://api.messenger.yandex.ru/api/
+https://avatars.mds.yandex.net/get-yapic/0/islands-200
+https://yandex.ru/
+https://yandex.ru/portal/api/yabrowser
+https://yandex.ru/portal/api/yabrowser
+https://yandex.ru/search
+https://yandex.ru/search
+https://up1-cdn-tech.net/api/v1/updates/
+https://up1-cdn-tech.net/api/v1/updates/
+https://vins-int.tst.voicetech.yandex.net/speechkit/app/pa/
+https://vins-int.dev.voicetech.yandex.net/speechkit/app/pa/
+https://experiments.vins-int.dev.voicetech.yandex.net/speechkit/app/pa/
+http://testing-personal-cards.n.yandex-team.ru/
+http://alice.search.yandex.net:9097/
+https://api.browser.yandex.ru/ntp/get/
+https://resize.yandex.net/genurl?url=%s&goldenratio=yes&crop=yes&width=%d&height=%d
+https://graph.%s
+https://graph-video.%s
+https://facebook.com
+https://facebook.com/device?user_code=%1$s&qr=1
+https://www.googleapis.com/auth/games
+https://fireball.mipn-solutions.net
+https://browser.yandex.ru/feedback/
+https://chrome.google.com/webstore/category/extensions/
+https://browser.yandex.com/feedback/
+https://sovetnik.market.yandex.ru/sovetnik-disabled?clid=%s&aff_id=1104&disabling_type=browsertune
+http://host.local/?
+https://startup.mobile.yandex.net/
+https://certificate.mobile.yandex.net/api/v1/pins
+https://certificate.mobile.yandex.net/api/v1/pins
+https://certificate.mobile.yandex.net/api/v1/pins
+https://certificate.mobile.yandex.net/api/v1/pins
+https://certificate.mobile.yandex.net/api/v1/pins
+https://tech.yandex.com/metrica-mobile-sdk/doc/mobile-sdk-dg/concepts/android-initialize-docpage/
+https://appmetrica.yandex.com
+https://mail.google.com/
+https://mail.google.com/
+https://mobileproxy.passport.yandex.net
+https://mobileproxy-rc.passport.yandex.net
+https://mobileproxy-test.passport.yandex.net
+https://mobileproxy-yateam.passport.yandex.net
+https://mobileproxy-yateam-test.passport.yandex.net
+https://passport.yandex.%s
+https://social.yandex.%s
+https://passport-test.yandex.%s
+https://social-test.yandex.%s
+https://passport-rc.yandex.%s
+https://yandex.%s
+https://yandex.ru/clck/jclck
+https://yandex.ru/suggest/suggest-endings
+https://yandex.ru/search/suggest-history
+https://yandex.ru/suggest/export-user-history
+https://yandex.ru/suggest/suggest-delete-text
+https://yandex.ru/iznanka/touch
+https://yandex.ru/clck/click
+https://www.yandex.ru/portal/verticals/collections?app_platform=android&app_version=7050000&did=5f1a9de27d27ea973fdfc737077c386b&uuid=e5bbe7acaa4c4e554ef1481472a33da2&appsearch_header=1
+https://www.yandex.ru/portal/verticals/video?app_platform=android&app_version=7050000&did=5f1a9de27d27ea973fdfc737077c386b&uuid=e5bbe7acaa4c4e554ef1481472a33da2&appsearch_header=1
+http://api.browser.yandex.ru/generate_204
+https://mobile.yandex.net/psuh
+https://beta.mobsearch.yandex.ru/psuh
+https://u.startup.mobile.webvisor.com
+https://yandex.com
+https://yandex.ua
+https://yandex.by
+https://yandex.kz
+https://yandex.com.tr
+https://yandex.ru/support/form/?id=5746&iframe=1&theme=support&media-type=mobile
+https://passport.yandex.
+http://schemas.android.com/apk/res/android
+https://play.google.com/store/apps/details?id=
+http://ya.ru
+https://browser.yandex.com/mgoodbye/
+https://m.zen-test.yandex.ru
+https://alpha.zen-test.yandex.ru
+https://beta.zen-test.yandex.ru
+https://gamma.zen-test.yandex.ru
+https://delta.zen-test.yandex.ru,
+https://teta.zen-test.yandex.ru
+https://kappa.zen-test.yandex.ru
+https://omega.zen-test.yandex.ru
+
+[INTERNAL_LOG][2018-06-12 04:38:53,000][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 04:38:53,005][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 04:38:53,005][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 04:38:53,005][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 04:38:53,005][INFO][analyze_start()] End time:[Tue Jun 12 04:38:53 2018]

@@ -1,0 +1,227 @@
+[INTERNAL_LOG][2018-06-12 00:07:32,462][INFO][analyze_start()] Init Time [Tue Jun 12 00:07:32 2018]
+[INTERNAL_LOG][2018-06-12 00:07:32,549][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 00:07:32,549][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 00:07:32,549][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 00:07:32,549][INFO][is_hybird()] android.permission.READ_PHONE_STATE
+[INTERNAL_LOG][2018-06-12 00:07:32,549][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 00:07:32,549][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 00:07:32,549][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 00:07:32,550][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 00:07:32,550][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 00:07:32,550][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 00:07:32,550][INFO][find_string()] File: reference/com/applovin/adview/AppLovinAdView.html
+[INTERNAL_LOG][2018-06-12 00:07:57,141][INFO][find_string()] No iframe in reference/com/applovin/adview/AppLovinAdView.html
+[INTERNAL_LOG][2018-06-12 00:07:57,141][INFO][find_string()] File: reference/com/applovin/mediation/AppLovinMediationErrorCode.html
+[INTERNAL_LOG][2018-06-12 00:07:57,155][INFO][find_string()] No iframe in reference/com/applovin/mediation/AppLovinMediationErrorCode.html
+[INTERNAL_LOG][2018-06-12 00:07:57,155][INFO][find_string()] File: reference/com/applovin/nativeAds/package-descr.html
+[INTERNAL_LOG][2018-06-12 00:07:57,158][INFO][find_string()] No iframe in reference/com/applovin/nativeAds/package-descr.html
+[INTERNAL_LOG][2018-06-12 00:07:57,158][INFO][find_string()] File: reference/com/applovin/sdk/AppLovinAd.html
+[INTERNAL_LOG][2018-06-12 00:07:57,165][INFO][find_string()] No iframe in reference/com/applovin/sdk/AppLovinAd.html
+[INTERNAL_LOG][2018-06-12 00:07:57,165][INFO][find_string()] File: reference/com/applovin/sdk/AppLovinAdService.html
+[INTERNAL_LOG][2018-06-12 00:07:57,180][INFO][find_string()] No iframe in reference/com/applovin/sdk/AppLovinAdService.html
+[INTERNAL_LOG][2018-06-12 00:07:57,180][INFO][find_string()] File: reference/com/applovin/sdk/AppLovinLogger.html
+[INTERNAL_LOG][2018-06-12 00:07:57,190][INFO][find_string()] No iframe in reference/com/applovin/sdk/AppLovinLogger.html
+[INTERNAL_LOG][2018-06-12 00:07:57,190][INFO][find_string()] File: reference/com/applovin/sdk/AppLovinPostbackListener.html
+[INTERNAL_LOG][2018-06-12 00:07:57,195][INFO][find_string()] No iframe in reference/com/applovin/sdk/AppLovinPostbackListener.html
+[INTERNAL_LOG][2018-06-12 00:07:57,195][INFO][find_string()] File: reference/com/applovin/sdk/package-summary.html
+[INTERNAL_LOG][2018-06-12 00:07:57,201][INFO][find_string()] No iframe in reference/com/applovin/sdk/package-summary.html
+[INTERNAL_LOG][2018-06-12 00:07:57,201][INFO][find_string()] File: reference/packages.html
+[INTERNAL_LOG][2018-06-12 00:07:57,204][INFO][find_string()] No iframe in reference/packages.html
+[INTERNAL_LOG][2018-06-12 00:07:57,204][INFO][find_string()] File: reference/com/applovin/mediation/AppLovinMediationAdapterStats.html
+[INTERNAL_LOG][2018-06-12 00:07:57,211][INFO][find_string()] No iframe in reference/com/applovin/mediation/AppLovinMediationAdapterStats.html
+[INTERNAL_LOG][2018-06-12 00:07:57,211][INFO][find_string()] File: reference/com/applovin/mediation/package-descr.html
+[INTERNAL_LOG][2018-06-12 00:07:57,215][INFO][find_string()] No iframe in reference/com/applovin/mediation/package-descr.html
+[INTERNAL_LOG][2018-06-12 00:07:57,215][INFO][find_string()] File: reference/com/applovin/nativeAds/AppLovinNativeAdLoadListener.html
+[INTERNAL_LOG][2018-06-12 00:07:57,219][INFO][find_string()] No iframe in reference/com/applovin/nativeAds/AppLovinNativeAdLoadListener.html
+[INTERNAL_LOG][2018-06-12 00:07:57,219][INFO][find_string()] File: reference/com/applovin/nativeAds/package-summary.html
+[INTERNAL_LOG][2018-06-12 00:07:57,222][INFO][find_string()] No iframe in reference/com/applovin/nativeAds/package-summary.html
+[INTERNAL_LOG][2018-06-12 00:07:57,222][INFO][find_string()] File: reference/com/applovin/sdk/AppLovinAdRewardListener.html
+[INTERNAL_LOG][2018-06-12 00:07:57,228][INFO][find_string()] No iframe in reference/com/applovin/sdk/AppLovinAdRewardListener.html
+[INTERNAL_LOG][2018-06-12 00:07:57,229][INFO][find_string()] File: reference/com/applovin/sdk/AppLovinAdVideoPlaybackListener.html
+[INTERNAL_LOG][2018-06-12 00:07:57,234][INFO][find_string()] No iframe in reference/com/applovin/sdk/AppLovinAdVideoPlaybackListener.html
+[INTERNAL_LOG][2018-06-12 00:07:57,234][INFO][find_string()] File: reference/com/applovin/sdk/AppLovinEventService.html
+[INTERNAL_LOG][2018-06-12 00:07:57,241][INFO][find_string()] No iframe in reference/com/applovin/sdk/AppLovinEventService.html
+[INTERNAL_LOG][2018-06-12 00:07:57,241][INFO][find_string()] File: reference/com/applovin/sdk/AppLovinMediationService.html
+[INTERNAL_LOG][2018-06-12 00:07:57,246][INFO][find_string()] No iframe in reference/com/applovin/sdk/AppLovinMediationService.html
+[INTERNAL_LOG][2018-06-12 00:07:57,246][INFO][find_string()] File: reference/com/applovin/sdk/AppLovinSdkUtils.html
+[INTERNAL_LOG][2018-06-12 00:07:57,255][INFO][find_string()] No iframe in reference/com/applovin/sdk/AppLovinSdkUtils.html
+[INTERNAL_LOG][2018-06-12 00:07:57,255][INFO][find_string()] File: reference/com/applovin/sdk/package-descr.html
+[INTERNAL_LOG][2018-06-12 00:07:57,258][INFO][find_string()] No iframe in reference/com/applovin/sdk/package-descr.html
+[INTERNAL_LOG][2018-06-12 00:07:57,258][INFO][find_string()] File: reference/index.html
+[INTERNAL_LOG][2018-06-12 00:07:57,259][INFO][find_string()] No iframe in reference/index.html
+[INTERNAL_LOG][2018-06-12 00:07:57,259][INFO][find_string()] File: reference/classes.html
+[INTERNAL_LOG][2018-06-12 00:07:57,266][INFO][find_string()] No iframe in reference/classes.html
+[INTERNAL_LOG][2018-06-12 00:07:57,266][INFO][find_string()] File: reference/com/applovin/adview/AppLovinAdViewDisplayErrorCode.html
+[INTERNAL_LOG][2018-06-12 00:07:57,274][INFO][find_string()] No iframe in reference/com/applovin/adview/AppLovinAdViewDisplayErrorCode.html
+[INTERNAL_LOG][2018-06-12 00:07:57,274][INFO][find_string()] File: reference/com/applovin/adview/AppLovinMediatedIncentivizedInterstitial.html
+[INTERNAL_LOG][2018-06-12 00:07:57,285][INFO][find_string()] No iframe in reference/com/applovin/adview/AppLovinMediatedIncentivizedInterstitial.html
+[INTERNAL_LOG][2018-06-12 00:07:57,285][INFO][find_string()] File: reference/com/applovin/adview/InterstitialAdDialogCreator.html
+[INTERNAL_LOG][2018-06-12 00:07:57,289][INFO][find_string()] No iframe in reference/com/applovin/adview/InterstitialAdDialogCreator.html
+[INTERNAL_LOG][2018-06-12 00:07:57,289][INFO][find_string()] File: reference/com/applovin/adview/package-descr.html
+[INTERNAL_LOG][2018-06-12 00:07:57,292][INFO][find_string()] No iframe in reference/com/applovin/adview/package-descr.html
+[INTERNAL_LOG][2018-06-12 00:07:57,292][INFO][find_string()] File: reference/com/applovin/adview/package-summary.html
+[INTERNAL_LOG][2018-06-12 00:07:57,296][INFO][find_string()] No iframe in reference/com/applovin/adview/package-summary.html
+[INTERNAL_LOG][2018-06-12 00:07:57,296][INFO][find_string()] File: reference/com/applovin/mediation/AppLovinMediationAdapter.html
+[INTERNAL_LOG][2018-06-12 00:07:57,307][INFO][find_string()] No iframe in reference/com/applovin/mediation/AppLovinMediationAdapter.html
+[INTERNAL_LOG][2018-06-12 00:07:57,307][INFO][find_string()] File: reference/com/applovin/mediation/AppLovinMediationAdapterStatus.html
+[INTERNAL_LOG][2018-06-12 00:07:57,316][INFO][find_string()] No iframe in reference/com/applovin/mediation/AppLovinMediationAdapterStatus.html
+[INTERNAL_LOG][2018-06-12 00:07:57,316][INFO][find_string()] File: reference/com/applovin/nativeAds/AppLovinNativeAd.html
+[INTERNAL_LOG][2018-06-12 00:07:57,327][INFO][find_string()] No iframe in reference/com/applovin/nativeAds/AppLovinNativeAd.html
+[INTERNAL_LOG][2018-06-12 00:07:57,327][INFO][find_string()] File: reference/com/applovin/sdk/AppLovinAdDisplayListener.html
+[INTERNAL_LOG][2018-06-12 00:07:57,333][INFO][find_string()] No iframe in reference/com/applovin/sdk/AppLovinAdDisplayListener.html
+[INTERNAL_LOG][2018-06-12 00:07:57,333][INFO][find_string()] File: reference/com/applovin/sdk/AppLovinAdType.html
+[INTERNAL_LOG][2018-06-12 00:07:57,340][INFO][find_string()] No iframe in reference/com/applovin/sdk/AppLovinAdType.html
+[INTERNAL_LOG][2018-06-12 00:07:57,340][INFO][find_string()] File: reference/com/applovin/sdk/AppLovinEventParameters.html
+[INTERNAL_LOG][2018-06-12 00:07:57,354][INFO][find_string()] No iframe in reference/com/applovin/sdk/AppLovinEventParameters.html
+[INTERNAL_LOG][2018-06-12 00:07:57,354][INFO][find_string()] File: reference/com/applovin/sdk/AppLovinSdk.html
+[INTERNAL_LOG][2018-06-12 00:07:57,369][INFO][find_string()] No iframe in reference/com/applovin/sdk/AppLovinSdk.html
+[INTERNAL_LOG][2018-06-12 00:07:57,369][INFO][find_string()] File: reference/com/applovin/adview/AppLovinAdViewEventListener.html
+[INTERNAL_LOG][2018-06-12 00:07:57,376][INFO][find_string()] No iframe in reference/com/applovin/adview/AppLovinAdViewEventListener.html
+[INTERNAL_LOG][2018-06-12 00:07:57,376][INFO][find_string()] File: reference/com/applovin/adview/AppLovinInterstitialAd.html
+[INTERNAL_LOG][2018-06-12 00:07:57,977][INFO][find_string()] No iframe in reference/com/applovin/adview/AppLovinInterstitialAd.html
+[INTERNAL_LOG][2018-06-12 00:07:57,977][INFO][find_string()] File: reference/com/applovin/mediation/AppLovinMediationAdapterInfo.html
+[INTERNAL_LOG][2018-06-12 00:07:57,987][INFO][find_string()] No iframe in reference/com/applovin/mediation/AppLovinMediationAdapterInfo.html
+[INTERNAL_LOG][2018-06-12 00:07:57,987][INFO][find_string()] File: reference/com/applovin/mediation/AppLovinMediationLoadListener.html
+[INTERNAL_LOG][2018-06-12 00:07:57,992][INFO][find_string()] No iframe in reference/com/applovin/mediation/AppLovinMediationLoadListener.html
+[INTERNAL_LOG][2018-06-12 00:07:57,993][INFO][find_string()] File: reference/com/applovin/nativeAds/AppLovinNativeAdPrecacheListener.html
+[INTERNAL_LOG][2018-06-12 00:07:57,998][INFO][find_string()] No iframe in reference/com/applovin/nativeAds/AppLovinNativeAdPrecacheListener.html
+[INTERNAL_LOG][2018-06-12 00:07:57,998][INFO][find_string()] File: reference/com/applovin/sdk/AppLovinAdClickListener.html
+[INTERNAL_LOG][2018-06-12 00:07:58,002][INFO][find_string()] No iframe in reference/com/applovin/sdk/AppLovinAdClickListener.html
+[INTERNAL_LOG][2018-06-12 00:07:58,002][INFO][find_string()] File: reference/com/applovin/sdk/AppLovinAdSize.html
+[INTERNAL_LOG][2018-06-12 00:07:58,018][INFO][find_string()] No iframe in reference/com/applovin/sdk/AppLovinAdSize.html
+[INTERNAL_LOG][2018-06-12 00:07:58,018][INFO][find_string()] File: reference/com/applovin/sdk/AppLovinEventTypes.html
+[INTERNAL_LOG][2018-06-12 00:07:58,032][INFO][find_string()] No iframe in reference/com/applovin/sdk/AppLovinEventTypes.html
+[INTERNAL_LOG][2018-06-12 00:07:58,032][INFO][find_string()] File: reference/com/applovin/sdk/AppLovinSdkSettings.html
+[INTERNAL_LOG][2018-06-12 00:07:58,045][INFO][find_string()] No iframe in reference/com/applovin/sdk/AppLovinSdkSettings.html
+[INTERNAL_LOG][2018-06-12 00:07:58,045][INFO][find_string()] File: reference/com/applovin/mediation/AppLovinMediatedAdInfo.html
+[INTERNAL_LOG][2018-06-12 00:07:58,053][INFO][find_string()] No iframe in reference/com/applovin/mediation/AppLovinMediatedAdInfo.html
+[INTERNAL_LOG][2018-06-12 00:07:58,053][INFO][find_string()] File: reference/com/applovin/mediation/AppLovinMediationAdapterConfig.html
+[INTERNAL_LOG][2018-06-12 00:07:58,059][INFO][find_string()] No iframe in reference/com/applovin/mediation/AppLovinMediationAdapterConfig.html
+[INTERNAL_LOG][2018-06-12 00:07:58,060][INFO][find_string()] File: reference/com/applovin/mediation/AppLovinMediationDisplayListener.html
+[INTERNAL_LOG][2018-06-12 00:07:58,067][INFO][find_string()] No iframe in reference/com/applovin/mediation/AppLovinMediationDisplayListener.html
+[INTERNAL_LOG][2018-06-12 00:07:58,067][INFO][find_string()] File: reference/com/applovin/mediation/package-summary.html
+[INTERNAL_LOG][2018-06-12 00:07:58,071][INFO][find_string()] No iframe in reference/com/applovin/mediation/package-summary.html
+[INTERNAL_LOG][2018-06-12 00:07:58,072][INFO][find_string()] File: reference/com/applovin/nativeAds/AppLovinNativeAdService.html
+[INTERNAL_LOG][2018-06-12 00:07:58,077][INFO][find_string()] No iframe in reference/com/applovin/nativeAds/AppLovinNativeAdService.html
+[INTERNAL_LOG][2018-06-12 00:07:58,078][INFO][find_string()] File: reference/com/applovin/sdk/AppLovinAdLoadListener.html
+[INTERNAL_LOG][2018-06-12 00:07:58,083][INFO][find_string()] No iframe in reference/com/applovin/sdk/AppLovinAdLoadListener.html
+[INTERNAL_LOG][2018-06-12 00:07:58,083][INFO][find_string()] File: reference/com/applovin/sdk/AppLovinAdUpdateListener.html
+[INTERNAL_LOG][2018-06-12 00:07:58,087][INFO][find_string()] No iframe in reference/com/applovin/sdk/AppLovinAdUpdateListener.html
+[INTERNAL_LOG][2018-06-12 00:07:58,087][INFO][find_string()] File: reference/com/applovin/sdk/AppLovinErrorCodes.html
+[INTERNAL_LOG][2018-06-12 00:07:58,102][INFO][find_string()] No iframe in reference/com/applovin/sdk/AppLovinErrorCodes.html
+[INTERNAL_LOG][2018-06-12 00:07:58,102][INFO][find_string()] File: reference/com/applovin/sdk/AppLovinPostbackService.html
+[INTERNAL_LOG][2018-06-12 00:07:58,106][INFO][find_string()] No iframe in reference/com/applovin/sdk/AppLovinPostbackService.html
+[INTERNAL_LOG][2018-06-12 00:07:58,106][INFO][find_string()] File: index.html
+[INTERNAL_LOG][2018-06-12 00:07:58,107][INFO][find_string()] No iframe in index.html
+[INTERNAL_LOG][2018-06-12 00:07:58,107][INFO][find_string()] File: reference/com/applovin/adview/AdViewController.html
+[INTERNAL_LOG][2018-06-12 00:07:58,120][INFO][find_string()] No iframe in reference/com/applovin/adview/AdViewController.html
+[INTERNAL_LOG][2018-06-12 00:07:58,121][INFO][find_string()] File: reference/com/applovin/adview/AppLovinIncentivizedInterstitial.html
+[INTERNAL_LOG][2018-06-12 00:07:58,137][INFO][find_string()] No iframe in reference/com/applovin/adview/AppLovinIncentivizedInterstitial.html
+[INTERNAL_LOG][2018-06-12 00:07:58,137][INFO][find_string()] File: reference/com/applovin/adview/AppLovinInterstitialAdDialog.html
+[INTERNAL_LOG][2018-06-12 00:07:58,146][INFO][find_string()] No iframe in reference/com/applovin/adview/AppLovinInterstitialAdDialog.html
+[INTERNAL_LOG][2018-06-12 00:07:58,146][INFO][find_string()] File: reference/com/applovin/adview/AppLovinMediatedInterstitialAd.html
+[INTERNAL_LOG][2018-06-12 00:07:58,216][INFO][find_string()] No iframe in reference/com/applovin/adview/AppLovinMediatedInterstitialAd.html
+[INTERNAL_LOG][2018-06-12 00:07:58,217][INFO][find_string()] File: reference/hierarchy.html
+[INTERNAL_LOG][2018-06-12 00:07:58,220][INFO][find_string()] No iframe in reference/hierarchy.html
+[INTERNAL_LOG][2018-06-12 00:07:58,221][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 00:07:58,221][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 00:07:58,221][INFO][find_string()] File: assets/prettify.js
+[INTERNAL_LOG][2018-06-12 00:07:58,222][INFO][find_string()] No iframe in assets/prettify.js
+[INTERNAL_LOG][2018-06-12 00:07:58,222][INFO][find_string()] File: assets/customizations.js
+[INTERNAL_LOG][2018-06-12 00:07:58,222][INFO][find_string()] No iframe in assets/customizations.js
+[INTERNAL_LOG][2018-06-12 00:07:58,222][INFO][find_string()] File: assets/jquery-history.js
+[INTERNAL_LOG][2018-06-12 00:07:58,223][INFO][find_string()] No iframe in assets/jquery-history.js
+[INTERNAL_LOG][2018-06-12 00:07:58,223][INFO][find_string()] File: reference/lists.js
+[INTERNAL_LOG][2018-06-12 00:07:58,223][INFO][find_string()] No iframe in reference/lists.js
+[INTERNAL_LOG][2018-06-12 00:07:58,223][INFO][find_string()] File: assets/doclava-developer-docs.js
+[INTERNAL_LOG][2018-06-12 00:07:58,224][INFO][find_string()] No iframe in assets/doclava-developer-docs.js
+[INTERNAL_LOG][2018-06-12 00:07:58,224][INFO][find_string()] File: assets/doclava-developer-reference.js
+[INTERNAL_LOG][2018-06-12 00:07:58,225][INFO][find_string()] No iframe in assets/doclava-developer-reference.js
+[INTERNAL_LOG][2018-06-12 00:07:58,225][INFO][find_string()] File: assets/jquery-resizable.min.js
+[INTERNAL_LOG][2018-06-12 00:07:58,229][INFO][find_string()] No iframe in assets/jquery-resizable.min.js
+[INTERNAL_LOG][2018-06-12 00:07:58,230][INFO][find_string()] File: assets/navtree_data.js
+[INTERNAL_LOG][2018-06-12 00:07:58,230][INFO][find_string()] No iframe in assets/navtree_data.js
+[INTERNAL_LOG][2018-06-12 00:07:58,230][INFO][find_string()] File: assets/search_autocomplete.js
+[INTERNAL_LOG][2018-06-12 00:07:58,231][INFO][find_string()] No iframe in assets/search_autocomplete.js
+[INTERNAL_LOG][2018-06-12 00:07:58,231][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 00:07:59,525][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 00:07:59,525][INFO][find_url_in_apk()] http://schemas.applovin.com/android/1.0
+http://schemas.applovin.com/android/1.0
+https://d.applovin.com/
+https://a.applovin.com/
+https://rt.applovin.com/med
+https://rt.applovin.com/pix
+https://d.applvn.com/
+https://a.applvn.com/
+https://rt.applvn.com/pix
+https://vid.applovin.com/,https://pdn.applovin.com/,https://img.applovin.com/,https://d.applovin.com/,https://assets.applovin.com/,https://cdnjs.cloudflare.com/,http://vid.applovin.com/,http://pdn.applovin.com/,http://img.applovin.com/,http://d.applovin.com/,http://assets.applovin.com/,http://cdnjs.cloudflare.com/
+https://m.everyplay.com
+https://everyplay.com/apiv2/auth/connect
+https://everyplay.com/
+https://api.everyplay.com/
+https://everyplay.com/apiv2/auth/oauth/access_token
+https://m.everyplay.com/newconnect
+https://everyplay.com/terms-of-service
+https://everyplay.com/privacy-policy
+https://everyplay.com
+http://www.google-analytics.com
+https://ssl.google-analytics.com
+https://accounts.google.com
+https://accounts.google.com
+https://www.facebook.com
+https://www.facebook.com
+https://www.googleapis.com/auth/plus.me
+https://www.googleapis.com/auth/plus.me
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games
+http://plus.google.com/
+https://www.googleapis.com/auth/drive.file
+https://www.googleapis.com/auth/drive.appdata
+https://www.googleapis.com/auth/drive
+https://www.googleapis.com/auth/drive.apps
+https://www.googleapis.com/auth/fitness.activity.read
+https://www.googleapis.com/auth/fitness.activity.read
+https://www.googleapis.com/auth/fitness.activity.write
+https://www.googleapis.com/auth/fitness.activity.write
+https://www.googleapis.com/auth/fitness.location.read
+https://www.googleapis.com/auth/fitness.location.read
+https://www.googleapis.com/auth/fitness.location.write
+https://www.googleapis.com/auth/fitness.location.write
+https://www.googleapis.com/auth/fitness.body.read
+https://www.googleapis.com/auth/fitness.body.read
+https://www.googleapis.com/auth/fitness.body.write
+https://www.googleapis.com/auth/fitness.body.write
+https://www.googleapis.com/auth/fitness.nutrition.read
+https://www.googleapis.com/auth/fitness.nutrition.read
+https://www.googleapis.com/auth/fitness.nutrition.write
+https://www.googleapis.com/auth/fitness.nutrition.write
+https://www.googleapis.com/auth/games.firstparty
+https://www.googleapis.com/auth/games.firstparty
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://csi.gstatic.com/csi
+http://www.google.com
+https://app-measurement.com/a
+https://www.googleapis.com/auth/plus.login
+http://schemas.android.com/apk/lib/com.google.android.gms.plus
+http://schemas.android.com/apk/lib/com.google.android.gms.plus
+http://hostname/?
+http://hostname/?
+https://www.googletagmanager.com
+https://config.unityads.unity3d.com/webview/
+https://m.everyplay.com/auth
+
+[INTERNAL_LOG][2018-06-12 00:07:59,526][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 00:07:59,529][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 00:07:59,530][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 00:07:59,530][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 00:07:59,530][INFO][analyze_start()] End time:[Tue Jun 12 00:07:59 2018]

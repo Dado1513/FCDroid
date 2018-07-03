@@ -1,0 +1,215 @@
+[INTERNAL_LOG][2018-06-08 03:25:49,922][INFO][analyze_start()] Init Time [Fri Jun  8 03:25:49 2018]
+[INTERNAL_LOG][2018-06-08 03:25:50,071][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-08 03:25:50,071][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-08 03:25:50,071][INFO][is_hybird()] android.permission.ACCESS_FINE_LOCATION
+[INTERNAL_LOG][2018-06-08 03:25:50,072][INFO][is_hybird()] android.permission.READ_CONTACTS
+[INTERNAL_LOG][2018-06-08 03:25:50,072][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-08 03:25:50,072][INFO][is_hybird()] android.permission.CAMERA
+[INTERNAL_LOG][2018-06-08 03:25:50,072][INFO][is_hybird()] android.permission.READ_PHONE_STATE
+[INTERNAL_LOG][2018-06-08 03:25:50,072][INFO][is_hybird()] android.permission.RECEIVE_SMS
+[INTERNAL_LOG][2018-06-08 03:25:50,072][INFO][is_hybird()] android.permission.READ_SMS
+[INTERNAL_LOG][2018-06-08 03:25:50,072][INFO][is_hybird()] android.permission.READ_PROFILE
+[INTERNAL_LOG][2018-06-08 03:25:50,072][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-08 03:25:50,072][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-08 03:25:50,072][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-08 03:25:50,072][INFO][is_hybird()] android.permission.RECEIVE_BOOT_COMPLETED
+[INTERNAL_LOG][2018-06-08 03:25:50,072][INFO][is_hybird()] android.permission.NFC
+[INTERNAL_LOG][2018-06-08 03:25:50,072][INFO][is_hybird()] com.google.android.providers.gsf.permission.READ_GSERVICES
+[INTERNAL_LOG][2018-06-08 03:25:50,072][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-08 03:25:50,073][INFO][is_hybird()] android.permission.CHANGE_CONFIGURATION
+[INTERNAL_LOG][2018-06-08 03:25:50,073][INFO][is_hybird()] com.paypal.android.p2pmobile.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-08 03:25:50,073][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-08 03:25:50,073][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-08 03:25:50,073][INFO][is_hybird()] android.permission.ACCESS_COARSE_LOCATION
+[INTERNAL_LOG][2018-06-08 03:25:50,073][INFO][is_hybird()] android.permission.AUTHENTICATE_ACCOUNTS
+[INTERNAL_LOG][2018-06-08 03:25:50,073][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-08 03:25:50,073][INFO][is_hybird()] android.permission.DISABLE_KEYGUARD
+[INTERNAL_LOG][2018-06-08 03:25:50,073][INFO][is_hybird()] org.fidoalliance.uaf.permissions.FIDO_CLIENT
+[INTERNAL_LOG][2018-06-08 03:25:50,073][INFO][is_hybird()] android.permission.USE_FINGERPRINT
+[INTERNAL_LOG][2018-06-08 03:25:50,073][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-08 03:25:50,073][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-08 03:25:50,073][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-08 03:25:50,073][INFO][find_string()] File: assets/three_ds_launch.html
+[INTERNAL_LOG][2018-06-08 03:25:50,075][INFO][find_string()] No iframe in assets/three_ds_launch.html
+[INTERNAL_LOG][2018-06-08 03:25:50,075][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-08 03:27:13,872][INFO][find_url_in_apk()] [START URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-08 03:27:13,872][INFO][find_url_in_apk()] https://www.paypal.com
+http://uri.paypal.com/API_Mobile/Mobile/cfs/venice/liftoff/upgrade
+https://www.paypalobjects.com/webstatic/wallet/LegalAgreements
+
+[INTERNAL_LOG][2018-06-08 03:27:13,872][INFO][find_url_in_apk()] [END URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-08 03:27:14,860][ERROR][download_page_loaded()] Failed connection error download: http://uri.paypal.com/API_Mobile/Mobile/cfs/venice/liftoff/upgrade 
+[INTERNAL_LOG][2018-06-08 03:27:15,609][ERROR][download_page_loaded()] Failed response code: 403 for https://www.paypalobjects.com/webstatic/wallet/LegalAgreements  
+[INTERNAL_LOG][2018-06-08 03:27:15,610][INFO][find_string()] [START REMOTE FILE ANALYZE]
+[INTERNAL_LOG][2018-06-08 03:27:15,610][INFO][find_string()] Remote File in: temp_html_code/html_downloaded_PayPal by PayPal Mobile - com/www.paypal.com
+[INTERNAL_LOG][2018-06-08 03:27:15,610][INFO][find_string()] URL: https://www.paypal.com
+[INTERNAL_LOG][2018-06-08 03:27:15,622][INFO][find_string()] No iframe in temp_html_code/html_downloaded_PayPal by PayPal Mobile - com/www.paypal.com
+[INTERNAL_LOG][2018-06-08 03:27:15,623][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-08 03:27:15,623][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-08 03:27:15,623][INFO][find_url_in_apk()] http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+https://androidquery.appspot.com
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+https://plus.google.com/
+http://www.example.com
+http://www.example.com
+https://pagead2.googlesyndication.com/pagead/gen_204
+http://www.google.com
+https://support.google.com/dfp_premium/answer/7160685#push
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://csi.gstatic.com/csi
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/native_ads.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/native_video_ads.html
+https://www.google.com/dfp/linkDevice
+https://www.google.com/dfp/inAppPreview
+https://www.google.com/dfp/debugSignals
+https://www.google.com/dfp/sendDebugData
+http://private-
+http://private-
+http://private-a3c9c-foundationwallet.apiary-mock.com
+https://somewhere.com
+https://somewhere.com
+https://www.stage2d0031.stage.paypal.com:11888
+http://authenticator.paypal.com/response.jsp
+http://authenticator.paypal.com/response.jsp
+http://authenticator.paypal.com/response.jsp
+https://www.paypal.com:443/sspaypal/
+https://www.test24.stage.paypal.com/sspaypal/
+https://app.adjust.com
+https://app.adjust.com
+http://play.google.com/store/apps/details?id=
+http://www.example.com/
+https://www.example.com/
+https://www.paypal.com
+https://www.paypal.com
+https://www.paypal.com
+https://www.paypal.com
+https://www.paypal.com
+https://www.paypal.com
+https://www.paypal.com
+https://www.paypal.com
+https://www.paypal.com
+https://www.paypal.com
+https://www.paypal.com
+https://www.paypal.com
+https://www.paypal.com
+https://www.paypal.com
+https://www.paypal.com
+https://www.paypal.com
+https://www.paypal.com
+https://www.paypal.com
+https://www.paypal.com/myaccount/bundle/directdeposit?webview=direct-deposit
+https://www.paypal.com/myaccount/bundle/terms?webview=true&section=fdic
+https://www.paypal.com/myaccount/bundle/directdeposit?intent=taxrefund&src=vcard&webview=true
+https://play.google.com/store/apps/details?id=com.paypal.android.p2pmobile
+https://www.test09.stage.paypal.com/myaccount/invest
+https://www.paypal.com/myaccount/bundle/upgrade?webview=upgrade
+https://www.paypal.com/myaccount/bundle/enroll/learnmore?webview=upgrade
+https://www.paypal.com/myaccount/bundle/manualreview/success
+https://www.paypal.com/myaccount/bundle/cards/anywhere/activate?webview=activate
+https://www.paypal.com/myaccount/bundle/cards/shipped
+https://api-m.paypal.com
+https://api-m.paypal.com
+https://api-m.paypal.com
+https://api-m.paypal.com
+https://api-m.paypal.com
+https://api.sandbox.paypal.com
+https://api.sandbox.paypal.com
+http://authenticator.test.paypal.com/response.jsp
+http://private-1b1d3-endpoints1.apiary-mock.com/notes
+http://do-not-update-me--override-this-in-your-test-class
+http://do-not-update-me--override-this-in-your-test-class
+http://do-not-update-me--override-this-in-your-test-class
+http://do-not-update-me--override-this-in-your-test-class
+https://www.paypalobjects.com/digitalassets/c/consumer/consumer-app/atm/img_phone_and_atm_fullwidth-%s.png
+https://www.paypalobjects.com/digitalassets/c/consumer/consumer-app/atm/img_atm_touchscreen_fullwidth-%s.png
+https://www.paypalobjects.com/digitalassets/c/consumer/consumer-app/atm/img_withdrawcash_fullwidth-%s.png
+https://www.paypal.com/myaccount/bundle/ppcash/about
+https://www.googleapis.com/auth/games
+https://www.paypalobjects.com/webstatic/wallet/flags/flag-%s.png
+https://e.crashlytics.com/spi/v2/events
+https://www.paypalobjects.com/digitalassets/c/rda-magnes/magnes_config_android_v4.json
+https://www.paypalobjects.com/digitalassets/c/rda-magnes/magnes_config_android_v4.json
+https://www.paypalobjects.com/digitalassets/c/rda-magnes/magnes_config_android_v4.json
+https://www.paypal.com/%s/cgi-bin/webscr?cmd=p/gen/ua/policy_privacy-outside
+https://www.paypal.com/partnerwalletissuance/success
+https://www.paypal.com/partnerwalletissuance/success
+https://www.paypal.com/partnerwalletissuance/success
+https://www.paypal.com/partnerwalletissuance/cancel
+https://www.paypal.com/partnerwalletissuance/cancel
+https://www.paypal.com/partnerwalletissuance/cancel
+https://tracking.stage.paypal.com:12436
+https://tracking.stage.paypal.com:12436
+https://www.paypal.com/agreements/setup
+https://www.tsp-test.stage.paypal.com/agreements/setup
+https://www.
+https://www.
+https://www.
+https://www.
+https://p.paypal.com/debug-json/
+https://www.paypalobjects.com/images/p2p/gift-themes/
+https://www.paypal.com/myaccount/credit
+https://www.paypal.com/myaccount/credit
+https://www.paypal.com/myaccount/credit/payment/onetime
+https://uri.paypal.com/services/payments/basic
+https://www.paypal.com/myaccount/transfer/fx/xoom/redirect?type=xoomTransactionHistory
+https://www.paypal.me/
+https://www.paypal.me/
+https://www.paypal.com/myaccount/credit/payment/onetime?source=paypalapp
+https://www.paypal.com/myaccount/credit/payment/onetime?source=paypalapp
+http://content.internetvideoarchive.com/content/photos/128/5390_020.jpg
+https://www.paypal.com/%s/signup/account
+https://www.paypalobjects.com/webstatic/wallet/bankscards/img-fi-ppcredit-small.png
+https://www.paypalobjects.com/webstatic/wallet/bankscards/img-fi-mastercard-small.png
+https://www.paypalobjects.com/webstatic/wallet/bankscards/img_fi_ppsmartconnect_small.png
+https://api.spykemobile.net/spykemobileservices4.0/spykemobileservice2.svc/json/
+https://api.spykemobile.net/IngoServiceInfo
+https://api.spykemobile.net/Ingo.Server.Status.Service/api/SystemAvailability
+https://uat3.spykemobile.net/SpykeMobileServices4.0/SpykeMobileService2.svc/json/
+https://uat3.spykemobile.net/IngoServiceInfo
+https://uat3.spykemobile.net/Ingo.Server.Status.Service/api/SystemAvailability
+http://maps.google.com/maps/api/staticmap
+https://www.paypal.com/businessprofile/settings/info/edit
+https://www.paypal.com/myaccount/settings/email/
+https://www.paypal.com/cgi-bin/webscr?cmd=_complaint-view
+https://www.paypal.com/cgi-bin/webscr?cmd=_complaint-view
+https://www.paypal.com/cgi-bin/customerprofileweb?cmd=_profile-pref
+https://www.google.com/maps/dir/?api=1&origin=%f,%f&destination=%f,%f&travelmode=%s
+https://www.paypal.com/myaccount/settings/email/confirm
+https://www.moneyboxnodeweb17114624.qa.paypal.com
+http://uri.paypal.com/API_Mobile/Mobile/cfs/venice/liftoff/upgrade
+https://www.paypal.com/signup/account?country.x=%s
+http://pics.paypal.com/00/s/
+https://pics.paypal.com/00/s/MzAwWDMwMA==/z/qfcAAOxyBC1R9rmU/$(KGrHqMOKowFHkLwrv72BR9rmUiTbg~~60_2.JPG
+https://pics.paypal.com/00/s/MzAwWDMwMA==/z/qfcAAOxyBC1R9rmU/$(KGrHqMOKowFHkLwrv72BR9rmUiTbg~~60_2.JPG
+https://settings.crashlytics.com/spi/v2/platforms/android/apps/%s/settings
+https://c.paypal.com/r/v1/device/client-metadata
+https://c.paypal.com/r/v1/device/client-metadata
+http://www.paypal.com
+https://www.paypalobjects.com/webstatic/wallet/LegalAgreements
+https://www.paypalobjects.com/%22[1]/%22
+https://www.paypalobjects.com/%22[2]/%22
+https://www.paypalobjects.com/%22http://www.paypal.com//%22
+https://b.stats.paypal.com/counter.cgi
+http://www.paypal.com/
+https://www.xoom.com/sign-in?error=retry
+http://uri.paypal.com/API_Mobile/Mobile/cfs/venice/paypalcards/report-card-lost
+http://uri.paypal.com/API_Mobile/Mobile/cfs/venice/paypalcards/activate
+http://uri.paypal.com/API_Mobile/Mobile/cfs/venice/paypalcards/activate
+https://www.paypal.com/myaccount/wallet/add/bank
+https://www.paypal.com/myaccount/wallet/add/bank
+
+[INTERNAL_LOG][2018-06-08 03:27:15,623][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-08 03:27:15,632][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-08 03:27:15,632][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-08 03:27:15,632][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-08 03:27:15,632][INFO][analyze_start()] End time:[Fri Jun  8 03:27:15 2018]

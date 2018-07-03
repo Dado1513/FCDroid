@@ -1,0 +1,154 @@
+[INTERNAL_LOG][2018-06-08 02:46:39,249][INFO][analyze_start()] Init Time [Fri Jun  8 02:46:39 2018]
+[INTERNAL_LOG][2018-06-08 02:46:39,280][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-08 02:46:39,280][INFO][is_hybird()] Hybrid file found are: ['config.xml']
+[INTERNAL_LOG][2018-06-08 02:46:39,280][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-08 02:46:39,280][INFO][is_hybird()] com.android.vending.CHECK_LICENSE
+[INTERNAL_LOG][2018-06-08 02:46:39,280][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-08 02:46:39,281][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-08 02:46:39,281][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-08 02:46:39,281][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-08 02:46:39,281][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-08 02:46:39,281][INFO][is_hybird()] android.permission.BACKUP
+[INTERNAL_LOG][2018-06-08 02:46:39,281][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-08 02:46:39,281][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-08 02:46:39,281][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-08 02:46:39,281][INFO][is_hybird()] android.permission.READ_PHONE_STATE
+[INTERNAL_LOG][2018-06-08 02:46:39,281][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-08 02:46:39,281][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-08 02:46:39,281][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-08 02:46:39,281][INFO][is_hybird()] android.permission.READ_PHONE_STATE
+[INTERNAL_LOG][2018-06-08 02:46:39,281][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-08 02:46:39,281][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-08 02:46:39,281][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-08 02:46:39,281][INFO][is_hybird()] android.permission.READ_PHONE_STATE
+[INTERNAL_LOG][2018-06-08 02:46:39,281][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-08 02:46:39,281][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-08 02:46:39,281][INFO][is_hybird()] android.permission.RECEIVE_BOOT_COMPLETED
+[INTERNAL_LOG][2018-06-08 02:46:39,281][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-08 02:46:39,281][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-08 02:46:39,281][INFO][is_hybird()] android.permission.READ_PHONE_STATE
+[INTERNAL_LOG][2018-06-08 02:46:39,281][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-08 02:46:39,281][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-08 02:46:39,282][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-08 02:46:39,282][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-08 02:46:39,282][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-08 02:46:39,282][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-08 02:46:39,282][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-08 02:46:39,282][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-08 02:46:39,282][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-08 02:46:39,282][INFO][is_hybird()] android.permission.ACCESS_COARSE_LOCATION
+[INTERNAL_LOG][2018-06-08 02:46:39,282][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-08 02:46:39,282][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-08 02:46:39,282][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-08 02:46:39,282][INFO][is_hybird()] android.permission.ACCESS_COARSE_LOCATION
+[INTERNAL_LOG][2018-06-08 02:46:39,282][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-08 02:46:39,282][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-08 02:46:39,282][INFO][is_hybird()] android.permission.READ_PHONE_STATE
+[INTERNAL_LOG][2018-06-08 02:46:39,282][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-08 02:46:39,282][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-08 02:46:39,282][INFO][is_hybird()] Starting apktool
+[INTERNAL_LOG][2018-06-08 02:46:47,154][ERROR][is_hybird()] [ERROR file config.xmls] [Errno 2] No such file or directory: 'temp_dir/res/xml/config.xml' 
+
+[INTERNAL_LOG][2018-06-08 02:46:47,160][INFO][analyze_start()] TYPE APK: [HYBRID]
+
+[INTERNAL_LOG][2018-06-08 02:46:47,170][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-08 02:46:47,170][INFO][find_string()] File: assets/adview.html
+[INTERNAL_LOG][2018-06-08 02:46:47,295][INFO][find_string()] No iframe in assets/adview.html
+[INTERNAL_LOG][2018-06-08 02:46:47,310][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-08 02:47:00,748][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-08 02:47:00,749][INFO][find_url_in_apk()] http://www.amazon.co.jp/gp/aw/aap/app/
+http://www.amazon.com/gp/aw/aap/app/
+http://z-ecx.images-amazon.com/images/G/01/mobile/advertising/amazonMobileSDKv2._TTH_.json
+http://amazon-adsystem.amazon.com/
+http://www.amazon.com/gp/mas/get-appstore/android/ref=mas_mx_mba_iap_dl
+https://www.chartboost.com
+http://market.android.com/
+https://m.facebook.com/dialog/
+https://graph.facebook.com/
+https://api.facebook.com/restserver.php
+https://ads.flurry.com
+http://ads.flurry.com
+https://adlog.flurry.com
+http://adlog.flurry.com
+https://ads.flurry.com/v6/getAds.do
+http://ads.flurry.com/v6/getAds.do
+https://market.android.com/details?id=
+https://play.google.com/store/apps/details?id=
+http://data.flurry.com/aap.do
+https://data.flurry.com/aap.do
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/plus.login
+https://www.googleapis.com/auth/plus.login
+https://www.googleapis.com/auth/plus.login
+https://www.googleapis.com/auth/appstate
+https://www.googleapis.com/auth/appstate
+https://www.googleapis.com/auth/appstate
+http://gluservices.s3.amazonaws.com/PushNotifications2.0/
+http://gluservices.s3.amazonaws.com/PushNotifications2.0/
+https://ssl.google-analytics.com/collect
+http://www.google-analytics.com/collect
+http://www.google-analytics.com/collect
+http://www.google-analytics.com/collect
+https://www.googleapis.com/auth/games.firstparty
+http://schemas.android.com/apk/lib/com.google.android.gms.plus
+http://schemas.android.com/apk/lib/com.google.android.gms.plus
+http://plus.google.com/
+http://gluservices.s3.amazonaws.com/DynamicProperties/
+http://gluservices.s3.amazonaws.com/ForcedUpgrade/
+http://schemas.android.com/apk/res/android
+http://www.adtilt.com/clients/skins/resource_json_iphone.json
+http://www.adtilt.com/clients/index.php?section=serve&action=adConfig
+http://www.adtilt.com/clients/index.php?section=tracking&action=appTrack
+http://www.adtilt.com/clients/index.php?section=tracking_1_9_6&action=acVidImpressionTrack
+http://www.adtilt.com/clients/index.php?section=tracking_1_9_6&action=acVidRequestTrack
+http://www.adtilt.com/clients/index.php?section=tracking_1_9_6&action=acVidStartTrack
+http://www.adtilt.com/clients/index.php?section=tracking_1_9_6&action=acVidInfoTrack
+http://www.adtilt.com/clients/index.php?section=tracking_1_9_6&action=acVidDownloadTrack
+http://www.adtilt.com/clients/index.php?section=tracking_1_9_6&action=acVidContinueTrack
+http://test-server.kontagent.com/api/v1/
+http://api.geo.kontagent.net/api/v1/
+http://api.geo.kontagent.net/api/v0/ping/
+http://engine.mobileapptracking.com/v1/Integrations/Sdk/GetLog?sdk=android&package_name=
+https://engine.mobileapptracking.com/serve?action=click&sdk=android
+https://api.sessionm.com
+https://api.tb.sessionm.com
+http://m.s.sessionm.com
+https://portal.sessionm.com
+https://portal.tb.sessionm.com
+https://ads.sessionm.com
+https://ads.tb.sessionm.com
+http://about:blank
+https://ws.tapjoyads.com/get_vg_store_items/user_account?
+https://ws.tapjoyads.com/points/spend?
+https://ws.tapjoyads.com/points/award?
+https://ws.tapjoyads.com/get_offers/webpage?
+https://ws.tapjoyads.com/set_publisher_user_id?
+https://ws.tapjoyads.com/connect?
+https://ws.tapjoyads.com/connect?
+https://ws.tapjoyads.com/apps_installed?
+https://ws.tapjoyads.com/reengagement_rewards?
+http://ok
+https://ws.tapjoyads.com/
+https://ws.tapjoyads.com/
+https://ws.tapjoyads.com/
+https://ws.tapjoyads.com/display_ad.html?
+https://ws.tapjoyads.com/display_ad.html?
+https://ws.tapjoyads.com/user_events?
+https://ws.tapjoyads.com/get_offers/featured.html?
+https://ws.tapjoyads.com/videos?
+https://s3.amazonaws.com/tapjoy/videos/assets/watermark.png
+http://api2.playhaven.com
+http://play.google.com/marketplace/apps/details?id=%s
+http://play.google.com/marketplace/apps/details?id=%s
+
+[INTERNAL_LOG][2018-06-08 02:47:00,749][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-08 02:47:00,757][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-08 02:47:00,757][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-08 02:47:00,757][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-08 02:47:00,757][INFO][analyze_start()] End time:[Fri Jun  8 02:47:00 2018]

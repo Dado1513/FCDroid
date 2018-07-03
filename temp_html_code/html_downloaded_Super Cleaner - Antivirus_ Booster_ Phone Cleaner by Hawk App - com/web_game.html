@@ -1,0 +1,559 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>TCL Games - H5game</title>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="css/gamecenter_style151012.css"/>
+
+    <!-- BannerJS -->
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <script src="js/jquery.slides.min.js"></script>
+<!--    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>-->
+    <script type="text/javascript">
+        $(function () {
+            // Slides Ctrl
+            $('#slides').slidesjs({
+                width: 720,
+                height: 300,
+                navigation: false,
+                play: {
+                    active: false,
+                    auto: true,
+                    interval: 5000,
+                    swap: true,
+                }
+            });
+        });
+    </script>
+
+</head>
+<body>
+
+<!-- GameCenter -->
+<div class="title-bar">
+    <h1>Game Center</h1>
+    <a class="user-center" href="history.html" >USER CENTER</a>
+</div>
+
+<!-- Module -->
+<div class="classify-module">
+    <a href="trivia_list.html">
+        <div class="trivia">TRIVIA</div>
+    </a><a href="board_list.html">
+    <div class="board">BOARD</div>
+</a><a href="racing_list.html">
+    <div class="racing">RACING</div>
+</a><a href="puzzle_list.html">
+    <div class="puzzle">PUZZLE</div>
+</a><a href="simulation_list.html">
+    <div class="simulation">SIMULATION</div>
+</a><a href="action_list.html">
+    <div class="action">ACTION</div>
+</a></div>
+
+<!-- NewGames -->
+<div class="games-layer new-gmaes">
+    <div class="title ">New games<a href="#" style="display:none">MORE</a></div>
+
+    <!-- Data -->
+    <div class="game-des"><a class="game" href="http://app.ht5game.com/game/tcl/mngef/play.html">
+        <div class="game-icon-layer" onClick="do_his('mngef','Mini Golf')"><img class="icon-space-img"
+                                                                                src="images/399df49cb23ddeba77ffb95b815295dc.png"/><img
+                class="game-icon"
+                src="http://app.ht5game.com/Common/images/tcl/mngef.jpg"/></div>
+        <div class="game-name">Mini Golf</div>
+    </a>
+    </div>
+    <div class="game-des"><a class="game" href="http://app.ht5game.com/game/tcl/tyty/play.html">
+        <div class="game-icon-layer" onClick="do_his('tyty','Doodle jump')"><img class="icon-space-img"
+                                                                                 src="images/399df49cb23ddeba77ffb95b815295dc.png"/><img
+                class="game-icon" src="http://app.ht5game.com/Common/images/tcl/tyty.jpg"/></div>
+        <div class="game-name">Doodle jump</div>
+    </a>
+    </div>
+    <div class="game-des"><a class="game" href="http://app.ht5game.com/game/tcl/wxxs/play.html">
+        <div class="game-icon-layer" onClick="do_his('wxxs','Infinity')"><img class="icon-space-img"
+                                                                              src="images/399df49cb23ddeba77ffb95b815295dc.png"/><img
+                class="game-icon" src="http://app.ht5game.com/Common/images/tcl/wxxs.jpg"/>
+        </div>
+        <div class="game-name">Infinity</div>
+    </a>
+    </div>
+    <div class="game-des"><a class="game" href="http://app.ht5game.com/game/tcl/ysjd/play.html">
+        <div class="game-icon-layer" onClick="do_his('ysjd','Eggs & cars')"><img class="icon-space-img"
+                                                                                 src="images/399df49cb23ddeba77ffb95b815295dc.png"/><img
+                class="game-icon"
+                src="http://app.ht5game.com/Common/images/tcl/ysjd.jpg"/></div>
+        <div class="game-name">Eggs & cars</div>
+    </a>
+    </div>
+    <div class="clear"></div>
+    <div class="game-des"><a class="game" href="http://app.ht5game.com/game/tcl/bbt/play.html">
+        <div class="game-icon-layer" onClick="do_his('bbt','BBTan')"><img class="icon-space-img"
+                                                                          src="images/399df49cb23ddeba77ffb95b815295dc.png"/><img
+                class="game-icon"
+                src="http://app.ht5game.com/Common/images/tcl/bbt.jpg"/></div>
+        <div class="game-name">BBTan</div>
+    </a>
+    </div>
+    <div class="game-des"><a class="game" href="http://app.ht5game.com/game/tcl/sqyfk/play.html">
+        <div class="game-icon-layer" onClick="do_his('sqyfk','Ball Vs Blocks')"><img class="icon-space-img"
+                                                                                     src="images/399df49cb23ddeba77ffb95b815295dc.png"/><img
+                class="game-icon" src="http://app.ht5game.com/Common/images/tcl/sqyfk.jpg"/></div>
+        <div class="game-name">Ball Vs Blocks</div>
+    </a>
+    </div>
+    <div class="game-des"><a class="game" href="http://app.ht5game.com/game/tcl/ljys/play.html">
+        <div class="game-icon-layer" onClick="do_his('ljys','Color Hexagon')"><img class="icon-space-img"
+                                                                                   src="images/399df49cb23ddeba77ffb95b815295dc.png"/><img
+                class="game-icon" src="http://app.ht5game.com/Common/images/tcl/ljys.jpg"/>
+        </div>
+        <div class="game-name">Color Hexagon</div>
+    </a>
+    </div>
+    <div class="game-des"><a class="game" href="http://app.ht5game.com/game/tcl/fddsk/play.html">
+        <div class="game-icon-layer" onClick="do_his('fddsk','Particolo')"><img class="icon-space-img"
+                                                                                src="images/399df49cb23ddeba77ffb95b815295dc.png"/><img
+                class="game-icon"
+                src="http://app.ht5game.com/Common/images/tcl/fddsk.jpg"/></div>
+        <div class="game-name">Particolo</div>
+    </a>
+    </div>
+    <div class="clear"></div>
+    <div class="clear"></div>    <!-- 每4条数据后添加<div class="clear"></div> -->
+</div>
+
+
+<!-- ad 1 -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- 首页_自适应_TCL_20170731 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8300473319276375"
+     data-ad-slot="1789597542"
+     data-ad-format="auto"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<!-- Top5Games -->
+<div class="games-layer top5-gmaes">
+    <div class="title">Top 3 games</div>
+
+    <div class="top-game" onClick="do_his('zjsdgq','Magic Tiles 3')"><a class="game"
+                                                                        href="http://app.ht5game.com/game/tcl/zjsdgq/play.html">
+        <div class="game-icon-layer"><img class="icon-space-img"
+                                          src="images/399df49cb23ddeba77ffb95b815295dc.png"/><img
+                class="game-icon"
+                src="http://app.ht5game.com/Common/images/tcl/zjsdgq.jpg"/></div>
+        <div class="game-info">
+            <div class="game-name"><span class="top-first">1</span>Magic Tiles 3</div>
+            <div class="users"></div>
+            <div class="favouriters" style="display:none"></div>
+        </div>
+        <div class="play">PLAY</div>
+        <div class="clear"></div>
+    </a>
+
+    </div>
+    <div class="top-game" onClick="do_his('sqyfk','Ball Vs Blocks')"><a class="game"
+                                                                        href="http://app.ht5game.com/game/tcl/sqyfk/play.html">
+        <div class="game-icon-layer"><img class="icon-space-img"
+                                          src="images/399df49cb23ddeba77ffb95b815295dc.png"/><img
+                class="game-icon"
+                src="http://app.ht5game.com/Common/images/tcl/sqyfk.jpg"/></div>
+        <div class="game-info">
+            <div class="game-name"><span class="top-second">2</span>Ball Vs Blocks</div>
+            <div class="users"></div>
+            <div class="favouriters" style="display:none"></div>
+        </div>
+        <div class="play">PLAY</div>
+        <div class="clear"></div>
+    </a>
+        <div class="favourite favourite-none-img" style="display:none">Favourite</div>
+    </div>
+    <div class="top-game" onClick="do_his('dggs','Slingshot Monster')"><a class="game"
+                                                                          href="http://app.ht5game.com/game/tcl/dggs/play.html">
+        <div class="game-icon-layer"><img class="icon-space-img"
+                                          src="images/399df49cb23ddeba77ffb95b815295dc.png"/><img
+                class="game-icon"
+                src="http://app.ht5game.com/Common/images/tcl/dggs.jpg"/></div>
+        <div class="game-info">
+            <div class="game-name"><span class="top-third">3</span>Slingshot Monster</div>
+            <div class="users"></div>
+            <div class="favouriters" style="display:none"></div>
+        </div>
+        <div class="play">PLAY</div>
+        <div class="clear"></div>
+    </a>
+    </div>
+</div>
+
+<!-- ad 3 -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- 首页_自适应_TCL_20170731 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8300473319276375"
+     data-ad-slot="1789597542"
+     data-ad-format="auto"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+<!-- Banner -->
+<div id="slides">
+    <a href="http://app.ht5game.com/game/tcl/ysjd/play.html"><img src="images/ysjd.jpg"/></a>
+    <a href="http://app.ht5game.com/game/tcl/csppl/play.html"><img src="images/csppl.jpg"/></a>
+    <a href="http://app.ht5game.com/game/tcl/mmxfl/play.html"><img src="images/mmxfl.jpg"/></a>
+    <a href="http://app.ht5game.com/game/tcl/wxxs/play.html"><img src="images/wxxs.jpg"/></a>
+    <a href="http://app.ht5game.com/game/tcl/tylx/play.html"><img src="images/tylx.jpg"/></a>
+</div>
+
+<!-- 6 Class -->
+<div class="games-layer new-gmaes">
+    <div class="title more">Trivia<a href="trivia_list.html">MORE</a></div>
+    <div class="game-des"><a class="game" href="http://app.ht5game.com/game/tcl/bbt/play.html">
+        <div class="game-icon-layer" onClick="do_his('bbt','BBTan')"><img class="icon-space-img"
+                                                                                         src="images/399df49cb23ddeba77ffb95b815295dc.png"/><img
+                class="game-icon"
+                src="http://app.ht5game.com/Common/images/tcl/bbt.jpg"/></div>
+        <div class="game-name">BBTan</div>
+    </a>
+    </div>
+    <div class="game-des"><a class="game" href="http://app.ht5game.com/game/tcl/sqyfk/play.html">
+        <div class="game-icon-layer" onClick="do_his('sqyfk','Ball Vs Blocks')"><img class="icon-space-img"
+                                          src="images/399df49cb23ddeba77ffb95b815295dc.png"/><img
+                class="game-icon" src="http://app.ht5game.com/Common/images/tcl/sqyfk.jpg"/></div>
+        <div class="game-name">Ball Vs Blocks</div>
+    </a>
+    </div>
+    <div class="game-des"><a class="game" href="http://app.ht5game.com/game/tcl/ljys/play.html">
+        <div class="game-icon-layer" onClick="do_his('ljys','Color Hexagon')"><img class="icon-space-img"
+                                          src="images/399df49cb23ddeba77ffb95b815295dc.png"/><img
+                class="game-icon" src="http://app.ht5game.com/Common/images/tcl/ljys.jpg"/>
+        </div>
+        <div class="game-name">Color Hexagon</div>
+    </a>
+    </div>
+    <div class="game-des"><a class="game" href="http://app.ht5game.com/game/tcl/fddsk/play.html">
+        <div class="game-icon-layer" onClick="do_his('fddsk','Particolo')"><img class="icon-space-img"
+                                          src="images/399df49cb23ddeba77ffb95b815295dc.png"/><img
+                class="game-icon"
+                src="http://app.ht5game.com/Common/images/tcl/fddsk.jpg"/></div>
+        <div class="game-name">Particolo</div>
+    </a>
+    </div>
+    <div class="clear"></div>
+    <div class="clear"></div>
+</div>
+<div class="games-layer new-gmaes">
+    <div class="title more">Board<a href="board_list.html">MORE</a></div>
+    <div class="game-des"><a class="game" href="http://app.ht5game.com/game/tcl/zjsdgq/play.html">
+        <div class="game-icon-layer" onClick="do_his('zjsdgq','Magic Tiles 3')"><img class="icon-space-img"
+                                                                          src="images/399df49cb23ddeba77ffb95b815295dc.png"/><img
+                class="game-icon"
+                src="http://app.ht5game.com/Common/images/tcl/zjsdgq.jpg"/></div>
+        <div class="game-name">Magic Tiles 3</div>
+    </a>
+    </div>
+    <div class="game-des"><a class="game" href="http://app.ht5game.com/game/tcl/mmxfl/play.html">
+        <div class="game-icon-layer" onClick="do_his('mmxfl','The Enchanted Way')"><img class="icon-space-img"
+                                                                                     src="images/399df49cb23ddeba77ffb95b815295dc.png"/><img
+                class="game-icon" src="http://app.ht5game.com/Common/images/tcl/mmxfl.jpg"/></div>
+        <div class="game-name">The Enchanted Way</div>
+    </a>
+    </div>
+    <div class="game-des"><a class="game" href="http://app.ht5game.com/game/tcl/dsgw/play.html">
+        <div class="game-icon-layer" onClick="do_his('dsgw','Hero Journey')"><img class="icon-space-img"
+                                                                                   src="images/399df49cb23ddeba77ffb95b815295dc.png"/><img
+                class="game-icon" src="http://app.ht5game.com/Common/images/tcl/dsgw.jpg"/>
+        </div>
+        <div class="game-name">Hero Journey</div>
+    </a>
+    </div>
+    <div class="game-des"><a class="game" href="http://app.ht5game.com/game/tcl/dy/play.html">
+        <div class="game-icon-layer" onClick="do_his('dy','Battle Fish')"><img class="icon-space-img"
+                                                                                src="images/399df49cb23ddeba77ffb95b815295dc.png"/><img
+                class="game-icon"
+                src="http://app.ht5game.com/Common/images/tcl/dy.jpg"/></div>
+        <div class="game-name">Battle Fish</div>
+    </a>
+    </div>
+    <div class="clear"></div>
+    <div class="clear"></div>
+</div>
+<div class="games-layer new-gmaes">
+    <div class="title more">Racing<a href="racing_list.html">MORE</a></div>
+    <div class="game-des"><a class="game" href="http://app.ht5game.com/game/tcl/mngef/play.html">
+        <div class="game-icon-layer" onClick="do_his('mngef','Mini Golf')"><img class="icon-space-img"
+                                                                                     src="images/399df49cb23ddeba77ffb95b815295dc.png"/><img
+                class="game-icon"
+                src="http://app.ht5game.com/Common/images/tcl/mngef.jpg"/></div>
+        <div class="game-name">Mini Golf</div>
+    </a>
+    </div>
+    <div class="game-des"><a class="game" href="http://app.ht5game.com/game/tcl/tyty/play.html">
+        <div class="game-icon-layer" onClick="do_his('tyty','Doodle jump')"><img class="icon-space-img"
+                                                                                        src="images/399df49cb23ddeba77ffb95b815295dc.png"/><img
+                class="game-icon" src="http://app.ht5game.com/Common/images/tcl/tyty.jpg"/></div>
+        <div class="game-name">Doodle jump</div>
+    </a>
+    </div>
+    <div class="game-des"><a class="game" href="http://app.ht5game.com/game/tcl/wxxs/play.html">
+        <div class="game-icon-layer" onClick="do_his('wxxs','Infinity')"><img class="icon-space-img"
+                                                                                  src="images/399df49cb23ddeba77ffb95b815295dc.png"/><img
+                class="game-icon" src="http://app.ht5game.com/Common/images/tcl/wxxs.jpg"/>
+        </div>
+        <div class="game-name">Infinity</div>
+    </a>
+    </div>
+    <div class="game-des"><a class="game" href="http://app.ht5game.com/game/tcl/ysjd/play.html">
+        <div class="game-icon-layer" onClick="do_his('ysjd','Eggs & cars')"><img class="icon-space-img"
+                                                                               src="images/399df49cb23ddeba77ffb95b815295dc.png"/><img
+                class="game-icon"
+                src="http://app.ht5game.com/Common/images/tcl/ysjd.jpg"/></div>
+        <div class="game-name">Eggs & cars</div>
+    </a>
+    </div>
+    <div class="clear"></div>
+    <div class="clear"></div>
+</div>
+<div class="games-layer new-gmaes">
+    <div class="title more">Puzzle<a href="puzzle_list.html">MORE</a></div>
+    <div class="game-des"><a class="game" href="http://app.ht5game.com/game/tcl/dqhj/play.html">
+        <div class="game-icon-layer" onClick="do_his('dqhj','Obsessive Compulsive Disorder')"><img class="icon-space-img"
+                                                                                src="images/399df49cb23ddeba77ffb95b815295dc.png"/><img
+                class="game-icon"
+                src="http://app.ht5game.com/Common/images/tcl/dqhj.jpg"/></div>
+        <div class="game-name">Obsessive Compulsive Disorder</div>
+    </a>
+    </div>
+    <div class="game-des"><a class="game" href="http://app.ht5game.com/game/tcl/dggs/play.html">
+        <div class="game-icon-layer" onClick="do_his('dggs','Slingshot Monster')"><img class="icon-space-img"
+                                                                                 src="images/399df49cb23ddeba77ffb95b815295dc.png"/><img
+                class="game-icon" src="http://app.ht5game.com/Common/images/tcl/dggs.jpg"/></div>
+        <div class="game-name">Slingshot Monster</div>
+    </a>
+    </div>
+    <div class="game-des"><a class="game" href="http://app.ht5game.com/game/tcl/elsfk/play.html">
+        <div class="game-icon-layer" onClick="do_his('elsfk','Tetris')"><img class="icon-space-img"
+                                                                                  src="images/399df49cb23ddeba77ffb95b815295dc.png"/><img
+                class="game-icon" src="http://app.ht5game.com/Common/images/tcl/elsfk.jpg"/>
+        </div>
+        <div class="game-name">Tetris</div>
+    </a>
+    </div>
+    <div class="game-des"><a class="game" href="http://app.ht5game.com/game/tcl/gyzs/play.html">
+        <div class="game-icon-layer" onClick="do_his('gyzs','Reflector')"><img class="icon-space-img"
+                                                                               src="images/399df49cb23ddeba77ffb95b815295dc.png"/><img
+                class="game-icon"
+                src="http://app.ht5game.com/Common/images/tcl/gyzs.jpg"/></div>
+        <div class="game-name">Reflector</div>
+    </a>
+    </div>
+    <div class="clear"></div>
+    <div class="clear"></div>
+</div>
+<!-- ad 2 -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- 首页_自适应_TCL_20170731 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8300473319276375"
+     data-ad-slot="1789597542"
+     data-ad-format="auto"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+<div class="games-layer new-gmaes">
+    <div class="title more">Simulation<a href="simulation_list.html">MORE</a></div>
+    <div class="game-des"><a class="game" href="http://app.ht5game.com/game/tcl/gdxgxst/play.html">
+        <div class="game-icon-layer" onClick="do_his('gdxgxst','Monsters Up')"><img class="icon-space-img"
+                                                                                src="images/399df49cb23ddeba77ffb95b815295dc.png"/><img
+                class="game-icon"
+                src="http://app.ht5game.com/Common/images/tcl/gdxgxst.jpg"/></div>
+        <div class="game-name">Monsters Up</div>
+    </a>
+    </div>
+    <div class="game-des"><a class="game" href="http://app.ht5game.com/game/tcl/pzdmx/play.html">
+        <div class="game-icon-layer" onClick="do_his('pzdmx','Fat Boy Dream')"><img class="icon-space-img"
+                                                                                 src="images/399df49cb23ddeba77ffb95b815295dc.png"/><img
+                class="game-icon" src="http://app.ht5game.com/Common/images/tcl/pzdmx.jpg"/></div>
+        <div class="game-name">Fat Boy Dream</div>
+    </a>
+    </div>
+    <div class="game-des"><a class="game" href="http://app.ht5game.com/game/tcl/jgxyy2/play.html">
+        <div class="game-icon-layer" onClick="do_his('jgxyy2','Doctor Acorn 2')"><img class="icon-space-img"
+                                                                                  src="images/399df49cb23ddeba77ffb95b815295dc.png"/><img
+                class="game-icon" src="http://app.ht5game.com/Common/images/tcl/jgxyy2.jpg"/>
+        </div>
+        <div class="game-name">Doctor Acorn 2</div>
+    </a>
+    </div>
+    <div class="game-des"><a class="game" href="http://app.ht5game.com/game/tcl/lbtql/play.html">
+        <div class="game-icon-layer" onClick="do_his('lbtql','Aliez Hop')"><img class="icon-space-img"
+                                                                               src="images/399df49cb23ddeba77ffb95b815295dc.png"/><img
+                class="game-icon"
+                src="http://app.ht5game.com/Common/images/tcl/lbtql.jpg"/></div>
+        <div class="game-name">Aliez Hop</div>
+    </a>
+    </div>
+    <div class="clear"></div>
+    <div class="clear"></div>
+</div>
+<div class="games-layer new-gmaes">
+    <div class="title more">Action<a href="action_list.html">MORE</a></div>
+    <div class="game-des"><a class="game" href="http://app.ht5game.com/game/tcl/zmxxds/play.html">
+        <div class="game-icon-layer" onClick="do_his('zmxxds','Slap Fest')"><img class="icon-space-img"
+                                                                                    src="images/399df49cb23ddeba77ffb95b815295dc.png"/><img
+                class="game-icon"
+                src="http://app.ht5game.com/Common/images/tcl/zmxxds.jpg"/></div>
+        <div class="game-name">Slap Fest</div>
+    </a>
+    </div>
+    <div class="game-des"><a class="game" href="http://app.ht5game.com/game/tcl/hldclmx/play.html">
+        <div class="game-icon-layer" onClick="do_his('hldclmx','Fox adventurer')"><img class="icon-space-img"
+                                                                                    src="images/399df49cb23ddeba77ffb95b815295dc.png"/><img
+                class="game-icon" src="http://app.ht5game.com/Common/images/tcl/hldclmx.jpg"/></div>
+        <div class="game-name">Fox adventurer</div>
+    </a>
+    </div>
+    <div class="game-des"><a class="game" href="http://app.ht5game.com/game/tcl/tgmx/play.html">
+        <div class="game-icon-layer" onClick="do_his('tgmx','Gogi')"><img class="icon-space-img"
+                                                                                      src="images/399df49cb23ddeba77ffb95b815295dc.png"/><img
+                class="game-icon" src="http://app.ht5game.com/Common/images/tcl/tgmx.jpg"/>
+        </div>
+        <div class="game-name">Gogi</div>
+    </a>
+    </div>
+    <div class="game-des"><a class="game" href="http://app.ht5game.com/game/tcl/hjdwdfj/play.html">
+        <div class="game-icon-layer" onClick="do_his('hjdwdfj','Metal Animal')"><img class="icon-space-img"
+                                                                                src="images/399df49cb23ddeba77ffb95b815295dc.png"/><img
+                class="game-icon"
+                src="http://app.ht5game.com/Common/images/tcl/hjdwdfj.jpg"/></div>
+        <div class="game-name">Metal Animal</div>
+    </a>
+    </div>
+    <div class="clear"></div>
+    <div class="clear"></div>
+</div>
+<style type="text/css">
+    .copyright {
+        background: #fff;
+        padding: 15px 5%;
+    }
+
+    .copyright img {
+        display: block;
+        width: 100px;
+    }
+
+    .copyright p {
+        font-size: 14px;
+        color: #444;
+    }
+
+    .copyright span {
+        display: block;
+        text-align: right;
+        font-size: 11px;
+        color: #b2b2b2;
+    }
+</style>
+
+
+<script>
+    //init storage
+    var storage = window.localStorage;
+    var favkey = "favkey";
+    var hiskey = "hiskey";
+    var hisname = "hisname";
+    var favarr = [];
+    var hisarr = [];
+    var number = "number";
+    var hisgame;
+    //init data
+    function init_data() {
+        var favstr = storage.getItem(favkey);
+        if (favstr != null) {
+            favarr = JSON.parse(favstr);
+        }
+        for (i in favarr) {
+            $(".gc_" + favarr[i]).removeClass("favourite-none-img").addClass("favourite-img");
+            //console.log(favarr[i]);
+        }
+
+
+    }
+    init_data();
+
+    // Favourite
+    function do_fav(id, n) {
+        if ($('#' + n).hasClass("favourite-none-img")) {
+            //无收藏
+            $(".gc_" + id).removeClass("favourite-none-img").addClass("favourite-img");
+            if ($.inArray(id, favarr) == -1) {
+                favarr.push(id);
+                storage.setItem(favkey, JSON.stringify(favarr));
+                //console.log(favarr);
+            }
+        } else {
+            //已收藏
+            $(".gc_" + id).removeClass("favourite-img").addClass("favourite-none-img");
+            if ($.inArray(id, favarr) != -1) {
+                favarr.splice($.inArray(id, favarr), 1)
+                storage.setItem(favkey, JSON.stringify(favarr));
+                //console.log(favarr);
+            }
+
+        }
+    }
+
+    // 历史记录
+    function do_his(n, m) {
+        if ($.inArray(n, hisarr) == -1) {
+            if (storage.getItem(number) == undefined) {
+                i = 0;
+            }
+            for (var j = 1; j <= storage.getItem(number) / 1; j++) {
+                if (window["hiskey" + j] == undefined) {
+                    window["hiskey" + j] = "hiskey" + j;
+                }
+                console.log(storage.getItem(hiskey + j));
+                if (storage.getItem(hiskey + j) == '"' + n + '"') {
+
+                    hisgame = true;
+                }
+            }
+            if (hisgame != true) {
+                var i = storage.getItem(number);
+                i++;
+                storage.setItem(number, i);
+                storage.setItem(hiskey + i, JSON.stringify(n));
+                storage.setItem(hisname + i, JSON.stringify(m));
+            }
+
+        }
+
+    }
+</script>
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-56001919-11', 'auto');
+    ga('send', 'pageview');
+
+</script>
+
+</body>
+</html>

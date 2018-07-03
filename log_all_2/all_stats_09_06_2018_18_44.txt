@@ -1,0 +1,36 @@
+Apk analyzed: 504
+Percentual app with at least one html file inside: 58.730158730158735%
+Percentual app with js enabled 95.03968253968253%
+Percentual app with js interface 92.85714285714286%
+Percentual app maybe vulnerable: 5.555555555555555%, based on tot 504.
+Average time  single apk analyzed 52.75662502457225 sec
+
+This app maybe are vulnerable:
+- VivaVideo - Video Editor _ Photo Video Maker by _ QuVideo Inc. - com.quvideo.xiaoying.apk
+- Bubble Witch 3 Saga by King - com.king.bubblewitch3.apk
+- Dropbox by Dropbox_ Inc. - com.dropbox.android.apk
+- Diamond Digger Saga by King - com.midasplayer.apps.diamonddiggersaga.apk
+- Pet Rescue Saga by King - com.king.petrescuesaga.apk
+- Telegram by Telegram FZ-LLC - org.telegram.messenger.apk
+- Candy Crush Jelly Saga by King - com.king.candycrushjellysaga.apk
+- Where_s My Water_ 2 by Disney - com.disney.wheresmywater2_goo.apk
+- YONO by SBI by State Bank of India - com.sbi.lotusintouch.apk
+- musical.ly by musical.ly - com.zhiliaoapp.musically.apk
+- WPS Office - Word_ Docs_ PDF_ Note_ Slide _ Sheet by Kingsoft Office Software Corporation Limited - cn.wps.moffice_eng.apk
+- frame_confusion_app.apk
+- LINE Camera - Photo editor by LINE Corporation - jp.naver.linecamera.android.apk
+- GO-JEK - Ojek Taxi Booking_ Delivery and Payment by PT. Aplikasi Karya Anak Bangsa - com.gojek.app.apk
+- PicsArt Photo Studio_ Collage Maker _ Pic Editor by PicsArt - com.picsart.studio.apk
+- Frozen Free Fall by Disney - com.disney.frozensaga_goo.apk
+- MomentCam Cartoons _ Stickers by MomentCam Hong Kong Co._ Limited - com.manboker.headportrait.apk
+- MyAppPhoneGap.apk
+- Rafiki. by Blablapp - com.goodbarber.apptestapp.apk
+- Wattpad  _  Free Books by Wattpad.com - wp.wattpad.apk
+- Bubble Witch 2 Saga by King - com.midasplayer.apps.bubblewitchsaga2.apk
+- YONO.apk
+- CamScanner - Phone PDF Creator by INTSIG Information Co._Ltd - com.intsig.camscanner.apk
+- Farm Heroes Saga by King - com.king.farmheroessaga.apk
+- Candy Crush Soda Saga by King - com.king.candycrushsodasaga.apk
+- Groupon - Shop Deals_ Discounts _ Coupons by Groupon_ Inc. - com.groupon.apk
+- Candy Crush Saga by King - com.king.candycrushsaga.apk
+- Samsung Internet Browser by Samsung Electronics Co._  Ltd. - com.sec.android.app.sbrowser.apk

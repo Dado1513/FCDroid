@@ -1,0 +1,163 @@
+[INTERNAL_LOG][2018-06-07 22:33:12,707][INFO][analyze_start()] Init Time [Thu Jun  7 22:33:12 2018]
+[INTERNAL_LOG][2018-06-07 22:33:12,912][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-07 22:33:12,917][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-07 22:33:12,917][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-07 22:33:12,918][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-07 22:33:12,918][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-07 22:33:12,918][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-07 22:33:12,918][INFO][is_hybird()] com.android.launcher.permission.INSTALL_SHORTCUT
+[INTERNAL_LOG][2018-06-07 22:33:12,918][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-07 22:33:12,918][INFO][is_hybird()] com.android.vending.CHECK_LICENSE
+[INTERNAL_LOG][2018-06-07 22:33:12,918][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-07 22:33:12,918][INFO][is_hybird()] com.tinyco.potter.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-07 22:33:12,918][INFO][is_hybird()] android.permission.RECEIVE_BOOT_COMPLETED
+[INTERNAL_LOG][2018-06-07 22:33:12,918][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-07 22:33:12,918][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-07 22:33:12,918][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-07 22:33:12,918][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-07 22:33:12,918][INFO][find_string()] File: assets/png_cheatsheet.html
+[INTERNAL_LOG][2018-06-07 22:33:12,926][INFO][find_string()] No iframe in assets/png_cheatsheet.html
+[INTERNAL_LOG][2018-06-07 22:33:12,926][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-07 22:33:51,203][INFO][find_url_in_apk()] [START URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-07 22:33:51,203][INFO][find_url_in_apk()] https://cortana-gateway.amazon.com/cortana/gateway/getSignedDownloadUrl
+
+[INTERNAL_LOG][2018-06-07 22:33:51,203][INFO][find_url_in_apk()] [END URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-07 22:33:52,014][ERROR][download_page_loaded()] Failed response code: 500 for https://cortana-gateway.amazon.com/cortana/gateway/getSignedDownloadUrl  
+[INTERNAL_LOG][2018-06-07 22:33:52,015][INFO][find_string()] [START REMOTE FILE ANALYZE]
+[INTERNAL_LOG][2018-06-07 22:33:52,015][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-07 22:33:52,015][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-07 22:33:52,015][INFO][find_url_in_apk()] http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+https://app.adjust.com
+https://app.adjust.com
+https://cortana-gateway.amazon.com/cortana/gateway/getSignedDownloadUrl
+https://ags-ext.amazon.com/service/gamedata/WhisperData
+https://ags-ext.amazon.com/service/gamedata/WhisperData
+http://www.amazon.com/gp/mas/get-appstore/android/ref=mas_mx_mba_iap_dl
+https://applab-sdk.amazon.com/1.0
+https://applab-sdk.amazon.com/1.0
+https://applab-sdk.amazon.com/1.0
+https://www.chartboost.com
+https://live.chartboost.com
+http://market.android.com/
+https://graph.%s
+https://graph-video.%s
+https://facebook.com
+http://play.google.com/store/apps/details?id=com.facebook.orca
+http://m.tstore.co.kr/userpoc/mobile/policy.html
+http://m.tstore.co.kr/userpoc/mobile/cashInfo.html
+http://m.tstore.co.kr/userpoc/mobile/information.html
+http://helpdesk.nate.com/userinfo/exMemberInfo.asp?pgcode=my_phone
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+http://hostname/?
+http://hostname/?
+https://accounts.google.com
+https://www.facebook.com
+https://www.googleapis.com/auth/games_lite
+https://www.googleapis.com/auth/games_lite
+https://www.googleapis.com/auth/games_lite
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games
+https://accounts.google.com/o/oauth2/revoke?token=
+https://plus.google.com/
+https://www.googleapis.com/auth/drive.file
+https://www.googleapis.com/auth/drive.appdata
+https://www.googleapis.com/auth/drive
+https://www.googleapis.com/auth/drive.apps
+https://www.googleapis.com/auth/games.firstparty
+https://www.googleapis.com/auth/games.firstparty
+http://www.google-analytics.com
+https://ssl.google-analytics.com
+https://www.googleapis.com/auth/plus.login
+https://www.googleapis.com/auth/plus.login
+https://www.googleapis.com/auth/plus.login
+https://www.googleapis.com/auth/plus.me
+https://www.googleapis.com/auth/plus.me
+https://www.googleapis.com/auth/plus.me
+http://schemas.android.com/apk/lib/com.google.android.gms.plus
+http://schemas.android.com/apk/lib/com.google.android.gms.plus
+https://www.googletagmanager.com
+https://www.google.com
+https://accounts.google.com/o/oauth2/token
+https://accounts.google.com/o/oauth2/token
+https://accounts.google.com/o/oauth2/token
+https://accounts.google.com/o/oauth2/token
+https://accounts.google.com/o/oauth2/token
+https://accounts.google.com/o/oauth2/auth
+https://accounts.google.com/o/oauth2/auth
+https://accounts.google.com/o/oauth2/auth
+https://accounts.google.com/o/oauth2/auth
+https://www.googleapis.com/oauth2/v1/certs
+https://www.googleapis.com/batch
+http://google.com/
+http://google.com/
+http://metadata/computeMetadata/v1/instance/service-accounts/default/token
+https://www.googleapis.com/
+https://www.googleapis.com/auth/userinfo.email
+https://www.googleapis.com/auth/userinfo.profile
+https://androidads23.adcolony.com/configure
+https://control.kochava.com/track/kvinit
+http://bidder.kochava.com/adserver/request/?w=
+https://control.kochava.com/track/kvTracker.php
+https://market.android.com/details?id=
+https://api.nanigans.com
+http://api.nanigans.com/disallowed.php?
+https://api.parse.com
+http://192.168.56.1:3000
+http://10.0.2.2:3000
+http://localhost:3000
+http://10.0.2.2:6000
+http://invalid.server:3000
+https://api.twitter.com/oauth/request_token
+https://api.twitter.com/oauth/access_token
+https://api.twitter.com/oauth/authorize
+https://staging.sws.sponsorpay.com/actions/v2
+https://service.sponsorpay.com/actions/v2
+https://staging.sws.sponsorpay.com/installs/v2
+https://service.sponsorpay.com/installs/v2
+https://staging-iframe.sponsorpay.com/mobile
+https://staging-iframe.sponsorpay.com/mobile
+https://iframe.sponsorpay.com/mobile
+https://iframe.sponsorpay.com/mobile
+https://staging-iframe.sponsorpay.com/mobile?
+https://iframe.sponsorpay.com/mobile?
+https://staging-iframe.sponsorpay.com/unlock?
+https://iframe.sponsorpay.com/unlock?
+https://staging.iframe.sponsorpay.com/vcs/v1/
+https://api.sponsorpay.com/vcs/v1/
+https://api.sponsorpay.com/vcs/v1/
+https://staging-iframe.sponsorpay.com/vcs/v1/
+https://ws.tapjoyads.com/get_vg_store_items/user_account?
+https://ws.tapjoyads.com/points/spend?
+https://ws.tapjoyads.com/points/award?
+https://ws.tapjoyads.com/get_offers/webpage?
+https://ws.tapjoyads.com/connect?
+https://ws.tapjoyads.com/connect?
+https://ws.tapjoyads.com/set_publisher_user_id?
+https://ws.tapjoyads.com/display_ad?
+https://ws.tapjoyads.com/get_offers/featured?
+https://ws.tapjoyads.com/videos?
+https://s3.amazonaws.com/tapjoy/videos/assets/background.png
+https://s3.amazonaws.com/tapjoy/videos/assets/placeholder.png
+https://s3.amazonaws.com/tapjoy/videos/assets/tapjoy.png
+http://api.nanigans.com/mobile.php?
+https://www.googleapis.com/games/v1management/achievements/reset?access_token=
+http://localhost
+http://localhost
+http://localhost
+http://example.com/
+https://t.singular.net/v2/events
+https://t.singular.net/v2/logs
+
+[INTERNAL_LOG][2018-06-07 22:33:52,015][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-07 22:33:52,042][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-07 22:33:52,042][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-07 22:33:52,042][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-07 22:33:52,042][INFO][analyze_start()] End time:[Thu Jun  7 22:33:52 2018]

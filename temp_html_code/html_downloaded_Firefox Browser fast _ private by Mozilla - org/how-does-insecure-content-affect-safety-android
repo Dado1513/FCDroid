@@ -1,0 +1,890 @@
+
+
+
+<!DOCTYPE html>
+<html class="no-js" lang="en-US" dir="ltr" data-gtm-container-id="UA-36116321-2">
+<head>
+  
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <title>Mixed content blocker in Firefox for Android | Firefox for Android Help</title>
+
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="https://static-media-prod-cdn.sumo.mozilla.net/static/sumo/img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://static-media-prod-cdn.sumo.mozilla.net/static/sumo/img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://static-media-prod-cdn.sumo.mozilla.net/static/sumo/img/favicon-16x16.png">
+  <link rel="manifest" href="https://static-media-prod-cdn.sumo.mozilla.net/static/sumo/manifest.json">
+  <link rel="shortcut icon" href="https://static-media-prod-cdn.sumo.mozilla.net/static/sumo/img/favicon.ico">
+  <meta name="msapplication-config" content="https://static-media-prod-cdn.sumo.mozilla.net/static/sumo/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+
+
+  <link rel="search" type="application/opensearchdescription+xml" title="Mozilla Support" href="/en-US/search/xml"/>
+  
+
+  <link href="https://static-media-prod-cdn.sumo.mozilla.net/static/build/common-min.f67f658575d2.css" rel="stylesheet" type="text/css" />
+  <link href="https://static-media-prod-cdn.sumo.mozilla.net/static/build/print-min.7879fde822b1.css" rel="stylesheet" type="text/css" media="print" />
+  
+    <link href="https://static-media-prod-cdn.sumo.mozilla.net/static/build/jqueryui-min.f3e43cb678af.css" rel="stylesheet" type="text/css" />
+  
+    <link href="https://static-media-prod-cdn.sumo.mozilla.net/static/build/wiki-min.5083416cab8c.css" rel="stylesheet" type="text/css" />
+  
+
+  <!--[if lte IE 7]>
+    <link href="https://static-media-prod-cdn.sumo.mozilla.net/static/build/ie-min.992f195a8b90.css" rel="stylesheet" type="text/css" />
+  <![endif]-->
+  <!--[if IE 8]>
+    <link href="https://static-media-prod-cdn.sumo.mozilla.net/static/build/ie8-min.f7c0890f436a.css" rel="stylesheet" type="text/css" />
+  <![endif]-->
+
+  
+    
+      <meta name="description" content="Firefox automatically protects you from attacks by blocking potentially harmful insecure content on pages."/>
+    
+  
+
+  
+  <meta name="google-site-verification" content="2URA-2Y9BeYYUf8B2BSsBSVetJJS3TZwlXBOaMx2VfY" />
+  
+  <meta name="google-site-verification" content="ueNbCgS4e1JIAgLGwufm-jHaIcLXFLtFMmR_65S1Ag0" />
+  
+  <meta name="msvalidate.01" content="1659173DC94819093068B0ED7C51C527" />
+
+  
+
+  
+    <link rel="canonical" href="/en-US/kb/mixed-content-blocker-firefox-android" />
+  
+
+  <!--[if lt IE 9]>
+  
+  <script src="https://static-media-prod-cdn.sumo.mozilla.net/static/sumo/js/libs/html5-shiv.js"></script>
+  <![endif]-->
+
+  <!--
+Read more about our custom configuration and use of Google Analytics here:
+https://bugzilla.mozilla.org/show_bug.cgi?id=1122305#c8
+-->
+
+<!-- Google Tag Manager -->
+
+  <script type="text/javascript" src="https://static-media-prod-cdn.sumo.mozilla.net/static/build/gtm-snippet-min.c7ae87dd8ad1.js" charset="utf-8"></script>
+
+<!-- End Google Tag Manager -->
+
+  
+  
+  
+    
+  
+  
+  
+
+</head>
+<body class="html-ltr logged-out document en-US"
+      data-readonly="false"
+      data-usernames-api="/en-US/users/api/usernames"
+      data-static-url="https://static-media-prod-cdn.sumo.mozilla.net/static/"
+      data-media-url="https://prod-cdn.sumo.mozilla.net/"
+      
+        data-survey-gizmos="[]"
+      
+      
+      data-waffle-refresh-survey="true"
+data-track-url="https://static-media-prod-cdn.sumo.mozilla.net/static/img/pixel.gif" data-document-id="15627" data-default-slug="mixed-content-blocker-firefox-android" >
+
+
+
+<ul id="nav-access">
+  <li><a href="#main-content">Skip to main content</a></li>
+  <li><a href="/en-US/locales">Switch language</a></li>
+  <li><a id="skip-to-search" href="#search-q">Skip to search</a></li>
+</ul>
+
+
+
+<div class="media-test"></div>
+
+
+
+  <div class="mobile-banner" id="mobile-warning">
+    <div class="close-button" data-close-id="mobile-warning" data-close-memory="remember">X</div>
+    <a href="?&amp;mobile=1">
+      Tap here to go to the mobile version of the site.
+    </a>
+  </div>
+
+
+
+
+
+
+<div id="announcements">
+  <div class="announce-bar warning" id="announce-geoip-suggestion">
+    <div class="container_12">
+      <div class="grid_12">
+        <div class="close-button" data-close-id="announce-geoip-suggestion"></div>
+        
+      </div>
+    </div>
+  </div>
+
+
+  
+  
+</div>
+
+<header>
+  <div class="container_12 cf">
+    <div class="grid_12">
+      <div class="cf">
+        <nav id="aux-nav" role="navigation">
+          <ul>
+            
+              
+  
+    
+      
+        
+      
+      <li><a href="/en-US/questions/new" class="ask" data-event-category="navigation" data-event-action="main navigation" data-event-label="Ask a question">Ask a question</a></li>
+    
+    
+      <li>
+        <a href="/en-US/users/auth" class="sign-in register"  data-event-category="navigation" data-event-action="main navigation" data-event-label="Sign In">
+          Sign In
+        </a>
+      </li>
+    
+  
+
+            
+            
+              <li><a href="/en-US/locales" class="locale-picker"  data-event-category="navigation" data-event-action="main navigation" data-event-label="Locale Picker">English</a></li>
+            
+            
+              <a href="https://www.mozilla.org/firefox/new/?utm_source=support.mozilla.org&utm_medium=referral&utm_campaign=non-fx-button"
+                class="firefox-download-button hidden" data-event-category="Download Button" data-event-action="Firefox for Desktop">
+                <strong class="download-title">Download Firefox</strong>
+              </a>
+            
+          </ul>
+        </nav>
+      </div>
+      <div class="cf">
+        
+          
+  <form data-instant-search="form" id="support-search" action="/en-US/search" method="get"  class="simple-search-form">
+    
+      
+        <input type="hidden" name="product" value="mobile" />
+      
+    
+    <input type="search" name="q" required="required" aria-required="true" placeholder="Search Mozilla Support" class="searchbox" id="search-q" />
+    <button type="submit" title="Search" class="submit-button">Search</button>
+  </form>
+
+        
+        <a href="/en-US/" class="logo"  data-event-category="navigation" data-event-action="main navigation" data-event-label="Home"></a>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+  
+  <div class="breadcrumbs" id="main-breadcrumbs">
+    <div class="container_12 cf">
+      <ol id="breadcrumbs" class="grid_12 cf">
+        
+          
+            <li><a href="/en-US/">Home</a></li>
+          
+        
+          
+            <li><a href="/en-US/products/mobile">Firefox for Android</a></li>
+          
+        
+          
+            <li><a href="/en-US/products/mobile/protect-your-privacy-firefox-android">Protect your privacy</a></li>
+          
+        
+          
+            <li>Mixed content blocker in Firefox for ...</li>
+          
+        
+      </ol>
+    </div>
+  </div>
+
+
+
+<div class="container_12 cf" id="main-container">
+  <div class="grid_12">
+    
+
+    
+  <h1 class="product-title cf">
+    
+    <img src="https://static-media-prod-cdn.sumo.mozilla.net/static/sumo/img/blank.png" alt="" class="logo-sprite" style="background-image: url('https://prod-cdn.sumo.mozilla.net/uploads/products/2014-02-20-08-39-34-387e6d.png');" />
+    <a href="/en-US/products/mobile">Firefox for Android</a>
+  </h1>
+
+  </div>
+
+  
+    <aside class="grid_3 no-min">
+      
+  
+    
+    
+  
+  
+    
+  
+  <nav id="doc-tools">
+    <ul class="sidebar-nav sidebar-folding">
+      <li id="editing-tools-sidebar" >
+        <span>Editing Tools</span>
+        <ul class="sidebar-nav">
+          
+            <li class="selected">
+              <a href="/en-US/kb/mixed-content-blocker-firefox-android">Article</a>
+            </li>
+          
+          
+            <li >
+              <a href="/en-US/kb/mixed-content-blocker-firefox-android/discuss">Discussion</a>
+            </li>
+          
+          
+            <li >
+              <a href="/en-US/kb/mixed-content-blocker-firefox-android/edit">Edit Article</a>
+            </li>
+          
+          
+            <li >
+              <a href="/en-US/kb/mixed-content-blocker-firefox-android/locales">Translate Article</a>
+            </li>
+          
+          
+          
+          
+            <li >
+              <a href="/en-US/kb/mixed-content-blocker-firefox-android/show_translations">Show Translations</a>
+            </li>
+          
+          
+            <li >
+              <a href="/en-US/kb/mixed-content-blocker-firefox-android/links">What Links Here</a>
+            </li>
+            <li >
+              <a href="/en-US/kb/mixed-content-blocker-firefox-android/history">Show History</a>
+            </li>
+          
+          
+            <li>
+              
+
+  <section class="showfor" id="showfor-panel">
+    <script type="application/json" class="showfor-data">
+      {"platforms": {"mobile": [{"visible": true, "name": "Android", "slug": "android"}]}, "products": [{"platforms": ["android"], "visible": true, "slug": "mobile", "title": "Firefox for Android"}], "versions": {"mobile": [{"product": "mobile", "name": "Version 61", "default": false, "min_version": 61.0, "visible": true, "max_version": 62.0, "slug": "m61"}, {"product": "mobile", "name": "Version 60", "default": false, "min_version": 60.0, "visible": true, "max_version": 61.0, "slug": "m60"}, {"product": "mobile", "name": "Version 59", "default": true, "min_version": 59.0, "visible": true, "max_version": 60.0, "slug": "m59"}, {"product": "mobile", "name": "Version 58", "default": false, "min_version": 58.0, "visible": true, "max_version": 59.0, "slug": "m58"}, {"product": "mobile", "name": "Version 57", "default": false, "min_version": 57.0, "visible": true, "max_version": 58.0, "slug": "m57"}, {"product": "mobile", "name": "Version 56", "default": false, "min_version": 56.0, "visible": true, "max_version": 57.0, "slug": "m56"}, {"product": "mobile", "name": "Version 55", "default": false, "min_version": 55.0, "visible": true, "max_version": 56.0, "slug": "m55"}, {"product": "mobile", "name": "Version 54", "default": false, "min_version": 54.0, "visible": true, "max_version": 55.0, "slug": "m54"}, {"product": "mobile", "name": "Version 53", "default": false, "min_version": 53.0, "visible": true, "max_version": 54.0, "slug": "m53"}, {"product": "mobile", "name": "Version 51", "default": false, "min_version": 51.0, "visible": false, "max_version": 52.0, "slug": "m51"}, {"product": "mobile", "name": "Version 52", "default": false, "min_version": 51.0, "visible": true, "max_version": 52.0, "slug": "m52"}, {"product": "mobile", "name": "Version 50", "default": false, "min_version": 50.0, "visible": false, "max_version": 51.0, "slug": "m50"}, {"product": "mobile", "name": "Version 49", "default": false, "min_version": 49.0, "visible": false, "max_version": 50.0, "slug": "m49"}, {"product": "mobile", "name": "Version 48", "default": false, "min_version": 48.0, "visible": false, "max_version": 49.0, "slug": "m48"}, {"product": "mobile", "name": "Version 47", "default": false, "min_version": 47.0, "visible": false, "max_version": 48.0, "slug": "m47"}, {"product": "mobile", "name": "Version 46", "default": false, "min_version": 46.0, "visible": false, "max_version": 47.0, "slug": "m46"}, {"product": "mobile", "name": "Version 45", "default": false, "min_version": 45.0, "visible": false, "max_version": 46.0, "slug": "m45"}, {"product": "mobile", "name": "Version 44", "default": false, "min_version": 44.0, "visible": false, "max_version": 45.0, "slug": "m44"}, {"product": "mobile", "name": "Version 43", "default": false, "min_version": 43.0, "visible": false, "max_version": 44.0, "slug": "m43"}, {"product": "mobile", "name": "Version 42", "default": false, "min_version": 42.0, "visible": false, "max_version": 43.0, "slug": "m42"}, {"product": "mobile", "name": "Version 41", "default": false, "min_version": 41.0, "visible": false, "max_version": 42.0, "slug": "m41"}, {"product": "mobile", "name": "Version 40", "default": false, "min_version": 40.0, "visible": false, "max_version": 41.0, "slug": "m40"}, {"product": "mobile", "name": "Version 39", "default": false, "min_version": 39.0, "visible": false, "max_version": 40.0, "slug": "m39"}, {"product": "mobile", "name": "Version 38", "default": false, "min_version": 38.0, "visible": false, "max_version": 39.0, "slug": "m38"}, {"product": "mobile", "name": "Version 37", "default": false, "min_version": 37.0, "visible": false, "max_version": 38.0, "slug": "m37"}, {"product": "mobile", "name": "Version 36", "default": false, "min_version": 36.0, "visible": false, "max_version": 37.0, "slug": "m36"}, {"product": "mobile", "name": "Version 35", "default": false, "min_version": 35.0, "visible": false, "max_version": 36.0, "slug": "m35"}, {"product": "mobile", "name": "Version 34", "default": false, "min_version": 34.0, "visible": false, "max_version": 35.0, "slug": "m34"}, {"product": "mobile", "name": "Version 33", "default": false, "min_version": 33.0, "visible": false, "max_version": 34.0, "slug": "m33"}, {"product": "mobile", "name": "Version 32", "default": false, "min_version": 32.0, "visible": false, "max_version": 33.0, "slug": "m32"}, {"product": "mobile", "name": "Version 31", "default": false, "min_version": 31.0, "visible": false, "max_version": 32.0, "slug": "m31"}, {"product": "mobile", "name": "Version 30", "default": false, "min_version": 30.0, "visible": false, "max_version": 31.0, "slug": "m30"}, {"product": "mobile", "name": "Version 29", "default": false, "min_version": 29.0, "visible": false, "max_version": 30.0, "slug": "m29"}, {"product": "mobile", "name": "Version 28", "default": false, "min_version": 28.0, "visible": false, "max_version": 29.0, "slug": "m28"}, {"product": "mobile", "name": "Version 27", "default": false, "min_version": 27.0, "visible": false, "max_version": 28.0, "slug": "m27"}, {"product": "mobile", "name": "Version 26", "default": false, "min_version": 26.0, "visible": false, "max_version": 27.0, "slug": "m26"}, {"product": "mobile", "name": "Version 25", "default": false, "min_version": 25.0, "visible": false, "max_version": 26.0, "slug": "m25"}, {"product": "mobile", "name": "Version 24", "default": false, "min_version": 24.0, "visible": false, "max_version": 25.0, "slug": "m24"}, {"product": "mobile", "name": "Version 23", "default": false, "min_version": 23.0, "visible": false, "max_version": 24.0, "slug": "m23"}, {"product": "mobile", "name": "Version 22", "default": false, "min_version": 22.0, "visible": false, "max_version": 23.0, "slug": "m22"}, {"product": "mobile", "name": "Version 21", "default": false, "min_version": 21.0, "visible": false, "max_version": 22.0, "slug": "m21"}, {"product": "mobile", "name": "Version 20", "default": false, "min_version": 20.0, "visible": false, "max_version": 21.0, "slug": "m20"}, {"product": "mobile", "name": "Version 19", "default": false, "min_version": 19.0, "visible": false, "max_version": 20.0, "slug": "m19"}, {"product": "mobile", "name": "Version 18", "default": false, "min_version": 18.0, "visible": false, "max_version": 19.0, "slug": "m18"}, {"product": "mobile", "name": "Version 17", "default": false, "min_version": 17.0, "visible": false, "max_version": 18.0, "slug": "m17"}, {"product": "mobile", "name": "Version 16", "default": false, "min_version": 16.0, "visible": false, "max_version": 17.0, "slug": "m16"}, {"product": "mobile", "name": "Version 15", "default": false, "min_version": 15.0, "visible": false, "max_version": 16.0, "slug": "m15"}, {"product": "mobile", "name": "Version 14", "default": false, "min_version": 14.0, "visible": false, "max_version": 15.0, "slug": "m14"}, {"product": "mobile", "name": "Version 12", "default": false, "min_version": 12.0, "visible": false, "max_version": 13.0, "slug": "m12"}, {"product": "mobile", "name": "Version 11", "default": false, "min_version": 11.0, "visible": false, "max_version": 12.0, "slug": "m11"}, {"product": "mobile", "name": "Version 10", "default": false, "min_version": 10.0, "visible": false, "max_version": 11.0, "slug": "m10"}, {"product": "mobile", "name": "Version 9", "default": false, "min_version": 9.0, "visible": false, "max_version": 10.0, "slug": "m9"}, {"product": "mobile", "name": "Version 8", "default": false, "min_version": 8.0, "visible": false, "max_version": 9.0, "slug": "m8"}, {"product": "mobile", "name": "Version 7", "default": false, "min_version": 7.0, "visible": false, "max_version": 8.0, "slug": "m7"}, {"product": "mobile", "name": "Version 6", "default": false, "min_version": 6.0, "visible": false, "max_version": 7.0, "slug": "m6"}, {"product": "mobile", "name": "Version 5", "default": false, "min_version": 5.0, "visible": false, "max_version": 6.0, "slug": "m5"}, {"product": "mobile", "name": "Version 4", "default": false, "min_version": 4.0, "visible": false, "max_version": 5.0, "slug": "m4"}]}}
+    </script>
+
+    Customize this article
+    
+
+    
+      
+        
+        
+
+        <div class="product" data-product="mobile">
+          <h2>
+            <input type="checkbox" checked value="product:mobile">
+            Firefox for Android
+          </h2>
+
+          
+            <div class="selectbox-wrapper">
+              <select class="version">
+                
+                  
+                    <option value="version:m61"
+                            data-min="61.0"
+                            data-max="62.0"
+                            >
+                      Version 61
+                    </option>
+                  
+                
+                  
+                    <option value="version:m60"
+                            data-min="60.0"
+                            data-max="61.0"
+                            >
+                      Version 60
+                    </option>
+                  
+                
+                  
+                    <option value="version:m59"
+                            data-min="59.0"
+                            data-max="60.0"
+                            selected>
+                      Version 59
+                    </option>
+                  
+                
+                  
+                    <option value="version:m58"
+                            data-min="58.0"
+                            data-max="59.0"
+                            >
+                      Version 58
+                    </option>
+                  
+                
+                  
+                    <option value="version:m57"
+                            data-min="57.0"
+                            data-max="58.0"
+                            >
+                      Version 57
+                    </option>
+                  
+                
+                  
+                    <option value="version:m56"
+                            data-min="56.0"
+                            data-max="57.0"
+                            >
+                      Version 56
+                    </option>
+                  
+                
+                  
+                    <option value="version:m55"
+                            data-min="55.0"
+                            data-max="56.0"
+                            >
+                      Version 55
+                    </option>
+                  
+                
+                  
+                    <option value="version:m54"
+                            data-min="54.0"
+                            data-max="55.0"
+                            >
+                      Version 54
+                    </option>
+                  
+                
+                  
+                    <option value="version:m53"
+                            data-min="53.0"
+                            data-max="54.0"
+                            >
+                      Version 53
+                    </option>
+                  
+                
+                  
+                
+                  
+                    <option value="version:m52"
+                            data-min="51.0"
+                            data-max="52.0"
+                            >
+                      Version 52
+                    </option>
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+              </select>
+            </div>
+          
+
+          
+
+        </div>
+      
+    
+
+  </section>
+            </li>
+          
+        </ul>
+      </li>
+    </ul>
+    <div class="email"></div>
+  </nav>
+  <h4>Explore more topics</h4>
+  <ul class="sidebar-nav topics">
+    
+      
+      <li >
+        <a href="/en-US/products/mobile/basic-browsing-firefox-android" data-event-category="link click" data-event-action="topic sidebar" data-event-label="Basic browsing">
+          Basic browsing
+        </a>
+        
+      </li>
+    
+      
+      <li >
+        <a href="/en-US/products/mobile/install-and-update" data-event-category="link click" data-event-action="topic sidebar" data-event-label="Install and update">
+          Install and update
+        </a>
+        
+      </li>
+    
+      
+      <li >
+        <a href="/en-US/products/mobile/save-share-and-sync-firefox-android" data-event-category="link click" data-event-action="topic sidebar" data-event-label="Save, share and sync">
+          Save, share and sync
+        </a>
+        
+      </li>
+    
+      
+      <li >
+        <a href="/en-US/products/mobile/cast-your-tv-firefox-android" data-event-category="link click" data-event-action="topic sidebar" data-event-label="Cast to your TV">
+          Cast to your TV
+        </a>
+        
+      </li>
+    
+      
+      <li >
+        <a href="/en-US/products/mobile/protect-your-privacy-firefox-android" data-event-category="link click" data-event-action="topic sidebar" data-event-label="Protect your privacy">
+          Protect your privacy
+        </a>
+        
+      </li>
+    
+      
+      <li >
+        <a href="/en-US/products/mobile/customize-settings-firefox-android" data-event-category="link click" data-event-action="topic sidebar" data-event-label="Customize settings and preferences">
+          Customize settings and preferences
+        </a>
+        
+      </li>
+    
+      
+      <li >
+        <a href="/en-US/products/mobile/fix-problems" data-event-category="link click" data-event-action="topic sidebar" data-event-label="Fix slowness, crashing, error messages and other problems">
+          Fix slowness, crashing, error messages and other problems
+        </a>
+        
+      </li>
+    
+  </ul>
+  
+  
+    
+  
+  
+    <div class="document-vote">
+      <form class="helpful" action="/en-US/kb/mixed-content-blocker-firefox-android/vote" method="post">
+        <p>
+          <span>Was this article helpful?</span>
+          <input type="hidden" name="revision_id" value="109828" />
+          
+            <input type="hidden" name="source" value="sidebar" />
+          
+          <input type="submit" class="btn" name="helpful" value="Yes" />
+          <input type="submit" class="btn" name="not-helpful" value="No" />
+          <img class="wait" src="https://static-media-prod-cdn.sumo.mozilla.net/static/sumo/img/customercare/spinner.gif" alt="Please wait..." />
+        </p>
+      </form>
+    </div>
+  
+
+      
+      
+    </aside>
+  
+
+  <main id="main-content" role="main">
+    
+  <div class="grid_9">
+    <article class="wiki-doc">
+      <h1 class="title">Mixed content blocker in Firefox for Android</h1>
+      
+    <div id="redirected-from">
+      (Redirected from <a href="/en-US/kb/how-does-insecure-content-affect-safety-android?redirect=no">How does content that isn&#39;t secure affect my safety on Android?</a>)
+    </div>
+  
+  
+  
+      <section id="doc-content" class="">
+    
+      <div class="for" data-for="not m42"><p></p><div class="warning">This feature has been improved in the latest version of Firefox for Android. <a href="/en-US/kb/update-latest-version-firefox-android"> Update Firefox for Android</a> to use the improved version.</div>
+<p></p><p>When you see the shield icon in the address bar, it means that Firefox for Android has blocked content that is insecure on the page you're visiting. We'll explain what that means and what options you have.
+</p>
+<dl><dt>
+
+
+  
+
+
+
+
+
+
+
+<img alt="mixed content on android" class="wiki-image frameless lazy" data-original-src="https://prod-cdn.sumo.mozilla.net/uploads/gallery/images/2013-10-25-12-04-55-499a2b.png" src="https://static-media-prod-cdn.sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">
+
+
+
+</dt></dl>
+<p></p><p>
+HTTP is a system for transmitting information from a web server to your browser. HTTP is not secure, so when you visit a page served over HTTP, your connection is open for eavesdropping and <a href="https://wikipedia.org/wiki/Man-in-the-middle_attack">man-in-the-middle attacks</a>. Most websites are served over HTTP because they don't involve passing sensitive information back and forth and do not need to be secured. 
+</p><p>When you visit a page fully transmitted over HTTPS, like your bank, you'll see a green padlock icon in the address bar (see <a href="/en-US/kb/how-do-i-tell-if-my-connection-is-secure">How do I tell if my connection to a website is secure?</a> for details). This means that your connection is authenticated and encrypted, hence safeguarded from eavesdroppers and man-in-the-middle attacks.  
+</p><p>However, if the HTTPS page you visit includes HTTP content, the HTTP portion can be read or modified by attackers, even though the main page is served over HTTPS.  When an HTTPS page has HTTP content, we call that content “mixed”. The page you are visiting is only partially encrypted and even though it appears to be secure, it isn't. For more information about mixed content (active and passive), see <a href="https://blog.mozilla.org/tanvi/2013/04/10/mixed-content-blocking-enabled-in-firefox-23">this blog post</a>.
+</p>
+<div class="warning"><strong>What are the risks of mixed content?</strong> An attacker can replace the HTTP content on the page you're visiting in order to steal your credentials, take over your account, acquire sensitive data about you, or attempt to install malware on your computer.</div>
+<p></p>
+<h1 id="w_what-options-do-i-have">What options do I have?</h1>
+<p><strong>Most websites will continue to work normally without any action on your part.</strong> 
+</p><p>If you need to allow the mixed content to be displayed, you can do that easily:
+</p>
+<ol><li> Tap the <strong>shield icon</strong> 
+
+
+  
+
+
+
+
+
+
+
+<img alt="Mixed Content Shield" class="wiki-image frameless lazy" data-original-src="https://prod-cdn.sumo.mozilla.net/uploads/gallery/images/2013-07-12-08-06-20-3e8acf.png" src="https://static-media-prod-cdn.sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">
+
+
+ in the address bar and a menu will drop down. 
+</li><li> Then tap <span class="button">Disable protection</span>. 
+<dl><dt>
+
+
+  
+
+
+
+
+
+
+
+<img alt="Disable mixed content Android" class="wiki-image frameless lazy" data-original-src="https://prod-cdn.sumo.mozilla.net/uploads/gallery/images/2013-10-25-12-50-07-1329d3.png" src="https://static-media-prod-cdn.sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">
+
+
+
+</dt></dl>
+<ul><li> The icon in the address bar will change to a crossed out shield icon to remind you that insecure content is being displayed.
+</li></ul>
+</li></ol>
+<dl><dt>
+
+
+  
+
+
+
+
+
+
+
+<img alt="android insecure not 42" class="wiki-image frameless lazy" data-original-src="https://prod-cdn.sumo.mozilla.net/uploads/gallery/images/2015-10-07-17-32-25-28c69b.png" src="https://static-media-prod-cdn.sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">
+
+
+
+</dt></dl>
+<p>To reverse the previous action (re-block mixed content), re-visit the page in a new tab.
+</p></div><div class="for" data-for="m42"><p>Firefox automatically protects you from attacks by blocking potentially harmful insecure content on pages. Firefox will display a grey warning triangle or crossed-out lock to indicate that mixed content has loaded on the page.
+</p><p></p><p>
+HTTP is a system for transmitting information from a web server to your browser. HTTP is not secure, so when you visit a page served over HTTP, your connection is open for eavesdropping and <a href="https://wikipedia.org/wiki/Man-in-the-middle_attack">man-in-the-middle attacks</a>. Most websites are served over HTTP because they don't involve passing sensitive information back and forth and do not need to be secured. 
+</p><p>When you visit a page fully transmitted over HTTPS, like your bank, you'll see a green padlock icon in the address bar (see <a href="/en-US/kb/how-do-i-tell-if-my-connection-is-secure">How do I tell if my connection to a website is secure?</a> for details). This means that your connection is authenticated and encrypted, hence safeguarded from eavesdroppers and man-in-the-middle attacks.  
+</p><p>However, if the HTTPS page you visit includes HTTP content, the HTTP portion can be read or modified by attackers, even though the main page is served over HTTPS.  When an HTTPS page has HTTP content, we call that content “mixed”. The page you are visiting is only partially encrypted and even though it appears to be secure, it isn't. For more information about mixed content (active and passive), see <a href="https://blog.mozilla.org/tanvi/2013/04/10/mixed-content-blocking-enabled-in-firefox-23">this blog post</a>.
+</p>
+<div class="warning"><strong>What are the risks of mixed content?</strong> An attacker can replace the HTTP content on the page you're visiting in order to steal your credentials, take over your account, acquire sensitive data about you, or attempt to install malware on your computer.</div>
+<p></p>
+<h1 id="w_how-do-i-know-if-a-page-has-mixed-content">How do I know if a page has mixed content?</h1>
+<p>If you see the green lock icon in the address bar, the page is secure. If the page had any insecure elements, Firefox already blocked them to keep the page secure. Tap the icon to view more security information, and see whether or not Firefox had blocked any insecure elements.
+</p>
+<dl><dt>
+
+
+  
+
+
+
+
+
+
+
+<img alt="tap lock icon 42 android" class="wiki-image frameless lazy" data-original-src="https://prod-cdn.sumo.mozilla.net/uploads/gallery/images/2015-09-29-18-37-36-58e2a1.png" src="https://static-media-prod-cdn.sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">
+
+
+
+</dt></dl>
+<p>Firefox will display a grey warning triangle when insecure passive content is present and loaded on a page. If you see this icon, be aware that attackers may be able to manipulate parts of the page, for example, by displaying misleading or inappropriate content, but they shouldn’t be able to steal your personal data from the site.
+</p>
+<dl><dt>
+
+
+  
+
+
+
+
+
+
+
+<img alt="warning triangle 42 android" class="wiki-image frameless lazy" data-original-src="https://prod-cdn.sumo.mozilla.net/uploads/gallery/images/2015-09-29-17-42-48-7b83d3.png" src="https://static-media-prod-cdn.sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">
+
+
+
+</dt></dl>
+<p>If you see a lock with a red line over it, Firefox is not blocking insecure elements, and that page is open to eavesdropping and attacks where your personal data from the site could be stolen. Unless you’ve unblocked mixed content using the instructions in the next section, you shouldn’t see this icon.
+</p>
+<dl><dt>
+
+
+  
+
+
+
+
+
+
+
+<img alt="mixed content off 42 android" class="wiki-image frameless lazy" data-original-src="https://prod-cdn.sumo.mozilla.net/uploads/gallery/images/2015-09-29-18-36-52-240781.png" src="https://static-media-prod-cdn.sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">
+
+
+
+</dt></dl>
+<h1 id="w_advanced-users-only-unblock-mixed-content">Advanced users only: unblock mixed content</h1>
+<p>If you need to unblock mixed content, you can do that by changing your about:config settings. This setting will affect all the pages you visit:
+</p>
+<ol><li>Go to <em>about:config</em>.
+</li><li>Change the <em>security.mixed_content.block_active_content</em> setting to <strong>false</strong> to unblock HTTP content.
+</li><li>You'll know when Firefox is not blocking potentially harmful insecure content when you see the lock icon with a red line across it:
+<dl><dt>
+
+
+  
+
+
+
+
+
+
+
+<img alt="mixed content off 42 android" class="wiki-image frameless lazy" data-original-src="https://prod-cdn.sumo.mozilla.net/uploads/gallery/images/2015-09-29-18-36-52-240781.png" src="https://static-media-prod-cdn.sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">
+
+
+
+</dt></dl>
+</li></ol>
+<div class="warning"><strong>Warning:</strong> Unblocking mixed content can leave you vulnerable to attacks.</div>
+</div>
+<div class="note"><strong>Developers:</strong> If your website is generating security errors because of insecure content, see this MDN article on <a href="https://developer.mozilla.org/en-US/docs/Security/MixedContent/How_to_fix_website_with_mixed_content">how to fix a website with mixed content</a>.</div>
+    
+  </section>
+
+    
+    
+      <p class="share-link">
+        <br/>
+        
+        Share this article: <a href="http://mzl.la/1NgcmvN">http://mzl.la/1NgcmvN</a>
+      </p>
+    
+
+      <div class="vote-wrap">
+        
+        
+    
+  
+  
+    <div class="document-vote">
+      <form class="helpful" action="/en-US/kb/mixed-content-blocker-firefox-android/vote" method="post">
+        <p>
+          <span>Was this article helpful?</span>
+          <input type="hidden" name="revision_id" value="109828" />
+          
+            <input type="hidden" name="source" value="footer" />
+          
+          <input type="submit" class="btn" name="helpful" value="Yes" />
+          <input type="submit" class="btn" name="not-helpful" value="No" />
+          <img class="wait" src="https://static-media-prod-cdn.sumo.mozilla.net/static/sumo/img/customercare/spinner.gif" alt="Please wait..." />
+        </p>
+      </form>
+    </div>
+  
+      </div>
+
+      <section id="doc-contributors">
+    These fine people helped write this article: <a class="user" href="/en-US/user/underpass">Underpass</a>, <a class="user" href="/en-US/user/Tonnes">Tonnes</a>, <a class="user" href="/en-US/user/rtanglao">Roland Tanglao</a>, <a class="user" href="/en-US/user/Verdi">Michael Verdi</a>, <a class="user" href="/en-US/user/feer56">Andrew</a>, <a class="user" href="/en-US/user/soucet">soucet</a>, <a class="user" href="/en-US/user/amitshree">Amit Kumar Thakur</a>, <a class="user" href="/en-US/user/tanvi">tanvi</a>, <a class="user" href="/en-US/user/user917725">user917725</a>, <a class="user" href="/en-US/user/jsavage">Joni</a>. You can help too - <a href="/en-US/get-involved">find out how</a>.
+  </section>
+    </article>
+
+    
+  </div>
+
+  </main>
+</div>
+
+<footer>
+  <div class="container_12 cf">
+    <div class="grid_2"><img class="footer-logo" src="https://static-media-prod-cdn.sumo.mozilla.net/static/sumo/img/mozilla-logo.svg" alt="Mozilla" /></div>
+    <div class="grid_4">
+      <div class="fineprint">
+        Portions of this content are &copy;1998–2018 <br>by individual mozilla.org contributors. Content <br>available under a <a href="//www.mozilla.org/foundation/licensing/website-content.html">Creative Commons license</a>.
+      </div>
+    </div>
+    <div class="grid_3">
+      <ul>
+        <li><a href="https://www.mozilla.org/contact/spaces/">Contact Us</a></li>
+        <li><a href="https://www.mozilla.org/about/legal/terms/mozilla/">Legal</a></li>
+        <li><a href="https://www.mozilla.org/privacy/websites/">Privacy Policy</a></li>
+        <li><a href="https://www.mozilla.org/privacy/websites/#cookies">Cookies</a></li>
+        <li><a href="https://www.mozilla.org/legal/fraud-report/">Report Trademark Abuse</a></li>
+        <li><a href="https://github.com/mozilla/kitsune/">Source Code</a></li>
+        <li><a href="https://www.twitter.com/mozilla">Twitter</a></li>
+        <li><a href="?&amp;mobile=1">Switch to mobile site</a></li>
+      </ul>
+    </div>
+    <div class="grid_2 suffix_1">
+      <ul>
+          <li><a href="https://www.mozilla.org/firefox/?utm_source=support.mozilla.org&utm_campaign=footer&utm_medium=referral">Firefox</a></li>
+          <li><a href="https://www.mozilla.org/firefox/new/?utm_source=support.mozilla.org&utm_campaign=footer&utm_medium=referral">Download Firefox</a></li>
+          <li><a href="https://www.mozilla.org/firefox/android/?utm_source=support.mozilla.org&utm_campaign=footer&utm_medium=referral">Android Browser</a></li>
+          <li><a href="https://www.mozilla.org/firefox/ios/?utm_source=support.mozilla.org&utm_campaign=footer&utm_medium=referral">iOS Browser</a></li>
+          <li><a href="https://www.mozilla.org/firefox/focus/?utm_source=support.mozilla.org&utm_campaign=footer&utm_medium=referral">Focus Browser</a></li>
+          <li><a href="https://www.mozilla.org/firefox/desktop/?utm_source=support.mozilla.org&utm_campaign=footer&utm_medium=referral">Desktop Browser</a></li>
+          <li><a href="https://www.mozilla.org/firefox/channel/desktop/?utm_source=support.mozilla.org&utm_campaign=footer&utm_medium=referral">Beta, Nightly, Developer Edition</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+
+
+
+  <script src="https://static-media-prod-cdn.sumo.mozilla.net/static/jsi18n/en-us/djangojs.b28203373cc1.js"></script>
+
+
+<script type="text/javascript" src="https://static-media-prod-cdn.sumo.mozilla.net/static/build/common-min.4d86858ec129.js" charset="utf-8"></script>
+<!--[if (gte IE 6)&(lte IE 8)]>
+  <script type="text/javascript" src="https://static-media-prod-cdn.sumo.mozilla.net/static/build/ie6-8-min.56522dd6b647.js" charset="utf-8"></script>
+<![endif]-->
+
+  <script type="text/javascript" src="https://static-media-prod-cdn.sumo.mozilla.net/static/build/wiki-min.d53f7847fe31.js" charset="utf-8"></script>
+
+
+
+
+  <script type="text/javascript" src="https://static-media-prod-cdn.sumo.mozilla.net/static/build/show-fx-download.98165bad6d3e.js" charset="utf-8"></script>
+
+
+
+
+
+
+
+</body>
+</html>

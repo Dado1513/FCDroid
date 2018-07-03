@@ -1,0 +1,125 @@
+[INTERNAL_LOG][2018-06-08 01:20:12,962][INFO][analyze_start()] Init Time [Fri Jun  8 01:20:12 2018]
+[INTERNAL_LOG][2018-06-08 01:20:13,028][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-08 01:20:13,030][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-08 01:20:13,030][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-08 01:20:13,031][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-08 01:20:13,031][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-08 01:20:13,031][INFO][is_hybird()] android.permission.RECEIVE_BOOT_COMPLETED
+[INTERNAL_LOG][2018-06-08 01:20:13,031][INFO][is_hybird()] android.permission.SET_WALLPAPER
+[INTERNAL_LOG][2018-06-08 01:20:13,031][INFO][is_hybird()] android.permission.SET_WALLPAPER_HINTS
+[INTERNAL_LOG][2018-06-08 01:20:13,031][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-08 01:20:13,031][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-08 01:20:13,031][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-08 01:20:13,031][INFO][is_hybird()] com.ogqcorp.bgh.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-08 01:20:13,031][INFO][is_hybird()] android.permission.CHANGE_NETWORK_STATE
+[INTERNAL_LOG][2018-06-08 01:20:13,031][INFO][is_hybird()] android.permission.DISABLE_KEYGUARD
+[INTERNAL_LOG][2018-06-08 01:20:13,031][INFO][is_hybird()] android.permission.GET_TASKS
+[INTERNAL_LOG][2018-06-08 01:20:13,031][INFO][is_hybird()] com.sec.android.provider.badge.permission.READ
+[INTERNAL_LOG][2018-06-08 01:20:13,031][INFO][is_hybird()] com.sec.android.provider.badge.permission.WRITE
+[INTERNAL_LOG][2018-06-08 01:20:13,031][INFO][is_hybird()] com.htc.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-08 01:20:13,031][INFO][is_hybird()] com.htc.launcher.permission.UPDATE_SHORTCUT
+[INTERNAL_LOG][2018-06-08 01:20:13,031][INFO][is_hybird()] com.sonyericsson.home.permission.BROADCAST_BADGE
+[INTERNAL_LOG][2018-06-08 01:20:13,031][INFO][is_hybird()] com.sonymobile.home.permission.PROVIDER_INSERT_BADGE
+[INTERNAL_LOG][2018-06-08 01:20:13,031][INFO][is_hybird()] com.anddoes.launcher.permission.UPDATE_COUNT
+[INTERNAL_LOG][2018-06-08 01:20:13,031][INFO][is_hybird()] com.majeur.launcher.permission.UPDATE_BADGE
+[INTERNAL_LOG][2018-06-08 01:20:13,031][INFO][is_hybird()] com.huawei.android.launcher.permission.CHANGE_BADGE
+[INTERNAL_LOG][2018-06-08 01:20:13,031][INFO][is_hybird()] com.huawei.android.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-08 01:20:13,031][INFO][is_hybird()] com.huawei.android.launcher.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-08 01:20:13,032][INFO][is_hybird()] android.permission.READ_APP_BADGE
+[INTERNAL_LOG][2018-06-08 01:20:13,032][INFO][is_hybird()] com.oppo.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-08 01:20:13,032][INFO][is_hybird()] com.oppo.launcher.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-08 01:20:13,032][INFO][is_hybird()] me.everything.badger.permission.BADGE_COUNT_READ
+[INTERNAL_LOG][2018-06-08 01:20:13,032][INFO][is_hybird()] me.everything.badger.permission.BADGE_COUNT_WRITE
+[INTERNAL_LOG][2018-06-08 01:20:13,032][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-08 01:20:13,032][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-08 01:20:13,032][INFO][is_hybird()] com.google.android.providers.gsf.permission.READ_GSERVICES
+[INTERNAL_LOG][2018-06-08 01:20:13,032][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-08 01:20:13,032][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-08 01:20:13,032][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-08 01:20:13,032][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-08 01:20:57,422][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-08 01:20:57,422][INFO][find_url_in_apk()] http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+https://www.facebook.com/audience_network/server_side_reward
+https://www.%s.facebook.com/audience_network/server_side_reward
+http://play.google.com/store/apps/
+https://www.facebook.com/
+https://www.%s.facebook.com
+https://graph.facebook.com/network_ads_common
+https://graph.%s.facebook.com/network_ads_common
+https://www.facebook.com/adnw_logging/
+https://www.%s.facebook.com/adnw_logging/
+http://www.facebook.com
+https://graph.%s
+https://graph-video.%s
+https://facebook.com
+https://facebook.com/device?user_code=%1$s&qr=1
+http://play.google.com/store/apps/details?id=com.facebook.orca
+http://www.w3.org/ns/ttml#parameter
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+http://hostname/?
+http://hostname/?
+https://accounts.google.com
+https://www.facebook.com
+https://www.googleapis.com/auth/games_lite
+https://www.googleapis.com/auth/games
+https://accounts.google.com/o/oauth2/revoke?token=
+https://plus.google.com/
+https://pagead2.googlesyndication.com/pagead/gen_204
+http://www.google.com
+https://support.google.com/dfp_premium/answer/7160685#push
+http://www.google-analytics.com
+https://ssl.google-analytics.com
+https://app-measurement.com/a
+https://www.google.com
+http://www.example.com
+http://www.example.com
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/sdk-core-v40-impl.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://csi.gstatic.com/csi
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/native_ads.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/native_ads.js
+https://imasdk.googleapis.com/admob/sdkloader/native_video.html
+https://www.google.com/dfp/linkDevice
+https://www.google.com/dfp/inAppPreview
+https://www.google.com/dfp/debugSignals
+https://www.google.com/dfp/sendDebugData
+http://ip-api.com/json
+https://bgh.ogqcorp.com/api/v4
+https://bgh.ogqcorp.com/api/v4
+https://bgh.ogqcorp.com/api/v4
+https://api.bgh.ogqcorp.com/msg/
+https://api.bgh.ogqcorp.com/msg/
+https://api.bgh.ogqcorp.com/msg/
+https://staging.bgh.ogqcorp.com/api/v4
+https://staging.bgh.ogqcorp.com/api/v4
+https://api.staging.bgh.ogqcorp.com
+http://bghd-v4-poll-467991835.us-east-1.elb.amazonaws.com/polls
+http://maps.googleapis.com/maps/api/staticmap?center=
+https://www.googletagmanager.com
+http://bgh.ogqcorp.com/api/v4/documents/terms
+http://bgh.ogqcorp.com/api/v4/documents/privacy
+http://bgh.ogqcorp.com/api/v4/documents/management
+http://bgh.ogqcorp.com/api/v4/documents/management
+https://www.facebook.com/backgroundshd
+http://simple.is.best/?
+http://bgh.ogqcorp.com/store/r/recommend
+https://www.googleapis.com/oauth2/v1/userinfo?access_token=
+https://hooks.slack.com/services/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
+https://config.unityads.unity3d.com/webview/
+https://e.crashlytics.com/spi/v2/events
+https://settings.crashlytics.com/spi/v2/platforms/android/apps/%s/settings
+
+[INTERNAL_LOG][2018-06-08 01:20:57,423][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-08 01:20:57,427][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-08 01:20:57,427][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-08 01:20:57,427][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-08 01:20:57,427][INFO][analyze_start()] End time:[Fri Jun  8 01:20:57 2018]

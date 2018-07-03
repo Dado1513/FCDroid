@@ -1,0 +1,222 @@
+[INTERNAL_LOG][2018-06-12 05:48:58,677][INFO][analyze_start()] Init Time [Tue Jun 12 05:48:58 2018]
+[INTERNAL_LOG][2018-06-12 05:48:58,739][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 05:48:58,740][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 05:48:58,740][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 05:48:58,740][INFO][is_hybird()] android.permission.RECEIVE_BOOT_COMPLETED
+[INTERNAL_LOG][2018-06-12 05:48:58,740][INFO][is_hybird()] android.permission.RECEIVE_USER_PRESENT
+[INTERNAL_LOG][2018-06-12 05:48:58,740][INFO][is_hybird()] android.permission.EXPAND_STATUS_BAR
+[INTERNAL_LOG][2018-06-12 05:48:58,740][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 05:48:58,740][INFO][is_hybird()] android.permission.USE_CREDENTIALS
+[INTERNAL_LOG][2018-06-12 05:48:58,740][INFO][is_hybird()] android.permission.PACKAGE_USAGE_STATS
+[INTERNAL_LOG][2018-06-12 05:48:58,740][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 05:48:58,740][INFO][is_hybird()] android.permission.READ_CONTACTS
+[INTERNAL_LOG][2018-06-12 05:48:58,741][INFO][is_hybird()] android.permission.READ_USER_DICTIONARY
+[INTERNAL_LOG][2018-06-12 05:48:58,741][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-12 05:48:58,741][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 05:48:58,741][INFO][is_hybird()] android.permission.WRITE_USER_DICTIONARY
+[INTERNAL_LOG][2018-06-12 05:48:58,741][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 05:48:58,741][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 05:48:58,741][INFO][is_hybird()] android.permission.GET_TASKS
+[INTERNAL_LOG][2018-06-12 05:48:58,741][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 05:48:58,741][INFO][is_hybird()] android.permission.ACCESS_COARSE_LOCATION
+[INTERNAL_LOG][2018-06-12 05:48:58,741][INFO][is_hybird()] android.permission.ACCESS_FINE_LOCATION
+[INTERNAL_LOG][2018-06-12 05:48:58,741][INFO][is_hybird()] android.permission.CHANGE_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 05:48:58,741][INFO][is_hybird()] android.permission.SYSTEM_ALERT_WINDOW
+[INTERNAL_LOG][2018-06-12 05:48:58,741][INFO][is_hybird()] android.permission.CAMERA
+[INTERNAL_LOG][2018-06-12 05:48:58,741][INFO][is_hybird()] android.permission.FLASHLIGHT
+[INTERNAL_LOG][2018-06-12 05:48:58,741][INFO][is_hybird()] com.android.browser.permission.READ_HISTORY_BOOKMARKS
+[INTERNAL_LOG][2018-06-12 05:48:58,741][INFO][is_hybird()] com.android.launcher.permission.INSTALL_SHORTCUT
+[INTERNAL_LOG][2018-06-12 05:48:58,741][INFO][is_hybird()] com.android.vending.CHECK_LICENSE
+[INTERNAL_LOG][2018-06-12 05:48:58,741][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-12 05:48:58,741][INFO][is_hybird()] android.permission.DOWNLOAD_WITHOUT_NOTIFICATION
+[INTERNAL_LOG][2018-06-12 05:48:58,741][INFO][is_hybird()] android.permission.RECORD_AUDIO
+[INTERNAL_LOG][2018-06-12 05:48:58,741][INFO][is_hybird()] panda.keyboard.emoji.theme.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-12 05:48:58,741][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 05:48:58,741][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 05:48:58,742][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 05:48:58,742][INFO][find_string()] File: assets/iframe_player.html
+[INTERNAL_LOG][2018-06-12 05:48:58,742][INFO][find_string()] No iframe in assets/iframe_player.html
+[INTERNAL_LOG][2018-06-12 05:48:58,743][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 05:48:58,743][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 05:48:58,743][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 05:49:47,326][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 05:49:47,326][INFO][find_url_in_apk()] http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+http://www.cmcm.com/protocol/site/tos.html
+http://www.cmcm.com/protocol/site/tos.html
+http://www.cmcm.com/protocol/site/tos.html
+http://www.cmcm.com/protocol/site/privacy.html
+http://www.cmcm.com/protocol/site/privacy.html
+http://www.cmcm.com/protocol/site/privacy.html
+https://distribution-xml.booking.com/2.0/json/autocomplete?language=en;text=
+https://syndication.site.yahoo.net/sapps/api/v1?appid=rwnonyylsl
+http://baidu.com
+http://tuc.ksmobile.net/report
+http://www.cmcm.com/protocol/site/ad-choice.html
+http://www.cmcm.com/protocol/site/ad-choice.html
+http://www.cmcm.com/en-us/opt-out/index.html?pkg=
+https://api-keyboard.cmcm.com/langDetect/detect?mcc=%s&oslang=%s&lang=%s
+https://www.google.com/maps/@
+https://monitorsdk.%s/remote-debug?app_id=
+https://attr.%s/api/v
+https://t.%s/api/v
+https://events.%s/api/v
+https://register.%s/api/v
+https://stats.%s/stats
+https://helpcminput1.ksmobile.com/c/
+https://helpcminput1.ksmobile.com/c/
+https://helpcminput1.ksmobile.com/c/
+http://118.89.55.235/c/
+http://118.89.55.235/c/
+http://118.89.55.235/c/
+http://rcv.mobad.ijinshan.com/rp/
+https://ssdk.adkmob.com/rp/
+https://ssdk.adkmob.com/rp/
+http://ud.adkmob.com/r/?
+http://ud.mobad.ijinshan.com/r/?
+https://unconf.mobad.ijinshan.com/b/
+https://unconf.adkmob.com/b/
+https://ufs.adkmob.com/p/
+https://saas-keyboard.cmcm.com/
+http://52.35.247.178/rp/
+https://play.google.com/store/apps/details
+http://play.google.com/store/apps/details
+https://play.google.com
+http://play.google.com
+https://graph.facebook.com/network_ads_common
+https://graph.%s.facebook.com/network_ads_common
+https://www.facebook.com/adnw_logging/
+https://www.%s.facebook.com/adnw_logging/
+https://www.facebook.com/
+https://www.%s.facebook.com
+http://www.facebook.com
+https://graph.%s
+https://graph-video.%s
+https://facebook.com
+https://facebook.com/device?user_code=%1$s&qr=1
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+https://accounts.google.com/o/oauth2/revoke?token=
+https://www.booking.com/index.html?aid=1357852
+https://cheetah.ampxdirect.com/
+https://cheetah.ampxdirect.com/
+https://api.%s/install_data/v3/
+https://onelink.%s/shortlink-sdk/v1
+http://cml.ksmobile.com/api/controller.php
+http://cml.ksmobile.com/api/controller.php
+https://gcm.ksmobile.net/rpc/gcm/report
+https://gcm.ksmobile.net/rpc/taskback/gcm
+https://play.google.com/apps/testing/panda.keyboard.emoji.theme
+https://play.google.com/apps/testing/panda.keyboard.emoji.theme
+http://api-keyboard.cmcm.com/
+http://api-keyboard.cmcm.com/
+http://api-keyboard.cmcm.com/
+http://api-keyboard.cmcm.com/
+http://api-keyboard.cmcm.com/
+http://api-keyboard.cmcm.com/
+http://api-keyboard.cmcm.com/
+http://api-keyboard.cmcm.com/
+http://api-keyboard.cmcm.com/
+http://api-keyboard.cmcm.com/
+http://api-keyboard.cmcm.com/
+http://api-keyboard.cmcm.com/
+http://api-keyboard.cmcm.com/
+http://api-keyboard.cmcm.com/
+http://api-keyboard.cmcm.com/
+http://api-keyboard.cmcm.com/
+http://api-keyboard.cmcm.com/
+http://m.facebook.com/ads/ad_choices
+http://m.facebook.com/ads/ad_choices
+https://www.%s.facebook.com/audience_network/server_side_reward
+https://www.facebook.com/audience_network/server_side_reward
+https://www.facebook.com/CheetahKeyboard/
+https://www.youtube.com/channel/UCW0YHTcTwxvz_0OODLqm4rA
+https://search.yahoo.com/yhs/mobile/search?hspart=cheetah&hsimp=yhsm-cheetah_067&p=%s&type=searchassist
+https://www.googleapis.com/auth/games_lite
+https://www.googleapis.com/auth/games
+https://plus.google.com/
+http://www.example.com
+http://www.example.com
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/sdk-core-v40-impl.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://csi.gstatic.com/csi
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/native_ads.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/native_ads.js
+https://imasdk.googleapis.com/admob/sdkloader/native_video.html
+https://www.google.com/dfp/linkDevice
+https://www.google.com/dfp/inAppPreview
+https://www.google.com/dfp/debugSignals
+https://www.google.com/dfp/sendDebugData
+https://pagead2.googlesyndication.com/pagead/gen_204
+http://www.google.com
+https://support.google.com/dfp_premium/answer/7160685#push
+https://app-measurement.com/a
+https://ups.ksmobile.net/
+https://api-keyboard.cmcm.com/
+http://api.giphy.com/
+http://api.giphy.com/
+http://play.google.com/store/apps/details?id=
+https://settings.crashlytics.com/spi/v2/platforms/android/apps/%s/settings
+https://sync-keyboard.cmcm.com/
+https://sync-keyboard.cmcm.com/
+https://sync-keyboard.cmcm.com/
+https://sync-keyboard.cmcm.com/
+https://sync-keyboard.cmcm.com/
+https://sync-keyboard.cmcm.com/
+https://sync-keyboard.cmcm.com/
+http://files-keyboard.cmcm.com/medal/
+http://files-keyboard.cmcm.com/medal/
+https://www.youtube.com/watch?v=
+https://api.qwant.com/
+https://api.qwant.com/
+https://www.googleapis.com/
+https://www.googleapis.com/
+https://www.googleapis.com/
+https://www.googleapis.com/
+https://hotword.ksmobile.net/
+https://www.google.com/complete/search?client=gboardandroid&json=1&q=%s&hl=%s
+https://replypanda.ksmobile.net/record
+http://api.keyboard.cmcm.com/
+http://api.keyboard.cmcm.com/
+http://api.keyboard.cmcm.com/
+https://point-keyboard.cmcm.com
+https://point-keyboard.cmcm.com
+https://point-keyboard.cmcm.com
+https://point-keyboard.cmcm.com
+https://point-keyboard.cmcm.com
+https://point-keyboard.cmcm.com
+https://point-keyboard.cmcm.com
+https://point-keyboard.cmcm.com
+http://www.cmcm.com/protocol/cmbackup/privacy.html
+http://www.cmcm.com/protocol/cmbackup/privacy.html
+http://www.cmcm.com/protocol/cmbackup/terms-of-use.html
+http://www.cmcm.com/protocol/cmbackup/terms-of-use.html
+https://open.isnssdk.com/token/register/device/v1/?
+https://open.isnssdk.com/data/stream/topbuzz/v1/?
+https://replypanda.ksmobile.net/reply?aid=%s&av=%s&ch=%s&sl=%s&mcc=%s&pt=%s&kl=%s
+https://kb-emoji-cdn.cmcm.com
+https://kb-emoji-cdn.cmcm.com
+https://api.giphy.com/v1/gifs/search
+https://hotword.ksmobile.net/getHotWord
+https://api.qwant.com/api/search/ia
+https://api.qwant.com/api/search/news
+https://www.googleapis.com/youtube/v3/videos
+https://www.googleapis.com/youtube/v3/search
+https://e.crashlytics.com/spi/v2/events
+https://cfgpanda.ksmobile.net/v1/cfg?pid=%s&lan=%s&dictlang=%s&net=%s&aid=%s&brand=%s&model=%s&osv=%s&api_level=%s&appv=%s&mcc=%s&mnc=%s&vga=%s&srv=%s&scene=%s
+http://10.60.118.169:1337/games/Knife-Hit-Online/index_kb_game.html
+https://www.google.com
+
+[INTERNAL_LOG][2018-06-12 05:49:47,326][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 05:49:47,331][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 05:49:47,331][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 05:49:47,331][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 05:49:47,331][INFO][analyze_start()] End time:[Tue Jun 12 05:49:47 2018]

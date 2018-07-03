@@ -1,0 +1,415 @@
+[INTERNAL_LOG][2018-06-08 02:08:56,207][INFO][analyze_start()] Init Time [Fri Jun  8 02:08:56 2018]
+[INTERNAL_LOG][2018-06-08 02:08:56,452][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-08 02:08:56,457][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-08 02:08:56,457][INFO][is_hybird()] android.permission.CHANGE_WIFI_MULTICAST_STATE
+[INTERNAL_LOG][2018-06-08 02:08:56,457][INFO][is_hybird()] com.tencent.mm.plugin.permission.READ
+[INTERNAL_LOG][2018-06-08 02:08:56,457][INFO][is_hybird()] com.tencent.mm.plugin.permission.WRITE
+[INTERNAL_LOG][2018-06-08 02:08:56,457][INFO][is_hybird()] com.tencent.mm.permission.MM_MESSAGE
+[INTERNAL_LOG][2018-06-08 02:08:56,457][INFO][is_hybird()] com.huawei.authentication.HW_ACCESS_AUTH_SERVICE
+[INTERNAL_LOG][2018-06-08 02:08:56,457][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-08 02:08:56,457][INFO][is_hybird()] android.permission.ACCESS_COARSE_LOCATION
+[INTERNAL_LOG][2018-06-08 02:08:56,457][INFO][is_hybird()] android.permission.ACCESS_FINE_LOCATION
+[INTERNAL_LOG][2018-06-08 02:08:56,457][INFO][is_hybird()] android.permission.CAMERA
+[INTERNAL_LOG][2018-06-08 02:08:56,457][INFO][is_hybird()] android.permission.GET_TASKS
+[INTERNAL_LOG][2018-06-08 02:08:56,458][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-08 02:08:56,458][INFO][is_hybird()] android.permission.MODIFY_AUDIO_SETTINGS
+[INTERNAL_LOG][2018-06-08 02:08:56,458][INFO][is_hybird()] android.permission.RECEIVE_BOOT_COMPLETED
+[INTERNAL_LOG][2018-06-08 02:08:56,458][INFO][is_hybird()] android.permission.RECORD_AUDIO
+[INTERNAL_LOG][2018-06-08 02:08:56,458][INFO][is_hybird()] android.permission.READ_CONTACTS
+[INTERNAL_LOG][2018-06-08 02:08:56,458][INFO][is_hybird()] android.permission.READ_SMS
+[INTERNAL_LOG][2018-06-08 02:08:56,458][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-08 02:08:56,458][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-08 02:08:56,458][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-08 02:08:56,458][INFO][is_hybird()] android.permission.WRITE_CONTACTS
+[INTERNAL_LOG][2018-06-08 02:08:56,458][INFO][is_hybird()] android.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-08 02:08:56,458][INFO][is_hybird()] com.android.launcher.permission.INSTALL_SHORTCUT
+[INTERNAL_LOG][2018-06-08 02:08:56,458][INFO][is_hybird()] com.android.launcher.permission.UNINSTALL_SHORTCUT
+[INTERNAL_LOG][2018-06-08 02:08:56,458][INFO][is_hybird()] com.android.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-08 02:08:56,458][INFO][is_hybird()] com.tencent.mm.location.permission.SEND_VIEW
+[INTERNAL_LOG][2018-06-08 02:08:56,458][INFO][is_hybird()] android.permission.BLUETOOTH
+[INTERNAL_LOG][2018-06-08 02:08:56,458][INFO][is_hybird()] android.permission.BLUETOOTH_ADMIN
+[INTERNAL_LOG][2018-06-08 02:08:56,458][INFO][is_hybird()] android.permission.BROADCAST_STICKY
+[INTERNAL_LOG][2018-06-08 02:08:56,458][INFO][is_hybird()] android.permission.SYSTEM_ALERT_WINDOW
+[INTERNAL_LOG][2018-06-08 02:08:56,458][INFO][is_hybird()] android.permission.CHANGE_WIFI_STATE
+[INTERNAL_LOG][2018-06-08 02:08:56,458][INFO][is_hybird()] android.permission.GET_PACKAGE_SIZE
+[INTERNAL_LOG][2018-06-08 02:08:56,458][INFO][is_hybird()] android.permission.DOWNLOAD_WITHOUT_NOTIFICATION
+[INTERNAL_LOG][2018-06-08 02:08:56,458][INFO][is_hybird()] android.permission.NFC
+[INTERNAL_LOG][2018-06-08 02:08:56,458][INFO][is_hybird()] com.huawei.android.launcher.permission.CHANGE_BADGE
+[INTERNAL_LOG][2018-06-08 02:08:56,459][INFO][is_hybird()] android.permission.WRITE_APP_BADGE
+[INTERNAL_LOG][2018-06-08 02:08:56,459][INFO][is_hybird()] android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS
+[INTERNAL_LOG][2018-06-08 02:08:56,459][INFO][is_hybird()] android.permission.READ_PHONE_STATE
+[INTERNAL_LOG][2018-06-08 02:08:56,459][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-08 02:08:56,459][INFO][is_hybird()] com.tencent.mm.ext.permission.READ
+[INTERNAL_LOG][2018-06-08 02:08:56,459][INFO][is_hybird()] com.tencent.mm.ext.permission.WRITE
+[INTERNAL_LOG][2018-06-08 02:08:56,459][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-08 02:08:56,459][INFO][is_hybird()] com.tencent.mm.wear.message
+[INTERNAL_LOG][2018-06-08 02:08:56,459][INFO][is_hybird()] android.permission.BODY_SENSORS
+[INTERNAL_LOG][2018-06-08 02:08:56,459][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-08 02:08:56,459][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-08 02:08:56,459][INFO][is_hybird()] com.tencent.mm.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-08 02:08:56,459][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-08 02:08:56,459][INFO][is_hybird()] android.permission.MANAGE_ACCOUNTS
+[INTERNAL_LOG][2018-06-08 02:08:56,459][INFO][is_hybird()] android.permission.AUTHENTICATE_ACCOUNTS
+[INTERNAL_LOG][2018-06-08 02:08:56,459][INFO][is_hybird()] android.permission.READ_SYNC_SETTINGS
+[INTERNAL_LOG][2018-06-08 02:08:56,459][INFO][is_hybird()] android.permission.WRITE_SYNC_SETTINGS
+[INTERNAL_LOG][2018-06-08 02:08:56,459][INFO][is_hybird()] android.permission.READ_PROFILE
+[INTERNAL_LOG][2018-06-08 02:08:56,459][INFO][is_hybird()] android.permission.USE_FINGERPRINT
+[INTERNAL_LOG][2018-06-08 02:08:56,459][INFO][is_hybird()] com.tencent.mm.matrix.strategynotify
+[INTERNAL_LOG][2018-06-08 02:08:56,459][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-08 02:08:56,459][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-08 02:08:56,459][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-08 02:08:56,460][INFO][find_string()] File: assets/doc/default/mig_wifi_service_terms_chs.html
+[INTERNAL_LOG][2018-06-08 02:08:56,461][INFO][find_string()] No iframe in assets/doc/default/mig_wifi_service_terms_chs.html
+[INTERNAL_LOG][2018-06-08 02:08:56,461][INFO][find_string()] File: assets/doc/default/oauth_network_error.html
+[INTERNAL_LOG][2018-06-08 02:08:56,462][INFO][find_string()] No iframe in assets/doc/default/oauth_network_error.html
+[INTERNAL_LOG][2018-06-08 02:08:56,462][INFO][find_string()] File: assets/doc/default/wx_wifi_faq.html
+[INTERNAL_LOG][2018-06-08 02:08:56,465][INFO][find_string()] No iframe in assets/doc/default/wx_wifi_faq.html
+[INTERNAL_LOG][2018-06-08 02:08:56,465][INFO][find_string()] File: assets/doc/default/wx_wifi_service_terms_chs.html
+[INTERNAL_LOG][2018-06-08 02:08:56,466][INFO][find_string()] No iframe in assets/doc/default/wx_wifi_service_terms_chs.html
+[INTERNAL_LOG][2018-06-08 02:08:56,467][INFO][find_string()] File: assets/doc/en/mig_wifi_service_terms_en.html
+[INTERNAL_LOG][2018-06-08 02:08:56,468][INFO][find_string()] No iframe in assets/doc/en/mig_wifi_service_terms_en.html
+[INTERNAL_LOG][2018-06-08 02:08:56,468][INFO][find_string()] File: assets/doc/en/oauth_network_error.html
+[INTERNAL_LOG][2018-06-08 02:08:56,470][INFO][find_string()] No iframe in assets/doc/en/oauth_network_error.html
+[INTERNAL_LOG][2018-06-08 02:08:56,470][INFO][find_string()] File: assets/doc/en/wx_wifi_faq.html
+[INTERNAL_LOG][2018-06-08 02:08:56,631][INFO][find_string()] No iframe in assets/doc/en/wx_wifi_faq.html
+[INTERNAL_LOG][2018-06-08 02:08:56,635][INFO][find_string()] File: assets/doc/en/wx_wifi_service_terms_en.html
+[INTERNAL_LOG][2018-06-08 02:08:56,638][INFO][find_string()] No iframe in assets/doc/en/wx_wifi_service_terms_en.html
+[INTERNAL_LOG][2018-06-08 02:08:56,639][INFO][find_string()] File: assets/doc/zh-TW/oauth_network_error.html
+[INTERNAL_LOG][2018-06-08 02:08:56,640][INFO][find_string()] No iframe in assets/doc/zh-TW/oauth_network_error.html
+[INTERNAL_LOG][2018-06-08 02:08:56,641][INFO][find_string()] File: assets/map/app_get_version.html
+[INTERNAL_LOG][2018-06-08 02:08:56,641][INFO][find_string()] No iframe in assets/map/app_get_version.html
+[INTERNAL_LOG][2018-06-08 02:08:56,641][INFO][find_string()] File: assets/topstory/test.html
+[INTERNAL_LOG][2018-06-08 02:08:56,642][INFO][find_string()] No iframe in assets/topstory/test.html
+[INTERNAL_LOG][2018-06-08 02:08:56,642][INFO][find_string()] File: assets/wxa_library/WAGameVConsole.html
+[INTERNAL_LOG][2018-06-08 02:08:56,645][INFO][find_string()] No iframe in assets/wxa_library/WAGameVConsole.html
+[INTERNAL_LOG][2018-06-08 02:08:56,645][INFO][find_string()] File: assets/wxa_library/WAPageFrame.html
+[INTERNAL_LOG][2018-06-08 02:08:56,645][INFO][find_string()] No iframe in assets/wxa_library/WAPageFrame.html
+[INTERNAL_LOG][2018-06-08 02:08:56,645][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-08 02:11:34,866][INFO][find_url_in_apk()] [START URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-08 02:11:34,873][INFO][find_url_in_apk()] http://debugx5.qq.com/?inspector=true
+http://debugx5.qq.com/?inspector=false
+https://weixin.qq.com/cgi-bin/newreadtemplate?t=gdpr/confirm&business=%s&lang=%s&cc=%s
+http://weixin.qq.com/
+http://weixin.qq.com/
+
+[INTERNAL_LOG][2018-06-08 02:11:34,873][INFO][find_url_in_apk()] [END URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-08 02:11:43,010][ERROR][download_page_loaded()] Failed download: http://weixin.qq.com/ for exception [Errno 21] Is a directory: 'temp_html_code/html_downloaded_WeChat by WeChat - com/'
+[INTERNAL_LOG][2018-06-08 02:11:43,626][ERROR][download_page_loaded()] Failed download: http://weixin.qq.com/ for exception [Errno 21] Is a directory: 'temp_html_code/html_downloaded_WeChat by WeChat - com/'
+[INTERNAL_LOG][2018-06-08 02:11:43,626][INFO][find_string()] [START REMOTE FILE ANALYZE]
+[INTERNAL_LOG][2018-06-08 02:11:43,627][INFO][find_string()] Remote File in: temp_html_code/html_downloaded_WeChat by WeChat - com/?inspector=true
+[INTERNAL_LOG][2018-06-08 02:11:43,627][INFO][find_string()] URL: http://debugx5.qq.com/?inspector=true
+[INTERNAL_LOG][2018-06-08 02:11:43,629][INFO][find_string()] No iframe in temp_html_code/html_downloaded_WeChat by WeChat - com/?inspector=true
+[INTERNAL_LOG][2018-06-08 02:11:43,630][INFO][find_string()] Remote File in: temp_html_code/html_downloaded_WeChat by WeChat - com/?inspector=false
+[INTERNAL_LOG][2018-06-08 02:11:43,630][INFO][find_string()] URL: http://debugx5.qq.com/?inspector=false
+[INTERNAL_LOG][2018-06-08 02:11:43,630][INFO][find_string()] No iframe in temp_html_code/html_downloaded_WeChat by WeChat - com/?inspector=false
+[INTERNAL_LOG][2018-06-08 02:11:43,630][INFO][find_string()] Remote File in: temp_html_code/html_downloaded_WeChat by WeChat - com/confirm&business=%s&lang=%s&cc=%s
+[INTERNAL_LOG][2018-06-08 02:11:43,630][INFO][find_string()] URL: https://weixin.qq.com/cgi-bin/newreadtemplate?t=gdpr/confirm&business=%s&lang=%s&cc=%s
+[INTERNAL_LOG][2018-06-08 02:11:43,631][INFO][find_string()] No iframe in temp_html_code/html_downloaded_WeChat by WeChat - com/confirm&business=%s&lang=%s&cc=%s
+[INTERNAL_LOG][2018-06-08 02:11:43,631][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-08 02:11:43,631][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-08 02:11:43,632][INFO][find_url_in_apk()] http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+http://dldir1.qq.com/hudongzhibo/liteavsvrcfg/serverconfig_en.zip
+http://graph.facebook.com/
+https://weixin110.qq.com/security/readtemplate?t=weixin_report/w_type&scene=%d#wechat_redirect
+https://weixin110.qq.com/security/readtemplate?t=weixin_report/w_type&scene=%d#wechat_redirect
+https://weixin110.qq.com/security/readtemplate?t=weixin_report/w_type&scene=%d#wechat_redirect
+https://weixin110.qq.com/security/readtemplate?t=weixin_report/w_type&scene=%d#wechat_redirect
+https://weixin110.qq.com/security/readtemplate?t=weixin_report/w_type&scene=%d#wechat_redirect
+https://weixin110.qq.com/security/readtemplate?t=weixin_report/w_type&scene=%d#wechat_redirect
+https://weixin110.qq.com/security/readtemplate?t=weixin_report/w_type&scene=%d#wechat_redirect
+https://weixin110.qq.com/security/readtemplate?t=weixin_report/w_type&scene=%d#wechat_redirect
+https://weixin110.qq.com/security/readtemplate?t=weixin_report/w_type&scene=%d#wechat_redirect
+https://weixin110.qq.com/security/readtemplate?t=weixin_report/w_type&scene=%d#wechat_redirect
+https://weixin110.qq.com/security/readtemplate?t=weixin_report/w_type&scene=%d#wechat_redirect
+https://weixin110.qq.com/security/readtemplate?t=weixin_report/w_type&scene=%d#wechat_redirect
+https://weixin110.qq.com/security/readtemplate?t=weixin_report/w_type&scene=%d#wechat_redirect
+https://weixin110.qq.com/security/readtemplate?t=weixin_report/w_type&scene=%d#wechat_redirect
+https://weixin110.qq.com/security/readtemplate?t=weixin_report/w_type&scene=%d#wechat_redirect
+https://weixin110.qq.com/security/readtemplate?t=weixin_report/w_type&scene=%d#wechat_redirect
+https://weixin110.qq.com/security/readtemplate?t=weixin_report/w_type&scene=%d#wechat_redirect
+https://weixin110.qq.com/security/readtemplate?t=weixin_report/w_type&scene=%d#wechat_redirect
+https://weixin110.qq.com/security/readtemplate?t=weixin_report/w_type&scene=%d#wechat_redirect
+https://ss2.baidu.com/6ONYsjip0QIZ8tyhnq/it/u=28737416,3249768666&fm=58
+http://t.qq.com/
+http://t.qq.com/
+http://t.qq.com/
+http://t.qq.com/
+https://www.google.com/m8/feeds/contacts/default/property-email?alt=
+https://accounts.google.com/o/oauth2/token
+https://accounts.google.com/o/oauth2/token
+https://support.weixin.qq.com/cgi-bin/mmsupport-bin/readtemplate?lang=%s&t=w_unprotect&step=1&f=Android
+https://support.weixin.qq.com/cgi-bin/mmsupport-bin/readtemplate?lang=%s&t=w_unprotect&step=1&f=Android
+https://support.weixin.qq.com/deeplink/noaccess#wechat_redirect
+https://support.weixin.qq.com/deeplink/noaccess#wechat_redirect
+https://support.weixin.qq.com/deeplink/noaccess#wechat_redirect
+https://support.weixin.qq.com/deeplink/noaccess#wechat_redirect
+https://hkwallet.moneydata.hk/hybrid/www/weixin/f2f/zh_hk/faq.shtml
+http://weixin.qq.com/?version=%d&uin=%s&nettype=%d&signal=%d
+http://weixin.qq.com/?version=%d&uin=%s&nettype=%d&signal=%d
+http://weixin.qq.com/?version=%d&uin=%s&nettype=%d&signal=%d
+http://weixin.qq.com/?version=%d&uin=%s&nettype=%d&signal=%d
+https://mp.weixin.qq.com/mp/infringement?url=%s#wechat_redirect
+https://mp.weixin.qq.com/mp/infringement?url=%s#wechat_redirect
+http://support.weixin.qq.com/cgi-bin/mmsupport-bin/readtemplate?t=page/android_exp__index
+http://support.weixin.qq.com/cgi-bin/mmsupport-bin/readtemplate?t=page/android_exp__index
+http://support.weixin.qq.com/cgi-bin/mmsupport-bin/readtemplate?t=page/android_exp__index
+http://dldir1.qq.com/weixin/checkresupdate/0x2605136d.3144f5.0x26051334.bf52fb_1510754399.apk
+http://dldir1.qq.com/weixin/checkresupdate/0x26051363.6cc887.0x26051087.a44d04_1510750804.apk
+https://support.weixin.qq.com/cgi-bin/mmsupport-bin/readtemplate?t=weixin_phone/notice
+http://maps.google.com/maps?f=d&saddr=%f,%f&daddr=%f,%f&hl=
+http://maps.google.com/maps?f=d&saddr=%f,%f&daddr=%f,%f&hl=
+http://weixin.qq.com/?version=%d&uin=%s&nettype=%d&signal=%d%s
+http://weixin.qq.com/?version=%d&uin=%s&nettype=%d&signal=%d%s
+http://weixin.qq.com/?version=%d&uin=%s&nettype=%d&signal=%d%s
+http://mmsns.qpic.cn/mmsns/
+http://www.baidu.com/
+http://mmsns.qpic.cn/mmsns/pUBe8EmICSCsszwvTNz7XO46mx3SDurmV95hHIeQvib0AEVBGYU02Mg/150
+http://mmsns.qpic.cn/mmsns/pUBe8EmICSCsszwvTNz7XO46mx3SDurmV95hHIeQvib0AEVBGYU02Mg/150
+http://mmsns.qpic.cn/mmsns/pUBe8EmICSCsszwvTNz7XO46mx3SDurmV95hHIeQvib0AEVBGYU02Mg/150
+http://shp.qpic.cn/qqvideo_ori/0/
+http://shp.qpic.cn/qqvideo_ori/0/
+http://shp.qpic.cn/qqvideo_ori/0/
+http://shp.qpic.cn/qqvideo_ori/0/
+https://kf.qq.com/touch/scene_product.html?scene_id=kf4
+https://kf.qq.com/touch/scene_product.html?scene_id=kf3258
+https://qqmail.weixin.qq.com/cgi-bin/getunreadmailcount?f=xml&appname=qqmail_weixin&charset=utf-8&clientip=0
+http://xmlpull.org/v1/doc/features.html#indent-output
+https://work.weixin.qq.com/wework_admin/commdownload?from=conv%s
+http://support.weixin.qq.com/cgi-bin/mmsupport-bin/stackreport?version=
+http://support.weixin.qq.com/cgi-bin/mmsupport-bin/stackreport?version=
+http://apikey.map.qq.com/mkey/index.php/mkey/check?key=%s&output=json&ref=%s&pf=%s&imei=%s&pid=%s&os=%s&hm=%s&imsi=%s&mac=%s&nt=%s&suid=%s&ver=%s
+https://rtt2.map.qq.com
+https://rtt2a.map.qq.com
+https://rtt2b.map.qq.com
+https://rtt2c.map.qq.com
+https://s0.map.gtimg.com/oversea
+https://s1.map.gtimg.com/oversea
+https://s2.map.gtimg.com/oversea
+https://s3.map.gtimg.com/oversea
+http://appicsh.qq.com/cgi-bin/appstage/yyb_get_userapp_info
+http://masdk.3g.qq.com/
+https://servicewechat.com/
+https://servicewechat.com/
+https://servicewechat.com/
+http://mp.weixin.qq.com/
+https://mp.weixin.qq.com/
+https://servicewechat.com/preload/
+http://mp.weixinbridge.com/
+https://dldir1.qq.com/weixin/android/wxweb/updateConfig.xml
+http://dldir1.qq.com/weixin/android/recovery-0x26032011.conf
+https://support.weixin.qq.com/cgi-bin/mmsupport-bin/readtemplate?t=wechat_movement_faq/index
+https://mp.weixin.qq.com/mp/infringement?from=8&username=%s&template_id=%s&template_msg_id=%s1#wechat_redirect
+http://dldir1.qq.com/weixin/android/recovery-%s.conf
+http://ue.indoorloc.map.qq.com/?wl
+http://www.google-analytics.com
+https://ssl.google-analytics.com
+https://livepull.myqcloud.com/getpulladdr
+https://open.weixin.qq.com/connect/sdk/qrconnect?appid=%s&noncestr=%s&timestamp=%s&scope=%s&signature=%s
+http://www.linkedin.com/bind/plugin/
+https://servicewechat.com/preload/js-engine
+https://kf.qq.com/touch/scene_product.html?scene_id=kf7
+https://kf.qq.com/touch/scene_product.html?scene_id=kf7
+https://mp.weixin.qq.com/mp/infringement?username=%s&from=1#wechat_redirect
+http://weixin.qq.com/r/
+http://weixin.qq.com/r/
+https://weixin.qq.com/cgi-bin/readtemplate?check=false&t=weixin_faq_verifyaccount&platform=android&lang=%s
+http://p.weixin.qq.com?
+https://support.weixin.qq.com/cgi-bin/mmsupport-bin/readtemplate?t=page/common_page__upgrade&btn_text=btn_text_0&text=text008
+https://support.weixin.qq.com/cgi-bin/mmsupport-bin/readtemplate?t=page/common_page__upgrade&btn_text=btn_text_0&text=text008
+https://support.weixin.qq.com/cgi-bin/mmsupport-bin/readtemplate?t=page/common_page__upgrade&btn_text=btn_text_0&text=text008
+http://softroute.map.qq.com/downloadfile?cid=00008&referer=wx_client
+http://softroute.map.qq.com/downloadfile?cid=00008&referer=wx_client
+https://mp.weixin.qq.com/mp/wacomplain?action=show&appid=%s&pageid=%s&from=%d&&business_appid=%s#wechat_redirect
+https://sec.video.qq.com/p/wxconf/getmfomat
+http://pms.mb.qq.com/rsp204
+http://soft.tbs.imtt.qq.com/17421/tbs_res_imtt_tbs_DebugPlugin_DebugPlugin.tbs
+http://log.tbs.qq.com/ajax?c=pu&v=2&k=
+http://log.tbs.qq.com/ajax?c=pu&tk=
+http://wup.imtt.qq.com:8080
+http://log.tbs.qq.com/ajax?c=dl&k=
+http://cfg.imtt.qq.com/tbs?v=2&mk=
+http://log.tbs.qq.com/ajax?c=ul&v=2&k=
+http://mqqad.html5.qq.com/adjs
+http://log.tbs.qq.com/ajax?c=ucfu&k=
+http://sdksso.map.qq.com
+http://sdksso.map.qq.com
+https://p0.map.gtimg.com/sateTiles
+https://p1.map.gtimg.com/sateTiles
+https://p2.map.gtimg.com/sateTiles
+https://p3.map.gtimg.com/sateTiles
+https://m0.map.gtimg.com/hwap
+https://m1.map.gtimg.com/hwap
+https://m2.map.gtimg.com/hwap
+https://m3.map.gtimg.com/hwap
+http://apikey.map.qq.com/sdkapis/v1/getresource?
+http://apikey.map.qq.com/sdkapis/v1/getresource?
+https://dldir1.qq.com/weixin/android/wxweb/updateConfig_test.xml
+http://debugx5.qq.com/?inspector=true
+http://debugx5.qq.com/?inspector=false
+https://help.wechat.com/cgi-bin/newreadtemplate?t=help_center/w_index&Channel=Client&lang=
+https://support.weixin.qq.com/cgi-bin/readtemplate?t=page/common_page__upgrade&text=text000&btn_text=btn_text_0&title=title_0
+https://support.weixin.qq.com/cgi-bin/readtemplate?t=page/common_page__upgrade&text=text000&btn_text=btn_text_0&title=title_0
+https://support.weixin.qq.com/cgi-bin/readtemplate?t=page/common_page__upgrade&text=text000&btn_text=btn_text_0&title=title_0
+https://support.weixin.qq.com/cgi-bin/readtemplate?t=page/common_page__upgrade&text=text000&btn_text=btn_text_0&title=title_0
+https://support.weixin.qq.com/cgi-bin/readtemplate?t=page/common_page__upgrade&text=text000&btn_text=btn_text_0&title=title_0
+https://ssl.gongyi.qq.com/yxj_health/index.html
+https://kf.qq.com/touch/scene_product.html?scene_id=kf4568
+https://weixin110.qq.com/security/readtemplate?t=weixin_report/w_type&scene=%d#wechat_redirect33
+http://game.weixin.qq.com/cgi-bin/h5/static/gameloading/index.html
+http://w.mail.qq.com/cgi-bin/report_mm?failuretype=1&devicetype=2&clientversion=%s&os=%s&username=%s&iport=%s&t=weixin_bulletin&f=xhtml&lang=%s
+http://tafrtt.map.qq.com/index.wup
+https://yun-hl.3g.qq.com/halleycloud
+https://cc.map.qq.com/?get_c3
+http://analytics.map.qq.com/?sf3
+http://www.w3.org/ns/ttml#parameter
+http://plus.google.com/
+https://servicewechat.com/js-engine
+https://servicewechat.com/%s/js-engine
+https://mp.weixin.qq.com/bizmall/expressentry
+https://mp.weixin.qq.com/mp/wacomplain?action=show&appid=%s&pageid=%s&from=%d&version_type=%d&version_code=%d#wechat_redirect
+https://mp.weixin.qq.com/mp/waerrpage?appid=%s&type=overseas#wechat_redirect
+https://mp.weixin.qq.com/mp/waverifyinfo?action=get&appid=%s#wechat_redirect
+https://mp.weixin.qq.com/mp/waerrpage?appid=%s&type=upgrade&upgradetype=%d#wechat_redirect
+https://hw.weixin.qq.com/steprank/step/connect-help.html
+https://hw.weixin.qq.com/steprank/step/connect-help.html
+http://st.map.qq.com/api?size=%d*%d&center=%f,%f&zoom=%d&referer=weixin
+http://st.map.qq.com/api?size=%d*%d&center=%f,%f&zoom=%d&referer=weixin
+https://hkwallet.moneydata.hk/hybrid/www/weixin/hongbao_hk_v2/zh_hk/faq.shtml
+https://support.weixin.qq.com/security/readtemplate?t=bus_recharge/index_error
+https://support.weixin.qq.com/security/readtemplate?t=bus_recharge/index_error
+https://support.weixin.qq.com/cgi-bin/mmsupport-bin/readtemplate?t=page/favorite_record__w_unsupport&from=singlemessage&isappinstalled=0
+https://support.weixin.qq.com/cgi-bin/mmsupport-bin/readtemplate?t=page/favorite_record__w_unsupport&from=singlemessage&isappinstalled=0
+http://wxsnsdy.tc.qq.com/105/20210/snsdyvideodownload?filekey=30280201010421301f0201690402534804105d999cf2831eae6ca6e65b177800230f0204009297fd0400&amp;bizid=1023&amp;hy=SH&amp;fileparam=302c020101042530230204136ffd9302045719f85d02024ef202031e8d7f02030f42400204045a320a0201000400
+http://p.qq.com?
+https://www.payu.co.za/wechat/terms-and-conditions/
+http://mdc.html5.qq.com/d/directdown.jsp?channel_id=10375
+http://mdc.html5.qq.com/d/directdown.jsp?channel_id=10375
+http://mdc.html5.qq.com/d/directdown.jsp?channel_id=10375
+http://weixin.qq.com
+http://weixin.qq.com
+http://weixin.qq.com
+https://mp.weixin.qq.com/mp/readtemplate?t=wxm-appmsg-inform&bizusername=%s&tid=%s&mid=%s&mtime=%s&scene=%s#wechat_redirect
+https://mp.weixin.qq.com/mp/wacomplain?action=show&appid=%s&msgid=%s&from=%d&version_type=%d&version_code=%d#wechat_redirect
+http://dldir1.qq.com/foxmail/home.apk
+http://oth.str.mdt.qq.com:8080/analytics/upload
+http://strategy.beacon.qq.com/analytics/upload?mType=beacon
+http://p0.map.gtimg.com/scenic/
+http://p0.map.gtimg.com/scenic/
+https://confinfo.map.qq.com/confinfo?
+https://confinfo.map.qq.com/confinfo?apikey=
+https://overseactrl.map.qq.com/?apikey=
+https://pr.map.qq.com/pingd?
+https://www.googletagmanager.com
+http://pmir.3g.qq.com
+http://dldir1.qq.com/weixin/android/
+https://maps.google.com/maps/api/geocode/json?latlng=%f,%f&language=%s&sensor=false
+https://long.open.weixin.qq.com/connect/l/qrconnect?f=json&uuid=%s
+https://accounts.google.com/o/oauth2/auth?scope=https://www.googleapis.com/auth/userinfo.email https://www.google.com/m8/feeds&redirect_uri=urn:ietf:wg:oauth:2.0:oob&response_type=code&client_id=369820936870.apps.googleusercontent.com
+https://res.servicewechat.com/weapp/public/commlib/%d.wxapkg
+https://servicewechat.qq.com/
+https://servicewechat.com/app-widget
+http://weixin.qq.com/emoticonstore/
+http://weixin.qq.com/emoticonstore/
+http://o2o.gtimg.com/mydevice/page/deviceHelp.html
+http://tools.3g.qq.com/j/wechatandriodpim
+https://play.google.com/store/apps/details?id=com.tencent.qqpim
+http://weixin.qq.com/cgi-bin/rweibourl?sid=
+https://kf.qq.com/touch/product/weixinpay_app.html?platform=15&ADTAG=veda.weixinpay.wenti
+http://res.wx.qq.com/zh_CN/htmledition/images/mmpaybanklogo/wallet_bankcard_bule_bg.9_v2.png
+http://res.wx.qq.com/zh_CN/htmledition/images/mmpaybanklogo/wallet_bankcard_green_bg.9_v2.png
+http://res.wx.qq.com/zh_CN/htmledition/images/mmpaybanklogo/wallet_bankcard_hbule_bg.9_v2.png
+http://res.wx.qq.com/zh_CN/htmledition/images/mmpaybanklogo/wallet_bankcard_purple_bg.9_v2.png
+http://res.wx.qq.com/zh_CN/htmledition/images/mmpaybanklogo/wallet_bankcard_red_bg.9_v2.png
+http://res.wx.qq.com/zh_CN/htmledition/images/mmpaybanklogo/wallet_bankcard_yellow_bg.9_v2.png
+https://kf.qq.com/touch/sappfaq/160830qY7NJJ1608307ZJzqy.html
+https://weixin.qq.com/cgi-bin/readtemplate?lang=en_US&check=false&t=weixin_agreement&s=terms
+https://support.weixin.qq.com/security/
+https://support.wechat.com/security/
+https://szsupport.weixin.qq.com/security/
+https://hksupport.weixin.qq.com/security/
+https://weixin110.qq.com/security/
+http://maps.google.com/maps?f=d&daddr=%f,%f
+https://support.weixin.qq.com/cgi-bin/mmsupport-bin/readtemplate?t=feedback/index
+https://support.weixin.qq.com/cgi-bin/mmsupport-bin/readtemplate?t=feedback/index
+https://weixin.qq.com/m
+https://weixin.qq.com/m
+https://api.twitter.com/1.1/account/verify_credentials.json
+https://wx.tenpay.com/cgi-bin/mmpayweb-bin/payunregshow?operation=1
+http://mdc.html5.qq.com/mh?channel_id=50079&u=
+http://closedroadvector.map.qq.com
+https://overseactrl.map.qq.com/?
+http://debugxweb.qq.com/?set_web_config=WV_KIND_CW&set_appbrand_config=WV_KIND_CW&set_config_url=https://dldir1.qq.com/weixin/android/wxweb/updateConfig_test.xml&check_xwalk_update
+https://api.twitter.com/oauth/request_token
+https://api.twitter.com/oauth/access_token
+https://wx.tenpay.com/userroll/readtemplate?t=userroll/index_tmpl
+https://wx.tenpay.com/userroll/readtemplate?t=userroll/index_tmpl
+https://wx.tenpay.com/cgi-bin/mmpayweb-bin/readtemplate?t=payu_faq_tmpl
+https://wx.tenpay.com/cgi-bin/mmpayweb-bin/readtemplate?t=payu_faq_tmpl
+https://kf.qq.com/touch/scene_product.html?scene_id=kf1
+https://kf.qq.com/touch/scene_product.html?scene_id=kf1
+http://blog.wechat.com/
+https://support.weixin.qq.com/security/readtemplate?t=complaints/index
+http://mdc.html5.qq.com/d/directdown.jsp?channel_id=10318
+http://ue.indoorloc.map.qq.com/
+http://hostname/?
+http://tcdns.myqcloud.com/queryip
+http://tcdns.myqcloud.com/queryip
+https://wx.qlogo.cn/
+http://weixin.qq.com/cgi-bin/readtemplate?t=w_safe&qqpimenter=shoushen
+http://weixin.qq.com/cgi-bin/readtemplate?t=w_safe&qqpimenter=shoushen
+http://o2o.gtimg.com/wifi/echo
+http://o2o.gtimg.com/wifi/echo.html
+http://10.1.0.6/redirect
+http://10.1.0.6/redirect
+http://game.weixin.qq.com/cgi-bin/h5/static/gameloading/index.html?appid=
+https://qqmail.weixin.qq.com:443
+http://login.weixin.qq.com
+https://login.weixin.qq.com
+https://wx.tenpay.com/f2f
+https://payapp.weixin.qq.com/qr/
+https://weixin110.qq.com/security/readtemplate?t=w_security_center_website/trusted_friend_guide
+http://mmsns.qpic.cn
+https://mmsns.qpic.cn
+http://mp.weixin.qq.com/mp/lifedetail?bid=%s&action=list#wechat_redirect
+http://mp.weixin.qq.com/mp/lifedetail?bid=%s&tid=%s&action=list#wechat_redirect
+https://game.weixin.qq.com/cgi-bin/h5/static/gameloading/index.html?wegame_ssid=25&appid=
+http://www.dktest-mmcrash.com/
+https://support.weixin.qq.com/security
+https://support.wechat.com/security
+http://dianhua.qq.com/cgi-bin/cloudgrptemplate?t=dianhuaben_download&channel=100008
+https://m.facebook.com/dialog/
+https://graph.facebook.com/
+https://api.facebook.com/restserver.php
+https://www.payu.co.za/wechat/contact-us/
+http://debugtbs.qq.com
+http://debugx5.qq.com
+http://oth.eve.mdt.qq.com:8080/analytics/upload
+http://jrlt.beacon.qq.com/analytics/upload
+http://vectorsdk.map.qq.com/indoor_map?
+http://mapvectors.map.qq.com/indoormap2?
+http://closedroadvector.map.qq.com/closed_road_v2?
+https://api.twitter.com/oauth/authorize?oauth_token=%s
+http://api.twitter.com/oauth/request_token
+http://api.twitter.com/oauth/access_token
+http://schemas.android.com/apk/res-auto
+https://up-hl.3g.qq.com/upreport
+http://support.weixin.qq.com/cgi-bin/mmsupport-bin/reportdevice?channel=
+https://weixin.qq.com/cgi-bin/newreadtemplate?t=gdpr/confirm&business=%s&lang=%s&cc=%s
+https://www.googleapis.com/oauth2/v1/userinfo?access_token=
+https://maps.googleapis.com/maps/api/staticmap?size=%dx%d&center=%f,%f&zoom=%d&format=jpg&language=%s&sensor=true
+https://apikey.map.qq.com/mkey/index.php/mkey/check?
+http://weixin.qq.com/
+http://weixin.qq.com/
+
+[INTERNAL_LOG][2018-06-08 02:11:43,632][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-08 02:11:43,636][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-08 02:11:43,636][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-08 02:11:43,636][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-08 02:11:43,636][INFO][analyze_start()] End time:[Fri Jun  8 02:11:43 2018]

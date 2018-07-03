@@ -1,0 +1,380 @@
+[INTERNAL_LOG][2018-06-12 06:55:29,934][INFO][analyze_start()] Init Time [Tue Jun 12 06:55:29 2018]
+[INTERNAL_LOG][2018-06-12 06:55:30,005][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 06:55:30,005][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 06:55:30,005][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 06:55:30,005][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 06:55:30,005][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 06:55:30,005][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 06:55:30,005][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 06:55:30,005][INFO][is_hybird()] wp.wattpad.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-12 06:55:30,005][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 06:55:30,005][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-12 06:55:30,005][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-12 06:55:30,006][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 06:55:30,006][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 06:55:30,006][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 06:55:30,006][INFO][find_string()] File: assets/licenses.html
+[INTERNAL_LOG][2018-06-12 06:55:30,052][INFO][find_string()] No iframe in assets/licenses.html
+[INTERNAL_LOG][2018-06-12 06:55:30,052][INFO][find_string()] File: assets/vimeo.html
+[INTERNAL_LOG][2018-06-12 06:55:30,053][INFO][find_string()] Found this tag <iframe allowfullscreen="" frameborder="0" height="{HEIGHT}" id="player1" mozallowfullscreen="" src="https://player.vimeo.com/video/{VIDEO_ID}?api=1&amp;player_id=player1&amp;badge=0&amp;byline=0&amp;portrait=0&amp;fullscreen=0" webkitallowfullscreen="" width="{WIDTH}">\n</iframe>
+[INTERNAL_LOG][2018-06-12 06:55:30,053][INFO][find_string()] Found in file assets/vimeo.html tag iframe , 1 times
+[INTERNAL_LOG][2018-06-12 06:55:30,053][INFO][find_string()] Founded this src ['https://player.vimeo.com/video/{VIDEO_ID}?api=1&player_id=player1&badge=0&byline=0&portrait=0&fullscreen=0'] in iframe tag inside file assets/vimeo.html
+[INTERNAL_LOG][2018-06-12 06:55:30,053][INFO][find_string()] No CSP found!
+[INTERNAL_LOG][2018-06-12 06:55:30,053][INFO][find_string()] File: assets/vine.html
+[INTERNAL_LOG][2018-06-12 06:55:30,054][INFO][find_string()] Found this tag <iframe frameborder="0" height="{HEIGHT}" id="player1" src="https://vine.co/v/{VIDEO_ID}/embed/simple?audio=1" width="{WIDTH}">\n    </iframe>
+[INTERNAL_LOG][2018-06-12 06:55:30,054][INFO][find_string()] Found in file assets/vine.html tag iframe , 1 times
+[INTERNAL_LOG][2018-06-12 06:55:30,054][INFO][find_string()] Founded this src ['https://vine.co/v/{VIDEO_ID}/embed/simple?audio=1'] in iframe tag inside file assets/vine.html
+[INTERNAL_LOG][2018-06-12 06:55:30,054][INFO][find_string()] No CSP found!
+[INTERNAL_LOG][2018-06-12 06:55:30,054][INFO][find_string()] File: assets/YouTube.html
+[INTERNAL_LOG][2018-06-12 06:55:30,055][INFO][find_string()] No iframe in assets/YouTube.html
+[INTERNAL_LOG][2018-06-12 06:55:30,055][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 06:55:30,055][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 06:55:30,055][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 06:56:18,427][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 06:56:18,427][INFO][find_url_in_apk()] http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+http://b.scorecardresearch.com/p2?
+https://sb.scorecardresearch.com/p2?
+http://udm.scorecardresearch.com/offline
+https://udm.scorecardresearch.com/offline
+http://segment-data-us-east.zqtk.net/%s?url=%s&c2=%s&c12=%s&ns_ap_bi=%s&ns_ap_sv=%s&ns_ap_an=%s&ns_ap_ver=%s&ns_ap_pn=android
+http://b.voicefive.com/rs/sdk/gg.js
+https://sb.voicefive.com/rs/sdk/gg.js
+http://b.scorecardresearch.com/rs/mobile/ntv/vce_st.js
+https://sb.scorecardresearch.com/rs/mobile/ntv/vce_st.js
+http://localhost/
+https://sb.voicefive.com/rs/sdk/b.html
+https://sb.voicefive.com/rs/sdk/b.html
+https://sb.voicefive.com/rs/sdk/b.html
+https://sb.voicefive.com/rs/sdk/b.html
+https://sb.voicefive.com/rs/sdk/b.html
+https://mobile-static.adsafeprotected.com/avid-v2.js
+http://xmlpull.org/v1/doc/features.html#indent-output
+http://xmlpull.org/v1/doc/features.html#indent-output
+https://graph.facebook.com/network_ads_common
+https://graph.%s.facebook.com/network_ads_common
+https://www.facebook.com/adnw_logging/
+https://www.%s.facebook.com/adnw_logging/
+https://www.facebook.com/
+https://www.%s.facebook.com
+http://play.google.com/store/apps/
+http://www.facebook.com
+https://graph.%s
+https://graph-video.%s
+https://facebook.com
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+https://plus.google.com/
+https://app-measurement.com/a
+http://schemas.android.com/apk/lib/com.google.android.gms.plus
+http://play.google.com/store/apps/details
+https://imasdk.googleapis.com/native/sdkloader/native_sdk_v3.html
+https://imasdk.googleapis.com/native/sdkloader/native_sdk_v3_debug.html
+http://schemas.android.com/apk/lib/com.inmobi.ads
+http://schemas.android.com/apk/lib/com.inmobi.ads
+https://i.l.inmobicdn.net/sdk/sdk/500/android/mraid.js
+https://config.inmobi.cn/config-server/v1/config/secure.cfg
+https://config.inmobi.cn/config-server/v1/config/secure.cfg
+https://config.inmobi.cn/config-server/v1/config/secure.cfg
+https://www.inmobi.com/products/sdk/#downloads
+http://twitter.com/home?status=
+https://m.google.com/app/plus/x/?v=compose&content=
+https://www.facebook.com/dialog/feed?app_id=181821551957328&link=
+https://dock.inmobi.com/carb/v1/i
+https://dock.inmobi.com/carb/v1/o
+https://sdkm.w.inmobi.com/user/e.asm
+https://z.moatads.com/
+https://z.moatads.com/
+https://twitter.com/%s/status/%s
+https://www.mopub.com/optout/
+https://www.mopub.com/optout/
+https://app.getsentry.com:443/api/43633/store/
+https://app.getsentry.com:443
+https://app.getsentry.com:443
+http://soma.smaato.net/oapi/reqAd.jsp?
+https://soma.smaato.net/oapi/reqAd.jsp?
+https://api.branch.io/v1/url?url=
+https://a.wattpad.com/img/fb-app-invite/invite.html
+https://a.wattpad.com/img/fb-app-invite/invite.html
+https://www.surveymonkey.com/r/Y2RXZQL
+https://loadbalancer-media-production-1.wattpad.com/story_parts/
+https://loadbalancer-media-production-1.wattpad.com/story_parts/
+https://loadbalancer-media-production-1.wattpad.com/story_parts/
+https://v.wattpad.com/
+https://adz.wattpad.com/api/v2
+http://play.google.com/store/apps/details?id=
+https://i1.ytimg.com/vi/
+https://www.youtube.com/watch?v=
+https://track.wattpad.com/api/event
+https://www.vimeo.com/
+https://a.wattpad.com
+https://a.wattpad.com
+https://a.wattpad.com
+https://a.wattpad.com
+https://a.wattpad.com
+https://loki.wattpad.com/api/experiments/variations
+https://www.vine.co/v/
+http://wattys.wattpad.com
+https://premium.wattpad.com
+https://www.wattpad.io
+https://mobile.wattpad.io
+https://api.wattpad.com
+https://www.wattpad.com
+https://mobile.wattpad.com
+https://i.w.inmobi.com/showad.asm
+https://sdktm.w.inmobi.com/sdkpubreq/v2
+https://crash-metrics.sdk.inmobi.com/trace
+https://config.inmobi.com/config-server/v1/config/secure.cfg
+https://telemetry.sdk.inmobi.com/metrics
+https://www.%s.facebook.com/audience_network/server_side_reward
+https://www.facebook.com/audience_network/server_side_reward
+https://www.google.com
+http://www.dom.com/path?
+https://analytics.mopub.com/i/jot/exchange_client_event
+https://www.mopub.com/optout
+http://www.w3.org/ns/ttml#parameter
+https://www.googleapis.com/auth/games
+http://api.vungle.com/api/v4/
+https://ingest.vungle.com/
+https://settings.crashlytics.com/spi/v2/platforms/android/apps/%s/settings
+https://api.branch.io/
+http://www.w3.org/XML/1998/namespace
+http://www.google.com/recaptcha/api/challenge?k=%s
+http://www.google.com/recaptcha/api/reload?c=%s&k=%s&type=%s
+http://www.google.com/recaptcha/api/image?c=%s
+https://www.wattpad.com/presents
+https://www.googleapis.com/youtube/v3/search
+https://api.vimeo.com/videos
+http://wattpad.com
+https://a.wattpad.com/useravatar/Brodymonster.128.183088.jpg
+https://support.wattpad.com/hc/en-us/articles/360000812323-Updates-to-our-Terms-of-Service-and-Privacy-Policy
+http://www.facebook.com/
+http://www.twitter.com/
+https://a.wattpad.com/image/recent_gifter_1.png
+https://a.wattpad.com/image/recent_gifter_2.png
+https://a.wattpad.com/image/recent_gifter_3.png
+https://a.wattpad.com/image/recent_gifter_4.png
+https://a.wattpad.com/image/recent_gifter_5.png
+https://a.wattpad.com/image/recent_gifter_6.png
+https://a.wattpad.com/image/recent_gifter_7.png
+https://a.wattpad.com/image/recent_gifter_8.png
+https://a.wattpad.com/image/recent_gifter_9.png
+https://a.wattpad.com/image/recent_gifter_10.png
+https://support.wattpad.com
+https://support.wattpad.com/hc/es
+https://support.wattpad.com/hc/tr
+https://support.wattpad.com/api/v2/help_center/<locale>/articles.json?label_names=<label_names>
+https://support.wattpad.com/api/v2/help_center/<locale>/sections/200161244/articles.json?label_names=<label_names>
+http://www.ccil.org/~cowan/tagsoup/properties/schema
+http://www.ccil.org/~cowan/tagsoup/properties/schema
+http://www.ccil.org/~cowan/tagsoup/properties/schema
+http://www.ccil.org/~cowan/tagsoup/properties/schema
+http://www.ccil.org/~cowan/tagsoup/properties/schema
+http://www.ccil.org/~cowan/tagsoup/properties/schema
+https://api-ssl.bitly.com/v3/expand?access_token=40c033c65861b0091a370e0a44972a229e0c54e5&shortUrl=
+http://schema.org/ViewAction
+http://a.wattpad.com/img/fb-app-invite/banner.png
+http://a.wattpad.com/img/fb-app-invite/banner.png?1
+https://graph.facebook.com/%s/picture?type=square
+https://e.crashlytics.com/spi/v2/events
+https://cdn.branch.io/sdk/uriskiplist_v#.json
+https://bnc.lt/a/
+https://bnc.lt/a/
+http://www.w3.org/1999/xhtml
+http://xml.org/sax/features/namespaces
+http://xml.org/sax/features/namespaces
+http://xml.org/sax/features/namespace-prefixes
+http://xml.org/sax/features/external-general-entities
+http://xml.org/sax/features/external-parameter-entities
+http://xml.org/sax/features/is-standalone
+http://xml.org/sax/features/lexical-handler/parameter-entities
+http://xml.org/sax/features/resolve-dtd-uris
+http://xml.org/sax/features/string-interning
+http://xml.org/sax/features/use-attributes2
+http://xml.org/sax/features/use-locator2
+http://xml.org/sax/features/use-entity-resolver2
+http://xml.org/sax/features/validation
+http://xml.org/sax/features/xmlns-uris
+http://xml.org/sax/features/xml-1.1
+http://www.ccil.org/~cowan/tagsoup/features/ignore-bogons
+http://www.ccil.org/~cowan/tagsoup/features/ignore-bogons
+http://www.ccil.org/~cowan/tagsoup/features/bogons-empty
+http://www.ccil.org/~cowan/tagsoup/features/bogons-empty
+http://www.ccil.org/~cowan/tagsoup/features/root-bogons
+http://www.ccil.org/~cowan/tagsoup/features/root-bogons
+http://www.ccil.org/~cowan/tagsoup/features/default-attributes
+http://www.ccil.org/~cowan/tagsoup/features/default-attributes
+http://www.ccil.org/~cowan/tagsoup/features/translate-colons
+http://www.ccil.org/~cowan/tagsoup/features/translate-colons
+http://www.ccil.org/~cowan/tagsoup/features/restart-elements
+http://www.ccil.org/~cowan/tagsoup/features/restart-elements
+http://www.ccil.org/~cowan/tagsoup/features/ignorable-whitespace
+http://www.ccil.org/~cowan/tagsoup/features/ignorable-whitespace
+http://www.ccil.org/~cowan/tagsoup/features/cdata-elements
+http://www.ccil.org/~cowan/tagsoup/features/cdata-elements
+http://xml.org/sax/properties/lexical-handler
+http://xml.org/sax/properties/lexical-handler
+http://www.ccil.org/~cowan/tagsoup/properties/scanner
+http://www.ccil.org/~cowan/tagsoup/properties/scanner
+http://www.ccil.org/~cowan/tagsoup/properties/auto-detector
+http://www.ccil.org/~cowan/tagsoup/properties/auto-detector
+http://www.wattpad.com/user/
+http://www.wattpad.com/story/
+https://support.wattpad.com/api/v2/help_center/
+https://api\.wattpad\.(com|io)/v4/parts/.+/comments.*
+http://api.tumblr.com/v2/blog/%s.tumblr.com/post
+http://api.tumblr.com/v2/user/info
+https://twitter.com/intent/tweet?text=%s&url=%s
+https://api.twitter.com/1.1/account/verify_credentials.json
+https://graph.facebook.com/
+https://www.vungle.com/privacy/
+https://auth.aweber.com/1.0/oauth/access_token
+https://auth.aweber.com/1.0/oauth/authorize?oauth_token=%s
+https://auth.aweber.com/1.0/oauth/request_token
+https://oauth2.constantcontact.com/oauth2/oauth/token?grant_type=authorization_code
+https://oauth2.constantcontact.com/oauth2/oauth/siteowner/authorize?client_id=%s&response_type=code&redirect_uri=%s
+https://oauth.constantcontact.com/ws/oauth/access_token
+https://oauth.constantcontact.com/ws/oauth/confirm_access?oauth_token=%s
+https://oauth.constantcontact.com/ws/oauth/request_token
+http://services.digg.com/oauth/access_token
+http://digg.com/oauth/authorize?oauth_token=%s
+http://services.digg.com/oauth/request_token
+https://api.dropbox.com/1/oauth/access_token
+https://www.dropbox.com/1/oauth/authorize?oauth_token=
+https://api.dropbox.com/1/oauth/request_token
+https://www.evernote.com
+https://graph.facebook.com/oauth/access_token
+https://www.facebook.com/dialog/oauth?client_id=%s&redirect_uri=%s&scope=%s
+https://www.facebook.com/dialog/oauth?client_id=%s&redirect_uri=%s
+http://www.flickr.com/services/oauth/access_token
+http://www.flickr.com/services/oauth/authorize?oauth_token=
+http://www.flickr.com/services/oauth/request_token
+https://foursquare.com/oauth2/access_token?grant_type=authorization_code
+https://foursquare.com/oauth2/authenticate?client_id=%s&response_type=code&redirect_uri=%s
+http://foursquare.com/oauth/access_token
+http://foursquare.com/oauth/authorize?oauth_token=%s
+http://foursquare.com/oauth/request_token
+http://api.freelancer.com/RequestAccessToken/requestAccessToken.xml?
+http://www.freelancer.com/users/api-token/auth.php?oauth_token=%s
+http://api.freelancer.com/RequestRequestToken/requestRequestToken.xml
+https://api.getglue.com/oauth/access_token
+http://getglue.com/oauth/authorize?oauth_token=%s
+https://api.getglue.com/oauth/request_token
+https://www.google.com/accounts/OAuthGetAccessToken
+https://www.google.com/accounts/OAuthAuthorizeToken?oauth_token=%s
+https://www.google.com/accounts/OAuthGetRequestToken
+https://api.imgur.com/oauth/access_token
+https://api.imgur.com/oauth/authorize?oauth_token=%s
+https://api.imgur.com/oauth/request_token
+https://api.kaixin001.com/oauth2/access_token?grant_type=authorization_code
+http://api.kaixin001.com/oauth2/authorize?client_id=%s&redirect_uri=%s&response_type=code&scope=%s
+http://api.kaixin001.com/oauth2/authorize?client_id=%s&redirect_uri=%s&response_type=code
+http://api.kaixin001.com/oauth/access_token
+http://api.kaixin001.com/oauth/authorize?oauth_token=%s
+http://api.kaixin001.com/oauth/request_token
+https://api.linkedin.com/uas/oauth/accessToken
+https://api.linkedin.com/uas/oauth/authenticate?oauth_token=%s
+https://api.linkedin.com/uas/oauth/requestToken
+https://api.linkedin.com/uas/oauth/requestToken?scope=
+https://login.live.com/oauth20_token.srf?grant_type=authorization_code
+https://login.live.com/oauth20_authorize.srf?client_id=%s&redirect_uri=%s&response_type=code&scope=%s
+https://login.live.com/oauth20_authorize.srf?client_id=%s&redirect_uri=%s&response_type=code
+http://openapi.lovefilm.com/oauth/access_token
+https://www.lovefilm.com/activate?oauth_token=%s
+http://openapi.lovefilm.com/oauth/request_token
+http://api.meetup.com/oauth/access/
+http://www.meetup.com/authenticate?oauth_token=%s
+http://api.meetup.com/oauth/request/
+http://api.mendeley.com/oauth/access_token/
+http://api.mendeley.com/oauth/authorize?oauth_token=%s
+http://api.mendeley.com/oauth/request_token/
+http://gomiso.com/oauth/access_token
+http://gomiso.com/oauth/authorize?oauth_token=%s
+http://gomiso.com/oauth/request_token
+https://api.netprospex.com/1.0/oauth/access-token
+https://api.netprospex.com/1.0/oauth/authorize?oauth_token=%s
+https://api.netprospex.com/1.0/oauth/request-token
+http://api.t.163.com/oauth/access_token
+http://api.t.163.com/oauth/authenticate?oauth_token=%s
+http://api.t.163.com/oauth/authorize?oauth_token=%s
+http://api.t.163.com/oauth/request_token
+http://www.plurk.com/OAuth/access_token
+http://www.plurk.com/OAuth/authorize?oauth_token=%s
+http://www.plurk.com/OAuth/request_token
+https://api.500px.com/v1/oauth/access_token
+https://api.500px.com/v1/oauth/authorize?oauth_token=%s
+https://api.500px.com/v1/oauth/request_token
+https://open.t.qq.com/cgi-bin/access_token
+https://open.t.qq.com/cgi-bin/authorize?oauth_token=%s
+https://open.t.qq.com/cgi-bin/request_token
+https://graph.renren.com/oauth/token?grant_type=authorization_code
+https://graph.renren.com/oauth/authorize?client_id=%s&redirect_uri=%s&response_type=code&scope=%s
+https://graph.renren.com/oauth/authorize?client_id=%s&redirect_uri=%s&response_type=code
+https://id.sapo.pt/oauth/access_token
+https://id.sapo.pt/oauth/authorize?oauth_token=%s
+https://id.sapo.pt/oauth/request_token
+https://api.weibo.com/oauth2/access_token?grant_type=authorization_code
+https://api.weibo.com/oauth2/authorize?client_id=%s&redirect_uri=%s&response_type=code&scope=%s
+https://api.weibo.com/oauth2/authorize?client_id=%s&redirect_uri=%s&response_type=code
+http://api.t.sina.com.cn/oauth/access_token
+http://api.t.sina.com.cn/oauth/authorize?oauth_token=%s
+http://api.t.sina.com.cn/oauth/request_token
+https://api.skyrock.com/v2/oauth/token
+https://api.skyrock.com/v2/oauth/authorize?oauth_token=%s
+https://api.skyrock.com/v2/oauth/initiate
+http://api.t.sohu.com/oauth/access_token
+http://api.t.sohu.com/oauth/authorize?oauth_token=%s
+http://api.t.sohu.com/oauth/request_token
+https://trello.com/1/OAuthGetAccessToken
+https://trello.com/1/OAuthAuthorizeToken?oauth_token=%s
+https://trello.com/1/OAuthGetRequestToken
+https://www.tumblr.com/oauth/access_token
+https://www.tumblr.com/oauth/authorize?oauth_token=%s
+https://www.tumblr.com/oauth/request_token
+https://api.twitter.com/oauth/access_token
+https://api.twitter.com/oauth/authorize?oauth_token=%s
+https://api.twitter.com/oauth/request_token
+https://one.ubuntu.com/oauth/access/
+https://one.ubuntu.com/oauth/authorize/?oauth_token=%s
+https://one.ubuntu.com/oauth/request/
+https://secure.viadeo.com/oauth-provider/access_token2?grant_type=authorization_code
+https://secure.viadeo.com/oauth-provider/authorize2?client_id=%s&redirect_uri=%s&response_type=code&scope=%s
+https://secure.viadeo.com/oauth-provider/authorize2?client_id=%s&redirect_uri=%s&response_type=code
+http://vimeo.com/oauth/access_token
+http://vimeo.com/oauth/authorize?oauth_token=%s
+http://vimeo.com/oauth/request_token
+https://oauth.vk.com/authorize?client_id=%s&redirect_uri=%s&response_type=code
+https://oauth.vk.com/authorize?client_id=%s&redirect_uri=%s&response_type=code
+https://api.vkontakte.ru/oauth/access_token
+https://api.xing.com/v1/access_token
+https://api.xing.com/v1/authorize?oauth_token=%s
+https://api.xing.com/v1/request_token
+https://api.login.yahoo.com/oauth/v2/get_token
+https://api.login.yahoo.com/oauth/v2/request_auth?oauth_token=%s
+https://api.login.yahoo.com/oauth/v2/get_request_token
+https://www.yammer.com/oauth/access_token
+https://www.yammer.com/oauth/authorize?oauth_token=%s
+https://www.yammer.com/oauth/request_token
+https://premium.wattpad.com/faq
+http://www.wattpad.com/peoples-choice
+https://sandbox.evernote.com
+https://app.yinxiang.com
+http://api.sandbox.freelancer.com/RequestAccessToken/requestAccessToken.xml?
+http://www.sandbox.freelancer.com/users/api-token/auth.php?oauth_token=%s
+http://api.sandbox.freelancer.com/RequestRequestToken/requestRequestToken.xml
+http://www.plurk.com/m/authorize?oauth_token=%s
+https://api.twitter.com/oauth/authenticate?oauth_token=%s
+https://wattpad.ada.support/chat/
+
+[INTERNAL_LOG][2018-06-12 06:56:18,427][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 06:56:18,438][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 06:56:18,438][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 06:56:18,438][INFO][analyze_start()] This app might be vulnerable on attack frame confusion, This file are vulnerable ['assets/vimeo.html', 'assets/vine.html']
+[INTERNAL_LOG][2018-06-12 06:56:18,438][INFO][analyze_start()] End time:[Tue Jun 12 06:56:18 2018]

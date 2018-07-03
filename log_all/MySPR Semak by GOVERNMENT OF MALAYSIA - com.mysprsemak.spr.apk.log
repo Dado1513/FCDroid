@@ -1,0 +1,70 @@
+[INTERNAL_LOG][2018-06-08 02:19:16,845][INFO][analyze_start()] Init Time [Fri Jun  8 02:19:16 2018]
+[INTERNAL_LOG][2018-06-08 02:19:16,859][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-08 02:19:16,860][INFO][is_hybird()] Hybrid file found are: ['config.xml']
+[INTERNAL_LOG][2018-06-08 02:19:16,860][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-08 02:19:16,860][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-08 02:19:16,860][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-08 02:19:16,860][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-08 02:19:16,860][INFO][is_hybird()] Starting apktool
+[INTERNAL_LOG][2018-06-08 02:19:18,896][INFO][check_whitelist()] [INIT ACCESS ORIGIN LIST]
+[INTERNAL_LOG][2018-06-08 02:19:18,907][INFO][check_whitelist()] origin: *
+[INTERNAL_LOG][2018-06-08 02:19:18,917][INFO][check_whitelist()] [END ACCESS ORIGIN LIST]
+
+[INTERNAL_LOG][2018-06-08 02:19:18,995][INFO][analyze_start()] TYPE APK: [HYBRID]
+
+[INTERNAL_LOG][2018-06-08 02:19:19,026][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-08 02:19:19,042][INFO][find_string()] File: assets/www/about.html
+[INTERNAL_LOG][2018-06-08 02:19:19,065][INFO][find_string()] No iframe in assets/www/about.html
+[INTERNAL_LOG][2018-06-08 02:19:19,065][INFO][find_string()] File: assets/www/form-calon.html
+[INTERNAL_LOG][2018-06-08 02:19:19,066][INFO][find_string()] No iframe in assets/www/form-calon.html
+[INTERNAL_LOG][2018-06-08 02:19:19,066][INFO][find_string()] File: assets/www/form-keputusan.html
+[INTERNAL_LOG][2018-06-08 02:19:19,066][INFO][find_string()] No iframe in assets/www/form-keputusan.html
+[INTERNAL_LOG][2018-06-08 02:19:19,067][INFO][find_string()] File: assets/www/form-semakan.html
+[INTERNAL_LOG][2018-06-08 02:19:19,067][INFO][find_string()] No iframe in assets/www/form-semakan.html
+[INTERNAL_LOG][2018-06-08 02:19:19,067][INFO][find_string()] File: assets/www/index.html
+[INTERNAL_LOG][2018-06-08 02:19:19,068][INFO][find_string()] No iframe in assets/www/index.html
+[INTERNAL_LOG][2018-06-08 02:19:19,068][INFO][find_string()] File: assets/www/list-prk-calon.html
+[INTERNAL_LOG][2018-06-08 02:19:19,069][INFO][find_string()] No iframe in assets/www/list-prk-calon.html
+[INTERNAL_LOG][2018-06-08 02:19:19,069][INFO][find_string()] File: assets/www/list-prk-keputusan.html
+[INTERNAL_LOG][2018-06-08 02:19:19,070][INFO][find_string()] No iframe in assets/www/list-prk-keputusan.html
+[INTERNAL_LOG][2018-06-08 02:19:19,070][INFO][find_string()] File: assets/www/list-prn-calon.html
+[INTERNAL_LOG][2018-06-08 02:19:19,070][INFO][find_string()] No iframe in assets/www/list-prn-calon.html
+[INTERNAL_LOG][2018-06-08 02:19:19,071][INFO][find_string()] File: assets/www/list-prn-dun-calon.html
+[INTERNAL_LOG][2018-06-08 02:19:19,071][INFO][find_string()] No iframe in assets/www/list-prn-dun-calon.html
+[INTERNAL_LOG][2018-06-08 02:19:19,071][INFO][find_string()] File: assets/www/list-prn-dun.html
+[INTERNAL_LOG][2018-06-08 02:19:19,072][INFO][find_string()] No iframe in assets/www/list-prn-dun.html
+[INTERNAL_LOG][2018-06-08 02:19:19,072][INFO][find_string()] File: assets/www/list-prn-keputusan.html
+[INTERNAL_LOG][2018-06-08 02:19:19,072][INFO][find_string()] No iframe in assets/www/list-prn-keputusan.html
+[INTERNAL_LOG][2018-06-08 02:19:19,073][INFO][find_string()] File: assets/www/main-calon.html
+[INTERNAL_LOG][2018-06-08 02:19:19,073][INFO][find_string()] No iframe in assets/www/main-calon.html
+[INTERNAL_LOG][2018-06-08 02:19:19,073][INFO][find_string()] File: assets/www/main-keputusan.html
+[INTERNAL_LOG][2018-06-08 02:19:19,074][INFO][find_string()] No iframe in assets/www/main-keputusan.html
+[INTERNAL_LOG][2018-06-08 02:19:19,074][INFO][find_string()] File: assets/www/status-calon-pemilih.html
+[INTERNAL_LOG][2018-06-08 02:19:19,075][INFO][find_string()] No iframe in assets/www/status-calon-pemilih.html
+[INTERNAL_LOG][2018-06-08 02:19:19,075][INFO][find_string()] File: assets/www/status-calon-prk.html
+[INTERNAL_LOG][2018-06-08 02:19:19,075][INFO][find_string()] No iframe in assets/www/status-calon-prk.html
+[INTERNAL_LOG][2018-06-08 02:19:19,075][INFO][find_string()] File: assets/www/status-calon-prn.html
+[INTERNAL_LOG][2018-06-08 02:19:19,076][INFO][find_string()] No iframe in assets/www/status-calon-prn.html
+[INTERNAL_LOG][2018-06-08 02:19:19,076][INFO][find_string()] File: assets/www/status-calon.html
+[INTERNAL_LOG][2018-06-08 02:19:19,076][INFO][find_string()] No iframe in assets/www/status-calon.html
+[INTERNAL_LOG][2018-06-08 02:19:19,076][INFO][find_string()] File: assets/www/status-keputusan-prk.html
+[INTERNAL_LOG][2018-06-08 02:19:19,077][INFO][find_string()] No iframe in assets/www/status-keputusan-prk.html
+[INTERNAL_LOG][2018-06-08 02:19:19,077][INFO][find_string()] File: assets/www/status-keputusan-prn.html
+[INTERNAL_LOG][2018-06-08 02:19:19,077][INFO][find_string()] No iframe in assets/www/status-keputusan-prn.html
+[INTERNAL_LOG][2018-06-08 02:19:19,077][INFO][find_string()] File: assets/www/status-keputusan.html
+[INTERNAL_LOG][2018-06-08 02:19:19,077][INFO][find_string()] No iframe in assets/www/status-keputusan.html
+[INTERNAL_LOG][2018-06-08 02:19:19,078][INFO][find_string()] File: assets/www/status-semakan.html
+[INTERNAL_LOG][2018-06-08 02:19:19,078][INFO][find_string()] No iframe in assets/www/status-semakan.html
+[INTERNAL_LOG][2018-06-08 02:19:19,078][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-08 02:19:19,084][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-08 02:19:19,084][INFO][find_url_in_apk()] https://ssl.gstatic.com/accessibility/javascript/android/
+
+[INTERNAL_LOG][2018-06-08 02:19:19,084][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-08 02:19:19,098][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-08 02:19:19,098][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-08 02:19:19,098][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-08 02:19:19,098][INFO][analyze_start()] End time:[Fri Jun  8 02:19:19 2018]

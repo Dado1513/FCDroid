@@ -1,0 +1,227 @@
+[INTERNAL_LOG][2018-06-08 01:58:00,829][INFO][analyze_start()] Init Time [Fri Jun  8 01:58:00 2018]
+[INTERNAL_LOG][2018-06-08 01:58:00,958][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-08 01:58:00,964][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-08 01:58:00,964][INFO][is_hybird()] com.path.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-08 01:58:00,964][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-08 01:58:00,964][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-08 01:58:00,964][INFO][is_hybird()] android.permission.ACCESS_COARSE_LOCATION
+[INTERNAL_LOG][2018-06-08 01:58:00,964][INFO][is_hybird()] android.permission.ACCESS_FINE_LOCATION
+[INTERNAL_LOG][2018-06-08 01:58:00,964][INFO][is_hybird()] android.permission.READ_CONTACTS
+[INTERNAL_LOG][2018-06-08 01:58:00,964][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-08 01:58:00,964][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-08 01:58:00,964][INFO][is_hybird()] android.permission.DOWNLOAD_WITHOUT_NOTIFICATION
+[INTERNAL_LOG][2018-06-08 01:58:00,964][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-08 01:58:00,965][INFO][is_hybird()] android.permission.RECEIVE_BOOT_COMPLETED
+[INTERNAL_LOG][2018-06-08 01:58:00,965][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-08 01:58:00,965][INFO][is_hybird()] android.permission.MANAGE_ACCOUNTS
+[INTERNAL_LOG][2018-06-08 01:58:00,965][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-08 01:58:00,965][INFO][is_hybird()] android.permission.USE_CREDENTIALS
+[INTERNAL_LOG][2018-06-08 01:58:00,965][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-08 01:58:00,965][INFO][is_hybird()] android.permission.READ_PHONE_STATE
+[INTERNAL_LOG][2018-06-08 01:58:00,965][INFO][is_hybird()] com.path.permission.MAPS_RECEIVE
+[INTERNAL_LOG][2018-06-08 01:58:00,965][INFO][is_hybird()] com.google.android.providers.gsf.permission.READ_GSERVICES
+[INTERNAL_LOG][2018-06-08 01:58:00,965][INFO][is_hybird()] android.permission.AUTHENTICATE_ACCOUNTS
+[INTERNAL_LOG][2018-06-08 01:58:00,965][INFO][is_hybird()] android.permission.RECORD_AUDIO
+[INTERNAL_LOG][2018-06-08 01:58:00,965][INFO][is_hybird()] android.permission.CAMERA
+[INTERNAL_LOG][2018-06-08 01:58:00,965][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-08 01:58:00,965][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-08 01:58:00,965][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-08 01:58:00,965][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-08 01:58:47,586][INFO][find_url_in_apk()] [START URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-08 01:58:47,586][INFO][find_url_in_apk()] https://foursquare.com/oauth2/authenticate?client_id=LRFOLEZ0G3ZVKI31UMP5LHRJ45O1B2MYQ1G5CHSI4Z0WIVT2&v=20131217&response_type=token&redirect_uri=https://www.path.com/oauth&display=touch
+https://public-api.wordpress.com/oauth2/authorize?client_id=25952&redirect_uri=https://path.com/connect/wordpress&response_type=code
+https://path.com/terms?nolayout
+https://path.com/privacy?nolayout
+
+[INTERNAL_LOG][2018-06-08 01:58:47,586][INFO][find_url_in_apk()] [END URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-08 01:58:52,127][INFO][find_string()] [START REMOTE FILE ANALYZE]
+[INTERNAL_LOG][2018-06-08 01:58:52,127][INFO][find_string()] Remote File in: temp_html_code/html_downloaded_Path by Path Mobile_ Inc/oauth&display=touch
+[INTERNAL_LOG][2018-06-08 01:58:52,128][INFO][find_string()] URL: https://foursquare.com/oauth2/authenticate?client_id=LRFOLEZ0G3ZVKI31UMP5LHRJ45O1B2MYQ1G5CHSI4Z0WIVT2&v=20131217&response_type=token&redirect_uri=https://www.path.com/oauth&display=touch
+[INTERNAL_LOG][2018-06-08 01:58:52,140][INFO][find_string()] No iframe in temp_html_code/html_downloaded_Path by Path Mobile_ Inc/oauth&display=touch
+[INTERNAL_LOG][2018-06-08 01:58:52,140][INFO][find_string()] Remote File in: temp_html_code/html_downloaded_Path by Path Mobile_ Inc/wordpress&response_type=code
+[INTERNAL_LOG][2018-06-08 01:58:52,141][INFO][find_string()] URL: https://public-api.wordpress.com/oauth2/authorize?client_id=25952&redirect_uri=https://path.com/connect/wordpress&response_type=code
+[INTERNAL_LOG][2018-06-08 01:58:52,144][INFO][find_string()] No iframe in temp_html_code/html_downloaded_Path by Path Mobile_ Inc/wordpress&response_type=code
+[INTERNAL_LOG][2018-06-08 01:58:52,144][INFO][find_string()] Remote File in: temp_html_code/html_downloaded_Path by Path Mobile_ Inc/terms?nolayout
+[INTERNAL_LOG][2018-06-08 01:58:52,144][INFO][find_string()] URL: https://path.com/terms?nolayout
+[INTERNAL_LOG][2018-06-08 01:58:52,147][INFO][find_string()] No iframe in temp_html_code/html_downloaded_Path by Path Mobile_ Inc/terms?nolayout
+[INTERNAL_LOG][2018-06-08 01:58:52,148][INFO][find_string()] Remote File in: temp_html_code/html_downloaded_Path by Path Mobile_ Inc/privacy?nolayout
+[INTERNAL_LOG][2018-06-08 01:58:52,148][INFO][find_string()] URL: https://path.com/privacy?nolayout
+[INTERNAL_LOG][2018-06-08 01:58:52,150][INFO][find_string()] No iframe in temp_html_code/html_downloaded_Path by Path Mobile_ Inc/privacy?nolayout
+[INTERNAL_LOG][2018-06-08 01:58:52,150][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-08 01:58:52,150][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-08 01:58:52,150][INFO][find_url_in_apk()] http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+https://t.appsflyer.com/api/v
+https://events.appsflyer.com/api/v
+https://register.appsflyer.com/api/v
+https://stats.appsflyer.com/stats
+https://graph.facebook.com/network_ads_common
+https://graph.%s.facebook.com/network_ads_common
+https://www.facebook.com/adnw_logging/
+https://www.%s.facebook.com/adnw_logging/
+https://www.facebook.com/
+https://www.%s.facebook.com
+http://www.facebook.com
+https://graph.%s
+https://graph-video.%s
+https://facebook.com
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+https://plus.google.com/
+https://support.google.com/dfp_premium/answer/7160685#push
+https://app-measurement.com/a
+http://www.example.com
+http://www.example.com
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://csi.gstatic.com/csi
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/native_ads.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/native_video_ads.html
+https://www.google.com/dfp/linkDevice
+https://www.google.com/dfp/inAppPreview
+https://www.google.com/dfp/debugSignals
+https://www.google.com/dfp/sendDebugData
+https://pagead2.googlesyndication.com/pagead/gen_204
+http://www.google.com
+http://www.google-analytics.com
+https://ssl.google-analytics.com
+https://www.googletagmanager.com
+http://hostname/?
+http://play.google.com/store/apps/details
+http://schemas.android.com/apk/lib/com.inmobi.ads
+http://schemas.android.com/apk/lib/com.inmobi.ads
+https://i.l.inmobicdn.net/sdk/sdk/500/android/mraid.js
+http://www.inmobi.com/products/sdk/#downloads
+http://twitter.com/home?status=
+https://m.google.com/app/plus/x/?v=compose&content=
+https://www.facebook.com/dialog/feed?app_id=181821551957328&link=
+http://dock.inmobi.com/carb/v1/i
+http://dock.inmobi.com/carb/v1/o
+https://sdkm.w.inmobi.com/user/e.asm
+https://mobile-static.adsafeprotected.com/avid-v2.js
+http://kinsight-event.kakao.com/v1/%s/events
+http://kinsight-event.kakao.com/v1/crashes
+https://api.mixpanel.com/track?ip=1
+http://api.mixpanel.com/track?ip=1
+https://api.mixpanel.com/engage
+http://api.mixpanel.com/engage
+https://decide.mixpanel.com/decide
+http://decide.mixpanel.com/decide
+https://z.moatads.com/
+http://localhost
+http://localhost
+http://localhost
+https://www.path.com/oauth
+https://www.path.com/oauth
+https://www.path.com/oauth
+https://www.path.com/oauth
+https://www.path.com/oauth
+https://api.path.com/x/route
+https://www.googleapis.com/oauth2/v1/userinfo?access_token=
+https://api.foursquare.com/v2/users/self?v=20131217&oauth_token=
+https://app.adjust.com
+https://api.appsflyer.com/install_data/v3/
+https://sdkm.w.inmobi.com/metrics/e.asm?v=1&
+https://path.com/connect/wordpress
+https://path.com/connect/wordpress
+https://www.%s.facebook.com/audience_network/server_side_reward
+https://www.facebook.com/audience_network/server_side_reward
+http://m.facebook.com/ads/ad_choices
+http://m.facebook.com/ads/ad_choices
+https://www.google.com
+http://www.w3.org/ns/ttml#parameter
+https://www.googleapis.com/auth/games
+https://accounts.google.com/o/oauth2/token
+http://api.tumblr.com/v2/user/info
+https://public-api.wordpress.com/oauth2/token
+http://media.pathcdn.net/dn/path_classic/app/resources/inline-youtube-view/youtube_iframe_player.html?v=1
+http://media.pathcdn.net/dn/path_classic/app/resources/inline-youtube-view/youtube_iframe_player.html?v=1
+https://accounts.google.com/o/oauth2/auth?response_type=code&client_id=
+https://www.google.com/m8/feeds https://www.googleapis.com/auth/userinfo.email
+https://path.com/profile/
+https://path.com/profile/
+https://path.com/profile/
+https://foursquare.com/oauth2/authenticate?client_id=LRFOLEZ0G3ZVKI31UMP5LHRJ45O1B2MYQ1G5CHSI4Z0WIVT2&v=20131217&response_type=token&redirect_uri=https://www.path.com/oauth&display=touch
+https://api.twitter.com/1/friendships/show.json
+https://public-api.wordpress.com/oauth2/authorize?client_id=25952&redirect_uri=https://path.com/connect/wordpress&response_type=code
+https://path.com/terms?nolayout
+https://path.com/terms?nolayout
+https://path.com/privacy?nolayout
+https://path.com/privacy?nolayout
+http://service.path.com/customer/portal/emails/new
+http://service.path.com/customer/portal/emails/new
+http://images.path.com.s3.amazonaws.com/static/covers/%d/2x.jpg
+https://path.com/licenses/android?nolayout
+http://blog.path.com
+http://service.path.com
+http://maps.googleapis.com/maps/api/staticmap?maptype=roadmap&sensor=true
+https://www.youtube.com/embed/irH3OSOskcE
+https://www.youtube.com/embed/nCgQDjiotG0
+https://www.youtube.com/embed/wvfTWqBFLQo
+http://xmlpull.org/v1/doc/features.html#indent-output
+http://xmlpull.org/v1/doc/features.html#indent-output
+http://www.w3.org/XML/1998/namespace
+http://jabber.org/protocol/pubsub
+http://jabber.org/protocol/pubsub
+http://jabber.org/protocol/pubsub
+http://jabber.org/protocol/pubsub
+http://jabber.org/protocol/pubsub
+http://jabber.org/protocol/pubsub
+http://jabber.org/protocol/pubsub
+http://jabber.org/protocol/pubsub
+http://jabber.org/protocol/disco#items
+http://jabber.org/protocol/disco#items
+http://jabber.org/protocol/disco#info
+http://jabber.org/protocol/disco#info
+http://jabber.org/protocol/offline
+http://jabber.org/protocol/offline
+http://jabber.org/protocol/offline
+http://jabber.org/protocol/pubsub#owner
+http://jabber.org/protocol/pubsub#event
+https://img.youtube.com/vi/
+https://settings.crashlytics.com/spi/v2/platforms/android/apps/%s/settings
+http://jabber.org/protocol/compress
+http://jabber.org/protocol/compress
+http://jabber.org/protocol/compress
+http://jabber.org/protocol/compress
+http://jabber.org/protocol/compress
+http://xmlpull.org/v1/doc/features.html#xml-roundtrip
+http://xmlpull.org/v1/doc/features.html#xml-roundtrip
+http://xmlpull.org/v1/doc/features.html#xml-roundtrip
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+http://youtube.com
+http://path.com
+https://e.crashlytics.com/spi/v2/events
+https://api.twitter.com/1.1/account/verify_credentials.json
+https://api.twitter.com/1.1/friendships/create.json
+http://graph.facebook.com/
+https://foursquare.com/v/
+http://jabber.org/protocol/xdata-validate
+http://jabber.org/protocol/xdata-validate
+http://jabber.org/protocol/xdata-layout
+http://jabber.org/protocol/xdata-layout
+http://www.tumblr.com/oauth/authorize?oauth_token=%s
+http://www.tumblr.com/oauth/request_token
+http://www.tumblr.com/oauth/access_token
+https://api.twitter.com/oauth/authorize?oauth_token=%s
+http://api.twitter.com/oauth/request_token
+http://api.twitter.com/oauth/access_token
+https://api.twitter.com/oauth/request_token
+https://api.twitter.com/oauth/access_token
+http://etherx.jabber.org/streams
+https://get.path.com/talk
+
+[INTERNAL_LOG][2018-06-08 01:58:52,151][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-08 01:58:52,164][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-08 01:58:52,164][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-08 01:58:52,164][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-08 01:58:52,164][INFO][analyze_start()] End time:[Fri Jun  8 01:58:52 2018]

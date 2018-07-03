@@ -1,0 +1,125 @@
+[INTERNAL_LOG][2018-06-08 00:15:51,531][INFO][analyze_start()] Init Time [Fri Jun  8 00:15:51 2018]
+[INTERNAL_LOG][2018-06-08 00:15:51,601][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-08 00:15:51,602][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-08 00:15:51,602][INFO][is_hybird()] com.android.vending.CHECK_LICENSE
+[INTERNAL_LOG][2018-06-08 00:15:51,603][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-08 00:15:51,603][INFO][is_hybird()] android.permission.USE_CREDENTIALS
+[INTERNAL_LOG][2018-06-08 00:15:51,603][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-08 00:15:51,603][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-08 00:15:51,603][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-08 00:15:51,603][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-08 00:15:51,603][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-08 00:15:51,603][INFO][is_hybird()] com.ea.gp.fifamobile.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-08 00:15:51,603][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-08 00:15:51,603][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-08 00:15:51,603][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-08 00:15:51,603][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-08 00:15:51,603][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-08 00:16:19,054][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-08 00:16:19,055][INFO][find_url_in_apk()] http://www.yvolver.com
+http://www.yvolver.com
+http://www.yvolver.com
+https://config-prod.yvolver.com/api/public/app/config
+https://config-swap.yvolver.com/api/public/app/config
+https://config-alpha.yvolver.com/api/public/app/config
+https://config-staging.yvolver.com/api/public/app/config
+http://config-dev.yvolver.com/api/public/app/config
+https://wd.adcolony.com/logs
+http://play.google.com/store/apps/details?id=
+http://cdn.skum.eamobile.com
+http://cdn.skum.eamobile.com
+https://graph.facebook.com/%s/picture?type=normal
+https://graph.facebook.com/%s/picture?type=normal
+https://graph.%s
+https://graph-video.%s
+https://facebook.com
+http://play.google.com/store/apps/details?id=com.facebook.orca
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+https://plus.google.com/
+https://www.googleapis.com/auth/drive.file
+https://www.googleapis.com/auth/drive.appdata
+https://www.googleapis.com/auth/drive
+https://www.googleapis.com/auth/drive.apps
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games_lite
+https://www.googleapis.com/auth/games.firstparty
+https://www.googleapis.com/auth/games.firstparty
+http://www.example.com
+http://www.example.com
+https://pagead2.googlesyndication.com/pagead/gen_204
+http://www.google.com
+https://support.google.com/dfp_premium/answer/7160685#push
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://csi.gstatic.com/csi
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/native_ads.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/native_video_ads.html
+https://www.google.com/dfp/linkDevice
+https://www.google.com/dfp/inAppPreview
+https://www.google.com/dfp/debugSignals
+https://www.google.com/dfp/sendDebugData
+https://www.googleapis.com/auth/plus.login
+https://www.googleapis.com/auth/plus.me
+http://schemas.android.com/apk/lib/com.google.android.gms.plus
+http://schemas.android.com/apk/lib/com.google.android.gms.plus
+https://mobilelogs.supersonic.com
+https://mobilelogs.supersonic.com
+https://init.supersonicads.com/sdk/v
+https://track.atom-data.io
+https://track.atom-data.io
+https://track.atom-data.io
+https://www.supersonicads.com/mobile/sdk5/log?method=injectJavaScript
+https://www.supersonicads.com/mobile/sdk5/log?method=
+https://www.supersonicads.com/mobile/sdk5/log?method=
+https://www.supersonicads.com/mobile/sdk5/log?method=
+https://www.supersonicads.com/mobile/sdk5/log?method=
+https://www.supersonicads.com/mobile/sdk5/log?method=
+https://www.supersonicads.com/mobile/sdk5/log?method=
+https://www.supersonicads.com/mobile/sdk5/log?method=
+https://www.supersonicads.com/mobile/sdk5/log?method=
+https://px.moatads.com/pixel.gif?e=0&i=MOATSDK1&ac=1
+https://z.moatads.com/
+https://z.moatads.com/
+https://config.unityads.unity3d.com/webview/
+https://ads.api.vungle.com/config
+https://api.vungle.com/api/v4/unfilled
+https://ingest.vungle.com/api/v1/sdkErrors
+https://ingest.vungle.com/
+http://lol.vungle.com/
+https://settings.crashlytics.com/spi/v2/platforms/android/apps/%s/settings
+https://adc3-launch.adcolony.com/v4/launch
+https://graph.facebook.com/
+http://www.ea.com
+https://syn-dir.sn.eamobile.com
+https://director-int.sn.eamobile.com
+https://director-stage.sn.eamobile.com
+https://outcome.supersonicads.com/mediation/
+https://outcome.supersonicads.com/mediation/
+https://www.supersonicads.com/mobile/sdk5/log?method=extraParametersToJson
+https://www.supersonicads.com/mobile/sdk5/log?method=noProductType
+https://www.supersonicads.com/mobile/sdk5/log?method=encodeAppUserId
+https://www.supersonicads.com/mobile/sdk5/log?method=encodeAppKey
+https://www.supersonicads.com/mobile/sdk5/log?method=webviewLoadBlank
+https://www.supersonicads.com/mobile/sdk5/log?method=webviewLoadWithPath
+https://www.supersonicads.com/mobile/sdk5/log?method=htmlControllerDoesNotExistOnFileSystem
+https://www.supersonicads.com/mobile/sdk5/log?method=webviewPause
+https://www.supersonicads.com/mobile/sdk5/log?method=webviewResume
+https://e.crashlytics.com/spi/v2/events
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+https://www.vungle.com/privacy/
+https://www.vungle.com/privacy/
+
+[INTERNAL_LOG][2018-06-08 00:16:19,055][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-08 00:16:19,060][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-08 00:16:19,061][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-08 00:16:19,061][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-08 00:16:19,061][INFO][analyze_start()] End time:[Fri Jun  8 00:16:19 2018]

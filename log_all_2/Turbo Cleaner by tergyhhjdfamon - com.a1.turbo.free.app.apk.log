@@ -1,0 +1,132 @@
+[INTERNAL_LOG][2018-06-12 00:08:39,709][INFO][analyze_start()] Init Time [Tue Jun 12 00:08:39 2018]
+[INTERNAL_LOG][2018-06-12 00:08:39,749][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 00:08:39,750][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 00:08:39,750][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 00:08:39,750][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 00:08:39,750][INFO][is_hybird()] android.permission.GET_PACKAGE_SIZE
+[INTERNAL_LOG][2018-06-12 00:08:39,750][INFO][is_hybird()] android.permission.KILL_BACKGROUND_PROCESSES
+[INTERNAL_LOG][2018-06-12 00:08:39,750][INFO][is_hybird()] android.permission.DISABLE_KEYGUARD
+[INTERNAL_LOG][2018-06-12 00:08:39,750][INFO][is_hybird()] android.permission.READ_PHONE_STATE
+[INTERNAL_LOG][2018-06-12 00:08:39,750][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 00:08:39,750][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 00:08:39,750][INFO][is_hybird()] android.permission.ACCESS_COARSE_LOCATION
+[INTERNAL_LOG][2018-06-12 00:08:39,750][INFO][is_hybird()] android.permission.CHANGE_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 00:08:39,751][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 00:08:39,751][INFO][is_hybird()] com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+[INTERNAL_LOG][2018-06-12 00:08:39,751][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 00:08:39,751][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-12 00:08:39,751][INFO][is_hybird()] com.a1.turbo.free.app.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-12 00:08:39,751][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 00:08:39,751][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 00:08:39,751][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 00:08:39,751][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 00:08:39,751][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 00:08:39,756][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 00:09:05,261][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 00:09:05,261][INFO][find_url_in_apk()] http://schemas.android.com/apk/res/android
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+https://app.adjust.com
+https://app.adjust.com
+http://apis.appnxt.net:443
+https://api.appnxt.net
+http://cdn.appnext.com/tools/services/4.6.7/config.json?packageId=
+http://cdn.appnext.com/tools/services/4.6.7/plist.zip
+https://admin.appnext.com/AdminService.asmx/SetOpenV1
+https://admin.appnext.com/AdminService.asmx/bns
+https://admin.appnext.com/tools/navtac.html?bid=
+https://play.google.com/store/apps/
+https://admin.appnext.com/AdminService.asmx/
+https://admin.appnext.com/tp12.aspx?tid=%s&vid=%s&osid=%s&auid=%s&session_id=%s&pid=%s&ref=%s&ads_type=%s&bid=%s&cid=%s
+http://www.appnext.com/myid.html
+http://www.appnext.com/myid.html
+https://cdn.appnext.com/banner/appnext.mp4
+https://cdn.appnext.com/tools/sdk/config/2.2.4
+https://cdn.appnext.com/tools/sdk/config/2.2.4
+https://admin.appnext.com/AdminService.asmx/SetRL?guid=
+https://www.fqtag.com/pixel.cgi?org=TkBXEI5C3FBIr4zXwnmK&p=
+https://admin.appnext.com/AdminService.asmx/checkA?z=
+http://www.appnext.com/privacy_policy/index.html?z=
+https://cdn.appnext.com/tools/sdk/config/2.2.4/native_ads_config.json
+https://global.appnext.com
+http://api.mobula.sdk.duapps.com/adunion/slot/getDlAd?
+http://api.mobula.sdk.duapps.com/adunion/slot/getDlAd?
+http://api.mobula.sdk.duapps.com/adunion/rtb/getInmobiAd?
+http://api.mobula.sdk.duapps.com/adunion/rtb/getInmobiAd?
+http://api.mobula.sdk.duapps.com/adunion/rtb/fetchAd?
+http://api.mobula.sdk.duapps.com/adunion/rtb/fetchAd?
+http://api.mobula.sdk.duapps.com/adunion/slot/getSrcPrio?
+http://api.mobula.sdk.duapps.com/adunion/slot/getSrcPrio?
+http://api.mobula.sdk.duapps.com/adunion/slot/tdmr?
+http://rts.mobula.sdk.duapps.com/orts/rp?
+http://rts.mobula.sdk.duapps.com/orts/rpb?
+http://market.android.com
+https://market.android.com
+https://play.google.com
+http://play.google.com
+http://m.facebook.com/ads/ad_choices
+http://m.facebook.com/ads/ad_choices
+https://www.facebook.com/audience_network/server_side_reward
+https://www.%s.facebook.com/audience_network/server_side_reward
+https://graph.facebook.com/network_ads_common
+https://graph.%s.facebook.com/network_ads_common
+https://www.facebook.com/adnw_logging/
+https://www.%s.facebook.com/adnw_logging/
+https://www.facebook.com/
+https://www.%s.facebook.com
+http://www.facebook.com
+https://graph.%s
+https://graph-video.%s
+https://facebook.com
+http://play.google.com/store/apps/details?id=com.facebook.orca
+http://www.w3.org/ns/ttml#parameter
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+https://www.googleapis.com/auth/games
+https://plus.google.com/
+https://app-measurement.com/a
+https://www.google.com
+http://www.example.com
+http://www.example.com
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://csi.gstatic.com/csi
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/native_ads.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/native_video_ads.html
+https://www.google.com/dfp/linkDevice
+https://www.google.com/dfp/inAppPreview
+https://www.google.com/dfp/debugSignals
+https://www.google.com/dfp/sendDebugData
+https://pagead2.googlesyndication.com/pagead/gen_204
+http://www.google.com
+https://support.google.com/dfp_premium/answer/7160685#push
+https://analytics.mopub.com/i/jot/exchange_client_event
+https://twitter.com/%s/status/%s
+https://www.mopub.com/optout
+http://api.yourxsdk.com/Ads/report?sdkv=22
+http://api.yourxsdk.com/Ads/dailyReport?sdkv=22
+http://api.yourxspace.net/dex/getDex
+http://api.yourxspace.net/data/upload
+http://api.yourxsdk.com/Ads/bgConfig?sdkv=22&token=
+http://api.yourxsdk.com/Ads/getMopubConfig?sdkv=22&token=
+http://api.yourxsdk.com/Ads/switchFlow?sdkv=22&token=
+https://c.navhi.com/ck/sl/H5aIwTT7?tfc_id=219&sc={traffic_source}&pub_click_id={YOUR_CLICK_ID}
+https://play.google.com/store/apps/details?id=com.mhard.cleaner.master.app
+https://fcm.aurorawakeup.com/fcmrequest?
+http://atv.ds.duapps.com
+http://tls.ds.duapps.com/2.0/cu
+http://gc.ds.duapps.com/gc/get?dulocal=
+
+[INTERNAL_LOG][2018-06-12 00:09:05,262][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 00:09:05,266][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 00:09:05,266][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 00:09:05,267][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 00:09:05,267][INFO][analyze_start()] End time:[Tue Jun 12 00:09:05 2018]

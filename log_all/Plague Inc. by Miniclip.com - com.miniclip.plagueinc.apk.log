@@ -1,0 +1,74 @@
+[INTERNAL_LOG][2018-06-07 21:50:03,360][INFO][analyze_start()] Init Time [Thu Jun  7 21:50:03 2018]
+[INTERNAL_LOG][2018-06-07 21:50:03,434][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-07 21:50:03,435][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-07 21:50:03,435][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-07 21:50:03,435][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-07 21:50:03,435][INFO][is_hybird()] android.permission.READ_PHONE_STATE
+[INTERNAL_LOG][2018-06-07 21:50:03,435][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-07 21:50:03,435][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-07 21:50:03,435][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-07 21:50:03,436][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-07 21:50:03,436][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-07 21:50:03,436][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-07 21:50:03,436][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-07 21:50:30,105][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-07 21:50:30,105][INFO][find_url_in_apk()] http://www.amazon.com/gp/mas/get-appstore/android/ref=mas_mx_mba_iap_dl
+https://graph.facebook.com
+https://api.facebook.com/method/
+https://graph.facebook.com/
+https://graph.facebook.com/
+https://m.facebook.com/dialog/
+https://api.facebook.com/restserver.php
+https://facebook.com
+https://graph.facebook.com/%s/picture
+https://ads.flurry.com/v10/getAds.do
+http://ads.flurry.com/v10/getAds.do
+https://adlog.flurry.com
+http://adlog.flurry.com
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+http://data.flurry.com/aap.do
+https://data.flurry.com/aap.do
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+https://market.android.com/details?id=
+http://flurry.cachefly.net/vast/videocontrols/v1/android.zip
+https://accounts.google.com
+https://accounts.google.com
+https://www.facebook.com
+https://www.facebook.com
+https://www.googleapis.com/auth/plus.me
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games
+http://plus.google.com/
+https://www.googleapis.com/auth/drive.file
+https://www.googleapis.com/auth/drive.appdata
+https://www.googleapis.com/auth/drive
+https://www.googleapis.com/auth/drive.apps
+https://www.googleapis.com/auth/games.firstparty
+https://www.googleapis.com/auth/games.firstparty
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://csi.gstatic.com/csi
+http://www.google.com
+https://androidads20.adcolony.com/configure
+https://ads.nexage.com
+https://analytics.mopub.com/i/jot/exchange_client_event
+https://twitter.com/%s/status/%s
+https://www.mopub.com/optout
+https://www.mopub.com/optout/
+https://www.mopub.com/optout/
+
+[INTERNAL_LOG][2018-06-07 21:50:30,105][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-07 21:50:30,114][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-07 21:50:30,114][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-07 21:50:30,114][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-07 21:50:30,114][INFO][analyze_start()] End time:[Thu Jun  7 21:50:30 2018]

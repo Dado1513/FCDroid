@@ -1,0 +1,199 @@
+[INTERNAL_LOG][2018-06-08 00:16:55,280][INFO][analyze_start()] Init Time [Fri Jun  8 00:16:55 2018]
+[INTERNAL_LOG][2018-06-08 00:16:55,361][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-08 00:16:55,364][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-08 00:16:55,364][INFO][is_hybird()] android.permission.ACCESS_FINE_LOCATION
+[INTERNAL_LOG][2018-06-08 00:16:55,364][INFO][is_hybird()] android.permission.ACCESS_COARSE_LOCATION
+[INTERNAL_LOG][2018-06-08 00:16:55,364][INFO][is_hybird()] android.permission.CAMERA
+[INTERNAL_LOG][2018-06-08 00:16:55,364][INFO][is_hybird()] android.permission.FLASHLIGHT
+[INTERNAL_LOG][2018-06-08 00:16:55,365][INFO][is_hybird()] android.permission.RECORD_AUDIO
+[INTERNAL_LOG][2018-06-08 00:16:55,365][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-08 00:16:55,365][INFO][is_hybird()] android.permission.PACKAGE_USAGE_STATS
+[INTERNAL_LOG][2018-06-08 00:16:55,365][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-08 00:16:55,365][INFO][is_hybird()] android.permission.DOWNLOAD_WITHOUT_NOTIFICATION
+[INTERNAL_LOG][2018-06-08 00:16:55,365][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-08 00:16:55,365][INFO][is_hybird()] android.permission.READ_CONTACTS
+[INTERNAL_LOG][2018-06-08 00:16:55,365][INFO][is_hybird()] android.permission.READ_PROFILE
+[INTERNAL_LOG][2018-06-08 00:16:55,365][INFO][is_hybird()] android.permission.READ_USER_DICTIONARY
+[INTERNAL_LOG][2018-06-08 00:16:55,365][INFO][is_hybird()] android.permission.RECEIVE_BOOT_COMPLETED
+[INTERNAL_LOG][2018-06-08 00:16:55,365][INFO][is_hybird()] android.permission.RECEIVE_USER_PRESENT
+[INTERNAL_LOG][2018-06-08 00:16:55,365][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-08 00:16:55,365][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-08 00:16:55,365][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-08 00:16:55,365][INFO][is_hybird()] android.permission.WRITE_USER_DICTIONARY
+[INTERNAL_LOG][2018-06-08 00:16:55,365][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-08 00:16:55,365][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-08 00:16:55,365][INFO][is_hybird()] android.permission.READ_PHONE_STATE
+[INTERNAL_LOG][2018-06-08 00:16:55,365][INFO][is_hybird()] android.permission.SYSTEM_ALERT_WINDOW
+[INTERNAL_LOG][2018-06-08 00:16:55,365][INFO][is_hybird()] com.kikatech.keyboard.permission.INFO
+[INTERNAL_LOG][2018-06-08 00:16:55,365][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-08 00:16:55,365][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-08 00:16:55,365][INFO][is_hybird()] com.qisiemoji.inputmethod.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-08 00:16:55,366][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-08 00:16:55,366][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-08 00:16:55,366][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-08 00:16:55,366][INFO][find_string()] File: assets/network_error.html
+[INTERNAL_LOG][2018-06-08 00:16:55,367][INFO][find_string()] No iframe in assets/network_error.html
+[INTERNAL_LOG][2018-06-08 00:16:55,367][INFO][find_string()] File: assets/thirdapp_plugin/index.html
+[INTERNAL_LOG][2018-06-08 00:16:55,369][INFO][find_string()] No iframe in assets/thirdapp_plugin/index.html
+[INTERNAL_LOG][2018-06-08 00:16:55,369][INFO][find_string()] File: assets/web/video-player.html
+[INTERNAL_LOG][2018-06-08 00:16:55,369][INFO][find_string()] No iframe in assets/web/video-player.html
+[INTERNAL_LOG][2018-06-08 00:16:55,369][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-08 00:17:35,018][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-08 00:17:35,018][INFO][find_url_in_apk()] http://schemas.android.com/apk/res/android
+http://cdn.kikakeyboard.com/navigation/images/
+http://www.kikatech.com/conditions.html
+http://www.kikatech.com/privacy/
+http://www.kikatech.com/privacy/
+http://www.kikatech.com/privacy/
+https://www.facebook.com/audience_network/server_side_reward
+https://www.%s.facebook.com/audience_network/server_side_reward
+http://play.google.com/store/apps/
+https://www.facebook.com/
+https://www.%s.facebook.com
+https://graph.facebook.com/network_ads_common
+https://graph.%s.facebook.com/network_ads_common
+https://www.facebook.com/adnw_logging/
+https://www.%s.facebook.com/adnw_logging/
+http://www.facebook.com
+https://graph.%s
+https://graph-video.%s
+https://facebook.com
+https://facebook.com/device?user_code=%1$s&qr=1
+http://play.google.com/store/apps/details?id=com.facebook.orca
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+https://www.googleapis.com/auth/games_lite
+https://www.googleapis.com/auth/games
+https://plus.google.com/
+https://www.google.com
+https://mobilecrashreporting.googleapis.com/v1/crashes:batchCreate?key=
+http://www.example.com
+http://www.example.com
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/sdk-core-v40-impl.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://csi.gstatic.com/csi
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/native_ads.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/native_ads.js
+https://imasdk.googleapis.com/admob/sdkloader/native_video.html
+https://www.google.com/dfp/linkDevice
+https://www.google.com/dfp/inAppPreview
+https://www.google.com/dfp/debugSignals
+https://www.google.com/dfp/sendDebugData
+https://pagead2.googlesyndication.com/pagead/gen_204
+http://www.google.com
+https://support.google.com/dfp_premium/answer/7160685#push
+http://www.google-analytics.com
+https://ssl.google-analytics.com
+https://app-measurement.com/a
+https://www.googletagmanager.com
+http://hostname/?
+https://lh5.ggpht.com/tq3WqEUxtRyBn-d_0t3j6WKNHuJDrmLq-FE3GAYrsAMQFIaS7FIgRLfzzql2SvfvLqto=w100-rw
+http://api.pubnative.net/api/v3/native
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+https://api-dev.kikakeyboard.com/v1/utils/feature_list
+https://api.kikakeyboard.com/v1/utils/feature_list
+https://control.kochava.com
+https://token.api.kochava.com
+http://dc.kika-backend.com/api.php
+http://dc.kika-backend.com/api.php
+http://api.kika-backend.com/api/getStatisticStrategy
+http://api.kika-backend.com/api/getStatisticStrategy
+http://abtest.kika-backend.com/ab.php
+http://oem.kika-backend.com/api.php
+http://oemapi.kika-backend.com/api/getStatisticStrategy
+http://dc-dev.kika-backend.com/api.php	
+http://dc-dev.kika-backend.com/api.php
+http://api.kikakeyboard.com/Recommendtheme/v2recommend?package_name=%s&device_id=%s&country=%s&lang=%s&version=%s
+https://api.kikakeyboard.com/v1/
+https://api.kikakeyboard.com/v1/
+https://api.kikakeyboard.com/v1/
+https://api-pre.kikakeyboard.com/v1/
+https://api-dev.kikakeyboard.com/v1/
+https://oemapi.kikakeyboard.com/v1/
+https://www.googleapis.com/
+http://oem-manage.acekoala.com/
+http://api.giphy.com/v1/
+http://recommend.kikakeyboard.com/list
+http://recommend.kikakeyboard.com/list
+http://recommend.kikakeyboard.com/list
+http://recommend.kikakeyboard.com/list
+http://recommend.kikakeyboard.com/list
+http://recommend.kikakeyboard.com/list
+http://recommend.kikakeyboard.com/list
+http://recommend.kikakeyboard.com/list
+https://play.google.com/store/apps/
+https://play.google.com/store/apps/
+http://api.tinyhoneybee.com/api/getADResource
+http://ka-test0.tinyhoneybee.com/api/getADResource
+https://play.google.com
+https://play.google.com
+https://play.google.com
+https://play.google.com
+http://play.google.com
+http://play.google.com
+http://cdn.yun.galaxyfont.com/xmht_android_fonts/%s/%s/%s/%s/%s/%s/%s.ttf
+http://api.yun.galaxyfont.com/index/min_ttf?appKey=%s&fontIdNo=%s&str=%s&type=%s
+http://upaicdn.xinmei365.com/newwfs/support/FontManager_sdk.apk
+http://cdn6.xinmei365.com/cdndata/sdkfontlist/sdkfontlist?channel_mark=%s&type=%s
+http://cdn6.xinmei365.com/cdndata/sdkfontlist/sdkfontlist?channel_mark=%s&type=%s
+http://cdn6.xinmei365.com/cdndata/sdkfontlist/sdkfontlist?channel_mark=%s&type=%s
+http://cdn5.xinmei365.com/cdndata/sdkapi/categoryFont?app_key=%s&cate_id=%s
+http://cdn5.xinmei365.com/cdndata/sdkapi/appAllFont?app_key=%s&country=%s&type=%s
+http://cdn5.xinmei365.com/cdndata/sdkapi/appAllFont?app_key=%s&country=%s&type=%s
+http://cdn5.xinmei365.com/cdndata/sdkapi/appcategory?app_key=%s&country=%s
+http://upaicdn.xinmei365.com/fontzip/
+http://upaicdn.xinmei365.com/fontAPK/
+http://preapi.kika-backend.com/collectiondicStr.kb.php
+http://preapi.kika-backend.com/dictionaryStr.kb.php
+http://preapi.kika-backend.com/register.kb.php
+https://www.facebook.com/KikaKeyboard
+https://www.facebook.com/KikaKeyboard
+https://www.facebook.com/KikaKeyboard
+https://www.facebook.com/KikaKeyboard
+https://www.facebook.com/KikaKeyboard
+https://www.facebook.com/KikaKeyboard
+https://www.facebook.com/KikaKeyboard
+https://www.facebook.com/KikaKeyboard
+https://www.facebook.com/KikaKeyboard
+https://www.facebook.com/KikaKeyboard
+https://www.facebook.com/KikaKeyboard
+http://jupaidaren.com/trends
+http://jupaidaren.com/trends
+http://jupaidaren.com/trends
+http://jupaidaren.com/trends
+http://jupaidaren.com/trends
+http://jupaidaren.com/trends
+http://jupaidaren.com/trends
+https://play.google.com/store/apps/details
+http://play.google.com/store/apps/details
+http://www.kikakeyboard.com/thanks.html
+http://api.kikakeyboard.com/assets/getAssets?packageName=
+https://kikatechsupport.zendesk.com
+http://cdn.kikakeyboard.com/image/gifload.png
+https://play.google.com/store/apps/details?id=%1$s
+https://play.google.com/store/apps/details?id=com.kika.wallpaper&referrer=utm_source%3Dkika%2520keyboard
+http://api.tinyhoneybee.com/api/getADConfig?
+http://api.tinyhoneybee.com/api/getADConfig
+http://ka-test0.tinyhoneybee.com/api/getADConfig
+http://smart.tinyhoneybee.com/log/receive
+http://api.tinyhoneybee.com/api/adUsage
+https://e.crashlytics.com/spi/v2/events
+https://settings.crashlytics.com/spi/v2/platforms/android/apps/%s/settings
+https://api.keen.io
+https://api.keen.io
+
+[INTERNAL_LOG][2018-06-08 00:17:35,018][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-08 00:17:35,023][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-08 00:17:35,023][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-08 00:17:35,023][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-08 00:17:35,023][INFO][analyze_start()] End time:[Fri Jun  8 00:17:35 2018]

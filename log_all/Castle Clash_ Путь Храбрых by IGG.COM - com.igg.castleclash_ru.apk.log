@@ -1,0 +1,142 @@
+[INTERNAL_LOG][2018-06-08 00:14:53,768][INFO][analyze_start()] Init Time [Fri Jun  8 00:14:53 2018]
+[INTERNAL_LOG][2018-06-08 00:14:53,824][INFO][is_hybird()] Hybrid file found are: ['config.xml']
+[INTERNAL_LOG][2018-06-08 00:14:53,824][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-08 00:14:53,824][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-08 00:14:53,824][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-08 00:14:53,825][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-08 00:14:53,825][INFO][is_hybird()] android.permission.READ_PHONE_STATE
+[INTERNAL_LOG][2018-06-08 00:14:53,825][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-08 00:14:53,825][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-08 00:14:53,825][INFO][is_hybird()] android.permission.CHANGE_WIFI_STATE
+[INTERNAL_LOG][2018-06-08 00:14:53,825][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-08 00:14:53,825][INFO][is_hybird()] android.permission.WRITE_INTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-08 00:14:53,825][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-08 00:14:53,825][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-08 00:14:53,825][INFO][is_hybird()] android.permission.AUTHENTICATE_ACCOUNTS
+[INTERNAL_LOG][2018-06-08 00:14:53,825][INFO][is_hybird()] android.permission.MANAGE_ACCOUNTS
+[INTERNAL_LOG][2018-06-08 00:14:53,825][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-08 00:14:53,825][INFO][is_hybird()] com.android.launcher.permission.INSTALL_SHORTCUT
+[INTERNAL_LOG][2018-06-08 00:14:53,825][INFO][is_hybird()] com.android.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-08 00:14:53,825][INFO][is_hybird()] android.permission.CHANGE_CONFIGURATION
+[INTERNAL_LOG][2018-06-08 00:14:53,825][INFO][is_hybird()] com.android.vending.CHECK_LICENSE
+[INTERNAL_LOG][2018-06-08 00:14:53,825][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-08 00:14:53,825][INFO][is_hybird()] android.permission.RECORD_AUDIO
+[INTERNAL_LOG][2018-06-08 00:14:53,825][INFO][is_hybird()] android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+[INTERNAL_LOG][2018-06-08 00:14:53,825][INFO][is_hybird()] com.igg.castleclash_ru.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-08 00:14:53,825][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-08 00:14:53,826][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-08 00:14:53,826][INFO][is_hybird()] Starting apktool
+[INTERNAL_LOG][2018-06-08 00:15:02,605][ERROR][is_hybird()] [ERROR file config.xmls] [Errno 2] No such file or directory: 'temp_dir/res/xml/config.xml' 
+
+[INTERNAL_LOG][2018-06-08 00:15:02,626][INFO][analyze_start()] TYPE APK: [HYBRID]
+
+[INTERNAL_LOG][2018-06-08 00:15:02,642][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-08 00:15:02,657][INFO][find_string()] File: js/closebutton.html
+[INTERNAL_LOG][2018-06-08 00:15:02,710][INFO][find_string()] No iframe in js/closebutton.html
+[INTERNAL_LOG][2018-06-08 00:15:02,725][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-08 00:15:21,634][INFO][find_url_in_apk()] [START URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-08 00:15:21,634][INFO][find_url_in_apk()] https://www.baidu.com
+
+[INTERNAL_LOG][2018-06-08 00:15:21,634][INFO][find_url_in_apk()] [END URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-08 00:15:22,846][INFO][find_string()] [START REMOTE FILE ANALYZE]
+[INTERNAL_LOG][2018-06-08 00:15:22,846][INFO][find_string()] Remote File in: temp_html_code/html_downloaded_Castle Clash_ Путь Храбрых by IGG/www.baidu.com
+[INTERNAL_LOG][2018-06-08 00:15:22,846][INFO][find_string()] URL: https://www.baidu.com
+[INTERNAL_LOG][2018-06-08 00:15:22,852][INFO][find_string()] No iframe in temp_html_code/html_downloaded_Castle Clash_ Путь Храбрых by IGG/www.baidu.com
+[INTERNAL_LOG][2018-06-08 00:15:22,852][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-08 00:15:22,853][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-08 00:15:22,853][INFO][find_url_in_apk()] http://cc-eu.api.igg.com/shop.php?g_id=
+https://t.appsflyer.com/api/v
+https://events.appsflyer.com/api/v
+https://register.appsflyer.com/api/v
+https://stats.appsflyer.com/stats
+https://graph.%s
+https://graph-video.%s
+https://facebook.com
+http://play.google.com/store/apps/details?id=com.facebook.orca
+https://accounts.google.com
+https://accounts.google.com
+https://www.facebook.com
+https://www.facebook.com
+https://www.googleapis.com/auth/plus.me
+https://www.googleapis.com/auth/plus.me
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games
+http://plus.google.com/
+https://www.googleapis.com/auth/games.firstparty
+https://www.googleapis.com/auth/games.firstparty
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://csi.gstatic.com/csi
+http://www.google.com
+https://www.googleapis.com/auth/plus.login
+http://schemas.android.com/apk/lib/com.google.android.gms.plus
+http://schemas.android.com/apk/lib/com.google.android.gms.plus
+http://sdk.open.phone.igexin.com/api.php
+http://c-hzgt2.getui.com/api.php
+http://s-gt.getui.com/api.php
+http://d.gt.igexin.com/api.htm
+http://d.gt.igexin.com/api.htm
+http://sdk.open.amp.igexin.com/api.htm
+http://sdk.open.lbs.igexin.com/api.htm
+http://sdk.open.inc2.igexin.com/api.php
+http://bi.
+http://config.
+http://stat.
+http://log.
+http://amp.
+http://lbs.
+http://inc.
+http://sdk.open.phone.igexin.com/api/addr.htm
+http://login.m.igg.com/permission/request?
+http://push.igg.com/api/register_device.php/register_device.php
+http://push.igg.com/api/register_device.php/unregister_device.php
+https://passport.igg.com/cn/idcard.php
+http://config-snd.igg.com/appconf/
+https://www.baidu.com
+https://z.moatads.com/
+https://rpc.tapjoy.com/
+https://rpc.tapjoy.com/
+https://connect.tapjoy.com/
+https://connect.tapjoy.com/
+https://ws.tapjoyads.com/
+https://ws.tapjoyads.com/
+https://ws.tapjoyads.com/
+https://placements.tapjoy.com/
+https://oauth.vk.com/blank.html
+https://oauth.vk.com/blank.html
+https://oauth.vk.com/authorize?client_id=%s&scope=%s&redirect_uri=%s&display=mobile&v=%s&response_type=token&revoke=%d
+https://sdk-services.appsflyer.com/validate-android-signature
+https://api.appsflyer.com/install_data/v3/
+http://castleclash.igg.com/download/
+http://play.google.com/store/apps/details?id=
+http://pay.skyunion.com/android/cc_ru_callback.php
+http://collect.nl.igg.com/adlog.php
+http://push.igg.com/api/set_msg_opened.php?qid=
+http://vk.com/images/community_50.gif
+http://vk.com/images/community_100.gif
+http://vk.com/images/s_noalbum.png
+http://vk.com/images/m_noalbum.png
+http://vk.com/images/x_noalbum.png
+http://vk.com/images/camera_c.gif
+http://vk.com/images/camera_c.gif
+http://vk.com/images/camera_c.gif
+http://vk.com/images/camera_b.gif
+http://vk.com/images/camera_b.gif
+http://vk.com/images/camera_b.gif
+http://vk.com/images/camera_a.gif
+http://vk.com/images/camera_a.gif
+http://vk.com/images/camera_a.gif
+
+[INTERNAL_LOG][2018-06-08 00:15:22,853][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-08 00:15:22,870][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-08 00:15:22,870][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-08 00:15:22,870][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-08 00:15:22,871][INFO][analyze_start()] End time:[Fri Jun  8 00:15:22 2018]

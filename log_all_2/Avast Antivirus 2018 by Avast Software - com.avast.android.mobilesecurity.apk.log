@@ -1,0 +1,282 @@
+[INTERNAL_LOG][2018-06-12 02:29:56,238][INFO][analyze_start()] Init Time [Tue Jun 12 02:29:56 2018]
+[INTERNAL_LOG][2018-06-12 02:29:56,332][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 02:29:56,333][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 02:29:56,333][INFO][is_hybird()] android.permission.READ_CONTACTS
+[INTERNAL_LOG][2018-06-12 02:29:56,333][INFO][is_hybird()] android.permission.WRITE_CONTACTS
+[INTERNAL_LOG][2018-06-12 02:29:56,333][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 02:29:56,333][INFO][is_hybird()] android.permission.CALL_PHONE
+[INTERNAL_LOG][2018-06-12 02:29:56,333][INFO][is_hybird()] android.permission.READ_PHONE_STATE
+[INTERNAL_LOG][2018-06-12 02:29:56,333][INFO][is_hybird()] android.permission.READ_CALL_LOG
+[INTERNAL_LOG][2018-06-12 02:29:56,334][INFO][is_hybird()] android.permission.WRITE_CALL_LOG
+[INTERNAL_LOG][2018-06-12 02:29:56,334][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 02:29:56,334][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 02:29:56,334][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 02:29:56,334][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 02:29:56,334][INFO][is_hybird()] android.permission.BATTERY_STATS
+[INTERNAL_LOG][2018-06-12 02:29:56,334][INFO][is_hybird()] android.permission.BLUETOOTH
+[INTERNAL_LOG][2018-06-12 02:29:56,334][INFO][is_hybird()] android.permission.BLUETOOTH_ADMIN
+[INTERNAL_LOG][2018-06-12 02:29:56,334][INFO][is_hybird()] android.permission.CHANGE_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 02:29:56,334][INFO][is_hybird()] android.permission.CHANGE_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 02:29:56,334][INFO][is_hybird()] android.permission.CLEAR_APP_CACHE
+[INTERNAL_LOG][2018-06-12 02:29:56,334][INFO][is_hybird()] android.permission.GET_PACKAGE_SIZE
+[INTERNAL_LOG][2018-06-12 02:29:56,334][INFO][is_hybird()] android.permission.GET_TASKS
+[INTERNAL_LOG][2018-06-12 02:29:56,334][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 02:29:56,334][INFO][is_hybird()] android.permission.KILL_BACKGROUND_PROCESSES
+[INTERNAL_LOG][2018-06-12 02:29:56,334][INFO][is_hybird()] android.permission.RECEIVE_BOOT_COMPLETED
+[INTERNAL_LOG][2018-06-12 02:29:56,334][INFO][is_hybird()] android.permission.REQUEST_INSTALL_PACKAGES
+[INTERNAL_LOG][2018-06-12 02:29:56,334][INFO][is_hybird()] android.permission.MANAGE_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 02:29:56,334][INFO][is_hybird()] android.permission.MODIFY_AUDIO_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:29:56,334][INFO][is_hybird()] android.permission.READ_SYNC_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:29:56,334][INFO][is_hybird()] android.permission.USE_FINGERPRINT
+[INTERNAL_LOG][2018-06-12 02:29:56,334][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-12 02:29:56,334][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 02:29:56,334][INFO][is_hybird()] android.permission.WRITE_SYNC_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:29:56,334][INFO][is_hybird()] com.android.browser.permission.READ_HISTORY_BOOKMARKS
+[INTERNAL_LOG][2018-06-12 02:29:56,334][INFO][is_hybird()] com.android.browser.permission.WRITE_HISTORY_BOOKMARKS
+[INTERNAL_LOG][2018-06-12 02:29:56,335][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-12 02:29:56,335][INFO][is_hybird()] android.permission.RECEIVE_SMS
+[INTERNAL_LOG][2018-06-12 02:29:56,335][INFO][is_hybird()] android.permission.ACCESS_COARSE_LOCATION
+[INTERNAL_LOG][2018-06-12 02:29:56,335][INFO][is_hybird()] android.permission.PACKAGE_USAGE_STATS
+[INTERNAL_LOG][2018-06-12 02:29:56,335][INFO][is_hybird()] android.permission.SYSTEM_ALERT_WINDOW
+[INTERNAL_LOG][2018-06-12 02:29:56,335][INFO][is_hybird()] android.permission.ACCESS_NOTIFICATION_POLICY
+[INTERNAL_LOG][2018-06-12 02:29:56,335][INFO][is_hybird()] com.avast.android.applocker.TEMPORARY_DISABLE
+[INTERNAL_LOG][2018-06-12 02:29:56,335][INFO][is_hybird()] com.avast.android.vpn.STATE_INFORMER_SERVICE
+[INTERNAL_LOG][2018-06-12 02:29:56,335][INFO][is_hybird()] android.permission.PROCESS_OUTGOING_CALLS
+[INTERNAL_LOG][2018-06-12 02:29:56,335][INFO][is_hybird()] android.permission.READ_LOGS
+[INTERNAL_LOG][2018-06-12 02:29:56,335][INFO][is_hybird()] android.permission.READ_SMS
+[INTERNAL_LOG][2018-06-12 02:29:56,335][INFO][is_hybird()] android.permission.RECEIVE_MMS
+[INTERNAL_LOG][2018-06-12 02:29:56,335][INFO][is_hybird()] android.permission.WRITE_SMS
+[INTERNAL_LOG][2018-06-12 02:29:56,335][INFO][is_hybird()] android.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:29:56,335][INFO][is_hybird()] android.permission.AUTHENTICATE_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 02:29:56,335][INFO][is_hybird()] com.avast.android.feed.CACHE_PERMISSION
+[INTERNAL_LOG][2018-06-12 02:29:56,335][INFO][is_hybird()] android.permission.ACCESS_FINE_LOCATION
+[INTERNAL_LOG][2018-06-12 02:29:56,335][INFO][is_hybird()] com.google.android.gms.permission.ACTIVITY_RECOGNITION
+[INTERNAL_LOG][2018-06-12 02:29:56,335][INFO][is_hybird()] com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+[INTERNAL_LOG][2018-06-12 02:29:56,335][INFO][is_hybird()] com.google.android.providers.gsf.permission.READ_GSERVICES
+[INTERNAL_LOG][2018-06-12 02:29:56,335][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-12 02:29:56,335][INFO][is_hybird()] android.permission.USE_CREDENTIALS
+[INTERNAL_LOG][2018-06-12 02:29:56,335][INFO][is_hybird()] android.permission.DISABLE_KEYGUARD
+[INTERNAL_LOG][2018-06-12 02:29:56,335][INFO][is_hybird()] android.permission.EXPAND_STATUS_BAR
+[INTERNAL_LOG][2018-06-12 02:29:56,335][INFO][is_hybird()] android.permission.WRITE_CALENDAR
+[INTERNAL_LOG][2018-06-12 02:29:56,336][INFO][is_hybird()] android.permission.CAMERA
+[INTERNAL_LOG][2018-06-12 02:29:56,336][INFO][is_hybird()] android.permission.RECORD_AUDIO
+[INTERNAL_LOG][2018-06-12 02:29:56,336][INFO][is_hybird()] android.permission.SEND_SMS
+[INTERNAL_LOG][2018-06-12 02:29:56,336][INFO][is_hybird()] android.permission.STATUS_BAR
+[INTERNAL_LOG][2018-06-12 02:29:56,336][INFO][is_hybird()] android.permission.MASTER_CLEAR
+[INTERNAL_LOG][2018-06-12 02:29:56,336][INFO][is_hybird()] android.permission.WRITE_SECURE_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:29:56,336][INFO][is_hybird()] android.permission.REBOOT
+[INTERNAL_LOG][2018-06-12 02:29:56,336][INFO][is_hybird()] android.permission.CONNECTIVITY_INTERNAL
+[INTERNAL_LOG][2018-06-12 02:29:56,336][INFO][is_hybird()] android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+[INTERNAL_LOG][2018-06-12 02:29:56,336][INFO][is_hybird()] android.permission.MOUNT_FORMAT_FILESYSTEMS
+[INTERNAL_LOG][2018-06-12 02:29:56,336][INFO][is_hybird()] com.avast.android.mobilesecurity.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-12 02:29:56,336][INFO][is_hybird()] com.avast.android.common.IDS_PERMISSION
+[INTERNAL_LOG][2018-06-12 02:29:56,336][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 02:29:56,336][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 02:29:56,336][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 02:29:56,336][INFO][find_string()] File: assets/eula.html
+[INTERNAL_LOG][2018-06-12 02:29:56,397][INFO][find_string()] No iframe in assets/eula.html
+[INTERNAL_LOG][2018-06-12 02:29:56,397][INFO][find_string()] File: assets/pp.html
+[INTERNAL_LOG][2018-06-12 02:29:56,406][INFO][find_string()] No iframe in assets/pp.html
+[INTERNAL_LOG][2018-06-12 02:29:56,406][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 02:29:56,406][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 02:29:56,406][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 02:31:05,133][INFO][find_url_in_apk()] [START URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-12 02:31:05,134][INFO][find_url_in_apk()] https://accounts.google.com/o/oauth2/auth?redirect_uri=http://localhost&response_type=code&client_id=267505377073.apps.googleusercontent.com&scope=email&prompt=select_account&login_hint=
+
+[INTERNAL_LOG][2018-06-12 02:31:05,134][INFO][find_url_in_apk()] [END URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-12 02:31:05,484][INFO][find_string()] [START REMOTE FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 02:31:05,484][INFO][find_string()] Remote File in: temp_html_code/html_downloaded_Avast Antivirus 2018 by Avast Software - com/localhost&response_type=code&client_id=267505377073.apps.googleusercontent.com&scope=email&prompt=select_account&login_hint=
+[INTERNAL_LOG][2018-06-12 02:31:05,484][INFO][find_string()] URL: https://accounts.google.com/o/oauth2/auth?redirect_uri=http://localhost&response_type=code&client_id=267505377073.apps.googleusercontent.com&scope=email&prompt=select_account&login_hint=
+[INTERNAL_LOG][2018-06-12 02:31:05,496][INFO][find_string()] No iframe in temp_html_code/html_downloaded_Avast Antivirus 2018 by Avast Software - com/localhost&response_type=code&client_id=267505377073.apps.googleusercontent.com&scope=email&prompt=select_account&login_hint=
+[INTERNAL_LOG][2018-06-12 02:31:05,496][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 02:31:05,496][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 02:31:05,497][INFO][find_url_in_apk()] https://onelink.%s/shortlink-sdk/v1
+https://monitorsdk.%s/remote-debug?app_id=
+https://api.%s/install_data/v3/
+https://attr.%s/api/v
+https://t.%s/api/v
+https://events.%s/api/v
+https://register.%s/api/v
+https://stats.%s/stats
+http://localhost
+https://accounts.google.com/o/oauth2/auth?redirect_uri=http://localhost&response_type=code&client_id=267505377073.apps.googleusercontent.com&scope=email&prompt=select_account&login_hint=
+https://analytics.ff.avast.com
+https://analytics.ff.avast.com
+https://analytics.ff.avast.com
+http://www.example.com
+http://www.example.com
+http://www.example.com
+http://feed-dev.ff.avast.com
+http://feed-test.ff.avast.com
+http://feed.ff.avast.com
+http://id-ffl-test.ff.avast.com
+http://thor-test.ff.avast.com
+http://id-ffl.avast.com
+http://id-ffl.avast.com
+http://id-ffl.avast.com
+http://thor.ff.avast.com
+http://thor.ff.avast.com
+http://thor.ff.avast.com
+http://device-control-test.ff.avast.com
+http://device-control-test.ff.avast.com
+http://device-control.ff.avast.com
+http://device-control.ff.avast.com
+http://device-control.ff.avast.com
+http://device-control.ff.avast.com
+https://support.avg.com/SupportArticleView?l=en&urlName=AVG-Antivirus-for-Android-Anti-theft-service&supportType=home
+https://www.avast.com/faq.php?article=AVKB116
+https://id.avg.com/?target=https%3A%2F%2Fmy.avg.com%2F#recoverPassword
+https://id.avg.com/?target=https%3A%2F%2Fmy.avg.com%2F#recoverPassword
+https://id.avast.com/?target=https%3A%2F%2Fmy.avast.com%2F#recoverPassword
+https://id.avast.com/?target=https%3A%2F%2Fmy.avast.com%2F#recoverPassword
+https://id.avg.com/?target=https%3A%2F%2Fmy.avg.com%2F#register
+https://id.avg.com/?target=https%3A%2F%2Fmy.avg.com%2F#register
+https://id.avast.com/?target=https%3A%2F%2Fmy.avast.com%2F#register
+https://id.avast.com/?target=https%3A%2F%2Fmy.avast.com%2F#register
+http://ams.pong.u.avcdn.net/files/emupdate/pong.txt
+http://www.amazon.com/gp/mas/dl/android?p=store.antivirus
+http://www.amazon.com/gp/mas/dl/android?p=store.antivirus
+http://www.samsungapps.com/appquery/appDetail.as?appId=store.antivirus
+http://www.samsungapps.com/appquery/appDetail.as?appId=store.antivirus
+https://analytics-stage.ff.avast.com
+http://callblocker-test.ff.avast.com:80
+http://callblocker.ff.avast.com:80
+https://ipm-provider-preview.ff.avast.com
+https://ipm-provider.ff.avast.com
+https://ipm-provider.ff.avast.com
+https://my-android-stage.avast.com
+https://my-android.avast.com
+http://push-test.ff.avast.com
+http://push.ff.avast.com
+http://push.ff.avast.com
+http://push.ff.avast.com
+https://shepherd-test-mobile.ff.avast.com
+https://shepherd-preview.ff.avast.com
+https://shepherd.ff.avast.com
+http://wififinder-speed-test.ff.avast.com/download
+http://wififinder-speed-test.ff.avast.com/upload
+http://wififinder-speed.ff.avast.com/download
+http://wififinder-speed.ff.avast.com/upload
+http://connectivity.ff.avast.com/generate_204
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/sdk-core-v40-impl.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://csi.gstatic.com/csi
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/native_ads.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/native_ads.js
+https://imasdk.googleapis.com/admob/sdkloader/native_video.html
+https://www.google.com/dfp/linkDevice
+https://www.google.com/dfp/inAppPreview
+https://www.google.com/dfp/debugSignals
+https://www.google.com/dfp/sendDebugData
+https://pagead2.googlesyndication.com/pagead/gen_204
+https://twitter.com/%s/status/%s
+http://wififinder.ff.avast.com/1.0/hotspot/
+http://wififinder-test.ff.avast.com/1.0/hotspot/
+http://clients3.google.com/generate_204
+https://my.avg.com
+https://my.avast.com
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+http://www.avast.com/privacy-policy
+http://www.avast.com/privacy-policy
+http://www.avg.com/[a-zA-Z]{2}-[a-zA-Z]{2}/privacy
+http://www.avast.com/eula
+http://www.avg.com/%s-%s/privacy
+http://lansec.ff.avast.com
+http://lansec-test.ff.avast.com
+http://schemas.android.com/apk/res/android
+https://www.googleapis.com/auth/drive
+https://www.googleapis.com/auth/drive
+http://antitheft.ff.avast.com
+http://antitheft.ff.avast.com
+https://vanheim.ff.avast.com:443
+https://alpha-license-dealer.ff.avast.com:443
+https://alpha-lqs.ff.avast.com:443
+http://avast.com
+https://auth.ff.avast.com:443
+https://auth.ff.avast.com:443
+http://shepherd.sb.avast.com:80
+https://auth-test.ff.avast.com:443
+https://auth-test.ff.avast.com:443
+http://shepherd-test.sb.avast.com:80
+http://shepherd-stage.sb.avast.com:80
+http://localhost:8081
+http://localhost:8080
+http://streamback.ff.avast.com:80
+http://streamback-test.ff.avast.com:80
+http://lon23.ff.avast.com:80
+http://streamback-sandbox.ff.avast.com:80
+http://play.google.com/store/apps/details?id=
+http://xmlpull.org/v1/doc/features.html#indent-output
+http://xmlpull.org/v1/doc/features.html#indent-output
+http://xmlpull.org/v1/doc/features.html#indent-output
+http://xmlpull.org/v1/doc/features.html#indent-output
+http://www.w3.org/ns/ttml#parameter
+https://www.googleapis.com/batch
+https://e.crashlytics.com/spi/v2/events
+https://settings.crashlytics.com/spi/v2/platforms/android/apps/%s/settings
+http://www.w3.org/XML/1998/namespace
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+https://ff-billing.avast.com
+http://au.ff.avast.com:80/android/
+http://al.ff.avast.com:80/F/
+http://ab.ff.avast.com:80/cgi-bin/submit50.cgi
+http://ui.ff.avast.com:80/urlinfo/v4/_MD/
+http://ta.ff.avast.com:80/F/
+http://ai.ff.avast.com/F/
+http://phonerep.ff.avast.com:8080
+https://ff-backup.avast.com
+https://www.facebook.com/audience_network/server_side_reward
+https://www.%s.facebook.com/audience_network/server_side_reward
+http://play.google.com/store/apps/
+https://www.facebook.com/
+https://www.%s.facebook.com
+https://graph.facebook.com/network_ads_common
+https://graph.%s.facebook.com/network_ads_common
+https://www.facebook.com/adnw_logging/
+https://www.%s.facebook.com/adnw_logging/
+http://www.facebook.com
+https://graph.%s
+https://graph-video.%s
+https://facebook.com
+https://facebook.com/device?user_code=%1$s&qr=1
+http://play.google.com/store/apps/details?id=com.facebook.orca
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+http://hostname/?
+https://www.googleapis.com/auth/games_lite
+https://www.googleapis.com/auth/games
+https://plus.google.com/
+https://www.google.com
+http://www.google.com
+https://support.google.com/dfp_premium/answer/7160685#push
+http://www.google-analytics.com
+https://ssl.google-analytics.com
+https://app-measurement.com/a
+https://www.googleapis.com/
+https://www.googleapis.com/auth/drive.appdata
+https://www.googleapis.com/auth/drive.file
+https://www.googleapis.com/auth/drive.metadata
+https://www.googleapis.com/auth/drive.metadata.readonly
+https://www.googleapis.com/auth/drive.photos.readonly
+https://www.googleapis.com/auth/drive.readonly
+https://www.googleapis.com/auth/drive.scripts
+https://analytics.mopub.com/i/jot/exchange_client_event
+https://www.mopub.com/optout
+https://www.mopub.com/optout/
+https://www.mopub.com/optout/
+
+[INTERNAL_LOG][2018-06-12 02:31:05,498][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 02:31:05,510][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 02:31:05,511][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 02:31:05,511][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 02:31:05,511][INFO][analyze_start()] End time:[Tue Jun 12 02:31:05 2018]

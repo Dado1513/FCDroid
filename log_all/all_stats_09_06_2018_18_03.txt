@@ -1,0 +1,10 @@
+Apk analyzed: 2
+Percentual app with at least one html file inside: 100.0%
+Percentual app with js enabled 100.0%
+Percentual app with js interface 100.0%
+Percentual app maybe vulnerable: 100.0%, based on tot 2.
+Average time  single apk analyzed 7.523946523666382 sec
+
+This app maybe are vulnerable:
+- frame_confusion_app.apk
+- MyAppPhoneGap.apk

@@ -1,0 +1,341 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<script type="text/javascript">var App = {ctx:"",api:""+"\/j",web:""+"\/w"};</script>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Pragma" content="no-cache">
+<meta HTTP-EQUIV="Cache-Control" content="no-cache"> 
+<meta http-equiv="Expires" content="0">
+<meta name="Handheldfriendly" content="true">
+<meta name="viewport" content="width=100%; initial-scale=1.0; user-scalable=yes">
+<title>more games</title>
+<link rel="stylesheet" href="/stylesheets/smootemobile.css" type="text/css" />
+</head>
+<body onload="init()">
+<script type="text/javascript">
+var countimg = document.createElement('img');
+function totalClick(pd){
+	console.log('app.ctx : ' + App.ctx);
+	countimg.src = App.ctx+'/w/BasCount/outflow?pd='+pd;
+}
+function getUrlPara(paraName){  
+	var sUrl  =  location.href; 
+	var sReg  =  "(?:\\?|&){1}"+paraName+"=([^&]*)" 
+	var re=new RegExp(sReg,"gi"); 
+	re.exec(sUrl); 
+	return RegExp.$1; 
+}
+var initimg = document.createElement('img');
+function init(){
+	var pd = getUrlPara("pd");
+	if (pd && pd != null && pd != "null"){
+		initimg.src =App.ctx+'/w/BasCount/inflow?pd='+getUrlPara("pd");
+	}
+}
+</script>
+<div class="main" id="box1" style="display: block;">
+	
+		<a href='market://details?id=com.games.cakezootopia'  onclick="totalClick('com.games.cakezootopia')">
+			<div class="item_a">
+				<ul>
+					<li class="ico"><img src='https://d3388t5oqr1jn9.cloudfront.net/1674d5bcf03fc40d9a24.jpg' width="64" height="64" border="0" class="ico_game" /></li>
+					<li class="game"><h3>1. Cake Island Smash</h3><h4>Casual (OS 4.1 and up)</h4></li>
+					<li class="price">FREE</li>
+				</ul>
+			</div>
+		</a>
+	
+		<a href='market://details?id=com.hapogames.BubbleParadise'  onclick="totalClick('com.hapogames.BubbleParadise')">
+			<div class="item_b">
+				<ul>
+					<li class="ico"><img src='https://d3388t5oqr1jn9.cloudfront.net/f623933cf16d306b31a9.jpg' width="64" height="64" border="0" class="ico_game" /></li>
+					<li class="game"><h3>2. Bubble Worlds</h3><h4>Casual (OS 4.0 and up)</h4></li>
+					<li class="price">FREE</li>
+				</ul>
+			</div>
+		</a>
+	
+		<a href='market://details?id=com.game.BubbleShooter'  onclick="totalClick('com.game.BubbleShooter')">
+			<div class="item_a">
+				<ul>
+					<li class="ico"><img src='https://d3388t5oqr1jn9.cloudfront.net/217acece3590031bdc3a.jpg' width="64" height="64" border="0" class="ico_game" /></li>
+					<li class="game"><h3>3. Bubble Shooter</h3><h4>Casual (OS 4.0 and up)</h4></li>
+					<li class="price">FREE</li>
+				</ul>
+			</div>
+		</a>
+	
+		<a href='market://details?id=com.pandoomobile.GemsJourney'  onclick="totalClick('com.pandoomobile.GemsJourney')">
+			<div class="item_b">
+				<ul>
+					<li class="ico"><img src='https://d3388t5oqr1jn9.cloudfront.net/a2e442e879bb16edcb72.jpg' width="64" height="64" border="0" class="ico_game" /></li>
+					<li class="game"><h3>4. Gems Journey</h3><h4>Casual (OS 2.3 and up)</h4></li>
+					<li class="price">FREE</li>
+				</ul>
+			</div>
+		</a>
+	
+		<a href='market://details?id=com.games.BubbleFarm'  onclick="totalClick('com.games.BubbleFarm')">
+			<div class="item_a">
+				<ul>
+					<li class="ico"><img src='https://d3388t5oqr1jn9.cloudfront.net/6a18228625eadd97d6fc.jpg' width="64" height="64" border="0" class="ico_game" /></li>
+					<li class="game"><h3>5. Bubble Farm</h3><h4>Casual (OS 4.1 and up)</h4></li>
+					<li class="price">FREE</li>
+				</ul>
+			</div>
+		</a>
+	
+		<a href='market://details?id=com.games.SkaterBoyLegend'  onclick="totalClick('com.games.SkaterBoyLegend')">
+			<div class="item_b">
+				<ul>
+					<li class="ico"><img src='https://d3388t5oqr1jn9.cloudfront.net/ea696cba4facf95a3162.jpg' width="64" height="64" border="0" class="ico_game" /></li>
+					<li class="game"><h3>6. Skater Boy Legend</h3><h4>Arcade &amp; Sports (OS 2.3 and up)</h4></li>
+					<li class="price">FREE</li>
+				</ul>
+			</div>
+		</a>
+	
+		<a href='market://details?id=com.games.jellysmash'  onclick="totalClick('com.games.jellysmash')">
+			<div class="item_a">
+				<ul>
+					<li class="ico"><img src='https://d3388t5oqr1jn9.cloudfront.net/c08aea86967ab57666fb.jpg' width="64" height="64" border="0" class="ico_game" /></li>
+					<li class="game"><h3>7. Jelly Smash</h3><h4>Casual (OS 2.3 and up)</h4></li>
+					<li class="price">FREE</li>
+				</ul>
+			</div>
+		</a>
+	
+		<a href='market://details?id=com.coolmango.sudokufun'  onclick="totalClick('com.coolmango.sudokufun')">
+			<div class="item_b">
+				<ul>
+					<li class="ico"><img src='https://d3388t5oqr1jn9.cloudfront.net/0bccad2a17f0f2179668.jpg' width="64" height="64" border="0" class="ico_game" /></li>
+					<li class="game"><h3>8. Sodoku Fun</h3><h4>Puzzle &amp; Casual (OS 4.1 and up)</h4></li>
+					<li class="price">FREE</li>
+				</ul>
+			</div>
+		</a>
+	
+		<a href='market://details?id=com.games.JewelsNinja'  onclick="totalClick('com.games.JewelsNinja')">
+			<div class="item_a">
+				<ul>
+					<li class="ico"><img src='https://d3388t5oqr1jn9.cloudfront.net/c35baf24c4f65b3db2ed.jpg' width="64" height="64" border="0" class="ico_game" /></li>
+					<li class="game"><h3>9. Jewels Ninja</h3><h4>Casual &amp; Puzzle (OS 2.3 and up)</h4></li>
+					<li class="price">FREE</li>
+				</ul>
+			</div>
+		</a>
+	
+		<a href='market://details?id=com.games.boomanddoom'  onclick="totalClick('com.games.boomanddoom')">
+			<div class="item_b">
+				<ul>
+					<li class="ico"><img src='https://d3388t5oqr1jn9.cloudfront.net/bf45e0a2ac62c8d9ab34.jpg' width="64" height="64" border="0" class="ico_game" /></li>
+					<li class="game"><h3>10. Boom &amp; Doom</h3><h4>Arcade &amp; Action (OS 4.0 and up)</h4></li>
+					<li class="price">FREE</li>
+				</ul>
+			</div>
+		</a>
+	
+		<a href='market://details?id=com.games.WSearch'  onclick="totalClick('com.games.WSearch')">
+			<div class="item_a">
+				<ul>
+					<li class="ico"><img src='https://d3388t5oqr1jn9.cloudfront.net/54386b365f74bd8dcd7f.jpg' width="64" height="64" border="0" class="ico_game" /></li>
+					<li class="game"><h3>11. Word Search</h3><h4>Casual &amp; Puzzle (OS 2.3 and up)</h4></li>
+					<li class="price">FREE</li>
+				</ul>
+			</div>
+		</a>
+	
+		<a href='market://details?id=com.pandoomobile.MagicMania'  onclick="totalClick('com.pandoomobile.MagicMania')">
+			<div class="item_b">
+				<ul>
+					<li class="ico"><img src='https://d3388t5oqr1jn9.cloudfront.net/534b3837f05fe478b990.jpg' width="64" height="64" border="0" class="ico_game" /></li>
+					<li class="game"><h3>12. Magic Mania</h3><h4>Casual (OS 2.3 and up)</h4></li>
+					<li class="price">FREE</li>
+				</ul>
+			</div>
+		</a>
+	
+		<a href='market://details?id=com.hapogames.solitaire'  onclick="totalClick('com.hapogames.solitaire')">
+			<div class="item_a">
+				<ul>
+					<li class="ico"><img src='https://d3388t5oqr1jn9.cloudfront.net/c9f9a6ab1a2abdd4a5e5.jpg' width="64" height="64" border="0" class="ico_game" /></li>
+					<li class="game"><h3>13. Solitaire</h3><h4>Cards &amp; Casino (OS 2.1 and up)</h4></li>
+					<li class="price">FREE</li>
+				</ul>
+			</div>
+		</a>
+	
+		<a href='market://details?id=com.game.BubbleTotem'  onclick="totalClick('com.game.BubbleTotem')">
+			<div class="item_b">
+				<ul>
+					<li class="ico"><img src='https://d3388t5oqr1jn9.cloudfront.net/fc8a6b70dd6d8ac7d31a.jpg' width="64" height="64" border="0" class="ico_game" /></li>
+					<li class="game"><h3>14. Bubble Totem</h3><h4>Casual (OS 2.3 and up)</h4></li>
+					<li class="price">FREE</li>
+				</ul>
+			</div>
+		</a>
+	
+		<a href='market://details?id=org.candylegend'  onclick="totalClick('org.candylegend')">
+			<div class="item_a">
+				<ul>
+					<li class="ico"><img src='https://d3388t5oqr1jn9.cloudfront.net/537080d2b93e21c2d221.jpg' width="64" height="64" border="0" class="ico_game" /></li>
+					<li class="game"><h3>15. Candies Legend</h3><h4>Casual &amp; Puzzle (OS 2.3 and up)</h4></li>
+					<li class="price">FREE</li>
+				</ul>
+			</div>
+		</a>
+	
+		<a href='market://details?id=com.games.BubbleEgypt'  onclick="totalClick('com.games.BubbleEgypt')">
+			<div class="item_b">
+				<ul>
+					<li class="ico"><img src='https://d3388t5oqr1jn9.cloudfront.net/0909095ef951a11959e3.jpg' width="64" height="64" border="0" class="ico_game" /></li>
+					<li class="game"><h3>16. Bubble Egypt</h3><h4>Casual (OS 2.3 and up)</h4></li>
+					<li class="price">FREE</li>
+				</ul>
+			</div>
+		</a>
+	
+		<a href='market://details?id=com.games.SpeedRacing'  onclick="totalClick('com.games.SpeedRacing')">
+			<div class="item_a">
+				<ul>
+					<li class="ico"><img src='https://d3388t5oqr1jn9.cloudfront.net/56bc002cda8291bd034c.jpg' width="64" height="64" border="0" class="ico_game" /></li>
+					<li class="game"><h3>17. Speed Racing</h3><h4>Arcade &amp; Action (OS 2.3 and up)</h4></li>
+					<li class="price">FREE</li>
+				</ul>
+			</div>
+		</a>
+	
+		<a href='market://details?id=com.games.msplash'  onclick="totalClick('com.games.msplash')">
+			<div class="item_b">
+				<ul>
+					<li class="ico"><img src='https://d3388t5oqr1jn9.cloudfront.net/d192d3cf7edfc81e5313.jpg' width="64" height="64" border="0" class="ico_game" /></li>
+					<li class="game"><h3>18. Monster Splash</h3><h4>Casual &amp; Puzzle (OS 2.3 and up)</h4></li>
+					<li class="price">FREE</li>
+				</ul>
+			</div>
+		</a>
+	
+		<a href='market://details?id=com.pandoomobile.BubbleSpace'  onclick="totalClick('com.pandoomobile.BubbleSpace')">
+			<div class="item_a">
+				<ul>
+					<li class="ico"><img src='https://d3388t5oqr1jn9.cloudfront.net/e4ddddca1127f944cc10.jpg' width="64" height="64" border="0" class="ico_game" /></li>
+					<li class="game"><h3>19. Bubble Sapce</h3><h4>Casual (OS 2.3 and up)</h4></li>
+					<li class="price">FREE</li>
+				</ul>
+			</div>
+		</a>
+	
+		<a href='market://details?id=com.games.racingmoto'  onclick="totalClick('com.games.racingmoto')">
+			<div class="item_b">
+				<ul>
+					<li class="ico"><img src='https://d3388t5oqr1jn9.cloudfront.net/415f98d428397a693fee.jpg' width="64" height="64" border="0" class="ico_game" /></li>
+					<li class="game"><h3>20. Racing Moto</h3><h4>Arcade &amp; Action (OS 2.3 and up)</h4></li>
+					<li class="price">FREE</li>
+				</ul>
+			</div>
+		</a>
+	
+		<a href='market://details?id=com.games.galaxybowling'  onclick="totalClick('com.games.galaxybowling')">
+			<div class="item_a">
+				<ul>
+					<li class="ico"><img src='https://d3388t5oqr1jn9.cloudfront.net/a6fe47766737da5b64ba.jpg' width="64" height="64" border="0" class="ico_game" /></li>
+					<li class="game"><h3>21. Bowling Star</h3><h4>Arcade &amp; Sports (OS 2.3 and up)</h4></li>
+					<li class="price">FREE</li>
+				</ul>
+			</div>
+		</a>
+	
+		<a href='market://details?id=com.games.basketball'  onclick="totalClick('com.games.basketball')">
+			<div class="item_b">
+				<ul>
+					<li class="ico"><img src='https://d3388t5oqr1jn9.cloudfront.net/68cb5b5a565b04ffab29.jpg' width="64" height="64" border="0" class="ico_game" /></li>
+					<li class="game"><h3>22. Crazy Basketball</h3><h4>Arcade &amp; Sports (OS 2.3 and up)</h4></li>
+					<li class="price">FREE</li>
+				</ul>
+			</div>
+		</a>
+	
+		<a href='market://details?id=com.games.BlockMania'  onclick="totalClick('com.games.BlockMania')">
+			<div class="item_a">
+				<ul>
+					<li class="ico"><img src='https://d3388t5oqr1jn9.cloudfront.net/f0492fdabcceb51552d8.jpg' width="64" height="64" border="0" class="ico_game" /></li>
+					<li class="game"><h3>23. Block Mania</h3><h4>Casual &amp; Puzzle (OS 2.3 and up)</h4></li>
+					<li class="price">FREE</li>
+				</ul>
+			</div>
+		</a>
+	
+		<a href='market://details?id=com.smootem.letmeout'  onclick="totalClick('com.smootem.letmeout')">
+			<div class="item_b">
+				<ul>
+					<li class="ico"><img src='https://d3388t5oqr1jn9.cloudfront.net/d62a745e9dc6ad19d579.jpg' width="64" height="64" border="0" class="ico_game" /></li>
+					<li class="game"><h3>24. Let Me Out</h3><h4>Puzzle (OS 2.3 and up)</h4></li>
+					<li class="price">FREE</li>
+				</ul>
+			</div>
+		</a>
+	
+		<a href='market://details?id=com.game.BubblePirate'  onclick="totalClick('com.game.BubblePirate')">
+			<div class="item_a">
+				<ul>
+					<li class="ico"><img src='https://d3388t5oqr1jn9.cloudfront.net/68301740a232f0fc3654.jpg' width="64" height="64" border="0" class="ico_game" /></li>
+					<li class="game"><h3>25. Bubble Pirate</h3><h4>Casual (OS 2.3 and up)</h4></li>
+					<li class="price">FREE</li>
+				</ul>
+			</div>
+		</a>
+	
+		<a href='market://details?id=org.cocos2dx.FarmStory'  onclick="totalClick('org.cocos2dx.FarmStory')">
+			<div class="item_b">
+				<ul>
+					<li class="ico"><img src='https://d3388t5oqr1jn9.cloudfront.net/4c252b9e2515477a4d40.jpg' width="64" height="64" border="0" class="ico_game" /></li>
+					<li class="game"><h3>26. Story of Farm</h3><h4>Casual (OS 2.3 and up)</h4></li>
+					<li class="price">FREE</li>
+				</ul>
+			</div>
+		</a>
+	
+		<a href='market://details?id=org.mania2048'  onclick="totalClick('org.mania2048')">
+			<div class="item_a">
+				<ul>
+					<li class="ico"><img src='https://d3388t5oqr1jn9.cloudfront.net/72464de7d7b18741b2bd.jpg' width="64" height="64" border="0" class="ico_game" /></li>
+					<li class="game"><h3>27. 2048 Mania</h3><h4>Puzzle (OS 2.3 and up)</h4></li>
+					<li class="price">FREE</li>
+				</ul>
+			</div>
+		</a>
+	
+		<a href='market://details?id=com.games.DragonRaid'  onclick="totalClick('com.games.DragonRaid')">
+			<div class="item_b">
+				<ul>
+					<li class="ico"><img src='https://d3388t5oqr1jn9.cloudfront.net/40d6492f054139224961.jpg' width="64" height="64" border="0" class="ico_game" /></li>
+					<li class="game"><h3>28. Dragon Raid</h3><h4>Casual &amp; Arcade (OS 2.3 and up)</h4></li>
+					<li class="price">FREE</li>
+				</ul>
+			</div>
+		</a>
+	
+		<a href='market://details?id=com.pandoomobile.flyingbat'  onclick="totalClick('com.pandoomobile.flyingbat')">
+			<div class="item_a">
+				<ul>
+					<li class="ico"><img src='https://d3388t5oqr1jn9.cloudfront.net/818974d8d41275d99970.jpg' width="64" height="64" border="0" class="ico_game" /></li>
+					<li class="game"><h3>29. Flying Bat</h3><h4>Casual (OS 2.3 and up)</h4></li>
+					<li class="price">FREE</li>
+				</ul>
+			</div>
+		</a>
+	
+		<a href='market://details?id=com.games.MonsterSniper'  onclick="totalClick('com.games.MonsterSniper')">
+			<div class="item_b">
+				<ul>
+					<li class="ico"><img src='https://d3388t5oqr1jn9.cloudfront.net/076189cf58f27b185ba3.jpg' width="64" height="64" border="0" class="ico_game" /></li>
+					<li class="game"><h3>30. Monster Sniper</h3><h4>Casual &amp; Arcade (OS 2.3 and up)</h4></li>
+					<li class="price">FREE</li>
+				</ul>
+			</div>
+		</a>
+	
+<div>
+</body>
+</html>

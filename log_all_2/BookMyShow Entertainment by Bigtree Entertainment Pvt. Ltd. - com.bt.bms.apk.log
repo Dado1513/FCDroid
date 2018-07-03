@@ -1,0 +1,383 @@
+[INTERNAL_LOG][2018-06-12 07:03:41,627][INFO][analyze_start()] Init Time [Tue Jun 12 07:03:41 2018]
+[INTERNAL_LOG][2018-06-12 07:03:41,755][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 07:03:41,757][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 07:03:41,757][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 07:03:41,757][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 07:03:41,758][INFO][is_hybird()] com.android.alarm.permission.SET_ALARM
+[INTERNAL_LOG][2018-06-12 07:03:41,758][INFO][is_hybird()] android.permission.READ_PHONE_STATE
+[INTERNAL_LOG][2018-06-12 07:03:41,758][INFO][is_hybird()] android.permission.READ_CONTACTS
+[INTERNAL_LOG][2018-06-12 07:03:41,758][INFO][is_hybird()] android.permission.ACCESS_FINE_LOCATION
+[INTERNAL_LOG][2018-06-12 07:03:41,758][INFO][is_hybird()] android.permission.ACCESS_COARSE_LOCATION
+[INTERNAL_LOG][2018-06-12 07:03:41,758][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 07:03:41,758][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 07:03:41,758][INFO][is_hybird()] com.bt.bms.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-12 07:03:41,758][INFO][is_hybird()] android.permission.RECEIVE_BOOT_COMPLETED
+[INTERNAL_LOG][2018-06-12 07:03:41,758][INFO][is_hybird()] android.permission.READ_SMS
+[INTERNAL_LOG][2018-06-12 07:03:41,758][INFO][is_hybird()] android.permission.RECEIVE_SMS
+[INTERNAL_LOG][2018-06-12 07:03:41,758][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 07:03:41,758][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-12 07:03:41,758][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-12 07:03:41,758][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 07:03:41,758][INFO][is_hybird()] android.permission.CHANGE_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 07:03:41,758][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 07:03:41,758][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 07:03:41,758][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 07:03:41,758][INFO][find_string()] File: assets/juspay/acs_blank.html
+[INTERNAL_LOG][2018-06-12 07:03:41,760][INFO][find_string()] No iframe in assets/juspay/acs_blank.html
+[INTERNAL_LOG][2018-06-12 07:03:41,760][INFO][find_string()] File: res/raw/jwplayer_container.html
+[INTERNAL_LOG][2018-06-12 07:03:41,760][INFO][find_string()] No iframe in res/raw/jwplayer_container.html
+[INTERNAL_LOG][2018-06-12 07:03:41,761][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 07:03:41,761][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 07:03:41,761][INFO][find_string()] File: res/raw/controlbar.js
+[INTERNAL_LOG][2018-06-12 07:03:41,761][INFO][find_string()] No iframe in res/raw/controlbar.js
+[INTERNAL_LOG][2018-06-12 07:03:41,761][INFO][find_string()] File: res/raw/html5_provider_mobile.js
+[INTERNAL_LOG][2018-06-12 07:03:41,763][INFO][find_string()] No iframe in res/raw/html5_provider_mobile.js
+[INTERNAL_LOG][2018-06-12 07:03:41,763][INFO][find_string()] File: res/raw/jw_pings.js
+[INTERNAL_LOG][2018-06-12 07:03:41,775][INFO][find_string()] No iframe in res/raw/jw_pings.js
+[INTERNAL_LOG][2018-06-12 07:03:41,780][INFO][find_string()] File: res/raw/jwplayer.js
+[INTERNAL_LOG][2018-06-12 07:03:41,846][INFO][find_string()] No iframe in res/raw/jwplayer.js
+[INTERNAL_LOG][2018-06-12 07:03:41,846][INFO][find_string()] File: res/raw/mobile_workarounds.js
+[INTERNAL_LOG][2018-06-12 07:03:41,847][INFO][find_string()] No iframe in res/raw/mobile_workarounds.js
+[INTERNAL_LOG][2018-06-12 07:03:41,847][INFO][find_string()] File: res/raw/polyfills_intersection_observer.js
+[INTERNAL_LOG][2018-06-12 07:03:41,847][INFO][find_string()] No iframe in res/raw/polyfills_intersection_observer.js
+[INTERNAL_LOG][2018-06-12 07:03:41,847][INFO][find_string()] File: res/raw/polyfills_promise.js
+[INTERNAL_LOG][2018-06-12 07:03:41,848][INFO][find_string()] No iframe in res/raw/polyfills_promise.js
+[INTERNAL_LOG][2018-06-12 07:03:41,848][INFO][find_string()] File: res/raw/polyfills_vttrenderer.js
+[INTERNAL_LOG][2018-06-12 07:03:41,849][INFO][find_string()] No iframe in res/raw/polyfills_vttrenderer.js
+[INTERNAL_LOG][2018-06-12 07:03:41,849][INFO][find_string()] File: res/raw/related.js
+[INTERNAL_LOG][2018-06-12 07:03:41,853][INFO][find_string()] No iframe in res/raw/related.js
+[INTERNAL_LOG][2018-06-12 07:03:41,853][INFO][find_string()] File: res/raw/vast.js
+[INTERNAL_LOG][2018-06-12 07:03:41,856][INFO][find_string()] No iframe in res/raw/vast.js
+[INTERNAL_LOG][2018-06-12 07:03:41,856][INFO][find_string()] File: res/raw/vttparser.js
+[INTERNAL_LOG][2018-06-12 07:03:41,856][INFO][find_string()] No iframe in res/raw/vttparser.js
+[INTERNAL_LOG][2018-06-12 07:03:41,857][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 07:05:15,494][INFO][find_url_in_apk()] [START URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-12 07:05:15,494][INFO][find_url_in_apk()] https://in.bookmyshow.com/login?referer=/exclusives
+https://m.testbms.com/login?referer=/exclusives
+
+[INTERNAL_LOG][2018-06-12 07:05:15,495][INFO][find_url_in_apk()] [END URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-12 07:05:16,439][ERROR][download_page_loaded()] Failed response code: 404 for https://in.bookmyshow.com/login?referer=/exclusives  
+[INTERNAL_LOG][2018-06-12 07:05:16,887][ERROR][download_page_loaded()] Failed response code: 401 for https://m.testbms.com/login?referer=/exclusives  
+[INTERNAL_LOG][2018-06-12 07:05:16,887][INFO][find_string()] [START REMOTE FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 07:05:16,887][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 07:05:16,887][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 07:05:16,888][INFO][find_url_in_apk()] http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+https://amazonpay.amazon.in
+https://sa-in.bookmyshow.com/discussions/COMMENT/GET
+http://maps.google.com/maps?q=loc:
+http://maps.google.com/maps?q=loc:
+http://maps.google.com/maps?q=loc:
+https://graph.facebook.com/
+https://graph.facebook.com/
+https://in.bmscdn.com/
+https://in.bmscdn.com/
+https://in.bmscdn.com/
+https://in.bmscdn.com/
+https://in.bmscdn.com/
+https://in.bmscdn.com/
+https://in.bmscdn.com/
+https://in.bmscdn.com/
+https://in.bmscdn.com/
+https://in.bmscdn.com/
+https://in.bookmyshow.com/reviews/latest/
+https://in.bookmyshow.com/reviews/latest/
+https://in.bookmyshow.com/reviews/latest/
+https://in.bookmyshow.com/secure/barcode/?IsImage=Y&strBarcodeType=qrcode&strBarcodeTxt=
+https://in.bookmyshow.com/secure/barcode/?IsImage=Y&strBarcodeType=qrcode&strBarcodeTxt=
+http://www.data-in.bookmyshow.com
+https://intune.bookmyshow.com/music/api/gateway?MusicId=
+https://intune.bookmyshow.com/music/api/gateway?MusicId=
+https://notify.bugsnag.com
+https://sessions.bugsnag.com
+http://static.wizrocket.com/android/ico//
+https://b-$$zone$$.simility.com/b
+https://api.wibmo.com
+https://www.wibmo.com
+https://beta.wibmo.com
+https://beta-api.wibmo.com
+https://api.mixpanel.com/track/
+https://graph.%s
+https://graph-video.%s
+https://facebook.com
+https://facebook.com/device?user_code=%1$s&qr=1
+http://play.google.com/store/apps/details?id=com.facebook.orca
+http://www.android.com/
+https://app.hotline.io
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+https://accounts.google.com
+https://www.facebook.com
+https://plus.google.com/
+https://pagead2.googlesyndication.com/pagead/gen_204
+http://www.google.com
+https://support.google.com/dfp_premium/answer/7160685#push
+http://www.google-analytics.com
+https://ssl.google-analytics.com
+https://app-measurement.com/a
+http://www.example.com
+http://www.example.com
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/sdk-core-v40-impl.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://csi.gstatic.com/csi
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/native_ads.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/native_ads.js
+https://imasdk.googleapis.com/admob/sdkloader/native_video.html
+https://www.google.com/dfp/linkDevice
+https://www.google.com/dfp/inAppPreview
+https://www.google.com/dfp/debugSignals
+https://www.google.com/dfp/sendDebugData
+https://www.googleapis.com/auth/plus.login
+https://www.googleapis.com/auth/plus.login
+https://www.googleapis.com/auth/plus.me
+https://www.googleapis.com/auth/plus.me
+http://schemas.android.com/apk/lib/com.google.android.gms.plus
+http://schemas.android.com/apk/lib/com.google.android.gms.plus
+https://www.googletagmanager.com
+http://hostname/?
+http://hostname/?
+http://play.google.com/store/apps/details
+https://bugsnag.com
+https://github.com/bugsnag/bugsnag-react-native
+https://www.googleapis.com/auth/plus.profile.emails.read
+https://bmssdk.getfocus.in/%s/%s
+https://releasesdkapi.getfocus.in/%s/%s
+https://www.google.com
+https://www.googleapis.com/auth/games_lite
+https://www.googleapis.com/auth/games
+https://imob.icicibank.com/isdkLIVE/GatewayController
+https://imob.icicibank.com/isdkLIVE/GatewayController
+https://imob.icicibank.com/isdkLIVE/GatewayController
+https://imob.icicibank.com/isdkLIVE/GatewayController
+https://imob.icicibank.com/isdkLIVE/GatewayController
+https://imob.icicibank.com/isdkLIVE/GatewayController
+https://imob.icicibank.com/isdkLIVE/GatewayController
+https://imob.icicibank.com/isdkLIVE/GatewayController
+http://intercept.jw/
+http://intercept.jw/
+http://intercept.jw/
+http://intercept.jw/
+https://entitlements.jwplayer.com/#TOKEN#.json
+https://chatapi-in.bookmyshow.com/sync
+http://play.google.com/store/apps/details?id=com.bt.bms
+http://play.google.com/store/apps/details?id=com.bt.bms
+https://www.accountkit.com/v1.0/dialog/sms_login/confirm/
+https://in.bookmyshow.com/music?type=radio&page=playlist
+https://in.bookmyshow.com/go-push/?key=
+http://play.google.com/store/apps/details?id=
+https://in.bookmyshow.com/buytickets/%s/movie-%s-%s-MT/%s
+http://testservices-wlt-4.bms.bz/payserv/doPGPost.aspx
+https://services-in.bookmyshow.com/payserv/doPGPost.aspx
+http://pg_test_3.bms.bz/payserv/doPGAccept.aspx
+https://services-in.bookmyshow.com/payserv/doPGAccept.aspx
+http://test.bms.bz/pgerror/
+http://in.bookmyshow.com/pgerror/
+https://in.bmscdn.com/events/mobile/
+https://in.bmscdn.com/events/mobile/
+https://in.bmscdn.com/events/mobile/
+https://in.bmscdn.com/events/mobile/
+https://in.bmscdn.com/events/mobile/
+https://in.bookmyshow.com/videos/
+https://in.bookmyshow.com/videos/
+http://in.bookmyshow.com/
+http://in.bookmyshow.com/
+http://in.bookmyshow.com/
+http://in.bookmyshow.com
+http://in.bookmyshow.com
+http://in.bookmyshow.com
+http://in.bookmyshow.com/m5
+http://in.bookmyshow.com/m5/
+http://in.bookmyshow.com/m5/
+http://in.bookmyshow.com/m5/
+https://in.bookmyshow.com/movies
+https://in.bookmyshow.com/videos
+https://in.bookmyshow.com/buytickets
+https://in.bookmyshow.com/offers
+https://in.bookmyshow.com/login?referer=/exclusives
+https://m.testbms.com/login?referer=/exclusives
+https://in.bookmyshow.com
+https://in.bookmyshow.com
+https://sandbox-approvals-api.getsimpl.com/api/v1/
+https://approvals-api.getsimpl.com/api/v1/
+https://sandbox-api.getsimpl.com/api/v1/
+https://api.getsimpl.com/api/v1/
+http://airbrakeapp.com/notifier_api/v2/notices
+http://loopj.com
+https://in.bookmyshow.com/api/v2/mobile/init
+https://in.bookmyshow.com/api/mobile/movies
+https://in.bookmyshow.com/api/mobile/profile
+https://intune.bookmyshow.com/music/api/tracks/app/search
+https://in.bookmyshow.com/api/mobile/
+https://pzn-in.bookmyshow.com/video/recommendation.bms
+https://in.bookmyshow.com/api/inbox/messages
+https://in.bookmyshow.com/api/inbox/messages
+https://in.bookmyshow.com/api/inbox/messages/mark
+https://in.bookmyshow.com/api/v2/mobile/venues
+https://in.bookmyshow.com/api/mobile/inventory/bas
+https://in.bookmyshow.com/api/mobile/inventory/bas
+https://in.bookmyshow.com/api/mobile/inventory/fnb
+https://in.bookmyshow.com/api/mobile/booking/movies
+https://in.bookmyshow.com/api/mobile/booking/state/gst
+https://sa-in.bookmyshow.com/v3/api/media/getData.bms
+https://sa-in.bookmyshow.com/collection/MUSIC/LIKE
+https://in.bookmyshow.com/api/trends/v1/click/feed
+https://in.bookmyshow.com/api/trends/v1/feed
+https://api.uber.com/v1/reminders/
+https://api.uber.com/v1/products
+https://api.uber.com/v1/estimates/price
+https://api.uber.com/v1/estimates/time
+https://api.uber.com/v1/reminders
+https://api.twitter.com
+https://twitter.com/%s/status/%d
+https://ssl.p.jwpcdn.com/android/#SDK_VERSION#/manifest
+https://in.bookmyshow.com/app-layout/?v=
+https://in.bookmyshow.com/go/?ref=mobileapp&med=referral&camp=svglayout&url=&type=0
+https://img.youtube.com/vi/\
+https://img.youtube.com/vi/\
+https://in.bmscdn.com/Artist/
+https://in.bookmyshow.com/static/tnc/purchase.html
+https://in.bookmyshow.com/static/tnc/purchase.html
+https://in.bookmyshow.com/static/tnc/purchase.html
+https://in.bookmyshow.com/static/tnc/privacy.html
+https://in.bookmyshow.com/static/tnc/privacy.html
+https://chat-in.bookmyshow.com/unregistered-active-plans
+https://ad.apsalar.com/api/v1/ad?re=1&st=737534297363&h=32329856959c246a8cee05aff418d75a148b1a50
+https://ad.apsalar.com/api/v1/ad?re=1&st=737534297363&h=32329856959c246a8cee05aff418d75a148b1a50
+https://ad.apsalar.com/api/v1/ad?re=1&st=737534297363&h=32329856959c246a8cee05aff418d75a148b1a50
+https://in.bmscdn.com/in/ios/netbank/
+https://in.bmscdn.com/in/ios/netbank/
+https://in.bmscdn.com/in/ios/netbank/
+https://in.bmscdn.com/paymentcms/category/ca_ios.png?04102017155011
+https://in.bmscdn.com/events/moviecard/
+https://in.bmscdn.com/userexplisting/
+https://in.bmscdn.com/userexplisting/
+https://in.bmscdn.com/userexplisting/
+https://in.bmscdn.com/userexplisting/
+https://syndication.twitter.com
+http://schema.org/ViewAction
+http://schema.org/ViewAction
+http://schema.org/ViewAction
+http://schema.org/ViewAction
+http://schema.org/ViewAction
+http://schema.org/ViewAction
+http://schema.org/ViewAction
+http://schema.org/CompletedActionStatus
+http://schema.org/CompletedActionStatus
+http://schema.org/CompletedActionStatus
+http://schema.org/CompletedActionStatus
+http://schema.org/CompletedActionStatus
+http://s48.ve.vc/data/48/37220/278927/Haan_Kargi_-_Ammy_Virk_-_48Kbps_-_www.DjPunjab.Com.mp3
+http://www.something.com/img.jpg
+http://www.something.com/img.jpg
+http://www.something.com/img.jpg
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+https://in.bookmyshow.com/m5/
+https://in.bookmyshow.com/m5/
+https://in.bookmyshow.com/
+https://in.bookmyshow.com/
+https://in.bookmyshow.com/
+http://www.bookmyshow.com/
+http://www.bookmyshow.com/
+http://host/path
+http://host/path
+https://m.uber.com/sign-up?client_id=jA4t-PEGKwyr3JUOMw6rKIJXaf3YPYfo
+https://bookmyshow.com/loyalty-program/superstar-user/faq
+https://bookmyshow.com/loyalty-program/superstar-user/faq
+https://in.bookmyshow.com/static/giftcards/tnc.html
+https://in.bookmyshow.com/static/giftcards/faq.html
+https://m.testbms.com
+https://in.bookmyshow.com/person/
+http://www.w3.org/2000/09/xmldsig#
+http://www.w3.org/2000/09/xmldsig#
+http://www.w3.org/2000/09/xmldsig#
+http://www.w3.org/2000/09/xmldsig#
+http://www.w3.org/2000/09/xmldsig#
+http://www.w3.org/2000/09/xmldsig#
+http://www.w3.org/2000/09/xmldsig#
+http://www.w3.org/2000/09/xmldsig#
+http://www.w3.org/2000/09/xmldsig#
+http://www.w3.org/2000/09/xmldsig#
+http://www.w3.org/2000/09/xmldsig#
+http://www.w3.org/2000/09/xmldsig#
+http://www.w3.org/2000/09/xmldsig#
+http://www.w3.org/2000/09/xmldsig#
+http://www.w3.org/2000/09/xmldsig#
+http://www.w3.org/2000/09/xmldsig#
+https://settings.crashlytics.com/spi/v2/platforms/android/apps/%s/settings
+http://www.xmlsecurity.org/NS/#configuration
+http://www.xmlsecurity.org/NS/#configuration
+http://www.w3.org/2000/xmlns/
+http://www.w3.org/2000/xmlns/
+http://www.w3.org/2000/xmlns/
+http://www.w3.org/2000/xmlns/
+http://www.w3.org/2000/xmlns/
+http://www.w3.org/2000/xmlns/
+http://www.w3.org/2000/xmlns/
+http://www.w3.org/2000/xmlns/
+http://www.w3.org/2000/xmlns/
+http://www.w3.org/2000/xmlns/
+http://www.w3.org/2000/xmlns/
+http://www.w3.org/2000/xmlns/
+http://www.w3.org/2000/xmlns/
+http://www.w3.org/2001/04/xmlenc#
+http://www.w3.org/2001/04/xmlenc#
+http://www.w3.org/2001/04/xmlenc#
+http://schemas.xmlsoap.org/soap/security/2000-12
+http://www.w3.org/2002/03/xkms#
+https://e.crashlytics.com/spi/v2/events
+http://www.w3.org/2000/09/xmldsig#dsa-sha1
+http://www.w3.org/XML/1998/namespace
+http://www.w3.org/XML/1998/namespace
+http://www.w3.org/XML/1998/namespace
+http://www.w3.org/XML/1998/namespace
+http://www.w3.org/XML/1998/namespace
+http://www.w3.org/XML/1998/namespace
+http://www.w3.org/XML/1998/namespace
+http://www.w3.org/XML/1998/namespace
+http://www.w3.org/2001/10/xml-exc-c14n#
+http://www.w3.org/2001/10/xml-exc-c14n#
+http://www.w3.org/2001/10/xml-exc-c14n#
+http://www.w3.org/2001/10/xml-exc-c14n#
+http://www.w3.org/2002/06/xmldsig-filter2
+http://www.w3.org/2002/06/xmldsig-filter2
+http://www.w3.org/TR/2001/WD-xptr-20010108
+http://www.w3.org/1999/XSL/Transform
+http://javax.xml.XMLConstants/feature/secure-processing
+http://www.w3.org/2002/04/xmldsig-filter2
+http://www.nue.et-inf.uni-siegen.de/~geuer-pollmann/#xpathFilter
+http://www.w3.org/2001/04/xmldsig-more#hmac-md5
+http://www.w3.org/2001/04/xmldsig-more#hmac-ripemd160
+http://www.w3.org/2000/09/xmldsig#hmac-sha1
+http://www.w3.org/2001/04/xmldsig-more#hmac-sha256
+http://www.w3.org/2001/04/xmldsig-more#hmac-sha384
+http://www.w3.org/2001/04/xmldsig-more#hmac-sha512
+http://www.w3.org/2001/04/xmldsig-more#rsa-md5
+http://www.w3.org/2001/04/xmldsig-more#rsa-ripemd160
+http://www.w3.org/2000/09/xmldsig#rsa-sha1
+http://www.w3.org/2001/04/xmldsig-more#rsa-sha256
+http://www.w3.org/2001/04/xmldsig-more#rsa-sha384
+http://www.w3.org/2001/04/xmldsig-more#rsa-sha512
+http://www.w3.org/2001/04/xmldsig-more#ecdsa-sha1
+http://www.w3.org/2006/12/xml-c14n11
+http://www.w3.org/2006/12/xml-c14n11
+http://www.w3.org/2000/09/xmldsig#Manifest
+http://www.w3.org/TR/2001/REC-xml-c14n-20010315
+http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments
+http://www.w3.org/2001/10/xml-exc-c14n#WithComments
+http://www.w3.org/2006/12/xml-c14n11#WithComments
+
+[INTERNAL_LOG][2018-06-12 07:05:16,888][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 07:05:16,895][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 07:05:16,895][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 07:05:16,895][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 07:05:16,895][INFO][analyze_start()] End time:[Tue Jun 12 07:05:16 2018]

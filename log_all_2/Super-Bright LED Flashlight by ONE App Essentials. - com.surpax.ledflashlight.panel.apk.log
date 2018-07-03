@@ -1,0 +1,115 @@
+[INTERNAL_LOG][2018-06-12 00:59:25,071][INFO][analyze_start()] Init Time [Tue Jun 12 00:59:25 2018]
+[INTERNAL_LOG][2018-06-12 00:59:25,099][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 00:59:25,100][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 00:59:25,100][INFO][is_hybird()] android.permission.CAMERA
+[INTERNAL_LOG][2018-06-12 00:59:25,100][INFO][is_hybird()] android.permission.FLASHLIGHT
+[INTERNAL_LOG][2018-06-12 00:59:25,100][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 00:59:25,100][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-12 00:59:25,100][INFO][is_hybird()] android.permission.CHANGE_CONFIGURATION
+[INTERNAL_LOG][2018-06-12 00:59:25,100][INFO][is_hybird()] android.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 00:59:25,100][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 00:59:25,100][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 00:59:25,100][INFO][is_hybird()] com.surpax.ledflashlight.panel.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-12 00:59:25,101][INFO][is_hybird()] com.surpax.ledflashlight.panel.permission.FRAMEWORK_SECURITY
+[INTERNAL_LOG][2018-06-12 00:59:25,101][INFO][is_hybird()] com.surpax.ledflashlight.panel.permission.GOLDENEYE_SECURITY
+[INTERNAL_LOG][2018-06-12 00:59:25,101][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 00:59:25,101][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 00:59:25,101][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 00:59:25,101][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 00:59:25,101][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 00:59:25,101][INFO][find_string()] File: res/raw/mraid.js
+[INTERNAL_LOG][2018-06-12 00:59:25,116][INFO][find_string()] No iframe in res/raw/mraid.js
+[INTERNAL_LOG][2018-06-12 00:59:25,116][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 00:59:50,410][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 00:59:50,410][INFO][find_url_in_apk()] http://schemas.android.com/apk/res/android
+https://e.crashlytics.com/spi/v2/events
+https://settings.crashlytics.com/spi/v2/platforms/android/apps/%s/settings
+https://api.%s/install_data/v3/
+https://attr.%s/api/v
+https://t.%s/api/v
+https://events.%s/api/v
+https://register.%s/api/v
+https://stats.%s/stats
+https://onelink.%s/shortlink-sdk/v1
+https://onelink.%s/shortlink-sdk/v1
+https://validate.%s/api/v
+https://sdk-services.%s/validate-android-signature
+https://app.%s
+https://app.%s
+https://impression.%s
+https://monitorsdk.%s/remote-debug?app_id=
+https://www.facebook.com/audience_network/server_side_reward
+https://www.%s.facebook.com/audience_network/server_side_reward
+https://graph.facebook.com/network_ads_common
+https://graph.%s.facebook.com/network_ads_common
+https://www.facebook.com/adnw_logging/
+https://www.%s.facebook.com/adnw_logging/
+https://www.facebook.com/
+https://www.%s.facebook.com
+http://play.google.com/store/apps/
+http://www.facebook.com
+https://graph.%s
+https://graph-video.%s
+https://facebook.com
+http://play.google.com/store/apps/details?id=com.facebook.orca
+https://cfg.flurry.com/sdk/v1/config
+https://cfg.flurry.com/sdk/v1/config
+https://proton.flurry.com/sdk/v1/config
+https://data.flurry.com/pcr.do
+https://data.flurry.com/aap.do
+http://data.flurry.com/aap.do
+http://www.w3.org/ns/ttml#parameter
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+https://plus.google.com/
+http://www.example.com
+http://www.example.com
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/sdk-core-v40-impl.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://csi.gstatic.com/csi
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/native_ads.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/native_ads.js
+https://imasdk.googleapis.com/admob/sdkloader/native_video.html
+https://www.google.com/dfp/linkDevice
+https://www.google.com/dfp/inAppPreview
+https://www.google.com/dfp/debugSignals
+https://www.google.com/dfp/sendDebugData
+https://pagead2.googlesyndication.com/pagead/gen_204
+http://www.google.com
+https://support.google.com/dfp_premium/answer/7160685#push
+https://52.205.105.87/feedback/uninstall/survey
+https://service.appcloudbox.net/feedback/uninstall/survey
+http://rtot.appcloudbox.net/rtot/
+https://us-dev-api.appcloudbox.net:7443/MobileAppServlet/MobileAppServlet
+https://api.appcloudbox.net/token
+https://mobile-static.adsafeprotected.com/avid-v2.js
+https://px.moatads.com/pixel.gif?e=0&i=MOATSDK1&ac=1
+https://z.moatads.com/
+https://ads.mopub.com/
+https://twitter.com/%s/status/%s
+https://www.mopub.com/optout
+http://ads.mopub.com
+https://ads.mopub.com
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+http://www.surpax.net/privacy.html
+http://www.surpax.net/privacy.html
+https://location.appcloudbox.net/prod/country/
+http://api.appcloudbox.net/rao
+https://ge-service.appcloudbox.net/goldeneye/adsconfig/v1/get
+
+[INTERNAL_LOG][2018-06-12 00:59:50,410][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 00:59:50,413][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 00:59:50,413][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 00:59:50,413][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 00:59:50,413][INFO][analyze_start()] End time:[Tue Jun 12 00:59:50 2018]

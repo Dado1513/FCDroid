@@ -1,0 +1,221 @@
+[INTERNAL_LOG][2018-06-12 04:56:51,980][INFO][analyze_start()] Init Time [Tue Jun 12 04:56:51 2018]
+[INTERNAL_LOG][2018-06-12 04:56:52,078][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 04:56:52,078][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 04:56:52,079][INFO][is_hybird()] com.google.android.providers.gsf.permission.READ_GSERVICES
+[INTERNAL_LOG][2018-06-12 04:56:52,079][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 04:56:52,079][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 04:56:52,079][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 04:56:52,079][INFO][is_hybird()] android.permission.CHANGE_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 04:56:52,079][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 04:56:52,079][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 04:56:52,079][INFO][is_hybird()] android.permission.GET_TASKS
+[INTERNAL_LOG][2018-06-12 04:56:52,079][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 04:56:52,079][INFO][is_hybird()] com.umonistudio.tile.permission.AIDL_SERVICE
+[INTERNAL_LOG][2018-06-12 04:56:52,079][INFO][is_hybird()] android.permission.KILL_BACKGROUND_PROCESSES
+[INTERNAL_LOG][2018-06-12 04:56:52,079][INFO][is_hybird()] android.permission.RESTART_PACKAGES
+[INTERNAL_LOG][2018-06-12 04:56:52,079][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-12 04:56:52,079][INFO][is_hybird()] android.permission.MODIFY_AUDIO_SETTINGS
+[INTERNAL_LOG][2018-06-12 04:56:52,079][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-12 04:56:52,080][INFO][is_hybird()] android.permission.CAMERA
+[INTERNAL_LOG][2018-06-12 04:56:52,080][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-12 04:56:52,080][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 04:56:52,080][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 04:56:52,080][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 04:56:52,080][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 04:56:52,080][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 04:56:52,080][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 04:57:24,025][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 04:57:24,025][INFO][find_url_in_apk()] http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+https://onelink.%s/shortlink-sdk/v1
+https://monitorsdk.%s/remote-debug?app_id=
+https://api.%s/install_data/v3/
+https://attr.%s/api/v
+https://t.%s/api/v
+https://events.%s/api/v
+https://register.%s/api/v
+https://stats.%s/stats
+https://ws.ksmobile.net/api/GetCloudMsgAdv
+https://ups.ksmobile.net/%s/getversions.php
+https://ms.cmcm.com/app
+https://tealand.cmcm.com/api/v1/soil/uuid
+https://tealand.cmcm.com/api/v1/soil/uuid
+http://ad.cmcm.com/
+http://221.228.204.186/rp/
+http://52.35.247.178/rp/
+https://ssdk.adkmob.com/rp/
+https://play.google.com/store/apps/details
+http://play.google.com/store/apps/details
+https://play.google.com
+https://play.google.com
+https://play.google.com
+https://play.google.com
+http://play.google.com
+http://play.google.com
+http://play.google.com
+http://play.google.com
+https://xsdk.adkmob.com/b/?
+https://graph.facebook.com/
+http://graph.facebook.com/
+http://p2.cmcm.com/adv-stat?
+https://tuc.ksmobile.net/report
+https://tuc.ijinshan.com/report
+http://dump.p2.cmcm.com/dump?f=
+http://54.173.50.222/api/crash/upload?f=
+http://st.dp.ksmobile.com/Api/index
+http://us.st.dp.ksmobile.com/Api/index
+https://www.googleapis.com/oauth2/v1/userinfo?access_token=
+https://graph.facebook.com/me/picture?access_token=
+https://fb.me/1638125309768167
+http://board.cmcm.com/beta/tmp/006.jpg
+http://board.cmcm.com/beta/tmp/005.png
+http://s.p2.cmcm.com/transfer.html
+http://p2.cmcm.com/transfer_v2?uuid=
+http://board.cmcm.com/beta/tmp/005.jpg
+http://board.cmcm.com/beta/tmp/003-1.jpg
+http://board.cmcm.com/beta/tmp/001-1.png
+http://board.cmcm.com/beta/tmp/001-1.png
+http://www.cmcm.com/protocol/site/privacy.html
+http://www.cmcm.com/protocol/site/tos.html
+http://www.cmcm.com/protocol/site/ad-choice.html
+http://youradchoices.com/appchoices
+http://fk.cm.ksmobile.com/report
+https://api.weixin.qq.com/sns/oauth2/access_token?appid=%s&secret=%s&code=%s&grant_type=authorization_code
+https://api.weixin.qq.com/sns/userinfo?access_token=%s&openid=%s
+https://api.weixin.qq.com/sns/oauth2/refresh_token?appid=%s&grant_type=refresh_token&refresh_token=%s
+http://open.spotify.com/
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+http://play.google.com/store/apps/details?id=
+http://p2.cmcm.com/shares/
+http://p2.cmcm.com/shares/
+http://p2.cmcm.com/shares/
+http://p2.cmcm.com/shares/
+http://p2.cmcm.com/shares/
+http://p2.cmcm.com/shares/
+http://p2.cmcm.com/shares/
+http://p2.cmcm.com/shares/
+http://p2.cmcm.com/shares/
+http://p2.cmcm.com/shares/
+http://p2.cmcm.com/shares/
+http://p2.cmcm.com/shares/
+http://p2.cmcm.com/shares/
+http://p2.cmcm.com/shares/
+http://p2.cmcm.com/shares/
+http://p2.cmcm.com/shares/
+http://p2.cmcm.com/shares/
+http://p2.cmcm.com/shares/
+http://board.cmcm.com/dttwt2/christmas.html
+http://board.cmcm.com/feedback/feedback.html?v=a
+https://play.google.com/store/apps/details?id=com.cleanmaster.mguard&referrer=utm_source%3D204122
+https://fb.me/1651596795087685
+https://fb.me/1651596795087685
+http://api.mobula.sdk.duapps.com/adunion/slot/getDlAd?
+http://api.mobula.sdk.duapps.com/adunion/rtb/getInmobiAd?
+http://api.mobula.sdk.duapps.com/adunion/rtb/fetchAd?
+http://api.mobula.sdk.duapps.com/adunion/slot/getSrcPrio?
+http://api.mobula.sdk.duapps.com/adunion/slot/getSrcPrio?
+http://rts.mobula.sdk.duapps.com/orts/rp?
+http://rts.mobula.sdk.duapps.com/orts/rpb?
+http://market.android.com
+https://market.android.com
+https://www.facebook.com/audience_network/server_side_reward
+https://www.%s.facebook.com/audience_network/server_side_reward
+https://graph.facebook.com/network_ads_common
+https://graph.%s.facebook.com/network_ads_common
+https://www.facebook.com/adnw_logging/
+https://www.%s.facebook.com/adnw_logging/
+https://www.facebook.com/
+https://www.%s.facebook.com
+http://play.google.com/store/apps/
+http://www.facebook.com
+https://facebook.com
+https://graph.%s
+https://graph-video.%s
+https://www.googleapis.com/auth/plus.me
+https://www.googleapis.com/auth/games
+http://plus.google.com/
+http://www.example.com
+http://www.example.com
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://csi.gstatic.com/csi
+https://sb-ssl.google.com/safebrowsing/clientreport/malware
+https://pagead2.googlesyndication.com/pagead/gen_204
+http://www.google.com
+http://whitetileos.cmcm.com/wtserver/get/req?
+http://magic.cmcm.com/api/
+http://magic.cmcm.com/api/magic/notify
+https://track.atom-data.io
+https://track.atom-data.io
+https://track.atom-data.io
+https://outcome.supersonicads.com/mediation/
+https://outcome.supersonicads.com/mediation/
+https://mobilelogs.supersonic.com
+https://mobilelogs.supersonic.com
+https://init.supersonicads.com/sdk/v
+https://www.supersonicads.com/mobile/sdk5/log?method=
+https://www.supersonicads.com/mobile/sdk5/log?method=
+https://www.supersonicads.com/mobile/sdk5/log?method=
+https://www.supersonicads.com/mobile/sdk5/log?method=
+https://www.supersonicads.com/mobile/sdk5/log?method=
+https://www.supersonicads.com/mobile/sdk5/log?method=
+https://www.supersonicads.com/mobile/sdk5/log?method=
+https://www.supersonicads.com/mobile/sdk5/log?method=
+https://www.supersonicads.com/mobile/sdk5/log?method=injectJavaScript
+https://www.supersonicads.com/mobile/sdk5/log?method=extraParametersToJson
+https://www.supersonicads.com/mobile/sdk5/log?method=noProductType
+https://www.supersonicads.com/mobile/sdk5/log?method=encodeAppUserId
+https://www.supersonicads.com/mobile/sdk5/log?method=encodeAppKey
+https://www.supersonicads.com/mobile/sdk5/log?method=webviewLoadBlank
+https://www.supersonicads.com/mobile/sdk5/log?method=webviewLoadWithPath
+https://www.supersonicads.com/mobile/sdk5/log?method=htmlControllerDoesNotExistOnFileSystem
+https://www.supersonicads.com/mobile/sdk5/log?method=webviewPause
+https://www.supersonicads.com/mobile/sdk5/log?method=webviewResume
+https://px.moatads.com/pixel.gif?e=0&i=MOATSDK1&ac=1
+https://z.moatads.com/
+https://ads.mopub.com/
+https://twitter.com/%s/status/%s
+http://ads.krmobi.com/search.php
+http://adbsc.krmobi.com/dzzb
+http://adbsc.krmobi.com/dzzb
+http://adbsc.krmobi.com/dzzb
+http://adbsc.krmobi.com/dzzb
+http://adbsc.krmobi.com/dzzb
+http://adbsc.krmobi.com/dzzb
+http://adbsc.krmobi.com/adbc?
+https://www.mopub.com/optout
+https://www.mopub.com/optout/
+https://www.mopub.com/optout/
+http://realtime.icecyber.org/realtime?p=
+http://ak.icecyber.org/rule?
+http://ads.mopub.com
+https://ads.mopub.com
+http://rqd.uu.qq.com/rqd/sync
+http://android.bugly.qq.com/rqd/async
+http://pingma.qq.com:80/mstat/report
+https://plbslog.umeng.com
+https://ouplog.umeng.com
+https://ulogs.umeng.com/unify_logs
+https://ulogs.umengcloud.com/unify_logs
+https://alogus.umeng.com/unify_logs
+https://alogsus.umeng.com/unify_logs
+https://cmnsguider.yunos.com:443/genDeviceToken
+https://developer.umeng.com/docs/66632/detail/
+https://config.unityads.unity3d.com/webview/
+
+[INTERNAL_LOG][2018-06-12 04:57:24,025][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 04:57:24,032][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 04:57:24,032][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 04:57:24,032][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 04:57:24,032][INFO][analyze_start()] End time:[Tue Jun 12 04:57:24 2018]

@@ -1,0 +1,48 @@
+[INTERNAL_LOG][2018-06-08 03:28:54,544][INFO][analyze_start()] Init Time [Fri Jun  8 03:28:54 2018]
+[INTERNAL_LOG][2018-06-08 03:28:54,672][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-08 03:28:54,674][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-08 03:28:54,674][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-08 03:28:54,674][INFO][is_hybird()] android.permission.SET_ORIENTATION
+[INTERNAL_LOG][2018-06-08 03:28:54,674][INFO][is_hybird()] android.permission.DEVICE_POWER
+[INTERNAL_LOG][2018-06-08 03:28:54,674][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-08 03:28:54,674][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-08 03:28:54,674][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-08 03:28:54,674][INFO][is_hybird()] android.permission.GET_TASKS
+[INTERNAL_LOG][2018-06-08 03:28:54,674][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-08 03:28:54,674][INFO][is_hybird()] com.android.vending.CHECK_LICENSE
+[INTERNAL_LOG][2018-06-08 03:28:54,674][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-08 03:28:54,674][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-08 03:28:54,674][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-08 03:28:54,674][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-08 03:28:54,674][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-08 03:28:54,674][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-08 03:28:54,674][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-08 03:28:54,674][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-08 03:28:54,674][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-08 03:28:54,674][INFO][is_hybird()] com.android.vending.CHECK_LICENSE
+[INTERNAL_LOG][2018-06-08 03:28:54,675][INFO][is_hybird()] com.android.vending.CHECK_LICENSE
+[INTERNAL_LOG][2018-06-08 03:28:54,675][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-08 03:28:54,675][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-08 03:28:54,675][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-08 03:28:54,675][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-08 03:28:54,675][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-08 03:28:54,675][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-08 03:28:54,675][INFO][is_hybird()] com.theonegames.gunshipbattle.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-08 03:28:54,675][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-08 03:28:54,675][INFO][is_hybird()] com.google.android.c2dm.permission.REGISTRATION
+[INTERNAL_LOG][2018-06-08 03:28:54,675][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-08 03:28:54,675][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-08 03:28:54,675][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-08 03:28:54,675][INFO][is_hybird()] android.permission.RECORD_AUDIO
+[INTERNAL_LOG][2018-06-08 03:28:54,675][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-08 03:28:54,675][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-08 03:28:54,675][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-08 03:28:54,675][INFO][find_string()] File: js/closebutton.html
+[INTERNAL_LOG][2018-06-08 03:28:54,676][INFO][find_string()] No iframe in js/closebutton.html
+[INTERNAL_LOG][2018-06-08 03:28:54,676][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-08 03:29:08,020][ERROR][run()] Error decompiler Invalid Instruction for 0x200:bytearray(b"\x00\x02 \xb0J\x81IQx\x97\xbf\x08\x1b u\xb0\xa3\xb2\x814\x1bv\x8d%C\xba2\xc5(\xba\'\xbdC\xa2") 
+
+[INTERNAL_LOG][2018-06-08 03:29:08,496][ERROR][analyze_start()] Some error during decompilation.

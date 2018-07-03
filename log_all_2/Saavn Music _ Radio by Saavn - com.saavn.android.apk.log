@@ -1,0 +1,214 @@
+[INTERNAL_LOG][2018-06-12 00:13:04,641][INFO][analyze_start()] Init Time [Tue Jun 12 00:13:04 2018]
+[INTERNAL_LOG][2018-06-12 00:13:06,036][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 00:13:06,037][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 00:13:06,037][INFO][is_hybird()] android.permission.MODIFY_AUDIO_SETTINGS
+[INTERNAL_LOG][2018-06-12 00:13:06,037][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 00:13:06,037][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-12 00:13:06,037][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 00:13:06,037][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 00:13:06,037][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 00:13:06,037][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 00:13:06,037][INFO][is_hybird()] android.permission.READ_PHONE_STATE
+[INTERNAL_LOG][2018-06-12 00:13:06,037][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-12 00:13:06,037][INFO][is_hybird()] com.google.android.gms.permission.ACTIVITY_RECOGNITION
+[INTERNAL_LOG][2018-06-12 00:13:06,038][INFO][is_hybird()] com.saavn.android.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-12 00:13:06,038][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-12 00:13:06,038][INFO][is_hybird()] android.permission.RECEIVE_SMS
+[INTERNAL_LOG][2018-06-12 00:13:06,038][INFO][is_hybird()] android.permission.RECORD_AUDIO
+[INTERNAL_LOG][2018-06-12 00:13:06,038][INFO][is_hybird()] android.permission.ACCESS_COARSE_LOCATION
+[INTERNAL_LOG][2018-06-12 00:13:06,038][INFO][is_hybird()] android.permission.DOWNLOAD_WITHOUT_NOTIFICATION
+[INTERNAL_LOG][2018-06-12 00:13:06,038][INFO][is_hybird()] com.saavn.android.PAYMENT_BROADCAST_PERMISSION
+[INTERNAL_LOG][2018-06-12 00:13:06,038][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 00:13:06,038][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 00:13:06,038][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 00:13:06,038][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 00:13:06,038][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 00:13:06,038][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 00:13:46,196][INFO][find_url_in_apk()] [START URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-12 00:13:46,197][INFO][find_url_in_apk()] https://sdk.starbolt.io/dist/tagInterstitialAndroid.html
+https://sdk.starbolt.io/dist/tagVideoAndroid.html
+https://sdk.starbolt.io/dist/waterfall/waterfall.html
+http://www.saavn.com/maintenance.html
+
+[INTERNAL_LOG][2018-06-12 00:13:46,197][INFO][find_url_in_apk()] [END URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-12 00:13:48,915][INFO][find_string()] [START REMOTE FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 00:13:48,915][INFO][find_string()] Remote File in: temp_html_code/html_downloaded_Saavn Music _ Radio by Saavn - com/tagInterstitialAndroid.html
+[INTERNAL_LOG][2018-06-12 00:13:48,915][INFO][find_string()] URL: https://sdk.starbolt.io/dist/tagInterstitialAndroid.html
+[INTERNAL_LOG][2018-06-12 00:13:48,916][INFO][find_string()] No iframe in temp_html_code/html_downloaded_Saavn Music _ Radio by Saavn - com/tagInterstitialAndroid.html
+[INTERNAL_LOG][2018-06-12 00:13:48,916][INFO][find_string()] Remote File in: temp_html_code/html_downloaded_Saavn Music _ Radio by Saavn - com/tagVideoAndroid.html
+[INTERNAL_LOG][2018-06-12 00:13:48,916][INFO][find_string()] URL: https://sdk.starbolt.io/dist/tagVideoAndroid.html
+[INTERNAL_LOG][2018-06-12 00:13:48,917][INFO][find_string()] No iframe in temp_html_code/html_downloaded_Saavn Music _ Radio by Saavn - com/tagVideoAndroid.html
+[INTERNAL_LOG][2018-06-12 00:13:48,917][INFO][find_string()] Remote File in: temp_html_code/html_downloaded_Saavn Music _ Radio by Saavn - com/waterfall.html
+[INTERNAL_LOG][2018-06-12 00:13:48,917][INFO][find_string()] URL: https://sdk.starbolt.io/dist/waterfall/waterfall.html
+[INTERNAL_LOG][2018-06-12 00:13:48,917][INFO][find_string()] No iframe in temp_html_code/html_downloaded_Saavn Music _ Radio by Saavn - com/waterfall.html
+[INTERNAL_LOG][2018-06-12 00:13:48,917][INFO][find_string()] Remote File in: temp_html_code/html_downloaded_Saavn Music _ Radio by Saavn - com/maintenance.html
+[INTERNAL_LOG][2018-06-12 00:13:48,917][INFO][find_string()] URL: http://www.saavn.com/maintenance.html
+[INTERNAL_LOG][2018-06-12 00:13:48,918][INFO][find_string()] No iframe in temp_html_code/html_downloaded_Saavn Music _ Radio by Saavn - com/maintenance.html
+[INTERNAL_LOG][2018-06-12 00:13:48,918][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 00:13:48,918][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 00:13:48,918][INFO][find_url_in_apk()] https://www.facebook.com/
+https://www.facebook.com/
+https://www.facebook.com/
+https://www.%s.facebook.com
+https://www.%s.facebook.com
+https://www.%s.facebook.com
+http://schemas.android.com/apk/lib/com.inmobi.ads
+http://schemas.android.com/apk/lib/com.inmobi.ads
+http://schemas.android.com/apk/lib/com.mobfox.sdk
+https://sdk.starbolt.io/waterfalls.json
+https://dmp.starbolt.io/logger.json
+http://sdk-logs.matomy.com:12201/gelf
+http://sdk-logs.matomy.com:12201/gelf
+https://devices.starbolt.io/
+https://sdk.starbolt.io/dist/tagInterstitialAndroid.html
+https://sdk.starbolt.io/dist/tagVideoAndroid.html
+https://sdk.starbolt.io/dist/waterfall/waterfall.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://csi.gstatic.com/csi
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/native_ads.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/native_video_ads.html
+https://www.google.com/dfp/linkDevice
+https://www.google.com/dfp/inAppPreview
+https://www.google.com/dfp/debugSignals
+https://www.google.com/dfp/sendDebugData
+https://pagead2.googlesyndication.com/pagead/gen_204
+http://www.google.com
+https://support.google.com/dfp_premium/answer/7160685#push
+https://graph.facebook.com/network_ads_common
+https://graph.%s.facebook.com/network_ads_common
+https://www.facebook.com/adnw_logging/
+https://www.%s.facebook.com/adnw_logging/
+http://www.facebook.com
+http://schemas.microsoft.com/DRM/2007/03/protocols/AcquireLicense
+https://sdk.starbolt.io/dist/tagBanner.html
+https://sdk.starbolt.io/dist/tagBanner.html
+https://sdk.starbolt.io/
+https://sdk.starbolt.io/
+https://sdk.starbolt.io/
+http://www.example.com
+http://www.example.com
+http://m.facebook.com/ads/ad_choices
+http://m.facebook.com/ads/ad_choices
+http://schemas.android.com/apk/res/android
+https://sb.scorecardresearch.com/p2?
+https://sb.scorecardresearch.com/p2?
+http://b.scorecardresearch.com/p2?
+http://b.scorecardresearch.com/p2?
+https://udm.scorecardresearch.com/offline
+http://udm.scorecardresearch.com/offline
+https://graph-video.%s
+https://graph.%s
+https://facebook.com
+https://imasdk.googleapis.com/native/sdkloader/native_sdk_v3.html
+https://i.l.inmobicdn.net/sdk/sdk/500/android/mraid.js
+http://www.inmobi.com/products/sdk/#downloads
+https://sdkm.w.inmobi.com/metrics/e.asm?v=1&
+https://www.facebook.com/dialog/feed?app_id=181821551957328&link=
+https://m.google.com/app/plus/x/?v=compose&content=
+http://twitter.com/home?status=
+http://dock.inmobi.com/carb/v1/i
+http://dock.inmobi.com/carb/v1/o
+https://sdkm.w.inmobi.com/user/e.asm
+https://z.moatads.com/
+http://pay.fortumo.com/mobile_widget
+https://a.fortumo.com/
+https://a.fortumo.com/
+https://a.fortumo.com/
+https://api.fortumo.com/
+https://wutlar.fortumo.com/
+http://pubads.g.doubleclick.net/gampad/ads?iu=
+https://secure.paytm.in/oltp/HANDLER_INTERNAL/TXNSTATUS
+https://secure.paytm.in/oltp-web/generateChecksum
+https://secure.paytm.in/oltp/HANDLER_INTERNAL/CANCEL_TXN
+https://secure.paytm.in/oltp-web/processTransaction
+http://www.saavn.com
+http://www.saavn.com
+http://www.saavn.com
+http://www.saavn.com
+http://www.saavn.com
+http://www.saavn.com
+http://lt303.tritondigital.com/lt_mobile/1.0/start/
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+http://lt303.tritondigital.com/lt_mobile/1.0/create_listenerid/28929
+http://lt303.tritondigital.com/lt_mobile/1.0/burst/
+https://play.google.com/store/apps/details?id=com.google.android.gms
+https://www.saavn.com
+http://graph.facebook.com/
+http://graph.facebook.com/
+http://graph.facebook.com/
+http://graph.facebook.com/
+https://www.saavn.com/login.php?action=forgot
+https://www.saavn.com/login.php?action=forgot
+http://saavn.com
+http://saavn.com
+http://saavn.com
+https://www.saavn.com/api.php?__call=partner.generateChecksum&_format=json&_marker=0
+https://www.saavn.com/api.php?__call=partner.verifyChecksum
+http://www.saavn.com/p/playlist/phulki_user/
+http://saa.vn/terms
+http://help.saavn.com
+http://www.saavn.com/mobile
+http://www.saavn.com/mobile
+http://www.saavn.com/mobile #OurSoundtrack
+https://settings.crashlytics.com/spi/v2/platforms/android/apps/%s/settings
+https://om.olacabs.com/olamoney/webview/index.html
+http://www.saavn.com/corporate/terms
+http://www.saavn.com/corporate/privacy
+http://qa.saavn.com/_i/share-image.png
+http://static.saavncdn.com/_i/share-image.png
+https://www.saavn.com/pro
+http://www.saavn.com/play/random
+http://saa.vn/rights
+https://e.crashlytics.com/spi/v2/events
+https://plus.google.com/
+http://www.google-analytics.com
+https://ssl.google-analytics.com
+https://onelink.%s/shortlink-sdk/v1
+https://attr.%s/api/v
+https://t.%s/api/v
+https://events.%s/api/v
+https://register.%s/api/v
+https://stats.%s/stats
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+https://graph.accountkit.com
+https://crashlytics.com/register/%s/android/%s
+http://www.dom.com/path?
+http://www.w3.org/ns/ttml#parameter
+http://i.w.inmobi.com/showad.asm
+https://sdktm.w.inmobi.com/sdkpubreq
+http://config.inmobi.com/config-server/v1/config/secure.cfg
+https://mobile-static.adsafeprotected.com/avid-v2.js
+https://accounts.google.com
+https://accounts.google.com
+https://api.%s/install_data/v3/
+https://www.googleapis.com/auth/games
+https://www.accountkit.com/faq
+https://www.accountkit.com/faq
+https://www.accountkit.com/faq
+https://m.facebook.com/terms
+https://m.facebook.com/terms
+https://m.facebook.com/about/privacy/
+https://m.facebook.com/about/privacy/
+https://m.facebook.com/policies/cookies/
+https://m.facebook.com/policies/cookies/
+http://www.saavn.com/maintenance.html
+
+[INTERNAL_LOG][2018-06-12 00:13:48,918][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 00:13:48,933][ERROR][check_method_conf()] Exception during check method used 'NoneType' object is not iterable
+[INTERNAL_LOG][2018-06-12 00:13:48,948][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 00:13:48,948][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 00:13:48,948][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 00:13:48,948][INFO][analyze_start()] End time:[Tue Jun 12 00:13:48 2018]

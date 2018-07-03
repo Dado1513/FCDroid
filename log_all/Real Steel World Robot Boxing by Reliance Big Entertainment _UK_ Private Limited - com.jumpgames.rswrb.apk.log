@@ -1,0 +1,160 @@
+[INTERNAL_LOG][2018-06-08 02:01:45,204][INFO][analyze_start()] Init Time [Fri Jun  8 02:01:45 2018]
+[INTERNAL_LOG][2018-06-08 02:01:45,273][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-08 02:01:45,274][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-08 02:01:45,274][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-08 02:01:45,274][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-08 02:01:45,274][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-08 02:01:45,274][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-08 02:01:45,274][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-08 02:01:45,274][INFO][is_hybird()] com.android.vending.CHECK_LICENSE
+[INTERNAL_LOG][2018-06-08 02:01:45,274][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-08 02:01:45,274][INFO][is_hybird()] android.permission.BLUETOOTH_ADMIN
+[INTERNAL_LOG][2018-06-08 02:01:45,274][INFO][is_hybird()] android.permission.BLUETOOTH
+[INTERNAL_LOG][2018-06-08 02:01:45,274][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-08 02:01:45,274][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-08 02:01:45,274][INFO][is_hybird()] com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+[INTERNAL_LOG][2018-06-08 02:01:45,274][INFO][is_hybird()] com.jumpgames.rswrb.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-08 02:01:45,274][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-08 02:01:45,274][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-08 02:01:45,275][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-08 02:01:45,275][INFO][find_string()] File: assets/js/closebutton.html
+[INTERNAL_LOG][2018-06-08 02:01:45,275][INFO][find_string()] No iframe in assets/js/closebutton.html
+[INTERNAL_LOG][2018-06-08 02:01:45,275][INFO][find_string()] File: assets/mraid_test/mraid_test_custom_scheme_response_time_page.html
+[INTERNAL_LOG][2018-06-08 02:01:45,276][INFO][find_string()] No iframe in assets/mraid_test/mraid_test_custom_scheme_response_time_page.html
+[INTERNAL_LOG][2018-06-08 02:01:45,276][INFO][find_string()] File: assets/mraid_test/mraid_test_video_page.html
+[INTERNAL_LOG][2018-06-08 02:01:45,277][INFO][find_string()] No iframe in assets/mraid_test/mraid_test_video_page.html
+[INTERNAL_LOG][2018-06-08 02:01:45,277][INFO][find_string()] File: assets/transperantpage.html
+[INTERNAL_LOG][2018-06-08 02:01:45,278][INFO][find_string()] No iframe in assets/transperantpage.html
+[INTERNAL_LOG][2018-06-08 02:01:45,278][INFO][find_string()] File: assets/videoTest.html
+[INTERNAL_LOG][2018-06-08 02:01:45,279][INFO][find_string()] No iframe in assets/videoTest.html
+[INTERNAL_LOG][2018-06-08 02:01:45,279][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-08 02:02:26,847][INFO][find_url_in_apk()] [START URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-08 02:02:26,847][INFO][find_url_in_apk()] http://staging.reliancegames.com/forceupdate/forceupdate.html
+
+[INTERNAL_LOG][2018-06-08 02:02:26,847][INFO][find_url_in_apk()] [END URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-08 02:02:27,273][INFO][find_string()] [START REMOTE FILE ANALYZE]
+[INTERNAL_LOG][2018-06-08 02:02:27,273][INFO][find_string()] Remote File in: temp_html_code/html_downloaded_Real Steel World Robot Boxing by Reliance Big Entertainment _UK_ Private Limited - com/forceupdate.html
+[INTERNAL_LOG][2018-06-08 02:02:27,274][INFO][find_string()] URL: http://staging.reliancegames.com/forceupdate/forceupdate.html
+[INTERNAL_LOG][2018-06-08 02:02:27,278][INFO][find_string()] No iframe in temp_html_code/html_downloaded_Real Steel World Robot Boxing by Reliance Big Entertainment _UK_ Private Limited - com/forceupdate.html
+[INTERNAL_LOG][2018-06-08 02:02:27,278][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-08 02:02:27,279][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-08 02:02:27,279][INFO][find_url_in_apk()] https://adc3-launch-server-staging.herokuapp.com/v4/launch
+https://adc3-launch.adcolony.com/v4/launch
+https://adc3-launch.adcolony.com/v4/launch
+https://wd.adcolony.com/logs
+http://www.amazon.com/gp/mas/get-appstore/android/ref=mas_mx_mba_iap_dl
+https://api.%s/install_data/v3/
+https://attr.%s/api/v
+https://t.%s/api/v
+https://events.%s/api/v
+https://register.%s/api/v
+https://stats.%s/stats
+https://onelink.%s/shortlink-sdk/v1
+https://onelink.%s/shortlink-sdk/v1
+https://validate.%s/api/v
+https://sdk-services.%s/validate-android-signature
+https://app.%s
+https://app.%s
+https://impression.%s
+https://monitorsdk.%s/remote-debug?app_id=
+https://graph.%s
+https://graph-video.%s
+https://facebook.com
+https://facebook.com/device?user_code=%1$s&qr=1
+http://play.google.com/store/apps/details?id=com.facebook.orca
+https://ads.flurry.com/v6/getAds.do
+http://ads.flurry.com/v6/getAds.do
+https://adlog.flurry.com
+http://adlog.flurry.com
+http://data.flurry.com/aap.do
+https://data.flurry.com/aap.do
+https://play.google.com/store/apps/details?id=
+https://market.android.com/details?id=
+http://www.google-analytics.com/collect
+http://www.google-analytics.com/collect
+https://ssl.google-analytics.com/collect
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+https://accounts.google.com
+https://www.facebook.com
+http://plus.google.com/
+https://www.googleapis.com/auth/drive.file
+https://www.googleapis.com/auth/drive.appdata
+https://www.googleapis.com/auth/drive
+https://www.googleapis.com/auth/drive.apps
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games.firstparty
+https://www.googleapis.com/auth/games.firstparty
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://csi.gstatic.com/csi
+https://www.google.com/dfp/linkDevice
+https://www.google.com/dfp/inAppPreview
+https://www.google.com/dfp/debugSignals
+https://www.google.com/dfp/sendDebugData
+http://www.example.com
+http://www.example.com
+https://pagead2.googlesyndication.com/pagead/gen_204
+https://www.supersonicads.com/mobile/sdk5/log?method=
+https://www.supersonicads.com/mobile/sdk5/log?method=
+https://www.supersonicads.com/mobile/sdk5/log?method=
+https://www.supersonicads.com/mobile/sdk5/log?method=
+https://www.supersonicads.com/mobile/sdk5/log?method=
+https://www.supersonicads.com/mobile/sdk5/log?method=
+https://www.supersonicads.com/mobile/sdk5/log?method=
+https://www.supersonicads.com/mobile/sdk5/log?method=
+https://www.supersonicads.com/mobile/sdk5/log?method=extraParametersToJson
+https://www.supersonicads.com/mobile/sdk5/log?method=noProductType
+https://www.supersonicads.com/mobile/sdk5/log?method=encodeAppUserId
+https://www.supersonicads.com/mobile/sdk5/log?method=encodeAppKey
+https://www.supersonicads.com/mobile/sdk5/log?method=webviewLoadBlank
+https://www.supersonicads.com/mobile/sdk5/log?method=webviewLoadWithPath
+https://www.supersonicads.com/mobile/sdk5/log?method=htmlControllerDoesNotExistOnFileSystem
+https://www.supersonicads.com/mobile/sdk5/log?method=webviewPause
+https://www.supersonicads.com/mobile/sdk5/log?method=webviewResume
+http://staging.reliancegames.com/forceupdate/forceupdate.html
+https://ads.api.vungle.com/config
+https://api.vungle.com/api/v4/unfilled
+https://ingest.vungle.com/api/v1/sdkErrors
+https://ingest.vungle.com/
+http://www.google.com
+https://www.googletagmanager.com
+http://hostname/?
+https://track.atom-data.io
+https://track.atom-data.io
+https://track.atom-data.io
+https://outcome.supersonicads.com/mediation/
+https://outcome.supersonicads.com/mediation/
+https://mobilelogs.supersonic.com
+https://mobilelogs.supersonic.com
+https://init.supersonicads.com/sdk/v
+https://www.supersonicads.com/mobile/sdk5/log?method=injectJavaScript
+https://px.moatads.com/pixel.gif?e=0&i=MOATSDK1&ac=1
+https://z.moatads.com/
+https://z.moatads.com/
+https://global.reliancegames.com/DataTracking/data_android1.0.php
+http://cdnbase.reliancegames.com/reliancegames/assetbundle/sandbox/DRN2_GP_GL_F/0.1.33/201606281037965_tier1scenes_1.unity3d
+http://pushbubblypop.reliancegames.com/BubblyPop/
+http://192.168.9.62:8080/GCM-App-Server/GCMNotification?shareRegId=1
+https://clients1.reliancegames.com/date.txt
+https://config.unityads.unity3d.com/webview/
+https://www.vungle.com/privacy/
+https://www.vungle.com/privacy/
+http://lol.vungle.com/
+http://localhost/
+http://localhost/
+http://localhost/
+
+[INTERNAL_LOG][2018-06-08 02:02:27,279][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-08 02:02:27,309][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-08 02:02:27,309][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-08 02:02:27,309][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-08 02:02:27,309][INFO][analyze_start()] End time:[Fri Jun  8 02:02:27 2018]

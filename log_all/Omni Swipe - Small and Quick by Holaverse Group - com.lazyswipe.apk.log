@@ -1,0 +1,225 @@
+[INTERNAL_LOG][2018-06-08 02:13:01,887][INFO][analyze_start()] Init Time [Fri Jun  8 02:13:01 2018]
+[INTERNAL_LOG][2018-06-08 02:13:01,922][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-08 02:13:01,923][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-08 02:13:01,923][INFO][is_hybird()] com.android.launcher.permission.INSTALL_SHORTCUT
+[INTERNAL_LOG][2018-06-08 02:13:01,923][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-08 02:13:01,923][INFO][is_hybird()] android.permission.ACCESS_COARSE_LOCATION
+[INTERNAL_LOG][2018-06-08 02:13:01,923][INFO][is_hybird()] android.permission.SYSTEM_ALERT_WINDOW
+[INTERNAL_LOG][2018-06-08 02:13:01,923][INFO][is_hybird()] android.permission.GET_TASKS
+[INTERNAL_LOG][2018-06-08 02:13:01,923][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-08 02:13:01,923][INFO][is_hybird()] android.permission.RECEIVE_BOOT_COMPLETED
+[INTERNAL_LOG][2018-06-08 02:13:01,924][INFO][is_hybird()] android.permission.READ_PHONE_STATE
+[INTERNAL_LOG][2018-06-08 02:13:01,924][INFO][is_hybird()] android.permission.BLUETOOTH
+[INTERNAL_LOG][2018-06-08 02:13:01,924][INFO][is_hybird()] android.permission.BLUETOOTH_ADMIN
+[INTERNAL_LOG][2018-06-08 02:13:01,924][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-08 02:13:01,924][INFO][is_hybird()] android.permission.CHANGE_NETWORK_STATE
+[INTERNAL_LOG][2018-06-08 02:13:01,924][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-08 02:13:01,924][INFO][is_hybird()] android.permission.CHANGE_WIFI_STATE
+[INTERNAL_LOG][2018-06-08 02:13:01,924][INFO][is_hybird()] android.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-08 02:13:01,924][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-08 02:13:01,924][INFO][is_hybird()] android.permission.CAMERA
+[INTERNAL_LOG][2018-06-08 02:13:01,924][INFO][is_hybird()] android.permission.FLASHLIGHT
+[INTERNAL_LOG][2018-06-08 02:13:01,924][INFO][is_hybird()] android.permission.KILL_BACKGROUND_PROCESSES
+[INTERNAL_LOG][2018-06-08 02:13:01,924][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-08 02:13:01,924][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-08 02:13:01,924][INFO][is_hybird()] android.permission.DISABLE_KEYGUARD
+[INTERNAL_LOG][2018-06-08 02:13:01,924][INFO][is_hybird()] android.permission.RECEIVE_SMS
+[INTERNAL_LOG][2018-06-08 02:13:01,924][INFO][is_hybird()] android.permission.ACCESS_FINE_LOCATION
+[INTERNAL_LOG][2018-06-08 02:13:01,924][INFO][is_hybird()] android.permission.PACKAGE_USAGE_STATS
+[INTERNAL_LOG][2018-06-08 02:13:01,924][INFO][is_hybird()] android.permission.READ_SMS
+[INTERNAL_LOG][2018-06-08 02:13:01,924][INFO][is_hybird()] android.permission.READ_CONTACTS
+[INTERNAL_LOG][2018-06-08 02:13:01,924][INFO][is_hybird()] android.permission.READ_CALL_LOG
+[INTERNAL_LOG][2018-06-08 02:13:01,924][INFO][is_hybird()] android.permission.CALL_PHONE
+[INTERNAL_LOG][2018-06-08 02:13:01,924][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-08 02:13:01,932][INFO][is_hybird()] android.permission.SET_WALLPAPER
+[INTERNAL_LOG][2018-06-08 02:13:01,932][INFO][is_hybird()] android.permission.READ_LOGS
+[INTERNAL_LOG][2018-06-08 02:13:01,932][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-08 02:13:01,946][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-08 02:13:01,946][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-08 02:13:01,946][INFO][find_string()] File: assets/html/omni_search.html
+[INTERNAL_LOG][2018-06-08 02:13:01,949][INFO][find_string()] No iframe in assets/html/omni_search.html
+[INTERNAL_LOG][2018-06-08 02:13:01,949][INFO][find_string()] File: js/closebutton.html
+[INTERNAL_LOG][2018-06-08 02:13:01,950][INFO][find_string()] No iframe in js/closebutton.html
+[INTERNAL_LOG][2018-06-08 02:13:01,950][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-08 02:13:28,999][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-08 02:13:28,999][INFO][find_url_in_apk()] https://ups.ksmobile.net/csk_search/getversions.php
+http://dl.cm.ksmobile.com/static/res/fixed/d7/cskconfigurations.json
+http://extern.yahoo.com/c?
+http://extern.yahoo.com/b?
+http://stat.haloapps.com/install
+http://st.holalauncher.com/r
+http://st.holaworld.cn/r
+http://gbsta.haloall.com/err
+http://sta.haloall.com/err
+http://dh.holalauncher.com/l/api/log/operate/write
+http://dh.holalauncher.com/l/api/log/operate/write
+http://log.test.qiigame.com/l/api/log/operate/write
+http://log.test.qiigame.com/l/api/log/operate/write
+http://dh.holaworld.cn/l/api/log/operate/write
+http://dh.holaworld.cn/l/api/log/operate/write
+http://dc.holalauncher.com/l/api/eventCollectRule/rule
+http://log.test.qiigame.com/l/api/eventCollectRule/rule
+http://dc.holaworld.cn/l/api/eventCollectRule/rule
+http://mo.haloapps.com/ad/api/log/ad/write
+http://mo.haloapps.com/ad/api/log/ad/write
+http://mo.test.haloapps.com/ad/api/log/ad/write
+http://mo.test.haloapps.com/ad/api/log/ad/write
+http://mo.haloapps.cn/ad/api/log/ad/write
+http://mo.haloapps.cn/ad/api/log/ad/write
+http://dr.holaworld.cn/l/api/log/timely/write
+http://dr.holaworld.cn/l/api/log/timely/write
+http://log.test.qiigame.com/l/api/log/timely/write
+http://log.test.qiigame.com/l/api/log/timely/write
+http://dr.holalauncher.com/l/api/log/timely/write
+http://dr.holalauncher.com/l/api/log/timely/write
+http://api.mobula.sdk.duapps.com/adunion/slot/getDlAd?
+http://api.mobula.sdk.duapps.com/adunion/rtb/getInmobiAd?
+http://api.mobula.sdk.duapps.com/adunion/rtb/fetchAd?
+http://market.
+https://market.
+https://play.
+http://play.
+http://api.mobula.sdk.duapps.com/adunion/slot/getSrcPrio?
+http://rts.mobula.sdk.duapps.com/orts/rp?
+http://rts.mobula.sdk.duapps.com/orts/rpb?
+http://g.s.360.cn
+http://gc.s.360.cn
+http://api.ad.holalauncher.com/ads/adwall?
+http://cfg.holalauncher.com/json?filename=app_wall&pid=
+http://54.245.13.36/general/redirect?
+http://i.holalauncher.com/ad?
+http://i.holalauncher.com/ad?
+http://i.holalauncher.com/oa?
+http://i.holalauncher.com/oa?spa=
+http://i.holalauncher.com/spads?
+http://i.holalauncher.com/spads?
+http://adapi.holalauncher.com/impression?accessID=%s&deliveryID=%s&traceID=%s
+http://adapi.holalauncher.com/click?accessID=%s&deliveryID=%s&traceID=%s
+http://114.215.42.45:9000/
+http://cfg.holalauncher.com/
+http://adapi.holalauncher.com/fetch?placement=%s&net=%s&pkg=%s&pkgver=%s&isgp=%s&gaid=%s&isfb=%s&imei=%s&osver=%s&instime=%s&memory=%s&country=%s&language=%s&channel=%s&brand=%s&model=%s&os=%s&romver=%s
+http://cfg.holalauncher.com/main?a=%s&v=%s&s=%s&gp=%s&gs=%s&fb=%s&uid=%s
+http://v.holalauncher.com:8682/config
+http://a.lazyswipe.com/clients/options
+http://a.lazyswipe.com/banners
+http://a.lazyswipe.com/feedbacks/send
+http://a.lazyswipe.com/users/activate
+http://www.google.com/search?q=
+http://i.holalauncher.com/ads?
+http://www.lazyswipe.com
+http://i.holalauncher.com/adscfg?a=%1$s&v=%2$d&s=%3$s&gp=%4$d&gs=%5$d&fb=%6$d&uid=%7$s&hash=%8$s
+http://o.holalauncher.com/v1/e.php?p=1
+http://o.holalauncher.com/v1/e.php?p=2
+http://i.holalauncher.com/games?latest=1&
+http://res.lazyswipe.com/picture/float_clean.zip
+http://reward.holalauncher.com/broadcast/latest
+http://reward.holalauncher.com/award/precondition?
+http://reward.holalauncher.com/account/is_banned?d=
+http://reward.holalauncher.com/award/config/get
+http://reward.holalauncher.com/earn?d=
+http://reward.holalauncher.com/account/create
+http://reward.holalauncher.com/award
+http://reward.holalauncher.com/award/history?d=
+http://a.holalauncher.com/notices/news?w=
+http://a.holalauncher.com/notices?w=
+http://tq.holalauncher.com/
+http://tq.holalauncher.com/
+http://tq.holalauncher.com/
+http://cfg.holalauncher.com/json?pid=%s&filename=charge&country=%s&channel=%s&versionCode=%s
+http://a.holalauncher.com/offers?lang=%s&androidVer=%s&ver=%s
+http://a.lazyswipe.com/
+http://a.holalauncher.com
+http://gift.lazyswipe.com/img20150319hola/
+http://a.holalauncher.com/site/popular?
+http://i.holalauncher.com/tkw?
+http://a.holalauncher.com/hotwords?
+http://a.holalauncher.com/holasearch/setting?
+http://i.holalauncher.com/se?
+http://a.lazyswipe.com//splashs?w=%s&pcode=%s&vcode=%s
+http://res.lazyswipe.com/themes/all_in_one.jpg
+http://res.lazyswipe.com/themes/
+http://a.lazyswipe.com/themes
+http://a.lazyswipe.com//clients/upgrade?
+https://play.google.com/store/apps/details?id=com.lazyswipe
+http://a.lazyswipe.com//clients/latest?pid=400105&channel=90003
+https://play.google.com/store/apps/details
+http://a.holalauncher.com/clients/latest?pid=400102&channel=90004
+http://www.facebook.com/holaverse
+https://z.moatads.com/
+https://itunes.apple.com
+http://play.google.com/store/apps/details?id=
+http://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=%s
+https://www.facebook.com/audience_network/server_side_reward
+https://www.%s.facebook.com/audience_network/server_side_reward
+https://graph.facebook.com/network_ads_common
+https://graph.%s.facebook.com/network_ads_common
+https://www.facebook.com/adnw_logging/
+https://www.%s.facebook.com/adnw_logging/
+http://play.google.com/store/apps/
+https://www.facebook.com/
+https://www.%s.facebook.com
+http://www.facebook.com
+http://data.flurry.com/aap.do
+https://data.flurry.com/aap.do
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+http://plus.google.com/
+http://www.example.com
+http://www.example.com
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://csi.gstatic.com/csi
+https://www.google.com/dfp/linkDevice
+https://www.google.com/dfp/inAppPreview
+https://www.google.com/dfp/debugSignals
+https://www.google.com/dfp/sendDebugData
+https://pagead2.googlesyndication.com/pagead/gen_204
+http://www.google.com
+http://www.google.com/m
+http://www.lazyswipe.com/uninstall_en.html
+http://reward.holalauncher.com/sku/list?d=
+http://reward.holalauncher.com/redeem?d=
+http://www.omniswipe.com/privacy/tos.html
+http://www.omniswipe.com/privacy/tos.html
+http://www.omniswipe.com/privacy/tos.html
+http://www.mysearch.com
+http://www.lazyswipe.com/help.html?lang=
+http://analytics.rayjump.com
+http://net.rayjump.com
+http://setting.rayjump.com
+https://play.google.com/
+https://play.google.com/
+https://play.google.com/
+https://ws.tapjoyads.com/
+https://ws.tapjoyads.com/
+https://ws.tapjoyads.com/
+https://rpc.tapjoy.com/
+https://rpc.tapjoy.com/
+https://connect.tapjoy.com/
+https://connect.tapjoy.com/
+https://placements.tapjoy.com/
+https://analytics.mopub.com/i/jot/exchange_client_event
+https://twitter.com/%s/status/%s
+https://www.mopub.com/optout
+http://p.s.360.cn/pstat/plog.php
+http://p.s.360.cn/update/update.php
+http://f.s.360.cn/msl/sdk/function.gif
+http://f.s.360.cn/update/update.gif
+http://sdk.s.360.cn/ak/
+http://extern.yahoo.com/b
+http://extern.yahoo.com/c
+http://extern.yahoo.com/p
+https://syndication.site.yahoo.net/sapps/api/v1
+
+[INTERNAL_LOG][2018-06-08 02:13:28,999][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-08 02:13:29,001][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-08 02:13:29,002][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-08 02:13:29,002][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-08 02:13:29,002][INFO][analyze_start()] End time:[Fri Jun  8 02:13:28 2018]

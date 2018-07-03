@@ -1,0 +1,149 @@
+[INTERNAL_LOG][2018-06-12 08:03:14,874][INFO][analyze_start()] Init Time [Tue Jun 12 08:03:14 2018]
+[INTERNAL_LOG][2018-06-12 08:03:14,915][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 08:03:14,916][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 08:03:14,916][INFO][is_hybird()] android.permission.ACCESS_COARSE_LOCATION
+[INTERNAL_LOG][2018-06-12 08:03:14,916][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-12 08:03:14,916][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 08:03:14,916][INFO][is_hybird()] android.permission.REQUEST_INSTALL_PACKAGES
+[INTERNAL_LOG][2018-06-12 08:03:14,916][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 08:03:14,916][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 08:03:14,916][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 08:03:14,916][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 08:03:14,916][INFO][is_hybird()] com.gameloft.android.ANMP.GloftNOHM.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-12 08:03:14,916][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-12 08:03:14,916][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 08:03:14,916][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-12 08:03:14,917][INFO][is_hybird()] android.permission.RECEIVE_BOOT_COMPLETED
+[INTERNAL_LOG][2018-06-12 08:03:14,917][INFO][is_hybird()] glshare.permission.ACCESS_SHARED_DATA
+[INTERNAL_LOG][2018-06-12 08:03:14,917][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 08:03:14,917][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 08:03:14,917][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 08:03:14,917][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 08:03:14,917][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 08:03:14,917][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 08:03:47,735][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 08:03:47,735][INFO][find_url_in_apk()] https://play.google.com/store/apps/details?id=%s
+https://www.facebook.com/audience_network/server_side_reward
+https://www.%s.facebook.com/audience_network/server_side_reward
+https://graph.facebook.com/network_ads_common
+https://graph.%s.facebook.com/network_ads_common
+https://www.facebook.com/adnw_logging/
+https://www.%s.facebook.com/adnw_logging/
+http://play.google.com/store/apps/
+https://www.facebook.com/
+https://www.%s.facebook.com
+http://www.facebook.com
+https://graph.%s
+https://graph-video.%s
+https://facebook.com
+http://play.google.com/store/apps/details?id=com.facebook.orca
+https://www.googleapis.com/games/v1management/achievements/reset
+https://market.android.com/details?id=
+https://201205igp.gameloft.com/redir/hdloading.php?game=#GAME#&country=#COUNTRY#&lg=#LANG#&ver=#IGP_VERSION#&device=#DEVICE#&f=#FIRMWARE#&udid=#ID#&hdidfv=#HDIDFV#&androidid=#ANDROID_ID#&g_ver=#VERSION#&line_number=#LINE_NUMBER#&google_adid=#GOOGLE_ADID#&google_optout=#GOOGLE_OPTOUT#
+https://201205igp.gameloft.com/redir/freemium/hdfreemium.php?from=GAME_CODE&country=COUNTRY_DETECTED&lg=LANG&udid=UDIDPHONE&hdidfv=HDIDFV&androidid=ANDROIDID&d=DEVICE&f=FIRMWARE&game_ver=VERSION&os=android&igp_rev=1006&conn=CONNSPEED
+https://signal-back.com
+https://201205igp.gameloft.com/redir/android/index.php?page=gameinformation
+https://201205igp.gameloft.com/redir/?from=
+https://201205igp.gameloft.com/redir/?from=
+https://201205igp.gameloft.com/redir/?from=
+https://201205igp.gameloft.com/redir/?from=
+https://201205igp.gameloft.com/redir/?from=
+https://play.google.com/store/apps/details
+https://play.google.com/store/search
+http://tsto.re/
+http://tsto.re/
+https://play.google.com/store/apps/details?
+https://play.google.com/store/search?
+https://www.facebook.com/NOVALegacy/
+https://201205igp.gameloft.com/redir/ads/splashscreen_view.php?from=FROM&country=COUNTRY&lg=LANG&udid=UDIDPHONE&hdidfv=HDIDFV&androidid=ANDROIDID&d=DEVICE&f=FIRMWARE&game_ver=VERSION&igp_rev=1005&os=android
+https://201205igp.gameloft.com/redir/ads/hocscreen.php?from=FROM&country=COUNTRY&lg=LANG&udid=UDIDPHONE&hdidfv=HDIDFV&androidid=ANDROIDID&d=DEVICE&f=FIRMWARE&game_ver=VERSION&igp_rev=1005&os=android
+http://www.youtube.com/watch?v=
+http://www.youtube.com/watch?v=
+http://market.android.com/
+https://201205igp.gameloft.com/redir/rewards.php?action=retrieveItems&game_code=
+http://ingameads.gameloft.com/redir/?from=
+http://ingameads.gameloft.com/redir/?from=
+http://ingameads.gameloft.com/redir/?from=
+http://ingameads.gameloft.com/redir/?from=
+http://iap.gameloft.com/partners/android/update_check.php?key=#SERIALKEY#&width=#SCREEN_WIDTH#&height=#SCREEN_HEIGHT#&android_build_device=#DEVICE#&android_build_model=#MODEL#&v=1.1
+http://iap.gameloft.com/beta/partners/android/update_check.php?key=#SERIALKEY#&width=#SCREEN_WIDTH#&height=#SCREEN_HEIGHT#&android_build_device=#DEVICE#&android_build_model=#MODEL#&v=1.1
+http://iap.gameloft.com/android/updates/check/version/?client_id=#CLIENT_ID#&width=#SCREEN_WIDTH#&height=#SCREEN_HEIGHT#
+http://confirmation.gameloft.com/partners/android/v2/update_check_hep.php?igpcode=
+http://hostname/?
+http://hostname/?
+http://www.google-analytics.com
+https://ssl.google-analytics.com
+https://accounts.google.com
+https://www.facebook.com
+https://www.googleapis.com/auth/plus.me
+https://www.googleapis.com/auth/plus.me
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games
+http://plus.google.com/
+https://www.googleapis.com/auth/games.firstparty
+https://www.googleapis.com/auth/games.firstparty
+http://www.example.com
+http://www.example.com
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://csi.gstatic.com/csi
+https://sb-ssl.google.com/safebrowsing/clientreport/malware
+https://pagead2.googlesyndication.com/pagead/gen_204
+https://www.googleapis.com/auth/plus.login
+http://schemas.android.com/apk/lib/com.google.android.gms.plus
+http://schemas.android.com/apk/lib/com.google.android.gms.plus
+https://mobile-static.adsafeprotected.com/avid-v2.js
+https://z.moatads.com/
+https://z.moatads.com/
+https://config.unityads.unity3d.com/webview/
+https://www.vungle.com/privacy/
+https://www.vungle.com/privacy/
+https://ads.api.vungle.com/config
+https://api.vungle.com/api/v4/unfilled
+https://ingest.vungle.com/api/v1/sdkErrors
+https://ingest.vungle.com/
+http://lol.vungle.com/
+http://www.google.com
+https://www.googletagmanager.com
+https://track.atom-data.io
+https://track.atom-data.io
+https://track.atom-data.io
+https://outcome.supersonicads.com/mediation/
+https://outcome.supersonicads.com/mediation/
+https://mobilelogs.supersonic.com
+https://mobilelogs.supersonic.com
+https://init.supersonicads.com/sdk/v
+https://www.supersonicads.com/mobile/sdk5/log?method=
+https://www.supersonicads.com/mobile/sdk5/log?method=
+https://www.supersonicads.com/mobile/sdk5/log?method=
+https://www.supersonicads.com/mobile/sdk5/log?method=
+https://www.supersonicads.com/mobile/sdk5/log?method=
+https://www.supersonicads.com/mobile/sdk5/log?method=
+https://www.supersonicads.com/mobile/sdk5/log?method=
+https://www.supersonicads.com/mobile/sdk5/log?method=
+https://www.supersonicads.com/mobile/sdk5/log?method=extraParametersToJson
+https://www.supersonicads.com/mobile/sdk5/log?method=noProductType
+https://www.supersonicads.com/mobile/sdk5/log?method=encodeAppUserId
+https://www.supersonicads.com/mobile/sdk5/log?method=encodeAppKey
+https://www.supersonicads.com/mobile/sdk5/log?method=setWebViewSettings
+https://www.supersonicads.com/mobile/sdk5/log?method=webviewLoadBlank
+https://www.supersonicads.com/mobile/sdk5/log?method=webviewLoadWithPath
+https://www.supersonicads.com/mobile/sdk5/log?method=htmlControllerDoesNotExistOnFileSystem
+https://www.supersonicads.com/mobile/sdk5/log?method=webviewPause
+https://www.supersonicads.com/mobile/sdk5/log?method=webviewResume
+https://www.supersonicads.com/mobile/sdk5/log?method=injectJavaScript
+
+[INTERNAL_LOG][2018-06-12 08:03:47,736][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 08:03:47,739][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 08:03:47,739][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 08:03:47,740][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 08:03:47,740][INFO][analyze_start()] End time:[Tue Jun 12 08:03:47 2018]

@@ -1,0 +1,346 @@
+[INTERNAL_LOG][2018-06-12 01:34:16,741][INFO][analyze_start()] Init Time [Tue Jun 12 01:34:16 2018]
+[INTERNAL_LOG][2018-06-12 01:34:16,780][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 01:34:16,780][INFO][is_hybird()] Hybrid file found are: ['assets/www/android/res/xml/config.xml', 'res/xml/config.xml']
+[INTERNAL_LOG][2018-06-12 01:34:16,780][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 01:34:16,780][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 01:34:16,780][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 01:34:16,780][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 01:34:16,780][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-12 01:34:16,780][INFO][is_hybird()] android.permission.RECORD_AUDIO
+[INTERNAL_LOG][2018-06-12 01:34:16,780][INFO][is_hybird()] android.permission.MODIFY_AUDIO_SETTINGS
+[INTERNAL_LOG][2018-06-12 01:34:16,780][INFO][is_hybird()] android.permission.READ_PHONE_STATE
+[INTERNAL_LOG][2018-06-12 01:34:16,781][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 01:34:16,781][INFO][is_hybird()] Starting apktool
+[INTERNAL_LOG][2018-06-12 01:34:22,762][INFO][check_whitelist()] [INIT ACCESS ORIGIN LIST]
+[INTERNAL_LOG][2018-06-12 01:34:22,773][INFO][check_whitelist()] origin: *
+[INTERNAL_LOG][2018-06-12 01:34:22,783][INFO][check_whitelist()] [END ACCESS ORIGIN LIST]
+
+[INTERNAL_LOG][2018-06-12 01:34:22,888][INFO][analyze_start()] TYPE APK: [HYBRID]
+
+[INTERNAL_LOG][2018-06-12 01:34:22,919][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 01:34:22,935][INFO][find_string()] File: assets/www/index.html
+[INTERNAL_LOG][2018-06-12 01:34:23,953][INFO][find_string()] No iframe in assets/www/index.html
+[INTERNAL_LOG][2018-06-12 01:34:23,973][INFO][find_string()] File: assets/www/spec.html
+[INTERNAL_LOG][2018-06-12 01:34:24,187][INFO][find_string()] No iframe in assets/www/spec.html
+[INTERNAL_LOG][2018-06-12 01:34:24,203][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 01:34:24,229][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 01:34:24,244][INFO][find_string()] File: assets/www/android/cordova/lib/android_sdk_version.js
+[INTERNAL_LOG][2018-06-12 01:34:24,291][INFO][find_string()] No iframe in assets/www/android/cordova/lib/android_sdk_version.js
+[INTERNAL_LOG][2018-06-12 01:34:24,291][INFO][find_string()] File: assets/www/android/cordova/lib/appinfo.js
+[INTERNAL_LOG][2018-06-12 01:34:24,333][INFO][find_string()] No iframe in assets/www/android/cordova/lib/appinfo.js
+[INTERNAL_LOG][2018-06-12 01:34:24,333][INFO][find_string()] File: assets/www/android/cordova/lib/build.js
+[INTERNAL_LOG][2018-06-12 01:34:25,367][INFO][find_string()] No iframe in assets/www/android/cordova/lib/build.js
+[INTERNAL_LOG][2018-06-12 01:34:25,388][INFO][find_string()] File: assets/www/android/cordova/lib/check_reqs.js
+[INTERNAL_LOG][2018-06-12 01:34:25,607][INFO][find_string()] No iframe in assets/www/android/cordova/lib/check_reqs.js
+[INTERNAL_LOG][2018-06-12 01:34:25,628][INFO][find_string()] File: assets/www/android/cordova/lib/device.js
+[INTERNAL_LOG][2018-06-12 01:34:25,649][INFO][find_string()] No iframe in assets/www/android/cordova/lib/device.js
+[INTERNAL_LOG][2018-06-12 01:34:25,655][INFO][find_string()] File: assets/www/android/cordova/lib/emulator.js
+[INTERNAL_LOG][2018-06-12 01:34:25,851][INFO][find_string()] No iframe in assets/www/android/cordova/lib/emulator.js
+[INTERNAL_LOG][2018-06-12 01:34:25,871][INFO][find_string()] File: assets/www/android/cordova/lib/exec.js
+[INTERNAL_LOG][2018-06-12 01:34:25,913][INFO][find_string()] No iframe in assets/www/android/cordova/lib/exec.js
+[INTERNAL_LOG][2018-06-12 01:34:25,933][INFO][find_string()] File: assets/www/android/cordova/lib/log.js
+[INTERNAL_LOG][2018-06-12 01:34:26,000][INFO][find_string()] No iframe in assets/www/android/cordova/lib/log.js
+[INTERNAL_LOG][2018-06-12 01:34:26,021][INFO][find_string()] File: assets/www/android/cordova/lib/retry.js
+[INTERNAL_LOG][2018-06-12 01:34:26,078][INFO][find_string()] No iframe in assets/www/android/cordova/lib/retry.js
+[INTERNAL_LOG][2018-06-12 01:34:26,098][INFO][find_string()] File: assets/www/android/cordova/lib/run.js
+[INTERNAL_LOG][2018-06-12 01:34:27,047][INFO][find_string()] No iframe in assets/www/android/cordova/lib/run.js
+[INTERNAL_LOG][2018-06-12 01:34:27,067][INFO][find_string()] File: assets/www/android/cordova/lib/spawn.js
+[INTERNAL_LOG][2018-06-12 01:34:27,088][INFO][find_string()] No iframe in assets/www/android/cordova/lib/spawn.js
+[INTERNAL_LOG][2018-06-12 01:34:27,094][INFO][find_string()] File: assets/www/android/cordova/node_modules/nopt/lib/nopt.js
+[INTERNAL_LOG][2018-06-12 01:34:27,712][INFO][find_string()] No iframe in assets/www/android/cordova/node_modules/nopt/lib/nopt.js
+[INTERNAL_LOG][2018-06-12 01:34:27,732][INFO][find_string()] File: assets/www/android/cordova/node_modules/nopt/node_modules/abbrev/abbrev.js
+[INTERNAL_LOG][2018-06-12 01:34:27,774][INFO][find_string()] No iframe in assets/www/android/cordova/node_modules/nopt/node_modules/abbrev/abbrev.js
+[INTERNAL_LOG][2018-06-12 01:34:27,795][INFO][find_string()] File: assets/www/android/cordova/node_modules/q/benchmark/compare-with-callbacks.js
+[INTERNAL_LOG][2018-06-12 01:34:27,846][INFO][find_string()] No iframe in assets/www/android/cordova/node_modules/q/benchmark/compare-with-callbacks.js
+[INTERNAL_LOG][2018-06-12 01:34:27,867][INFO][find_string()] File: assets/www/android/cordova/node_modules/q/benchmark/scenarios.js
+[INTERNAL_LOG][2018-06-12 01:34:27,899][INFO][find_string()] No iframe in assets/www/android/cordova/node_modules/q/benchmark/scenarios.js
+[INTERNAL_LOG][2018-06-12 01:34:27,899][INFO][find_string()] File: assets/www/android/cordova/node_modules/q/q.js
+[INTERNAL_LOG][2018-06-12 01:34:27,967][INFO][find_string()] No iframe in assets/www/android/cordova/node_modules/q/q.js
+[INTERNAL_LOG][2018-06-12 01:34:27,977][INFO][find_string()] File: assets/www/android/cordova/node_modules/q/queue.js
+[INTERNAL_LOG][2018-06-12 01:34:28,008][INFO][find_string()] No iframe in assets/www/android/cordova/node_modules/q/queue.js
+[INTERNAL_LOG][2018-06-12 01:34:28,029][INFO][find_string()] File: assets/www/android/cordova/node_modules/shelljs/bin/shjs
+[INTERNAL_LOG][2018-06-12 01:34:28,081][INFO][find_string()] No iframe in assets/www/android/cordova/node_modules/shelljs/bin/shjs
+[INTERNAL_LOG][2018-06-12 01:34:28,101][INFO][find_string()] File: assets/www/android/cordova/node_modules/shelljs/global.js
+[INTERNAL_LOG][2018-06-12 01:34:28,143][INFO][find_string()] No iframe in assets/www/android/cordova/node_modules/shelljs/global.js
+[INTERNAL_LOG][2018-06-12 01:34:28,163][INFO][find_string()] File: assets/www/android/cordova/node_modules/shelljs/make.js
+[INTERNAL_LOG][2018-06-12 01:34:28,236][INFO][find_string()] No iframe in assets/www/android/cordova/node_modules/shelljs/make.js
+[INTERNAL_LOG][2018-06-12 01:34:28,256][INFO][find_string()] File: assets/www/android/cordova/node_modules/shelljs/scripts/generate-docs.js
+[INTERNAL_LOG][2018-06-12 01:34:28,298][INFO][find_string()] No iframe in assets/www/android/cordova/node_modules/shelljs/scripts/generate-docs.js
+[INTERNAL_LOG][2018-06-12 01:34:28,303][INFO][find_string()] File: assets/www/android/cordova/node_modules/shelljs/scripts/run-tests.js
+[INTERNAL_LOG][2018-06-12 01:34:28,319][INFO][find_string()] No iframe in assets/www/android/cordova/node_modules/shelljs/scripts/run-tests.js
+[INTERNAL_LOG][2018-06-12 01:34:28,324][INFO][find_string()] File: assets/www/android/cordova/node_modules/shelljs/shell.js
+[INTERNAL_LOG][2018-06-12 01:34:28,490][INFO][find_string()] No iframe in assets/www/android/cordova/node_modules/shelljs/shell.js
+[INTERNAL_LOG][2018-06-12 01:34:28,496][INFO][find_string()] File: assets/www/android/cordova/node_modules/shelljs/src/cat.js
+[INTERNAL_LOG][2018-06-12 01:34:28,506][INFO][find_string()] No iframe in assets/www/android/cordova/node_modules/shelljs/src/cat.js
+[INTERNAL_LOG][2018-06-12 01:34:28,512][INFO][find_string()] File: assets/www/android/cordova/node_modules/shelljs/src/cd.js
+[INTERNAL_LOG][2018-06-12 01:34:28,543][INFO][find_string()] No iframe in assets/www/android/cordova/node_modules/shelljs/src/cd.js
+[INTERNAL_LOG][2018-06-12 01:34:28,564][INFO][find_string()] File: assets/www/android/cordova/node_modules/shelljs/src/chmod.js
+[INTERNAL_LOG][2018-06-12 01:34:28,798][INFO][find_string()] No iframe in assets/www/android/cordova/node_modules/shelljs/src/chmod.js
+[INTERNAL_LOG][2018-06-12 01:34:28,819][INFO][find_string()] File: assets/www/android/cordova/node_modules/shelljs/src/common.js
+[INTERNAL_LOG][2018-06-12 01:34:28,876][INFO][find_string()] No iframe in assets/www/android/cordova/node_modules/shelljs/src/common.js
+[INTERNAL_LOG][2018-06-12 01:34:28,896][INFO][find_string()] File: assets/www/android/cordova/node_modules/shelljs/src/cp.js
+[INTERNAL_LOG][2018-06-12 01:34:29,121][INFO][find_string()] No iframe in assets/www/android/cordova/node_modules/shelljs/src/cp.js
+[INTERNAL_LOG][2018-06-12 01:34:29,141][INFO][find_string()] File: assets/www/android/cordova/node_modules/shelljs/src/dirs.js
+[INTERNAL_LOG][2018-06-12 01:34:29,219][INFO][find_string()] No iframe in assets/www/android/cordova/node_modules/shelljs/src/dirs.js
+[INTERNAL_LOG][2018-06-12 01:34:29,239][INFO][find_string()] File: assets/www/android/cordova/node_modules/shelljs/src/echo.js
+[INTERNAL_LOG][2018-06-12 01:34:29,255][INFO][find_string()] No iframe in assets/www/android/cordova/node_modules/shelljs/src/echo.js
+[INTERNAL_LOG][2018-06-12 01:34:29,276][INFO][find_string()] File: assets/www/android/cordova/node_modules/shelljs/src/error.js
+[INTERNAL_LOG][2018-06-12 01:34:29,312][INFO][find_string()] No iframe in assets/www/android/cordova/node_modules/shelljs/src/error.js
+[INTERNAL_LOG][2018-06-12 01:34:29,333][INFO][find_string()] File: assets/www/android/cordova/node_modules/shelljs/src/exec.js
+[INTERNAL_LOG][2018-06-12 01:34:29,374][INFO][find_string()] No iframe in assets/www/android/cordova/node_modules/shelljs/src/exec.js
+[INTERNAL_LOG][2018-06-12 01:34:29,374][INFO][find_string()] File: assets/www/android/cordova/node_modules/shelljs/src/find.js
+[INTERNAL_LOG][2018-06-12 01:34:29,400][INFO][find_string()] No iframe in assets/www/android/cordova/node_modules/shelljs/src/find.js
+[INTERNAL_LOG][2018-06-12 01:34:29,411][INFO][find_string()] File: assets/www/android/cordova/node_modules/shelljs/src/grep.js
+[INTERNAL_LOG][2018-06-12 01:34:29,458][INFO][find_string()] No iframe in assets/www/android/cordova/node_modules/shelljs/src/grep.js
+[INTERNAL_LOG][2018-06-12 01:34:29,478][INFO][find_string()] File: assets/www/android/cordova/node_modules/shelljs/src/ls.js
+[INTERNAL_LOG][2018-06-12 01:34:29,586][INFO][find_string()] No iframe in assets/www/android/cordova/node_modules/shelljs/src/ls.js
+[INTERNAL_LOG][2018-06-12 01:34:29,607][INFO][find_string()] File: assets/www/android/cordova/node_modules/shelljs/src/mkdir.js
+[INTERNAL_LOG][2018-06-12 01:34:29,663][INFO][find_string()] No iframe in assets/www/android/cordova/node_modules/shelljs/src/mkdir.js
+[INTERNAL_LOG][2018-06-12 01:34:29,684][INFO][find_string()] File: assets/www/android/cordova/node_modules/shelljs/src/mv.js
+[INTERNAL_LOG][2018-06-12 01:34:30,038][INFO][find_string()] No iframe in assets/www/android/cordova/node_modules/shelljs/src/mv.js
+[INTERNAL_LOG][2018-06-12 01:34:30,058][INFO][find_string()] File: assets/www/android/cordova/node_modules/shelljs/src/popd.js
+[INTERNAL_LOG][2018-06-12 01:34:30,105][INFO][find_string()] No iframe in assets/www/android/cordova/node_modules/shelljs/src/popd.js
+[INTERNAL_LOG][2018-06-12 01:34:30,126][INFO][find_string()] File: assets/www/android/cordova/node_modules/shelljs/src/pushd.js
+[INTERNAL_LOG][2018-06-12 01:34:30,157][INFO][find_string()] No iframe in assets/www/android/cordova/node_modules/shelljs/src/pushd.js
+[INTERNAL_LOG][2018-06-12 01:34:30,178][INFO][find_string()] File: assets/www/android/cordova/node_modules/shelljs/src/pwd.js
+[INTERNAL_LOG][2018-06-12 01:34:30,225][INFO][find_string()] No iframe in assets/www/android/cordova/node_modules/shelljs/src/pwd.js
+[INTERNAL_LOG][2018-06-12 01:34:30,246][INFO][find_string()] File: assets/www/android/cordova/node_modules/shelljs/src/rm.js
+[INTERNAL_LOG][2018-06-12 01:34:30,287][INFO][find_string()] No iframe in assets/www/android/cordova/node_modules/shelljs/src/rm.js
+[INTERNAL_LOG][2018-06-12 01:34:30,308][INFO][find_string()] File: assets/www/android/cordova/node_modules/shelljs/src/sed.js
+[INTERNAL_LOG][2018-06-12 01:34:30,344][INFO][find_string()] No iframe in assets/www/android/cordova/node_modules/shelljs/src/sed.js
+[INTERNAL_LOG][2018-06-12 01:34:30,364][INFO][find_string()] File: assets/www/android/cordova/node_modules/shelljs/src/tempdir.js
+[INTERNAL_LOG][2018-06-12 01:34:30,411][INFO][find_string()] No iframe in assets/www/android/cordova/node_modules/shelljs/src/tempdir.js
+[INTERNAL_LOG][2018-06-12 01:34:30,432][INFO][find_string()] File: assets/www/android/cordova/node_modules/shelljs/src/test.js
+[INTERNAL_LOG][2018-06-12 01:34:30,468][INFO][find_string()] No iframe in assets/www/android/cordova/node_modules/shelljs/src/test.js
+[INTERNAL_LOG][2018-06-12 01:34:30,478][INFO][find_string()] File: assets/www/android/cordova/node_modules/shelljs/src/to.js
+[INTERNAL_LOG][2018-06-12 01:34:30,489][INFO][find_string()] No iframe in assets/www/android/cordova/node_modules/shelljs/src/to.js
+[INTERNAL_LOG][2018-06-12 01:34:30,489][INFO][find_string()] File: assets/www/android/cordova/node_modules/shelljs/src/toEnd.js
+[INTERNAL_LOG][2018-06-12 01:34:30,520][INFO][find_string()] No iframe in assets/www/android/cordova/node_modules/shelljs/src/toEnd.js
+[INTERNAL_LOG][2018-06-12 01:34:30,526][INFO][find_string()] File: assets/www/android/cordova/node_modules/shelljs/src/which.js
+[INTERNAL_LOG][2018-06-12 01:34:30,567][INFO][find_string()] No iframe in assets/www/android/cordova/node_modules/shelljs/src/which.js
+[INTERNAL_LOG][2018-06-12 01:34:30,588][INFO][find_string()] File: assets/www/android/cordova/node_modules/which/which.js
+[INTERNAL_LOG][2018-06-12 01:34:30,756][INFO][find_string()] No iframe in assets/www/android/cordova/node_modules/which/which.js
+[INTERNAL_LOG][2018-06-12 01:34:30,777][INFO][find_string()] File: assets/www/android/platform_www/cordova-js-src/android/nativeapiprovider.js
+[INTERNAL_LOG][2018-06-12 01:34:30,823][INFO][find_string()] No iframe in assets/www/android/platform_www/cordova-js-src/android/nativeapiprovider.js
+[INTERNAL_LOG][2018-06-12 01:34:30,844][INFO][find_string()] File: assets/www/android/platform_www/cordova-js-src/android/promptbasednativeapi.js
+[INTERNAL_LOG][2018-06-12 01:34:30,880][INFO][find_string()] No iframe in assets/www/android/platform_www/cordova-js-src/android/promptbasednativeapi.js
+[INTERNAL_LOG][2018-06-12 01:34:30,900][INFO][find_string()] File: assets/www/android/platform_www/cordova-js-src/exec.js
+[INTERNAL_LOG][2018-06-12 01:34:30,993][INFO][find_string()] No iframe in assets/www/android/platform_www/cordova-js-src/exec.js
+[INTERNAL_LOG][2018-06-12 01:34:31,014][INFO][find_string()] File: assets/www/android/platform_www/cordova-js-src/platform.js
+[INTERNAL_LOG][2018-06-12 01:34:31,055][INFO][find_string()] No iframe in assets/www/android/platform_www/cordova-js-src/platform.js
+[INTERNAL_LOG][2018-06-12 01:34:31,076][INFO][find_string()] File: assets/www/android/platform_www/cordova-js-src/plugin/android/app.js
+[INTERNAL_LOG][2018-06-12 01:34:31,118][INFO][find_string()] No iframe in assets/www/android/platform_www/cordova-js-src/plugin/android/app.js
+[INTERNAL_LOG][2018-06-12 01:34:31,128][INFO][find_string()] File: assets/www/android/platform_www/cordova_plugins.js
+[INTERNAL_LOG][2018-06-12 01:34:31,165][INFO][find_string()] No iframe in assets/www/android/platform_www/cordova_plugins.js
+[INTERNAL_LOG][2018-06-12 01:34:31,186][INFO][find_string()] File: assets/www/android/platform_www/plugins/cordova-plugin-device/www/device.js
+[INTERNAL_LOG][2018-06-12 01:34:31,227][INFO][find_string()] No iframe in assets/www/android/platform_www/plugins/cordova-plugin-device/www/device.js
+[INTERNAL_LOG][2018-06-12 01:34:31,248][INFO][find_string()] File: assets/www/android/platform_www/plugins/cordova-plugin-screen-orientation/www/screenorientation.android.js
+[INTERNAL_LOG][2018-06-12 01:34:31,279][INFO][find_string()] No iframe in assets/www/android/platform_www/plugins/cordova-plugin-screen-orientation/www/screenorientation.android.js
+[INTERNAL_LOG][2018-06-12 01:34:31,300][INFO][find_string()] File: assets/www/android/platform_www/plugins/cordova-plugin-screen-orientation/www/screenorientation.js
+[INTERNAL_LOG][2018-06-12 01:34:31,336][INFO][find_string()] No iframe in assets/www/android/platform_www/plugins/cordova-plugin-screen-orientation/www/screenorientation.js
+[INTERNAL_LOG][2018-06-12 01:34:31,347][INFO][find_string()] File: assets/www/android/platform_www/plugins/cordova-plugin-whitelist/whitelist.js
+[INTERNAL_LOG][2018-06-12 01:34:31,388][INFO][find_string()] No iframe in assets/www/android/platform_www/plugins/cordova-plugin-whitelist/whitelist.js
+[INTERNAL_LOG][2018-06-12 01:34:31,409][INFO][find_string()] File: assets/www/android/platform_www/plugins/org.apache.cordova.file/www/DirectoryEntry.js
+[INTERNAL_LOG][2018-06-12 01:34:31,563][INFO][find_string()] No iframe in assets/www/android/platform_www/plugins/org.apache.cordova.file/www/DirectoryEntry.js
+[INTERNAL_LOG][2018-06-12 01:34:31,805][INFO][find_string()] File: assets/www/android/platform_www/plugins/org.apache.cordova.file/www/DirectoryReader.js
+[INTERNAL_LOG][2018-06-12 01:34:31,847][INFO][find_string()] No iframe in assets/www/android/platform_www/plugins/org.apache.cordova.file/www/DirectoryReader.js
+[INTERNAL_LOG][2018-06-12 01:34:31,867][INFO][find_string()] File: assets/www/android/platform_www/plugins/org.apache.cordova.file/www/Entry.js
+[INTERNAL_LOG][2018-06-12 01:34:32,129][INFO][find_string()] No iframe in assets/www/android/platform_www/plugins/org.apache.cordova.file/www/Entry.js
+[INTERNAL_LOG][2018-06-12 01:34:32,150][INFO][find_string()] File: assets/www/android/platform_www/plugins/org.apache.cordova.file/www/File.js
+[INTERNAL_LOG][2018-06-12 01:34:32,206][INFO][find_string()] No iframe in assets/www/android/platform_www/plugins/org.apache.cordova.file/www/File.js
+[INTERNAL_LOG][2018-06-12 01:34:32,227][INFO][find_string()] File: assets/www/android/platform_www/plugins/org.apache.cordova.file/www/FileEntry.js
+[INTERNAL_LOG][2018-06-12 01:34:32,356][INFO][find_string()] No iframe in assets/www/android/platform_www/plugins/org.apache.cordova.file/www/FileEntry.js
+[INTERNAL_LOG][2018-06-12 01:34:32,376][INFO][find_string()] File: assets/www/android/platform_www/plugins/org.apache.cordova.file/www/FileError.js
+[INTERNAL_LOG][2018-06-12 01:34:32,413][INFO][find_string()] No iframe in assets/www/android/platform_www/plugins/org.apache.cordova.file/www/FileError.js
+[INTERNAL_LOG][2018-06-12 01:34:32,433][INFO][find_string()] File: assets/www/android/platform_www/plugins/org.apache.cordova.file/www/FileReader.js
+[INTERNAL_LOG][2018-06-12 01:34:32,568][INFO][find_string()] No iframe in assets/www/android/platform_www/plugins/org.apache.cordova.file/www/FileReader.js
+[INTERNAL_LOG][2018-06-12 01:34:32,579][INFO][find_string()] File: assets/www/android/platform_www/plugins/org.apache.cordova.file/www/FileSystem.js
+[INTERNAL_LOG][2018-06-12 01:34:32,636][INFO][find_string()] No iframe in assets/www/android/platform_www/plugins/org.apache.cordova.file/www/FileSystem.js
+[INTERNAL_LOG][2018-06-12 01:34:32,651][INFO][find_string()] File: assets/www/android/platform_www/plugins/org.apache.cordova.file/www/FileUploadOptions.js
+[INTERNAL_LOG][2018-06-12 01:34:32,682][INFO][find_string()] No iframe in assets/www/android/platform_www/plugins/org.apache.cordova.file/www/FileUploadOptions.js
+[INTERNAL_LOG][2018-06-12 01:34:32,688][INFO][find_string()] File: assets/www/android/platform_www/plugins/org.apache.cordova.file/www/FileUploadResult.js
+[INTERNAL_LOG][2018-06-12 01:34:32,719][INFO][find_string()] No iframe in assets/www/android/platform_www/plugins/org.apache.cordova.file/www/FileUploadResult.js
+[INTERNAL_LOG][2018-06-12 01:34:32,740][INFO][find_string()] File: assets/www/android/platform_www/plugins/org.apache.cordova.file/www/FileWriter.js
+[INTERNAL_LOG][2018-06-12 01:34:32,928][INFO][find_string()] No iframe in assets/www/android/platform_www/plugins/org.apache.cordova.file/www/FileWriter.js
+[INTERNAL_LOG][2018-06-12 01:34:32,949][INFO][find_string()] File: assets/www/android/platform_www/plugins/org.apache.cordova.file/www/Flags.js
+[INTERNAL_LOG][2018-06-12 01:34:32,990][INFO][find_string()] No iframe in assets/www/android/platform_www/plugins/org.apache.cordova.file/www/Flags.js
+[INTERNAL_LOG][2018-06-12 01:34:33,011][INFO][find_string()] File: assets/www/android/platform_www/plugins/org.apache.cordova.file/www/LocalFileSystem.js
+[INTERNAL_LOG][2018-06-12 01:34:33,047][INFO][find_string()] No iframe in assets/www/android/platform_www/plugins/org.apache.cordova.file/www/LocalFileSystem.js
+[INTERNAL_LOG][2018-06-12 01:34:33,068][INFO][find_string()] File: assets/www/android/platform_www/plugins/org.apache.cordova.file/www/Metadata.js
+[INTERNAL_LOG][2018-06-12 01:34:33,104][INFO][find_string()] No iframe in assets/www/android/platform_www/plugins/org.apache.cordova.file/www/Metadata.js
+[INTERNAL_LOG][2018-06-12 01:34:33,125][INFO][find_string()] File: assets/www/android/platform_www/plugins/org.apache.cordova.file/www/ProgressEvent.js
+[INTERNAL_LOG][2018-06-12 01:34:33,233][INFO][find_string()] No iframe in assets/www/android/platform_www/plugins/org.apache.cordova.file/www/ProgressEvent.js
+[INTERNAL_LOG][2018-06-12 01:34:33,254][INFO][find_string()] File: assets/www/android/platform_www/plugins/org.apache.cordova.file/www/android/FileSystem.js
+[INTERNAL_LOG][2018-06-12 01:34:33,275][INFO][find_string()] No iframe in assets/www/android/platform_www/plugins/org.apache.cordova.file/www/android/FileSystem.js
+[INTERNAL_LOG][2018-06-12 01:34:33,275][INFO][find_string()] File: assets/www/android/platform_www/plugins/org.apache.cordova.file/www/fileSystemPaths.js
+[INTERNAL_LOG][2018-06-12 01:34:33,296][INFO][find_string()] No iframe in assets/www/android/platform_www/plugins/org.apache.cordova.file/www/fileSystemPaths.js
+[INTERNAL_LOG][2018-06-12 01:34:33,316][INFO][find_string()] File: assets/www/android/platform_www/plugins/org.apache.cordova.file/www/fileSystems-roots.js
+[INTERNAL_LOG][2018-06-12 01:34:33,363][INFO][find_string()] No iframe in assets/www/android/platform_www/plugins/org.apache.cordova.file/www/fileSystems-roots.js
+[INTERNAL_LOG][2018-06-12 01:34:33,383][INFO][find_string()] File: assets/www/android/platform_www/plugins/org.apache.cordova.file/www/fileSystems.js
+[INTERNAL_LOG][2018-06-12 01:34:33,389][INFO][find_string()] No iframe in assets/www/android/platform_www/plugins/org.apache.cordova.file/www/fileSystems.js
+[INTERNAL_LOG][2018-06-12 01:34:33,394][INFO][find_string()] File: assets/www/android/platform_www/plugins/org.apache.cordova.file/www/requestFileSystem.js
+[INTERNAL_LOG][2018-06-12 01:34:33,446][INFO][find_string()] No iframe in assets/www/android/platform_www/plugins/org.apache.cordova.file/www/requestFileSystem.js
+[INTERNAL_LOG][2018-06-12 01:34:33,467][INFO][find_string()] File: assets/www/android/platform_www/plugins/org.apache.cordova.file/www/resolveLocalFileSystemURI.js
+[INTERNAL_LOG][2018-06-12 01:34:33,533][INFO][find_string()] No iframe in assets/www/android/platform_www/plugins/org.apache.cordova.file/www/resolveLocalFileSystemURI.js
+[INTERNAL_LOG][2018-06-12 01:34:33,554][INFO][find_string()] File: assets/www/android/platform_www/plugins/org.apache.cordova.media/www/Media.js
+[INTERNAL_LOG][2018-06-12 01:34:33,703][INFO][find_string()] No iframe in assets/www/android/platform_www/plugins/org.apache.cordova.media/www/Media.js
+[INTERNAL_LOG][2018-06-12 01:34:33,724][INFO][find_string()] File: assets/www/android/platform_www/plugins/org.apache.cordova.media/www/MediaError.js
+[INTERNAL_LOG][2018-06-12 01:34:33,756][INFO][find_string()] No iframe in assets/www/android/platform_www/plugins/org.apache.cordova.media/www/MediaError.js
+[INTERNAL_LOG][2018-06-12 01:34:33,776][INFO][find_string()] File: assets/www/cordova-js-src/android/nativeapiprovider.js
+[INTERNAL_LOG][2018-06-12 01:34:33,823][INFO][find_string()] No iframe in assets/www/cordova-js-src/android/nativeapiprovider.js
+[INTERNAL_LOG][2018-06-12 01:34:33,844][INFO][find_string()] File: assets/www/cordova-js-src/android/promptbasednativeapi.js
+[INTERNAL_LOG][2018-06-12 01:34:33,880][INFO][find_string()] No iframe in assets/www/cordova-js-src/android/promptbasednativeapi.js
+[INTERNAL_LOG][2018-06-12 01:34:33,900][INFO][find_string()] File: assets/www/cordova-js-src/exec.js
+[INTERNAL_LOG][2018-06-12 01:34:34,362][INFO][find_string()] No iframe in assets/www/cordova-js-src/exec.js
+[INTERNAL_LOG][2018-06-12 01:34:34,383][INFO][find_string()] File: assets/www/cordova-js-src/platform.js
+[INTERNAL_LOG][2018-06-12 01:34:34,419][INFO][find_string()] No iframe in assets/www/cordova-js-src/platform.js
+[INTERNAL_LOG][2018-06-12 01:34:34,440][INFO][find_string()] File: assets/www/cordova-js-src/plugin/android/app.js
+[INTERNAL_LOG][2018-06-12 01:34:34,476][INFO][find_string()] No iframe in assets/www/cordova-js-src/plugin/android/app.js
+[INTERNAL_LOG][2018-06-12 01:34:34,489][INFO][find_string()] File: assets/www/cordova.js
+[INTERNAL_LOG][2018-06-12 01:34:34,493][INFO][find_string()] No iframe in assets/www/cordova.js
+[INTERNAL_LOG][2018-06-12 01:34:34,493][INFO][find_string()] File: assets/www/cordova_plugins.js
+[INTERNAL_LOG][2018-06-12 01:34:34,494][INFO][find_string()] No iframe in assets/www/cordova_plugins.js
+[INTERNAL_LOG][2018-06-12 01:34:34,494][INFO][find_string()] File: assets/www/js/frameworks/KineticPlugin.min.js
+[INTERNAL_LOG][2018-06-12 01:34:34,495][INFO][find_string()] No iframe in assets/www/js/frameworks/KineticPlugin.min.js
+[INTERNAL_LOG][2018-06-12 01:34:34,495][INFO][find_string()] File: assets/www/js/frameworks/TweenMax.min.js
+[INTERNAL_LOG][2018-06-12 01:34:34,500][INFO][find_string()] No iframe in assets/www/js/frameworks/TweenMax.min.js
+[INTERNAL_LOG][2018-06-12 01:34:34,500][INFO][find_string()] File: assets/www/js/frameworks/jquery-1.11.3.min.js
+[INTERNAL_LOG][2018-06-12 01:34:34,506][INFO][find_string()] No iframe in assets/www/js/frameworks/jquery-1.11.3.min.js
+[INTERNAL_LOG][2018-06-12 01:34:34,506][INFO][find_string()] File: assets/www/js/frameworks/jquery.mobile-events.min.js
+[INTERNAL_LOG][2018-06-12 01:34:34,510][INFO][find_string()] No iframe in assets/www/js/frameworks/jquery.mobile-events.min.js
+[INTERNAL_LOG][2018-06-12 01:34:34,510][INFO][find_string()] File: assets/www/js/frameworks/kinetic-v5.1.0.min.js
+[INTERNAL_LOG][2018-06-12 01:34:34,515][INFO][find_string()] No iframe in assets/www/js/frameworks/kinetic-v5.1.0.min.js
+[INTERNAL_LOG][2018-06-12 01:34:34,515][INFO][find_string()] File: assets/www/js/frameworks/socket.io-1.3.7.js
+[INTERNAL_LOG][2018-06-12 01:34:34,519][INFO][find_string()] No iframe in assets/www/js/frameworks/socket.io-1.3.7.js
+[INTERNAL_LOG][2018-06-12 01:34:34,519][INFO][find_string()] File: assets/www/js/frameworks/swiper.min.js
+[INTERNAL_LOG][2018-06-12 01:34:34,522][INFO][find_string()] No iframe in assets/www/js/frameworks/swiper.min.js
+[INTERNAL_LOG][2018-06-12 01:34:34,522][INFO][find_string()] File: assets/www/js/index.js
+[INTERNAL_LOG][2018-06-12 01:34:34,523][INFO][find_string()] No iframe in assets/www/js/index.js
+[INTERNAL_LOG][2018-06-12 01:34:34,523][INFO][find_string()] File: assets/www/js/utils/Stats.js
+[INTERNAL_LOG][2018-06-12 01:34:34,523][INFO][find_string()] No iframe in assets/www/js/utils/Stats.js
+[INTERNAL_LOG][2018-06-12 01:34:34,523][INFO][find_string()] File: assets/www/js/utils/functions.js
+[INTERNAL_LOG][2018-06-12 01:34:34,526][INFO][find_string()] No iframe in assets/www/js/utils/functions.js
+[INTERNAL_LOG][2018-06-12 01:34:34,526][INFO][find_string()] File: assets/www/js/view/Collision.js
+[INTERNAL_LOG][2018-06-12 01:34:34,527][INFO][find_string()] No iframe in assets/www/js/view/Collision.js
+[INTERNAL_LOG][2018-06-12 01:34:34,527][INFO][find_string()] File: assets/www/js/view/Main.js
+[INTERNAL_LOG][2018-06-12 01:34:34,530][INFO][find_string()] No iframe in assets/www/js/view/Main.js
+[INTERNAL_LOG][2018-06-12 01:34:34,530][INFO][find_string()] File: assets/www/js/view/Pipa.js
+[INTERNAL_LOG][2018-06-12 01:34:34,531][INFO][find_string()] No iframe in assets/www/js/view/Pipa.js
+[INTERNAL_LOG][2018-06-12 01:34:34,531][INFO][find_string()] File: assets/www/js/view/pipas.js
+[INTERNAL_LOG][2018-06-12 01:34:34,536][INFO][find_string()] No iframe in assets/www/js/view/pipas.js
+[INTERNAL_LOG][2018-06-12 01:34:34,536][INFO][find_string()] File: assets/www/phonegap.js
+[INTERNAL_LOG][2018-06-12 01:34:34,539][INFO][find_string()] No iframe in assets/www/phonegap.js
+[INTERNAL_LOG][2018-06-12 01:34:34,539][INFO][find_string()] File: assets/www/plugins/com.adobe.plugins.GAPlugin/www/GAPlugin.js
+[INTERNAL_LOG][2018-06-12 01:34:34,540][INFO][find_string()] No iframe in assets/www/plugins/com.adobe.plugins.GAPlugin/www/GAPlugin.js
+[INTERNAL_LOG][2018-06-12 01:34:34,540][INFO][find_string()] File: assets/www/plugins/cordova-plugin-admobpro/www/AdMob.js
+[INTERNAL_LOG][2018-06-12 01:34:34,540][INFO][find_string()] No iframe in assets/www/plugins/cordova-plugin-admobpro/www/AdMob.js
+[INTERNAL_LOG][2018-06-12 01:34:34,540][INFO][find_string()] File: assets/www/plugins/cordova-plugin-fullscreen/www/AndroidFullScreen.js
+[INTERNAL_LOG][2018-06-12 01:34:34,540][INFO][find_string()] No iframe in assets/www/plugins/cordova-plugin-fullscreen/www/AndroidFullScreen.js
+[INTERNAL_LOG][2018-06-12 01:34:34,540][INFO][find_string()] File: assets/www/plugins/org.apache.cordova.device/www/device.js
+[INTERNAL_LOG][2018-06-12 01:34:34,541][INFO][find_string()] No iframe in assets/www/plugins/org.apache.cordova.device/www/device.js
+[INTERNAL_LOG][2018-06-12 01:34:34,541][INFO][find_string()] File: assets/www/plugins/org.apache.cordova.file/www/DirectoryEntry.js
+[INTERNAL_LOG][2018-06-12 01:34:34,542][INFO][find_string()] No iframe in assets/www/plugins/org.apache.cordova.file/www/DirectoryEntry.js
+[INTERNAL_LOG][2018-06-12 01:34:34,542][INFO][find_string()] File: assets/www/plugins/org.apache.cordova.file/www/DirectoryReader.js
+[INTERNAL_LOG][2018-06-12 01:34:34,542][INFO][find_string()] No iframe in assets/www/plugins/org.apache.cordova.file/www/DirectoryReader.js
+[INTERNAL_LOG][2018-06-12 01:34:34,542][INFO][find_string()] File: assets/www/plugins/org.apache.cordova.file/www/Entry.js
+[INTERNAL_LOG][2018-06-12 01:34:34,543][INFO][find_string()] No iframe in assets/www/plugins/org.apache.cordova.file/www/Entry.js
+[INTERNAL_LOG][2018-06-12 01:34:34,543][INFO][find_string()] File: assets/www/plugins/org.apache.cordova.file/www/File.js
+[INTERNAL_LOG][2018-06-12 01:34:34,544][INFO][find_string()] No iframe in assets/www/plugins/org.apache.cordova.file/www/File.js
+[INTERNAL_LOG][2018-06-12 01:34:34,544][INFO][find_string()] File: assets/www/plugins/org.apache.cordova.file/www/FileEntry.js
+[INTERNAL_LOG][2018-06-12 01:34:34,544][INFO][find_string()] No iframe in assets/www/plugins/org.apache.cordova.file/www/FileEntry.js
+[INTERNAL_LOG][2018-06-12 01:34:34,544][INFO][find_string()] File: assets/www/plugins/org.apache.cordova.file/www/FileError.js
+[INTERNAL_LOG][2018-06-12 01:34:34,545][INFO][find_string()] No iframe in assets/www/plugins/org.apache.cordova.file/www/FileError.js
+[INTERNAL_LOG][2018-06-12 01:34:34,545][INFO][find_string()] File: assets/www/plugins/org.apache.cordova.file/www/FileReader.js
+[INTERNAL_LOG][2018-06-12 01:34:34,545][INFO][find_string()] No iframe in assets/www/plugins/org.apache.cordova.file/www/FileReader.js
+[INTERNAL_LOG][2018-06-12 01:34:34,545][INFO][find_string()] File: assets/www/plugins/org.apache.cordova.file/www/FileSystem.js
+[INTERNAL_LOG][2018-06-12 01:34:34,546][INFO][find_string()] No iframe in assets/www/plugins/org.apache.cordova.file/www/FileSystem.js
+[INTERNAL_LOG][2018-06-12 01:34:34,546][INFO][find_string()] File: assets/www/plugins/org.apache.cordova.file/www/FileUploadOptions.js
+[INTERNAL_LOG][2018-06-12 01:34:34,546][INFO][find_string()] No iframe in assets/www/plugins/org.apache.cordova.file/www/FileUploadOptions.js
+[INTERNAL_LOG][2018-06-12 01:34:34,546][INFO][find_string()] File: assets/www/plugins/org.apache.cordova.file/www/FileUploadResult.js
+[INTERNAL_LOG][2018-06-12 01:34:34,546][INFO][find_string()] No iframe in assets/www/plugins/org.apache.cordova.file/www/FileUploadResult.js
+[INTERNAL_LOG][2018-06-12 01:34:34,547][INFO][find_string()] File: assets/www/plugins/org.apache.cordova.file/www/FileWriter.js
+[INTERNAL_LOG][2018-06-12 01:34:34,547][INFO][find_string()] No iframe in assets/www/plugins/org.apache.cordova.file/www/FileWriter.js
+[INTERNAL_LOG][2018-06-12 01:34:34,547][INFO][find_string()] File: assets/www/plugins/org.apache.cordova.file/www/Flags.js
+[INTERNAL_LOG][2018-06-12 01:34:34,547][INFO][find_string()] No iframe in assets/www/plugins/org.apache.cordova.file/www/Flags.js
+[INTERNAL_LOG][2018-06-12 01:34:34,547][INFO][find_string()] File: assets/www/plugins/org.apache.cordova.file/www/LocalFileSystem.js
+[INTERNAL_LOG][2018-06-12 01:34:34,548][INFO][find_string()] No iframe in assets/www/plugins/org.apache.cordova.file/www/LocalFileSystem.js
+[INTERNAL_LOG][2018-06-12 01:34:34,548][INFO][find_string()] File: assets/www/plugins/org.apache.cordova.file/www/Metadata.js
+[INTERNAL_LOG][2018-06-12 01:34:34,548][INFO][find_string()] No iframe in assets/www/plugins/org.apache.cordova.file/www/Metadata.js
+[INTERNAL_LOG][2018-06-12 01:34:34,548][INFO][find_string()] File: assets/www/plugins/org.apache.cordova.file/www/ProgressEvent.js
+[INTERNAL_LOG][2018-06-12 01:34:34,548][INFO][find_string()] No iframe in assets/www/plugins/org.apache.cordova.file/www/ProgressEvent.js
+[INTERNAL_LOG][2018-06-12 01:34:34,549][INFO][find_string()] File: assets/www/plugins/org.apache.cordova.file/www/android/FileSystem.js
+[INTERNAL_LOG][2018-06-12 01:34:34,549][INFO][find_string()] No iframe in assets/www/plugins/org.apache.cordova.file/www/android/FileSystem.js
+[INTERNAL_LOG][2018-06-12 01:34:34,549][INFO][find_string()] File: assets/www/plugins/org.apache.cordova.file/www/fileSystemPaths.js
+[INTERNAL_LOG][2018-06-12 01:34:34,549][INFO][find_string()] No iframe in assets/www/plugins/org.apache.cordova.file/www/fileSystemPaths.js
+[INTERNAL_LOG][2018-06-12 01:34:34,549][INFO][find_string()] File: assets/www/plugins/org.apache.cordova.file/www/fileSystems-roots.js
+[INTERNAL_LOG][2018-06-12 01:34:34,550][INFO][find_string()] No iframe in assets/www/plugins/org.apache.cordova.file/www/fileSystems-roots.js
+[INTERNAL_LOG][2018-06-12 01:34:34,550][INFO][find_string()] File: assets/www/plugins/org.apache.cordova.file/www/fileSystems.js
+[INTERNAL_LOG][2018-06-12 01:34:34,550][INFO][find_string()] No iframe in assets/www/plugins/org.apache.cordova.file/www/fileSystems.js
+[INTERNAL_LOG][2018-06-12 01:34:34,550][INFO][find_string()] File: assets/www/plugins/org.apache.cordova.file/www/requestFileSystem.js
+[INTERNAL_LOG][2018-06-12 01:34:34,550][INFO][find_string()] No iframe in assets/www/plugins/org.apache.cordova.file/www/requestFileSystem.js
+[INTERNAL_LOG][2018-06-12 01:34:34,551][INFO][find_string()] File: assets/www/plugins/org.apache.cordova.file/www/resolveLocalFileSystemURI.js
+[INTERNAL_LOG][2018-06-12 01:34:34,551][INFO][find_string()] No iframe in assets/www/plugins/org.apache.cordova.file/www/resolveLocalFileSystemURI.js
+[INTERNAL_LOG][2018-06-12 01:34:34,551][INFO][find_string()] File: assets/www/plugins/org.apache.cordova.media/www/Media.js
+[INTERNAL_LOG][2018-06-12 01:34:34,551][INFO][find_string()] No iframe in assets/www/plugins/org.apache.cordova.media/www/Media.js
+[INTERNAL_LOG][2018-06-12 01:34:34,551][INFO][find_string()] File: assets/www/plugins/org.apache.cordova.media/www/MediaError.js
+[INTERNAL_LOG][2018-06-12 01:34:34,552][INFO][find_string()] No iframe in assets/www/plugins/org.apache.cordova.media/www/MediaError.js
+[INTERNAL_LOG][2018-06-12 01:34:34,552][INFO][find_string()] File: assets/www/plugins/org.apache.cordova.network-information/www/Connection.js
+[INTERNAL_LOG][2018-06-12 01:34:34,552][INFO][find_string()] No iframe in assets/www/plugins/org.apache.cordova.network-information/www/Connection.js
+[INTERNAL_LOG][2018-06-12 01:34:34,552][INFO][find_string()] File: assets/www/plugins/org.apache.cordova.network-information/www/network.js
+[INTERNAL_LOG][2018-06-12 01:34:34,553][INFO][find_string()] No iframe in assets/www/plugins/org.apache.cordova.network-information/www/network.js
+[INTERNAL_LOG][2018-06-12 01:34:34,553][INFO][find_string()] File: assets/www/plugins/org.apache.cordova.splashscreen/www/splashscreen.js
+[INTERNAL_LOG][2018-06-12 01:34:34,553][INFO][find_string()] No iframe in assets/www/plugins/org.apache.cordova.splashscreen/www/splashscreen.js
+[INTERNAL_LOG][2018-06-12 01:34:34,553][INFO][find_string()] File: assets/www/plugins/org.apache.cordova.vibration/www/vibration.js
+[INTERNAL_LOG][2018-06-12 01:34:34,553][INFO][find_string()] No iframe in assets/www/plugins/org.apache.cordova.vibration/www/vibration.js
+[INTERNAL_LOG][2018-06-12 01:34:34,553][INFO][find_string()] File: assets/www/spec/helper.js
+[INTERNAL_LOG][2018-06-12 01:34:34,554][INFO][find_string()] No iframe in assets/www/spec/helper.js
+[INTERNAL_LOG][2018-06-12 01:34:34,554][INFO][find_string()] File: assets/www/spec/index.js
+[INTERNAL_LOG][2018-06-12 01:34:34,554][INFO][find_string()] No iframe in assets/www/spec/index.js
+[INTERNAL_LOG][2018-06-12 01:34:34,554][INFO][find_string()] File: assets/www/spec/lib/jasmine-1.2.0/jasmine-html.js
+[INTERNAL_LOG][2018-06-12 01:34:34,555][INFO][find_string()] No iframe in assets/www/spec/lib/jasmine-1.2.0/jasmine-html.js
+[INTERNAL_LOG][2018-06-12 01:34:34,555][INFO][find_string()] File: assets/www/spec/lib/jasmine-1.2.0/jasmine.js
+[INTERNAL_LOG][2018-06-12 01:34:34,558][INFO][find_string()] No iframe in assets/www/spec/lib/jasmine-1.2.0/jasmine.js
+[INTERNAL_LOG][2018-06-12 01:34:34,558][INFO][find_string()] File: res/raw/contacts_api.js
+[INTERNAL_LOG][2018-06-12 01:34:34,559][INFO][find_string()] No iframe in res/raw/contacts_api.js
+[INTERNAL_LOG][2018-06-12 01:34:34,559][INFO][find_string()] File: res/raw/device_capabilities_api.js
+[INTERNAL_LOG][2018-06-12 01:34:34,560][INFO][find_string()] No iframe in res/raw/device_capabilities_api.js
+[INTERNAL_LOG][2018-06-12 01:34:34,560][INFO][find_string()] File: res/raw/launch_screen_api.js
+[INTERNAL_LOG][2018-06-12 01:34:34,560][INFO][find_string()] No iframe in res/raw/launch_screen_api.js
+[INTERNAL_LOG][2018-06-12 01:34:34,560][INFO][find_string()] File: res/raw/messaging_api.js
+[INTERNAL_LOG][2018-06-12 01:34:34,561][INFO][find_string()] No iframe in res/raw/messaging_api.js
+[INTERNAL_LOG][2018-06-12 01:34:34,561][INFO][find_string()] File: res/raw/presentation_api.js
+[INTERNAL_LOG][2018-06-12 01:34:34,561][INFO][find_string()] No iframe in res/raw/presentation_api.js
+[INTERNAL_LOG][2018-06-12 01:34:34,561][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 01:34:34,945][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 01:34:34,945][INFO][find_url_in_apk()] https://www.googleapis.com/auth/plus.me
+https://www.googleapis.com/auth/games
+http://plus.google.com/
+http://www.example.com
+http://www.example.com
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://csi.gstatic.com/csi
+https://sb-ssl.google.com/safebrowsing/clientreport/malware
+https://pagead2.googlesyndication.com/pagead/gen_204
+http://www.google.com
+https://ssl.gstatic.com/accessibility/javascript/android/
+https://ssl.gstatic.com/accessibility/javascript/android/chromeandroidvox.js
+https://ssl.google-analytics.com/collect
+http://www.google-analytics.com/collect
+http://www.google-analytics.com/collect
+http://www.google-analytics.com/collect
+http://adlic.rjfun.com/adlic
+http://adlic.rjfun.com/adlic
+
+[INTERNAL_LOG][2018-06-12 01:34:34,945][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 01:34:34,952][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 01:34:34,952][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 01:34:34,952][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 01:34:34,952][INFO][analyze_start()] End time:[Tue Jun 12 01:34:34 2018]

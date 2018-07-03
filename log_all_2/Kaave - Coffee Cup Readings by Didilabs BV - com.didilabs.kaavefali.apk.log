@@ -1,0 +1,205 @@
+[INTERNAL_LOG][2018-06-12 01:44:05,010][INFO][analyze_start()] Init Time [Tue Jun 12 01:44:05 2018]
+[INTERNAL_LOG][2018-06-12 01:44:05,161][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 01:44:05,162][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 01:44:05,162][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-12 01:44:05,162][INFO][is_hybird()] android.permission.CAMERA
+[INTERNAL_LOG][2018-06-12 01:44:05,162][INFO][is_hybird()] android.permission.FLASHLIGHT
+[INTERNAL_LOG][2018-06-12 01:44:05,162][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 01:44:05,162][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 01:44:05,162][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-12 01:44:05,163][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 01:44:05,163][INFO][is_hybird()] android.permission.RECORD_AUDIO
+[INTERNAL_LOG][2018-06-12 01:44:05,163][INFO][is_hybird()] android.permission.ACCESS_COARSE_UPDATES
+[INTERNAL_LOG][2018-06-12 01:44:05,163][INFO][is_hybird()] android.permission.ACCESS_COARSE_LOCATION
+[INTERNAL_LOG][2018-06-12 01:44:05,163][INFO][is_hybird()] android.permission.ACCESS_FINE_LOCATION
+[INTERNAL_LOG][2018-06-12 01:44:05,163][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 01:44:05,163][INFO][is_hybird()] com.google.android.gms.permission.ACTIVITY_RECOGNITION
+[INTERNAL_LOG][2018-06-12 01:44:05,163][INFO][is_hybird()] android.permission.BLUETOOTH
+[INTERNAL_LOG][2018-06-12 01:44:05,163][INFO][is_hybird()] android.permission.BLUETOOTH_ADMIN
+[INTERNAL_LOG][2018-06-12 01:44:05,163][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 01:44:05,163][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 01:44:05,163][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-12 01:44:05,163][INFO][is_hybird()] com.didilabs.kaavefali.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-12 01:44:05,163][INFO][is_hybird()] android.permission.CHANGE_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 01:44:05,163][INFO][is_hybird()] android.permission.CHANGE_WIFI_MULTICAST_STATE
+[INTERNAL_LOG][2018-06-12 01:44:05,163][INFO][is_hybird()] android.permission.CHANGE_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 01:44:05,163][INFO][is_hybird()] android.permission.GET_TASKS
+[INTERNAL_LOG][2018-06-12 01:44:05,163][INFO][is_hybird()] android.permission.RECEIVE_BOOT_COMPLETED
+[INTERNAL_LOG][2018-06-12 01:44:05,163][INFO][is_hybird()] android.permission.SYSTEM_ALERT_WINDOW
+[INTERNAL_LOG][2018-06-12 01:44:05,163][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 01:44:05,163][INFO][is_hybird()] android.permission.READ_PHONE_STATE
+[INTERNAL_LOG][2018-06-12 01:44:05,164][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 01:44:05,164][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 01:44:05,164][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 01:44:05,164][INFO][find_string()] File: js/closebutton.html
+[INTERNAL_LOG][2018-06-12 01:44:05,164][INFO][find_string()] No iframe in js/closebutton.html
+[INTERNAL_LOG][2018-06-12 01:44:05,164][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 01:44:05,164][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 01:44:05,164][INFO][find_string()] File: js/mraid.js
+[INTERNAL_LOG][2018-06-12 01:44:05,166][INFO][find_string()] No iframe in js/mraid.js
+[INTERNAL_LOG][2018-06-12 01:44:05,167][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 01:45:04,568][INFO][find_url_in_apk()] [START URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-12 01:45:04,568][INFO][find_url_in_apk()] https://sdk.starbolt.io/dist/tagInterstitialAndroid.html
+https://sdk.starbolt.io/dist/tagVideoAndroid.html
+https://sdk.starbolt.io/dist/waterfall/waterfall.html
+
+[INTERNAL_LOG][2018-06-12 01:45:04,568][INFO][find_url_in_apk()] [END URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-12 01:45:05,049][INFO][find_string()] [START REMOTE FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 01:45:05,050][INFO][find_string()] Remote File in: temp_html_code/html_downloaded_Kaave - Coffee Cup Readings by Didilabs BV - com/tagInterstitialAndroid.html
+[INTERNAL_LOG][2018-06-12 01:45:05,050][INFO][find_string()] URL: https://sdk.starbolt.io/dist/tagInterstitialAndroid.html
+[INTERNAL_LOG][2018-06-12 01:45:05,052][INFO][find_string()] No iframe in temp_html_code/html_downloaded_Kaave - Coffee Cup Readings by Didilabs BV - com/tagInterstitialAndroid.html
+[INTERNAL_LOG][2018-06-12 01:45:05,052][INFO][find_string()] Remote File in: temp_html_code/html_downloaded_Kaave - Coffee Cup Readings by Didilabs BV - com/tagVideoAndroid.html
+[INTERNAL_LOG][2018-06-12 01:45:05,052][INFO][find_string()] URL: https://sdk.starbolt.io/dist/tagVideoAndroid.html
+[INTERNAL_LOG][2018-06-12 01:45:05,055][INFO][find_string()] No iframe in temp_html_code/html_downloaded_Kaave - Coffee Cup Readings by Didilabs BV - com/tagVideoAndroid.html
+[INTERNAL_LOG][2018-06-12 01:45:05,055][INFO][find_string()] Remote File in: temp_html_code/html_downloaded_Kaave - Coffee Cup Readings by Didilabs BV - com/waterfall.html
+[INTERNAL_LOG][2018-06-12 01:45:05,055][INFO][find_string()] URL: https://sdk.starbolt.io/dist/waterfall/waterfall.html
+[INTERNAL_LOG][2018-06-12 01:45:05,057][INFO][find_string()] No iframe in temp_html_code/html_downloaded_Kaave - Coffee Cup Readings by Didilabs BV - com/waterfall.html
+[INTERNAL_LOG][2018-06-12 01:45:05,057][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 01:45:05,057][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 01:45:05,058][INFO][find_url_in_apk()] http://schemas.android.com/apk/res/android
+https://foursquare.com/oauth2/authenticate?client_id=FBBMSF3IYHYC0H2NFTVTOUIKG2404Z1SLALQLCH4OQOWDG0L&response_type=code&redirect_uri=app://kaavefali
+https://foursquare.com/oauth2/access_token?client_id=FBBMSF3IYHYC0H2NFTVTOUIKG2404Z1SLALQLCH4OQOWDG0L&client_secret=FKOAOFYHF15R344PDQCQ2P0HFB0WASB545L4ZINAD3WGZUTJ&grant_type=authorization_code&redirect_uri=app://kaavefali&code=
+https://evt.tamoco.com/v1/
+https://vault.tamoco.com/v1/
+https://adc3-launch-server-staging.herokuapp.com/v4/launch
+https://adc3-launch.adcolony.com/v4/launch
+https://adc3-launch.adcolony.com/v4/launch
+https://wd.adcolony.com/logs
+http://schemas.applovin.com/android/1.0
+http://schemas.applovin.com/android/1.0
+https://d.applovin.com/
+https://a.applovin.com/
+https://rt.applovin.com/med
+https://rt.applovin.com/pix
+https://d.applvn.com/
+https://a.applvn.com/
+https://rt.applvn.com/pix
+https://vid.applovin.com/,https://pdn.applovin.com/,https://img.applovin.com/,https://d.applovin.com/,https://assets.applovin.com/,https://cdnjs.cloudflare.com/,http://vid.applovin.com/,http://pdn.applovin.com/,http://img.applovin.com/,http://d.applovin.com/,http://assets.applovin.com/,http://cdnjs.cloudflare.com/
+https://api.ampiri.com
+https://bleshsdk.com/bleshweb/
+http://www.example.com
+http://www.example.com
+http://www.example.com
+https://app.bugfender.com/api/
+https://widget.criteo.com
+http://dev.kaavefali.com/api/
+https://api.kaavefali.com/
+https://api.coffeeseer.com/
+https://sqgz.veloxity.net/
+https://sqgz.veloxity.net/
+https://play.google.com/store/apps/details?id=%s
+https://www.facebook.com/audience_network/server_side_reward
+https://www.%s.facebook.com/audience_network/server_side_reward
+https://graph.facebook.com/network_ads_common
+https://graph.%s.facebook.com/network_ads_common
+https://www.facebook.com/adnw_logging/
+https://www.%s.facebook.com/adnw_logging/
+http://play.google.com/store/apps/
+https://www.facebook.com/
+https://www.%s.facebook.com
+http://www.facebook.com
+https://pagead2.googlesyndication.com/pagead/gen_204
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/sdk-core-v40-impl.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://csi.gstatic.com/csi
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/native_ads.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/native_ads.js
+https://imasdk.googleapis.com/admob/sdkloader/native_video.html
+https://www.google.com/dfp/linkDevice
+https://www.google.com/dfp/inAppPreview
+https://www.google.com/dfp/debugSignals
+https://www.google.com/dfp/sendDebugData
+https://sdk.starbolt.io/dist/tagBanner.html
+https://sdk.starbolt.io/dist/tagBanner.html
+https://sdk.starbolt.io/dist/tagInterstitialAndroid.html
+https://sdk.starbolt.io/dist/tagVideoAndroid.html
+https://sdk.starbolt.io/dist/waterfall/waterfall.html
+https://sdk.starbolt.io/
+https://sdk.starbolt.io/
+https://sdk.starbolt.io/
+https://twitter.com/%s/status/%s
+http://clients3.google.com/generate_204
+https://api.vungle.com/
+https://ads.api.vungle.com/config
+http://data.altbeacon.org/android-distance.json
+https://graph.%s
+https://graph-video.%s
+https://facebook.com
+http://play.google.com/store/apps/details?id=com.facebook.orca
+http://www.w3.org/ns/ttml#parameter
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+https://plus.google.com/
+http://www.google.com
+https://support.google.com/dfp_premium/answer/7160685#push
+https://app-measurement.com/a
+https://www.google.com
+https://mobile-static.adsafeprotected.com/avid-v2.js
+https://z.moatads.com/
+https://z.moatads.com/
+http://schemas.android.com/apk/lib/com.mobfox.sdk
+https://sdk.starbolt.io/waterfalls.json
+https://dmp.starbolt.io/logger.json
+http://sdk-logs.matomy.com:12201/gelf
+http://sdk-logs.matomy.com:12201/gelf
+https://devices.starbolt.io/
+https://analytics.mopub.com/i/jot/exchange_client_event
+https://www.mopub.com/optout
+https://www.mopub.com/optout/
+https://www.mopub.com/optout/
+https://api.surveymonkey.net/sdk/v1/respondents?api_key=
+https://www.surveymonkey.com/r/
+http://play.google.com/store/apps/details?id=
+https://ws.tapjoyads.com/
+https://ws.tapjoyads.com/
+https://ws.tapjoyads.com/
+https://rpc.tapjoy.com/
+https://rpc.tapjoy.com/
+https://connect.tapjoy.com/
+https://connect.tapjoy.com/
+https://placements.tapjoy.com/
+https://upload-tutelawest.s3-accelerate.amazonaws.com/uploadfile
+https://d2763msf1wgvw2.cloudfront.net/download/testfile
+https://reporting-util.tutelatechnologies.com/checkip.php
+https://hail-reporting.tutelatechnologies.com/
+https://d3clybje3sun07.cloudfront.net/tutelaconfig/configlookup
+https://d1fpdhao7f8ux5.cloudfront.net/tokenCheck.php
+https://reporting.tutelatechnologies.com/upload.php
+https://reporting.tutelatechnologies.com/upload.php
+https://thepopulator.tutelatechnologies.com/rest/augment/
+https://d1fpdhao7f8ux5.cloudfront.net/register.php
+https://www.vungle.com/privacy/
+https://www.vungle.com/privacy/
+http://lol.vungle.com/
+https://api.branch.io/
+https://bnc.lt/a/
+https://e.crashlytics.com/spi/v2/events
+https://settings.crashlytics.com/spi/v2/platforms/android/apps/%s/settings
+http://f5b9d4ae-3520-4767-adbd-b4638cca4d2d
+http://f5b9d4ae-3520-4767-adbd-b4638cca4d2d
+http://f5b9d4ae-3520-4767-adbd-b4638cca4d2d
+http://f5b9d4ae-3520-4767-adbd-b4638cca4d2d
+http://f5b9d4ae-3520-4767-adbd-b4638cca4d2d
+http://f5b9d4ae-3520-4767-adbd-b4638cca4d2d
+http://f5b9d4ae-3520-4767-adbd-b4638cca4d2d
+http://off_wifi_dd3e31f0-aa47-480c-9ec1-f4c240b4e496
+http://cancel_webview_2f25a9e1-67fe-4144-b935-000ef1f2d38f
+http://cancel_webview_2f25a9e1-67fe-4144-b935-000ef1f2d38f
+http://connectivitycheck.gstatic.com/generate_204
+http://www.
+https://www.
+
+[INTERNAL_LOG][2018-06-12 01:45:05,058][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 01:45:05,078][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 01:45:05,079][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 01:45:05,079][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 01:45:05,079][INFO][analyze_start()] End time:[Tue Jun 12 01:45:05 2018]

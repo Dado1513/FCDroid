@@ -1,0 +1,141 @@
+[INTERNAL_LOG][2018-06-12 01:47:22,600][INFO][analyze_start()] Init Time [Tue Jun 12 01:47:22 2018]
+[INTERNAL_LOG][2018-06-12 01:47:22,748][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 01:47:22,749][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 01:47:22,749][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 01:47:22,749][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 01:47:22,749][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 01:47:22,750][INFO][is_hybird()] android.permission.CHANGE_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 01:47:22,750][INFO][is_hybird()] android.permission.CHANGE_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 01:47:22,750][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 01:47:22,750][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 01:47:22,750][INFO][is_hybird()] android.permission.SYSTEM_ALERT_WINDOW
+[INTERNAL_LOG][2018-06-12 01:47:22,750][INFO][is_hybird()] android.permission.GET_TASKS
+[INTERNAL_LOG][2018-06-12 01:47:22,750][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 01:47:22,750][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-12 01:47:22,750][INFO][is_hybird()] android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+[INTERNAL_LOG][2018-06-12 01:47:22,750][INFO][is_hybird()] android.permission.GET_TASKS
+[INTERNAL_LOG][2018-06-12 01:47:22,750][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-12 01:47:22,750][INFO][is_hybird()] com.android.vending.CHECK_LICENSE
+[INTERNAL_LOG][2018-06-12 01:47:22,750][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-12 01:47:22,750][INFO][is_hybird()] com.cjenm.monster.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-12 01:47:22,750][INFO][is_hybird()] android.permission.RECORD_AUDIO
+[INTERNAL_LOG][2018-06-12 01:47:22,750][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 01:47:22,750][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 01:47:22,751][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 01:47:22,751][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 01:47:22,751][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 01:47:22,751][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 01:47:47,643][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 01:47:47,644][INFO][find_url_in_apk()] https://m.facebook.com/dialog/
+https://graph.facebook.com/
+https://api.facebook.com/restserver.php
+https://graph.facebook.com/%s/picture
+https://graph.%s
+https://graph-video.%s
+https://facebook.com
+https://accounts.google.com
+https://www.facebook.com
+https://www.googleapis.com/auth/plus.me
+https://www.googleapis.com/auth/plus.me
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games
+http://plus.google.com/
+https://www.googleapis.com/auth/drive.file
+https://www.googleapis.com/auth/drive.appdata
+https://www.googleapis.com/auth/drive
+https://www.googleapis.com/auth/drive.apps
+https://www.googleapis.com/auth/games.firstparty
+https://www.googleapis.com/auth/games.firstparty
+http://www.example.com
+http://www.example.com
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://csi.gstatic.com/csi
+https://sb-ssl.google.com/safebrowsing/clientreport/malware
+https://pagead2.googlesyndication.com/pagead/gen_204
+http://www.google.com
+https://www.googleapis.com/auth/plus.login
+http://schemas.android.com/apk/lib/com.google.android.gms.plus
+http://schemas.android.com/apk/lib/com.google.android.gms.plus
+https://api.kakao.com/v1
+https://alpha-api.kakao.com/v1
+https://sandbox-api.kakao.com/v1
+https://beta-api.kakao.com/v1
+https://auth.kakao.com
+https://alpha-auth.kakao.com
+https://sandbox-auth.kakao.com
+https://beta-auth.kakao.com
+https://gameapi.kakao.com
+https://alpha-gameapi.kakao.com
+https://sandbox-gameapi.kakao.com
+https://beta-gameapi.kakao.com
+http://gc.kakaocdn.net/dn
+http://alpha-api1-kage.kakao.com/dn
+https://up.api1.kage.kakao.com
+https://vega001.kr.iwilab.com
+https://up-m-story.kakao.com
+http://alpha-api1-kage.kakao.com
+https://sandbox-api-up-m-story.kakao.com
+http://api-playgame.kakao.com/v1
+http://alpha-api-playgame.kakao.com/v1
+http://beta-api-playgame.kakao.com/v1
+https://auth.kakao.com/apps/client_setting.html
+https://graph.facebook.com/%s/picture?type=%s
+https://graph.facebook.com/%s/picture?type=%s
+https://graph.facebook.com/%s/picture?type=%s
+https://graph.facebook.com/%s/picture?type=%s
+https://graph.facebook.com/%s/picture?type=%s
+https://graph.facebook.com/%s/picture?type=%s
+https://graph.facebook.com/%s/picture?type=%s
+https://graph.facebook.com/%s/picture?type=%s
+https://graph.facebook.com/%s/picture?type=%s
+https://graph.facebook.com/%s/picture?type=%s
+https://graph.facebook.com/%s/picture?type=%s
+http://mobileapi.netmarble.com/v2/commonCs/getKey
+http://mobileapi.netmarble.com/v2/commonCs/getKey
+http://receiverewardok
+http://receiverewardok
+http://receiverewardok
+http://receiverewardok
+http://receiverewardok
+http://receiverewardok
+http://receiverewardok
+http://receiverewardok
+http://receiverewardok
+http://receiveRewardOk
+http://receiveRewardOk
+http://receiveRewardOk
+http://receiveRewardOk
+http://receiveRewardOk
+http://receiveRewardOk
+http://receiveRewardOk
+http://receiveRewardOk
+http://receiveRewardOk
+http://imagepath
+http://m.netmarble.net
+http://api.pr.weixin.qq.com/cgi-bin/wxvoicereco
+http://www.amazon.com/gp/mas/dl/android?%s
+http://play.google.com/store/apps/details?%s
+http://dev-netmarbleslog.netmarble.net
+http://netmarbleslog.netmarble.net
+http://front.netmarble.com
+https://cpdev-nmbillgw.netmarble.com
+https://nmbillgw.netmarble.com
+https://cpdev-nmfraud.netmarble.com/refund/main
+https://nmfraud.netmarble.com/refund/main
+http://monsterus.gcdn.netmarble.com/monsterus/Android/v
+
+[INTERNAL_LOG][2018-06-12 01:47:47,644][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 01:47:47,650][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 01:47:47,650][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 01:47:47,651][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 01:47:47,651][INFO][analyze_start()] End time:[Tue Jun 12 01:47:47 2018]

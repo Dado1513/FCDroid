@@ -1,0 +1,102 @@
+[INTERNAL_LOG][2018-06-08 03:00:53,539][INFO][analyze_start()] Init Time [Fri Jun  8 03:00:53 2018]
+[INTERNAL_LOG][2018-06-08 03:00:53,631][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-08 03:00:53,635][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-08 03:00:53,635][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-08 03:00:53,635][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-08 03:00:53,635][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-08 03:00:53,635][INFO][is_hybird()] android.permission.CHANGE_WIFI_STATE
+[INTERNAL_LOG][2018-06-08 03:00:53,635][INFO][is_hybird()] android.permission.ACCESS_FINE_LOCATION
+[INTERNAL_LOG][2018-06-08 03:00:53,635][INFO][is_hybird()] android.permission.ACCESS_COARSE_LOCATION
+[INTERNAL_LOG][2018-06-08 03:00:53,635][INFO][is_hybird()] android.permission.CAMERA
+[INTERNAL_LOG][2018-06-08 03:00:53,635][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-08 03:00:53,635][INFO][is_hybird()] android.permission.READ_CONTACTS
+[INTERNAL_LOG][2018-06-08 03:00:53,635][INFO][is_hybird()] android.permission.READ_PROFILE
+[INTERNAL_LOG][2018-06-08 03:00:53,635][INFO][is_hybird()] android.permission.READ_PHONE_STATE
+[INTERNAL_LOG][2018-06-08 03:00:53,635][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-08 03:00:53,635][INFO][is_hybird()] android.permission.MODIFY_AUDIO_SETTINGS
+[INTERNAL_LOG][2018-06-08 03:00:53,635][INFO][is_hybird()] android.permission.RECORD_AUDIO
+[INTERNAL_LOG][2018-06-08 03:00:53,635][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-08 03:00:53,636][INFO][is_hybird()] android.permission.BLUETOOTH
+[INTERNAL_LOG][2018-06-08 03:00:53,636][INFO][is_hybird()] com.skype.raider.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-08 03:00:53,636][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-08 03:00:53,636][INFO][is_hybird()] android.permission.RECEIVE_BOOT_COMPLETED
+[INTERNAL_LOG][2018-06-08 03:00:53,636][INFO][is_hybird()] com.google.android.gms.permission.ACTIVITY_RECOGNITION
+[INTERNAL_LOG][2018-06-08 03:00:53,636][INFO][is_hybird()] android.permission.AUTHENTICATE_ACCOUNTS
+[INTERNAL_LOG][2018-06-08 03:00:53,636][INFO][is_hybird()] android.permission.BROADCAST_STICKY
+[INTERNAL_LOG][2018-06-08 03:00:53,636][INFO][is_hybird()] android.permission.CALL_PHONE
+[INTERNAL_LOG][2018-06-08 03:00:53,636][INFO][is_hybird()] android.permission.DISABLE_KEYGUARD
+[INTERNAL_LOG][2018-06-08 03:00:53,636][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-08 03:00:53,636][INFO][is_hybird()] android.permission.GET_TASKS
+[INTERNAL_LOG][2018-06-08 03:00:53,636][INFO][is_hybird()] android.permission.MANAGE_ACCOUNTS
+[INTERNAL_LOG][2018-06-08 03:00:53,636][INFO][is_hybird()] android.permission.READ_SYNC_SETTINGS
+[INTERNAL_LOG][2018-06-08 03:00:53,636][INFO][is_hybird()] android.permission.READ_SYNC_STATS
+[INTERNAL_LOG][2018-06-08 03:00:53,636][INFO][is_hybird()] android.permission.USE_CREDENTIALS
+[INTERNAL_LOG][2018-06-08 03:00:53,636][INFO][is_hybird()] android.permission.WRITE_CONTACTS
+[INTERNAL_LOG][2018-06-08 03:00:53,636][INFO][is_hybird()] android.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-08 03:00:53,636][INFO][is_hybird()] android.permission.WRITE_SYNC_SETTINGS
+[INTERNAL_LOG][2018-06-08 03:00:53,636][INFO][is_hybird()] com.anddoes.launcher.permission.UPDATE_COUNT
+[INTERNAL_LOG][2018-06-08 03:00:53,636][INFO][is_hybird()] com.htc.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-08 03:00:53,636][INFO][is_hybird()] com.htc.launcher.permission.UPDATE_SHORTCUT
+[INTERNAL_LOG][2018-06-08 03:00:53,636][INFO][is_hybird()] com.majeur.launcher.permission.UPDATE_BADGE
+[INTERNAL_LOG][2018-06-08 03:00:53,636][INFO][is_hybird()] com.sec.android.provider.badge.permission.READ
+[INTERNAL_LOG][2018-06-08 03:00:53,636][INFO][is_hybird()] com.sec.android.provider.badge.permission.WRITE
+[INTERNAL_LOG][2018-06-08 03:00:53,636][INFO][is_hybird()] com.sonyericsson.home.permission.BROADCAST_BADGE
+[INTERNAL_LOG][2018-06-08 03:00:53,637][INFO][is_hybird()] android.permission.READ_SMS
+[INTERNAL_LOG][2018-06-08 03:00:53,637][INFO][is_hybird()] android.permission.RECEIVE_SMS
+[INTERNAL_LOG][2018-06-08 03:00:53,637][INFO][is_hybird()] com.amazon.device.messaging.permission.RECEIVE
+[INTERNAL_LOG][2018-06-08 03:00:53,637][INFO][is_hybird()] com.skype.raider.permission.RECEIVE_ADM_MESSAGE
+[INTERNAL_LOG][2018-06-08 03:00:53,637][INFO][is_hybird()] com.skype.raider.permission.ACCOUNT
+[INTERNAL_LOG][2018-06-08 03:00:53,637][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-08 03:00:53,637][INFO][is_hybird()] android.permission.BODY_SENSORS
+[INTERNAL_LOG][2018-06-08 03:00:53,637][INFO][is_hybird()] com.huawei.android.launcher.permission.CHANGE_BADGE
+[INTERNAL_LOG][2018-06-08 03:00:53,637][INFO][is_hybird()] android.permission.SYSTEM_ALERT_WINDOW
+[INTERNAL_LOG][2018-06-08 03:00:53,637][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-08 03:00:53,637][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-08 03:00:53,637][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-08 03:00:53,637][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-08 03:01:30,962][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-08 03:01:30,968][INFO][find_url_in_apk()] https://app.adjust.com
+https://app.adjust.com
+http://www.android.com/
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+http://www.google-analytics.com
+https://ssl.google-analytics.com
+http://plus.google.com/
+https://www.googletagmanager.com
+http://hostname/?
+https://mobile.pipe.aria.microsoft.com/Collector/3.0/
+https://mobile.pipe.aria.microsoft.com/Collector/3.0/
+https://mobile.pipe.aria.microsoft.com/Collector/3.0/
+https://login.live.com/oauth20_token.srf
+https://platform.bing.com/agents/Csu/Models/Sync
+https://platform.bing.com/agents/v1/agentgateway/data?container=true
+https://oneclient.sfx.ms/mobile/ts_configuration.jwt
+https://play.google.com/store/apps/details?id=%s
+https://rink.hockeyapp.net/api/2/apps/
+https://secure.skype.com/calling-rates
+https://www.skype.com/en/offers/free-calls-from-india/
+https://support.skype.com/faq/FA34766/
+https://support.skype.com/faq/FA34542/
+https://secure.skypeassets.com/content/dam/scom/app/notifications/ensure_network_image.png
+https://secure.skypeassets.com/content/dam/scom/app/notifications/ensure_network_image.png
+https://secure.skypeassets.com/content/dam/scom/app/notifications/upgrade_notification_1.jpg
+https://secure.skypeassets.com/content/dam/scom/app/notifications/upgrade_notification_2.jpg
+https://secure.skypeassets.com/content/dam/scom/app/notifications/upgrade_notification_3.jpg
+https://secure.skypeassets.com/content/dam/scom/app/notifications/upgrade_notification_4.jpg
+https://sdk.hockeyapp.net/
+https://sdk.hockeyapp.net/
+https://sdk.hockeyapp.net/
+https://sdk.hockeyapp.net/
+https://sdk.hockeyapp.net/
+https://gate.hockeyapp.net/v2/track
+
+[INTERNAL_LOG][2018-06-08 03:01:30,969][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-08 03:01:30,972][INFO][check_method_conf()] [JavaScript enabled: False]
+
+[INTERNAL_LOG][2018-06-08 03:01:30,972][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-08 03:01:30,972][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-08 03:01:30,972][INFO][analyze_start()] End time:[Fri Jun  8 03:01:30 2018]

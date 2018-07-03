@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" style="position: relative; width:100%; height:100%">
+<head>
+  <meta charset="UTF-8">
+  <title>TOUCHPAL VPAID AD</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <script type="text/javascript" src="./vpaidwrapper.js"></script>
+  <script type="text/javascript" src="./html5_vpaid.js"></script>
+</head>
+<body style="position: relative; width:100%; height:100%;overflow: hidden;margin: 0">
+    <div style="position: relative; width:100%; height:100%">
+        <div id="videoAdLayer" style="width:100%; height:100%">
+             <video webkit-playsinline playsinline id="videoElement" style="width:100%; height:100%;"></video>
+        </div>
+    </div>    
+     
+</body>
+</html>

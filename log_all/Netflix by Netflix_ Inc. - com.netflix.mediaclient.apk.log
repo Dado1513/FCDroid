@@ -1,0 +1,83 @@
+[INTERNAL_LOG][2018-06-07 23:26:36,347][INFO][analyze_start()] Init Time [Thu Jun  7 23:26:36 2018]
+[INTERNAL_LOG][2018-06-07 23:26:36,417][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-07 23:26:36,419][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-07 23:26:36,419][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-07 23:26:36,419][INFO][is_hybird()] com.netflix.partner.activation.permission.CHANNEL_ID
+[INTERNAL_LOG][2018-06-07 23:26:36,419][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-07 23:26:36,419][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-07 23:26:36,419][INFO][is_hybird()] android.permission.BLUETOOTH
+[INTERNAL_LOG][2018-06-07 23:26:36,420][INFO][is_hybird()] android.permission.CHANGE_WIFI_MULTICAST_STATE
+[INTERNAL_LOG][2018-06-07 23:26:36,420][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-07 23:26:36,420][INFO][is_hybird()] android.permission.READ_PHONE_STATE
+[INTERNAL_LOG][2018-06-07 23:26:36,420][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-07 23:26:36,420][INFO][is_hybird()] android.permission.RECORD_AUDIO
+[INTERNAL_LOG][2018-06-07 23:26:36,420][INFO][is_hybird()] android.permission.MODIFY_AUDIO_SETTINGS
+[INTERNAL_LOG][2018-06-07 23:26:36,420][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-07 23:26:36,420][INFO][is_hybird()] com.google.android.gms.permission.ACTIVITY_RECOGNITION
+[INTERNAL_LOG][2018-06-07 23:26:36,420][INFO][is_hybird()] com.amazon.permission.SET_FLAG_NOSOFTKEYS
+[INTERNAL_LOG][2018-06-07 23:26:36,420][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-07 23:26:36,420][INFO][is_hybird()] com.netflix.mediaclient.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-07 23:26:36,420][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-07 23:26:36,420][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-07 23:26:36,420][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-07 23:26:36,420][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-07 23:27:16,938][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-07 23:27:16,938][INFO][find_url_in_apk()] http://www.google-analytics.com
+https://ssl.google-analytics.com
+https://app-measurement.com/a
+https://www.google.com
+https://ncds.nflxext.com/v1/2/current
+https://help.netflix.com/support/14384
+https://help.netflix.com/support/14384
+http://netflix.com
+https://www.netflix.com/welcome/onramp?isProfilesOnRamp=true&nftoken=
+http://www.netflix.com/privacy
+http://www.netflix.com/privacy#cookies
+http://www.netflix.com/termsofuse
+https://fast.com/
+https://www.netflix.com/verifyage
+http://www.netflix.com/PIN
+http://ciscobinary.openh264.org/libopenh264-1.5.0-android19.so.bz2
+http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+https://apm.
+https://api.
+https://txn.ingest.
+https://appload.ingest.
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+https://plus.google.com/
+https://help.netflix.com
+https://assets.nflxext.com/ffe/siteui/acquisition/androidSignup/flags/
+https://netflix.com/help
+https://assets.nflxext.com/ffe/siteui/vlv3/afbfd84e-c987-4438-99f2-8d0738d30d68/80f89692-9533-4b7b-ab0c-359825415564/US-en-20170918-popsignuptwoweeks-perspective_alpha_website_small.jpg
+https://assets.nflxext.com/ffe/siteui/acquisition/home/thisIsNetflix/modules/small/asset_cancelanytime_withdevice.jpg
+https://assets.nflxext.com/ffe/siteui/acquisition/home/thisIsNetflix/modules/asset_TV_UI.png
+https://assets.nflxext.com/ffe/siteui/acquisition/home/thisIsNetflix/modules/asset_website_UI.png
+https://assets.nflxext.com/ffe/siteui/acquisition/home/thisIsNetflix/modules/asset_mobile_tablet_UI_2.png
+https://upload.wikimedia.org/wikipedia/en/4/4e/Sharkando_4_poster.jpg
+https://help.netflix.com/en/node/12407
+https://help.netflix.com/en/node/13590
+https://www.netflix.com/youraccount
+https://www.netflix.com/LoginHelp
+https://www.netflix.com/LoginHelp
+https://www.netflix.com
+https://www.netflix.com
+https://www.netflix.com
+https://www.netflix.com
+http://google.com
+http://www.google.com
+https://help.netflix.com/en/node/57688
+http://www.w3.org/ns/ttml#parameter
+https://signup.netflix.com/loginhelp
+https://www.googleapis.com/auth/games
+
+[INTERNAL_LOG][2018-06-07 23:27:16,938][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-07 23:27:16,950][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-07 23:27:16,950][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-07 23:27:16,950][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-07 23:27:16,950][INFO][analyze_start()] End time:[Thu Jun  7 23:27:16 2018]

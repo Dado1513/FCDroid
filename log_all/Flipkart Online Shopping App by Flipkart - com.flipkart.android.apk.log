@@ -1,0 +1,215 @@
+[INTERNAL_LOG][2018-06-08 00:22:10,808][INFO][analyze_start()] Init Time [Fri Jun  8 00:22:10 2018]
+[INTERNAL_LOG][2018-06-08 00:22:10,868][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-08 00:22:10,871][INFO][is_hybird()] Hybrid file found are: ['config.xml']
+[INTERNAL_LOG][2018-06-08 00:22:10,871][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-08 00:22:10,871][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-08 00:22:10,871][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-08 00:22:10,871][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-08 00:22:10,871][INFO][is_hybird()] android.permission.CAMERA
+[INTERNAL_LOG][2018-06-08 00:22:10,871][INFO][is_hybird()] android.permission.USE_CREDENTIALS
+[INTERNAL_LOG][2018-06-08 00:22:10,871][INFO][is_hybird()] com.google.android.providers.gsf.permission.READ_GSERVICES
+[INTERNAL_LOG][2018-06-08 00:22:10,871][INFO][is_hybird()] android.permission.FLASHLIGHT
+[INTERNAL_LOG][2018-06-08 00:22:10,871][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-08 00:22:10,872][INFO][is_hybird()] android.permission.READ_PHONE_STATE
+[INTERNAL_LOG][2018-06-08 00:22:10,872][INFO][is_hybird()] android.permission.ACCESS_COARSE_LOCATION
+[INTERNAL_LOG][2018-06-08 00:22:10,872][INFO][is_hybird()] android.permission.RECORD_AUDIO
+[INTERNAL_LOG][2018-06-08 00:22:10,872][INFO][is_hybird()] android.permission.BLUETOOTH
+[INTERNAL_LOG][2018-06-08 00:22:10,872][INFO][is_hybird()] android.permission.ACCESS_FINE_LOCATION
+[INTERNAL_LOG][2018-06-08 00:22:10,872][INFO][is_hybird()] android.permission.READ_CONTACTS
+[INTERNAL_LOG][2018-06-08 00:22:10,872][INFO][is_hybird()] android.permission.READ_PROFILE
+[INTERNAL_LOG][2018-06-08 00:22:10,872][INFO][is_hybird()] android.permission.RECEIVE_SMS
+[INTERNAL_LOG][2018-06-08 00:22:10,872][INFO][is_hybird()] android.permission.READ_SMS
+[INTERNAL_LOG][2018-06-08 00:22:10,872][INFO][is_hybird()] android.permission.READ_CALL_LOG
+[INTERNAL_LOG][2018-06-08 00:22:10,872][INFO][is_hybird()] android.permission.READ_SYNC_SETTINGS
+[INTERNAL_LOG][2018-06-08 00:22:10,872][INFO][is_hybird()] android.permission.WRITE_SYNC_SETTINGS
+[INTERNAL_LOG][2018-06-08 00:22:10,872][INFO][is_hybird()] android.permission.AUTHENTICATE_ACCOUNTS
+[INTERNAL_LOG][2018-06-08 00:22:10,872][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-08 00:22:10,872][INFO][is_hybird()] android.permission.RECEIVE_BOOT_COMPLETED
+[INTERNAL_LOG][2018-06-08 00:22:10,872][INFO][is_hybird()] com.android.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-08 00:22:10,872][INFO][is_hybird()] com.android.launcher.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-08 00:22:10,872][INFO][is_hybird()] com.android.launcher.permission.INSTALL_SHORTCUT
+[INTERNAL_LOG][2018-06-08 00:22:10,872][INFO][is_hybird()] com.android.launcher.permission.UNINSTALL_SHORTCUT
+[INTERNAL_LOG][2018-06-08 00:22:10,872][INFO][is_hybird()] com.sec.android.provider.badge.permission.READ
+[INTERNAL_LOG][2018-06-08 00:22:10,873][INFO][is_hybird()] com.sec.android.provider.badge.permission.WRITE
+[INTERNAL_LOG][2018-06-08 00:22:10,873][INFO][is_hybird()] com.htc.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-08 00:22:10,873][INFO][is_hybird()] com.htc.launcher.permission.UPDATE_SHORTCUT
+[INTERNAL_LOG][2018-06-08 00:22:10,873][INFO][is_hybird()] com.sonyericsson.home.permission.BROADCAST_BADGE
+[INTERNAL_LOG][2018-06-08 00:22:10,873][INFO][is_hybird()] com.anddoes.launcher.permission.UPDATE_COUNT
+[INTERNAL_LOG][2018-06-08 00:22:10,873][INFO][is_hybird()] com.majeur.launcher.permission.UPDATE_BADGE
+[INTERNAL_LOG][2018-06-08 00:22:10,873][INFO][is_hybird()] com.flipkart.android.mwcpRead
+[INTERNAL_LOG][2018-06-08 00:22:10,873][INFO][is_hybird()] com.flipkart.android.mwcpWrite
+[INTERNAL_LOG][2018-06-08 00:22:10,873][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-08 00:22:10,873][INFO][is_hybird()] android.permission.READ_OWNER_DATA
+[INTERNAL_LOG][2018-06-08 00:22:10,873][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-08 00:22:10,873][INFO][is_hybird()] android.permission.CHANGE_WIFI_STATE
+[INTERNAL_LOG][2018-06-08 00:22:10,873][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-08 00:22:10,873][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-08 00:22:10,873][INFO][is_hybird()] android.permission.SEND_SMS
+[INTERNAL_LOG][2018-06-08 00:22:10,873][INFO][is_hybird()] android.permission.WRITE_CONTACTS
+[INTERNAL_LOG][2018-06-08 00:22:10,873][INFO][is_hybird()] android.permission.SYSTEM_ALERT_WINDOW
+[INTERNAL_LOG][2018-06-08 00:22:10,873][INFO][is_hybird()] com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+[INTERNAL_LOG][2018-06-08 00:22:10,873][INFO][is_hybird()] com.flipkart.android.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-08 00:22:10,873][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-08 00:22:10,894][INFO][is_hybird()] Starting apktool
+[INTERNAL_LOG][2018-06-08 00:22:21,487][ERROR][is_hybird()] [ERROR file config.xmls] [Errno 2] No such file or directory: 'temp_dir/res/xml/config.xml' 
+
+[INTERNAL_LOG][2018-06-08 00:22:21,498][INFO][analyze_start()] TYPE APK: [HYBRID]
+
+[INTERNAL_LOG][2018-06-08 00:22:21,519][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-08 00:22:21,529][INFO][find_string()] File: assets/juspay/acs_blank.html
+[INTERNAL_LOG][2018-06-08 00:22:21,669][INFO][find_string()] No iframe in assets/juspay/acs_blank.html
+[INTERNAL_LOG][2018-06-08 00:22:21,689][INFO][find_string()] File: assets/myerrorpage.html
+[INTERNAL_LOG][2018-06-08 00:22:21,756][INFO][find_string()] No iframe in assets/myerrorpage.html
+[INTERNAL_LOG][2018-06-08 00:22:21,772][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-08 00:23:14,710][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-08 00:23:14,710][INFO][find_url_in_apk()] http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+https://facebook.com
+https://graph.%s
+https://graph-video.%s
+https://facebook.com/device?user_code=%1$s&qr=1
+http://www.android.com/
+http://flap-tk.ads.flipkart.com/mapi/v1/tracker/eventBatch
+https://www.flipkart.com/rv/fintech/khaata/know-more-v2
+https://blobio.flipkart.net/v1/sc
+https://blobio.flipkart.net/v1/sc?resourceId=
+https://accounts.google.com
+https://www.googleadservices.com/pagead/conversion/%s/?label=%s&rdid=%s&idtype=advertisingid&lat=0&bundleid=%s&appversion=%s&osversion=%s&sdkversion=tune-marketing-console-sdk-a-v%s
+http://m.flipkart.com
+https://m.flipkart.com
+https://www.payzippy.com/fkpay
+http://mobileapi.flipkart.net/
+https://securechat.flipkart.net/
+https://varys.flipkart.net/
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/sdk-core-v40-impl.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://csi.gstatic.com/csi
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/native_ads.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/native_ads.js
+https://imasdk.googleapis.com/admob/sdkloader/native_video.html
+https://www.google.com/dfp/linkDevice
+https://www.google.com/dfp/inAppPreview
+https://www.google.com/dfp/debugSignals
+https://www.google.com/dfp/sendDebugData
+https://connekt.flipkart.net
+https://www.payzippy.com/payment/api/v1/smartpay/track
+https://m.flipkart.com/rv/pay?token=
+https://blobio.flipkart.net/v1/blobio/image?chunkCount=
+https://blobio.flipkart.net/v1/blobio?key=
+https://blobio.flipkart.net/v1/blobio/image?chunkCount=1
+https://blobio.flipkart.net/v1/blobio/image
+https://blobio.flipkart.net/v1/blobio/image/validate?resourceId=
+http://dl.flipkart.com/dl
+http://www.flipkart.com
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+https://www.googleapis.com/auth/games_lite
+https://www.googleapis.com/auth/games
+https://accounts.google.com/o/oauth2/revoke?token=
+https://plus.google.com/
+https://app-measurement.com/a
+https://www.google.com
+http://play.google.com/store/apps/details
+https://www.phonepe.com/
+https://playlist.ma.tune.com
+https://configuration.ma.tune.com
+https://analytics.ma.tune.com/analytics
+https://s3.amazonaws.com/uploaded-assets-production
+https://connected.ma.tune.com
+http://play.google.com/store/apps/details?%s
+http://www.amazon.com/gp/mas/dl/android?%s
+http://www.w3.org/2000/09/xmldsig#
+http://www.w3.org/2000/09/xmldsig#
+http://www.w3.org/2000/09/xmldsig#
+http://www.w3.org/2000/09/xmldsig#
+http://www.w3.org/2000/09/xmldsig#
+http://www.w3.org/2000/09/xmldsig#
+http://www.w3.org/2000/09/xmldsig#
+http://www.w3.org/2000/09/xmldsig#
+http://www.w3.org/2000/09/xmldsig#
+http://www.w3.org/2000/09/xmldsig#
+http://www.w3.org/2000/09/xmldsig#
+http://www.w3.org/2000/09/xmldsig#
+http://www.w3.org/2000/09/xmldsig#
+http://www.w3.org/2000/09/xmldsig#
+http://www.w3.org/2000/09/xmldsig#
+http://www.w3.org/2000/09/xmldsig#
+https://e.crashlytics.com/spi/v2/events
+https://settings.crashlytics.com/spi/v2/platforms/android/apps/%s/settings
+http://www.xmlsecurity.org/NS/#configuration
+http://www.xmlsecurity.org/NS/#configuration
+http://www.w3.org/2001/04/xmlenc#
+http://www.w3.org/2001/04/xmlenc#
+http://www.w3.org/2001/04/xmlenc#
+http://www.w3.org/2001/04/xmldsig-more#hmac-md5
+http://www.w3.org/2001/04/xmldsig-more#hmac-ripemd160
+http://www.w3.org/2000/09/xmldsig#hmac-sha1
+http://www.w3.org/2001/04/xmldsig-more#hmac-sha256
+http://www.w3.org/2001/04/xmldsig-more#hmac-sha384
+http://www.w3.org/2001/04/xmldsig-more#hmac-sha512
+http://www.w3.org/2001/04/xmldsig-more#rsa-md5
+http://www.w3.org/2001/04/xmldsig-more#rsa-ripemd160
+http://www.w3.org/2000/09/xmldsig#rsa-sha1
+http://www.w3.org/2001/04/xmldsig-more#rsa-sha256
+http://www.w3.org/2001/04/xmldsig-more#rsa-sha384
+http://www.w3.org/2001/04/xmldsig-more#rsa-sha512
+http://www.w3.org/2000/09/xmldsig#dsa-sha1
+http://www.w3.org/2001/04/xmldsig-more#ecdsa-sha1
+http://www.w3.org/2000/xmlns/
+http://www.w3.org/2000/xmlns/
+http://www.w3.org/2000/xmlns/
+http://www.w3.org/2000/xmlns/
+http://www.w3.org/2000/xmlns/
+http://www.w3.org/2000/xmlns/
+http://www.w3.org/2000/xmlns/
+http://www.w3.org/2000/xmlns/
+http://www.w3.org/2000/xmlns/
+http://www.w3.org/2000/xmlns/
+http://www.w3.org/2000/xmlns/
+http://www.w3.org/2000/xmlns/
+http://www.w3.org/2000/xmlns/
+http://www.w3.org/XML/1998/namespace
+http://www.w3.org/XML/1998/namespace
+http://www.w3.org/XML/1998/namespace
+http://www.w3.org/XML/1998/namespace
+http://www.w3.org/XML/1998/namespace
+http://www.w3.org/XML/1998/namespace
+http://www.w3.org/XML/1998/namespace
+http://www.w3.org/XML/1998/namespace
+http://www.w3.org/2006/12/xml-c14n11
+http://www.w3.org/2006/12/xml-c14n11
+http://www.w3.org/2000/09/xmldsig#Manifest
+http://www.w3.org/TR/2001/REC-xml-c14n-20010315
+http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments
+http://www.w3.org/2001/10/xml-exc-c14n#
+http://www.w3.org/2001/10/xml-exc-c14n#
+http://www.w3.org/2001/10/xml-exc-c14n#
+http://www.w3.org/2001/10/xml-exc-c14n#
+http://www.w3.org/2001/10/xml-exc-c14n#
+http://www.w3.org/2001/10/xml-exc-c14n#WithComments
+http://www.w3.org/2001/10/xml-exc-c14n#WithComments
+http://www.w3.org/2006/12/xml-c14n11#WithComments
+http://www.w3.org/2002/06/xmldsig-filter2
+http://www.w3.org/2002/06/xmldsig-filter2
+http://www.w3.org/TR/2001/WD-xptr-20010108
+http://www.w3.org/1999/XSL/Transform
+http://javax.xml.XMLConstants/feature/secure-processing
+http://www.w3.org/2002/04/xmldsig-filter2
+http://www.nue.et-inf.uni-siegen.de/~geuer-pollmann/#xpathFilter
+http://schemas.xmlsoap.org/soap/security/2000-12
+http://www.w3.org/2002/03/xkms#
+http://localhost/
+http://localhost/
+http://localhost/
+
+[INTERNAL_LOG][2018-06-08 00:23:14,710][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-08 00:23:14,723][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-08 00:23:14,723][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-08 00:23:14,723][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-08 00:23:14,723][INFO][analyze_start()] End time:[Fri Jun  8 00:23:14 2018]

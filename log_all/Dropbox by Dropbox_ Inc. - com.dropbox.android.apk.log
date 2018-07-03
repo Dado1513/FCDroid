@@ -1,0 +1,120 @@
+[INTERNAL_LOG][2018-06-07 21:48:35,227][INFO][analyze_start()] Init Time [Thu Jun  7 21:48:35 2018]
+[INTERNAL_LOG][2018-06-07 21:48:35,395][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-07 21:48:35,399][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-07 21:48:35,399][INFO][is_hybird()] com.dropbox.android.service.ACCOUNT_INFO_ALARM_TRIGGER
+[INTERNAL_LOG][2018-06-07 21:48:35,399][INFO][is_hybird()] com.dropbox.android.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-07 21:48:35,399][INFO][is_hybird()] android.permission.CAMERA
+[INTERNAL_LOG][2018-06-07 21:48:35,399][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-07 21:48:35,399][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-07 21:48:35,399][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-07 21:48:35,399][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-07 21:48:35,399][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-07 21:48:35,399][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-07 21:48:35,399][INFO][is_hybird()] android.permission.RECEIVE_BOOT_COMPLETED
+[INTERNAL_LOG][2018-06-07 21:48:35,399][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-07 21:48:35,399][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-07 21:48:35,399][INFO][is_hybird()] android.permission.AUTHENTICATE_ACCOUNTS
+[INTERNAL_LOG][2018-06-07 21:48:35,399][INFO][is_hybird()] android.permission.MANAGE_ACCOUNTS
+[INTERNAL_LOG][2018-06-07 21:48:35,400][INFO][is_hybird()] android.permission.READ_SYNC_SETTINGS
+[INTERNAL_LOG][2018-06-07 21:48:35,400][INFO][is_hybird()] android.permission.WRITE_SYNC_SETTINGS
+[INTERNAL_LOG][2018-06-07 21:48:35,400][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-07 21:48:35,400][INFO][is_hybird()] android.permission.READ_CONTACTS
+[INTERNAL_LOG][2018-06-07 21:48:35,400][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-07 21:48:35,400][INFO][is_hybird()] com.sonyericsson.home.permission.BROADCAST_BADGE
+[INTERNAL_LOG][2018-06-07 21:48:35,400][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-07 21:48:35,400][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-07 21:48:35,400][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-07 21:48:35,400][INFO][find_string()] File: assets/js/pw.html
+[INTERNAL_LOG][2018-06-07 21:48:35,416][INFO][find_string()] No iframe in assets/js/pw.html
+[INTERNAL_LOG][2018-06-07 21:48:35,416][INFO][find_string()] File: res/raw/recaptcha.html
+[INTERNAL_LOG][2018-06-07 21:48:35,417][INFO][find_string()] Found in file res/raw/recaptcha.html tag iframe , 3 times
+[INTERNAL_LOG][2018-06-07 21:48:35,417][INFO][find_string()] No CSP found!
+[INTERNAL_LOG][2018-06-07 21:48:35,417][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-07 21:49:29,395][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-07 21:49:29,395][INFO][find_url_in_apk()] http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+https://www.google.com/m8/feeds/
+https://www.dropbox.com/scl/fo/1234567890
+https://www.dropbox.com/scl/fo/1234567890
+https://www.dropbox.com/scl/fo/1234567890
+https://www.dropbox.com/scl/fo/1234567890
+https://www.dropbox.com/scl/fo/1234567890
+https://dropbox.com/home/
+http://www.example.com/example
+https://dbx.link/android-dogfood
+https://dl.dropbox.com/fake_streaming_file
+https://play.google.com/store/apps/details?id=
+https://www.dropbox.com/
+https://www.dropbox.com/crash_route?
+https://graph.%s
+https://graph-video.%s
+https://facebook.com
+http://plus.google.com/
+https://www.googleapis.com/auth/plus.me
+https://www.googleapis.com/auth/games
+https://pspdfkit-license-service-%d.com%s
+https://www.dropbox.com
+https://www.dropbox.com/help?cl=%s
+https://www.dropbox.com/help/security/issues-two-step-verification?cl=%s&device=android
+https://www.dropbox.com/terms?cl=%s&mobile=1
+https://www.dropbox.com/privacy?cl=%s&mobile=1
+https://www.dropbox.com/android_opensource?cl=%s&mobile=1
+https://www.dropbox.com/help/mobile/sign-out-ios?cl=%s&device=android
+https://www.dropbox.com/team/join?cl=%s&mobile=1
+https://www.dropbox.com/help/photos-videos/camera-uploads-overview?cl=%s&device=android
+https://www.dropbox.com/help/photos-videos/camera-uploads-fix#corrupt?cl=%s&device=android
+https://www.dropbox.com/help/android-beta-program?cl=%s
+https://www.dropbox.com/help/business/space-limit-full?cl=%s
+https://www.dropbox.com/help/files-folders/share-with-others#foldersize
+https://www.dropbox.com/help/files-folders/unshare-folder#foldersize
+https://www.dropbox.com/team/decide?cl=%s&android_app=1
+https://www.dropbox.com/upgrade?cl=%s&android_app=1&oqa=upsub
+https://www.dropbox.com/upgrade?cl=%s&android_app=1&oqa=upssb
+https://www.dropbox.com/upgrade?cl=%s&android_app=1&oqa=upcm
+https://www.dropbox.com/upgrade?cl=%s&android_app=1&oqa=upcuoq
+https://www.dropbox.com/upgrade?cl=%s&android_app=1&oqa=upeaoq
+https://www.dropbox.com/upgrade?cl=%s&android_app=1&oqa=upmuoq
+https://www.dropbox.com/upgrade?cl=%s&android_app=1&oqa=upmfioq
+https://www.dropbox.com/upgrade?cl=%s&android_app=1&oqa=upmfsoq
+https://www.dropbox.com/upgrade?cl=%s&android_app=1&oqa=upmfooq
+https://www.dropbox.com/upgrade?cl=%s&android_app=1&oqa=uprfioq
+https://www.dropbox.com/upgrade?cl=%s&android_app=1&oqa=uprfiqq
+https://www.dropbox.com/upgrade?cl=%s&android_app=1&oqa=uprfooq
+https://www.dropbox.com/upgrade?cl=%s&android_app=1&oqa=upnfoq
+https://www.dropbox.com/upgrade?cl=%s&android_app=1&oqa=upsfoq
+https://www.dropbox.com/upgrade?cl=%s&android_app=1&oqa=upsclfooq
+https://www.dropbox.com/upgrade?cl=%s&android_app=1&oqa=upnotb
+https://www.dropbox.com/upgrade?cl=%s&android_app=1&oqa=updenotb
+https://www.dropbox.com/upgrade?cl=%s&android_app=1&oqa=upnot
+https://www.dropbox.com/upgrade?cl=%s&android_app=1&oqa=upnotbl
+https://www.dropbox.com/upgrade?cl=%s&android_app=1&oqa=upcug
+https://www.dropbox.com/upgrade?cl=%s&android_app=1&oqa=uppmpt
+https://www.dropbox.com/upgrade?cl=%s&android_app=1&oqa=updri
+https://www.dropbox.com/upgrade?cl=%s&android_app=1&oqa=updrs
+https://www.dropbox.com/upgrade?cl=%s&android_app=1&oqa=upssb2
+https://www.dropbox.com/upgrade?cl=%s&android_app=1&oqa=upnsu
+https://notes.dropbox.com/doc/301
+https://notes.dropbox.com/doc/401
+https://notes.dropbox.com/doc/455
+https://paper.dropbox.com/doc/301
+https://paper.dropbox.com/doc/401
+https://paper.dropbox.com/doc/455
+https://support.google.com/recaptcha/
+https://www.google.com/cloudprint/dialog.html
+https://support.google.com/googleplay/answer/7018481
+http://zxing.appspot.com
+http://xmlpull.org/v1/doc/features.html#indent-output
+http://xmlpull.org/v1/doc/features.html#indent-output
+http://play.google.com/store/apps/details?id=com.facebook.orca
+
+[INTERNAL_LOG][2018-06-07 21:49:29,395][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-07 21:49:29,398][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-07 21:49:29,398][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-07 21:49:29,398][INFO][analyze_start()] This app might be vulnerable on attack frame confusion, This file are vulnerable ['res/raw/recaptcha.html']
+[INTERNAL_LOG][2018-06-07 21:49:29,398][INFO][analyze_start()] End time:[Thu Jun  7 21:49:29 2018]

@@ -1,0 +1,270 @@
+[INTERNAL_LOG][2018-06-08 00:42:38,313][INFO][analyze_start()] Init Time [Fri Jun  8 00:42:38 2018]
+[INTERNAL_LOG][2018-06-08 00:42:38,371][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-08 00:42:38,373][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-08 00:42:38,373][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-08 00:42:38,373][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-08 00:42:38,373][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-08 00:42:38,373][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-08 00:42:38,373][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-08 00:42:38,373][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-08 00:42:38,373][INFO][is_hybird()] android.permission.CAMERA
+[INTERNAL_LOG][2018-06-08 00:42:38,373][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-08 00:42:38,373][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-08 00:42:38,373][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-08 00:42:38,373][INFO][is_hybird()] android.permission.RECEIVE_BOOT_COMPLETED
+[INTERNAL_LOG][2018-06-08 00:42:38,373][INFO][is_hybird()] com.sec.android.provider.badge.permission.READ
+[INTERNAL_LOG][2018-06-08 00:42:38,373][INFO][is_hybird()] com.sec.android.provider.badge.permission.WRITE
+[INTERNAL_LOG][2018-06-08 00:42:38,373][INFO][is_hybird()] com.htc.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-08 00:42:38,374][INFO][is_hybird()] com.htc.launcher.permission.UPDATE_SHORTCUT
+[INTERNAL_LOG][2018-06-08 00:42:38,374][INFO][is_hybird()] com.sonyericsson.home.permission.BROADCAST_BADGE
+[INTERNAL_LOG][2018-06-08 00:42:38,374][INFO][is_hybird()] com.sonymobile.home.permission.PROVIDER_INSERT_BADGE
+[INTERNAL_LOG][2018-06-08 00:42:38,374][INFO][is_hybird()] com.anddoes.launcher.permission.UPDATE_COUNT
+[INTERNAL_LOG][2018-06-08 00:42:38,374][INFO][is_hybird()] com.majeur.launcher.permission.UPDATE_BADGE
+[INTERNAL_LOG][2018-06-08 00:42:38,374][INFO][is_hybird()] com.huawei.android.launcher.permission.CHANGE_BADGE
+[INTERNAL_LOG][2018-06-08 00:42:38,374][INFO][is_hybird()] com.huawei.android.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-08 00:42:38,374][INFO][is_hybird()] com.huawei.android.launcher.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-08 00:42:38,374][INFO][is_hybird()] android.permission.READ_APP_BADGE
+[INTERNAL_LOG][2018-06-08 00:42:38,374][INFO][is_hybird()] com.oppo.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-08 00:42:38,374][INFO][is_hybird()] com.oppo.launcher.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-08 00:42:38,374][INFO][is_hybird()] me.everything.badger.permission.BADGE_COUNT_READ
+[INTERNAL_LOG][2018-06-08 00:42:38,374][INFO][is_hybird()] me.everything.badger.permission.BADGE_COUNT_WRITE
+[INTERNAL_LOG][2018-06-08 00:42:38,374][INFO][is_hybird()] com.europosit.pixelcoloring.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-08 00:42:38,374][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-08 00:42:38,374][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-08 00:42:38,374][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-08 00:42:38,374][INFO][find_string()] File: assets/vpaid_html_template.html
+[INTERNAL_LOG][2018-06-08 00:42:38,375][INFO][find_string()] No iframe in assets/vpaid_html_template.html
+[INTERNAL_LOG][2018-06-08 00:42:38,376][INFO][find_string()] File: assets/vpaid_html_template_ex.html
+[INTERNAL_LOG][2018-06-08 00:42:38,377][INFO][find_string()] No iframe in assets/vpaid_html_template_ex.html
+[INTERNAL_LOG][2018-06-08 00:42:38,377][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-08 00:43:49,914][INFO][find_url_in_apk()] [START URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-08 00:43:49,915][INFO][find_url_in_apk()] https://sdk.starbolt.io/dist/tagInterstitialAndroid.html
+https://sdk.starbolt.io/dist/tagVideoAndroid.html
+https://sdk.starbolt.io/dist/waterfall/waterfall.html
+
+[INTERNAL_LOG][2018-06-08 00:43:49,915][INFO][find_url_in_apk()] [END URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-08 00:43:50,551][INFO][find_string()] [START REMOTE FILE ANALYZE]
+[INTERNAL_LOG][2018-06-08 00:43:50,552][INFO][find_string()] Remote File in: temp_html_code/html_downloaded_Pixel Art - Color by Number by Easybrain - com/tagInterstitialAndroid.html
+[INTERNAL_LOG][2018-06-08 00:43:50,552][INFO][find_string()] URL: https://sdk.starbolt.io/dist/tagInterstitialAndroid.html
+[INTERNAL_LOG][2018-06-08 00:43:50,554][INFO][find_string()] No iframe in temp_html_code/html_downloaded_Pixel Art - Color by Number by Easybrain - com/tagInterstitialAndroid.html
+[INTERNAL_LOG][2018-06-08 00:43:50,554][INFO][find_string()] Remote File in: temp_html_code/html_downloaded_Pixel Art - Color by Number by Easybrain - com/tagVideoAndroid.html
+[INTERNAL_LOG][2018-06-08 00:43:50,554][INFO][find_string()] URL: https://sdk.starbolt.io/dist/tagVideoAndroid.html
+[INTERNAL_LOG][2018-06-08 00:43:50,556][INFO][find_string()] No iframe in temp_html_code/html_downloaded_Pixel Art - Color by Number by Easybrain - com/tagVideoAndroid.html
+[INTERNAL_LOG][2018-06-08 00:43:50,557][INFO][find_string()] Remote File in: temp_html_code/html_downloaded_Pixel Art - Color by Number by Easybrain - com/waterfall.html
+[INTERNAL_LOG][2018-06-08 00:43:50,557][INFO][find_string()] URL: https://sdk.starbolt.io/dist/waterfall/waterfall.html
+[INTERNAL_LOG][2018-06-08 00:43:50,558][INFO][find_string()] No iframe in temp_html_code/html_downloaded_Pixel Art - Color by Number by Easybrain - com/waterfall.html
+[INTERNAL_LOG][2018-06-08 00:43:50,559][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-08 00:43:50,559][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-08 00:43:50,559][INFO][find_url_in_apk()] http://schemas.android.com/apk/res/android
+https://adc3-launch-server-staging.herokuapp.com/v4/launch
+https://adc3-launch.adcolony.com/v4/launch
+https://adc3-launch.adcolony.com/v4/launch
+https://wd.adcolony.com/logs
+https://app.adjust.com
+https://app.adjust.com
+http://net.cleverjp.com/
+http://mads.amazon-adsystem.com/
+http://schemas.android.com/apk/lib/com.amazon.device.ads
+http://schemas.android.com/apk/res/
+http://schemas.android.com/apk/res/
+https://dwxjayoxbnyrr.cloudfront.net/amazon-ads.viewablejs
+http://amazon-adsystem.com
+http://schemas.applovin.com/android/1.0
+http://schemas.applovin.com/android/1.0
+https://d.applovin.com/
+https://a.applovin.com/
+https://rt.applovin.com/med
+https://rt.applovin.com/pix
+https://d.applvn.com/
+https://a.applvn.com/
+https://rt.applvn.com/pix
+https://vid.applovin.com/,https://pdn.applovin.com/,https://img.applovin.com/,https://d.applovin.com/,https://assets.applovin.com/,https://cdnjs.cloudflare.com/,http://vid.applovin.com/,http://pdn.applovin.com/,http://img.applovin.com/,http://d.applovin.com/,http://assets.applovin.com/,http://cdnjs.cloudflare.com/
+https://live.chartboost.com
+http://market.android.com/
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+https://www.facebook.com/audience_network/server_side_reward
+https://www.%s.facebook.com/audience_network/server_side_reward
+http://play.google.com/store/apps/
+https://www.facebook.com/
+https://www.%s.facebook.com
+https://graph.facebook.com/network_ads_common
+https://graph.%s.facebook.com/network_ads_common
+https://www.facebook.com/adnw_logging/
+https://www.%s.facebook.com/adnw_logging/
+http://www.facebook.com
+https://graph.%s
+https://graph-video.%s
+https://facebook.com
+http://play.google.com/store/apps/details?id=com.facebook.orca
+https://ads.flurry.com/v18/getAds.do
+http://ads.flurry.com/v18/getAds.do
+https://cdn.flurry.com/vast/videocontrols/v2/android.zip
+http://www.example.com
+http://www.example.com
+http://www.example.com
+https://adlog.flurry.com
+http://adlog.flurry.com
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+https://pagead2.googlesyndication.com/pagead/gen_204
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/sdk-core-v40-impl.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://csi.gstatic.com/csi
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/native_ads.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/native_ads.js
+https://imasdk.googleapis.com/admob/sdkloader/native_video.html
+https://www.google.com/dfp/linkDevice
+https://www.google.com/dfp/inAppPreview
+https://www.google.com/dfp/debugSignals
+https://www.google.com/dfp/sendDebugData
+https://sdk.starbolt.io/dist/tagBanner.html
+https://sdk.starbolt.io/dist/tagBanner.html
+https://sdk.starbolt.io/dist/tagInterstitialAndroid.html
+https://sdk.starbolt.io/dist/tagVideoAndroid.html
+https://sdk.starbolt.io/dist/waterfall/waterfall.html
+https://sdk.starbolt.io/
+https://sdk.starbolt.io/
+https://sdk.starbolt.io/
+https://twitter.com/%s/status/%s
+https://ads.api.vungle.com/config
+https://api.vungle.com/api/v4/unfilled
+https://ingest.vungle.com/api/v1/sdkErrors
+https://ingest.vungle.com/
+http://www.yahoo.com
+https://cfg.flurry.com/sdk/v1/config
+https://cfg.flurry.com/sdk/v1/config
+https://proton.flurry.com/sdk/v1/config
+https://data.flurry.com/pcr.do
+https://data.flurry.com/aap.do
+http://data.flurry.com/aap.do
+https://cdn2.inner-active.mobi/client/ia-js-tags/ia-tag-sdk.min-android-7.1.3.js
+http://wv.inner-active.mobi/
+http://wv.inner-active.mobi/
+http://schemas.microsoft.com/DRM/2007/03/protocols/AcquireLicense
+http://www.w3.org/ns/ttml#parameter
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+https://www.googleapis.com/auth/games_lite
+https://www.googleapis.com/auth/games
+https://plus.google.com/
+http://www.google.com
+https://support.google.com/dfp_premium/answer/7160685#push
+https://app-measurement.com/a
+https://www.google.com
+http://schemas.android.com/apk/lib/com.inmobi.ads
+http://schemas.android.com/apk/lib/com.inmobi.ads
+https://i.l.inmobicdn.net/sdk/sdk/500/android/mraid.js
+http://i.w.inmobi.com/showad.asm
+https://sdktm.w.inmobi.com/sdkpubreq
+http://config.inmobi.com/config-server/v1/config/secure.cfg
+http://www.inmobi.com/products/sdk/#downloads
+https://sdkm.w.inmobi.com/metrics/e.asm?v=1&
+https://www.facebook.com/dialog/feed?app_id=181821551957328&link=
+https://m.google.com/app/plus/x/?v=compose&content=
+http://twitter.com/home?status=
+http://dock.inmobi.com/carb/v1/i
+http://dock.inmobi.com/carb/v1/o
+https://sdkm.w.inmobi.com/user/e.asm
+https://mobile-static.adsafeprotected.com/avid-v2.js
+https://mobile-static.adsafeprotected.com/avid-v2.js
+https://track.atom-data.io
+https://track.atom-data.io
+https://track.atom-data.io
+https://outcome.supersonicads.com/mediation/
+https://outcome.supersonicads.com/mediation/
+https://mobilelogs.supersonic.com
+https://mobilelogs.supersonic.com
+https://init.supersonicads.com/sdk/v
+https://www.supersonicads.com/mobile/sdk5/log?method=
+https://www.supersonicads.com/mobile/sdk5/log?method=
+https://www.supersonicads.com/mobile/sdk5/log?method=
+https://www.supersonicads.com/mobile/sdk5/log?method=
+https://www.supersonicads.com/mobile/sdk5/log?method=
+https://www.supersonicads.com/mobile/sdk5/log?method=
+https://www.supersonicads.com/mobile/sdk5/log?method=
+https://www.supersonicads.com/mobile/sdk5/log?method=
+https://www.supersonicads.com/mobile/sdk5/log?method=injectJavaScript
+https://www.supersonicads.com/mobile/sdk5/log?method=extraParametersToJson
+https://www.supersonicads.com/mobile/sdk5/log?method=noProductType
+https://www.supersonicads.com/mobile/sdk5/log?method=encodeAppUserId
+https://www.supersonicads.com/mobile/sdk5/log?method=encodeAppKey
+https://www.supersonicads.com/mobile/sdk5/log?method=webviewLoadBlank
+https://www.supersonicads.com/mobile/sdk5/log?method=webviewLoadWithPath
+https://www.supersonicads.com/mobile/sdk5/log?method=htmlControllerDoesNotExistOnFileSystem
+https://www.supersonicads.com/mobile/sdk5/log?method=webviewPause
+https://www.supersonicads.com/mobile/sdk5/log?method=webviewResume
+https://ads.nexage.com
+https://z.moatads.com/
+https://z.moatads.com/
+https://z.moatads.com/
+https://z.moatads.com/
+https://z.moatads.com/
+https://z.moatads.com/
+https://px.moatads.com/pixel.gif?e=0&i=MOATSDK1&ac=1
+http://schemas.android.com/apk/lib/com.mobfox.sdk
+https://sdk.starbolt.io/waterfalls.json
+https://dmp.starbolt.io/logger.json
+http://sdk-logs.matomy.com:12201/gelf
+http://sdk-logs.matomy.com:12201/gelf
+https://devices.starbolt.io/
+http://analytics.rayjump.com
+http://net.rayjump.com
+http://setting.rayjump.com
+https://play.google.com/
+https://play.google.com/
+https://play.google.com/
+https://play.google.com/
+http://detect.rayjump.com/mapi/find
+http://detect.rayjump.com/mapi/result
+https://analytics.mopub.com/i/jot/exchange_client_event
+https://onesignal.com/android_frame.html
+https://onesignal.com/api/v1/
+https://app.getsentry.com:443
+https://app.getsentry.com:443
+https://app.getsentry.com:443/api/43633/store/
+https://play.google.com/store/apps/details?
+http://cw04.smaato.net/report2?
+https://impact.smaato.net/pingback.php
+http://soma.smaato.net/oapi/reqAd.jsp?
+https://soma.smaato.net/oapi/reqAd.jsp?
+http://i.xx.openx.com/ef3/ef31c13c898edcdfc73feb3c0193b64bcfa70082/754/7544eb4e2c8cb99b125559b8846ce948_2.jpeg
+http://www.smaato.com
+http://play.google.com/store/apps/details?id=
+https://ws.tapjoyads.com/
+https://ws.tapjoyads.com/
+https://ws.tapjoyads.com/
+https://rpc.tapjoy.com/
+https://rpc.tapjoy.com/
+https://connect.tapjoy.com/
+https://connect.tapjoy.com/
+https://placements.tapjoy.com/
+https://config.unityads.unity3d.com/webview/
+https://www.vungle.com/privacy/
+https://www.vungle.com/privacy/
+http://lol.vungle.com/
+https://e.crashlytics.com/spi/v2/events
+https://settings.crashlytics.com/spi/v2/platforms/android/apps/%s/settings
+http://localhost/
+http://localhost/
+http://localhost/
+
+[INTERNAL_LOG][2018-06-08 00:43:50,560][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-08 00:43:50,570][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-08 00:43:50,571][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-08 00:43:50,571][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-08 00:43:50,571][INFO][analyze_start()] End time:[Fri Jun  8 00:43:50 2018]

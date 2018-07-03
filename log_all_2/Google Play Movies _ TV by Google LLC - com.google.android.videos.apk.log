@@ -1,0 +1,86 @@
+[INTERNAL_LOG][2018-06-12 01:35:14,692][INFO][analyze_start()] Init Time [Tue Jun 12 01:35:14 2018]
+[INTERNAL_LOG][2018-06-12 01:35:14,744][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 01:35:14,745][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 01:35:14,745][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 01:35:14,745][INFO][is_hybird()] android.permission.READ_PHONE_STATE
+[INTERNAL_LOG][2018-06-12 01:35:14,746][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 01:35:14,746][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 01:35:14,746][INFO][is_hybird()] android.permission.RECEIVE_BOOT_COMPLETED
+[INTERNAL_LOG][2018-06-12 01:35:14,746][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 01:35:14,746][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 01:35:14,746][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 01:35:14,746][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 01:35:14,746][INFO][is_hybird()] android.permission.USE_CREDENTIALS
+[INTERNAL_LOG][2018-06-12 01:35:14,746][INFO][is_hybird()] android.permission.READ_SYNC_SETTINGS
+[INTERNAL_LOG][2018-06-12 01:35:14,746][INFO][is_hybird()] android.permission.WRITE_SYNC_SETTINGS
+[INTERNAL_LOG][2018-06-12 01:35:14,746][INFO][is_hybird()] com.google.android.providers.gsf.permission.READ_GSERVICES
+[INTERNAL_LOG][2018-06-12 01:35:14,746][INFO][is_hybird()] com.google.android.googleapps.permission.GOOGLE_AUTH
+[INTERNAL_LOG][2018-06-12 01:35:14,746][INFO][is_hybird()] com.google.android.videos.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-12 01:35:14,746][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-12 01:35:14,746][INFO][is_hybird()] android.permission.FOREGROUND_SERVICE
+[INTERNAL_LOG][2018-06-12 01:35:14,746][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 01:35:14,746][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 01:35:14,747][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 01:35:14,747][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 01:35:14,747][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 01:35:14,747][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 01:35:53,839][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 01:35:53,839][INFO][find_url_in_apk()] http://schemas.android.com/apk/res/android
+http://www.w3.org/1999/xlink
+http://www.w3.org/1999/xlink
+http://www.w3.org/1999/xlink
+http://www.w3.org/1999/xlink
+http://www.w3.org/1999/xlink
+http://www.w3.org/1999/xlink
+http://www.w3.org/TR/SVG11/feature#
+http://www.w3.org/2000/svg
+http://www.w3.org/2000/svg
+http://xml.org/sax/properties/lexical-handler
+https://play.googleapis.com/play/log
+https://play.googleapis.com/play/log
+http://play.google.com/store/
+http://play.google.com/redeem
+http://xml.org/sax/features/namespaces
+http://xml.org/sax/features/namespace-prefixes
+https://play.google.com/books/reader
+https://plus.google.com/
+https://www.googleapis.com/android_video/v1/
+https://play.google.com/video/license/GetRobotToken
+https://market.android.com/suggest/
+https://market.android.com/suggest/
+https://play.google.com/video/license/GetCencLicense
+https://play.google.com/video/license/GetEMMs.cgi
+https://play.google.com/video/downloads/
+https://s.youtube.com/api/stats/
+https://accounts.google.com/o/oauth2/
+https://support.google.com/googleplay/answer/7588573
+https://clients3.google.com/generate_204
+https://support.google.com/googleplay/answer/6124423
+https://accounts.google.com/signin/oauth
+https://android.googleapis.com/gcm/googlenotification
+http://accounts.google.com/
+https://play.google.com/movie-device
+https://www.googleapis.com/auth/games
+https://play.google.com/store/family/create
+https://play.google.com/store/apps/details?id=com.android.chrome
+http://www.example.com
+https://play.googleapis.com/play/log/timestamp
+https://internal-newsstand.sandbox.google.com/newsstand/web/api/html/
+https://play.google.com/newsstand/web/api/html/
+https://internal-newsstand.sandbox.google.com/newsstand/web/
+https://play.google.com/newsstand/web/
+https://android.clients.google.com/fdfe/
+http://play.google.com/store/apps/details
+http://127.0.0.1:
+
+[INTERNAL_LOG][2018-06-12 01:35:53,839][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 01:35:53,846][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 01:35:53,846][INFO][check_method_conf()] [Add interface WebView: False]
+
+[INTERNAL_LOG][2018-06-12 01:35:53,846][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 01:35:53,846][INFO][analyze_start()] End time:[Tue Jun 12 01:35:53 2018]

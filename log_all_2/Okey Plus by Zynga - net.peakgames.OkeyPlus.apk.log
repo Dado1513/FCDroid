@@ -1,0 +1,112 @@
+[INTERNAL_LOG][2018-06-12 01:00:58,301][INFO][analyze_start()] Init Time [Tue Jun 12 01:00:58 2018]
+[INTERNAL_LOG][2018-06-12 01:00:58,344][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 01:00:58,344][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 01:00:58,344][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 01:00:58,345][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-12 01:00:58,345][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-12 01:00:58,345][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 01:00:58,345][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 01:00:58,345][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 01:00:58,345][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 01:00:58,345][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-12 01:00:58,345][INFO][is_hybird()] net.peakgames.OkeyPlus.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-12 01:00:58,345][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 01:00:58,345][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 01:00:58,345][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 01:00:58,345][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 01:00:58,345][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 01:00:58,345][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 01:01:25,400][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 01:01:25,400][INFO][find_url_in_apk()] http://schemas.android.com/apk/res/android
+http://schemas.applovin.com/android/1.0
+http://schemas.applovin.com/android/1.0
+http://d.applovin.com/
+http://a.applovin.com/
+https://vid.applovin.com/,https://pdn.applovin.com/,https://img.applovin.com/,https://d.applovin.com/,https://assets.applovin.com/,https://cdnjs.cloudflare.com/,http://vid.applovin.com/,http://pdn.applovin.com/,http://img.applovin.com/,http://d.applovin.com/,http://assets.applovin.com/,http://cdnjs.cloudflare.com/
+http://rt.applovin.com/pix
+http://market.android.com/
+https://graph.%s
+https://graph-video.%s
+https://facebook.com
+http://play.google.com/store/apps/details?id=com.facebook.orca
+https://accounts.google.com
+https://accounts.google.com
+https://www.facebook.com
+https://www.facebook.com
+https://www.googleapis.com/auth/plus.me
+https://www.googleapis.com/auth/games
+http://plus.google.com/
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://csi.gstatic.com/csi
+http://www.google.com
+http://www.google.com
+https://androidads23.adcolony.com/configure
+https://onesignal.com/api/v1/
+https://impact.applifier.com/mobile/campaigns
+https://settings.crashlytics.com/spi/v2/platforms/android/apps/%s/settings
+https://dev.okeyplus.zynga.com/ntfcns.php
+https://okeyplus.zynga.com/ntfcns.php
+https://graph.facebook.com/
+https://dev.okeyplus.zynga.com/facebook_status.php
+https://okeyplus.zynga.com/facebook_status.php
+https://s3.amazonaws.com/zynga-popups/mothers_day/index.html?lang=%s
+http://dev.okeyplus.zynga.com/mobile_login.php
+https://okeyplus.zynga.com/mobile_login.php
+https://okeyplus.zynga.com/profileReport.php
+https://dev.okeyplus.zynga.com/npe/campaign_status.php
+https://okeyplus.zynga.com/npe/campaign_status.php
+https://dev.okeyplus.zynga.com/npe/mobile_products.php?uid=%s
+https://okeyplus.zynga.com/npe/mobile_products.php?uid=%s
+https://dev.okeyplus.zynga.com/image.php?path=
+https://okeyplus.zynga.com/image.php?path=
+https://okeyplus.zynga.com/scr/
+https://dev.okeyplus.zynga.com/bugReport.php
+https://okeyplus.zynga.com/bugReport.php
+https://dev.okeyplus.zynga.com/fraud_check.php
+https://okeyplus.zynga.com/fraud_check.php
+https://dev.okeyplus.zynga.com/payment_info.php
+https://okeyplus.zynga.com/payment_info.php
+https://dev.okeyplus.zynga.com/vodafone/popup.php
+https://okeyplus.zynga.com/vodafone/popup.php
+https://app.adjust.com
+https://app.adjust.com
+https://live.chartboost.com
+https://impact.staging.applifier.com/mobile/campaigns
+http://api.vungle.com/api/v4/
+https://ingest.vungle.com/
+https://e.crashlytics.com/spi/v2/events
+https://dev.okeyplus.zynga.com/get_partner_event_data.php
+https://okeyplus.zynga.com/get_partner_event_data.php
+http://dev.okeyplus.zynga.com/legal_redirect.php?type=pp&lang=
+https://okeyplus.zynga.com/legal_redirect.php?type=pp&lang=
+http://dev.okeyplus.zynga.com/legal_redirect.php?type=tos&lang=
+https://okeyplus.zynga.com/legal_redirect.php?type=tos&lang=
+https://dev.okeyplus.zynga.com/admob_ads.php
+https://okeyplus.zynga.com/admob_ads.php
+https://okeyplus.zynga.com/npe/mobile_callback.php
+https://dev.okeyplus.zynga.com/npe/mobile_callback.php
+http://graph.facebook.com/%s/picture?width=%s&height=%s
+https://m.facebook.com/
+http://res.cloudinary.com/demo/image/facebook/w_%s,h_%s,c_thumb/%s.jpg
+https://plus.google.com/s2/photos/profile/
+https://www.googleapis.com/plus/v1/people/%s?fields=image&url&key=%s
+https://crm-assets.akamaized.net/payment/defaults/
+http://bi-crm-staging01.pkgms.net/jsonrpc
+http://crm-api.peakgames.net/jsonrpc
+http://uyelik.peakgames.net/where-am-i
+https://www.vungle.com/privacy/
+
+[INTERNAL_LOG][2018-06-12 01:01:25,400][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 01:01:25,403][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 01:01:25,403][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 01:01:25,403][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 01:01:25,403][INFO][analyze_start()] End time:[Tue Jun 12 01:01:25 2018]

@@ -1,0 +1,150 @@
+[INTERNAL_LOG][2018-06-08 01:27:50,426][INFO][analyze_start()] Init Time [Fri Jun  8 01:27:50 2018]
+[INTERNAL_LOG][2018-06-08 01:27:50,469][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-08 01:27:50,470][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-08 01:27:50,470][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-08 01:27:50,470][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-08 01:27:50,470][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-08 01:27:50,470][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-08 01:27:50,470][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-08 01:27:50,470][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-08 01:27:50,470][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-08 01:27:50,470][INFO][is_hybird()] com.appbazooka.tv5news.in.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-08 01:27:50,471][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-08 01:27:50,471][INFO][is_hybird()] android.permission.ACCESS_FINE_LOCATION
+[INTERNAL_LOG][2018-06-08 01:27:50,471][INFO][is_hybird()] android.permission.ACCESS_COARSE_LOCATION
+[INTERNAL_LOG][2018-06-08 01:27:50,471][INFO][is_hybird()] android.permission.READ_PHONE_STATE
+[INTERNAL_LOG][2018-06-08 01:27:50,471][INFO][is_hybird()] android.permission.RECEIVE_BOOT_COMPLETED
+[INTERNAL_LOG][2018-06-08 01:27:50,471][INFO][is_hybird()] android.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-08 01:27:50,471][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-08 01:27:50,471][INFO][is_hybird()] android.permission.ACCESS_LOCATION_EXTRA_COMMANDS
+[INTERNAL_LOG][2018-06-08 01:27:50,471][INFO][is_hybird()] android.permission.SEND_SMS
+[INTERNAL_LOG][2018-06-08 01:27:50,471][INFO][is_hybird()] com.google.android.gms.permission.ACTIVITY_RECOGNITION
+[INTERNAL_LOG][2018-06-08 01:27:50,471][INFO][is_hybird()] android.permission.READ_CALENDAR
+[INTERNAL_LOG][2018-06-08 01:27:50,471][INFO][is_hybird()] android.permission.WRITE_CALENDAR
+[INTERNAL_LOG][2018-06-08 01:27:50,471][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-08 01:27:50,472][INFO][is_hybird()] android.permission.RECORD_AUDIO
+[INTERNAL_LOG][2018-06-08 01:27:50,472][INFO][is_hybird()] android.permission.CHANGE_WIFI_STATE
+[INTERNAL_LOG][2018-06-08 01:27:50,472][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-08 01:27:50,472][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-08 01:27:50,472][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-08 01:27:50,472][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-08 01:27:50,472][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-08 01:28:40,514][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-08 01:28:40,514][INFO][find_url_in_apk()] http://schemas.android.com/apk/res/android
+https://www.example.com
+https://www.example.com
+http://appbazooka.com/dashboard/
+http://appbazooka.com/dashboard/
+http://appbazooka.com/dashboard/
+http://www.youtube.com/embed/
+http://www.youtube.com/watch?v=
+http://www.youtube.com/watch?v=
+http://img.youtube.com/vi/
+https://api.twitter.com/1.1/statuses/user_timeline.json?screen_name=
+https://api.twitter.com/1.1/statuses/user_timeline.json?screen_name=
+https://api.twitter.com/1.1/users/show.json?screen_name=
+https://api.twitter.com/1.1/users/show.json?screen_name=
+http://appbazooka.com/dashboard/index.php/api/
+http://appbazooka.com/dashboard/index.php/api/adstatus
+http://appbazooka.com/dashboard/index.php/api/adstatus
+https://api.twitter.com/oauth2/token
+http://play.google.com/store/apps/details?id=
+http://appbazooka.com/dashboard/index.php/api/ad
+https://www.facebook.com/tv5newschannel
+http://www.tv5news.in/NewsRss.aspx?SC=0
+http://www.tv5news.in/NewsRss.aspx?SC=24
+http://www.tv5news.in/NewsRss.aspx?SC=25
+http://www.tv5news.in/NewsRss.aspx?SC=31
+http://www.tv5news.in/NewsRss.aspx?SC=27
+http://www.tv5news.in/NewsRss.aspx?SC=28
+http://www.tv5news.in/NewsRss.aspx?SC=56
+http://www.tv5news.in/NewsRss.aspx?SC=38
+http://www.tv5news.in/NewsRss.aspx?SC=42
+http://www.tv5news.in/NewsRss.aspx?SC=43
+http://tv5news.in/NewsRss.aspx?SC=44
+http://tv5news.in/NewsRss.aspx?SC=45
+http://tv5news.in/NewsRss.aspx?SC=46
+http://tv5news.in/NewsRss.aspx?SC=47
+http://tv5news.in/NewsRss.aspx?SC=53
+http://tv5news.in/NewsRss.aspx?SC=50
+http://www.tv5news.in/NewsRss.aspx?SC=99
+http://www.tv5news.in/NewsRss.aspx?SC=100
+https://www.facebook.com/audience_network/server_side_reward
+https://www.%s.facebook.com/audience_network/server_side_reward
+http://play.google.com/store/apps/
+https://www.facebook.com/
+https://www.%s.facebook.com
+https://graph.facebook.com/network_ads_common
+https://graph.%s.facebook.com/network_ads_common
+https://www.facebook.com/adnw_logging/
+https://www.%s.facebook.com/adnw_logging/
+http://www.facebook.com
+http://www.google-analytics.com/collect
+http://www.google-analytics.com/collect
+https://ssl.google-analytics.com/collect
+http://schemas.microsoft.com/DRM/2007/03/protocols/AcquireLicense
+http://www.w3.org/ns/ttml#parameter
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+http://hostname/?
+http://hostname/?
+http://hostname/?
+https://www.googleapis.com/auth/games
+https://plus.google.com/
+https://pagead2.googlesyndication.com/pagead/gen_204
+http://www.google.com
+https://support.google.com/dfp_premium/answer/7160685#push
+http://www.google-analytics.com
+https://ssl.google-analytics.com
+https://app-measurement.com/a
+https://www.google.com
+http://www.example.com
+http://www.example.com
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://csi.gstatic.com/csi
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/native_ads.html
+https://imasdk.googleapis.com/admob/sdkloader/native_video.html
+https://www.google.com/dfp/linkDevice
+https://www.google.com/dfp/inAppPreview
+https://www.google.com/dfp/debugSignals
+https://www.google.com/dfp/sendDebugData
+http://localhost/
+http://localhost/
+http://localhost/
+https://www.googletagmanager.com
+https://www.googletagmanager.com
+https://www.youtube.com/playlist?list=
+https://www.youtube.com/playlist?list=
+https://www.youtube.com/channel/
+https://www.youtube.com/channel/
+https://www.youtube.com/watch?v=
+https://www.youtube.com/watch?v=
+https://www.youtube.com/user/
+https://www.youtube.com/user/
+http://play.google.com/store/apps/details
+https://imasdk.googleapis.com/native/sdkloader/native_sdk_v3.html
+https://imasdk.googleapis.com/native/sdkloader/native_sdk_v3_debug.html
+http://www.dom.com/path?
+http://www.youtube.com/get_video_info?&video_id=
+http://gdata.youtube.com/feeds/api/playlists/
+https://api.pushbots.com/
+http://vidgyor.com
+http://streamer5.vidgyor.com/vod-origin/promos/tv9marathi/tv9marathi_promo_1.mp4
+http://streamer5.vidgyor.com/vod-origin/promos/tv9marathi/tv9marathi_promo_1.mp4
+http://streamer5.vidgyor.com/vod-origin/vikatan/0_4gae0x4h.jpg
+http://streamer5.vidgyor.com/vod-origin/promos/tv9marathi/tv9marathi_promo_2.mp4
+https://e.crashlytics.com/spi/v2/events
+https://settings.crashlytics.com/spi/v2/platforms/android/apps/%s/settings
+
+[INTERNAL_LOG][2018-06-08 01:28:40,517][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-08 01:28:40,522][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-08 01:28:40,522][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-08 01:28:40,523][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-08 01:28:40,523][INFO][analyze_start()] End time:[Fri Jun  8 01:28:40 2018]

@@ -1,0 +1,31 @@
+[INTERNAL_LOG][2018-07-02 16:40:37,727][INFO][analyze_start()] Init Time [Mon Jul  2 16:40:37 2018]
+[INTERNAL_LOG][2018-07-02 16:40:37,744][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-07-02 16:40:37,747][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-07-02 16:40:37,747][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-07-02 16:40:37,748][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-07-02 16:40:37,749][INFO][is_hybird()] Starting apktool
+[INTERNAL_LOG][2018-07-02 16:40:46,052][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-07-02 16:40:46,073][INFO][analyze_start()] Start HTML file
+[INTERNAL_LOG][2018-07-02 16:40:46,096][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-07-02 16:40:46,097][INFO][find_string()] File: assets/index.html
+[INTERNAL_LOG][2018-07-02 16:40:46,134][INFO][find_string()] No iframe in assets/index.html
+[INTERNAL_LOG][2018-07-02 16:40:46,134][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-07-02 16:40:46,141][INFO][analyze_start()] End HTML file
+[INTERNAL_LOG][2018-07-02 16:40:46,151][INFO][analyze_start()] Start JavaScript file
+[INTERNAL_LOG][2018-07-02 16:40:46,151][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-07-02 16:40:46,151][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-07-02 16:40:46,151][INFO][analyze_start()] End JavaScript file
+[INTERNAL_LOG][2018-07-02 16:40:49,742][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-07-02 16:40:49,743][INFO][find_url_in_apk()] http://schemas.android.com/apk/res/android
+
+[INTERNAL_LOG][2018-07-02 16:40:49,753][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-07-02 16:40:49,765][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-07-02 16:40:49,765][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-07-02 16:40:49,765][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-07-02 16:40:49,766][INFO][analyze_start()] End time:[Mon Jul  2 16:40:49 2018]

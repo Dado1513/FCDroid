@@ -1,0 +1,132 @@
+[INTERNAL_LOG][2018-06-12 02:42:52,303][INFO][analyze_start()] Init Time [Tue Jun 12 02:42:52 2018]
+[INTERNAL_LOG][2018-06-12 02:42:52,333][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 02:42:52,334][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 02:42:52,334][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 02:42:52,334][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 02:42:52,334][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 02:42:52,334][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 02:42:52,334][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 02:42:52,334][INFO][is_hybird()] com.google.android.gms.permission.ACTIVITY_RECOGNITION
+[INTERNAL_LOG][2018-06-12 02:42:52,334][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 02:42:52,334][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 02:42:52,334][INFO][is_hybird()] com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+[INTERNAL_LOG][2018-06-12 02:42:52,334][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-12 02:42:52,334][INFO][is_hybird()] free.vpn.unblock.proxy.turbovpn.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-12 02:42:52,334][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-12 02:42:52,334][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 02:42:52,334][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 02:42:52,335][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 02:42:52,335][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 02:42:52,335][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 02:42:52,335][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 02:43:31,975][INFO][find_url_in_apk()] [START URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-12 02:43:31,975][INFO][find_url_in_apk()] https://play.google.com/store/apps/
+
+[INTERNAL_LOG][2018-06-12 02:43:31,975][INFO][find_url_in_apk()] [END URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-12 02:43:32,646][ERROR][download_page_loaded()] Failed download: https://play.google.com/store/apps/ for exception [Errno 21] Is a directory: 'temp_html_code/html_downloaded_Turbo VPN _ Unlimited Free VPN by Innovative Connecting - free/'
+[INTERNAL_LOG][2018-06-12 02:43:32,647][INFO][find_string()] [START REMOTE FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 02:43:32,647][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 02:43:32,647][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 02:43:32,647][INFO][find_url_in_apk()] http://schemas.android.com/apk/res/android
+http://play.google.com/store/apps/details?id=
+http://play.google.com/store/apps/details?id=
+http://feedback.allconnected.in/fb/v1/reports/
+http://ip-api.com/json
+http://api.mobula.sdk.duapps.com/adunion/slot/native?h=800&w=480&model=micromax%20_106&vendor=micromax&sdk=21&dpi=240&sv=1.0.1.8&svn=HW-1.0.1.8&pkg=com.ntw.demo&v=9411&vn=4.24.0.9411&locale=en_US&ntt=WIFI&ls=640104209995bbfa766cf9a4c88d3b20&aid=&pk=FFB83B8C786385AFCAB210B69612B4BD857C76949D626C4C&play=1&res=1080*460,244*244,170*170,108*108&ps=9&pn=1&sid=140028&sType=native&dllv=normal&goid={0}&client_ip={1}&adPkg={2}
+https://ad.allconnected.in/ad_apps.json
+https://138.68.26.29/abc
+https://138.68.26.29/abc
+https://api.amplitude.com/
+https://play.google.com/store/apps/
+https://mblapi.ssl2.duapps.com/adunion/slot/getDlAd?
+https://mblapi.ssl2.duapps.com/adunion/rtb/getInmobiAd?
+https://mblapi.ssl2.duapps.com/adunion/rtb/fetchAd?
+http://sandbox.duapps.com:8124/adunion/slot/getDlAd?
+http://sandbox.duapps.com:8124/adunion/rtb/getInmobiAd?
+http://sandbox.duapps.com:8124/adunion/rtb/fetchAd?
+https://mblapi.ssl2.duapps.com/adunion/slot/getSrcPrio?
+https://mblapi.ssl2.duapps.com/adunion/slot/getSrcPrio?
+http://sandbox.duapps.com:8124/adunion/slot/getSrcPrio?
+http://sandbox.duapps.com:8124/adunion/slot/getSrcPrio?
+https://mblapi.ssl2.duapps.com/adunion/slot/tdmr?
+https://rts.ssl2.duapps.com/orts/rp?
+https://rts.ssl2.duapps.com/orts/rpb?
+http://sandbox.duapps.com:8124/orts/rp?
+http://sandbox.duapps.com:8124/orts/rpb?
+http://market.android.com
+https://market.android.com
+https://play.google.com
+http://play.google.com
+http://play.google.com/store/apps/
+https://www.facebook.com/
+https://www.%s.facebook.com
+https://graph.facebook.com/network_ads_common
+https://graph.%s.facebook.com/network_ads_common
+https://www.facebook.com/adnw_logging/
+https://www.%s.facebook.com/adnw_logging/
+http://www.facebook.com
+https://graph.%s
+https://graph-video.%s
+https://facebook.com
+https://facebook.com/device?user_code=%1$s&qr=1
+http://play.google.com/store/apps/details?id=com.facebook.orca
+https://data.flurry.com/pcr.do
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+https://plus.google.com/
+http://play.google.com/store/apps/category/GAME
+https://play.google.com/store/apps/details?id=%1$s&rdid=%1$s&rdot=%2$d
+https://plus.google.com/%s/about
+https://play.google.com/store/apps/details
+https://pagead2.googlesyndication.com/pagead/gen_204
+http://www.google.com
+https://support.google.com/dfp_premium/answer/7160685#push
+http://www.example.com
+http://www.example.com
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/sdk-core-v40-impl.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://csi.gstatic.com/csi
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/native_ads.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/native_ads.js
+https://imasdk.googleapis.com/admob/sdkloader/native_video.html
+https://www.google.com/dfp/linkDevice
+https://www.google.com/dfp/inAppPreview
+https://www.google.com/dfp/debugSignals
+https://www.google.com/dfp/sendDebugData
+https://app-measurement.com/a
+https://m.facebook.com/
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+https://proton.flurry.com/sdk/v1/config
+https://data.flurry.com/aap.do
+http://data.flurry.com/aap.do
+https://cfg.flurry.com/sdk/v1/config
+http://cdn.image.cloudmobi.net/default/icon/20/20/corner/icon.png
+https://www.%s.facebook.com/audience_network/server_side_reward
+https://www.facebook.com/audience_network/server_side_reward
+https://www.googleapis.com/auth/games_lite
+https://www.googleapis.com/auth/games
+https://www.google.com
+https://play.google.com/
+https://play.google.com/
+https://play.google.com/
+https://settings.crashlytics.com/spi/v2/platforms/android/apps/%s/settings
+https://e.crashlytics.com/spi/v2/events
+https://d32z5ni8t5127x.cloudfront.net/privacy_policy_turbovpn.html
+
+[INTERNAL_LOG][2018-06-12 02:43:32,647][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 02:43:32,654][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 02:43:32,654][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 02:43:32,654][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 02:43:32,654][INFO][analyze_start()] End time:[Tue Jun 12 02:43:32 2018]

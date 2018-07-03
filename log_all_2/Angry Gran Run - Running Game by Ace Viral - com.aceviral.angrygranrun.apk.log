@@ -1,0 +1,220 @@
+[INTERNAL_LOG][2018-06-12 04:18:27,138][INFO][analyze_start()] Init Time [Tue Jun 12 04:18:27 2018]
+[INTERNAL_LOG][2018-06-12 04:18:27,196][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 04:18:27,197][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 04:18:27,197][INFO][is_hybird()] android.permission.READ_PHONE_STATE
+[INTERNAL_LOG][2018-06-12 04:18:27,197][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 04:18:27,197][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 04:18:27,197][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 04:18:27,197][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 04:18:27,197][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 04:18:27,197][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-12 04:18:27,197][INFO][is_hybird()] android.permission.GET_TASKS
+[INTERNAL_LOG][2018-06-12 04:18:27,197][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 04:18:27,197][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 04:18:27,197][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 04:18:27,197][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 04:18:27,197][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 04:18:27,197][INFO][find_string()] File: assets/errorMessage.html
+[INTERNAL_LOG][2018-06-12 04:18:27,199][INFO][find_string()] No iframe in assets/errorMessage.html
+[INTERNAL_LOG][2018-06-12 04:18:27,199][INFO][find_string()] File: assets/mraid_test/mraid_test_custom_scheme_response_time_page.html
+[INTERNAL_LOG][2018-06-12 04:18:27,199][INFO][find_string()] No iframe in assets/mraid_test/mraid_test_custom_scheme_response_time_page.html
+[INTERNAL_LOG][2018-06-12 04:18:27,200][INFO][find_string()] File: assets/mraid_test/mraid_test_video_page.html
+[INTERNAL_LOG][2018-06-12 04:18:27,200][INFO][find_string()] No iframe in assets/mraid_test/mraid_test_video_page.html
+[INTERNAL_LOG][2018-06-12 04:18:27,201][INFO][find_string()] File: assets/transperantpage.html
+[INTERNAL_LOG][2018-06-12 04:18:27,202][INFO][find_string()] No iframe in assets/transperantpage.html
+[INTERNAL_LOG][2018-06-12 04:18:27,202][INFO][find_string()] File: assets/videoTest.html
+[INTERNAL_LOG][2018-06-12 04:18:27,202][INFO][find_string()] No iframe in assets/videoTest.html
+[INTERNAL_LOG][2018-06-12 04:18:27,203][INFO][find_string()] File: assets/webui/index.html
+[INTERNAL_LOG][2018-06-12 04:18:27,221][INFO][find_string()] Found this tag <iframe id="action_frame"></iframe>
+[INTERNAL_LOG][2018-06-12 04:18:27,221][INFO][find_string()] Found in file assets/webui/index.html tag iframe , 1 times
+[INTERNAL_LOG][2018-06-12 04:18:27,221][INFO][find_string()] No src founded in iframe tag inside file assets/webui/index.html
+[INTERNAL_LOG][2018-06-12 04:18:27,221][INFO][find_string()] No CSP found!
+[INTERNAL_LOG][2018-06-12 04:18:27,221][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 04:18:27,222][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 04:18:27,222][INFO][find_string()] File: assets/jquery-1.7.1.min.js
+[INTERNAL_LOG][2018-06-12 04:18:27,229][INFO][find_string()] No iframe in assets/jquery-1.7.1.min.js
+[INTERNAL_LOG][2018-06-12 04:18:27,229][INFO][find_string()] File: assets/webui/javascripts/dashboard/dashboard.js
+[INTERNAL_LOG][2018-06-12 04:18:27,229][INFO][find_string()] No iframe in assets/webui/javascripts/dashboard/dashboard.js
+[INTERNAL_LOG][2018-06-12 04:18:27,229][INFO][find_string()] File: assets/webui/javascripts/dashboard/models.js
+[INTERNAL_LOG][2018-06-12 04:18:27,229][INFO][find_string()] No iframe in assets/webui/javascripts/dashboard/models.js
+[INTERNAL_LOG][2018-06-12 04:18:27,230][INFO][find_string()] File: assets/webui/javascripts/dashboard/players.js
+[INTERNAL_LOG][2018-06-12 04:18:27,230][INFO][find_string()] No iframe in assets/webui/javascripts/dashboard/players.js
+[INTERNAL_LOG][2018-06-12 04:18:27,230][INFO][find_string()] File: assets/webui/javascripts/dashboard/profile.js
+[INTERNAL_LOG][2018-06-12 04:18:27,231][INFO][find_string()] No iframe in assets/webui/javascripts/dashboard/profile.js
+[INTERNAL_LOG][2018-06-12 04:18:27,231][INFO][find_string()] File: assets/webui/javascripts/dashboard/statusupdate.js
+[INTERNAL_LOG][2018-06-12 04:18:27,231][INFO][find_string()] No iframe in assets/webui/javascripts/dashboard/statusupdate.js
+[INTERNAL_LOG][2018-06-12 04:18:27,231][INFO][find_string()] File: assets/webui/javascripts/dashboard/user.js
+[INTERNAL_LOG][2018-06-12 04:18:27,232][INFO][find_string()] No iframe in assets/webui/javascripts/dashboard/user.js
+[INTERNAL_LOG][2018-06-12 04:18:27,232][INFO][find_string()] File: assets/webui/javascripts/date-format.js
+[INTERNAL_LOG][2018-06-12 04:18:27,234][INFO][find_string()] No iframe in assets/webui/javascripts/date-format.js
+[INTERNAL_LOG][2018-06-12 04:18:27,234][INFO][find_string()] File: assets/webui/javascripts/game_channel.js
+[INTERNAL_LOG][2018-06-12 04:18:27,236][INFO][find_string()] No iframe in assets/webui/javascripts/game_channel.js
+[INTERNAL_LOG][2018-06-12 04:18:27,236][INFO][find_string()] File: assets/webui/javascripts/game_channel_features.js
+[INTERNAL_LOG][2018-06-12 04:18:27,240][INFO][find_string()] No iframe in assets/webui/javascripts/game_channel_features.js
+[INTERNAL_LOG][2018-06-12 04:18:27,240][INFO][find_string()] File: assets/webui/javascripts/game_channel_models.js
+[INTERNAL_LOG][2018-06-12 04:18:27,241][INFO][find_string()] No iframe in assets/webui/javascripts/game_channel_models.js
+[INTERNAL_LOG][2018-06-12 04:18:27,241][INFO][find_string()] File: assets/webui/javascripts/gswipe.js
+[INTERNAL_LOG][2018-06-12 04:18:27,242][INFO][find_string()] No iframe in assets/webui/javascripts/gswipe.js
+[INTERNAL_LOG][2018-06-12 04:18:27,242][INFO][find_string()] File: assets/webui/javascripts/head.js
+[INTERNAL_LOG][2018-06-12 04:18:27,242][INFO][find_string()] No iframe in assets/webui/javascripts/head.js
+[INTERNAL_LOG][2018-06-12 04:18:27,242][INFO][find_string()] File: assets/webui/javascripts/jquery.js
+[INTERNAL_LOG][2018-06-12 04:18:27,248][INFO][find_string()] No iframe in assets/webui/javascripts/jquery.js
+[INTERNAL_LOG][2018-06-12 04:18:27,248][INFO][find_string()] File: assets/webui/javascripts/json2.js
+[INTERNAL_LOG][2018-06-12 04:18:27,248][INFO][find_string()] No iframe in assets/webui/javascripts/json2.js
+[INTERNAL_LOG][2018-06-12 04:18:27,248][INFO][find_string()] File: assets/webui/javascripts/settings/privacy_settings.js
+[INTERNAL_LOG][2018-06-12 04:18:27,249][INFO][find_string()] No iframe in assets/webui/javascripts/settings/privacy_settings.js
+[INTERNAL_LOG][2018-06-12 04:18:27,249][INFO][find_string()] File: assets/webui/javascripts/settings/profile_configuration.js
+[INTERNAL_LOG][2018-06-12 04:18:27,249][INFO][find_string()] No iframe in assets/webui/javascripts/settings/profile_configuration.js
+[INTERNAL_LOG][2018-06-12 04:18:27,249][INFO][find_string()] File: assets/webui/javascripts/settings/profile_secure.js
+[INTERNAL_LOG][2018-06-12 04:18:27,250][INFO][find_string()] No iframe in assets/webui/javascripts/settings/profile_secure.js
+[INTERNAL_LOG][2018-06-12 04:18:27,250][INFO][find_string()] File: assets/webui/javascripts/template.js
+[INTERNAL_LOG][2018-06-12 04:18:27,250][INFO][find_string()] No iframe in assets/webui/javascripts/template.js
+[INTERNAL_LOG][2018-06-12 04:18:27,250][INFO][find_string()] File: assets/webui/javascripts/underscore.js
+[INTERNAL_LOG][2018-06-12 04:18:27,251][INFO][find_string()] No iframe in assets/webui/javascripts/underscore.js
+[INTERNAL_LOG][2018-06-12 04:18:27,251][INFO][find_string()] File: assets/webui/javascripts/webui-action.js
+[INTERNAL_LOG][2018-06-12 04:18:27,252][INFO][find_string()] No iframe in assets/webui/javascripts/webui-action.js
+[INTERNAL_LOG][2018-06-12 04:18:27,252][INFO][find_string()] File: assets/webui/javascripts/webui-analytics.js
+[INTERNAL_LOG][2018-06-12 04:18:27,252][INFO][find_string()] No iframe in assets/webui/javascripts/webui-analytics.js
+[INTERNAL_LOG][2018-06-12 04:18:27,252][INFO][find_string()] File: assets/webui/javascripts/webui-api.js
+[INTERNAL_LOG][2018-06-12 04:18:27,253][INFO][find_string()] No iframe in assets/webui/javascripts/webui-api.js
+[INTERNAL_LOG][2018-06-12 04:18:27,253][INFO][find_string()] File: assets/webui/javascripts/webui-core.js
+[INTERNAL_LOG][2018-06-12 04:18:27,254][INFO][find_string()] No iframe in assets/webui/javascripts/webui-core.js
+[INTERNAL_LOG][2018-06-12 04:18:27,254][INFO][find_string()] File: assets/webui/javascripts/webui-helper.js
+[INTERNAL_LOG][2018-06-12 04:18:27,255][INFO][find_string()] No iframe in assets/webui/javascripts/webui-helper.js
+[INTERNAL_LOG][2018-06-12 04:18:27,255][INFO][find_string()] File: assets/webui/javascripts/webui-page.js
+[INTERNAL_LOG][2018-06-12 04:18:27,256][INFO][find_string()] No iframe in assets/webui/javascripts/webui-page.js
+[INTERNAL_LOG][2018-06-12 04:18:27,256][INFO][find_string()] File: assets/webui/javascripts/webui-profiler.js
+[INTERNAL_LOG][2018-06-12 04:18:27,257][INFO][find_string()] No iframe in assets/webui/javascripts/webui-profiler.js
+[INTERNAL_LOG][2018-06-12 04:18:27,257][INFO][find_string()] File: assets/webui/javascripts/webui-touch.js
+[INTERNAL_LOG][2018-06-12 04:18:27,257][INFO][find_string()] No iframe in assets/webui/javascripts/webui-touch.js
+[INTERNAL_LOG][2018-06-12 04:18:27,258][INFO][find_string()] File: assets/webui/javascripts/webui.js
+[INTERNAL_LOG][2018-06-12 04:18:27,258][INFO][find_string()] No iframe in assets/webui/javascripts/webui.js
+[INTERNAL_LOG][2018-06-12 04:18:27,258][INFO][find_string()] File: res/raw/mraid.js
+[INTERNAL_LOG][2018-06-12 04:18:27,259][INFO][find_string()] No iframe in res/raw/mraid.js
+[INTERNAL_LOG][2018-06-12 04:18:27,259][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 04:19:01,182][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 04:19:01,182][INFO][find_url_in_apk()] https://api.twitter.com/oauth/request_token
+https://api.twitter.com/oauth/access_token
+https://api.twitter.com/oauth/authorize
+https://twitter.com/oauth/request_token
+https://twitter.com/oauth/access_token
+https://twitter.com/oauth/authorize
+https://graph.facebook.com/network_ads_common/
+https://graph.%s.facebook.com/network_ads_common/
+https://www.facebook.com/
+https://www.%s.facebook.com
+https://m.facebook.com/dialog/
+https://graph.facebook.com/
+https://api.facebook.com/restserver.php
+https://graph.facebook.com/%s/picture
+https://graph.%s
+https://graph-video.%s
+https://facebook.com
+http://data.flurry.com/aap.do
+https://data.flurry.com/aap.do
+http://hostname/?
+http://hostname/?
+http://www.google-analytics.com
+https://ssl.google-analytics.com
+http://plus.google.com/
+https://www.googleapis.com/auth/drive.file
+https://www.googleapis.com/auth/drive.appdata
+https://www.googleapis.com/auth/drive
+https://www.googleapis.com/auth/drive.apps
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games.firstparty
+https://www.googleapis.com/auth/games.firstparty
+http://www.example.com
+http://www.example.com
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://csi.gstatic.com/csi
+https://www.google.com/dfp/linkDevice
+https://www.google.com/dfp/inAppPreview
+https://www.google.com/dfp/debugSignals
+https://www.google.com/dfp/sendDebugData
+https://pagead2.googlesyndication.com/pagead/gen_204
+http://www.google.com
+https://www.googleapis.com/auth/plus.login
+https://www.googleapis.com/auth/plus.me
+http://schemas.android.com/apk/lib/com.google.android.gms.plus
+http://schemas.android.com/apk/lib/com.google.android.gms.plus
+https://www.googletagmanager.com
+https://www.facebook.com/dialog/feed?app_id=181821551957328&link=
+https://m.google.com/app/plus/x/?v=compose&content=
+http://twitter.com/home?status=
+http://a.ai.inmobi.com/v2/ad.html
+https://rules-ltvp.inmobi.com/v2/rules.json
+https://e-ltvp.inmobi.com/storm/v1/event
+https://sdkm.w.inmobi.com/user/e.asm
+https://d.appsdt.com/download/tracker/?
+https://d.appsdt.com/sdkdwnldbeacon.html
+https://d.appsdt.com/download/tracker/iatsdkconfs?
+https://sdkm.w.inmobi.com/metrics/e.asm
+http://i.w.inmobi.com/showad.asm
+http://dock.inmobi.com/carb/v1/i
+http://dock.inmobi.com/carb/v1/i
+http://dock.inmobi.com/carb/v1/o
+http://dock.inmobi.com/carb/v1/o
+https://androidads21.adcolony.com/configure
+https://control.kochava.com/track/kvinit
+http://bidder.kochava.com/adserver/request/?w=
+https://control.kochava.com/track/kvTracker.php
+https://market.android.com/details?id=
+https://adfill.adview.cn/agent/getAd
+https://adfill.adview.cn/agent/click
+https://adfill.adview.cn/agent/display
+https://bid.adview.cn/agent/getAd
+https://bid.adview.cn/agent/click
+https://bid.adview.cn/agent/display
+https://bid.adview.cn/agent/reportError.php
+https://rtb.adview.cn/agent/getAd
+https://rtb.adview.cn/agent/click
+https://rtb.adview.cn/agent/display
+http://test2014.adview.cn:8088/agent/getAd
+http://test2014.adview.cn:8088/agent/click
+http://test2014.adview.cn:8088/agent/display
+https://ad.mail.ru/mobile/
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+https://target.my.com/
+http://play.google.com
+https://play.google.com
+http://market.android.com
+https://market.android.com
+https://config.unityads.unity3d.com/webview/
+https://www.vungle.com/privacy/
+https://www.vungle.com/privacy/
+https://api.vungle.com/api/v4/
+https://ingest.vungle.com/
+http://lol.vungle.com/
+http://twitter4j.org/en/twitter4j-
+http://api.twitter.com/oauth/request_token
+http://api.twitter.com/oauth/request_token
+http://api.twitter.com/oauth/authorize
+http://api.twitter.com/oauth/authorize
+http://api.twitter.com/oauth/access_token
+http://api.twitter.com/oauth/access_token
+http://api.twitter.com/oauth/authenticate
+http://api.twitter.com/oauth/authenticate
+https://api.twitter.com/oauth2/token
+https://api.twitter.com/oauth2/invalidate_token
+http://api.twitter.com/1.1/
+http://api.twitter.com/1.1/
+https://stream.twitter.com/1.1/
+https://userstream.twitter.com/1.1/
+https://sitestream.twitter.com/1.1/
+
+[INTERNAL_LOG][2018-06-12 04:19:01,182][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 04:19:01,190][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 04:19:01,190][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 04:19:01,190][INFO][analyze_start()] This app might be vulnerable on attack frame confusion, This file are vulnerable ['assets/webui/index.html']
+[INTERNAL_LOG][2018-06-12 04:19:01,190][INFO][analyze_start()] End time:[Tue Jun 12 04:19:01 2018]

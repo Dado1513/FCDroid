@@ -1,0 +1,174 @@
+[INTERNAL_LOG][2018-06-08 02:00:56,273][INFO][analyze_start()] Init Time [Fri Jun  8 02:00:56 2018]
+[INTERNAL_LOG][2018-06-08 02:00:56,357][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-08 02:00:56,357][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-08 02:00:56,357][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-08 02:00:56,357][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-08 02:00:56,357][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-08 02:00:56,357][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-08 02:00:56,357][INFO][is_hybird()] com.yahoo.mobile.client.android.mail.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-08 02:00:56,357][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-08 02:00:56,357][INFO][is_hybird()] android.permission.ACCESS_COARSE_LOCATION
+[INTERNAL_LOG][2018-06-08 02:00:56,357][INFO][is_hybird()] android.permission.AUTHENTICATE_ACCOUNTS
+[INTERNAL_LOG][2018-06-08 02:00:56,357][INFO][is_hybird()] android.permission.READ_SYNC_SETTINGS
+[INTERNAL_LOG][2018-06-08 02:00:56,358][INFO][is_hybird()] android.permission.WRITE_SYNC_SETTINGS
+[INTERNAL_LOG][2018-06-08 02:00:56,358][INFO][is_hybird()] android.permission.ACCESS_FINE_LOCATION
+[INTERNAL_LOG][2018-06-08 02:00:56,358][INFO][is_hybird()] android.permission.WRITE_CONTACTS
+[INTERNAL_LOG][2018-06-08 02:00:56,358][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-08 02:00:56,358][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-08 02:00:56,358][INFO][is_hybird()] com.yahoo.mobile.client.android.permissions.YAHOO_INTER_APP
+[INTERNAL_LOG][2018-06-08 02:00:56,358][INFO][is_hybird()] android.permission.READ_CONTACTS
+[INTERNAL_LOG][2018-06-08 02:00:56,358][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-08 02:00:56,358][INFO][is_hybird()] android.permission.READ_SYNC_STATS
+[INTERNAL_LOG][2018-06-08 02:00:56,358][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-08 02:00:56,358][INFO][is_hybird()] android.permission.USE_CREDENTIALS
+[INTERNAL_LOG][2018-06-08 02:00:56,358][INFO][is_hybird()] android.permission.MANAGE_ACCOUNTS
+[INTERNAL_LOG][2018-06-08 02:00:56,358][INFO][is_hybird()] com.yahoo.mobile.client.android.mail.permission.RECEIVE_ADM_MESSAGE
+[INTERNAL_LOG][2018-06-08 02:00:56,358][INFO][is_hybird()] com.amazon.device.messaging.permission.RECEIVE
+[INTERNAL_LOG][2018-06-08 02:00:56,358][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-08 02:00:56,358][INFO][is_hybird()] android.permission.RECEIVE_BOOT_COMPLETED
+[INTERNAL_LOG][2018-06-08 02:00:56,358][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-08 02:00:56,358][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-08 02:00:56,358][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-08 02:00:56,358][INFO][find_string()] File: assets/credits/credits.html
+[INTERNAL_LOG][2018-06-08 02:00:56,407][INFO][find_string()] No iframe in assets/credits/credits.html
+[INTERNAL_LOG][2018-06-08 02:00:56,407][INFO][find_string()] File: assets/docspad/docViewer.html
+[INTERNAL_LOG][2018-06-08 02:00:56,408][INFO][find_string()] No iframe in assets/docspad/docViewer.html
+[INTERNAL_LOG][2018-06-08 02:00:56,408][INFO][find_string()] File: assets/message_composer/composer.html
+[INTERNAL_LOG][2018-06-08 02:00:56,413][INFO][find_string()] No iframe in assets/message_composer/composer.html
+[INTERNAL_LOG][2018-06-08 02:00:56,414][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-08 02:01:45,189][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-08 02:01:45,189][INFO][find_url_in_apk()] http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+http://yahoo.com
+https://api.login.yahoo.com/oauth2/device_session
+http://xmlpull.org/v1/doc/features.html#indent-output
+http://xmlpull.org/v1/doc/features.html#indent-output
+http://m.facebook.com/ads/ad_choices
+http://m.facebook.com/ads/ad_choices
+https://play.google.com/store/apps/details?id=%s
+https://www.facebook.com/audience_network/server_side_reward
+https://www.%s.facebook.com/audience_network/server_side_reward
+https://www.facebook.com/adnw_logging/
+https://www.%s.facebook.com/adnw_logging/
+https://graph.facebook.com/network_ads_common
+https://graph.%s.facebook.com/network_ads_common
+http://play.google.com/store/apps/
+https://www.facebook.com/
+https://www.%s.facebook.com
+http://www.facebook.com
+https://data.flurry.com/pcr.do
+https://proton.flurry.com/sdk/v1/config
+https://data.flurry.com/aap.do
+http://data.flurry.com/aap.do
+https://service.cmp.oath.com/cmp/v0/location/eu
+http://www.example.com
+http://www.example.com
+http://www.example.com
+http://www.example.com
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+https://adlog.flurry.com
+http://adlog.flurry.com
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+https://ads.flurry.com/v19/getAds.do
+http://ads.flurry.com/v19/getAds.do
+http://www.yahoo.com
+https://s3.amazonaws.com/flurrysdk/Android/v2/android.zip
+https://m.yap.yahoo.com
+http://www.w3.org/ns/ttml#parameter
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+https://www.googleapis.com/auth/games
+https://plus.google.com/
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://csi.gstatic.com/csi
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/native_ads.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/native_video_ads.html
+https://www.google.com/dfp/linkDevice
+https://www.google.com/dfp/inAppPreview
+https://www.google.com/dfp/debugSignals
+https://www.google.com/dfp/sendDebugData
+https://pagead2.googlesyndication.com/pagead/gen_204
+http://www.google.com
+https://support.google.com/dfp_premium/answer/7160685#push
+https://proddata.xobni.yahoo.com
+https://proddata.xobni.yahoo.com
+http://play.google.com/store/apps/details?id=%s
+http://www.amazon.com/gp/mas/dl/android?p=%s
+https://pr.comet.yahoo.com/comet
+https://pr.comet.yahoo.com
+https://upgrade.mail.yahoo.com/
+http://schema.org
+http://schema.org/RsvpResponseYes
+http://schema.org/RsvpResponseNo
+http://schema.org/RsvpResponseMaybe
+http://schema.org/RsvpResponseInvited
+http://schema.org/CompletedActionStatus
+http://schema.org/PropertyValue
+https://overview.mail.yahoo.com
+https://overview.mail.yahoo.com
+https://play.google.com/store/account
+https://www.google.com/maps/dir/?api=1&destination=
+http://www.google.com/search?q=
+https://s.yimg.com/nq/storm/assets/compose-assist/logos/10/tumblr-logo-1x.png
+https://s.yimg.com/nq/gif-providers/1/gif-providers/tenor.png
+https://video.media.yql.yahoo.com/v1/video/sapi/streams/%s
+https://crashes.mobile.yahoo.com/
+https://crashes.mobile.yahoo.com/
+https://exceptions.mobile.yahoo.com/
+https://exceptions.mobile.yahoo.com/
+https://api-onepush.query.yahoo.com/v1/public/yql?format=json
+https://onepush.query.yahoo.com/v1/public/yql?env=stage
+https://onepush.query.yahoo.com/v1/public/yql?env=stage
+https://onepush.query.yahoo.com/v1/public/yql?env=prod
+https://onepush.query.yahoo.com/v1/public/yql?env=prod
+https://carddav.address.yahoo.com
+https://carddav.address.yahoo.com
+http://calendarserver.org/ns/
+http://calendarserver.org/ns/
+https://stg-pam-app.assistant.yahoo.com:4443/
+https://pam-app.assistant.yahoo.com/
+https://s.yimg.com/ik/aspen/config/1.json
+https://sb.scorecardresearch.com/p2
+https://pubads.g.doubleclick.net/gampad/ads?sz=640x360&iu=/4595/nfl.[PLATFORM]&ciu_szs=&impl=s&gdfp_req=1&env=vp&output=xml_vast2&unviewed_position_start=1&cust_params=test%3D%26slot%3Dpreroll%26s3%3D[CHANNEL_ID]&url=[referrer_url]&correlator=[timestamp]
+https://pubads.g.doubleclick.net/gampad/ads?sz=640x360&iu=/4595/nfl.[PLATFORM]&ciu_szs=&impl=s&gdfp_req=1&env=vp&output=xml_vast2&unviewed_position_start=1&cust_params=test%3D%26slot%3Donloader%26s3%3D[CHANNEL_ID]&url=[referrer_url]&correlator=[timestamp]
+https://pubads.g.doubleclick.net/gampad/ads?sz=640x360&iu=/4595/team.[CLUB].[PLATFORM]&ciu_szs=&impl=s&gdfp_req=1&env=vp&output=xml_vast2&unviewed_position_start=1&cust_params=test%3D%26slot%3Dpreroll%26s3%3D[CHANNEL_ID]&url=[referrer_url]&correlator=[timestamp]
+https://video.media.yql.yahoo.com/v1/video/alias/channels/wf-channel=related-videos
+https://placeholder.com/
+https://us.adserver.yahoo.com/a?c=x&p=Not%20Used&f=
+https://login.yahoo.com
+https://login.yahoo.com
+https://login.yahoo.com
+https://login.yahoo.com
+https://mobileexchange.yahoo.com
+https://mobileexchange.yahoo.com
+https://mobileexchange.yahoo.com
+https://www.yahoo.com
+https://login.yahoo.com/asdk/v1/accountsprovider
+https://login.yahoo.com/asdk/v1/phoneprovider
+https://login.yahoo.com/asdk/v1/getverificationsms
+http://clients3.google.com/generate_204
+https://mobileexchange.yahoo.com/dismiss
+https://mobileexchange.yahoo.com/signIn
+http://gazingraising.corp.ne1.yahoo.com/v3/items?vertical=
+http://l
+https://s
+https://onepush.query.yahoo.com/v1/public/yql?env=int
+https://stage.android.register.push.mobile.yahoo.com:443/reg/device/
+https://android.register.push.mobile.yahoo.com:443/reg/device/
+https://stage.android.register.push.mobile.yahoo.com:443/config/
+https://android.register.push.mobile.yahoo.com:443/config/
+
+[INTERNAL_LOG][2018-06-08 02:01:45,189][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-08 02:01:45,194][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-08 02:01:45,194][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-08 02:01:45,194][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-08 02:01:45,194][INFO][analyze_start()] End time:[Fri Jun  8 02:01:45 2018]

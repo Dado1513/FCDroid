@@ -1,0 +1,195 @@
+[INTERNAL_LOG][2018-06-12 05:09:12,925][INFO][analyze_start()] Init Time [Tue Jun 12 05:09:12 2018]
+[INTERNAL_LOG][2018-06-12 05:09:13,126][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 05:09:13,128][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 05:09:13,128][INFO][is_hybird()] com.narvii.amino.ACCESS_ACCOUNT
+[INTERNAL_LOG][2018-06-12 05:09:13,129][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 05:09:13,129][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 05:09:13,129][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 05:09:13,129][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 05:09:13,129][INFO][is_hybird()] android.permission.ACCESS_COARSE_LOCATION
+[INTERNAL_LOG][2018-06-12 05:09:13,129][INFO][is_hybird()] android.permission.ACCESS_FINE_LOCATION
+[INTERNAL_LOG][2018-06-12 05:09:13,129][INFO][is_hybird()] android.permission.READ_PHONE_STATE
+[INTERNAL_LOG][2018-06-12 05:09:13,129][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 05:09:13,129][INFO][is_hybird()] android.permission.READ_CONTACTS
+[INTERNAL_LOG][2018-06-12 05:09:13,129][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 05:09:13,129][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-12 05:09:13,129][INFO][is_hybird()] com.android.launcher.permission.INSTALL_SHORTCUT
+[INTERNAL_LOG][2018-06-12 05:09:13,129][INFO][is_hybird()] com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+[INTERNAL_LOG][2018-06-12 05:09:13,129][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-12 05:09:13,129][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-12 05:09:13,129][INFO][is_hybird()] com.narvii.amino.master.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-12 05:09:13,129][INFO][is_hybird()] com.narvii.permission.avosclous.PUSH
+[INTERNAL_LOG][2018-06-12 05:09:13,129][INFO][is_hybird()] android.permission.SYSTEM_ALERT_WINDOW
+[INTERNAL_LOG][2018-06-12 05:09:13,130][INFO][is_hybird()] android.permission.RECORD_AUDIO
+[INTERNAL_LOG][2018-06-12 05:09:13,130][INFO][is_hybird()] android.permission.CAMERA
+[INTERNAL_LOG][2018-06-12 05:09:13,130][INFO][is_hybird()] android.permission.MODIFY_AUDIO_SETTINGS
+[INTERNAL_LOG][2018-06-12 05:09:13,130][INFO][is_hybird()] android.permission.BLUETOOTH
+[INTERNAL_LOG][2018-06-12 05:09:13,130][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 05:09:13,130][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 05:09:13,130][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 05:09:13,130][INFO][find_string()] File: js/closebutton.html
+[INTERNAL_LOG][2018-06-12 05:09:13,130][INFO][find_string()] No iframe in js/closebutton.html
+[INTERNAL_LOG][2018-06-12 05:09:13,131][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 05:09:13,131][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 05:09:13,131][INFO][find_string()] File: js/mraid.js
+[INTERNAL_LOG][2018-06-12 05:09:13,133][INFO][find_string()] No iframe in js/mraid.js
+[INTERNAL_LOG][2018-06-12 05:09:13,133][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 05:10:21,277][INFO][find_url_in_apk()] [START URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-12 05:10:21,277][INFO][find_url_in_apk()] http://m.youtube.com/
+http://m.youtube.com/results?q=
+
+[INTERNAL_LOG][2018-06-12 05:10:21,277][INFO][find_url_in_apk()] [END URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-12 05:10:22,372][ERROR][download_page_loaded()] Failed download: http://m.youtube.com/ for exception [Errno 21] Is a directory: 'temp_html_code/html_downloaded_Amino_ Communities and Chats by Amino Apps - com/'
+[INTERNAL_LOG][2018-06-12 05:10:23,620][INFO][find_string()] [START REMOTE FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 05:10:23,620][INFO][find_string()] Remote File in: temp_html_code/html_downloaded_Amino_ Communities and Chats by Amino Apps - com/results?q=
+[INTERNAL_LOG][2018-06-12 05:10:23,620][INFO][find_string()] URL: http://m.youtube.com/results?q=
+[INTERNAL_LOG][2018-06-12 05:10:23,731][INFO][find_string()] No iframe in temp_html_code/html_downloaded_Amino_ Communities and Chats by Amino Apps - com/results?q=
+[INTERNAL_LOG][2018-06-12 05:10:23,731][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 05:10:23,731][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 05:10:23,731][INFO][find_url_in_apk()] http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+https://api.amplitude.com/
+https://api.%s/install_data/v3/
+https://attr.%s/api/v
+https://t.%s/api/v
+https://events.%s/api/v
+https://register.%s/api/v
+https://stats.%s/stats
+https://onelink.%s/shortlink-sdk/v1
+https://monitorsdk.%s/remote-debug?app_id=
+https://avoscloud.com
+https://cn.avoscloud.com
+https://api.parse.com
+http://up.qiniu.com
+https://s3-ap-northeast-1.amazonaws.com/avos-cloud
+https://s3-ap-northeast-1.amazonaws.com/avos-cloud/
+http://avos-cloud.s3.amazonaws.com/
+http://router.%s.push.avoscloud.com/v1/route?appId=%s&installationId=%s&secure=1
+https://m.facebook.com/terms
+https://m.facebook.com/terms
+https://m.facebook.com/terms
+https://m.facebook.com/about/privacy/
+https://m.facebook.com/about/privacy/
+https://m.facebook.com/about/privacy/
+https://m.facebook.com/policies/cookies/
+https://m.facebook.com/policies/cookies/
+https://m.facebook.com/policies/cookies/
+https://www.accountkit.com/faq
+https://www.accountkit.com/faq
+https://www.accountkit.com/faq
+https://www.accountkit.com/faq
+https://graph.%s
+https://graph-video.%s
+https://facebook.com
+https://facebook.com/device?user_code=%1$s&qr=1
+https://proton.flurry.com/sdk/v1/config
+https://data.flurry.com/pcr.do
+https://data.flurry.com/aap.do
+http://data.flurry.com/aap.do
+https://service.fyber.com/actions/v2
+https://service.fyber.com/installs/v2
+https://api.fyber.com/vcs/v1/new_credit.json
+https://video.fyber.com
+https://rewarded-video.fyber.com/tracker
+https://offer.fyber.com/mobile
+https://interstitial.fyber.com/interstitial
+https://interstitial.fyber.com/tracker
+https://sdk-config.fyber.com
+https://engine.fyber.com/video-cache
+https://banner.fyber.com/banner
+https://banner.fyber.com/tracker
+https://testsuite.fyber.com/tracker
+https://api-rewarded-video.fyber.com/video
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+https://www.googleapis.com/auth/games_lite
+https://www.googleapis.com/auth/games
+https://plus.google.com/
+https://pagead2.googlesyndication.com/pagead/gen_204
+http://www.google.com
+https://support.google.com/dfp_premium/answer/7160685#push
+http://www.example.com
+http://www.example.com
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/sdk-core-v40-impl.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://csi.gstatic.com/csi
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/native_ads.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/native_ads.js
+https://imasdk.googleapis.com/admob/sdkloader/native_video.html
+https://www.google.com/dfp/linkDevice
+https://www.google.com/dfp/inAppPreview
+https://www.google.com/dfp/debugSignals
+https://www.google.com/dfp/sendDebugData
+https://z.moatads.com/
+https://accounts.google.com
+https://accounts.google.com
+https://support.aminoapps.com/hc/sections/115000566373-REP-Levels-and-Leaderboards
+http://pm1.pebkit.com/5570/454441e96723ba9d78ffdfc3ec1acb5aa0283875_00.jpg
+http://pm1.pebkit.com/5570/454441e96723ba9d78ffdfc3ec1acb5aa0283875_00.jpg
+http://pm1.pebkit.com/5570/454441e96723ba9d78ffdfc3ec1acb5aa0283875_00.jpg
+http://static.narvii.com/default-chat-room-background/1_00.png
+http://static.narvii.com/default-chat-room-background/2_00.png
+http://static.narvii.com/default-chat-room-background/3_00.png
+http://static.narvii.com/default-chat-room-background/4_00.png
+http://static.narvii.com/default-chat-room-background/5_00.png
+http://static.narvii.com/default-chat-room-background/6_00.png
+http://static.narvii.com/default-chat-room-background/7_00.png
+http://static.narvii.com/default-chat-room-background/8_00.png
+http://static.narvii.com/default-chat-room-background/9_00.png
+http://static.narvii.com/default-chat-room-background/10_00.png
+http://www.aminoapps.com
+http://www.google.com/
+https://leancloud.cn/1.1/404
+http://play.google.com/store/apps/details?id=
+http://play.google.com/store/apps/details?id=
+http://play.google.com/store/apps/details?id=
+http://rqd.uu.qq.com/rqd/sync
+http://android.bugly.qq.com/rqd/async
+http://st1.pebkit.com/6725/e36715b3b36fb88da510c9398a64823dd125b65a_00.gif
+http://api.map.baidu.com/geocoder/v2/?ak=
+https://www.google.com/maps/@?api=1&map_action=map&center=
+https://support.aminoapps.com/hc/requests/new
+https://api.giphy.com/v1/stickers/trending?api_key=dc6zaTOxFJmzC
+https://api.giphy.com/v1/
+https://www.googleapis.com/youtube/v3/videos?id=
+http://m.youtube.com/
+http://m.youtube.com/results?q=
+http://www.youtube.com/oembed?url=http://www.youtube.com/watch?v=
+http://www.youtube.com/oembed?url=http://www.youtube.com/watch?v=
+http://instagram.com/_u/
+http://onelink.to/xnnwqb
+https://service.pebkit.com/static/#/account/
+https://service.narvii.com/static/#/account/
+https://graph.facebook.com/v2.9/
+https://graph.facebook.com/v2.9/
+https://www.youtube.com/results?search_query=
+http://i.ytimg.com/vi/
+http://i.ytimg.com/vi/
+https://www.youtube.com/watch?v=
+https://androidquery.appspot.com/api/market?app=
+https://support.aminoapps.com/hc/en-us/sections/360000385733-Amino-
+https://ws.tapjoyads.com/
+https://ws.tapjoyads.com/
+https://ws.tapjoyads.com/
+https://rpc.tapjoy.com/
+https://rpc.tapjoy.com/
+https://connect.tapjoy.com/
+https://connect.tapjoy.com/
+https://placements.tapjoy.com/
+https://www.narvii.com/whis?vc=
+https://www.narvii.com/prec?vc=
+
+[INTERNAL_LOG][2018-06-12 05:10:23,731][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 05:10:23,743][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 05:10:23,743][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 05:10:23,743][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 05:10:23,743][INFO][analyze_start()] End time:[Tue Jun 12 05:10:23 2018]

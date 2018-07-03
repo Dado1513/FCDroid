@@ -1,0 +1,215 @@
+[INTERNAL_LOG][2018-06-12 06:42:28,203][INFO][analyze_start()] Init Time [Tue Jun 12 06:42:28 2018]
+[INTERNAL_LOG][2018-06-12 06:42:28,306][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 06:42:28,307][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 06:42:28,308][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 06:42:28,308][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-12 06:42:28,308][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 06:42:28,308][INFO][is_hybird()] android.permission.BLUETOOTH
+[INTERNAL_LOG][2018-06-12 06:42:28,308][INFO][is_hybird()] android.permission.KILL_BACKGROUND_PROCESSES
+[INTERNAL_LOG][2018-06-12 06:42:28,308][INFO][is_hybird()] android.permission.RECEIVE_BOOT_COMPLETED
+[INTERNAL_LOG][2018-06-12 06:42:28,308][INFO][is_hybird()] android.permission.GET_TASKS
+[INTERNAL_LOG][2018-06-12 06:42:28,308][INFO][is_hybird()] android.permission.SYSTEM_ALERT_WINDOW
+[INTERNAL_LOG][2018-06-12 06:42:28,308][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 06:42:28,308][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 06:42:28,308][INFO][is_hybird()] android.permission.READ_PHONE_STATE
+[INTERNAL_LOG][2018-06-12 06:42:28,308][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 06:42:28,308][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 06:42:28,308][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 06:42:28,308][INFO][is_hybird()] com.android.launcher.permission.INSTALL_SHORTCUT
+[INTERNAL_LOG][2018-06-12 06:42:28,308][INFO][is_hybird()] com.android.launcher.permission.UNINSTALL_SHORTCUT
+[INTERNAL_LOG][2018-06-12 06:42:28,308][INFO][is_hybird()] android.permission.EXPAND_STATUS_BAR
+[INTERNAL_LOG][2018-06-12 06:42:28,308][INFO][is_hybird()] android.permission.CLEAR_APP_CACHE
+[INTERNAL_LOG][2018-06-12 06:42:28,308][INFO][is_hybird()] android.permission.GET_PACKAGE_SIZE
+[INTERNAL_LOG][2018-06-12 06:42:28,308][INFO][is_hybird()] android.permission.PACKAGE_USAGE_STATS
+[INTERNAL_LOG][2018-06-12 06:42:28,308][INFO][is_hybird()] android.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 06:42:28,309][INFO][is_hybird()] android.permission.USE_FINGERPRINT
+[INTERNAL_LOG][2018-06-12 06:42:28,309][INFO][is_hybird()] com.android.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 06:42:28,309][INFO][is_hybird()] com.android.launcher2.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 06:42:28,309][INFO][is_hybird()] com.android.launcher3.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 06:42:28,309][INFO][is_hybird()] android.permission.MANAGE_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 06:42:28,309][INFO][is_hybird()] android.permission.CHANGE_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 06:42:28,309][INFO][is_hybird()] android.permission.READ_SMS
+[INTERNAL_LOG][2018-06-12 06:42:28,309][INFO][is_hybird()] android.permission.CALL_PHONE
+[INTERNAL_LOG][2018-06-12 06:42:28,309][INFO][is_hybird()] android.permission.READ_CONTACTS
+[INTERNAL_LOG][2018-06-12 06:42:28,309][INFO][is_hybird()] android.permission.READ_CALL_LOG
+[INTERNAL_LOG][2018-06-12 06:42:28,309][INFO][is_hybird()] android.permission.WRITE_CALL_LOG
+[INTERNAL_LOG][2018-06-12 06:42:28,309][INFO][is_hybird()] android.permission.WRITE_SYNC_SETTINGS
+[INTERNAL_LOG][2018-06-12 06:42:28,309][INFO][is_hybird()] android.permission.AUTHENTICATE_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 06:42:28,309][INFO][is_hybird()] android.permission.PROCESS_OUTGOING_CALLS
+[INTERNAL_LOG][2018-06-12 06:42:28,309][INFO][is_hybird()] com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+[INTERNAL_LOG][2018-06-12 06:42:28,309][INFO][is_hybird()] android.permission.CHANGE_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 06:42:28,309][INFO][is_hybird()] android.permission.CAMERA
+[INTERNAL_LOG][2018-06-12 06:42:28,309][INFO][is_hybird()] android.permission.FLASHLIGHT
+[INTERNAL_LOG][2018-06-12 06:42:28,309][INFO][is_hybird()] android.permission.BLUETOOTH_ADMIN
+[INTERNAL_LOG][2018-06-12 06:42:28,309][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-12 06:42:28,309][INFO][is_hybird()] android.permission.READ_SYNC_SETTINGS
+[INTERNAL_LOG][2018-06-12 06:42:28,310][INFO][is_hybird()] android.permission.RECEIVE_SMS
+[INTERNAL_LOG][2018-06-12 06:42:28,310][INFO][is_hybird()] android.permission.ACCESS_FINE_LOCATION
+[INTERNAL_LOG][2018-06-12 06:42:28,310][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 06:42:28,310][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 06:42:28,310][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 06:42:28,310][INFO][find_string()] File: assets/back_blank.html
+[INTERNAL_LOG][2018-06-12 06:42:28,310][INFO][find_string()] No iframe in assets/back_blank.html
+[INTERNAL_LOG][2018-06-12 06:42:28,310][INFO][find_string()] File: assets/blank.html
+[INTERNAL_LOG][2018-06-12 06:42:28,311][INFO][find_string()] No iframe in assets/blank.html
+[INTERNAL_LOG][2018-06-12 06:42:28,322][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 06:42:28,338][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 06:42:28,338][INFO][find_string()] File: assets/mark_ad.js
+[INTERNAL_LOG][2018-06-12 06:42:28,371][INFO][find_string()] No iframe in assets/mark_ad.js
+[INTERNAL_LOG][2018-06-12 06:42:28,372][INFO][find_string()] File: assets/remove_marked_ad.js
+[INTERNAL_LOG][2018-06-12 06:42:28,374][INFO][find_string()] No iframe in assets/remove_marked_ad.js
+[INTERNAL_LOG][2018-06-12 06:42:28,374][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 06:43:15,835][INFO][find_url_in_apk()] [START URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-12 06:43:15,835][INFO][find_url_in_apk()] https://www.yahoo.com/?ilc=401
+
+[INTERNAL_LOG][2018-06-12 06:43:15,836][INFO][find_url_in_apk()] [END URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-12 06:43:16,792][INFO][find_string()] [START REMOTE FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 06:43:16,792][INFO][find_string()] Remote File in: temp_html_code/html_downloaded_APUS Security - Clean Virus_ Antivirus_ Booster by Security Elite - com/?ilc=401
+[INTERNAL_LOG][2018-06-12 06:43:16,793][INFO][find_string()] URL: https://www.yahoo.com/?ilc=401
+[INTERNAL_LOG][2018-06-12 06:43:16,828][INFO][find_string()] No iframe in temp_html_code/html_downloaded_APUS Security - Clean Virus_ Antivirus_ Booster by Security Elite - com/?ilc=401
+[INTERNAL_LOG][2018-06-12 06:43:16,828][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 06:43:16,828][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 06:43:16,828][INFO][find_url_in_apk()] http://schemas.android.com/apk/res/android
+http://weather.subcdn.com
+https://weather.com/wx/today/
+https://www.yahoo.com/?ilc=401
+http://static.subcdn.com/security-elite/risk-reminder.html#/
+http://static.subcdn.com/security-elite/risk-reminder.html#/
+http://static.subcdn.com/security-elite/risk-reminder.html#/
+http://static.subcdn.com/security-elite/risk-reminder.html#/
+http://test.aceshop.apuscn.com/v3/u/c/
+https://play.google.com/store/apps/details?id=com.augeapps.locker&referrer=id%3D710193
+http://xmlpull.org/v1/doc/features.html#indent-output
+http://xmlpull.org/v1/doc/features.html#indent-output
+http://m.facebook.com/ads/ad_choices
+http://m.facebook.com/ads/ad_choices
+https://www.facebook.com/audience_network/server_side_reward
+https://www.%s.facebook.com/audience_network/server_side_reward
+https://graph.facebook.com/network_ads_common
+https://graph.%s.facebook.com/network_ads_common
+https://www.facebook.com/adnw_logging/
+https://www.%s.facebook.com/adnw_logging/
+https://www.facebook.com/
+https://www.%s.facebook.com
+http://www.facebook.com
+https://graph.%s
+https://graph-video.%s
+https://facebook.com
+http://play.google.com/store/apps/details?id=com.facebook.orca
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+https://www.googleapis.com/auth/games
+https://plus.google.com/
+http://www.example.com
+http://www.example.com
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://csi.gstatic.com/csi
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/native_ads.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/native_video_ads.html
+https://www.google.com/dfp/linkDevice
+https://www.google.com/dfp/inAppPreview
+https://www.google.com/dfp/debugSignals
+https://www.google.com/dfp/sendDebugData
+https://pagead2.googlesyndication.com/pagead/gen_204
+http://www.google.com
+https://support.google.com/dfp_premium/answer/7160685#push
+http://r.subcdn.com
+http://u.subcdn.com
+https://www.facebook.com/Security-Elite-119377418759268/
+https://www.facebook.com/Security-Elite-119377418759268/
+http://www.apusapps.com/en/client/security-elite/privacypolicy/
+http://www.apusapps.com/en/client/security-elite/privacypolicy/
+https://twitter.com/%s/status/%s
+http://sc.topcontentss.com/v1/b/l
+https://play.google.com
+https://play.google.com
+https://play.google.com
+http://play.google.com
+http://play.google.com
+http://play.google.com
+http://goo.gl/cPH2N9
+http://www.apusapps.com/en/security-elite/
+http://www.apusapps.com/en/message-center/
+https://twitter.com/ApusGroup
+http://static.update.apusmsg.com/msgcenter/launcher/MSG_banner.jpg
+http://clients3.google.com
+http://64.233.189.102
+https://clients3.google.com/
+http://feedback.onesurvey.info/v2/fb/ginfo
+https://analytics.mopub.com/i/jot/exchange_client_event
+https://www.mopub.com/optout
+http://static.subcdn.com/security-elite/risk-reminder.html#/33
+http://clean.api.hermesccloud.com/v3/path/getinfo
+http://www.google.com/complete/search?output=firefox&hl=en&q=%s
+https://play.google.com/store/apps/details?id=
+http://play.google.com/store/apps/details?id=%s
+http://play.google.com/store/apps/details?id=%s
+http://play.google.com/store/apps/details?id=%s
+http://play.google.com/store/apps/details?id=%s
+http://play.google.com/store/apps/details?id=%s
+http://play.google.com/store/apps/details?id=%s
+http://play.google.com/store/apps/details?id=%s
+http://play.google.com/store/apps/details?id=%s
+http://play.google.com/store/apps/details?id=%s
+http://ads1.api.topcontentss.com/client
+http://h5game.subcdn.com/05/
+http://mpx.mopub.com/imp?
+https://www.facebook.com/sharer
+https://www.facebook.com/sharer
+http://m.facebook.com/sharer
+http://m.facebook.com/sharer
+https://m.facebook.com/dialog/feed
+https://m.facebook.com/dialog/feed
+https://plus.google.com/share
+https://plus.google.com/share
+https://twitter.com/share
+https://twitter.com/share
+http://www.
+https://www.
+https://m.youtube.com/
+https://m.youtube.com/
+https://m.facebook.com/
+https://m.facebook.com/
+https://www.netflix.com/
+https://www.netflix.com/
+https://www.amazon.com/
+https://www.amazon.com/
+https://mobile.twitter.com/
+https://mobile.twitter.com/
+https://www.reddit.com/
+https://www.reddit.com/
+http://m.ebay.com/
+http://m.ebay.com/
+https://m.imgur.com/
+https://m.imgur.com/
+http://static.update.enosishermes.com/superbrowser/broswer/20170914155140269a86922e.png
+http://static.update.enosishermes.com/superbrowser/broswer/20170914155140269a86922e.png
+http://static.update.enosishermes.com/superbrowser/broswer/20170914155030525c69fdf9.png
+http://static.update.enosishermes.com/superbrowser/broswer/20170914155030525c69fdf9.png
+http://static.update.enosishermes.com/superbrowser/broswer/20170914155101f251fc48bc.png
+http://static.update.enosishermes.com/superbrowser/broswer/20170914155101f251fc48bc.png
+http://static.update.enosishermes.com/superbrowser/broswer/20170914154955c87e55ca29.png
+http://static.update.enosishermes.com/superbrowser/broswer/20170914154955c87e55ca29.png
+http://static.update.enosishermes.com/superbrowser/broswer/201709141551283ef6779171.png
+http://static.update.enosishermes.com/superbrowser/broswer/201709141551283ef6779171.png
+http://static.update.enosishermes.com/superbrowser/broswer/20170914155114f0434f1b75.png
+http://static.update.enosishermes.com/superbrowser/broswer/20170914155114f0434f1b75.png
+http://static.update.enosishermes.com/superbrowser/broswer/20170914155014cc434f4e1d.png
+http://static.update.enosishermes.com/superbrowser/broswer/20170914155014cc434f4e1d.png
+http://static.update.enosishermes.com/superbrowser/broswer/20170914155046b4d2c5de1f.png
+http://static.update.enosishermes.com/superbrowser/broswer/20170914155046b4d2c5de1f.png
+
+[INTERNAL_LOG][2018-06-12 06:43:16,829][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 06:43:16,839][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 06:43:16,839][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 06:43:16,839][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 06:43:16,839][INFO][analyze_start()] End time:[Tue Jun 12 06:43:16 2018]

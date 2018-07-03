@@ -1,0 +1,399 @@
+[INTERNAL_LOG][2018-06-12 05:27:48,641][INFO][analyze_start()] Init Time [Tue Jun 12 05:27:48 2018]
+[INTERNAL_LOG][2018-06-12 05:27:48,768][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 05:27:48,769][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 05:27:48,769][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 05:27:48,770][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 05:27:48,770][INFO][is_hybird()] android.permission.GET_TASKS
+[INTERNAL_LOG][2018-06-12 05:27:48,770][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-12 05:27:48,770][INFO][is_hybird()] android.permission.SYSTEM_ALERT_WINDOW
+[INTERNAL_LOG][2018-06-12 05:27:48,770][INFO][is_hybird()] android.permission.ACCESS_COARSE_LOCATION
+[INTERNAL_LOG][2018-06-12 05:27:48,770][INFO][is_hybird()] android.permission.ACCESS_FINE_LOCATION
+[INTERNAL_LOG][2018-06-12 05:27:48,770][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 05:27:48,770][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 05:27:48,770][INFO][is_hybird()] android.permission.CHANGE_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 05:27:48,770][INFO][is_hybird()] android.permission.READ_PHONE_STATE
+[INTERNAL_LOG][2018-06-12 05:27:48,770][INFO][is_hybird()] android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+[INTERNAL_LOG][2018-06-12 05:27:48,770][INFO][is_hybird()] android.permission.RECORD_AUDIO
+[INTERNAL_LOG][2018-06-12 05:27:48,770][INFO][is_hybird()] android.permission.RECORD_VIDEO
+[INTERNAL_LOG][2018-06-12 05:27:48,770][INFO][is_hybird()] com.android.launcher.permission.INSTALL_SHORTCUT
+[INTERNAL_LOG][2018-06-12 05:27:48,770][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 05:27:48,770][INFO][is_hybird()] android.permission.CAMERA
+[INTERNAL_LOG][2018-06-12 05:27:48,770][INFO][is_hybird()] android.permission.CHANGE_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 05:27:48,770][INFO][is_hybird()] android.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 05:27:48,770][INFO][is_hybird()] android.permission.RECEIVE_BOOT_COMPLETED
+[INTERNAL_LOG][2018-06-12 05:27:48,770][INFO][is_hybird()] android.permission.RECEIVE_USER_PRESENT
+[INTERNAL_LOG][2018-06-12 05:27:48,771][INFO][is_hybird()] android.permission.ACCESS_DOWNLOAD_MANAGER
+[INTERNAL_LOG][2018-06-12 05:27:48,771][INFO][is_hybird()] android.permission.DOWNLOAD_WITHOUT_NOTIFICATION
+[INTERNAL_LOG][2018-06-12 05:27:48,771][INFO][is_hybird()] android.permission.CHANGE_WIFI_MULTICAST_STATE
+[INTERNAL_LOG][2018-06-12 05:27:48,771][INFO][is_hybird()] android.permission.DISABLE_KEYGUARD
+[INTERNAL_LOG][2018-06-12 05:27:48,771][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-12 05:27:48,771][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 05:27:48,771][INFO][is_hybird()] com.jb.zcamera.permission.SERVICE
+[INTERNAL_LOG][2018-06-12 05:27:48,771][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 05:27:48,771][INFO][is_hybird()] com.jb.zcamera.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-12 05:27:48,771][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-12 05:27:48,771][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 05:27:48,771][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 05:27:48,771][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 05:27:48,771][INFO][find_string()] File: assets/blank.html
+[INTERNAL_LOG][2018-06-12 05:27:48,772][INFO][find_string()] No iframe in assets/blank.html
+[INTERNAL_LOG][2018-06-12 05:27:48,772][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 05:27:48,772][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 05:27:48,772][INFO][find_string()] File: assets/mmadsdk/actionsQueue.js
+[INTERNAL_LOG][2018-06-12 05:27:48,773][INFO][find_string()] No iframe in assets/mmadsdk/actionsQueue.js
+[INTERNAL_LOG][2018-06-12 05:27:48,773][INFO][find_string()] File: assets/mmadsdk/mm.js
+[INTERNAL_LOG][2018-06-12 05:27:48,774][INFO][find_string()] No iframe in assets/mmadsdk/mm.js
+[INTERNAL_LOG][2018-06-12 05:27:48,774][INFO][find_string()] File: assets/mmadsdk/mraid.js
+[INTERNAL_LOG][2018-06-12 05:27:48,775][INFO][find_string()] No iframe in assets/mmadsdk/mraid.js
+[INTERNAL_LOG][2018-06-12 05:27:48,776][INFO][find_string()] File: assets/mmadsdk/vpaid.js
+[INTERNAL_LOG][2018-06-12 05:27:48,779][INFO][find_string()] No iframe in assets/mmadsdk/vpaid.js
+[INTERNAL_LOG][2018-06-12 05:27:48,779][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 05:29:06,136][INFO][find_url_in_apk()] [START URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-12 05:29:06,136][INFO][find_url_in_apk()] https://api.instagram.com/oauth/authorize/?client_id=4b6727d90fdc4ee79852ecea7099ee4a&redirect_uri=http://www.gomo.com&response_type=token
+http://share.zero-team.com/zcamera/index.html
+http://54.183.194.20/http/monitor
+http://54.183.194.216/http/monitor
+
+[INTERNAL_LOG][2018-06-12 05:29:06,136][INFO][find_url_in_apk()] [END URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-12 05:29:08,972][ERROR][download_page_loaded()] Failed response code: 405 for http://54.183.194.20/http/monitor  
+[INTERNAL_LOG][2018-06-12 05:29:09,484][ERROR][download_page_loaded()] Failed response code: 405 for http://54.183.194.216/http/monitor  
+[INTERNAL_LOG][2018-06-12 05:29:09,485][INFO][find_string()] [START REMOTE FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 05:29:09,485][INFO][find_string()] Remote File in: temp_html_code/html_downloaded_Z Camera - Photo Editor_ Beauty Selfie_ Collage by GOMO - com/www.gomo.com&response_type=token
+[INTERNAL_LOG][2018-06-12 05:29:09,485][INFO][find_string()] URL: https://api.instagram.com/oauth/authorize/?client_id=4b6727d90fdc4ee79852ecea7099ee4a&redirect_uri=http://www.gomo.com&response_type=token
+[INTERNAL_LOG][2018-06-12 05:29:09,491][INFO][find_string()] No iframe in temp_html_code/html_downloaded_Z Camera - Photo Editor_ Beauty Selfie_ Collage by GOMO - com/www.gomo.com&response_type=token
+[INTERNAL_LOG][2018-06-12 05:29:09,491][INFO][find_string()] Remote File in: temp_html_code/html_downloaded_Z Camera - Photo Editor_ Beauty Selfie_ Collage by GOMO - com/index.html
+[INTERNAL_LOG][2018-06-12 05:29:09,491][INFO][find_string()] URL: http://share.zero-team.com/zcamera/index.html
+[INTERNAL_LOG][2018-06-12 05:29:09,495][INFO][find_string()] No iframe in temp_html_code/html_downloaded_Z Camera - Photo Editor_ Beauty Selfie_ Collage by GOMO - com/index.html
+[INTERNAL_LOG][2018-06-12 05:29:09,495][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 05:29:09,495][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 05:29:09,495][INFO][find_url_in_apk()] https://maps.googleapis.com/maps/api/geocode/json?latlng=
+http://godfs.3g.cn/soft/zcamera/facebook_zcamera.jpg
+http://godfs.3g.cn/soft/zcamera/facebook_zcamera.jpg
+http://godfs.3g.cn/soft/zcamera/facebook_zcamera.jpg
+http://goappdl.goforandroid.com/
+http://goappdl.goforandroid.com/
+http://goappdl.goforandroid.com/
+http://goappdl.goforandroid.com/
+http://goappdl.goforandroid.com/
+http://gotest.3g.net.cn/launcherzthemestore/common?
+https://lzt.goforandroid.com/launcherzthemestore/common?
+http://gotest.3g.net.cn
+http://gotest.3g.net.cn
+https://lzt.goforandroid.com
+http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+http://goappdl.goforandroid.com/soft/repository/10/icon/20150911/tnvkiQgs.png
+http://goappdl.goforandroid.com/soft/repository/10/icon/20150910/2fnnba.png
+http://goappdl.goforandroid.com/soft/repository/10/icon/20150911/CdjKpIhV.png
+http://goappdl.goforandroid.com/soft/repository/10/icon/20150911/mgfw9VqB.png
+http://goappdl.goforandroid.com/soft/repository/10/icon/20150911/KxBPXcWQ.png
+http://goappdl.goforandroid.com/soft/repository/10/icon/20150911/LbGCRucP.png
+http://goappdl.goforandroid.com/soft/repository/10/icon/20150911/5Z5eGox9.png
+http://goappdl.goforandroid.com/soft/repository/10/icon/20150911/AO1Rzujs.png
+http://goappdl.goforandroid.com/soft/repository/10/icon/20150911/MFKRI2gf.png
+http://goappdl.goforandroid.com/soft/repository/10/icon/20150911/v4SBjI9Y.png
+http://goappdl.goforandroid.com/soft/repository/10/icon/20150911/SBM8iRLz.png
+http://goappdl.goforandroid.com/soft/repository/10/icon/20150911/XAMDs9pH.png
+http://goappdl.goforandroid.com/soft/repository/10/icon/20150911/QlxHoyyk.png
+http://goappdl.goforandroid.com/soft/repository/10/icon/20150910/90ova.png
+http://goappdl.goforandroid.com/soft/repository/10/icon/20150910/2debhi.png
+http://goappdl.goforandroid.com/soft/repository/10/icon/20150910/2fngvg.png
+http://goappdl.goforandroid.com/soft/repository/10/icon/20150910/2eeb64.png
+http://goappdl.goforandroid.com/soft/repository/10/icon/20150910/6ifxi.png
+http://goappdl.goforandroid.com/soft/repository/10/icon/20150910/2rmfa.png
+http://goappdl.goforandroid.com/soft/repository/10/icon/20150910/6hld3.png
+http://goappdl.goforandroid.com/soft/repository/10/icon/20150910/1q6zw.png
+http://goappdl.goforandroid.com/soft/repository/10/icon/20150910/2debfq.png
+http://godfs.3g.cn/soft/repository/10/image/20151203/GIpiFPzc.jpg##http://godfs.3g.cn/soft/repository/10/image/20151203/TKD4l3SA.gif
+http://godfs.3g.cn/soft/repository/10/image/20150915/sRcUFAel.jpg##http://godfs.3g.cn/soft/repository/10/image/20150915/AjMjVN43.jpg
+http://godfs.3g.cn/soft/repository/10/image/20150915/X2tqDaZ2.jpg##http://godfs.3g.cn/soft/repository/10/image/20150915/7IK1Ih7r.jpg
+http://godfs.3g.cn/soft/repository/10/image/20150915/P21kIn1P.jpg##http://godfs.3g.cn/soft/repository/10/image/20150915/tpKXMb50.jpg
+http://godfs.3g.cn/soft/repository/10/image/20150915/Zzg32sUi.jpg##http://godfs.3g.cn/soft/repository/10/image/20150915/H8FI7cV2.jpg
+http://godfs.3g.cn/soft/repository/10/image/20150915/4pwqjdUx.jpg##http://godfs.3g.cn/soft/repository/10/image/20150915/uUdowDKd.jpg
+http://godfs.3g.cn/soft/repository/10/image/20150915/nvGqhgQl.jpg##http://godfs.3g.cn/soft/repository/10/image/20150915/pRtKXdfg.jpg
+http://godfs.3g.cn/soft/repository/10/image/20150915/NGpE36hO.jpg##http://godfs.3g.cn/soft/repository/10/image/20150915/QDmRab29.jpg
+http://godfs.3g.cn/soft/repository/10/image/20150915/hLnvoVwh.jpg##http://godfs.3g.cn/soft/repository/10/image/20150915/XAxdp7w4.jpg
+http://godfs.3g.cn/soft/repository/10/image/20150915/XdgDqp5i.jpg##http://godfs.3g.cn/soft/repository/10/image/20150915/750Imh32.jpg
+http://godfs.3g.cn/soft/repository/10/image/20150915/tMb6RO89.jpg##http://godfs.3g.cn/soft/repository/10/image/20150915/lnt5vUJg.jpg
+http://godfs.3g.cn/soft/repository/10/image/20151203/GIpiFPzc.jpg
+http://godfs.3g.cn/soft/repository/10/image/20150915/sRcUFAel.jpg
+http://godfs.3g.cn/soft/repository/10/image/20150915/X2tqDaZ2.jpg
+http://spreadsheets.google.com/formResponse?formkey=
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+https://www.facebook.com/
+http://instagram.com/_u/
+https://www.instagram.com/
+https://www.facebook.com/zcamerateam
+https://api.twitter.com
+https://adc3-launch-server-staging.herokuapp.com/v4/launch
+https://adc3-launch.adcolony.com/v4/launch
+https://wd.adcolony.com/logs
+https://ads.aerserv.com/as/sdk/v3/
+https://ads.aerserv.com/as/sdk/v3/
+https://ads.aerserv.com/as/sdk/v3/
+https://staging.ads.aerserv.com/as/sdk/v3/
+https://staging.ads.aerserv.com/as/sdk/v3/
+https://dmp.aerserv.com/update
+https://www.%s.facebook.com
+https://play.google.com/store/apps/details?id=com.hp.android.printservice
+https://play.google.com/store/apps/details?id=org.mopria.printplugin
+https://play.google.com/store/apps/details?id=com.brother.printservice
+https://play.google.com/store/apps/details?id=com.sec.app.samsungprintservice
+https://play.google.com/store/apps/details?id=jp.co.canon.android.printservice.plugin
+https://play.google.com/store/apps/details?id=com.epson.mobilephone.android.epsonprintserviceplugin
+https://play.google.com/store/search?q=print%20service%20plugin&c=apps
+https://fb.me/917587044970066
+https://fb.me/917587044970066
+https://play.google.com
+https://play.google.com
+https://api.instagram.com/oauth/authorize
+http://www.gomo.com
+http://resource.gomocdn.com/zeroteamfb/Zcamera_statement.html
+http://resource.gomocdn.com/zeroteamfb/Zcamera_privacy.html
+http://resource.gomocdn.com/zeroteamfb/Zcamera_privacy.html
+http://resource.gomocdn.com/zeroteamfb/Zcamera_privacy.html
+http://resource.gomocdn.com/zeroteamfb/Zcamera_privacy.html
+http://resource.gomocdn.com/zeroteamfb/Zcamera_privacy.html
+http://resource.gomocdn.com/zeroteamfb/Zcamera_privacy.html
+http://play.google.com/store/apps/details
+http://play.google.com/store/apps/details
+http://play.google.com/store/apps/details
+http://play.google.com/store/apps/details
+http://play.google.com/store/apps/details
+https://play.google.com/store/apps/details
+https://play.google.com/store/apps/details
+https://play.google.com/store/apps/details
+https://play.google.com/store/apps/details
+https://play.google.com/store/apps/details
+https://play.google.com/store/apps/details
+https://twitter.com/%s/status/%s
+http://vcdn.tyroo.com/07141fd6dd3dfd345fc5a9585967491e.jpg
+http://vcdn.tyroo.com/07141fd6dd3dfd345fc5a9585967491e.jpg
+https://play.google.com/store/apps/details?
+https://firebase-api.goforandroid.com
+https://syndication.twitter.com
+http://video.tyroo.com/image
+http://video.tyroo.com/image
+https://d3tplke66d0j4g.cloudfront.net/sdk-vpaid/0.3/VPAID.html
+https://d3tplke66d0j4g.cloudfront.net/sdk-vpaid/0.3/VPAID.js
+https://d3tplke66d0j4g.cloudfront.net/sdk-vpaid/0.3/VPAIDBridge.js
+https://d3tplke66d0j4g.cloudfront.net/img/poster.gif
+https://attr.%s/api/v
+https://t.%s/api/v
+https://events.%s/api/v
+https://register.%s/api/v
+https://stats.%s/stats
+http://www.example.com
+http://www.example.com
+http://www.example.com
+http://m.facebook.com/ads/ad_choices
+http://m.facebook.com/ads/ad_choices
+https://www.googleapis.com/auth/games_lite
+https://www.googleapis.com/auth/games
+https://www.facebook.com
+https://www.facebook.com
+https://api.instagram.com/oauth/authorize/?client_id=4b6727d90fdc4ee79852ecea7099ee4a&redirect_uri=http://www.gomo.com&response_type=token
+https://www.googleapis.com/auth/plus.login
+https://play.google.com/store/apps/details?id=com.jb.beautycam&referrer=utm_source%3Dcom.jb.zcamera_photoedita%26utm_medium%3DHyperlink%26u
+https://play.google.com/store/apps/details?id=com.jb.beautycam&referrer=utm_source%3Dcom.jb.zcamera_photoeditb%26utm_medium%3DHyperlink%26u
+https://play.google.com/store/apps/details?id=com.jb.beautycam&referrer=utm_source%3Dcom.jb.zcamera_photobeautymode%26utm_medium%3DHyperlink%26u
+https://goo.gl/TosZOe
+http://resource.gomocdn.com/zeroteamfb/Zcamera_service.html
+https://m.facebook.com/ads/ad_choices
+http://ftest.3g.net.cn/stage/help/zerocamera/index.html
+http://help.goforandroid.com/zerocamera/index.html
+http://resource.gomocdn.com/soft/file/term/1272/zcamera_statement_zh.html
+http://resource.gomocdn.com/soft/file/term/1272/zcamera_statement_en.html
+https://www.facebook.com/zcamerateam/likes
+http://zcamera.gomo.com/#fb_filter
+http://share.zero-team.com/zcamera/index.html
+https://debug.aerserv.com/sybok/analytics
+https://ads.aerserv.com/as/sdk/configure/
+https://debug.aerserv.com/sybok/
+https://debug.aerserv.com/sybok/sdk/timeout
+https://validate.%s/api/v
+https://sdk-services.%s/validate-android-signature
+https://app.%s
+https://app.%s
+https://impression.%s
+https://monitorsdk.%s/remote-debug?app_id=
+https://graph.facebook.com/network_ads_common
+https://graph.%s.facebook.com/network_ads_common
+https://www.facebook.com/adnw_logging/
+https://www.%s.facebook.com/adnw_logging/
+http://www.facebook.com
+https://graph.%s
+https://graph-video.%s
+https://facebook.com
+http://play.google.com/store/apps/details?id=com.facebook.orca
+https://ads.flurry.com/v17/getAds.do
+http://ads.flurry.com/v17/getAds.do
+https://cdn.flurry.com/vast/videocontrols/v2/android.zip
+https://adlog.flurry.com
+http://adlog.flurry.com
+https://www.tumblr.com/oauth/access_token
+https://www.tumblr.com/oauth/authorize?oauth_token=%s
+https://api.tumblr.com/v2/blog/
+https://api.tumblr.com/v2/blog/
+https://www.tumblr.com/oauth/request_token
+https://api.tumblr.com/v2/user/info
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+https://data.flurry.com/pcr.do
+http://gostat.3g.cn/GOClientData/DR?ptl=10&is_zip=1
+http://goupdate.3g.cn/GOClientData/DR?ptl=10&is_zip=1
+https://dns.google.com
+http://54.183.194.20/http/monitor
+http://54.183.194.216/http/monitor
+https://conf.goforandroid.com
+https://conf.goforandroid.com
+https://authenticator.goforandroid.com
+https://version.goforandroid.com
+https://version.goforandroid.com
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+https://accounts.google.com
+https://accounts.google.com/o/oauth2/revoke?token=
+https://plus.google.com/
+https://www.googleapis.com/auth/drive.file
+https://www.googleapis.com/auth/drive.appdata
+https://www.googleapis.com/auth/drive
+https://www.googleapis.com/auth/drive.apps
+https://pagead2.googlesyndication.com/pagead/gen_204
+http://www.google.com
+https://support.google.com/dfp_premium/answer/7160685#push
+https://app-measurement.com/a
+https://mobilecrashreporting.googleapis.com/v1/crashes:batchCreate?key=
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/sdk-core-v40-impl.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://csi.gstatic.com/csi
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/native_ads.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/native_ads.js
+https://imasdk.googleapis.com/admob/sdkloader/native_video.html
+https://www.google.com/dfp/linkDevice
+https://www.google.com/dfp/inAppPreview
+https://www.google.com/dfp/debugSignals
+https://www.google.com/dfp/sendDebugData
+http://www.w3.org/ns/ttml
+http://www.w3.org/ns/ttml
+http://www.smpte-ra.org/schemas/2052-1/2010/smpte-tt
+http://www.smpte-ra.org/schemas/2052-1/2010/smpte-tt
+http://print-metrics-test.twosmiles.com/api
+https://print-metrics-w1.twosmiles.com/api
+http://3g.cn
+https://api.douban.com/v2/movie/top250?start=0&count=3
+https://api.douban.com/v2/movie/top250?start=0&count=3
+https://api.douban.com/v2/movie/top250?start=0&count=3
+https://api.douban.com/v2/movie/top250?start=0&count=3
+https://api.douban.com/v2/movie/top250?start=0&count=3
+https://api.douban.com/v2/movie/top250?start=0&count=3
+http://adviw.goforandroid.com/api/v1/func
+http://adviw.goforandroid.com/api/v1/func
+https://api.douban.com/v2/movie
+https://api.douban.com/v2/movie
+https://api.douban.com/v2/movie/repeat
+https://api.douban.com/v2/movie/repeat
+https://api.douban.com/v2/movie/retry
+https://api.douban.com/v2/movie/retry
+http://schemas.polites.com/android
+https://microtss.goforandroid.com/microtss/red/business/icon
+http://adviap.goforandroid.com/adv_iap/smartload
+http://adviap.goforandroid.com/adv_iap/smartload_install
+http://advsearch.goforandroid.com/adv_search/search
+http://abtest.goforandroid.com/abtestcenter/config
+http://abtest.goforandroid.com/abtestcenter/config
+http://newstoredata.goforandroid.com/newstore/usertype
+http://newstoredis.3g.net.cn/newstore_dis/common?funid=3&rd=
+http://newstoredis.goforandroid.com/newstore_dis/common?funid=3&rd=
+http://advs2sonline.goforandroid.com/s2sadv
+http://gotest.3g.net.cn/newstore/
+http://adviap.goforandroid.com/adv_iap/userTag
+http://acs.amazonaws.com/groups/global/AllUsers
+http://acs.amazonaws.com/groups/global/AuthenticatedUsers
+http://acs.amazonaws.com/groups/s3/LogDelivery
+https://api.%s/install_data/v3/
+https://onelink.%s/shortlink-sdk/v1
+https://onelink.%s/shortlink-sdk/v1
+https://cfg.flurry.com/sdk/v1/config
+https://cfg.flurry.com/sdk/v1/config
+https://proton.flurry.com/sdk/v1/config
+https://data.flurry.com/aap.do
+http://data.flurry.com/aap.do
+http://goupdate.3g.cn/GOClientData/DC
+http://advtimedown.goforandroid.com/adv_time/time/getSysTime
+http://advshield.goforandroid.com/adv_shield/shield/confirmShield
+http://advonline.goforandroid.com/adv_online/onlineadv
+https://www.%s.facebook.com/audience_network/server_side_reward
+https://www.facebook.com/audience_network/server_side_reward
+https://www.google.com
+https://newstoredata.goforandroid.com/newstore/usertype?cid=21&aid=
+http://goappdl.goforandroid.com/soft/go_launcherzstoremanage/2017110209/150958444818180144665.zip
+http://resource.gomocdn.com/soft/repository/5/icon/20171102/yFrZKhpi.jpg
+http://lzt.goforandroid.com
+https://geoip.goforandroid.com/
+https://api.instagram.com/v1/users/self/?access_token=
+https://camera-common-api.goforandroid.com/
+http://goaccount.goforandroid.com/api/v2/register
+http://overseaactivity.goforandroid.com/overseaactivity/common?funid=1
+http://godfs.3g.cn/soft/zcamera/stickers/BabySeal.zip
+http://godfs.3g.cn/soft/zcamera/stickers/IceCream.zip
+http://godfs.3g.cn/soft/zcamera/stickers/Christmas.zip
+http://godfs.3g.cn/soft/zcamera/stickers/Candy.zip
+http://godfs.3g.cn/soft/zcamera/stickers/CrazyHamster.zip
+http://godfs.3g.cn/soft/repository/10/icon/20160805/jzX0Lc9S.jpg
+http://godfs.3g.cn/soft/repository/10/icon/20160805/bA3u3tIn.jpg
+http://godfs.3g.cn/soft/repository/10/icon/20160728/DXrygoPp.jpg
+http://godfs.3g.cn/soft/repository/10/icon/20160701/mXFKs7qR.jpg
+http://godfs.3g.cn/soft/repository/10/icon/20160701/p5vFHHa8.jpg
+http://gotest.3g.net.cn/newstore/common?funid=13&rd=
+https://newstoredata.goforandroid.com/newstore/common?funid=13&rd=
+https://z.moatads.com/
+https://z.moatads.com/
+https://twitter.com/%s/status/%d?ref_src=twsrc%%5Etwitterkit
+https://twitter.com/%s?ref_src=twsrc%%5Etwitterkit
+https://twitter.com/hashtag/%s?ref_src=twsrc%%5Etwitterkit
+https://twitter.com/search?q=%%24%s&ref_src=twsrc%%5Etwitterkit
+https://ads.nexage.com
+http://sdk.a-mo.net/
+http://tracking.a-mo.net/d/v1/elog
+https://config.unityads.unity3d.com/webview/
+http://goload.wecloud.io/goload
+http://218.213.248.137/goload
+http://218.213.248.178/goload/
+http://cmpsh.goforandroid.com/
+https://protect.ppmobiles.com
+http://version.api.goforandroid.com
+http://conf.api.hk.goforandroid.com
+http://advuser.goforandroid.com/api/v1/info
+https://analytics.mopub.com/i/jot/exchange_client_event
+https://www.mopub.com/optout
+http://www.w3.org/ns/ttml#parameter
+
+[INTERNAL_LOG][2018-06-12 05:29:09,496][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 05:29:09,503][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 05:29:09,503][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 05:29:09,503][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 05:29:09,503][INFO][analyze_start()] End time:[Tue Jun 12 05:29:09 2018]

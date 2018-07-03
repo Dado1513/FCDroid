@@ -1,0 +1,85 @@
+[INTERNAL_LOG][2018-06-08 00:46:50,771][INFO][analyze_start()] Init Time [Fri Jun  8 00:46:50 2018]
+[INTERNAL_LOG][2018-06-08 00:46:51,010][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-08 00:46:51,019][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-08 00:46:51,020][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-08 00:46:51,020][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-08 00:46:51,020][INFO][is_hybird()] android.permission.ACCESS_FINE_LOCATION
+[INTERNAL_LOG][2018-06-08 00:46:51,020][INFO][is_hybird()] android.permission.ACCESS_COARSE_LOCATION
+[INTERNAL_LOG][2018-06-08 00:46:51,020][INFO][is_hybird()] com.google.android.providers.gsf.permission.READ_GSERVICES
+[INTERNAL_LOG][2018-06-08 00:46:51,020][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-08 00:46:51,020][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-08 00:46:51,020][INFO][is_hybird()] android.permission.READ_CONTACTS
+[INTERNAL_LOG][2018-06-08 00:46:51,020][INFO][is_hybird()] android.permission.GET_TASKS
+[INTERNAL_LOG][2018-06-08 00:46:51,020][INFO][is_hybird()] android.permission.BLUETOOTH
+[INTERNAL_LOG][2018-06-08 00:46:51,020][INFO][is_hybird()] android.permission.READ_PHONE_STATE
+[INTERNAL_LOG][2018-06-08 00:46:51,020][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-08 00:46:51,020][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-08 00:46:51,020][INFO][is_hybird()] android.permission.CALL_PHONE
+[INTERNAL_LOG][2018-06-08 00:46:51,020][INFO][is_hybird()] android.permission.RECEIVE_SMS
+[INTERNAL_LOG][2018-06-08 00:46:51,020][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-08 00:46:51,020][INFO][is_hybird()] com.gojek.app.permission.MAPS_RECEIVE
+[INTERNAL_LOG][2018-06-08 00:46:51,020][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-08 00:46:51,020][INFO][is_hybird()] android.permission.READ_LOGS
+[INTERNAL_LOG][2018-06-08 00:46:51,020][INFO][is_hybird()] android.permission.BATTERY_STATS
+[INTERNAL_LOG][2018-06-08 00:46:51,021][INFO][is_hybird()] com.gojek.app.gobox.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-08 00:46:51,021][INFO][is_hybird()] com.gojek.app.gobox.permission.MAPS_RECEIVE
+[INTERNAL_LOG][2018-06-08 00:46:51,021][INFO][is_hybird()] android.permission.CAMERA
+[INTERNAL_LOG][2018-06-08 00:46:51,021][INFO][is_hybird()] android.permission.WRITE_CONTACTS
+[INTERNAL_LOG][2018-06-08 00:46:51,021][INFO][is_hybird()] android.permission.SYSTEM_ALERT_WINDOW
+[INTERNAL_LOG][2018-06-08 00:46:51,021][INFO][is_hybird()] com.gojek.app.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-08 00:46:51,021][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-08 00:46:51,021][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-08 00:46:51,021][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-08 00:46:51,021][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-08 00:46:51,021][INFO][find_string()] File: assets/www/index.html
+[INTERNAL_LOG][2018-06-08 00:46:51,024][INFO][find_string()] No iframe in assets/www/index.html
+[INTERNAL_LOG][2018-06-08 00:46:51,024][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-08 00:48:29,107][INFO][find_url_in_apk()] [START URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-08 00:48:29,107][INFO][find_url_in_apk()] http://www.bca.co.id/BCAExpress/TC
+http://www.bca.co.id/BCAExpress/TC
+
+[INTERNAL_LOG][2018-06-08 00:48:29,107][INFO][find_url_in_apk()] [END URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-08 00:48:39,115][INFO][find_string()] [START REMOTE FILE ANALYZE]
+[INTERNAL_LOG][2018-06-08 00:48:39,116][INFO][find_string()] Remote File in: temp_html_code/html_downloaded_GO-JEK - Ojek Taxi Booking_ Delivery and Payment by PT/TC
+[INTERNAL_LOG][2018-06-08 00:48:39,116][INFO][find_string()] URL: http://www.bca.co.id/BCAExpress/TC
+[INTERNAL_LOG][2018-06-08 00:48:39,173][INFO][find_string()] Found in file temp_html_code/html_downloaded_GO-JEK - Ojek Taxi Booking_ Delivery and Payment by PT/TC tag iframe , 1 times
+[INTERNAL_LOG][2018-06-08 00:48:39,182][INFO][find_string()] No CSP found!
+[INTERNAL_LOG][2018-06-08 00:48:39,183][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-08 00:48:39,183][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-08 00:48:39,183][INFO][find_url_in_apk()] http://www.bca.co.id/BCAExpress/TC
+http://www.bca.co.id/BCAExpress/TC
+http://static.wizrocket.com/android/ico//
+http://play.google.com/store/apps/details?id=com.facebook.orca
+http://www.android.com/
+http://maps.google.com/maps?q=loc:
+http://www.go-pay.co.id/appterms
+http://go-jek.com/credits/top-up/#/email/%s
+http://go-jek.com/credits/top-up/#/email/%s
+http://play.google.com/store/apps/details
+http://xmlpull.org/v1/doc/
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+http://www.w3.org/XML/1998/namespace
+http://www.w3.org/2000/xmlns/
+http://localhost/
+http://localhost/
+http://localhost/
+http://goassets.s3.amazonaws.com/s3/banners/mobile/banner-m-01.jpg
+http://integration.yggdrasil.golabs.io
+http://decide.mixpanel.com/decide
+http://api.mixpanel.com/track?ip=1
+http://api.mixpanel.com/engage
+http://schemas.android.com/apk/res/android
+
+[INTERNAL_LOG][2018-06-08 00:48:39,183][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-08 00:48:39,191][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-08 00:48:39,191][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-08 00:48:39,191][INFO][analyze_start()] This app might be vulnerable on attack frame confusion, This file are vulnerable ['temp_html_code/html_downloaded_GO-JEK - Ojek Taxi Booking_ Delivery and Payment by PT/TC']
+[INTERNAL_LOG][2018-06-08 00:48:39,192][INFO][analyze_start()] End time:[Fri Jun  8 00:48:39 2018]

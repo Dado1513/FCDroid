@@ -1,0 +1,113 @@
+[INTERNAL_LOG][2018-06-12 07:24:34,140][INFO][analyze_start()] Init Time [Tue Jun 12 07:24:34 2018]
+[INTERNAL_LOG][2018-06-12 07:24:34,264][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 07:24:34,265][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 07:24:34,265][INFO][is_hybird()] android.permission.ACCESS_COARSE_LOCATION
+[INTERNAL_LOG][2018-06-12 07:24:34,265][INFO][is_hybird()] android.permission.ACCESS_FINE_LOCATION
+[INTERNAL_LOG][2018-06-12 07:24:34,265][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 07:24:34,265][INFO][is_hybird()] android.permission.CAMERA
+[INTERNAL_LOG][2018-06-12 07:24:34,265][INFO][is_hybird()] android.permission.DOWNLOAD_WITHOUT_NOTIFICATION
+[INTERNAL_LOG][2018-06-12 07:24:34,265][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 07:24:34,265][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 07:24:34,265][INFO][is_hybird()] android.permission.MANAGE_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 07:24:34,265][INFO][is_hybird()] android.permission.MODIFY_AUDIO_SETTINGS
+[INTERNAL_LOG][2018-06-12 07:24:34,265][INFO][is_hybird()] android.permission.NFC
+[INTERNAL_LOG][2018-06-12 07:24:34,265][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 07:24:34,265][INFO][is_hybird()] android.permission.READ_SYNC_SETTINGS
+[INTERNAL_LOG][2018-06-12 07:24:34,265][INFO][is_hybird()] android.permission.READ_SYNC_STATS
+[INTERNAL_LOG][2018-06-12 07:24:34,266][INFO][is_hybird()] android.permission.RECEIVE_BOOT_COMPLETED
+[INTERNAL_LOG][2018-06-12 07:24:34,266][INFO][is_hybird()] android.permission.RECORD_AUDIO
+[INTERNAL_LOG][2018-06-12 07:24:34,266][INFO][is_hybird()] android.permission.USE_CREDENTIALS
+[INTERNAL_LOG][2018-06-12 07:24:34,266][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-12 07:24:34,266][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 07:24:34,266][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 07:24:34,266][INFO][is_hybird()] android.permission.WRITE_SYNC_SETTINGS
+[INTERNAL_LOG][2018-06-12 07:24:34,266][INFO][is_hybird()] com.android.chrome.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-12 07:24:34,266][INFO][is_hybird()] com.android.chrome.permission.READ_WRITE_BOOKMARK_FOLDERS
+[INTERNAL_LOG][2018-06-12 07:24:34,266][INFO][is_hybird()] com.android.chrome.TOS_ACKED
+[INTERNAL_LOG][2018-06-12 07:24:34,266][INFO][is_hybird()] com.chrome.permission.DEVICE_EXTRAS
+[INTERNAL_LOG][2018-06-12 07:24:34,266][INFO][is_hybird()] com.android.browser.permission.READ_HISTORY_BOOKMARKS
+[INTERNAL_LOG][2018-06-12 07:24:34,266][INFO][is_hybird()] com.android.browser.permission.WRITE_HISTORY_BOOKMARKS
+[INTERNAL_LOG][2018-06-12 07:24:34,266][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-12 07:24:34,266][INFO][is_hybird()] com.android.launcher.permission.INSTALL_SHORTCUT
+[INTERNAL_LOG][2018-06-12 07:24:34,266][INFO][is_hybird()] com.google.android.apps.now.CURRENT_ACCOUNT_ACCESS
+[INTERNAL_LOG][2018-06-12 07:24:34,266][INFO][is_hybird()] android.permission.FOREGROUND_SERVICE
+[INTERNAL_LOG][2018-06-12 07:24:34,266][INFO][is_hybird()] com.google.android.providers.gsf.permission.READ_GSERVICES
+[INTERNAL_LOG][2018-06-12 07:24:34,266][INFO][is_hybird()] com.sec.enterprise.knox.MDM_CONTENT_PROVIDER
+[INTERNAL_LOG][2018-06-12 07:24:34,266][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 07:24:34,266][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 07:24:34,266][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 07:24:34,266][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 07:24:34,266][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 07:24:34,267][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 07:25:00,641][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 07:25:00,641][INFO][find_url_in_apk()] https://plus.google.com/
+http://www.google.com
+http://www.google.co.uk
+https://clients4.google.com/insights/consumersurveys/gk/prompt
+https://myactivity.google.com/myactivity/?utm_source=chrome_h
+https://support.google.com/chrome/topic/6069782
+https://support.google.com/chrome/topic/6069782
+https://support.google.com/chrome/topic/6069782
+https://www.gstatic.com
+https://update.googleapis.com/service/update2
+https://android.com/pay
+https://android.com/pay
+https://android.com/pay
+https://android.com/pay
+https://android.com/pay
+https://google.com/pay
+https://google.com/pay
+https://google.com/pay
+https://google.com/pay
+https://google.com/pay
+https://google.com/pay
+https://payments.google.com/#paymentMethods
+https://payments.google.com/#paymentMethods
+https://myactivity.google.com/myactivity/?utm_source=chrome_cbd
+https://myactivity.google.com/myactivity/?utm_source=chrome_n
+https://support.google.com/drive/answer/2424384
+https://www.googleapis.com/auth/chromesync
+https://chrome-memex.appspot.com/
+https://chrome-memex.appspot.com/
+https://chrome-memex-dev.appspot.com/
+https://chrome-memex-dev.appspot.com/
+https://www.madeupdomainforcheck123.com/
+https://www.madeupdomainforcheck123.com/
+http://t.co/
+http://news.google.com/news/url?
+http://m.facebook.com
+https://www.google.com/maps
+https://myaccount.google.com/activitycontrols/search
+https://s2.googleusercontent.com/s2/favicons?domain=%s&src=chrome_newtab_mobile&sz=%d&alt=404
+https://www.googleapis.com/auth/chrome-content-suggestions
+https://goto.google.com/explore-on-content-viewer
+https://support.google.com/chrome/?p=new_tab
+https://www.google.com/settings/chrome/sync
+https://www.google.com/settings/chrome/sync
+https://www.google.com/settings/chrome/sync
+https://clients2.google.com/cr/report
+https://clientservices.googleapis.com/chrome-variations/seed?osname=
+http://www.youtube.com
+http://www.youtube-nocookie.com
+https://www.googleapis.com/auth/games
+https://clients4.google.com/
+http://schemas.android.com/apk/res/android
+https://support.google.com/chrome/
+http://clients4.google.com/generate_204
+https://clients4.google.com/generate_204
+https://support.google.com/chrome/answer/95617
+http://www.
+https://www.
+http://connectivitycheck.gstatic.com/generate_204
+
+[INTERNAL_LOG][2018-06-12 07:25:00,641][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 07:25:00,642][INFO][check_method_conf()] [JavaScript enabled: False]
+
+[INTERNAL_LOG][2018-06-12 07:25:00,642][INFO][check_method_conf()] [Add interface WebView: False]
+
+[INTERNAL_LOG][2018-06-12 07:25:00,642][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 07:25:00,642][INFO][analyze_start()] End time:[Tue Jun 12 07:25:00 2018]

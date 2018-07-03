@@ -1,0 +1,134 @@
+[INTERNAL_LOG][2018-06-12 04:59:06,953][INFO][analyze_start()] Init Time [Tue Jun 12 04:59:06 2018]
+[INTERNAL_LOG][2018-06-12 04:59:06,993][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 04:59:06,994][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 04:59:06,994][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 04:59:06,994][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 04:59:06,994][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 04:59:06,994][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-12 04:59:06,994][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 04:59:06,994][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 04:59:06,994][INFO][is_hybird()] com.google.android.providers.gsf.permission.READ_GSERVICES
+[INTERNAL_LOG][2018-06-12 04:59:06,995][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-12 04:59:06,995][INFO][is_hybird()] com.joom.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-12 04:59:06,995][INFO][is_hybird()] com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+[INTERNAL_LOG][2018-06-12 04:59:06,995][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 04:59:06,995][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 04:59:06,995][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 04:59:06,995][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 04:59:06,995][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 04:59:06,995][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 04:59:44,708][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 04:59:44,708][INFO][find_url_in_apk()] https://graph.%s
+https://graph-video.%s
+https://facebook.com
+https://plus.google.com/
+https://app-measurement.com/a
+https://app.adjust.com
+https://app.adjust.com
+https://gdpr.adjust.com
+https://gdpr.adjust.com
+http://www.android.com/
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+https://joom.com/payment/success
+https://joom.com/payment/success
+https://joom.com/payment/success
+https://joom.com/payment/failure
+https://joom.com/payment/failure
+https://joom.com/payment/failure
+https://api.joom.com/
+https://api.joompay.tech/
+https://joom.com/
+https://stage-api.joom.it/
+https://stage-api-pay.joom.it/
+https://stage.joom.it/
+https://dev-api.joom.it/
+https://dev-api-pay.joom.it/
+https://dev.joom.it/
+https://new-dev-api-client.joom.it/
+https://dev-api-mongo-flow-api.joom.it/
+http://schemas.android.com/apk/res/android
+https://facebook.com/device?user_code=%1$s&qr=1
+https://s3.eu-central-1.amazonaws.com/joom.resources/images/safe_payment_item1_251x166.png
+https://s3.eu-central-1.amazonaws.com/joom.resources/images/safe_payment_item1_376x249.png
+https://s3.eu-central-1.amazonaws.com/joom.resources/images/safe_payment_item1_501x332.png
+https://s3.eu-central-1.amazonaws.com/joom.resources/images/safe_payment_item1_752x498.png
+https://s3.eu-central-1.amazonaws.com/joom.resources/images/safe_payment_item1_1002x664.png
+https://s3.eu-central-1.amazonaws.com/joom.resources/images/safe_payment_item2_194x166.png
+https://s3.eu-central-1.amazonaws.com/joom.resources/images/safe_payment_item2_290x249.png
+https://s3.eu-central-1.amazonaws.com/joom.resources/images/safe_payment_item2_387x332.png
+https://s3.eu-central-1.amazonaws.com/joom.resources/images/safe_payment_item2_581x498.png
+https://s3.eu-central-1.amazonaws.com/joom.resources/images/safe_payment_item2_774x664.png
+https://s3.eu-central-1.amazonaws.com/joom.resources/images/safe_payment_item3_184x166.png
+https://s3.eu-central-1.amazonaws.com/joom.resources/images/safe_payment_item3_275x249.png
+https://s3.eu-central-1.amazonaws.com/joom.resources/images/safe_payment_item3_367x332.png
+https://s3.eu-central-1.amazonaws.com/joom.resources/images/safe_payment_item3_551x498.png
+https://s3.eu-central-1.amazonaws.com/joom.resources/images/safe_payment_item3_734x664.png
+https://s3.eu-central-1.amazonaws.com/joom.resources/images/freebie_instructions_hint1_128x128.png
+https://s3.eu-central-1.amazonaws.com/joom.resources/images/freebie_instructions_hint1_192x192.png
+https://s3.eu-central-1.amazonaws.com/joom.resources/images/freebie_instructions_hint1_256x256.png
+https://s3.eu-central-1.amazonaws.com/joom.resources/images/freebie_instructions_hint1_384x384.png
+https://s3.eu-central-1.amazonaws.com/joom.resources/images/freebie_instructions_hint1_512x512.png
+https://s3.eu-central-1.amazonaws.com/joom.resources/images/freebie_instructions_hint2_128x128.png
+https://s3.eu-central-1.amazonaws.com/joom.resources/images/freebie_instructions_hint2_192x192.png
+https://s3.eu-central-1.amazonaws.com/joom.resources/images/freebie_instructions_hint2_256x256.png
+https://s3.eu-central-1.amazonaws.com/joom.resources/images/freebie_instructions_hint2_384x384.png
+https://s3.eu-central-1.amazonaws.com/joom.resources/images/freebie_instructions_hint2_512x512.png
+https://s3.eu-central-1.amazonaws.com/joom.resources/images/freebie_instructions_hint4_128x128.png
+https://s3.eu-central-1.amazonaws.com/joom.resources/images/freebie_instructions_hint4_192x192.png
+https://s3.eu-central-1.amazonaws.com/joom.resources/images/freebie_instructions_hint4_256x256.png
+https://s3.eu-central-1.amazonaws.com/joom.resources/images/freebie_instructions_hint4_384x384.png
+https://s3.eu-central-1.amazonaws.com/joom.resources/images/freebie_instructions_hint4_512x512.png
+https://s3.eu-central-1.amazonaws.com/joom.resources/images/freebie_instructions_term1_40x40.png
+https://s3.eu-central-1.amazonaws.com/joom.resources/images/freebie_instructions_term1_60x60.png
+https://s3.eu-central-1.amazonaws.com/joom.resources/images/freebie_instructions_term1_80x80.png
+https://s3.eu-central-1.amazonaws.com/joom.resources/images/freebie_instructions_term1_120x120.png
+https://s3.eu-central-1.amazonaws.com/joom.resources/images/freebie_instructions_term1_160x160.png
+https://s3.eu-central-1.amazonaws.com/joom.resources/images/freebie_instructions_term2_40x40.png
+https://s3.eu-central-1.amazonaws.com/joom.resources/images/freebie_instructions_term2_60x60.png
+https://s3.eu-central-1.amazonaws.com/joom.resources/images/freebie_instructions_term2_80x80.png
+https://s3.eu-central-1.amazonaws.com/joom.resources/images/freebie_instructions_term2_120x120.png
+https://s3.eu-central-1.amazonaws.com/joom.resources/images/freebie_instructions_term2_160x160.png
+https://s3.eu-central-1.amazonaws.com/joom.resources/images/freebie_instructions_term3_40x40.png
+https://s3.eu-central-1.amazonaws.com/joom.resources/images/freebie_instructions_term3_60x60.png
+https://s3.eu-central-1.amazonaws.com/joom.resources/images/freebie_instructions_term3_80x80.png
+https://s3.eu-central-1.amazonaws.com/joom.resources/images/freebie_instructions_term3_120x120.png
+https://s3.eu-central-1.amazonaws.com/joom.resources/images/freebie_instructions_term3_160x160.png
+https://www.google.com
+https://s3.eu-central-1.amazonaws.com/joom.offers/icon-48.png
+https://s3.eu-central-1.amazonaws.com/joom.offers/icon-72.png
+https://s3.eu-central-1.amazonaws.com/joom.offers/icon-96.png
+https://s3.eu-central-1.amazonaws.com/joom.offers/icon-144.png
+https://s3.eu-central-1.amazonaws.com/joom.offers/icon-192.png
+http://www.w3.org/ns/ttml#parameter
+https://www.googleapis.com/auth/games
+https://connect.ok.ru/oauth/authorize?client_id=%s&response_type=token&redirect_uri=%s&layout=m&platform=ANDROID
+https://vk.com/joom.official
+https://ok.ru/joom
+https://www.facebook.com/joomapp/
+https://support.joom.it
+https://play.google.com/store/apps/details?id=
+https://oauth.vk.com/blank.html
+https://oauth.vk.com/blank.html
+https://oauth.vk.com/authorize?client_id=%s&scope=%s&redirect_uri=%s&display=mobile&v=%s&response_type=token&revoke=%d
+https://api.branch.io/
+https://settings.crashlytics.com/spi/v2/platforms/android/apps/%s/settings
+https://bnc.lt/a/
+https://bnc.lt/a/
+https://cdn.branch.io/sdk/uriskiplist_v#.json
+https://e.crashlytics.com/spi/v2/events
+http://vk.com/images/s_noalbum.png
+http://vk.com/images/m_noalbum.png
+http://vk.com/images/x_noalbum.png
+https://maps.google.com?q=
+
+[INTERNAL_LOG][2018-06-12 04:59:44,708][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 04:59:44,710][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 04:59:44,710][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 04:59:44,710][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 04:59:44,710][INFO][analyze_start()] End time:[Tue Jun 12 04:59:44 2018]

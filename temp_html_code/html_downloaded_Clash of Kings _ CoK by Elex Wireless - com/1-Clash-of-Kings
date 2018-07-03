@@ -1,0 +1,1131 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml" dir="ltr" lang="en" id="vbulletin_html">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta id="e_vb_meta_bburl" name="vb_meta_bburl" content="http://f.elex.com" />
+<base href="http://f.elex.com/" /><!--[if IE]></base><![endif]-->
+<meta name="generator" content="vBulletin 4.2.2" />
+<meta http-equiv="X-UA-Compatible" content="IE=9" />
+
+	<link rel="Shortcut Icon" href="favicon.ico" type="image/x-icon" />
+
+
+		<meta name="keywords" content="Clash of Kings, ELEX, Clash of Kings, Battle Alert, Age of Warring Empire" />
+		<meta name="description" content="All ELEX Games" />
+
+
+
+	<meta property="fb:app_id" content="317167681655636" />
+<meta property="og:site_name" content="ELEX Community Forum" />
+<meta property="og:description" content="Play Games Developed and published by ELEX, we are here trying to bring the best game to all the players all over the world. Have Fun & Good Luck!" />
+<meta property="og:url" content="http://f.elex.com" />
+<meta property="og:type" content="website" />
+
+
+
+
+<script type="text/javascript">
+<!--
+	if (typeof YAHOO === 'undefined') // Load ALL YUI Local
+	{
+		document.write('<script type="text/javascript" src="clientscript/yui/yuiloader-dom-event/yuiloader-dom-event.js?v=423"><\/script>');
+		document.write('<script type="text/javascript" src="clientscript/yui/connection/connection-min.js?v=423"><\/script>');
+		var yuipath = 'clientscript/yui';
+		var yuicombopath = '';
+		var remoteyui = false;
+	}
+	else	// Load Rest of YUI remotely (where possible)
+	{
+		var yuipath = 'clientscript/yui';
+		var yuicombopath = '';
+		var remoteyui = true;
+		if (!yuicombopath)
+		{
+			document.write('<script type="text/javascript" src="clientscript/yui/connection/connection-min.js?v=423"><\/script>');
+		}
+	}
+	var SESSIONURL = "s=a19f8fb7f3e7836fea79958cd9d8108c&";
+	var SECURITYTOKEN = "guest";
+	var IMGDIR_MISC = "http://cok.eleximg.com/cok/forum/images/misc";
+	var IMGDIR_BUTTON = "images/buttons";
+	var vb_disable_ajax = parseInt("0", 10);
+	var SIMPLEVERSION = "423";
+	var BBURL = "http://f.elex.com";
+	var LOGGEDIN = 0 > 0 ? true : false;
+	var THIS_SCRIPT = "forumdisplay";
+	var RELPATH = "forums/1-Clash-of-Kings";
+	var PATHS = {
+		forum : "",
+		cms   : "",
+		blog  : ""
+	};
+	var AJAXBASEURL = "http://f.elex.com/";
+// -->
+</script>
+<script type="text/javascript" src="http://f.elex.com/clientscript/vbulletin-core.js?v=423"></script>
+
+
+
+
+
+	<link rel="stylesheet" type="text/css" href="css.php?styleid=5&amp;forumid=1&amp;langid=1&amp;d=1437551501&amp;td=ltr&amp;sheet=bbcode.css,editor.css,popupmenu.css,reset-fonts.css,vbulletin.css,vbulletin-chrome.css,vbulletin-formcontrols.css," />
+
+	<!--[if lt IE 8]>
+	<link rel="stylesheet" type="text/css" href="css.php?styleid=5&amp;forumid=1&amp;langid=1&amp;d=1437551501&amp;td=ltr&amp;sheet=popupmenu-ie.css,vbulletin-ie.css,vbulletin-chrome-ie.css,vbulletin-formcontrols-ie.css,editor-ie.css" />
+	<![endif]-->
+
+
+	<title>Clash of Kings</title>
+	
+	<script type="text/javascript" src="clientscript/vbulletin_read_marker.js?v=423"></script>
+	
+	
+		<link rel="stylesheet" type="text/css" href="css.php?styleid=5&amp;forumid=1&amp;langid=1&amp;d=1437551501&amp;td=ltr&amp;sheet=toolsmenu.css,forumbits.css,forumdisplay.css,threadlist.css,options.css" />
+	
+
+	<!--[if lt IE 8]>
+	<script type="text/javascript" src="clientscript/vbulletin-threadlist-ie.js?v=423"></script>
+		<link rel="stylesheet" type="text/css" href="css.php?styleid=5&amp;forumid=1&amp;langid=1&amp;d=1437551501&amp;td=ltr&amp;sheet=toolsmenu-ie.css,forumbits-ie.css,forumdisplay-ie.css,threadlist-ie.css,options-ie.css" />
+	<![endif]-->
+	<link rel="stylesheet" type="text/css" href="css.php?styleid=5&amp;forumid=1&amp;langid=1&amp;d=1437551501&amp;td=ltr&amp;sheet=additional.css" />
+
+
+<link href='http://fonts.googleapis.com/css?family=Ubuntu:400,700,400italic,700italic|Open+Sans+Condensed:700' rel='stylesheet' type='text/css'>
+
+<link rel="stylesheet" href="http://cok.eleximg.com/cok/forum/elex/forum.cok.css?ver=2015072203">
+
+<script language="javascript" type="text/javascript" src="http://cok.eleximg.com/cok/
+forum/elex/js/app.js?ver=4"></script>
+
+<!--<script language="javascript" type="text/javascript" src="/elex/js/app.js?ver=1"></script>-->
+</head>
+
+<body>
+
+<div class="above_body"> <!-- closing tag is in template navbar -->
+<div id="header" class="floatcontainer doc_header">
+	<div><a name="top" href="/forums/1-Clash-of-Kings" class="logo-image"><img src="images/misc/vbulletin4_logo.png" alt="ELEX Community Forum - Powered by vBulletin" /></a></div>
+	<div id="toplinks" class="toplinks">
+		
+			<ul class="nouser">
+			
+				<li><a href="register.php?s=a19f8fb7f3e7836fea79958cd9d8108c" rel="nofollow">Register</a></li>
+			
+				<li><a rel="help" href="faq.php?s=a19f8fb7f3e7836fea79958cd9d8108c">Help</a></li>
+				<li>
+			<script type="text/javascript" src="clientscript/vbulletin_md5.js?v=423"></script>
+			<form id="navbar_loginform" action="login.php?s=a19f8fb7f3e7836fea79958cd9d8108c&amp;do=login" method="post" onsubmit="md5hash(vb_login_password, vb_login_md5password, vb_login_md5password_utf, 0)">
+				<fieldset id="logindetails" class="logindetails">
+					<div>
+						<div>
+					<input type="text" class="textbox default-value" name="vb_login_username" id="navbar_username" size="10" accesskey="u" tabindex="101" value="User Name" />
+					<input type="password" class="textbox" tabindex="102" name="vb_login_password" id="navbar_password" size="10" />
+					<input type="text" class="textbox default-value" tabindex="102" name="vb_login_password_hint" id="navbar_password_hint" size="10" value="Password" style="display:none;" />
+					<input type="submit" class="loginbutton" tabindex="104" value="Log in" title="Enter your username and password in the boxes provided to login, or click the 'register' button to create a profile for yourself." accesskey="s" />
+						</div>
+					</div>
+				</fieldset>
+				<div id="remember" class="remember">
+					<label for="cb_cookieuser_navbar"><input type="checkbox" name="cookieuser" value="1" id="cb_cookieuser_navbar" class="cb_cookieuser_navbar" accesskey="c" tabindex="103" /> Remember Me?</label>
+				</div>
+
+				<input type="hidden" name="s" value="a19f8fb7f3e7836fea79958cd9d8108c" />
+				<input type="hidden" name="securitytoken" value="guest" />
+				<input type="hidden" name="do" value="login" />
+				<input type="hidden" name="vb_login_md5password" />
+				<input type="hidden" name="vb_login_md5password_utf" />
+			</form>
+			<script type="text/javascript">
+			YAHOO.util.Dom.setStyle('navbar_password_hint', "display", "inline");
+			YAHOO.util.Dom.setStyle('navbar_password', "display", "none");
+			vB_XHTML_Ready.subscribe(function()
+			{
+			//
+				YAHOO.util.Event.on('navbar_username', "focus", navbar_username_focus);
+				YAHOO.util.Event.on('navbar_username', "blur", navbar_username_blur);
+				YAHOO.util.Event.on('navbar_password_hint', "focus", navbar_password_hint);
+				YAHOO.util.Event.on('navbar_password', "blur", navbar_password);
+			});
+			
+			function navbar_username_focus(e)
+			{
+			//
+				var textbox = YAHOO.util.Event.getTarget(e);
+				if (textbox.value == 'User Name')
+				{
+				//
+					textbox.value='';
+					textbox.style.color='#000000';
+				}
+			}
+
+			function navbar_username_blur(e)
+			{
+			//
+				var textbox = YAHOO.util.Event.getTarget(e);
+				if (textbox.value == '')
+				{
+				//
+					textbox.value='User Name';
+					textbox.style.color='#777777';
+				}
+			}
+			
+			function navbar_password_hint(e)
+			{
+			//
+				var textbox = YAHOO.util.Event.getTarget(e);
+				
+				YAHOO.util.Dom.setStyle('navbar_password_hint', "display", "none");
+				YAHOO.util.Dom.setStyle('navbar_password', "display", "inline");
+				YAHOO.util.Dom.get('navbar_password').focus();
+			}
+
+			function navbar_password(e)
+			{
+			//
+				var textbox = YAHOO.util.Event.getTarget(e);
+				
+				if (textbox.value == '')
+				{
+					YAHOO.util.Dom.setStyle('navbar_password_hint', "display", "inline");
+					YAHOO.util.Dom.setStyle('navbar_password', "display", "none");
+				}
+			}
+			</script>
+				</li>
+				
+					<li id="fb_headerbox" class="hidden">
+
+	<a id="fb_loginbtn" href="#"><img src="http://cok.eleximg.com/cok/forum/images/misc/facebook_login.gif" alt="The Facebook Platform" /></a>
+
+</li>
+
+				
+			</ul>
+		
+	</div>
+	<div class="ad_global_header">
+		
+		
+	</div>
+	<hr />
+</div>
+
+<div id="navbar" class="navbar">
+	<ul id="navtabs" class="navtabs floatcontainer">
+		
+		
+	
+		<li  id="vbtab_whatsnew">
+			<a class="navtab" href="activity.php?s=a19f8fb7f3e7836fea79958cd9d8108c">What's New?</a>
+		</li>
+		
+		
+
+	
+		<li class="selected" id="vbtab_forum">
+			<a class="navtab" href="forum.php?s=a19f8fb7f3e7836fea79958cd9d8108c">Forum</a>
+		</li>
+		
+		
+			<ul class="floatcontainer">
+				
+					
+						
+							<li id="vbflink_newposts"><a href="search.php?s=a19f8fb7f3e7836fea79958cd9d8108c&amp;do=getnew&amp;contenttype=vBForum_Post">New Posts</a></li>
+						
+					
+				
+					
+						
+							<li id="vbflink_faq"><a href="faq.php?s=a19f8fb7f3e7836fea79958cd9d8108c">FAQ</a></li>
+						
+					
+				
+					
+						
+							<li id="vbflink_calendar"><a href="calendar.php?s=a19f8fb7f3e7836fea79958cd9d8108c">Calendar</a></li>
+						
+					
+				
+					
+						<li class="popupmenu" id="vbmenu_actions">
+							<a href="javascript://" class="popupctrl">Forum Actions</a>
+							<ul class="popupbody popuphover">
+								
+									<li id="vbalink_mfr"><a href="forumdisplay.php?s=a19f8fb7f3e7836fea79958cd9d8108c&amp;do=markread&amp;markreadhash=guest">Mark Forums Read</a></li>
+								
+							</ul>
+						</li>
+					
+				
+					
+						<li class="popupmenu" id="vbmenu_qlinks">
+							<a href="javascript://" class="popupctrl">Quick Links</a>
+							<ul class="popupbody popuphover">
+								
+									<li id="vbqlink_posts"><a href="search.php?s=a19f8fb7f3e7836fea79958cd9d8108c&amp;do=getdaily&amp;contenttype=vBForum_Post">Today's Posts</a></li>
+								
+									<li id="vbqlink_leaders"><a href="showgroups.php?s=a19f8fb7f3e7836fea79958cd9d8108c">View Site Leaders</a></li>
+								
+							</ul>
+						</li>
+					
+				
+			</ul>
+		
+
+	
+		<li  id="tab_nzu1_642">
+			<a target="_blank" class="navtab" href="https://bnc.lt/clashofkings">Play</a>
+		</li>
+		
+		
+
+		
+	</ul>
+	
+		<div id="globalsearch" class="globalsearch">
+			<form action="search.php?s=a19f8fb7f3e7836fea79958cd9d8108c&amp;do=process" method="post" id="navbar_search" class="navbar_search">
+				
+				<input type="hidden" name="securitytoken" value="guest" />
+				<input type="hidden" name="do" value="process" />
+				<span class="textboxcontainer"><span><input type="text" value="" name="query" class="textbox" tabindex="99"/></span></span>
+				<span class="buttoncontainer"><span><input type="image" class="searchbutton" src="images/buttons/search.png" name="submit" onclick="document.getElementById('navbar_search').submit;" tabindex="100"/></span></span>
+			</form>
+			<ul class="navbar_advanced_search">
+				<li><a href="search.php?s=a19f8fb7f3e7836fea79958cd9d8108c" accesskey="4">Advanced Search</a></li>
+				
+			</ul>
+		</div>
+	
+</div>
+</div><!-- closing div for above_body -->
+
+<div class="body_wrapper">
+<div id="breadcrumb" class="breadcrumb">
+	<ul class="floatcontainer">
+		<li class="navbithome"><a href="index.php?s=a19f8fb7f3e7836fea79958cd9d8108c" accesskey="1"><img src="http://cok.eleximg.com/cok/forum/images/misc/navbit-home.png" alt="Home" /></a></li>
+		
+	<li class="navbit"><a href="forum.php?s=a19f8fb7f3e7836fea79958cd9d8108c">Forum</a></li>
+
+		
+	<li class="navbit lastnavbit"><span>Clash of Kings</span></li>
+
+	</ul>
+	<hr />
+</div>
+
+
+
+
+
+
+
+
+
+<div id="above_threadlist" class="above_threadlist">
+
+	
+</div>
+<div id="pagetitle" class="pagetitle">
+	<h1>Forum: <span class="forumtitle">Clash of Kings</span></h1>
+	<p class="description">All ELEX Games</p>
+</div>
+
+	
+
+
+
+
+<div id="forumbits" class="forumbits">
+	<div class="forumhead">
+		<h2>
+			<span class="forumtitle">Sub-Forums</span>
+			<span class="forumthreadpost">Threads / Posts&nbsp;</span>
+			<span class="forumlastpost">Last Post</span>
+		</h2>
+	</div>
+	<ol>
+		<li id="forum2" class="forumbit_post old L1">
+
+<div class="forumbit_post L2">
+	<div class="forumrow">
+		<div class="foruminfo">
+			<img src="http://cok.eleximg.com/cok/forum/images/statusicon/cok/forum_old-48.png" class="forumicon" id="forum_statusicon_2" alt="" />
+			<div class="forumdata">
+				<div class="datacontainer">
+					<div class="titleline">
+						<h2 class="forumtitle"><a href="forums/2-Clash-of-Kings-English?s=a19f8fb7f3e7836fea79958cd9d8108c">Clash of Kings - English</a></h2>
+						
+					</div>
+					<p class="forumdescription">Clash of Kings is a new real time strategy game for where you battle to build an empire and control 7 fantasy kingdoms!</p>
+					
+					
+				</div>
+			</div>
+		</div>
+		
+			<h4 class="nocss_label">Forum Actions:</h4>
+			<ul class="forumactionlinks td">
+			
+			</ul>
+			<h4 class="nocss_label">Forum Statistics:</h4>
+			<ul class="forumstats_2 td">
+				<li>Threads: 4,495</li>
+				<li>Posts: 25,539</li>
+			</ul>
+			<div class="forumlastpost td">
+				<h4 class="lastpostlabel">Last Post:</h4>
+				<div>
+					
+	<p class="lastposttitle">
+	
+	
+	<a href="threads/28290-Svip-store?s=a19f8fb7f3e7836fea79958cd9d8108c&amp;goto=newpost" class="threadtitle" title="Go to first unread post in thread 'Svip store'">Svip store</a>
+	<a href="threads/28290-Svip-store?s=a19f8fb7f3e7836fea79958cd9d8108c&amp;p=140412#post140412"><img src="images/buttons/lastpost-right.png" alt="Go to last post" /></a>
+	</p>
+	<div class="lastpostby">
+	
+		by <div class="popupmenu memberaction">
+	<a class="username offline popupctrl" href="members/934760-Egami?s=a19f8fb7f3e7836fea79958cd9d8108c" title="Egami is offline"><strong>Egami</strong></a>
+	<ul class="popupbody popuphover memberaction_body">
+		<li class="left">
+			<a href="members/934760-Egami?s=a19f8fb7f3e7836fea79958cd9d8108c" class="siteicon_profile">
+				View Profile
+			</a>
+		</li>
+		
+		<li class="right">
+			<a href="search.php?s=a19f8fb7f3e7836fea79958cd9d8108c&amp;do=finduser&amp;userid=934760&amp;contenttype=vBForum_Post&amp;showposts=1" class="siteicon_forum" rel="nofollow">
+				View Forum Posts
+			</a>
+		</li>
+		
+		
+		<li class="left">
+			<a href="private.php?s=a19f8fb7f3e7836fea79958cd9d8108c&amp;do=newpm&amp;u=934760" class="siteicon_message" rel="nofollow">
+				Private Message
+			</a>
+		</li>
+		
+		
+		
+		
+		
+		
+		
+
+		
+
+		
+		
+	</ul>
+</div>
+	
+	</div>
+	<p class="lastpostdate">05-03-2018</p>
+
+				</div>
+			</div>
+		
+	</div>
+	
+</div>
+</li><li id="forum28" class="forumbit_post old L1">
+
+<div class="forumbit_post L2">
+	<div class="forumrow">
+		<div class="foruminfo">
+			<img src="http://cok.eleximg.com/cok/forum/images/statusicon/cok/forum_old-48.png" class="forumicon" id="forum_statusicon_28" alt="" />
+			<div class="forumdata">
+				<div class="datacontainer">
+					<div class="titleline">
+						<h2 class="forumtitle"><a href="forums/28-Clash-of-Kings-Português?s=a19f8fb7f3e7836fea79958cd9d8108c">Clash of Kings - Português</a></h2>
+						
+					</div>
+					<p class="forumdescription">Clash Of Kings é um jogo de fantasia e estratégia medival em tempo real. Você deve batalhar para construir um império e conquistar todos os 7 Reinos!</p>
+					
+					
+				</div>
+			</div>
+		</div>
+		
+			<h4 class="nocss_label">Forum Actions:</h4>
+			<ul class="forumactionlinks td">
+			
+			</ul>
+			<h4 class="nocss_label">Forum Statistics:</h4>
+			<ul class="forumstats_2 td">
+				<li>Threads: 1,383</li>
+				<li>Posts: 5,957</li>
+			</ul>
+			<div class="forumlastpost td">
+				<h4 class="lastpostlabel">Last Post:</h4>
+				<div>
+					
+	<p class="lastposttitle">
+	<img src="images/icons/icon3.png" class="postimg" alt="Lightbulb" border="0" />
+	
+	<a href="threads/28386-Invasão-Alien!?s=a19f8fb7f3e7836fea79958cd9d8108c&amp;goto=newpost" class="threadtitle" title="Go to first unread post in thread 'Invasão  Alien!'">Invasão  Alien!</a>
+	<a href="threads/28386-Invasão-Alien!?s=a19f8fb7f3e7836fea79958cd9d8108c&amp;p=140459#post140459"><img src="images/buttons/lastpost-right.png" alt="Go to last post" /></a>
+	</p>
+	<div class="lastpostby">
+	
+		by <div class="popupmenu memberaction">
+	<a class="username offline popupctrl" href="members/78-ALPHA?s=a19f8fb7f3e7836fea79958cd9d8108c" title="ALPHA is offline"><strong>ALPHA</strong></a>
+	<ul class="popupbody popuphover memberaction_body">
+		<li class="left">
+			<a href="members/78-ALPHA?s=a19f8fb7f3e7836fea79958cd9d8108c" class="siteicon_profile">
+				View Profile
+			</a>
+		</li>
+		
+		<li class="right">
+			<a href="search.php?s=a19f8fb7f3e7836fea79958cd9d8108c&amp;do=finduser&amp;userid=78&amp;contenttype=vBForum_Post&amp;showposts=1" class="siteicon_forum" rel="nofollow">
+				View Forum Posts
+			</a>
+		</li>
+		
+		
+		<li class="left">
+			<a href="private.php?s=a19f8fb7f3e7836fea79958cd9d8108c&amp;do=newpm&amp;u=78" class="siteicon_message" rel="nofollow">
+				Private Message
+			</a>
+		</li>
+		
+		
+		
+		
+		
+		
+		
+
+		
+
+		
+		
+	</ul>
+</div>
+	
+	</div>
+	<p class="lastpostdate">3 Days Ago</p>
+
+				</div>
+			</div>
+		
+	</div>
+	
+</div>
+</li><li id="forum38" class="forumbit_post old L1">
+
+<div class="forumbit_post L2">
+	<div class="forumrow">
+		<div class="foruminfo">
+			<img src="http://cok.eleximg.com/cok/forum/images/statusicon/cok/forum_old-48.png" class="forumicon" id="forum_statusicon_38" alt="" />
+			<div class="forumdata">
+				<div class="datacontainer">
+					<div class="titleline">
+						<h2 class="forumtitle"><a href="forums/38-Clash-of-Kings-Россия?s=a19f8fb7f3e7836fea79958cd9d8108c">Clash of Kings - Россия</a></h2>
+						
+					</div>
+					<p class="forumdescription">Clash of Kings is a new real time strategy game for where you battle to build an empire and control 7 fantasy kingdoms!</p>
+					
+					
+				</div>
+			</div>
+		</div>
+		
+			<h4 class="nocss_label">Forum Actions:</h4>
+			<ul class="forumactionlinks td">
+			
+			</ul>
+			<h4 class="nocss_label">Forum Statistics:</h4>
+			<ul class="forumstats_2 td">
+				<li>Threads: 1,142</li>
+				<li>Posts: 5,150</li>
+			</ul>
+			<div class="forumlastpost td">
+				<h4 class="lastpostlabel">Last Post:</h4>
+				<div>
+					
+	<p class="lastposttitle">
+	
+	
+	<a href="threads/20750-предложение-и-жалоба?s=a19f8fb7f3e7836fea79958cd9d8108c&amp;goto=newpost" class="threadtitle" title="Go to first unread post in thread 'предложение и жалоба.'">предложение и жалоба.</a>
+	<a href="threads/20750-предложение-и-жалоба?s=a19f8fb7f3e7836fea79958cd9d8108c&amp;p=134888#post134888"><img src="images/buttons/lastpost-right.png" alt="Go to last post" /></a>
+	</p>
+	<div class="lastpostby">
+	
+		by <div class="popupmenu memberaction">
+	<a class="username offline popupctrl" href="members/665729-DarkKaira?s=a19f8fb7f3e7836fea79958cd9d8108c" title="DarkKaira is offline"><strong>DarkKaira</strong></a>
+	<ul class="popupbody popuphover memberaction_body">
+		<li class="left">
+			<a href="members/665729-DarkKaira?s=a19f8fb7f3e7836fea79958cd9d8108c" class="siteicon_profile">
+				View Profile
+			</a>
+		</li>
+		
+		<li class="right">
+			<a href="search.php?s=a19f8fb7f3e7836fea79958cd9d8108c&amp;do=finduser&amp;userid=665729&amp;contenttype=vBForum_Post&amp;showposts=1" class="siteicon_forum" rel="nofollow">
+				View Forum Posts
+			</a>
+		</li>
+		
+		
+		<li class="left">
+			<a href="private.php?s=a19f8fb7f3e7836fea79958cd9d8108c&amp;do=newpm&amp;u=665729" class="siteicon_message" rel="nofollow">
+				Private Message
+			</a>
+		</li>
+		
+		
+		
+		
+		
+		
+		
+
+		
+
+		
+		
+	</ul>
+</div>
+	
+	</div>
+	<p class="lastpostdate">10-28-2016</p>
+
+				</div>
+			</div>
+		
+	</div>
+	
+</div>
+</li><li id="forum49" class="forumbit_post old L1">
+
+<div class="forumbit_post L2">
+	<div class="forumrow">
+		<div class="foruminfo">
+			<img src="http://cok.eleximg.com/cok/forum/images/statusicon/cok/forum_old-48.png" class="forumicon" id="forum_statusicon_49" alt="" />
+			<div class="forumdata">
+				<div class="datacontainer">
+					<div class="titleline">
+						<h2 class="forumtitle"><a href="forums/49-Clash-Of-Kings-Español?s=a19f8fb7f3e7836fea79958cd9d8108c">Clash Of Kings - Español</a></h2>
+						
+					</div>
+					<p class="forumdescription">Clash of Kings es un nuevo juego de estrategia en tiempo real, en donde puedes construir tu propio imperio y controlar 7 fantásticos reinos.</p>
+					
+					
+				</div>
+			</div>
+		</div>
+		
+			<h4 class="nocss_label">Forum Actions:</h4>
+			<ul class="forumactionlinks td">
+			
+			</ul>
+			<h4 class="nocss_label">Forum Statistics:</h4>
+			<ul class="forumstats_2 td">
+				<li>Threads: 1,517</li>
+				<li>Posts: 4,396</li>
+			</ul>
+			<div class="forumlastpost td">
+				<h4 class="lastpostlabel">Last Post:</h4>
+				<div>
+					
+	<p class="lastposttitle">
+	
+	
+	<a href="threads/24676-Cierre-del-foro?s=a19f8fb7f3e7836fea79958cd9d8108c&amp;goto=newpost" class="threadtitle" title="Go to first unread post in thread 'Cierre del foro'">Cierre del foro</a>
+	<a href="threads/24676-Cierre-del-foro?s=a19f8fb7f3e7836fea79958cd9d8108c&amp;p=138576#post138576"><img src="images/buttons/lastpost-right.png" alt="Go to last post" /></a>
+	</p>
+	<div class="lastpostby">
+	
+		by <div class="popupmenu memberaction">
+	<a class="username offline popupctrl" href="members/527285-karlosvalero?s=a19f8fb7f3e7836fea79958cd9d8108c" title="karlosvalero is offline"><strong>karlosvalero</strong></a>
+	<ul class="popupbody popuphover memberaction_body">
+		<li class="left">
+			<a href="members/527285-karlosvalero?s=a19f8fb7f3e7836fea79958cd9d8108c" class="siteicon_profile">
+				View Profile
+			</a>
+		</li>
+		
+		<li class="right">
+			<a href="search.php?s=a19f8fb7f3e7836fea79958cd9d8108c&amp;do=finduser&amp;userid=527285&amp;contenttype=vBForum_Post&amp;showposts=1" class="siteicon_forum" rel="nofollow">
+				View Forum Posts
+			</a>
+		</li>
+		
+		
+		<li class="left">
+			<a href="private.php?s=a19f8fb7f3e7836fea79958cd9d8108c&amp;do=newpm&amp;u=527285" class="siteicon_message" rel="nofollow">
+				Private Message
+			</a>
+		</li>
+		
+		
+		
+		
+		
+		
+		
+
+		
+
+		
+		
+	</ul>
+</div>
+	
+	</div>
+	<p class="lastpostdate">04-30-2017</p>
+
+				</div>
+			</div>
+		
+	</div>
+	
+</div>
+</li><li id="forum59" class="forumbit_post old L1">
+
+<div class="forumbit_post L2">
+	<div class="forumrow">
+		<div class="foruminfo">
+			<img src="http://cok.eleximg.com/cok/forum/images/statusicon/cok/forum_old-48.png" class="forumicon" id="forum_statusicon_59" alt="" />
+			<div class="forumdata">
+				<div class="datacontainer">
+					<div class="titleline">
+						<h2 class="forumtitle"><a href="forums/59-列王的紛爭-中文?s=a19f8fb7f3e7836fea79958cd9d8108c">列王的紛爭 - 中文</a></h2>
+						
+					</div>
+					<p class="forumdescription">讓人停不下來的實時在線戰爭策略遊戲！</p>
+					
+					
+				</div>
+			</div>
+		</div>
+		
+			<h4 class="nocss_label">Forum Actions:</h4>
+			<ul class="forumactionlinks td">
+			
+			</ul>
+			<h4 class="nocss_label">Forum Statistics:</h4>
+			<ul class="forumstats_2 td">
+				<li>Threads: 274</li>
+				<li>Posts: 420</li>
+			</ul>
+			<div class="forumlastpost td">
+				<h4 class="lastpostlabel">Last Post:</h4>
+				<div>
+					
+	<p class="lastposttitle">
+	
+	
+	<a href="threads/27383-我的龙晶-不见了-找你们都一周了-都得不到答复-求助?s=a19f8fb7f3e7836fea79958cd9d8108c&amp;goto=newpost" class="threadtitle" title="Go to first unread post in thread '我的龙晶 不见了 找你们都一周了 都得不到答复 求助'">我的龙晶 不见了 找你们都一周了 都得不到答复 求助</a>
+	<a href="threads/27383-我的龙晶-不见了-找你们都一周了-都得不到答复-求助?s=a19f8fb7f3e7836fea79958cd9d8108c&amp;p=133952#post133952"><img src="images/buttons/lastpost-right.png" alt="Go to last post" /></a>
+	</p>
+	<div class="lastpostby">
+	
+		by <div class="popupmenu memberaction">
+	<a class="username offline popupctrl" href="members/773374-BRaVera?s=a19f8fb7f3e7836fea79958cd9d8108c" title="BRaVera is offline"><strong>BRaVera</strong></a>
+	<ul class="popupbody popuphover memberaction_body">
+		<li class="left">
+			<a href="members/773374-BRaVera?s=a19f8fb7f3e7836fea79958cd9d8108c" class="siteicon_profile">
+				View Profile
+			</a>
+		</li>
+		
+		<li class="right">
+			<a href="search.php?s=a19f8fb7f3e7836fea79958cd9d8108c&amp;do=finduser&amp;userid=773374&amp;contenttype=vBForum_Post&amp;showposts=1" class="siteicon_forum" rel="nofollow">
+				View Forum Posts
+			</a>
+		</li>
+		
+		
+		<li class="left">
+			<a href="private.php?s=a19f8fb7f3e7836fea79958cd9d8108c&amp;do=newpm&amp;u=773374" class="siteicon_message" rel="nofollow">
+				Private Message
+			</a>
+		</li>
+		
+		
+		
+		
+		
+		
+		
+
+		
+
+		
+		
+	</ul>
+</div>
+	
+	</div>
+	<p class="lastpostdate">09-29-2016</p>
+
+				</div>
+			</div>
+		
+	</div>
+	
+</div>
+</li><li id="forum65" class="forumbit_post old L1">
+
+<div class="forumbit_post L2">
+	<div class="forumrow">
+		<div class="foruminfo">
+			<img src="http://cok.eleximg.com/cok/forum/images/statusicon/cok/forum_old-48.png" class="forumicon" id="forum_statusicon_65" alt="" />
+			<div class="forumdata">
+				<div class="datacontainer">
+					<div class="titleline">
+						<h2 class="forumtitle"><a href="forums/65-Clash-of-Kings-Deutsch?s=a19f8fb7f3e7836fea79958cd9d8108c">Clash of Kings - Deutsch</a></h2>
+						
+					</div>
+					<p class="forumdescription">Clash of Kings ist ein Echtzeit-Strategiespiel, in dem du deine Stadt bauen und andere Königreiche erobern kannst!</p>
+					
+					
+				</div>
+			</div>
+		</div>
+		
+			<h4 class="nocss_label">Forum Actions:</h4>
+			<ul class="forumactionlinks td">
+			
+			</ul>
+			<h4 class="nocss_label">Forum Statistics:</h4>
+			<ul class="forumstats_2 td">
+				<li>Threads: 690</li>
+				<li>Posts: 2,656</li>
+			</ul>
+			<div class="forumlastpost td">
+				<h4 class="lastpostlabel">Last Post:</h4>
+				<div>
+					
+	<p class="lastposttitle">
+	
+	
+	<a href="threads/28265-Wo-gibts-die-besten-deutschen-Spieler?s=a19f8fb7f3e7836fea79958cd9d8108c&amp;goto=newpost" class="threadtitle" title="Go to first unread post in thread 'Wo gibts die besten deutschen Spieler'">Wo gibts die besten deutschen...</a>
+	<a href="threads/28265-Wo-gibts-die-besten-deutschen-Spieler?s=a19f8fb7f3e7836fea79958cd9d8108c&amp;p=140192#post140192"><img src="images/buttons/lastpost-right.png" alt="Go to last post" /></a>
+	</p>
+	<div class="lastpostby">
+	
+		by <div class="popupmenu memberaction">
+	<a class="username offline popupctrl" href="members/487007-Raknar?s=a19f8fb7f3e7836fea79958cd9d8108c" title="Raknar is offline"><strong>Raknar</strong></a>
+	<ul class="popupbody popuphover memberaction_body">
+		<li class="left">
+			<a href="members/487007-Raknar?s=a19f8fb7f3e7836fea79958cd9d8108c" class="siteicon_profile">
+				View Profile
+			</a>
+		</li>
+		
+		<li class="right">
+			<a href="search.php?s=a19f8fb7f3e7836fea79958cd9d8108c&amp;do=finduser&amp;userid=487007&amp;contenttype=vBForum_Post&amp;showposts=1" class="siteicon_forum" rel="nofollow">
+				View Forum Posts
+			</a>
+		</li>
+		
+		
+		<li class="left">
+			<a href="private.php?s=a19f8fb7f3e7836fea79958cd9d8108c&amp;do=newpm&amp;u=487007" class="siteicon_message" rel="nofollow">
+				Private Message
+			</a>
+		</li>
+		
+		
+		
+		
+		
+		
+		
+
+		
+
+		
+		
+	</ul>
+</div>
+	
+	</div>
+	<p class="lastpostdate">02-15-2018</p>
+
+				</div>
+			</div>
+		
+	</div>
+	
+</div>
+</li><li id="forum75" class="forumbit_post old L1">
+
+<div class="forumbit_post L2">
+	<div class="forumrow">
+		<div class="foruminfo">
+			<img src="http://cok.eleximg.com/cok/forum/images/statusicon/cok/forum_old-48.png" class="forumicon" id="forum_statusicon_75" alt="" />
+			<div class="forumdata">
+				<div class="datacontainer">
+					<div class="titleline">
+						<h2 class="forumtitle"><a href="forums/75-Clash-of-Kings-Français?s=a19f8fb7f3e7836fea79958cd9d8108c">Clash of Kings - Français</a></h2>
+						
+					</div>
+					<p class="forumdescription">Clash of Kings est un nouveau jeu de stratégie en temps réel où vous vous battez pour construire un empire et prendre contrôle des royaumes!</p>
+					
+					
+				</div>
+			</div>
+		</div>
+		
+			<h4 class="nocss_label">Forum Actions:</h4>
+			<ul class="forumactionlinks td">
+			
+			</ul>
+			<h4 class="nocss_label">Forum Statistics:</h4>
+			<ul class="forumstats_2 td">
+				<li>Threads: 912</li>
+				<li>Posts: 4,930</li>
+			</ul>
+			<div class="forumlastpost td">
+				<h4 class="lastpostlabel">Last Post:</h4>
+				<div>
+					
+	<p class="lastposttitle">
+	
+	
+	<a href="threads/26607-Royaume-439-Alliance-Lord-of-war-(LOW)?s=a19f8fb7f3e7836fea79958cd9d8108c&amp;goto=newpost" class="threadtitle" title="Go to first unread post in thread 'Royaume 439 -Alliance Lord of war (LOW)'">Royaume 439 -Alliance Lord of...</a>
+	<a href="threads/26607-Royaume-439-Alliance-Lord-of-war-(LOW)?s=a19f8fb7f3e7836fea79958cd9d8108c&amp;p=140360#post140360"><img src="images/buttons/lastpost-right.png" alt="Go to last post" /></a>
+	</p>
+	<div class="lastpostby">
+	
+		by <div class="popupmenu memberaction">
+	<a class="username offline popupctrl" href="members/1504435-AlanVarthak?s=a19f8fb7f3e7836fea79958cd9d8108c" title="AlanVarthak is offline"><strong>AlanVarthak</strong></a>
+	<ul class="popupbody popuphover memberaction_body">
+		<li class="left">
+			<a href="members/1504435-AlanVarthak?s=a19f8fb7f3e7836fea79958cd9d8108c" class="siteicon_profile">
+				View Profile
+			</a>
+		</li>
+		
+		<li class="right">
+			<a href="search.php?s=a19f8fb7f3e7836fea79958cd9d8108c&amp;do=finduser&amp;userid=1504435&amp;contenttype=vBForum_Post&amp;showposts=1" class="siteicon_forum" rel="nofollow">
+				View Forum Posts
+			</a>
+		</li>
+		
+		
+		<li class="left">
+			<a href="private.php?s=a19f8fb7f3e7836fea79958cd9d8108c&amp;do=newpm&amp;u=1504435" class="siteicon_message" rel="nofollow">
+				Private Message
+			</a>
+		</li>
+		
+		
+		
+		
+		
+		
+		
+
+		
+
+		
+		
+	</ul>
+</div>
+	
+	</div>
+	<p class="lastpostdate">04-10-2018</p>
+
+				</div>
+			</div>
+		
+	</div>
+	
+</div>
+</li>
+	</ol>
+</div>
+
+
+
+
+
+<div id="below_threadlist" class="noinlinemod below_threadlist">
+	
+	<div class="threadpagenav nopagenav">
+		
+		
+	</div>
+</div>
+
+<div id="forum_info_options" class="forum_info block">
+	
+	<div class="collapse">
+		<a class="collapse" id="collapse_forum_info" href="forums/1-Clash-of-Kings#top"><img src="images/buttons/collapse_40b.png" alt="" /></a>
+		<h4 class="forumoptiontitle blockhead">Forum Information and Options</h4>
+	</div>
+	<div id="forum_info" class="forum_info_block blockbody formcontrols">
+		
+		<div id="forum_moderators" class="forum_info_subblock">
+			<h5>Moderators of this Forum</h5>
+			<ul class="commalist">
+				
+					<li><a class="username" href="members/174406-COKLOVER?s=a19f8fb7f3e7836fea79958cd9d8108c"><span style="color:green;font-weight:bold">COKLOVER</span></a></li>
+				
+			</ul>
+		</div>
+		
+		
+	</div>
+	
+
+	
+	
+	<div class="options_block_container">
+	
+	</div>
+</div>
+<script type="text/javascript">
+<!--
+vbphrase['doubleclick_forum_markread'] = "Double-click this icon to mark this forum and its contents as read";
+init_forum_readmarker_system();
+//-->
+</script>
+
+<div id="footer" class="floatcontainer footer">
+
+	<form action="forum.php" method="get" id="footer_select" class="footer_select">
+
+		
+			<select name="styleid" onchange="switch_id(this, 'style')">
+				<optgroup label="Quick Style Chooser"><option class="hidden"></option></optgroup>
+				
+					
+					<optgroup label="&nbsp;Standard Styles">
+									
+					
+	<option value="1" class="" >-- Default Style</option>
+
+					
+					</optgroup>
+										
+				
+				
+					
+					<optgroup label="&nbsp;Mobile Styles">
+					
+					
+	<option value="2" class="" >-- COK Mobile Style</option>
+
+					
+					</optgroup>
+										
+				
+			</select>	
+		
+		
+		
+			<select name="langid" onchange="switch_id(this, 'lang')">
+				<optgroup label="Quick Language Chooser">
+					
+	<option value="5" class="" >-- Arabic</option>
+
+	<option value="1" class="" selected="selected">-- English (US)</option>
+
+	<option value="6" class="" >-- Español (ES)</option>
+
+	<option value="9" class="" >-- Français</option>
+
+	<option value="2" class="" >-- Italiano (IT)</option>
+
+	<option value="4" class="" >-- Român? (RO)</option>
+
+	<option value="7" class="" >-- Russian (RU)</option>
+
+				</optgroup>
+			</select>
+		
+	</form>
+
+	<ul id="footer_links" class="footer_links">
+		<li><a href="sendmessage.php?s=a19f8fb7f3e7836fea79958cd9d8108c" rel="nofollow" accesskey="9">Contact Us</a></li>
+		
+		
+		
+		<li><a href="archive/index.php?s=a19f8fb7f3e7836fea79958cd9d8108c">Archive</a></li>
+		
+		
+		
+                <li><a href="forum/?styleid=2">Mobile Site</a></li>
+		<li><a href="forums/1-Clash-of-Kings#top" onclick="document.location.hash='top'; return false;">Top</a></li>
+	</ul>
+	
+	
+	
+	
+	<script type="text/javascript">
+	<!--
+		// Main vBulletin Javascript Initialization
+		vBulletin_init();
+	//-->
+	</script>
+        
+</div>
+</div> <!-- closing div for body_wrapper -->
+
+<div class="below_body">
+<div id="footer_time" class="shade footer_time">All times are GMT. The time now is <span class="time">09:06 PM</span>.</div>
+
+<div id="footer_copyright" class="shade footer_copyright">
+	<!-- Do not remove this copyright notice -->
+	Powered by <a href="https://www.vbulletin.com" id="vbulletinlink">vBulletin&reg;</a> Version 4.2.2 <br />Copyright &copy; 2018 vBulletin Solutions, Inc. All rights reserved. 
+	<!-- Do not remove this copyright notice -->	
+</div>
+<div id="footer_morecopyright" class="shade footer_morecopyright">
+	<!-- Do not remove cronimage or your scheduled tasks will cease to function -->
+	
+	<!-- Do not remove cronimage or your scheduled tasks will cease to function -->
+	
+	
+</div>
+ 
+
+	<div id="fb-root"></div>
+<script type="text/javascript" src="http://f.elex.com/clientscript/vbulletin_facebook.js?v=423"></script>
+
+<script type="text/javascript">
+<!--
+	loadFacebookAPI('en_US');
+	function fbAsyncInit()
+	{
+		vBfb = new vB_Facebook({
+			appid : "317167681655636",
+			connected : 0,
+			active : 0,
+			autoreg : 1,
+			feed_newthread : 0,
+			feed_postreply : 0,
+			feed_blogentry : 0,
+			feed_blogcomment : 0,
+			feed_newarticle : 0,
+			feed_articlecomment : 0
+		});
+	}
+// -->
+</script>
+
+</div>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-60840964-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</body>
+</html>

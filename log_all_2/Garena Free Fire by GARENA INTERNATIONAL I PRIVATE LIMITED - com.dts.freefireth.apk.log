@@ -1,0 +1,113 @@
+[INTERNAL_LOG][2018-06-12 01:43:43,931][INFO][analyze_start()] Init Time [Tue Jun 12 01:43:43 2018]
+[INTERNAL_LOG][2018-06-12 01:43:44,004][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 01:43:44,005][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 01:43:44,005][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 01:43:44,005][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 01:43:44,005][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 01:43:44,005][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 01:43:44,005][INFO][is_hybird()] com.dts.freefireth.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-12 01:43:44,005][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-12 01:43:44,005][INFO][is_hybird()] android.permission.READ_PHONE_STATE
+[INTERNAL_LOG][2018-06-12 01:43:44,005][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 01:43:44,005][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 01:43:44,005][INFO][is_hybird()] android.permission.GET_TASKS
+[INTERNAL_LOG][2018-06-12 01:43:44,005][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-12 01:43:44,005][INFO][is_hybird()] com.android.vending.CHECK_LICENSE
+[INTERNAL_LOG][2018-06-12 01:43:44,005][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-12 01:43:44,005][INFO][is_hybird()] android.permission.RECEIVE_USER_PRESENT
+[INTERNAL_LOG][2018-06-12 01:43:44,005][INFO][is_hybird()] android.permission.RECEIVE_BOOT_COMPLETED
+[INTERNAL_LOG][2018-06-12 01:43:44,005][INFO][is_hybird()] android.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 01:43:44,006][INFO][is_hybird()] android.permission.RESTART_PACKAGES
+[INTERNAL_LOG][2018-06-12 01:43:44,006][INFO][is_hybird()] android.permission.BROADCAST_STICKY
+[INTERNAL_LOG][2018-06-12 01:43:44,006][INFO][is_hybird()] android.permission.KILL_BACKGROUND_PROCESSES
+[INTERNAL_LOG][2018-06-12 01:43:44,006][INFO][is_hybird()] android.permission.BLUETOOTH
+[INTERNAL_LOG][2018-06-12 01:43:44,006][INFO][is_hybird()] android.permission.BATTERY_STATS
+[INTERNAL_LOG][2018-06-12 01:43:44,006][INFO][is_hybird()] android.permission.CHANGE_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 01:43:44,006][INFO][is_hybird()] android.permission.CHANGE_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 01:43:44,006][INFO][is_hybird()] android.permission.RECORD_AUDIO
+[INTERNAL_LOG][2018-06-12 01:43:44,006][INFO][is_hybird()] android.permission.MODIFY_AUDIO_SETTINGS
+[INTERNAL_LOG][2018-06-12 01:43:44,006][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 01:43:44,006][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 01:43:44,006][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 01:43:44,006][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 01:43:44,006][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 01:43:44,006][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 01:44:05,000][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 01:44:05,000][INFO][find_url_in_apk()] http://schemas.android.com/apk/res/android
+https://api.%s/install_data/v3/
+https://attr.%s/api/v
+https://t.%s/api/v
+https://events.%s/api/v
+https://register.%s/api/v
+https://stats.%s/stats
+https://onelink.%s/shortlink-sdk/v1
+https://onelink.%s/shortlink-sdk/v1
+https://validate.%s/api/v
+https://sdk-services.%s/validate-android-signature
+https://monitorsdk.%s/remote-debug?app_id=
+https://app.%s
+https://app.%s
+https://impression.%s
+http://203.116.180.99/crash/logs/
+http://testconnect.garenanow.com/app/info/get
+http://connect.garenanow.com/app/info/get
+http://connect.garenanow.com/app/feedback
+https://streamtv.test.garena.com
+https://stream.garena.tv
+https://tv.test.garena.com
+https://garena.tv
+https://testconnect.garena.com
+https://connect.garena.com
+https://testsso.garena.com
+https://sso.garena.com
+http://play.google.com/store/apps/details?id=
+https://graph.%s
+https://graph-video.%s
+https://facebook.com
+http://play.google.com/store/apps/details?id=com.facebook.orca
+https://testbeepost.beetalkmobile.com
+https://beepost.beetalkmobile.com
+http://mobile.garena.com
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+https://www.googleapis.com/auth/games_lite
+https://www.googleapis.com/auth/games
+https://plus.google.com/
+https://access.line.me/v2
+https://access.line.me/v2
+https://access.line.me/v2
+https://access.line.me/v2
+https://access.line.me/dialog/oauth/weblogin
+https://access.line.me/dialog/oauth/weblogin
+http://182.254.116.117/d?dn=99e2d153e4d0527186ebed5ac5608367&id=6&ttl=1
+http://pingma.qq.com:80/mstat/report
+http://rqd.uu.qq.com/rqd/sync
+http://android.bugly.qq.com/rqd/async
+http://vk.com/images/community_50.gif
+http://vk.com/images/community_100.gif
+http://vk.com/images/s_noalbum.png
+http://vk.com/images/m_noalbum.png
+http://vk.com/images/x_noalbum.png
+http://vk.com/images/camera_c.gif
+http://vk.com/images/camera_c.gif
+http://vk.com/images/camera_c.gif
+http://vk.com/images/camera_b.gif
+http://vk.com/images/camera_b.gif
+http://vk.com/images/camera_b.gif
+http://vk.com/images/camera_a.gif
+http://vk.com/images/camera_a.gif
+http://vk.com/images/camera_a.gif
+https://oauth.vk.com/blank.html
+https://oauth.vk.com/blank.html
+https://oauth.vk.com/authorize?client_id=%s&scope=%s&redirect_uri=%s&display=mobile&v=%s&response_type=token&revoke=%d
+
+[INTERNAL_LOG][2018-06-12 01:44:05,000][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 01:44:05,006][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 01:44:05,006][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 01:44:05,006][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 01:44:05,006][INFO][analyze_start()] End time:[Tue Jun 12 01:44:05 2018]

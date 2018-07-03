@@ -1,0 +1,70 @@
+[INTERNAL_LOG][2018-06-08 04:06:58,322][INFO][analyze_start()] Init Time [Fri Jun  8 04:06:58 2018]
+[INTERNAL_LOG][2018-06-08 04:06:58,559][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-08 04:06:58,568][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-08 04:06:58,568][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-08 04:06:58,568][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-08 04:06:58,569][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-08 04:06:58,569][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-08 04:06:58,569][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-08 04:06:58,569][INFO][is_hybird()] com.king.candycrushsaga.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-08 04:06:58,569][INFO][is_hybird()] com.king.cross.kingapp.provider.ACCESS
+[INTERNAL_LOG][2018-06-08 04:06:58,569][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-08 04:06:58,569][INFO][is_hybird()] com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+[INTERNAL_LOG][2018-06-08 04:06:58,569][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-08 04:06:58,569][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-08 04:06:58,569][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-08 04:06:58,569][INFO][find_string()] File: assets/res_output/remoteconsole.html
+[INTERNAL_LOG][2018-06-08 04:06:58,570][INFO][find_string()] No iframe in assets/res_output/remoteconsole.html
+[INTERNAL_LOG][2018-06-08 04:06:58,570][INFO][find_string()] File: assets/res_output/servicelayer-views/sharelog/index.html
+[INTERNAL_LOG][2018-06-08 04:06:58,575][INFO][find_string()] Found in file assets/res_output/servicelayer-views/sharelog/index.html tag iframe , 1 times
+[INTERNAL_LOG][2018-06-08 04:06:58,576][INFO][find_string()] No CSP found!
+[INTERNAL_LOG][2018-06-08 04:06:58,576][INFO][find_string()] File: assets/res_output/web-console/console.html
+[INTERNAL_LOG][2018-06-08 04:06:58,576][INFO][find_string()] No iframe in assets/res_output/web-console/console.html
+[INTERNAL_LOG][2018-06-08 04:06:58,577][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-08 04:07:20,343][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-08 04:07:20,344][INFO][find_url_in_apk()] http://www.amazon.com/gp/mas/get-appstore/android/ref=mas_mx_mba_iap_dl
+https://graph.facebook.com/network_ads_common
+https://graph.%s.facebook.com/network_ads_common
+https://www.facebook.com/adnw_logging/
+https://www.%s.facebook.com/adnw_logging/
+https://www.facebook.com/
+https://www.%s.facebook.com
+http://play.google.com/store/apps/
+http://www.facebook.com
+https://graph.%s
+https://graph-video.%s
+https://facebook.com
+http://play.google.com/store/apps/details?id=com.facebook.orca
+https://accounts.google.com
+https://accounts.google.com
+https://www.facebook.com
+https://www.facebook.com
+https://www.googleapis.com/auth/plus.me
+https://www.googleapis.com/auth/plus.me
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games
+http://plus.google.com/
+https://www.googleapis.com/auth/games.firstparty
+https://www.googleapis.com/auth/games.firstparty
+https://www.googleapis.com/auth/plus.login
+http://schemas.android.com/apk/lib/com.google.android.gms.plus
+http://schemas.android.com/apk/lib/com.google.android.gms.plus
+https://imasdk.googleapis.com/native/sdkloader/native_sdk_v3.html
+https://imasdk.googleapis.com/native/sdkloader/native_sdk_v3_debug.html
+https://z.moatads.com/
+https://www.googleapis.com/auth/contacts.readonly
+https://www.%s.facebook.com/audience_network/server_side_reward
+https://www.facebook.com/audience_network/server_side_reward
+http://www.dom.com/path?
+
+[INTERNAL_LOG][2018-06-08 04:07:20,344][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-08 04:07:20,347][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-08 04:07:20,347][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-08 04:07:20,347][INFO][analyze_start()] This app might be vulnerable on attack frame confusion, This file are vulnerable ['assets/res_output/servicelayer-views/sharelog/index.html']
+[INTERNAL_LOG][2018-06-08 04:07:20,348][INFO][analyze_start()] End time:[Fri Jun  8 04:07:20 2018]

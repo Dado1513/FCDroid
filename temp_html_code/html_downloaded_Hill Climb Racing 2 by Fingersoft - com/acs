@@ -1,0 +1,23 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />        <title>
+
+            Fingersoft Account System
+
+        </title>
+        <link href="/favicon.ico" type="image/x-icon" rel="icon"/><link href="/favicon.ico" type="image/x-icon" rel="shortcut icon"/> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <link rel="stylesheet" type="text/css" href="/css/bootstrap.css"/><link rel="stylesheet" type="text/css" href="/css/acs/acs.css"/><link rel="stylesheet" type="text/css" href="/css/acs/hcrwc.css"/><script type="text/javascript" src="/js/jquery.js"></script><script type="text/javascript" src="/js/bootstrap.min.js"></script><script type="text/javascript" src="/js/fs-acs.js"></script>        <link href='https://fonts.googleapis.com/css?family=Lato:400,900,700,300' rel='stylesheet' type='text/css'>
+    </head>
+
+    <body>
+
+
+        <p><a href="#" class="fs-acs-open-inbox btn btn-large btn-primary">Open Inbox</a></p>
+        <div class="fs-acs-ajax-container">
+        </div>
+
+    </body>
+
+</html>

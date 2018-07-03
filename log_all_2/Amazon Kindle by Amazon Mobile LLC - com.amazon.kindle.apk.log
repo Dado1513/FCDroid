@@ -1,0 +1,237 @@
+[INTERNAL_LOG][2018-06-12 08:28:43,186][INFO][analyze_start()] Init Time [Tue Jun 12 08:28:43 2018]
+[INTERNAL_LOG][2018-06-12 08:28:43,379][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 08:28:43,382][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 08:28:43,382][INFO][is_hybird()] com.amazon.STORE_ACCESS
+[INTERNAL_LOG][2018-06-12 08:28:43,382][INFO][is_hybird()] com.amazon.CONTENT_PROVIDER_ACCESS
+[INTERNAL_LOG][2018-06-12 08:28:43,382][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 08:28:43,382][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 08:28:43,382][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 08:28:43,382][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 08:28:43,382][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 08:28:43,382][INFO][is_hybird()] android.permission.AUTHENTICATE_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 08:28:43,382][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 08:28:43,382][INFO][is_hybird()] android.permission.MANAGE_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 08:28:43,382][INFO][is_hybird()] android.permission.USE_CREDENTIALS
+[INTERNAL_LOG][2018-06-12 08:28:43,382][INFO][is_hybird()] com.amazon.dcp.sso.permission.AMAZON_ACCOUNT_PROPERTY
+[INTERNAL_LOG][2018-06-12 08:28:43,382][INFO][is_hybird()] com.amazon.dcp.sso.permission.account.changed
+[INTERNAL_LOG][2018-06-12 08:28:43,382][INFO][is_hybird()] com.amazon.identity.permission.CAN_CALL_MAP_INFORMATION_PROVIDER
+[INTERNAL_LOG][2018-06-12 08:28:43,383][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-12 08:28:43,383][INFO][is_hybird()] com.amazon.kindle.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-12 08:28:43,383][INFO][is_hybird()] android.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-12 08:28:43,383][INFO][is_hybird()] com.lab126.downloads.DOWNLOAD_CALLBACK_SVC
+[INTERNAL_LOG][2018-06-12 08:28:43,383][INFO][is_hybird()] com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY
+[INTERNAL_LOG][2018-06-12 08:28:43,383][INFO][is_hybird()] com.lab126.downloads.DOWNLOAD_SVC_CLIENT_CONNECT
+[INTERNAL_LOG][2018-06-12 08:28:43,383][INFO][is_hybird()] com.amazon.android.permission.ACCESS_DOWNLOAD_MANAGER_ADVANCED
+[INTERNAL_LOG][2018-06-12 08:28:43,383][INFO][is_hybird()] com.amazon.android.permission.ACCESS_DOWNLOAD_MANAGER
+[INTERNAL_LOG][2018-06-12 08:28:43,383][INFO][is_hybird()] com.amazon.android.permission.DOWNLOAD_WITHOUT_NOTIFICATION
+[INTERNAL_LOG][2018-06-12 08:28:43,383][INFO][is_hybird()] com.amazon.dcp.metrics.permission.METRICS_PERMISSION
+[INTERNAL_LOG][2018-06-12 08:28:43,383][INFO][is_hybird()] com.amazon.dcp.config.permission.DYN_CONFIG_VALUES_UPDATED
+[INTERNAL_LOG][2018-06-12 08:28:43,383][INFO][is_hybird()] com.amazon.identity.auth.device.perm.AUTH_SDK
+[INTERNAL_LOG][2018-06-12 08:28:43,383][INFO][is_hybird()] com.amazon.identity.permission.GENERIC_IPC
+[INTERNAL_LOG][2018-06-12 08:28:43,383][INFO][is_hybird()] com.amazon.dcp.sso.permission.USE_DEVICE_CREDENTIALS
+[INTERNAL_LOG][2018-06-12 08:28:43,383][INFO][is_hybird()] com.amazon.dcp.sso.permission.MANAGE_COR_PFM
+[INTERNAL_LOG][2018-06-12 08:28:43,383][INFO][is_hybird()] com.amazon.dcp.sso.permission.CUSTOMER_ATTRIBUTE_SERVICE
+[INTERNAL_LOG][2018-06-12 08:28:43,383][INFO][is_hybird()] com.amazon.dcp.sso.permission.AmazonAccountPropertyService.property.changed
+[INTERNAL_LOG][2018-06-12 08:28:43,383][INFO][is_hybird()] amazon.permission.COLLECT_METRICS
+[INTERNAL_LOG][2018-06-12 08:28:43,383][INFO][is_hybird()] com.amazon.identity.permission.CALL_AMAZON_DEVICE_INFORMATION_PROVIDER
+[INTERNAL_LOG][2018-06-12 08:28:43,383][INFO][is_hybird()] com.amazon.appmanager.preload.permission.READ_PRELOAD_DEVICE_INFO_PROVIDER
+[INTERNAL_LOG][2018-06-12 08:28:43,383][INFO][is_hybird()] android.permission.SEND_DOWNLOAD_COMPLETED_INTENTS
+[INTERNAL_LOG][2018-06-12 08:28:43,383][INFO][is_hybird()] android.permission.DOWNLOAD_WITHOUT_NOTIFICATION
+[INTERNAL_LOG][2018-06-12 08:28:43,383][INFO][is_hybird()] android.permission.RECEIVE_BOOT_COMPLETED
+[INTERNAL_LOG][2018-06-12 08:28:43,383][INFO][is_hybird()] android.permission.GET_TASKS
+[INTERNAL_LOG][2018-06-12 08:28:43,383][INFO][is_hybird()] com.amazon.permission.FORCE_AUTH_ACCT
+[INTERNAL_LOG][2018-06-12 08:28:43,384][INFO][is_hybird()] android.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 08:28:43,384][INFO][is_hybird()] com.amazon.dcp.settings.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 08:28:43,384][INFO][is_hybird()] com.amazon.dcp.sso.permission.EXPIRE_ACCESS_TOKEN
+[INTERNAL_LOG][2018-06-12 08:28:43,384][INFO][is_hybird()] com.amazon.kindle.cms.CMS_ACCESS
+[INTERNAL_LOG][2018-06-12 08:28:43,384][INFO][is_hybird()] com.amazon.kindle.cms.CMS_CALLBACK_ACCESS
+[INTERNAL_LOG][2018-06-12 08:28:43,384][INFO][is_hybird()] com.amazon.dcp.messaging.permission.HANDLE_DEVICE_MESSAGE
+[INTERNAL_LOG][2018-06-12 08:28:43,384][INFO][is_hybird()] android.permission.BROADCAST_STICKY
+[INTERNAL_LOG][2018-06-12 08:28:43,384][INFO][is_hybird()] com.audible.hushpuppy.tablet.permission.COMPANION_MAPPING
+[INTERNAL_LOG][2018-06-12 08:28:43,384][INFO][is_hybird()] android.permission.BLUETOOTH
+[INTERNAL_LOG][2018-06-12 08:28:43,384][INFO][is_hybird()] com.amazon.kindle.socialsharing.PERMISSION_SHARE
+[INTERNAL_LOG][2018-06-12 08:28:43,384][INFO][is_hybird()] com.amazon.kindle.otter.settings.RECEIVE_GOODREADS_UNLINK
+[INTERNAL_LOG][2018-06-12 08:28:43,384][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 08:28:43,384][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 08:28:43,384][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 08:28:43,384][INFO][find_string()] File: com/amazon/dcp/common/doc-files/faq.html
+[INTERNAL_LOG][2018-06-12 08:28:43,482][INFO][find_string()] No iframe in com/amazon/dcp/common/doc-files/faq.html
+[INTERNAL_LOG][2018-06-12 08:28:43,482][INFO][find_string()] File: assets/fail_to_load_page.html
+[INTERNAL_LOG][2018-06-12 08:28:43,483][INFO][find_string()] No iframe in assets/fail_to_load_page.html
+[INTERNAL_LOG][2018-06-12 08:28:43,483][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 08:28:43,483][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 08:28:43,483][INFO][find_string()] File: res/raw/browserhost.js
+[INTERNAL_LOG][2018-06-12 08:28:43,483][INFO][find_string()] No iframe in res/raw/browserhost.js
+[INTERNAL_LOG][2018-06-12 08:28:43,483][INFO][find_string()] File: res/raw/campaign_webview_js
+[INTERNAL_LOG][2018-06-12 08:28:43,484][INFO][find_string()] No iframe in res/raw/campaign_webview_js
+[INTERNAL_LOG][2018-06-12 08:28:43,484][INFO][find_string()] File: res/raw/json.js
+[INTERNAL_LOG][2018-06-12 08:28:43,484][INFO][find_string()] No iframe in res/raw/json.js
+[INTERNAL_LOG][2018-06-12 08:28:43,484][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 08:30:27,433][INFO][find_url_in_apk()] [START URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-12 08:30:27,434][INFO][find_url_in_apk()] https://stkservice.amazon.com/GetUploadUrl
+
+[INTERNAL_LOG][2018-06-12 08:30:27,434][INFO][find_url_in_apk()] [END URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-12 08:30:28,236][ERROR][download_page_loaded()] Failed response code: 403 for https://stkservice.amazon.com/GetUploadUrl  
+[INTERNAL_LOG][2018-06-12 08:30:28,237][INFO][find_string()] [START REMOTE FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 08:30:28,237][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 08:30:28,238][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 08:30:28,238][INFO][find_url_in_apk()] https://dwxjayoxbnyrr.cloudfront.net/amazon-ads.viewablejs
+http://amazon-adsystem.com
+https://det-ta-g7g.vipinteg.amazon.com:443
+https://det-ta-g7g.vipinteg.amazon.com:443
+https://det-ta-g7g.amazon.com:443
+https://det-ta-g7g.amazon.com:443
+https://api.amazon.com
+https://api.amazon.com
+https://kca.amazon.com/kca/library:amzn/%s/book:amzn/%s
+https://kca.amazon.com/kca/library:amzn/%s/book:amzn/%s
+https://kca.amazon.com/kca/library:amzn/%s/book:amzn/%s
+https://kca.amazon.com/kca/library/%s/book/%s
+https://kca.amazon.com/kca/library/%s/book/%s
+https://kca.amazon.com/kca/library:amzn/%s/book:amzn/%s/shelf
+https://kca.amazon.com/kca/book:amzn/%s
+http://www.amazon.com/ap/specs/auth/confirm_credentials
+http://www.amazon.com/ap/specs/auth/confirm_credentials
+http://specs.openid.net/auth/2.0
+http://specs.openid.net/auth/2.0/identifier_select
+http://specs.openid.net/extensions/pape/1.0
+http://www.amazon.com/ap/ext/oauth/2
+https://www
+https://www
+https://www.amazon.cn/kfcapk
+https://w.amazon.com/bin/view/KCP/Redding/Development/DebugMenu
+https://www.amazon.in
+https://digprjsurvey.amazon.com/csad/workflow/c5d39aa7
+https://digprjsurvey.amazon.co.uk/csad/workflow/c5d39aa7
+https://digprjsurvey.amazon.co.jp/csad/workflow/c5d39aa7
+https://www.amazon.com/gp/kindle/android/feedback.html
+https://www.amazon.cn/gp/aw/mycoupon/ke?ref_=kfc_mycoupon
+https://www.amazon.cn/gp/aw/mycoupon/ke?ref_=kfc_mycoupon
+https://www.amazon.cn/gp/gc/create
+https://www.amazon.cn/gp/gc/create
+http://www.amazon.cn/dp/
+https://www.amazon.co.jp
+https://www.amazon.com
+https://www.amazon.com
+https://www.amazon.com
+https://www.amazon.com
+https://dcapsproxy-na.amazon.com/
+http://dcaps.amazon.com/schema/dcaps_android/1
+http://creativecommons.org/licenses/by-sa/3.0/
+http://creativecommons.org/licenses/by-sa/3.0/
+http://img.youtube.com/vi/
+http://m.youtube.com/#/watch?v=
+http://creativecommons.org/licenses/by-sa/3.0/legalcode
+http://ecx.images-amazon.com/images/P/
+https://kwis-opf.amazon.com/getWeblabs/
+https://kwis-opf-preprod.amazon.com/getWeblabs/
+http://www.
+http://www.
+https://www.
+https://www.
+https://www.
+https://www.
+https://www.
+https://www.
+https://www.
+https://kca.amazon.com/kca/customer/device_configuration
+https://d3ohh9b4v3oawh.cloudfront.net/3P/%s/%s/%s
+https://sns.us-west-2.amazonaws.com
+https://sns.us-east-1.amazonaws.com
+https://sns.us-east-1.amazonaws.com
+http://www.amazon.com/gp/digital/fiona/manage/?ref_
+https://https://
+https://https://
+https://kindle-content-update-proxy.amazon.com/
+https://dp-mont.integ.amazon.com:443
+https://dp-mont.integ.amazon.com:443
+https://device-metrics-us-2.amazon.com:443
+https://device-metrics-us-2.amazon.com:443
+https://device-metrics-us-2.amazon.com:443
+https://device-metrics-us-2.amazon.com:443
+https://device-metrics-us.amazon.com:443
+https://device-metrics-us.amazon.com:443
+https://device-metrics-us.amazon.com:443
+https://device-metrics-us.amazon.com:443
+http://www.amazon.com/workAroundDcpBlackList
+http://www.amazon.com/workAroundDcpBlackList
+https://api.audible.com/1.0
+https://d1yprpojhqvser.cloudfront.net/
+https://graph.facebook.com/%s/picture
+https://graph.%s
+https://graph-video.%s
+https://facebook.com
+http://media.admob.com/mraid/v1/mraid_app_interstitial.js
+http://media.admob.com/mraid/v1/mraid_app_expanded_banner.js
+http://media.admob.com/mraid/v1/mraid_app_banner.js
+http://plus.google.com/
+http://schemas.android.com/apk/lib/com.google.android.gms.plus
+http://schemas.android.com/apk/lib/com.google.android.gms.plus
+https://www.amazon.cn/ap/signin
+https://www.amazon.cn/gp/aw
+https://www.amazon.cn/gp/aw/psi
+https://www.amazon.cn/gp/aw/mycoupon
+https://stkservice.amazon.com/GetListOfOwnedDevices
+https://stkservice.amazon.com/GetUploadUrl
+https://stkservice.amazon.com/SendToKindle
+https://twitter.com/intent/tweet?text=%s
+http://amzn.to/1r0LubW
+http://amzn.to/1r0LubW
+http://amzn.to/1WLoAkB
+http://amzn.to/1L57czN
+http://amzn.to/1OWDO4W
+http://amzn.to/1MbOBGM
+http://amzn.to/1VDAcDO
+http://amzn.to/1jMOk1N
+http://amzn.to/1Q5Luz3
+http://amzn.to/1OjZI20
+http://amzn.to/1QXpxm0
+http://amzn.to/1QXpzKK
+http://amzn.to/1RsEEVx
+http://amzn.to/1Lgrnyd
+http://amzn.to/1MXE68y
+http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+https://www.%s/mn/dcw/myx/settings.html?route=updatePaymentSettings#/updatePaymentSettings
+http://placeholder.com
+https://mobile-app-expan.amazon.com/getManifest?
+https://mobile-app-expan.amazon.com/preprod/getManifest?
+https://star-actions-relay-service-gamma.amazon.com/bookwizard/%s
+https://sars.amazon.com/bookwizard/%s
+https://sars.amazon.com/bookwizard/%s
+https://sars-eu.amazon.com/bookwizard/%s
+https://sars-fe.amazon.com/bookwizard/%s
+https://sars-cn.amazon.com/bookwizard/%s
+http://amazon-adsystem.amazon.com/
+http://schemas.android.com/apk/lib/com.amazon.device.ads
+http://schemas.android.com/apk/res/
+https://www.amazon.cn
+https://det-ta-g7g.amazon.com
+https://firs-ta-g7g.amazon.com
+https://cde-ta-g7g.amazon.com
+https://todo-ta-g7g.amazon.com
+https://ebfs-proxy.amazon.com
+https://annotation-mapping-proxy-na.amazon.com
+https://cde-ta-g7g-preprod.amazon.com
+https://todo-ta-g7g-preprod.amazon.com
+https://api-preprod.amazon.com
+https://pre-prod.amazon.com
+https://annotation-mapping-proxy-na-preprod.amazon.com
+https://sars.amazon.com/sidecar/sa/%s/%s
+https://m.facebook.com/dialog/
+https://graph.facebook.com/
+https://api.facebook.com/restserver.php
+https://analytics.localytics.com/api/v2/uploads
+
+[INTERNAL_LOG][2018-06-12 08:30:28,238][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 08:30:28,293][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 08:30:28,293][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 08:30:28,293][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 08:30:28,293][INFO][analyze_start()] End time:[Tue Jun 12 08:30:28 2018]

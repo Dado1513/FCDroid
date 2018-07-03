@@ -1,0 +1,230 @@
+[INTERNAL_LOG][2018-06-07 21:43:27,220][INFO][analyze_start()] Init Time [Thu Jun  7 21:43:27 2018]
+[INTERNAL_LOG][2018-06-07 21:43:27,299][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-07 21:43:27,301][INFO][is_hybird()] Hybrid file found are: ['config.xml']
+[INTERNAL_LOG][2018-06-07 21:43:27,301][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-07 21:43:27,301][INFO][is_hybird()] com.myairtelapp.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-07 21:43:27,301][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-07 21:43:27,301][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-07 21:43:27,301][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-07 21:43:27,301][INFO][is_hybird()] android.permission.RECEIVE_SMS
+[INTERNAL_LOG][2018-06-07 21:43:27,302][INFO][is_hybird()] android.permission.READ_SMS
+[INTERNAL_LOG][2018-06-07 21:43:27,302][INFO][is_hybird()] android.permission.READ_PHONE_STATE
+[INTERNAL_LOG][2018-06-07 21:43:27,302][INFO][is_hybird()] android.permission.READ_CONTACTS
+[INTERNAL_LOG][2018-06-07 21:43:27,302][INFO][is_hybird()] android.permission.WRITE_CONTACTS
+[INTERNAL_LOG][2018-06-07 21:43:27,302][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-07 21:43:27,302][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-07 21:43:27,302][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-07 21:43:27,302][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-07 21:43:27,302][INFO][is_hybird()] android.permission.CALL_PHONE
+[INTERNAL_LOG][2018-06-07 21:43:27,302][INFO][is_hybird()] android.permission.SEND_SMS
+[INTERNAL_LOG][2018-06-07 21:43:27,302][INFO][is_hybird()] android.permission.ACCESS_COARSE_LOCATION
+[INTERNAL_LOG][2018-06-07 21:43:27,302][INFO][is_hybird()] android.permission.RECEIVE_BOOT_COMPLETED
+[INTERNAL_LOG][2018-06-07 21:43:27,302][INFO][is_hybird()] android.permission.ACCESS_FINE_LOCATION
+[INTERNAL_LOG][2018-06-07 21:43:27,302][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-07 21:43:27,302][INFO][is_hybird()] android.permission.READ_CALL_LOG
+[INTERNAL_LOG][2018-06-07 21:43:27,302][INFO][is_hybird()] android.permission.PROCESS_OUTGOING_CALLS
+[INTERNAL_LOG][2018-06-07 21:43:27,302][INFO][is_hybird()] com.android.launcher.permission.INSTALL_SHORTCUT
+[INTERNAL_LOG][2018-06-07 21:43:27,302][INFO][is_hybird()] com.android.launcher.permission.UNINSTALL_SHORTCUT
+[INTERNAL_LOG][2018-06-07 21:43:27,302][INFO][is_hybird()] android.permission.CAMERA
+[INTERNAL_LOG][2018-06-07 21:43:27,302][INFO][is_hybird()] android.permission.WRITE_CALL_LOG
+[INTERNAL_LOG][2018-06-07 21:43:27,302][INFO][is_hybird()] android.permission.WRITE_SMS
+[INTERNAL_LOG][2018-06-07 21:43:27,302][INFO][is_hybird()] com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+[INTERNAL_LOG][2018-06-07 21:43:27,302][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-07 21:43:27,303][INFO][is_hybird()] Starting apktool
+[INTERNAL_LOG][2018-06-07 21:43:38,834][ERROR][is_hybird()] [ERROR file config.xmls] [Errno 2] No such file or directory: 'temp_dir/res/xml/config.xml' 
+
+[INTERNAL_LOG][2018-06-07 21:43:38,865][INFO][analyze_start()] TYPE APK: [HYBRID]
+
+[INTERNAL_LOG][2018-06-07 21:43:38,896][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-07 21:43:38,911][INFO][find_string()] File: assets/juspay/acs_blank.html
+[INTERNAL_LOG][2018-06-07 21:43:39,107][INFO][find_string()] No iframe in assets/juspay/acs_blank.html
+[INTERNAL_LOG][2018-06-07 21:43:39,122][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-07 21:44:22,250][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-07 21:44:22,250][INFO][find_url_in_apk()] http://hostname/
+http://one.airtel.in/myairtel/tnc_refer_friend.jsp
+https://api.razorpay.com/v1/
+https://api.razorpay.com/v1/payments/
+https://api.razorpay.com/v1/payments/
+https://cdn.razorpay.com/static/otpelf/
+http://www.w3.org/2000/09/xmldsig#
+http://www.w3.org/2000/09/xmldsig#
+http://www.w3.org/2000/09/xmldsig#
+http://www.w3.org/2000/09/xmldsig#
+http://www.w3.org/2000/09/xmldsig#
+http://www.w3.org/2000/09/xmldsig#
+http://www.w3.org/2000/09/xmldsig#
+http://www.w3.org/2000/09/xmldsig#
+http://www.w3.org/2000/09/xmldsig#
+http://www.w3.org/2000/09/xmldsig#
+http://www.w3.org/2000/09/xmldsig#
+http://www.w3.org/2000/09/xmldsig#
+http://www.w3.org/2000/09/xmldsig#
+http://www.w3.org/2000/09/xmldsig#
+http://www.w3.org/2000/09/xmldsig#
+http://www.w3.org/2000/09/xmldsig#
+https://settings.crashlytics.com/spi/v2/platforms/android/apps/%s/settings
+https://apiv2mumbai.moengage.com
+https://apiv2mumbai.moengage.com
+https://apiv2mumbai.moengage.com
+https://apiv2mumbai.moengage.com
+https://apiv2mumbai.moengage.com
+https://apiv2mumbai.moengage.com
+https://apiv2.moengage.com
+https://apiv2.moengage.com
+https://apiv2.moengage.com
+https://apiv2.moengage.com
+https://apiv2.moengage.com
+https://apiv2.moengage.com
+https://pay.airtel.in/red/r/
+http://s3-ap-southeast-1.amazonaws.com
+http://s3-ap-southeast-1.amazonaws.com
+http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+http://www.xmlsecurity.org/NS/#configuration
+http://www.xmlsecurity.org/NS/#configuration
+http://www.w3.org/2000/09/xmldsig#dsa-sha1
+http://www.w3.org/2000/xmlns/
+http://www.w3.org/2000/xmlns/
+http://www.w3.org/2000/xmlns/
+http://www.w3.org/2000/xmlns/
+http://www.w3.org/2000/xmlns/
+http://www.w3.org/2000/xmlns/
+http://www.w3.org/2000/xmlns/
+http://www.w3.org/2000/xmlns/
+http://www.w3.org/2000/xmlns/
+http://www.w3.org/2000/xmlns/
+http://www.w3.org/2000/xmlns/
+http://www.w3.org/2000/xmlns/
+http://www.w3.org/2000/xmlns/
+http://www.w3.org/XML/1998/namespace
+http://www.w3.org/XML/1998/namespace
+http://www.w3.org/XML/1998/namespace
+http://www.w3.org/XML/1998/namespace
+http://www.w3.org/XML/1998/namespace
+http://www.w3.org/XML/1998/namespace
+http://www.w3.org/XML/1998/namespace
+http://www.w3.org/XML/1998/namespace
+http://www.w3.org/2001/10/xml-exc-c14n#
+http://www.w3.org/2001/10/xml-exc-c14n#
+http://www.w3.org/2001/10/xml-exc-c14n#
+http://www.w3.org/2001/10/xml-exc-c14n#
+http://www.w3.org/2001/10/xml-exc-c14n#
+http://www.w3.org/2002/06/xmldsig-filter2
+http://www.w3.org/2002/06/xmldsig-filter2
+http://www.w3.org/TR/2001/WD-xptr-20010108
+http://www.w3.org/1999/XSL/Transform
+http://javax.xml.XMLConstants/feature/secure-processing
+http://www.w3.org/2001/04/xmlenc#
+http://www.w3.org/2001/04/xmlenc#
+http://www.w3.org/2001/04/xmlenc#
+http://schemas.xmlsoap.org/soap/security/2000-12
+http://www.w3.org/2002/03/xkms#
+http://www.airtel.in
+https://www.airtel.in
+https://www.airtel.in
+https://e.crashlytics.com/spi/v2/events
+http://www.w3.org/2001/04/xmldsig-more#hmac-md5
+http://www.w3.org/2001/04/xmldsig-more#hmac-ripemd160
+http://www.w3.org/2000/09/xmldsig#hmac-sha1
+http://www.w3.org/2001/04/xmldsig-more#hmac-sha256
+http://www.w3.org/2001/04/xmldsig-more#hmac-sha384
+http://www.w3.org/2001/04/xmldsig-more#hmac-sha512
+http://www.w3.org/2001/04/xmldsig-more#rsa-md5
+http://www.w3.org/2001/04/xmldsig-more#rsa-ripemd160
+http://www.w3.org/2000/09/xmldsig#rsa-sha1
+http://www.w3.org/2001/04/xmldsig-more#rsa-sha256
+http://www.w3.org/2001/04/xmldsig-more#rsa-sha384
+http://www.w3.org/2001/04/xmldsig-more#rsa-sha512
+http://www.w3.org/2001/04/xmldsig-more#ecdsa-sha1
+http://www.w3.org/2006/12/xml-c14n11
+http://www.w3.org/2006/12/xml-c14n11
+http://www.w3.org/2000/09/xmldsig#Manifest
+http://www.w3.org/TR/2001/REC-xml-c14n-20010315
+http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments
+http://www.w3.org/2001/10/xml-exc-c14n#WithComments
+http://www.w3.org/2001/10/xml-exc-c14n#WithComments
+http://www.w3.org/2006/12/xml-c14n11#WithComments
+http://www.w3.org/2002/04/xmldsig-filter2
+http://www.nue.et-inf.uni-siegen.de/~geuer-pollmann/#xpathFilter
+http://nwexp.airtel.com:8081/leap/
+http://nwexp.airtel.com:8081/leap/
+http://acs.amazonaws.com/groups/global/AllUsers
+http://acs.amazonaws.com/groups/global/AuthenticatedUsers
+http://acs.amazonaws.com/groups/s3/LogDelivery
+https://validate.%s/api/v
+https://sdk-services.%s/validate-android-signature
+https://onelink.%s/shortlink-sdk/v1
+https://onelink.%s/shortlink-sdk/v1
+https://app.%s
+https://app.%s
+https://impression.%s
+https://monitorsdk.%s/remote-debug?app_id=
+https://analyticsapi.bsbportal.com/v1/collect/app
+https://graph.%s
+https://graph-video.%s
+https://facebook.com
+http://play.google.com/store/apps/details?id=com.facebook.orca
+https://app.airtelbank.com:5055/quickActions/androidImages/upi/
+https://maps.googleapis.com/maps/api/staticmap
+http://www.example.com
+http://www.example.com
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/sdk-core-v40-impl.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://csi.gstatic.com/csi
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/native_ads.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/native_ads.js
+https://imasdk.googleapis.com/admob/sdkloader/native_video.html
+https://www.google.com/dfp/linkDevice
+https://www.google.com/dfp/inAppPreview
+https://www.google.com/dfp/debugSignals
+https://www.google.com/dfp/sendDebugData
+https://plus.google.com/
+https://chatapi.moengage.com/v2/chat/sync
+https://webhook.logentries.com/noformat/logs/
+https://apiv3india.moengage.com
+https://apiv3.moengage.com
+https://app.airtelbank.com/icons/billers/
+http://s3-ap-southeast-1.amazonaws.com/myairtelapp/images/{density}/demo_rich_notification_banner.png
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+http://www.google.com
+https://pagead2.googlesyndication.com/pagead/gen_204
+https://support.google.com/dfp_premium/answer/7160685#push
+http://www.google-analytics.com
+https://ssl.google-analytics.com
+https://app-measurement.com/a
+https://www.google.com
+http://hostname/?
+http://hostname/?
+https://www.google-analytics.com
+https://nwexp.airtel.com/Ingress/records/open/mobile/create/
+https://pubads.g.doubleclick.net/activity;xsp=
+https://www.googleadservices.com/pagead/conversion/
+https://pubads.g.doubleclick.net/activity;dc_iu=
+http://plus.google.com/
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+https://api.%s/install_data/v3/
+https://attr.%s/api/v
+https://t.%s/api/v
+https://events.%s/api/v
+https://register.%s/api/v
+https://stats.%s/stats
+http://apiv2mumbai.moengage.com/v1/getAndroidInboxMessages
+http://api.moengage.com/v1/getAndroidInboxMessages
+http://one.airtel.in/myairtel/tnc100mb.jsp
+https://www.googleapis.com/auth/games_lite
+https://www.googleapis.com/auth/games
+
+[INTERNAL_LOG][2018-06-07 21:44:22,250][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-07 21:44:22,256][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-07 21:44:22,256][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-07 21:44:22,256][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-07 21:44:22,257][INFO][analyze_start()] End time:[Thu Jun  7 21:44:22 2018]

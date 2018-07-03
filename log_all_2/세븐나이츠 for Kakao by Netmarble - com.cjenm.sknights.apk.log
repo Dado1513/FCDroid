@@ -1,0 +1,251 @@
+[INTERNAL_LOG][2018-06-12 08:52:56,245][INFO][analyze_start()] Init Time [Tue Jun 12 08:52:56 2018]
+[INTERNAL_LOG][2018-06-12 08:52:56,359][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 08:52:56,360][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 08:52:56,360][INFO][is_hybird()] com.cjenm.sknights.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-12 08:52:56,360][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-12 08:52:56,360][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 08:52:56,360][INFO][is_hybird()] android.permission.CHANGE_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 08:52:56,360][INFO][is_hybird()] android.permission.CHANGE_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 08:52:56,360][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 08:52:56,360][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 08:52:56,360][INFO][is_hybird()] android.permission.SYSTEM_ALERT_WINDOW
+[INTERNAL_LOG][2018-06-12 08:52:56,360][INFO][is_hybird()] android.permission.GET_TASKS
+[INTERNAL_LOG][2018-06-12 08:52:56,360][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-12 08:52:56,360][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-12 08:52:56,360][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 08:52:56,360][INFO][is_hybird()] android.permission.READ_LOGS
+[INTERNAL_LOG][2018-06-12 08:52:56,360][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 08:52:56,360][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 08:52:56,361][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 08:52:56,361][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 08:52:56,361][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 08:52:56,361][INFO][find_string()] File: allclasses-frame.html
+[INTERNAL_LOG][2018-06-12 08:52:56,362][INFO][find_string()] No iframe in allclasses-frame.html
+[INTERNAL_LOG][2018-06-12 08:52:56,362][INFO][find_string()] File: allclasses-noframe.html
+[INTERNAL_LOG][2018-06-12 08:52:56,364][INFO][find_string()] No iframe in allclasses-noframe.html
+[INTERNAL_LOG][2018-06-12 08:52:56,364][INFO][find_string()] File: com/mobileapptracker/MATEncryption.html
+[INTERNAL_LOG][2018-06-12 08:52:56,374][INFO][find_string()] No iframe in com/mobileapptracker/MATEncryption.html
+[INTERNAL_LOG][2018-06-12 08:52:56,374][INFO][find_string()] File: com/mobileapptracker/MATEvent.html
+[INTERNAL_LOG][2018-06-12 08:52:56,480][INFO][find_string()] No iframe in com/mobileapptracker/MATEvent.html
+[INTERNAL_LOG][2018-06-12 08:52:56,480][INFO][find_string()] File: com/mobileapptracker/MATEventItem.html
+[INTERNAL_LOG][2018-06-12 08:52:56,493][INFO][find_string()] No iframe in com/mobileapptracker/MATEventItem.html
+[INTERNAL_LOG][2018-06-12 08:52:56,493][INFO][find_string()] File: com/mobileapptracker/MATEventQueue.Add.html
+[INTERNAL_LOG][2018-06-12 08:52:57,455][INFO][find_string()] No iframe in com/mobileapptracker/MATEventQueue.Add.html
+[INTERNAL_LOG][2018-06-12 08:52:57,455][INFO][find_string()] File: com/mobileapptracker/MATEventQueue.Dump.html
+[INTERNAL_LOG][2018-06-12 08:53:00,067][INFO][find_string()] No iframe in com/mobileapptracker/MATEventQueue.Dump.html
+[INTERNAL_LOG][2018-06-12 08:53:00,087][INFO][find_string()] File: com/mobileapptracker/MATEventQueue.html
+[INTERNAL_LOG][2018-06-12 08:53:03,175][INFO][find_string()] No iframe in com/mobileapptracker/MATEventQueue.html
+[INTERNAL_LOG][2018-06-12 08:53:03,195][INFO][find_string()] File: com/mobileapptracker/MATParameters.html
+[INTERNAL_LOG][2018-06-12 08:53:21,519][INFO][find_string()] No iframe in com/mobileapptracker/MATParameters.html
+[INTERNAL_LOG][2018-06-12 08:53:21,519][INFO][find_string()] File: com/mobileapptracker/MATPreloadData.html
+[INTERNAL_LOG][2018-06-12 08:53:21,538][INFO][find_string()] No iframe in com/mobileapptracker/MATPreloadData.html
+[INTERNAL_LOG][2018-06-12 08:53:21,538][INFO][find_string()] File: com/mobileapptracker/MATResponse.html
+[INTERNAL_LOG][2018-06-12 08:53:21,543][INFO][find_string()] No iframe in com/mobileapptracker/MATResponse.html
+[INTERNAL_LOG][2018-06-12 08:53:21,543][INFO][find_string()] File: com/mobileapptracker/MATTestRequest.html
+[INTERNAL_LOG][2018-06-12 08:53:21,547][INFO][find_string()] No iframe in com/mobileapptracker/MATTestRequest.html
+[INTERNAL_LOG][2018-06-12 08:53:21,547][INFO][find_string()] File: com/mobileapptracker/MobileAppTracker.html
+[INTERNAL_LOG][2018-06-12 08:53:21,599][INFO][find_string()] No iframe in com/mobileapptracker/MobileAppTracker.html
+[INTERNAL_LOG][2018-06-12 08:53:21,599][INFO][find_string()] File: com/mobileapptracker/Tracker.html
+[INTERNAL_LOG][2018-06-12 08:53:21,605][INFO][find_string()] No iframe in com/mobileapptracker/Tracker.html
+[INTERNAL_LOG][2018-06-12 08:53:21,605][INFO][find_string()] File: com/mobileapptracker/package-frame.html
+[INTERNAL_LOG][2018-06-12 08:53:21,606][INFO][find_string()] No iframe in com/mobileapptracker/package-frame.html
+[INTERNAL_LOG][2018-06-12 08:53:21,606][INFO][find_string()] File: com/mobileapptracker/package-summary.html
+[INTERNAL_LOG][2018-06-12 08:53:21,609][INFO][find_string()] No iframe in com/mobileapptracker/package-summary.html
+[INTERNAL_LOG][2018-06-12 08:53:21,609][INFO][find_string()] File: com/mobileapptracker/package-tree.html
+[INTERNAL_LOG][2018-06-12 08:53:21,614][INFO][find_string()] No iframe in com/mobileapptracker/package-tree.html
+[INTERNAL_LOG][2018-06-12 08:53:21,614][INFO][find_string()] File: com/tune/Tune.html
+[INTERNAL_LOG][2018-06-12 08:53:21,661][INFO][find_string()] No iframe in com/tune/Tune.html
+[INTERNAL_LOG][2018-06-12 08:53:21,661][INFO][find_string()] File: com/tune/TuneEncryption.html
+[INTERNAL_LOG][2018-06-12 08:53:21,670][INFO][find_string()] No iframe in com/tune/TuneEncryption.html
+[INTERNAL_LOG][2018-06-12 08:53:21,670][INFO][find_string()] File: com/tune/TuneEvent.html
+[INTERNAL_LOG][2018-06-12 08:53:21,692][INFO][find_string()] No iframe in com/tune/TuneEvent.html
+[INTERNAL_LOG][2018-06-12 08:53:21,692][INFO][find_string()] File: com/tune/TuneEventItem.html
+[INTERNAL_LOG][2018-06-12 08:53:21,703][INFO][find_string()] No iframe in com/tune/TuneEventItem.html
+[INTERNAL_LOG][2018-06-12 08:53:21,703][INFO][find_string()] File: com/tune/TuneEventQueue.Add.html
+[INTERNAL_LOG][2018-06-12 08:53:21,709][INFO][find_string()] No iframe in com/tune/TuneEventQueue.Add.html
+[INTERNAL_LOG][2018-06-12 08:53:21,709][INFO][find_string()] File: com/tune/TuneEventQueue.Dump.html
+[INTERNAL_LOG][2018-06-12 08:53:21,715][INFO][find_string()] No iframe in com/tune/TuneEventQueue.Dump.html
+[INTERNAL_LOG][2018-06-12 08:53:21,716][INFO][find_string()] File: com/tune/TuneEventQueue.html
+[INTERNAL_LOG][2018-06-12 08:53:21,723][INFO][find_string()] No iframe in com/tune/TuneEventQueue.html
+[INTERNAL_LOG][2018-06-12 08:53:21,723][INFO][find_string()] File: com/tune/TuneGender.html
+[INTERNAL_LOG][2018-06-12 08:53:21,730][INFO][find_string()] No iframe in com/tune/TuneGender.html
+[INTERNAL_LOG][2018-06-12 08:53:21,730][INFO][find_string()] File: com/tune/TuneInstallReceiver.html
+[INTERNAL_LOG][2018-06-12 08:53:21,736][INFO][find_string()] No iframe in com/tune/TuneInstallReceiver.html
+[INTERNAL_LOG][2018-06-12 08:53:21,736][INFO][find_string()] File: com/tune/TuneListener.html
+[INTERNAL_LOG][2018-06-12 08:53:21,742][INFO][find_string()] No iframe in com/tune/TuneListener.html
+[INTERNAL_LOG][2018-06-12 08:53:21,742][INFO][find_string()] File: com/tune/TuneParameters.html
+[INTERNAL_LOG][2018-06-12 08:53:21,783][INFO][find_string()] No iframe in com/tune/TuneParameters.html
+[INTERNAL_LOG][2018-06-12 08:53:21,783][INFO][find_string()] File: com/tune/TunePreloadData.html
+[INTERNAL_LOG][2018-06-12 08:53:21,801][INFO][find_string()] No iframe in com/tune/TunePreloadData.html
+[INTERNAL_LOG][2018-06-12 08:53:21,801][INFO][find_string()] File: com/tune/TuneTestRequest.html
+[INTERNAL_LOG][2018-06-12 08:53:21,806][INFO][find_string()] No iframe in com/tune/TuneTestRequest.html
+[INTERNAL_LOG][2018-06-12 08:53:21,806][INFO][find_string()] File: com/tune/TuneUser.html
+[INTERNAL_LOG][2018-06-12 08:53:21,820][INFO][find_string()] No iframe in com/tune/TuneUser.html
+[INTERNAL_LOG][2018-06-12 08:53:21,820][INFO][find_string()] File: com/tune/alliances/TuneAd.html
+[INTERNAL_LOG][2018-06-12 08:53:21,825][INFO][find_string()] No iframe in com/tune/alliances/TuneAd.html
+[INTERNAL_LOG][2018-06-12 08:53:21,825][INFO][find_string()] File: com/tune/alliances/TuneAdActivity.html
+[INTERNAL_LOG][2018-06-12 08:53:21,846][INFO][find_string()] No iframe in com/tune/alliances/TuneAdActivity.html
+[INTERNAL_LOG][2018-06-12 08:53:21,847][INFO][find_string()] File: com/tune/alliances/TuneAdClient.html
+[INTERNAL_LOG][2018-06-12 08:53:21,856][INFO][find_string()] No iframe in com/tune/alliances/TuneAdClient.html
+[INTERNAL_LOG][2018-06-12 08:53:21,856][INFO][find_string()] File: com/tune/alliances/TuneAdCommon.html
+[INTERNAL_LOG][2018-06-12 08:53:21,867][INFO][find_string()] No iframe in com/tune/alliances/TuneAdCommon.html
+[INTERNAL_LOG][2018-06-12 08:53:21,867][INFO][find_string()] File: com/tune/alliances/TuneAdListener.html
+[INTERNAL_LOG][2018-06-12 08:53:21,874][INFO][find_string()] No iframe in com/tune/alliances/TuneAdListener.html
+[INTERNAL_LOG][2018-06-12 08:53:21,874][INFO][find_string()] File: com/tune/alliances/TuneAdOrientation.html
+[INTERNAL_LOG][2018-06-12 08:53:21,882][INFO][find_string()] No iframe in com/tune/alliances/TuneAdOrientation.html
+[INTERNAL_LOG][2018-06-12 08:53:21,882][INFO][find_string()] File: com/tune/alliances/TuneAdParams.html
+[INTERNAL_LOG][2018-06-12 08:53:21,889][INFO][find_string()] No iframe in com/tune/alliances/TuneAdParams.html
+[INTERNAL_LOG][2018-06-12 08:53:21,889][INFO][find_string()] File: com/tune/alliances/TuneAdRequest.html
+[INTERNAL_LOG][2018-06-12 08:53:21,905][INFO][find_string()] No iframe in com/tune/alliances/TuneAdRequest.html
+[INTERNAL_LOG][2018-06-12 08:53:21,905][INFO][find_string()] File: com/tune/alliances/TuneAdSize.html
+[INTERNAL_LOG][2018-06-12 08:53:21,914][INFO][find_string()] No iframe in com/tune/alliances/TuneAdSize.html
+[INTERNAL_LOG][2018-06-12 08:53:21,915][INFO][find_string()] File: com/tune/alliances/TuneAdView.html
+[INTERNAL_LOG][2018-06-12 08:53:21,922][INFO][find_string()] No iframe in com/tune/alliances/TuneAdView.html
+[INTERNAL_LOG][2018-06-12 08:53:21,922][INFO][find_string()] File: com/tune/alliances/TuneBanner.html
+[INTERNAL_LOG][2018-06-12 08:53:21,955][INFO][find_string()] No iframe in com/tune/alliances/TuneBanner.html
+[INTERNAL_LOG][2018-06-12 08:53:21,955][INFO][find_string()] File: com/tune/alliances/TuneBannerPosition.html
+[INTERNAL_LOG][2018-06-12 08:53:21,962][INFO][find_string()] No iframe in com/tune/alliances/TuneBannerPosition.html
+[INTERNAL_LOG][2018-06-12 08:53:21,962][INFO][find_string()] File: com/tune/alliances/TuneInterstitial.html
+[INTERNAL_LOG][2018-06-12 08:53:21,973][INFO][find_string()] No iframe in com/tune/alliances/TuneInterstitial.html
+[INTERNAL_LOG][2018-06-12 08:53:21,973][INFO][find_string()] File: com/tune/alliances/TuneStageSSLSocketFactory.html
+[INTERNAL_LOG][2018-06-12 08:53:21,981][INFO][find_string()] No iframe in com/tune/alliances/TuneStageSSLSocketFactory.html
+[INTERNAL_LOG][2018-06-12 08:53:21,981][INFO][find_string()] File: com/tune/alliances/package-frame.html
+[INTERNAL_LOG][2018-06-12 08:53:21,983][INFO][find_string()] No iframe in com/tune/alliances/package-frame.html
+[INTERNAL_LOG][2018-06-12 08:53:21,983][INFO][find_string()] File: com/tune/alliances/package-summary.html
+[INTERNAL_LOG][2018-06-12 08:53:21,987][INFO][find_string()] No iframe in com/tune/alliances/package-summary.html
+[INTERNAL_LOG][2018-06-12 08:53:21,987][INFO][find_string()] File: com/tune/alliances/package-tree.html
+[INTERNAL_LOG][2018-06-12 08:53:21,992][INFO][find_string()] No iframe in com/tune/alliances/package-tree.html
+[INTERNAL_LOG][2018-06-12 08:53:21,992][INFO][find_string()] File: com/tune/package-frame.html
+[INTERNAL_LOG][2018-06-12 08:53:21,993][INFO][find_string()] No iframe in com/tune/package-frame.html
+[INTERNAL_LOG][2018-06-12 08:53:21,993][INFO][find_string()] File: com/tune/package-summary.html
+[INTERNAL_LOG][2018-06-12 08:53:21,998][INFO][find_string()] No iframe in com/tune/package-summary.html
+[INTERNAL_LOG][2018-06-12 08:53:21,998][INFO][find_string()] File: com/tune/package-tree.html
+[INTERNAL_LOG][2018-06-12 08:53:22,002][INFO][find_string()] No iframe in com/tune/package-tree.html
+[INTERNAL_LOG][2018-06-12 08:53:22,002][INFO][find_string()] File: constant-values.html
+[INTERNAL_LOG][2018-06-12 08:53:22,009][INFO][find_string()] No iframe in constant-values.html
+[INTERNAL_LOG][2018-06-12 08:53:22,009][INFO][find_string()] File: deprecated-list.html
+[INTERNAL_LOG][2018-06-12 08:53:22,011][INFO][find_string()] No iframe in deprecated-list.html
+[INTERNAL_LOG][2018-06-12 08:53:22,011][INFO][find_string()] File: help-doc.html
+[INTERNAL_LOG][2018-06-12 08:53:22,015][INFO][find_string()] No iframe in help-doc.html
+[INTERNAL_LOG][2018-06-12 08:53:22,016][INFO][find_string()] File: index-all.html
+[INTERNAL_LOG][2018-06-12 08:53:22,607][INFO][find_string()] No iframe in index-all.html
+[INTERNAL_LOG][2018-06-12 08:53:22,608][INFO][find_string()] File: index.html
+[INTERNAL_LOG][2018-06-12 08:53:22,608][INFO][find_string()] No iframe in index.html
+[INTERNAL_LOG][2018-06-12 08:53:22,608][INFO][find_string()] File: overview-frame.html
+[INTERNAL_LOG][2018-06-12 08:53:22,609][INFO][find_string()] No iframe in overview-frame.html
+[INTERNAL_LOG][2018-06-12 08:53:22,609][INFO][find_string()] File: overview-summary.html
+[INTERNAL_LOG][2018-06-12 08:53:22,612][INFO][find_string()] No iframe in overview-summary.html
+[INTERNAL_LOG][2018-06-12 08:53:22,612][INFO][find_string()] File: overview-tree.html
+[INTERNAL_LOG][2018-06-12 08:53:22,615][INFO][find_string()] No iframe in overview-tree.html
+[INTERNAL_LOG][2018-06-12 08:53:22,615][INFO][find_string()] File: serialized-form.html
+[INTERNAL_LOG][2018-06-12 08:53:22,620][INFO][find_string()] No iframe in serialized-form.html
+[INTERNAL_LOG][2018-06-12 08:53:22,620][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 08:53:22,620][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 08:53:22,620][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 08:53:23,389][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 08:53:23,389][INFO][find_url_in_apk()] https://accounts.google.com
+https://www.facebook.com
+https://www.googleapis.com/auth/plus.me
+https://www.googleapis.com/auth/plus.me
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games
+http://plus.google.com/
+https://www.googleapis.com/auth/drive.file
+https://www.googleapis.com/auth/drive.appdata
+https://www.googleapis.com/auth/drive
+https://www.googleapis.com/auth/drive.apps
+https://www.googleapis.com/auth/games.firstparty
+https://www.googleapis.com/auth/games.firstparty
+http://www.example.com
+http://www.example.com
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://csi.gstatic.com/csi
+https://sb-ssl.google.com/safebrowsing/clientreport/malware
+https://pagead2.googlesyndication.com/pagead/gen_204
+http://www.google.com
+https://www.googleapis.com/auth/plus.login
+http://schemas.android.com/apk/lib/com.google.android.gms.plus
+http://schemas.android.com/apk/lib/com.google.android.gms.plus
+http://referrer.ad-brix.com?
+http://api.ad-brix.com/v1/
+http://api.ad-brix.com/v1/
+https://api.kakao.com/v1
+https://alpha-api.kakao.com/v1
+https://sandbox-api.kakao.com/v1
+https://beta-api.kakao.com/v1
+https://auth.kakao.com
+https://alpha-auth.kakao.com
+https://sandbox-auth.kakao.com
+https://beta-auth.kakao.com
+https://gameapi.kakao.com
+https://alpha-gameapi.kakao.com
+https://sandbox-gameapi.kakao.com
+https://beta-gameapi.kakao.com
+http://gc.kakaocdn.net/dn
+http://alpha-api1-kage.kakao.com/dn
+https://up.api1.kage.kakao.com
+https://vega001.kr.iwilab.com
+https://up-m-story.kakao.com
+http://alpha-api1-kage.kakao.com
+https://sandbox-api-up-m-story.kakao.com
+http://api-playgame.kakao.com/v1
+http://alpha-api-playgame.kakao.com/v1
+http://beta-api-playgame.kakao.com/v1
+https://auth.kakao.com/apps/client_setting.html
+https://mobileapi.netmarble.com/v2/commonCs/getKey
+http://receiverewardok
+http://receiverewardok
+http://receiverewardok
+http://receiverewardok
+http://receiverewardok
+http://receiverewardok
+http://receiverewardok
+http://receiverewardok
+http://receiverewardok
+http://receiveRewardOk
+http://receiveRewardOk
+http://receiveRewardOk
+http://receiveRewardOk
+http://receiveRewardOk
+http://receiveRewardOk
+http://receiveRewardOk
+http://receiveRewardOk
+http://receiveRewardOk
+http://sdk.cashslide.co.kr/click_infos_sdk_with_google_ad_id
+http://sdk.cashslide.co.kr/click_infos_sdk_with_google_ad_id
+https://graph.facebook.com/%s/picture?type=%s
+https://graph.facebook.com/%s/picture?type=%s
+https://graph.facebook.com/%s/picture?type=%s
+https://graph.facebook.com/%s/picture?type=%s
+https://graph.facebook.com/%s/picture?type=%s
+https://graph.facebook.com/%s/picture?type=%s
+http://mobileapi.netmarble.com/v2/commonCs/getKey
+http://dev-netmarbleslog.netmarble.net/
+http://netmarbleslog.netmarble.net/
+http://front.netmarble.com
+https://cpdev-nmbillgw.netmarble.com
+https://nmbillgw.netmarble.com
+https://cpdev-nmfraud.netmarble.com/refund/main
+https://nmfraud.netmarble.com/refund/main
+http://sknights.gcdn.netmarble.com/sknights
+http://7knights.img.mcdn.netmarble.kr/7knights
+https://g.kakao.com/v1/d_apps/LZJE228B3pON?update=latest
+http://m.netmarble.net/smart?market=google&platform=kakao
+http://api2.ad-brix.com/v1/
+http://session-api.netmarble.com
+
+[INTERNAL_LOG][2018-06-12 08:53:23,389][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 08:53:23,394][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 08:53:23,394][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 08:53:23,394][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 08:53:23,394][INFO][analyze_start()] End time:[Tue Jun 12 08:53:23 2018]

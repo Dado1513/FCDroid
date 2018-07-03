@@ -1,0 +1,264 @@
+[INTERNAL_LOG][2018-06-12 08:54:42,958][INFO][analyze_start()] Init Time [Tue Jun 12 08:54:42 2018]
+[INTERNAL_LOG][2018-06-12 08:54:43,143][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 08:54:43,145][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 08:54:43,145][INFO][is_hybird()] android.permission.RECORD_AUDIO
+[INTERNAL_LOG][2018-06-12 08:54:43,145][INFO][is_hybird()] android.permission.CAMERA
+[INTERNAL_LOG][2018-06-12 08:54:43,145][INFO][is_hybird()] android.permission.MODIFY_AUDIO_SETTINGS
+[INTERNAL_LOG][2018-06-12 08:54:43,145][INFO][is_hybird()] android.permission.RECEIVE_SMS
+[INTERNAL_LOG][2018-06-12 08:54:43,145][INFO][is_hybird()] com.android.launcher.permission.INSTALL_SHORTCUT
+[INTERNAL_LOG][2018-06-12 08:54:43,145][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-12 08:54:43,145][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 08:54:43,145][INFO][is_hybird()] android.permission.ACCESS_COARSE_LOCATION
+[INTERNAL_LOG][2018-06-12 08:54:43,145][INFO][is_hybird()] android.permission.ACCESS_FINE_LOCATION
+[INTERNAL_LOG][2018-06-12 08:54:43,145][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 08:54:43,145][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 08:54:43,145][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-12 08:54:43,146][INFO][is_hybird()] android.permission.READ_PHONE_STATE
+[INTERNAL_LOG][2018-06-12 08:54:43,146][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 08:54:43,146][INFO][is_hybird()] android.permission.AUTHENTICATE_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 08:54:43,146][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 08:54:43,146][INFO][is_hybird()] android.permission.MANAGE_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 08:54:43,146][INFO][is_hybird()] android.permission.READ_SYNC_SETTINGS
+[INTERNAL_LOG][2018-06-12 08:54:43,146][INFO][is_hybird()] android.permission.WRITE_SYNC_SETTINGS
+[INTERNAL_LOG][2018-06-12 08:54:43,146][INFO][is_hybird()] android.permission.READ_CONTACTS
+[INTERNAL_LOG][2018-06-12 08:54:43,146][INFO][is_hybird()] android.permission.WRITE_CONTACTS
+[INTERNAL_LOG][2018-06-12 08:54:43,146][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 08:54:43,146][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 08:54:43,146][INFO][is_hybird()] com.vkontakte.android.permission.MAPS_RECEIVE
+[INTERNAL_LOG][2018-06-12 08:54:43,146][INFO][is_hybird()] com.google.android.providers.gsf.permission.READ_GSERVICES
+[INTERNAL_LOG][2018-06-12 08:54:43,146][INFO][is_hybird()] com.vkontakte.android.permission.ACCESS_DATA
+[INTERNAL_LOG][2018-06-12 08:54:43,146][INFO][is_hybird()] android.permission.NFC
+[INTERNAL_LOG][2018-06-12 08:54:43,146][INFO][is_hybird()] android.permission.SYSTEM_ALERT_WINDOW
+[INTERNAL_LOG][2018-06-12 08:54:43,146][INFO][is_hybird()] android.permission.BLUETOOTH
+[INTERNAL_LOG][2018-06-12 08:54:43,146][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-12 08:54:43,146][INFO][is_hybird()] com.sec.android.provider.badge.permission.READ
+[INTERNAL_LOG][2018-06-12 08:54:43,146][INFO][is_hybird()] com.sec.android.provider.badge.permission.WRITE
+[INTERNAL_LOG][2018-06-12 08:54:43,146][INFO][is_hybird()] com.htc.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 08:54:43,147][INFO][is_hybird()] com.htc.launcher.permission.UPDATE_SHORTCUT
+[INTERNAL_LOG][2018-06-12 08:54:43,147][INFO][is_hybird()] com.sonyericsson.home.permission.BROADCAST_BADGE
+[INTERNAL_LOG][2018-06-12 08:54:43,147][INFO][is_hybird()] com.sonymobile.home.permission.PROVIDER_INSERT_BADGE
+[INTERNAL_LOG][2018-06-12 08:54:43,147][INFO][is_hybird()] com.anddoes.launcher.permission.UPDATE_COUNT
+[INTERNAL_LOG][2018-06-12 08:54:43,147][INFO][is_hybird()] com.majeur.launcher.permission.UPDATE_BADGE
+[INTERNAL_LOG][2018-06-12 08:54:43,147][INFO][is_hybird()] com.huawei.android.launcher.permission.CHANGE_BADGE
+[INTERNAL_LOG][2018-06-12 08:54:43,147][INFO][is_hybird()] com.huawei.android.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 08:54:43,147][INFO][is_hybird()] com.huawei.android.launcher.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 08:54:43,147][INFO][is_hybird()] android.permission.READ_APP_BADGE
+[INTERNAL_LOG][2018-06-12 08:54:43,147][INFO][is_hybird()] com.oppo.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 08:54:43,147][INFO][is_hybird()] com.oppo.launcher.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 08:54:43,147][INFO][is_hybird()] me.everything.badger.permission.BADGE_COUNT_READ
+[INTERNAL_LOG][2018-06-12 08:54:43,147][INFO][is_hybird()] me.everything.badger.permission.BADGE_COUNT_WRITE
+[INTERNAL_LOG][2018-06-12 08:54:43,147][INFO][is_hybird()] com.vkontakte.android.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-12 08:54:43,147][INFO][is_hybird()] com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+[INTERNAL_LOG][2018-06-12 08:54:43,147][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 08:54:43,147][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 08:54:43,147][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 08:54:43,147][INFO][find_string()] File: assets/license.html
+[INTERNAL_LOG][2018-06-12 08:54:43,154][INFO][find_string()] No iframe in assets/license.html
+[INTERNAL_LOG][2018-06-12 08:54:43,183][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 08:54:43,209][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 08:54:43,219][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 08:56:09,367][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 08:56:09,367][INFO][find_url_in_apk()] http://schemas.android.com/apk/res/android
+https://graph.%s
+https://graph-video.%s
+https://facebook.com
+https://facebook.com/device?user_code=%1$s&qr=1
+http://www.android.com/
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+https://accounts.google.com
+https://www.facebook.com
+https://accounts.google.com/o/oauth2/revoke?token=
+https://plus.google.com/
+https://vk.com/images/stickers
+http://vk.com/images/stickers
+https://vk.com/images/store/stickers
+http://vk.com/images/store/stickers
+http://play.google.com/store/apps/details?id=
+http://play.google.com/store/apps/details?id=
+http://play.google.com/store/apps/details?id=
+http://play.google.com/store/apps/details?id=
+https://trk.mail.ru/c/
+https://vk.com/im?sel=%d&msgid=%d
+https://vk.com/
+https://vk.com/
+https://vk.com/
+https://vk.com/
+https://vk.com/
+https://vk.com/
+https://vk.com/
+https://vk.com/story
+https://vk.com/story
+https://vk.com/story
+https://vk.com/story
+https://vk.com/video
+https://vk.com/video
+https://vk.com/video
+https://vk.com/video
+https://vk.com/video
+https://vk.com/video
+http://maps.googleapis.com/maps/api/staticmap?center=%1$s,%2$s&zoom=16&size=%5$dx%6$d&sensor=false&scale=%3$d&language=%4$s
+http://maps.googleapis.com/maps/api/staticmap?center=%1$s,%2$s&zoom=%7$d&size=%5$dx%6$d&sensor=false&scale=%3$d&language=%4$s
+http://maps.googleapis.com/maps/api/staticmap?
+http://schemas.microsoft.com/DRM/2007/03/protocols/AcquireLicense
+https://maps.googleapis.com/maps/api/staticmap?center=
+https://maps.googleapis.com/maps/api/staticmap?center=
+http://api.vigo.ru/uxzoom/2/notify
+http://api.vigo.ru/uxzoom/2/notify
+http://hostname/?
+http://hostname/?
+http://www.w3.org/ns/ttml#parameter
+https://www.googleapis.com/auth/games_lite
+https://www.googleapis.com/auth/games
+https://pagead2.googlesyndication.com/pagead/gen_204
+http://www.google.com
+https://support.google.com/dfp_premium/answer/7160685#push
+http://www.google-analytics.com
+https://ssl.google-analytics.com
+https://app-measurement.com/a
+http://www.example.com
+http://www.example.com
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/sdk-core-v40-impl.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://csi.gstatic.com/csi
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/native_ads.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/native_ads.js
+https://imasdk.googleapis.com/admob/sdkloader/native_video.html
+https://www.google.com/dfp/linkDevice
+https://www.google.com/dfp/inAppPreview
+https://www.google.com/dfp/debugSignals
+https://www.google.com/dfp/sendDebugData
+https://www.googletagmanager.com
+https://www.youtube.com/playlist?list=
+https://www.youtube.com/playlist?list=
+https://www.youtube.com/channel/
+https://www.youtube.com/channel/
+https://www.youtube.com/watch?v=
+https://www.youtube.com/watch?v=
+https://www.youtube.com/user/
+https://www.youtube.com/user/
+http://play.google.com/store/apps/details
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+https://target.my.com/
+http://play.google.com
+https://play.google.com
+http://market.android.com
+https://market.android.com
+https://tracker-api.my.com/v2/
+https://tracker-api.my.com/v2/
+https://api.twitter.com
+https://vk.com/android_app
+https://m.vk.com/privacy
+https://m.vk.com/terms
+https://m.vk.com/privacy/cookies
+https://vk.com/join
+http://vk.qwe
+https://vk.com/ping.txt
+https://vk.com/ping.txt
+https://vk.com/ping.txt
+https://vk.com/ping.txt
+https://m.vk.com
+https://m.vk.com
+https://vk.com/images/all_emoji/images_
+https://api.vk.com/
+https://web-view.vkpay.io
+https://web-view.vkpay.io
+https://oauth.vk.com/blank.html
+https://oauth.vk.com/blank.html
+https://oauth.vk.com/blank.html
+https://oauth.vk.com/authorize
+https://oauth.vk.com/authorize
+https://syndication.twitter.com
+https://www.google.com
+https://www.google.com/m8/feeds/contacts/
+https://vk.com
+https://vk.com
+https://vk.com
+https://play.google.com/store/apps/details?id=com.google.android.gms
+https://vk.com/market?w=product
+https://vk.com/audios
+https://vk.com/wall
+https://vk.com/wall
+https://vk.com/images/camera_400.png
+https://vk.com/doc
+https://vk.com/doc
+http://vk.com/doc
+https://vk.com/app
+https://vk.com/app
+https://vk.com/app
+https://my.com/?
+https://vk.com/photo
+https://vk.com/photo
+https://play.google.com/store/apps/details?id=com.google.android.apps.maps
+https://play.google.com/store/apps/details?id=com.google.android.apps.maps
+https://m.vk.com/
+https://m.vk.com/
+http://api.vigo.ru/uxzoom/2/network_status
+https://vkontakte.ru
+http://vkontakte.ru/images/question_c.gif
+http://vkontakte.ru/images/question_c.gif
+http://vkontakte.ru/images/question_c.gif
+http://vkontakte.ru/images/question_c.gif
+http://vkontakte.ru/images/question_c.gif
+http://vkontakte.ru/images/question_c.gif
+https://vk.com/images/stickers/%s/256b.png#stick
+http://www.donationalerts.ru/donation/response/moneymailru/success
+https://www.donationalerts.ru/donation/response/moneymailru/success
+http://play.google.com/store/apps/details?id=com.vk.stream
+https://settings.crashlytics.com/spi/v2/platforms/android/apps/%s/settings
+https://sdk.hockeyapp.net/
+https://sdk.hockeyapp.net/
+https://sdk.hockeyapp.net/
+https://sdk.hockeyapp.net/
+https://clientapi.mail.ru/
+https://clientapi.mail.ru/
+https://connect.ok.ru/dk?st.cmd=
+https://ok.ru/oauth/authorize?client_id=%s&response_type=token&redirect_uri=%s&layout=m
+http://api.ok.ru/fb.do
+http://vk.com/images/camera_c.gif
+https://m.vk.com/attachments?act=attach_money_about&from_client=1&lang=
+https://m.vk.com/landings/moneysend?lang=
+https://vk.com/id
+https://static.vk.com/demo
+https://m.vk.com/privacy?api_view=1&cc=%s&lang=%s
+https://m.vk.com/terms?api_view=1&cc=%s&lang=%s
+https://vk.com/videos
+https://e.crashlytics.com/spi/v2/events
+http://vk.com/images/question_a.gif
+https://vkontakte.ru/id
+https://vkontakte.ru/wall
+http://vk.com/images/lnkinner
+http://vk.com/images/lnkinner
+http://vk.com/images/lnkinner
+http://vk.com/images/lnkouter
+http://vk.com/images/lnkouter
+http://vk.com/images/lnkouter
+https://vk.com/source/masks/android_model.zip
+https://oauth.vk.com
+http://vk.com/images/x_null.gif
+https://vk.com/album
+https://vk.com/album
+https://vk.com/app6468267_
+https://vk.com/app6468267_
+https://vk.com/market
+http://instagram.com/_u/
+http://instagram.com/
+http://twitter.com/
+http://facebook.com/profile.php?id=
+http://vk.com/images/contact_50.gif
+http://vk.com/images/blank.gif
+http://m.vk.com/counters.php
+
+[INTERNAL_LOG][2018-06-12 08:56:09,367][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 08:56:09,374][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 08:56:09,374][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 08:56:09,374][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 08:56:09,374][INFO][analyze_start()] End time:[Tue Jun 12 08:56:09 2018]

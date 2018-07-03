@@ -1,0 +1,547 @@
+[INTERNAL_LOG][2018-06-08 01:12:08,126][INFO][analyze_start()] Init Time [Fri Jun  8 01:12:08 2018]
+[INTERNAL_LOG][2018-06-08 01:12:08,233][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-08 01:12:08,233][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-08 01:12:08,233][INFO][is_hybird()] android.permission.BLUETOOTH
+[INTERNAL_LOG][2018-06-08 01:12:08,234][INFO][is_hybird()] android.permission.BLUETOOTH_ADMIN
+[INTERNAL_LOG][2018-06-08 01:12:08,234][INFO][is_hybird()] android.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-08 01:12:08,234][INFO][is_hybird()] android.permission.ACCESS_COARSE_LOCATION
+[INTERNAL_LOG][2018-06-08 01:12:08,234][INFO][is_hybird()] android.permission.ACCESS_FINE_LOCATION
+[INTERNAL_LOG][2018-06-08 01:12:08,234][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-08 01:12:08,234][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-08 01:12:08,234][INFO][is_hybird()] android.permission.READ_PHONE_STATE
+[INTERNAL_LOG][2018-06-08 01:12:08,234][INFO][is_hybird()] android.permission.CAMERA
+[INTERNAL_LOG][2018-06-08 01:12:08,234][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-08 01:12:08,234][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-08 01:12:08,234][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-08 01:12:08,234][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-08 01:12:08,234][INFO][is_hybird()] android.permission.PERSISTENT_ACTIVITY
+[INTERNAL_LOG][2018-06-08 01:12:08,234][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-08 01:12:08,234][INFO][is_hybird()] android.permission.CHANGE_WIFI_STATE
+[INTERNAL_LOG][2018-06-08 01:12:08,234][INFO][is_hybird()] android.permission.READ_LOGS
+[INTERNAL_LOG][2018-06-08 01:12:08,234][INFO][is_hybird()] com.android.browser.permission.READ_HISTORY_BOOKMARKS
+[INTERNAL_LOG][2018-06-08 01:12:08,234][INFO][is_hybird()] com.android.launcher.permission.INSTALL_SHORTCUT
+[INTERNAL_LOG][2018-06-08 01:12:08,234][INFO][is_hybird()] com.android.launcher.permission.UNINSTALL_SHORTCUT
+[INTERNAL_LOG][2018-06-08 01:12:08,234][INFO][is_hybird()] android.permission.RECORD_AUDIO
+[INTERNAL_LOG][2018-06-08 01:12:08,234][INFO][is_hybird()] android.permission.GET_PACKAGE_SIZE
+[INTERNAL_LOG][2018-06-08 01:12:08,235][INFO][is_hybird()] com.android.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-08 01:12:08,235][INFO][is_hybird()] com.htc.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-08 01:12:08,235][INFO][is_hybird()] com.sec.android.app.twlauncher.READ_SETTINGS
+[INTERNAL_LOG][2018-06-08 01:12:08,235][INFO][is_hybird()] org.adw.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-08 01:12:08,235][INFO][is_hybird()] org.adwfreak.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-08 01:12:08,235][INFO][is_hybird()] com.gau.go.launcherex.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-08 01:12:08,235][INFO][is_hybird()] com.fede.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-08 01:12:08,235][INFO][is_hybird()] com.oppo.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-08 01:12:08,235][INFO][is_hybird()] com.nd.android.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-08 01:12:08,235][INFO][is_hybird()] com.android.mylauncher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-08 01:12:08,235][INFO][is_hybird()] com.huawei.android.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-08 01:12:08,235][INFO][is_hybird()] com.huawei.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-08 01:12:08,235][INFO][is_hybird()] com.mx.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-08 01:12:08,235][INFO][is_hybird()] com.android.launcher3.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-08 01:12:08,235][INFO][is_hybird()] com.google.android.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-08 01:12:08,235][INFO][is_hybird()] net.qihoo.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-08 01:12:08,235][INFO][is_hybird()] com.qihoo360.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-08 01:12:08,235][INFO][is_hybird()] com.lge.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-08 01:12:08,235][INFO][is_hybird()] org.adw.launcher_donut.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-08 01:12:08,235][INFO][is_hybird()] com.huawei.launcher2.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-08 01:12:08,235][INFO][is_hybird()] com.huawei.launcher3.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-08 01:12:08,235][INFO][is_hybird()] com.anddoes.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-08 01:12:08,235][INFO][is_hybird()] com.tencent.qqlauncher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-08 01:12:08,235][INFO][is_hybird()] com.android.mylauncher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-08 01:12:08,235][INFO][is_hybird()] android.permission.GET_TASKS
+[INTERNAL_LOG][2018-06-08 01:12:08,236][INFO][is_hybird()] android.permission.SYSTEM_ALERT_WINDOW
+[INTERNAL_LOG][2018-06-08 01:12:08,236][INFO][is_hybird()] android.permission.SET_WALLPAPER
+[INTERNAL_LOG][2018-06-08 01:12:08,236][INFO][is_hybird()] android.permission.EXPAND_STATUS_BAR
+[INTERNAL_LOG][2018-06-08 01:12:08,236][INFO][is_hybird()] android.permission.CHANGE_NETWORK_STATE
+[INTERNAL_LOG][2018-06-08 01:12:08,236][INFO][is_hybird()] android.permission.INTERACT_ACROSS_USERS_FULL
+[INTERNAL_LOG][2018-06-08 01:12:08,236][INFO][is_hybird()] android.permission.DISABLE_KEYGUARD
+[INTERNAL_LOG][2018-06-08 01:12:08,236][INFO][is_hybird()] android.permission.READ_SYNC_STATS
+[INTERNAL_LOG][2018-06-08 01:12:08,236][INFO][is_hybird()] android.permission.AUTHENTICATE_ACCOUNTS
+[INTERNAL_LOG][2018-06-08 01:12:08,236][INFO][is_hybird()] android.permission.WRITE_SYNC_SETTINGS
+[INTERNAL_LOG][2018-06-08 01:12:08,236][INFO][is_hybird()] com.UCMobile.intl.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-08 01:12:08,236][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-08 01:12:08,236][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-08 01:12:08,236][INFO][is_hybird()] android.permission.RECEIVE_BOOT_COMPLETED
+[INTERNAL_LOG][2018-06-08 01:12:08,236][INFO][is_hybird()] android.permission.KILL_BACKGROUND_PROCESSES
+[INTERNAL_LOG][2018-06-08 01:12:08,236][INFO][is_hybird()] android.permission.SET_WALLPAPER_HINTS
+[INTERNAL_LOG][2018-06-08 01:12:08,236][INFO][is_hybird()] android.permission.ACCESS_BLUETOOTH_SHARE
+[INTERNAL_LOG][2018-06-08 01:12:08,236][INFO][is_hybird()] android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+[INTERNAL_LOG][2018-06-08 01:12:08,236][INFO][is_hybird()] android.permission.MODIFY_AUDIO_SETTINGS
+[INTERNAL_LOG][2018-06-08 01:12:08,236][INFO][is_hybird()] android.permission.CLEAR_APP_CACHE
+[INTERNAL_LOG][2018-06-08 01:12:08,236][INFO][is_hybird()] android.permission.PACKAGE_USAGE_STATS
+[INTERNAL_LOG][2018-06-08 01:12:08,236][INFO][is_hybird()] android.permission.CHANGE_WIFI_MULTICAST_STATE
+[INTERNAL_LOG][2018-06-08 01:12:08,236][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-08 01:12:08,236][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-08 01:12:08,236][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-08 01:12:08,236][INFO][find_string()] File: assets/my_video.html
+[INTERNAL_LOG][2018-06-08 01:12:08,239][INFO][find_string()] No iframe in assets/my_video.html
+[INTERNAL_LOG][2018-06-08 01:12:08,239][INFO][find_string()] File: assets/background_demo.html
+[INTERNAL_LOG][2018-06-08 01:12:08,241][INFO][find_string()] No iframe in assets/background_demo.html
+[INTERNAL_LOG][2018-06-08 01:12:08,241][INFO][find_string()] File: res/raw/nodomain.html
+[INTERNAL_LOG][2018-06-08 01:12:08,242][INFO][find_string()] No iframe in res/raw/nodomain.html
+[INTERNAL_LOG][2018-06-08 01:12:08,242][INFO][find_string()] File: res/raw/env_debug.html
+[INTERNAL_LOG][2018-06-08 01:12:08,243][INFO][find_string()] No iframe in res/raw/env_debug.html
+[INTERNAL_LOG][2018-06-08 01:12:08,243][INFO][find_string()] File: res/raw/sysdata_debug.html
+[INTERNAL_LOG][2018-06-08 01:12:08,245][INFO][find_string()] No iframe in res/raw/sysdata_debug.html
+[INTERNAL_LOG][2018-06-08 01:12:08,245][INFO][find_string()] File: res/raw/loaderror.html
+[INTERNAL_LOG][2018-06-08 01:12:08,246][INFO][find_string()] No iframe in res/raw/loaderror.html
+[INTERNAL_LOG][2018-06-08 01:12:08,246][INFO][find_string()] File: assets/UCNewsApp/nativedocument/news.html
+[INTERNAL_LOG][2018-06-08 01:12:08,308][INFO][find_string()] No iframe in assets/UCNewsApp/nativedocument/news.html
+[INTERNAL_LOG][2018-06-08 01:12:08,308][INFO][find_string()] File: assets/UCMobile/traffic/ar-sa/index.html
+[INTERNAL_LOG][2018-06-08 01:12:08,309][INFO][find_string()] No iframe in assets/UCMobile/traffic/ar-sa/index.html
+[INTERNAL_LOG][2018-06-08 01:12:08,310][INFO][find_string()] File: assets/UCMobile/traffic/id/index.html
+[INTERNAL_LOG][2018-06-08 01:12:08,311][INFO][find_string()] No iframe in assets/UCMobile/traffic/id/index.html
+[INTERNAL_LOG][2018-06-08 01:12:08,311][INFO][find_string()] File: assets/UCMobile/traffic/vi/index.html
+[INTERNAL_LOG][2018-06-08 01:12:08,312][INFO][find_string()] No iframe in assets/UCMobile/traffic/vi/index.html
+[INTERNAL_LOG][2018-06-08 01:12:08,312][INFO][find_string()] File: assets/UCMobile/traffic/ru/index.html
+[INTERNAL_LOG][2018-06-08 01:12:08,314][INFO][find_string()] No iframe in assets/UCMobile/traffic/ru/index.html
+[INTERNAL_LOG][2018-06-08 01:12:08,314][INFO][find_string()] File: assets/UCMobile/traffic/bd/index.html
+[INTERNAL_LOG][2018-06-08 01:12:08,315][INFO][find_string()] No iframe in assets/UCMobile/traffic/bd/index.html
+[INTERNAL_LOG][2018-06-08 01:12:08,315][INFO][find_string()] File: assets/UCMobile/traffic/zh-tw/index.html
+[INTERNAL_LOG][2018-06-08 01:12:08,317][INFO][find_string()] No iframe in assets/UCMobile/traffic/zh-tw/index.html
+[INTERNAL_LOG][2018-06-08 01:12:08,317][INFO][find_string()] File: assets/UCMobile/traffic/en-us/index.html
+[INTERNAL_LOG][2018-06-08 01:12:08,318][INFO][find_string()] No iframe in assets/UCMobile/traffic/en-us/index.html
+[INTERNAL_LOG][2018-06-08 01:12:08,318][INFO][find_string()] File: assets/UCMobile/traffic/es-la/index.html
+[INTERNAL_LOG][2018-06-08 01:12:08,320][INFO][find_string()] No iframe in assets/UCMobile/traffic/es-la/index.html
+[INTERNAL_LOG][2018-06-08 01:12:08,321][INFO][find_string()] File: assets/UCMobile/traffic/pt-br/index.html
+[INTERNAL_LOG][2018-06-08 01:12:08,322][INFO][find_string()] No iframe in assets/UCMobile/traffic/pt-br/index.html
+[INTERNAL_LOG][2018-06-08 01:12:08,322][INFO][find_string()] File: assets/UCMobile/traffic/th/index.html
+[INTERNAL_LOG][2018-06-08 01:12:08,323][INFO][find_string()] No iframe in assets/UCMobile/traffic/th/index.html
+[INTERNAL_LOG][2018-06-08 01:12:08,323][INFO][find_string()] File: assets/UCMobile/help/ar-sa/help.html
+[INTERNAL_LOG][2018-06-08 01:12:08,325][INFO][find_string()] No iframe in assets/UCMobile/help/ar-sa/help.html
+[INTERNAL_LOG][2018-06-08 01:12:08,325][INFO][find_string()] File: assets/UCMobile/help/id/help.html
+[INTERNAL_LOG][2018-06-08 01:12:08,327][INFO][find_string()] No iframe in assets/UCMobile/help/id/help.html
+[INTERNAL_LOG][2018-06-08 01:12:08,327][INFO][find_string()] File: assets/UCMobile/help/vi/help.html
+[INTERNAL_LOG][2018-06-08 01:12:08,331][INFO][find_string()] No iframe in assets/UCMobile/help/vi/help.html
+[INTERNAL_LOG][2018-06-08 01:12:08,331][INFO][find_string()] File: assets/UCMobile/help/ru/help.html
+[INTERNAL_LOG][2018-06-08 01:12:08,334][INFO][find_string()] No iframe in assets/UCMobile/help/ru/help.html
+[INTERNAL_LOG][2018-06-08 01:12:08,334][INFO][find_string()] File: assets/UCMobile/help/bd/help.html
+[INTERNAL_LOG][2018-06-08 01:12:08,337][INFO][find_string()] No iframe in assets/UCMobile/help/bd/help.html
+[INTERNAL_LOG][2018-06-08 01:12:08,337][INFO][find_string()] File: assets/UCMobile/help/zh-tw/help.html
+[INTERNAL_LOG][2018-06-08 01:12:08,340][INFO][find_string()] No iframe in assets/UCMobile/help/zh-tw/help.html
+[INTERNAL_LOG][2018-06-08 01:12:08,340][INFO][find_string()] File: assets/UCMobile/help/en-us/help.html
+[INTERNAL_LOG][2018-06-08 01:12:08,343][INFO][find_string()] No iframe in assets/UCMobile/help/en-us/help.html
+[INTERNAL_LOG][2018-06-08 01:12:08,344][INFO][find_string()] File: assets/UCMobile/help/es-la/help.html
+[INTERNAL_LOG][2018-06-08 01:12:08,347][INFO][find_string()] No iframe in assets/UCMobile/help/es-la/help.html
+[INTERNAL_LOG][2018-06-08 01:12:08,347][INFO][find_string()] File: assets/UCMobile/help/pt-br/help.html
+[INTERNAL_LOG][2018-06-08 01:12:08,355][INFO][find_string()] No iframe in assets/UCMobile/help/pt-br/help.html
+[INTERNAL_LOG][2018-06-08 01:12:08,376][INFO][find_string()] File: assets/UCMobile/help/th/help.html
+[INTERNAL_LOG][2018-06-08 01:12:09,231][INFO][find_string()] No iframe in assets/UCMobile/help/th/help.html
+[INTERNAL_LOG][2018-06-08 01:12:09,246][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-08 01:13:25,769][INFO][find_url_in_apk()] [START URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-08 01:13:25,769][INFO][find_url_in_apk()] http://download.union.ucweb.com/trackv2/UCNewsIntl
+http://click.union.ucweb.com/index.php
+
+[INTERNAL_LOG][2018-06-08 01:13:25,769][INFO][find_url_in_apk()] [END URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-08 01:13:26,654][ERROR][download_page_loaded()] Failed response code: 404 for http://download.union.ucweb.com/trackv2/UCNewsIntl  
+[INTERNAL_LOG][2018-06-08 01:13:27,166][ERROR][download_page_loaded()] Failed response code: 400 for http://click.union.ucweb.com/index.php  
+[INTERNAL_LOG][2018-06-08 01:13:27,166][INFO][find_string()] [START REMOTE FILE ANALYZE]
+[INTERNAL_LOG][2018-06-08 01:13:27,166][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-08 01:13:27,167][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-08 01:13:27,167][INFO][find_url_in_apk()] https://HolmesHelp.ucweb.com
+https://onelink.%s/shortlink-sdk/v1
+https://monitorsdk.%s/remote-debug?app_id=
+https://api.%s/install_data/v3/
+https://attr.%s/api/v
+https://t.%s/api/v
+https://events.%s/api/v
+https://register.%s/api/v
+https://stats.%s/stats
+http://hydra.alibaba.com/
+https://gjapplog.uc.cn/
+https://gjapplog.uc.cn/
+https://gjapplog.uc.cn/
+https://www.facebook.com/audience_network/server_side_reward
+https://www.%s.facebook.com/audience_network/server_side_reward
+http://play.google.com/store/apps/
+https://www.facebook.com/
+https://www.%s.facebook.com
+https://graph.facebook.com/network_ads_common
+https://graph.%s.facebook.com/network_ads_common
+https://www.facebook.com/adnw_logging/
+https://www.%s.facebook.com/adnw_logging/
+http://www.facebook.com
+http://logserver.insight.ucweb.com/logserver/chargelog
+http://logserver.insight.ucweb.com/logserver/chargelog
+http://gj.applog.uc.cn/collect?enc=aes&zip=gzip&app=%s&uuid=%s&vno=%s&chk=%s
+http://sdkupgrade.insight.ucweb.com/sdkserver/getupgradesdk
+http://applogmaster.test.uae.uc.cn/collect?zip=gzip&app=%s&uuid=%s&vno=%s&chk=%s
+http://gj.applog.uc.cn/collect?zip=gzip&app=%s&uuid=%s&vno=%s&chk=%s
+http://restapi.amap.com/v3/place/text?
+http://restapi.amap.com/v3/place/around?
+http://restapi.amap.com/v3/config/district?
+https://adiu.amap.com/ws/device/adius
+http://abroad.apilocate.amap.com/mobile/binary
+http://abroad.apilocate.amap.com/mobile/binary
+http://abroad.apilocate.amap.com/mobile/binary
+http://abroad.apilocate.amap.com/mobile/binary
+http://apilocatesrc.amap.com/mobile/binary
+http://apilocatesrc.amap.com/mobile/binary
+http://cgicol.amap.com/collection/writedata?ver=v1.0_ali&
+http://restapi.amap.com/v3/geocode/regeo
+http://apilocate.amap.com/mobile/binary
+http://apilocate.amap.com/mobile/binary
+https://restapi.amap.com/v3/iasdkauth
+http://restapi.amap.com/v3/iasdkauth
+http://restapi.amap.com
+http://res.apk.vidmate.net/images/url_qrimage_swof.png
+https://down2.download.9appsinstall.com/group3/M01/0C/0D/4ZMEAFpyrayAOgUEAAADyKBgAWA731.png
+http://image.uc.cn/s/uae/g/4z/browser_home.png
+http://image.uc.cn/s/uae/g/4z/browser_menu.png
+http://img.ucweb.com/s/uae/g/4z/browser_download.png
+http://img.ucweb.com/s/uae/g/4z/browser_send_receive.png
+http://img.ucweb.com/s/uae/g/4z/9apps_first.png
+http://img.ucweb.com/s/uae/g/4z/9apps_menu.png
+http://img.ucweb.com/s/uae/g/4z/9apps_send_receive.png
+http://res.apk.vidmate.net/images/vidmate_guide_home.png
+http://res.apk.vidmate.net/images/vidmate_guide_menu.png
+http://res.apk.vidmate.net/images/vidmate_guide_rese.png
+http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+http://100.69.165.28/agoo/report
+http://agoodm.m.taobao.com/agoo/report
+http://agoodm.wapa.taobao.com/agoo/report
+http://100.69.168.33/agoo/report
+https://m.facebook.com
+https://m.facebook.com
+https://m.facebook.com
+https://m.facebook.com
+https://m.facebook.com
+https://m.facebook.com
+https://m.facebook.com
+https://m.facebook.com
+https://m.facebook.com
+https://m.facebook.com
+https://m.facebook.com
+https://m.facebook.com
+https://m.facebook.com
+https://m.facebook.com
+https://m.facebook.com/messages/?uc_qa
+https://m.facebook.com/messages/?uc_qa
+https://m.facebook.com/messages/?uc_qa
+https://m.facebook.com/notifications/?uc_qa
+https://m.facebook.com/notifications/?uc_qa
+https://m.facebook.com/notifications/?uc_qa
+https://m.facebook.com/composer/uc
+https://m.facebook.com/composer/uc
+https://m.facebook.com/composer/uc
+https://m.facebook.com/messages
+https://m.facebook.com/messages
+https://android.googleapis.com/gcm/send
+https://android.googleapis.com/gcm/send
+https://graph.facebook.com/%s/nonuserpushtokens
+https://m.facebook.com/push/register
+https://m.facebook.com/push/unregister
+http://api.open.uc.cn/cas/?uc_param_str=frpfvesscpmilaprnisieiutst&target_client_id=37&target_redirect_uri=http%3a%2f%2fmydiskm.uc.cn%2fbookmarkrecovery%2findex%3fuc_param_str%3dfrpfvesscpmilaprnisieint&client_id=72&st=
+http://api.open.uc.cn/cas/?uc_param_str=frpfvesscpmilaprnisieiutst&target_client_id=37&target_redirect_uri=http%3a%2f%2fmydiskm.uc.cn%2fbookmarkrecovery%2findex%3fuc_param_str%3dfrpfvesscpmilaprnisieint&client_id=72&st=
+http://api.open.uc.cn/cas/?uc_param_str=frpfvesscpmilaprnisieiutst&target_client_id=37&target_redirect_uri=http%3a%2f%2fmydiskm.uc.cn%2fbookmarkrecovery%2findex%3fuc_param_str%3dfrpfvesscpmilaprnisieint&client_id=72
+http://api.open.uc.cn/cas/?uc_param_str=frpfvesscpmilaprnisieiutst&target_client_id=37&target_redirect_uri=http%3a%2f%2fmydiskm.uc.cn%2fbookmarkrecovery%2findex%3fuc_param_str%3dfrpfvesscpmilaprnisieint&client_id=72
+http://yun.uc.cn/help?display=phone
+https://api.ok.ru/fb.do?application_key=CBAQHIJLEBABABABA&format=json&method=events.get&types=NOTIFS_UNREAD,FRIENDS_REQUESTS_COUNT,CHATS&sig=
+https://ok.ru/notifications
+https://ok.ru/notifications/friendships
+http://mw.uc.cn/r?id=%s
+http://www.ucweb.com/company/privacy/
+http://api.open.uc.cn/cas/thirdparty/getTokenPage?client_id=72&redirect_uri=ext%3Acs%3Asetting&display=mobile&third_party_name=weibo&isbrowser=1&uc_param_str=einisivelafrpfmibiup
+http://wap.ucweb.com
+http://wap.ucweb.com
+http://wap.ucweb.com
+http://indonesia.uodoo.com/api/v1/userinfo
+https://intguide.ucweb.com
+http://www.uc.cn
+http://www.uc.cn
+http://www.ucweb.com
+http://clients3.google.com/generate_204
+http://clients3.google.com/generate_204
+http://sea.napi.ucweb.com/3/classes/india/categories/india_subscribe/lists/{0}?_app_id=nav_en&_fetch=1&_size=10
+https://play.google.com/store/apps/details?id=com.xpread
+http://app.uc.cn/appstore/AppCenter/index?uc_param_str=einibicppfmive#!/topic/34
+https://horoscope.ucweb.com/detail/{horoscope}/{yyyy-MM-dd}?uc_param_str=dnfrpfbivesvssbtbmntniladsnw&uc_header_tit=Daily%20Horoscopes
+https://horoscope.ucweb.com/list/{horoscope}/{yyyy-MM-dd}?uc_param_str=dnfrpfbivesvssbtbmntniladsnw&uc_header_tit=Change%20Your%20Zodiac%20Sign
+http://puds.ucweb.com/upgrade/index.xhtml
+http://puds.ucweb.com/upgrade/index.xhtml
+http://puds.ucweb.com/upgrade/index.xhtml
+https://market.android.com/
+https://play.google.com/store/apps/
+https://m.ok.ru
+https://m.ok.ru
+https://feedback.uc.cn/feedback/index/index?instance=en_android&uc_param_str=einibicppfmivefrlantcunwsssvjbktchnnsnddds&pf=145&jump_to_tab=feedback#download
+http://localhost:
+https://m.youtube.com/watch?v={id}
+http://tv.uc.cn/download/$id?uc_param_str=frdnsnpfvecplabtbmntnwpvsslibieisi
+http://client.tv.uc.cn/android/get_episodes?uc_param_str=frpfvecpbtbmbilasvuddsudds
+http://vps.ucweb.com/
+http://client.tv.uc.cn/android/deal_fav
+http://client.tv.uc.cn/android/update_fav
+http://client.tv.uc.cn/android/video_source
+http://client.tv.uc.cn/android/ad?uc_param_str=dncp
+http://hl-img.peco.uodoo.com
+http://hl-img.peco.uodoo.com
+http://inimg.headline.uodoo.com/
+http://up4.ucweb.com:8012/upload
+http://up4.ucweb.com:8012/upload
+http://up4.ucweb.com:8012/upload
+http://up4.ucweb.com:8012/upload
+http://up4.ucweb.com:8012/upload
+http://incomment.ucnews.ucweb.com/api/v1/
+http://incomment.ucnews.ucweb.com/api/v1/
+http://www.headlinecamp.com/widget-topic-list/2052292448795477?app=app_iflow&uc_param_str=dnnivebichfrmintcpgieiwidsudsvssnwpflamt&lang=english
+https://market.android.com/details?
+https://play.google.com/store/apps/details?
+http://buc.ink/dlink
+http://tz.ucweb.com/short_url/shorten
+http://shorturl.test2.uae.uc.cn/short_url/shorten
+http://newsstripe.com/?entry=app&entry1=desk&uc_biz_str=action:base.openwindow|param:S.object=infoflow;S.scene=1001;end
+http://cms.ucweb.com/navi_cms?uc_param_str=cpdsfr&cms_group=cms_headline&bu_id=cms_client_config
+http://uctest2.ucweb.com:8081/navi_cms?uc_param_str=cpdsfr&cms_group=cms_headline&bu_id=cms_client_config
+http://lbs.ucnews.ucweb.com/lbs?key=news_android&uc_param_str=dschlaveprsvcp
+https://feedback.uc.cn/feedback/feedback/index?instance=[spstr1]&uc_param_str=einibicppfmivefrlantcunwsssvjbktchnnsnddds
+http://myz.ucweb.com:8010/uc_survey/web/index.php?control=webSurvey&action=showsurvey&surveyId=597&k=uc_common_param&TYPE=U2
+http://pdds.ucweb.com/download/stfile/ccgfgfgcdgceehm/web_core_libs_1.9.20.19_Build171120144340.zip
+http://reco.flow.headline.uodoo.com/api/v1/
+http://event.headline.uodoo.com/api/v1/
+http://flow.headline.uodoo.com/api/v1/|http://flow.headline.uodoo.com/api/v1/|http://flow.headline.uodoo.com/api/v1/
+http://GcmTokenServer.lai.uae.uc.cn/tokenRegister
+http://flow.headline.uodoo.com/api/v1/
+http://inaccount.headline.uodoo.com/api/v1/
+http://cms.ucweb.com/navi_cms?uc_param_str=giladnfrpfbivecpnisieisv&cms_group=cms_headline&bu_id=cms_iflow_js_data&set_lang=english
+http://aws.napi.ucweb.com/3/classes/score/objects?_app_id=cricket&_empty_list=1
+http://napi.api.ucweb.com/3/classes/game_id/objects?_app_id=soccer
+http://flow.headline.uodoo.com/
+http://c.mp.ucweb.com/follow/list?uc_param_str=dnvebichfrmintcpwidsudsvnwpflameefut
+http://c.mp.ucweb.com/findMore/list?uc_param_str=dnvebichfrmintcpwidsudsvnwpflameefut
+http://ucnews.ucweb.com/local-story/index
+http://insearch.ucnews.ucweb.com/hotkey
+http://8.37.228.155:5380/d
+http://8.37.228.155:5380/d
+http://gj.applog.uc.cn:9081/collect|http://gj.applog.uc.cn:80/collect|uc_param_str=frpfvecpbtbmbilasvchmi
+http://rc.ucweb.com/interpointsmall/inter/w2/missionCommit?uc_param_str=dsdnfrpfbivesscpgimibtbmnijblauputogpintnwch
+http://feedback.uc.cn/feedback/index/index?instance={instance}&uc_param_str=nidsbicppfmivesifrlantsssv
+http://feedback.uc.cn/feedback/index/index?instance={instance}&uc_param_str=nidsbicppfmivesifrlantsssv
+https://feedback.uc.cn/feedback/api/get_unread_status
+https://feedback.uc.cn/feedback/api/get_unread_status
+https://feedback.uc.cn/feedback/api/get_unread_status
+http://inimg.inibaruberita.com/
+http://inugcpublish.ini.uae.uc.cn/api/v1/
+http://inaccount.headline.uodoo.com/api/v1/login
+http://inaccount.headline.uodoo.com/api/v1/logout
+http://www.newsstripe.com/policy/index
+http://search.ucnews.in/search
+http://180.179.9.96:5380/d
+http://innotify.ucnews.ucweb.com/api/v1/
+http://ucnews.ucweb.com/comment/message/like/all?uc_param_str=dnvebichfrmintcpwidsudsvnwpflameefmt
+http://ucnews.ucweb.com/comment/message/comment/all?uc_param_str=dnvebichfrmintcpwidsudsvnwpflameefmt
+https://api.open.uc.cn/cas/custom/login?custom_login_type=common&client_id=265&repeate_auth=true&display=mobile&change_uid=1&t=1500273969513&source=iframe&la=en&template=1&invite_source=&redirect_uri=http://inaccount.headline.uodoo.com/api/v1/loginByMail?
+http://inreactserver.ucnews.ucweb.com/api/v1/
+http://rc.ucweb.com/integral201707_ind/querySignInData
+http://reco.flow.maribacaberita.com/api/v1/
+http://event.maribacaberita.com/api/v1/
+http://flow.maribacaberita.com/api/v1/|http://flow.maribacaberita.com/api/v1/|http://flow.maribacaberita.com/api/v1/
+http://flow.maribacaberita.com/api/v1/
+http://idaccount.headline.uodoo.com/api/v1/
+http://cms.ucweb.com/navi_cms?uc_param_str=giladnfrpfbivecpnisieisv&cms_group=cms_headline&bu_id=cms_iflow_js_data&set_lang=indonesian
+http://flow.maribacaberita.com/
+http://c.uctalks.ucweb.com/follow/list?uc_param_str=dnvebichfrmintcpwidsudsvnwpflameefut
+http://c.uctalks.ucweb.com/findMore/list?uc_param_str=dnvebichfrmintcpwidsudsvnwpflameefut
+http://search.ucnews.id/search
+http://id.ucnews.ucweb.com/local-story/index
+http://idsearch.ucnews.ucweb.com/hotkey
+http://idnotify.ucnews.ucweb.com/api/v1/
+http://id.ucnews.ucweb.com/comment/message/like/all?uc_param_str=dnvebichfrmintcpwidsudsvnwpflameefmt
+http://id.ucnews.ucweb.com/comment/message/comment/all?uc_param_str=dnvebichfrmintcpwidsudsvnwpflameefmt
+https://api.open.uc.cn/cas/custom/login?custom_login_type=common&client_id=265&repeate_auth=true&display=mobile&change_uid=1&t=1500273969513&source=iframe&la=id&template=1&invite_source=&redirect_uri=http://idaccount.headline.uodoo.com/api/v1/loginByMail?
+http://idreactserver.ucnews.ucweb.com/api/v1/
+http://rc.ucweb.com/integral201707_id/querySignInData
+http://idcomment.ucnews.ucweb.com/api/v1/
+http://idimg.inibaruberita.com/
+http://sfugcpublish.sfi.uae.uc.cn/api/v1/
+http://idaccount.headline.uodoo.com/api/v1/login
+http://idaccount.headline.uodoo.com/api/v1/logout
+http://cms2.test2.uae.uc.cn/json_cms?res_code={RESCODE}&uc_param_str=dnvebichfrmintcpwidsudsvbtpr
+http://navicms.ucweb.com/json_cms?res_code={RESCODE}&uc_param_str=dnvebichfrmintcpwidsudsvbtpr
+http://download.union.ucweb.com/trackv2/UCNewsIntl
+http://download.union.ucweb.com/trackv2/UCNewsIntl
+http://click.union.ucweb.com/index.php
+http://www.newsstripe.com/?entry=browser&entry1=
+https://www.facebook.com/dialog/share?app_id=869428466573423&display=popup&href=|&redirect_uri=http://share.ucweb.com/share/share/done?callback=ext%3Aclose_window
+https://www.facebook.com/dialog/share?app_id=869428466573423&display=popup&href=
+http://LANewsPushSystem.la.uae.uc.cn
+http://napi.ucweb.com/3/classes/debug_white_list/objects?_app_id=a14ab4f776074435956a5819ec01ca40&_fetch=1&_size=300
+https://oapi.dingtalk.com/robot/send?access_token=41232114bf858622a80b6b6428701d8f9fdd3bee3d369b8bb165fe116ad3f20a
+http://xmlpull.org/v1/doc/features.html#indent-output
+http://xmlpull.org/v1/doc/features.html#indent-output
+http://xmlpull.org/v1/doc/features.html#indent-output
+http://xmlpull.org/v1/doc/features.html#indent-output
+https://translate.google.cn/translate_a/single?client=gtx&dt=t&ie=UTF-8&oe=UTF-8
+http://uctest.ucweb.com:9602/chenwh3/public/newspkg/
+http://radarnews.uodoo.com/api/v1/|http://radarnews.uodoo.com/api/v1/|http://radarnews.uodoo.com/api/v1/
+http://radarnews.uodoo.com/api/v1/
+http://api.bdexpress.uodoo.com/api/v1/
+http://bdexpress.uodoo.com/api/v1/|http://bdexpress.uodoo.com/api/v1/|http://bdexpress.uodoo.com/api/v1/
+http://bdexpress.uodoo.com/api/v1/
+http://akhbarak.uodoo.com/api/v1/|http://akhbarak.uodoo.com/api/v1/|http://akhbarak.uodoo.com/api/v1/
+http://akhbarak.uodoo.com/api/v1/
+http://api.newshub.uodoo.com/api/v1/
+http://newshub.uodoo.com/api/v1/|http://newshub.uodoo.com/api/v1/|http://newshub.uodoo.com/api/v1/
+http://newshub.uodoo.com/api/v1/
+http://news.uodoo.com/api/v1/|http://news.uodoo.com/api/v1/|http://news.uodoo.com/api/v1/
+http://news.uodoo.com/api/v1/
+http://ucgjtoutiao.com
+http://ucgjtoutiao.com
+http://ucgjtoutiao.com
+http://ucgjtoutiao.com
+http://www.youtube.com
+http://www.youtube.com
+https://www.youtube.com/get_video_info?video_id=%s&el=embedded&ps=default&eurl=&gl=US&hl=en
+http://tv.uc.cn/myvideo?uc_param_str=frdnsnpfvecplabtbmntnwpvsslibieisi&ch=myvideo&ch2=index
+http://tv.uc.cn/video/
+http://flow.video.uodoo.com/api/v1/video/flow?uc_param_str=dnfrpfbivesvssbtbmntniladsnw
+http://flow.headline.uodoo.com/api/v1/video/article/immerse?uc_param_str=dnfrpfbivesvssbtbmntniladsnw
+http://aws.napi.ucweb.com/3/classes/competition/categories/{categoryName}/lists/{listName}?_app_id=cricket&_fetch=1&_size=20
+http://aws.napi.ucweb.com/3/classes/competition/categories/{categoryName}/lists/{listName}?_app_id=cricket&_fetch=1&_size=20
+https://market.android.com/details?id=
+https://market.android.com/details?id=
+https://market.android.com/details?id=
+https://market.android.com/details?id=
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+http://www.modo.net?from=ucwebdoc_int
+http://event.allnews.uodoo.com?uc_param_str=dnfrpfbivesscpgimibtbmntnijblauputoggdnwch
+http://nav.fetion.com.cn/nav/getsystemconfig.aspx
+http://mw.uc.cn/r?id=%s_detail
+https://utp.ucweb.com/a?utp_ver=5
+https://utp-dmp.ucweb.com/api/collect?
+http://uc.gre/pass/uc_gre_ad_buss/cd.php?uc_param_str=cpfrvelaktntsvut
+http://uc.gre/pass/uc_gre_ad_buss/cd.php?uc_param_str=cpfrvelaktntsvut
+http://uc.gre/pass/sdk_lct/location/sdk2016/%s/%d?use_source_ip=1&schema=US
+http://uc.gre/pass/sdk_lct/location/sdk2016/%s/%d?gi=%f,%f&schema=US
+http://slot.union.ucweb.com/index.php
+http://slot.union.ucweb.com/index.php
+http://logserver.insight.ucweb.com/intl_discard_cache_ad
+http://logserver.insight.ucweb.com/intl_discard_cache_ad
+http://gj.applog.uc.cn/collect
+http://gj.applog.uc.cn/collect
+http://insight.ucweb.com/sdkserver/fetch_config
+http://bookmark.ucweb.com/favo/Favo/index?uc_param_str=dnssfrveprlapf
+http://bookmark.ucweb.com/favo/Favo/upload?uc_param_str=dnssfrveprlapf
+http://muvp.alibaba-inc.com/online/UploadRecords.do
+https://h-adashx.ut.taobao.com/upload
+https://h-adashx.ut.taobao.com/upload
+http://acs.m.taobao.com/gw/mtop.common.getTimestamp/*
+https://m.facebook.com/?uc_qa
+https://m.facebook.com/?uc_qa
+http://10.20.33.31:8020/navi/nation_weather/get_area_intl.php?uc_param_str=nieidnutssvebipfcp
+http://10.20.33.31:8020/navi/nation_weather/get_weather_express_intl.php?uc_param_str=nieidnutssvebipfcp
+https://service-usertrack.alibaba-inc.com/upload_records_from_client
+http://ucloud.ucweb.local:9200/ucmobileintl/
+http://up4.ucweb.com:8012/logs/UCMobileIntl/
+http://wap.uc.cn
+https://play.google.com/store/apps/details?id=com.UCMobile.intl
+http://www.facebook.com/dialog/oauth?client_id=396550060385314&scope=email&redirect_uri=http://connect.open.uc.cn/fbcb&state=client_id%3D73%26redirect_uri%3Dext%253Acs%253Asetting%26display%3Dmobile%26iscas%3D1%26from%3Dcn%26third_party_name%3Dfacebook%26isbrowser%3D1
+https://accounts.google.com/o/oauth2/auth?response_type=code&approval_prompt=force&client_id=581144245040.apps.googleusercontent.com&redirect_uri=http://connect.open.uc.cn/ggcb&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile&state=client_id%3D73%26redirect_uri%3Dext%253Acs%253Asetting%26display%3Dmobile%26iscas%3D1%26from%3Dcn%26third_party_name%3Dgoogle%26isbrowser%3D1
+https://feedback.uc.cn/self_service/wap/faq_detail_try_page?faqId=20744172&instance=en_android&uc_param_str=einibicppfmivefrlantcunwsssvjbktchnnsnddds
+http://vps.ucweb.com/?uc_param_str=cpnt
+http://www.google.com
+https://horoscope.ucweb.com/api/ratings/{horoscope}/{yyyy-MM-dd}?uc_param_str=dnfrpfbivesvssbtbmntniladsnw
+http://webstore.ucweb.com/index?uc_param_str=nieidnutssvebipfcpla
+http://webstore.ucweb.com/index?uc_param_str=nieidnutssvebipfcpla
+http://ucus.ucweb.com/usquery.php
+http://ucus.ucweb.com/usquery.php
+http://ucus.ucweb.com/usquery.php
+http://ucus.ucweb.com/usquery.php
+http://ucus.ucweb.com/usquery.php
+http://pdds.ucweb.com/download/newest/UCBrowser/en-us/%d/354
+http://uc.ucweb.com:80
+http://uc.ucweb.com:80
+https://safe.ucweb.com:443/?dataver=pb
+https://safe.ucweb.com:443/?dataver=pb
+https://musa.ucweb.com:8443/api/execute/verify/1613533.json?uc_param_str=gdgiwidnfrpfbivesspicpmioslabtbmprpvntchnisieijbli&token=b9db0e867ea8ad892e7ce347534fdaef&seq=1613533-1515056644-280804
+https://musa.ucweb.com:8443/api/execute/verify/1613522.json?uc_param_str=gdgiwidnfrpfbivesspicpmioslabtbmprpvntchnisieijbli&token=b9db0e867ea8ad892e7ce347534fdaef&seq=1613522-1515056330-44807
+https://musa.ucweb.com:8443/api/execute/verify/1613531.json?uc_param_str=gdgiwidnfrpfbivesspicpmioslabtbmprpvntchnisieijbli&token=b9db0e867ea8ad892e7ce347534fdaef&seq=1613531-1515056684-155063
+https://musa.ucweb.com:8443/api/execute/verify/1613530.json?uc_param_str=gdgiwidnfrpfbivesspicpmioslabtbmprpvntchnisieijbli&token=b9db0e867ea8ad892e7ce347534fdaef&seq=1613530-1515056705-689984
+https://musa.ucweb.com:8443/api/execute/verify/1613537.json?uc_param_str=gdgiwidnfrpfbivesspicpmioslabtbmprpvntchnisieijbli&token=b9db0e867ea8ad892e7ce347534fdaef&seq=1613537-1515056569-110279
+https://musa.ucweb.com:8443/api/execute/verify/1613532.json?uc_param_str=gdgiwidnfrpfbivesspicpmioslabtbmprpvntchnisieijbli&token=b9db0e867ea8ad892e7ce347534fdaef&seq=1613532-1515056660-205322
+https://musa.ucweb.com:8443/api/execute/verify/1613534.json?uc_param_str=gdgiwidnfrpfbivesspicpmioslabtbmprpvntchnisieijbli&token=b9db0e867ea8ad892e7ce347534fdaef&seq=1613534-1515056626-314125
+https://musa.ucweb.com:8443/api/execute/verify/1613542.json?uc_param_str=gdgiwidnfrpfbivesspicpmioslabtbmprpvntchnisieijbli&token=b9db0e867ea8ad892e7ce347534fdaef&seq=1613542-1515056449-13466
+https://musa.ucweb.com:8443/api/execute/verify/1613543.json?uc_param_str=gdgiwidnfrpfbivesspicpmioslabtbmprpvntchnisieijbli&token=b9db0e867ea8ad892e7ce347534fdaef&seq=1613543-1515056429-723274
+https://musa.ucweb.com:8443/api/execute/verify/1729936.json?uc_param_str=gdgiwidnfrpfbivesspicpmioslabtbmprpvntchnisieijbli&token=0edcbd3201625784a9696cafea8a3e19&seq=1729936-1516177885-494940
+https://musa.ucweb.com:8443/api/execute/verify/1729936.json?uc_param_str=gdgiwidnfrpfbivesspicpmioslabtbmprpvntchnisieijbli&token=0edcbd3201625784a9696cafea8a3e19&seq=1729936-1516177906-925452
+https://musa.ucweb.com:8443/api/execute/verify/1729936.json?uc_param_str=gdgiwidnfrpfbivesspicpmioslabtbmprpvntchnisieijbli&token=0edcbd3201625784a9696cafea8a3e19&seq=1729936-1516178339-611069
+https://musa.ucweb.com:8443/api/execute/verify/1729936.json?uc_param_str=gdgiwidnfrpfbivesspicpmioslabtbmprpvntchnisieijbli&token=0edcbd3201625784a9696cafea8a3e19&seq=1729936-1516177935-965804
+https://musa.ucweb.com:8443/api/execute/verify/1729936.json?uc_param_str=gdgiwidnfrpfbivesspicpmioslabtbmprpvntchnisieijbli&token=0edcbd3201625784a9696cafea8a3e19&seq=1729936-1516177950-878713
+https://musa.ucweb.com:8443/api/execute/verify/1729936.json?uc_param_str=gdgiwidnfrpfbivesspicpmioslabtbmprpvntchnisieijbli&token=0edcbd3201625784a9696cafea8a3e19&seq=1729936-1516177964-323842
+https://musa.ucweb.com:8443/api/execute/verify/13771.json?uc_param_str=gdgiwidnfrpfbivesspicpmioslabtbmprpvntchnisieijbli&token=b9db0e867ea8ad892e7ce347534fdaef&seq=13771-1515056754-403145
+https://musa.ucweb.com:8443/api/execute/verify/1613535.json?uc_param_str=gdgiwidnfrpfbivesspicpmioslabtbmprpvntchnisieijbli&token=b9db0e867ea8ad892e7ce347534fdaef&seq=1613535-1515056608-834771
+https://musa.ucweb.com:8443/api/execute/verify/24809.json?uc_param_str=gdgiwidnfrpfbivesspicpmioslabtbmprpvntchnisieijbli&token=b9db0e867ea8ad892e7ce347534fdaef&seq=24809-1515056729-599437
+https://musa.ucweb.com:8443/api/execute/verify/1613536.json?uc_param_str=gdgiwidnfrpfbivesspicpmioslabtbmprpvntchnisieijbli&token=b9db0e867ea8ad892e7ce347534fdaef&seq=1613536-1515056592-719015
+https://musa.ucweb.com:8443/api/execute/verify/1613538.json?uc_param_str=gdgiwidnfrpfbivesspicpmioslabtbmprpvntchnisieijbli&token=b9db0e867ea8ad892e7ce347534fdaef&seq=1613538-1515056543-609755
+https://musa.ucweb.com:8443/api/execute/verify/1613539.json?uc_param_str=gdgiwidnfrpfbivesspicpmioslabtbmprpvntchnisieijbli&token=b9db0e867ea8ad892e7ce347534fdaef&seq=1613539-1515056522-194813
+https://musa.ucweb.com:8443/api/execute/verify/1613540.json?uc_param_str=gdgiwidnfrpfbivesspicpmioslabtbmprpvntchnisieijbli&token=b9db0e867ea8ad892e7ce347534fdaef&seq=1613540-1515056503-565504
+https://musa.ucweb.com:8443/api/execute/verify/1613541.json?uc_param_str=gdgiwidnfrpfbivesspicpmioslabtbmprpvntchnisieijbli&token=b9db0e867ea8ad892e7ce347534fdaef&seq=1613541-1515056467-211244
+https://musa.ucweb.com:8443/api/execute/verify/1613544.json?uc_param_str=gdgiwidnfrpfbivesspicpmioslabtbmprpvntchnisieijbli&token=b9db0e867ea8ad892e7ce347534fdaef&seq=1613544-1515056396-877718
+https://admin-alilang.alibaba-inc.com
+https://napi.ucweb.com/3/classes/browFlowDebugWhiteList/objects?_app_id=a14ab4f776074435956a5819ec01ca40&_fetch=1
+http://videoPreview.sp.uae.uc.cn/api/v2/preview
+https://m.youtube.com/watch?ajax=1&layout=mobile&v={id}
+https://gjapplog.uc.cn/collect|https://gjapplog.uc.cn/collect|uc_param_str=frpfvepcbtbmbilasvchmi
+http://broccoli.ucweb.com/apps/ucgjusercenter01/routes/index?uc_param_str=dsdnfrpfbivesscpgimibtbmnijblauputogpintnwchmtsv
+http://mynavi.ucweb.com/geticon.php
+http://hao.uc.cn/dl_index1?uc_param_str=prdnfrpfbivelabtbmntpvsscp
+http://121.14.161.195/log_net.php
+http://read.yisou.com/novel/qs.php?q=%s&format=json
+http://tv.uc.cn/php/interface/client/suggestion.php?query=%s
+http://suggest.taobao.com/sug?code=utf-8&q=%s
+http://wap.uc.cn/index.php?action=PackageDown&do=ByPfid&product=UCBrowser&pfid=148&lang=zh-cn&bid=999&direct=true&from=arm6_v5jsc
+http://app.uc.cn/appstore/AppCenter/api/apps/bookmark_info
+http://app.uc.cn/appstore/AppCenter/jump_app?app_id=
+https://msp.alipay.com/x.htm
+http://www.google.com/complete/search?hl=en&client=android&q=%s
+https://access.open.uc.cn/access
+http://api.open.uc.cn/cas/?uc_param_str=frpfvesscpmilaprnisieiutst&target_client_id=4&target_redirect_uri=http%3A%2F%2Fid.uc.cn%2F%3Fuc_param_str%3Dfrpfvesscpmilaprnisieiut&client_id=73
+http://api.open.uc.cn/cas/?uc_param_str=frpfvesscpmilaprnisieiutst&target_client_id=36&target_redirect_uri=http%3A%2F%2Fmydiskm.ucweb.com%2Fnetdisk%2Ffilestation%3Fchannel_id%3D26%2F%3Fuc_param_str%3Dfrpfvesscpmilaprnisieiut&client_id=73
+http://api.open.uc.cn/cas/?uc_param_str=frpfvesscpmilaprnisieiutst&target_client_id=36&target_redirect_uri=http%3A%2F%2Fmydiskm.ucweb.com%2Fnetdisk%2Fdirview%3Fchannel_id%3D25%2F%3Fuc_param_str%3Dfrpfvesscpmilaprnisieiut&client_id=73
+http://browser.cloud.ucweb.com/sync
+http://cloud.ucweb.com/help/sync?display=phone&pl=en
+http://id.uc.cn/security/forgotpassword/index?uc_param_str=nieisivefrpfbimilaprligiwiut&appId=73
+https://api.open.uc.cn/cas/ucbrowser/register?uc_param_str=frpfvesscpmilaprnisieiut&client_id=73&redirect_uri=ext%3Acs%3Asetting
+http://webstore.ucweb.com/add_app
+https://feedback.uc.cn/self_service/wap/index?instance=EN&uc_param_str=einibicppfmivefrsiutla
+https://feedback.uc.cn/feedback/index/index?instance=U3_Ads_blocked&uc_param_str=einibicpmivesifrutlantcunwsssvjbst&pf=145
+https://m.facebook.com/settings/notifications/push
+http://special.skin.ucweb.com/carousels?uc_param_str=dnfrmipfprssvepilacpna
+http://special.skin.ucweb.com/?uc_param_str=dnfrmipfprssvepilacpna
+http://skin.ucweb.com/login?uc_param_str=dnfrmipfprssvepilacpna
+http://dispatcher.upmc.uc.cn/speeds/circle
+http://app.uc.cn/appstore/AppCenter/batch_add_app
+https://feedback.uc.cn/feedback/feedback/submitimage
+https://feedback.uc.cn/feedback/api/submit_record
+https://feedback.uc.cn/feedback/feedback/index
+https://feedback.uc.cn/feedback/feedback/index?instance=na_video&uc_param_str=einibicppfmivesifrutlantcunwss&pf=145
+https://feedback.uc.cn/self_service/wap/index?instance=OVS&uc_param_str=einibicppfmivefrsiutla
+http://u.uc123.com:80
+http://u.ucfly.com:80
+http://safe.ucweb.com:80/?dataver=pb
+http://uc9.ucweb.com/
+https://woodpecker.uc.cn/api/crashsdk/validate
+https://gjapplog.uc.cn/collect?chk=
+https://applog.uc.cn/collect?chk=
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+http://xmlpull.org/v1/doc/features.html#report-namespace-prefixes
+http://xmlpull.org/v1/doc/features.html#report-namespace-prefixes
+https://applog.uc.cn/collect?uc_param_str=&chk=
+
+[INTERNAL_LOG][2018-06-08 01:13:27,169][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-08 01:13:27,173][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-08 01:13:27,174][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-08 01:13:27,174][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-08 01:13:27,174][INFO][analyze_start()] End time:[Fri Jun  8 01:13:27 2018]

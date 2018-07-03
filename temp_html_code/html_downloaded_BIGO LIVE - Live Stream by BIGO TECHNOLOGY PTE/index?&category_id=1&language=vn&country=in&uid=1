@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en" style="font-size:54px;">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1,user-scalable=no">
+    <meta name="screen-orientation"content="portrait">
+    <meta name="x5-orientation"content="portrait">
+    <meta name="applicable-device" content="mobile">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="address=no">
+    <title>BIGO LIVE</title>
+    <link rel="stylesheet" href="/assets/live/anchor_article/css/style.css" />
+</head>
+<body>
+<div class="head_wrap">
+    <a class="back_btn" href="javascript:;"></a>
+    <div class="nav_box">
+    <ul class="nav">
+        <li><a class="current" href="/live/anchor_article/index?category_id=1&language=vn&country=in&anchor_uid=0&visit_uid=0&room_id= ">Ảnh của idol</a></li>
+        <li><a  href="/live/anchor_article/index?category_id=2&language=vn&country=in&anchor_uid=0&visit_uid=0&room_id=">Tin trong nước</a></li>
+        <li><a href="/live/anchor_article/index?category_id=3&language=vn&country=in&anchor_uid=0&visit_uid=0&room_id=">Văn hóa</a></li>
+        <li><a href="/live/anchor_article/index?category_id=4&language=vn&country=in&anchor_uid=0&visit_uid=0&room_id=">Tin thế giới</a></li>
+    </ul>
+    </div>
+</div>
+<div class="content_wrap">
+    <ul class="broadcaster_style" id="content_list_e" post-val="fc">
+
+    </ul>
+</div>
+<input type="hidden" id="anchor_uid" value="0"/>
+<input type="hidden" id="visit_uid" value="0"/>
+<input type="hidden" id="room_id" value=""/>
+<div class="dataCache_box" id="loading_cache_box_e">
+    <li v-for="todo in todos">
+        <img v-bind:src=todo.imgurl>
+        <div class="opa_bg">
+            <div class="intro_words">{{ todo.title }}</div>
+        </div>
+    </li>
+</div>
+</body>
+<script type="text/javascript" src="/assets/live/anchor_article/js/jquery-2.2.2.min.js"></script>
+<script type="text/javascript" src="/assets/live/anchor_article/js/vue.min.js"></script>
+<script type="text/javascript" src="/assets/live/anchor_article/js/dropload.js"></script>
+<script type="text/javascript" src="/assets/live/anchor_article/js/js.js"></script>
+<script type="text/javascript">
+    var vue_app_loading_list = new Vue({
+        el: '#loading_cache_box_e',
+        data: {
+            todos: [
+                // json.roominfo_vec
+            ]
+        }
+    });
+
+    $(function(){
+        // dropload
+        var  page = 1;
+        var  language = "vn";
+        var  category_id = "1";
+        var  country = "in";
+        $('.content_wrap').dropload({
+            scrollArea : window,
+            domUp : {
+                domClass   : 'dropload-up',
+                domRefresh : '<div class="dropload-refresh">↓Refresh</div>',
+                domUpdate  : '<div class="dropload-update">↑Refresh</div>',
+                domLoad    : '<div class="dropload-load"><span class="loading"></span>Loading...</div>'
+            },
+            domDown : {
+                domClass   : 'dropload-down',
+                domRefresh : '<div class="dropload-refresh">↑Refresh</div>',
+                domLoad    : '<div class="dropload-load"><span class="loading"></span>Loading...</div>',
+                domNoData  : '<div class="dropload-noData">No data</div>'
+            },
+            loadUpFn : function(me){
+                window.location.reload();
+            },
+            loadDownFn : function(me){
+                $.post('', {'page': page,'language':language,'category_id':category_id,'country':country}, function(data) {
+
+                    var data = JSON.parse(data);
+                    var list = data.data;
+
+                    var len = list.length;
+                    setTimeout(function(){
+                        if(data.code == 1){
+                            page = page + 1;
+                            var htmlstr = '';
+                            for(i in list){
+                                htmlstr += '<li><a href="'+ list[i].detail_url + '"><img src="'+ list[i].pic + '">'
+                                    + '<div class="opa_bg"><div class="intro_words">'+ list[i].title + '</div>'
+                                    + '</div></a></li>';
+                            }
+                            $('#content_list_e').append(htmlstr);
+                        }
+
+                        if ( me ) {
+                            if (len == 0) {
+                                me.lock();
+                                // 无数据
+                                me.noData();
+                            };
+                        };
+                        me.resetload();
+                    }, 50);
+                }).error(function(){
+                    alert('error !');
+                    me.resetload();
+                });
+            },
+            threshold : 50
+        });
+    });
+
+</script>
+</html>

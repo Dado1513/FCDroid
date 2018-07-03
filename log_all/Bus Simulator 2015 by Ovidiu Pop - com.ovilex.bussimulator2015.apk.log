@@ -1,0 +1,84 @@
+[INTERNAL_LOG][2018-06-07 21:42:57,761][INFO][analyze_start()] Init Time [Thu Jun  7 21:42:57 2018]
+[INTERNAL_LOG][2018-06-07 21:42:57,885][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-07 21:42:57,887][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-07 21:42:57,887][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-07 21:42:57,887][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-07 21:42:57,887][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-07 21:42:57,887][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-07 21:42:57,887][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-07 21:42:57,887][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-07 21:42:57,887][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-07 21:43:13,071][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-07 21:43:13,071][INFO][find_url_in_apk()] https://m.facebook.com/dialog/
+https://graph.facebook.com/
+https://graph.facebook.com/
+https://graph.facebook.com/
+https://graph.facebook.com/
+https://graph.facebook.com/
+https://api.facebook.com/restserver.php
+https://graph.facebook.com/%s/picture
+https://graph.%s
+https://graph-video.%s
+https://api.%s
+https://facebook.com
+https://www.googleapis.com/auth/appstate
+https://www.googleapis.com/auth/appstate
+http://plus.google.com/
+https://www.googleapis.com/auth/drive.file
+https://www.googleapis.com/auth/drive.appdata
+https://www.googleapis.com/auth/drive
+https://www.googleapis.com/auth/drive.apps
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games.firstparty
+https://www.googleapis.com/auth/games.firstparty
+https://googleads.g.doubleclick.net/mads/static/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/native_ads.html
+http://www.google.com
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://www.googleapis.com/auth/fitness.activity.read
+https://www.googleapis.com/auth/fitness.activity.write
+https://www.googleapis.com/auth/fitness.body.read
+https://www.googleapis.com/auth/fitness.body.write
+https://www.googleapis.com/auth/fitness.location.read
+https://www.googleapis.com/auth/fitness.location.write
+https://www.googleapis.com/auth/plus.login
+https://www.googleapis.com/auth/plus.login
+https://www.googleapis.com/auth/plus.login
+https://www.googleapis.com/auth/plus.me
+http://schemas.android.com/apk/lib/com.google.android.gms.plus
+http://schemas.android.com/apk/lib/com.google.android.gms.plus
+http://ads.heyzap.com/in_game_api/ads
+http://ads.heyzap.com
+http://ads.heyzap.com/in_game_api/ads/
+https://ads.heyzap.com/in_game_api/ads/aip
+https://ads.heyzap.com/in_game_api/ads/gtc/amazon.json
+https://ads.heyzap.com/in_game_api/ads/gtc/android.json
+https://med.heyzap.com/start
+https://med.heyzap.com/click
+https://med.heyzap.com/fetch
+https://med.heyzap.com/impression
+https://med.heyzap.com/complete
+https://med.heyzap.com/mediate
+https://med.heyzap.com/info
+https://m.facebook.com/
+https://graph.facebook.com/me?access_token=
+https://graph.facebook.com/oauth/access_token?client_id=
+https://highway2.soom.la
+https://services.soom.la
+
+[INTERNAL_LOG][2018-06-07 21:43:13,072][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-07 21:43:13,074][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-07 21:43:13,075][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-07 21:43:13,075][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-07 21:43:13,075][INFO][analyze_start()] End time:[Thu Jun  7 21:43:13 2018]

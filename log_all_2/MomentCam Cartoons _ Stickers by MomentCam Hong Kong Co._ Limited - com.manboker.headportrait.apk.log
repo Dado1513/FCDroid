@@ -1,0 +1,529 @@
+[INTERNAL_LOG][2018-06-12 05:00:55,243][INFO][analyze_start()] Init Time [Tue Jun 12 05:00:55 2018]
+[INTERNAL_LOG][2018-06-12 05:00:55,400][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 05:00:55,402][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 05:00:55,402][INFO][is_hybird()] android.permission.SET_WALLPAPER
+[INTERNAL_LOG][2018-06-12 05:00:55,402][INFO][is_hybird()] android.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 05:00:55,402][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-12 05:00:55,402][INFO][is_hybird()] com.android.vending.CHECK_LICENSE
+[INTERNAL_LOG][2018-06-12 05:00:55,402][INFO][is_hybird()] com.manboker.headportrait.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-12 05:00:55,402][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-12 05:00:55,402][INFO][is_hybird()] android.permission.CAMERA
+[INTERNAL_LOG][2018-06-12 05:00:55,402][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 05:00:55,402][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 05:00:55,402][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 05:00:55,402][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 05:00:55,402][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 05:00:55,402][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 05:00:55,402][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-12 05:00:55,402][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 05:00:55,402][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 05:00:55,402][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 05:00:55,402][INFO][find_string()] File: assets/error_html/offline.html
+[INTERNAL_LOG][2018-06-12 05:00:55,404][INFO][find_string()] No iframe in assets/error_html/offline.html
+[INTERNAL_LOG][2018-06-12 05:00:55,404][INFO][find_string()] File: assets/error_html/service_error.html
+[INTERNAL_LOG][2018-06-12 05:00:55,405][INFO][find_string()] No iframe in assets/error_html/service_error.html
+[INTERNAL_LOG][2018-06-12 05:00:55,405][INFO][find_string()] File: assets/error_html_e/offline.html
+[INTERNAL_LOG][2018-06-12 05:00:55,406][INFO][find_string()] No iframe in assets/error_html_e/offline.html
+[INTERNAL_LOG][2018-06-12 05:00:55,406][INFO][find_string()] File: assets/testpay.html
+[INTERNAL_LOG][2018-06-12 05:00:55,407][INFO][find_string()] No iframe in assets/testpay.html
+[INTERNAL_LOG][2018-06-12 05:00:55,407][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 05:00:55,407][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 05:00:55,407][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 05:02:09,205][INFO][find_url_in_apk()] [START URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-12 05:02:09,205][INFO][find_url_in_apk()] http://m.alipay.com/?action=h5quit
+http://m.alipay.com/?action=h5quit
+http://play.google.com/store/apps/
+http://play.google.com/store/apps/
+http://qzs.qq.com/open/mobile/login/qzsjump.html?
+
+[INTERNAL_LOG][2018-06-12 05:02:09,205][INFO][find_url_in_apk()] [END URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-12 05:02:15,756][ERROR][download_page_loaded()] Failed download: http://play.google.com/store/apps/ for exception [Errno 21] Is a directory: 'temp_html_code/html_downloaded_MomentCam Cartoons _ Stickers by MomentCam Hong Kong Co/'
+[INTERNAL_LOG][2018-06-12 05:02:16,889][ERROR][download_page_loaded()] Failed download: http://play.google.com/store/apps/ for exception [Errno 21] Is a directory: 'temp_html_code/html_downloaded_MomentCam Cartoons _ Stickers by MomentCam Hong Kong Co/'
+[INTERNAL_LOG][2018-06-12 05:02:17,478][INFO][find_string()] [START REMOTE FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 05:02:17,478][INFO][find_string()] Remote File in: temp_html_code/html_downloaded_MomentCam Cartoons _ Stickers by MomentCam Hong Kong Co/?action=h5quit
+[INTERNAL_LOG][2018-06-12 05:02:17,478][INFO][find_string()] URL: http://m.alipay.com/?action=h5quit
+[INTERNAL_LOG][2018-06-12 05:02:17,483][INFO][find_string()] No iframe in temp_html_code/html_downloaded_MomentCam Cartoons _ Stickers by MomentCam Hong Kong Co/?action=h5quit
+[INTERNAL_LOG][2018-06-12 05:02:17,483][INFO][find_string()] Remote File in: temp_html_code/html_downloaded_MomentCam Cartoons _ Stickers by MomentCam Hong Kong Co/qzsjump.html?
+[INTERNAL_LOG][2018-06-12 05:02:17,483][INFO][find_string()] URL: http://qzs.qq.com/open/mobile/login/qzsjump.html?
+[INTERNAL_LOG][2018-06-12 05:02:17,484][INFO][find_string()] Found this tag <iframe id="jumpIframe" style="display:none;"></iframe>
+[INTERNAL_LOG][2018-06-12 05:02:17,484][INFO][find_string()] Found in file temp_html_code/html_downloaded_MomentCam Cartoons _ Stickers by MomentCam Hong Kong Co/qzsjump.html? tag iframe , 1 times
+[INTERNAL_LOG][2018-06-12 05:02:17,485][INFO][find_string()] No src founded in iframe tag inside file temp_html_code/html_downloaded_MomentCam Cartoons _ Stickers by MomentCam Hong Kong Co/qzsjump.html?
+[INTERNAL_LOG][2018-06-12 05:02:17,485][INFO][find_string()] No CSP found!
+[INTERNAL_LOG][2018-06-12 05:02:17,485][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 05:02:17,485][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 05:02:17,485][INFO][find_url_in_apk()] http://schemas.android.com/apk/res/android
+http://CMBLS/
+http://CMBLS/
+https://mobilegw.alipay.com/mgw.htm
+https://mobilegw.alipay.com/mgw.htm
+http://m.alipay.com/?action=h5quit
+http://m.alipay.com/?action=h5quit
+http://mcgw.alipay.com/gateway.do
+https://mclient.alipay.com/sdkErrorlog.do
+http://10.0.2.2:3000/
+https://api.sandbox.braintreegateway.com/
+https://api.braintreegateway.com/
+https://graph.accountkit.com
+https://m.facebook.com/terms
+https://m.facebook.com/terms
+https://m.facebook.com/terms
+https://m.facebook.com/about/privacy/
+https://m.facebook.com/about/privacy/
+https://m.facebook.com/about/privacy/
+https://m.facebook.com/policies/cookies/
+https://m.facebook.com/policies/cookies/
+https://m.facebook.com/policies/cookies/
+https://www.accountkit.com/faq
+https://www.accountkit.com/faq
+https://www.accountkit.com/faq
+https://play.google.com/store/apps/details?id=%s
+http://m.facebook.com/ads/ad_choices
+http://m.facebook.com/ads/ad_choices
+https://www.facebook.com/audience_network/server_side_reward
+https://www.%s.facebook.com/audience_network/server_side_reward
+https://graph.facebook.com/network_ads_common
+https://graph.%s.facebook.com/network_ads_common
+https://www.facebook.com/adnw_logging/
+https://www.%s.facebook.com/adnw_logging/
+http://play.google.com/store/apps/
+http://play.google.com/store/apps/
+http://play.google.com/store/apps/
+https://www.facebook.com/
+https://www.%s.facebook.com
+http://www.facebook.com
+https://graph.%s
+https://graph-video.%s
+https://facebook.com
+https://facebook.com/device?user_code=%1$s&qr=1
+http://play.google.com/store/apps/details?id=com.facebook.orca
+https://play.google.com/store/apps/details?id=com.facebook.katana
+http://schemas.microsoft.com/DRM/2007/03/protocols/AcquireLicense
+http://www.w3.org/ns/ttml#parameter
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+http://plus.google.com/
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://csi.gstatic.com/csi
+https://www.google.com/dfp/linkDevice
+https://www.google.com/dfp/inAppPreview
+https://www.google.com/dfp/debugSignals
+https://www.google.com/dfp/sendDebugData
+http://www.example.com
+http://www.example.com
+https://pagead2.googlesyndication.com/pagead/gen_204
+http://120.27.234.164:8080/routeControlServer/route/getIps.do
+http://120.27.234.164:8080/routeControlServer/route/getIps.do
+http://route.manboker.com/route/getIps.do
+http://route.manboker.com/route/getIps.do
+https://api.weibo.com/2/friendships/friends/bilateral.json
+https://api.weibo.com/2/friendships/friends/bilateral/ids.json
+https://api.weibo.com/2/friendships/friends_chain/followers.json
+https://api.weibo.com/2/friendships/create.json
+https://api.weibo.com/2/friendships/create.json
+https://api.weibo.com/2/friendships/destroy.json
+https://api.weibo.com/2/friendships/destroy.json
+https://api.weibo.com/2/friendships/followers.json
+https://api.weibo.com/2/friendships/followers.json
+https://api.weibo.com/2/friendships/followers/active.json
+https://api.weibo.com/2/friendships/followers/ids.json
+https://api.weibo.com/2/friendships/followers/ids.json
+https://api.weibo.com/2/friendships/friends.json
+https://api.weibo.com/2/friendships/friends.json
+https://api.weibo.com/2/friendships/friends/ids.json
+https://api.weibo.com/2/friendships/friends/ids.json
+https://api.weibo.com/2/friendships/friends/in_common.json
+https://api.weibo.com/2/friendships/show.json
+https://api.weibo.com/2/friendships/show.json
+https://api.weibo.com/2/friendships/show.json
+https://api.weibo.com/2/friendships/show.json
+https://api.weibo.com/2/friendships/show.json
+https://api.vungle.com/api/v4/
+https://ingest.vungle.com/
+http://lol.vungle.com/
+https://app-measurement.com/a
+https://www.google.com
+http://www.google.com
+http://121.41.80.48:58000/asset/GetWebservice.ashx
+http://121.41.80.48:56000/products/BuyWebservice.ashx
+http://121.41.80.48:56000/products/GetWebservice.ashx
+http://121.41.80.48:57000/MissionV2/SubmitMission.ashx
+http://121.41.80.48:57000/MissionV2/GetMission.ashx
+http://121.41.80.48:56000/products/GetProAndModouWebservice.ashx
+http://pay-us.manboker.com/api/PayBack/GooglePlayPayBack
+http://pay-sg.manboker.com/api/PayBack/GooglePlayPayBack
+http://pay-hz.manboker.com/api/PayBack/GooglePlayPayBack
+http://172.16.254.30:3000/test/android_test.html
+http://172.16.254.30:3000/test/android_test.html
+http://illustrator.oss.aliyuncs.com/
+http://121.41.80.48:59000/topic/GetTopicListWebservice.ashx
+http://121.41.80.48:59000/post/GetPostListWebservice.ashx
+http://121.41.80.48:59000/post/GetUserPostListWebservice.ashx
+http://121.41.80.48:59000/post/Message/GetMessageList.ashx
+http://121.41.80.48:59000/comment/SubmitCommentWebservice.ashx
+http://121.41.80.48:59000/post/GetPostInfoWebservice.ashx
+http://121.41.80.48:59000/praise/SubmitPraiseWebservice.ashx
+http://121.41.80.48:59000/post/DeletePostWebservice.ashx
+http://121.41.80.48:59000/post/AddPostWebservice.ashx
+http://121.41.80.48:59000/Message/Complaint.ashx
+http://121.41.80.48:59000/message/GetComplaintsTypesByLanguage.ashx
+http://121.41.80.48:59000/Reward/GetRewardWebservice.ashx
+http://121.41.80.48:59000/Reward/CheckRewardWebservice.ashx
+http://121.41.80.48:59000/Reward/RewardWebservice.ashx
+http://121.41.80.48:59000/praise/GetPraiseListWebservice.ashx
+http://121.41.80.48:59000/comment/GetCommentWebservice.ashx
+http://121.41.80.48:59000/comment/DeleteCommentWebservice.ashx
+http://121.41.80.48:8083/api/Feed/GetUserFeeds
+http://121.41.80.48:8083/api/Feed/GetUnreadFeedCount
+http://121.41.80.48:59000/post/GetFollowsPostList.ashx
+http://121.41.80.48:59000/post/getpostlistforjump.ashx
+https://api.paymentwall.com/api/payment-systems?
+http://120.27.234.164:8484/query/mass/notification/getConditionMassNotification.do
+http://query.manboker.com/mass/notification/getConditionMassNotification.do
+http://120.27.234.164:8484/query/queryMessage/getUnreadListCountByUserId.do
+http://query.manboker.com/queryMessage/getUnreadListCountByUserId.do
+http://120.27.234.164:8484/query/notification/getNotificationList.do
+http://query.manboker.com/notification/getNotificationList.do
+http://imimg.manboker.com/
+http://imimg.manboker.com/
+http://121.41.80.48:8081/api/Upload/PostData
+http://121.41.80.48:55000/product/GetOnsellProductlist.ashx
+http://121.41.80.48:55000/product/GetProductDetail.ashx
+http://121.41.113.246:59000/productcomment/addproductcomment.ashx
+http://121.41.80.48:55000/api/Recommend/GetRecommendProduct
+http://120.55.167.163:8080/imMobile/itemTraceController/createTrace.do?
+http://pay.manboker.com
+http://172.16.1.87:801/Page/Welcome.html
+http://121.41.80.48:36000/Config/GetSettings.ashx
+http://config.manboker.com/Config/GetSettings.ashx
+http://121.41.80.48:8081/api/Coupon/GetUserCoupons
+http://www.manboker.com/
+http://121.40.61.39:51000/account/ActiveWebService.ashx
+http://121.41.80.48:8083/api/user/RegisterAndLogin
+http://121.41.80.48:51000/ValidateCode/GetCodeWebService.ashx
+http://121.41.80.48:51000/ValidateCode/CreateValidateCodeByTelphoneVerify.ashx
+http://121.41.80.48:51000/ValidateCode/CheckCodeWebService.ashx
+http://121.41.80.48:51000/ValidateCode/CheckValidateCodeByTelphoneVerify.ashx
+http://121.41.80.48:51000/account/UpdatePasswordWebService.ashx
+http://121.41.80.48:8083/api/User/SaveProfile
+http://121.41.80.48:8083/api/User/GetProfile
+http://121.41.80.48:51000/User/BindUserInfoByTelphoneVerify.ashx
+http://121.41.80.48:51000/User/BindUserInfoByEmailVerify.ashx
+http://121.41.80.48:8083/api/user/CheckUserName
+http://121.41.80.48:8083/api/user/GetUserByToken
+http://121.41.80.48:8083/api/user/Logout
+http://121.41.80.48:8083/api/User/SaveUserAvatar
+http://121.41.113.246:59000/suggest/addsuggest.ashx?
+http://up.qqjia.com/z/25/tu32695_10.jpg
+http://v1.qzone.cc/avatar/201404/10/09/30/5345f41e670ec580.jpg%21200x200.jpg
+http://v1.qzone.cc/avatar/201407/01/12/53/53b23ebb14c27312.jpg%21200x200.jpg
+http://moman-res.oss.aliyuncs.com/Images/MomentCamColorV3/emoticon_v3/
+http://172.16.254.50:8093/DataPicker/GetTempInfoData.ashx
+http://192.168.1.208:8088/SavePictures.aspx
+http://b.manboker.com/activity/activityResult.html?activeuid=77777a8a-af91-4e61-b75f-21b4ef059eff&language=zh
+http://b.manboker.com/activity/activityShare.html?activeuid=77777a8a-af91-4e61-b75f-21b4ef059eff&language=zh
+http://sns.whalecloud.com/sina2/callback
+https://api.weixin.qq.com/sns/oauth2/access_token?appid=
+https://api.weixin.qq.com/sns/userinfo?access_token=
+https://mobile-symbol-upload.tingyun.com/info/android.json
+https://api.paymentwall.com/api/brick/token
+https://api.paymentwall.com/api/brick-init/save?key=%s
+https://api.paymentwall.com/api/pro/v2/token
+https://pwgateway.com/api/token
+https://paymentwall.com/mint-terms/
+https://paymentwall.com/privacypolicy
+https://api.paymentwall.com/api/pure-mint/payment
+https://api.paymentwall.com/api/mobiamo/status
+https://api.paymentwall.com/api/price-points
+https://api.paymentwall.com/api/mobiamo/payment
+https://play.google.com/store/apps/
+https://api.paymentwall.com/api/ps/
+https://api.paymentwall.com/api/cart/
+https://api.paymentwall.com/api/subscription/
+https://api.paymentwall.com/api/rest/payment
+https://uri.paypal.com/services/payments/futurepayments
+https://uri.paypal.com/services/payments/futurepayments
+https://uri.paypal.com/services/paypalattributes
+https://uri.paypal.com/services/paypalattributes
+https://svcs.paypal.com/AccessControl/LogRiskMetadata
+https://svcs.paypal.com/AccessControl/LogRiskMetadata
+https://b.stats.paypal.com/counter.cgi?p=
+https://b.stats.paypal.com/counter.cgi?p=
+https://www.paypalobjects.com/webstatic/risk/dyson_config_android_v3.json
+https://www.paypalobjects.com/webstatic/risk/dyson_config_android_v3.json
+https://www.paypalobjects.com/webstatic/risk/dyson_config_android_v3.json
+https://api.paypal.com/v1/tracking/events
+https://cms.paypal.com/jp/cgi-bin/marketingweb?cmd=_render-content&content_ID=ua/Legal_Hub_full&locale.x=ja_JP
+https://www.paypal.jp/jp/contents/regulation/info/overseas-remittance/
+https://cms.paypal.com/jp/cgi-bin/marketingweb?cmd=_render-content&content_ID=ua/Legal_Hub_full&locale.x=en_US
+https://uri.paypal.com/services/payments/funding-options
+https://uri.paypal.com/services/pos/payments
+https://uri.paypal.com/services/mis/customer
+https://uri.paypal.com/services/wallet/financial-instruments/view
+https://uri.paypal.com/services/wallet/sendmoney
+https://uri.paypal.com/services/wallet/money-request/requests
+https://uri.paypal.com/services/loyalty/memberships/update
+https://uri.paypal.com/services/expresscheckout
+http://cancelurl
+http://returnurl
+https://www.paypal.com
+https://api-m.paypal.com/v1/
+https://api-m.paypal.com/v1/
+https://api-m.paypal.com/v1/
+https://www.paypalobjects.com/webstatic/otc/otc-config.android.json
+https://api-m.sandbox.paypal.com/v1/
+https://api-m.sandbox.paypal.com/v1/
+https://www.paypal.com/%s/cgi-bin/webscr?cmd=p/gen/ua/policy_privacy-outside
+https://uri.paypal.com/services/payments/basic
+https://www.paypal.com/webapps/accountrecovery/passwordrecovery
+https://www.paypal.com/%s/cgi-bin/webscr?cmd=_account-recovery&from=%s&locale.x=%s
+https://www.paypal.com/%s/webapps/mpp/ua/useragreement-full
+https://www.paypal.com/signup/account?country.x=%s&locale.x=%s
+http://app.sina.cn/appdetail.php?appID=84560
+https://open.weibo.cn/oauth2/authorize?
+http://api.weibo.cn/2/client/common_config
+http://service.weibo.com/share/mobilesdk.php
+http://service.weibo.com/share/mobilesdk_uppic.php
+http://widget.weibo.com/relationship/followsdk.php
+http://widget.weibo.com/distribution/socail_comments_sdk.php
+https://api.weibo.com/oauth2/access_token
+https://api.weibo.com/2/statuses/repost.json
+https://api.weibo.com/2/statuses/repost.json
+https://api.weibo.com/2/statuses/repost.json
+https://api.weibo.com/2/statuses/update.json
+https://api.weibo.com/2/statuses/update.json
+https://api.weibo.com/2/statuses/update.json
+https://api.weibo.com/2/statuses/upload.json
+https://api.weibo.com/2/statuses/upload.json
+https://api.weibo.com/2/statuses/upload.json
+https://api.weibo.com/2/comments/to_me.json
+https://api.weibo.com/2/comments/by_me.json
+https://api.weibo.com/2/comments/show.json
+https://api.weibo.com/2/comments/timeline.json
+https://api.weibo.com/2/comments/mentions.json
+https://api.weibo.com/2/comments/show_batch.json
+https://api.weibo.com/2/comments/create.json
+https://api.weibo.com/2/comments/destroy.json
+https://api.weibo.com/2/comments/sdestroy_batch.json
+https://api.weibo.com/2/comments/reply.json
+https://m.api.weibo.com/2/messages/invite.json
+https://m.api.weibo.com/2/messages/invite.json
+https://api.weibo.com/oauth2/revokeoauth2
+https://api.weibo.com/2/statuses/friends_timeline.json
+https://api.weibo.com/2/statuses/friends_timeline.json
+https://api.weibo.com/2/statuses/mentions.json
+https://api.weibo.com/2/statuses/mentions.json
+https://api.weibo.com/2/statuses/upload_url_text.json
+https://api.weibo.com/2/statuses/upload_url_text.json
+https://api.weibo.com/2/users/show.json
+https://api.weibo.com/2/users/domain_show.json
+https://api.weibo.com/2/users/counts.json
+https://api.weibo.com/2/account/end_session.json
+https://api.weibo.com/2/account/get_privacy.json
+https://api.weibo.com/2/account/get_uid.json
+https://api.weibo.com/2/account/rate_limit_status.json
+https://api.weibo.com/2/account/profile/school_list.json
+https://api.weibo.com/2/common/get_city.json
+https://api.weibo.com/2/common/get_country.json
+https://api.weibo.com/2/common/get_timezone.json
+https://api.weibo.com/2/favorites/by_tags.json
+https://api.weibo.com/2/favorites/by_tags/ids.json
+https://api.weibo.com/2/favorites/create.json
+https://api.weibo.com/2/favorites/destroy.json
+https://api.weibo.com/2/favorites/destroy_batch.json
+https://api.weibo.com/2/favorites.json
+https://api.weibo.com/2/favorites/ids.json
+https://api.weibo.com/2/favorites/show.json
+https://api.weibo.com/2/favorites/tags.json
+https://api.weibo.com/2/favorites/tags/destroy_batch.json
+https://api.weibo.com/2/favorites/tags/update.json
+https://api.weibo.com/2/favorites/tags/update_batch.json
+https://api.weibo.com/2/friendships/groups/members/add.json
+https://api.weibo.com/2/friendships/groups/members/add_batch.json
+https://api.weibo.com/2/friendships/groups/create.json
+https://api.weibo.com/2/friendships/groups/destroy.json
+https://api.weibo.com/2/friendships/groups/members/destroy.json
+https://api.weibo.com/2/friendships/groups.json
+https://api.weibo.com/2/friendships/groups/is_member.json
+https://api.weibo.com/2/friendships/groups/members.json
+https://api.weibo.com/2/friendships/groups/order.json
+https://api.weibo.com/2/friendships/groups/show.json
+https://api.weibo.com/2/friendships/groups/show_batch.json
+https://api.weibo.com/2/friendships/groups/timeline.json
+https://api.weibo.com/2/friendships/groups/update.json
+https://api.weibo.com/2/friendships/groups/members/update.json
+https://api.weibo.com/2/location/geo/gps_to_offset.json
+https://api.weibo.com/2/location/pois/search/by_geo.json
+https://api.weibo.com/2/location/geo/geo_to_address.json
+https://api.weibo.com/2/place/friends_timeline.json
+https://api.weibo.com/2/place/nearby/photos.json
+https://api.weibo.com/2/place/nearby/pois.json
+https://api.weibo.com/2/place/nearby_timeline.json
+https://api.weibo.com/2/place/nearby_users/list.json
+https://api.weibo.com/2/place/nearby/users.json
+https://api.weibo.com/2/place/nearby_users/create.json
+https://api.weibo.com/2/place/nearby_users/destory.json
+https://api.weibo.com/2/place/poi_timeline.json
+https://api.weibo.com/2/place/pois/add_checkin.json
+https://api.weibo.com/2/place/pois/add_photo.json
+https://api.weibo.com/2/place/pois/add_tip.json
+https://api.weibo.com/2/place/pois/add_todo.json
+https://api.weibo.com/2/place/pois/category.json
+https://api.weibo.com/2/place/pois/create.json
+https://api.weibo.com/2/place/pois/photos.json
+https://api.weibo.com/2/place/pois/search.json
+https://api.weibo.com/2/place/pois/show.json
+https://api.weibo.com/2/place/pois/tips.json
+https://api.weibo.com/2/place/pois/users.json
+https://api.weibo.com/2/place/public_timelin.json
+https://api.weibo.com/2/place/statuses/show.json
+https://api.weibo.com/2/place/user_timeline.json
+https://api.weibo.com/2/place/users/checkins.json
+https://api.weibo.com/2/place/users/photos.json
+https://api.weibo.com/2/place/users/show.json
+https://api.weibo.com/2/place/users/tips.json
+https://api.weibo.com/2/place/users/todos.json
+https://api.weibo.com/2/register/verify_nickname.json
+https://api.weibo.com/2/search/suggestions/apps.json
+https://api.weibo.com/2/search/suggestions/at_users.json
+https://api.weibo.com/2/search/suggestions/companies.json
+https://api.weibo.com/2/search/suggestions/schools.json
+https://api.weibo.com/2/search/suggestions/statuses.json
+https://api.weibo.com/2/search/suggestions/users.json
+https://api.weibo.com/2/short_url/clicks.json
+https://api.weibo.com/2/short_url/comment/counts.json
+https://api.weibo.com/2/short_url/comment/comments.json
+https://api.weibo.com/2/short_url/expand.json
+https://api.weibo.com/2/short_url/expand.json
+https://api.weibo.com/2/short_url/locations.json
+https://api.weibo.com/2/short_url/referers.json
+https://api.weibo.com/2/short_url/share/counts.json
+https://api.weibo.com/2/short_url/share/statuses.json
+https://api.weibo.com/2/short_url/shorten.json
+https://api.weibo.com/2/statuses/bilateral_timeline.json
+https://api.weibo.com/2/statuses/count.json
+https://api.weibo.com/2/statuses/destroy.json
+https://api.weibo.com/2/emotions.json
+https://api.weibo.com/2/statuses/friends_timeline/ids.json
+https://api.weibo.com/2/statuses/home_timeline.json
+https://api.weibo.com/2/statuses/hot/comments_daily.json
+https://api.weibo.com/2/statuses/hot/comments_weekly.json
+https://api.weibo.com/2/statuses/hot/repost_daily.json
+https://api.weibo.com/2/statuses/hot/repost_weekly.json
+https://api.weibo.com/2/statuses/mentions/ids.json
+https://api.weibo.com/2/statuses/public_timeline.json
+https://api.weibo.com/2/statuses/queryid.json
+https://api.weibo.com/2/statuses/querymid.json
+https://api.weibo.com/2/statuses/repost_by_me.json
+https://api.weibo.com/2/statuses/repost_timeline.json
+https://api.weibo.com/2/statuses/repost_timeline/ids.json
+https://api.weibo.com/2/statuses/show.json
+https://api.weibo.com/2/statuses/user_timeline.json
+https://api.weibo.com/2/statuses/user_timeline.json
+https://api.weibo.com/2/statuses/user_timeline.json
+https://api.weibo.com/2/statuses/user_timeline/ids.json
+https://api.weibo.com/2/statuses/user_timeline/ids.json
+https://api.weibo.com/2/suggestions/users/may_interested.json
+https://api.weibo.com/2/suggestions/users/may_interested.json
+https://api.weibo.com/2/suggestions/favorites/hot.json
+https://api.weibo.com/2/suggestions/users/not_interested.json
+https://api.weibo.com/2/suggestions/statuses/hot.json
+https://api.weibo.com/2/suggestions/users/hot.json
+https://api.weibo.com/2/tags/create.json
+https://api.weibo.com/2/tags/destroy.json
+https://api.weibo.com/2/tags/destroy_batch.json
+https://api.weibo.com/2/tags/suggestions.json
+https://api.weibo.com/2/tags.json
+https://api.weibo.com/2/tags/tags_batch.json
+https://api.weibo.com/2/trends/daily.json
+https://api.weibo.com/2/trends/destroy.json
+https://api.weibo.com/2/trends/follow.json
+https://api.weibo.com/2/trends/hourly.json
+https://api.weibo.com/2/trends/is_follow.json
+https://api.weibo.com/2/trends.json
+https://api.weibo.com/2/trends/weekly.json
+http://weibo.cn/dpool/ttt/h5/regagreement.php?from=h5&lang=
+http://m.weibo.cn/reg/privacyagreement?from=h5&wm=3349&lang=
+http://api.weibo.com/oauth2/sms_authorize/send
+http://api.weibo.com/oauth2/sms_authorize/submit
+https://api.weibo.com/oauth2/getaid.json
+http://xmlpull.org/v1/doc/features.html#indent-output
+http://xmlpull.org/v1/doc/features.html#indent-output
+http://xmlpull.org/v1/doc/features.html#indent-output
+http://openmobile.qq.com/oauth2.0/m_jump_by_version?
+http://qzs.qq.com/open/mobile/login/qzsjump.html?
+http://qzs.qq.com/open/mobile/login/qzsjump.html?
+http://qzs.qq.com/open/mobile/login/qzsjump.html?
+http://appsupport.qq.com/cgi-bin/qzapps/mapp_addapp.cgi
+http://appsupport.qq.com/cgi-bin/qzapps/mapp_addapp.cgi
+http://openmobile.qq.com/oauth2.0/m_authorize?
+https://openmobile.qq.com/user/user_login_statis
+https://openmobile.qq.com/v3/user/get_info
+http://fusion.qq.com/cgi-bin/qzapps/unified_jump?appid=%1$s&from=%2$s&isOpenAppID=1
+http://fusion.qq.com/cgi-bin/qzapps/unified_jump?appid=%1$s&from=%2$s&isOpenAppID=1
+http://ls.map.soso.com/deflect?c=1
+http://lstest.map.soso.com/loc?c=1
+http://lbs.map.qq.com/loc?c=1
+http://ls.map.soso.com/monitor/monitor.html
+http://open.weixin.qq.com/connect/sdk/qrconnect?appid=%s&noncestr=%s&timestamp=%s&scope=%s&signature=%s
+https://long.open.weixin.qq.com/connect/l/qrconnect?f=json&uuid=%s
+http://fusion.qq.com/cgi-bin/prize_sharing/make_share_url.cgi
+http://fusion.qq.com/cgi-bin/prize_sharing/query_unexchange_prize.cgi
+http://fusion.qq.com/cgi-bin/prize_sharing/exchange_prize.cgi
+http://fusion.qq.com/cgi-bin/prize_sharing/get_activity_state.cgi
+http://fusion.qq.com/cgi-bin/qzapps/mapp_lbs_getnear.cgi
+http://fusion.qq.com/cgi-bin/qzapps/mapp_lbs_delete.cgi
+http://qzs.qq.com/open/mobile/not_support.html?
+http://qzs.qq.com/open/mobile/request/sdk_request.html?
+http://qzs.qq.com/open/mobile/brag/sdk_brag.html?
+http://qzs.qq.com/open/mobile/brag/sdk_brag.html?
+http://qzs.qq.com/open/mobile/rate/sdk_rate.html?
+http://qzs.qq.com/open/mobile/invite/sdk_invite.html?
+http://qzs.qq.com/open/mobile/reactive/sdk_reactive.html?
+http://qzs.qq.com/open/mobile/sendstory/sdk_sendstory_v1.3.html?
+http://qzs.qq.com
+http://appact.qzone.qq.com/appstore_activity_task_pcpush_sdk
+http://appact.qzone.qq.com/appstore_activity_task_pcpush_sdk
+http://c.isdspeed.qq.com/code.cgi
+http://wspeed.qq.com/w.cgi
+http://appsupport.qq.com/cgi-bin/appstage/mstats_batch_report
+https://openmobile.qq.com/
+http://cgi.connect.qq.com/qqconnectopen/openapi/policy_conf
+http://cgi.qplus.com/report/report
+http://webpresence.qq.com/getonline?Type=1&
+http://www.myapp.com/forward/a/45592?g_f=990935
+http://m.wsq.qq.com/direct?
+http://qzs.qq.com/open/mobile/jsbridge/demo.htm
+http://analy.qq.com/cgi-bin/mapp_apptrace
+http://pingma.qq.com:80/mstat/report
+http://pingma.qq.com:80/mstat/report
+http://alog.umeng.com/app_logs
+http://alog.umengcloud.com/app_logs
+https://cmnsguider.yunos.com:443/genDeviceToken
+https://uop.umeng.com
+http://log.umsns.com/share/api/
+http://fb.umeng.com/feedback_sdk_webview/questions.html?appkey=
+http://fb.umeng.com/feedback_sdk_webview/questions.html?appkey=
+http://fb.umeng.com/api/v2/user/getuid
+http://fb.umeng.com/api/v2/feedback/reply/show
+http://fb.umeng.com/api/v2/feedback/reply/new
+http://fb.umeng.com/api/v2/user/update
+http://fb.umeng.com/api/v2/feedback/new
+https://www.vungle.com/privacy/
+https://www.vungle.com/privacy/
+https://e.crashlytics.com/spi/v2/events
+https://settings.crashlytics.com/spi/v2/platforms/android/apps/%s/settings
+
+[INTERNAL_LOG][2018-06-12 05:02:17,486][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 05:02:17,490][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 05:02:17,491][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 05:02:17,491][INFO][analyze_start()] This app might be vulnerable on attack frame confusion, This file are vulnerable ['temp_html_code/html_downloaded_MomentCam Cartoons _ Stickers by MomentCam Hong Kong Co/qzsjump.html?']
+[INTERNAL_LOG][2018-06-12 05:02:17,491][INFO][analyze_start()] End time:[Tue Jun 12 05:02:17 2018]

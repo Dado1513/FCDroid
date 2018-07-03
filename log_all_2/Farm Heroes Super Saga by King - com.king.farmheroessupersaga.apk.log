@@ -1,0 +1,108 @@
+[INTERNAL_LOG][2018-06-12 04:26:06,556][INFO][analyze_start()] Init Time [Tue Jun 12 04:26:06 2018]
+[INTERNAL_LOG][2018-06-12 04:26:06,730][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 04:26:06,731][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 04:26:06,731][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-12 04:26:06,731][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 04:26:06,731][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 04:26:06,732][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 04:26:06,732][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 04:26:06,732][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-12 04:26:06,732][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 04:26:06,732][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 04:26:06,732][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 04:26:06,732][INFO][find_string()] File: assets/res_output/servicelayer-views/sharelog/index.html
+[INTERNAL_LOG][2018-06-12 04:26:06,735][INFO][find_string()] Found this tag <iframe allowfullscreen="" frameborder="0"></iframe>
+[INTERNAL_LOG][2018-06-12 04:26:06,736][INFO][find_string()] Found in file assets/res_output/servicelayer-views/sharelog/index.html tag iframe , 1 times
+[INTERNAL_LOG][2018-06-12 04:26:06,736][INFO][find_string()] No src founded in iframe tag inside file assets/res_output/servicelayer-views/sharelog/index.html
+[INTERNAL_LOG][2018-06-12 04:26:06,737][INFO][find_string()] No CSP found!
+[INTERNAL_LOG][2018-06-12 04:26:06,737][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 04:26:06,737][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 04:26:06,737][INFO][find_string()] File: assets/res_output/servicelayer-views/sharelog/libs/js/bootstrap-slider.min.js
+[INTERNAL_LOG][2018-06-12 04:26:06,739][INFO][find_string()] No iframe in assets/res_output/servicelayer-views/sharelog/libs/js/bootstrap-slider.min.js
+[INTERNAL_LOG][2018-06-12 04:26:06,739][INFO][find_string()] File: assets/res_output/servicelayer-views/sharelog/libs/js/bootstrap-toggle.min.js
+[INTERNAL_LOG][2018-06-12 04:26:06,740][INFO][find_string()] No iframe in assets/res_output/servicelayer-views/sharelog/libs/js/bootstrap-toggle.min.js
+[INTERNAL_LOG][2018-06-12 04:26:06,740][INFO][find_string()] File: assets/res_output/servicelayer-views/sharelog/libs/js/bootstrap.min.js
+[INTERNAL_LOG][2018-06-12 04:26:06,743][INFO][find_string()] No iframe in assets/res_output/servicelayer-views/sharelog/libs/js/bootstrap.min.js
+[INTERNAL_LOG][2018-06-12 04:26:06,743][INFO][find_string()] File: assets/res_output/servicelayer-views/sharelog/libs/js/jquery-1.12.4.min.js
+[INTERNAL_LOG][2018-06-12 04:26:06,748][INFO][find_string()] No iframe in assets/res_output/servicelayer-views/sharelog/libs/js/jquery-1.12.4.min.js
+[INTERNAL_LOG][2018-06-12 04:26:06,748][INFO][find_string()] File: assets/res_output/servicelayer-views/sharelog/libs/js/jquery.flot.min.js
+[INTERNAL_LOG][2018-06-12 04:26:06,752][INFO][find_string()] No iframe in assets/res_output/servicelayer-views/sharelog/libs/js/jquery.flot.min.js
+[INTERNAL_LOG][2018-06-12 04:26:06,752][INFO][find_string()] File: assets/res_output/servicelayer-views/sharelog/libs/js/jquery.flot.resize.min.js
+[INTERNAL_LOG][2018-06-12 04:26:06,753][INFO][find_string()] No iframe in assets/res_output/servicelayer-views/sharelog/libs/js/jquery.flot.resize.min.js
+[INTERNAL_LOG][2018-06-12 04:26:06,753][INFO][find_string()] File: assets/res_output/servicelayer-views/sharelog/libs/js/jquery.flot.time.min.js
+[INTERNAL_LOG][2018-06-12 04:26:06,754][INFO][find_string()] No iframe in assets/res_output/servicelayer-views/sharelog/libs/js/jquery.flot.time.min.js
+[INTERNAL_LOG][2018-06-12 04:26:06,754][INFO][find_string()] File: assets/res_output/servicelayer-views/sharelog/libs/js/showdown.min.js
+[INTERNAL_LOG][2018-06-12 04:26:06,761][INFO][find_string()] No iframe in assets/res_output/servicelayer-views/sharelog/libs/js/showdown.min.js
+[INTERNAL_LOG][2018-06-12 04:26:06,762][INFO][find_string()] File: assets/res_output/servicelayer-views/sharelog/sharelog.min.js
+[INTERNAL_LOG][2018-06-12 04:26:06,763][INFO][find_string()] No iframe in assets/res_output/servicelayer-views/sharelog/sharelog.min.js
+[INTERNAL_LOG][2018-06-12 04:26:06,763][INFO][find_string()] File: assets/res_output/servicelayer-views/sharelog/viewer.min.js
+[INTERNAL_LOG][2018-06-12 04:26:06,860][INFO][find_string()] No iframe in assets/res_output/servicelayer-views/sharelog/viewer.min.js
+[INTERNAL_LOG][2018-06-12 04:26:06,860][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 04:26:30,780][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 04:26:30,780][INFO][find_url_in_apk()] http://www.amazon.com/gp/mas/get-appstore/android/ref=mas_mx_mba_iap_dl
+https://graph.facebook.com/network_ads_common
+https://graph.%s.facebook.com/network_ads_common
+https://www.facebook.com/adnw_logging/
+https://www.%s.facebook.com/adnw_logging/
+http://play.google.com/store/apps/
+https://www.facebook.com/
+https://www.%s.facebook.com
+http://www.facebook.com
+https://graph.%s
+https://graph-video.%s
+https://facebook.com
+http://play.google.com/store/apps/details?id=com.facebook.orca
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+https://accounts.google.com
+https://www.facebook.com
+https://plus.google.com/
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games_lite
+https://www.googleapis.com/auth/games_lite
+https://www.googleapis.com/auth/games_lite
+https://www.googleapis.com/auth/games.firstparty
+https://www.googleapis.com/auth/games.firstparty
+https://pagead2.googlesyndication.com/pagead/gen_204
+http://www.google.com
+https://support.google.com/dfp_premium/answer/7160685#push
+http://www.example.com
+http://www.example.com
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/sdk-core-v40-impl.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://csi.gstatic.com/csi
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/native_ads.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/native_ads.js
+https://imasdk.googleapis.com/admob/sdkloader/native_video.html
+https://www.google.com/dfp/linkDevice
+https://www.google.com/dfp/inAppPreview
+https://www.google.com/dfp/debugSignals
+https://www.google.com/dfp/sendDebugData
+https://www.googleapis.com/auth/plus.login
+https://www.googleapis.com/auth/plus.me
+http://schemas.android.com/apk/lib/com.google.android.gms.plus
+http://schemas.android.com/apk/lib/com.google.android.gms.plus
+https://imasdk.googleapis.com/native/sdkloader/native_sdk_v3.html
+https://imasdk.googleapis.com/native/sdkloader/native_sdk_v3_debug.html
+https://z.moatads.com/
+https://play.google.com/store/apps/details?id=%s
+https://www.googleapis.com/auth/contacts.readonly
+https://www.facebook.com/audience_network/server_side_reward
+https://www.%s.facebook.com/audience_network/server_side_reward
+http://www.dom.com/path?
+
+[INTERNAL_LOG][2018-06-12 04:26:30,780][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 04:26:30,785][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 04:26:30,786][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 04:26:30,786][INFO][analyze_start()] This app might be vulnerable on attack frame confusion, This file are vulnerable ['assets/res_output/servicelayer-views/sharelog/index.html']
+[INTERNAL_LOG][2018-06-12 04:26:30,786][INFO][analyze_start()] End time:[Tue Jun 12 04:26:30 2018]

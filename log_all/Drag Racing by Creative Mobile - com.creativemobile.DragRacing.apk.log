@@ -1,0 +1,771 @@
+[INTERNAL_LOG][2018-06-07 21:25:43,556][INFO][analyze_start()] Init Time [Thu Jun  7 21:25:43 2018]
+[INTERNAL_LOG][2018-06-07 21:25:43,641][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-07 21:25:43,642][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-07 21:25:43,642][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-07 21:25:43,642][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-07 21:25:43,642][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-07 21:25:43,642][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-07 21:25:43,642][INFO][is_hybird()] android.permission.ACCESS_FINE_LOCATION
+[INTERNAL_LOG][2018-06-07 21:25:43,642][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-07 21:25:43,642][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-07 21:25:43,642][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-07 21:25:43,642][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-07 21:25:43,642][INFO][is_hybird()] android.permission.BLUETOOTH
+[INTERNAL_LOG][2018-06-07 21:25:43,642][INFO][is_hybird()] android.permission.BLUETOOTH_ADMIN
+[INTERNAL_LOG][2018-06-07 21:25:43,642][INFO][is_hybird()] android.permission.RECEIVE_BOOT_COMPLETED
+[INTERNAL_LOG][2018-06-07 21:25:43,643][INFO][is_hybird()] android.permission.ACCESS_COARSE_LOCATION
+[INTERNAL_LOG][2018-06-07 21:25:43,643][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-07 21:25:43,643][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-07 21:25:43,643][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-07 21:25:43,643][INFO][find_string()] File: allclasses-frame.html
+[INTERNAL_LOG][2018-06-07 21:25:43,648][INFO][find_string()] No iframe in allclasses-frame.html
+[INTERNAL_LOG][2018-06-07 21:25:43,648][INFO][find_string()] File: allclasses-noframe.html
+[INTERNAL_LOG][2018-06-07 21:25:43,692][INFO][find_string()] No iframe in allclasses-noframe.html
+[INTERNAL_LOG][2018-06-07 21:25:43,692][INFO][find_string()] File: com/android/vending/billing/IInAppBillingService.Stub.html
+[INTERNAL_LOG][2018-06-07 21:25:43,701][INFO][find_string()] No iframe in com/android/vending/billing/IInAppBillingService.Stub.html
+[INTERNAL_LOG][2018-06-07 21:25:43,702][INFO][find_string()] File: com/android/vending/billing/IInAppBillingService.html
+[INTERNAL_LOG][2018-06-07 21:25:43,711][INFO][find_string()] No iframe in com/android/vending/billing/IInAppBillingService.html
+[INTERNAL_LOG][2018-06-07 21:25:43,711][INFO][find_string()] File: com/android/vending/billing/class-use/IInAppBillingService.Stub.html
+[INTERNAL_LOG][2018-06-07 21:25:43,713][INFO][find_string()] No iframe in com/android/vending/billing/class-use/IInAppBillingService.Stub.html
+[INTERNAL_LOG][2018-06-07 21:25:43,713][INFO][find_string()] File: com/android/vending/billing/class-use/IInAppBillingService.html
+[INTERNAL_LOG][2018-06-07 21:25:43,718][INFO][find_string()] No iframe in com/android/vending/billing/class-use/IInAppBillingService.html
+[INTERNAL_LOG][2018-06-07 21:25:43,718][INFO][find_string()] File: com/android/vending/billing/package-frame.html
+[INTERNAL_LOG][2018-06-07 21:25:43,719][INFO][find_string()] No iframe in com/android/vending/billing/package-frame.html
+[INTERNAL_LOG][2018-06-07 21:25:43,719][INFO][find_string()] File: com/android/vending/billing/package-summary.html
+[INTERNAL_LOG][2018-06-07 21:25:43,723][INFO][find_string()] No iframe in com/android/vending/billing/package-summary.html
+[INTERNAL_LOG][2018-06-07 21:25:43,723][INFO][find_string()] File: com/android/vending/billing/package-tree.html
+[INTERNAL_LOG][2018-06-07 21:25:43,725][INFO][find_string()] No iframe in com/android/vending/billing/package-tree.html
+[INTERNAL_LOG][2018-06-07 21:25:43,725][INFO][find_string()] File: com/android/vending/billing/package-use.html
+[INTERNAL_LOG][2018-06-07 21:25:44,129][INFO][find_string()] No iframe in com/android/vending/billing/package-use.html
+[INTERNAL_LOG][2018-06-07 21:25:44,149][INFO][find_string()] File: com/cm/notification/AbstractNotificationReceiver.html
+[INTERNAL_LOG][2018-06-07 21:25:47,707][INFO][find_string()] No iframe in com/cm/notification/AbstractNotificationReceiver.html
+[INTERNAL_LOG][2018-06-07 21:25:47,727][INFO][find_string()] File: com/cm/notification/ClubWarIsAlmostOverNotificationReceiver.html
+[INTERNAL_LOG][2018-06-07 21:25:49,927][INFO][find_string()] No iframe in com/cm/notification/ClubWarIsAlmostOverNotificationReceiver.html
+[INTERNAL_LOG][2018-06-07 21:25:49,947][INFO][find_string()] File: com/cm/notification/ClubWarIsOverNotificationReceiver.html
+[INTERNAL_LOG][2018-06-07 21:25:52,332][INFO][find_string()] No iframe in com/cm/notification/ClubWarIsOverNotificationReceiver.html
+[INTERNAL_LOG][2018-06-07 21:25:52,353][INFO][find_string()] File: com/cm/notification/ClubWarStartedNotificationReceiver.html
+[INTERNAL_LOG][2018-06-07 21:25:54,651][INFO][find_string()] No iframe in com/cm/notification/ClubWarStartedNotificationReceiver.html
+[INTERNAL_LOG][2018-06-07 21:25:54,672][INFO][find_string()] File: com/cm/notification/ComeBack12DNotificationReceiver.html
+[INTERNAL_LOG][2018-06-07 21:25:57,434][INFO][find_string()] No iframe in com/cm/notification/ComeBack12DNotificationReceiver.html
+[INTERNAL_LOG][2018-06-07 21:25:57,454][INFO][find_string()] File: com/cm/notification/ComeBack17DNotificationReceiver.html
+[INTERNAL_LOG][2018-06-07 21:25:59,963][INFO][find_string()] No iframe in com/cm/notification/ComeBack17DNotificationReceiver.html
+[INTERNAL_LOG][2018-06-07 21:25:59,984][INFO][find_string()] File: com/cm/notification/ComeBack1DNotificationReceiver.html
+[INTERNAL_LOG][2018-06-07 21:26:06,628][INFO][find_string()] No iframe in com/cm/notification/ComeBack1DNotificationReceiver.html
+[INTERNAL_LOG][2018-06-07 21:26:06,649][INFO][find_string()] File: com/cm/notification/ComeBack21DNotificationReceiver.html
+[INTERNAL_LOG][2018-06-07 21:26:07,389][INFO][find_string()] No iframe in com/cm/notification/ComeBack21DNotificationReceiver.html
+[INTERNAL_LOG][2018-06-07 21:26:07,389][INFO][find_string()] File: com/cm/notification/ComeBack26DNotificationReceiver.html
+[INTERNAL_LOG][2018-06-07 21:26:07,395][INFO][find_string()] No iframe in com/cm/notification/ComeBack26DNotificationReceiver.html
+[INTERNAL_LOG][2018-06-07 21:26:07,395][INFO][find_string()] File: com/cm/notification/ComeBack29DNotificationReceiver.html
+[INTERNAL_LOG][2018-06-07 21:26:07,400][INFO][find_string()] No iframe in com/cm/notification/ComeBack29DNotificationReceiver.html
+[INTERNAL_LOG][2018-06-07 21:26:07,400][INFO][find_string()] File: com/cm/notification/ComeBack34DNotificationReceiver.html
+[INTERNAL_LOG][2018-06-07 21:26:07,408][INFO][find_string()] No iframe in com/cm/notification/ComeBack34DNotificationReceiver.html
+[INTERNAL_LOG][2018-06-07 21:26:07,409][INFO][find_string()] File: com/cm/notification/ComeBack3DNotificationReceiver.html
+[INTERNAL_LOG][2018-06-07 21:26:07,415][INFO][find_string()] No iframe in com/cm/notification/ComeBack3DNotificationReceiver.html
+[INTERNAL_LOG][2018-06-07 21:26:07,415][INFO][find_string()] File: com/cm/notification/ComeBack5DNotificationReceiver.html
+[INTERNAL_LOG][2018-06-07 21:26:07,424][INFO][find_string()] No iframe in com/cm/notification/ComeBack5DNotificationReceiver.html
+[INTERNAL_LOG][2018-06-07 21:26:07,424][INFO][find_string()] File: com/cm/notification/ComeBack7DNotificationReceiver.html
+[INTERNAL_LOG][2018-06-07 21:26:07,528][INFO][find_string()] No iframe in com/cm/notification/ComeBack7DNotificationReceiver.html
+[INTERNAL_LOG][2018-06-07 21:26:07,549][INFO][find_string()] File: com/cm/notification/DriversBattleNotificationReceiver.html
+[INTERNAL_LOG][2018-06-07 21:26:10,583][INFO][find_string()] No iframe in com/cm/notification/DriversBattleNotificationReceiver.html
+[INTERNAL_LOG][2018-06-07 21:26:10,603][INFO][find_string()] File: com/cm/notification/FirstPurchaseOfferNotificationReceiver.html
+[INTERNAL_LOG][2018-06-07 21:26:13,033][INFO][find_string()] No iframe in com/cm/notification/FirstPurchaseOfferNotificationReceiver.html
+[INTERNAL_LOG][2018-06-07 21:26:13,054][INFO][find_string()] File: com/cm/notification/FullFuelNotificationReceiver.html
+[INTERNAL_LOG][2018-06-07 21:26:15,219][INFO][find_string()] No iframe in com/cm/notification/FullFuelNotificationReceiver.html
+[INTERNAL_LOG][2018-06-07 21:26:15,239][INFO][find_string()] File: com/cm/notification/NotificationHelper.html
+[INTERNAL_LOG][2018-06-07 21:26:18,540][INFO][find_string()] No iframe in com/cm/notification/NotificationHelper.html
+[INTERNAL_LOG][2018-06-07 21:26:18,561][INFO][find_string()] File: com/cm/notification/ParseBroadcastReceiver.html
+[INTERNAL_LOG][2018-06-07 21:26:21,523][INFO][find_string()] No iframe in com/cm/notification/ParseBroadcastReceiver.html
+[INTERNAL_LOG][2018-06-07 21:26:21,543][INFO][find_string()] File: com/cm/notification/ParsePushBroadcastReceiver.html
+[INTERNAL_LOG][2018-06-07 21:26:24,015][INFO][find_string()] No iframe in com/cm/notification/ParsePushBroadcastReceiver.html
+[INTERNAL_LOG][2018-06-07 21:26:24,025][INFO][find_string()] File: com/cm/notification/class-use/AbstractNotificationReceiver.html
+[INTERNAL_LOG][2018-06-07 21:26:26,074][INFO][find_string()] No iframe in com/cm/notification/class-use/AbstractNotificationReceiver.html
+[INTERNAL_LOG][2018-06-07 21:26:26,094][INFO][find_string()] File: com/cm/notification/class-use/ClubWarIsAlmostOverNotificationReceiver.html
+[INTERNAL_LOG][2018-06-07 21:26:27,767][INFO][find_string()] No iframe in com/cm/notification/class-use/ClubWarIsAlmostOverNotificationReceiver.html
+[INTERNAL_LOG][2018-06-07 21:26:27,787][INFO][find_string()] File: com/cm/notification/class-use/ClubWarIsOverNotificationReceiver.html
+[INTERNAL_LOG][2018-06-07 21:26:28,715][INFO][find_string()] No iframe in com/cm/notification/class-use/ClubWarIsOverNotificationReceiver.html
+[INTERNAL_LOG][2018-06-07 21:26:28,736][INFO][find_string()] File: com/cm/notification/class-use/ClubWarStartedNotificationReceiver.html
+[INTERNAL_LOG][2018-06-07 21:26:29,659][INFO][find_string()] No iframe in com/cm/notification/class-use/ClubWarStartedNotificationReceiver.html
+[INTERNAL_LOG][2018-06-07 21:26:29,680][INFO][find_string()] File: com/cm/notification/class-use/ComeBack12DNotificationReceiver.html
+[INTERNAL_LOG][2018-06-07 21:26:30,599][INFO][find_string()] No iframe in com/cm/notification/class-use/ComeBack12DNotificationReceiver.html
+[INTERNAL_LOG][2018-06-07 21:26:30,619][INFO][find_string()] File: com/cm/notification/class-use/ComeBack17DNotificationReceiver.html
+[INTERNAL_LOG][2018-06-07 21:26:31,488][INFO][find_string()] No iframe in com/cm/notification/class-use/ComeBack17DNotificationReceiver.html
+[INTERNAL_LOG][2018-06-07 21:26:31,509][INFO][find_string()] File: com/cm/notification/class-use/ComeBack1DNotificationReceiver.html
+[INTERNAL_LOG][2018-06-07 21:26:32,736][INFO][find_string()] No iframe in com/cm/notification/class-use/ComeBack1DNotificationReceiver.html
+[INTERNAL_LOG][2018-06-07 21:26:32,757][INFO][find_string()] File: com/cm/notification/class-use/ComeBack21DNotificationReceiver.html
+[INTERNAL_LOG][2018-06-07 21:26:33,351][INFO][find_string()] No iframe in com/cm/notification/class-use/ComeBack21DNotificationReceiver.html
+[INTERNAL_LOG][2018-06-07 21:26:33,351][INFO][find_string()] File: com/cm/notification/class-use/ComeBack26DNotificationReceiver.html
+[INTERNAL_LOG][2018-06-07 21:26:33,354][INFO][find_string()] No iframe in com/cm/notification/class-use/ComeBack26DNotificationReceiver.html
+[INTERNAL_LOG][2018-06-07 21:26:33,354][INFO][find_string()] File: com/cm/notification/class-use/ComeBack29DNotificationReceiver.html
+[INTERNAL_LOG][2018-06-07 21:26:33,356][INFO][find_string()] No iframe in com/cm/notification/class-use/ComeBack29DNotificationReceiver.html
+[INTERNAL_LOG][2018-06-07 21:26:33,356][INFO][find_string()] File: com/cm/notification/class-use/ComeBack34DNotificationReceiver.html
+[INTERNAL_LOG][2018-06-07 21:26:33,359][INFO][find_string()] No iframe in com/cm/notification/class-use/ComeBack34DNotificationReceiver.html
+[INTERNAL_LOG][2018-06-07 21:26:33,359][INFO][find_string()] File: com/cm/notification/class-use/ComeBack3DNotificationReceiver.html
+[INTERNAL_LOG][2018-06-07 21:26:33,361][INFO][find_string()] No iframe in com/cm/notification/class-use/ComeBack3DNotificationReceiver.html
+[INTERNAL_LOG][2018-06-07 21:26:33,362][INFO][find_string()] File: com/cm/notification/class-use/ComeBack5DNotificationReceiver.html
+[INTERNAL_LOG][2018-06-07 21:26:33,364][INFO][find_string()] No iframe in com/cm/notification/class-use/ComeBack5DNotificationReceiver.html
+[INTERNAL_LOG][2018-06-07 21:26:33,365][INFO][find_string()] File: com/cm/notification/class-use/ComeBack7DNotificationReceiver.html
+[INTERNAL_LOG][2018-06-07 21:26:33,369][INFO][find_string()] No iframe in com/cm/notification/class-use/ComeBack7DNotificationReceiver.html
+[INTERNAL_LOG][2018-06-07 21:26:33,390][INFO][find_string()] File: com/cm/notification/class-use/DriversBattleNotificationReceiver.html
+[INTERNAL_LOG][2018-06-07 21:26:34,285][INFO][find_string()] No iframe in com/cm/notification/class-use/DriversBattleNotificationReceiver.html
+[INTERNAL_LOG][2018-06-07 21:26:34,305][INFO][find_string()] File: com/cm/notification/class-use/FirstPurchaseOfferNotificationReceiver.html
+[INTERNAL_LOG][2018-06-07 21:26:35,948][INFO][find_string()] No iframe in com/cm/notification/class-use/FirstPurchaseOfferNotificationReceiver.html
+[INTERNAL_LOG][2018-06-07 21:26:35,969][INFO][find_string()] File: com/cm/notification/class-use/FullFuelNotificationReceiver.html
+[INTERNAL_LOG][2018-06-07 21:26:36,852][INFO][find_string()] No iframe in com/cm/notification/class-use/FullFuelNotificationReceiver.html
+[INTERNAL_LOG][2018-06-07 21:26:36,872][INFO][find_string()] File: com/cm/notification/class-use/NotificationHelper.html
+[INTERNAL_LOG][2018-06-07 21:26:37,522][INFO][find_string()] No iframe in com/cm/notification/class-use/NotificationHelper.html
+[INTERNAL_LOG][2018-06-07 21:26:37,527][INFO][find_string()] File: com/cm/notification/class-use/ParseBroadcastReceiver.html
+[INTERNAL_LOG][2018-06-07 21:26:38,357][INFO][find_string()] No iframe in com/cm/notification/class-use/ParseBroadcastReceiver.html
+[INTERNAL_LOG][2018-06-07 21:26:38,378][INFO][find_string()] File: com/cm/notification/class-use/ParsePushBroadcastReceiver.html
+[INTERNAL_LOG][2018-06-07 21:26:38,964][INFO][find_string()] No iframe in com/cm/notification/class-use/ParsePushBroadcastReceiver.html
+[INTERNAL_LOG][2018-06-07 21:26:38,984][INFO][find_string()] File: com/cm/notification/package-frame.html
+[INTERNAL_LOG][2018-06-07 21:26:39,519][INFO][find_string()] No iframe in com/cm/notification/package-frame.html
+[INTERNAL_LOG][2018-06-07 21:26:39,539][INFO][find_string()] File: com/cm/notification/package-summary.html
+[INTERNAL_LOG][2018-06-07 21:26:41,453][INFO][find_string()] No iframe in com/cm/notification/package-summary.html
+[INTERNAL_LOG][2018-06-07 21:26:41,474][INFO][find_string()] File: com/cm/notification/package-tree.html
+[INTERNAL_LOG][2018-06-07 21:26:43,414][INFO][find_string()] No iframe in com/cm/notification/package-tree.html
+[INTERNAL_LOG][2018-06-07 21:26:43,434][INFO][find_string()] File: com/cm/notification/package-use.html
+[INTERNAL_LOG][2018-06-07 21:26:44,994][INFO][find_string()] No iframe in com/cm/notification/package-use.html
+[INTERNAL_LOG][2018-06-07 21:26:45,015][INFO][find_string()] File: com/creativemobile/dr/ApplicationEx.html
+[INTERNAL_LOG][2018-06-07 21:26:49,879][INFO][find_string()] No iframe in com/creativemobile/dr/ApplicationEx.html
+[INTERNAL_LOG][2018-06-07 21:26:49,894][INFO][find_string()] File: com/creativemobile/dr/BuildConfig.html
+[INTERNAL_LOG][2018-06-07 21:26:52,773][INFO][find_string()] No iframe in com/creativemobile/dr/BuildConfig.html
+[INTERNAL_LOG][2018-06-07 21:26:52,794][INFO][find_string()] File: com/creativemobile/dr/DragRacingActivity.html
+[INTERNAL_LOG][2018-06-07 21:26:54,255][INFO][find_string()] No iframe in com/creativemobile/dr/DragRacingActivity.html
+[INTERNAL_LOG][2018-06-07 21:26:54,255][INFO][find_string()] File: com/creativemobile/dr/R.anim.html
+[INTERNAL_LOG][2018-06-07 21:26:54,269][INFO][find_string()] No iframe in com/creativemobile/dr/R.anim.html
+[INTERNAL_LOG][2018-06-07 21:26:54,269][INFO][find_string()] File: com/creativemobile/dr/R.attr.html
+[INTERNAL_LOG][2018-06-07 21:26:54,278][INFO][find_string()] No iframe in com/creativemobile/dr/R.attr.html
+[INTERNAL_LOG][2018-06-07 21:26:54,279][INFO][find_string()] File: com/creativemobile/dr/R.color.html
+[INTERNAL_LOG][2018-06-07 21:26:54,288][INFO][find_string()] No iframe in com/creativemobile/dr/R.color.html
+[INTERNAL_LOG][2018-06-07 21:26:54,288][INFO][find_string()] File: com/creativemobile/dr/R.drawable.html
+[INTERNAL_LOG][2018-06-07 21:26:54,303][INFO][find_string()] No iframe in com/creativemobile/dr/R.drawable.html
+[INTERNAL_LOG][2018-06-07 21:26:54,304][INFO][find_string()] File: com/creativemobile/dr/R.html
+[INTERNAL_LOG][2018-06-07 21:26:54,310][INFO][find_string()] No iframe in com/creativemobile/dr/R.html
+[INTERNAL_LOG][2018-06-07 21:26:54,310][INFO][find_string()] File: com/creativemobile/dr/R.id.html
+[INTERNAL_LOG][2018-06-07 21:26:54,318][INFO][find_string()] No iframe in com/creativemobile/dr/R.id.html
+[INTERNAL_LOG][2018-06-07 21:26:54,318][INFO][find_string()] File: com/creativemobile/dr/R.integer.html
+[INTERNAL_LOG][2018-06-07 21:26:54,326][INFO][find_string()] No iframe in com/creativemobile/dr/R.integer.html
+[INTERNAL_LOG][2018-06-07 21:26:54,326][INFO][find_string()] File: com/creativemobile/dr/R.layout.html
+[INTERNAL_LOG][2018-06-07 21:26:54,333][INFO][find_string()] No iframe in com/creativemobile/dr/R.layout.html
+[INTERNAL_LOG][2018-06-07 21:26:54,333][INFO][find_string()] File: com/creativemobile/dr/R.raw.html
+[INTERNAL_LOG][2018-06-07 21:26:54,338][INFO][find_string()] No iframe in com/creativemobile/dr/R.raw.html
+[INTERNAL_LOG][2018-06-07 21:26:54,338][INFO][find_string()] File: com/creativemobile/dr/R.string.html
+[INTERNAL_LOG][2018-06-07 21:26:54,356][INFO][find_string()] No iframe in com/creativemobile/dr/R.string.html
+[INTERNAL_LOG][2018-06-07 21:26:54,356][INFO][find_string()] File: com/creativemobile/dr/R.style.html
+[INTERNAL_LOG][2018-06-07 21:26:54,363][INFO][find_string()] No iframe in com/creativemobile/dr/R.style.html
+[INTERNAL_LOG][2018-06-07 21:26:54,363][INFO][find_string()] File: com/creativemobile/dr/R.styleable.html
+[INTERNAL_LOG][2018-06-07 21:26:54,372][INFO][find_string()] No iframe in com/creativemobile/dr/R.styleable.html
+[INTERNAL_LOG][2018-06-07 21:26:54,372][INFO][find_string()] File: com/creativemobile/dr/class-use/ApplicationEx.html
+[INTERNAL_LOG][2018-06-07 21:26:54,374][INFO][find_string()] No iframe in com/creativemobile/dr/class-use/ApplicationEx.html
+[INTERNAL_LOG][2018-06-07 21:26:54,374][INFO][find_string()] File: com/creativemobile/dr/class-use/BuildConfig.html
+[INTERNAL_LOG][2018-06-07 21:26:54,376][INFO][find_string()] No iframe in com/creativemobile/dr/class-use/BuildConfig.html
+[INTERNAL_LOG][2018-06-07 21:26:54,376][INFO][find_string()] File: com/creativemobile/dr/class-use/DragRacingActivity.html
+[INTERNAL_LOG][2018-06-07 21:26:54,379][INFO][find_string()] No iframe in com/creativemobile/dr/class-use/DragRacingActivity.html
+[INTERNAL_LOG][2018-06-07 21:26:54,379][INFO][find_string()] File: com/creativemobile/dr/class-use/R.anim.html
+[INTERNAL_LOG][2018-06-07 21:26:54,382][INFO][find_string()] No iframe in com/creativemobile/dr/class-use/R.anim.html
+[INTERNAL_LOG][2018-06-07 21:26:54,382][INFO][find_string()] File: com/creativemobile/dr/class-use/R.attr.html
+[INTERNAL_LOG][2018-06-07 21:26:54,384][INFO][find_string()] No iframe in com/creativemobile/dr/class-use/R.attr.html
+[INTERNAL_LOG][2018-06-07 21:26:54,384][INFO][find_string()] File: com/creativemobile/dr/class-use/R.color.html
+[INTERNAL_LOG][2018-06-07 21:26:54,387][INFO][find_string()] No iframe in com/creativemobile/dr/class-use/R.color.html
+[INTERNAL_LOG][2018-06-07 21:26:54,387][INFO][find_string()] File: com/creativemobile/dr/class-use/R.drawable.html
+[INTERNAL_LOG][2018-06-07 21:26:54,390][INFO][find_string()] No iframe in com/creativemobile/dr/class-use/R.drawable.html
+[INTERNAL_LOG][2018-06-07 21:26:54,391][INFO][find_string()] File: com/creativemobile/dr/class-use/R.html
+[INTERNAL_LOG][2018-06-07 21:26:54,393][INFO][find_string()] No iframe in com/creativemobile/dr/class-use/R.html
+[INTERNAL_LOG][2018-06-07 21:26:54,393][INFO][find_string()] File: com/creativemobile/dr/class-use/R.id.html
+[INTERNAL_LOG][2018-06-07 21:26:54,396][INFO][find_string()] No iframe in com/creativemobile/dr/class-use/R.id.html
+[INTERNAL_LOG][2018-06-07 21:26:54,396][INFO][find_string()] File: com/creativemobile/dr/class-use/R.integer.html
+[INTERNAL_LOG][2018-06-07 21:26:54,398][INFO][find_string()] No iframe in com/creativemobile/dr/class-use/R.integer.html
+[INTERNAL_LOG][2018-06-07 21:26:54,398][INFO][find_string()] File: com/creativemobile/dr/class-use/R.layout.html
+[INTERNAL_LOG][2018-06-07 21:26:54,400][INFO][find_string()] No iframe in com/creativemobile/dr/class-use/R.layout.html
+[INTERNAL_LOG][2018-06-07 21:26:54,400][INFO][find_string()] File: com/creativemobile/dr/class-use/R.raw.html
+[INTERNAL_LOG][2018-06-07 21:26:54,402][INFO][find_string()] No iframe in com/creativemobile/dr/class-use/R.raw.html
+[INTERNAL_LOG][2018-06-07 21:26:54,402][INFO][find_string()] File: com/creativemobile/dr/class-use/R.string.html
+[INTERNAL_LOG][2018-06-07 21:26:54,405][INFO][find_string()] No iframe in com/creativemobile/dr/class-use/R.string.html
+[INTERNAL_LOG][2018-06-07 21:26:54,405][INFO][find_string()] File: com/creativemobile/dr/class-use/R.style.html
+[INTERNAL_LOG][2018-06-07 21:26:54,407][INFO][find_string()] No iframe in com/creativemobile/dr/class-use/R.style.html
+[INTERNAL_LOG][2018-06-07 21:26:54,407][INFO][find_string()] File: com/creativemobile/dr/class-use/R.styleable.html
+[INTERNAL_LOG][2018-06-07 21:26:54,409][INFO][find_string()] No iframe in com/creativemobile/dr/class-use/R.styleable.html
+[INTERNAL_LOG][2018-06-07 21:26:54,410][INFO][find_string()] File: com/creativemobile/dr/package-frame.html
+[INTERNAL_LOG][2018-06-07 21:26:54,411][INFO][find_string()] No iframe in com/creativemobile/dr/package-frame.html
+[INTERNAL_LOG][2018-06-07 21:26:54,411][INFO][find_string()] File: com/creativemobile/dr/package-summary.html
+[INTERNAL_LOG][2018-06-07 21:26:54,415][INFO][find_string()] No iframe in com/creativemobile/dr/package-summary.html
+[INTERNAL_LOG][2018-06-07 21:26:54,415][INFO][find_string()] File: com/creativemobile/dr/package-tree.html
+[INTERNAL_LOG][2018-06-07 21:26:54,419][INFO][find_string()] No iframe in com/creativemobile/dr/package-tree.html
+[INTERNAL_LOG][2018-06-07 21:26:54,419][INFO][find_string()] File: com/creativemobile/dr/package-use.html
+[INTERNAL_LOG][2018-06-07 21:26:54,423][INFO][find_string()] No iframe in com/creativemobile/dr/package-use.html
+[INTERNAL_LOG][2018-06-07 21:26:54,423][INFO][find_string()] File: com/creativemobile/dragracing/ads/MoneyTappBannerProvider.html
+[INTERNAL_LOG][2018-06-07 21:26:54,430][INFO][find_string()] No iframe in com/creativemobile/dragracing/ads/MoneyTappBannerProvider.html
+[INTERNAL_LOG][2018-06-07 21:26:54,430][INFO][find_string()] File: com/creativemobile/dragracing/ads/MoneyTappInterstitialProvider.html
+[INTERNAL_LOG][2018-06-07 21:26:54,437][INFO][find_string()] No iframe in com/creativemobile/dragracing/ads/MoneyTappInterstitialProvider.html
+[INTERNAL_LOG][2018-06-07 21:26:54,437][INFO][find_string()] File: com/creativemobile/dragracing/ads/MoneyTappVideoBannerProvider.html
+[INTERNAL_LOG][2018-06-07 21:26:54,443][INFO][find_string()] No iframe in com/creativemobile/dragracing/ads/MoneyTappVideoBannerProvider.html
+[INTERNAL_LOG][2018-06-07 21:26:54,443][INFO][find_string()] File: com/creativemobile/dragracing/ads/TapjoyConnector.html
+[INTERNAL_LOG][2018-06-07 21:26:54,450][INFO][find_string()] No iframe in com/creativemobile/dragracing/ads/TapjoyConnector.html
+[INTERNAL_LOG][2018-06-07 21:26:54,450][INFO][find_string()] File: com/creativemobile/dragracing/ads/TapjoyFullScreenVideoProvider.html
+[INTERNAL_LOG][2018-06-07 21:26:54,458][INFO][find_string()] No iframe in com/creativemobile/dragracing/ads/TapjoyFullScreenVideoProvider.html
+[INTERNAL_LOG][2018-06-07 21:26:54,458][INFO][find_string()] File: com/creativemobile/dragracing/ads/UnityVideoBannerProvider.html
+[INTERNAL_LOG][2018-06-07 21:26:54,465][INFO][find_string()] No iframe in com/creativemobile/dragracing/ads/UnityVideoBannerProvider.html
+[INTERNAL_LOG][2018-06-07 21:26:54,465][INFO][find_string()] File: com/creativemobile/dragracing/ads/VungleVideoProvider.html
+[INTERNAL_LOG][2018-06-07 21:26:54,471][INFO][find_string()] No iframe in com/creativemobile/dragracing/ads/VungleVideoProvider.html
+[INTERNAL_LOG][2018-06-07 21:26:54,471][INFO][find_string()] File: com/creativemobile/dragracing/ads/class-use/MoneyTappBannerProvider.html
+[INTERNAL_LOG][2018-06-07 21:26:54,473][INFO][find_string()] No iframe in com/creativemobile/dragracing/ads/class-use/MoneyTappBannerProvider.html
+[INTERNAL_LOG][2018-06-07 21:26:54,473][INFO][find_string()] File: com/creativemobile/dragracing/ads/class-use/MoneyTappInterstitialProvider.html
+[INTERNAL_LOG][2018-06-07 21:26:54,475][INFO][find_string()] No iframe in com/creativemobile/dragracing/ads/class-use/MoneyTappInterstitialProvider.html
+[INTERNAL_LOG][2018-06-07 21:26:54,476][INFO][find_string()] File: com/creativemobile/dragracing/ads/class-use/MoneyTappVideoBannerProvider.html
+[INTERNAL_LOG][2018-06-07 21:26:54,478][INFO][find_string()] No iframe in com/creativemobile/dragracing/ads/class-use/MoneyTappVideoBannerProvider.html
+[INTERNAL_LOG][2018-06-07 21:26:54,478][INFO][find_string()] File: com/creativemobile/dragracing/ads/class-use/TapjoyConnector.html
+[INTERNAL_LOG][2018-06-07 21:26:54,481][INFO][find_string()] No iframe in com/creativemobile/dragracing/ads/class-use/TapjoyConnector.html
+[INTERNAL_LOG][2018-06-07 21:26:54,481][INFO][find_string()] File: com/creativemobile/dragracing/ads/class-use/TapjoyFullScreenVideoProvider.html
+[INTERNAL_LOG][2018-06-07 21:26:54,483][INFO][find_string()] No iframe in com/creativemobile/dragracing/ads/class-use/TapjoyFullScreenVideoProvider.html
+[INTERNAL_LOG][2018-06-07 21:26:54,483][INFO][find_string()] File: com/creativemobile/dragracing/ads/class-use/UnityVideoBannerProvider.html
+[INTERNAL_LOG][2018-06-07 21:26:54,486][INFO][find_string()] No iframe in com/creativemobile/dragracing/ads/class-use/UnityVideoBannerProvider.html
+[INTERNAL_LOG][2018-06-07 21:26:54,486][INFO][find_string()] File: com/creativemobile/dragracing/ads/class-use/VungleVideoProvider.html
+[INTERNAL_LOG][2018-06-07 21:26:54,489][INFO][find_string()] No iframe in com/creativemobile/dragracing/ads/class-use/VungleVideoProvider.html
+[INTERNAL_LOG][2018-06-07 21:26:54,489][INFO][find_string()] File: com/creativemobile/dragracing/ads/package-frame.html
+[INTERNAL_LOG][2018-06-07 21:26:54,491][INFO][find_string()] No iframe in com/creativemobile/dragracing/ads/package-frame.html
+[INTERNAL_LOG][2018-06-07 21:26:54,491][INFO][find_string()] File: com/creativemobile/dragracing/ads/package-summary.html
+[INTERNAL_LOG][2018-06-07 21:26:54,495][INFO][find_string()] No iframe in com/creativemobile/dragracing/ads/package-summary.html
+[INTERNAL_LOG][2018-06-07 21:26:54,496][INFO][find_string()] File: com/creativemobile/dragracing/ads/package-tree.html
+[INTERNAL_LOG][2018-06-07 21:26:54,499][INFO][find_string()] No iframe in com/creativemobile/dragracing/ads/package-tree.html
+[INTERNAL_LOG][2018-06-07 21:26:54,499][INFO][find_string()] File: com/creativemobile/dragracing/ads/package-use.html
+[INTERNAL_LOG][2018-06-07 21:26:54,501][INFO][find_string()] No iframe in com/creativemobile/dragracing/ads/package-use.html
+[INTERNAL_LOG][2018-06-07 21:26:54,501][INFO][find_string()] File: com/creativemobile/dragracing/analytics/ParseSdkApi.html
+[INTERNAL_LOG][2018-06-07 21:26:54,508][INFO][find_string()] No iframe in com/creativemobile/dragracing/analytics/ParseSdkApi.html
+[INTERNAL_LOG][2018-06-07 21:26:54,508][INFO][find_string()] File: com/creativemobile/dragracing/analytics/class-use/ParseSdkApi.html
+[INTERNAL_LOG][2018-06-07 21:26:54,510][INFO][find_string()] No iframe in com/creativemobile/dragracing/analytics/class-use/ParseSdkApi.html
+[INTERNAL_LOG][2018-06-07 21:26:54,510][INFO][find_string()] File: com/creativemobile/dragracing/analytics/package-frame.html
+[INTERNAL_LOG][2018-06-07 21:26:54,510][INFO][find_string()] No iframe in com/creativemobile/dragracing/analytics/package-frame.html
+[INTERNAL_LOG][2018-06-07 21:26:54,511][INFO][find_string()] File: com/creativemobile/dragracing/analytics/package-summary.html
+[INTERNAL_LOG][2018-06-07 21:26:54,513][INFO][find_string()] No iframe in com/creativemobile/dragracing/analytics/package-summary.html
+[INTERNAL_LOG][2018-06-07 21:26:54,513][INFO][find_string()] File: com/creativemobile/dragracing/analytics/package-tree.html
+[INTERNAL_LOG][2018-06-07 21:26:54,517][INFO][find_string()] No iframe in com/creativemobile/dragracing/analytics/package-tree.html
+[INTERNAL_LOG][2018-06-07 21:26:54,517][INFO][find_string()] File: com/creativemobile/dragracing/analytics/package-use.html
+[INTERNAL_LOG][2018-06-07 21:26:54,520][INFO][find_string()] No iframe in com/creativemobile/dragracing/analytics/package-use.html
+[INTERNAL_LOG][2018-06-07 21:26:54,520][INFO][find_string()] File: com/creativemobile/dragracing/api/AndroidMigrationApi.html
+[INTERNAL_LOG][2018-06-07 21:26:54,531][INFO][find_string()] No iframe in com/creativemobile/dragracing/api/AndroidMigrationApi.html
+[INTERNAL_LOG][2018-06-07 21:26:54,531][INFO][find_string()] File: com/creativemobile/dragracing/api/AndroidMoreGamesApi.html
+[INTERNAL_LOG][2018-06-07 21:26:54,537][INFO][find_string()] No iframe in com/creativemobile/dragracing/api/AndroidMoreGamesApi.html
+[INTERNAL_LOG][2018-06-07 21:26:54,537][INFO][find_string()] File: com/creativemobile/dragracing/api/AndroidPlatform.html
+[INTERNAL_LOG][2018-06-07 21:26:54,543][INFO][find_string()] No iframe in com/creativemobile/dragracing/api/AndroidPlatform.html
+[INTERNAL_LOG][2018-06-07 21:26:54,543][INFO][find_string()] File: com/creativemobile/dragracing/api/AndroidReminderNotificationApi.html
+[INTERNAL_LOG][2018-06-07 21:26:54,552][INFO][find_string()] No iframe in com/creativemobile/dragracing/api/AndroidReminderNotificationApi.html
+[INTERNAL_LOG][2018-06-07 21:26:54,552][INFO][find_string()] File: com/creativemobile/dragracing/api/class-use/AndroidMigrationApi.html
+[INTERNAL_LOG][2018-06-07 21:26:54,557][INFO][find_string()] No iframe in com/creativemobile/dragracing/api/class-use/AndroidMigrationApi.html
+[INTERNAL_LOG][2018-06-07 21:26:54,557][INFO][find_string()] File: com/creativemobile/dragracing/api/class-use/AndroidMoreGamesApi.html
+[INTERNAL_LOG][2018-06-07 21:26:54,560][INFO][find_string()] No iframe in com/creativemobile/dragracing/api/class-use/AndroidMoreGamesApi.html
+[INTERNAL_LOG][2018-06-07 21:26:54,560][INFO][find_string()] File: com/creativemobile/dragracing/api/class-use/AndroidPlatform.html
+[INTERNAL_LOG][2018-06-07 21:26:54,563][INFO][find_string()] No iframe in com/creativemobile/dragracing/api/class-use/AndroidPlatform.html
+[INTERNAL_LOG][2018-06-07 21:26:54,563][INFO][find_string()] File: com/creativemobile/dragracing/api/class-use/AndroidReminderNotificationApi.html
+[INTERNAL_LOG][2018-06-07 21:26:54,565][INFO][find_string()] No iframe in com/creativemobile/dragracing/api/class-use/AndroidReminderNotificationApi.html
+[INTERNAL_LOG][2018-06-07 21:26:54,565][INFO][find_string()] File: com/creativemobile/dragracing/api/package-frame.html
+[INTERNAL_LOG][2018-06-07 21:26:54,566][INFO][find_string()] No iframe in com/creativemobile/dragracing/api/package-frame.html
+[INTERNAL_LOG][2018-06-07 21:26:54,566][INFO][find_string()] File: com/creativemobile/dragracing/api/package-summary.html
+[INTERNAL_LOG][2018-06-07 21:26:54,569][INFO][find_string()] No iframe in com/creativemobile/dragracing/api/package-summary.html
+[INTERNAL_LOG][2018-06-07 21:26:54,569][INFO][find_string()] File: com/creativemobile/dragracing/api/package-tree.html
+[INTERNAL_LOG][2018-06-07 21:26:54,572][INFO][find_string()] No iframe in com/creativemobile/dragracing/api/package-tree.html
+[INTERNAL_LOG][2018-06-07 21:26:54,572][INFO][find_string()] File: com/creativemobile/dragracing/api/package-use.html
+[INTERNAL_LOG][2018-06-07 21:26:54,574][INFO][find_string()] No iframe in com/creativemobile/dragracing/api/package-use.html
+[INTERNAL_LOG][2018-06-07 21:26:54,574][INFO][find_string()] File: com/creativemobile/dragracing/eventlog/AndroidAnalyticsApi.html
+[INTERNAL_LOG][2018-06-07 21:26:54,583][INFO][find_string()] No iframe in com/creativemobile/dragracing/eventlog/AndroidAnalyticsApi.html
+[INTERNAL_LOG][2018-06-07 21:26:54,584][INFO][find_string()] File: com/creativemobile/dragracing/eventlog/class-use/AndroidAnalyticsApi.html
+[INTERNAL_LOG][2018-06-07 21:26:54,587][INFO][find_string()] No iframe in com/creativemobile/dragracing/eventlog/class-use/AndroidAnalyticsApi.html
+[INTERNAL_LOG][2018-06-07 21:26:54,588][INFO][find_string()] File: com/creativemobile/dragracing/eventlog/package-frame.html
+[INTERNAL_LOG][2018-06-07 21:26:54,589][INFO][find_string()] No iframe in com/creativemobile/dragracing/eventlog/package-frame.html
+[INTERNAL_LOG][2018-06-07 21:26:54,589][INFO][find_string()] File: com/creativemobile/dragracing/eventlog/package-summary.html
+[INTERNAL_LOG][2018-06-07 21:26:54,592][INFO][find_string()] No iframe in com/creativemobile/dragracing/eventlog/package-summary.html
+[INTERNAL_LOG][2018-06-07 21:26:54,592][INFO][find_string()] File: com/creativemobile/dragracing/eventlog/package-tree.html
+[INTERNAL_LOG][2018-06-07 21:26:54,596][INFO][find_string()] No iframe in com/creativemobile/dragracing/eventlog/package-tree.html
+[INTERNAL_LOG][2018-06-07 21:26:54,596][INFO][find_string()] File: com/creativemobile/dragracing/eventlog/package-use.html
+[INTERNAL_LOG][2018-06-07 21:26:54,598][INFO][find_string()] No iframe in com/creativemobile/dragracing/eventlog/package-use.html
+[INTERNAL_LOG][2018-06-07 21:26:54,598][INFO][find_string()] File: com/creativemobile/dragracing/payment/GooglePaymentProvider.StorablePurchasesMapping.html
+[INTERNAL_LOG][2018-06-07 21:26:54,604][INFO][find_string()] No iframe in com/creativemobile/dragracing/payment/GooglePaymentProvider.StorablePurchasesMapping.html
+[INTERNAL_LOG][2018-06-07 21:26:54,604][INFO][find_string()] File: com/creativemobile/dragracing/payment/GooglePaymentProvider.html
+[INTERNAL_LOG][2018-06-07 21:26:54,612][INFO][find_string()] No iframe in com/creativemobile/dragracing/payment/GooglePaymentProvider.html
+[INTERNAL_LOG][2018-06-07 21:26:54,612][INFO][find_string()] File: com/creativemobile/dragracing/payment/PaymentChecker.html
+[INTERNAL_LOG][2018-06-07 21:26:54,618][INFO][find_string()] No iframe in com/creativemobile/dragracing/payment/PaymentChecker.html
+[INTERNAL_LOG][2018-06-07 21:26:54,618][INFO][find_string()] File: com/creativemobile/dragracing/payment/class-use/GooglePaymentProvider.StorablePurchasesMapping.html
+[INTERNAL_LOG][2018-06-07 21:26:54,622][INFO][find_string()] No iframe in com/creativemobile/dragracing/payment/class-use/GooglePaymentProvider.StorablePurchasesMapping.html
+[INTERNAL_LOG][2018-06-07 21:26:54,622][INFO][find_string()] File: com/creativemobile/dragracing/payment/class-use/GooglePaymentProvider.html
+[INTERNAL_LOG][2018-06-07 21:26:54,626][INFO][find_string()] No iframe in com/creativemobile/dragracing/payment/class-use/GooglePaymentProvider.html
+[INTERNAL_LOG][2018-06-07 21:26:54,626][INFO][find_string()] File: com/creativemobile/dragracing/payment/class-use/PaymentChecker.html
+[INTERNAL_LOG][2018-06-07 21:26:54,629][INFO][find_string()] No iframe in com/creativemobile/dragracing/payment/class-use/PaymentChecker.html
+[INTERNAL_LOG][2018-06-07 21:26:54,629][INFO][find_string()] File: com/creativemobile/dragracing/payment/google/util/Base64.html
+[INTERNAL_LOG][2018-06-07 21:26:54,641][INFO][find_string()] No iframe in com/creativemobile/dragracing/payment/google/util/Base64.html
+[INTERNAL_LOG][2018-06-07 21:26:54,642][INFO][find_string()] File: com/creativemobile/dragracing/payment/google/util/Base64DecoderException.html
+[INTERNAL_LOG][2018-06-07 21:26:54,648][INFO][find_string()] No iframe in com/creativemobile/dragracing/payment/google/util/Base64DecoderException.html
+[INTERNAL_LOG][2018-06-07 21:26:54,648][INFO][find_string()] File: com/creativemobile/dragracing/payment/google/util/IabException.html
+[INTERNAL_LOG][2018-06-07 21:26:54,658][INFO][find_string()] No iframe in com/creativemobile/dragracing/payment/google/util/IabException.html
+[INTERNAL_LOG][2018-06-07 21:26:54,658][INFO][find_string()] File: com/creativemobile/dragracing/payment/google/util/IabHelper.OnConsumeFinishedListener.html
+[INTERNAL_LOG][2018-06-07 21:26:54,663][INFO][find_string()] No iframe in com/creativemobile/dragracing/payment/google/util/IabHelper.OnConsumeFinishedListener.html
+[INTERNAL_LOG][2018-06-07 21:26:54,663][INFO][find_string()] File: com/creativemobile/dragracing/payment/google/util/IabHelper.OnConsumeMultiFinishedListener.html
+[INTERNAL_LOG][2018-06-07 21:26:54,668][INFO][find_string()] No iframe in com/creativemobile/dragracing/payment/google/util/IabHelper.OnConsumeMultiFinishedListener.html
+[INTERNAL_LOG][2018-06-07 21:26:54,668][INFO][find_string()] File: com/creativemobile/dragracing/payment/google/util/IabHelper.OnIabPurchaseFinishedListener.html
+[INTERNAL_LOG][2018-06-07 21:26:54,672][INFO][find_string()] No iframe in com/creativemobile/dragracing/payment/google/util/IabHelper.OnIabPurchaseFinishedListener.html
+[INTERNAL_LOG][2018-06-07 21:26:54,672][INFO][find_string()] File: com/creativemobile/dragracing/payment/google/util/IabHelper.OnIabSetupFinishedListener.html
+[INTERNAL_LOG][2018-06-07 21:26:54,677][INFO][find_string()] No iframe in com/creativemobile/dragracing/payment/google/util/IabHelper.OnIabSetupFinishedListener.html
+[INTERNAL_LOG][2018-06-07 21:26:54,677][INFO][find_string()] File: com/creativemobile/dragracing/payment/google/util/IabHelper.QueryInventoryFinishedListener.html
+[INTERNAL_LOG][2018-06-07 21:26:54,683][INFO][find_string()] No iframe in com/creativemobile/dragracing/payment/google/util/IabHelper.QueryInventoryFinishedListener.html
+[INTERNAL_LOG][2018-06-07 21:26:54,683][INFO][find_string()] File: com/creativemobile/dragracing/payment/google/util/IabHelper.html
+[INTERNAL_LOG][2018-06-07 21:26:54,713][INFO][find_string()] No iframe in com/creativemobile/dragracing/payment/google/util/IabHelper.html
+[INTERNAL_LOG][2018-06-07 21:26:54,713][INFO][find_string()] File: com/creativemobile/dragracing/payment/google/util/IabResult.html
+[INTERNAL_LOG][2018-06-07 21:26:54,723][INFO][find_string()] No iframe in com/creativemobile/dragracing/payment/google/util/IabResult.html
+[INTERNAL_LOG][2018-06-07 21:26:54,723][INFO][find_string()] File: com/creativemobile/dragracing/payment/google/util/Inventory.html
+[INTERNAL_LOG][2018-06-07 21:26:54,732][INFO][find_string()] No iframe in com/creativemobile/dragracing/payment/google/util/Inventory.html
+[INTERNAL_LOG][2018-06-07 21:26:54,732][INFO][find_string()] File: com/creativemobile/dragracing/payment/google/util/PayloadGenerator.PayloadData.html
+[INTERNAL_LOG][2018-06-07 21:26:54,741][INFO][find_string()] No iframe in com/creativemobile/dragracing/payment/google/util/PayloadGenerator.PayloadData.html
+[INTERNAL_LOG][2018-06-07 21:26:54,741][INFO][find_string()] File: com/creativemobile/dragracing/payment/google/util/PayloadGenerator.html
+[INTERNAL_LOG][2018-06-07 21:26:54,749][INFO][find_string()] No iframe in com/creativemobile/dragracing/payment/google/util/PayloadGenerator.html
+[INTERNAL_LOG][2018-06-07 21:26:54,749][INFO][find_string()] File: com/creativemobile/dragracing/payment/google/util/Purchase.PurchaseMapping.html
+[INTERNAL_LOG][2018-06-07 21:26:54,757][INFO][find_string()] No iframe in com/creativemobile/dragracing/payment/google/util/Purchase.PurchaseMapping.html
+[INTERNAL_LOG][2018-06-07 21:26:54,757][INFO][find_string()] File: com/creativemobile/dragracing/payment/google/util/Purchase.html
+[INTERNAL_LOG][2018-06-07 21:26:54,769][INFO][find_string()] No iframe in com/creativemobile/dragracing/payment/google/util/Purchase.html
+[INTERNAL_LOG][2018-06-07 21:26:54,769][INFO][find_string()] File: com/creativemobile/dragracing/payment/google/util/Security.html
+[INTERNAL_LOG][2018-06-07 21:26:54,775][INFO][find_string()] No iframe in com/creativemobile/dragracing/payment/google/util/Security.html
+[INTERNAL_LOG][2018-06-07 21:26:54,776][INFO][find_string()] File: com/creativemobile/dragracing/payment/google/util/SkuDetails.html
+[INTERNAL_LOG][2018-06-07 21:26:54,783][INFO][find_string()] No iframe in com/creativemobile/dragracing/payment/google/util/SkuDetails.html
+[INTERNAL_LOG][2018-06-07 21:26:54,783][INFO][find_string()] File: com/creativemobile/dragracing/payment/google/util/class-use/Base64.html
+[INTERNAL_LOG][2018-06-07 21:26:54,787][INFO][find_string()] No iframe in com/creativemobile/dragracing/payment/google/util/class-use/Base64.html
+[INTERNAL_LOG][2018-06-07 21:26:54,787][INFO][find_string()] File: com/creativemobile/dragracing/payment/google/util/class-use/Base64DecoderException.html
+[INTERNAL_LOG][2018-06-07 21:26:54,792][INFO][find_string()] No iframe in com/creativemobile/dragracing/payment/google/util/class-use/Base64DecoderException.html
+[INTERNAL_LOG][2018-06-07 21:26:54,792][INFO][find_string()] File: com/creativemobile/dragracing/payment/google/util/class-use/IabException.html
+[INTERNAL_LOG][2018-06-07 21:26:54,796][INFO][find_string()] No iframe in com/creativemobile/dragracing/payment/google/util/class-use/IabException.html
+[INTERNAL_LOG][2018-06-07 21:26:54,797][INFO][find_string()] File: com/creativemobile/dragracing/payment/google/util/class-use/IabHelper.OnConsumeFinishedListener.html
+[INTERNAL_LOG][2018-06-07 21:26:54,801][INFO][find_string()] No iframe in com/creativemobile/dragracing/payment/google/util/class-use/IabHelper.OnConsumeFinishedListener.html
+[INTERNAL_LOG][2018-06-07 21:26:54,801][INFO][find_string()] File: com/creativemobile/dragracing/payment/google/util/class-use/IabHelper.OnConsumeMultiFinishedListener.html
+[INTERNAL_LOG][2018-06-07 21:26:54,805][INFO][find_string()] No iframe in com/creativemobile/dragracing/payment/google/util/class-use/IabHelper.OnConsumeMultiFinishedListener.html
+[INTERNAL_LOG][2018-06-07 21:26:54,805][INFO][find_string()] File: com/creativemobile/dragracing/payment/google/util/class-use/IabHelper.OnIabPurchaseFinishedListener.html
+[INTERNAL_LOG][2018-06-07 21:26:54,810][INFO][find_string()] No iframe in com/creativemobile/dragracing/payment/google/util/class-use/IabHelper.OnIabPurchaseFinishedListener.html
+[INTERNAL_LOG][2018-06-07 21:26:54,810][INFO][find_string()] File: com/creativemobile/dragracing/payment/google/util/class-use/IabHelper.OnIabSetupFinishedListener.html
+[INTERNAL_LOG][2018-06-07 21:26:54,814][INFO][find_string()] No iframe in com/creativemobile/dragracing/payment/google/util/class-use/IabHelper.OnIabSetupFinishedListener.html
+[INTERNAL_LOG][2018-06-07 21:26:54,814][INFO][find_string()] File: com/creativemobile/dragracing/payment/google/util/class-use/IabHelper.QueryInventoryFinishedListener.html
+[INTERNAL_LOG][2018-06-07 21:26:54,817][INFO][find_string()] No iframe in com/creativemobile/dragracing/payment/google/util/class-use/IabHelper.QueryInventoryFinishedListener.html
+[INTERNAL_LOG][2018-06-07 21:26:54,817][INFO][find_string()] File: com/creativemobile/dragracing/payment/google/util/class-use/IabHelper.html
+[INTERNAL_LOG][2018-06-07 21:26:54,821][INFO][find_string()] No iframe in com/creativemobile/dragracing/payment/google/util/class-use/IabHelper.html
+[INTERNAL_LOG][2018-06-07 21:26:54,821][INFO][find_string()] File: com/creativemobile/dragracing/payment/google/util/class-use/IabResult.html
+[INTERNAL_LOG][2018-06-07 21:26:54,828][INFO][find_string()] No iframe in com/creativemobile/dragracing/payment/google/util/class-use/IabResult.html
+[INTERNAL_LOG][2018-06-07 21:26:54,828][INFO][find_string()] File: com/creativemobile/dragracing/payment/google/util/class-use/Inventory.html
+[INTERNAL_LOG][2018-06-07 21:26:54,834][INFO][find_string()] No iframe in com/creativemobile/dragracing/payment/google/util/class-use/Inventory.html
+[INTERNAL_LOG][2018-06-07 21:26:54,834][INFO][find_string()] File: com/creativemobile/dragracing/payment/google/util/class-use/PayloadGenerator.PayloadData.html
+[INTERNAL_LOG][2018-06-07 21:26:54,837][INFO][find_string()] No iframe in com/creativemobile/dragracing/payment/google/util/class-use/PayloadGenerator.PayloadData.html
+[INTERNAL_LOG][2018-06-07 21:26:54,837][INFO][find_string()] File: com/creativemobile/dragracing/payment/google/util/class-use/PayloadGenerator.html
+[INTERNAL_LOG][2018-06-07 21:26:54,841][INFO][find_string()] No iframe in com/creativemobile/dragracing/payment/google/util/class-use/PayloadGenerator.html
+[INTERNAL_LOG][2018-06-07 21:26:54,841][INFO][find_string()] File: com/creativemobile/dragracing/payment/google/util/class-use/Purchase.PurchaseMapping.html
+[INTERNAL_LOG][2018-06-07 21:26:54,843][INFO][find_string()] No iframe in com/creativemobile/dragracing/payment/google/util/class-use/Purchase.PurchaseMapping.html
+[INTERNAL_LOG][2018-06-07 21:26:54,843][INFO][find_string()] File: com/creativemobile/dragracing/payment/google/util/class-use/Purchase.html
+[INTERNAL_LOG][2018-06-07 21:26:54,849][INFO][find_string()] No iframe in com/creativemobile/dragracing/payment/google/util/class-use/Purchase.html
+[INTERNAL_LOG][2018-06-07 21:26:54,849][INFO][find_string()] File: com/creativemobile/dragracing/payment/google/util/class-use/Security.html
+[INTERNAL_LOG][2018-06-07 21:26:54,851][INFO][find_string()] No iframe in com/creativemobile/dragracing/payment/google/util/class-use/Security.html
+[INTERNAL_LOG][2018-06-07 21:26:54,851][INFO][find_string()] File: com/creativemobile/dragracing/payment/google/util/class-use/SkuDetails.html
+[INTERNAL_LOG][2018-06-07 21:26:54,856][INFO][find_string()] No iframe in com/creativemobile/dragracing/payment/google/util/class-use/SkuDetails.html
+[INTERNAL_LOG][2018-06-07 21:26:54,856][INFO][find_string()] File: com/creativemobile/dragracing/payment/google/util/package-frame.html
+[INTERNAL_LOG][2018-06-07 21:26:54,858][INFO][find_string()] No iframe in com/creativemobile/dragracing/payment/google/util/package-frame.html
+[INTERNAL_LOG][2018-06-07 21:26:54,858][INFO][find_string()] File: com/creativemobile/dragracing/payment/google/util/package-summary.html
+[INTERNAL_LOG][2018-06-07 21:26:54,864][INFO][find_string()] No iframe in com/creativemobile/dragracing/payment/google/util/package-summary.html
+[INTERNAL_LOG][2018-06-07 21:26:54,864][INFO][find_string()] File: com/creativemobile/dragracing/payment/google/util/package-tree.html
+[INTERNAL_LOG][2018-06-07 21:26:54,869][INFO][find_string()] No iframe in com/creativemobile/dragracing/payment/google/util/package-tree.html
+[INTERNAL_LOG][2018-06-07 21:26:54,869][INFO][find_string()] File: com/creativemobile/dragracing/payment/google/util/package-use.html
+[INTERNAL_LOG][2018-06-07 21:26:54,874][INFO][find_string()] No iframe in com/creativemobile/dragracing/payment/google/util/package-use.html
+[INTERNAL_LOG][2018-06-07 21:26:54,874][INFO][find_string()] File: com/creativemobile/dragracing/payment/package-frame.html
+[INTERNAL_LOG][2018-06-07 21:26:54,875][INFO][find_string()] No iframe in com/creativemobile/dragracing/payment/package-frame.html
+[INTERNAL_LOG][2018-06-07 21:26:54,875][INFO][find_string()] File: com/creativemobile/dragracing/payment/package-summary.html
+[INTERNAL_LOG][2018-06-07 21:26:54,878][INFO][find_string()] No iframe in com/creativemobile/dragracing/payment/package-summary.html
+[INTERNAL_LOG][2018-06-07 21:26:54,878][INFO][find_string()] File: com/creativemobile/dragracing/payment/package-tree.html
+[INTERNAL_LOG][2018-06-07 21:26:54,881][INFO][find_string()] No iframe in com/creativemobile/dragracing/payment/package-tree.html
+[INTERNAL_LOG][2018-06-07 21:26:54,881][INFO][find_string()] File: com/creativemobile/dragracing/payment/package-use.html
+[INTERNAL_LOG][2018-06-07 21:26:54,883][INFO][find_string()] No iframe in com/creativemobile/dragracing/payment/package-use.html
+[INTERNAL_LOG][2018-06-07 21:26:54,883][INFO][find_string()] File: com/google/android/gms/R.attr.html
+[INTERNAL_LOG][2018-06-07 21:26:54,892][INFO][find_string()] No iframe in com/google/android/gms/R.attr.html
+[INTERNAL_LOG][2018-06-07 21:26:54,892][INFO][find_string()] File: com/google/android/gms/R.color.html
+[INTERNAL_LOG][2018-06-07 21:26:54,903][INFO][find_string()] No iframe in com/google/android/gms/R.color.html
+[INTERNAL_LOG][2018-06-07 21:26:54,903][INFO][find_string()] File: com/google/android/gms/R.drawable.html
+[INTERNAL_LOG][2018-06-07 21:26:54,919][INFO][find_string()] No iframe in com/google/android/gms/R.drawable.html
+[INTERNAL_LOG][2018-06-07 21:26:54,919][INFO][find_string()] File: com/google/android/gms/R.html
+[INTERNAL_LOG][2018-06-07 21:26:54,928][INFO][find_string()] No iframe in com/google/android/gms/R.html
+[INTERNAL_LOG][2018-06-07 21:26:54,928][INFO][find_string()] File: com/google/android/gms/R.id.html
+[INTERNAL_LOG][2018-06-07 21:26:54,935][INFO][find_string()] No iframe in com/google/android/gms/R.id.html
+[INTERNAL_LOG][2018-06-07 21:26:54,935][INFO][find_string()] File: com/google/android/gms/R.integer.html
+[INTERNAL_LOG][2018-06-07 21:26:54,941][INFO][find_string()] No iframe in com/google/android/gms/R.integer.html
+[INTERNAL_LOG][2018-06-07 21:26:54,941][INFO][find_string()] File: com/google/android/gms/R.raw.html
+[INTERNAL_LOG][2018-06-07 21:26:54,947][INFO][find_string()] No iframe in com/google/android/gms/R.raw.html
+[INTERNAL_LOG][2018-06-07 21:26:54,947][INFO][find_string()] File: com/google/android/gms/R.string.html
+[INTERNAL_LOG][2018-06-07 21:26:54,967][INFO][find_string()] No iframe in com/google/android/gms/R.string.html
+[INTERNAL_LOG][2018-06-07 21:26:54,967][INFO][find_string()] File: com/google/android/gms/R.style.html
+[INTERNAL_LOG][2018-06-07 21:26:54,975][INFO][find_string()] No iframe in com/google/android/gms/R.style.html
+[INTERNAL_LOG][2018-06-07 21:26:54,975][INFO][find_string()] File: com/google/android/gms/R.styleable.html
+[INTERNAL_LOG][2018-06-07 21:26:54,983][INFO][find_string()] No iframe in com/google/android/gms/R.styleable.html
+[INTERNAL_LOG][2018-06-07 21:26:54,983][INFO][find_string()] File: com/google/android/gms/ads/R.attr.html
+[INTERNAL_LOG][2018-06-07 21:26:54,992][INFO][find_string()] No iframe in com/google/android/gms/ads/R.attr.html
+[INTERNAL_LOG][2018-06-07 21:26:54,993][INFO][find_string()] File: com/google/android/gms/ads/R.color.html
+[INTERNAL_LOG][2018-06-07 21:26:55,003][INFO][find_string()] No iframe in com/google/android/gms/ads/R.color.html
+[INTERNAL_LOG][2018-06-07 21:26:55,003][INFO][find_string()] File: com/google/android/gms/ads/R.drawable.html
+[INTERNAL_LOG][2018-06-07 21:26:55,021][INFO][find_string()] No iframe in com/google/android/gms/ads/R.drawable.html
+[INTERNAL_LOG][2018-06-07 21:26:55,021][INFO][find_string()] File: com/google/android/gms/ads/R.html
+[INTERNAL_LOG][2018-06-07 21:26:55,028][INFO][find_string()] No iframe in com/google/android/gms/ads/R.html
+[INTERNAL_LOG][2018-06-07 21:26:55,029][INFO][find_string()] File: com/google/android/gms/ads/R.id.html
+[INTERNAL_LOG][2018-06-07 21:26:55,035][INFO][find_string()] No iframe in com/google/android/gms/ads/R.id.html
+[INTERNAL_LOG][2018-06-07 21:26:55,035][INFO][find_string()] File: com/google/android/gms/ads/R.integer.html
+[INTERNAL_LOG][2018-06-07 21:26:55,043][INFO][find_string()] No iframe in com/google/android/gms/ads/R.integer.html
+[INTERNAL_LOG][2018-06-07 21:26:55,043][INFO][find_string()] File: com/google/android/gms/ads/R.raw.html
+[INTERNAL_LOG][2018-06-07 21:26:55,050][INFO][find_string()] No iframe in com/google/android/gms/ads/R.raw.html
+[INTERNAL_LOG][2018-06-07 21:26:55,050][INFO][find_string()] File: com/google/android/gms/ads/R.string.html
+[INTERNAL_LOG][2018-06-07 21:26:55,069][INFO][find_string()] No iframe in com/google/android/gms/ads/R.string.html
+[INTERNAL_LOG][2018-06-07 21:26:55,069][INFO][find_string()] File: com/google/android/gms/ads/R.style.html
+[INTERNAL_LOG][2018-06-07 21:26:55,077][INFO][find_string()] No iframe in com/google/android/gms/ads/R.style.html
+[INTERNAL_LOG][2018-06-07 21:26:55,077][INFO][find_string()] File: com/google/android/gms/ads/R.styleable.html
+[INTERNAL_LOG][2018-06-07 21:26:55,085][INFO][find_string()] No iframe in com/google/android/gms/ads/R.styleable.html
+[INTERNAL_LOG][2018-06-07 21:26:55,085][INFO][find_string()] File: com/google/android/gms/ads/class-use/R.attr.html
+[INTERNAL_LOG][2018-06-07 21:26:55,088][INFO][find_string()] No iframe in com/google/android/gms/ads/class-use/R.attr.html
+[INTERNAL_LOG][2018-06-07 21:26:55,088][INFO][find_string()] File: com/google/android/gms/ads/class-use/R.color.html
+[INTERNAL_LOG][2018-06-07 21:26:55,092][INFO][find_string()] No iframe in com/google/android/gms/ads/class-use/R.color.html
+[INTERNAL_LOG][2018-06-07 21:26:55,093][INFO][find_string()] File: com/google/android/gms/ads/class-use/R.drawable.html
+[INTERNAL_LOG][2018-06-07 21:26:55,096][INFO][find_string()] No iframe in com/google/android/gms/ads/class-use/R.drawable.html
+[INTERNAL_LOG][2018-06-07 21:26:55,096][INFO][find_string()] File: com/google/android/gms/ads/class-use/R.html
+[INTERNAL_LOG][2018-06-07 21:26:55,099][INFO][find_string()] No iframe in com/google/android/gms/ads/class-use/R.html
+[INTERNAL_LOG][2018-06-07 21:26:55,099][INFO][find_string()] File: com/google/android/gms/ads/class-use/R.id.html
+[INTERNAL_LOG][2018-06-07 21:26:55,101][INFO][find_string()] No iframe in com/google/android/gms/ads/class-use/R.id.html
+[INTERNAL_LOG][2018-06-07 21:26:55,102][INFO][find_string()] File: com/google/android/gms/ads/class-use/R.integer.html
+[INTERNAL_LOG][2018-06-07 21:26:55,104][INFO][find_string()] No iframe in com/google/android/gms/ads/class-use/R.integer.html
+[INTERNAL_LOG][2018-06-07 21:26:55,104][INFO][find_string()] File: com/google/android/gms/ads/class-use/R.raw.html
+[INTERNAL_LOG][2018-06-07 21:26:55,106][INFO][find_string()] No iframe in com/google/android/gms/ads/class-use/R.raw.html
+[INTERNAL_LOG][2018-06-07 21:26:55,106][INFO][find_string()] File: com/google/android/gms/ads/class-use/R.string.html
+[INTERNAL_LOG][2018-06-07 21:26:55,109][INFO][find_string()] No iframe in com/google/android/gms/ads/class-use/R.string.html
+[INTERNAL_LOG][2018-06-07 21:26:55,109][INFO][find_string()] File: com/google/android/gms/ads/class-use/R.style.html
+[INTERNAL_LOG][2018-06-07 21:26:55,112][INFO][find_string()] No iframe in com/google/android/gms/ads/class-use/R.style.html
+[INTERNAL_LOG][2018-06-07 21:26:55,112][INFO][find_string()] File: com/google/android/gms/ads/class-use/R.styleable.html
+[INTERNAL_LOG][2018-06-07 21:26:55,114][INFO][find_string()] No iframe in com/google/android/gms/ads/class-use/R.styleable.html
+[INTERNAL_LOG][2018-06-07 21:26:55,114][INFO][find_string()] File: com/google/android/gms/ads/package-frame.html
+[INTERNAL_LOG][2018-06-07 21:26:55,115][INFO][find_string()] No iframe in com/google/android/gms/ads/package-frame.html
+[INTERNAL_LOG][2018-06-07 21:26:55,115][INFO][find_string()] File: com/google/android/gms/ads/package-summary.html
+[INTERNAL_LOG][2018-06-07 21:26:55,119][INFO][find_string()] No iframe in com/google/android/gms/ads/package-summary.html
+[INTERNAL_LOG][2018-06-07 21:26:55,119][INFO][find_string()] File: com/google/android/gms/ads/package-tree.html
+[INTERNAL_LOG][2018-06-07 21:26:55,123][INFO][find_string()] No iframe in com/google/android/gms/ads/package-tree.html
+[INTERNAL_LOG][2018-06-07 21:26:55,123][INFO][find_string()] File: com/google/android/gms/ads/package-use.html
+[INTERNAL_LOG][2018-06-07 21:26:55,126][INFO][find_string()] No iframe in com/google/android/gms/ads/package-use.html
+[INTERNAL_LOG][2018-06-07 21:26:55,126][INFO][find_string()] File: com/google/android/gms/analytics/R.attr.html
+[INTERNAL_LOG][2018-06-07 21:26:55,135][INFO][find_string()] No iframe in com/google/android/gms/analytics/R.attr.html
+[INTERNAL_LOG][2018-06-07 21:26:55,135][INFO][find_string()] File: com/google/android/gms/analytics/R.color.html
+[INTERNAL_LOG][2018-06-07 21:26:55,145][INFO][find_string()] No iframe in com/google/android/gms/analytics/R.color.html
+[INTERNAL_LOG][2018-06-07 21:26:55,145][INFO][find_string()] File: com/google/android/gms/analytics/R.drawable.html
+[INTERNAL_LOG][2018-06-07 21:26:55,164][INFO][find_string()] No iframe in com/google/android/gms/analytics/R.drawable.html
+[INTERNAL_LOG][2018-06-07 21:26:55,164][INFO][find_string()] File: com/google/android/gms/analytics/R.html
+[INTERNAL_LOG][2018-06-07 21:26:55,171][INFO][find_string()] No iframe in com/google/android/gms/analytics/R.html
+[INTERNAL_LOG][2018-06-07 21:26:55,171][INFO][find_string()] File: com/google/android/gms/analytics/R.id.html
+[INTERNAL_LOG][2018-06-07 21:26:55,178][INFO][find_string()] No iframe in com/google/android/gms/analytics/R.id.html
+[INTERNAL_LOG][2018-06-07 21:26:55,178][INFO][find_string()] File: com/google/android/gms/analytics/R.integer.html
+[INTERNAL_LOG][2018-06-07 21:26:55,184][INFO][find_string()] No iframe in com/google/android/gms/analytics/R.integer.html
+[INTERNAL_LOG][2018-06-07 21:26:55,184][INFO][find_string()] File: com/google/android/gms/analytics/R.raw.html
+[INTERNAL_LOG][2018-06-07 21:26:55,191][INFO][find_string()] No iframe in com/google/android/gms/analytics/R.raw.html
+[INTERNAL_LOG][2018-06-07 21:26:55,192][INFO][find_string()] File: com/google/android/gms/analytics/R.string.html
+[INTERNAL_LOG][2018-06-07 21:26:55,212][INFO][find_string()] No iframe in com/google/android/gms/analytics/R.string.html
+[INTERNAL_LOG][2018-06-07 21:26:55,212][INFO][find_string()] File: com/google/android/gms/analytics/R.style.html
+[INTERNAL_LOG][2018-06-07 21:26:55,218][INFO][find_string()] No iframe in com/google/android/gms/analytics/R.style.html
+[INTERNAL_LOG][2018-06-07 21:26:55,218][INFO][find_string()] File: com/google/android/gms/analytics/R.styleable.html
+[INTERNAL_LOG][2018-06-07 21:26:55,228][INFO][find_string()] No iframe in com/google/android/gms/analytics/R.styleable.html
+[INTERNAL_LOG][2018-06-07 21:26:55,228][INFO][find_string()] File: com/google/android/gms/analytics/class-use/R.attr.html
+[INTERNAL_LOG][2018-06-07 21:26:55,231][INFO][find_string()] No iframe in com/google/android/gms/analytics/class-use/R.attr.html
+[INTERNAL_LOG][2018-06-07 21:26:55,231][INFO][find_string()] File: com/google/android/gms/analytics/class-use/R.color.html
+[INTERNAL_LOG][2018-06-07 21:26:55,234][INFO][find_string()] No iframe in com/google/android/gms/analytics/class-use/R.color.html
+[INTERNAL_LOG][2018-06-07 21:26:55,235][INFO][find_string()] File: com/google/android/gms/analytics/class-use/R.drawable.html
+[INTERNAL_LOG][2018-06-07 21:26:55,237][INFO][find_string()] No iframe in com/google/android/gms/analytics/class-use/R.drawable.html
+[INTERNAL_LOG][2018-06-07 21:26:55,237][INFO][find_string()] File: com/google/android/gms/analytics/class-use/R.html
+[INTERNAL_LOG][2018-06-07 21:26:55,239][INFO][find_string()] No iframe in com/google/android/gms/analytics/class-use/R.html
+[INTERNAL_LOG][2018-06-07 21:26:55,239][INFO][find_string()] File: com/google/android/gms/analytics/class-use/R.id.html
+[INTERNAL_LOG][2018-06-07 21:26:55,242][INFO][find_string()] No iframe in com/google/android/gms/analytics/class-use/R.id.html
+[INTERNAL_LOG][2018-06-07 21:26:55,242][INFO][find_string()] File: com/google/android/gms/analytics/class-use/R.integer.html
+[INTERNAL_LOG][2018-06-07 21:26:55,244][INFO][find_string()] No iframe in com/google/android/gms/analytics/class-use/R.integer.html
+[INTERNAL_LOG][2018-06-07 21:26:55,244][INFO][find_string()] File: com/google/android/gms/analytics/class-use/R.raw.html
+[INTERNAL_LOG][2018-06-07 21:26:55,247][INFO][find_string()] No iframe in com/google/android/gms/analytics/class-use/R.raw.html
+[INTERNAL_LOG][2018-06-07 21:26:55,247][INFO][find_string()] File: com/google/android/gms/analytics/class-use/R.string.html
+[INTERNAL_LOG][2018-06-07 21:26:55,249][INFO][find_string()] No iframe in com/google/android/gms/analytics/class-use/R.string.html
+[INTERNAL_LOG][2018-06-07 21:26:55,249][INFO][find_string()] File: com/google/android/gms/analytics/class-use/R.style.html
+[INTERNAL_LOG][2018-06-07 21:26:55,253][INFO][find_string()] No iframe in com/google/android/gms/analytics/class-use/R.style.html
+[INTERNAL_LOG][2018-06-07 21:26:55,253][INFO][find_string()] File: com/google/android/gms/analytics/class-use/R.styleable.html
+[INTERNAL_LOG][2018-06-07 21:26:55,256][INFO][find_string()] No iframe in com/google/android/gms/analytics/class-use/R.styleable.html
+[INTERNAL_LOG][2018-06-07 21:26:55,256][INFO][find_string()] File: com/google/android/gms/analytics/package-frame.html
+[INTERNAL_LOG][2018-06-07 21:26:55,257][INFO][find_string()] No iframe in com/google/android/gms/analytics/package-frame.html
+[INTERNAL_LOG][2018-06-07 21:26:55,257][INFO][find_string()] File: com/google/android/gms/analytics/package-summary.html
+[INTERNAL_LOG][2018-06-07 21:26:55,262][INFO][find_string()] No iframe in com/google/android/gms/analytics/package-summary.html
+[INTERNAL_LOG][2018-06-07 21:26:55,262][INFO][find_string()] File: com/google/android/gms/analytics/package-tree.html
+[INTERNAL_LOG][2018-06-07 21:26:55,266][INFO][find_string()] No iframe in com/google/android/gms/analytics/package-tree.html
+[INTERNAL_LOG][2018-06-07 21:26:55,266][INFO][find_string()] File: com/google/android/gms/analytics/package-use.html
+[INTERNAL_LOG][2018-06-07 21:26:55,270][INFO][find_string()] No iframe in com/google/android/gms/analytics/package-use.html
+[INTERNAL_LOG][2018-06-07 21:26:55,270][INFO][find_string()] File: com/google/android/gms/class-use/R.attr.html
+[INTERNAL_LOG][2018-06-07 21:26:55,272][INFO][find_string()] No iframe in com/google/android/gms/class-use/R.attr.html
+[INTERNAL_LOG][2018-06-07 21:26:55,272][INFO][find_string()] File: com/google/android/gms/class-use/R.color.html
+[INTERNAL_LOG][2018-06-07 21:26:55,274][INFO][find_string()] No iframe in com/google/android/gms/class-use/R.color.html
+[INTERNAL_LOG][2018-06-07 21:26:55,275][INFO][find_string()] File: com/google/android/gms/class-use/R.drawable.html
+[INTERNAL_LOG][2018-06-07 21:26:55,277][INFO][find_string()] No iframe in com/google/android/gms/class-use/R.drawable.html
+[INTERNAL_LOG][2018-06-07 21:26:55,277][INFO][find_string()] File: com/google/android/gms/class-use/R.html
+[INTERNAL_LOG][2018-06-07 21:26:55,279][INFO][find_string()] No iframe in com/google/android/gms/class-use/R.html
+[INTERNAL_LOG][2018-06-07 21:26:55,279][INFO][find_string()] File: com/google/android/gms/class-use/R.id.html
+[INTERNAL_LOG][2018-06-07 21:26:55,282][INFO][find_string()] No iframe in com/google/android/gms/class-use/R.id.html
+[INTERNAL_LOG][2018-06-07 21:26:55,282][INFO][find_string()] File: com/google/android/gms/class-use/R.integer.html
+[INTERNAL_LOG][2018-06-07 21:26:55,284][INFO][find_string()] No iframe in com/google/android/gms/class-use/R.integer.html
+[INTERNAL_LOG][2018-06-07 21:26:55,284][INFO][find_string()] File: com/google/android/gms/class-use/R.raw.html
+[INTERNAL_LOG][2018-06-07 21:26:55,288][INFO][find_string()] No iframe in com/google/android/gms/class-use/R.raw.html
+[INTERNAL_LOG][2018-06-07 21:26:55,288][INFO][find_string()] File: com/google/android/gms/class-use/R.string.html
+[INTERNAL_LOG][2018-06-07 21:26:55,291][INFO][find_string()] No iframe in com/google/android/gms/class-use/R.string.html
+[INTERNAL_LOG][2018-06-07 21:26:55,291][INFO][find_string()] File: com/google/android/gms/class-use/R.style.html
+[INTERNAL_LOG][2018-06-07 21:26:55,294][INFO][find_string()] No iframe in com/google/android/gms/class-use/R.style.html
+[INTERNAL_LOG][2018-06-07 21:26:55,294][INFO][find_string()] File: com/google/android/gms/class-use/R.styleable.html
+[INTERNAL_LOG][2018-06-07 21:26:55,297][INFO][find_string()] No iframe in com/google/android/gms/class-use/R.styleable.html
+[INTERNAL_LOG][2018-06-07 21:26:55,297][INFO][find_string()] File: com/google/android/gms/package-frame.html
+[INTERNAL_LOG][2018-06-07 21:26:55,299][INFO][find_string()] No iframe in com/google/android/gms/package-frame.html
+[INTERNAL_LOG][2018-06-07 21:26:55,299][INFO][find_string()] File: com/google/android/gms/package-summary.html
+[INTERNAL_LOG][2018-06-07 21:26:55,302][INFO][find_string()] No iframe in com/google/android/gms/package-summary.html
+[INTERNAL_LOG][2018-06-07 21:26:55,302][INFO][find_string()] File: com/google/android/gms/package-tree.html
+[INTERNAL_LOG][2018-06-07 21:26:55,307][INFO][find_string()] No iframe in com/google/android/gms/package-tree.html
+[INTERNAL_LOG][2018-06-07 21:26:55,307][INFO][find_string()] File: com/google/android/gms/package-use.html
+[INTERNAL_LOG][2018-06-07 21:26:55,309][INFO][find_string()] No iframe in com/google/android/gms/package-use.html
+[INTERNAL_LOG][2018-06-07 21:26:55,309][INFO][find_string()] File: com/moneytapp/android/sdk/R.anim.html
+[INTERNAL_LOG][2018-06-07 21:26:55,315][INFO][find_string()] No iframe in com/moneytapp/android/sdk/R.anim.html
+[INTERNAL_LOG][2018-06-07 21:26:55,315][INFO][find_string()] File: com/moneytapp/android/sdk/R.drawable.html
+[INTERNAL_LOG][2018-06-07 21:26:55,323][INFO][find_string()] No iframe in com/moneytapp/android/sdk/R.drawable.html
+[INTERNAL_LOG][2018-06-07 21:26:55,323][INFO][find_string()] File: com/moneytapp/android/sdk/R.html
+[INTERNAL_LOG][2018-06-07 21:26:55,330][INFO][find_string()] No iframe in com/moneytapp/android/sdk/R.html
+[INTERNAL_LOG][2018-06-07 21:26:55,330][INFO][find_string()] File: com/moneytapp/android/sdk/R.id.html
+[INTERNAL_LOG][2018-06-07 21:26:55,337][INFO][find_string()] No iframe in com/moneytapp/android/sdk/R.id.html
+[INTERNAL_LOG][2018-06-07 21:26:55,338][INFO][find_string()] File: com/moneytapp/android/sdk/R.layout.html
+[INTERNAL_LOG][2018-06-07 21:26:55,344][INFO][find_string()] No iframe in com/moneytapp/android/sdk/R.layout.html
+[INTERNAL_LOG][2018-06-07 21:26:55,344][INFO][find_string()] File: com/moneytapp/android/sdk/R.string.html
+[INTERNAL_LOG][2018-06-07 21:26:55,349][INFO][find_string()] No iframe in com/moneytapp/android/sdk/R.string.html
+[INTERNAL_LOG][2018-06-07 21:26:55,349][INFO][find_string()] File: com/moneytapp/android/sdk/R.style.html
+[INTERNAL_LOG][2018-06-07 21:26:55,357][INFO][find_string()] No iframe in com/moneytapp/android/sdk/R.style.html
+[INTERNAL_LOG][2018-06-07 21:26:55,357][INFO][find_string()] File: com/moneytapp/android/sdk/class-use/R.anim.html
+[INTERNAL_LOG][2018-06-07 21:26:55,361][INFO][find_string()] No iframe in com/moneytapp/android/sdk/class-use/R.anim.html
+[INTERNAL_LOG][2018-06-07 21:26:55,361][INFO][find_string()] File: com/moneytapp/android/sdk/class-use/R.drawable.html
+[INTERNAL_LOG][2018-06-07 21:26:55,364][INFO][find_string()] No iframe in com/moneytapp/android/sdk/class-use/R.drawable.html
+[INTERNAL_LOG][2018-06-07 21:26:55,364][INFO][find_string()] File: com/moneytapp/android/sdk/class-use/R.html
+[INTERNAL_LOG][2018-06-07 21:26:55,367][INFO][find_string()] No iframe in com/moneytapp/android/sdk/class-use/R.html
+[INTERNAL_LOG][2018-06-07 21:26:55,367][INFO][find_string()] File: com/moneytapp/android/sdk/class-use/R.id.html
+[INTERNAL_LOG][2018-06-07 21:26:55,370][INFO][find_string()] No iframe in com/moneytapp/android/sdk/class-use/R.id.html
+[INTERNAL_LOG][2018-06-07 21:26:55,370][INFO][find_string()] File: com/moneytapp/android/sdk/class-use/R.layout.html
+[INTERNAL_LOG][2018-06-07 21:26:55,372][INFO][find_string()] No iframe in com/moneytapp/android/sdk/class-use/R.layout.html
+[INTERNAL_LOG][2018-06-07 21:26:55,373][INFO][find_string()] File: com/moneytapp/android/sdk/class-use/R.string.html
+[INTERNAL_LOG][2018-06-07 21:26:55,375][INFO][find_string()] No iframe in com/moneytapp/android/sdk/class-use/R.string.html
+[INTERNAL_LOG][2018-06-07 21:26:55,375][INFO][find_string()] File: com/moneytapp/android/sdk/class-use/R.style.html
+[INTERNAL_LOG][2018-06-07 21:26:55,377][INFO][find_string()] No iframe in com/moneytapp/android/sdk/class-use/R.style.html
+[INTERNAL_LOG][2018-06-07 21:26:55,377][INFO][find_string()] File: com/moneytapp/android/sdk/package-frame.html
+[INTERNAL_LOG][2018-06-07 21:26:55,378][INFO][find_string()] No iframe in com/moneytapp/android/sdk/package-frame.html
+[INTERNAL_LOG][2018-06-07 21:26:55,378][INFO][find_string()] File: com/moneytapp/android/sdk/package-summary.html
+[INTERNAL_LOG][2018-06-07 21:26:55,381][INFO][find_string()] No iframe in com/moneytapp/android/sdk/package-summary.html
+[INTERNAL_LOG][2018-06-07 21:26:55,381][INFO][find_string()] File: com/moneytapp/android/sdk/package-tree.html
+[INTERNAL_LOG][2018-06-07 21:26:55,385][INFO][find_string()] No iframe in com/moneytapp/android/sdk/package-tree.html
+[INTERNAL_LOG][2018-06-07 21:26:55,385][INFO][find_string()] File: com/moneytapp/android/sdk/package-use.html
+[INTERNAL_LOG][2018-06-07 21:26:55,388][INFO][find_string()] No iframe in com/moneytapp/android/sdk/package-use.html
+[INTERNAL_LOG][2018-06-07 21:26:55,388][INFO][find_string()] File: constant-values.html
+[INTERNAL_LOG][2018-06-07 21:26:55,470][INFO][find_string()] No iframe in constant-values.html
+[INTERNAL_LOG][2018-06-07 21:26:55,470][INFO][find_string()] File: deprecated-list.html
+[INTERNAL_LOG][2018-06-07 21:26:55,473][INFO][find_string()] No iframe in deprecated-list.html
+[INTERNAL_LOG][2018-06-07 21:26:55,473][INFO][find_string()] File: help-doc.html
+[INTERNAL_LOG][2018-06-07 21:26:55,477][INFO][find_string()] No iframe in help-doc.html
+[INTERNAL_LOG][2018-06-07 21:26:55,477][INFO][find_string()] File: index-all.html
+[INTERNAL_LOG][2018-06-07 21:26:55,576][INFO][find_string()] No iframe in index-all.html
+[INTERNAL_LOG][2018-06-07 21:26:55,576][INFO][find_string()] File: index.html
+[INTERNAL_LOG][2018-06-07 21:26:55,577][INFO][find_string()] No iframe in index.html
+[INTERNAL_LOG][2018-06-07 21:26:55,578][INFO][find_string()] File: overview-frame.html
+[INTERNAL_LOG][2018-06-07 21:26:55,579][INFO][find_string()] No iframe in overview-frame.html
+[INTERNAL_LOG][2018-06-07 21:26:55,579][INFO][find_string()] File: overview-summary.html
+[INTERNAL_LOG][2018-06-07 21:26:55,582][INFO][find_string()] No iframe in overview-summary.html
+[INTERNAL_LOG][2018-06-07 21:26:55,582][INFO][find_string()] File: overview-tree.html
+[INTERNAL_LOG][2018-06-07 21:26:55,594][INFO][find_string()] No iframe in overview-tree.html
+[INTERNAL_LOG][2018-06-07 21:26:55,594][INFO][find_string()] File: serialized-form.html
+[INTERNAL_LOG][2018-06-07 21:26:55,598][INFO][find_string()] No iframe in serialized-form.html
+[INTERNAL_LOG][2018-06-07 21:26:55,598][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-07 21:26:58,578][INFO][find_url_in_apk()] [START URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-07 21:26:58,578][INFO][find_url_in_apk()] https://cortana-gateway.amazon.com/cortana/gateway/getSignedDownloadUrl
+
+[INTERNAL_LOG][2018-06-07 21:26:58,578][INFO][find_url_in_apk()] [END URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-07 21:26:59,427][ERROR][download_page_loaded()] Failed response code: 500 for https://cortana-gateway.amazon.com/cortana/gateway/getSignedDownloadUrl  
+[INTERNAL_LOG][2018-06-07 21:26:59,428][INFO][find_string()] [START REMOTE FILE ANALYZE]
+[INTERNAL_LOG][2018-06-07 21:26:59,434][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-07 21:26:59,434][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-07 21:26:59,434][INFO][find_url_in_apk()] http://schemas.android.com/apk/res/android
+http://www.yvolver.com
+http://www.yvolver.com
+http://www.yvolver.com
+https://adc3-launch.adcolony.com/v4/launch
+https://config-prod.yvolver.com/api/public/app/config
+https://config-swap.yvolver.com/api/public/app/config
+https://config-alpha.yvolver.com/api/public/app/config
+https://config-staging.yvolver.com/api/public/app/config
+http://config-dev.yvolver.com/api/public/app/config
+https://wd.adcolony.com/logs
+https://cortana-gateway.amazon.com/cortana/gateway/getSignedDownloadUrl
+https://ags-ext.amazon.com/service/gamedata/WhisperData
+https://ags-ext.amazon.com/service/gamedata/WhisperData
+http://schemas.applovin.com/android/1.0
+http://schemas.applovin.com/android/1.0
+http://d.applovin.com/
+http://a.applovin.com/
+https://vid.applovin.com/,https://pdn.applovin.com/,https://img.applovin.com/,https://d.applovin.com/,https://assets.applovin.com/,https://cdnjs.cloudflare.com/,http://vid.applovin.com/,http://pdn.applovin.com/,http://img.applovin.com/,http://d.applovin.com/,http://assets.applovin.com/,http://cdnjs.cloudflare.com/
+http://rt.applovin.com/pix
+http://localhost:3000/
+https://stageapi.areametrics.com/
+https://api.areametrics.com/
+http://schemas.microsoft.com/DRM/2007/03/protocols/AcquireLicense
+https://www.googleapis.com/auth/drive.file
+https://www.googleapis.com/auth/drive.appdata
+https://www.googleapis.com/auth/drive
+https://www.googleapis.com/auth/drive.apps
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games_lite
+https://www.googleapis.com/auth/games_lite
+https://www.googleapis.com/auth/games_lite
+https://www.googleapis.com/auth/games.firstparty
+https://www.googleapis.com/auth/games.firstparty
+https://pagead2.googlesyndication.com/pagead/gen_204
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/sdk-core-v40-impl.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://csi.gstatic.com/csi
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/native_ads.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/native_ads.js
+https://imasdk.googleapis.com/admob/sdkloader/native_video.html
+https://www.google.com/dfp/linkDevice
+https://www.google.com/dfp/inAppPreview
+https://www.google.com/dfp/debugSignals
+https://www.google.com/dfp/sendDebugData
+http://www.example.com
+http://www.example.com
+https://www.googleapis.com/auth/plus.login
+https://www.googleapis.com/auth/plus.me
+http://schemas.android.com/apk/lib/com.google.android.gms.plus
+http://schemas.android.com/apk/lib/com.google.android.gms.plus
+https://twitter.com/%s/status/%s
+https://api.vungle.com/api/v4/
+https://ingest.vungle.com/
+http://lol.vungle.com/
+http://data.altbeacon.org/android-distance.json
+http://storage.creative-mobile.com/dragracing15/car_settings.bin
+http://more-games.creative-mobile.com/version.bin
+http://more-games.creative-mobile.com/80.bin
+http://more-games.creative-mobile.com/2.bin
+http://www.amazon.com/s/ref=bl_sr_mobile-apps?_encoding=UTF8&field-brandtextbin=Creative%20Mobile%20OU&node=2350149011
+http://gi.sfr.fr/igp.cgi?IGPED=HO&z=SUdQRlI9NDkzNDMmSUdQVE89SE9NRQ==
+https://s3.amazonaws.com/
+https://s3.amazonaws.com/cm-gdpr/
+http://drc4x4.cmdragracing.com/
+http://www.supersonicads.com/delivery/mobilePanel.php?applicationKey=2d249705&deviceOs=android&format=json&applicationUserId=
+http://kiatallinn.ee/
+http://kiatallinn.ee/
+http://www.facebook.com/DragRacingGame
+http://www.facebook.com/DragRacingGame
+http://www.facebook.com/DragRacingGame
+http://www.facebook.com/DragRacingGame
+http://creative-mobile.com/about-us/privacy-policy/
+http://creative-mobile.com/terms-of-use/
+http://creative-mobile.com/privacy-policy/
+http://storage.creative-mobile.com/dragracing15/career.version.bin
+http://storage.creative-mobile.com/dragracing15/career.bin
+https://www.facebook.com/audience_network/server_side_reward
+https://www.%s.facebook.com/audience_network/server_side_reward
+https://graph.facebook.com/network_ads_common
+https://graph.%s.facebook.com/network_ads_common
+https://www.facebook.com/adnw_logging/
+https://www.%s.facebook.com/adnw_logging/
+https://www.facebook.com/
+https://www.%s.facebook.com
+http://play.google.com/store/apps/
+http://www.facebook.com
+https://graph.%s
+https://graph-video.%s
+https://facebook.com
+https://facebook.com/device?user_code=%1$s&qr=1
+http://play.google.com/store/apps/details?id=com.facebook.orca
+https://proton.flurry.com:443/sdk/v1/config
+http://data.flurry.com/aap.do
+https://data.flurry.com/aap.do
+http://www.w3.org/ns/ttml#parameter
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+http://hostname/?
+https://plus.google.com/
+http://play.google.com/store/apps/category/GAME
+https://play.google.com/store/apps/details?id=%1$s&rdid=%1$s&rdot=%2$d
+https://plus.google.com/%s/about
+https://play.google.com/store/apps/details
+http://www.google.com
+https://support.google.com/dfp_premium/answer/7160685#push
+http://www.google-analytics.com
+https://ssl.google-analytics.com
+https://track.atom-data.io
+https://track.atom-data.io
+https://track.atom-data.io
+https://outcome.supersonicads.com/mediation/
+https://outcome.supersonicads.com/mediation/
+https://mobilelogs.supersonic.com
+https://init.supersonicads.com/sdk/v
+https://www.supersonicads.com/timestamp.php
+https://www.supersonicads.com/mobile/sdk5/log?method=
+https://www.supersonicads.com/mobile/sdk5/log?method=
+https://www.supersonicads.com/mobile/sdk5/log?method=
+https://www.supersonicads.com/mobile/sdk5/log?method=
+https://www.supersonicads.com/mobile/sdk5/log?method=
+https://www.supersonicads.com/mobile/sdk5/log?method=
+https://www.supersonicads.com/mobile/sdk5/log?method=
+https://www.supersonicads.com/mobile/sdk5/log?method=
+https://www.supersonicads.com/mobile/sdk5/log?method=injectJavaScript
+https://www.supersonicads.com/mobile/sdk5/log?method=extraParametersToJson
+https://www.supersonicads.com/mobile/sdk5/log?method=noProductType
+https://www.supersonicads.com/mobile/sdk5/log?method=encodeAppUserId
+https://www.supersonicads.com/mobile/sdk5/log?method=encodeAppKey
+https://www.supersonicads.com/mobile/sdk5/log?method=setWebViewSettings
+https://www.supersonicads.com/mobile/sdk5/log?method=webviewLoadBlank
+https://www.supersonicads.com/mobile/sdk5/log?method=webviewLoadWithPath
+https://www.supersonicads.com/mobile/sdk5/log?method=htmlControllerDoesNotExistOnFileSystem
+https://www.supersonicads.com/mobile/sdk5/log?method=webviewPause
+https://www.supersonicads.com/mobile/sdk5/log?method=webviewResume
+http://api15.cmdragracing.com/?task=
+http://mbxrt.mediabrix.com/geoencode
+http://mbxrt.mediabrix.com/geoencode?IpAddress=
+http://metrics-qa.tbliab.net/v2/metrics/?adsvrLineItemID=
+https://cpi.mediabrix.com/cpi/activation
+https://cpi.mediabrix.com/cpi/attribution
+https://ap.tbliab.net/mprofiles
+http://www.mediabrix.com
+https://metrics.tbliab.net/v2/metrics/?adsvrLineItemID=%LINE_ITEM_ID%&adsvrAdvertiserID=%ADVERTISER_ID%&adsvrOrderID=%ORDID%&adsvrCreativeID=%CRID%&adsvrPropertyAdUnit=%PROPERTY%&adsvrZoneAdUnit=%ZONE%&mbrixAppKey=%APP_ID%&mbrixDeviceID=%DEVICE_ID%&mbrixVideoDuration=%VIDEO_DURATION%&mbrixHost=%DFP_URL%&mbrixSDKVersion=%SDK_VERSION%&mbrixSDKBuild=%SDK_BUILD_VERSION%&mbrixOS=%OS%&mbrixPlatform=%PLATFORM%&mbrixAction=%EVENT_NAME%&mbrixClientTimeStamp=%TIME_STAMP%&mbrixClientWidth=%SCREEN_WIDTH%&mbrixClientHeight=%SCREEN_HEIGHT%&mbrixAppSession=%SESSION_ID%&mbrixValue=%VALUE%
+http://mobileloggerqa.cloudapp.net/logger
+https://z.moatads.com/
+https://api.moneytapp.com
+http://play.google.com/store/apps/details?id=
+https://analytics.mopub.com/i/jot/exchange_client_event
+https://www.mopub.com/optout
+https://www.mopub.com/optout/
+https://www.mopub.com/optout/
+https://maps.googleapis.com/maps/api/geocode/json?sensor=true&latlng=
+http://www.quantcast.com/privacy/
+https://api.rollbar.com/api/1/items/
+https://api.skydeo.com/post
+https://location-api.skydeo.com/v1/position
+https://config.unityads.unity3d.com/webview/
+https://www.vungle.com/privacy/
+https://www.vungle.com/privacy/
+http://example.com/
+https://purchase-verifier.creative-mobile.com/PurchaseVerifier/?game=
+https://settings.crashlytics.com/spi/v2/platforms/android/apps/%s/settings
+https://e.crashlytics.com/spi/v2/events
+https://api.huq.io/analyse/1.2/
+https://api.huq.io/analyse/1.2/
+http://ping.huqtools.com
+https://report.huqtools.com/sdk_report
+http://www.
+https://www.
+http://localhost/
+http://localhost/
+http://localhost/
+
+[INTERNAL_LOG][2018-06-07 21:26:59,434][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-07 21:26:59,441][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-07 21:26:59,441][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-07 21:26:59,441][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-07 21:26:59,441][INFO][analyze_start()] End time:[Thu Jun  7 21:26:59 2018]

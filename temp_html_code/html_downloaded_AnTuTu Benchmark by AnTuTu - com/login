@@ -1,0 +1,178 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <!-- 允许苹果全屏 -->
+    <meta content="yes" name="apple-touch-fullscreen" />
+    <!-- 添加到主屏幕后，全屏显示 -->
+    <meta content="telephone=no,email=no" name="format-detection" />
+    <!-- 忽略页面中的数字识别为电话号码||邮箱 -->
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
+    <!-- 强制1:1 -->
+
+    <title>登录</title>
+
+    <link rel="stylesheet" type="text/css" href="/Public/Home/css/style.css">
+
+    <style type="text/css">
+        .cf-hidden {
+            display: none;
+        }
+
+        .cf-invisible {
+            visibility: hidden;
+        }
+    </style>
+
+</head>
+<body class="mhome">
+
+
+    <div id="page" class="page3">
+        <!-- page -->
+        <!-- content -->
+        <div class="wrapper wrapper2">
+            <div class="scrollBox">
+
+                <!-- top -->
+                <div class="login_top">
+                    <img src="/Public/Home/images/logo.png" alt="安兔兔">
+                </div>
+                <!-- center -->
+                <div class="login_center">
+                    <form>
+                        <ul class="login_ul">
+                            <li>
+                                <i class="iconc_1"></i>
+                                <input type="text" id="name" placeholder="手机号" value="" maxlength="11" onkeyup="checkLength()" onblur="checkLength();" />
+                            </li>
+                            <li id="passli" style="border-bottom: 1px solid #d9d9d9;">
+                                <i class="iconc_2"></i>
+                                <input type="password" id="pass" placeholder="密码" onkeyup="checkLength()" onblur="checkLength();" />
+                            </li>
+                            <li id="checkli" style="border-bottom: 1px solid #d9d9d9; display:none">
+                                <i class="iconc_4"></i>
+                                <input type="text" id="check" placeholder="图片验证码" style="width: 48%;display: inline;" />
+
+                                <img style="height: 0.4rem;margin-top: 0.05rem;position: absolute;" alt="验证码" id="imgcode" src="/wap/code">
+                            </li>
+                        </ul>
+
+                    </form>
+                </div>
+                <div class="login_bottom">
+                    <a href="javascript:void(0)" id="sub" style="background: #9bbbf3;" disabled="true">登  录</a>
+                </div>
+                <div class="login_desc">
+                    <a href="/wap/register?step=1" onclick="window.user.uclick(3);" class="login_zhuce">没有账号？<span>立即注册</span></a>
+
+                    <a onclick="window.user.uclick(5);" href="/wap/resetpw" class="login_wangji"><span>忘记密码</span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- page -->
+
+
+
+    <script type="text/javascript" src="/Public/Home/js/jquery-1.7.2.min.js"></script>
+
+    <script>
+        $('#sub').click(function () {
+        	 try{
+        		 window.user.uclick(7);
+             }catch(err){
+             }
+            var phone = $('#name').val();
+            var pwd = $('#pass').val();
+            var checkcode = $('#check').val();
+            var checkli = $('#checkli').is(':hidden');
+
+            if (!phone) {
+                alert('请输入手机号');
+                return false;
+            }
+            if (!pwd) {
+                alert('请输入密码');
+                return false;
+            }
+
+            if (!checkli && !checkcode) {
+                alert('请输入图片验证码');
+                return false;
+            }
+
+            var url = "/wap/login";
+            $.post(url, { 'phone': phone, 'pwd': pwd, 'checkcode': checkcode }, function (data) {
+                if (data.code == -1) {
+                    alert(data.msg);
+
+                }
+                else if (data.code == 2) {
+                    $("#checkli").show();
+                    $('#passli').attr('style','');
+                }
+                else if (data.code == 3) {
+                    alert(data.msg);
+                    getcheckcode();
+                }else if(data.code==1){
+                	alert('登录成功');
+                	try{
+                		window.user.login(data.msg);
+                	}catch(err){
+                		login(data.msg);
+                	}
+                }
+            }, 'json');
+
+        });
+
+
+        function getcheckcode() {
+            var timestamp = Date.parse(new Date());
+            var url = "/wap/code?t=" + timestamp;
+            $('#imgcode').attr('src', url)
+        }
+        function checkLength() {
+            var name = $('#name').val();
+
+            $('#name').val(name.replace(/[^0-9-]+/, ''));
+
+            name = $('#name').val();
+
+            var pass = $('#pass').val();
+
+            if (name.length == 11 && pass.length > 0) {
+                $("#sub").removeAttr("disabled");//启用按钮
+                $("#sub").css("background", "#296cdf");
+            } else {
+                $("#sub").attr("disabled", "true");
+                $("#sub").css("background", "#9bbbf3");
+            }
+
+        }
+
+        $(function () {
+            $('#imgcode').on('click', function () {
+                getcheckcode();
+            });
+        })
+		
+		$("#check").on('click',function(){
+			var __this=this;
+			setTimeout(function(){
+				__this.scrollIntoViewIfNeeded();
+			},200)
+		});
+        
+        $("#pass").on('click',function(){
+			var __this=this;
+			setTimeout(function(){
+				__this.scrollIntoViewIfNeeded();
+			},200)
+		});
+    </script>
+
+</body>
+</html>

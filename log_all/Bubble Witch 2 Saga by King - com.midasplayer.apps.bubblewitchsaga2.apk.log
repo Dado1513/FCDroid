@@ -1,0 +1,57 @@
+[INTERNAL_LOG][2018-06-08 02:37:47,654][INFO][analyze_start()] Init Time [Fri Jun  8 02:37:47 2018]
+[INTERNAL_LOG][2018-06-08 02:37:47,773][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-08 02:37:47,777][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-08 02:37:47,778][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-08 02:37:47,778][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-08 02:37:47,778][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-08 02:37:47,778][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-08 02:37:47,778][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-08 02:37:47,778][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-08 02:37:47,778][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-08 02:37:47,778][INFO][is_hybird()] com.midasplayer.apps.bubblewitchsaga2.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-08 02:37:47,778][INFO][is_hybird()] com.king.cross.kingapp.provider.ACCESS
+[INTERNAL_LOG][2018-06-08 02:37:47,778][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-08 02:37:47,778][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-08 02:37:47,778][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-08 02:37:47,778][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-08 02:37:47,778][INFO][find_string()] File: assets/res_output/servicelayer-views/sharelog/index.html
+[INTERNAL_LOG][2018-06-08 02:37:47,782][INFO][find_string()] Found in file assets/res_output/servicelayer-views/sharelog/index.html tag iframe , 1 times
+[INTERNAL_LOG][2018-06-08 02:37:47,783][INFO][find_string()] No CSP found!
+[INTERNAL_LOG][2018-06-08 02:37:47,783][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-08 02:38:04,441][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-08 02:38:04,441][INFO][find_url_in_apk()] http://www.amazon.com/gp/mas/get-appstore/android/ref=mas_mx_mba_iap_dl
+https://graph.%s
+https://graph-video.%s
+https://facebook.com
+http://play.google.com/store/apps/details?id=com.facebook.orca
+https://accounts.google.com
+https://accounts.google.com
+https://www.facebook.com
+https://www.facebook.com
+https://www.googleapis.com/auth/plus.me
+https://www.googleapis.com/auth/plus.me
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games
+http://plus.google.com/
+https://www.googleapis.com/auth/games.firstparty
+https://www.googleapis.com/auth/games.firstparty
+https://www.googleapis.com/auth/plus.login
+http://schemas.android.com/apk/lib/com.google.android.gms.plus
+http://schemas.android.com/apk/lib/com.google.android.gms.plus
+https://imasdk.googleapis.com/native/sdkloader/native_sdk_v3.html
+https://imasdk.googleapis.com/native/sdkloader/native_sdk_v3_debug.html
+https://z.moatads.com/
+https://www.googleapis.com/auth/contacts.readonly
+http://www.dom.com/path?
+
+[INTERNAL_LOG][2018-06-08 02:38:04,441][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-08 02:38:04,449][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-08 02:38:04,449][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-08 02:38:04,449][INFO][analyze_start()] This app might be vulnerable on attack frame confusion, This file are vulnerable ['assets/res_output/servicelayer-views/sharelog/index.html']
+[INTERNAL_LOG][2018-06-08 02:38:04,449][INFO][analyze_start()] End time:[Fri Jun  8 02:38:04 2018]

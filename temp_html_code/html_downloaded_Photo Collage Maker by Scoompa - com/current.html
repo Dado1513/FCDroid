@@ -1,0 +1,95 @@
+<html>
+<head>
+<script>
+function getUrl(query, imageType) {
+  query = query.trim();
+  while (query.length >= 3 && query.substring(query.length - 3) == '%20') {
+    query = query.substring(0, query.length - 3);
+  }
+  query = query.replace(/\%20/g, '+');
+  query = query.replace(/ /g, '+');
+  query = encodeURIComponent(query);
+  var url = "http://www.bing.com/images/search?qpvt="
+      + query
+      + "&q="
+      + query;
+
+  imageType = imageType.toLowerCase()
+  if (imageType == "clipart") {
+    url += "&qft=+%28filterui:photo-clipart+%7c+filterui:photo-linedrawing%29";
+  } else if (imageType == "photo") {
+    url += "&qft=+filterui:photo-photo";
+  }
+
+  url += "&FORM=R5IR26";
+
+  var urlAndHeaders = url + "\n";
+
+  urlAndHeaders += "User-Agent\nApache-HttpClient/UNAVAILABLE (java 1.4)\n";
+
+  if (window.android) {
+    window.android.setSearchUrl(urlAndHeaders);
+  } else {
+    return urlAndHeaders;
+  }
+}
+
+function parseResponse(content) {
+  if (window.android) {
+    content = window.android.getResponseData();
+  } else {
+    content = decodeURIComponent(content);
+  }
+
+  var images = "";
+
+  //var t = content;
+  //while (t.length > 100) {
+  //  console.log("LL " + t.substring(0, 100));
+  //  t = t.substring(100);
+  //}
+
+  var posNext = 0;
+  while (true) {
+    var posResultStart = content.indexOf('class=\"item\"', posNext);
+    if (posResultStart < 0) {
+      break; // No more result blocks
+    }
+
+    var posResultEnd = content.indexOf('class=\"fileInfo\"', posResultStart);
+    if (posResultEnd < 0) {
+      break; // Should not happen, if it does ignore the cut result
+    }
+
+    var posLinkStart = content.indexOf('href=\"', posResultStart + 10);
+    if (posLinkStart < 0) {
+      break;
+    }
+    var imageUrl = content.substring(posLinkStart + 6);
+    imageUrl = imageUrl.substring(0, imageUrl.indexOf('"'));
+
+    var posThumnailStart = content.indexOf(' src=\"', posLinkStart + imageUrl.length);
+    if (posThumnailStart < 0) {
+      break;
+    }
+    var thumbnailUrl = content.substring(posThumnailStart + 6);
+    thumbnailUrl = thumbnailUrl.substring(0, thumbnailUrl.indexOf('"'));
+
+    //imageUrl = decodeURI(imageUrl);
+    images += imageUrl + "\n";
+    images += thumbnailUrl + "\n";
+
+    posNext = posThumnailStart + thumbnailUrl.length;
+  }
+
+  if (window.android) {
+    window.android.setImages(images);
+  } else {
+    return images;
+  }
+}
+</script>
+</head>
+<body bgcolor="#000">
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script src="https://s.yimg.com/ss/rapid-3.32.js"></script>
+<p id="demo"></p>
+
+<script>
+function Init() {
+  function NativeView(appId) {
+    this.appId = appId;
+    this.instance = new YAHOO.i13n.Rapid({
+      spaceid: 1197795127,
+      pageview_on_init: false
+    });
+  }
+
+  NativeView.prototype.pageView = function() {
+    var that = this;
+    return this.instance.beaconPageview({
+      pt: that.appId,
+      pd: 'native_search_buzz_page_view'
+    });
+  }
+
+  NativeView.prototype.clickView = function(item) {
+    this.instance.beaconClick('native_search_buzz_item_click', this.appId,
+      item);
+  }
+
+  var nativeView;
+
+  window.sbPageView = function(appId) {
+      nativeView = new NativeView(appId);
+      console.log(nativeView);
+      nativeView.pageView();
+  }
+
+  window.buzzItemClick = function(appId, item) {
+    return nativeView.clickView(item);
+  }
+
+};
+
+(function(){
+  document.addEventListener("DOMContentLoaded", function(event) {
+    Init();
+  })
+})();
+
+</script>
+</body>
+</html>

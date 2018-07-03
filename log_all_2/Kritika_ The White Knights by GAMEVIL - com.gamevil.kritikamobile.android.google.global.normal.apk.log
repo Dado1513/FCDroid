@@ -1,0 +1,157 @@
+[INTERNAL_LOG][2018-06-12 03:54:25,311][INFO][analyze_start()] Init Time [Tue Jun 12 03:54:25 2018]
+[INTERNAL_LOG][2018-06-12 03:54:25,450][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 03:54:25,450][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 03:54:25,450][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 03:54:25,451][INFO][is_hybird()] android.permission.READ_PHONE_STATE
+[INTERNAL_LOG][2018-06-12 03:54:25,451][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 03:54:25,451][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 03:54:25,451][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 03:54:25,451][INFO][is_hybird()] android.permission.GET_TASKS
+[INTERNAL_LOG][2018-06-12 03:54:25,451][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-12 03:54:25,451][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-12 03:54:25,451][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 03:54:25,451][INFO][is_hybird()] com.gamevil.kritikamobile.android.google.global.normal.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-12 03:54:25,451][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-12 03:54:25,451][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 03:54:25,451][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 03:54:25,451][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 03:54:25,451][INFO][find_string()] File: assets/common/ActiveUserAgreement/1407119995_M3_11.html
+[INTERNAL_LOG][2018-06-12 03:54:25,468][INFO][find_string()] No iframe in assets/common/ActiveUserAgreement/1407119995_M3_11.html
+[INTERNAL_LOG][2018-06-12 03:54:25,468][INFO][find_string()] File: assets/common/ActiveUserAgreement/1407749993_M8_4.html
+[INTERNAL_LOG][2018-06-12 03:54:25,476][INFO][find_string()] No iframe in assets/common/ActiveUserAgreement/1407749993_M8_4.html
+[INTERNAL_LOG][2018-06-12 03:54:25,476][INFO][find_string()] File: assets/common/ActiveUserAgreement/1409219265_M10_3.html
+[INTERNAL_LOG][2018-06-12 03:54:25,484][INFO][find_string()] No iframe in assets/common/ActiveUserAgreement/1409219265_M10_3.html
+[INTERNAL_LOG][2018-06-12 03:54:25,484][INFO][find_string()] File: assets/common/ActiveUserAgreement/1409219290_M11_3.html
+[INTERNAL_LOG][2018-06-12 03:54:25,571][INFO][find_string()] No iframe in assets/common/ActiveUserAgreement/1409219290_M11_3.html
+[INTERNAL_LOG][2018-06-12 03:54:25,571][INFO][find_string()] File: assets/common/ActiveUserAgreement/1409219307_M12_4.html
+[INTERNAL_LOG][2018-06-12 03:54:25,577][INFO][find_string()] No iframe in assets/common/ActiveUserAgreement/1409219307_M12_4.html
+[INTERNAL_LOG][2018-06-12 03:54:25,577][INFO][find_string()] File: assets/js/closebutton.html
+[INTERNAL_LOG][2018-06-12 03:54:25,578][INFO][find_string()] No iframe in assets/js/closebutton.html
+[INTERNAL_LOG][2018-06-12 03:54:25,578][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 03:54:25,578][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 03:54:25,578][INFO][find_string()] File: assets/common/ActiveUserAgreement/iscroll.js
+[INTERNAL_LOG][2018-06-12 03:54:25,579][INFO][find_string()] No iframe in assets/common/ActiveUserAgreement/iscroll.js
+[INTERNAL_LOG][2018-06-12 03:54:25,579][INFO][find_string()] File: assets/js/mraid.js
+[INTERNAL_LOG][2018-06-12 03:54:25,581][INFO][find_string()] No iframe in assets/js/mraid.js
+[INTERNAL_LOG][2018-06-12 03:54:25,581][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 03:54:46,329][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 03:54:46,329][INFO][find_url_in_apk()] http://schemas.android.com/apk/res/android
+https://app.adjust.com
+http://www.amazon.com/gp/mas/get-appstore/android/ref=mas_mx_mba_iap_dl
+https://www.chartboost.com
+https://live.chartboost.com
+http://market.android.com/
+http://m.com2us.com
+http://activeuser.qpyou.cn/gateway.php
+http://activeuser.qpyou.cn/gateway.php
+http://activeuser.qpyou.cn/gateway.php
+http://activeuser.qpyou.cn/gateway.php
+http://test.activeuser.com2us.net/gateway.php
+http://test.activeuser.com2us.net/gateway.php
+http://sandbox-activeuser.qpyou.cn/gateway.php
+http://sandbox-activeuser.qpyou.cn/gateway.php
+http://m.com2us.com/
+http://m.member.com2us.com/mobilepolicy2.c2s
+http://m.member.com2us.com/mobilepolicy2.c2s
+http://test-adult-auth.com2us.net/api/call
+http://test-adult-auth.com2us.net/api/call
+https://adult-auth.qpyou.cn/api/call
+https://sandbox-adult-auth.qpyou.cn/api/call
+https://hiveiap.qpyou.cn/api/call
+https://hiveiap.qpyou.cn/api/call
+http://test-hiveiap.com2us.net/api/call
+https://sandbox-hiveiap.qpyou.cn/api/call
+https://m-billapp.qpyou.cn/module/api
+https://m-billapp.qpyou.cn/module/api
+https://m-bill.qpyou.cn/cn/login/BillLogin.jsp
+https://m-bill.qpyou.cn/cn/login/BillLogin.jsp
+http://test.m.billapp.com2us.com/module/api
+http://test-m-bill.com2us.com/cn/login/BillLogin.jsp
+https://sandbox-m-billapp.qpyou.cn/module/api
+https://sandbox-m-bill.qpyou.cn/cn/login/BillLogin.jsp
+http://s.com2us.net/common/billing/check2.c2s
+http://s.com2us.net/common/billing/select_log.c2s
+http://test.mercury.com2us.com
+http://test.mercury.com2us.com
+http://m-mercury.qpyou.cn
+http://sandbox-m-mercury.qpyou.cn
+http://sandbox-m-mercury.qpyou.cn/api/messenger
+http://sandbox-m-mercury.qpyou.cn/init
+http://sandbox-m-mercury.qpyou.cn/init/badge
+http://sandbox-m-mercury.qpyou.cn/api/review
+http://sandbox-m-mercury.qpyou.cn/logging/review
+http://sandbox-m-mercury.qpyou.cn/api/moregames
+http://sandbox-m-mercury.qpyou.cn/logging/moregames
+http://test.mercury.com2us.com/api/messenger
+http://test.mercury.com2us.com/init
+http://test.mercury.com2us.com/init/badge
+http://test.mercury.com2us.com/api/review
+http://test.mercury.com2us.com/logging/review
+http://test.mercury.com2us.com/api/moregames
+http://test.mercury.com2us.com/logging/moregames
+http://m-mercury.qpyou.cn/api/messenger
+http://m-mercury.qpyou.cn/init
+http://m-mercury.qpyou.cn/init/badge
+http://m-mercury.qpyou.cn/api/review
+http://m-mercury.qpyou.cn/logging/review
+http://m-mercury.qpyou.cn/api/moregames
+http://m-mercury.qpyou.cn/logging/moregames
+http://sandbox-m-wall.qpyou.cn/
+http://sandbox-m-wall.qpyou.cn/api/init
+http://test.wall.com2us.com/
+http://test.wall.com2us.com/api/init
+http://m-wall.qpyou.cn/
+http://m-wall.qpyou.cn/api/init
+http://test.wall.com2us.com/api/logSingleReward
+https://push.qpyou.cn/api/
+https://sandbox-push.qpyou.cn/api/
+http://sandbox-push.qpyou.cn/api/
+http://test-push.qpyou.cn/api/
+http://push.qpyou.cn/api/
+http://promotion.qpyou.cn/ua/
+http://promotion.qpyou.cn/ua/
+http://test-promotion.qpyou.cn/ua/
+http://sandbox-promotion.qpyou.cn/ua/
+http://coupon.qpyou.cn/ci/coupon_page/version2/submit
+http://test.event.com2us.com/ci/coupon_page/version2/submit
+http://sandbox-coupon.qpyou.cn/ci/coupon_page/version2/submit
+http://friend-api.qpyou.cn/api/
+http://friend-hub.qpyou.cn/
+http://sandbox-friend-api.qpyou.cn/api/
+http://sandbox-friend-hub.qpyou.cn/
+http://test-friend-hub.qpyou.cn/api/
+http://test-friend-api.qpyou.cn/
+http://staging-friend-hub.qpyou.cn/api/
+http://staging-friend-api.qpyou.cn/
+https://facebook.com
+https://facebook.com
+http://m.com2us.com/link/store?appid=
+https://graph.%s
+https://graph-video.%s
+http://play.google.com/store/apps/details?id=com.facebook.orca
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+https://accounts.google.com
+https://www.facebook.com
+http://plus.google.com/
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games.firstparty
+https://www.googleapis.com/auth/games.firstparty
+https://www.googleapis.com/auth/plus.login
+https://www.googleapis.com/auth/plus.me
+http://schemas.android.com/apk/lib/com.google.android.gms.plus
+http://schemas.android.com/apk/lib/com.google.android.gms.plus
+http://www.amazon.com/gp/mas/dl/android?%s
+http://play.google.com/store/apps/details?%s
+
+[INTERNAL_LOG][2018-06-12 03:54:46,329][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 03:54:46,339][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 03:54:46,339][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 03:54:46,339][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 03:54:46,339][INFO][analyze_start()] End time:[Tue Jun 12 03:54:46 2018]

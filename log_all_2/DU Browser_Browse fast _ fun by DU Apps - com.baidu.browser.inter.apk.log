@@ -1,0 +1,286 @@
+[INTERNAL_LOG][2018-06-12 05:54:36,989][INFO][analyze_start()] Init Time [Tue Jun 12 05:54:36 2018]
+[INTERNAL_LOG][2018-06-12 05:54:37,051][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 05:54:37,052][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 05:54:37,052][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 05:54:37,052][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-12 05:54:37,052][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 05:54:37,052][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 05:54:37,052][INFO][is_hybird()] com.android.launcher.permission.INSTALL_SHORTCUT
+[INTERNAL_LOG][2018-06-12 05:54:37,052][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 05:54:37,052][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 05:54:37,052][INFO][is_hybird()] android.permission.READ_PHONE_STATE
+[INTERNAL_LOG][2018-06-12 05:54:37,053][INFO][is_hybird()] android.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 05:54:37,053][INFO][is_hybird()] android.permission.GET_TASKS
+[INTERNAL_LOG][2018-06-12 05:54:37,053][INFO][is_hybird()] android.permission.RECORD_AUDIO
+[INTERNAL_LOG][2018-06-12 05:54:37,053][INFO][is_hybird()] android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+[INTERNAL_LOG][2018-06-12 05:54:37,053][INFO][is_hybird()] android.permission.RECEIVE_BOOT_COMPLETED
+[INTERNAL_LOG][2018-06-12 05:54:37,063][INFO][is_hybird()] com.android.browser.permission.READ_HISTORY_BOOKMARKS
+[INTERNAL_LOG][2018-06-12 05:54:37,069][INFO][is_hybird()] android.permission.CAMERA
+[INTERNAL_LOG][2018-06-12 05:54:37,069][INFO][is_hybird()] android.permission.KILL_BACKGROUND_PROCESSES
+[INTERNAL_LOG][2018-06-12 05:54:37,069][INFO][is_hybird()] android.permission.RESTART_PACKAGES
+[INTERNAL_LOG][2018-06-12 05:54:37,080][INFO][is_hybird()] android.permission.CLEAR_APP_CACHE
+[INTERNAL_LOG][2018-06-12 05:54:37,080][INFO][is_hybird()] com.android.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 05:54:37,081][INFO][is_hybird()] android.permission.SYSTEM_ALERT_WINDOW
+[INTERNAL_LOG][2018-06-12 05:54:37,081][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 05:54:37,081][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-12 05:54:37,081][INFO][is_hybird()] android.permission.READ_LOGS
+[INTERNAL_LOG][2018-06-12 05:54:37,081][INFO][is_hybird()] com.google.android.providers.gsf.permission.READ_GSERVICES
+[INTERNAL_LOG][2018-06-12 05:54:37,081][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 05:54:37,081][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 05:54:37,082][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 05:54:37,083][INFO][find_string()] File: assets/home/user_protocol.html
+[INTERNAL_LOG][2018-06-12 05:54:37,088][INFO][find_string()] No iframe in assets/home/user_protocol.html
+[INTERNAL_LOG][2018-06-12 05:54:37,088][INFO][find_string()] File: assets/home/user_protocol_pt.html
+[INTERNAL_LOG][2018-06-12 05:54:37,092][INFO][find_string()] No iframe in assets/home/user_protocol_pt.html
+[INTERNAL_LOG][2018-06-12 05:54:37,092][INFO][find_string()] File: assets/webkit/html/sailor_home.html
+[INTERNAL_LOG][2018-06-12 05:54:37,092][INFO][find_string()] No iframe in assets/webkit/html/sailor_home.html
+[INTERNAL_LOG][2018-06-12 05:54:37,092][INFO][find_string()] File: r/a0/zeus_page_error.html
+[INTERNAL_LOG][2018-06-12 05:54:37,093][INFO][find_string()] No iframe in r/a0/zeus_page_error.html
+[INTERNAL_LOG][2018-06-12 05:54:37,093][INFO][find_string()] File: r/a1/zeus_page_error.html
+[INTERNAL_LOG][2018-06-12 05:54:37,094][INFO][find_string()] No iframe in r/a1/zeus_page_error.html
+[INTERNAL_LOG][2018-06-12 05:54:37,094][INFO][find_string()] File: r/a2/zeus_page_error.html
+[INTERNAL_LOG][2018-06-12 05:54:37,095][INFO][find_string()] No iframe in r/a2/zeus_page_error.html
+[INTERNAL_LOG][2018-06-12 05:54:37,095][INFO][find_string()] File: r/a3/zeus_page_error.html
+[INTERNAL_LOG][2018-06-12 05:54:37,096][INFO][find_string()] No iframe in r/a3/zeus_page_error.html
+[INTERNAL_LOG][2018-06-12 05:54:37,096][INFO][find_string()] File: r/a4/zeus_page_error.html
+[INTERNAL_LOG][2018-06-12 05:54:37,097][INFO][find_string()] No iframe in r/a4/zeus_page_error.html
+[INTERNAL_LOG][2018-06-12 05:54:37,097][INFO][find_string()] File: r/a5/zeus_page_error.html
+[INTERNAL_LOG][2018-06-12 05:54:37,098][INFO][find_string()] No iframe in r/a5/zeus_page_error.html
+[INTERNAL_LOG][2018-06-12 05:54:37,098][INFO][find_string()] File: r/a6/zeus_page_error.html
+[INTERNAL_LOG][2018-06-12 05:54:37,099][INFO][find_string()] No iframe in r/a6/zeus_page_error.html
+[INTERNAL_LOG][2018-06-12 05:54:37,099][INFO][find_string()] File: r/o/r.html
+[INTERNAL_LOG][2018-06-12 05:54:37,101][INFO][find_string()] No iframe in r/o/r.html
+[INTERNAL_LOG][2018-06-12 05:54:37,101][INFO][find_string()] File: r/o/s.html
+[INTERNAL_LOG][2018-06-12 05:54:37,101][INFO][find_string()] No iframe in r/o/s.html
+[INTERNAL_LOG][2018-06-12 05:54:37,101][INFO][find_string()] File: r/o/zeus_page_error.html
+[INTERNAL_LOG][2018-06-12 05:54:37,103][INFO][find_string()] No iframe in r/o/zeus_page_error.html
+[INTERNAL_LOG][2018-06-12 05:54:37,103][INFO][find_string()] File: r/p/zeus_page_error.html
+[INTERNAL_LOG][2018-06-12 05:54:37,103][INFO][find_string()] No iframe in r/p/zeus_page_error.html
+[INTERNAL_LOG][2018-06-12 05:54:37,104][INFO][find_string()] File: r/q/zeus_page_error.html
+[INTERNAL_LOG][2018-06-12 05:54:37,104][INFO][find_string()] No iframe in r/q/zeus_page_error.html
+[INTERNAL_LOG][2018-06-12 05:54:37,104][INFO][find_string()] File: r/r/zeus_page_error.html
+[INTERNAL_LOG][2018-06-12 05:54:37,105][INFO][find_string()] No iframe in r/r/zeus_page_error.html
+[INTERNAL_LOG][2018-06-12 05:54:37,105][INFO][find_string()] File: r/s/zeus_page_error.html
+[INTERNAL_LOG][2018-06-12 05:54:37,106][INFO][find_string()] No iframe in r/s/zeus_page_error.html
+[INTERNAL_LOG][2018-06-12 05:54:37,106][INFO][find_string()] File: r/t/zeus_page_error.html
+[INTERNAL_LOG][2018-06-12 05:54:37,107][INFO][find_string()] No iframe in r/t/zeus_page_error.html
+[INTERNAL_LOG][2018-06-12 05:54:37,107][INFO][find_string()] File: r/u/zeus_page_error.html
+[INTERNAL_LOG][2018-06-12 05:54:37,108][INFO][find_string()] No iframe in r/u/zeus_page_error.html
+[INTERNAL_LOG][2018-06-12 05:54:37,108][INFO][find_string()] File: r/v/zeus_page_error.html
+[INTERNAL_LOG][2018-06-12 05:54:37,108][INFO][find_string()] No iframe in r/v/zeus_page_error.html
+[INTERNAL_LOG][2018-06-12 05:54:37,109][INFO][find_string()] File: r/w/zeus_page_error.html
+[INTERNAL_LOG][2018-06-12 05:54:37,109][INFO][find_string()] No iframe in r/w/zeus_page_error.html
+[INTERNAL_LOG][2018-06-12 05:54:37,109][INFO][find_string()] File: r/x/zeus_page_error.html
+[INTERNAL_LOG][2018-06-12 05:54:37,334][INFO][find_string()] No iframe in r/x/zeus_page_error.html
+[INTERNAL_LOG][2018-06-12 05:54:37,355][INFO][find_string()] File: r/y/zeus_page_error.html
+[INTERNAL_LOG][2018-06-12 05:54:37,601][INFO][find_string()] No iframe in r/y/zeus_page_error.html
+[INTERNAL_LOG][2018-06-12 05:54:37,622][INFO][find_string()] File: r/z/zeus_page_error.html
+[INTERNAL_LOG][2018-06-12 05:54:38,927][INFO][find_string()] No iframe in r/z/zeus_page_error.html
+[INTERNAL_LOG][2018-06-12 05:54:38,943][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 05:54:38,968][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 05:54:38,984][INFO][find_string()] File: assets/webkit/data/flyflow_webkit_js.js
+[INTERNAL_LOG][2018-06-12 05:54:39,025][INFO][find_string()] No iframe in assets/webkit/data/flyflow_webkit_js.js
+[INTERNAL_LOG][2018-06-12 05:54:39,046][INFO][find_string()] File: assets/webkit/data/js_speed.min.js
+[INTERNAL_LOG][2018-06-12 05:54:39,184][INFO][find_string()] No iframe in assets/webkit/data/js_speed.min.js
+[INTERNAL_LOG][2018-06-12 05:54:39,205][INFO][find_string()] File: assets/webkit/data/sailor_webjsclient.js
+[INTERNAL_LOG][2018-06-12 05:54:39,272][INFO][find_string()] No iframe in assets/webkit/data/sailor_webjsclient.js
+[INTERNAL_LOG][2018-06-12 05:54:39,354][INFO][find_string()] File: r/o/a.js
+[INTERNAL_LOG][2018-06-12 05:54:39,396][INFO][find_string()] No iframe in r/o/a.js
+[INTERNAL_LOG][2018-06-12 05:54:39,416][INFO][find_string()] File: r/o/b.js
+[INTERNAL_LOG][2018-06-12 05:54:39,468][INFO][find_string()] No iframe in r/o/b.js
+[INTERNAL_LOG][2018-06-12 05:54:39,483][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 05:54:57,005][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 05:54:57,006][INFO][find_url_in_apk()] https://api.appsflyer.com/install_data/v3/
+https://track.appsflyer.com/api/v2.3/androidevent?buildnumber=1.15&app_id=
+https://track.appsflyer.com/api/v2.3/uninsall?buildnumber=1.15
+http://www.baidu.com
+http://www.baidu.com
+http://crab.baidu.com/batsdk/api_int/add_crash
+http://db-inf-platform6.db01.baidu.com:8787/batsdk/api_int/add_crash
+http://crab.baidu.com/batsdk/api_int/newsync2
+http://db-inf-platform6.db01.baidu.com:8787/batsdk/api_int/newsync2
+https://play.google.com/store/apps/details?id=com.dianxinos.optimizer.duplay&referrer=utm_source%3Ddubrowser%26utm_medium%3Dfloat%26pid%3Ddubrowserfloat
+https://play.google.com/store/apps/details?id=com.dianxinos.dxbs&referrer=utm_source%3Ddubrowser%26utm_medium%3Dfloat%26pid%3Ddubrowserfloat
+http://www.cliponyu.com/h5/?tn=9900007
+http://s.mobile-global.baidu.com/mbrowser/official/home/id
+http://s.mobile-global.baidu.com/mbrowser/official/home/id
+http://s.mobile-global.baidu.com/mbrowser/official/home/id
+http://s.mobile-global.baidu.com/mbrowser/mbrowser-video/mbrowser_video.html?yid=
+http://s.mobile-global.baidu.com/mbrowser/mbrowser-video/mbrowser_video.html?yid=
+http://s.mobile-global.baidu.com/mbrowser/mbrowser-video/mbrowser_video.html?yid=
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+http://lotto.mthai.com/
+http://www.glo.or.th/
+http://s.mobile-global.baidu.com/mbrowser/guanxing/website/imgs/v5/%s.png
+http://s.mobile-global.baidu.com/mbrowser/guanxing/website/imgs/v5/%s.png
+http://www.youtube.com/get_video_info?video_id=
+http://mobile-global.baidu.com/mbrowser
+http://mobile-global.baidu.com/mbrowser
+http://mobile-global.baidu.com/mbrowser
+http://mobile-global.baidu.com/mbrowser
+http://10.252.24.54:8100/mbrowser
+http://10.252.24.54:8100/mbrowser
+http://10.252.24.54:8100/mbrowser
+http://180.76.3.165/hao123gm/feedback/send_feedback.php
+http://mobile-global.baidu.com/mbrowser/deeplink/getLinkedApps?pack=
+http://market.android.com/search?q=
+https://market.android.com/search?q=
+http://market.android.com/details?id=
+https://market.android.com/details?id=
+http://play.google.com/store/search?q=
+https://play.google.com/store/search?q=
+http://play.google.com/store/apps/details?id=
+http://gate.baidu.com/tc?w2x=1&src=
+http://m.baidu.com
+http://m.baidu.com
+http://www.facebook.com
+http://m.baidu.com/news?pu=sz@1320_480#_
+http://r2.mo.baidu.com/flash_player.php
+http://mobile-global.baidu.com/mbrowser/skin/homepage
+http://mobile-global.baidu.com/mbrowser/skin/homepage
+http://mobile-global.baidu.com/mbrowser/skin/homepage
+http://mobile-global.baidu.com/mbrowser/skin/homepage
+http://mobile-global.baidu.com/mbrowser/skin/homepage
+http://mobile-global.baidu.com/mbrowser/skin/homepage
+http://mobile-global.baidu.com/mbrowser/skin/homepage
+http://mobile-global.baidu.com/mbrowser/skin/homepage
+http://m.facebook.com
+http://id.bmbs.baidu.com/
+http://id.bmbs.baidu.com/
+http://mobile-global.baidu.com/mbrowser?function=get_config&ver=1&dver=%d&cuid=%s&lang=%s&ch=%s&ov=%s&sv=%s&sw=%s&sh=%s&tm=%s
+http://ch.bmbs.baidu.com/
+http://m.baidu.com/s?word=
+http://m.weibo.cn/showpic
+http://m.weibo.cn/searchs
+http://android.wo.com.cn
+http://mobile-global.baidu.com/mbrowser/info.stat
+http://mobile-global.baidu.com/mbrowser/info.stat
+http://goo.gl
+http://mobile-global.baidu.com/goto?targetUrl=
+http://mobile-global.baidu.com/goto?targetUrl=
+http://mobile-global.baidu.com/goto?targetUrl=
+http://shop.baidubrowser.co.id/
+http://m.mobomarket.co.id/?chvc=bdbrowser&fr=card_more&fun=mmOpenMore&p_1=card
+http://qahelper
+http://www.facebook.com/baidumobile
+https://www.facebook.com/BaiduBrowserID/
+https://www.facebook.com/BaiduBrowserThailand
+http://s.mobile-global.baidu.com/mbrowser/official/home
+http://br.bmbs.baidu.com/
+http://br.bmbs.baidu.com/
+http://m.facebook.com/
+http://m.youtube.com/
+http://www.google.co.id/
+http://m.olx.co.id/
+http://m.detik.com/
+http://m.liputan6.com/
+http://m.berniaga.com/
+http://waptrick.com/
+http://www.lazada.co.id/
+http://m.4shared.com/
+http://m.kaskus.co.id/
+http://m.merdeka.com/
+http://m.tokopedia.com/
+http://m.okezone.com/
+http://www.zalora.co.id/
+http://www.google.co.th/
+http://m.khaosod.co.th/
+http://m.sanook.com/
+http://m.kapook.com/
+http://m.xhamster.com/
+http://m.siamsport.co.th/
+http://www.google.com.br/
+http://globoesporte.globo.com/
+http://www.globo.com/
+http://br.ask.com/
+http://m.uol.com.br/
+http://megafilmeshd.net/
+http://br.answers.yahoo.com/
+http://www.xvideos.com/
+http://10.46.143.51:8181/vis-api.fcgi
+http://mobile-global.baidu.com/mbrowser/spdy.pac.txt?
+http://mobile-global.baidu.com/mbrowser/spdy.pac.txt?
+http://mobile-global.baidu.com/mbrowser/timg.pac.txt?
+http://mobile-global.baidu.com/mbrowser/timg.pac.txt?
+http://www
+http://wap
+http://3g
+http://m
+http://www.
+http://wap.
+http://3g.
+http://m.
+http://m.mobomarket.co.id/%s/index.html#detail_section?docid=%s&gaPage=direct-detail&fr=baidu_browser_search
+http://google.com/complete/search?output=toolbar&q=%s&oe=utf8
+http://baidubrowser.co.id
+http://baidubrowser.co.id
+http://baidubrowser.co.id
+http://baidubrowser.co.id
+http://baidubrowser.co.id
+http://m.en.hao123.com/
+https://www.googleapis.com/urlshortener/v1/url?key=AIzaSyAd8v3opdT0qrtk15WoqzQULlWyy9_6rIg
+http://10.252.24.54:8080/heartbeat
+http://mobile-global.baidu.com/deeplink/stat/act.do
+https://mail.google.com
+http://mlogin.yahoo.com
+http://m.espn.go.com
+https://mobile-global.baidu.com/mbrowser
+http://hkg02-sys-web51.hkg02.baidu.com:8090/mbrowser
+http://203.166.206.112/mbrowser
+http://s.mobile-global.baidu.com/mbrowser/mbrowser-beback/usersaving.html
+http://mobile-global.baidu.com/mbrowser/stat/pv.do
+http://mobile-global.baidu.com/mbrowser/mvideo/getCyberPlayerCore
+https://mobile-global.baidu.com/mbrowser/stat/act.do
+http://mobile-global.baidu.com/mbrowser/test/get_testing_url
+http://mobile-global.baidu.com/mbrowser/feedback/rate_suggestion
+http://mobile-global.baidu.com/mbrowser/feedback/rate_suggestion?p=
+http://mobile-global.baidu.com/mbrowser/feedback/edit_suggestion
+http://mobile-global.baidu.com/mbrowser/feedback/edit_suggestion?api=2&p=
+http://s.mobile-global.baidu.com/mbrowser/web_resources/common/images/stat.png
+http://cybertran.baidu.com/video?ak=
+http://127.0.0.1:
+http://127.0.0.1:
+http://cybertran.baidu.com/mediasdk/video?method=sdkupdate
+http://cybertran.baidu.com
+http://cybertran.baidu.com/mediasdk/video?method=androidlog
+http://maps.googleapis.com/maps/api/geocode/json?latlng=
+http://wap.baidu.com
+http://10.0.0.172
+https://m.baidu.com
+http://urlsafe.baidu.com
+http://api.mobula.sdk.duapps.com/adunion/slot/getDlAd?
+http://api.mobula.sdk.duapps.com/adunion/rtb/getInmobiAd?
+http://api.mobula.sdk.duapps.com/adunion/rtb/fetchAd?
+http://market.
+https://market.
+https://play.
+http://play.
+http://api.mobula.sdk.duapps.com/adunion/slot/getSrcPrio?
+http://rts.mobula.sdk.duapps.com/orts/rp?
+http://rts.mobula.sdk.duapps.com/orts/rpb?
+https://graph.facebook.com/network_ads_common/
+https://graph.%s.facebook.com/network_ads_common/
+https://www.facebook.com/
+https://www.%s.facebook.com
+https://graph.%s
+https://graph-video.%s
+https://facebook.com
+http://plus.google.com/
+
+[INTERNAL_LOG][2018-06-12 05:54:57,006][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 05:54:57,016][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 05:54:57,016][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 05:54:57,016][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 05:54:57,016][INFO][analyze_start()] End time:[Tue Jun 12 05:54:57 2018]

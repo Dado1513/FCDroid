@@ -1,0 +1,124 @@
+[INTERNAL_LOG][2018-06-08 03:56:45,365][INFO][analyze_start()] Init Time [Fri Jun  8 03:56:45 2018]
+[INTERNAL_LOG][2018-06-08 03:56:45,518][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-08 03:56:45,519][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-08 03:56:45,519][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-08 03:56:45,519][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-08 03:56:45,519][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-08 03:56:45,519][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-08 03:56:45,519][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-08 03:56:45,519][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-08 03:56:45,519][INFO][is_hybird()] android.permission.RECEIVE_BOOT_COMPLETED
+[INTERNAL_LOG][2018-06-08 03:56:45,519][INFO][is_hybird()] android.permission.READ_SMS
+[INTERNAL_LOG][2018-06-08 03:56:45,519][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-08 03:56:45,519][INFO][is_hybird()] com.touchtype.swiftkey.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-08 03:56:45,520][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-08 03:56:45,520][INFO][is_hybird()] com.swiftkey.languageprovider.READLANG
+[INTERNAL_LOG][2018-06-08 03:56:45,520][INFO][is_hybird()] com.swiftkey.swiftkeyconfigurator.READCONFIG
+[INTERNAL_LOG][2018-06-08 03:56:45,520][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-08 03:56:45,520][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-08 03:56:45,520][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-08 03:56:45,520][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-08 03:56:45,520][INFO][find_string()] File: assets/html/error_template.html
+[INTERNAL_LOG][2018-06-08 03:56:45,521][INFO][find_string()] No iframe in assets/html/error_template.html
+[INTERNAL_LOG][2018-06-08 03:56:45,521][INFO][find_string()] File: assets/html/loading.html
+[INTERNAL_LOG][2018-06-08 03:56:45,521][INFO][find_string()] No iframe in assets/html/loading.html
+[INTERNAL_LOG][2018-06-08 03:56:45,521][INFO][find_string()] File: assets/oss_licences.html
+[INTERNAL_LOG][2018-06-08 03:56:45,599][INFO][find_string()] No iframe in assets/oss_licences.html
+[INTERNAL_LOG][2018-06-08 03:56:45,599][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-08 03:57:23,191][INFO][find_url_in_apk()] [START URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-08 03:57:23,191][INFO][find_url_in_apk()] https://www.facebook.com/dialog/oauth?client_id=
+
+[INTERNAL_LOG][2018-06-08 03:57:23,193][INFO][find_url_in_apk()] [END URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-08 03:57:23,442][INFO][find_string()] [START REMOTE FILE ANALYZE]
+[INTERNAL_LOG][2018-06-08 03:57:23,442][INFO][find_string()] Remote File in: temp_html_code/html_downloaded_SwiftKey Keyboard by SwiftKey - com/oauth?client_id=
+[INTERNAL_LOG][2018-06-08 03:57:23,442][INFO][find_string()] URL: https://www.facebook.com/dialog/oauth?client_id=
+[INTERNAL_LOG][2018-06-08 03:57:23,466][INFO][find_string()] No iframe in temp_html_code/html_downloaded_SwiftKey Keyboard by SwiftKey - com/oauth?client_id=
+[INTERNAL_LOG][2018-06-08 03:57:23,466][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-08 03:57:23,467][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-08 03:57:23,467][INFO][find_url_in_apk()] http://schemas.android.com/apk/res/android
+https://app.adjust.com
+https://app.adjust.com
+http://www.android.com/
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+https://www.googleapis.com/auth/games
+http://www.google-analytics.com
+https://ssl.google-analytics.com
+https://plus.google.com/
+https://www.googletagmanager.com
+http://hostname/?
+https://oneclient.sfx.ms/mobile/ts_configuration.jwt
+https://www.googleapis.com/auth/profile.agerange.read
+https://www.googleapis.com/auth/profile.agerange.read
+https://www.googleapis.com/auth/profile.agerange.read
+https://www.googleapis.com/auth/gmail.readonly
+https://www.googleapis.com/auth/gmail.readonly
+https://www.googleapis.com/oauth2/v4/token
+https://login.live.com/oauth20_authorize.srf
+https://login.live.com/oauth20_token.srf
+https://login.live.com/oauth20_desktop.srf
+https://www.bing.com/images/search?q=cats
+https://font.com/
+https://font.com/
+https://skslm.swiftkey.net
+https://userstats.iris.touchtype-fluency.com
+https://swiftkey-android.iris.touchtype-fluency.com
+https://telemetry.api.swiftkey.com
+https://personalization.touchtype-fluency.com
+https://swiftkey-sync-production.touchtype-fluency.com
+https://users-auth.touchtype-fluency.com
+https://tokens-auth.touchtype-fluency.com
+https://tigger-citadel.touchtype-fluency.com
+https://winnie-citadel.touchtype-fluency.com
+https://eeyore-citadel.touchtype-fluency.com
+https://owl-citadel.touchtype-fluency.com
+https://support.swiftkey.com
+https://swiftkey.com
+https://www.swiftkey.com
+https://vip.swiftkey.com/
+https://beta.swiftkey.com
+https://profiler-cards.api.swiftkey.com/
+https://cloudpredictions.services.swiftkey.com
+https://bibo.api.swiftkey.com/
+https://telemetry.staging.swiftkey.com/
+https://personalization-staging.touchtype-fluency.com
+https://test1-sync-vpcstaging.touchtype-fluency.com
+https://test-auth-a.touchtype-fluency.com
+https://test-auth-b.touchtype-fluency.com
+https://citadel-tigger-staging.touchtype-fluency.com
+https://citadel-winnie-staging.touchtype-fluency.com
+https://citadel-eeyore-staging.touchtype-fluency.com
+https://test-owl.touchtype-fluency.com
+https://newswiftkeystaging.swiftkey.com/
+https://profiler-cards.staging.swiftkey.com/
+https://cloudpredictions.staging.swiftkey.com
+https://mds.staging.swiftkey.com/
+https://skslm.swiftkey.net/swiftkey/sksdk-3.0/sk-7.0.1/market/exp-42-korean/languagePacksSSL.json
+https://skslm.swiftkey.net/swiftkey/sksdk-3.0/sk-7.0.2/market/exp-45-vietnamese/languagePacksSSL.json
+https://skslm.swiftkey.net/swiftkey/sksdk-3.0/sk-7.0.4/market/RNN_V3_3/A/languagePacksSSL.json
+https://skslm.swiftkey.net/swiftkey/sksdk-3.0/sk-7.0.4/market/exp-54-thai/pre-retokenize/languagePacksSSL.json
+https://skslm.swiftkey.net/swiftkey/sksdk-3.0/sk-7.0.4/market/exp-54-thai/languagePacksSSL.json
+https://www.googleapis.com/auth/plus.me
+https://graph.facebook.com/me?fields=name&
+https://www.googleapis.com/plus/v1/people/me?
+https://api.twitter.com/oauth/request_token
+https://api.twitter.com/oauth/access_token
+https://api.twitter.com/oauth/authorize
+https://www.swiftkey.com/login_success.html
+https://www.facebook.com/dialog/oauth?client_id=
+https://sdk.hockeyapp.net/
+https://sdk.hockeyapp.net/
+https://sdk.hockeyapp.net/
+https://sdk.hockeyapp.net/
+https://gate.hockeyapp.net/v2/track
+
+[INTERNAL_LOG][2018-06-08 03:57:23,467][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-08 03:57:23,474][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-08 03:57:23,474][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-08 03:57:23,474][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-08 03:57:23,475][INFO][analyze_start()] End time:[Fri Jun  8 03:57:23 2018]

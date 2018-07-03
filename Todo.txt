@@ -1,0 +1,2 @@
+- smali parser per renderlo più veloce
+- search ifrae in javascript code

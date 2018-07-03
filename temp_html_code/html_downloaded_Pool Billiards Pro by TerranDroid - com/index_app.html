@@ -1,0 +1,246 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Expires" content="0">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Cache-Control" content="no-store,no-cache"> 
+<meta name="Handheldfriendly" content="true">
+<meta name="viewport" content="width=100%; initial-scale=1.0; user-scalable=yes">
+<meta name='robots' content='all' />
+<meta name="keywords" contect="doodle, mobile, doodlemobile, game, games">
+<meta name="description" content="Make People's Mobile Life More Connected Through Games." />
+
+<title>More Games</title>
+
+<style>
+	*{ margin:0; padding:0; border:none; list-style:none; text-indent:0;}
+	
+	body{ background:#0B0D11; font-family:Arial, Helvetica, sans-serif;}
+	
+	a, a:hover{ text-decoration:none;}
+
+
+	.main{ 
+		width:100%; 
+		height:auto; 
+		overflow:hidden; 
+		display: block;
+	}
+	
+
+
+	.item_a{ 
+		width:100%; 
+		height:70px; 
+		overflow:hidden; 
+		border-bottom:#434343 1px solid; 
+		border-top:#cbcfd2 1px solid; 
+		background:#d4d5d7; 
+		display: block;
+	}
+	
+	.item_b{ 
+		width:100%; 
+		height:70px; 
+		overflow:hidden; 
+		border-bottom:#434343 1px solid; 
+		border-top:#cbcfd2 1px solid; 
+		background:#b0b3b8;
+		display: block;
+	}
+
+	li.ico{ 
+		width:64px; 
+		height:64px; 
+		padding-left:2px; 
+		float:left;
+	}
+
+	.ico_game{ 
+		left:4px;top:3px; 
+		z-index:1; 
+		position:relative;
+	}
+	
+	.game{ 
+		float:left; 
+		width:175px; 
+		text-align: left; 
+		padding-left:20px; 
+		height:auto; 
+		overflow:hidden;
+	}
+	
+	h3{ 
+		font-size:13px; 
+		line-height:17px; 
+		color:#000; 
+		word-wrap:break-word; 
+		word-break:break-all; 
+		margin-top:10px;
+	}
+	
+	h4{ 
+		font-size:11px; 
+		line-height:15px; 
+		font-weight:normal; 
+		color:#434343; 
+		margin-top:5px;
+	}
+	
+	.price{ 
+		float:right; 
+		width:30px; 
+		text-align: right; 
+		padding:14px 10px 0px 10px; 
+		font-size:11px; 
+		font-weight: bold; 
+		color:#000;
+	}
+
+</style>
+
+<script type="text/javascript">
+	var _gaq = _gaq || [];
+ 	_gaq.push(['_setAccount', 'UA-34243461-1']);
+  	_gaq.push(['_trackPageview']);
+
+  	(function() {
+    	var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  	})();
+
+</script>
+
+
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+<script type="text/javascript" language="javascript">
+
+	//alert("hello");
+	$(document).ready(function() {
+		var pkgsArray = new Array();
+		
+		if(doodle && doodle.getInstalledPackages){
+			var pkgs = doodle.getInstalledPackages();
+			pkgsArray = pkgs.split("=");
+//			alert(pkgs);
+			
+			
+			// trace app pkg
+			var removePkgsCount = 0;
+			var popPkgsCount = 0;
+			$("#mainbox>a").each(function(){
+				var $this = $(this);
+
+	
+				var action = $this.attr("onClick").split("'")[5];
+				var onclick = $this.attr("onClick");
+				var onclick2 = onclick.replace(action, pkgsArray[1]);
+			
+				$this.attr("onClick", onclick2);
+					
+				
+				// filter installed games
+				popPkgsCount += 1;
+				var pkg = $this.attr("href").substring(20); // market://details?id=...
+				for(var i=1; i<pkgsArray.length; i++){
+					if(pkg == pkgsArray[i]) {
+						$this.remove();			// $this.parent('div').remove();
+						removePkgsCount += 1;
+						break;
+					}
+				}
+				
+			});
+
+
+//alert("remove : " + removePkgsCount + "; pop : " + popPkgsCount);
+			if(removePkgsCount >= popPkgsCount && doodle && doodle.backActivity){
+				doodle.backActivity();
+			} else {
+			
+				// adjust filter
+				$("#mainbox>a>div:even").addClass("item_a").removeClass("item_b");
+				$("#mainbox>a>div:odd").addClass("item_b").removeClass("item_a");
+				$("li.game>h3").each(function(index) {
+					var s = $(this).text();
+					$(this).text((index + 1) + s.substring(s.indexOf(".")));
+				});
+			}
+			
+		}
+	});
+</script>
+
+</head>
+
+
+
+<body">
+<center>
+
+<div class="main" id="mainbox">
+
+	<a href="market://details?id=com.doodleapps.taskkiller" onClick="_gaq.push(['_trackEvent', 'linkgame', 'com.doodleapps.taskkiller', 'Task Killer FREE']);">
+	<div class="item_a">
+		<ul>
+			<li class="ico"><img src="http://d3jhh8va3kyqsf.cloudfront.net/moregames_files/icon_taskkillerfree.png" width="64" height="64" border="0" class="ico_game"></li>
+			<li class="game"><h3>1. Task Killer FREE</h3><h4>Tools  (OS 2.1 and up)</h4></li>
+			<li class="price">FREE</li>
+		</ul>
+	</div>
+	</a>
+
+	<a href="market://details?id=com.doodleapp.zy.easynote" onClick="_gaq.push(['_trackEvent', 'linkgame', 'com.doodleapp.zy.easynote', 'EasyNote Notepad']);">
+	<div class="item_b">
+		<ul>
+			<li class="ico"><img src="http://d3jhh8va3kyqsf.cloudfront.net/moregames_files/icon_easynote.png" width="64" height="64" border="0" class="ico_game"></li>
+			<li class="game"><h3>2. EasyNote Notepad</h3><h4>Tools  (OS 2.1 and up)</h4></li>
+			<li class="price">FREE</li>
+		</ul>
+	</div>
+	</a>
+
+	<a href="market://details?id=com.ai.weather" onClick="_gaq.push(['_trackEvent', 'linkgame', 'com.ai.weather', 'Weather Elite']);">
+	<div class="item_a">
+		<ul>
+			<li class="ico"><img src="http://d3jhh8va3kyqsf.cloudfront.net/moregames_files/icon_weatherelite.png" width="64" height="64" border="0" class="ico_game"></li>
+			<li class="game"><h3>3. Weather Elite</h3><h4>Weather  (OS 2.1 and up)</h4></li>
+			<li class="price">FREE</li>
+		</ul>
+	</div>
+	</a>
+
+	<a href="market://details?id=com.doodleapp.flashlight" onClick="_gaq.push(['_trackEvent', 'linkgame', 'com.doodleapp.flashlight', 'Super Flashlight']);">
+	<div class="item_b">
+		<ul>
+			<li class="ico"><img src="http://d3jhh8va3kyqsf.cloudfront.net/moregames_files/icon_flashlight.png" width="64" height="64" border="0" class="ico_game"></li>
+			<li class="game"><h3>4. Super Flashlight</h3><h4>Entertainment  (OS 2.1 and up)</h4></li>
+			<li class="price">FREE</li>
+		</ul>
+	</div>
+	</a>
+
+	<a href="market://details?id=com.doodleapp.ringtonebox" onClick="_gaq.push(['_trackEvent', 'linkgame', 'com.doodleapp.ringtonebox', 'Ringtone Maker Pro']);">
+	<div class="item_a">
+		<ul>
+			<li class="ico"><img src="http://d3jhh8va3kyqsf.cloudfront.net/moregames_files/icon_ringtonemakerpro.png" width="64" height="64" border="0" class="ico_game"></li>
+			<li class="game"><h3>5. Ringtone Maker Pro</h3><h4>Music & Audio  (OS 2.1 and up)</h4></li>
+			<li class="price">FREE</li>
+		</ul>
+	</div>
+	</a>
+
+</div>
+
+<!--
+<script type="text/javascript" src="http://js.tongji.linezing.com/2955905/tongji.js"></script>
+-->
+
+</center>
+</body>
+</html>

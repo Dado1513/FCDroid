@@ -1,0 +1,57 @@
+[INTERNAL_LOG][2018-06-12 04:46:36,000][INFO][analyze_start()] Init Time [Tue Jun 12 04:46:35 2018]
+[INTERNAL_LOG][2018-06-12 04:46:36,057][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 04:46:36,058][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 04:46:36,058][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 04:46:36,058][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 04:46:36,058][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-12 04:46:36,058][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 04:46:36,058][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 04:46:36,058][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-12 04:46:36,058][INFO][is_hybird()] com.google.android.c2dm.permission.SEND
+[INTERNAL_LOG][2018-06-12 04:46:36,058][INFO][is_hybird()] com.miniclip.basketballstars.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-12 04:46:36,058][INFO][is_hybird()] android.permission.RECEIVE_BOOT_COMPLETED
+[INTERNAL_LOG][2018-06-12 04:46:36,058][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 04:46:36,058][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 04:46:36,058][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 04:46:36,058][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 04:46:36,058][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 04:46:36,058][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 04:46:51,551][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 04:46:51,552][INFO][find_url_in_apk()] http://schemas.android.com/apk/res/android
+https://app.adjust.com
+https://app.adjust.com
+https://graph.%s
+https://graph-video.%s
+https://facebook.com
+http://play.google.com/store/apps/details?id=com.facebook.orca
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+https://accounts.google.com
+https://www.facebook.com
+https://www.googleapis.com/auth/games_lite
+https://www.googleapis.com/auth/games_lite
+https://www.googleapis.com/auth/games_lite
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games
+https://plus.google.com/
+https://www.googleapis.com/auth/drive.file
+https://www.googleapis.com/auth/drive.appdata
+https://www.googleapis.com/auth/drive
+https://www.googleapis.com/auth/drive.apps
+https://www.googleapis.com/auth/games.firstparty
+https://www.googleapis.com/auth/games.firstparty
+http://www.amazon.com/gp/mas/dl/android?p=
+https://play.google.com/store/apps/details?id=
+https://config.unityads.unity3d.com/webview/
+
+[INTERNAL_LOG][2018-06-12 04:46:51,552][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 04:46:51,560][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 04:46:51,560][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 04:46:51,560][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 04:46:51,560][INFO][analyze_start()] End time:[Tue Jun 12 04:46:51 2018]

@@ -1,0 +1,367 @@
+[INTERNAL_LOG][2018-06-12 07:06:02,052][INFO][analyze_start()] Init Time [Tue Jun 12 07:06:02 2018]
+[INTERNAL_LOG][2018-06-12 07:06:02,150][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 07:06:02,151][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 07:06:02,151][INFO][is_hybird()] android.permission.BATTERY_STATS
+[INTERNAL_LOG][2018-06-12 07:06:02,151][INFO][is_hybird()] android.permission.GET_PACKAGE_SIZE
+[INTERNAL_LOG][2018-06-12 07:06:02,151][INFO][is_hybird()] android.permission.GET_TASKS
+[INTERNAL_LOG][2018-06-12 07:06:02,151][INFO][is_hybird()] android.permission.RESTART_PACKAGES
+[INTERNAL_LOG][2018-06-12 07:06:02,151][INFO][is_hybird()] android.permission.READ_PHONE_STATE
+[INTERNAL_LOG][2018-06-12 07:06:02,152][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 07:06:02,152][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 07:06:02,152][INFO][is_hybird()] android.permission.CHANGE_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 07:06:02,152][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 07:06:02,152][INFO][is_hybird()] android.permission.READ_LOGS
+[INTERNAL_LOG][2018-06-12 07:06:02,152][INFO][is_hybird()] android.permission.CHANGE_WIFI_MULTICAST_STATE
+[INTERNAL_LOG][2018-06-12 07:06:02,152][INFO][is_hybird()] android.permission.CHANGE_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 07:06:02,152][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 07:06:02,152][INFO][is_hybird()] android.permission.KILL_BACKGROUND_PROCESSES
+[INTERNAL_LOG][2018-06-12 07:06:02,152][INFO][is_hybird()] android.permission.MODIFY_AUDIO_SETTINGS
+[INTERNAL_LOG][2018-06-12 07:06:02,152][INFO][is_hybird()] android.permission.CHANGE_CONFIGURATION
+[INTERNAL_LOG][2018-06-12 07:06:02,152][INFO][is_hybird()] com.android.launcher.permission.INSTALL_SHORTCUT
+[INTERNAL_LOG][2018-06-12 07:06:02,152][INFO][is_hybird()] android.permission.DELETE_CACHE_FILES
+[INTERNAL_LOG][2018-06-12 07:06:02,152][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 07:06:02,152][INFO][is_hybird()] android.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 07:06:02,152][INFO][is_hybird()] android.permission.BLUETOOTH
+[INTERNAL_LOG][2018-06-12 07:06:02,152][INFO][is_hybird()] android.permission.BLUETOOTH_ADMIN
+[INTERNAL_LOG][2018-06-12 07:06:02,152][INFO][is_hybird()] android.permission.WRITE_APN_SETTINGS
+[INTERNAL_LOG][2018-06-12 07:06:02,152][INFO][is_hybird()] android.permission.READ_SYNC_STATS
+[INTERNAL_LOG][2018-06-12 07:06:02,152][INFO][is_hybird()] android.permission.READ_SYNC_SETTINGS
+[INTERNAL_LOG][2018-06-12 07:06:02,152][INFO][is_hybird()] android.permission.WRITE_SYNC_SETTINGS
+[INTERNAL_LOG][2018-06-12 07:06:02,152][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 07:06:02,152][INFO][is_hybird()] android.permission.RECEIVE_BOOT_COMPLETED
+[INTERNAL_LOG][2018-06-12 07:06:02,152][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-12 07:06:02,152][INFO][is_hybird()] android.permission.READ_SECURE_SETTINGS
+[INTERNAL_LOG][2018-06-12 07:06:02,152][INFO][is_hybird()] android.permission.MODIFY_PHONE_STATE
+[INTERNAL_LOG][2018-06-12 07:06:02,153][INFO][is_hybird()] android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+[INTERNAL_LOG][2018-06-12 07:06:02,153][INFO][is_hybird()] com.android.launcher.permission.UNINSTALL_SHORTCUT
+[INTERNAL_LOG][2018-06-12 07:06:02,153][INFO][is_hybird()] android.permission.CLEAR_APP_CACHE
+[INTERNAL_LOG][2018-06-12 07:06:02,153][INFO][is_hybird()] android.permission.BROADCAST_STICKY
+[INTERNAL_LOG][2018-06-12 07:06:02,153][INFO][is_hybird()] com.dianxinos.optimizer.duplay.permission.UPDATE
+[INTERNAL_LOG][2018-06-12 07:06:02,153][INFO][is_hybird()] android.permission.SYSTEM_ALERT_WINDOW
+[INTERNAL_LOG][2018-06-12 07:06:02,153][INFO][is_hybird()] android.permission.CAMERA
+[INTERNAL_LOG][2018-06-12 07:06:02,153][INFO][is_hybird()] android.permission.READ_SMS
+[INTERNAL_LOG][2018-06-12 07:06:02,153][INFO][is_hybird()] android.permission.RECEIVE_SMS
+[INTERNAL_LOG][2018-06-12 07:06:02,153][INFO][is_hybird()] android.permission.WRITE_SMS
+[INTERNAL_LOG][2018-06-12 07:06:02,153][INFO][is_hybird()] android.permission.PROCESS_OUTGOING_CALLS
+[INTERNAL_LOG][2018-06-12 07:06:02,153][INFO][is_hybird()] android.permission.WRITE_CONTACTS
+[INTERNAL_LOG][2018-06-12 07:06:02,153][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 07:06:02,153][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 07:06:02,153][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 07:06:02,153][INFO][find_string()] File: assets/help_br.html
+[INTERNAL_LOG][2018-06-12 07:06:02,213][INFO][find_string()] No iframe in assets/help_br.html
+[INTERNAL_LOG][2018-06-12 07:06:02,213][INFO][find_string()] File: assets/help_en.html
+[INTERNAL_LOG][2018-06-12 07:06:02,217][INFO][find_string()] No iframe in assets/help_en.html
+[INTERNAL_LOG][2018-06-12 07:06:02,217][INFO][find_string()] File: assets/template.html
+[INTERNAL_LOG][2018-06-12 07:06:02,218][INFO][find_string()] No iframe in assets/template.html
+[INTERNAL_LOG][2018-06-12 07:06:02,218][INFO][find_string()] File: assets/user_experience_program_en.html
+[INTERNAL_LOG][2018-06-12 07:06:02,219][INFO][find_string()] No iframe in assets/user_experience_program_en.html
+[INTERNAL_LOG][2018-06-12 07:06:02,220][INFO][find_string()] File: assets/user_experience_program_zh.html
+[INTERNAL_LOG][2018-06-12 07:06:02,221][INFO][find_string()] No iframe in assets/user_experience_program_zh.html
+[INTERNAL_LOG][2018-06-12 07:06:02,221][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 07:06:02,221][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 07:06:02,221][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 07:06:44,048][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 07:06:44,049][INFO][find_url_in_apk()] http://u.ds.duapps.com/api/apps
+http://u.ds.duapps.com/api/apps
+http://u.sd.duapps.com/api/apps
+http://sandbox.duapps.com:8124/orts/rp?
+http://sandbox.duapps.com:8124/orts/rp?
+http://sandbox.duapps.com:8124/orts/rp?
+http://ortshk.tapas.net/orts/rp?
+http://common.duapps.com/appLock/getConf
+http://common.duapps.com/appLock/getConf
+http://common.duapps.com/appLock/getConf
+http://common.duapps.com/appLock/getConf
+http://common.duapps.com/appLock/getConf
+http://common.duapps.com/appLock/getConf
+http://common.duapps.com/appLock/getConf
+http://common.duapps.com/appLock/getConf
+http://common.duapps.com/appLock/getConf
+http://common.duapps.com/swipe/report
+http://common.duapps.com/swipe/report
+http://sandbox.duapps.com:8124/recommend/get
+http://sandbox.duapps.com:8124/recommend/get
+http://nrc.ds.duapps.com/get
+http://nrc.sd.duapps.com/get
+http://nrc.tapas.net/get
+http://rec.in.tira.cn:8000/recommend/get
+http://market.android.com/details?id=com.dianxinos.optimizer.duplay
+http://market.android.com/details?id=com.dianxinos.optimizer.duplay
+http://api.yourxsdk.com/Mocks/getAdmobClickStage?
+http://isgame.ds.duapps.com/overseaaip/appinfo/isgame
+http://isgame.ds.duapps.com/overseaaip/appinfo/isgame
+https://play.google.com/store/apps/details?id=com.dianxinos.optimizer.duplay&referrer=utm_source%3Dcom.dianxinos.optimizer.duplay_share%26utm_medium%3Dmessagebox%26pid%3Dcom.dianxinos.optimizer.duplay_share_messagebox
+https://play.google.com/store/apps/details?id=com.dianxinos.optimizer.duplay&referrer=utm_source%3Dcom.dianxinos.optimizer.duplay_share%26utm_medium%3Dmessagebox%26pid%3Dcom.dianxinos.optimizer.duplay_share_messagebox
+https://play.google.com/store/apps/details?id=com.dianxinos.optimizer.duplay&referrer=utm_source%3Dcom.dianxinos.optimizer.duplay_share%26utm_medium%3Dresult%26pid%3Dcom.dianxinos.optimizer.duplay_share_result
+https://play.google.com/store/apps/details?id=com.dianxinos.optimizer.duplay&referrer=utm_source%3Dcom.dianxinos.optimizer.duplay_share%26utm_medium%3Dresult%26pid%3Dcom.dianxinos.optimizer.duplay_share_result
+http://gc.ds.duapps.com/gc/report
+http://sandbox.duapps.com:8124/gcfront/report
+http://gc.ds.duapps.com/gc/getUnknownPath
+http://sandbox.duapps.com:8124/gcfront/getUnknownPath
+http://gc.ds.duapps.com/gc/getMessage
+http://sandbox.duapps.com:8124/gcfront/getMessage
+http://cp01-sjws-dx076.cp01.baidu.com:8888/appLock/getConf
+http://cp01-sjws-dx076.cp01.baidu.com:8888/appLock/getConf
+http://cp01-sjws-dx076.cp01.baidu.com:8888/appLock/getConf
+http://cp01-sjws-dx076.cp01.baidu.com:8888/appLock/getConf
+http://cp01-sjws-dx076.cp01.baidu.com:8888/appLock/getConf
+http://cp01-sjws-dx076.cp01.baidu.com:8888/appLock/getConf
+http://api.mobula.sdk.duapps.com/adunion/rtb/getHotWord?type=myself
+http://api.mobula.sdk.duapps.com/adunion/rtb/getHotWord?type=myself
+http://sandbox.duapps.com:8124/adunion/rtb/getHotWord?type=myself
+https://search.yahoo.com
+http://redirector.whosthat.mobi
+http://redirector.whosthat.mobi/static/download/SDKPolicy.html
+http://whosthat.mobi
+https://analytics.mopub.com/i/jot/exchange_client_event
+https://analytics.mopub.com/i/jot/exchange_client_event
+https://graph.facebook.com/network_ads_common
+https://graph.facebook.com/network_ads_common
+http://plus.google.com/
+http://www.example.com
+http://www.example.com
+http://www.google.com
+http://www.google-analytics.com
+https://ssl.google-analytics.com
+http://api.yourxsdk.com/Ads/report?cod=2
+http://api.yourxsdk.com/Ads/dailyReport?cod=2
+http://extern.yahoo.com/b
+http://extern.yahoo.com/c
+http://extern.yahoo.com/p
+https://syndication.site.yahoo.net/sapps/api/v1
+http://market.
+http://market.
+http://market.
+https://market.
+https://market.
+https://market.
+https://play.
+https://play.
+https://play.
+http://play.
+http://play.
+http://play.
+https://sdk-services.appsflyer.com/validate-android-signature
+https://api.appsflyer.com/install_data/v3/
+https://t.appsflyer.com/api/v
+https://events.appsflyer.com/api/v
+https://register.appsflyer.com/api/v
+https://stats.appsflyer.com/stats
+https://ads.avocarrot.com/requests
+https://s3.amazonaws.com/avocarrot-assets/media/images/ads/ratings/##.png
+https://sdklogs.avocarrot.com
+http://cq01-tdw-bfe02.cq01.baidu.com:8123/api/add_crab
+http://cq01-tdw-bfe02.cq01.baidu.com:8123/api/add_crab
+https://crab.baidu.com/api_int/add_crab
+https://crab.baidu.com/api_anr/add_crab
+https://crab.baidu.com/api/newsync2
+http://cq01-tdw-bfe02.cq01.baidu.com:8090/batsdk/api/newsync2
+https://crab.baidu.com/api/add_crab
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+https://msc.baidu.com/
+https://msc.baidu.com/
+https://accounts.google.com/o/oauth2/auth?client_id=
+https://dx.applock.com/reset
+https://play.google.com/store/apps/details?id=com.dianxinos.optimizer.duplay&referrer=utm_source%3Dcom.dianxinos.optimizer.duplay_share%26utm_medium%3Dabout%26pid%3Dcom.dianxinos.optimizer.duplay_share_about
+https://play.google.com/store/apps/details?id=com.dianxinos.optimizer.duplay&referrer=utm_source%3Dcom.dianxinos.optimizer.duplay_share%26utm_medium%3Dabout%26pid%3Dcom.dianxinos.optimizer.duplay_share_about
+https://nrcapi.ssl2.duapps.com/get
+http://market.android.com/details?id=
+https://play.google.com/store/apps/details?id=com.dianxinos.optimizer.duplay&referrer=utm_source%3Dcom.dianxinos.optimizer.duplay_share%26utm_medium%3DPK%26pid%3Dcom.dianxinos.optimizer.duplay_share_PK
+https://play.google.com/store/apps/details?id=com.dianxinos.optimizer.duplay&referrer=utm_source%3Dcom.dianxinos.optimizer.duplay_share%26utm_medium%3DPK%26pid%3Dcom.dianxinos.optimizer.duplay_share_PK
+https://mblapi.ssl2.duapps.com/adunion/slot/getDlAd?
+https://mblapi.ssl2.duapps.com/adunion/slot/getDlAd?
+https://mblapi.ssl2.duapps.com/adunion/slot/getDlAd?
+https://mblapi.ssl2.duapps.com/adunion/slot/getDlAd?
+https://mblapi.ssl2.duapps.com/adunion/slot/getDlAd?
+https://mblapi.ssl2.duapps.com/adunion/slot/getDlAd?
+https://mblapi.ssl2.duapps.com/adunion/slot/getDlAd?
+https://mblapi.ssl2.duapps.com/adunion/slot/getDlAd?
+https://mblapi.ssl2.duapps.com/adunion/slot/getDlAd?
+https://mblapi.ssl2.duapps.com/adunion/rtb/getInmobiAd?
+https://mblapi.ssl2.duapps.com/adunion/rtb/getInmobiAd?
+https://mblapi.ssl2.duapps.com/adunion/rtb/getInmobiAd?
+https://mblapi.ssl2.duapps.com/adunion/rtb/getInmobiAd?
+https://mblapi.ssl2.duapps.com/adunion/rtb/getInmobiAd?
+https://mblapi.ssl2.duapps.com/adunion/rtb/getInmobiAd?
+https://mblapi.ssl2.duapps.com/adunion/rtb/getInmobiAd?
+https://mblapi.ssl2.duapps.com/adunion/rtb/getInmobiAd?
+https://mblapi.ssl2.duapps.com/adunion/slot/getTPC?
+https://mblapi.ssl2.duapps.com/adunion/slot/getTPC?
+https://mblapi.ssl2.duapps.com/adunion/slot/getTPC?
+https://mblapi.ssl2.duapps.com/adunion/slot/getTPC?
+http://sandbox.duapps.com:8124/adunion/slot/coinswall?
+http://sandbox.duapps.com:8124/adunion/slot/coinswall?
+http://sandbox.duapps.com:8124/adunion/slot/coinswall?
+http://sandbox.duapps.com:8124/adunion/slot/coinswall?
+http://sandbox.duapps.com:8124/adunion/slot/coinswall?
+http://sandbox.duapps.com:8124/adunion/slot/coinswall?
+http://sandbox.duapps.com:8124/adunion/slot/coinswall?
+http://sandbox.duapps.com:8124/adunion/slot/coinswall?
+https://mblapi.ssl2.duapps.com/adunion/rtb/fetchAd?
+https://mblapi.ssl2.duapps.com/adunion/rtb/fetchAd?
+https://mblapi.ssl2.duapps.com/adunion/rtb/fetchAd?
+https://mblapi.ssl2.duapps.com/adunion/rtb/fetchAd?
+https://mblapi.ssl2.duapps.com/adunion/rtb/fetchAd?
+https://mblapi.ssl2.duapps.com/adunion/rtb/fetchAd?
+https://mblapi.ssl2.duapps.com/adunion/rtb/fetchAd?
+https://mblapi.ssl2.duapps.com/adunion/rtb/fetchAd?
+https://mblapi.ssl2.duapps.com/adunion/slot/coinswall?
+https://mblapi.ssl2.duapps.com/adunion/slot/coinswall?
+http://sandbox.duapps.com:8124/adunion/slot/getDlAd?
+http://sandbox.duapps.com:8124/adunion/slot/getDlAd?
+http://sandbox.duapps.com:8124/adunion/slot/getDlAd?
+http://sandbox.duapps.com:8124/adunion/slot/getDlAd?
+http://sandbox.duapps.com:8124/adunion/slot/getDlAd?
+http://sandbox.duapps.com:8124/adunion/rtb/getInmobiAd?
+http://sandbox.duapps.com:8124/adunion/rtb/getInmobiAd?
+http://sandbox.duapps.com:8124/adunion/rtb/getInmobiAd?
+http://sandbox.duapps.com:8124/adunion/rtb/getInmobiAd?
+http://sandbox.duapps.com:8124/adunion/slot/getTPC?
+http://sandbox.duapps.com:8124/adunion/slot/getTPC?
+http://sandbox.duapps.com:8124/adunion/slot/getTPC?
+http://sandbox.duapps.com:8124/adunion/slot/getTPC?
+http://sandbox.duapps.com:8124/adunion/rtb/fetchAd?
+http://sandbox.duapps.com:8124/adunion/rtb/fetchAd?
+http://sandbox.duapps.com:8124/adunion/rtb/fetchAd?
+http://sandbox.duapps.com:8124/adunion/rtb/fetchAd?
+http://market.android.com
+http://market.android.com
+https://market.android.com
+https://market.android.com
+https://play.google.com
+https://play.google.com
+https://play.google.com
+http://play.google.com
+http://play.google.com
+http://play.google.com
+https://mblapi.ssl2.duapps.com/adunion/slot/tdmr?
+https://www.mopub.com/optout
+https://www.mopub.com/optout
+https://mblapi.ssl2.duapps.com/adunion/slot/getSrcPrio?
+https://mblapi.ssl2.duapps.com/adunion/slot/getSrcPrio?
+http://sandbox.duapps.com:8124/adunion/slot/getSrcPrio?
+https://play.google.com/store/apps/details
+https://rts.ssl2.duapps.com/orts/rp?
+https://rts.ssl2.duapps.com/orts/rp?
+https://rts.ssl2.duapps.com/orts/rp?
+https://rts.ssl2.duapps.com/orts/rp?
+https://rts.ssl2.duapps.com/orts/rpb?
+https://rts.ssl2.duapps.com/orts/rpb?
+https://rts.ssl2.duapps.com/orts/rpb?
+https://rts.ssl2.duapps.com/orts/rpb?
+http://sandbox.duapps.com:8124/orts/rpb?
+http://ssmsp-m.ask.com/query?hi=0&num=6&q=
+https://twitter.com/%s/status/%s
+https://twitter.com/%s/status/%s
+http://rtb.duapps.com:80/
+http://info.yahoo.com/privacy/us/yahoo/relevantads.html
+http://m.facebook.com/ads/ad_choices
+http://m.facebook.com/ads/ad_choices
+https://www.facebook.com/audience_network/server_side_reward
+https://www.%s.facebook.com/audience_network/server_side_reward
+https://graph.%s.facebook.com/network_ads_common
+https://www.facebook.com/adnw_logging/
+https://www.%s.facebook.com/adnw_logging/
+https://www.facebook.com/
+https://www.%s.facebook.com
+http://www.facebook.com
+https://graph.%s
+https://graph-video.%s
+https://facebook.com
+https://facebook.com/device?user_code=%1$s&qr=1
+http://play.google.com/store/apps/details?id=com.facebook.orca
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+https://trc.taboola.com
+https://cdn.taboola.com/mobile-sdk/init/
+http://sandbox.duapps.com:8124/overseaaip/appinfo/isgame
+http://schemas.android.com/apk/res/android
+http://sandbox.duapps.com:8124/adunion/slot/native?
+https://iplua.api.xoxknct.com/orts/ua?
+https://iplua.api.xoxknct.com/orts/ua?
+https://sandbox.ssl2.duapps.com/orts/rp?
+https://sandbox.ssl2.duapps.com/orts/rpb?
+https://sandbox.ssl2.duapps.com/orts/ua?
+http://api.mobula.sdk.duapps.com/adunion/slot/getTPC?
+http://api.mobula.sdk.duapps.com/adunion/slot/getTPC?
+http://api.mobula.sdk.duapps.com/adunion/slot/getTPC?
+http://api.mobula.sdk.duapps.com/adunion/slot/getTPC?
+http://api.mobula.sd.duapps.com/adunion/slot/coinswall?
+http://api.mobula.sd.duapps.com/adunion/slot/coinswall?
+https://dx.applock.com/reset#
+https://dx.applock.com/reset?
+https://www.googleapis.com/oauth2/v1/userinfo
+http://sandbox.sjws.baidu.com:8080/appupgrade/api/apps
+http://pasta.dianxinos.com/feedback
+http://pasta.dianxinos.com/api/tokens
+http://pasta.dianxinos.com/api/data
+http://sandbox.sjws.baidu.com:8080/statistics_feedback
+http://pasta.ds.duapps.com/feedback
+http://pasta.sd.duapps.com/feedback
+http://sandbox.sjws.baidu.com:8080/api/tokens
+http://pasta.ds.duapps.com/api/tokens
+http://pasta.sd.duapps.com/api/tokens
+http://sandbox.sjws.baidu.com:8080/api/data
+http://pasta.ds.duapps.com/api/data
+http://pasta.sd.duapps.com/api/data
+http://sandbox.duapps.com:8124/appLock/report
+https://plus.google.com/communities/108885542079732379568
+https://play.google.com/store/apps/details?id=com.dianxinos.dxbs&referrer=com.dianxinos.optimizer.duplay
+https://play.google.com/store/apps/details?id=com.dianxinos.dxbs&referrer=utm_source%3Dcom.dianxinos.optimizer.duplay%26utm_medium%3Dcharge%26pid%3Dcom.dianxinos.optimizer.duplay_charge
+https://play.google.com/store/apps/details?id=com.dianxinos.dxbs&referrer=utm_source%3Dcom.dianxinos.optimizer.duplay%26utm_medium%3Dhomeicon%26pid%3Dcom.dianxinos.optimizer.duplay_homeicon
+https://play.google.com/store/apps/details?id=com.dianxinos.dxbs&referrer=utm_source%3Dcom.dianxinos.optimizer.duplay%26utm_medium%3Dnotification%26pid%3Dcom.dianxinos.optimizer.duplay_notification
+https://play.google.com/store/apps/details?id=com.dianxinos.dxbs&referrer=utm_source%3Dcom.dianxinos.optimizer.duplay%26utm_medium%3Dpowerconsumption%26pid%3Dcom.dianxinos.optimizer.duplay_powerconsumption
+https://play.google.com/store/apps/details?id=com.duapps.antivirus&referrer=utm_source%3Dcom.dianxinos.optimizer.duplay%26utm_medium%3Dhomeicon%26pid%3Dcom.dianxinos.optimizer.duplay%26bdct%3Da
+https://play.google.com/store/apps/details?id=com.duapps.antivirus&referrer=utm_source%3Dcom.dianxinos.optimizer.duplay%26utm_medium%3Dnotification%26pid%3Dcom.dianxinos.optimizer.duplay%26bdct%3Da
+https://play.google.com/store/apps/details?id=com.duapps.antivirus&referrer=utm_source%3Dcom.dianxinos.optimizer.duplay%26utm_medium%3Dresultantivirus%26pid%3Dcom.dianxinos.optimizer.duplay%26bdct%3Da
+https://play.google.com/store/apps/details?id=com.dianxinos.optimizer.duplay&referrer=utm_source%3Dcom.dianxinos.optimizer.duplay_update%26utm_medium%3Dresult%26pid%3Dcom.dianxinos.optimizer.duplay_update_result
+http://gc.ds.duapps.com/gc/antivirus
+http://sandbox.duapps.com:8124/gcfront/antivirus
+http://url.ds.duapps.com/duplay/share_feature_gp
+http://overseasmisc.jccjd.com/overseathird/speed?
+http://overseasmisc.jccjd.com/overseathird/gettesturl?
+http://overseasmisc.jccjd.com/overseathird/countryspeed?
+http://overseasmisc.jccjd.com/overseathird/getspeedrank?
+http://overseasmisc.jccjd.com/overseathird/getspeedlevel?
+http://gc.ds.duapps.com/gc/updatePath
+http://gc.ds.duapps.com/gc/updateDB
+http://sandbox.duapps.com:8124/gcfront/updatePath
+http://sandbox.duapps.com:8124/gcfront/updateDB
+http://gc.ds.duapps.com/gc/emergency
+http://sandbox.duapps.com:8124/gcfront/emergency
+http://rc.dxsvr.com/get
+http://mk.cdn.jccjd.com/cms/prod/upload/oversea/linespeed/default/speed.file
+http://api-client.mobitech-search.xyz/?p_key=8881&test=test&q=
+https://search.yahoo.com/yhs/mobile/search?hspart=baidu&hsimp=yhsm-boosterappbox&p=
+http://search.abclauncher.com/web?lh=1&seg=bidu&q=
+http://api.mobula.sdk.duapps.com/adunion/slot/fetchConfig
+http://hostname/?
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://csi.gstatic.com/csi
+https://www.google.com/dfp/linkDevice
+https://www.google.com/dfp/inAppPreview
+https://www.google.com/dfp/debugSignals
+https://www.google.com/dfp/sendDebugData
+https://pagead2.googlesyndication.com/pagead/gen_204
+http://api.yourxsdk.com/Ads/bgConfig?token=
+http://api.yourxsdk.com/Ads/getMopubConfig?token=
+http://api.yourxsdk.com/Ads/switchFlow?token=
+https://play.google.com/store/apps/details?id=%s&referrer=%s
+
+[INTERNAL_LOG][2018-06-12 07:06:44,049][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 07:06:44,052][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 07:06:44,052][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 07:06:44,052][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 07:06:44,052][INFO][analyze_start()] End time:[Tue Jun 12 07:06:44 2018]

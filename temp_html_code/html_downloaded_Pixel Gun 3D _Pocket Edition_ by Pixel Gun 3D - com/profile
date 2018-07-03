@@ -1,0 +1,603 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en-us" prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article#">
+<head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    
+    
+
+    
+    
+
+
+    
+
+    <meta name="site-version" content="1.87.2">
+    <meta name="description" content="Change the way you appear to other players in-game by switching your character model and giving it a new skin. Why not put on a swishy cape if you’ve got one?">
+    <meta name="keywords" content="minecraft, buy minecraft, minecraft for pc, minecraft for mac, minecraft for iphone, minecraft for android, minecraft for xbox one, minecraft for ps4, minecraft for computer">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="hgThQICmFxo_cIy4pYYIhmTgg6LT0N5NPqA-aQIf8-0">
+    <meta name="title" content="Profile">
+
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Minecraft.net">
+    <meta property="og:url" content="https://minecraft.net/en-us/profile/">
+    <meta property="og:title" content="Profile">
+    <meta property="og:description" content="Change the way you appear to other players in-game by switching your character model and giving it a new skin. Why not put on a swishy cape if you’ve got one?">
+
+    
+        <title>Profile | Minecraft</title>
+    
+
+    <link rel="stylesheet" type="text/css" href="/static/js/theme.4d884e3413c3.css"/>
+
+    <link rel="alternate" type="application/atom+xml" href="/en-us/feeds/community-content/atom" title="Minecraft.net - All Content Atom Feed">
+    <link rel="alternate" type="application/rss+xml" href="/en-us/feeds/community-content/rss" title="Minecraft.net - All Content RSS Feed">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="google-site-verification" content="YlC9IBpV6Mhbys_OdaWkBZ2IctYO4BhOPg23AdQd10Q"/>
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <meta neme="region" content="None">
+
+    
+    <script type="text/javascript" src="//nexus.ensighten.com/minecraft/no-mscc/Bootstrap.js"></script>
+
+    <script src="/static/js/modernizr.custom.fa4c889eeeef.js" ></script>
+    <script>
+      var Mojang = {};
+      Mojang.env = {
+        apiBaseUrl: 'https://api.mojang.com',
+        authBaseUrl: 'https://authserver.mojang.com'
+      };</script>
+    
+
+</head>
+<body>
+<script>
+  document.body.className += ' has-js';
+</script>
+
+<div class="global-menu text-light">
+    
+
+
+
+    
+        <link rel="stylesheet" href="https://uhf.microsoft.com/mscc/statics/mscc-0.4.0.min.css" media="all">
+    
+    <div id="cookieConsentBanner" data-cookie-name="MSCC">
+        <div id='msccBanner' dir='ltr' data-site-name='uhf-Minecraft' data-mscc-version='0.4.0' data-nver='aspnet-2.0.7' data-sver='0.1.2' class='cc-banner' role='alert'><div class='cc-container'><svg class='cc-icon cc-v-center' x='0px' y='0px' viewBox='0 0 44 44' height='30px' fill='none' stroke='currentColor'><circle cx='22' cy='22' r='20' stroke-width='2'></circle><line x1='22' x2='22' y1='18' y2='33' stroke-width='3'></line><line x1='22' x2='22' y1='12' y2='15' stroke-width='3'></line></svg> <span class='cc-v-center cc-text'>This site uses cookies for analytics, personalized content and ads. By continuing to browse this site, you agree to this use.</span> <a href='https://go.microsoft.com/fwlink/?linkid=845480' aria-label='Learn more about Microsoft&#39;s Cookie Policy' id='msccLearnMore' class='cc-link cc-v-center cc-float-right' data-mscc-ic='false'>Learn more</a></div></div>
+    </div>
+    <script src="/static/privacy/cookie-consent.min.757c0367d835.js"></script>
+
+
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <nav class="nav justify-content-end text-smaller">
+                    <span id="app-profile"></span>
+                    <a class="nav-link inverted" href="/en-us/help/?ref=gm">Help</a>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="js-master-head master-head bg-wool-dark" id="master-head" role="navigation">
+    <div class="container pt-lg-3 pt-md-2 text-light">
+        <div class="row master-head__header letter-spacing-1 nav text-center mx-auto d-flex">
+            <div class="col d-none d-md-block align-self-center position-relative">
+                <a class="js-master-header-quick-options menu-link inverted w-100" data-mouse-over-icon="/static/theme/img/gif/menu-buy.gif" data-mouse-out-icon="/static/theme/img/gif/menu-buy--reversed.gif" href="/en-us/store/minecraft/?ref=m">
+                    <div data-mouse-over-target class="icon-menu icon-menu-buy"></div>
+                    <div class="text-smaller text-uppercase menu-link__label">Download</div>
+                </a>
+            </div>
+            <div class="col d-none d-md-block align-self-center position-relative">
+                <a href="/en-us/realms/?ref=m" class="js-master-header-quick-options menu-link inverted w-100" data-mouse-over-icon="/static/theme/img/gif/menu-realms.gif" data-mouse-out-icon="/static/theme/img/gif/menu-realms--reversed.gif" href="/en-us/realms/?ref=m">
+                    <div data-mouse-over-target class="icon-menu icon-menu-realms"></div>
+                    <div class="text-smaller text-uppercase menu-link__label">Realms</div>
+                </a>
+            </div>
+            <div class="col-7 offset-2 col-sm-8 offset-md-0 col-md-6 col-lg-7 d-flex align-items-center">
+                <a href="/?ref=m" class="navbar-header__brand-img w-100 d-flex justify-content-center">
+                    <svg class="mc-logo">
+                        <use xlink:href="#minecraft"></use>
+                    </svg>
+                </a>
+            </div>
+            <div class="col d-none d-md-block align-self-center position-relative">
+                <a href="/en-us/store/?ref=m" class="js-master-header-quick-options menu-link inverted w-100" data-mouse-over-icon="/static/theme/img/gif/menu-store.gif" data-mouse-out-icon="/static/theme/img/gif/menu-store--reversed.gif" href="/en-us/store/?ref=m">
+                    <div data-mouse-over-target class="icon-menu icon-menu-store"></div>
+                    <div class="text-smaller text-uppercase menu-link__label">Store</div>
+                </a>
+            </div>
+            <div class="col-3 col-sm-2 col-md js-burger-menu align-self-center">
+                <button class="menu-link show-navigation inverted w-100 p-0" aria-controls="expanded-menu">
+                    <div class="icon-menu icon-menu-hamburger"></div>
+                    <div class="d-none d-md-block text-smaller text-uppercase menu-link__label">Menu</div>
+                </button>
+            </div>
+        </div>
+        <!-- Expanded menu -->
+        <div class="full-menu js-full-menu" id="expanded-menu">
+            <div class="card-group">
+                <a href="/en-us/store/minecraft/?ref=fm" class="card card-separator text-400 hover-white text-left text-md-center p-2 p-md-0 px-md-3 flex-row flex-md-column">
+                    <div class="mr-3 mr-md-0">
+                        <svg role="img" class="svg-icon icon-4x">
+                            <use xlink:href="#color-grass-block"/>
+                        </svg>
+                    </div>
+                    <div class="card-body d-flex flex-column justify-content-center justify-content-md-start">
+                        <h3 class="card-title text-white mb-0 mb-md-3">
+                            Download
+                        </h3>
+                        <p class="card-text text-small">
+                            Download Minecraft for your PC or Mac. Create, explore and survive!
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <span class="btn btn-primary d-none d-md-inline-flex">
+                            <span class="grow"></span>
+                            <svg role="img" class="svg-icon icon-shadow my-1">
+                                <g class="animation-bounce--down animation-run-3-times">
+                                    <use xlink:href="#pixel-arrow-down"/>
+                                </g>
+                            </svg>
+                        </span>
+                    </div>
+                </a>
+
+                <a href="/en-us/realms/?ref=fm" class="card card-separator text-400 hover-white text-left text-md-center p-2 p-md-0 px-md-3 flex-row flex-md-column">
+                    <div class="mr-3 mr-md-0">
+                        <svg role="img" class="svg-icon icon-4x">
+                            <use xlink:href="#color-steve-alex"/>
+                        </svg>
+                    </div>
+                    <div class="card-body d-flex flex-column justify-content-center justify-content-md-start">
+                        <h3 class="card-title text-white mb-0 mb-md-3">
+                            Realms
+                        </h3>
+                        <p class="card-text text-small">
+                            Own an always-online Minecraft world. Invite nice people to join!
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <span class="btn btn-primary d-none d-md-flex px-md-2 d-lg-inline-flex px-lg-4">
+                            <span class="grow"></span>
+                            Read more
+                        </span>
+                    </div>
+                </a>
+
+                <a href="/en-us/store/?ref=fm" class="card card-separator text-400 hover-white text-left text-md-center p-2 p-md-0 px-md-3 flex-row flex-md-column">
+                    <div class="mr-3 mr-md-0">
+                        <svg role="img" class="svg-icon icon-4x">
+                            <use xlink:href="#color-chest"/>
+                        </svg>
+                    </div>
+                    <div class="card-body d-flex flex-column justify-content-center justify-content-md-start">
+                        <h3 class="card-title text-white mb-0 mb-md-3">
+                            Store
+                        </h3>
+                        <p class="card-text text-small">
+                            Buy our games and browse loads of amazing Minecraft merch!
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <span class="btn btn-primary d-none d-md-flex px-md-2 d-lg-inline-flex px-lg-4">
+                            <span class="grow"></span>
+                            Read more
+                        </span>
+                    </div>
+                </a>
+
+                <div class="col-12 col-md-3 mt-3 mt-md-0 px-0 px-md-3">
+                    <ul class="nav flex-column align-items-start">
+                        <li class="nav-item"><a href="/en-us/profile/?ref=bm" class="nav-link text-uppercase text-left letter-spacing-1 text-smaller">Profile</a></li>
+                        <li class="nav-item"><a href="/en-us/marketplace/?ref=bm" class="nav-link text-uppercase text-left letter-spacing-1 text-smaller">Marketplace</a></li>
+                        <li class="nav-item"><a href="/en-us/minecon/?ref=bm" class="nav-link text-uppercase text-left letter-spacing-1 text-smaller">MINECON</a></li>
+                        <li class="nav-item"><a href="/en-us/servers/?ref=bm" class="nav-link text-uppercase text-left letter-spacing-1 text-smaller">Servers</a></li>
+                        <li class="nav-item"><a href="/en-us/prepaid/?ref=bm" class="nav-link text-uppercase text-left letter-spacing-1 text-smaller">Pre-paid Cards</a></li>
+                        <li class="nav-item"><a href="/en-us/vr/?ref=bm" class="nav-link text-uppercase text-left letter-spacing-1 text-smaller">Virtual Reality</a></li>
+                        <li class="nav-item"><a href="/en-us/addons/?ref=bm" class="nav-link text-uppercase text-left letter-spacing-1 text-smaller">Add-Ons</a></li>
+                        <li class="nav-item"><a href="https://education.minecraft.net" class="nav-link text-uppercase text-left letter-spacing-1 text-smaller">Education</a></li>
+                        <li class="nav-item"><a href="/en-us/download/?ref=bm" class="nav-link text-uppercase text-left letter-spacing-1 text-smaller">Trial & Download</a></li>
+                        <li class="nav-item"><a href="/en-us/help/?ref=bm" class="nav-link text-uppercase text-left letter-spacing-1 text-smaller">Help</a></li>
+                    </ul>
+                    <div class="position-absolute top-right">
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-2">
+                                <a class="nav-link text-white" href="https://www.facebook.com/minecraft/">
+                                    <svg role="img" class="svg-icon icon-2x">
+                                        <use xlink:href="#color-facebook"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="nav-item mb-2">
+                                <a class="nav-link text-white" href=" https://twitter.com/Minecraft">
+                                    <svg role="img" class="svg-icon icon-2x">
+                                        <use xlink:href="#color-twitter"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="nav-item mb-2">
+                                <a class="nav-link text-white" href="https://www.youtube.com/user/TeamMojang">
+                                    <svg role="img" class="svg-icon icon-2x">
+                                        <use xlink:href="#color-youtube"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="nav-item mb-2">
+                                <a class="nav-link text-white" href="https://www.instagram.com/minecraft/">
+                                    <svg role="img" class="svg-icon icon-2x">
+                                        <use xlink:href="#color-instagram"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<main class="site-body ">
+    <noscript>
+        <div class="alert alert-danger">
+            For full functionality of this site it is necessary to enable JavaScript.
+            Here are the <a href="http://www.enable-javascript.com/" target="_blank">instructions how to enable JavaScript in your web browser</a>.
+        </div>
+    </noscript>
+
+    
+    
+    
+    <div class="bg-wool-light">
+        <div class="container">
+            
+    <div id="app-profile-admin">
+        <h1>Your profile</h1>
+        <div class="preloader">
+    <div class="zgroup">
+        <div class="bigSqr">
+            <div class="square first"></div>
+            <div class="square second"></div>
+            <div class="square third"></div>
+            <div class="square fourth"></div>
+        </div>
+    </div>
+    <p>Loading...</p>
+</div>
+
+    </div>
+    
+        <script>
+            window.profileConfig = {
+                endpoints: {
+                    accountsPublicServiceUrl: 'https://api.mojang.com/'
+                }
+            }
+        </script>
+    
+
+            <div id="security"></div>
+            <div id="app-modal-dialog"></div>
+        </div>
+    </div>
+
+    
+
+
+
+</main>
+
+<footer class="mojang-footer">
+    <div class="container">
+        <div class="row position-relative">
+            <div class="col-12 text-center">
+                <a class="" href="https://mojang.com?ref=ft" target="_blank">
+                    <svg role="img" class="icon-logo icon-mojang mx-3">
+                        <use xlink:href="#mojang"></use>
+                    </svg>
+                </a>
+                <svg role="img" class="icon-logo icon-microsoft-studios mx-3">
+                    <use xlink:href="#microsoft-studios"></use>
+                </svg>
+            </div>
+            <div class="col-12" style="padding-top:10px; padding-bottom: 10px;">
+                <div class="text-center text-smaller">
+                    <p class="m-1">
+                        <a href="https://mojang.com" target="_blank" class="text-secondary">Mojang</a>
+                        © 2009-2018. "Minecraft" is a trademark of Mojang Synergies AB
+                    </p>
+                    <ul class="nav nav-pills with-divider justify-content-center">
+                        <li>
+                            <a href="https://account.mojang.com/terms?ref=ft">
+                                Terms and Conditions
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://account.mojang.com/terms?ref=ft#brand">
+                                Brand and Assets Guidelines
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="rating-container col-md-3 text-md-right text-center">
+                <svg role="img" class="icon-logo icon-esrb">
+                    <use xlink:href="#esrb"></use>
+                </svg>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<footer class="ms-footer">
+    <div class="container text-smaller text-white">
+
+        
+        
+        
+
+        <div id="language-selector" class="ms-footer__language-selector">
+            <div class="row">
+                <div class="col-12">
+                    <form class="ms-footer__language-selector-form" id="language-switcher" action="/i18n/setlang/" method="post">
+                        <input type='hidden' name='csrfmiddlewaretoken' value='8XhztMxb04ib5tD0xpJF1lnGPfCOgsUuXcO0BEaTZfgcJIjq4s1UX66WXVzkuPPI' />
+                        <input type="hidden" name="language" value="en-us">
+                        <ul class="ms-footer__language-selector-list columns-xs-2 columns-sm-3 columns-md-4 columns-lg-5 columns-xl-6 column-gap-2em list-unstyled">
+                            
+                                <li class="break-inside-avoid">
+                                    <a class="ms-footer__language-selector-link hover-current" href="#" data-language-code="en-us" class="text-capitalize">English</a>
+                                </li>
+                            
+                                <li class="break-inside-avoid">
+                                    <a class="ms-footer__language-selector-link hover-current" href="#" data-language-code="da-dk" class="text-capitalize">Dansk</a>
+                                </li>
+                            
+                                <li class="break-inside-avoid">
+                                    <a class="ms-footer__language-selector-link hover-current" href="#" data-language-code="de-de" class="text-capitalize">Deutsch</a>
+                                </li>
+                            
+                                <li class="break-inside-avoid">
+                                    <a class="ms-footer__language-selector-link hover-current" href="#" data-language-code="es-es" class="text-capitalize">Español</a>
+                                </li>
+                            
+                                <li class="break-inside-avoid">
+                                    <a class="ms-footer__language-selector-link hover-current" href="#" data-language-code="es-mx" class="text-capitalize">español de Mexico</a>
+                                </li>
+                            
+                                <li class="break-inside-avoid">
+                                    <a class="ms-footer__language-selector-link hover-current" href="#" data-language-code="fi-fi" class="text-capitalize">Suomi</a>
+                                </li>
+                            
+                                <li class="break-inside-avoid">
+                                    <a class="ms-footer__language-selector-link hover-current" href="#" data-language-code="fr-ca" class="text-capitalize">Français (Canada)</a>
+                                </li>
+                            
+                                <li class="break-inside-avoid">
+                                    <a class="ms-footer__language-selector-link hover-current" href="#" data-language-code="fr-fr" class="text-capitalize">Français</a>
+                                </li>
+                            
+                                <li class="break-inside-avoid">
+                                    <a class="ms-footer__language-selector-link hover-current" href="#" data-language-code="it-it" class="text-capitalize">Italiano</a>
+                                </li>
+                            
+                                <li class="break-inside-avoid">
+                                    <a class="ms-footer__language-selector-link hover-current" href="#" data-language-code="ja-jp" class="text-capitalize">日本語</a>
+                                </li>
+                            
+                                <li class="break-inside-avoid">
+                                    <a class="ms-footer__language-selector-link hover-current" href="#" data-language-code="ko-kr" class="text-capitalize">한국어</a>
+                                </li>
+                            
+                                <li class="break-inside-avoid">
+                                    <a class="ms-footer__language-selector-link hover-current" href="#" data-language-code="nb-no" class="text-capitalize">Norsk (Bokmål)</a>
+                                </li>
+                            
+                                <li class="break-inside-avoid">
+                                    <a class="ms-footer__language-selector-link hover-current" href="#" data-language-code="nl-nl" class="text-capitalize">Nederlands</a>
+                                </li>
+                            
+                                <li class="break-inside-avoid">
+                                    <a class="ms-footer__language-selector-link hover-current" href="#" data-language-code="pl-pl" class="text-capitalize">Polski</a>
+                                </li>
+                            
+                                <li class="break-inside-avoid">
+                                    <a class="ms-footer__language-selector-link hover-current" href="#" data-language-code="pt-br" class="text-capitalize">Português Brasileiro</a>
+                                </li>
+                            
+                                <li class="break-inside-avoid">
+                                    <a class="ms-footer__language-selector-link hover-current" href="#" data-language-code="pt-pt" class="text-capitalize">Português</a>
+                                </li>
+                            
+                                <li class="break-inside-avoid">
+                                    <a class="ms-footer__language-selector-link hover-current" href="#" data-language-code="ru-ru" class="text-capitalize">Русский</a>
+                                </li>
+                            
+                                <li class="break-inside-avoid">
+                                    <a class="ms-footer__language-selector-link hover-current" href="#" data-language-code="sv-se" class="text-capitalize">Svenska</a>
+                                </li>
+                            
+                                <li class="break-inside-avoid">
+                                    <a class="ms-footer__language-selector-link hover-current" href="#" data-language-code="tr-tr" class="text-capitalize">Türkiye</a>
+                                </li>
+                            
+                                <li class="break-inside-avoid">
+                                    <a class="ms-footer__language-selector-link hover-current" href="#" data-language-code="zh-hans" class="text-capitalize">简体中文</a>
+                                </li>
+                            
+                                <li class="break-inside-avoid">
+                                    <a class="ms-footer__language-selector-link hover-current" href="#" data-language-code="zh-hant" class="text-capitalize">繁體中文</a>
+                                </li>
+                            
+                        </ul>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6 order-1 col-lg-2 order-lg-1">
+                <div class="ms-links">
+                    
+                    
+                    <a class="ms-links__link ms-links__links--locale" href="#" href="/en-us/change-language/?next=/en-us/profile/">
+                        <span class="ms-links__links--locale-icon" aria-hidden="true">
+                            <svg role="img" class="svg-icon icon-15x">
+                                <use xlink:href="#line-globe"/>
+                            </svg>                            
+                        </span>
+                        <span class="ms-links__links--locale-text current-language"> English</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-12 order-3 col-lg-8 order-lg-2">
+                <ul class="ms-links nav justify-content-lg-center">
+                    <li><a class="ms-links__link hover-current" data-mscc-ic="false"
+                           href="http://go.microsoft.com/fwlink/?linkid=521839">Privacy and cookies</a>
+                    </li>
+                    <li><a class="ms-links__link hover-current" data-mscc-ic="false"
+                           href="http://go.microsoft.com/fwlink/?linkid=206977">Terms of use</a>
+                    </li>
+                    <li><a class="ms-links__link hover-current" data-mscc-ic="false"
+                           href="http://www.microsoft.com/trademarks">Trademarks</a>
+                    </li>
+                    <li><a class="ms-links__link hover-current" data-mscc-ic="false"
+                           href="http://choice.microsoft.com/">About our ads</a>
+                    </li>
+                    <li>
+                        <span class="ms-links__link hover-current">&copy; 2018 Microsoft</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-6 order-2 col-lg-2 order-lg-3 text-right">
+                <a class="ms-footer__logo-link" data-mscc-ic="false" href="http://www.microsoft.com/">
+                    <svg role="img" class="icon-logo icon-microsoft mt-lg-0 mt-2">
+                        <use xlink:href="#microsoft"></use>
+                    </svg>
+                </a>
+            </div>
+
+        </div>
+    </div>
+</footer>
+
+
+
+<script type="text/javascript" src="/static/js/vendor.f66e05c6207a.js"></script>
+<script type="text/javascript" src="/static/js/site.fac8bf04f1b6.js"></script>
+
+
+
+    
+    <script>
+      var deviceInfo = window.deviceInfo || {storePlatform: ''};
+      var require = {
+        baseUrl: '/static/js/bifrost/js/',
+        paths: {
+          'braintree': '//js.braintreegateway.com/js/braintree-2.31.0.min'
+        },
+        waitSeconds: 15,
+        config: {
+          // Config options for module 'app-config'.
+          'app-config': {
+            packages: ['profile'],
+            secureCookies: true,
+            enabledLocales: ["en-us", "da-dk", "de-de", "es-es", "es-mx", "fi-fi", "fr-ca", "fr-fr", "it-it", "ja-jp", "ko-kr", "nb-no", "nl-nl", "pl-pl", "pt-br", "pt-pt", "ru-ru", "sv-se", "tr-tr", "zh-cn", "zh-tw"],
+            localesBuster: 'cb=87570e5001c462250bb9a439ce1ca394',
+            supportUrl: 'https://help.mojang.com',
+            loginUrl: '/en-us/login/?ref=gm',
+            logoutUrl: '/en-us/logout/?ref=gm',
+            profileUrl: '/en-us/profile/?ref=gm',
+            verifyUrl: '/en-us/store/minecraft/#verify',
+            buyUrl: '/en-us/store/minecraft/#buy',
+            redeemUrl: '/en-us/redeem/',
+            redeemPrepaidUrl: '/en-us/redeem/',
+            prepaidCardUrl: '/en-us/prepaid/',
+            downloadUrl: '/en-us/download/',
+            registerUrl: '/en-us/store/minecraft/#register',
+            migrationUrl: 'https://account.mojang.com/migrate',
+            forgotPasswordUrl: 'https://account.mojang.com/password',
+            giftCodeUrl: 'https://account.mojang.com/buy/minecraft?agent=minecraft',
+            win10CodeUrl: 'https://account.mojang.com/me',
+            requestVerificationUrl: 'https://account.mojang.com/me/resendVerifyEmail',
+            analytics: analyticsFn,
+            productName: 'Minecraft',
+            productAgent: 'minecraft',
+            user: {
+              countryCode: 'IT',
+              locale: 'en-us'
+            },
+            platform: deviceInfo.storePlatform,
+          }
+        }
+      };
+
+    </script>
+
+    
+
+<script>
+    var requireConfig;
+    if(require) {
+        requireConfig = require.config['app-config'];
+        requireConfig.packages = ['security', 'modal-dialog', 'profile'];
+        requireConfig.security = {
+            resetQuestionsLink: 'https://account.mojang.com/me/changeSecretQuestions'
+        };
+    }
+</script>
+
+
+
+    <script data-main="/static/js/bifrost/js/bifrost.min.db601a4c948b.js" src="/static/js/require.951f856e8149.js"></script>
+
+
+
+    <script type="text/javascript" src="/static/js/profile.b7d143e416bc.js"></script>
+
+
+</body>
+</html>
+

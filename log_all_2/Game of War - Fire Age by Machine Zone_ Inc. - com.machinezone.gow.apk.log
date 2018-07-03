@@ -1,0 +1,60 @@
+[INTERNAL_LOG][2018-06-12 00:30:15,249][INFO][analyze_start()] Init Time [Tue Jun 12 00:30:15 2018]
+[INTERNAL_LOG][2018-06-12 00:30:15,417][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 00:30:15,419][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 00:30:15,419][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 00:30:15,419][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 00:30:15,419][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 00:30:15,419][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 00:30:15,419][INFO][is_hybird()] android.permission.ACCESS_COARSE_LOCATION
+[INTERNAL_LOG][2018-06-12 00:30:15,419][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-12 00:30:15,419][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 00:30:15,419][INFO][is_hybird()] com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY
+[INTERNAL_LOG][2018-06-12 00:30:15,419][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-12 00:30:15,419][INFO][is_hybird()] com.machinezone.gow.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-12 00:30:15,420][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 00:30:15,420][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 00:30:15,420][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 00:30:15,420][INFO][find_string()] File: assets/badinstall_android.html
+[INTERNAL_LOG][2018-06-12 00:30:15,424][INFO][find_string()] No iframe in assets/badinstall_android.html
+[INTERNAL_LOG][2018-06-12 00:30:15,424][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 00:30:15,424][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 00:30:15,424][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 00:30:34,376][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 00:30:34,377][INFO][find_url_in_apk()] http://schemas.android.com/apk/res/android
+http://www.amazon.com/gp/mas/get-appstore/android/ref=mas_mx_mba_iap_dl
+https://graph.%s
+https://graph-video.%s
+https://facebook.com
+http://play.google.com/store/apps/details?id=com.facebook.orca
+https://www.googleapis.com/auth/plus.me
+https://www.googleapis.com/auth/games
+http://plus.google.com/
+http://www.example.com
+http://www.example.com
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://csi.gstatic.com/csi
+https://sb-ssl.google.com/safebrowsing/clientreport/malware
+https://pagead2.googlesyndication.com/pagead/gen_204
+http://www.google.com
+https://app-measurement.com/a
+https://crashzone.epicaction-online.com/java_error
+https://ws.tapjoyads.com/set_publisher_user_id?
+https://ws.tapjoyads.com/connect?
+https://ws.tapjoyads.com/connect?
+https://ws.tapjoyads.com/apps_installed?
+https://goo.gl/FZRIUV
+
+[INTERNAL_LOG][2018-06-12 00:30:34,377][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 00:30:34,383][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 00:30:34,383][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 00:30:34,383][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 00:30:34,383][INFO][analyze_start()] End time:[Tue Jun 12 00:30:34 2018]

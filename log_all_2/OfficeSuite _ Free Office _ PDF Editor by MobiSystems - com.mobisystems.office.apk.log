@@ -1,0 +1,318 @@
+[INTERNAL_LOG][2018-06-12 06:38:13,686][INFO][analyze_start()] Init Time [Tue Jun 12 06:38:13 2018]
+[INTERNAL_LOG][2018-06-12 06:38:14,089][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 06:38:14,091][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 06:38:14,091][INFO][is_hybird()] android.permission.CHANGE_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 06:38:14,091][INFO][is_hybird()] android.permission.CHANGE_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 06:38:14,091][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 06:38:14,091][INFO][is_hybird()] android.permission.READ_PHONE_STATE
+[INTERNAL_LOG][2018-06-12 06:38:14,091][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 06:38:14,091][INFO][is_hybird()] android.permission.GET_TASKS
+[INTERNAL_LOG][2018-06-12 06:38:14,091][INFO][is_hybird()] android.permission.REORDER_TASKS
+[INTERNAL_LOG][2018-06-12 06:38:14,091][INFO][is_hybird()] android.permission.RECEIVE_BOOT_COMPLETED
+[INTERNAL_LOG][2018-06-12 06:38:14,091][INFO][is_hybird()] android.permission.USE_CREDENTIALS
+[INTERNAL_LOG][2018-06-12 06:38:14,091][INFO][is_hybird()] android.permission.MANAGE_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 06:38:14,091][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 06:38:14,091][INFO][is_hybird()] android.permission.WRITE_MEDIA_STORAGE
+[INTERNAL_LOG][2018-06-12 06:38:14,091][INFO][is_hybird()] com.google.android.providers.gmail.permission.READ_GMAIL
+[INTERNAL_LOG][2018-06-12 06:38:14,091][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 06:38:14,091][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 06:38:14,091][INFO][is_hybird()] android.permission.WRITE_USER_DICTIONARY
+[INTERNAL_LOG][2018-06-12 06:38:14,092][INFO][is_hybird()] com.sec.android.iap.permission.BILLING
+[INTERNAL_LOG][2018-06-12 06:38:14,092][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-12 06:38:14,092][INFO][is_hybird()] android.permission.MANAGE_DOCUMENTS
+[INTERNAL_LOG][2018-06-12 06:38:14,092][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-12 06:38:14,092][INFO][is_hybird()] com.android.launcher.permission.INSTALL_SHORTCUT
+[INTERNAL_LOG][2018-06-12 06:38:14,092][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-12 06:38:14,092][INFO][is_hybird()] com.mobisystems.office.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-12 06:38:14,092][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 06:38:14,092][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 06:38:14,092][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 06:38:14,092][INFO][find_string()] File: assets/html/LibrariesUsed.html
+[INTERNAL_LOG][2018-06-12 06:38:14,430][INFO][find_string()] No iframe in assets/html/LibrariesUsed.html
+[INTERNAL_LOG][2018-06-12 06:38:14,430][INFO][find_string()] File: assets/pdf/signatures/cert_details.html
+[INTERNAL_LOG][2018-06-12 06:38:14,436][INFO][find_string()] No iframe in assets/pdf/signatures/cert_details.html
+[INTERNAL_LOG][2018-06-12 06:38:14,437][INFO][find_string()] File: assets/pdf/signatures/sig_details.html
+[INTERNAL_LOG][2018-06-12 06:38:14,442][INFO][find_string()] No iframe in assets/pdf/signatures/sig_details.html
+[INTERNAL_LOG][2018-06-12 06:38:14,442][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 06:38:14,442][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 06:38:14,442][INFO][find_string()] File: assets/pdf/js/config.js
+[INTERNAL_LOG][2018-06-12 06:38:14,443][INFO][find_string()] No iframe in assets/pdf/js/config.js
+[INTERNAL_LOG][2018-06-12 06:38:14,443][INFO][find_string()] File: assets/pdf/js/field.js
+[INTERNAL_LOG][2018-06-12 06:38:14,449][INFO][find_string()] No iframe in assets/pdf/js/field.js
+[INTERNAL_LOG][2018-06-12 06:38:14,449][INFO][find_string()] File: assets/pdf/js/form.js
+[INTERNAL_LOG][2018-06-12 06:38:14,451][INFO][find_string()] No iframe in assets/pdf/js/form.js
+[INTERNAL_LOG][2018-06-12 06:38:14,451][INFO][find_string()] File: assets/pdf/js/glob.js
+[INTERNAL_LOG][2018-06-12 06:38:14,452][INFO][find_string()] No iframe in assets/pdf/js/glob.js
+[INTERNAL_LOG][2018-06-12 06:38:14,452][INFO][find_string()] File: assets/pdf/js/util.js
+[INTERNAL_LOG][2018-06-12 06:38:14,452][INFO][find_string()] No iframe in assets/pdf/js/util.js
+[INTERNAL_LOG][2018-06-12 06:38:14,452][INFO][find_string()] File: assets/pdf/signatures/script.js
+[INTERNAL_LOG][2018-06-12 06:38:14,453][INFO][find_string()] No iframe in assets/pdf/signatures/script.js
+[INTERNAL_LOG][2018-06-12 06:38:14,453][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 06:40:02,357][INFO][find_url_in_apk()] [START URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-12 06:40:02,358][INFO][find_url_in_apk()] https://onedrive.live.com/picker/accountchooser?ru=https://localhost:777&load_login=false
+
+[INTERNAL_LOG][2018-06-12 06:40:02,358][INFO][find_url_in_apk()] [END URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-12 06:40:02,701][INFO][find_string()] [START REMOTE FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 06:40:02,701][INFO][find_string()] Remote File in: temp_html_code/html_downloaded_OfficeSuite _ Free Office _ PDF Editor by MobiSystems - com/localhost:777&load_login=false
+[INTERNAL_LOG][2018-06-12 06:40:02,702][INFO][find_string()] URL: https://onedrive.live.com/picker/accountchooser?ru=https://localhost:777&load_login=false
+[INTERNAL_LOG][2018-06-12 06:40:02,706][INFO][find_string()] No iframe in temp_html_code/html_downloaded_OfficeSuite _ Free Office _ PDF Editor by MobiSystems - com/localhost:777&load_login=false
+[INTERNAL_LOG][2018-06-12 06:40:02,706][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 06:40:02,706][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 06:40:02,706][INFO][find_url_in_apk()] http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+https://drive.amazonaws.com/drive/v1/
+https://drive.amazonaws.com/drive/v1/
+https://cloud.box.com/platform/
+https://cloud.box.com/platform/
+https://www.dropbox.com/upgrade?oqa=upeaoq
+https://graph.facebook.com/network_ads_common
+https://graph.%s.facebook.com/network_ads_common
+https://www.facebook.com/adnw_logging/
+https://www.%s.facebook.com/adnw_logging/
+https://www.facebook.com/
+https://www.%s.facebook.com
+http://www.facebook.com
+https://graph.%s
+https://graph-video.%s
+https://facebook.com
+http://play.google.com/store/apps/details?id=com.facebook.orca
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+https://accounts.google.com
+https://www.facebook.com
+https://accounts.google.com/o/oauth2/revoke?token=
+https://www.mobisystems.com
+http://dicts.mobisystems.com
+https://www.officesuitenow.com
+https://storage.googleapis.com/ms-apps-config/containers/
+https://settings.crashlytics.com/spi/v2/platforms/android/apps/%s/settings
+http://m.facebook.com/ads/ad_choices
+http://m.facebook.com/ads/ad_choices
+https://www.%s.facebook.com/audience_network/server_side_reward
+https://www.facebook.com/audience_network/server_side_reward
+http://hostname/?
+http://hostname/?
+http://www.w3.org/ns/ttml#parameter
+https://www.googleapis.com/auth/games_lite
+https://www.googleapis.com/auth/games
+https://plus.google.com/
+https://www.googleapis.com/auth/drive.file
+https://www.googleapis.com/auth/drive.appdata
+https://www.googleapis.com/auth/drive
+https://www.googleapis.com/auth/drive
+https://www.googleapis.com/auth/drive.apps
+https://pagead2.googlesyndication.com/pagead/gen_204
+http://www.google.com
+http://www.google.com
+https://support.google.com/dfp_premium/answer/7160685#push
+http://www.google-analytics.com
+https://ssl.google-analytics.com
+https://app-measurement.com/a
+http://www.example.com
+http://www.example.com
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/sdk-core-v40-impl.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://csi.gstatic.com/csi
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/native_ads.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/native_ads.js
+https://imasdk.googleapis.com/admob/sdkloader/native_video.html
+https://www.google.com/dfp/linkDevice
+https://www.google.com/dfp/inAppPreview
+https://www.google.com/dfp/debugSignals
+https://www.google.com/dfp/sendDebugData
+https://www.googleapis.com/auth/plus.login
+https://www.googleapis.com/auth/plus.me
+http://schemas.android.com/apk/lib/com.google.android.gms.plus
+http://schemas.android.com/apk/lib/com.google.android.gms.plus
+https://www.googletagmanager.com
+http://state/path?
+https://drive.amazonaws.com/drive/v1/account/endpoint
+https://lh6.googleusercontent.com/-XaaaAAAaaaAA/AAAAAAAAAAI/AAAAAAAABbM/aaaBbbAa-HT/photo.jpg?sz=512
+https://lh3.googleusercontent.com/abcdefghijYur1B1kCYDTquDDaIh_qT2mIaA-9-Ab-W4W-5yupNNzv3qRDcggxabcdefghij=s630-fcrop64=1,00000000ffffffff
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+http://ocr.mobisystems.com/api/pdf
+https://www.googleapis.com/auth/userinfo.email
+https://www.googleapis.com/auth/cloudprint
+https://accounts.google.com/o/oauth2/auth
+https://accounts.google.com/o/oauth2/auth
+https://accounts.google.com/o/oauth2/token
+https://accounts.google.com/o/oauth2/token
+https://accounts.google.com/o/oauth2/token
+https://accounts.google.com/o/oauth2/token
+http://play.google.com/store/apps
+http://www.amazon.com/gp/mas/dl
+https://cafebazaar.ir/app/
+http://links.mobileplatform.solutions
+http://schemas.microsoft.com/office/powerpoint/2010/main
+http://schemas.microsoft.com/office/powerpoint/2010/main
+http://schemas.microsoft.com/office/powerpoint/2010/main
+http://schemas.microsoft.com/office/powerpoint/2010/main
+http://schemas.microsoft.com/office/powerpoint/2010/main
+http://schemas.microsoft.com/office/powerpoint/2012/main
+http://www.w3.org/2001/04/xmlenc#aes128-cbc
+http://www.w3.org/2001/04/xmlenc#aes192-cbc
+http://www.w3.org/2001/04/xmlenc#aes256-cbc
+http://www.w3.org/2000/09/xmldsig#sha256
+http://schemas.openxmlformats.org/drawingml/2006/main
+http://schemas.openxmlformats.org/drawingml/2006/main
+http://schemas.openxmlformats.org/drawingml/2006/main
+http://schemas.openxmlformats.org/drawingml/2006/main
+http://schemas.openxmlformats.org/drawingml/2006/main
+http://schemas.openxmlformats.org/drawingml/2006/main
+http://schemas.openxmlformats.org/drawingml/2006/main
+http://schemas.openxmlformats.org/drawingml/2006/main
+http://schemas.openxmlformats.org/drawingml/2006/main
+http://schemas.openxmlformats.org/drawingml/2006/main
+http://schemas.openxmlformats.org/drawingml/2006/main
+http://schemas.openxmlformats.org/drawingml/2006/main
+http://schemas.openxmlformats.org/drawingml/2006/main
+http://schemas.openxmlformats.org/drawingml/2006/main
+http://schemas.openxmlformats.org/drawingml/2006/main
+http://schemas.openxmlformats.org/drawingml/2006/main
+http://schemas.openxmlformats.org/drawingml/2006/main
+http://schemas.openxmlformats.org/drawingml/2006/main
+http://schemas.openxmlformats.org/drawingml/2006/main
+http://schemas.openxmlformats.org/drawingml/2006/main
+http://schemas.openxmlformats.org/drawingml/2006/main
+http://schemas.openxmlformats.org/drawingml/2006/main
+http://schemas.openxmlformats.org/drawingml/2006/main
+http://schemas.openxmlformats.org/drawingml/2006/main
+http://schemas.openxmlformats.org/drawingml/2006/main
+https://login.live.com/oauth20_authorize.srf
+https://login.live.com/oauth20_desktop.srf
+https://login.live.com/oauth20_logout.srf
+https://login.live.com/oauth20_token.srf
+http://schemas.microsoft.com/office/2011/relationships/chartStyle
+http://schemas.microsoft.com/office/2011/relationships/chartColorStyle
+https://www.google.com
+https://www.googleapis.com/
+https://www.googleapis.com/
+https://www.googleapis.com/
+https://www.google.com/cloudprint/
+https://www.google.com/cloudprint/
+https://www.google.com/cloudprint/
+https://www.google.com/cloudprint/
+http://upswell.jp/officesuite/auSP/tou.php
+http://upswell.jp/officesuite/auSP/tou.php
+http://upswell.jp/officesuite/auSP/privacypolicy.php
+http://upswell.jp/officesuite/auSP/privacypolicy.php
+http://www.w3.org/1999/xlink
+http://www.w3.org/1999/xlink
+http://www.w3.org/1999/xlink
+http://schemas.openxmlformats.org/presentationml/2006/main
+http://schemas.openxmlformats.org/presentationml/2006/main
+http://schemas.openxmlformats.org/presentationml/2006/main
+http://schemas.openxmlformats.org/presentationml/2006/main
+http://schemas.openxmlformats.org/officeDocument/2006/relationships
+http://schemas.openxmlformats.org/officeDocument/2006/relationships
+http://schemas.openxmlformats.org/officeDocument/2006/relationships
+http://schemas.openxmlformats.org/officeDocument/2006/relationships
+http://schemas.openxmlformats.org/officeDocument/2006/relationships
+http://schemas.openxmlformats.org/officeDocument/2006/relationships
+http://schemas.openxmlformats.org/officeDocument/2006/relationships
+http://schemas.openxmlformats.org/officeDocument/2006/relationships
+http://schemas.openxmlformats.org/officeDocument/2006/relationships
+http://schemas.openxmlformats.org/officeDocument/2006/relationships
+http://schemas.openxmlformats.org/officeDocument/2006/relationships
+http://schemas.openxmlformats.org/package/2006/metadata/core-properties
+http://schemas.openxmlformats.org/package/2006/metadata/core-properties
+http://schemas.openxmlformats.org/package/2006/metadata/core-properties
+http://purl.org/dc/elements/1.1/
+http://purl.org/dc/elements/1.1/
+http://purl.org/dc/elements/1.1/
+http://purl.org/dc/elements/1.1/
+http://purl.org/dc/terms/
+http://purl.org/dc/dcmitype/
+http://www.w3.org/2001/XMLSchema-instance
+http://www.w3.org/2001/XMLSchema-instance
+http://www.w3.org/2001/XMLSchema-instance
+http://schemas.openxmlformats.org/drawingml/2006/diagram
+http://schemas.openxmlformats.org/drawingml/2006/chart
+http://schemas.openxmlformats.org/drawingml/2006/chart
+http://schemas.openxmlformats.org/drawingml/2006/chart
+http://schemas.openxmlformats.org/drawingml/2006/chart
+http://schemas.openxmlformats.org/drawingml/2006/chart
+http://schemas.openxmlformats.org/drawingml/2006/chart
+http://schemas.openxmlformats.org/drawingml/2006/table
+http://schemas.openxmlformats.org/
+http://schemas.openxmlformats.org/
+http://schemas.microsoft.com/office/2006/encryption
+http://schemas.microsoft.com/office/2006/encryption
+http://schemas.microsoft.com/office/2006/keyEncryptor/password
+http://schemas.microsoft.com/office/2006/keyEncryptor/password
+http://xml.org/sax/features/namespaces
+http://xml.org/sax/features/namespaces
+http://xml.org/sax/features/namespace-prefixes
+http://xml.org/sax/features/namespace-prefixes
+http://schemas.openxmlformats.org/package/2006/relationships
+http://schemas.openxmlformats.org/package/2006/relationships
+http://schemas.openxmlformats.org/package/2006/relationships
+http://schemas.openxmlformats.org/package/2006/relationships
+https://storage.googleapis.com/mobisystems/helpcenter/officesuite/android/en/signin.html
+http://schemas.openxmlformats.org/package/2006/content-types
+http://schemas.openxmlformats.org/package/2006/content-types
+http://schemas.openxmlformats.org/spreadsheetml/2006/main
+http://schemas.openxmlformats.org/spreadsheetml/2006/main
+http://schemas.openxmlformats.org/spreadsheetml/2006/main
+http://schemas.openxmlformats.org/spreadsheetml/2006/main
+http://schemas.openxmlformats.org/spreadsheetml/2006/main
+http://schemas.openxmlformats.org/spreadsheetml/2006/main
+http://schemas.openxmlformats.org/spreadsheetml/2006/main
+http://schemas.openxmlformats.org/officeDocument/2006/extended-properties
+http://schemas.openxmlformats.org/officeDocument/2006/extended-properties
+http://schemas.openxmlformats.org/officeDocument/2006/docPropsVTypes
+http://schemas.openxmlformats.org/officeDocument/2006/docPropsVTypes
+http://schemas.openxmlformats.org/drawingml/2006/spreadsheetDrawing
+http://schemas.openxmlformats.org/drawingml/2006/spreadsheetDrawing
+http://schemas.openxmlformats.org/drawingml/2006/chartDrawing
+http://schemas.microsoft.com/
+http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink
+http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink
+http://schemas.openxmlformats.org/officeDocument/2006/relationships/table
+http://schemas.microsoft.com/office/2006/relationships/vbaProject
+http://schemas.openxmlformats.org/officeDocument/2006/relationships/image
+http://schemas.openxmlformats.org/officeDocument/2006/relationships/vmlDrawing
+http://schemas.openxmlformats.org/officeDocument/2006/relationships/chartsheet
+http://schemas.openxmlformats.org/officeDocument/2006/relationships/comments
+http://schemas.openxmlformats.org/officeDocument/2006/relationships/comments
+http://schemas.openxmlformats.org/officeDocument/2006/relationships/sharedStrings
+http://schemas.openxmlformats.org/officeDocument/2006/relationships/chartUserShapes
+http://schemas.openxmlformats.org/officeDocument/2006/relationships/drawing
+http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet
+http://schemas.openxmlformats.org/package/2006/relationships/metadata/core-properties
+http://schemas.openxmlformats.org/officeDocument/2006/relationships/extended-properties
+http://schemas.openxmlformats.org/officeDocument/2006/relationships/chart
+http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument
+http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument
+http://schemas.openxmlformats.org/officeDocument/2006/relationships/styles
+http://schemas.openxmlformats.org/officeDocument/2006/relationships/theme
+https://plus.google.com/communities/107899004414369935731
+https://plus.google.com/communities/107899004414369935731
+http://schemas.openxmlformats.org/officeDocument/2006/relationships/
+http://schemas.microsoft.com/office/2006/relationships/
+http://schemas.microsoft.com/office/excel/formula
+https://github.com/AzureAD/azure-activedirectory-library-for-android
+https://github.com/AzureAD/azure-activedirectory-library-for-android
+https://onedrive.live.com/picker/accountchooser?ru=https://localhost:777&load_login=false
+https://api.onedrive.com/v1.0
+https://api.onedrive.com/v1.0
+https://www.officesuitenow.com/mobispellcheck
+https://api.office.com/discovery/
+https://api.office.com/discovery/v2.0/me/Services
+https://login.windows.net/common/oauth2/authorize
+https://e.crashlytics.com/spi/v2/events
+
+[INTERNAL_LOG][2018-06-12 06:40:02,707][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 06:40:02,743][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 06:40:02,743][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 06:40:02,743][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 06:40:02,743][INFO][analyze_start()] End time:[Tue Jun 12 06:40:02 2018]

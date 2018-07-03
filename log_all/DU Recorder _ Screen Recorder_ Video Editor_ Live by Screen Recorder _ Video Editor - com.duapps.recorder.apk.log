@@ -1,0 +1,255 @@
+[INTERNAL_LOG][2018-06-08 00:07:34,609][INFO][analyze_start()] Init Time [Fri Jun  8 00:07:34 2018]
+[INTERNAL_LOG][2018-06-08 00:07:34,678][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-08 00:07:34,680][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-08 00:07:34,680][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-08 00:07:34,680][INFO][is_hybird()] android.permission.BATTERY_STATS
+[INTERNAL_LOG][2018-06-08 00:07:34,680][INFO][is_hybird()] android.permission.GET_PACKAGE_SIZE
+[INTERNAL_LOG][2018-06-08 00:07:34,680][INFO][is_hybird()] android.permission.CHANGE_NETWORK_STATE
+[INTERNAL_LOG][2018-06-08 00:07:34,680][INFO][is_hybird()] android.permission.READ_LOGS
+[INTERNAL_LOG][2018-06-08 00:07:34,680][INFO][is_hybird()] android.permission.CHANGE_WIFI_MULTICAST_STATE
+[INTERNAL_LOG][2018-06-08 00:07:34,680][INFO][is_hybird()] android.permission.CHANGE_WIFI_STATE
+[INTERNAL_LOG][2018-06-08 00:07:34,680][INFO][is_hybird()] android.permission.MODIFY_AUDIO_SETTINGS
+[INTERNAL_LOG][2018-06-08 00:07:34,680][INFO][is_hybird()] android.permission.CHANGE_CONFIGURATION
+[INTERNAL_LOG][2018-06-08 00:07:34,680][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-08 00:07:34,680][INFO][is_hybird()] android.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-08 00:07:34,680][INFO][is_hybird()] android.permission.READ_SYNC_STATS
+[INTERNAL_LOG][2018-06-08 00:07:34,680][INFO][is_hybird()] android.permission.READ_SYNC_SETTINGS
+[INTERNAL_LOG][2018-06-08 00:07:34,680][INFO][is_hybird()] android.permission.WRITE_SYNC_SETTINGS
+[INTERNAL_LOG][2018-06-08 00:07:34,681][INFO][is_hybird()] android.permission.RECEIVE_BOOT_COMPLETED
+[INTERNAL_LOG][2018-06-08 00:07:34,681][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-08 00:07:34,681][INFO][is_hybird()] android.permission.READ_SECURE_SETTINGS
+[INTERNAL_LOG][2018-06-08 00:07:34,681][INFO][is_hybird()] android.permission.CLEAR_APP_CACHE
+[INTERNAL_LOG][2018-06-08 00:07:34,681][INFO][is_hybird()] android.permission.BROADCAST_STICKY
+[INTERNAL_LOG][2018-06-08 00:07:34,681][INFO][is_hybird()] android.permission.SYSTEM_ALERT_WINDOW
+[INTERNAL_LOG][2018-06-08 00:07:34,681][INFO][is_hybird()] android.permission.CAMERA
+[INTERNAL_LOG][2018-06-08 00:07:34,681][INFO][is_hybird()] android.permission.KILL_BACKGROUND_PROCESSES
+[INTERNAL_LOG][2018-06-08 00:07:34,681][INFO][is_hybird()] android.permission.GET_TASKS
+[INTERNAL_LOG][2018-06-08 00:07:34,681][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-08 00:07:34,681][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-08 00:07:34,681][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-08 00:07:34,681][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-08 00:07:34,681][INFO][is_hybird()] android.permission.READ_PHONE_STATE
+[INTERNAL_LOG][2018-06-08 00:07:34,681][INFO][is_hybird()] android.permission.RESTART_PACKAGES
+[INTERNAL_LOG][2018-06-08 00:07:34,681][INFO][is_hybird()] com.android.launcher.permission.INSTALL_SHORTCUT
+[INTERNAL_LOG][2018-06-08 00:07:34,681][INFO][is_hybird()] com.android.launcher.permission.UNINSTALL_SHORTCUT
+[INTERNAL_LOG][2018-06-08 00:07:34,681][INFO][is_hybird()] com.android.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-08 00:07:34,681][INFO][is_hybird()] com.android.launcher.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-08 00:07:34,681][INFO][is_hybird()] com.android.launcher3.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-08 00:07:34,681][INFO][is_hybird()] com.android.launcher3.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-08 00:07:34,681][INFO][is_hybird()] android.permission.RECORD_AUDIO
+[INTERNAL_LOG][2018-06-08 00:07:34,681][INFO][is_hybird()] android.permission.REORDER_TASKS
+[INTERNAL_LOG][2018-06-08 00:07:34,681][INFO][is_hybird()] android.permission.SET_ALARM
+[INTERNAL_LOG][2018-06-08 00:07:34,681][INFO][is_hybird()] android.permission.EXPAND_STATUS_BAR
+[INTERNAL_LOG][2018-06-08 00:07:34,682][INFO][is_hybird()] android.permission.PACKAGE_USAGE_STATS
+[INTERNAL_LOG][2018-06-08 00:07:34,682][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-08 00:07:34,682][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-08 00:07:34,682][INFO][is_hybird()] com.duapps.recorder.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-08 00:07:34,682][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-08 00:07:34,682][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-08 00:07:34,682][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-08 00:07:34,682][INFO][find_string()] File: assets/default_privacy_content.html
+[INTERNAL_LOG][2018-06-08 00:07:36,289][INFO][find_string()] No iframe in assets/default_privacy_content.html
+[INTERNAL_LOG][2018-06-08 00:07:36,289][INFO][find_string()] File: assets/faq/web_page_not_found.html
+[INTERNAL_LOG][2018-06-08 00:07:36,290][INFO][find_string()] No iframe in assets/faq/web_page_not_found.html
+[INTERNAL_LOG][2018-06-08 00:07:36,290][INFO][find_string()] File: assets/help.html
+[INTERNAL_LOG][2018-06-08 00:07:36,292][INFO][find_string()] No iframe in assets/help.html
+[INTERNAL_LOG][2018-06-08 00:07:36,292][INFO][find_string()] File: assets/privacy-policy.html
+[INTERNAL_LOG][2018-06-08 00:07:36,294][INFO][find_string()] No iframe in assets/privacy-policy.html
+[INTERNAL_LOG][2018-06-08 00:07:36,294][INFO][find_string()] File: assets/wifitrans/image_item.html
+[INTERNAL_LOG][2018-06-08 00:07:36,295][INFO][find_string()] No iframe in assets/wifitrans/image_item.html
+[INTERNAL_LOG][2018-06-08 00:07:36,295][INFO][find_string()] File: assets/wifitrans/mainpage.html
+[INTERNAL_LOG][2018-06-08 00:07:36,296][INFO][find_string()] No iframe in assets/wifitrans/mainpage.html
+[INTERNAL_LOG][2018-06-08 00:07:36,296][INFO][find_string()] File: assets/wifitrans/video_item.html
+[INTERNAL_LOG][2018-06-08 00:07:36,297][INFO][find_string()] No iframe in assets/wifitrans/video_item.html
+[INTERNAL_LOG][2018-06-08 00:07:36,297][INFO][find_string()] File: assets/ytb_wlogin/error_page.html
+[INTERNAL_LOG][2018-06-08 00:07:36,297][INFO][find_string()] No iframe in assets/ytb_wlogin/error_page.html
+[INTERNAL_LOG][2018-06-08 00:07:36,297][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-08 00:08:22,984][INFO][find_url_in_apk()] [START URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-08 00:08:22,984][INFO][find_url_in_apk()] https://www.youtube.com/live_dashboard
+
+[INTERNAL_LOG][2018-06-08 00:08:22,984][INFO][find_url_in_apk()] [END URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-08 00:08:23,521][INFO][find_string()] [START REMOTE FILE ANALYZE]
+[INTERNAL_LOG][2018-06-08 00:08:23,521][INFO][find_string()] Remote File in: temp_html_code/html_downloaded_DU Recorder _ Screen Recorder_ Video Editor_ Live by Screen Recorder _ Video Editor - com/live_dashboard
+[INTERNAL_LOG][2018-06-08 00:08:23,521][INFO][find_string()] URL: https://www.youtube.com/live_dashboard
+[INTERNAL_LOG][2018-06-08 00:08:23,532][INFO][find_string()] No iframe in temp_html_code/html_downloaded_DU Recorder _ Screen Recorder_ Video Editor_ Live by Screen Recorder _ Video Editor - com/live_dashboard
+[INTERNAL_LOG][2018-06-08 00:08:23,532][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-08 00:08:23,533][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-08 00:08:23,533][INFO][find_url_in_apk()] http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+https://t.appsflyer.com/api/v
+https://events.appsflyer.com/api/v
+https://register.appsflyer.com/api/v
+https://stats.appsflyer.com/stats
+https://crab.baidu.com/api_int/add_crab
+https://crab.baidu.com/api_anr/add_crab
+https://crab.baidu.com/api/newsync2
+http://cq01-tdw-bfe02.cq01.baidu.com:8090/batsdk/api/newsync2
+https://rts.ssl2.duapps.com/orts/rp?
+https://rts.ssl2.duapps.com/orts/rpb?
+https://iplua.api.xoxknct.com/orts/ua?
+https://sandbox.ssl2.duapps.com/orts/rp?
+https://sandbox.ssl2.duapps.com/orts/rpb?
+https://sandbox.ssl2.duapps.com/orts/ua?
+http://pasta.dianxinos.com/feedback
+http://pasta.dianxinos.com/api/tokens
+http://pasta.dianxinos.com/api/data
+http://sandbox.sjws.baidu.com:8080/statistics_feedback
+http://pasta.ds.duapps.com/feedback
+http://pasta.sd.duapps.com/feedback
+http://sandbox.sjws.baidu.com:8080/api/tokens
+http://pasta.ds.duapps.com/api/tokens
+http://pasta.sd.duapps.com/api/tokens
+http://sandbox.sjws.baidu.com:8080/api/data
+http://pasta.ds.duapps.com/api/data
+http://pasta.sd.duapps.com/api/data
+http://sandbox.duapps.com:8124/recommend/get
+http://nrc.ds.duapps.com/get
+http://nrc.sd.duapps.com/get
+http://nrc.tapas.net/get
+http://rec.in.tira.cn:8000/recommend/get
+http://api.mobula.sdk.duapps.com/adunion/slot/getDlAd?
+http://api.mobula.sdk.duapps.com/adunion/rtb/getInmobiAd?
+http://api.mobula.sdk.duapps.com/adunion/rtb/fetchAd?
+http://sandbox.duapps.com:8124/adunion/slot/getDlAd?
+http://sandbox.duapps.com:8124/adunion/rtb/getInmobiAd?
+http://sandbox.duapps.com:8124/adunion/rtb/fetchAd?
+http://api.mobula.sdk.duapps.com/adunion/slot/getSrcPrio?
+http://api.mobula.sdk.duapps.com/adunion/slot/getSrcPrio?
+http://sandbox.duapps.com:8124/adunion/slot/getSrcPrio?
+http://sandbox.duapps.com:8124/adunion/slot/getSrcPrio?
+http://api.mobula.sdk.duapps.com/adunion/slot/tdmr?
+http://rts.mobula.sdk.duapps.com/orts/rp?
+http://rts.mobula.sdk.duapps.com/orts/rpb?
+http://sandbox.duapps.com:8124/orts/rp?
+http://sandbox.duapps.com:8124/orts/rpb?
+http://market.android.com
+https://market.android.com
+https://play.google.com
+http://play.google.com
+https://nrcapi.ssl2.duapps.com/get
+http://pasta.durecorder.duapps.com/feedback
+http://pasta.durecorder.duapps.com/api/tokens
+http://pasta.durecorder.duapps.com/api/data
+http://api.recorder.duapps.com
+http://api.recorder.duapps.com
+https://passport.twitch.tv/signup
+https://passport.twitch.tv/signup
+https://passport.twitch.tv/sessions/new
+https://passport.twitch.tv/sessions/new
+https://passport.twitch.tv/sessions/new
+https://id.twitch.tv/oauth2/authorize
+https://id.twitch.tv/oauth2/authorize
+https://id.twitch.tv/oauth2/authorize
+http://localhost
+http://localhost
+http://localhost
+http://localhost
+https://www.googleapis.com/auth/youtube
+https://www.googleapis.com/auth/youtube
+https://www.googleapis.com/auth/youtube
+https://www.googleapis.com/auth/youtube
+https://www.googleapis.com/auth/youtube.force-ssl
+https://www.googleapis.com/auth/youtube.force-ssl
+https://www.googleapis.com/auth/youtube.force-ssl
+https://www.googleapis.com/auth/youtube.force-ssl
+http://donate.recorder.duapps.com/wap/qa/share/code.html?code=%s
+https://www.facebook.com
+https://api.twitch.tv/kraken/ingests
+https://tmi.twitch.tv/api/rooms/
+https://api.twitch.tv/kraken/channel
+https://api.twitch.tv/kraken/streams/
+https://api.twitch.tv/kraken/search/games?query=
+https://api.twitch.tv/kraken/channels/
+https://www.youtube.com/live_dashboard
+https://www.youtube.com/live_dashboard
+https://www.youtube.com/live_dashboard
+https://m.youtube.com/?client=mv-google&layout=mobile
+https://m.youtube.com/?layout=mobile&client=mv-google
+http://im.platform.duapps.com
+https://www.youtube.com/channel/UCtvNkr4kV3GAEHAFqe5UocQ
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+https://graph.facebook.com/network_ads_common
+https://graph.%s.facebook.com/network_ads_common
+https://www.facebook.com/adnw_logging/
+https://www.%s.facebook.com/adnw_logging/
+https://www.facebook.com/
+https://www.%s.facebook.com
+http://www.facebook.com
+https://graph.%s
+https://graph-video.%s
+https://facebook.com
+http://play.google.com/store/apps/details?id=com.facebook.orca
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+https://sdk-services.appsflyer.com/validate-android-signature
+https://api.appsflyer.com/install_data/v3/
+https://accounts.google.com/o/oauth2/token
+https://accounts.google.com/o/oauth2/token
+https://accounts.google.com/o/oauth2/token
+https://accounts.google.com/o/oauth2/token
+https://accounts.google.com/o/oauth2/token
+https://accounts.google.com/o/oauth2/token
+https://accounts.google.com/o/oauth2/token
+http://donate.recorder.duapps.com/wap/qa/share/cash.html?amount=
+https://www.youtube.com/watch?v=
+https://www.youtube.com/watch?v=
+https://www.youtube.com/watch?v=
+https://www.youtube.com/channel/
+https://www.youtube.com/channel/
+http://172.0.0.1:80
+https://goo.gl/9Dst8J
+http://m.facebook.com/ads/ad_choices
+http://m.facebook.com/ads/ad_choices
+https://www.%s.facebook.com/audience_network/server_side_reward
+https://www.facebook.com/audience_network/server_side_reward
+https://www.facebook.com/DURecorderOfficial
+https://www.durecorder.com/login
+https://www.durecorder.com/login
+https://accounts.google.com/o/oauth2/auth
+https://goo.gl/ExAHFd
+https://goo.gl/ExAHFd
+http://gs.rec.duapps.com/h5/QA/Question?
+https://api.twitch.tv/kraken/oauth2/authorize?action=authenticate
+https://www.youtube.com/signin?action_prompt_identity=true&next=%2Flive_streaming_signup&app=desktop
+https://plus.google.com/
+https://support.google.com/dfp_premium/answer/7160685#push
+https://pagead2.googlesyndication.com/pagead/gen_204
+http://www.google.com
+https://app-measurement.com/a
+http://www.example.com
+http://www.example.com
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/sdk-core-v40-impl.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://csi.gstatic.com/csi
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/native_ads.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/native_ads.js
+https://imasdk.googleapis.com/admob/sdkloader/native_video.html
+https://www.google.com/dfp/linkDevice
+https://www.google.com/dfp/inAppPreview
+https://www.google.com/dfp/debugSignals
+https://www.google.com/dfp/sendDebugData
+http://play.google.com/store/apps/details
+https://www.google.com
+https://www.google.com
+https://www.googleapis.com/oauth2/v1/certs
+http://169.254.169.254
+http://google.com/
+https://accounts.google.com
+https://www.googleapis.com/
+https://www.googleapis.com/auth/games_lite
+https://www.googleapis.com/auth/games
+
+[INTERNAL_LOG][2018-06-08 00:08:23,534][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-08 00:08:23,556][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-08 00:08:23,556][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-08 00:08:23,556][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-08 00:08:23,556][INFO][analyze_start()] End time:[Fri Jun  8 00:08:23 2018]

@@ -1,0 +1,416 @@
+[INTERNAL_LOG][2018-06-12 08:38:18,252][INFO][analyze_start()] Init Time [Tue Jun 12 08:38:18 2018]
+[INTERNAL_LOG][2018-06-12 08:38:18,409][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 08:38:18,410][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 08:38:18,410][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 08:38:18,410][INFO][is_hybird()] android.permission.CAMERA
+[INTERNAL_LOG][2018-06-12 08:38:18,411][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 08:38:18,411][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 08:38:18,411][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 08:38:18,411][INFO][is_hybird()] android.permission.READ_PHONE_STATE
+[INTERNAL_LOG][2018-06-12 08:38:18,411][INFO][is_hybird()] com.android.launcher.permission.INSTALL_SHORTCUT
+[INTERNAL_LOG][2018-06-12 08:38:18,411][INFO][is_hybird()] com.intsig.camscanner.Account
+[INTERNAL_LOG][2018-06-12 08:38:18,411][INFO][is_hybird()] com.sonymobile.permission.CAMERA_ADDON
+[INTERNAL_LOG][2018-06-12 08:38:18,411][INFO][is_hybird()] com.intsig.camscanner.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-12 08:38:18,411][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-12 08:38:18,411][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-12 08:38:18,411][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 08:38:18,411][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 08:38:18,411][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 08:38:18,411][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 08:38:18,411][INFO][find_string()] File: assets/vip/index_ar.html
+[INTERNAL_LOG][2018-06-12 08:38:18,414][INFO][find_string()] No iframe in assets/vip/index_ar.html
+[INTERNAL_LOG][2018-06-12 08:38:18,414][INFO][find_string()] File: assets/vip/index_br.html
+[INTERNAL_LOG][2018-06-12 08:38:18,416][INFO][find_string()] No iframe in assets/vip/index_br.html
+[INTERNAL_LOG][2018-06-12 08:38:18,416][INFO][find_string()] File: assets/vip/index_de.html
+[INTERNAL_LOG][2018-06-12 08:38:18,419][INFO][find_string()] No iframe in assets/vip/index_de.html
+[INTERNAL_LOG][2018-06-12 08:38:18,419][INFO][find_string()] File: assets/vip/index_en.html
+[INTERNAL_LOG][2018-06-12 08:38:18,421][INFO][find_string()] No iframe in assets/vip/index_en.html
+[INTERNAL_LOG][2018-06-12 08:38:18,422][INFO][find_string()] File: assets/vip/index_es.html
+[INTERNAL_LOG][2018-06-12 08:38:18,424][INFO][find_string()] No iframe in assets/vip/index_es.html
+[INTERNAL_LOG][2018-06-12 08:38:18,424][INFO][find_string()] File: assets/vip/index_fr.html
+[INTERNAL_LOG][2018-06-12 08:38:18,428][INFO][find_string()] No iframe in assets/vip/index_fr.html
+[INTERNAL_LOG][2018-06-12 08:38:18,428][INFO][find_string()] File: assets/vip/index_it.html
+[INTERNAL_LOG][2018-06-12 08:38:18,430][INFO][find_string()] No iframe in assets/vip/index_it.html
+[INTERNAL_LOG][2018-06-12 08:38:18,430][INFO][find_string()] File: assets/vip/index_ja.html
+[INTERNAL_LOG][2018-06-12 08:38:18,433][INFO][find_string()] No iframe in assets/vip/index_ja.html
+[INTERNAL_LOG][2018-06-12 08:38:18,433][INFO][find_string()] File: assets/vip/index_ko.html
+[INTERNAL_LOG][2018-06-12 08:38:18,436][INFO][find_string()] No iframe in assets/vip/index_ko.html
+[INTERNAL_LOG][2018-06-12 08:38:18,436][INFO][find_string()] File: assets/vip/index_pl.html
+[INTERNAL_LOG][2018-06-12 08:38:18,535][INFO][find_string()] No iframe in assets/vip/index_pl.html
+[INTERNAL_LOG][2018-06-12 08:38:18,535][INFO][find_string()] File: assets/vip/index_pt.html
+[INTERNAL_LOG][2018-06-12 08:38:18,537][INFO][find_string()] No iframe in assets/vip/index_pt.html
+[INTERNAL_LOG][2018-06-12 08:38:18,538][INFO][find_string()] File: assets/vip/index_ru.html
+[INTERNAL_LOG][2018-06-12 08:38:18,540][INFO][find_string()] No iframe in assets/vip/index_ru.html
+[INTERNAL_LOG][2018-06-12 08:38:18,540][INFO][find_string()] File: assets/vip/index_tr.html
+[INTERNAL_LOG][2018-06-12 08:38:18,542][INFO][find_string()] No iframe in assets/vip/index_tr.html
+[INTERNAL_LOG][2018-06-12 08:38:18,542][INFO][find_string()] File: assets/vip/index_tw.html
+[INTERNAL_LOG][2018-06-12 08:38:18,545][INFO][find_string()] No iframe in assets/vip/index_tw.html
+[INTERNAL_LOG][2018-06-12 08:38:18,545][INFO][find_string()] File: assets/vip/index_zh.html
+[INTERNAL_LOG][2018-06-12 08:38:18,547][INFO][find_string()] No iframe in assets/vip/index_zh.html
+[INTERNAL_LOG][2018-06-12 08:38:18,548][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 08:38:18,548][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 08:38:18,548][INFO][find_string()] File: assets/vip/js/iu.base.js
+[INTERNAL_LOG][2018-06-12 08:38:18,549][INFO][find_string()] No iframe in assets/vip/js/iu.base.js
+[INTERNAL_LOG][2018-06-12 08:38:18,549][INFO][find_string()] File: assets/vip/js/jquery.min.js
+[INTERNAL_LOG][2018-06-12 08:38:18,555][INFO][find_string()] No iframe in assets/vip/js/jquery.min.js
+[INTERNAL_LOG][2018-06-12 08:38:18,555][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 08:39:14,794][INFO][find_url_in_apk()] [START URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-12 08:39:14,794][INFO][find_url_in_apk()] https://www.box.com/api/oauth2/authorize?response_type=code&client_id=ylcce90kv3kzfk9x0obogn26johb27pd&state=authenticated
+http://qzs.qq.com/open/mobile/login/qzsjump.html?
+
+[INTERNAL_LOG][2018-06-12 08:39:14,794][INFO][find_url_in_apk()] [END URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-12 08:39:17,437][INFO][find_string()] [START REMOTE FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 08:39:17,437][INFO][find_string()] Remote File in: temp_html_code/html_downloaded_CamScanner - Phone PDF Creator by INTSIG Information Co/authorize?response_type=code&client_id=ylcce90kv3kzfk9x0obogn26johb27pd&state=authenticated
+[INTERNAL_LOG][2018-06-12 08:39:17,437][INFO][find_string()] URL: https://www.box.com/api/oauth2/authorize?response_type=code&client_id=ylcce90kv3kzfk9x0obogn26johb27pd&state=authenticated
+[INTERNAL_LOG][2018-06-12 08:39:17,441][INFO][find_string()] No iframe in temp_html_code/html_downloaded_CamScanner - Phone PDF Creator by INTSIG Information Co/authorize?response_type=code&client_id=ylcce90kv3kzfk9x0obogn26johb27pd&state=authenticated
+[INTERNAL_LOG][2018-06-12 08:39:17,441][INFO][find_string()] Remote File in: temp_html_code/html_downloaded_CamScanner - Phone PDF Creator by INTSIG Information Co/qzsjump.html?
+[INTERNAL_LOG][2018-06-12 08:39:17,442][INFO][find_string()] URL: http://qzs.qq.com/open/mobile/login/qzsjump.html?
+[INTERNAL_LOG][2018-06-12 08:39:17,443][INFO][find_string()] Found this tag <iframe id="jumpIframe" style="display:none;"></iframe>
+[INTERNAL_LOG][2018-06-12 08:39:17,443][INFO][find_string()] Found in file temp_html_code/html_downloaded_CamScanner - Phone PDF Creator by INTSIG Information Co/qzsjump.html? tag iframe , 1 times
+[INTERNAL_LOG][2018-06-12 08:39:17,443][INFO][find_string()] No src founded in iframe tag inside file temp_html_code/html_downloaded_CamScanner - Phone PDF Creator by INTSIG Information Co/qzsjump.html?
+[INTERNAL_LOG][2018-06-12 08:39:17,444][INFO][find_string()] No CSP found!
+[INTERNAL_LOG][2018-06-12 08:39:17,444][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 08:39:17,444][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 08:39:17,444][INFO][find_url_in_apk()] http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+http://schemas.applovin.com/android/1.0
+http://schemas.applovin.com/android/1.0
+https://d.applovin.com/
+https://a.applovin.com/
+https://rt.applovin.com/med
+https://rt.applovin.com/pix
+https://d.applvn.com/
+https://a.applvn.com/
+https://rt.applvn.com/pix
+https://vid.applovin.com/,https://pdn.applovin.com/,https://img.applovin.com/,https://d.applovin.com/,https://assets.applovin.com/,https://cdnjs.cloudflare.com/,http://vid.applovin.com/,http://pdn.applovin.com/,http://img.applovin.com/,http://d.applovin.com/,http://assets.applovin.com/,http://cdnjs.cloudflare.com/
+https://graph.facebook.com/network_ads_common
+https://graph.%s.facebook.com/network_ads_common
+https://www.facebook.com/adnw_logging/
+https://www.%s.facebook.com/adnw_logging/
+http://play.google.com/store/apps/
+https://www.facebook.com/
+https://www.%s.facebook.com
+http://www.facebook.com
+https://graph.%s
+https://graph-video.%s
+https://facebook.com
+http://play.google.com/store/apps/details?id=com.facebook.orca
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+https://plus.google.com/
+https://mobilecrashreporting.googleapis.com/v1/crashes:batchCreate?key=
+http://www.example.com
+http://www.example.com
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/sdk-core-v40-impl.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://csi.gstatic.com/csi
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/native_ads.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/native_ads.js
+https://imasdk.googleapis.com/admob/sdkloader/native_video.html
+https://www.google.com/dfp/linkDevice
+https://www.google.com/dfp/inAppPreview
+https://www.google.com/dfp/debugSignals
+https://www.google.com/dfp/sendDebugData
+https://pagead2.googlesyndication.com/pagead/gen_204
+http://www.google.com
+https://support.google.com/dfp_premium/answer/7160685#push
+https://app-measurement.com/a
+https://www.googleapis.com/auth/plus.login
+https://www.googleapis.com/auth/plus.me
+http://schemas.android.com/apk/lib/com.google.android.gms.plus
+http://schemas.android.com/apk/lib/com.google.android.gms.plus
+http://schemas.android.com/apk/lib/com.inmobi.ads
+https://i.l.inmobicdn.net/sdk/sdk/500/android/mraid.js
+http://www.inmobi.com/products/sdk/#downloads
+https://auth.intsig.net/GenKey/ActivateBySerialNo?
+http://www.camscanner.com/mobile/camcard?language=
+https://cms.camcard.com/a/v/cdbfde01da653b219f116bec6132e27f0
+https://cms.camcard.com/a/v/cdbfde01da653b219f116bec6132e27f0
+https://cms.camcard.com/a/v/ca8504a02a85d62b5d023f821938e2411
+https://cms.camcard.com/a/v/ca8504a02a85d62b5d023f821938e2411
+https://cms.camcard.com/a/v/cb5d4f15adbc4777bc546909569cb0d34
+https://cms.camcard.com/a/v/cb5d4f15adbc4777bc546909569cb0d34
+https://d2100.intsig.net/sync/download_bug?id=
+https://api-sandbox.intsig.net/user
+https://download.intsig.net/app
+https://bcrs-sandbox.intsig.net/bcr
+https://api-sandbox.intsig.net/purchase
+https://api-sandbox.intsig.net/purchase
+https://api-sandbox.intsig.net/purchase
+http://static.intsig.net/r/appdata/5d/sandbox/
+https://api-sandbox.intsig.net/co
+https://a-sandbox.intsig.net
+https://d2100.intsig.net/sync
+http://b.camcard.me/mobile/cscamcard
+https://api-sandbox.intsig.net/qr_login
+https://docs-sandbox.intsig.net/docs
+https://api-sandbox.intsig.net/profile
+https://api-pre.intsig.net/user
+https://bcrs-pre.intsig.net/bcr
+https://api-pre.intsig.net/purchase
+https://api-pre.intsig.net/purchase
+http://static.intsig.net/r/appdata/5d/
+https://api-pre.intsig.net/co
+https://a-pre.intsig.net
+https://b12013.camcard.com/mobile/cscamcard
+https://api-pre.intsig.net/qr_login
+https://docs-pre.intsig.net/docs
+https://a.intsig.net
+https://api.intsig.net/profile
+https://api.intsig.net/user
+https://bcrs.intsig.net/bcr
+https://api.intsig.net/purchase
+https://api.intsig.net/purchase
+https://api.intsig.net/purchase
+https://api.intsig.net/co
+https://b.camcard.com/mobile/cscamcard
+https://api.intsig.net/qr_login
+https://docs.intsig.net/docs
+https://api-sandbox.intsig.net
+https://api-sandbox.intsig.net/FaxService
+http://www.camscanner.me
+http://www.camscanner.me
+http://www.camscanner.me
+https://shop-test.intsig.net
+https://api.intsig.net
+https://api.intsig.net
+https://api.intsig.net/FaxService
+http://www.camscanner.net
+https://store.intsig.net
+http://w12013.camscanner.net
+https://w12013.camscanner.com
+https://w12013.camscanner.com
+https://www.camscanner.com
+https://www.camscanner.com
+https://d2100.intsig.net:5443/sync/upload_bug?
+https://www.camscanner.me
+https://play.google.com/store/apps/details?id=%s
+https://sdkm.w.inmobi.com/metrics/e.asm?v=1&
+https://api.weibo.com/oauth2/access_token
+https://api.weibo.com/oauth2/access_token
+https://play.google.com/store
+http://m.facebook.com/ads/ad_choices
+http://m.facebook.com/ads/ad_choices
+https://www.%s.facebook.com/audience_network/server_side_reward
+https://www.facebook.com/audience_network/server_side_reward
+https://www.google.com
+http://www.w3.org/ns/ttml#parameter
+https://www.googleapis.com/auth/games_lite
+https://www.googleapis.com/auth/games
+http://twitter.com/home?status=
+https://m.google.com/app/plus/x/?v=compose&content=
+https://www.facebook.com/dialog/feed?app_id=181821551957328&link=
+http://dock.inmobi.com/carb/v1/i
+http://dock.inmobi.com/carb/v1/o
+https://sdkm.w.inmobi.com/user/e.asm
+https://mobile-static.adsafeprotected.com/avid-v2.js
+https://www.camscanner.com/user/download
+https://www.camscanner.com/user/download
+https://www.camscanner.com/user/download
+https://paytm.com/google-play-gift-card-recharge
+https://paytm.com/google-play-gift-card-recharge
+https://download.intsig.net/app/query_updates3
+https://d2149.intsig.net/app/query_updates3
+https://cc.co/16X7YD
+https://www.googleapis.com/auth/cloudprint
+https://www.googleapis.com/auth/cloudprint
+https://www.googleapis.com/auth/cloudprint
+https://www.googleapis.com/auth/cloudprint
+https://www.googleapis.com/auth/cloudprint
+https://www.googleapis.com/auth/cloudprint
+https://www.googleapis.com/auth/cloudprint
+https://bcrs1.intsig.net/bcr/BCRSDK_Update_Usage_2
+https://bcrs1-sandbox.intsig.net/bcr/BCRSDK_Update_Usage_2
+https://msp.alipay.com/x.htm
+http://resource.intsig.net/appdata/camscanner/android/ScannerRewardRatio.xml
+http://s.intsig.net/r/appdata/camscanner/android/
+http://s.intsig.net/r/appdata/camscanner/android/
+https://www.camscanner.me/cooper/regsucc?
+https://www.camscanner.me/cooper/docshow?
+http://short.intsig.net/
+https://w12013.camscanner.com/cooper/regsucc?
+https://w12013.camscanner.com/cooper/docshow?
+http://cn2.me/
+https://www.camscanner.com/cooper/regsucc?
+https://www.camscanner.com/cooper/docshow?
+https://www.camscanner.me/site/mobile?
+http://www.camscanner.me/site/mobile?
+https://w12013.camscanner.com/site/mobile?
+http://w12013.camscanner.com/site/mobile?
+https://www.camscanner.com/site/mobile?
+http://www.camscanner.com/site/mobile?
+http://www.camscanner.com/
+http://www.camscanner.com/
+http://www.camscanner.me/
+http://www.camscanner.me/
+https://api.intsig.net/purchase/update_vip_property?referer=
+http://shop.intsig.net
+http://www.intsig.com/home/2010-09-15-06-01-38
+http://www.intsig.com
+http://www.intsig.com
+http://www.intsig.com
+http://www.intsig.com
+http://www.intsig.com
+http://api.intsig.net/payment_mobile/checkout_success.php
+http://api.intsig.net/payment_mobile/checkout_success.php
+http://api.intsig.net/payment_mobile/checkout_success.php
+http://www.camscanner.com/app/privacy?language=
+http://www.camscanner.me/app/privacy?language=
+http://www.camscanner.com/app/service?language=
+http://www.camscanner.me/app/service?language=
+http://cc.co/16X0CW
+http://www.intsig.com/appstar/index.php?
+http://official-test.intsig.net/appstar/index.php?
+http://w12013.intsig.net/appstar/index.php?
+https://www.box.com/api/oauth2/authorize?response_type=code&client_id=ylcce90kv3kzfk9x0obogn26johb27pd&state=authenticated
+https://api.box.com/2.0/folders/
+https://api.box.com/2.0/users/me?access_token=
+https://www.box.com/api/oauth2/token
+https://www.box.com/api/oauth2/token
+https://upload.box.com/api/2.0/files/content
+https://api.box.com/2.0/folders
+https://www.box.com/api/oauth2/revoke
+https://www.camscanner.com/dropbox-auth-finish
+https://www.dropbox.com/oauth2/authorize?client_id=
+https://api.dropboxapi.com/oauth2/token
+https://api.dropboxapi.com/oauth2/token   :
+https://sandbox.evernote.com
+https://sandbox.evernote.com
+https://app.yinxiang.com
+https://app.yinxiang.com
+https://www.evernote.com
+https://www.evernote.com
+https://www.evernote.com
+https://apis.live.net/v5.0
+https://login.live.com/oauth20_authorize.srf
+https://login.live.com/oauth20_desktop.srf
+https://login.live.com/oauth20_desktop.srf
+https://login.live.com/oauth20_desktop.srf
+https://login.live.com/oauth20_logout.srf
+https://login.live.com/oauth20_token.srf
+https://login.live.com/oauth20_token.srf
+https://login.live.com/oauth20_token.srf
+http://info.camcard.me
+http://info.camcard.me
+http://info.camcard.com
+http://info.camcard.com
+http://info12013.camcard.com
+https://info.camcard.com
+https://info.camcard.me
+https://info12013.camcard.com
+https://z.moatads.com/
+https://play.google.com/store/apps/details?id=
+https://play.google.com/
+https://play.google.com/
+https://play.google.com/
+http://qzs.qq.com/open/mobile/login/qzsjump.html?
+http://qzs.qq.com/open/mobile/login/qzsjump.html?
+http://qzs.qq.com/open/mobile/login/qzsjump.html?
+http://openmobile.qq.com/oauth2.0/m_jump_by_version?
+https://long.open.weixin.qq.com/connect/l/qrconnect?f=json&uuid=%s
+http://c.isdspeed.qq.com/code.cgi
+http://wspeed.qq.com/w.cgi
+http://appsupport.qq.com/cgi-bin/appstage/mstats_batch_report
+https://openmobile.qq.com/
+http://cgi.connect.qq.com/qqconnectopen/openapi/policy_conf
+https://settings.crashlytics.com/spi/v2/platforms/android/apps/%s/settings
+http://support.google.com/cloudprint/
+https://www.google.com/cloudprint/submit?output=json
+https://www.google.com/cloudprint/submit?output=json
+https://www.google.com/cloudprint/jobs?output=json
+https://www.google.com/cloudprint/search?output=json
+https://secure.efaxdeveloper.com/EFax_WebFax.serv
+https://api.weixin.qq.com/pay/genprepay?access_token=%s
+http://api.intsig.net/payment_mobile/callback/gen_activation_code.php
+http://store.intsig.net/mobile/guide?
+http://store.intsig.net/mobile/guide?type=cc&did=
+http://store.intsig.net/mobile/guide?type=cs&did=
+http://store.intsig.net/mobile/guide?type=cd&did=
+https://api.twitter.com/oauth/request_token
+https://api.twitter.com/oauth/authorize?oauth_token=
+https://api.twitter.com/oauth/access_token
+https://api.twitter.com/1.1/statuses/update.json
+https://api.twitter.com/1.1/statuses/update_with_media.json
+https://api.twitter.com/1.1/friendships/create.json
+https://api.twitter.com/1.1/statuses/retweet/:id.json
+https://api.intsig.net/corp
+http://192.168.1.145:8080
+https://www.googleapis.com/auth/drive https://www.googleapis.com/auth/userinfo.email
+https://www.googleapis.com/auth/drive https://www.googleapis.com/auth/userinfo.email
+https://www.googleapis.com/auth/drive https://www.googleapis.com/auth/userinfo.email
+https://www.googleapis.com/auth/drive https://www.googleapis.com/auth/userinfo.email
+https://www.googleapis.com/auth/drive https://www.googleapis.com/auth/userinfo.email
+https://www.googleapis.com/auth/drive https://www.googleapis.com/auth/userinfo.email
+https://www.googleapis.com/auth/drive https://www.googleapis.com/auth/userinfo.email
+https://www.googleapis.com/auth/drive https://www.googleapis.com/auth/userinfo.email
+https://www.googleapis.com/auth/drive https://www.googleapis.com/auth/userinfo.email
+https://www.onenote.com/api/v1.0/notebooks
+https://www.onenote.com/api/v1.0/notebooks/
+https://www.onenote.com/api/v1.0/sections/
+https://www.onenote.com/api/v1.0/notebooks?select=id,name&filter=
+http://appsupport.qq.com/cgi-bin/qzapps/mapp_addapp.cgi
+http://appsupport.qq.com/cgi-bin/qzapps/mapp_addapp.cgi
+http://openmobile.qq.com/oauth2.0/m_authorize?
+https://openmobile.qq.com/user/user_login_statis
+https://openmobile.qq.com/v3/user/get_info
+http://fusion.qq.com/cgi-bin/qzapps/unified_jump?appid=%1$s&from=%2$s&isOpenAppID=1
+http://fusion.qq.com/cgi-bin/qzapps/unified_jump?appid=%1$s&from=%2$s&isOpenAppID=1
+http://qzs.qq.com/open/mobile/request/sdk_request.html?
+http://qzs.qq.com/open/mobile/invite/sdk_invite.html?
+http://qzs.qq.com/open/mobile/sendstory/sdk_sendstory_v1.3.html?
+http://qzs.qq.com
+https://e.crashlytics.com/spi/v2/events
+http://s.intsig.net/r/software/inapp/Android_Note.zip
+http://s.intsig.net/r/software/inapp/Android_Note.zip
+https://api.weibo.com/2/statuses/share.json
+https://api.weibo.com/2/statuses/share.json
+https://api.weibo.com/2/statuses/repost.json
+https://api.weibo.com/2/friendships/create.json
+https://www.evernote.com/oauth
+https://www.evernote.com/oauth
+https://www.evernote.com/OAuth.action?oauth_token=%s
+http://cc.co/16SgEX
+http://cc.co/16SBmV
+https://app.yinxiang.com/oauth
+https://app.yinxiang.com/oauth
+https://app.yinxiang.com/OAuth.action?oauth_token=%s
+https://sandbox.evernote.com/oauth
+https://sandbox.evernote.com/oauth
+https://sandbox.evernote.com/OAuth.action?oauth_token=%s
+https://w12013.camscanner.com/oauth/mlogin
+https://www.camscanner.com/oauth/mlogin
+http://www.camscanner.me/oauth/mlogin
+http://www.camscanner.me/app/premiumFeature
+https://s.intsig.net/tmp/CamScanner_4.0.1.20160708.apk
+http://s.intsig.net/r/manual/CamScanner_Android3.0_zh-cn.html
+http://s.intsig.net/r/manual/CamScanner_Android3.0_zh-tw.html
+http://s.intsig.net/r/manual/CamScanner_Android3.0_ja-jp.html
+http://s.intsig.net/r/manual/CamScanner_Android3.0_de-de.html
+http://s.intsig.net/r/manual/CamScanner_Android3.0_fr-fr.html
+http://s.intsig.net/r/manual/CamScanner_Android3.0_ko-kr.html
+http://s.intsig.net/r/manual/CamScanner_Android3.0_es-es.html
+http://s.intsig.net/r/manual/CamScanner_Android3.0_en-us.html
+https://www.wenjuan.com/s/nURJrq/
+https://goo.gl/forms/2V4l9nWczvrqf6aE2
+http://www.facebook.com/pages/CamScannerIntSig/167881543241929
+http://www.facebook.com/pages/CamScannerIntSig/167881543241929
+https://twitter.com/CamScanner
+https://twitter.com/CamScanner
+http://www.camscanner.com/mobile/wheel?
+http://www.camscanner.me/mobile/wheel?
+http://www.camscanner.com/mobile/faq?
+
+[INTERNAL_LOG][2018-06-12 08:39:17,444][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 08:39:17,462][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 08:39:17,462][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 08:39:17,462][INFO][analyze_start()] This app might be vulnerable on attack frame confusion, This file are vulnerable ['temp_html_code/html_downloaded_CamScanner - Phone PDF Creator by INTSIG Information Co/qzsjump.html?']
+[INTERNAL_LOG][2018-06-12 08:39:17,462][INFO][analyze_start()] End time:[Tue Jun 12 08:39:17 2018]

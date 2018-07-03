@@ -1,0 +1,108 @@
+[INTERNAL_LOG][2018-06-12 08:33:49,824][INFO][analyze_start()] Init Time [Tue Jun 12 08:33:49 2018]
+[INTERNAL_LOG][2018-06-12 08:33:49,872][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 08:33:49,872][INFO][is_hybird()] Hybrid file found are: ['res/xml/config.xml']
+[INTERNAL_LOG][2018-06-12 08:33:49,872][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 08:33:49,872][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 08:33:49,872][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 08:33:49,872][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 08:33:49,872][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 08:33:49,872][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-12 08:33:49,872][INFO][is_hybird()] com.famobi.tabletennisworldtour.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-12 08:33:49,872][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 08:33:49,873][INFO][is_hybird()] Starting apktool
+[INTERNAL_LOG][2018-06-12 08:33:59,902][INFO][check_whitelist()] [INIT ACCESS ORIGIN LIST]
+[INTERNAL_LOG][2018-06-12 08:33:59,908][INFO][check_whitelist()] origin: *
+[INTERNAL_LOG][2018-06-12 08:33:59,908][INFO][check_whitelist()] [END ACCESS ORIGIN LIST]
+
+[INTERNAL_LOG][2018-06-12 08:34:00,020][INFO][analyze_start()] TYPE APK: [HYBRID]
+
+[INTERNAL_LOG][2018-06-12 08:34:00,031][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 08:34:00,036][INFO][find_string()] File: assets/www/audio/index.html
+[INTERNAL_LOG][2018-06-12 08:34:00,088][INFO][find_string()] No iframe in assets/www/audio/index.html
+[INTERNAL_LOG][2018-06-12 08:34:00,094][INFO][find_string()] File: assets/www/images/index.html
+[INTERNAL_LOG][2018-06-12 08:34:00,136][INFO][find_string()] No iframe in assets/www/images/index.html
+[INTERNAL_LOG][2018-06-12 08:34:00,157][INFO][find_string()] File: assets/www/index.html
+[INTERNAL_LOG][2018-06-12 08:34:00,342][INFO][find_string()] No iframe in assets/www/index.html
+[INTERNAL_LOG][2018-06-12 08:34:00,363][INFO][find_string()] File: assets/www/index_app.html
+[INTERNAL_LOG][2018-06-12 08:34:00,538][INFO][find_string()] No iframe in assets/www/index_app.html
+[INTERNAL_LOG][2018-06-12 08:34:00,553][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 08:34:00,579][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 08:34:00,595][INFO][find_string()] File: assets/www/cordova-js-src/android/nativeapiprovider.js
+[INTERNAL_LOG][2018-06-12 08:34:00,631][INFO][find_string()] No iframe in assets/www/cordova-js-src/android/nativeapiprovider.js
+[INTERNAL_LOG][2018-06-12 08:34:00,652][INFO][find_string()] File: assets/www/cordova-js-src/android/promptbasednativeapi.js
+[INTERNAL_LOG][2018-06-12 08:34:00,683][INFO][find_string()] No iframe in assets/www/cordova-js-src/android/promptbasednativeapi.js
+[INTERNAL_LOG][2018-06-12 08:34:00,704][INFO][find_string()] File: assets/www/cordova-js-src/exec.js
+[INTERNAL_LOG][2018-06-12 08:34:00,884][INFO][find_string()] No iframe in assets/www/cordova-js-src/exec.js
+[INTERNAL_LOG][2018-06-12 08:34:00,905][INFO][find_string()] File: assets/www/cordova-js-src/platform.js
+[INTERNAL_LOG][2018-06-12 08:34:00,998][INFO][find_string()] No iframe in assets/www/cordova-js-src/platform.js
+[INTERNAL_LOG][2018-06-12 08:34:01,019][INFO][find_string()] File: assets/www/cordova-js-src/plugin/android/app.js
+[INTERNAL_LOG][2018-06-12 08:34:01,050][INFO][find_string()] No iframe in assets/www/cordova-js-src/plugin/android/app.js
+[INTERNAL_LOG][2018-06-12 08:34:01,056][INFO][find_string()] File: assets/www/cordova.js
+[INTERNAL_LOG][2018-06-12 08:34:04,763][INFO][find_string()] No iframe in assets/www/cordova.js
+[INTERNAL_LOG][2018-06-12 08:34:04,784][INFO][find_string()] File: assets/www/cordova_plugins.js
+[INTERNAL_LOG][2018-06-12 08:34:04,820][INFO][find_string()] No iframe in assets/www/cordova_plugins.js
+[INTERNAL_LOG][2018-06-12 08:34:04,841][INFO][find_string()] File: assets/www/famobi.js
+[INTERNAL_LOG][2018-06-12 08:34:06,404][INFO][find_string()] No iframe in assets/www/famobi.js
+[INTERNAL_LOG][2018-06-12 08:34:06,425][INFO][find_string()] File: assets/www/famobi_js/app.js
+[INTERNAL_LOG][2018-06-12 08:34:06,543][INFO][find_string()] No iframe in assets/www/famobi_js/app.js
+[INTERNAL_LOG][2018-06-12 08:34:06,563][INFO][find_string()] File: assets/www/famobi_js/settings.js
+[INTERNAL_LOG][2018-06-12 08:34:06,605][INFO][find_string()] No iframe in assets/www/famobi_js/settings.js
+[INTERNAL_LOG][2018-06-12 08:34:06,625][INFO][find_string()] File: assets/www/html5games/gameapi/v1.js
+[INTERNAL_LOG][2018-06-12 08:34:09,691][INFO][find_string()] No iframe in assets/www/html5games/gameapi/v1.js
+[INTERNAL_LOG][2018-06-12 08:34:09,712][INFO][find_string()] File: assets/www/html5games/gameapi/v1/webkitAudioContextMonkeyPatch.js
+[INTERNAL_LOG][2018-06-12 08:34:09,794][INFO][find_string()] No iframe in assets/www/html5games/gameapi/v1/webkitAudioContextMonkeyPatch.js
+[INTERNAL_LOG][2018-06-12 08:34:09,814][INFO][find_string()] File: assets/www/html5games/gameapi/v1/webkitAudioContextMonkeyPatch.min.js
+[INTERNAL_LOG][2018-06-12 08:34:09,891][INFO][find_string()] No iframe in assets/www/html5games/gameapi/v1/webkitAudioContextMonkeyPatch.min.js
+[INTERNAL_LOG][2018-06-12 08:34:09,912][INFO][find_string()] File: assets/www/js/all.js
+[INTERNAL_LOG][2018-06-12 08:34:15,022][INFO][find_string()] No iframe in assets/www/js/all.js
+[INTERNAL_LOG][2018-06-12 08:34:15,023][INFO][find_string()] File: assets/www/plugins/cordova-famobi-sdk/www/FamobiPlugin.js
+[INTERNAL_LOG][2018-06-12 08:34:15,023][INFO][find_string()] No iframe in assets/www/plugins/cordova-famobi-sdk/www/FamobiPlugin.js
+[INTERNAL_LOG][2018-06-12 08:34:15,023][INFO][find_string()] File: res/raw/launch_screen_api.js
+[INTERNAL_LOG][2018-06-12 08:34:15,023][INFO][find_string()] No iframe in res/raw/launch_screen_api.js
+[INTERNAL_LOG][2018-06-12 08:34:15,024][INFO][find_string()] File: res/raw/wifidirect_api.js
+[INTERNAL_LOG][2018-06-12 08:34:15,024][INFO][find_string()] No iframe in res/raw/wifidirect_api.js
+[INTERNAL_LOG][2018-06-12 08:34:15,024][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 08:34:16,361][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 08:34:16,362][INFO][find_url_in_apk()] https://api.famobi.com/sda/description/
+https://attribution-api.staging.gc.famobi.com
+https://attribution-api.famobi.com
+https://play.famobi.com/play/hit/
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+http://hostname/?
+http://hostname/?
+https://www.googleapis.com/auth/games
+https://plus.google.com/
+http://www.google-analytics.com
+https://ssl.google-analytics.com
+http://www.example.com
+http://www.example.com
+https://app-measurement.com/a
+https://www.google.com
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://csi.gstatic.com/csi
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/native_ads.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/native_video_ads.html
+https://www.google.com/dfp/linkDevice
+https://www.google.com/dfp/inAppPreview
+https://www.google.com/dfp/debugSignals
+https://www.google.com/dfp/sendDebugData
+https://pagead2.googlesyndication.com/pagead/gen_204
+http://www.google.com
+https://support.google.com/dfp_premium/answer/7160685#push
+https://www.googletagmanager.com
+https://ssl.gstatic.com/accessibility/javascript/android/
+http://schemas.android.com/apk/res-auto
+
+[INTERNAL_LOG][2018-06-12 08:34:16,362][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 08:34:16,376][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 08:34:16,376][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 08:34:16,376][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 08:34:16,376][INFO][analyze_start()] End time:[Tue Jun 12 08:34:16 2018]

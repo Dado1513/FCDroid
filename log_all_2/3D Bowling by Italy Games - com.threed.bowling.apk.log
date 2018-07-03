@@ -1,0 +1,112 @@
+[INTERNAL_LOG][2018-06-12 09:38:36,427][INFO][analyze_start()] Init Time [Tue Jun 12 09:38:36 2018]
+[INTERNAL_LOG][2018-06-12 09:38:36,454][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 09:38:36,455][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 09:38:36,455][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 09:38:36,455][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 09:38:36,455][INFO][is_hybird()] android.permission.READ_PHONE_STATE
+[INTERNAL_LOG][2018-06-12 09:38:36,455][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 09:38:36,455][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 09:38:36,455][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 09:38:36,455][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 09:38:36,455][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 09:38:36,455][INFO][find_string()] File: js/closebutton.html
+[INTERNAL_LOG][2018-06-12 09:38:36,456][INFO][find_string()] No iframe in js/closebutton.html
+[INTERNAL_LOG][2018-06-12 09:38:36,456][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 09:38:36,456][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 09:38:36,456][INFO][find_string()] File: js/mraid.js
+[INTERNAL_LOG][2018-06-12 09:38:36,468][INFO][find_string()] No iframe in js/mraid.js
+[INTERNAL_LOG][2018-06-12 09:38:36,468][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 09:38:45,843][INFO][find_url_in_apk()] [START URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-12 09:38:45,843][INFO][find_url_in_apk()] http://www.runnergameshk.com/?pd=com.game.JewelsStar
+http://play.google.com/store/apps/
+http://play.google.com/store/apps/
+http://play.google.com/store/apps/
+http://play.google.com/store/apps/
+http://featured.perfectionholic.com:8080/moregames/index_app.html
+http://featured.perfectionholic.com:8080/moregames/index_app.html
+http://featured.perfectionholic.com:8080/moregames/index.html
+http://featured.perfectionholic.com:8080/moregames/index.html
+http://featured.perfectionholic.com:8080/moregames/index.html
+http://featured.perfectionholic.com:8080/moregames/index.html
+
+[INTERNAL_LOG][2018-06-12 09:38:45,843][INFO][find_url_in_apk()] [END URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-12 09:38:47,684][ERROR][download_page_loaded()] Failed download: http://play.google.com/store/apps/ for exception [Errno 21] Is a directory: 'temp_html_code/html_downloaded_3D Bowling by Italy Games - com/'
+[INTERNAL_LOG][2018-06-12 09:38:48,405][ERROR][download_page_loaded()] Failed download: http://play.google.com/store/apps/ for exception [Errno 21] Is a directory: 'temp_html_code/html_downloaded_3D Bowling by Italy Games - com/'
+[INTERNAL_LOG][2018-06-12 09:38:49,322][ERROR][download_page_loaded()] Failed download: http://play.google.com/store/apps/ for exception [Errno 21] Is a directory: 'temp_html_code/html_downloaded_3D Bowling by Italy Games - com/'
+[INTERNAL_LOG][2018-06-12 09:38:50,036][ERROR][download_page_loaded()] Failed download: http://play.google.com/store/apps/ for exception [Errno 21] Is a directory: 'temp_html_code/html_downloaded_3D Bowling by Italy Games - com/'
+[INTERNAL_LOG][2018-06-12 09:38:50,527][ERROR][download_page_loaded()] Failed response code: 404 for http://featured.perfectionholic.com:8080/moregames/index_app.html  
+[INTERNAL_LOG][2018-06-12 09:38:50,775][ERROR][download_page_loaded()] Failed response code: 404 for http://featured.perfectionholic.com:8080/moregames/index_app.html  
+[INTERNAL_LOG][2018-06-12 09:38:52,799][INFO][find_string()] [START REMOTE FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 09:38:52,799][INFO][find_string()] Remote File in: temp_html_code/html_downloaded_3D Bowling by Italy Games - com/?pd=com.game.JewelsStar
+[INTERNAL_LOG][2018-06-12 09:38:52,799][INFO][find_string()] URL: http://www.runnergameshk.com/?pd=com.game.JewelsStar
+[INTERNAL_LOG][2018-06-12 09:38:52,810][INFO][find_string()] No iframe in temp_html_code/html_downloaded_3D Bowling by Italy Games - com/?pd=com.game.JewelsStar
+[INTERNAL_LOG][2018-06-12 09:38:52,810][INFO][find_string()] Remote File in: temp_html_code/html_downloaded_3D Bowling by Italy Games - com/index.html
+[INTERNAL_LOG][2018-06-12 09:38:52,810][INFO][find_string()] URL: http://featured.perfectionholic.com:8080/moregames/index.html
+[INTERNAL_LOG][2018-06-12 09:38:52,819][INFO][find_string()] No iframe in temp_html_code/html_downloaded_3D Bowling by Italy Games - com/index.html
+[INTERNAL_LOG][2018-06-12 09:38:52,819][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 09:38:52,819][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 09:38:52,819][INFO][find_url_in_apk()] http://data2.doodlemobile.com:8080/dmdata_zmm/ReceiveServlet
+http://data2.doodlemobile.com:8080/dmdata/ReceiveServlet
+http://www.runnergameshk.com/?pd=com.game.JewelsStar
+http://newfeatureview.perfectionholic.com/featureview/gettime/
+http://newfeatureview.perfectionholic.com/featureview/gettime/
+http://50.17.224.137/featureview/gettime/
+http://50.17.224.137/featureview/gettime/
+https://market.android.com/
+http://m.doodlemobile.com:8080/
+http://m.doodlemobile.com:8080/dm/DoodleMobileServlert2
+http://m.doodlemobile.com:8080/dm_v3/DoodleMobileServlert3
+http://nada
+http://touch.facebook.com/#/profile.php?id=
+http://f2.doodlemobile.com/feature_server/geo-ip/test.php
+http://newfeatureview.perfectionholic.com/featureview/getfeatureview/
+http://f.doodlemobile.com:8080/feature_server_v3/recommands
+http://f2.doodlemobile.com/feature_server/fullScreen/get.php
+https://s3.amazonaws.com/dm-games/feature1
+https://s3.amazonaws.com/dm-games/feature1
+http://play.google.com/store/apps/
+http://play.google.com/store/apps/
+http://play.google.com/store/apps/
+http://play.google.com/store/apps/
+http://featured.perfectionholic.com:8080/moregames/index_app.html
+http://featured.perfectionholic.com:8080/moregames/index_app.html
+http://featured.perfectionholic.com:8080/moregames/index.html
+http://featured.perfectionholic.com:8080/moregames/index.html
+http://featured.perfectionholic.com:8080/moregames/index.html
+http://featured.perfectionholic.com:8080/moregames/index.html
+http://192.168.1.241:8080/featureserver/receiveuesraction
+https://s3.amazonaws.com/dm-games/user_icons/
+https://m.facebook.com/dialog/
+https://graph.facebook.com/
+https://api.facebook.com/restserver.php
+https://graph.%s
+https://graph-video.%s
+https://facebook.com
+http://play.google.com/store/apps/details?id=com.facebook.orca
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+https://plus.google.com/
+https://connect.tapjoy.com/
+https://connect.tapjoy.com/
+https://ws.tapjoyads.com/
+https://ws.tapjoyads.com/
+https://ws.tapjoyads.com/
+https://ws.tapjoyads.com/
+http://content-js.tapjoy.com
+https://events.tapjoy.com/
+https://s3.amazonaws.com/tapjoy/videos/assets/watermark.png
+http://f.doodlemobile.com:8080/feature_server_v3/featurescreen
+http://data.flurry.com/aap.do
+https://data.flurry.com/aap.do
+
+[INTERNAL_LOG][2018-06-12 09:38:52,819][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 09:38:52,827][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 09:38:52,827][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 09:38:52,827][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 09:38:52,827][INFO][analyze_start()] End time:[Tue Jun 12 09:38:52 2018]

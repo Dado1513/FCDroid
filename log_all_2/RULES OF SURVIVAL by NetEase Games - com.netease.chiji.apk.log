@@ -1,0 +1,186 @@
+[INTERNAL_LOG][2018-06-12 02:10:35,584][INFO][analyze_start()] Init Time [Tue Jun 12 02:10:35 2018]
+[INTERNAL_LOG][2018-06-12 02:10:35,665][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 02:10:35,666][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 02:10:35,666][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 02:10:35,666][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 02:10:35,666][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 02:10:35,666][INFO][is_hybird()] android.permission.BATTERY_STATS
+[INTERNAL_LOG][2018-06-12 02:10:35,666][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 02:10:35,666][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 02:10:35,666][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-12 02:10:35,666][INFO][is_hybird()] android.permission.RECORD_AUDIO
+[INTERNAL_LOG][2018-06-12 02:10:35,666][INFO][is_hybird()] com.android.vending.CHECK_LICENSE
+[INTERNAL_LOG][2018-06-12 02:10:35,666][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 02:10:35,666][INFO][is_hybird()] android.permission.BLUETOOTH
+[INTERNAL_LOG][2018-06-12 02:10:35,666][INFO][is_hybird()] com.android.vending.CHECK_LICENSE
+[INTERNAL_LOG][2018-06-12 02:10:35,666][INFO][is_hybird()] android.permission.ACCESS_COARSE_LOCATION
+[INTERNAL_LOG][2018-06-12 02:10:35,666][INFO][is_hybird()] android.permission.ACCESS_FINE_LOCATION
+[INTERNAL_LOG][2018-06-12 02:10:35,666][INFO][is_hybird()] android.permission.CAMERA
+[INTERNAL_LOG][2018-06-12 02:10:35,666][INFO][is_hybird()] android.permission.FLASHLIGHT
+[INTERNAL_LOG][2018-06-12 02:10:35,667][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-12 02:10:35,667][INFO][is_hybird()] android.permission.MODIFY_AUDIO_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:10:35,667][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-12 02:10:35,667][INFO][is_hybird()] android.permission.CHANGE_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 02:10:35,667][INFO][is_hybird()] android.permission.USE_CREDENTIALS
+[INTERNAL_LOG][2018-06-12 02:10:35,667][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 02:10:35,667][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 02:10:35,667][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 02:10:35,667][INFO][find_string()] File: assets/protocol/default.en.html
+[INTERNAL_LOG][2018-06-12 02:10:35,719][INFO][find_string()] No iframe in assets/protocol/default.en.html
+[INTERNAL_LOG][2018-06-12 02:10:35,719][INFO][find_string()] File: assets/protocol/default.ja.html
+[INTERNAL_LOG][2018-06-12 02:10:35,730][INFO][find_string()] No iframe in assets/protocol/default.ja.html
+[INTERNAL_LOG][2018-06-12 02:10:35,730][INFO][find_string()] File: assets/protocol/default.zh.html
+[INTERNAL_LOG][2018-06-12 02:10:35,744][INFO][find_string()] No iframe in assets/protocol/default.zh.html
+[INTERNAL_LOG][2018-06-12 02:10:35,744][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 02:10:35,744][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 02:10:35,744][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 02:11:14,411][INFO][find_url_in_apk()] [START URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-12 02:11:14,411][INFO][find_url_in_apk()] https://api.twitch.tv/kraken/channel
+https://api.twitch.tv/kraken/oauth2/authorize?client_id=%s&redirect_uri=%s://localhost&response_type=code&scope=channel_read
+
+[INTERNAL_LOG][2018-06-12 02:11:14,411][INFO][find_url_in_apk()] [END URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-12 02:11:14,686][ERROR][download_page_loaded()] Failed response code: 400 for https://api.twitch.tv/kraken/channel  
+[INTERNAL_LOG][2018-06-12 02:11:15,096][ERROR][download_page_loaded()] Failed response code: 400 for https://api.twitch.tv/kraken/oauth2/authorize?client_id=%s&redirect_uri=%s://localhost&response_type=code&scope=channel_read  
+[INTERNAL_LOG][2018-06-12 02:11:15,097][INFO][find_string()] [START REMOTE FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 02:11:15,097][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 02:11:15,098][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 02:11:15,098][INFO][find_url_in_apk()] https://api.%s/install_data/v3/
+https://attr.%s/api/v
+https://t.%s/api/v
+https://events.%s/api/v
+https://register.%s/api/v
+https://stats.%s/stats
+https://onelink.%s/shortlink-sdk/v1
+https://onelink.%s/shortlink-sdk/v1
+https://validate.%s/api/v
+https://sdk-services.%s/validate-android-signature
+https://app.%s
+https://app.%s
+https://impression.%s
+https://monitorsdk.%s/remote-debug?app_id=
+https://graph.%s
+https://graph-video.%s
+https://facebook.com
+http://play.google.com/store/apps/details?id=com.facebook.orca
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+https://accounts.google.com
+https://www.facebook.com
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games
+https://plus.google.com/
+http://www.example.com
+http://www.example.com
+http://www.example.com
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://csi.gstatic.com/csi
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/native_ads.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/native_video_ads.html
+https://www.google.com/dfp/linkDevice
+https://www.google.com/dfp/inAppPreview
+https://www.google.com/dfp/debugSignals
+https://www.google.com/dfp/sendDebugData
+https://pagead2.googlesyndication.com/pagead/gen_204
+http://www.google.com
+https://support.google.com/dfp_premium/answer/7160685#push
+https://unisdk.proxima.nie.easebar.com
+https://unisdk.proxima.nie.easebar.com
+https://unisdk.proxima.nie.netease.com
+https://unisdk.proxima.nie.netease.com
+https://appdump.nie.netease.com/upload
+https://appdump.nie.netease.com/upload
+https://mbdl.update.netease.com/%s.mbdl
+https://mbdl.update.netease.com/%s.mbdl
+https://udt-sigma.proxima.nie.netease.com/query
+https://udt-sigma.proxima.nie.netease.com/query
+https://udt-sigma.proxima.nie.netease.com/query
+https://udt-sigma.proxima.nie.netease.com/query
+https://nstool.netease.com/internalquery/
+https://mbdl.update.netease.com/httpdns.mbdl
+https://mbdl.update.netease.com/httpdns.mbdl
+https://mbdl.update.netease.com/httpdns.mbdl
+https://udt-sigma.proxima.nie.easebar.com/query
+https://udt-sigma.proxima.nie.easebar.com/query
+https://udt-sigma.proxima.nie.easebar.com/query
+http://update.unisdk.easebar.com/html/latest_v6.json
+http://update.unisdk.easebar.com/html/latest_v21.tw.json
+http://update.unisdk.easebar.com/html/latest_v21.json
+https://applog.matrix.netease.com/client/sdk/open_log
+https://applog.matrix.netease.com/client/sdk/open_log
+https://applog.matrix.netease.com/client/sdk/pay_log
+https://applog.matrix.netease.com/client/sdk/pay_log
+https://applogsg.matrix.netease.com/client/sdk/clientlog
+https://mgbsdknaeast.matrix.netease.com/h45naxx1gb/sdk
+https://sdk-os.mpsdk.easebar.com
+http://sdk-os.mpsdk.easebar.com/version
+https://qr.mpsdk.easebar.com/
+https://sdk-os.mpsdk.easebar.com/version
+https://api.twitch.tv/kraken/channel
+https://api.twitch.tv/kraken/oauth2/authorize?client_id=%s&redirect_uri=%s://localhost&response_type=code&scope=channel_read
+https://data-detect.nie.easebar.com/client/mobile_upload
+https://data-detect.nie.netease.com/client/mobile_upload
+https://drpf-
+https://applog.matrix.netease.com/client/sdk/clientlog
+http://omega-monetization-spring.proxima.nie.netease.com
+http://graph.facebook.com/
+https://nglbs.nie.netease.com:8000/
+https://api.twitch.tv/kraken/ingests
+https://unisdk.update.easebar.com/feature/
+https://unisdk.update.easebar.com/feature/
+https://unisdk.update.easebar.com/feature/
+https://unisdk.update.easebar.com/feature/
+https://unisdk.update.netease.com/feature/
+https://unisdk.update.netease.com/feature/
+https://unisdk.update.netease.com/feature/
+https://unisdk.update.netease.com/feature/
+http://fc.my.163.com:8080/
+http://fc.my.163.com:8080/
+http://fc.my.163.com:8080/
+https://sigma-echoes.proxima.nie.netease.com/query/
+https://unisdk.update.netease.com/feature/query.json
+https://unisdk.update.netease.com/html/latest_default.json
+https://g0-unipatch.nie.netease.com/event
+https://unisdk.update.netease.com/unipatch/
+https://impression.update.netease.com/explore_%s.txt
+https://impression.update.netease.com/lighten/pathn_%s_%s.txt
+https://impression.update.netease.com/net_decision.txt
+https://whoami.nie.netease.com/v1
+https://nstool.netease.com/jsonify/
+https://dl.nstool.easebar.com/jsonify/
+https://impression.update.netease.com/net_decision_
+https://netlink-sigma.proxima.nie.netease.com
+https://twitter.com/
+https://twitter.com/#!/search?q=%23
+https://twitter.com/#!/search?q=%24
+https://api.twitter.com/1.1/account/verify_credentials.json
+https://api.twitter.com
+https://syndication.twitter.com
+https://twitter.com/intent/tweet?text=%s&url=%s
+https://twitter.com/%s/status/%d?ref_src=twsrc%%5Etwitterkit
+https://www.googleapis.com/auth/drive.file
+https://www.googleapis.com/auth/drive.appdata
+https://www.googleapis.com/auth/drive
+https://www.googleapis.com/auth/drive.apps
+https://www.googleapis.com/auth/games_lite
+https://www.googleapis.com/auth/games.firstparty
+https://www.googleapis.com/auth/games.firstparty
+http://gmsdk.gameyw.netease.com/nos/gen_token
+http://localhost/
+http://localhost/
+http://localhost/
+
+[INTERNAL_LOG][2018-06-12 02:11:15,099][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 02:11:15,112][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 02:11:15,113][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 02:11:15,113][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 02:11:15,113][INFO][analyze_start()] End time:[Tue Jun 12 02:11:15 2018]

@@ -1,0 +1,205 @@
+[INTERNAL_LOG][2018-06-12 02:14:23,862][INFO][analyze_start()] Init Time [Tue Jun 12 02:14:23 2018]
+[INTERNAL_LOG][2018-06-12 02:14:23,949][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 02:14:23,950][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 02:14:23,950][INFO][is_hybird()] android.permission.SET_WALLPAPER
+[INTERNAL_LOG][2018-06-12 02:14:23,950][INFO][is_hybird()] android.permission.SET_WALLPAPER_HINTS
+[INTERNAL_LOG][2018-06-12 02:14:23,950][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-12 02:14:23,950][INFO][is_hybird()] android.permission.BIND_APPWIDGET
+[INTERNAL_LOG][2018-06-12 02:14:23,950][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 02:14:23,950][INFO][is_hybird()] android.permission.BROADCAST_STICKY
+[INTERNAL_LOG][2018-06-12 02:14:23,950][INFO][is_hybird()] android.permission.RECEIVE_BOOT_COMPLETED
+[INTERNAL_LOG][2018-06-12 02:14:23,950][INFO][is_hybird()] android.permission.WRITE_SYNC_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:14:23,950][INFO][is_hybird()] android.permission.READ_SYNC_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:14:23,950][INFO][is_hybird()] com.smart.color.phone.emoji.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:14:23,950][INFO][is_hybird()] com.smart.color.phone.emoji.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:14:23,951][INFO][is_hybird()] com.smart.color.phone.emoji.permission.RECEIVE_LAUNCH_BROADCASTS
+[INTERNAL_LOG][2018-06-12 02:14:23,951][INFO][is_hybird()] com.smart.color.phone.emoji.permission.RECEIVE_FIRST_LOAD_BROADCAST
+[INTERNAL_LOG][2018-06-12 02:14:23,951][INFO][is_hybird()] android.permission.GET_TASKS
+[INTERNAL_LOG][2018-06-12 02:14:23,951][INFO][is_hybird()] android.permission.PACKAGE_USAGE_STATS
+[INTERNAL_LOG][2018-06-12 02:14:23,951][INFO][is_hybird()] com.android.launcher.permission.INSTALL_SHORTCUT
+[INTERNAL_LOG][2018-06-12 02:14:23,951][INFO][is_hybird()] android.permission.DISABLE_KEYGUARD
+[INTERNAL_LOG][2018-06-12 02:14:23,951][INFO][is_hybird()] android.permission.BLUETOOTH
+[INTERNAL_LOG][2018-06-12 02:14:23,951][INFO][is_hybird()] android.permission.BLUETOOTH_ADMIN
+[INTERNAL_LOG][2018-06-12 02:14:23,951][INFO][is_hybird()] android.permission.CHANGE_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 02:14:23,951][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 02:14:23,951][INFO][is_hybird()] android.permission.ACCESS_FINE_LOCATION
+[INTERNAL_LOG][2018-06-12 02:14:23,951][INFO][is_hybird()] android.permission.ACCESS_COARSE_LOCATION
+[INTERNAL_LOG][2018-06-12 02:14:23,951][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 02:14:23,951][INFO][is_hybird()] android.permission.CHANGE_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 02:14:23,951][INFO][is_hybird()] android.permission.BIND_NOTIFICATION_LISTENER_SERVICE
+[INTERNAL_LOG][2018-06-12 02:14:23,951][INFO][is_hybird()] android.permission.READ_CONTACTS
+[INTERNAL_LOG][2018-06-12 02:14:23,951][INFO][is_hybird()] android.permission.READ_SMS
+[INTERNAL_LOG][2018-06-12 02:14:23,951][INFO][is_hybird()] com.sec.android.provider.badge.permission.READ
+[INTERNAL_LOG][2018-06-12 02:14:23,951][INFO][is_hybird()] com.google.android.gm.permission.READ_CONTENT_PROVIDER
+[INTERNAL_LOG][2018-06-12 02:14:23,951][INFO][is_hybird()] android.permission.READ_PHONE_STATE
+[INTERNAL_LOG][2018-06-12 02:14:23,951][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 02:14:23,951][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 02:14:23,951][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-12 02:14:23,951][INFO][is_hybird()] android.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:14:23,952][INFO][is_hybird()] android.permission.WRITE_SECURE_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:14:23,952][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 02:14:23,952][INFO][is_hybird()] com.htc.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:14:23,952][INFO][is_hybird()] com.google.android.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:14:23,952][INFO][is_hybird()] com.cyanogenmod.trebuchet.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:14:23,952][INFO][is_hybird()] com.teslacoilsw.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:14:23,952][INFO][is_hybird()] com.android.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:14:23,952][INFO][is_hybird()] com.android.launcher3.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:14:23,952][INFO][is_hybird()] com.samsung.android.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:14:23,952][INFO][is_hybird()] android.permission.SYSTEM_ALERT_WINDOW
+[INTERNAL_LOG][2018-06-12 02:14:23,952][INFO][is_hybird()] android.permission.CAMERA
+[INTERNAL_LOG][2018-06-12 02:14:23,952][INFO][is_hybird()] android.permission.FLASHLIGHT
+[INTERNAL_LOG][2018-06-12 02:14:23,952][INFO][is_hybird()] android.permission.CALL_PHONE
+[INTERNAL_LOG][2018-06-12 02:14:23,952][INFO][is_hybird()] android.permission.ANSWER_PHONE_CALLS
+[INTERNAL_LOG][2018-06-12 02:14:23,952][INFO][is_hybird()] android.permission.READ_CALL_LOG
+[INTERNAL_LOG][2018-06-12 02:14:23,952][INFO][is_hybird()] android.permission.PROCESS_OUTGOING_CALLS
+[INTERNAL_LOG][2018-06-12 02:14:23,952][INFO][is_hybird()] android.permission.EXPAND_STATUS_BAR
+[INTERNAL_LOG][2018-06-12 02:14:23,957][INFO][is_hybird()] android.permission.GET_PACKAGE_SIZE
+[INTERNAL_LOG][2018-06-12 02:14:23,968][INFO][is_hybird()] android.permission.REORDER_TASKS
+[INTERNAL_LOG][2018-06-12 02:14:23,974][INFO][is_hybird()] android.permission.MANAGE_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 02:14:23,974][INFO][is_hybird()] android.permission.MODIFY_AUDIO_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:14:23,974][INFO][is_hybird()] android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+[INTERNAL_LOG][2018-06-12 02:14:23,974][INFO][is_hybird()] android.permission.RECEIVE_SMS
+[INTERNAL_LOG][2018-06-12 02:14:23,974][INFO][is_hybird()] android.permission.USE_FINGERPRINT
+[INTERNAL_LOG][2018-06-12 02:14:23,974][INFO][is_hybird()] android.permission.REQUEST_INSTALL_PACKAGES
+[INTERNAL_LOG][2018-06-12 02:14:23,974][INFO][is_hybird()] android.permission.BIND_JOB_SERVICE
+[INTERNAL_LOG][2018-06-12 02:14:23,974][INFO][is_hybird()] com.android.browser.permission.WRITE_HISTORY_BOOKMARKS
+[INTERNAL_LOG][2018-06-12 02:14:23,974][INFO][is_hybird()] com.android.browser.permission.READ_HISTORY_BOOKMARKS
+[INTERNAL_LOG][2018-06-12 02:14:23,974][INFO][is_hybird()] android.permission.SEND_SMS
+[INTERNAL_LOG][2018-06-12 02:14:23,974][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 02:14:23,975][INFO][is_hybird()] com.smart.color.phone.emoji.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-12 02:14:23,975][INFO][is_hybird()] com.smart.color.phone.emoji.permission.FRAMEWORK_SECURITY
+[INTERNAL_LOG][2018-06-12 02:14:23,985][INFO][is_hybird()] android.permission.RESTART_PACKAGES
+[INTERNAL_LOG][2018-06-12 02:14:23,995][INFO][is_hybird()] android.permission.KILL_BACKGROUND_PROCESSES
+[INTERNAL_LOG][2018-06-12 02:14:24,001][INFO][is_hybird()] android.permission.CLEAR_APP_CACHE
+[INTERNAL_LOG][2018-06-12 02:14:24,001][INFO][is_hybird()] android.permission.READ_NETWORK_USAGE_HISTORY
+[INTERNAL_LOG][2018-06-12 02:14:24,001][INFO][is_hybird()] com.sec.android.provider.badge.permission.WRITE
+[INTERNAL_LOG][2018-06-12 02:14:24,004][INFO][is_hybird()] com.htc.launcher.permission.UPDATE_SHORTCUT
+[INTERNAL_LOG][2018-06-12 02:14:24,005][INFO][is_hybird()] com.sonyericsson.home.permission.BROADCAST_BADGE
+[INTERNAL_LOG][2018-06-12 02:14:24,005][INFO][is_hybird()] com.sonymobile.home.permission.PROVIDER_INSERT_BADGE
+[INTERNAL_LOG][2018-06-12 02:14:24,005][INFO][is_hybird()] com.anddoes.launcher.permission.UPDATE_COUNT
+[INTERNAL_LOG][2018-06-12 02:14:24,005][INFO][is_hybird()] com.majeur.launcher.permission.UPDATE_BADGE
+[INTERNAL_LOG][2018-06-12 02:14:24,005][INFO][is_hybird()] com.huawei.android.launcher.permission.CHANGE_BADGE
+[INTERNAL_LOG][2018-06-12 02:14:24,005][INFO][is_hybird()] com.huawei.android.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:14:24,005][INFO][is_hybird()] com.huawei.android.launcher.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:14:24,005][INFO][is_hybird()] android.permission.READ_APP_BADGE
+[INTERNAL_LOG][2018-06-12 02:14:24,005][INFO][is_hybird()] com.oppo.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:14:24,005][INFO][is_hybird()] com.oppo.launcher.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:14:24,005][INFO][is_hybird()] me.everything.badger.permission.BADGE_COUNT_READ
+[INTERNAL_LOG][2018-06-12 02:14:24,005][INFO][is_hybird()] me.everything.badger.permission.BADGE_COUNT_WRITE
+[INTERNAL_LOG][2018-06-12 02:14:24,005][INFO][is_hybird()] com.smart.color.phone.emoji.permission.GOLDENEYE_SECURITY
+[INTERNAL_LOG][2018-06-12 02:14:24,005][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 02:14:24,005][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 02:14:24,006][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 02:14:24,009][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 02:14:24,009][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 02:14:24,009][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 02:15:07,466][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 02:15:07,466][INFO][find_url_in_apk()] http://xmlpull.org/v1/doc/features.html#indent-output
+http://xmlpull.org/v1/doc/features.html#indent-output
+http://www.w3.org/ns/ttml#parameter
+https://plus.google.com/
+https://pagead2.googlesyndication.com/pagead/gen_204
+http://www.google.com
+https://support.google.com/dfp_premium/answer/7160685#push
+https://app-measurement.com/a
+https://www.google.com
+https://api.%s/install_data/v3/
+https://attr.%s/api/v
+https://t.%s/api/v
+https://events.%s/api/v
+https://register.%s/api/v
+https://stats.%s/stats
+https://onelink.%s/shortlink-sdk/v1
+https://onelink.%s/shortlink-sdk/v1
+https://validate.%s/api/v
+https://sdk-services.%s/validate-android-signature
+https://app.%s
+https://app.%s
+https://impression.%s
+https://monitorsdk.%s/remote-debug?app_id=
+https://www.facebook.com/audience_network/server_side_reward
+https://www.%s.facebook.com/audience_network/server_side_reward
+https://graph.facebook.com/network_ads_common
+https://graph.%s.facebook.com/network_ads_common
+https://www.facebook.com/adnw_logging/
+https://www.%s.facebook.com/adnw_logging/
+https://www.facebook.com/
+https://www.%s.facebook.com
+http://play.google.com/store/apps/
+http://www.facebook.com
+http://www.facebook.com
+https://graph.%s
+https://graph-video.%s
+https://facebook.com
+http://play.google.com/store/apps/details?id=com.facebook.orca
+https://cfg.flurry.com/sdk/v1/config
+https://cfg.flurry.com/sdk/v1/config
+https://proton.flurry.com/sdk/v1/config
+https://data.flurry.com/pcr.do
+https://data.flurry.com/aap.do
+http://data.flurry.com/aap.do
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+https://mobile-static.adsafeprotected.com/avid-v2.js
+https://analytics.mopub.com/i/jot/exchange_client_event
+https://twitter.com/%s/status/%s
+https://www.mopub.com/optout
+https://hooks.slack.com/services/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
+http://ad.api.acekoala.com/online/v2
+http://api.famobi.com/feed?a=A-KCVWU&n=50&sort=top_games
+http://www.example.com
+http://www.example.com
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/sdk-core-v40-impl.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://csi.gstatic.com/csi
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/native_ads.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/native_ads.js
+https://imasdk.googleapis.com/admob/sdkloader/native_video.html
+https://www.google.com/dfp/linkDevice
+https://www.google.com/dfp/inAppPreview
+https://www.google.com/dfp/debugSignals
+https://www.google.com/dfp/sendDebugData
+https://52.205.105.87/feedback/uninstall/survey
+https://service.appcloudbox.net/feedback/uninstall/survey
+https://us-dev-api.appcloudbox.net:7443/MobileAppServlet/MobileAppServlet
+https://api.appcloudbox.net/token
+http://rtot.appcloudbox.net/rtot/
+http://maps.googleapis.com/maps/api/geocode/json?latlng=%f,%f&sensor=true
+http://cdn.appcloudbox.net/services/libs/libclean/configs/libclean.cfg
+http://cdn.appcloudbox.net/services/libs/libclean/configs/libclean.cfg
+http://cdn.appcloudbox.net/emojiphone/apps/emojiphone/configs/config-emojiphone-customize-1.0.9-184.la
+http://cdn.appcloudbox.net/emojiphone/apps/emojiphone/configs/config-emojiphone-emoji-1.0.9-184.la
+http://cdn.appcloudbox.net/sunspotmix/gifs/Stars.gif
+http://cdn.appcloudbox.net/sunspotmix/gifs/Sun.gif
+http://cdn.appcloudbox.net/sunspotmix/gifs/Neon.gif
+https://h5game.appcloudbox.net/gamelist.json?page=
+https://play.google.com/store/apps/details?id=com.smart.color.phone.emoji
+http://suggestqueries.google.com/complete/search?client=chrome&q=%s
+http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+https://play.google.com/store/apps/details?id=
+https://e.crashlytics.com/spi/v2/events
+https://settings.crashlytics.com/spi/v2/platforms/android/apps/%s/settings
+https://location.appcloudbox.net/prod/country/
+https://location.appcloudbox.net/prod/country/
+https://dev-ap-console.appcloudbox.net/api/v2/test/
+https://ap-console.appcloudbox.net/api/v2/test/
+https://ap.appcloudbox.net/autopilot/v2/
+http://api.appcloudbox.net/rao
+https://dev-service.appcloudbox.net/goldeneye/adsconfig/v1/get
+https://service.appcloudbox.net/ip2country/get
+https://service.appcloudbox.net/phonenumber/api/collection
+
+[INTERNAL_LOG][2018-06-12 02:15:07,466][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 02:15:07,469][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 02:15:07,469][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 02:15:07,469][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 02:15:07,469][INFO][analyze_start()] End time:[Tue Jun 12 02:15:07 2018]

@@ -1,0 +1,105 @@
+[INTERNAL_LOG][2018-06-12 04:37:34,521][INFO][analyze_start()] Init Time [Tue Jun 12 04:37:34 2018]
+[INTERNAL_LOG][2018-06-12 04:37:34,628][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 04:37:34,629][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 04:37:34,629][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 04:37:34,629][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 04:37:34,629][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 04:37:34,629][INFO][is_hybird()] android.permission.CHANGE_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 04:37:34,629][INFO][is_hybird()] android.permission.CHANGE_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 04:37:34,629][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 04:37:34,629][INFO][is_hybird()] android.permission.RECEIVE_BOOT_COMPLETED
+[INTERNAL_LOG][2018-06-12 04:37:34,629][INFO][is_hybird()] android.permission.READ_CONTACTS
+[INTERNAL_LOG][2018-06-12 04:37:34,629][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 04:37:34,629][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 04:37:34,629][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 04:37:34,629][INFO][is_hybird()] android.permission.MANAGE_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 04:37:34,630][INFO][is_hybird()] android.permission.USE_CREDENTIALS
+[INTERNAL_LOG][2018-06-12 04:37:34,630][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-12 04:37:34,630][INFO][is_hybird()] com.magisto.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-12 04:37:34,630][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-12 04:37:34,630][INFO][is_hybird()] com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+[INTERNAL_LOG][2018-06-12 04:37:34,630][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 04:37:34,630][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 04:37:34,630][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 04:37:34,630][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 04:37:34,630][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 04:37:34,630][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 04:38:15,101][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 04:38:15,101][INFO][find_url_in_apk()] http://schemas.android.com/apk/res/android
+https://monitorsdk.%s/remote-debug?app_id=
+https://graph.%s
+https://graph-video.%s
+https://facebook.com
+https://api.alooma.com/track?ip=1
+http://api.alooma.com/track?ip=1
+https://api.alooma.com/engage
+http://api.alooma.com/engage
+https://decide.alooma.com/decide
+http://decide.alooma.com/decide
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+https://plus.google.com/
+http://www.google-analytics.com
+https://ssl.google-analytics.com
+https://app-measurement.com/a
+https://www.googleapis.com/auth/plus.login
+https://www.googleapis.com/auth/plus.login
+https://www.googleapis.com/auth/plus.me
+http://schemas.android.com/apk/lib/com.google.android.gms.plus
+https://play.google.com/store/apps/details?id=
+http://54.90.169.239/
+https://www.magisto.com/
+https://www.googleapis.com/auth/plus.profile.emails.read
+https://www.googleapis.com/auth/drive.file
+https://www.googleapis.com/auth/drive.readonly
+https://www.googleapis.com/auth/youtube
+https://www.magisto.com/account/upgrade/premiuminfo
+https://api.%s/install_data/v3/
+https://attr.%s/api/v
+https://t.%s/api/v
+https://events.%s/api/v
+https://register.%s/api/v
+https://stats.%s/stats
+https://onelink.%s/shortlink-sdk/v1
+https://accounts.google.com/o/oauth2/token
+https://plus.google.com/106158729510383591666
+http://www.magisto.com/api/device/hwa?key=
+http://www.magisto.com/api/device/hwa/report?key=
+http://www.magisto.com/api/device/hwa
+https://www.magisto.com/api/
+http://www.aaa.bbb/start
+http://www.aaa.bbb/chunk
+https://www.google.com
+https://www.googleapis.com/
+https://www.googleapis.com/
+http://www.w3.org/ns/ttml#parameter
+https://www.googleapis.com/auth/games_lite
+https://www.googleapis.com/auth/games
+https://m.facebook.com/Magisto
+https://m.facebook.com/Magisto
+https://help.magisto.com
+https://support.apple.com/en-il/HT202039
+https://play.google.com/store/account/subscriptions
+https://www.magisto.com/privacy?client
+https://www.magisto.com/tos?client
+https://settings.crashlytics.com/spi/v2/platforms/android/apps/%s/settings
+http://api.ok.ru/fb.do
+https://ok.ru/oauth/authorize?client_id=%s&response_type=token&redirect_uri=%s&layout=m
+https://e.crashlytics.com/spi/v2/events
+http://api.twitter.com/oauth/access_token
+https://api.twitter.com/oauth/authorize?oauth_token=%s
+http://api.twitter.com/oauth/request_token
+https://api.twitter.com/oauth/access_token
+https://api.twitter.com/oauth/request_token
+https://www.magisto.com/support/client/embed
+
+[INTERNAL_LOG][2018-06-12 04:38:15,101][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 04:38:15,105][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 04:38:15,105][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 04:38:15,105][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 04:38:15,105][INFO][analyze_start()] End time:[Tue Jun 12 04:38:15 2018]

@@ -1,0 +1,256 @@
+[INTERNAL_LOG][2018-06-12 07:59:30,467][INFO][analyze_start()] Init Time [Tue Jun 12 07:59:30 2018]
+[INTERNAL_LOG][2018-06-12 07:59:30,606][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 07:59:30,606][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 07:59:30,606][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 07:59:30,606][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 07:59:30,607][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 07:59:30,607][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 07:59:30,607][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 07:59:30,607][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 07:59:30,607][INFO][is_hybird()] android.permission.RECEIVE_BOOT_COMPLETED
+[INTERNAL_LOG][2018-06-12 07:59:30,607][INFO][is_hybird()] org.iggymedia.periodtracker.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-12 07:59:30,607][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-12 07:59:30,607][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 07:59:30,607][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 07:59:30,607][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 07:59:30,607][INFO][find_string()] File: res/raw-be/prediction.html
+[INTERNAL_LOG][2018-06-12 07:59:30,609][INFO][find_string()] No iframe in res/raw-be/prediction.html
+[INTERNAL_LOG][2018-06-12 07:59:30,609][INFO][find_string()] File: res/raw-be/pulse.html
+[INTERNAL_LOG][2018-06-12 07:59:30,610][INFO][find_string()] No iframe in res/raw-be/pulse.html
+[INTERNAL_LOG][2018-06-12 07:59:30,610][INFO][find_string()] File: res/raw-ca/prediction.html
+[INTERNAL_LOG][2018-06-12 07:59:30,611][INFO][find_string()] No iframe in res/raw-ca/prediction.html
+[INTERNAL_LOG][2018-06-12 07:59:30,611][INFO][find_string()] File: res/raw-ca/pulse.html
+[INTERNAL_LOG][2018-06-12 07:59:30,612][INFO][find_string()] No iframe in res/raw-ca/pulse.html
+[INTERNAL_LOG][2018-06-12 07:59:30,613][INFO][find_string()] File: res/raw-da/prediction.html
+[INTERNAL_LOG][2018-06-12 07:59:30,674][INFO][find_string()] No iframe in res/raw-da/prediction.html
+[INTERNAL_LOG][2018-06-12 07:59:30,674][INFO][find_string()] File: res/raw-da/pulse.html
+[INTERNAL_LOG][2018-06-12 07:59:30,675][INFO][find_string()] No iframe in res/raw-da/pulse.html
+[INTERNAL_LOG][2018-06-12 07:59:30,675][INFO][find_string()] File: res/raw-de/prediction.html
+[INTERNAL_LOG][2018-06-12 07:59:30,676][INFO][find_string()] No iframe in res/raw-de/prediction.html
+[INTERNAL_LOG][2018-06-12 07:59:30,676][INFO][find_string()] File: res/raw-de/pulse.html
+[INTERNAL_LOG][2018-06-12 07:59:30,677][INFO][find_string()] No iframe in res/raw-de/pulse.html
+[INTERNAL_LOG][2018-06-12 07:59:30,677][INFO][find_string()] File: res/raw-es/prediction.html
+[INTERNAL_LOG][2018-06-12 07:59:30,679][INFO][find_string()] No iframe in res/raw-es/prediction.html
+[INTERNAL_LOG][2018-06-12 07:59:30,679][INFO][find_string()] File: res/raw-es/pulse.html
+[INTERNAL_LOG][2018-06-12 07:59:30,679][INFO][find_string()] No iframe in res/raw-es/pulse.html
+[INTERNAL_LOG][2018-06-12 07:59:30,679][INFO][find_string()] File: res/raw-fi/prediction.html
+[INTERNAL_LOG][2018-06-12 07:59:30,680][INFO][find_string()] No iframe in res/raw-fi/prediction.html
+[INTERNAL_LOG][2018-06-12 07:59:30,680][INFO][find_string()] File: res/raw-fi/pulse.html
+[INTERNAL_LOG][2018-06-12 07:59:30,681][INFO][find_string()] No iframe in res/raw-fi/pulse.html
+[INTERNAL_LOG][2018-06-12 07:59:30,681][INFO][find_string()] File: res/raw-fr/prediction.html
+[INTERNAL_LOG][2018-06-12 07:59:30,682][INFO][find_string()] No iframe in res/raw-fr/prediction.html
+[INTERNAL_LOG][2018-06-12 07:59:30,682][INFO][find_string()] File: res/raw-fr/pulse.html
+[INTERNAL_LOG][2018-06-12 07:59:30,683][INFO][find_string()] No iframe in res/raw-fr/pulse.html
+[INTERNAL_LOG][2018-06-12 07:59:30,683][INFO][find_string()] File: res/raw-hi/prediction.html
+[INTERNAL_LOG][2018-06-12 07:59:30,684][INFO][find_string()] No iframe in res/raw-hi/prediction.html
+[INTERNAL_LOG][2018-06-12 07:59:30,684][INFO][find_string()] File: res/raw-hi/pulse.html
+[INTERNAL_LOG][2018-06-12 07:59:30,686][INFO][find_string()] No iframe in res/raw-hi/pulse.html
+[INTERNAL_LOG][2018-06-12 07:59:30,686][INFO][find_string()] File: res/raw-in/prediction.html
+[INTERNAL_LOG][2018-06-12 07:59:30,687][INFO][find_string()] No iframe in res/raw-in/prediction.html
+[INTERNAL_LOG][2018-06-12 07:59:30,687][INFO][find_string()] File: res/raw-in/pulse.html
+[INTERNAL_LOG][2018-06-12 07:59:30,688][INFO][find_string()] No iframe in res/raw-in/pulse.html
+[INTERNAL_LOG][2018-06-12 07:59:30,688][INFO][find_string()] File: res/raw-it/prediction.html
+[INTERNAL_LOG][2018-06-12 07:59:30,689][INFO][find_string()] No iframe in res/raw-it/prediction.html
+[INTERNAL_LOG][2018-06-12 07:59:30,689][INFO][find_string()] File: res/raw-it/pulse.html
+[INTERNAL_LOG][2018-06-12 07:59:30,689][INFO][find_string()] No iframe in res/raw-it/pulse.html
+[INTERNAL_LOG][2018-06-12 07:59:30,689][INFO][find_string()] File: res/raw-ja/prediction.html
+[INTERNAL_LOG][2018-06-12 07:59:30,690][INFO][find_string()] No iframe in res/raw-ja/prediction.html
+[INTERNAL_LOG][2018-06-12 07:59:30,691][INFO][find_string()] File: res/raw-ja/pulse.html
+[INTERNAL_LOG][2018-06-12 07:59:30,691][INFO][find_string()] No iframe in res/raw-ja/pulse.html
+[INTERNAL_LOG][2018-06-12 07:59:30,691][INFO][find_string()] File: res/raw-kk/prediction.html
+[INTERNAL_LOG][2018-06-12 07:59:30,692][INFO][find_string()] No iframe in res/raw-kk/prediction.html
+[INTERNAL_LOG][2018-06-12 07:59:30,692][INFO][find_string()] File: res/raw-kk/pulse.html
+[INTERNAL_LOG][2018-06-12 07:59:30,693][INFO][find_string()] No iframe in res/raw-kk/pulse.html
+[INTERNAL_LOG][2018-06-12 07:59:30,694][INFO][find_string()] File: res/raw-ko/prediction.html
+[INTERNAL_LOG][2018-06-12 07:59:30,694][INFO][find_string()] No iframe in res/raw-ko/prediction.html
+[INTERNAL_LOG][2018-06-12 07:59:30,695][INFO][find_string()] File: res/raw-ko/pulse.html
+[INTERNAL_LOG][2018-06-12 07:59:30,695][INFO][find_string()] No iframe in res/raw-ko/pulse.html
+[INTERNAL_LOG][2018-06-12 07:59:30,696][INFO][find_string()] File: res/raw-nb/prediction.html
+[INTERNAL_LOG][2018-06-12 07:59:30,696][INFO][find_string()] No iframe in res/raw-nb/prediction.html
+[INTERNAL_LOG][2018-06-12 07:59:30,696][INFO][find_string()] File: res/raw-nb/pulse.html
+[INTERNAL_LOG][2018-06-12 07:59:30,697][INFO][find_string()] No iframe in res/raw-nb/pulse.html
+[INTERNAL_LOG][2018-06-12 07:59:30,697][INFO][find_string()] File: res/raw-pl/prediction.html
+[INTERNAL_LOG][2018-06-12 07:59:30,698][INFO][find_string()] No iframe in res/raw-pl/prediction.html
+[INTERNAL_LOG][2018-06-12 07:59:30,698][INFO][find_string()] File: res/raw-pl/pulse.html
+[INTERNAL_LOG][2018-06-12 07:59:30,699][INFO][find_string()] No iframe in res/raw-pl/pulse.html
+[INTERNAL_LOG][2018-06-12 07:59:30,699][INFO][find_string()] File: res/raw-pt/prediction.html
+[INTERNAL_LOG][2018-06-12 07:59:30,700][INFO][find_string()] No iframe in res/raw-pt/prediction.html
+[INTERNAL_LOG][2018-06-12 07:59:30,700][INFO][find_string()] File: res/raw-pt/pulse.html
+[INTERNAL_LOG][2018-06-12 07:59:30,701][INFO][find_string()] No iframe in res/raw-pt/pulse.html
+[INTERNAL_LOG][2018-06-12 07:59:30,701][INFO][find_string()] File: res/raw-ru/prediction.html
+[INTERNAL_LOG][2018-06-12 07:59:30,703][INFO][find_string()] No iframe in res/raw-ru/prediction.html
+[INTERNAL_LOG][2018-06-12 07:59:30,703][INFO][find_string()] File: res/raw-ru/pulse.html
+[INTERNAL_LOG][2018-06-12 07:59:30,704][INFO][find_string()] No iframe in res/raw-ru/pulse.html
+[INTERNAL_LOG][2018-06-12 07:59:30,704][INFO][find_string()] File: res/raw-sv/prediction.html
+[INTERNAL_LOG][2018-06-12 07:59:30,706][INFO][find_string()] No iframe in res/raw-sv/prediction.html
+[INTERNAL_LOG][2018-06-12 07:59:30,706][INFO][find_string()] File: res/raw-sv/pulse.html
+[INTERNAL_LOG][2018-06-12 07:59:30,707][INFO][find_string()] No iframe in res/raw-sv/pulse.html
+[INTERNAL_LOG][2018-06-12 07:59:30,707][INFO][find_string()] File: res/raw-th/prediction.html
+[INTERNAL_LOG][2018-06-12 07:59:30,708][INFO][find_string()] No iframe in res/raw-th/prediction.html
+[INTERNAL_LOG][2018-06-12 07:59:30,708][INFO][find_string()] File: res/raw-th/pulse.html
+[INTERNAL_LOG][2018-06-12 07:59:30,709][INFO][find_string()] No iframe in res/raw-th/pulse.html
+[INTERNAL_LOG][2018-06-12 07:59:30,709][INFO][find_string()] File: res/raw-tr/prediction.html
+[INTERNAL_LOG][2018-06-12 07:59:30,710][INFO][find_string()] No iframe in res/raw-tr/prediction.html
+[INTERNAL_LOG][2018-06-12 07:59:30,710][INFO][find_string()] File: res/raw-tr/pulse.html
+[INTERNAL_LOG][2018-06-12 07:59:30,711][INFO][find_string()] No iframe in res/raw-tr/pulse.html
+[INTERNAL_LOG][2018-06-12 07:59:30,711][INFO][find_string()] File: res/raw-uk/prediction.html
+[INTERNAL_LOG][2018-06-12 07:59:30,712][INFO][find_string()] No iframe in res/raw-uk/prediction.html
+[INTERNAL_LOG][2018-06-12 07:59:30,712][INFO][find_string()] File: res/raw-uk/pulse.html
+[INTERNAL_LOG][2018-06-12 07:59:30,713][INFO][find_string()] No iframe in res/raw-uk/pulse.html
+[INTERNAL_LOG][2018-06-12 07:59:30,713][INFO][find_string()] File: res/raw-vi/prediction.html
+[INTERNAL_LOG][2018-06-12 07:59:30,714][INFO][find_string()] No iframe in res/raw-vi/prediction.html
+[INTERNAL_LOG][2018-06-12 07:59:30,714][INFO][find_string()] File: res/raw-vi/pulse.html
+[INTERNAL_LOG][2018-06-12 07:59:30,715][INFO][find_string()] No iframe in res/raw-vi/pulse.html
+[INTERNAL_LOG][2018-06-12 07:59:30,715][INFO][find_string()] File: res/raw-zh-rCN/prediction.html
+[INTERNAL_LOG][2018-06-12 07:59:30,716][INFO][find_string()] No iframe in res/raw-zh-rCN/prediction.html
+[INTERNAL_LOG][2018-06-12 07:59:30,716][INFO][find_string()] File: res/raw-zh-rCN/pulse.html
+[INTERNAL_LOG][2018-06-12 07:59:30,724][INFO][find_string()] No iframe in res/raw-zh-rCN/pulse.html
+[INTERNAL_LOG][2018-06-12 07:59:30,744][INFO][find_string()] File: res/raw-zh-rHK/prediction.html
+[INTERNAL_LOG][2018-06-12 07:59:31,025][INFO][find_string()] No iframe in res/raw-zh-rHK/prediction.html
+[INTERNAL_LOG][2018-06-12 07:59:31,046][INFO][find_string()] File: res/raw-zh-rHK/pulse.html
+[INTERNAL_LOG][2018-06-12 07:59:31,298][INFO][find_string()] No iframe in res/raw-zh-rHK/pulse.html
+[INTERNAL_LOG][2018-06-12 07:59:31,318][INFO][find_string()] File: res/raw-zh-rSG/prediction.html
+[INTERNAL_LOG][2018-06-12 07:59:31,632][INFO][find_string()] No iframe in res/raw-zh-rSG/prediction.html
+[INTERNAL_LOG][2018-06-12 07:59:31,653][INFO][find_string()] File: res/raw-zh-rSG/pulse.html
+[INTERNAL_LOG][2018-06-12 07:59:31,973][INFO][find_string()] No iframe in res/raw-zh-rSG/pulse.html
+[INTERNAL_LOG][2018-06-12 07:59:31,993][INFO][find_string()] File: res/raw-zh-rTW/prediction.html
+[INTERNAL_LOG][2018-06-12 07:59:32,369][INFO][find_string()] No iframe in res/raw-zh-rTW/prediction.html
+[INTERNAL_LOG][2018-06-12 07:59:32,389][INFO][find_string()] File: res/raw-zh-rTW/pulse.html
+[INTERNAL_LOG][2018-06-12 07:59:33,651][INFO][find_string()] No iframe in res/raw-zh-rTW/pulse.html
+[INTERNAL_LOG][2018-06-12 07:59:33,672][INFO][find_string()] File: res/raw-zh/prediction.html
+[INTERNAL_LOG][2018-06-12 07:59:33,953][INFO][find_string()] No iframe in res/raw-zh/prediction.html
+[INTERNAL_LOG][2018-06-12 07:59:33,973][INFO][find_string()] File: res/raw-zh/pulse.html
+[INTERNAL_LOG][2018-06-12 07:59:34,225][INFO][find_string()] No iframe in res/raw-zh/pulse.html
+[INTERNAL_LOG][2018-06-12 07:59:34,245][INFO][find_string()] File: res/raw/prediction.html
+[INTERNAL_LOG][2018-06-12 07:59:34,560][INFO][find_string()] No iframe in res/raw/prediction.html
+[INTERNAL_LOG][2018-06-12 07:59:34,581][INFO][find_string()] File: res/raw/pulse.html
+[INTERNAL_LOG][2018-06-12 07:59:34,852][INFO][find_string()] No iframe in res/raw/pulse.html
+[INTERNAL_LOG][2018-06-12 07:59:34,868][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 07:59:34,893][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 07:59:34,909][INFO][find_string()] File: assets/js/device.js
+[INTERNAL_LOG][2018-06-12 07:59:35,415][INFO][find_string()] No iframe in assets/js/device.js
+[INTERNAL_LOG][2018-06-12 07:59:35,435][INFO][find_string()] File: assets/js/dropdown.js
+[INTERNAL_LOG][2018-06-12 07:59:35,472][INFO][find_string()] No iframe in assets/js/dropdown.js
+[INTERNAL_LOG][2018-06-12 07:59:35,493][INFO][find_string()] File: assets/js/jquery-2.1.4.min.js
+[INTERNAL_LOG][2018-06-12 07:59:45,893][INFO][find_string()] No iframe in assets/js/jquery-2.1.4.min.js
+[INTERNAL_LOG][2018-06-12 07:59:45,914][INFO][find_string()] File: assets/js/scrollto.js
+[INTERNAL_LOG][2018-06-12 07:59:45,950][INFO][find_string()] No iframe in assets/js/scrollto.js
+[INTERNAL_LOG][2018-06-12 07:59:45,966][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 08:00:13,762][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 08:00:13,762][INFO][find_url_in_apk()] http://schemas.android.com/apk/res/android
+https://data.flurry.com/pcr.do
+https://data.flurry.com/aap.do
+http://data.flurry.com/aap.do
+https://proton.flurry.com/sdk/v1/config
+https://graph.%s
+https://graph-video.%s
+https://facebook.com
+http://schemas.microsoft.com/DRM/2007/03/protocols/AcquireLicense
+http://www.w3.org/ns/ttml#parameter
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+https://www.googleapis.com/auth/games
+https://plus.google.com/
+https://www.googleapis.com/auth/fitness.activity.read
+https://www.googleapis.com/auth/fitness.activity.read
+https://www.googleapis.com/auth/fitness.activity.write
+https://www.googleapis.com/auth/fitness.activity.write
+https://www.googleapis.com/auth/fitness.activity.write
+https://www.googleapis.com/auth/fitness.location.read
+https://www.googleapis.com/auth/fitness.location.read
+https://www.googleapis.com/auth/fitness.location.read
+https://www.googleapis.com/auth/fitness.location.write
+https://www.googleapis.com/auth/fitness.location.write
+https://www.googleapis.com/auth/fitness.body.read
+https://www.googleapis.com/auth/fitness.body.read
+https://www.googleapis.com/auth/fitness.body.write
+https://www.googleapis.com/auth/fitness.body.write
+https://www.googleapis.com/auth/fitness.body.write
+https://www.googleapis.com/auth/fitness.nutrition.read
+https://www.googleapis.com/auth/fitness.nutrition.read
+https://www.googleapis.com/auth/fitness.nutrition.read
+https://www.googleapis.com/auth/fitness.nutrition.write
+https://www.googleapis.com/auth/fitness.nutrition.write
+http://www.example.com
+http://www.example.com
+http://www.example.com
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://csi.gstatic.com/csi
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/native_ads.html
+https://imasdk.googleapis.com/admob/sdkloader/native_video.html
+https://www.google.com/dfp/linkDevice
+https://www.google.com/dfp/inAppPreview
+https://www.google.com/dfp/debugSignals
+https://www.google.com/dfp/sendDebugData
+https://pagead2.googlesyndication.com/pagead/gen_204
+http://www.google.com
+https://support.google.com/dfp_premium/answer/7160685#push
+https://www.googleapis.com/auth/fitness.blood_pressure.read
+https://www.googleapis.com/auth/fitness.blood_pressure.write
+https://www.googleapis.com/auth/fitness.blood_glucose.read
+https://www.googleapis.com/auth/fitness.blood_glucose.write
+https://www.googleapis.com/auth/fitness.oxygen_saturation.read
+https://www.googleapis.com/auth/fitness.oxygen_saturation.write
+https://www.googleapis.com/auth/fitness.body_temperature.read
+https://www.googleapis.com/auth/fitness.body_temperature.write
+https://www.googleapis.com/auth/fitness.reproductive_health.read
+https://www.googleapis.com/auth/fitness.reproductive_health.write
+https://app-measurement.com/a
+https://www.google.com
+https://api.parse.com/1/
+https://startup.mobile.yandex.net/
+https://certificate.mobile.yandex.net/api/v1/pins
+https://certificate.mobile.yandex.net/api/v1/pins
+https://certificate.mobile.yandex.net/api/v1/pins
+https://certificate.mobile.yandex.net/api/v1/pins
+https://tech.yandex.com/metrica-mobile-sdk/doc/mobile-sdk-dg/concepts/android-initialize-docpage/
+https://e.crashlytics.com/spi/v2/events
+https://settings.crashlytics.com/spi/v2/platforms/android/apps/%s/settings
+https://content.owhealth.com/content
+https://play.google.com/store/apps/details?id=com.google.android.apps.fitness
+https://play.google.com/store/apps/details?id=com.google.android.gms
+http://xmlpull.org/v1/doc/
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+http://www.w3.org/XML/1998/namespace
+http://www.w3.org/2000/xmlns/
+https://www.fitbit.com/oauth2/authorize?response_type=token&client_id=%s&scope=%s&redirect_uri=%s&expires_in=2592000&prompt=login
+https://api.fitbit.com/1/user/
+https://api.fitbit.com/1/user/
+https://api.fitbit.com/1/user/
+https://api.fitbit.com/1/user/
+https://api.fitbit.com/1/user/
+https://api.fitbit.com/1/user/
+https://api.fitbit.com/1/user/
+https://api.fitbit.com/1/user/
+http://play.google.com/store/apps/dev?id=7859780945987939075
+http://play.google.com/store/apps/details?id=
+https://api.owhealth.com/call
+https://api.owhealth.com/call
+http://placehold.it/1920x1080
+https://dev.owhealth.com/content
+https://www.owhealth.com/content
+https://www.owhealth.com/privacy_policy.html
+https://www.owhealth.com/privacy_policy.html
+https://www.owhealth.com/terms_of_service.html
+https://www.owhealth.com/terms_of_service.html
+https://flo.health/video/
+https://video.owhealth.com/hls/letstalk/natalia_campaign_preview.mp4/index.m3u8
+http://xmlpull.org/v1/doc/features.html#validation
+http://xmlpull.org/v1/doc/features.html#validation
+
+[INTERNAL_LOG][2018-06-12 08:00:13,762][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 08:00:13,769][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 08:00:13,769][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 08:00:13,769][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 08:00:13,769][INFO][analyze_start()] End time:[Tue Jun 12 08:00:13 2018]

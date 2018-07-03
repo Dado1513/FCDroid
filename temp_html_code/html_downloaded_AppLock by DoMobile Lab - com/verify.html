@@ -1,0 +1,66 @@
+<html>
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+  <script src="https://apis.google.com/js/api:client.js"></script>
+  <script>
+  var googleUser = {};
+
+    // update toast text
+  function changeToast(newText) {
+    document.getElementById('toast').innerText = newText;
+  }
+
+  // start verify
+  var startApp = function() {
+    gapi.load('auth2', function(){
+      // Retrieve the singleton for the GoogleAuth library and set up the client.
+      auth2 = gapi.auth2.init({
+        client_id: '1011196779602-67kc57t11fuhl0anci7b0ogbobpjplnt.apps.googleusercontent.com',
+        cookiepolicy: 'single_host_origin',
+        scope: 'email'
+      });
+      // open new window to login
+      auth2.signIn().then(
+        function(user) {
+          var profile = user.getBasicProfile();
+          if(profile != null) {
+            // login google account success
+            var email = profile.getEmail();
+            changeToast("Verified google account: \n"+email);
+            client.verifiedEmail(email); // notify client
+          } else {
+            // login success, but get email failed
+            changeToast("Verify failed");
+            client.verifiedEmail(''); // notify client
+          }
+        },
+        function(error) {
+          // login google account error
+          changeToast("Verify failed");
+          client.verifiedEmail(''); // notify client
+        }
+      );
+    });
+  };
+
+  </script>
+
+  <style>
+    pre {
+      display:block;
+      width:100%;
+      text-align:center;
+      font-size: 22pt;
+      font-weight: bold;
+    }
+  </style>
+
+  </head>
+  <body>
+  <br><br><br>
+    <div>
+      <pre id='toast'></pre>
+    </div>
+    <script>startApp();</script>
+  </body>
+</html>

@@ -1,0 +1,186 @@
+[INTERNAL_LOG][2018-06-12 02:20:09,073][INFO][analyze_start()] Init Time [Tue Jun 12 02:20:09 2018]
+[INTERNAL_LOG][2018-06-12 02:20:09,115][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 02:20:09,116][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 02:20:09,116][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 02:20:09,116][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 02:20:09,116][INFO][is_hybird()] android.permission.ACCESS_COARSE_LOCATION
+[INTERNAL_LOG][2018-06-12 02:20:09,116][INFO][is_hybird()] android.permission.ACCESS_FINE_LOCATION
+[INTERNAL_LOG][2018-06-12 02:20:09,116][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-12 02:20:09,116][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 02:20:09,116][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 02:20:09,116][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 02:20:09,116][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-12 02:20:09,116][INFO][is_hybird()] com.dictionary.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-12 02:20:09,116][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-12 02:20:09,116][INFO][is_hybird()] android.permission.MODIFY_AUDIO_SETTINGS
+[INTERNAL_LOG][2018-06-12 02:20:09,116][INFO][is_hybird()] com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+[INTERNAL_LOG][2018-06-12 02:20:09,116][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 02:20:09,117][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 02:20:09,117][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 02:20:09,117][INFO][find_string()] File: assets/js/AboutDictionaryTemplate.html
+[INTERNAL_LOG][2018-06-12 02:20:09,118][INFO][find_string()] No iframe in assets/js/AboutDictionaryTemplate.html
+[INTERNAL_LOG][2018-06-12 02:20:09,130][INFO][find_string()] File: assets/js/WotdTemplate.html
+[INTERNAL_LOG][2018-06-12 02:20:09,140][INFO][find_string()] No iframe in assets/js/WotdTemplate.html
+[INTERNAL_LOG][2018-06-12 02:20:09,140][INFO][find_string()] File: assets/js/blog.html
+[INTERNAL_LOG][2018-06-12 02:20:09,141][INFO][find_string()] No iframe in assets/js/blog.html
+[INTERNAL_LOG][2018-06-12 02:20:09,142][INFO][find_string()] File: assets/js/dicsuggstyle.html
+[INTERNAL_LOG][2018-06-12 02:20:09,142][INFO][find_string()] No iframe in assets/js/dicsuggstyle.html
+[INTERNAL_LOG][2018-06-12 02:20:09,142][INFO][find_string()] File: assets/js/encyclopedia.html
+[INTERNAL_LOG][2018-06-12 02:20:09,143][INFO][find_string()] No iframe in assets/js/encyclopedia.html
+[INTERNAL_LOG][2018-06-12 02:20:09,143][INFO][find_string()] File: assets/js/grammer.html
+[INTERNAL_LOG][2018-06-12 02:20:09,144][INFO][find_string()] No iframe in assets/js/grammer.html
+[INTERNAL_LOG][2018-06-12 02:20:09,144][INFO][find_string()] File: assets/js/idioms.html
+[INTERNAL_LOG][2018-06-12 02:20:09,144][INFO][find_string()] No iframe in assets/js/idioms.html
+[INTERNAL_LOG][2018-06-12 02:20:09,144][INFO][find_string()] File: assets/js/mystyle.html
+[INTERNAL_LOG][2018-06-12 02:20:09,145][INFO][find_string()] No iframe in assets/js/mystyle.html
+[INTERNAL_LOG][2018-06-12 02:20:09,145][INFO][find_string()] File: assets/js/mystyle_learner.html
+[INTERNAL_LOG][2018-06-12 02:20:09,145][INFO][find_string()] No iframe in assets/js/mystyle_learner.html
+[INTERNAL_LOG][2018-06-12 02:20:09,145][INFO][find_string()] File: assets/js/privacy_policy.html
+[INTERNAL_LOG][2018-06-12 02:20:09,174][INFO][find_string()] No iframe in assets/js/privacy_policy.html
+[INTERNAL_LOG][2018-06-12 02:20:09,174][INFO][find_string()] File: assets/js/rhymes.html
+[INTERNAL_LOG][2018-06-12 02:20:09,175][INFO][find_string()] No iframe in assets/js/rhymes.html
+[INTERNAL_LOG][2018-06-12 02:20:09,175][INFO][find_string()] File: assets/js/serp.html
+[INTERNAL_LOG][2018-06-12 02:20:09,176][INFO][find_string()] No iframe in assets/js/serp.html
+[INTERNAL_LOG][2018-06-12 02:20:09,176][INFO][find_string()] File: assets/js/slang.html
+[INTERNAL_LOG][2018-06-12 02:20:09,177][INFO][find_string()] No iframe in assets/js/slang.html
+[INTERNAL_LOG][2018-06-12 02:20:09,177][INFO][find_string()] File: assets/js/slideshow.html
+[INTERNAL_LOG][2018-06-12 02:20:09,177][INFO][find_string()] No iframe in assets/js/slideshow.html
+[INTERNAL_LOG][2018-06-12 02:20:09,177][INFO][find_string()] File: assets/js/terms_of_service.html
+[INTERNAL_LOG][2018-06-12 02:20:11,602][INFO][find_string()] No iframe in assets/js/terms_of_service.html
+[INTERNAL_LOG][2018-06-12 02:20:11,617][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 02:20:11,623][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 02:20:11,628][INFO][find_string()] File: assets/jquery-1.9.1.js
+[INTERNAL_LOG][2018-06-12 02:20:19,118][INFO][find_string()] No iframe in assets/jquery-1.9.1.js
+[INTERNAL_LOG][2018-06-12 02:20:19,139][INFO][find_string()] File: assets/js/jquery-1.9.1.min.js
+[INTERNAL_LOG][2018-06-12 02:20:35,311][INFO][find_string()] No iframe in assets/js/jquery-1.9.1.min.js
+[INTERNAL_LOG][2018-06-12 02:20:35,331][INFO][find_string()] File: assets/mmadsdk/actionsQueue.js
+[INTERNAL_LOG][2018-06-12 02:20:35,652][INFO][find_string()] No iframe in assets/mmadsdk/actionsQueue.js
+[INTERNAL_LOG][2018-06-12 02:20:35,672][INFO][find_string()] File: assets/mmadsdk/mm.js
+[INTERNAL_LOG][2018-06-12 02:20:36,229][INFO][find_string()] No iframe in assets/mmadsdk/mm.js
+[INTERNAL_LOG][2018-06-12 02:20:36,249][INFO][find_string()] File: assets/mmadsdk/mraid.js
+[INTERNAL_LOG][2018-06-12 02:20:36,659][INFO][find_string()] No iframe in assets/mmadsdk/mraid.js
+[INTERNAL_LOG][2018-06-12 02:20:36,659][INFO][find_string()] File: assets/mmadsdk/vpaid.js
+[INTERNAL_LOG][2018-06-12 02:20:36,663][INFO][find_string()] No iframe in assets/mmadsdk/vpaid.js
+[INTERNAL_LOG][2018-06-12 02:20:36,663][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 02:20:58,377][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 02:20:58,377][INFO][find_url_in_apk()] http://schemas.android.com/apk/res/android
+https://www.example.com
+https://www.example.com
+http://www.dictionary.com/wordoftheday/{year}/{month}/{day}/{word}
+http://www.dictionary.com/wordoftheday/{year}/{month}/{day}
+http://www.dictionary.com/wordoftheday/
+http://www.dictionary.com/wordoftheday/
+http://www.dictionary.com/wordoftheday/
+http://www.dictionary.com/wordoftheday/
+http://www.dictionary.com/slideshows/{slug}
+http://www.dictionary.com/browse/{word}
+http://www.thesaurus.com/browse/{word}
+http://translate.reference.com
+http://www.dictionary.com/launch
+http://www.thesaurus.com/launch
+http://www.dictionary.com/e/{linkId}
+http://www.dictionary.com/e/{linkId}/
+http://www.dictionary.com/e/s/{linkId}
+http://www.dictionary.com/e/s/{linkId}/
+http://schemas.dtb.amazon.com/apk/res/android
+https://reflected-coder-798.firebaseio.com/
+http://static.sfdict.com/dictstatic/dictionary/audio/luna
+http://static.sfdict.com/dictstatic/dictionary/audio/luna
+http://www.dictionary.com/browse
+http://www.dictionary.com/browse
+http://www.dictionary.com/browse/
+http://www.dictionary.com/browse/
+http://www.dictionary.com/browse/
+http://www.dictionary.com/browse/
+http://www.dictionary.com/browse/
+http://www.dictionary.com/browse/
+http://www.thesaurus.com/browse/
+http://www.thesaurus.com/browse/
+http://www.thesaurus.com/browse/
+http://www.thesaurus.com/browse/
+http://www.thesaurus.com/browse/
+http://www.thesaurus.com/browse/
+http://wotd/
+https://dictionary.typeform.com/to/G2nhCn
+http://www.dictionary.com/
+http://www.dictionary.com/
+http://www.dictionary.com/
+http://www.dictionary.com/
+http://www.dictionary.com/
+http://bit.ly/1GqW677
+http://bit.ly/1BQcjUO
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+https://accounts.google.com
+https://www.facebook.com
+https://accounts.google.com/o/oauth2/revoke?token=
+https://plus.google.com/
+http://play.google.com/store/apps/category/GAME
+https://play.google.com/store/apps/details?id=%1$s&rdid=%1$s&rdot=%2$d
+https://plus.google.com/%s/about
+https://play.google.com/store/apps/details
+https://pagead2.googlesyndication.com/pagead/gen_204
+http://www.google.com
+https://support.google.com/dfp_premium/answer/7160685#push
+http://www.example.com
+http://www.example.com
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/sdk-core-v40-impl.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://csi.gstatic.com/csi
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/native_ads.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/native_ads.js
+https://imasdk.googleapis.com/admob/sdkloader/native_video.html
+https://www.google.com/dfp/linkDevice
+https://www.google.com/dfp/inAppPreview
+https://www.google.com/dfp/debugSignals
+https://www.google.com/dfp/sendDebugData
+http://www.quantcast.com/privacy/
+http://schemas.microsoft.com/DRM/2007/03/protocols/AcquireLicense
+http://hostname/?
+http://hostname/?
+http://not/needed
+http://www.w3.org/ns/ttml#parameter
+https://www.googleapis.com/auth/games_lite
+https://www.googleapis.com/auth/games
+http://blog.dictionary.com/
+http://blog.dictionary.com/
+http://static.sfdict.com/dictstatic/dictionary/audio/luna/
+http://translate.reference.com/
+http://www.google-analytics.com
+https://ssl.google-analytics.com
+https://app-measurement.com/a
+https://www.google-analytics.com
+https://ads.nexage.com
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+https://z.moatads.com/
+https://twitter.com/%s/status/%s
+https://www.mopub.com/optout/
+https://www.mopub.com/optout/
+https://settings.crashlytics.com/spi/v2/platforms/android/apps/%s/settings
+https://sdk.hockeyapp.net/
+https://sdk.hockeyapp.net/
+https://sdk.hockeyapp.net/
+https://sdk.hockeyapp.net/
+https://sdk.hockeyapp.net/
+https://sdk.hockeyapp.net/
+https://sdk.hockeyapp.net/
+https://sdk.hockeyapp.net/
+https://sdk.hockeyapp.net/
+https://e.crashlytics.com/spi/v2/events
+https://analytics.mopub.com/i/jot/exchange_client_event
+https://www.mopub.com/optout
+https://www.google.com
+
+[INTERNAL_LOG][2018-06-12 02:20:58,377][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 02:20:58,384][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 02:20:58,384][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 02:20:58,384][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 02:20:58,384][INFO][analyze_start()] End time:[Tue Jun 12 02:20:58 2018]

@@ -1,0 +1,90 @@
+[INTERNAL_LOG][2018-06-12 04:33:16,321][INFO][analyze_start()] Init Time [Tue Jun 12 04:33:16 2018]
+[INTERNAL_LOG][2018-06-12 04:33:16,563][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 04:33:16,566][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 04:33:16,566][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-12 04:33:16,566][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 04:33:16,566][INFO][is_hybird()] android.permission.ACCESS_FINE_LOCATION
+[INTERNAL_LOG][2018-06-12 04:33:16,566][INFO][is_hybird()] android.permission.ACCESS_COARSE_LOCATION
+[INTERNAL_LOG][2018-06-12 04:33:16,566][INFO][is_hybird()] com.google.android.providers.gsf.permission.READ_GSERVICES
+[INTERNAL_LOG][2018-06-12 04:33:16,566][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 04:33:16,566][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 04:33:16,566][INFO][is_hybird()] android.permission.READ_CONTACTS
+[INTERNAL_LOG][2018-06-12 04:33:16,566][INFO][is_hybird()] android.permission.GET_TASKS
+[INTERNAL_LOG][2018-06-12 04:33:16,566][INFO][is_hybird()] android.permission.BLUETOOTH
+[INTERNAL_LOG][2018-06-12 04:33:16,566][INFO][is_hybird()] android.permission.READ_PHONE_STATE
+[INTERNAL_LOG][2018-06-12 04:33:16,566][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 04:33:16,566][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 04:33:16,566][INFO][is_hybird()] android.permission.CALL_PHONE
+[INTERNAL_LOG][2018-06-12 04:33:16,567][INFO][is_hybird()] android.permission.RECEIVE_SMS
+[INTERNAL_LOG][2018-06-12 04:33:16,567][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 04:33:16,567][INFO][is_hybird()] com.gojek.app.permission.MAPS_RECEIVE
+[INTERNAL_LOG][2018-06-12 04:33:16,567][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-12 04:33:16,567][INFO][is_hybird()] android.permission.READ_LOGS
+[INTERNAL_LOG][2018-06-12 04:33:16,567][INFO][is_hybird()] android.permission.BATTERY_STATS
+[INTERNAL_LOG][2018-06-12 04:33:16,567][INFO][is_hybird()] com.gojek.app.gobox.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-12 04:33:16,567][INFO][is_hybird()] com.gojek.app.gobox.permission.MAPS_RECEIVE
+[INTERNAL_LOG][2018-06-12 04:33:16,567][INFO][is_hybird()] android.permission.CAMERA
+[INTERNAL_LOG][2018-06-12 04:33:16,567][INFO][is_hybird()] android.permission.WRITE_CONTACTS
+[INTERNAL_LOG][2018-06-12 04:33:16,567][INFO][is_hybird()] android.permission.SYSTEM_ALERT_WINDOW
+[INTERNAL_LOG][2018-06-12 04:33:16,567][INFO][is_hybird()] com.gojek.app.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-12 04:33:16,567][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 04:33:16,567][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 04:33:16,567][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 04:33:16,567][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 04:33:16,567][INFO][find_string()] File: assets/www/index.html
+[INTERNAL_LOG][2018-06-12 04:33:16,569][INFO][find_string()] No iframe in assets/www/index.html
+[INTERNAL_LOG][2018-06-12 04:33:16,570][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 04:33:16,570][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 04:33:16,570][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 04:34:51,207][INFO][find_url_in_apk()] [START URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-12 04:34:51,207][INFO][find_url_in_apk()] http://www.bca.co.id/BCAExpress/TC
+http://www.bca.co.id/BCAExpress/TC
+
+[INTERNAL_LOG][2018-06-12 04:34:51,207][INFO][find_url_in_apk()] [END URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-12 04:35:02,405][INFO][find_string()] [START REMOTE FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 04:35:02,405][INFO][find_string()] Remote File in: temp_html_code/html_downloaded_GO-JEK - Ojek Taxi Booking_ Delivery and Payment by PT/TC
+[INTERNAL_LOG][2018-06-12 04:35:02,405][INFO][find_string()] URL: http://www.bca.co.id/BCAExpress/TC
+[INTERNAL_LOG][2018-06-12 04:35:02,437][INFO][find_string()] Found this tag <iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-KGCJ5M" style="display:none;visibility:hidden" width="0"></iframe>
+[INTERNAL_LOG][2018-06-12 04:35:02,437][INFO][find_string()] Found in file temp_html_code/html_downloaded_GO-JEK - Ojek Taxi Booking_ Delivery and Payment by PT/TC tag iframe , 1 times
+[INTERNAL_LOG][2018-06-12 04:35:02,437][INFO][find_string()] Founded this src ['https://www.googletagmanager.com/ns.html?id=GTM-KGCJ5M'] in iframe tag inside file temp_html_code/html_downloaded_GO-JEK - Ojek Taxi Booking_ Delivery and Payment by PT/TC
+[INTERNAL_LOG][2018-06-12 04:35:02,445][INFO][find_string()] No CSP found!
+[INTERNAL_LOG][2018-06-12 04:35:02,445][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 04:35:02,445][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 04:35:02,445][INFO][find_url_in_apk()] http://www.bca.co.id/BCAExpress/TC
+http://www.bca.co.id/BCAExpress/TC
+http://static.wizrocket.com/android/ico//
+http://play.google.com/store/apps/details?id=com.facebook.orca
+http://www.android.com/
+http://maps.google.com/maps?q=loc:
+http://www.go-pay.co.id/appterms
+http://go-jek.com/credits/top-up/#/email/%s
+http://go-jek.com/credits/top-up/#/email/%s
+http://play.google.com/store/apps/details
+http://xmlpull.org/v1/doc/
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+http://www.w3.org/XML/1998/namespace
+http://www.w3.org/2000/xmlns/
+http://localhost/
+http://localhost/
+http://localhost/
+http://goassets.s3.amazonaws.com/s3/banners/mobile/banner-m-01.jpg
+http://integration.yggdrasil.golabs.io
+http://decide.mixpanel.com/decide
+http://api.mixpanel.com/track?ip=1
+http://api.mixpanel.com/engage
+http://schemas.android.com/apk/res/android
+
+[INTERNAL_LOG][2018-06-12 04:35:02,445][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 04:35:02,451][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 04:35:02,451][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 04:35:02,451][INFO][analyze_start()] This app might be vulnerable on attack frame confusion, This file are vulnerable ['temp_html_code/html_downloaded_GO-JEK - Ojek Taxi Booking_ Delivery and Payment by PT/TC']
+[INTERNAL_LOG][2018-06-12 04:35:02,451][INFO][analyze_start()] End time:[Tue Jun 12 04:35:02 2018]

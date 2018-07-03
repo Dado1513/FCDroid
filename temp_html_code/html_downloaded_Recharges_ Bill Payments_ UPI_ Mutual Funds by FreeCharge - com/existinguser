@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Online Recharge|Bill Payments|Wallet - FreeCharge
+	</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=no"/>
+	<meta name="format-detection" content="telephone=no"/>
+	<meta name="msapplication-tap-highlight" content="no"/>
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="mobile-web-app-capable" content="yes">
+	<meta name="theme-color" content="#E3714D">
+	<meta name="keywords" content="">
+	<!--  for page load time -->
+	<script type="text/javascript">
+	var fc={inHeadTS:(new Date()).getTime()};
+	function s_getLoadTime(headTs,loadTimeVar){if(!window[loadTimeVar]){var b=new Date().getTime(),o=window.performance?performance.timing:0,a=o?o.requestStart:headTs||0;window[loadTimeVar]=a?Math.round((b-a)/100):''}return window[loadTimeVar]}
+	</script>
+
+	<!-- SiteCatalyst code version: H.27.5.
+	Copyright 1996-2015 Adobe, Inc. All Rights Reserved
+	More info available at http://www.omniture.com -->
+	<script language="JavaScript" type="text/javascript" src="/mobile/javascripts/s_code.js?v=1"></script>
+	<meta name="description" content="Fastest way to do Online Recharge & Bill Pay for Prepaid, Postpaid, Datacard, Electricity, Gas, Metro & DTH. Get exclusive rewards on FreeCharge.">
+	<link rel="icon" sizes="128x128" href="https://s.freecharge.in/mobile/images/ic_launcher.png">
+	<link rel="apple-touch-icon" sizes="128x128" href="https://s.freecharge.in/mobile/images/ic_launcher.png">
+	<link rel="canonical" href="https://freecharge.in"/>
+	<link rel="manifest" href="/mobile/manifest.json?v=1">
+<script type="text/javascript">
+		 var clevertap = {event:[], profile:[], account:[], onUserLogin:[], notifications:[]};
+ // replace with the CLEVERTAP_ACCOUNT_ID with the actual ACCOUNT ID value from your Dashboard -> Settings page
+ clevertap.account.push({"id": "869-K6K-564Z"});
+ (function () {
+		 var wzrk = document.createElement('script');
+		 wzrk.type = 'text/javascript';
+		 wzrk.async = true;
+		 wzrk.src = ('https:' == document.location.protocol ? 'https://d2r1yp2w7bby2u.cloudfront.net' : 'http://static.clevertap.com') + '/js/a.js';
+		 var s = document.getElementsByTagName('script')[0];
+		 s.parentNode.insertBefore(wzrk, s);
+	})();
+</script>
+<script language="JavaScript" type="text/javascript">
+document.addEventListener('DOMContentLoaded',function(event){
+  if(typeof fc === 'undefined'){
+    fc = {};
+  }
+  fc.fireClevertapEvent = function(eventObj){
+    if(clevertap){
+      clevertap.event.push(eventObj.name,eventObj.data);
+    }
+  }
+  fc.setProfile = function(profileObj){
+    if(clevertap){
+      clevertap.profile.push(profileObj)
+    }
+  }
+  fc.onUserLogin = function(profileObj){
+    if(clevertap && clevertap.onUserLogin){
+      clevertap.onUserLogin.push(profileObj)
+    }
+  }
+  fc.logoutUser = function(){
+    if(clevertap && clevertap.logout){
+      clevertap.logout();
+    }
+  }
+})
+</script>
+</head>
+
+<body>
+            <script src="//assets.adobedtm.com/98958522b413625757245599df102b52fad09f03/satelliteLib-c45b14ccac1d52dd51a68ff4aaa8b206904b5b6f.js"></script>
+		<script type="text/javascript">
+			function ready(fn){var d=document;(d.readyState=='loading')?d.addEventListener('DOMContentLoaded',fn):fn();}
+		</script>
+		<div class="wrapper page- " id="freechargeApp">
+		<link rel='stylesheet' href="https://s.freecharge.in/mobile/build/stylesheets/css/new/toast.css?v=5316a053ab" />
+			<div class="notification" id="genericMessage" style="display:none"> <span class="msg">
+				
+			</span> <span class="close"></span> </div>
+		<div class="toast" id="toast" style="display:none">
+		  <span class="message">
+		  </span>
+		  <span class="cta">
+		    <a href="javascript:void(0)" class="cta-txt">OK</a>
+		  </span>
+		</div>
+		<script>
+		  var mode = "prod"
+		  // var enableServiceWorker = (mode == "dev") ? false : true;
+		  var enableServiceWorker = false;
+		  if ('serviceWorker' in navigator && enableServiceWorker) {
+		    navigator.serviceWorker.register('/mobile/sw.js').then(function(reg) {
+		    reg.onupdatefound = function() {
+		      // The updatefound event implies that reg.installing is set; see
+		      // https://slightlyoff.github.io/ServiceWorker/spec/service_worker/index.html#service-worker-container-updatefound-event
+		      var installingWorker = reg.installing;
+		
+		      installingWorker.onstatechange = function() {
+		        switch (installingWorker.state) {
+		          case 'installed':
+		            if (navigator.serviceWorker.controller) {
+		              // At this point, the old content will have been purged and the fresh content will
+		              // have been added to the cache.
+		              // It's the perfect time to display a "New content is available; please refresh."
+		              // message in the page's interface.
+		              console.log('New or updated content is available.');
+		            } else {
+		              // At this point, everything has been precached.
+		              // It's the perfect time to display a "Content is cached for offline use." message.
+		              console.log('Content is now available offline!');
+		            }
+		            break;
+		
+		          case 'redundant':
+		            console.error('The installing service worker became redundant.');
+		            break;
+		        }
+		      };
+		    };
+		    }).catch(function (err) {
+		      console.error("Something is not right, worker wasn't registerd");
+		      console.log(err);
+		    });
+		  }
+		  // de register service worker
+		  else if('serviceWorker' in navigator){
+		    navigator.serviceWorker.getRegistrations()
+		    .then(function(registrations) {
+		     for(var registration of registrations) {
+		      registration.unregister()
+		    } })
+		  }
+		  function updateReady(worker) {
+		    worker.postMessage({command: "delete_all"});
+		  }
+		  function trackInstalling(worker) {
+		    sw.addEventListener('statechange', function () {
+		      if(sw.state === "installed"){
+		        updateReady(sw);
+		      }
+		    })
+		  }
+		</script>
+		<div id="appcontainer">
+			<link rel='stylesheet' href="https://s.freecharge.in/mobile/build/stylesheets/css/new/servererror.css?v=59dcab7e37" />
+
+<div class="container page errorpage">
+		<div id="errorBlock">
+			<div class="secretImage">
+				<img src="https://s.freecharge.in/mobile/images/incognito.png"/>
+			</div>
+			<div class="secretText"><p>Error: User is not logged in</p></div>
+		</div>
+</div>
+    <script type="text/javascript" src="https://s.freecharge.in/mobile/build/javascripts/dist/all.libs.js?v=cccba002bc"></script>
+
+		</div>
+		<div id="overlay"></div>
+		    <div id="loadMask" style="display: none;">
+		        <div class="f-bolt">
+		        <span></span>
+		      </div>
+		    </div>
+	</div>
+	<script type="text/javascript">
+		function isLocalStorageAvailable(){
+			if(typeof localStorage !== 'undefined'){
+				try{
+					localStorage.setItem('test','123');
+					localStorage.removeItem('test');
+				}
+				catch(e){
+					//
+					return false;
+				}
+				return true;
+			}
+			return false;
+		}
+	</script>
+	<script type="text/javascript">
+		var email = "";
+		var userAgentSD = "";
+		var hUserID = "" || null;
+		window.fcConfig = {'email' : email,'userAgentSD' : (userAgentSD === 'true') ? true : false};
+	</script>
+	
+	  <script type="text/javascript">
+	    var TRACKER_CLIENT_DATA = (function() {
+	        var userAgent = navigator.userAgent;
+	        var referrer = document.referrer;
+	        var params = location.search;
+	
+	        return {
+	            "userAgent": userAgent,
+	            "referrer": referrer,
+	            "params": params
+	        };
+	    })();
+	    var _fcTrackerEventQueue = _fcTrackerEventQueue || [];
+	    document.addEventListener('DOMContentLoaded', function () {
+	      if(typeof helper !== 'undefined' && helper && helper.loadScriptAsync){
+	        helper.loadScriptAsync('https://tracker.freecharge.in/api/1/tracker/?v=1&channelId=2');
+	      }
+	    });
+	  </script>
+	<script type="text/javascript">
+	/*! jstz - v1.0.4 - 2012-12-18 */
+	(function(e){var t=function(){"use strict";var e="s",n=function(e){var t=-e.getTimezoneOffset();return t!==null?t:0},r=function(e,t,n){var r=new Date;return e!==undefined&&r.setFullYear(e),r.setDate(n),r.setMonth(t),r},i=function(e){return n(r(e,0,2))},s=function(e){return n(r(e,5,2))},o=function(e){var t=e.getMonth()>7?s(e.getFullYear()):i(e.getFullYear()),r=n(e);return t-r!==0},u=function(){var t=i(),n=s(),r=i()-s();return r<0?t+",1":r>0?n+",1,"+e:t+",0"},a=function(){var e=u();return new t.TimeZone(t.olson.timezones[e])},f=function(e){var t=new Date(2010,6,15,1,0,0,0),n={"America/Denver":new Date(2011,2,13,3,0,0,0),"America/Mazatlan":new Date(2011,3,3,3,0,0,0),"America/Chicago":new Date(2011,2,13,3,0,0,0),"America/Mexico_City":new Date(2011,3,3,3,0,0,0),"America/Asuncion":new Date(2012,9,7,3,0,0,0),"America/Santiago":new Date(2012,9,3,3,0,0,0),"America/Campo_Grande":new Date(2012,9,21,5,0,0,0),"America/Montevideo":new Date(2011,9,2,3,0,0,0),"America/Sao_Paulo":new Date(2011,9,16,5,0,0,0),"America/Los_Angeles":new Date(2011,2,13,8,0,0,0),"America/Santa_Isabel":new Date(2011,3,5,8,0,0,0),"America/Havana":new Date(2012,2,10,2,0,0,0),"America/New_York":new Date(2012,2,10,7,0,0,0),"Asia/Beirut":new Date(2011,2,27,1,0,0,0),"Europe/Helsinki":new Date(2011,2,27,4,0,0,0),"Europe/Istanbul":new Date(2011,2,28,5,0,0,0),"Asia/Damascus":new Date(2011,3,1,2,0,0,0),"Asia/Jerusalem":new Date(2011,3,1,6,0,0,0),"Asia/Gaza":new Date(2009,2,28,0,30,0,0),"Africa/Cairo":new Date(2009,3,25,0,30,0,0),"Pacific/Auckland":new Date(2011,8,26,7,0,0,0),"Pacific/Fiji":new Date(2010,11,29,23,0,0,0),"America/Halifax":new Date(2011,2,13,6,0,0,0),"America/Goose_Bay":new Date(2011,2,13,2,1,0,0),"America/Miquelon":new Date(2011,2,13,5,0,0,0),"America/Godthab":new Date(2011,2,27,1,0,0,0),"Europe/Moscow":t,"Asia/Yekaterinburg":t,"Asia/Omsk":t,"Asia/Krasnoyarsk":t,"Asia/Irkutsk":t,"Asia/Yakutsk":t,"Asia/Vladivostok":t,"Asia/Kamchatka":t,"Europe/Minsk":t,"Australia/Perth":new Date(2008,10,1,1,0,0,0)};return n[e]};return{determine:a,date_is_dst:o,dst_start_for:f}}();t.TimeZone=function(e){"use strict";var n={"America/Denver":["America/Denver","America/Mazatlan"],"America/Chicago":["America/Chicago","America/Mexico_City"],"America/Santiago":["America/Santiago","America/Asuncion","America/Campo_Grande"],"America/Montevideo":["America/Montevideo","America/Sao_Paulo"],"Asia/Beirut":["Asia/Beirut","Europe/Helsinki","Europe/Istanbul","Asia/Damascus","Asia/Jerusalem","Asia/Gaza"],"Pacific/Auckland":["Pacific/Auckland","Pacific/Fiji"],"America/Los_Angeles":["America/Los_Angeles","America/Santa_Isabel"],"America/New_York":["America/Havana","America/New_York"],"America/Halifax":["America/Goose_Bay","America/Halifax"],"America/Godthab":["America/Miquelon","America/Godthab"],"Asia/Dubai":["Europe/Moscow"],"Asia/Dhaka":["Asia/Yekaterinburg"],"Asia/Jakarta":["Asia/Omsk"],"Asia/Shanghai":["Asia/Krasnoyarsk","Australia/Perth"],"Asia/Tokyo":["Asia/Irkutsk"],"Australia/Brisbane":["Asia/Yakutsk"],"Pacific/Noumea":["Asia/Vladivostok"],"Pacific/Tarawa":["Asia/Kamchatka"],"Africa/Johannesburg":["Asia/Gaza","Africa/Cairo"],"Asia/Baghdad":["Europe/Minsk"]},r=e,i=function(){var e=n[r],i=e.length,s=0,o=e[0];for(;s<i;s+=1){o=e[s];if(t.date_is_dst(t.dst_start_for(o))){r=o;return}}},s=function(){return typeof n[r]!="undefined"};return s()&&i(),{name:function(){return r}}},t.olson={},t.olson.timezones={"-720,0":"Etc/GMT+12","-660,0":"Pacific/Pago_Pago","-600,1":"America/Adak","-600,0":"Pacific/Honolulu","-570,0":"Pacific/Marquesas","-540,0":"Pacific/Gambier","-540,1":"America/Anchorage","-480,1":"America/Los_Angeles","-480,0":"Pacific/Pitcairn","-420,0":"America/Phoenix","-420,1":"America/Denver","-360,0":"America/Guatemala","-360,1":"America/Chicago","-360,1,s":"Pacific/Easter","-300,0":"America/Bogota","-300,1":"America/New_York","-270,0":"America/Caracas","-240,1":"America/Halifax","-240,0":"America/Santo_Domingo","-240,1,s":"America/Santiago","-210,1":"America/St_Johns","-180,1":"America/Godthab","-180,0":"America/Argentina/Buenos_Aires","-180,1,s":"America/Montevideo","-120,0":"Etc/GMT+2","-120,1":"Etc/GMT+2","-60,1":"Atlantic/Azores","-60,0":"Atlantic/Cape_Verde","0,0":"Etc/UTC","0,1":"Europe/London","60,1":"Europe/Berlin","60,0":"Africa/Lagos","60,1,s":"Africa/Windhoek","120,1":"Asia/Beirut","120,0":"Africa/Johannesburg","180,0":"Asia/Baghdad","180,1":"Europe/Moscow","210,1":"Asia/Tehran","240,0":"Asia/Dubai","240,1":"Asia/Baku","270,0":"Asia/Kabul","300,1":"Asia/Yekaterinburg","300,0":"Asia/Karachi","330,0":"Asia/Kolkata","345,0":"Asia/Kathmandu","360,0":"Asia/Dhaka","360,1":"Asia/Omsk","390,0":"Asia/Rangoon","420,1":"Asia/Krasnoyarsk","420,0":"Asia/Jakarta","480,0":"Asia/Shanghai","480,1":"Asia/Irkutsk","525,0":"Australia/Eucla","525,1,s":"Australia/Eucla","540,1":"Asia/Yakutsk","540,0":"Asia/Tokyo","570,0":"Australia/Darwin","570,1,s":"Australia/Adelaide","600,0":"Australia/Brisbane","600,1":"Asia/Vladivostok","600,1,s":"Australia/Sydney","630,1,s":"Australia/Lord_Howe","660,1":"Asia/Kamchatka","660,0":"Pacific/Noumea","690,0":"Pacific/Norfolk","720,1,s":"Pacific/Auckland","720,0":"Pacific/Tarawa","765,1,s":"Pacific/Chatham","780,0":"Pacific/Tongatapu","780,1,s":"Pacific/Apia","840,0":"Pacific/Kiritimati"},typeof exports!="undefined"?exports.jstz=t:e.jstz=t})(this);
+	</script>
+	<!-- <script type="text/javascript" src="/mobile/javascripts/ua-parser.js"></script> -->
+	<!-- <script type="text/javascript">
+	  document.addEventListener('DOMContentLoaded',function(){
+	    var uaParser = new UAParser();
+	    var currentDate = new Date();
+	    var tz = jstz.determine(); // Determines the time zone of the browser client
+	    var timezone = tz.name();
+	    function getCookie(name) {
+	      var value = "; " + document.cookie;
+	      var parts = value.split("; " + name + "=");
+	      if (parts.length >= 2) return parts.pop().split(";").shift();
+	    }
+	    var data = {
+	      version : 1,
+	      clientId : getCookie('fc.tc3'),
+	      platform : "MSite",
+	      visitId : getCookie('fc.tv'),
+	      signal : null, //not for msite
+	      appstate :"OPEN",
+	      deviceParams : {
+	        osVersion : uaParser.getOS()['version'],
+	        osName : uaParser.getOS()['name'],
+	        deviceModel : uaParser.getDevice()['model'],
+	        gpsLocation : {},
+	        browserPlugins : "",
+	        browserName : uaParser.getBrowser()['name'],
+	        browserVersion : uaParser.getBrowser()['version'],
+	        userAgent : uaParser.getUA(),
+	        timeStamp : currentDate.getTime(),
+	        timeZone : timezone,
+	
+	      },
+	      userParams : {
+	        imsId : hUserID,
+	        historicalImsIdList : null
+	      }
+	    }
+	    // atomic.post('/mobile/track/devicefingerprinting',btoa(JSON.stringify(data))).success(function (data, xhr) {
+	    //   //do nothing
+	    // })
+	    // .error(function(error){
+	    //
+	    // })
+	  })
+	</script> -->
+	    <!-- Facebook Pixel Code -->
+	    <script>
+	    !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+	    n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+	    n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+	    t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+	    document,'script','//connect.facebook.net/en_US/fbevents.js');
+	
+	    fbq('init', '1562688680653971');
+	    fbq('track', 'PageView');
+	    </script>
+	    <noscript><img height="1" width="1" style="display:none"
+	    src="https://www.facebook.com/tr?id=1562688680653971&ev=PageView&noscript=1"
+	    /></noscript>
+	    <!-- End Facebook Pixel Code -->
+	
+	    <!-- Google analytics SEO -->
+	    <script>
+	      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	
+	      ga('create', 'UA-12939857-1', 'auto');
+	      ga('send', 'pageview');
+	
+	    </script>
+	<script type="text/javascript">
+		if(!window._fcTrackerEventQueue){
+			window._fcTrackerEventQueue = []
+		}
+		window._fcTrackerEventQueue.push({eventName: 'm_new_load'});
+	</script>
+	<script>
+		var cartLookupId = '' || '';
+		var ownMobileNumber = '' || '';
+		//var cartRechargeData = JSON.parse(('' || '{}').replace(/&quot;/g,'"'));
+		document.addEventListener('DOMContentLoaded',function(event){
+			function getCartProductName(productType){
+				var map = {
+					'V' : 'Prepaid',
+					'M' : 'Postpaid',
+					'D' : 'DTH',
+					'C' : 'datacard',
+					'F' : 'PostpaidDataCard',
+					'Z' : 'Metro',
+					'E' : 'Electricity',
+					'G' : 'Gas',
+					'W' : 'Water',
+					'Y' : 'Broadband',
+					'L' : 'Landline'
+				}
+				return map[productType] || 'Prepaid';
+			}
+			if(cartLookupId){
+				atomic.get('/mobile/cart/'+cartLookupId).success(function(result){
+					fc.fireClevertapEvent({
+						name : 'Abandoned cart',
+						data : {
+							'Amount' : (result && result.rechargeData && result.rechargeData.rechargeAmount) || '',
+							'Product Type' : getCartProductName((result && result.rechargeData && result.rechargeData.productName) || ''),
+							'Plan Type' : '',
+							'Validity': '',
+							'Medium': 'Msite',
+							'Telecom Circle': (result && result.rechargeData && result.rechargeData.circleName) || '',
+							'RechargeForSelf': (result && result.rechargeData && result.rechargeData.serviceNumber === ownMobileNumber).toString(),
+							'Number recharged': (result && result.rechargeData && result.rechargeData.serviceNumber) || '',
+							'Operator': (result && result.rechargeData && result.rechargeData.operatorName) || '',
+						}
+					})
+				})
+			}
+
+            (function handleWebViewHeader() {
+                var websiteHeader = document.querySelector('header.header') || document.querySelector('div.transactions-header');
+                var webViewHeader = document.querySelector('div.webview-header');
+                if(websiteHeader && webViewHeader) {
+                    webViewHeader.style.display = 'none';
+                } else if(!websiteHeader && webViewHeader) {
+                    webViewHeader.style.display = 'block';
+                }
+            })();
+		})
+	</script>
+
+        <script type="text/javascript">_satellite.pageBottom();</script>
+</body>
+</html>

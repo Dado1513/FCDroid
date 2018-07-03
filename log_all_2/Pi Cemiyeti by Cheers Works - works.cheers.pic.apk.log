@@ -1,0 +1,74 @@
+[INTERNAL_LOG][2018-06-12 03:02:00,186][INFO][analyze_start()] Init Time [Tue Jun 12 03:02:00 2018]
+[INTERNAL_LOG][2018-06-12 03:02:00,208][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 03:02:00,208][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 03:02:00,208][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 03:02:00,208][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 03:02:00,208][INFO][is_hybird()] android.permission.CALL_PHONE
+[INTERNAL_LOG][2018-06-12 03:02:00,209][INFO][is_hybird()] works.cheers.pic.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-12 03:02:00,209][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-12 03:02:00,209][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-12 03:02:00,209][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 03:02:00,209][INFO][is_hybird()] android.permission.RECEIVE_BOOT_COMPLETED
+[INTERNAL_LOG][2018-06-12 03:02:00,209][INFO][is_hybird()] com.sec.android.provider.badge.permission.READ
+[INTERNAL_LOG][2018-06-12 03:02:00,209][INFO][is_hybird()] com.sec.android.provider.badge.permission.WRITE
+[INTERNAL_LOG][2018-06-12 03:02:00,209][INFO][is_hybird()] com.htc.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 03:02:00,209][INFO][is_hybird()] com.htc.launcher.permission.UPDATE_SHORTCUT
+[INTERNAL_LOG][2018-06-12 03:02:00,209][INFO][is_hybird()] com.sonyericsson.home.permission.BROADCAST_BADGE
+[INTERNAL_LOG][2018-06-12 03:02:00,209][INFO][is_hybird()] com.sonymobile.home.permission.PROVIDER_INSERT_BADGE
+[INTERNAL_LOG][2018-06-12 03:02:00,209][INFO][is_hybird()] com.anddoes.launcher.permission.UPDATE_COUNT
+[INTERNAL_LOG][2018-06-12 03:02:00,209][INFO][is_hybird()] com.majeur.launcher.permission.UPDATE_BADGE
+[INTERNAL_LOG][2018-06-12 03:02:00,209][INFO][is_hybird()] com.huawei.android.launcher.permission.CHANGE_BADGE
+[INTERNAL_LOG][2018-06-12 03:02:00,209][INFO][is_hybird()] com.huawei.android.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 03:02:00,209][INFO][is_hybird()] com.huawei.android.launcher.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 03:02:00,216][INFO][is_hybird()] android.permission.READ_APP_BADGE
+[INTERNAL_LOG][2018-06-12 03:02:00,219][INFO][is_hybird()] com.oppo.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-12 03:02:00,219][INFO][is_hybird()] com.oppo.launcher.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 03:02:00,219][INFO][is_hybird()] me.everything.badger.permission.BADGE_COUNT_READ
+[INTERNAL_LOG][2018-06-12 03:02:00,220][INFO][is_hybird()] me.everything.badger.permission.BADGE_COUNT_WRITE
+[INTERNAL_LOG][2018-06-12 03:02:00,220][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 03:02:00,220][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 03:02:00,221][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 03:02:00,221][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 03:02:00,221][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 03:02:00,221][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 03:02:17,078][INFO][find_url_in_apk()] [START URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-12 03:02:17,078][INFO][find_url_in_apk()] https://www.picemiyeti.net
+
+[INTERNAL_LOG][2018-06-12 03:02:17,078][INFO][find_url_in_apk()] [END URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-12 03:02:17,617][INFO][find_string()] [START REMOTE FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 03:02:17,618][INFO][find_string()] Remote File in: temp_html_code/html_downloaded_Pi Cemiyeti by Cheers Works - works/www.picemiyeti.net
+[INTERNAL_LOG][2018-06-12 03:02:17,618][INFO][find_string()] URL: https://www.picemiyeti.net
+[INTERNAL_LOG][2018-06-12 03:02:17,674][INFO][find_string()] No iframe in temp_html_code/html_downloaded_Pi Cemiyeti by Cheers Works - works/www.picemiyeti.net
+[INTERNAL_LOG][2018-06-12 03:02:17,674][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 03:02:17,674][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 03:02:17,674][INFO][find_url_in_apk()] http://schemas.android.com/apk/res/android
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+https://plus.google.com/
+http://play.google.com/store/apps/details?id=
+https://onesignal.com/api/v1/
+https://settings.crashlytics.com/spi/v2/platforms/android/apps/%s/settings
+http://schemas.microsoft.com/DRM/2007/03/protocols/AcquireLicense
+https://onesignal.com/android_frame.html
+https://e.crashlytics.com/spi/v2/events
+http://46.20.4.34/picemiyeti/picemiyeti.stream/playlist.m3u8
+https://www.picemiyeti.net
+https://www.facebook.com/picemiyeti
+https://www.instagram.com/picemiyeti
+https://www.twitter.com/picemiyeti
+http://itiraf.picemiyeti.net
+https://www.youtube.com/picemiyeti
+http://www.w3.org/ns/ttml#parameter
+https://www.googleapis.com/auth/games
+
+[INTERNAL_LOG][2018-06-12 03:02:17,675][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 03:02:17,678][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 03:02:17,678][INFO][check_method_conf()] [Add interface WebView: False]
+
+[INTERNAL_LOG][2018-06-12 03:02:17,678][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 03:02:17,678][INFO][analyze_start()] End time:[Tue Jun 12 03:02:17 2018]

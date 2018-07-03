@@ -1,0 +1,118 @@
+[INTERNAL_LOG][2018-06-12 01:04:45,856][INFO][analyze_start()] Init Time [Tue Jun 12 01:04:45 2018]
+[INTERNAL_LOG][2018-06-12 01:04:45,930][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 01:04:45,931][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 01:04:45,931][INFO][is_hybird()] android.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 01:04:45,931][INFO][is_hybird()] android.permission.SYSTEM_ALERT_WINDOW
+[INTERNAL_LOG][2018-06-12 01:04:45,931][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 01:04:45,931][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 01:04:45,931][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 01:04:45,931][INFO][is_hybird()] android.permission.MANAGE_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 01:04:45,931][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 01:04:45,931][INFO][is_hybird()] android.permission.USE_CREDENTIALS
+[INTERNAL_LOG][2018-06-12 01:04:45,932][INFO][is_hybird()] android.permission.AUTHENTICATE_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 01:04:45,932][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 01:04:45,932][INFO][is_hybird()] android.permission.READ_SYNC_SETTINGS
+[INTERNAL_LOG][2018-06-12 01:04:45,932][INFO][is_hybird()] android.permission.READ_SYNC_STATS
+[INTERNAL_LOG][2018-06-12 01:04:45,932][INFO][is_hybird()] android.permission.WRITE_SYNC_SETTINGS
+[INTERNAL_LOG][2018-06-12 01:04:45,932][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 01:04:45,932][INFO][is_hybird()] com.google.android.providers.gsf.permission.READ_GSERVICES
+[INTERNAL_LOG][2018-06-12 01:04:45,932][INFO][is_hybird()] android.permission.SUBSCRIBED_FEEDS_READ
+[INTERNAL_LOG][2018-06-12 01:04:45,932][INFO][is_hybird()] android.permission.SUBSCRIBED_FEEDS_WRITE
+[INTERNAL_LOG][2018-06-12 01:04:45,932][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-12 01:04:45,932][INFO][is_hybird()] android.permission.RECEIVE_BOOT_COMPLETED
+[INTERNAL_LOG][2018-06-12 01:04:45,932][INFO][is_hybird()] android.permission.BLUETOOTH
+[INTERNAL_LOG][2018-06-12 01:04:45,932][INFO][is_hybird()] com.google.android.gms.permission.ACTIVITY_RECOGNITION
+[INTERNAL_LOG][2018-06-12 01:04:45,932][INFO][is_hybird()] android.permission.GET_PACKAGE_SIZE
+[INTERNAL_LOG][2018-06-12 01:04:45,932][INFO][is_hybird()] android.permission.FOREGROUND_SERVICE
+[INTERNAL_LOG][2018-06-12 01:04:45,932][INFO][is_hybird()] com.google.android.music.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-12 01:04:45,932][INFO][is_hybird()] com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY
+[INTERNAL_LOG][2018-06-12 01:04:45,932][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 01:04:45,932][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 01:04:45,932][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 01:04:45,933][INFO][find_string()] File: res/raw/licenses.html
+[INTERNAL_LOG][2018-06-12 01:04:45,956][INFO][find_string()] No iframe in res/raw/licenses.html
+[INTERNAL_LOG][2018-06-12 01:04:45,957][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 01:04:45,962][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 01:04:45,962][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 01:05:47,769][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 01:05:47,770][INFO][find_url_in_apk()] http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+http://imasdk.googleapis.com/native/sdkloader/native_sdk_v3.html
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://csi.gstatic.com/csi
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/native_ads.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/native_video_ads.html
+https://www.google.com/dfp/linkDevice
+https://www.google.com/dfp/inAppPreview
+https://www.google.com/dfp/debugSignals
+https://www.google.com/dfp/sendDebugData
+http://www.google-analytics.com
+https://ssl.google-analytics.com
+https://plus.google.com/
+http://www.example.com
+http://www.example.com
+https://pagead2.googlesyndication.com/pagead/gen_204
+https://play.googleapis.com/play/log
+https://play.googleapis.com/play/log
+https://mclients.googleapis.com
+https://mclients.googleapis.com
+https://mclients.googleapis.com
+https://mclients.googleapis.com/music
+https://mclients.googleapis.com/music
+https://mclients.googleapis.com/music
+https://play.google.com/store/music/
+https://play.google.com/store/music/
+https://play.google.com/store/account
+https://play.google.com/store/account
+https://market.android.com/details?id=com.google.android.music&rdid=com.google.android.music&rdot=1
+https://android.googleapis.com/gcm/groups
+https://play.google.com/music/preview/
+https://play.google.com/music/preview/r/pl/
+https://play.google.com/music/preview/r/
+https://play.google.com/music/playlist/
+https://play.google.com/music/playlist/
+https://play.google.com/music/m/
+https://play.google.com/music/m/
+https://play.google.com/music/m/
+https://play.google.com/music/r/m/
+https://play.google.com/music/r/playlist/
+https://gdata.youtube.com/feeds/api/videos
+https://play.googleapis.com/play/log/timestamp
+https://android.clients.google.com/music/playon/createtoken
+https://playmusicentitybrowser.googleapis.com/v1/rootEntities:batchGet
+https://dogfood-music-pa.sandbox.googleapis.com
+https://music-pa.googleapis.com
+https://www.googleapis.com/auth/games
+http://www.google.com
+https://support.google.com/dfp_premium/answer/7160685#push
+https://www.googletagmanager.com
+http://hostname/?
+http://pubads.g.doubleclick.net/gampad/ads?sz=%s&iu=%s&ciu_szs=300x250&impl=s&gdfp_req=1&env=vp&output=xml_vast2&unviewed_position_start=1&url=[referrer_url]&description_url=http%%3A%%2F%%2Fplay.google.com%%2Fmusic%%2F&correlator=[timestamp]
+https://play.google.com/music
+https://market.android.com/search?q=%s&c=music&featured=MUSIC_STORE_SEARCH
+http://127.0.0.1:
+https://support.google.com/googleplaymusic/?p=delete_library
+https://support.google.com/googleplaymusic/?p=gpm_privacy
+https://www.google.com/policies/privacy/
+https://play.google.com/settings/
+https://music.google.com/music/sharepreview?storeId=%s&source=music-mobile&u=0
+https://music.google.com/music/playpreview
+https://play.google.com/music/gift
+https://android.clients.google.com/fdfe/
+http://play.google.com/store/apps/details
+
+[INTERNAL_LOG][2018-06-12 01:05:47,770][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 01:05:47,777][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 01:05:47,777][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 01:05:47,777][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 01:05:47,777][INFO][analyze_start()] End time:[Tue Jun 12 01:05:47 2018]

@@ -1,0 +1,488 @@
+[INTERNAL_LOG][2018-06-12 00:30:34,397][INFO][analyze_start()] Init Time [Tue Jun 12 00:30:34 2018]
+[INTERNAL_LOG][2018-06-12 00:30:34,608][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 00:30:34,608][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 00:30:34,608][INFO][is_hybird()] net.one97.paytm.permission.UA_DATA
+[INTERNAL_LOG][2018-06-12 00:30:34,608][INFO][is_hybird()] net.one97.paytm.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-12 00:30:34,609][INFO][is_hybird()] net.one97.paytm.permission.LAYER_PUSH
+[INTERNAL_LOG][2018-06-12 00:30:34,609][INFO][is_hybird()] net.one97.paytm.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-12 00:30:34,609][INFO][is_hybird()] android.permission.READ_LOGS
+[INTERNAL_LOG][2018-06-12 00:30:34,609][INFO][is_hybird()] net.one97.paytm.permission.LAYER_PUSH
+[INTERNAL_LOG][2018-06-12 00:30:34,609][INFO][is_hybird()] android.permission.AUTHENTICATE_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 00:30:34,609][INFO][is_hybird()] android.permission.MANAGE_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 00:30:34,609][INFO][is_hybird()] android.permission.WRITE_SYNC_SETTINGS
+[INTERNAL_LOG][2018-06-12 00:30:34,609][INFO][is_hybird()] android.permission.READ_SYNC_SETTINGS
+[INTERNAL_LOG][2018-06-12 00:30:34,609][INFO][is_hybird()] android.permission.ACCESS_COARSE_LOCATION
+[INTERNAL_LOG][2018-06-12 00:30:34,609][INFO][is_hybird()] android.permission.ACCESS_FINE_LOCATION
+[INTERNAL_LOG][2018-06-12 00:30:34,609][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 00:30:34,609][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 00:30:34,609][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 00:30:34,609][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 00:30:34,609][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 00:30:34,609][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 00:30:34,609][INFO][is_hybird()] android.permission.ACCESS_GPS
+[INTERNAL_LOG][2018-06-12 00:30:34,609][INFO][is_hybird()] android.permission.ACCESS_LOCATION
+[INTERNAL_LOG][2018-06-12 00:30:34,609][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-12 00:30:34,609][INFO][is_hybird()] android.permission.READ_PHONE_STATE
+[INTERNAL_LOG][2018-06-12 00:30:34,609][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 00:30:34,609][INFO][is_hybird()] android.permission.READ_CONTACTS
+[INTERNAL_LOG][2018-06-12 00:30:34,609][INFO][is_hybird()] android.permission.READ_SMS
+[INTERNAL_LOG][2018-06-12 00:30:34,609][INFO][is_hybird()] android.permission.RECEIVE_SMS
+[INTERNAL_LOG][2018-06-12 00:30:34,609][INFO][is_hybird()] android.permission.USE_CREDENTIALS
+[INTERNAL_LOG][2018-06-12 00:30:34,610][INFO][is_hybird()] android.permission.CAMERA
+[INTERNAL_LOG][2018-06-12 00:30:34,610][INFO][is_hybird()] android.permission.WRITE_CONTACTS
+[INTERNAL_LOG][2018-06-12 00:30:34,610][INFO][is_hybird()] android.permission.RECEIVE_BOOT_COMPLETED
+[INTERNAL_LOG][2018-06-12 00:30:34,610][INFO][is_hybird()] com.android.launcher.permission.INSTALL_SHORTCUT
+[INTERNAL_LOG][2018-06-12 00:30:34,610][INFO][is_hybird()] android.permission.SEND_SMS
+[INTERNAL_LOG][2018-06-12 00:30:34,610][INFO][is_hybird()] android.permission.READ_CALL_LOG
+[INTERNAL_LOG][2018-06-12 00:30:34,610][INFO][is_hybird()] android.permission.INTERACT_ACROSS_USERS_FULL
+[INTERNAL_LOG][2018-06-12 00:30:34,610][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-12 00:30:34,610][INFO][is_hybird()] com.amazon.device.messaging.permission.RECEIVE
+[INTERNAL_LOG][2018-06-12 00:30:34,610][INFO][is_hybird()] net.one97.paytm.permission.RECEIVE_ADM_MESSAGE
+[INTERNAL_LOG][2018-06-12 00:30:34,610][INFO][is_hybird()] android.permission.FLASHLIGHT
+[INTERNAL_LOG][2018-06-12 00:30:34,610][INFO][is_hybird()] android.permission.CHANGE_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 00:30:34,610][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 00:30:34,610][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 00:30:34,610][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 00:30:34,610][INFO][find_string()] File: assets/mitc.html
+[INTERNAL_LOG][2018-06-12 00:30:34,613][INFO][find_string()] No iframe in assets/mitc.html
+[INTERNAL_LOG][2018-06-12 00:30:34,613][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 00:30:34,614][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 00:30:34,614][INFO][find_string()] File: assets/main.js
+[INTERNAL_LOG][2018-06-12 00:30:34,739][INFO][find_string()] No iframe in assets/main.js
+[INTERNAL_LOG][2018-06-12 00:30:34,739][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 00:32:52,097][INFO][find_url_in_apk()] [START URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-12 00:32:52,097][INFO][find_url_in_apk()] https://play.google.com/store/apps/
+https://appfaq.paytm.com/my-account/i-dont-have-access-to-my-mobile-number-how-can-i-login-or-update-my-mobile-number
+http://powerplay.today/ppoints/tnc
+http://powerplay.today/ppoints/knowmore
+
+[INTERNAL_LOG][2018-06-12 00:32:52,097][INFO][find_url_in_apk()] [END URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-12 00:32:52,824][ERROR][download_page_loaded()] Failed download: https://play.google.com/store/apps/ for exception [Errno 21] Is a directory: 'temp_html_code/html_downloaded_Money Transfer_ Mobile Recharge_ DTH_ Bill Payment by Paytm - One97 Communications Ltd/'
+[INTERNAL_LOG][2018-06-12 00:32:53,603][ERROR][download_page_loaded()] Failed response code: 403 for https://appfaq.paytm.com/my-account/i-dont-have-access-to-my-mobile-number-how-can-i-login-or-update-my-mobile-number  
+[INTERNAL_LOG][2018-06-12 00:32:55,461][INFO][find_string()] [START REMOTE FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 00:32:55,462][INFO][find_string()] Remote File in: temp_html_code/html_downloaded_Money Transfer_ Mobile Recharge_ DTH_ Bill Payment by Paytm - One97 Communications Ltd/tnc
+[INTERNAL_LOG][2018-06-12 00:32:55,462][INFO][find_string()] URL: http://powerplay.today/ppoints/tnc
+[INTERNAL_LOG][2018-06-12 00:32:55,469][INFO][find_string()] No iframe in temp_html_code/html_downloaded_Money Transfer_ Mobile Recharge_ DTH_ Bill Payment by Paytm - One97 Communications Ltd/tnc
+[INTERNAL_LOG][2018-06-12 00:32:55,469][INFO][find_string()] Remote File in: temp_html_code/html_downloaded_Money Transfer_ Mobile Recharge_ DTH_ Bill Payment by Paytm - One97 Communications Ltd/knowmore
+[INTERNAL_LOG][2018-06-12 00:32:55,470][INFO][find_string()] URL: http://powerplay.today/ppoints/knowmore
+[INTERNAL_LOG][2018-06-12 00:32:55,481][INFO][find_string()] No iframe in temp_html_code/html_downloaded_Money Transfer_ Mobile Recharge_ DTH_ Bill Payment by Paytm - One97 Communications Ltd/knowmore
+[INTERNAL_LOG][2018-06-12 00:32:55,482][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 00:32:55,482][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 00:32:55,482][INFO][find_url_in_apk()] http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+https://sdk-services.appsflyer.com/validate-android-signature
+https://api.appsflyer.com/install_data/v3/
+https://t.appsflyer.com/api/v
+https://events.appsflyer.com/api/v
+https://register.appsflyer.com/api/v
+https://validate.appsflyer.com/api/v
+https://stats.appsflyer.com/stats
+https://monitorsdk.appsflyer.com/remote-debug?app_id=
+https://graph.%s
+https://graph-video.%s
+https://facebook.com
+http://play.google.com/store/apps/details?id=com.facebook.orca
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+http://hostname/?
+http://hostname/?
+https://www.googleapis.com/auth/games
+https://plus.google.com/
+http://www.google-analytics.com
+https://ssl.google-analytics.com
+https://app-measurement.com/a
+https://www.google.com
+https://www.google.com
+https://www.googleapis.com/auth/plus.login
+https://www.googleapis.com/auth/plus.me
+http://schemas.android.com/apk/lib/com.google.android.gms.plus
+http://schemas.android.com/apk/lib/com.google.android.gms.plus
+https://www.googletagmanager.com
+http://play.google.com/store/apps/details
+http://zxing.appspot.com/scan
+http://zxing.appspot.com/scan
+http://www.google
+http://www.google.com/books?id=
+http://www.google.com/books?vid=isbn
+http://books.google.
+http://books.google.
+http://google.com/books
+https://maps.googleapis.com/maps/api/staticmap?zoom=16&maptype=roadmap&scale=2&center=
+https://conf.lyr8.net/conf
+https://conf.lyr8.net/conf
+https://certs.lyr8.net/certificates
+https://certs.lyr8.net/certificates
+https://sync.lyr8.net
+https://sync.lyr8.net
+https://sync.lyr8.net/
+https://sync.lyr8.net/
+https://telemetry.layer.com/
+https://telemetry.layer.com/
+https://www.facebook.com/Paytm
+https://www.facebook.com/Paytm
+https://twitter.com/paytm
+https://twitter.com/paytm
+https://www.instagram.com/paytm/
+https://www.instagram.com/paytm/
+https://seller.paytm.com
+https://seller.paytm.com
+https://paytm.com/partner
+https://paytm.com/partner
+https://blog.paytm.com/
+https://blog.paytm.com/
+http://discuss.paytm.com/
+http://discuss.paytm.com/
+http://easypay.paytm.in/easyPayWebNew/paytmAssist.json
+https://secure4.arcot.com/acspage/cap?RID=40147&VAA=B
+https://play.google.com/store/apps/
+https://play.google.com/store/apps/
+https://play.google.com/store/apps/
+http://config.paytm.com/metro/GetMetroList.json
+https://catalog.paytm.com/v2/h/deals
+https://catalog.paytm.com/v2/h/deals
+https://catalog.paytm.com/v2/h/deals
+https://catalog-staging.paytm.com/v1/mobile/product/
+https://fulfillment.paytm.com/v2/issues?
+https://dgtickets-staging.paytm.com/v1/generatePassTicket
+http://dgtickets-staging.paytm.com/v1/tickets
+http://dgtickets-staging.paytm.com/v1/mumbaimetro/stations
+https://dgtickets-staging.paytm.com/v1/penalties
+https://dgtickets-staging.paytm.com/v1/mumbaimetro/price
+https://dgtickets-staging.paytm.com/v1/cancelOrderDetails
+https://trust.paytm.in/wallet-web/v2/walletLimits
+https://transfer.paytmbank.com/v1/ext/users/
+https://pg-sandbox.paytm.in/billproxy/api/v1/cc/fetchBin/request
+https://pg-sandbox.paytm.in/billproxy/api/v1/cc/cardTokenize/request
+https://conf-paytm.lyr8.net/conf
+https://certs-paytm.lyr8.net/certificates
+https://sync-paytm.lyr8.net
+https://sync-paytm.lyr8.net/
+https://paytmmall.onelink.me/3CrF?pid=MallTab_Popup&af_dp=paytmmall%3A%2F%2F&af_web_dp=None 
+https://paytmmall.onelink.me/3CrF?pid=MallTab_Popup&af_dp=paytmmall%3A%2F%2F&af_web_dp=None 
+https://paytmmall.onelink.me/3CrF?pid=MallTab_Popup&af_dp=paytmmall%3A%2F%2F&af_web_dp=None 
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+http://play.google.com/store/apps/
+http://play.google.com/store/apps/
+http://m.p-y.tm
+http://m.p-y.tm
+https://m.p-y.tm
+http://d2wtctrcxsjrgr.cloudfront.net/collect.gif?app=
+https://device-api.urbanairship.com/
+https://combine.urbanairship.com/
+https://dl.urbanairship.com/aaa/
+https://wallet-api.urbanairship.com
+https://go.urbanairship.com/
+http://www.w3.org/2000/09/xmldsig#
+http://www.w3.org/2000/09/xmldsig#
+http://www.w3.org/2000/09/xmldsig#
+http://www.w3.org/2000/09/xmldsig#
+http://www.w3.org/2000/09/xmldsig#
+http://www.w3.org/2000/09/xmldsig#
+http://www.w3.org/2000/09/xmldsig#
+http://www.w3.org/2000/09/xmldsig#
+http://www.w3.org/2000/09/xmldsig#
+http://www.w3.org/2000/09/xmldsig#
+http://www.w3.org/2000/09/xmldsig#
+http://www.w3.org/2000/09/xmldsig#
+http://www.w3.org/2000/09/xmldsig#
+http://www.w3.org/2000/09/xmldsig#
+http://www.w3.org/2000/09/xmldsig#
+http://www.w3.org/2000/09/xmldsig#
+https://e.crashlytics.com/spi/v2/events
+https://settings.crashlytics.com/spi/v2/platforms/android/apps/%s/settings
+https://api.branch.io/
+https://bnc.lt/a/
+https://bnc.lt/a/
+https://cdn.branch.io/sdk/uriskiplist_v#.json
+https://sdk.hansel.io
+https://experience.hansel.io
+https://analytics.hansel.io
+http://play.google.com/store/apps/details?id=
+http://play.google.com/store/apps/details?id=
+http://play.google.com/store/apps/details?id=
+http://play.google.com/store/apps/details?id=
+http://play.google.com/store/apps/details?id=
+http://play.google.com/store/apps/details?id=
+http://play.google.com/store/apps/details?id=
+http://trans-
+http://trans-
+http://trans-null/
+http://trans-null/
+http://trans-0/
+http://trans-0/
+https://pages.paytm.com/help.html#newcash
+https://securegw
+https://catalog.paytm.com/v1/g/paytm-home/exclusive-discount-deals
+http://cta
+https://appfaq.paytm.com/my-account/i-dont-have-access-to-my-mobile-number-how-can-i-login-or-update-my-mobile-number
+http://10.0.126.68:8080/theia/bin/fetchBinAppDetails
+http://is5.mzstatic.com/image/pf/us/r30/Purple5/v4/e8/9e/30/e89e30ad-15fa-7ec0-f58e-4d2a1d7dcf5a/pr_source.jpg
+http://is4.mzstatic.com/image/thumb/Purple128/v4/ef/72/b0/ef72b032-beee-ae0f-ab36-256894af9e6c/source/1200x630bb.jpg
+http://www.thehindubusinessline.com/multimedia/dynamic/03133/sbi-logo_3133487f.jpg
+http://www.topnews.in/files/HDFC-Bank_1.jpg
+http://ndl.mgccw.com/mu3/app/20140224/19/1393242289636/icon_n/icon_xl.png
+http://10.0.126.68:8080/theia/fetchPaymentInstruments
+https://paytm.com/offer/close-my-wallet/
+https://www.youtube.com/embed/
+https://www.youtube.com/embed/
+https://www.youtube.com/embed/
+https://www.youtube.com/embed/
+https://compliance.paytm.com/v1/compliance/getstate?tin_code=
+https://compliance.paytm.com/v1/compliance/getstate?tin_code=
+https://compliance.paytm.com/v1/compliance/getstate?tin_code=
+https://compliance.paytm.com/v1/compliance/getstate?tin_code=
+https://paytm.com/v1/issues?issue_id=
+https://apiproxy.paytm.com/v1/user/ticket/getDissatisfactionReason?key=
+https://apiproxy.paytm.com/v1/user/ticket/submitFeedback
+https://apiproxy.paytm.com/v1/user/ticket/submitFeedback
+https://s3-us-west-2.amazonaws.com/paytm-travel/travel_db/flights/app+icons/paytmBadge.png
+https://s3-us-west-2.amazonaws.com/paytm-travel/travel_db/flights/app+icons/noBaggage.png
+https://s3-us-west-2.amazonaws.com/paytm-travel/travel_db/flights/app+icons/noBaggage.png
+https://paytm.com/terms
+https://paytm.com/terms
+https://catalog.paytm.com/v2/mobile/getproductlist/104154
+https://apiproxy.paytm.com/papi/v1/promosearch/category/17//offers?orderBy=created_at&cross_sell=1/?sso_token=394549f7-c6ea-49de-96ff-cbae334c4c32&deviceIdentifier=LENOVO-LenovoP1ma40-869441021144411&deviceManufacturer=LENOVO&deviceName=Lenovo_P1ma40&client=androidapp&version=5.3.1&playStore=false&lat=12.8864108&long=77.5959282&language=en&networkType=WIFI&imei=869441021144411&osVersion=5.1
+http://powerplay.today/ppoints/ourpolicies
+http://powerplay.today/ppoints/tnc
+http://powerplay.today/ppoints/knowmore
+http://assets.paytm.com/travel/flights-backend/icons/v1/order_actions/small/share_android.png
+http://assets.paytm.com/travel/flights-backend/icons/v1/order_actions/small/download_ticket.png
+http://assets.paytm.com/travel/flights-backend/icons/v1/order_actions/small/share_ios.png
+https://accounts.google.com/o/oauth2/revoke?token=
+https://accounts.google.com/o/oauth2/revoke
+https://assetscdn.paytm.com/resources/travel/hotels/img_room_placeholder.jpg
+https://play.google.com/store/apps/details?id=com.ubercab
+https://play.google.com/store/apps/details?id=com.ubercab
+https://catalog.paytm.com/v1/h/hotel-confirmation
+http://paytm.com/homepage
+https://catalog.paytm.com/v2/h/home?src=store
+https://paytm.com/mutualfunds
+https://paytm.com/digitalgold
+https://search.paytm.com/v2/search?userQuery=Deals&from=popularsearch&cat_tree=1&curated=1
+https://search.paytm.com/v2/search?userQuery=Deals&from=popularsearch&cat_tree=1&curated=1
+https://paytm.com/
+https://paytm.com/
+https://paytmmall.com/
+https://catalog.paytm.com/v2/h/luckylifafastore
+https://fulfillment.paytm.com/v1/seller/merchant_contact?merchant_id=
+https://paytm.com/about-us/our-policies/#tandc
+https://paytm.com/mutualfunds/about-mutualfunds
+https://paytm.com/care/mutual-funds-faq/
+https://paytm.com/offer/icici-pru-terms-conditions/
+https://tickets-staging2.paytm.com/v1/entertainment/order/prevalidate
+http://maps.google.com/maps?daddr=
+http://maps.google.com/maps?daddr=
+https://apiproxy.paytm.com/v1/entertainment/themeparks/validatePackage
+https://apiproxy.paytm.com/v1/entertainment/themeparks/validatePackage
+https://catalog.paytm.com/v1
+https://catalog.paytm.com/v1
+https://catalog.paytm.com/v1
+https://catalog.paytm.com/v1
+https://apiproxy.paytm.com/v1/entertainment/events/seatLayout/
+http://maps.google.com/maps?daddr=%f,%f
+https://paytm.com/offer/cancellation-protect-for-event-bookings
+https://apiproxy.paytm.com/v1/entertainment/internal/events/list/all/groupEvents
+https://apiproxy.paytm.com/v1/entertainment/events/holdTicket/
+https://apiproxy.paytm.com/v1/entertainment/events/cp/getPolicy
+https://apiproxy.paytm.com/v1/entertainment/events/filter/groupEvents/
+https://apiproxy.paytm.com/v1/entertainment/events/data/groupEvents/
+https://apiproxy.paytm.com/v1/movies/get-content?content_id=
+https://apiproxy.paytm.com/v1/movies/get-content
+https://apiproxy.paytm.com/v1/movies/get-content
+https://apiproxy.paytm.com/v1/movies/content-videos-increase-views
+https://apiproxy.paytm.com/v1/movies/movie-upvote
+https://apiproxy.paytm.com/v1/movies/movie-upvote
+http://apiproxy.paytm.com/v1/movies/content-videos-increase-views
+https://apiproxy.paytm.com/v1/movies/release-seats
+https://catalog.paytm.com/v2/h/free-movie-app
+http://m.p-y.tm/biz
+http://assets.paytm.com/travel/flights/iata/v1/order_actions/small/DEFAULT.png
+https://www.paytm.com/fastag
+https://www.paytm.com/fastag
+https://www.paytm.com/fastag
+https://www.paytm.com/fastag
+https://www.paytm.com/fastag
+https://paytm.com/offer/know-more-for-fixed-deposit/
+https://paytm.com/offer/know-more-for-fixed-deposit/
+https://paytm.com/offer/know-more-for-fixed-deposit/
+https://paytm.com/offer/know-more-for-fixed-deposit/
+https://paytm.com/offer/know-more-for-fixed-deposit/
+https://business.paytm.com/food-wallet
+https://business.paytm.com/food-wallet
+https://paytm.com/offer/about-gift-vouchers/
+https://paytm.com/offer/about-gift-vouchers/
+https://paytm.com/offer/about-gift-vouchers/
+https://paytm.com/offer/about-gift-vouchers/
+https://paytm.com/offer/about-loyalty-points/
+https://paytm.com/offer/about-loyalty-points/
+https://paytm.com/offer/about-loyalty-points/
+https://paytm.com/offer/uber-introduces-a-new-feature-on-paytm/
+https://paytm.com/offer/uber-introduces-a-new-feature-on-paytm/
+https://paytm.com/offer/uber-introduces-a-new-feature-on-paytm/
+https://paytm.com/offer/uber-introduces-a-new-feature-on-paytm/
+https://assetscdn.paytm.com/images/catalog/pg/Add-money.jpg
+https://assetscdn.paytm.com/images/catalog/pg/Add-money.jpg
+https://assetscdn.paytm.com/images/catalog/pg/Add-money.jpg
+https://assetscdn.paytm.com/images/catalog/pg/Cashback.jpg
+https://assetscdn.paytm.com/images/catalog/pg/Cashback.jpg
+https://assetscdn.paytm.com/images/catalog/pg/Paytm-cash-sent.jpg
+https://assetscdn.paytm.com/images/catalog/pg/Paytm-cash-sent.jpg
+https://img.youtube.com/vi/{0}/0.jpg
+https://paytm.com/offer/about-transactional-limits/
+https://paytmmall.com/page/how-exchange-works
+https://paytmmall.com/page/exchange-tnc
+https://apiproxy.paytm.com/papi/v1/promosearch/
+https://assetscdn.paytm.com/images/catalog/view_item/203489/1522846811692.png
+https://cart.paytm.com/papi/v1/promosearch/product/
+https://cart.paytm.com/papi/rr/products/
+https://cart.paytm.com/api/rr/products/
+https://catalog.paytm.com/brand/seller?
+https://play.google.com/intl/ALL_in/about/card-terms.html
+https://catalog.paytm.com/v1//h/automatic-flow
+https://kyc.paytm.com/kyc/tnc/v2/set
+https://kyc.paytm.com/kyc/tnc/v2/set
+https://kyc.paytm.com/kyc/tnc/user
+https://accounts.paytm.com/v3/api/sendOtp
+https://accounts.paytm.com/v3/api/validateOtp
+https://assetscdn.paytm.com/images/catalog/pg/Delhi_Metro_Rail_Corporation_Logo.png
+https://cartapidev.paytm.com
+https://cart.paytm.com
+http://trust-uat.paytm.in
+https://trust.paytm.in
+https://travel.paytm.com/api/trains/v1/sms/new
+http://infyworks.com/images/social/uploadStory.php
+https://www.irctc.co.in/eticketing/forgotPassword.jsf
+http://contents.irctc.co.in/en/REFUND%20RULES%20wef%2012-Nov-15.pdf
+https://s3-ap-southeast-1.amazonaws.com/travel-trains/terms-conditions/v1/insurance_tnc.html
+https://play.google.com/store/apps/details?id=com.google.android.webview
+https://play.google.com/store/apps/details?id=com.android.chrome
+https://assetscdn.paytm.com/images/catalog/wallet/ic_mobile.png
+https://assetscdn.paytm.com/images/catalog/wallet/ic_dth.png
+https://assetscdn.paytm.com/images/catalog/wallet/ic_metro.png
+https://assetscdn.paytm.com/images/catalog/wallet/ic_electricity.png
+https://assetscdn.paytm.com/images/catalog/wallet/ic_pay_upi.png
+https://assetscdn.paytm.com/images/catalog/wallet/ic_scan.png
+https://assetscdn.paytm.com/images/catalog/wallet/ic_bank.png
+https://assetscdn.paytm.com/images/catalog/wallet/ic_pay.png
+https://assetscdn.paytm.com/images/catalog/wallet/ic_recharges.png
+https://assetscdn.paytm.com/images/catalog/wallet/ic_bill_payments.png
+https://assetscdn.paytm.com/images/catalog/wallet/ic_recharges_bill_payments.png
+https://assetscdn.paytm.com/images/catalog/wallet/ic_landline.png
+https://assetscdn.paytm.com/images/catalog/wallet/ic_fees.png
+https://assetscdn.paytm.com/images/catalog/wallet/ic_loan.png
+https://assetscdn.paytm.com/images/catalog/wallet/ic_mubnicipal.png
+https://assetscdn.paytm.com/images/catalog/wallet/ic_petrol.png
+https://assetscdn.paytm.com/images/catalog/wallet/ic_insurance.png
+https://assetscdn.paytm.com/images/catalog/wallet/ic_datacard.png
+https://assetscdn.paytm.com/images/catalog/wallet/ic_water.png
+https://assetscdn.paytm.com/images/catalog/wallet/ic_gas.png
+https://assetscdn.paytm.com/images/catalog/wallet/group_58.png
+https://assetscdn.paytm.com/images/catalog/wallet/ic_broadband.png
+https://assetscdn.paytm.com/images/catalog/wallet/ic_fastag.png
+https://assetscdn.paytm.com/images/catalog/wallet/ic_movies.png
+https://assetscdn.paytm.com/images/catalog/wallet/ic_train.png
+https://assetscdn.paytm.com/images/catalog/wallet/ic_bus.png
+https://assetscdn.paytm.com/images/catalog/wallet/ic_flights.png
+https://assetscdn.paytm.com/images/catalog/wallet/ic_events.png
+https://assetscdn.paytm.com/images/catalog/wallet/ic_hotels.png
+https://assetscdn.paytm.com/images/catalog/wallet/ic_travel.png
+https://apiproxy.paytm.com/papi/v1/promosearch/category/999999/offers?channel=mobile&version=2
+https://assetscdn.paytm.com/images/catalog/wallet/card_bg-
+https://assetscdn.paytm.com/images/catalog/wallet/IdayCard-
+https://assetscdn.paytm.com/images/catalog/wallet/group_10_
+https://play.google.com/store/apps/details?id=com.google.android.gms
+https://assetscdn.paytm.com/images/catalog/pg/nearby.jpg
+https://assetscdn.paytm.com/images/catalog/pg/nearby.jpg
+https://maps.googleapis.com/maps/api/place/details/json?key=
+https://maps.googleapis.com/maps/api/place/autocomplete/json?key=
+https://wallet.paytm.in/wallet-merchant/txn/details
+https://paytm.com/offer/introducing-the-paytm-food-wallet/
+https://paytm.com/offer/digitalcredit/icici/
+http://m.p-y.tm/claimlifafa?lifafaId=
+https://assetscdn.paytm.com/images/catalog/wallet/yellow_strip/icon1
+https://assetscdn.paytm.com/images/catalog/wallet/yellow_strip/icon2
+https://assetscdn.paytm.com/images/catalog/wallet/yellow_strip/icon3
+https://www.youtube.com/watch?v=uywBJz0FPAs
+https://www.youtube.com/watch?v=uywBJz0FPAs
+https://www.youtube.com/watch?v=uywBJz0FPAs
+https://www.youtube.com/watch?v=uywBJz0FPAs
+https://appcdn.paytm.com/dexter/weex/android/grid.js
+https://appcdn.paytm.com/dexter/weex/android/common-service.js
+https://appcdn.paytm.com/dexter/weex/android/home.js
+http://www.xmlsecurity.org/NS/#configuration
+http://www.xmlsecurity.org/NS/#configuration
+http://www.w3.org/2001/04/xmlenc#
+http://www.w3.org/2001/04/xmlenc#
+http://www.w3.org/2001/04/xmlenc#
+http://www.w3.org/2001/04/xmldsig-more#hmac-md5
+http://www.w3.org/2001/04/xmldsig-more#hmac-ripemd160
+http://www.w3.org/2000/09/xmldsig#hmac-sha1
+http://www.w3.org/2001/04/xmldsig-more#hmac-sha256
+http://www.w3.org/2001/04/xmldsig-more#hmac-sha384
+http://www.w3.org/2001/04/xmldsig-more#hmac-sha512
+http://www.w3.org/2001/04/xmldsig-more#rsa-md5
+http://www.w3.org/2001/04/xmldsig-more#rsa-ripemd160
+http://www.w3.org/2000/09/xmldsig#rsa-sha1
+http://www.w3.org/2001/04/xmldsig-more#rsa-sha256
+http://www.w3.org/2001/04/xmldsig-more#rsa-sha384
+http://www.w3.org/2001/04/xmldsig-more#rsa-sha512
+http://www.w3.org/2000/09/xmldsig#dsa-sha1
+http://www.w3.org/2001/04/xmldsig-more#ecdsa-sha1
+http://www.w3.org/2000/xmlns/
+http://www.w3.org/2000/xmlns/
+http://www.w3.org/2000/xmlns/
+http://www.w3.org/2000/xmlns/
+http://www.w3.org/2000/xmlns/
+http://www.w3.org/2000/xmlns/
+http://www.w3.org/2000/xmlns/
+http://www.w3.org/2000/xmlns/
+http://www.w3.org/2000/xmlns/
+http://www.w3.org/2000/xmlns/
+http://www.w3.org/2000/xmlns/
+http://www.w3.org/2000/xmlns/
+http://www.w3.org/2000/xmlns/
+http://www.w3.org/XML/1998/namespace
+http://www.w3.org/XML/1998/namespace
+http://www.w3.org/XML/1998/namespace
+http://www.w3.org/XML/1998/namespace
+http://www.w3.org/XML/1998/namespace
+http://www.w3.org/XML/1998/namespace
+http://www.w3.org/XML/1998/namespace
+http://www.w3.org/XML/1998/namespace
+http://www.w3.org/2006/12/xml-c14n11
+http://www.w3.org/2006/12/xml-c14n11
+http://www.w3.org/2000/09/xmldsig#Manifest
+http://www.w3.org/TR/2001/REC-xml-c14n-20010315
+http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments
+http://www.w3.org/2001/10/xml-exc-c14n#
+http://www.w3.org/2001/10/xml-exc-c14n#
+http://www.w3.org/2001/10/xml-exc-c14n#
+http://www.w3.org/2001/10/xml-exc-c14n#
+http://www.w3.org/2001/10/xml-exc-c14n#
+http://www.w3.org/2001/10/xml-exc-c14n#WithComments
+http://www.w3.org/2001/10/xml-exc-c14n#WithComments
+http://www.w3.org/2006/12/xml-c14n11#WithComments
+http://www.w3.org/2002/06/xmldsig-filter2
+http://www.w3.org/2002/06/xmldsig-filter2
+http://www.w3.org/TR/2001/WD-xptr-20010108
+http://www.w3.org/1999/XSL/Transform
+http://javax.xml.XMLConstants/feature/secure-processing
+http://www.w3.org/2002/04/xmldsig-filter2
+http://www.nue.et-inf.uni-siegen.de/~geuer-pollmann/#xpathFilter
+http://schemas.xmlsoap.org/soap/security/2000-12
+http://www.w3.org/2002/03/xkms#
+
+[INTERNAL_LOG][2018-06-12 00:32:55,482][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 00:32:55,504][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 00:32:55,504][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 00:32:55,505][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 00:32:55,505][INFO][analyze_start()] End time:[Tue Jun 12 00:32:55 2018]

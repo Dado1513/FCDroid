@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+  body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: #000000;
+  }
+  .video {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  </style>
+</head>
+<body>
+<div id="videoBox"></div>
+<script>
+  window.cootek = {
+    setProperty: function(src) {
+      var video = videoInit(src)
+      this.video = video
+      video.oncanplay()
+    },
+    play: function() {
+      this.video.play()
+    },
+    pause: function() {
+      this.video.pause()
+    },
+    setVolumeEnable: function(volumevalue) {
+      this.video.muted = !volumevalue
+      callNative('onVolumeChange?isVolumeOpen=' + !volumevalue)
+    },
+    getDuration: function() {
+      var duration = this.video.duration
+      callNative(duration)
+    },
+    getCurrentPosition: function() {
+      var currentTime = this.video.currentTime
+      var duration = this.video.duration
+      callNative('onDurationChange?currentDuration=' + currentTime)
+    },
+    destory: function() {
+      this.video.src = ''
+      this.video.parentNode.removeChild(this.video)
+    }
+  }
+
+  function videoInit(src) {
+    var videoBox = document.getElementById('videoBox')
+    var video = document.createElement('VIDEO')
+    video.setAttribute('webkit-playsinline', true)
+    video.setAttribute('playsinline', true)
+    video.setAttribute('width', '100%')
+    video.setAttribute('src', src)
+    video.className = 'video'
+    videoBox.appendChild(video)
+    video.oncanplay = function() {
+      var duration = this.duration
+      callNative('onVideoInited?duration=' + duration)
+    }
+    video.onclick = function() {
+      callNative('onVideoClicked')
+    }
+    video.onended = function() {
+      callNative('onVideoComplete')
+    }
+    video.onerror = function() {
+      callNative('onVideoError')
+    }
+    video.onplay = function() {
+      callNative('onVideoStarted') 
+    }
+    video.onpause = function() {
+      callNative('onVideoPaused') 
+    }
+    return video
+  } 
+
+  function callNative(command) {
+		var iframe = document.createElement("IFRAME");
+		iframe.setAttribute("src", "cootek://" + command);
+		document.documentElement.appendChild(iframe);
+		iframe.parentNode.removeChild(iframe);
+		iframe = null;
+	};
+</script>
+</body>
+</html>

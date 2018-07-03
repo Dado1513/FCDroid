@@ -1,0 +1,459 @@
+[INTERNAL_LOG][2018-06-12 05:29:22,412][INFO][analyze_start()] Init Time [Tue Jun 12 05:29:22 2018]
+[INTERNAL_LOG][2018-06-12 05:29:22,622][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 05:29:22,622][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 05:29:22,623][INFO][is_hybird()] android.permission.ACCESS_COARSE_LOCATION
+[INTERNAL_LOG][2018-06-12 05:29:22,623][INFO][is_hybird()] android.permission.ACCESS_FINE_LOCATION
+[INTERNAL_LOG][2018-06-12 05:29:22,623][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 05:29:22,623][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 05:29:22,623][INFO][is_hybird()] android.permission.BLUETOOTH
+[INTERNAL_LOG][2018-06-12 05:29:22,623][INFO][is_hybird()] android.permission.CAMERA
+[INTERNAL_LOG][2018-06-12 05:29:22,623][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-12 05:29:22,623][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 05:29:22,623][INFO][is_hybird()] android.permission.MODIFY_AUDIO_SETTINGS
+[INTERNAL_LOG][2018-06-12 05:29:22,623][INFO][is_hybird()] android.permission.READ_CONTACTS
+[INTERNAL_LOG][2018-06-12 05:29:22,623][INFO][is_hybird()] android.permission.READ_PHONE_STATE
+[INTERNAL_LOG][2018-06-12 05:29:22,623][INFO][is_hybird()] android.permission.READ_PROFILE
+[INTERNAL_LOG][2018-06-12 05:29:22,623][INFO][is_hybird()] android.permission.READ_SMS
+[INTERNAL_LOG][2018-06-12 05:29:22,623][INFO][is_hybird()] android.permission.RECEIVE_SMS
+[INTERNAL_LOG][2018-06-12 05:29:22,623][INFO][is_hybird()] android.permission.SEND_SMS
+[INTERNAL_LOG][2018-06-12 05:29:22,623][INFO][is_hybird()] android.permission.SYSTEM_ALERT_WINDOW
+[INTERNAL_LOG][2018-06-12 05:29:22,624][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-12 05:29:22,624][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 05:29:22,624][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 05:29:22,624][INFO][is_hybird()] android.permission.WRITE_SETTINGS
+[INTERNAL_LOG][2018-06-12 05:29:22,624][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-12 05:29:22,624][INFO][is_hybird()] com.google.android.providers.gsf.permission.READ_GSERVICES
+[INTERNAL_LOG][2018-06-12 05:29:22,624][INFO][is_hybird()] com.ubercab.driver.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-12 05:29:22,624][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 05:29:22,624][INFO][is_hybird()] android.permission.BLUETOOTH_ADMIN
+[INTERNAL_LOG][2018-06-12 05:29:22,624][INFO][is_hybird()] com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+[INTERNAL_LOG][2018-06-12 05:29:22,624][INFO][is_hybird()] android.permission.CHANGE_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 05:29:22,624][INFO][is_hybird()] android.permission.RECEIVE_BOOT_COMPLETED
+[INTERNAL_LOG][2018-06-12 05:29:22,624][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 05:29:22,624][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 05:29:22,624][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 05:29:22,624][INFO][find_string()] File: assets/base.html
+[INTERNAL_LOG][2018-06-12 05:29:22,625][INFO][find_string()] No iframe in assets/base.html
+[INTERNAL_LOG][2018-06-12 05:29:22,625][INFO][find_string()] File: assets/licenses/licenses.html
+[INTERNAL_LOG][2018-06-12 05:29:22,636][INFO][find_string()] No iframe in assets/licenses/licenses.html
+[INTERNAL_LOG][2018-06-12 05:29:22,636][INFO][find_string()] File: assets/licenses.html
+[INTERNAL_LOG][2018-06-12 05:29:22,647][INFO][find_string()] No iframe in assets/licenses.html
+[INTERNAL_LOG][2018-06-12 05:29:22,648][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 05:29:22,648][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 05:29:22,648][INFO][find_string()] File: assets/XMLHttpRequest.js
+[INTERNAL_LOG][2018-06-12 05:29:22,648][INFO][find_string()] No iframe in assets/XMLHttpRequest.js
+[INTERNAL_LOG][2018-06-12 05:29:22,648][INFO][find_string()] File: assets/debug_draft.js
+[INTERNAL_LOG][2018-06-12 05:29:22,649][INFO][find_string()] No iframe in assets/debug_draft.js
+[INTERNAL_LOG][2018-06-12 05:29:22,677][INFO][find_string()] File: assets/fetch.js
+[INTERNAL_LOG][2018-06-12 05:29:23,026][INFO][find_string()] No iframe in assets/fetch.js
+[INTERNAL_LOG][2018-06-12 05:29:23,027][INFO][find_string()] File: assets/framework.js
+[INTERNAL_LOG][2018-06-12 05:29:23,061][INFO][find_string()] No iframe in assets/framework.js
+[INTERNAL_LOG][2018-06-12 05:29:23,061][INFO][find_string()] File: assets/promise.js
+[INTERNAL_LOG][2018-06-12 05:29:23,063][INFO][find_string()] No iframe in assets/promise.js
+[INTERNAL_LOG][2018-06-12 05:29:23,067][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 05:32:50,661][INFO][find_url_in_apk()] [START URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-12 05:32:50,661][INFO][find_url_in_apk()] https://api.id.me/oauth/authorize?client_id=%s&redirect_uri=%s&response_type=code&scope=%s&op=signup
+
+[INTERNAL_LOG][2018-06-12 05:32:50,661][INFO][find_url_in_apk()] [END URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-12 05:32:51,347][ERROR][download_page_loaded()] Failed response code: 400 for https://api.id.me/oauth/authorize?client_id=%s&redirect_uri=%s&response_type=code&scope=%s&op=signup  
+[INTERNAL_LOG][2018-06-12 05:32:51,348][INFO][find_string()] [START REMOTE FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 05:32:51,348][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 05:32:51,349][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 05:32:51,349][INFO][find_url_in_apk()] http://10.0.2.2:3000/
+https://api.sandbox.braintreegateway.com/
+https://api.braintreegateway.com/
+https://s3-us-west-2.amazonaws.com/uber-common-public/Alloy/01-heatmap.png
+https://s3-us-west-2.amazonaws.com/uber-common-public/Alloy/02-feed.png
+https://s3-us-west-2.amazonaws.com/uber-common-public/Alloy/03-details.png
+https://s3-us-west-2.amazonaws.com/uber-common-public/Alloy/04-go-online.png
+https://code.uberinternal.com/
+https://code.uberinternal.com/
+https://code.uberinternal.com/
+https://code.uberinternal.com/
+http://a5.mzstatic.com/au/r30/Purple5/v4/26/2c/4a/262c4a93-d0cb-f65d-ee2e-406b4faa0798/icon175x175.png
+https://pagead2.googlesyndication.com/pagead/gen_204
+http://www.google.com
+http://www.google.com
+https://support.google.com/dfp_premium/answer/7160685#push
+http://www.example.com
+http://www.example.com
+http://www.example.com
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/sdk-core-v40-impl.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://csi.gstatic.com/csi
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/native_ads.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/native_ads.js
+https://imasdk.googleapis.com/admob/sdkloader/native_video.html
+https://www.google.com/dfp/linkDevice
+https://www.google.com/dfp/inAppPreview
+https://www.google.com/dfp/debugSignals
+https://www.google.com/dfp/sendDebugData
+http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res/android
+https://partners.uber.com
+https://cn-pek1.uber.com.cn/
+https://cn-dc1.uber.com/
+https://cn-dc1.uber.com/
+https://cn-dc1.uber.com/
+https://cn-dc1.uber.com/
+http://www.w3.org/ns/ttml#parameter
+https://gratitude.uber.com/rewards
+https://partners.uber.com/p3/promotions/planning/
+https://partners.uber.com/p3/promotions/ct-details
+https://partners.uber.com/p3/promotions/quest-details
+https://partners.uber.com/p3/promotions/carbon-calendar
+https://partners.uber.com/p3/promotions/planning
+https://bonjour.uber.com/marketplace/
+https://bonjour.uber.com/marketplace/
+https://partners.uber.com/p3/instant_pay/faq/
+https://partners.uber.com/p3/instant_pay/faq/
+http://t.uber.com/driver-destination
+https://partners.uber.com/p3/instant_pay/
+https://partners.uber.com/p3/instant_pay/
+https://partners.uber.com/p3/instant_pay/
+https://partners.uber.com/p3/drivers/vehicles/index
+https://s3.amazonaws.com/uber-static/vehicle-solutions/hourly_rentals/carbon/VehicleHubEmpty%402x.png
+https://accounts.google.com
+https://accounts.google.com
+https://accounts.google.com
+https://accounts.google.com
+https://accounts.google.com
+https://accounts.google.com
+https://accounts.google.com
+https://www.facebook.com
+https://www.facebook.com
+https://www.facebook.com
+https://www.facebook.com
+https://www.facebook.com
+https://www.facebook.com
+https://www.facebook.com
+http://t.uber.com/commutedrivingagreement
+http://t.uber.com/commutehelp
+https://s3-us-west-2.amazonaws.com/
+http://www.uber.com/legal/policies/service-animal-policy/
+http://www.uber.com/legal/policies/service-animal-policy/
+http://www.uber.com/legal/policies/service-animal-policy/
+https://hubble.uber.com/view?url=
+https://hubble.uber.com/view?url=
+https://cn-geo1.uber.com/event/user/v2
+https://d1a3f4spazzrp4.cloudfront.net/referrals/ub__referrals_contact_picker_pre_auth_recommendations_zero.png
+https://d1a3f4spazzrp4.cloudfront.net/referrals/ub__referrals_contact_picker_pre_auth_regular_zero.png
+https://d1a3f4spazzrp4.cloudfront.net/referrals/ub__referrals_contact_picker_pre_auth_regular_zero_bits.png
+https://d1a3f4spazzrp4.cloudfront.net/referrals/pre_active_modal/car_%403x.png
+https://d1a3f4spazzrp4.cloudfront.net/referrals/pre_active_modal/people_%403x.png
+https://en.facebookbrand.com/wp-content/uploads/2016/05/FB-fLogo-Blue-broadcast-2.png
+https://auth.uber.com/login/mobile-captcha.html
+https://auth.uber.com/login/mobile-captcha.html
+https://auth.uber.com/login/mobile-captcha.html
+https://get.uber.com/app-signup-success
+https://platform.uberinternal.com/components/buttons/
+https://platform.uberinternal.com/components/text-fields/
+https://platform.uberinternal.com/components/controls/
+https://platform.uberinternal.com/resources/icons/
+https://platform.uberinternal.com/components/lists/
+https://platform.uberinternal.com/components/alerts/
+https://platform.uberinternal.com/components/tabs/
+https://platform.uberinternal.com/carbon/components/buttons/
+https://platform.uberinternal.com/carbon/visual-system/color/
+https://platform.uberinternal.com/carbon/components/controls/
+https://platform.uberinternal.com/carbon/visual-system/icons-2/
+https://platform.uberinternal.com/carbon/components/lists/
+https://platform.uberinternal.com/carbon/components/tabs/
+https://platform.uberinternal.com/carbon/visual-system/typography/
+https://bonjour.uber.com
+http://www.zombo.com
+https://d1a3f4spazzrp4.cloudfront.net/referrals/ub__ic_referrals_invite_tile_badge.png
+https://www.uber.com/legal/terms
+https://www.uber.com/legal/terms
+https://www.uber.com/legal/privacy/users
+https://www.uber.com/legal/privacy/users
+https://play.google.com/store/apps/details?id=com.airbnb.lottie
+https://play.google.com/store/apps/details?id=com.airbnb.lottie
+https://play.google.com/store/apps/details?id=com.faizmalkani.keylines
+https://constraintlayout.github.io
+https://cn-geo1.uber.com/
+https://cn-geo1.uber.com/
+https://cn-dc1.geixahba.com/
+https://cn-dc1.geixahba.com/
+https://cn-dc1.shaipeeg.net/
+https://cn-dc1.shaipeeg.net/
+https://cn-dc1.oojoovae.org/
+https://cn-dc1.oojoovae.org/
+https://cn-dc1.ooshahwa.biz/
+https://cn-dc1.ooshahwa.biz/
+https://cn-dc1.naevooda.co/
+https://cn-dc1.naevooda.co/
+https://cn-geo1.uber.com
+https://cn-geo1.uber.com
+https://cn-geo1.uber.com
+https://www.placebear.com/%d/%d
+http://www.uber.com
+https://d1a3f4spazzrp4.cloudfront.net/referrals/ub__referrals_contact_picker_pre_auth_regular_bits.png
+https://d1a3f4spazzrp4.cloudfront.net/referrals/ub__referrals_contact_picker_pre_auth_regular_gray.png
+https://d1a3f4spazzrp4.cloudfront.net/referrals/ub__referrals_contact_picker_pre_auth_recommendations_gray.png
+https://get.uber.com/app-signup
+https://www.facebook.com/connect/login_success.html#access_token
+https://www.facebook.com/connect/login_success.html?error=access_denied
+https://www.facebook.com/connect/login_success.html
+https://s3.amazon.com
+https://graph.facebook.com/%s/picture?type=large
+https://code.uberinternal.com/%s
+https://s3.amazonaws.com/uber-static/firefly/beacon_settings_bg.png
+https://s3.amazonaws.com/uber-static/firefly/beacon_settings_bg.png
+https://driverinjuryprotection.uber.com
+https://driverinjuryprotection.uber.com
+https://driverinjuryprotection.uber.com/exit
+https://drive.google.com/viewerng/viewer?embedded=true&url=
+https://drive.google.com/viewerng/viewer?embedded=true&url=
+https://auth.uber.com
+https://gobank.com/login
+http://gobank.com/uber/noworries
+http://hmns.kr/?M-lonlat=%s:%s&from=com.ubercab.driver&auth=UCA9_R131_P731_17
+http://hmns.kr/?M-lonlat=%s:%s&from=com.ubercab.driver&auth=UCA9_R131_P731_17
+https://d3dt5tsgfu6lcf.cloudfront.net/style/driver_carbon/native
+http://cn-geo1.uber.com
+https://mockurl.uber/ramen/
+https://help.uber.com
+https://cn-dc1.uber.com/ramen/events/recv
+https://cn-dc1.uber.com/ramen/events/recv
+http://optimistic/unknown
+https://settings.crashlytics.com/spi/v2/platforms/android/apps/%s/settings
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+https://uri.paypal.com/services/payments/futurepayments
+https://uri.paypal.com/services/payments/futurepayments
+https://uri.paypal.com/services/paypalattributes
+https://uri.paypal.com/services/paypalattributes
+https://svcs.paypal.com/AccessControl/LogRiskMetadata
+https://svcs.paypal.com/AccessControl/LogRiskMetadata
+https://svcs.paypal.com/AccessControl/LogRiskMetadata
+https://svcs.paypal.com/AccessControl/LogRiskMetadata
+https://b.stats.paypal.com/counter.cgi?p=
+https://b.stats.paypal.com/counter.cgi?p=
+https://www.paypalobjects.com/webstatic/risk/dyson_config_android_v3.json
+https://www.paypalobjects.com/webstatic/risk/dyson_config_android_v3.json
+https://www.paypalobjects.com/webstatic/risk/dyson_config_android_v3.json
+https://cms.paypal.com/jp/cgi-bin/marketingweb?cmd=_render-content&content_ID=ua/Legal_Hub_full&locale.x=ja_JP
+https://cms.paypal.com/jp/cgi-bin/marketingweb?cmd=_render-content&content_ID=ua/Legal_Hub_full&locale.x=en_US
+https://www.paypal.jp/jp/contents/regulation/info/overseas-remittance/
+https://uri.paypal.com/services/payments/funding-options
+https://uri.paypal.com/services/pos/payments
+https://uri.paypal.com/services/mis/customer
+https://uri.paypal.com/services/wallet/financial-instruments/view
+https://uri.paypal.com/services/wallet/sendmoney
+https://uri.paypal.com/services/wallet/money-request/requests
+https://uri.paypal.com/services/loyalty/memberships/update
+https://uri.paypal.com/services/expresscheckout
+https://api-m.paypal.com/v1/
+https://api-m.paypal.com/v1/
+https://api-m.paypal.com/v1/
+https://www.paypalobjects.com/webstatic/otc/otc-config.android.json
+https://api-m.sandbox.paypal.com/v1/
+https://api-m.sandbox.paypal.com/v1/
+https://uri.paypal.com/services/payments/basic
+https://www.paypal.com/%s/cgi-bin/webscr?cmd=_account-recovery&from=%s&locale.x=%s
+https://www.paypal.com/webapps/accountrecovery/passwordrecovery
+https://www.paypal.com/%s/webapps/mpp/ua/useragreement-full
+https://www.paypal.com/signup/account?country.x=%s&locale.x=%s
+https://www.paypal.com/%s/cgi-bin/webscr?cmd=p/gen/ua/policy_privacy-outside
+https://eventgw.twilio.com/v3/EndpointEvents
+https://eventgw.twilio.com/v3/EndpointMetrics
+https://ers.twilio.com
+http://10.0.2.2:8080
+https://plus.google.com/
+http://juspay.in
+http://localhost/
+http://localhost/
+http://localhost/
+https://e.crashlytics.com/spi/v2/events
+https://www.googleapis.com/auth/games_lite
+https://www.googleapis.com/auth/games
+https://www.paypal.com
+https://d3dt5tsgfu6lcf.cloudfront.net/style/driver/native
+https://d3dt5tsgfu6lcf.cloudfront.net/style/driver/native
+https://api.paypal.com/v1/tracking/events
+http://cancelurl
+http://returnurl
+https://partners.uber.com/p3/instant_pay/manage_cards/gobankCard/
+https://partners.uber.com/p3/instant_pay/manage_cards/gobankCard/
+https://partners.uber.com/p3/instant_pay/manage_cards/gobankCard/
+https://partners.uber.com/p3/instant_pay/manage_cards/debitCard/form/
+https://partners.uber.com/p3/instant_pay/manage_cards/debitCard/form/
+https://m.gobank.com/uber/login
+https://partners.uber.com/p3/instant_pay/manage_cards/gobankCard/form
+https://partners.uber.com/login_via_token/login/
+https://partners.uber.com/login_via_token/login/
+https://partners.uber.com/login_via_token/login/
+https://partners.uber.com/login_via_token/login/
+https://partners.uber.com/login_via_token/login/
+https://partners.uber.com/login_via_token/login/
+https://partners.uber.com/login_via_token/login/
+https://partners.uber.com/login_via_token/login/
+https://partners.uber.com/login_via_token/login/
+https://partners.uber.com/login_via_token/login/
+https://partners.uber.com/login_via_token/login/
+https://partners.uber.com/login_via_token/login/
+https://partners.uber.com/login_via_token/login/
+https://partners.uber.com/login_via_token/login/
+https://partners.uber.com/login_via_token/login/
+https://partners.uber.com/login_via_token/login/
+https://partners.uber.com/login_via_token/login/
+https://partners.uber.com/login_via_token/login/
+https://partners.uber.com/login_via_token/login/
+https://partners.uber.com/login_via_token/login/
+https://partners.uber.com/login_via_token/login/
+https://partners.uber.com/login_via_token/login/
+https://partners.uber.com/login_via_token/login/
+https://partners.uber.com/login_via_token/login/
+https://partners.uber.com/native_callback
+https://partners.uber.com/native_callback
+https://partners.uber.com/referrals/
+https://www.uber.com/legal/privacy/drivers-us/en/
+https://d1a3f4spazzrp4.cloudfront.net/fuel_finder/step1%404x.png
+https://d1a3f4spazzrp4.cloudfront.net/fuel_finder/step3%404x.png
+https://d1a3f4spazzrp4.cloudfront.net/fuel_finder/step2%404x.png
+https://youtu.be/10eiFrRqWlI
+https://youtu.be/10eiFrRqWlI
+https://youtu.be/10eiFrRqWlI
+https://www.uber.com/forgot-password
+https://www.uber.com/forgot-password
+https://partners.uber.com/rewards
+https://m.uber.com/
+https://www.id.me/?
+https://www.id.me/
+https://www.id.me/
+https://api.id.me/oauth/authorize?client_id=%s&redirect_uri=%s&response_type=code&scope=%s&op=signup
+http://uber.com/commute
+http://uber.com/commute
+https://s3.amazonaws.com/uber-static/firefly/kitt_v2.ota-image
+https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAJsAAAAJGU5NDdlZmY2LTJhYWQtNDVhNS1hNzMwLWQ0ODUzYmEzNTljMQ.jpg
+https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/2/000/01f/068/1b1f979.jpg
+https://media.licdn.com/media/p/7/000/216/30b/0ec0c4a.jpg
+https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/000/2b9/00a/073db4d.jpg
+https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/2/005/012/3c6/2625776.jpg
+https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAajAAAAJGIyMGRjMzEwLWRjMmYtNDMyMS04OGZjLWM2NzE3YjEyYWNiMQ.jpg
+https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAYXAAAAJDIxOGYwMjdmLTBmZDAtNDBkMS1hOWRkLTRkODFhYzNmNTU4Mg.jpg
+https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAATMAAAAJDE5MDJhOWYwLTE4OTYtNDRkMy04NTU0LTZiZWJmMWU5NGJjNA.jpg
+https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/048/3ca/3f1345e.jpg
+https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAKZAAAAJDU4Nzc5MGNmLWUxNmYtNGZjNy04MWJiLTk3NGVhMWY5ZTRhYg.jpg
+https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAaSAAAAJDFiYWI1ZjNlLWMzZjAtNGFjYi04YWU1LTE1MTExOGFlZmRhNA.jpg
+https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/4/000/139/17f/21dfe1c.jpg
+https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/8/000/278/3c2/0959a29.jpg
+https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAANgAAAAJDc5OTMwYTU0LTI1YTQtNGZhNi1iOTcxLTEzNGMzZjQ3YmFkMg.jpg
+https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAALLAAAAJDM5OWRlOTNhLWI2NGEtNGI4YS05ZDBiLTYzNDBkNjVkOTFkOA.jpg
+https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/5/005/014/277/2b013ee.jpg
+https://media.licdn.com/media/AAEAAQAAAAAAAAPzAAAAJGM5YmZmZTNlLWRmOGMtNDMzNS1iN2QwLWJhZmQ0YzllOGU0NA.jpg
+https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAURAAAAJGEzNWQ0N2QzLTdjMmMtNGQ5OC05MWE3LWYxMmMwYzlhZjEyNA.jpg
+https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/7/005/058/1ef/3ea22d7.jpg
+https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/3/000/02a/3ed/1d30a3d.jpg
+https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAALOAAAAJDgzNjFkNmRhLTAxYzgtNDcxOC1hYTdjLWNlOWE5OWI4YjY1OQ.jpg
+https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAbcAAAAJDEyOWYyMDI2LWQwMDAtNDE0NS05YWEwLTlhYTk4NDc5NzBlZg.jpg
+https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/1/000/26d/0a4/1d12286.jpg
+https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAi_AAAAJDQxNDgzMWVkLTdhZDItNGEwYS05NDM3LTNjOGNlMmQxNTMzMw.jpg
+https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAABEAAAAJGQzY2NiYzIyLThjNDctNGMzOC05YzhhLTY5ZmUzYjM1OGI5Ng.jpg
+https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/04b/077/2b3de77.jpg
+https://media.licdn.com/media/p/7/005/0a7/118/045ce4c.jpg
+https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAARZAAAAJDU2ZTYxOGE1LWEwYmItNGEzMi04YWJmLWQ5MDRiNGNlMjBlNQ.jpg
+https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/8/000/2a0/128/0f7f0f6.jpg
+https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/8/000/2aa/017/19c2f0f.jpg
+https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/7/005/06a/203/03557f5.jpg
+https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/3/000/20a/069/057ff79.jpg
+https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/4/000/141/2ff/2678961.jpg
+https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAWWAAAAJGY5OWNjYjM0LTI5MmQtNGFmYy04NjBkLTQ5MjQzMjkwOGE2Mg.jpg
+https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/3/005/0ad/2a0/236873c.jpg
+https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/8/005/06e/3ca/3e2f0ce.jpg
+https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAZ0AAAAJGZiMmM0NzI1LTEwM2QtNDAzZS04YjUzLTc2MDJlOWNjZGRlMA.jpg
+https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAOTAAAAJGVhN2JkOTI4LTU4N2QtNGU1MC04N2RiLTcyNzNiZjY0MTE4NQ.jpg
+https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAkwAAAAJDM4ZDNkMWEwLTZkNzUtNDg3OS1iNDhlLTExNjY1MWZlNWQ0Mg.jpg
+https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAbSAAAAJDRmMDA1ZWEwLTVmZWEtNDhhYy1iM2E0LWFjOGU2NGJiMzZhNw.jpg
+https://media.licdn.com/media/p/6/000/266/141/1a7d878.jpg
+https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/5/005/033/159/1102228.jpg
+https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAMlAAAAJGUwODc0ZjE5LWNiOGMtNDg2Ni05N2NmLWM4M2Y4NDNlMzFkYw.jpg
+https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/8/005/04d/1f1/386332f.jpg
+https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/5/005/023/146/3993213.jpg
+https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAZ8AAAAJGFlMGVkMTU5LWFiNzctNDg4My04MDY2LWMzNDhhYWIzMzBjZA.jpg
+https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAASaAAAAJDg3NjRjNzFlLWI2ZWYtNDE1MS1iMmE1LTQ5NDA5NTI3OGRhNQ.jpg
+https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAJyAAAAJGM5MjVkYTFmLTZmYWEtNGZjOS1hOWU4LWFiMWU0MjQzMTVlYw.jpg
+https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAKEAAAAJDY1ZDA3YWNlLTY2NGUtNDZjNC1iNGRjLWM3NDI4MTc0MzlhMQ.jpg
+https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/1/000/01a/369/17e66eb.jpg
+https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAT8AAAAJDA0MzVjZjM0LTc1NzUtNDE1Yy1hNWFkLTcyZGQxZGU4OTRiMw.jpg
+https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/05b/2d6/04eb466.jpg
+https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAVTAAAAJGZiMWQ3YWEwLTA5ZTctNGRhYi1hYjg2LWU5OGY3NzkzOTc3Yw.jpg
+https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAATLAAAAJDQ5MDY1OThkLWQyNGEtNGUwMC1hN2JiLTE2MDFjMTU0Y2Y1OA.jpg
+https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/8/005/035/12e/1dcb264.jpg
+https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/078/245/1117648.jpg
+https://media.licdn.com/media/p/5/005/03c/0af/2c015b1.jpg
+https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAKCAAAAJDQwNjdkZTA2LTI2N2YtNDFiYi1hOTExLTQ0ZjM0ZmE0ZDI5ZQ.jpg
+https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/8/005/0ae/2c3/28e7521.jpg
+https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAKmAAAAJGU0ZjBhNjBlLWMxNDUtNDY1YS1hYTNiLThjMzFhODU3MzVhNw.jpg
+https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/5/005/08f/1e6/27ebeb1.jpg
+https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/4/005/085/181/109ef03.jpg
+https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/3/000/225/304/36af36f.jpg
+https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/2/000/208/050/24c48dc.jpg
+https://media.licdn.com/media/p/8/000/1c1/23c/1646a5b.jpg
+https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/1/000/25b/37b/2f3e7c5.jpg
+https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAARPAAAAJDE4NzliYWVjLWIzMTEtNGQ2Yy1iM2M1LTcyZjA0ODdlNGE0MA.jpg
+https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAOiAAAAJDdmYWJkZTE5LWM3ZWItNDMwYi04ZGMxLTg1OTAwNGMxMWIxOA.jpg
+https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/2/000/1b4/2f5/0d94596.jpg
+https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/08c/320/1c7c546.jpg
+https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/1/005/0a7/30e/07f5d49.jpg
+https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/7/000/286/12e/31abbe4.jpg
+https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAQxAAAAJDRjYjZlNDg2LTRiNjMtNDJhOS04Zjk5LWMzZWVlNzNmMmIyYg.jpg
+https://media.licdn.com/media/p/5/000/1c7/285/0b6cca3.jpg
+https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/2/000/190/314/1c7c69c.jpg
+https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/8/005/096/09d/2ffe42d.jpg
+https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/4/000/138/156/1f1869e.jpg
+https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAASGAAAAJDgzN2NkNDcxLTllMmEtNGVmZS05MjMzLWNiMjg2NjQ0Mzg0Yw.jpg
+https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/5/005/091/39f/162a88a.jpg
+https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAYnAAAAJDY3NjMwNmM0LTQxZjUtNDI1Yi1hZmQ1LTc0OWZhNjBjYzE4Ng.jpg
+https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAHPAAAAJDM0NjE1OTcwLWFkYWMtNGVhNS1hNjlhLTE1MmRmOTliMmI5YQ.jpg
+https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/1/005/017/1ee/1e67194.jpg
+https://media.licdn.com/media/p/3/000/0ee/294/228ff9a.jpg
+https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/2/005/09a/2b3/1d1fb49.jpg
+https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/2/000/050/03f/1facc41.jpg
+https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/4/000/133/119/31648d8.jpg
+https://media.licdn.com/media/p/5/005/039/235/1e20b49.jpg
+https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/3/000/05b/042/2b9c715.jpg
+https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAV7AAAAJGZmOTJkNjk3LTRjYWMtNGE3Ny04ZGYxLTZjYzVmNTNiNjliMw.jpg
+https://media.licdn.com/media/p/2/005/075/1c4/0c16b54.jpg
+https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/4/000/165/1b2/0d46b68.jpg
+https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/8/005/04d/2ea/2220d5b.jpg
+https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAbfAAAAJDNiNjFlYmIyLTI5MjktNDM2MC1iZjJhLTdjOGJmYzc2MGRlZA.jpg
+https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/5/005/099/06b/0ffe00b.jpg
+https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/2/005/023/3ea/058ea20.jpg
+https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/1/000/0fb/196/3f602c0.jpg
+https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/7/000/20a/3a2/1516ec3.jpg
+https://media.licdn.com/media/AAEAAQAAAAAAAAltAAAAJDczOTRjY2NjLWVlNzItNGUwNS04Zjg3LTRiN2RlM2NlNWZmMg.jpg
+https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/4/000/17f/3e7/1f1b048.jpg
+https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/2/005/020/167/2fae2c3.jpg
+https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAQVAAAAJDkyNjFmYjgyLTljOTctNGUxOS1hNmI3LWEzNzc3NTJlNzQzZQ.jpg
+https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/1/000/19c/040/1f6a142.jpg
+https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAW9AAAAJDUzMjE1MTdmLWM2NWItNDYwNC1iYjAzLTdhODFmNTEyNmNlOA.jpg
+https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/2/000/04f/244/2f033bd.jpg
+https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAbIAAAAJDA5ZmEzOTgxLWM4YzEtNDhjNC1iNmNjLTE0NTcyZjdiYzljOQ.jpg
+https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAOyAAAAJDlmNjRhYjE1LTlhY2EtNDU0MC05OWFmLWQ1M2ViZTdjNGQyOQ.jpg
+https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAYbAAAAJDk1ZDA4NjQ0LTU5NjctNDE4OS1iMzlmLTg0NTYxNTA1YzI0Ng.jpg
+https://partners.uber.com/p3/promotions/
+https://partners.uber.com/p3/loyalty
+https://partners.uber.com/p3/loyalty
+https://auth.uber.com/login/forgot-password
+http://t.uber.com/asimplerexperience
+https://partners.uber.com/dashboard/vehicle-solutions/xchange/
+https://partners.uber.com/dashboard/vehicle-solutions/xchange/
+https://help.uber.com/h/7fa8a60d-cf6f-49ac-9a50-b4bf6a3978ef
+https://partners.uber.com/p3/tax-compliance/summaries/2016/0
+
+[INTERNAL_LOG][2018-06-12 05:32:51,349][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 05:32:51,357][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 05:32:51,357][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 05:32:51,357][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 05:32:51,357][INFO][analyze_start()] End time:[Tue Jun 12 05:32:51 2018]

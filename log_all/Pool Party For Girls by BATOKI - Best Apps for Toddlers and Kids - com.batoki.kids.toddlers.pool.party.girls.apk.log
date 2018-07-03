@@ -1,0 +1,103 @@
+[INTERNAL_LOG][2018-06-08 00:14:22,128][INFO][analyze_start()] Init Time [Fri Jun  8 00:14:22 2018]
+[INTERNAL_LOG][2018-06-08 00:14:22,202][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-08 00:14:22,204][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-08 00:14:22,204][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-08 00:14:22,204][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-08 00:14:22,204][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-08 00:14:22,204][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-08 00:14:22,204][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-08 00:14:22,204][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-08 00:14:22,204][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-08 00:14:53,744][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-08 00:14:53,744][INFO][find_url_in_apk()] http://adincube/mraid.js
+http://adincube/index.html
+https://mobile.mediabrix.com/v2/manifest/
+https://dwxjayoxbnyrr.cloudfront.net/amazon-ads.viewablejs
+http://amazon-adsystem.com
+http://sdk.appbrain.com,http://sdk-b.apptornado.com
+http://applift-a.apptornado.com,http://applift-b.apptornado.com
+http://applift-a.apptornado.com
+http://play.google.com
+http://play.google.com
+http://play.google.com
+https://play.google.com
+https://play.google.com
+https://play.google.com
+http://market.android.com
+https://market.android.com
+http://schemas.android.com/apk/lib/com.appbrain
+http://schemas.android.com/apk/lib/com.appbrain
+http://schemas.android.com/apk/lib/com.appbrain
+http://10.0.2.2
+http://192.168.
+http://schemas.applovin.com/android/1.0
+http://schemas.applovin.com/android/1.0
+http://d.applovin.com/
+http://a.applovin.com/
+https://vid.applovin.com/,https://pdn.applovin.com/,https://img.applovin.com/,https://d.applovin.com/,https://assets.applovin.com/,https://cdnjs.cloudflare.com/,http://vid.applovin.com/,http://pdn.applovin.com/,http://img.applovin.com/,http://d.applovin.com/,http://assets.applovin.com/,http://cdnjs.cloudflare.com/
+http://rt.applovin.com/pix
+https://live.chartboost.com
+http://market.android.com/
+https://graph.facebook.com/network_ads_common
+https://graph.%s.facebook.com/network_ads_common
+https://www.facebook.com/adnw_logging/
+https://www.%s.facebook.com/adnw_logging/
+https://www.facebook.com/
+https://www.%s.facebook.com
+http://www.facebook.com
+http://www.google-analytics.com
+https://ssl.google-analytics.com
+https://www.googleapis.com/auth/plus.me
+https://www.googleapis.com/auth/games
+http://plus.google.com/
+http://www.example.com
+http://www.example.com
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://csi.gstatic.com/csi
+https://sb-ssl.google.com/safebrowsing/clientreport/malware
+https://pagead2.googlesyndication.com/pagead/gen_204
+http://www.google.com
+http://hostname/?
+http://hostname/?
+https://www.googletagmanager.com
+https://androidads23.adcolony.com/configure
+https://twitter.com/%s/status/%s
+https://play.google.com/store/apps/details?
+https://play.google.com/store/apps/details?
+https://play.google.com/store/search?
+http://play.google.com/store/apps/details?
+http://market.android.com/details?
+https://market.android.com/details?
+http://data.adbuddiz.com/sdk/v1/downloadAsset/close_button.png
+http://data.adbuddiz.com/sdk/v1/downloadAsset/by_adbuddiz.png
+http://d1byvlfiet2h9q.cloudfront.net/InApp/resources/adInformationDialog3.html
+http://searchmobileonline.com/static/eula_more_sdk.html
+http://searchmobileonline.com/static/eula_more_sdk.html
+http://info.static.startappservice.com/InApp/resources/info_l.png
+http://www.startappexchange.com
+https://config.unityads.unity3d.com/webview/
+http://mads.amazon-adsystem.com/
+http://schemas.android.com/apk/lib/com.amazon.device.ads
+http://schemas.android.com/apk/res/
+http://www.w3.org/ns/ttml#parameter
+http://www.dummy.com
+http://www.dummy.com
+http://m.facebook.com/ads/ad_choices
+http://m.facebook.com/ads/ad_choices
+https://www.facebook.com/audience_network/server_side_reward
+https://www.%s.facebook.com/audience_network/server_side_reward
+https://analytics.mopub.com/i/jot/exchange_client_event
+
+[INTERNAL_LOG][2018-06-08 00:14:53,744][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-08 00:14:53,756][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-08 00:14:53,756][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-08 00:14:53,756][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-08 00:14:53,756][INFO][analyze_start()] End time:[Fri Jun  8 00:14:53 2018]

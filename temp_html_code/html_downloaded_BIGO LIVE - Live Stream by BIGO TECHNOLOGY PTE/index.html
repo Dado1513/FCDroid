@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1,user-scalable=no">
+    <meta name="applicable-device" content="mobile">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="address=no">
+    <title>BIGO LIVE</title>
+    <style type="text/css">
+        html{width: 100%;min-width: 320px;height: 100%;font-size: 50px;background: #fff;overflow-x: hidden;-webkit-text-size-adjust:100%;}
+        body{width: 100%;max-width: 768px;min-height: 100%;font-size: 12px;font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;background: #f8f8f8;margin: 0 auto;}
+        h1,h2,h3,h4,h5,h6{margin: 0;}
+        a{color: #333;text-decoration: none;-webkit-tap-highlight-color: rgba(255,255,255,0);}
+        b{font-weight: normal;}
+        i{font-style: normal;}
+        p{margin: 0;}
+        ul,ol{margin: 0;padding: 0;}
+        li{list-style: none;}
+        img{border: 0;}
+        img[src=""]{width: auto;height: auto;}
+        form{margin: 0;}
+        input,select{color: #333;margin: 0;padding: 0;border: none;outline: none;-webkit-appearance: none;}
+        textarea{color: #333;padding: 0;border: none;outline: none;-webkit-appearance: none;resize: none;text-align: justify;}
+        table{border-collapse: collapse;text-align: center;}
+        td,th{padding: 0;}
+        .clearfix:after{content: "";display: block;clear: both;height: 0;}
+        .clearfix{zoom: 1;}
+        .fl{float: left;}
+        .fr{float: right;}
+        ::-webkit-scrollbar{display: none;}
+        @media (min-width: 320px) and (max-width: 359px){html{font-size: 42px;}}
+        @media (min-width: 360px) and (max-width: 374px){html{font-size: 48px;}}
+        @media (min-width: 375px) and (max-width: 413px){html{font-size: 50px;}}
+        @media (min-width: 414px) and (max-width: 479px){html{font-size: 55px;}}
+        @media (min-width: 480px) and (max-width: 559px){html{font-size: 64px;}}
+        @media (min-width: 560px) and (max-width: 679px){html{font-size: 75px;}}
+        @media (min-width: 680px) and (max-width: 767px){html{font-size: 90px;}}
+        @media (min-width: 768px){html{font-size: 102.4px;}}
+
+        .view{
+            background: #f8f8f8;
+        }
+        .view .title1{
+            font-size: 0.3rem;color: #25252f;font-weight: bold;
+            padding: 0.4rem;
+        }
+        .view .tips{
+            line-height: 0.36rem;
+            font-size: 0.24rem;color: #25252f;
+            padding: 0 0.4rem;
+        }
+        .list1{
+            padding: 0 0.4rem;
+            overflow: hidden;
+        }
+        .list1 li{
+            width: 48%;
+            text-align: center;
+            background: #fff;
+            padding-top: 0.4rem;
+            margin-top: 0.4rem;
+        }
+        .list1 li:nth-child(2n+1){
+            float: left;
+        }
+        .list1 li:nth-child(2n){
+            float: right;
+        }
+        .list1 li .img{
+            width: 2.75rem;height: 2.75rem;
+            margin: 0 auto;
+        }
+        .list1 li .img img{
+            display: block;
+            width: 100%;height: 100%;
+        }
+        .list1 li i{
+            display: inline-block;
+            width: 0.54rem;height: 0.46rem;
+            background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADYAAAAuCAMAAABUHhoZAAAAeFBMVEUAAABb0wBb0wBb0wBb0wBb0wBb0wBb0wBb0wBb0wBb0wBb0wBb0wBb0wBb0wBb0wBb0wBb0wBb0wBb0wBb0wBb0wBb0wBb0wBb0wBb0wBb0wBb0wBb0wBb0wBb0wBb0wBb0wBb0wBb0wBb0wBb0wBb0wBb0wBb0wAN3e+cAAAAJ3RSTlMA+/Ap20gCvYhv61wUBtI4DrGaLSAd9uFi5pY8ppF5adjIx1RQQRnStyNOAAABD0lEQVRIx53TbW+CMBiF4VKgIFNgIqKge9/O//+Hi8v0oYXIebw/kpwmXGmNIneyK6MvB5A77eoJl04b3aqK8FdWa1Ztgf/Kll/VJW51DY34jFF2oBG9jhpEqVQgSpb6uV0BryhVIEorBaK0VSBK2eYRxGRtRsUxiRh7Z0bRQY+YXs581SJWe0B2LGJTyFk8Ytvh2guPuE6A2d1wD7F+x7icRAz/OuduokXQ2TE38YCw3s0jLu22Tj5OEeViISg7zyASO1DP+TPckc/5y9/RzzndQ5oiqneCON+37BYQ/QbLIYZVlkDkdr0haoopomYniFzxMUBU7ASRb9d5iOpdb3S1iSCqdm+CqOnnI1lA/AXPO34lggKurAAAAABJRU5ErkJggg==") no-repeat;
+            background-size: 100% 100%;
+            margin: 0.28rem 0;
+        }
+        .view .title2{
+            font-size: 0.3rem;color: #25252f;font-weight: bold;
+            text-align: center;
+            padding: 0 0.4rem;
+            margin-top: 0.8rem;
+        }
+        .list2{
+            padding: 0 0.4rem 0.4rem;
+            overflow: hidden;
+        }
+        .list2 li{
+            width: 48%;
+            text-align: center;
+            background: #fff;
+            padding-top: 0.4rem;
+            margin-top: 0.4rem;
+        }
+        .list2 li:nth-child(2n+1){
+            float: left;
+        }
+        .list2 li:nth-child(2n){
+            float: right;
+        }
+        .list2 li .img{
+            width: 2.75rem;height: 2.75rem;
+            position: relative;
+            margin: 0 auto;
+        }
+        .list2 li .img i{
+            display: block;
+            width: 0.78rem;height: 0.78rem;
+            background: rgba(37,37,47,0.5);
+            border-radius: 50%;
+            position: absolute;left: 50%;top: 50%;
+            margin: -0.39rem 0 0 -0.39rem;
+        }
+        .list2 li .img i:before{
+            content: "";
+            display: block;
+            width: 0.35rem;height: 0.35rem;
+            background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAjBAMAAADs965qAAAAMFBMVEUAAAD8ST/8ST/8ST/8ST/8ST/8ST/8ST/8ST/8ST/8ST/8ST/8ST/8ST/8ST/8ST/seysyAAAAD3RSTlMAxs0OEhCYA5+/uZA2j0Q/ZDhxAAAAy0lEQVQoz0XQuw3CQBCE4ZVAJiBEIkJyRMqjBVdACe7AjhAdEEJCbCRiJDqADqgFAkQ27HKemw28vtOX3G9m25NxhtM21ujw3vCqwj7WDpgTLfFtAwFkFeAskDMiBGuAYERAbR3IHMWcbY3EiF4rG5SJEU3ck2VkZAshMmQkRiQmJCYkJiTmSPNMVw+e+Tp1YwIGESITIhMSExITmpVkiqm8jKm8ppiZdXwd2dHuRGQ3K3pE9vGfJiGy2ndBFCxQsEBk9X+PL8p79c8PWUg1tU0J6V0AAAAASUVORK5CYII=") no-repeat;
+            background-size: 100% 100%;
+            position: absolute;left: 50%;top: 50%;
+            margin: -0.175rem 0 0 -0.175rem;
+        }
+        .list2 li .img img{
+            display: block;
+            width: 100%;height: 100%;
+        }
+        .list2 li .name{
+            width: 2.75rem;height: 1rem;
+            font-size: 0;
+            margin: 0 auto;
+        }
+        .list2 li .name:before{
+            content: "";
+            display: inline-block;
+            height: 100%;
+            vertical-align: middle;
+        }
+        .list2 li .name span{
+            display: inline-block;
+            font-size: 0.22rem;color: #25252f;
+            vertical-align: middle;
+        }
+
+        /*AR*/
+        .lang_rtl{
+            direction: rtl;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="view" id="bigo_lang_e">
+        <div class="title1">{{langContent.title1}}</div>
+        <p class="tips">{{langContent.tips}}</p>
+        <div class="list1">
+            <ul class="clearfix">
+                <li>
+                    <div class="img">
+                        <img src="img/img01.png">
+                    </div>
+                    <i></i>
+                </li>
+                <li>
+                    <div class="img">
+                        <img src="img/img02.png">
+                    </div>
+                    <i></i>
+                </li>
+                <li>
+                    <div class="img">
+                        <img src="img/img03.png">
+                    </div>
+                    <i></i>
+                </li>
+                <li>
+                    <div class="img">
+                        <img src="img/img04.png">
+                    </div>
+                    <i></i>
+                </li>
+            </ul>
+        </div>
+        <p class="title2">{{langContent.title2}}</p>
+        <div class="list2">
+            <ul>
+                <li>
+                    <div class="img">
+                        <img src="img/img05.png">
+                        <i></i>
+                    </div>
+                    <div class="name">
+                        <span>{{langContent.name1}}</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="img">
+                        <img src="img/img06.png">
+                        <i></i>
+                    </div>
+                    <div class="name">
+                        <span>{{langContent.name2}}</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="img">
+                        <img src="img/img07.png">
+                        <i></i>
+                    </div>
+                    <div class="name">
+                        <span>{{langContent.name3}}</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="img">
+                        <img src="img/img08.png">
+                        <i></i>
+                    </div>
+                    <div class="name">
+                        <span>{{langContent.name4}}</span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+<script src="/assets/js/jquery-3.2.1.min.js"></script>
+<script src="/assets/js/vue.min.js"></script>
+<script src="/assets/js/bigolang.js"></script>
+<script>
+    var vue_app_body = new Vue({
+        el: '#bigo_lang_e',
+        data: {
+            langContent:{},
+            imgPath:'img/'
+        }
+    });
+    BigoLang.init({
+        'path': 'lang/',
+        'name': {
+            'en': 'lang_en.txt',
+            'th': 'lang_th.txt',
+            'vn': 'lang_vn.txt',
+            'ru': 'lang_ru.txt',
+            'in': 'lang_in.txt',
+            'id': 'lang_id.txt',
+            'tw': 'lang_tw.txt',
+            'ko': 'lang_ko.txt',
+            'pt': 'lang_pt.txt',
+            'my': 'lang_my.txt',
+            'jp': 'lang_jp.txt',
+            'ar': 'lang_ar.txt'
+        },
+        'callback': function(data, langalb){
+            vue_app_body.langContent = data;
+            if (langalb==="ar") {
+                $('body').addClass('lang_rtl');
+            };
+        }
+    });
+</script>
+</html>

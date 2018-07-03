@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta charset="UTF-8">
+	<title>授权并登录 </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, target-densitydpi=medium-dpi" />
+	<meta name="format-detection" content="telephone=no" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<link rel="stylesheet" type="text/css" href="http://qzonestyle.gtimg.cn/open_proj/qqconnect/h5login/css/jump2.css?t=20130913001" />
+	<script type="text/javascript">
+		document.domain = "qq.com";
+	</script>
+	
+</head>
+<body>
+	<div id="jumping_container">
+		<i class="loadingIcon"></i>正在打开授权登录页...
+	</div>
+	<div id="jump_page_container" class="hide">
+		<div class="jump_content_wrap">
+			<p class="jump_tips_title"><span class="jump_error_icon"></span>无法打开页面</p>
+			<p class="jump_tips_content">建议下载手机QQ，登录更快更安全。</p>
+		</div>
+		<button id="jump_downloadBtn" class="btn btn_lightblue continue_btn">下载QQ</button>
+	</div>
+
+	<div id="error_page_container" class="hide">
+		<div id="error_logo" class="error_logo"></div>
+		<h4 id="error_title" class="error_title">QQ</h4>
+		<div id="error_text" class="error_text" style="width:220px;">您没有安装最新版本QQ，请先下载并安装，登录更快更安全。</div>
+		<button id="downLoadBtn" class="btn btn_lightblue error_qz_download_btn">下载QQ</button>
+	</div>
+	<iframe id="jumpIframe" style="display:none;"></iframe>
+	<footer id="page_footer" class="page_footer">
+		<p class="suggestion"><a href="http://support.qq.com/write.shtml?fid=780&ADPUBNO=">反馈建议</a></p>
+		<p><span id="copyright" data-cpys="2010">Copyright &copy;</span> Tencent. All Rights Reserved.</p>
+	</footer>
+	<!--<script type="text/javascript" src="http://qzonestyle.gtimg.cn/c/=/open/mobile/login/js/login_browser_jump.js,/open/portal/common/copyright.js"></script>-->
+	<script type="text/javascript" src="http://qzonestyle.gtimg.cn/c/=/open/mobile/login/js/login_browser_jump.js"></script>
+	<script type="text/javascript">
+		!function() {
+			var e = document.getElementById('copyright');
+			if (e) {
+				var s = e.getAttribute('data-cpys')||'1998';
+				e.innerHTML = 'Copyright &copy; '+s+' - '+new Date().getFullYear();
+			}
+		}();
+	</script>
+	
+</body>
+</html>

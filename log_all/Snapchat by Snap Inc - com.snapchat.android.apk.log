@@ -1,0 +1,357 @@
+[INTERNAL_LOG][2018-06-08 02:53:03,150][INFO][analyze_start()] Init Time [Fri Jun  8 02:53:03 2018]
+[INTERNAL_LOG][2018-06-08 02:53:03,394][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-08 02:53:03,404][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-08 02:53:03,404][INFO][is_hybird()] android.permission.CAMERA
+[INTERNAL_LOG][2018-06-08 02:53:03,404][INFO][is_hybird()] android.permission.READ_PROFILE
+[INTERNAL_LOG][2018-06-08 02:53:03,404][INFO][is_hybird()] android.permission.READ_CONTACTS
+[INTERNAL_LOG][2018-06-08 02:53:03,404][INFO][is_hybird()] android.permission.ACCESS_FINE_LOCATION
+[INTERNAL_LOG][2018-06-08 02:53:03,404][INFO][is_hybird()] android.permission.RECORD_AUDIO
+[INTERNAL_LOG][2018-06-08 02:53:03,404][INFO][is_hybird()] android.permission.READ_PHONE_STATE
+[INTERNAL_LOG][2018-06-08 02:53:03,404][INFO][is_hybird()] android.permission.RECEIVE_SMS
+[INTERNAL_LOG][2018-06-08 02:53:03,404][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-08 02:53:03,405][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-08 02:53:03,405][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-08 02:53:03,405][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-08 02:53:03,405][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-08 02:53:03,405][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-08 02:53:03,405][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-08 02:53:03,405][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-08 02:53:03,405][INFO][is_hybird()] android.permission.FLASHLIGHT
+[INTERNAL_LOG][2018-06-08 02:53:03,405][INFO][is_hybird()] android.permission.MODIFY_AUDIO_SETTINGS
+[INTERNAL_LOG][2018-06-08 02:53:03,405][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-08 02:53:03,405][INFO][is_hybird()] com.snapchat.android.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-08 02:53:03,405][INFO][is_hybird()] com.snapchat.android.permission.UPDATE_STICKER_INDEX
+[INTERNAL_LOG][2018-06-08 02:53:03,405][INFO][is_hybird()] android.permission.BLUETOOTH
+[INTERNAL_LOG][2018-06-08 02:53:03,405][INFO][is_hybird()] android.permission.BLUETOOTH_ADMIN
+[INTERNAL_LOG][2018-06-08 02:53:03,405][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-08 02:53:03,405][INFO][is_hybird()] com.sec.android.provider.badge.permission.READ
+[INTERNAL_LOG][2018-06-08 02:53:03,405][INFO][is_hybird()] com.sec.android.provider.badge.permission.WRITE
+[INTERNAL_LOG][2018-06-08 02:53:03,406][INFO][is_hybird()] com.htc.launcher.permission.READ_SETTINGS
+[INTERNAL_LOG][2018-06-08 02:53:03,406][INFO][is_hybird()] com.htc.launcher.permission.UPDATE_SHORTCUT
+[INTERNAL_LOG][2018-06-08 02:53:03,406][INFO][is_hybird()] com.sonyericsson.home.permission.BROADCAST_BADGE
+[INTERNAL_LOG][2018-06-08 02:53:03,406][INFO][is_hybird()] com.anddoes.launcher.permission.UPDATE_COUNT
+[INTERNAL_LOG][2018-06-08 02:53:03,406][INFO][is_hybird()] com.majeur.launcher.permission.UPDATE_BADGE
+[INTERNAL_LOG][2018-06-08 02:53:03,406][INFO][is_hybird()] android.permission.CHANGE_WIFI_STATE
+[INTERNAL_LOG][2018-06-08 02:53:03,406][INFO][is_hybird()] android.permission.CHANGE_NETWORK_STATE
+[INTERNAL_LOG][2018-06-08 02:53:03,406][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-08 02:53:03,406][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-08 02:53:03,406][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-08 02:53:03,406][INFO][find_string()] File: res/raw/trace_footer.html
+[INTERNAL_LOG][2018-06-08 02:53:03,407][INFO][find_string()] No iframe in res/raw/trace_footer.html
+[INTERNAL_LOG][2018-06-08 02:53:03,407][INFO][find_string()] File: res/raw/trace_header.html
+[INTERNAL_LOG][2018-06-08 02:53:03,407][INFO][find_string()] No iframe in res/raw/trace_header.html
+[INTERNAL_LOG][2018-06-08 02:53:03,407][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-08 02:55:22,927][INFO][find_url_in_apk()] [START URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-08 02:55:22,933][INFO][find_url_in_apk()] https://support.snapchat.com/a/safe-browsing
+https://support.snapchat.com/a/safe-browsing
+
+[INTERNAL_LOG][2018-06-08 02:55:22,933][INFO][find_url_in_apk()] [END URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-08 02:55:23,974][INFO][find_string()] [START REMOTE FILE ANALYZE]
+[INTERNAL_LOG][2018-06-08 02:55:23,975][INFO][find_string()] Remote File in: temp_html_code/html_downloaded_Snapchat by Snap Inc - com/safe-browsing
+[INTERNAL_LOG][2018-06-08 02:55:23,975][INFO][find_string()] URL: https://support.snapchat.com/a/safe-browsing
+[INTERNAL_LOG][2018-06-08 02:55:23,982][INFO][find_string()] No iframe in temp_html_code/html_downloaded_Snapchat by Snap Inc - com/safe-browsing
+[INTERNAL_LOG][2018-06-08 02:55:23,983][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-08 02:55:23,983][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-08 02:55:23,983][INFO][find_url_in_apk()] https://www.mapbox.com/map-feedback/#/%f/%f/%d
+https://www.mapbox.com/map-feedback
+https://www.mapbox.com/map-feedback
+https://support.snapchat.com/a/android-not-supported
+https://snapchat-payments-gateway.snap-dev.net
+https://snapchat-payments-gateway.snapchat.com
+http://www.w3.org/TR/SVG11/feature#
+http://www.w3.org/1999/xlink
+http://www.w3.org/1999/xlink
+http://www.w3.org/1999/xlink
+http://www.w3.org/1999/xlink
+http://www.w3.org/1999/xlink
+http://www.w3.org/1999/xlink
+http://xml.org/sax/properties/lexical-handler
+http://www.w3.org/2000/svg
+http://www.w3.org/2000/svg
+https://pro-accounts.snapchat.com
+https://pro-accounts.snap-dev.net
+https://pro-stories.snapchat.com
+https://pro-stories.snap-dev.net
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/details?id=
+https://ms.sc-jpl.com
+https://ms.sc-jpl.com
+https://ms.sc-jpl.com
+https://ms.sc-jpl.com
+https://ms.sc-jpl.com
+https://ms.sc-jpl.com
+https://ms.sc-jpl.com
+https://ms.sc-jpl.com
+https://ms.sc-jpl.com
+https://app.snapchat.com/ranking/story_thumbnails?width=360&mediaId=
+https://storage.googleapis.com/scm-thumb/thumbs/
+https://mapbox.com/about/maps/s
+https://mapbox.com/about/maps/s
+http://www.openstreetmap.org/copyright
+http://www.openstreetmap.org/copyright
+http://www.openstreetmap.org/copyright
+https://www.mapbox.com/about/maps/s/?referrer=snapchat
+https://www.mapbox.com/about/maps/s/?referrer=snapchat
+https://www.mapbox.com/about/maps/s/?referrer=snapchat
+https://www.mapbox.com/about/maps/s/?referrer=snapchat
+https://tr.snapchat.com/cm/wv?scut=
+https://tr.snapchat.com/
+https://tr.snapchat.com/
+https://adserver.staging.snapads.com/ad/
+https://adserver.staging.snapads.com/v3/get/
+https://adserver.staging.snapads.com/track/
+https://adserver.staging.snapads.com/track_and_get/
+https://e.crashlytics.com/spi/v2/events
+https://settings.crashlytics.com/spi/v2/platforms/android/apps/%s/settings
+https://sdk.hockeyapp.net/
+https://sdk.hockeyapp.net/
+https://sdk.hockeyapp.net/
+http://www.w3.org/ns/ttml#parameter
+http://www.w3.org/ns/ttml#parameter
+https://api-m.paypal.com/v1/
+https://www.paypalobjects.com/webstatic/otc/otc-config.android.json
+https://uri.paypal.com/services/payments/futurepayments
+https://uri.paypal.com/services/paypalattributes
+https://images.bitmoji.com
+https://sc-analytics.appspot.com/analytics/bz
+https://sc-analytics.appspot.com/analytics/bz
+https://sc-analytics.appspot.com/analytics/bz
+https://sc-analytics.appspot.com/analytics/bz
+https://app-analytics.snapchat.com/analytics/bz
+https://app-analytics.snapchat.com/analytics/bz
+https://app.snapchat.com
+https://app.snapchat.com
+https://app.snapchat.com
+https://app.snapchat.com
+https://app.snapchat.com
+https://app.snapchat.com
+https://app.snapchat.com
+https://auth.snapchat.com
+https://auth.snapchat.com
+https://auth.snapchat.com
+https://auth.snapchat.com
+https://auth.snapchat.com
+https://auth.snapchat.com
+https://auth.snapchat.com
+https://auth.snapchat.com
+https://auth.snapchat.com
+http://10.0.2.2:3000/
+https://api.sandbox.braintreegateway.com/
+https://api.braintreegateway.com/
+https://metrics.brightcove.com/v2/tracker
+http://www.w3.org/XML/1998/namespace
+http://www.w3.org/ns/ttml#styling
+http://www.w3.org/ns/ttml#styling
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+https://wvlic.brightcove.com/proxy/
+https://edge.api.brightcove.com/playback/v1
+https://api.brightcove.com/services/library
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+https://plus.google.com/
+https://pagead2.googlesyndication.com/pagead/gen_204
+http://www.google.com
+https://support.google.com/dfp_premium/answer/7160685#push
+http://www.example.com
+http://www.example.com
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_expanded_banner.js
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/mraid/v2/mraid_app_interstitial.js
+https://csi.gstatic.com/csi
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/native_ads.html
+https://imasdk.googleapis.com/admob/sdkloader/native_video.html
+https://www.google.com/dfp/linkDevice
+https://www.google.com/dfp/inAppPreview
+https://www.google.com/dfp/debugSignals
+https://www.google.com/dfp/sendDebugData
+https://snap.events.mapbox.com
+https://events.mapbox.cn
+http://maps.google.com
+http://maps.google.com
+https://unlockables-odg-templates.storage.googleapis.com/backgrounds/birthdays/bg1.jpg
+https://unlockables-odg-templates.storage.googleapis.com/backgrounds/birthdays/bg1.jpg
+https://unlockables-odg-templates.storage.googleapis.com/backgrounds/birthdays/bg1.jpg
+https://unlockables-odg-templates.storage.googleapis.com/backgrounds/birthdays/bg1.jpg
+https://play.google.com/apps/testing/com.snapchat.android
+https://support.snapchat.com/a/licenses-android
+https://www.snap.com/%s-%s/terms/custom-creative-tools
+https://www.snapchat.com/privacy
+https://www.snap.com/terms/
+https://accounts.snapchat.com/accounts/downloadmydata
+https://www.snapchat.com/beta
+https://support.snapchat.com/article/quick-add
+https://support.snapchat.com/a/find-an-authentication-app
+https://support.snapchat.com/a/advertising-preferences
+https://support.snapchat.com/a/advertising-preferences
+https://storage.googleapis.com/snap_media_assets/post_reg_cpv_video_jp_1.mp4
+https://storage.googleapis.com/snap_media_assets/post_reg_cpv_video_jp_1.mp4
+https://map.snapchat.com
+https://support.snapchat.com/article/using-memories
+https://support.snapchat.com/article/using-memories
+https://support.snapchat.com/success
+https://support.snapchat.com/success
+https://support.snapchat.com/failure
+https://support.snapchat.com/failure
+https://map.snapchat.com/story/%s
+https://geofilter.storage.googleapis.com/png/fcdb655c-f8fe-4b3f-a4ab-365ed38d8dd1
+https://geofilter.storage.googleapis.com/png/b83dc96f-9171-4d83-ad48-cf028ba95e3c
+https://lensstudio.snapchat.com/
+https://www.snapchat.com/unlock/?type=SNAPCODE&uuid=
+https://lensstudio.snapchat.com/lenses?creator=
+https://support.snapchat.com/a/safe-browsing
+https://support.snapchat.com/a/safe-browsing
+https://support.snapchat.com/a/safe-browsing
+https://www.google.com/amp/
+https://www.google.com/amp/
+https://www.snap.com/%s/brand-guidelines/#snapcode-usage-guidelines
+https://instalog-prod.sc-prod.net/events_batch
+https://jaguar-prod.snapchat.com
+https://www.snapchat.com/add/
+https://www.snapchat.com/add/
+https://www.snapchat.com/add/
+http://suicideprevention.ca/need-help/
+https://support.snapchat.com/a/Snapchat-Safety
+https://www.childline.org.uk/info-advice/bullying-abuse-safety/types-bullying/online-bullying/snapchat-reporting-bullying
+https://support.snapchat.com/co/report-copyright
+https://support.snapchat.com/co/report-copyright
+https://support.snapchat.com/co/report-trademark
+https://support.snapchat.com/co/report-publicity
+https://support.snapchat.com/a/shake-to-report
+https://beautiful-bubblegum.appspot.com/fil/
+https://beautiful-bubblegum.appspot.com/fil/
+https://support.spectacles.com/hc/en-us/articles/360000407246
+https://support.spectacles.com/hc/en-us/articles/360000407246
+https://support.spectacles.com/hc/en-us/articles/360000407246
+https://www.spectacles.com/terms/
+https://support.spectacles.com/hc/articles/360000478886
+https://www.snapchat.com/commerce/products/?product_id=30434475-3047-4e9a-a0db-65653cf375b3
+https://www.spectacles.com/?utm_campaign=app&amp;utm_source=snapchat&amp;utm_medium=settings
+https://support.spectacles.com/
+https://am-prod.sc-jpl.com
+https://am-prod.sc-jpl.com
+https://am-prod.sc-jpl.com
+https://am-prod.sc-jpl.com
+https://auth.snapchat.com/snap_token/api/location-sprinkler
+https://auth.snapchat.com/snap_token/api/stories-mixer
+https://auth.snapchat.com/snap_token/api/instant-logger
+https://auth.snapchat.com/snap_token/api/gtq-unlockables
+https://auth.snapchat.com/snap_token/api/business-accounts
+https://auth.snapchat.com/snap_token/api/map-games
+https://auth.snapchat.com/snap_token/api/puppy-cms
+https://auth.snapchat.com/snap_token/api/cognac
+https://auth.snapchat.com/snap_token/api/tiger
+https://auth.snapchat.com/snap_token/api/cobra
+https://auth.snapchat.com/snap_token/api/api-gateway
+https://auth.snapchat.com/snap_token/api/snap-connect-snap-kit
+https://auth.snapchat.com/snap_token/api/snap-connect-login-kit
+https://auth.snapchat.com/snap_token/api/interactive-shows
+https://storage.googleapis.com/sticker-packs-sc/stickers/
+https://storage.googleapis.com/sticker-packs-sc/stickers/
+http://schemas.android.com/apk/res/android
+https://staging2-dot-sc-analytics.appspot.com/analytics/bz
+https://staging.app-analytics.snapchat.com/analytics/bz
+https://ad-center.snapchat.com/line-items/?searchText=
+https://sc-review-tool.appspot.com/en-US/search?q=
+http://www.sfchronicle.com/img/pages/article/opengraph_default.jpg
+https://yt3.ggpht.com/-pm_K5NeO55o/AAAAAAAAAAI/AAAAAAAAAAA/zMFZ_YNZClg/s900-c-k-no-mo-rj-c0xffffff/photo.jpg
+https://www.snapchat.com/
+https://www.google.com/maps/@37.7901867,-122.4081227,15z
+https://render.bitstrips.com/v2/cpanel/7681590-131919565_7-s1-v1.png?transparent=1&palette=1
+https://www.hawaiianbarbecue.com/
+https://storage.googleapis.com/context-dev-resources/waze-42@2x.png
+https://storage.googleapis.com/context-dev-resources/google-42@2x.png
+http://maps.google.com/maps?f=d&sspn=0.2,0.1&sll=40.744526,-73.990602&daddr=37+W+26th+St+Manhattan%2CNY+10010
+https://storage.googleapis.com/context-dev-resources/uber-42@2x.png
+https://storage.googleapis.com/context-dev-resources/uber-surge@2x.png
+https://storage.googleapis.com/context-dev-resources/lyft-42@2x.png
+https://www.snapchat.com/odg
+https://www.snapchat.com/unlock/?type=SNAPCODE_NO_PROMPT&uuid=555588827d254b06a1da505375f1e5b5&metadata=01
+https://snapchat-proxy.appspot.com/scan/proxy
+https://snapchat-proxy.appspot.com/scan/proxy
+https://snapchat-proxy.appspot.com/scan/proxy
+https://www.google.com/search?safe=active&q=
+https://www.google.com/maps/
+https://www.bing.com/maps/
+http://play.google.com
+http://play.google.com
+https://play.google.com
+https://play.google.com
+https://www.android.com/payapp/
+https://www.android.com/payapp/
+http://www.android.com/payapp/
+http://www.android.com/payapp/
+https://sc-ddml.appspot.com/
+https://sc-ddml.appspot.com/
+https://geofilters-api.snapchat.com
+https://geofilters-api.snapchat.com
+https://mobile-dot-geofilters-on-demand-api-dev.appspot.com
+https://app.snapchat.com/loq/on_demand_geofilters_proxy
+https://devsnapchat.appspot.com/loq/on_demand_geofilters_proxy
+https://snap.com/legal.json
+https://usc.adserver.snapads.com/targeting_proxy
+https://businesshelp.snapchat.com/ca/snappro
+https://storage.googleapis.com/lens-storage
+https://lens-storage.storage.googleapis.com
+https://storage.googleapis.com/lens-storage/png/c4a78a3c-1b49-46ae-9b2f-98297dff0508
+https://storage.googleapis.com/lens-storage/zip/bc2be390-a2de-4fc6-a1d6-5217de5f0239
+https://storage.googleapis.com/odg_template/LdCPej_fFgvC-uXfu8e7n88aqpODYiQdWRK7eORJfyY
+https://mapsapidocs.digitalglobe.com/docs/end-user-derive-license
+https://support.snapchat.com/en-US/article/snap-map-about
+https://support.snapchat.com/article/my-eyes-only
+https://accounts.snapchat.com/accounts/password_reset_request
+https://storage.googleapis.com/broadcasts/
+https://app.snapchat.com/bq/chat_media
+https://snapchat-proxy.appspot.com
+https://accounts.snap-dev.net
+https://accounts.snapchat.com
+https://accounts.snapchat.com
+https://support.snapchat.com/article/save-to-memories
+https://api-c.shazam.com/partner/snapchat/%s/%s/snapchat/web/recognise/%s/%s
+https://snapchat-snapads-portal.appspot.com
+https://api.giphy.com/v1/stickers/trending?api_key=
+https://api.giphy.com/v1/stickers/search?api_key=
+https://rink.hockeyapp.net/api/2/apps/
+https://usc.adserver.snapads.com/track3p/
+https://usc.adserver.snapads.com/init
+https://usc.adserver.snapads.com/track
+https://usc.adserver.snapads.com/track_and_get
+https://usc.adserver.snapads.com/ad
+https://usc.adserver.snapads.com/v3/get
+https://to.4sq.com/
+https://connect-api.snapchat.com
+https://connect-api.snapchat.com
+https://connect-api.snapchat.com
+https://auth.snapchat.com/oauth2/api/user.bitmoji.avatar
+https://auth.snapchat.com/oauth2/api/user.bitmoji.avatar
+https://support.google.com/nexus/
+https://app.snapchat.com/bq/ping_network
+https://gtq.sct.sc-prod.net/
+https://se.snapchat.com
+https://mvm.snapchat.com
+https://cf.sc-cdn.net
+https://goog.sc-cdn.net
+https://gcdn.sc-cdn.net
+https://storage.googleapis.com
+https://cash.square-sandbox.com
+https://cash.square-sandbox.com
+https://sc-connect.squareup.com
+https://cash.square.com
+https://devsnapchat.appspot.com
+https://accounts-dot-devsnapchat.appspot.com
+https://sks-dot-devsnapchat.appspot.com
+https://sks.snapchat.com
+http://schemas.android.com/apk/res-auto
+http://snapchat.com
+
+[INTERNAL_LOG][2018-06-08 02:55:23,984][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-08 02:55:23,995][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-08 02:55:23,995][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-08 02:55:23,996][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-08 02:55:23,996][INFO][analyze_start()] End time:[Fri Jun  8 02:55:23 2018]

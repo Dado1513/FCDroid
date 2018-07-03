@@ -1,0 +1,92 @@
+[INTERNAL_LOG][2018-06-12 05:24:39,918][INFO][analyze_start()] Init Time [Tue Jun 12 05:24:39 2018]
+[INTERNAL_LOG][2018-06-12 05:24:39,974][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-12 05:24:39,974][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-12 05:24:39,974][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-12 05:24:39,974][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-12 05:24:39,974][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-12 05:24:39,974][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-12 05:24:39,974][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 05:24:39,974][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-12 05:24:39,974][INFO][is_hybird()] com.android.vending.CHECK_LICENSE
+[INTERNAL_LOG][2018-06-12 05:24:39,974][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-12 05:24:39,974][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-12 05:24:39,975][INFO][is_hybird()] com.ea.game.easportsufc_row.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-12 05:24:39,975][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-12 05:24:39,975][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-12 05:24:39,975][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 05:24:39,975][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 05:24:39,975][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 05:24:39,975][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 05:25:03,743][INFO][find_url_in_apk()] [START URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-12 05:25:03,743][INFO][find_url_in_apk()] http://tos.ea.com/legalapp/WEBPRIVACY/US/
+http://tos.ea.com/legalapp/WEBTERMS/US/
+http://tos.ea.com/legalapp/mobileeula/US/
+
+[INTERNAL_LOG][2018-06-12 05:25:03,743][INFO][find_url_in_apk()] [END URL LOADED INSIDE LOAD FUNCTION]
+[INTERNAL_LOG][2018-06-12 05:25:04,127][ERROR][download_page_loaded()] Failed response code: 400 for http://tos.ea.com/legalapp/WEBPRIVACY/US/  
+[INTERNAL_LOG][2018-06-12 05:25:04,436][ERROR][download_page_loaded()] Failed response code: 400 for http://tos.ea.com/legalapp/WEBTERMS/US/  
+[INTERNAL_LOG][2018-06-12 05:25:04,744][ERROR][download_page_loaded()] Failed response code: 400 for http://tos.ea.com/legalapp/mobileeula/US/  
+[INTERNAL_LOG][2018-06-12 05:25:04,745][INFO][find_string()] [START REMOTE FILE ANALYZE]
+[INTERNAL_LOG][2018-06-12 05:25:04,745][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-12 05:25:04,745][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 05:25:04,745][INFO][find_url_in_apk()] http://www.amazon.com/gp/mas/get-appstore/android/ref=mas_mx_mba_iap_dl
+http://tos.ea.com/legalapp/WEBPRIVACY/US/
+http://tos.ea.com/legalapp/WEBTERMS/US/
+http://tos.ea.com/legalapp/mobileeula/US/
+https://graph.facebook.com/
+https://graph.facebook.com/
+http://cdn.skum.eamobile.com
+http://cdn.skum.eamobile.com
+http://www.ea.com
+https://syn-dir.sn.eamobile.com
+https://director-int.sn.eamobile.com
+https://director-stage.sn.eamobile.com
+https://graph.facebook.com/%s/picture?type=normal
+https://graph.facebook.com/%s/picture?type=normal
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+https://m.facebook.com/dialog/
+https://api.facebook.com/restserver.php
+https://graph.facebook.com/%s/picture
+https://graph.%s
+https://graph-video.%s
+https://facebook.com
+http://s0.2mdn.net/instream/html5/native/native_sdk_v3.html
+https://www.googleapis.com/auth/appstate
+https://www.googleapis.com/auth/appstate
+https://www.googleapis.com/auth/appstate
+https://www.googleapis.com/auth/drive.file
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games
+https://www.googleapis.com/auth/games.firstparty
+https://www.googleapis.com/auth/games.firstparty
+http://googleads.g.doubleclick.net
+http://www.google.com
+http://media.admob.com/mraid/v1/mraid_app_interstitial.js
+http://media.admob.com/mraid/v1/mraid_app_expanded_banner.js
+http://media.admob.com/mraid/v1/mraid_app_banner.js
+http://plus.google.com/
+https://www.googleapis.com/auth/plus.login
+https://www.googleapis.com/auth/plus.login
+https://www.googleapis.com/auth/plus.login
+https://www.googleapis.com/auth/plus.me
+http://schemas.android.com/apk/lib/com.google.android.gms.plus
+http://schemas.android.com/apk/lib/com.google.android.gms.plus
+http://www.supersonicads.com/timestamp.php
+http://s.ssacdn.com/
+http://s.ssacdn.com/
+http://s.ssacdn.com/
+http://s.ssacdn.com/mobileSDKController/mobileController.html
+
+[INTERNAL_LOG][2018-06-12 05:25:04,746][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-12 05:25:04,770][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-12 05:25:04,770][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-12 05:25:04,771][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-12 05:25:04,771][INFO][analyze_start()] End time:[Tue Jun 12 05:25:04 2018]

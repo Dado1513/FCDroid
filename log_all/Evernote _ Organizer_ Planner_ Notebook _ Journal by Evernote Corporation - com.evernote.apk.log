@@ -1,0 +1,223 @@
+[INTERNAL_LOG][2018-06-08 02:34:05,116][INFO][analyze_start()] Init Time [Fri Jun  8 02:34:05 2018]
+[INTERNAL_LOG][2018-06-08 02:34:05,231][INFO][run()] Start Analysis
+[INTERNAL_LOG][2018-06-08 02:34:05,235][INFO][is_hybird()] [Permission Enble Start]
+[INTERNAL_LOG][2018-06-08 02:34:05,235][INFO][is_hybird()] android.permission.ACCESS_NETWORK_STATE
+[INTERNAL_LOG][2018-06-08 02:34:05,235][INFO][is_hybird()] android.permission.ACCESS_WIFI_STATE
+[INTERNAL_LOG][2018-06-08 02:34:05,235][INFO][is_hybird()] android.permission.GET_ACCOUNTS
+[INTERNAL_LOG][2018-06-08 02:34:05,235][INFO][is_hybird()] android.permission.INTERNET
+[INTERNAL_LOG][2018-06-08 02:34:05,235][INFO][is_hybird()] android.permission.READ_SYNC_SETTINGS
+[INTERNAL_LOG][2018-06-08 02:34:05,235][INFO][is_hybird()] android.permission.READ_SYNC_STATS
+[INTERNAL_LOG][2018-06-08 02:34:05,236][INFO][is_hybird()] android.permission.RECEIVE_BOOT_COMPLETED
+[INTERNAL_LOG][2018-06-08 02:34:05,236][INFO][is_hybird()] android.permission.VIBRATE
+[INTERNAL_LOG][2018-06-08 02:34:05,236][INFO][is_hybird()] android.permission.WAKE_LOCK
+[INTERNAL_LOG][2018-06-08 02:34:05,236][INFO][is_hybird()] android.permission.WRITE_SYNC_SETTINGS
+[INTERNAL_LOG][2018-06-08 02:34:05,236][INFO][is_hybird()] com.android.launcher.permission.INSTALL_SHORTCUT
+[INTERNAL_LOG][2018-06-08 02:34:05,236][INFO][is_hybird()] android.permission.USE_FINGERPRINT
+[INTERNAL_LOG][2018-06-08 02:34:05,236][INFO][is_hybird()] android.permission.READ_CALENDAR
+[INTERNAL_LOG][2018-06-08 02:34:05,236][INFO][is_hybird()] android.permission.CAMERA
+[INTERNAL_LOG][2018-06-08 02:34:05,236][INFO][is_hybird()] android.permission.READ_CONTACTS
+[INTERNAL_LOG][2018-06-08 02:34:05,236][INFO][is_hybird()] android.permission.MANAGE_ACCOUNTS
+[INTERNAL_LOG][2018-06-08 02:34:05,236][INFO][is_hybird()] android.permission.ACCESS_COARSE_LOCATION
+[INTERNAL_LOG][2018-06-08 02:34:05,236][INFO][is_hybird()] android.permission.ACCESS_FINE_LOCATION
+[INTERNAL_LOG][2018-06-08 02:34:05,236][INFO][is_hybird()] android.permission.RECORD_AUDIO
+[INTERNAL_LOG][2018-06-08 02:34:05,236][INFO][is_hybird()] android.permission.READ_PHONE_STATE
+[INTERNAL_LOG][2018-06-08 02:34:05,236][INFO][is_hybird()] android.permission.WRITE_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-08 02:34:05,236][INFO][is_hybird()] com.android.vending.BILLING
+[INTERNAL_LOG][2018-06-08 02:34:05,236][INFO][is_hybird()] android.permission.USE_CREDENTIALS
+[INTERNAL_LOG][2018-06-08 02:34:05,236][INFO][is_hybird()] android.permission.AUTHENTICATE_ACCOUNTS
+[INTERNAL_LOG][2018-06-08 02:34:05,236][INFO][is_hybird()] com.sonymobile.permission.CAMERA_ADDON
+[INTERNAL_LOG][2018-06-08 02:34:05,236][INFO][is_hybird()] samsung.snote.permission.EVERNOTE
+[INTERNAL_LOG][2018-06-08 02:34:05,237][INFO][is_hybird()] com.google.android.c2dm.permission.RECEIVE
+[INTERNAL_LOG][2018-06-08 02:34:05,237][INFO][is_hybird()] com.evernote.permission.C2D_MESSAGE
+[INTERNAL_LOG][2018-06-08 02:34:05,237][INFO][is_hybird()] com.evernote.android.permission.APP_EVENT
+[INTERNAL_LOG][2018-06-08 02:34:05,237][INFO][is_hybird()] android.permission.READ_EXTERNAL_STORAGE
+[INTERNAL_LOG][2018-06-08 02:34:05,237][INFO][is_hybird()] [Permission End]
+
+[INTERNAL_LOG][2018-06-08 02:34:05,237][INFO][analyze_start()] TYPE APK: [ANDROID NATIVE]
+
+[INTERNAL_LOG][2018-06-08 02:34:05,237][INFO][find_string()] [START FILE ANALYZE]
+[INTERNAL_LOG][2018-06-08 02:34:05,237][INFO][find_string()] File: assets/ce/android.html
+[INTERNAL_LOG][2018-06-08 02:34:05,238][INFO][find_string()] No iframe in assets/ce/android.html
+[INTERNAL_LOG][2018-06-08 02:34:05,238][INFO][find_string()] File: assets/ce_local/empty_web.html
+[INTERNAL_LOG][2018-06-08 02:34:05,239][INFO][find_string()] No iframe in assets/ce_local/empty_web.html
+[INTERNAL_LOG][2018-06-08 02:34:05,239][INFO][find_string()] File: assets/comm_engine.html
+[INTERNAL_LOG][2018-06-08 02:34:05,324][INFO][find_string()] No iframe in assets/comm_engine.html
+[INTERNAL_LOG][2018-06-08 02:34:05,324][INFO][find_string()] File: assets/test_comm_automation_fullscreen.html
+[INTERNAL_LOG][2018-06-08 02:34:05,325][INFO][find_string()] No iframe in assets/test_comm_automation_fullscreen.html
+[INTERNAL_LOG][2018-06-08 02:34:05,325][INFO][find_string()] File: assets/test_comm_banner.html
+[INTERNAL_LOG][2018-06-08 02:34:05,326][INFO][find_string()] No iframe in assets/test_comm_banner.html
+[INTERNAL_LOG][2018-06-08 02:34:05,326][INFO][find_string()] File: assets/test_comm_card.html
+[INTERNAL_LOG][2018-06-08 02:34:05,328][INFO][find_string()] No iframe in assets/test_comm_card.html
+[INTERNAL_LOG][2018-06-08 02:34:05,328][INFO][find_string()] File: assets/test_comm_fullscreen.html
+[INTERNAL_LOG][2018-06-08 02:34:05,328][INFO][find_string()] No iframe in assets/test_comm_fullscreen.html
+[INTERNAL_LOG][2018-06-08 02:34:05,329][INFO][find_string()] File: assets/test_oem_engine_logged_in.html
+[INTERNAL_LOG][2018-06-08 02:34:05,330][INFO][find_string()] No iframe in assets/test_oem_engine_logged_in.html
+[INTERNAL_LOG][2018-06-08 02:34:05,330][INFO][find_string()] File: assets/test_oem_engine_logged_out.html
+[INTERNAL_LOG][2018-06-08 02:34:05,331][INFO][find_string()] No iframe in assets/test_oem_engine_logged_out.html
+[INTERNAL_LOG][2018-06-08 02:34:05,331][INFO][find_string()] File: com/itextpdf/text/pdf/fonts/mustRead.html
+[INTERNAL_LOG][2018-06-08 02:34:05,332][INFO][find_string()] No iframe in com/itextpdf/text/pdf/fonts/mustRead.html
+[INTERNAL_LOG][2018-06-08 02:34:05,332][INFO][find_string()] File: res/raw/note_style.html
+[INTERNAL_LOG][2018-06-08 02:34:05,332][INFO][find_string()] No iframe in res/raw/note_style.html
+[INTERNAL_LOG][2018-06-08 02:34:05,332][INFO][find_string()] File: res/raw/note_style_content_class.html
+[INTERNAL_LOG][2018-06-08 02:34:05,333][INFO][find_string()] No iframe in res/raw/note_style_content_class.html
+[INTERNAL_LOG][2018-06-08 02:34:05,333][INFO][find_string()] File: res/raw/note_style_editable.html
+[INTERNAL_LOG][2018-06-08 02:34:05,333][INFO][find_string()] No iframe in res/raw/note_style_editable.html
+[INTERNAL_LOG][2018-06-08 02:34:05,333][INFO][find_string()] [END ANALYZE FILE]
+
+[INTERNAL_LOG][2018-06-08 02:34:58,247][INFO][find_url_in_apk()] [START ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-08 02:34:58,247][INFO][find_url_in_apk()] http://schemas.android.com/apk/res/android
+http://www.amazon.com/gp/mas/get-appstore/android/ref=mas_mx_mba_iap_dl
+http://www.xfa.org/schema/xfa-data/1.0/
+http://www.xfa.org/schema/xfa-data/1.0/
+http://www.w3.org/1999/02/22-rdf-syntax-ns#
+http://xml.org/sax/features/validation
+http://xml.org/sax/features/validation
+http://apache.org/xml/features/disallow-doctype-decl
+http://10.0.2.2:8080
+http://xml.evernote.com/pub/enml2.dtd
+http://xml.evernote.com/pub/enml2.dtd
+http://xmlpull.org/v1/doc/features.html#process-docdecl
+http://xmlpull.org/v1/doc/features.html#process-docdecl
+http://xmlpull.org/v1/doc/features.html#process-docdecl
+http://xmlpull.org/v1/doc/features.html#relaxed
+http://xmlpull.org/v1/doc/features.html#relaxed
+http://xmlpull.org/v1/doc/features.html#relaxed
+http://xml.org/sax/properties/lexical-handler
+http://xml.org/sax/properties/lexical-handler
+http://xml.org/sax/properties/lexical-handler
+http://www.ccil.org/~cowan/tagsoup/properties/schema
+http://www.ccil.org/~cowan/tagsoup/properties/schema
+http://www.ccil.org/~cowan/tagsoup/properties/schema
+http://xmlpull.org/v1/doc/features.html#indent-output
+http://xmlpull.org/v1/doc/features.html#indent-output
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+https://api.linkedin.com/v1/people/~/mailbox?oauth2_access_token=
+https://www.linkedin.com
+https://www.evernote.com
+https://www.evernote.com
+https://www.evernote.com
+https://www.evernote.com
+https://api.linkedin.com
+https://app.yinxiang.com
+https://stage.evernote.com
+https://stage.evernote.com
+https://stage-china.evernote.com
+https://help.evernote.com/hc/articles/209129077?layout=tight
+https://help.evernote.com/hc/articles/209129077?layout=tight
+https://help.evernote.com/hc/articles/209129077?layout=tight
+https://help.evernote.com/hc/articles/209126867?layout=tight
+https://help.evernote.com/hc/articles/209126867?layout=tight
+https://help.evernote.com/hc/articles/209126867?layout=tight
+http://maps.google.com/?q=
+https://s3.amazonaws.com/evernote/android/internal/update_v2.xml
+https://www.googleapis.com/auth/drive
+https://www.googleapis.com/auth/drive
+https://www.googleapis.com/auth/drive.apps
+https://www.googleapis.com/auth/drive.apps
+https://drive.google.com/open?id=
+https://evernote.com/evernote/guide/android-data/
+https://evernote.com
+https://evernote.com
+https://cscan.evernote.com/cardagain
+https://cscan.evernote.com/cardagain
+https://help.evernote.com
+https://stage-corp.evernote.com/android/oem/
+https://evernote.com/android/oem/
+http://www.w3.org/2003/InkML
+http://www.w3.org/2001/XMLSchema-instance
+http://www.w3.org/TR/2011/REC-InkML-20110920/inkml.xsd
+http://www.evernote.com/2013/InkNote
+http://www.evernote.com/2013/InkNote
+http://www.evernote.com/2013/InkNote
+https://evernote.com/evernote/guide/android-not-enough-space/
+http://www.color.org
+http://ns.adobe.com/pdf/1.3/
+http://ns.adobe.com/xap/1.0/
+http://evernote.com/
+https://www.evernote.com/Registration.action
+http://maps.google.cn/maps?q=loc:
+https://maps.google.com/maps?q=loc:
+https://maps.google.com/maps?q=
+https://www.twitter.com/
+https://accounts.google.com
+https://accounts.google.com
+https://update.evernote.com/public/ENAndroid/
+https://www.googleapis.com/oauth2/v1/certs
+https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+https://plus.google.com/
+https://www.googleapis.com/auth/drive.file
+https://www.googleapis.com/auth/drive.appdata
+http://www.google-analytics.com
+https://ssl.google-analytics.com
+https://app-measurement.com/a
+http://schemas.android.com/apk/lib/com.google.android.gms.plus
+http://schemas.android.com/apk/lib/com.google.android.gms.plus
+http://hostname/?
+https://www.googletagmanager.com
+https://sdk.hockeyapp.net/
+https://sdk.hockeyapp.net/
+http://www.w3.org/XML/1998/namespace
+http://www.w3.org/1999/xhtml
+http://xmlpull.org/v1/doc/features.html#validation
+http://xmlpull.org/v1/doc/features.html#validation
+https://help.evernote.com/hc/?layout=inapp
+https://help.evernote.com/hc/?layout=inapp
+https://accounts.google.com/o/oauth2/v2
+https://accounts.google.com/o/oauth2
+http://freedesignfile.com/upload/2012/10/Shopping-3.jpg
+http://xml.org/sax/features/namespaces
+http://xml.org/sax/features/namespaces
+http://xml.org/sax/features/namespace-prefixes
+http://xml.org/sax/features/external-general-entities
+http://xml.org/sax/features/external-parameter-entities
+http://xml.org/sax/features/is-standalone
+http://xml.org/sax/features/lexical-handler/parameter-entities
+http://xml.org/sax/features/resolve-dtd-uris
+http://xml.org/sax/features/string-interning
+http://xml.org/sax/features/use-attributes2
+http://xml.org/sax/features/use-locator2
+http://xml.org/sax/features/use-entity-resolver2
+http://xml.org/sax/features/xmlns-uris
+http://xml.org/sax/features/xml-1.1
+http://www.ccil.org/~cowan/tagsoup/features/ignore-bogons
+http://www.ccil.org/~cowan/tagsoup/features/ignore-bogons
+http://www.ccil.org/~cowan/tagsoup/features/bogons-empty
+http://www.ccil.org/~cowan/tagsoup/features/bogons-empty
+http://www.ccil.org/~cowan/tagsoup/features/root-bogons
+http://www.ccil.org/~cowan/tagsoup/features/root-bogons
+http://www.ccil.org/~cowan/tagsoup/features/default-attributes
+http://www.ccil.org/~cowan/tagsoup/features/default-attributes
+http://www.ccil.org/~cowan/tagsoup/features/translate-colons
+http://www.ccil.org/~cowan/tagsoup/features/translate-colons
+http://www.ccil.org/~cowan/tagsoup/features/restart-elements
+http://www.ccil.org/~cowan/tagsoup/features/restart-elements
+http://www.ccil.org/~cowan/tagsoup/features/ignorable-whitespace
+http://www.ccil.org/~cowan/tagsoup/features/ignorable-whitespace
+http://www.ccil.org/~cowan/tagsoup/features/cdata-elements
+http://www.ccil.org/~cowan/tagsoup/features/cdata-elements
+http://www.ccil.org/~cowan/tagsoup/properties/scanner
+http://www.ccil.org/~cowan/tagsoup/properties/scanner
+http://www.ccil.org/~cowan/tagsoup/properties/auto-detector
+http://www.ccil.org/~cowan/tagsoup/properties/auto-detector
+https://www.google.com
+https://datacloud.tealiumiq.com/%s/%s/8/i.gif?data=
+https://collect.tealiumiq.com/vdata/i.gif?tealium_vid=%s&tealium_account=%s&tealium_profile=main
+https://www.googleapis.com/auth/games_lite
+https://www.googleapis.com/auth/games
+https://media.licdn.com/mpr/mpr/shrink_200_200/p/7/005/04c/0f6/0859bbb.jpg
+https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/6/000/251/085/374ea56.jpg
+https://media.licdn.com/mpr/mpr/shrink_200_200/p/8/000/2b7/248/33e695c.jpg
+https://media.licdn.com/mpr/mpr/shrink_200_200/p/1/000/091/1e9/38078b8.jpg
+https://media.licdn.com/mpr/mpr/shrink_200_200/p/7/005/075/062/2539fe7.jpg
+https://media.licdn.com/media/p/3/000/24b/23a/351ddf5.jpg
+https://media.licdn.com/media/p/7/000/235/2d2/01035a9.jpg
+
+[INTERNAL_LOG][2018-06-08 02:34:58,247][INFO][find_url_in_apk()] [END ALL URL INSIDE APK]
+[INTERNAL_LOG][2018-06-08 02:34:58,261][INFO][check_method_conf()] [JavaScript enabled: True]
+
+[INTERNAL_LOG][2018-06-08 02:34:58,261][INFO][check_method_conf()] [Add interface WebView: True]
+
+[INTERNAL_LOG][2018-06-08 02:34:58,261][INFO][analyze_start()] This app might be not vulnerable on  attack frame confusion.
+[INTERNAL_LOG][2018-06-08 02:34:58,261][INFO][analyze_start()] End time:[Fri Jun  8 02:34:58 2018]
