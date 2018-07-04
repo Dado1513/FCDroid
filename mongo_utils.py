@@ -29,7 +29,7 @@ class MongoDB:
         result = self.analysis_db.find_one({"name_apk":apk_name})
         return result
 
-    def insert_analysis(self,apk,retire_local,retire_remote,logger):
+    def insert_analysis(self,apk,retire_local,retire_remote,file_xss_vuln,logger):
         """
             function to insert element in mongo db after scan
 
@@ -50,6 +50,8 @@ class MongoDB:
         dict_to_insert["file_origin_access"] = apk.list_origin_access
         dict_to_insert["file_without_csp"] = [key for key,value in apk.find_csp.items() if not value ]
         dict_to_insert["file_js_with_iframe"] = apk.file_js_with_iframe
+        if len(file_xss_vuln) > 0:
+            dict_to_insert["file_xss_vuln"] = file_xss_vuln
 
         if retire_local is not None:
             dict_to_insert["retire_locale"] = retire_local 

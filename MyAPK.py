@@ -63,7 +63,6 @@ class MyAPK:
         self.file_config_hybrid = None
         self.list_origin_access = list()
         self.logger = logger
-        # self.logger = logging.getLogger("Logger")
         self.api_monitor_dict = api_monitor_dict
         self.network_dict = network_dict  
         self.file_hybrid = list()
@@ -150,6 +149,7 @@ class MyAPK:
             root = ET.fromstring(self.file_config_hybrid)
             
             xmlns = "{http://www.w3.org/ns/widgets}" # default namespace
+            
             # TODO aggiungere altri elementi della whitelist
             # 1) <allow-navigation href="http://*/*" />
             # Controls which URLs the WebView itself can be navigated to. Applies to top-level navigations only.
@@ -172,7 +172,7 @@ class MyAPK:
             search static dom xss based on regex
         """
         page_analyze = XSScanner(file_name,file_content)
-        page_analyze.analyze_page() # analyze 
+        page_analyze.analyze_page() 
         if len(page_analyze.sink) > 0 or len(page_analyze.source) > 0:
             self.page_xss_vuln[file_name] = page_analyze
         
@@ -180,7 +180,6 @@ class MyAPK:
         """
             find string inside file of apk(html,xml,ecc..) (not yet decompiled)
         """
-        # TODO aggiungere opzione debug
         debug = True
 
         if remote:
@@ -189,12 +188,9 @@ class MyAPK:
             self.logger.logger.info("[START FILE ANALYZE]")
         for file_to_inspect, insideAPK in file_to_search.items():
             if not remote and debug:
-                # print("File: " +file_to_inspect)
                 self.logger.logger.info("File: "+file_to_inspect)
             else:
                 if debug:
-                    # print("Remote File in: " +file_to_inspect)
-                    # print("URL: "+self.name_to_url[file_to_inspect])
                     self.logger.logger.info("Remote File in: %s",file_to_inspect)
                     self.logger.logger.info("URL: %s",self.name_to_url[file_to_inspect])
             
@@ -208,43 +204,22 @@ class MyAPK:
             else:
                 data = open(file_to_inspect,"r")
             
-
+            #######################################################################################################
             # start xss analysis on this file
             content_file = data.read()
             thread = threading.Thread(name="xss_"+file_to_inspect,target=self.analyze_xss_dom,args=(file_to_inspect,str(content_file),))
             thread.start()
-            
+            #######################################################################################################
+
             try:
                 file_read = str(content_file)
                 soup = BeautifulSoup(file_read,'lxml')
                 try:
 
                     find_iframe, list_row_string, list_src_iframe = FileAnalysis.find_string(self.string_to_find, self.search_tag, file_to_inspect, file_read, soup, self.logger)
-                    # TODO remove
-                    # if self.search_tag and not file_to_inspect.endswith(".js"): 
-                    #     list_tag = soup.findAll(self.string_to_find)
-                    #     file_line = file_read.split("\n")
-                    #     for name_tag in list_tag:
-                    #         try:
-                    #             if name_tag["src"] is not None:
-                    #                 list_src_iframe.append(name_tag["src"])
-                    #         except KeyError: 
-                    #             # allora i file js dovrebbero fare a caso nostro, dovrei cercare l'id dell'iframe all'interno del file javascript
-                    #             pass
-                    #         find_iframe = True
-                    #         self.logger.logger.info("Found this tag {0}".format(name_tag))
-                    #         list_row_string.append(name_tag)
-
-                            
-                    # else:
-                    #     file_line = file_read.split("\n")
-                    #     string_regex = re.compile("\b"+self.string_to_find+"\b") # only string complete
-                    #     for (counter,value) in enumerate(file_line):
-                    #         if re.search(string_regex,value):
-                    #             list_row_string.append(str(counter+1))
-                    #             find_iframe = True
-
-
+                    
+                    #######################################################################################################
+                    # TODO insert in method --> String Analysis
                     if find_iframe and self.string_to_find == "iframe":
                         self.dict_file_with_string[file_to_inspect] = list_row_string
                         self.src_iframe[file_to_inspect] = list_src_iframe
@@ -264,7 +239,10 @@ class MyAPK:
 
                             else:
                                 self.logger.logger.info("No src founded in iframe tag inside file {0}".format(file_to_inspect))
-                       
+
+
+                        #######################################################################################################
+
                         # TODO aggiungere il content e fare conclusioni su di esso e per i file JavaScript
                         find_csp  = soup.find("meta",{"http-equiv":"Content-Security-Policy"})
                         if find_csp is not None :
@@ -303,6 +281,7 @@ class MyAPK:
         use_analyze = True
 
         if used_jadx:
+
             # Create DalvikVMFormat Object
             self.dalvik_format = DalvikVMFormat(self.apk)
             # Create Analysis Object
@@ -327,18 +306,12 @@ class MyAPK:
             # return apk, list dex , object analysis
             apk, self.dalvik_format, self.analysis_object = AnalyzeAPK(self.name_apk)
             
-            # self.dalvik_format = DalvikVMFormat(self.apk)
-            # Create Analysis Object
-            # self.analysis_object = Analysis(self.dalvik_format)
-            # se decompilyng = androguard.misc.Run_Decompyler(dalvik_fromat, dx (VMAnalysis object),
-            # decompyler_name (dad,dex2jar,ded))
-            # method_analys = list()
             for method_analys in self.analysis_object.get_methods():
                 method_name = method_analys.get_method().get_name()
                 # from method_name get list dove esso viene chiamato
                 self.method[method_name] = list(method_analys.get_xref_from())
         
-        else: # TODO to make faster analysis but not work
+        else: # TODO to make faster analysis but not work well
             self.dalvik_format = DalvikVMFormat(self.apk)
             for encoded_method in self.dalvik_format.get_methods():
                 method_analysis = MethodClassAnalysis(encoded_method)
@@ -382,7 +355,7 @@ class MyAPK:
             self.logger.logger.error("File conf.json without method setJavaScriptEnabled")
 
         try:
-            self.logger.logger.info("\n[Add interface WebView: "+str(method_present["addJavascriptInterface"])+"]")
+            self.logger.logger.info("[Add interface WebView: "+str(method_present["addJavascriptInterface"])+"]")
             self.javascript_interface = method_present["addJavascriptInterface"]
         except Exception:
             # nothing
@@ -412,8 +385,10 @@ class MyAPK:
             
             for string_value in list_string:
                 list_string_analysis.append(StringAnalysis(string_value))
+        
         temp_string_value = list()
         # string- tuple with classAnalysis e encodeMethod that use the string
+        
         dict_class_method_analysis = dict() 
         for string_analysis in list_string_analysis:          
             temp_string_value.append(string_analysis.get_value())
@@ -439,6 +414,7 @@ class MyAPK:
                     self.logger.logger.error("Exception during find url in apk {0}".format(e))
                     continue
 
+        #######################################################################################################
         # debug part
         if len(self.url_loaded) > 0:
             #print(self.url_loaded)
@@ -446,6 +422,8 @@ class MyAPK:
             for u in self.url_loaded:
                 self.logger.logger.info("Url inside load function: {0}".format(u))
             self.logger.logger.info("[END URL LOADED INSIDE LOAD FUNCTION]")
+            
+            # TODO check if work
             # self.download_page_loaded()
             name_to_url, file_download_to_analyze = utility.download_page_with_wget(self.name_only_apk, self.url_loaded)
             self.name_to_url = dict(self.name_to_url, **name_to_url)
@@ -506,7 +484,7 @@ class MyAPK:
             using list self.url_loaded
             after this -> check if frame confusion may come from this
         """
-        #name_only_apk = self.name_apk.split("/")[-1].split(".")[0]
+        # name_only_apk = self.name_apk.split("/")[-1].split(".")[0]
         
         html_dir = "temp_html_code/html_downloaded_"+self.name_only_apk
         if not os.path.exists(html_dir):
@@ -528,6 +506,7 @@ class MyAPK:
             except requests.exceptions.InvalidSchema:
                 self.logger.logger.error("Invalid Schema exception for url: {0}, try add http:// ".format(url))
                 url = "http://{0}".format(url)
+                
                 # print(url)
                 try: # provo aggiungendo http o https
                     r = requests.get(url,timeout=10)
@@ -557,16 +536,11 @@ class MyAPK:
            e il valore, e controlla se in quel metodo viene passato quel 
            valore
         """
-        # ToDo solo se in loadUrl è passata la stringa non il nome della variabile
-        # il quale sarebbe da aggiungere
         r = re.compile(metodo) # per ora solo load_url
         list_new = filter(r.findall,list_source_code)
         for line_finded in list_new:
             if value in line_finded:
-                # print("Used ("+url_to_find+"); "+line_finded)
                 return True
-            # else:
-                #p rint("Load url in this function but not url string inside: "+url_to_find)
         return False
         
     # check vulnerability
@@ -604,13 +578,20 @@ class MyAPK:
         """
 
         self.logger.logger.info("[Init add url dynamic ]")
+
+        #######################################################################################################
         function_load_url = ["loadUrl"] # funzioni che caricano url in Android
         url_api_monitor = list()
         for keys in self.api_monitor_dict.keys():
             if keys in function_load_url:
                 url_api_monitor = list(set().union(url_api_monitor,self.api_monitor_dict[keys]["args"]))
         url_api_monitor = filter(lambda x: x.startswith("http://") or x.startswith("https://"),url_api_monitor)
-        
+
+        #######################################################################################################
+        # TODO mettere la funzione evaluateJavaScript o loadUrl javascript: --> come se fosse un file javascript
+
+
+        #######################################################################################################
         # ora devo filtrare solo le url che sono http/https
         url_network = list()
         for keys in self.network_dict.keys():
@@ -630,7 +611,9 @@ class MyAPK:
             self.network_dict[keys]["url"] = url_list_new
             url_network = list(set().union(url_network,self.network_dict[keys]["url"]))
 
+        #######################################################################################################
         self.url_loaded = list(set().union(self.url_loaded,url_api_monitor,url_network))
         self.all_url = list(set().union(self.all_url,self.url_loaded))
-        self.logger.logger.info("".join(str(i)+"\n" for i in self.url_loaded))
-        self.logger.logger.info("[End url dynamic ]")
+        for u in self.url_loaded:
+            self.logger.logger.info("Url dynamic {0}".format(u))
+        self.logger.logger.info("[End url dynamic]\n")
