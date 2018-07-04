@@ -43,15 +43,10 @@ def analyze_start(conf, apk_to_analyze, tag, string_to_find, api_monitor_dict=No
         apk = MyAPK(apk_to_analyze, conf, log_file, tag, string_to_find, logger, \
                     api_monitor_dict=api_monitor_dict, network_dict=network_dict) # dict che arrivano dall'analisi dinamica
         
-<<<<<<< HEAD
         mongo = MongoDB(logger)
         result = None
         if mongo.is_available: # connection available
             result = mongo.find_analysis(apk.name_only_apk)
-=======
-        mongo = MongoDB()
-        result = mongo.find_analysis(apk.name_only_apk)
->>>>>>> d38c66f25fcadc2f76e25b0e4997e4821d6fc14c
         if result is None:
             # thread per la decompilazione
             thread_decompilyng = ThreadDecompyling(apk,logger)
@@ -118,12 +113,8 @@ def analyze_start(conf, apk_to_analyze, tag, string_to_find, api_monitor_dict=No
             apktool_retire,remote_retire = scan_retire(apk)
             logger.logger.info("RetireJS: {0} , {1} ".format(apktool_retire, remote_retire))
             print(apk.page_xss_vuln.keys())  
-<<<<<<< HEAD
             if mongo.is_available:
                 mongo.insert_analysis(apk,apktool_retire,remote_retire,logger)
-=======
-            mongo.insert_analysis(apk,apktool_retire,remote_retire,logger)
->>>>>>> d38c66f25fcadc2f76e25b0e4997e4821d6fc14c
 
         else:
             logger.logger.info("Analysis yet done")

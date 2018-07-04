@@ -21,14 +21,6 @@ class MongoDB:
             self.logger.logger.warning("Unable to connect mongodb")
             self.is_available = False
 
-                self.client = MongoClient(self.db_url, connect=False)
-            else:
-                self.db_url = 'mongodb://localhost:27117/db' # conencto to mongodb inside docker
-                self.client = MongoClient(self.db_url, connect=False)
-                self.db = self.client['db']
-                self.analysis_db = self.db['HybridAnalysis']
-        except Exception:
-            print("Unable to connect mongodb")
 
     def find_analysis(self,apk_name):
         """
