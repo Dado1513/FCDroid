@@ -4,10 +4,12 @@ import logging
 import os
 import re
 import zipfile
+import utility
 import subprocess
-from xssdom import Page
+from xssdom import XSScanner
 import re
 from bs4 import BeautifulSoup
+from stringanalysis import FileAnalysis
 import requests
 from androguard.core.analysis.analysis import Analysis
 from androguard.core.androconf import show_logging
@@ -24,7 +26,7 @@ from bcolors import bcolors
 import threading
 import xml.etree.ElementTree as ET
 
-show_logging(level=logging.CRITICAL)
+show_logging(level=logging.CRITICAL) # androguard
 
 
 class MyAPK:
@@ -44,10 +46,9 @@ class MyAPK:
         self.is_contain_file_hybrid = False  # se contiene i file ibridi --> probabilmente app ibrida
         self.find_csp = dict()  # pagine_html con iframe se contengono csp [True o False]
         self.is_contains_all_methods = False  # se contiene i metodi all'interno del file conf.json
-        self.html_file = dict()  # html file inside apk
         self.zip = zipfile.ZipFile(self.name_apk) # get zip object from apk
         self.list_file = self.zip.namelist()  # tutti i file all'interno
-        self.__find_html_file()  # call function to full html_file
+        self.html_file = FileAnalysis.find_html_file(self.list_file)
         self.file_log = file_log  # name to file log
         self.javascript_enabled = False
         self.internet_enabled = False
@@ -67,29 +68,33 @@ class MyAPK:
         self.network_dict = network_dict  
         self.file_hybrid = list()
         self.javascript_interface = False
-        self.javascript_file = dict()
-        self.__find_js_file()
+        self.javascript_file = FileAnalysis.find_js_file(self.list_file)
         self.src_iframe = dict()
         self.page_xss_vuln = dict()
         self.is_vulnerable_frame_confusion = False
         
     
-    def __find_html_file(self):
-        
-        r = re.compile(".*html$")  # solo i file .html
-        list_html_file = filter(r.match,self.list_file)
-        for temp in list_html_file:
-            self.html_file[temp] = True # true that mean inside apk
-
-    def __find_js_file(self):
-        r = re.compile(".*js$")  # solo i file .js
-        list_js_file = filter(r.match,self.list_file)
-        for temp in list_js_file:
-            self.javascript_file[temp] = True # true that mean inside apk
-
     def read(self, filename, binary=True):
         with open(filename, 'rb' if binary else 'r') as f:
             return f.read()
+
+    def check_permission(self,list_permission_to_find):
+        """
+            check permission hybrid app
+        """
+        permission_find = list()       
+        for permission_to_check in list_permission_to_find:
+            if permission_to_check in self.apk.get_permissions():
+                permission_find.append(True)  # contenere tutti i permessi
+                if permission_to_check == "android.permission.INTERNET":
+                    self.internet_enabled = True
+
+        # print(permission_to_check)
+        self.logger.logger.info("[Permission Enble Start]")
+        for p in self.apk.get_permissions():
+            self.logger.logger.info(p)
+        self.logger.logger.info("[Permission End]\n")
+        self.is_contain_permission = len(permission_find) == len(list_permission_to_find)
 
     def is_hybird(self):
         """
@@ -101,34 +106,15 @@ class MyAPK:
             list_file_to_find = self.conf["file_to_check"]
             list_permission_to_find = self.conf["permissions_to_check"]
 
-            for name in self.list_file:
-                for file_to_check in list_file_to_find:
-                    # name = name.split("/")[-1]
-                    if file_to_check in name:            
-                        self.is_contain_file_hybrid = True  # almeno un file
-                        self.file_hybrid.append(name) # add file hybrid founded
-            # Add se trova il file config.xml all'interno allora lo memorizzo:
+            self.is_contain_file_hybrid, self.file_hybrid = FileAnalysis.check_file_hybrid(self.list_file, list_file_to_find)
+            
             if self.is_contain_file_hybrid:
                 self.logger.logger.info("Hybrid file found are: " +str(self.file_hybrid))
-            permission_find = list()       
-            for permission_to_check in list_permission_to_find:
-                if permission_to_check in self.apk.get_permissions():
-                    permission_find.append(True)  # contenere tutti i permessi
-                    if permission_to_check == "android.permission.INTERNET":
-                        self.internet_enabled = True
-
-            # print(permission_to_check)
-            self.logger.logger.info("[Permission Enble Start]")
-            for p in self.apk.get_permissions():
-                self.logger.logger.info(p)
-            self.logger.logger.info("[Permission End]\n")
-            self.is_contain_permission = len(permission_find) == len(list_permission_to_find)
-
-            self.isHybrid = self.is_contain_permission and self.is_contain_file_hybrid
-            # non sempre funziona a volte bisogna decompilare l'app manualmente per ottenere questo file
-            # axml = AXMLPrinter(self.apk.get_file("res/xml/config.xml"))
-            # self.file_config_hybrid = axml.get_xml()
             
+            self.check_permission(list_permission_to_find)
+    
+            self.isHybrid = self.is_contain_permission and self.is_contain_file_hybrid
+           
             # using apktool
             FNULL = open(os.devnull, 'w')
             print(bcolors.WARNING+"[*] Starting apktool "+bcolors.ENDC)
@@ -185,17 +171,15 @@ class MyAPK:
         """ 
             search static dom xss based on regex
         """
-        page_analyze = Page(file_name,file_content)
+        page_analyze = XSScanner(file_name,file_content)
         page_analyze.analyze_page() # analyze 
         if len(page_analyze.sink) > 0 or len(page_analyze.source) > 0:
             self.page_xss_vuln[file_name] = page_analyze
         
-
     def find_string(self,  file_to_search, remote=False, debug=False):
         """
             find string inside file of apk(html,xml,ecc..) (not yet decompiled)
         """
-        print("\n")
         # TODO aggiungere opzione debug
         debug = True
 
@@ -205,12 +189,12 @@ class MyAPK:
             self.logger.logger.info("[START FILE ANALYZE]")
         for file_to_inspect, insideAPK in file_to_search.items():
             if not remote and debug:
-                print("File: " +file_to_inspect)
+                # print("File: " +file_to_inspect)
                 self.logger.logger.info("File: "+file_to_inspect)
             else:
                 if debug:
-                    print("Remote File in: " +file_to_inspect)
-                    print("URL: "+self.name_to_url[file_to_inspect])
+                    # print("Remote File in: " +file_to_inspect)
+                    # print("URL: "+self.name_to_url[file_to_inspect])
                     self.logger.logger.info("Remote File in: %s",file_to_inspect)
                     self.logger.logger.info("URL: %s",self.name_to_url[file_to_inspect])
             
@@ -224,6 +208,7 @@ class MyAPK:
             else:
                 data = open(file_to_inspect,"r")
             
+
             # start xss analysis on this file
             content_file = data.read()
             thread = threading.Thread(name="xss_"+file_to_inspect,target=self.analyze_xss_dom,args=(file_to_inspect,str(content_file),))
@@ -232,33 +217,33 @@ class MyAPK:
             try:
                 file_read = str(content_file)
                 soup = BeautifulSoup(file_read,'lxml')
-                find_iframe = False
-                list_row_string = []
-                list_src_iframe = []
-
                 try:
-                    if self.search_tag and not file_to_inspect.endswith(".js"): 
-                        list_tag = soup.findAll(self.string_to_find)
-                        file_line = file_read.split("\n")
-                        for name_tag in list_tag:
-                            try:
-                                if name_tag["src"] is not None:
-                                    list_src_iframe.append(name_tag["src"])
-                            except KeyError: 
-                                # allora i file js dovrebbero fare a caso nostro, dovrei cercare l'id dell'iframe all'interno del file javascript
-                                pass
-                            find_iframe = True
-                            self.logger.logger.info("Found this tag {0}".format(name_tag))
-                            list_row_string.append(name_tag)
+
+                    find_iframe, list_row_string, list_src_iframe = FileAnalysis.find_string(self.string_to_find, self.search_tag, file_to_inspect, file_read, soup, self.logger)
+                    # TODO remove
+                    # if self.search_tag and not file_to_inspect.endswith(".js"): 
+                    #     list_tag = soup.findAll(self.string_to_find)
+                    #     file_line = file_read.split("\n")
+                    #     for name_tag in list_tag:
+                    #         try:
+                    #             if name_tag["src"] is not None:
+                    #                 list_src_iframe.append(name_tag["src"])
+                    #         except KeyError: 
+                    #             # allora i file js dovrebbero fare a caso nostro, dovrei cercare l'id dell'iframe all'interno del file javascript
+                    #             pass
+                    #         find_iframe = True
+                    #         self.logger.logger.info("Found this tag {0}".format(name_tag))
+                    #         list_row_string.append(name_tag)
 
                             
-                    else:
-                        file_line = file_read.split("\n")
-                        string_regex = re.compile("\b"+self.string_to_find+"\b") # only string complete
-                        for (counter,value) in enumerate(file_line):
-                            if re.search(string_regex,value):
-                                list_row_string.append(str(counter+1))
-                                find_iframe = True
+                    # else:
+                    #     file_line = file_read.split("\n")
+                    #     string_regex = re.compile("\b"+self.string_to_find+"\b") # only string complete
+                    #     for (counter,value) in enumerate(file_line):
+                    #         if re.search(string_regex,value):
+                    #             list_row_string.append(str(counter+1))
+                    #             find_iframe = True
+
 
                     if find_iframe and self.string_to_find == "iframe":
                         self.dict_file_with_string[file_to_inspect] = list_row_string
@@ -294,9 +279,8 @@ class MyAPK:
 
                     else:
                         print(bcolors.OKGREEN+"No "+self.string_to_find+" in "+file_to_inspect+bcolors.ENDC)
-                        self.logger.logger.info("No "+self.string_to_find+" in "+file_to_inspect)
+                        self.logger.logger.info("No "+self.string_to_find+" in "+file_to_inspect+"\n")
                     
-                    print()
 
                 except zipfile.BadZipfile as e:
                     self.logger.error("Error bad zip file {0}".format(e))
@@ -307,7 +291,7 @@ class MyAPK:
             except UnicodeDecodeError as e:
                 self.logger.logger.error("Error unicode error {0}".format(e))
                 continue
-        self.logger.logger.info("[END ANALYZE FILE]\n")
+        self.logger.logger.info("[END ANALYZE FILE]")
         return None
 
     def find_method_used(self):
@@ -364,8 +348,7 @@ class MyAPK:
                 # from method_name get list dove esso viene chiamato
                 self.method[method_name] = list(method_analysis.get_xref_from())
                 print(self.method[method_name])
-            
-            
+                   
     def check_method_conf(self):
         """
             function to check se methods inside conf.json method_to_check is used inside apk
@@ -393,13 +376,13 @@ class MyAPK:
                     except (TypeError, AttributeError, KeyError) as e:
                         self.logger.logger.error("Exception during check method used {0}".format(e))
                         continue
-
-            self.logger.logger.info("[JavaScript enabled: "+str(self.javascript_enabled)+"]\n")
+            print()
+            self.logger.logger.info("[JavaScript enabled: "+str(self.javascript_enabled)+"]")
         except Exception:
-            self.logger.logger.error("File conf.json without method setJavaScriptEnabled\n")
+            self.logger.logger.error("File conf.json without method setJavaScriptEnabled")
 
         try:
-            self.logger.logger.info("[Add interface WebView: "+str(method_present["addJavascriptInterface"])+"]\n")
+            self.logger.logger.info("\n[Add interface WebView: "+str(method_present["addJavascriptInterface"])+"]")
             self.javascript_interface = method_present["addJavascriptInterface"]
         except Exception:
             # nothing
@@ -460,17 +443,22 @@ class MyAPK:
         if len(self.url_loaded) > 0:
             #print(self.url_loaded)
             self.logger.logger.info("[START URL LOADED INSIDE LOAD FUNCTION]")
-            self.logger.logger.info("".join(str(i)+"\n" for i in self.url_loaded))
+            for u in self.url_loaded:
+                self.logger.logger.info("Url inside load function: {0}".format(u))
             self.logger.logger.info("[END URL LOADED INSIDE LOAD FUNCTION]")
-            #self.download_page_loaded()
-            self.download_page_loaded_with_wget()
+            # self.download_page_loaded()
+            name_to_url, file_download_to_analyze = utility.download_page_with_wget(self.name_only_apk, self.url_loaded)
+            self.name_to_url = dict(self.name_to_url, **name_to_url)
+            self.file_download_to_analyze = dict(self.file_download_to_analyze, **file_download_to_analyze)
+            
+            # self.download_page_loaded_with_wget()
             self.find_string(self.file_download_to_analyze, remote=True)
 
         if len(self.all_url) > 0 :
             self.logger.logger.info("[START ALL URL INSIDE APK]")
-            self.logger.logger.info("".join(str(i)+"\n" for i in self.all_url))
+            for u in self.all_url:
+                self.logger.logger.info("Url inside apk {0}".format(u))
             self.logger.logger.info("[END ALL URL INSIDE APK]")
-        #    print(self.all_url)
 
     def get_list_source_code(self, encoded_method):
         """

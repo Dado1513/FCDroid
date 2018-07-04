@@ -54,17 +54,17 @@ def analyze_start(conf, apk_to_analyze, tag, string_to_find, api_monitor_dict=No
             thread_decompilyng.start()
 
             type_apk = "[ANDROID NATIVE]" if not apk.is_hybird() else "[HYBRID]"
-            logger.logger.info("TYPE APK: "+type_apk+"\n")
+            logger.logger.info("TYPE APK: "+type_apk)
             print(bcolors.OKBLUE+type_apk+bcolors.ENDC)
 
-            logger.logger.info("Start HTML file")
+            logger.logger.info("\nStart HTML file")
             apk.find_string(apk.html_file)
-            logger.logger.info("End HTML file")
+            logger.logger.info("End HTML file \n")
             # TODO 
             # to fix here da mettere apposto nel caso di file js
             logger.logger.info("Start JavaScript file")
             apk.find_string(apk.javascript_file) 
-            logger.logger.info("End JavaScript file")
+            logger.logger.info("End JavaScript file \n")
             # print("\n")
             list_loading = ["\\","|","/","-"]
             n = 1
@@ -111,7 +111,9 @@ def analyze_start(conf, apk_to_analyze, tag, string_to_find, api_monitor_dict=No
 
             logger.shutdown()
             apktool_retire,remote_retire = scan_retire(apk)
+            print()
             logger.logger.info("RetireJS: {0} , {1} ".format(apktool_retire, remote_retire))
+            print()
             print(apk.page_xss_vuln.keys())  
             if mongo.is_available:
                 mongo.insert_analysis(apk,apktool_retire,remote_retire,logger)

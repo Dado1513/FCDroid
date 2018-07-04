@@ -5,7 +5,7 @@ SOURCES_RE = re.compile("""/(location\s*[\[.])|([.\[]\s*["']?\s*(arguments|dialo
 SINKS_RE = re.compile("""/((src|href|data|location|code|value|action)\s*["'\]]*\s*\+?\s*=)|((replace|assign|navigate|getResponseHeader|open(Dialog)?|showModalDialog|eval|evaluate|execCommand|execScript|setTimeout|setInterval)\s*["'\]]*\s*\()/""")
 # try to add outerHTML
 # jQuery like html|append|after|before|replaceAll|replaceWith|
-class Page:
+class XSScanner:
     def __init__(self, name_file, source=None):
         self.name_file = name_file
         self.source_code = source if source != None else open(name_file,"r").read()
