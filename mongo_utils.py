@@ -1,17 +1,10 @@
 import os
 from pymongo import MongoClient
-<<<<<<< HEAD
 import pymongo
 class MongoDB:
     def __init__(self,logger):
         self.is_available = True
         self.logger = logger
-=======
-
-
-class MongoDB:
-    def __init__(self):
->>>>>>> d38c66f25fcadc2f76e25b0e4997e4821d6fc14c
         try:
 
             if 'DATABASE_URL' in os.environ:
