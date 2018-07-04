@@ -16,7 +16,6 @@ class MongoDB:
 
             if 'DATABASE_URL' in os.environ:
                 self.db_url = os.environ['DATABASE_URL']
-<<<<<<< HEAD
             else:
                 self.db_url = 'mongodb://localhost:27117/db' # conencto to mongodb inside docker
             
@@ -29,7 +28,6 @@ class MongoDB:
             self.logger.logger.warning("Unable to connect mongodb")
             self.is_available = False
 
-=======
                 self.client = MongoClient(self.db_url, connect=False)
             else:
                 self.db_url = 'mongodb://localhost:27117/db' # conencto to mongodb inside docker
@@ -38,7 +36,6 @@ class MongoDB:
                 self.analysis_db = self.db['HybridAnalysis']
         except Exception:
             print("Unable to connect mongodb")
->>>>>>> d38c66f25fcadc2f76e25b0e4997e4821d6fc14c
 
     def find_analysis(self,apk_name):
         """
@@ -52,11 +49,7 @@ class MongoDB:
             function to insert element in mongo db after scan
 
         """
-<<<<<<< HEAD
-        self.logger.logger.info("Insert document in collection db")
-=======
         logger.logger.info("Insert document in collection db")
->>>>>>> d38c66f25fcadc2f76e25b0e4997e4821d6fc14c
         dict_to_insert = dict()
         dict_to_insert["name_apk"] = apk.name_only_apk
         dict_to_insert["html_file"] = list(apk.html_file.keys()) # all html file
@@ -78,9 +71,5 @@ class MongoDB:
         if retire_remote is not None:   
             dict_to_insert["retire_remote"] = retire_remote
         self.analysis_db.insert_one(dict_to_insert)
-<<<<<<< HEAD
         self.logger.logger.info("Success insert")
-=======
-        logger.logger.info("Success")
->>>>>>> d38c66f25fcadc2f76e25b0e4997e4821d6fc14c
     

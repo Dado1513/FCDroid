@@ -225,20 +225,12 @@ class MyAPK:
                 data = open(file_to_inspect,"r")
             
             # start xss analysis on this file
-<<<<<<< HEAD
             content_file = data.read()
             thread = threading.Thread(name="xss_"+file_to_inspect,target=self.analyze_xss_dom,args=(file_to_inspect,str(content_file),))
             thread.start()
             
             try:
                 file_read = str(content_file)
-=======
-            thread = threading.Thread(name="xss_"+file_to_inspect,target=self.analyze_xss_dom,args=(file_to_inspect,str(data.read()),))
-            thread.start()
-            
-            try:
-                file_read = str(data.read())
->>>>>>> d38c66f25fcadc2f76e25b0e4997e4821d6fc14c
                 soup = BeautifulSoup(file_read,'lxml')
                 find_iframe = False
                 list_row_string = []
@@ -610,10 +602,6 @@ class MyAPK:
         
         # se vero whitelist implementato male
         white_list_bug = len(self.list_origin_access) == 0 or "*" in self.list_origin_access
-<<<<<<< HEAD
-        
-=======
->>>>>>> d38c66f25fcadc2f76e25b0e4997e4821d6fc14c
         self.is_vulnerable_frame_confusion = ("iframe" in self.string_to_find and 
                 self.check_method_conf()  and 
                 len(self.dict_file_with_string) > 0 and
