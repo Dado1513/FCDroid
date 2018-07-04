@@ -1,21 +1,26 @@
 import os
 from pymongo import MongoClient
-
-
+import pymongo
 class MongoDB:
-    def __init__(self):
+    def __init__(self,logger):
+        self.is_available = True
+        self.logger = logger
         try:
 
             if 'DATABASE_URL' in os.environ:
                 self.db_url = os.environ['DATABASE_URL']
-                self.client = MongoClient(self.db_url, connect=False)
             else:
                 self.db_url = 'mongodb://localhost:27117/db' # conencto to mongodb inside docker
-                self.client = MongoClient(self.db_url, connect=False)
-                self.db = self.client['db']
-                self.analysis_db = self.db['HybridAnalysis']
-        except Exception:
-            print("Unable to connect mongodb")
+            
+            max_delay = 5000
+            self.client = MongoClient(self.db_url, connect=False, serverSelectionTimeoutMS=max_delay)
+            self.client.server_info()
+            self.db = self.client['db']
+            self.analysis_db = self.db['HybridAnalysis']
+        except pymongo.errors.ServerSelectionTimeoutError as err:
+            self.logger.logger.warning("Unable to connect mongodb")
+            self.is_available = False
+
 
     def find_analysis(self,apk_name):
         """
@@ -29,7 +34,7 @@ class MongoDB:
             function to insert element in mongo db after scan
 
         """
-        logger.logger.info("Insert document in collection db")
+        self.logger.logger.info("Insert document in collection db")
         dict_to_insert = dict()
         dict_to_insert["name_apk"] = apk.name_only_apk
         dict_to_insert["html_file"] = list(apk.html_file.keys()) # all html file
@@ -51,5 +56,5 @@ class MongoDB:
         if retire_remote is not None:   
             dict_to_insert["retire_remote"] = retire_remote
         self.analysis_db.insert_one(dict_to_insert)
-        logger.logger.info("Success")
+        self.logger.logger.info("Success insert")
     
