@@ -112,7 +112,9 @@ def analyze_start(conf, apk_to_analyze, tag, string_to_find, api_monitor_dict=No
             apktool_retire,remote_retire = scan_retire(apk)
             
             logger.logger.info("Number of http connection {0}".format(apk.http_connection))
-            logger.logger.info("Number of http connection inside loadUrl (either Static and Dynamic) {0}".format(apk.http_connection_static))
+            logger.logger.info("Number of http connection inside loadUrl {0}".format(apk.http_connection_static))
+            logger.logger.infor("Number of all http url inside apk {0}".format(apk.all_http_connection))
+            
             logger.logger.info("RetireJS {0} {1}".format(apktool_retire, remote_retire))
             
             if apktool_retire != None or remote_retire != None:

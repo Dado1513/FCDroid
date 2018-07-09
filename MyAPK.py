@@ -78,6 +78,7 @@ class MyAPK:
         self.is_vulnerable_frame_confusion = False
         self.http_connection = 0
         self.http_connection_static = 0
+        self.all_http_connection = 0
 
     def read(self, filename, binary=True):
         with open(filename, 'rb' if binary else 'r') as f:
@@ -209,8 +210,11 @@ class MyAPK:
                         m.update(file_to_inspect.encode('utf-8'))
                         self.logger.logger.info(
                             "Remote File in: {0}".format(file_to_inspect))
-                        self.logger.logger.info(
-                            "URL: {0}".format(self.md5_file_to_url[str(m.hexdigest())]))
+
+                        if m.hexdigest() in self.md5_file_to_url.keys():
+                            self.logger.logger.info(
+                                "URL: {0}".format(self.md5_file_to_url[str(m.hexdigest())]))
+                    
                     except KeyError as e:
                         self.logger.logger.warning("Key error as {0} ".format(e))
 
@@ -227,6 +231,7 @@ class MyAPK:
             #######################################################################################################
             # start xss analysis on this file
             try:
+
                 content_file = data.read()
                 thread = threading.Thread(
                     name="xss_"+file_to_inspect, target=self.analyze_xss_dom, args=(file_to_inspect, str(content_file),))
@@ -487,6 +492,8 @@ class MyAPK:
         if len(self.all_url) > 0:
             self.logger.logger.info("[START ALL URL INSIDE APK]")
             for u in self.all_url:
+                if u.startswith("http://"):
+                    self.all_http_connection = self.all_http_connection + 1
                 self.logger.logger.info("Url inside apk {0}".format(u))
             self.logger.logger.info("[END ALL URL INSIDE APK]")
 

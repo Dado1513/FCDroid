@@ -36,6 +36,7 @@ class MongoDB:
         """
         logger.logger.info("Insert document in collection db")
         dict_to_insert = dict()
+        
         dict_to_insert["name_apk"] = apk.name_only_apk
         dict_to_insert["html_file"] = list(apk.html_file.keys()) # all html file
         dict_to_insert["js_file"] = list(apk.javascript_file.keys())
@@ -50,8 +51,12 @@ class MongoDB:
         dict_to_insert["file_origin_access"] = apk.list_origin_access
         dict_to_insert["file_without_csp"] = [key for key,value in apk.find_csp.items() if not value ]
         dict_to_insert["file_js_with_iframe"] = apk.file_js_with_iframe
+        
         if len(file_xss_vuln) > 0:
             dict_to_insert["file_xss_vuln"] = file_xss_vuln
+        
+        dict_to_insert["http_connection"] = apk.http_connection
+        dict_to_insert["http_connection_loadUrl"] = apk.http_connection_static
 
         if retire_local is not None:
             dict_to_insert["retire_locale"] = retire_local 

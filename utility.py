@@ -22,45 +22,48 @@ def download_page_with_wget(name_apk, url_loaded):
     md5_file_to_url = dict()
     file_download_to_analyze = dict()
     for url in url_loaded:
-        url_parse = urlparse(url)
         if url[-1] == "/":
             url = url[:-1]
         url_without_parameter = url.split("?",1)[0]
+       
         #################################################################
-        name_file = url.split("/")[-1] 
-        file_name = os.path.basename(url_parse.path)
-        path_complete = os.path.join(html_dir,file_name)
+        name_file = url_without_parameter.split("/")[-1] 
+        path_complete = os.path.join(html_dir,name_file)
 
+        file_name_split_extension = name_file.split(".")
+        if len(file_name_split_extension) == 1: # no extension
+            name_file = name_file + ".html" # add .html
+            path_complete = os.path.join(html_dir, name_file)
+            
         m = hashlib.md5()
-        m.update(file_name.encode('utf-8'))
+        m.update(name_file.encode('utf-8')) # md5 to set count same file
         md5 = m.hexdigest() 
 
         if not os.path.isfile(path_complete): 
             file_name_counter[md5] = 1
         else:
-            file_name_split_extension = file_name.split(".")
             if md5 not in file_name_counter.keys():
-                file_name_counter[md5] = 1
-                # print("Strano non dovrebbe accadere, {0} {1}".format(file_name,md5))
-            
+                file_name_counter[md5] = 1            
             file_name_counter[md5] = file_name_counter[md5] + 1
-            file_name_split_extension[0] = file_name_split_extension[0]+"_"+str(file_name_counter[md5]) 
-            if len(file_name_split_extension) > 1:
-                file_name = file_name_split_extension[0] + "." + file_name_split_extension[1]
-            else:
-                file_name = file_name_split_extension[0]
-        
-        # append file to save file
-        cmd_wget.append(url_without_parameter)
+            # file_name_split_extension[0] = file_name_split_extension[0]+"_"+str(file_name_counter[md5]) 
+            # if len(file_name_split_extension) > 1:
+            #     name_file = file_name_split_extension[0] + "." + file_name_split_extension[1]
+            # else:
+            #     name_file = file_name_split_extension[0]  
+
+        cmd_wget.append(url_without_parameter) # url senza parameter 
         subprocess.call(cmd_wget,stdout=FNULL,stderr=FNULL) # download file
         
         ####################################################################
         # save url from this md5
         m = hashlib.md5()
-        m.update(path_complete.encode('utf-8')  )
+        # add extension  (wget if no exist attach html) o number file if exist yet             
+        m.update(path_complete.encode('utf-8'))
+
+        # print(path_complete, url_without_parameter, name_file, m.hexdigest(), url)
         md5_file_to_url[m.hexdigest()] = url 
         cmd_wget.remove(url_without_parameter)
-        # cmd_wget.remove(file_name)
+    
     # now add all file download in this dir with extension html and js
     for root, _, files in os.walk(html_dir):
             for file_download in files:
