@@ -27,8 +27,6 @@ apk_with_library_vulnerable = list()
 apk_with_xss = list()
 
 
-
-
 def analyze_start(conf, apk_to_analyze, tag, string_to_find, api_monitor_dict=None, network_dict=None):
     print(bcolors.BOLD+apk_to_analyze.split("/")[-1]+bcolors.ENDC)
     if not os.path.exists("log"):
@@ -111,18 +109,24 @@ def analyze_start(conf, apk_to_analyze, tag, string_to_find, api_monitor_dict=No
                 print(bcolors.FAIL + "Some error occured during decompilation." + bcolors.ENDC)
                 logger.logger.error("Some error during decompilation.")
 
-            logger.shutdown()
             apktool_retire,remote_retire = scan_retire(apk)
+            
+            logger.logger.info("Number of http connection {0}".format(apk.http_connection))
+            logger.logger.info("Number of http connection inside loadUrl (either Static and Dynamic) {0}".format(apk.http_connection_static))
+            logger.logger.info("RetireJS {0} {1}".format(apktool_retire, remote_retire))
             
             if apktool_retire != None or remote_retire != None:
                 logger.logger.info("RetireJS: {0} , {1} ".format(apktool_retire, remote_retire))
                 apk_with_library_vulnerable.append(apk_to_analyze)
+            
             file_xss = list(apk.page_xss_vuln.keys())
             if len(file_xss) > 0:
                 apk_with_xss.append(apk_to_analyze)
                 logger.logger.info("File that use function js vulnerable at xss {0}".format(file_xss))  
+            
             if mongo.is_available:
                 mongo.insert_analysis(apk,apktool_retire,remote_retire,file_xss,logger)
+            logger.shutdown()
 
         else:
             logger.logger.info("Analysis yet done")
@@ -137,6 +141,8 @@ def analyze_start(conf, apk_to_analyze, tag, string_to_find, api_monitor_dict=No
             if len(result["html_file"]) > 0 or len(result["url_loaded"]) > 0:
                 apk_with_html_file.append(apk)
             
+            return True
+            
 
     except BadZipfile:
         logger.logger.error("APK corrupted")
@@ -147,7 +153,7 @@ def analyze_start(conf, apk_to_analyze, tag, string_to_find, api_monitor_dict=No
 def main():
     second_start = time.time()
     parser = argparse.ArgumentParser(
-            description='Inspect hybrid apk',
+            description='Inspect hybrid apk \nAnalyze xss, use lib js with vulnerability and check frame_confusion problem',
             usage='\n\tpython hybrid_inspector.py -f \"example.apk\" -s \"iframe\" \n\tpython -d \"dir_apk\" -t -s \"iframe\" \n ',
             epilog="Author : Davide Caputo")
 
@@ -186,90 +192,7 @@ def main():
             
             list_apk_to_analyze = list(set(list_apk_to_analyze)-set(list_apk_yet_analyzed))
             if len(list_apk_to_analyze) > 0:  
-                file_stat_final = open("log/{0}".format(str(args.file_output_stat)),"w")    
-                
-                #######################################################################################################
-                percentual_vuln = len(apk_vulnerable) / len(list_apk_to_analyze) 
-                percentual_html_apk = len(apk_with_html_file) / len(list_apk_to_analyze) # app with at least one html page
-                percentual_js_enabled = len(apk_with_js_enabled) / len(list_apk_to_analyze) # app with js enable
-                percentual_js_interface = len(apk_with_js_interface) / len(list_apk_to_analyze) # app with js interface
-                percentual_iframe_not_in_html = len(apk_maybe_vulnerable) / len(list_apk_to_analyze) 
-                percentual_app_lib_vuln_retire = len(apk_with_library_vulnerable) / len(list_apk_to_analyze)
-                percentual_app_with_xss_dom = len(apk_with_xss) / len(list_apk_to_analyze)
-
-                #######################################################################################################
-                string_html = "Percentual app with at least one html file inside: {0}%\n".format(percentual_html_apk*100)
-                string_js_enabled = "Percentual app with js enabled {0}%\n".format(percentual_js_enabled * 100)
-                string_js_interface = "Percentual app with js interface {0}%\n".format(percentual_js_interface * 100)
-                string_percentual_vuln = "Percentual app maybe vulnerable: {0}%, based on tot {1}.\n".format(percentual_vuln*100,len(list_apk_to_analyze))
-                string_percentual_iframe_not_in_html = "Percentual app with iframe not in html file {0}\n".format(percentual_iframe_not_in_html*100)
-                string_percentual_app_lib_vuln = "Percentual app that use library js vulnerable {0}  based on tot {1}\n".format(percentual_app_lib_vuln_retire * 100, len(list_apk_to_analyze)) 
-                string_percentual_app_xss = "Percentual app that use method js vulnerable on xss {0}  based on tot {1}\n".format(percentual_app_with_xss_dom * 100, len(list_apk_to_analyze))
-
-                ########################################################################################################
-                second_finish= time.time()
-                average_time_apk = (second_finish - second_start)/len(list_apk_to_analyze)
-                string_time_percentual = "Average time  single apk analyzed {0} sec\n".format(average_time_apk)
-
-                ########################################################################################################
-                # print on file
-                file_stat_final.write("Apk analyzed: {0}\n".format(len(list_apk_to_analyze)))
-                file_stat_final.write(string_html)
-                file_stat_final.write(string_js_enabled)
-                file_stat_final.write(string_js_interface)
-                file_stat_final.write(string_percentual_vuln)
-                file_stat_final.write(string_percentual_iframe_not_in_html)
-                file_stat_final.write(string_time_percentual)
-                file_stat_final.write(string_percentual_app_lib_vuln)
-                file_stat_final.write(string_percentual_app_xss)
-                
-                ########################################################################################################
-                # print on terminal
-                print()
-                print()
-                print(bcolors.BOLD+"-- Final Result -- \n")
-                print("Apk analyzed: {0}\n".format(len(list_apk_to_analyze)))
-                print(string_html)
-                print(string_js_enabled)
-                print(string_js_interface)
-                print(string_percentual_vuln)
-                print(string_percentual_iframe_not_in_html)
-                print(string_time_percentual)
-                print(string_percentual_app_lib_vuln)
-                print(string_percentual_app_xss)
-
-                ########################################################################################################
-                if len(apk_vulnerable) > 0:
-                    string_app_vulnerable = "".join(("- "+str(i).split("/")[-1]+"\n" for i in apk_vulnerable))
-                    file_stat_final.write("\nThis apps maybe are vulnerable:\n"+string_app_vulnerable)    
-                    print("This app maybe are vulnerable:"+bcolors.ENDC)
-                    print(bcolors.FAIL+string_app_vulnerable+bcolors.ENDC)
-                
-                ########################################################################################################
-                if len(apk_maybe_vulnerable) > 0:
-                    string_app_iframe_inside = "".join(("- "+str(i).split("/")[-1]+"\n" for i in apk_maybe_vulnerable))
-                    file_stat_final.write("\nThis apps have inside iframe string :\n"+string_app_iframe_inside)    
-                    print("This app have inside iframe stringe:"+bcolors.ENDC)
-                    print(bcolors.WARNING+string_app_iframe_inside+bcolors.ENDC)
-
-                ########################################################################################################
-                if len(apk_with_library_vulnerable) > 0:
-                    app_retire = "".join(("- "+str(i).split("/")[-1]+"\n" for i in apk_with_library_vulnerable))
-                    file_stat_final.write("\nThis apps use lib vulnerable :\n"+app_retire)    
-                    print("This apps use lib vulnerable:"+bcolors.ENDC)
-                    print(bcolors.WARNING+app_retire+bcolors.ENDC)
-
-                ########################################################################################################
-                if len(apk_with_xss) > 0:
-                    app_xss = "".join(("- "+str(i).split("/")[-1]+"\n" for i in apk_with_xss))
-                    file_stat_final.write("\nThis apps use method js xss vulnerable :\n"+app_xss)    
-                    print("This apps use lib vulnerable:"+bcolors.ENDC)
-                    print(bcolors.WARNING+app_xss+bcolors.ENDC)
-                
-
-                file_stat_final.close()
-
-                    
+                print_summary(list_apk_to_analyze,args.file_ouptut_stat, second_start)
 
         elif args.file_name is not None:
             analyze_start(conf, args.file_name, tag, args.string_to_find)
@@ -311,6 +234,93 @@ def scan_retire(apk):
     subprocess.call(cmd_remove_dir)
     
     return output_retire_apk_tool,output_retire_remote
+
+def print_summary(list_apk_to_analyze, file_output_stat, second_start):
+        
+        file_stat_final = open("log/{0}".format(str(file_output_stat)),"w")    
+        
+        #######################################################################################################
+        percentual_vuln = len(apk_vulnerable) / len(list_apk_to_analyze) 
+        percentual_html_apk = len(apk_with_html_file) / len(list_apk_to_analyze) # app with at least one html page
+        percentual_js_enabled = len(apk_with_js_enabled) / len(list_apk_to_analyze) # app with js enable
+        percentual_js_interface = len(apk_with_js_interface) / len(list_apk_to_analyze) # app with js interface
+        percentual_iframe_not_in_html = len(apk_maybe_vulnerable) / len(list_apk_to_analyze) 
+        percentual_app_lib_vuln_retire = len(apk_with_library_vulnerable) / len(list_apk_to_analyze)
+        percentual_app_with_xss_dom = len(apk_with_xss) / len(list_apk_to_analyze)
+
+        #######################################################################################################
+        string_html = "Percentual app with at least one html file inside: {0}%\n".format(percentual_html_apk*100)
+        string_js_enabled = "Percentual app with js enabled {0}%\n".format(percentual_js_enabled * 100)
+        string_js_interface = "Percentual app with js interface {0}%\n".format(percentual_js_interface * 100)
+        string_percentual_vuln = "Percentual app maybe vulnerable: {0}%, based on tot {1}.\n".format(percentual_vuln*100,len(list_apk_to_analyze))
+        string_percentual_iframe_not_in_html = "Percentual app with iframe not in html file {0}\n".format(percentual_iframe_not_in_html*100)
+        string_percentual_app_lib_vuln = "Percentual app that use library js vulnerable {0}  based on tot {1}\n".format(percentual_app_lib_vuln_retire * 100, len(list_apk_to_analyze)) 
+        string_percentual_app_xss = "Percentual app that use method js vulnerable on xss {0}  based on tot {1}\n".format(percentual_app_with_xss_dom * 100, len(list_apk_to_analyze))
+
+        apk_string_to_print = "\n-".join(list_apk_to_analyze)
+
+        ########################################################################################################
+        second_finish= time.time()
+        average_time_apk = (second_finish - second_start)/len(list_apk_to_analyze)
+        string_time_percentual = "Average time single apk analyzed {0} sec\n".format(average_time_apk)
+
+        ########################################################################################################
+        # print on file
+        file_stat_final.write("Apk analyzed: {0} \n-{1} \n".format(len(list_apk_to_analyze),apk_string_to_print))
+        file_stat_final.write(string_html)
+        file_stat_final.write(string_js_enabled)
+        file_stat_final.write(string_js_interface)
+        file_stat_final.write(string_percentual_vuln)
+        file_stat_final.write(string_percentual_iframe_not_in_html)
+        file_stat_final.write(string_time_percentual)
+        file_stat_final.write(string_percentual_app_lib_vuln)
+        file_stat_final.write(string_percentual_app_xss)
+        
+        ########################################################################################################
+        # print on terminal
+        print()
+        print()
+        print(bcolors.BOLD+"-- Final Result -- \n")
+        print("Apk analyzed: {0} \n-{1} \n".format(len(list_apk_to_analyze),apk_string_to_print))
+        print(string_html)
+        print(string_js_enabled)
+        print(string_js_interface)
+        print(string_percentual_vuln)
+        print(string_percentual_iframe_not_in_html)
+        print(string_time_percentual)
+        print(string_percentual_app_lib_vuln)
+        print(string_percentual_app_xss)
+
+        ########################################################################################################
+        if len(apk_vulnerable) > 0:
+            string_app_vulnerable = "".join(("- "+str(i).split("/")[-1]+"\n" for i in apk_vulnerable))
+            file_stat_final.write("\nThis apps maybe are vulnerable:\n"+string_app_vulnerable)    
+            print("This app maybe are vulnerable:"+bcolors.ENDC)
+            print(bcolors.FAIL+string_app_vulnerable+bcolors.ENDC)
+        
+        ########################################################################################################
+        if len(apk_maybe_vulnerable) > 0:
+            string_app_iframe_inside = "".join(("- "+str(i).split("/")[-1]+"\n" for i in apk_maybe_vulnerable))
+            file_stat_final.write("\nThis apps have inside iframe string :\n"+string_app_iframe_inside)    
+            print("This app have inside iframe stringe:"+bcolors.ENDC)
+            print(bcolors.WARNING+string_app_iframe_inside+bcolors.ENDC)
+
+        ########################################################################################################
+        if len(apk_with_library_vulnerable) > 0:
+            app_retire = "".join(("- "+str(i).split("/")[-1]+"\n" for i in apk_with_library_vulnerable))
+            file_stat_final.write("\nThis apps use lib vulnerable :\n"+app_retire)    
+            print("This apps use lib vulnerable:"+bcolors.ENDC)
+            print(bcolors.WARNING+app_retire+bcolors.ENDC)
+
+        ########################################################################################################
+        if len(apk_with_xss) > 0:
+            app_xss = "".join(("- "+str(i).split("/")[-1]+"\n" for i in apk_with_xss))
+            file_stat_final.write("\nThis apps use method js xss vulnerable :\n"+app_xss)    
+            print("This apps use function maybe vulnerable on xss:"+bcolors.ENDC)
+            print(bcolors.WARNING+app_xss+bcolors.ENDC)
+        
+
+        file_stat_final.close()
 
 
 def load_conf_file(file_name):
