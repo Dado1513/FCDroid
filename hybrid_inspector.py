@@ -25,6 +25,8 @@ apk_with_js_enabled = list()
 apk_with_js_interface = list()
 apk_with_library_vulnerable = list()
 apk_with_xss = list()
+apk_that_use_http = list()
+apk_that_use_http_loadUrl = list()
 
 
 def analyze_start(conf, apk_to_analyze, tag, string_to_find, api_monitor_dict=None, network_dict=None):
@@ -112,9 +114,15 @@ def analyze_start(conf, apk_to_analyze, tag, string_to_find, api_monitor_dict=No
             apktool_retire,remote_retire = scan_retire(apk)
             
             logger.logger.info("Number of http connection {0}".format(apk.http_connection))
-            logger.logger.info("Number of http connection inside loadUrl {0}".format(apk.http_connection_static))
-            logger.logger.infor("Number of all http url inside apk {0}".format(apk.all_http_connection))
+            if apk.http_connection > 0:
+                apk_that_use_http.append(apk_to_analyze)
             
+            logger.logger.info("Number of http connection inside loadUrl {0}".format(apk.http_connection_static))
+            if apk.http_connection_static > 0:
+                apk_that_use_http_loadUrl.append(apk_to_analyze)
+
+            logger.logger.info("Number of all http url inside apk {0}".format(apk.all_http_connection))
+
             logger.logger.info("RetireJS {0} {1}".format(apktool_retire, remote_retire))
             
             if apktool_retire != None or remote_retire != None:
@@ -249,6 +257,7 @@ def print_summary(list_apk_to_analyze, file_output_stat, second_start):
         percentual_iframe_not_in_html = len(apk_maybe_vulnerable) / len(list_apk_to_analyze) 
         percentual_app_lib_vuln_retire = len(apk_with_library_vulnerable) / len(list_apk_to_analyze)
         percentual_app_with_xss_dom = len(apk_with_xss) / len(list_apk_to_analyze)
+        percentual_app_use_http = len(apk_that_use_http) / len(list_apk_to_analyze)
 
         #######################################################################################################
         string_html = "Percentual app with at least one html file inside: {0}%\n".format(percentual_html_apk*100)
@@ -258,6 +267,7 @@ def print_summary(list_apk_to_analyze, file_output_stat, second_start):
         string_percentual_iframe_not_in_html = "Percentual app with iframe not in html file {0}\n".format(percentual_iframe_not_in_html*100)
         string_percentual_app_lib_vuln = "Percentual app that use library js vulnerable {0}  based on tot {1}\n".format(percentual_app_lib_vuln_retire * 100, len(list_apk_to_analyze)) 
         string_percentual_app_xss = "Percentual app that use method js vulnerable on xss {0}  based on tot {1}\n".format(percentual_app_with_xss_dom * 100, len(list_apk_to_analyze))
+        string_percentual_app_use_http = "Percentual app that use http connection {0}\n".format(percentual_app_use_http * 100)
 
         apk_string_to_print = "\n-".join(list_apk_to_analyze)
 
@@ -277,7 +287,6 @@ def print_summary(list_apk_to_analyze, file_output_stat, second_start):
         file_stat_final.write(string_time_percentual)
         file_stat_final.write(string_percentual_app_lib_vuln)
         file_stat_final.write(string_percentual_app_xss)
-        
         ########################################################################################################
         # print on terminal
         print()
@@ -292,6 +301,8 @@ def print_summary(list_apk_to_analyze, file_output_stat, second_start):
         print(string_time_percentual)
         print(string_percentual_app_lib_vuln)
         print(string_percentual_app_xss)
+
+        
 
         ########################################################################################################
         if len(apk_vulnerable) > 0:
@@ -320,6 +331,15 @@ def print_summary(list_apk_to_analyze, file_output_stat, second_start):
             file_stat_final.write("\nThis apps use method js xss vulnerable :\n"+app_xss)    
             print("This apps use function maybe vulnerable on xss:"+bcolors.ENDC)
             print(bcolors.WARNING+app_xss+bcolors.ENDC)
+        
+        ########################################################################################################
+        if len(apk_that_use_http) > 0:
+            file_stat_final.write(string_percentual_app_use_http)
+            print(string_percentual_app_use_http)
+            app_use_http = "".join(("- "+str(i).split("/")[-1]+"\n" for i in apk_that_use_http))
+            file_stat_final("This app use http connection:\n"+app_use_http)
+            print("This app maybe use http connection"+bcolors.ENDC)
+            print(bcolors.FAIL+app_use_http+bcolors.ENDC)
         
 
         file_stat_final.close()

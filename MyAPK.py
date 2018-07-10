@@ -469,6 +469,7 @@ class MyAPK:
         if len(self.url_loaded) > 0:
             # print(self.url_loaded)
             self.logger.logger.info("[START URL LOADED INSIDE LOAD FUNCTION]")
+            self.url_loaded = list(set(self.url_loaded))
             for u in self.url_loaded:
                 if u.startswith("http://"):
                     self.http_connection_static = self.http_connection_static + 1  
@@ -490,6 +491,7 @@ class MyAPK:
             self.find_string(self.file_download_to_analyze, remote=True)
 
         if len(self.all_url) > 0:
+            self.all_url = list(set(self.all_url))
             self.logger.logger.info("[START ALL URL INSIDE APK]")
             for u in self.all_url:
                 if u.startswith("http://"):
