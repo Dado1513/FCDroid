@@ -214,9 +214,10 @@ class MyAPK:
                         if m.hexdigest() in self.md5_file_to_url.keys():
                             self.logger.logger.info(
                                 "URL: {0}".format(self.md5_file_to_url[str(m.hexdigest())]))
-                    
+
                     except KeyError as e:
-                        self.logger.logger.warning("Key error as {0} ".format(e))
+                        self.logger.logger.warning(
+                            "Key error as {0} ".format(e))
 
             if remote and not (file_to_inspect.endswith(".js") or file_to_inspect.endswith(".html")):
                 # add extension html on file
@@ -472,7 +473,7 @@ class MyAPK:
             self.url_loaded = list(set(self.url_loaded))
             for u in self.url_loaded:
                 if u.startswith("http://"):
-                    self.http_connection_static = self.http_connection_static + 1  
+                    self.http_connection_static = self.http_connection_static + 1
                 self.logger.logger.info(
                     "Url inside load function: {0}".format(u))
             self.logger.logger.info("[END URL LOADED INSIDE LOAD FUNCTION]")
@@ -481,12 +482,12 @@ class MyAPK:
                 self.name_only_apk, self.url_loaded)
             for key in md5_file_to_url.keys():
                 if key not in self.md5_file_to_url.keys():
-                    self.md5_file_to_url[key]  = md5_file_to_url[key]
-            
+                    self.md5_file_to_url[key] = md5_file_to_url[key]
+
             for key in file_download_to_analyze.keys():
                 if key not in self.file_download_to_analyze.keys():
-                    self.file_download_to_analyze[key]  = file_download_to_analyze[key]
-            
+                    self.file_download_to_analyze[key] = file_download_to_analyze[key]
+
             # self.download_page_loaded_with_wget()
             self.find_string(self.file_download_to_analyze, remote=True)
 
@@ -512,7 +513,6 @@ class MyAPK:
             #self.logger.logger.error("Error as encoded_method {0} on method get_source_code {1}".format(encoded_method,e))
             return None
 
-    
     # invece che valore magari che venga passato una variabile come valore
     def check_metod_used_value(self, list_source_code, metodo, value):
         """
@@ -574,23 +574,23 @@ class MyAPK:
         # get all http/https/file in load function
         url_http_s_api_monitor = filter(lambda x: x.startswith(
             "http://") or x.startswith("https://") or x.startswith("file://"), url_api_monitor)
-        
 
         #######################################################################################################
         # TODO mettere la funzione evaluateJavaScript o loadUrl javascript: --> come se fosse un file javascript
         javascript_load_url = filter(
             lambda x: x.startswith("javascript:"), url_api_monitor)
-        
+
         # method that exec js in recent api
-        javascript_evaluate= list()
+        javascript_evaluate = list()
         method_evaluate_js = ["evaluateJavascript"]
         for keys in self.api_monitor_dict.keys():
             if keys in method_evaluate_js:
-                javascript_evaluate = list(set().union(javascript_evaluate, self.api_monitor_dict[keys]["args"]))
-        
+                javascript_evaluate = list(set().union(
+                    javascript_evaluate, self.api_monitor_dict[keys]["args"]))
+
         # now write this code in a file and analyze them
-        javascript_code_exec = list(set().union(javascript_load_url,javascript_evaluate))
-        
+        javascript_code_exec = list(set().union(
+            javascript_load_url, javascript_evaluate))
 
         #######################################################################################################
         # TODO mettere metodi cordova

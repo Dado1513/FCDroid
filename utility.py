@@ -68,7 +68,7 @@ def download_page_with_wget(name_apk, url_loaded):
     for root, _, files in os.walk(html_dir):
             for file_download in files:
                 file_download = file_download.split("?",1)[0] # remove parameter 
-                if file_download.endswith(".html") or file_download.endswith(".js") or ".js" :
+                if file_download.endswith(".html") or file_download.endswith(".js") :
                     file_download_to_analyze[os.path.join(root,file_download)] = False 
         
     return md5_file_to_url,file_download_to_analyze
