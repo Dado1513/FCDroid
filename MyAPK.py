@@ -219,7 +219,8 @@ class MyAPK:
                         self.logger.logger.warning(
                             "Key error as {0} ".format(e))
 
-            if remote and not (file_to_inspect.endswith(".js") or file_to_inspect.endswith(".html")):
+            file_to_inspect_split = file_to_inspect.split("?",1)[0] # remove parameter 
+            if remote and not (file_to_inspect_split.endswith(".js") or file_to_inspect_split.endswith(".html")) :
                 # add extension html on file
                 # of default wget add this extension
                 file_to_inspect = file_to_inspect + ".html"
@@ -344,12 +345,9 @@ class MyAPK:
 
         elif use_analyze:
             # return apk, list dex , object analysis
-            if True:
-                apk, self.dalvik_format, self.analysis_object = AnalyzeAPK(
+            apk, self.dalvik_format, self.analysis_object = AnalyzeAPK(
                     self.name_apk)
-            else:
-                self.dalvik_format, self.analysis_object = AnalyzeDex(self.apk.get_dex())
-
+            
             for method_analys in self.analysis_object.get_methods():
                 method_name = method_analys.get_method().get_name()
                 # from method_name get list dove esso viene chiamato
