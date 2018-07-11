@@ -68,20 +68,18 @@ class FileAnalysis:
                 list_row_string.append(name_tag)
         else:
             file_line = file_read.split("\n")
-            string_regex = re.compile("\b"+string_to_find+"\b",re.IGNORECASE)
-            string_regex_v2 = re.compile(string_to_find,re.IGNORECASE) # only string complete
-             # only string complete
-            for (counter,value) in enumerate(file_line) or re.search(string_regex_v2,value):
+            string_regex = re.compile(r"\b{0}\b".format(string_to_find),re.IGNORECASE)
+            
+            for (counter,value) in enumerate(file_line):
                 if re.search(string_regex,value):
                     list_row_string.append(str(counter+1))
                     find_iframe = True
         
         # provo a vedere se esiste iframe come string all'interno
         if not find_iframe and name_file.endswith(".html"):
-            string_regex = re.compile("\b"+string_to_find+"\b",re.IGNORECASE)
-            string_regex_v2 = re.compile(string_to_find,re.IGNORECASE) # only string complete
+            string_regex = re.compile(r"\b{0}\b".format(string_to_find),re.IGNORECASE)
             for (counter,value) in enumerate(file_line):
-                if re.search(string_regex,value) or re.search(string_regex_v2,value):
+                if re.search(string_regex,value) :
                     list_row_string.append(str(counter+1))
                     find_iframe = True
 
