@@ -20,7 +20,7 @@ from androguard.core.bytecodes.apk import FileNotPresent
 from androguard.core.bytecodes.axml import AXMLPrinter
 from androguard.decompiler.decompiler import (DecompilerJADX,
                                               JADXDecompilerError)
-from androguard.misc import AnalyzeAPK
+from androguard.misc import AnalyzeAPK, AnalyzeDex
 from androguard.core.analysis.analysis import StringAnalysis
 from bcolors import bcolors
 import threading
@@ -344,8 +344,11 @@ class MyAPK:
 
         elif use_analyze:
             # return apk, list dex , object analysis
-            apk, self.dalvik_format, self.analysis_object = AnalyzeAPK(
-                self.name_apk)
+            if True:
+                apk, self.dalvik_format, self.analysis_object = AnalyzeAPK(
+                    self.name_apk)
+            else:
+                self.dalvik_format, self.analysis_object = AnalyzeDex(self.apk.get_dex())
 
             for method_analys in self.analysis_object.get_methods():
                 method_name = method_analys.get_method().get_name()
