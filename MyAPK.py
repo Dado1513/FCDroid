@@ -245,7 +245,7 @@ class MyAPK:
                 try:
 
                     find_iframe, list_row_string, list_src_iframe = FileAnalysis.find_string(
-                        self.string_to_find, self.search_tag, file_to_inspect, file_read, soup, self.logger)
+                        self.string_to_find, self.search_tag, file_to_inspect_split, file_read, soup, self.logger)
 
                     #######################################################################################################
                     # TODO insert in method --> String Analysis
@@ -254,7 +254,7 @@ class MyAPK:
                         self.src_iframe[file_to_inspect] = list_src_iframe
                         # TODO search id iframe in file js in script src
 
-                        if not self.search_tag or file_to_inspect.endswith(".js"):
+                        if not self.search_tag or file_to_inspect_split.endswith(".js"):
                             self.file_js_with_iframe.append(
                                 file_to_inspect)  # append file with iframe
                             print(bcolors.FAIL+"Found "+self.string_to_find +
