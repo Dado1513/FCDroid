@@ -86,7 +86,7 @@ def analyze_start(conf, apk_to_analyze, tag, string_to_find, api_monitor_dict=No
                     logger.logger.info("This app might be vulnerable on attack frame confusion, This file are vulnerable %s", str(apk.file_vulnerable_frame_confusion))
                     if len(apk.file_js_with_iframe) > 0:
                         apk_maybe_vulnerable.append(apk_to_analyze)
-                        print(bcolors.WARNING+ "This file are suspect, contain iframe string inside:{0} ".format(apk.file_js_with_iframe))
+                        print(bcolors.WARNING+ "This file are suspect, contain iframe string inside:{0} ".format(apk.file_js_with_iframe)+ bcolors.ENDC)
                         logger.logger.info("This file are suspects, containe string iframe inside: {0}".format(apk.file_js_with_iframe))
                     logger.logger.info("End time:[%s]",time.ctime())
                 
@@ -315,7 +315,7 @@ def print_summary(list_apk_to_analyze, file_output_stat, second_start):
         if len(apk_maybe_vulnerable) > 0:
             string_app_iframe_inside = "".join(("- "+str(i).split("/")[-1]+"\n" for i in apk_maybe_vulnerable))
             file_stat_final.write("\nThis apps have inside iframe string :\n"+string_app_iframe_inside)    
-            print("This app have inside iframe stringe:"+bcolors.ENDC)
+            print("This app have inside iframe string:"+bcolors.ENDC)
             print(bcolors.WARNING+string_app_iframe_inside+bcolors.ENDC)
 
         ########################################################################################################
@@ -337,7 +337,7 @@ def print_summary(list_apk_to_analyze, file_output_stat, second_start):
             file_stat_final.write(string_percentual_app_use_http)
             print(string_percentual_app_use_http)
             app_use_http = "".join(("- "+str(i).split("/")[-1]+"\n" for i in apk_that_use_http))
-            file_stat_final("This app use http connection:\n"+app_use_http)
+            file_stat_final.write("This app use http connection:\n"+app_use_http)
             print("This app maybe use http connection"+bcolors.ENDC)
             print(bcolors.FAIL+app_use_http+bcolors.ENDC)
         

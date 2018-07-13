@@ -289,9 +289,13 @@ class MyAPK:
                             self.find_csp[file_to_inspect] = True
 
                         # only file html
-                        elif not file_to_inspect.endswith(".js"):
+                        elif not file_to_inspect_split.endswith(".js"):
                             print(bcolors.FAIL+"No CSP found!"+bcolors.ENDC)
                             self.logger.logger.info("No CSP found!")
+                            self.find_csp[file_to_inspect] = False
+                        elif file_to_inspect_split.endswith(".js"):
+                            print(bcolors.FAIL+"It is a JS file, no CSP found!"+bcolors.ENDC)
+                            self.logger.logger.info("It is a JS file, no CSP found!, investigate manually")
                             self.find_csp[file_to_inspect] = False
 
                     else:
