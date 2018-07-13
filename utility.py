@@ -16,7 +16,8 @@ def download_page_with_wget(name_apk, url_loaded):
     file_name_counter = dict()
     print(bcolors.WARNING+"\n[*] Download remote page in: "+html_dir+bcolors.ENDC)
     # download only file .js and .html
-    cmd_wget = ['wget' ,'-E', '-H' ,'-k','-T','1','-nd' ,'--accept-regex','".*\.html.*|.*\.js.*"','-N', '-r','-l','2','-P', html_dir]
+    cmd_wget = ['wget','-nd','-nc','-T','1','-E','-r','-l','2','-t','3','-P',html_dir]
+    # cmd_wget = ['wget' ,'-E', '-H' ,'-k','-T','1','-nd' ,'--accept-regex','".*\.html.*|.*\.js.*"','-N', '-r','-l','2','-P', html_dir]
     # cmd_wget = ['wget' ,'-E', '-H' ,'-k',' -K ','-T','1','-nd' ,'--accept-regex','".*\.html.*|.*\.js.*"','-N', '-r','-l','2','-P', html_dir]
     # cmd_wget = ['wget' ,'-E', '-H' ,'-k',' -K ','-T','1','-nd' ,'-N', '-p','-P', html_dir, "-O"]
 
@@ -47,6 +48,7 @@ def download_page_with_wget(name_apk, url_loaded):
             if md5 not in file_name_counter.keys():
                 file_name_counter[md5] = 1            
             file_name_counter[md5] = file_name_counter[md5] + 1
+            
             # file_name_split_extension[0] = file_name_split_extension[0]+"_"+str(file_name_counter[md5]) 
             # if len(file_name_split_extension) > 1:
             #     name_file = file_name_split_extension[0] + "." + file_name_split_extension[1]
