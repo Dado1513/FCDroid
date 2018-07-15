@@ -514,6 +514,7 @@ class MyAPK:
             source_code = source_code.replace(" ", "")
             source_code = source_code.split(";")
             return source_code
+       
         except TypeError as e:
             #self.logger.logger.error("Error as encoded_method {0} on method get_source_code {1}".format(encoded_method,e))
             return None
