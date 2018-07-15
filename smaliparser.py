@@ -159,7 +159,7 @@ def start(dir, list_method):
         values = method_2_value[keys] # prendo tutta la lista dei vari parametri
         print("Method: {0}".format(keys))
         for value in values: # per ogni dizionario di parametri
-            print(value.values())
+            print(list(value.values()))
 
     find_url_inside(dir_apk) # tutte le url all'interno dell'apk (fare un thread separato)
     print(all_url["url"]) # tutte le url all'interno dell'apk
