@@ -453,11 +453,12 @@ class MyAPK:
         # use smali_parser
         if self.use_smaliparser:
             # add url loaded for smali_parsr
-            all_url_loaded = self.method_2_value["loadUrl"]  
-            
-            # da queste devo filtrare ottenendo solo quelle http/https
-            temp_url_loaded = list(filter(lambda x: x is not None and (x.startswith("http") or x.startswith("https")) ,all_url_loaded))
-            self.url_loaded = list(set().union(self.url_loaded,temp_url_loaded))
+            if "loadUrl" in self.method_2_value.keys(): 
+                all_url_loaded = self.method_2_value["loadUrl"]  
+                
+                # da queste devo filtrare ottenendo solo quelle http/https
+                temp_url_loaded = list(filter(lambda x: x is not None and (x.startswith("http") or x.startswith("https")) ,all_url_loaded))
+                self.url_loaded = list(set().union(self.url_loaded,temp_url_loaded))
 
         else:
             # ALL string inside apk
