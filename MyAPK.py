@@ -249,7 +249,7 @@ class MyAPK:
                 try:
 
                     find_iframe, list_row_string, list_src_iframe = FileAnalysis.find_string(
-                        self.string_to_find, self.search_tag, file_to_inspect_split, file_read, soup, self.logger)
+                        self.string_to_find, self.search_tag, file_to_inspect,  file_read, soup, self.logger)
 
                     #######################################################################################################
                     # TODO insert in method --> String Analysis
@@ -456,8 +456,8 @@ class MyAPK:
             all_url_loaded = self.method_2_value["loadUrl"]  
             
             # da queste devo filtrare ottenendo solo quelle http/https
-            self.url_loaded = list(filter(lambda x: x is not None and (x.startswith("http") or x.startswith("https")) ,all_url_loaded))
-            
+            temp_url_loaded = list(filter(lambda x: x is not None and (x.startswith("http") or x.startswith("https")) ,all_url_loaded))
+            self.url_loaded = list(set().union(self.url_loaded,temp_url_loaded))
 
         else:
             # ALL string inside apk

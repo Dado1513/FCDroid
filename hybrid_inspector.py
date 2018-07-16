@@ -86,14 +86,18 @@ def analyze_start(conf, apk_to_analyze, tag, string_to_find, api_monitor_dict=No
                 apk.find_url_in_apk()
                 apk.vulnerable_frame_confusion()
                 if apk.is_vulnerable_frame_confusion:
+                    # TODO se file vulnerable == file_js_with_iframe modificare i controlli
                     print(bcolors.FAIL + "\nThis app might be vulnerable on attack frame confusion." +bcolors.ENDC)
                     apk_vulnerable.append(apk_to_analyze)
+
                     print(bcolors.FAIL + "This file are vulnerable " + str(apk.file_vulnerable_frame_confusion)+bcolors.ENDC)
                     logger.logger.info("This app might be vulnerable on attack frame confusion, This file are vulnerable %s", str(apk.file_vulnerable_frame_confusion))
                     if len(apk.file_js_with_iframe) > 0:
                         apk_maybe_vulnerable.append(apk_to_analyze)
+                        print()
                         print(bcolors.WARNING+ "This file are suspect, contain iframe string inside:{0} ".format(apk.file_js_with_iframe)+ bcolors.ENDC)
                         logger.logger.info("This file are suspects, containe string iframe inside: {0}".format(apk.file_js_with_iframe))
+                    print()
                     logger.logger.info("End time:[%s]",time.ctime())
                 
                 elif len(apk.file_js_with_iframe) == 0:

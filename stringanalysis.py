@@ -1,6 +1,7 @@
 
 from bs4 import BeautifulSoup
 import xml.etree.ElementTree as ET
+import subprocess
 import re
 
 class FileAnalysis:
@@ -46,10 +47,11 @@ class FileAnalysis:
         return is_contain_file_hybrid, file_hybrid
 
     @staticmethod
-    def find_string( string_to_find, is_tag, name_file, file_read, soup, logger):
+    def find_string( string_to_find, is_tag,  name_file_complete , file_read, soup, logger):
         
-      
+        name_file = name_file_complete.split("?",1)[0] # remove parameter 
         find_iframe = False
+        use_grep = False
         list_row_string = []
         list_src_iframe = []
         file_line = list()
@@ -67,21 +69,41 @@ class FileAnalysis:
                 logger.logger.info("Found this tag {0}".format(name_tag))
                 list_row_string.append(name_tag)
         else:
-            file_line = file_read.split("\n")
-            string_regex = re.compile(r"\"\b{0}\b\"".format(string_to_find),re.IGNORECASE)
             
-            for (counter,value) in enumerate(file_line):
-                if re.search(string_regex,value):
-                    list_row_string.append(str(counter+1))
+            if use_grep:
+                output = subprocess.check_output(["echo","{0}".format(file_read),"|","grep","-Hnois", "\"\b{0}\b\"".format(string_to_find) ]).decode('utf-8').strip()
+                results = list(output.split("\n"))
+                for match in results:
+                    split_match = match.split(":")
+                    line = split_match[1]
+                    list_row_string.append(str(line))
                     find_iframe = True
+
+            else:
+                # implement grep with -Hnrois option
+                file_line = file_read.split("\n")
+                string_regex = re.compile(r"\"\b{0}\b\"".format(string_to_find),re.IGNORECASE)
+                for (counter,value) in enumerate(file_line):
+                    if re.search(string_regex,value):
+                        list_row_string.append(str(counter+1))
+                        find_iframe = True
         
         # provo a vedere se esiste iframe come string all'interno
         if not find_iframe and name_file.endswith(".html"):
-            string_regex = re.compile(r"\"\b{0}\b\"".format(string_to_find),re.IGNORECASE)
-            for (counter,value) in enumerate(file_line):
-                if re.search(string_regex,value) :
-                    list_row_string.append(str(counter+1))
+            if use_grep:
+                output = subprocess.check_output(["echo","{0}".format(file_read),"|","grep","-Hnois", "\"\b{0}\b\"".format(string_to_find) ,name_file_complete]).decode('utf-8').strip()
+                results = list(output.split("\n"))
+                for match in results:
+                    split_match = match.split(":")
+                    line = split_match[1]
+                    list_row_string.append(str(line))
                     find_iframe = True
+            else:
+                string_regex = re.compile(r"\"\b{0}\b\"".format(string_to_find),re.IGNORECASE)
+                for (counter,value) in enumerate(file_line):
+                    if re.search(string_regex,value) :
+                        list_row_string.append(str(counter+1))
+                        find_iframe = True
 
         return find_iframe, list_row_string, list_src_iframe
 
