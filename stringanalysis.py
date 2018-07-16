@@ -84,3 +84,32 @@ class FileAnalysis:
                     find_iframe = True
 
         return find_iframe, list_row_string, list_src_iframe
+
+    @staticmethod
+    def check_method_used_value(list_source_code, metodo, value):
+        """
+        funzione che prende in ingresso un metodo
+        e il valore, e controlla se in quel metodo viene passato quel 
+        valore
+        """
+        r = re.compile(metodo)  # per ora solo load_url
+        list_new = filter(r.findall, list_source_code)
+        for line_finded in list_new:
+            if value in line_finded:
+                return True
+        return False
+
+    @staticmethod
+    def get_list_source_code( encoded_method):
+        """
+            from object encoded_method obtain source code list
+        """
+        try:
+            source_code = encoded_method.get_source().replace("\n", "")
+            source_code = source_code.replace(" ", "")
+            source_code = source_code.split(";")
+            return source_code
+       
+        except TypeError as e:
+            #self.logger.logger.error("Error as encoded_method {0} on method get_source_code {1}".format(encoded_method,e))
+            return None

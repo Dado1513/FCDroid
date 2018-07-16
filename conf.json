@@ -1,11 +1,13 @@
 {
-    "file_to_check":[ "res/xml/config.xml",
+    "file_to_check": ["res/xml/config.xml",
         "cordova.xml",
         "phonegap.xml",
         "cordova.xml"
     ],
 
-    "permissions_to_check":["android.permission.INTERNET"],
+    "permissions_to_check": ["android.permission.INTERNET"],
 
-    "method_to_check":["addJavascriptInterface","setJavaScriptEnabled"]
+    "method_to_check": ["addJavascriptInterface", "setJavaScriptEnabled"],
+
+    "method_smali_parser": ["loadUrl", "addJavascriptInterface", "setJavaScriptEnabled", "evaluateJavascript"]
 }

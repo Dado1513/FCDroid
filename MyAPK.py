@@ -26,13 +26,14 @@ from bcolors import bcolors
 import threading
 import xml.etree.ElementTree as ET
 import hashlib
+import smaliparser
 
 show_logging(level=logging.CRITICAL)  # androguard
 
 
 class MyAPK:
 
-    def __init__(self, name_file, conf, file_log, tag, string_to_find, logger, api_monitor_dict=None, network_dict=None):
+    def __init__(self, name_file, conf, file_log, tag, string_to_find, logger, api_monitor_dict=None, network_dict=None, use_smaliparser=True):
 
         self.name_apk = name_file
         self.name_only_apk = self.name_apk.split("/")[-1].split(".")[0]
@@ -79,6 +80,9 @@ class MyAPK:
         self.http_connection = 0
         self.http_connection_static = 0
         self.all_http_connection = 0
+        self.use_smaliparser = use_smaliparser
+        self.use_analyze = not use_smaliparser
+        self.method_2_value = dict()
 
     def read(self, filename, binary=True):
         with open(filename, 'rb' if binary else 'r') as f:
@@ -322,8 +326,6 @@ class MyAPK:
             all'interno dell'apk, tanto lenta
         """
         used_jadx = False
-        use_analyze = True
-
         if used_jadx:
 
             # Create DalvikVMFormat Object
@@ -347,7 +349,7 @@ class MyAPK:
                 # print(method_encoded.get_method().get_source())
                 self.method[method_name] = list(method_analys.get_xref_from())
 
-        elif use_analyze:
+        elif self.use_analyze:
             # return apk, list dex , object analysis
             apk, self.dalvik_format, self.analysis_object = AnalyzeAPK(
                     self.name_apk)
@@ -356,6 +358,13 @@ class MyAPK:
                 method_name = method_analys.get_method().get_name()
                 # from method_name get list dove esso viene chiamato
                 self.method[method_name] = list(method_analys.get_xref_from())
+        
+        elif self.use_smaliparser:
+            # use smali parser, apktool and grep invece di Androguard
+            dir_apk_tool = "temp_dir_" + self.name_only_apk+"/"
+            list_method_to_analyze = self.conf["method_smali_parser"]
+            self.method_2_value, self.all_url = smaliparser.start(dir_apk_tool,list_method_to_analyze)
+
 
         else:  # TODO to make faster analysis but not work well
             self.dalvik_format = DalvikVMFormat(self.apk)
@@ -363,56 +372,69 @@ class MyAPK:
                 method_analysis = MethodClassAnalysis(encoded_method)
 
                 method_name = method_analysis.get_method().get_name()
-                print(method_name)
+                # print(method_name)
                 # from method_name get list dove esso viene chiamato
                 self.method[method_name] = list(
                     method_analysis.get_xref_from())
-                print(self.method[method_name])
+                # print(self.method[method_name])
 
     def check_method_conf(self):
         """
             function to check se methods inside conf.json method_to_check is used inside apk
         """
-        method_present = dict()
 
         method_to_find = self.conf["method_to_check"]
-        for mf in method_to_find:
-            method_present[mf] = False
-            for mapk in self.method.keys():
-                if mf in mapk:
-                    method_present[mf] = True
-        try:
-            if method_present["setJavaScriptEnabled"]:
-                for value in self.method["setJavaScriptEnabled"]:
-                    try:
-                        if value[1] is not None:
-                            encoded_method = value[1]
-                            source_code = self.get_list_source_code(
-                                encoded_method)
-                            if self.check_metod_used_value(source_code, "setJavaScriptEnabled", "1"):
-                                # volendo si possono memorizzare tutti i file che lo settano atrue
-                                self.javascript_enabled = True
-                                break
+        method_present = dict()
 
-                    except (TypeError, AttributeError, KeyError) as e:
-                        self.logger.logger.error(
-                            "Exception during check method used {0}".format(e))
-                        continue
+        try:
+            
+            if self.use_smaliparser:
+                if "setJavaScriptEnabled" in self.method_2_value.keys():
+                    if "0x1" in self.method_2_value["setJavaScriptEnabled"]:
+                        self.javascript_enabled = True
+                        method_present["setJavaScriptEnabled"] = True
+                if  "addJavascriptInterface" in self.method_2_value.keys():
+                    self.javascript_interface = True
+                    method_present["addJavascriptInterface"] = True
+
+            else:
+                for mf in method_to_find:
+                    method_present[mf] = False
+                    for mapk in self.method.keys():
+                        if mf in mapk:
+                            method_present[mf] = True        
+                
+                if method_present["setJavaScriptEnabled"]:
+                    for value in self.method["setJavaScriptEnabled"]:
+                        try:
+                            if value[1] is not None:
+                                encoded_method = value[1]
+                                source_code = FileAnalysis.get_list_source_code(
+                                    encoded_method)
+                                if FileAnalysis.check_method_used_value(source_code, "setJavaScriptEnabled", "1"):
+                                    # volendo si possono memorizzare tutti i file che lo settano atrue
+                                    self.javascript_enabled = True
+                                    break
+
+                        except (TypeError, AttributeError, KeyError) as e:
+                            self.logger.logger.error(
+                                "Exception during check method used {0}".format(e))
+                            continue
             print()
             self.logger.logger.info(
                 "[JavaScript enabled: "+str(self.javascript_enabled)+"]")
-        except Exception:
+        except Exception as e:
             self.logger.logger.error(
-                "File conf.json without method setJavaScriptEnabled")
+                "File conf.json without method setJavaScriptEnabled {0}".format(e))
 
         try:
             self.logger.logger.info(
                 "[Add interface WebView: "+str(method_present["addJavascriptInterface"])+"]")
             self.javascript_interface = method_present["addJavascriptInterface"]
-        except Exception:
+        except Exception as e:
             # nothing
             self.logger.logger.error(
-                "File conf.json without method addJavascriptInterface\n")
+                "File conf.json without method addJavascriptInterface {0}\n".format(e))
 
         self.is_contains_all_methods = len(
             method_present) == len(method_to_find)
@@ -422,53 +444,69 @@ class MyAPK:
         """
             find all url/uri inside apk
         """
+
         # add url using dynamic analysis
         if self.api_monitor_dict is not None and self.network_dict is not None:
             self.add_url_dynamic()
-
-        # url regularp expression
-        # url_re = "(http:\/\/|https:\/\/|file:\/\/\/)?[-a-zA-Z0-9@:%._\+~#=]\.[a-z]([-a-zA-Z0-9@:%_\+.~#?&//=]*)"
-        url_re = "^(http:\/\/|https:\/\/)\w+"
-        list_string_analysis = list()  # list of string analysis object
-        # se uso aalysis object
-        if self.analysis_object is not None:
-            list_string_analysis = self.analysis_object.find_strings(
-                url_re)  # --> gen object
+        
+        ##############################################################################
+        # use smali_parser
+        if self.use_smaliparser:
+            # add url loaded for smali_parsr
+            all_url_loaded = self.method_2_value["loadUrl"]  
+            
+            # da queste devo filtrare ottenendo solo quelle http/https
+            self.url_loaded = list(filter(lambda x: x is not None and (x.startswith("http") or x.startswith("https")) ,all_url_loaded))
+            
 
         else:
-            list_string = self.dalvik_format.get_regex_strings(url_re)
+            # ALL string inside apk
+            # use AndroGuard        
+            # url regularp expression
+            # url_re = "(http:\/\/|https:\/\/|file:\/\/\/)?[-a-zA-Z0-9@:%._\+~#=]\.[a-z]([-a-zA-Z0-9@:%_\+.~#?&//=]*)"
+            url_re = "^(http:\/\/|https:\/\/)\w+"
+            list_string_analysis = list()  # list of string analysis object
+            # se uso aalysis object
+            if self.analysis_object is not None:
+                list_string_analysis = self.analysis_object.find_strings(
+                    url_re)  # --> gen object
 
-            for string_value in list_string:
-                list_string_analysis.append(StringAnalysis(string_value))
+            else:
+                list_string = self.dalvik_format.get_regex_strings(url_re)
+                
+                # get all string inside apk
+                for string_value in list_string:
+                    list_string_analysis.append(StringAnalysis(string_value))
 
-        temp_string_value = list()
-        # string- tuple with classAnalysis e encodeMethod that use the string
+            ##################################################################################
+            temp_string_value = list()
+            # string- tuple with classAnalysis e encodeMethod that use the string
+            dict_class_method_analysis = dict()
+            for string_analysis in list_string_analysis:
+                temp_string_value.append(string_analysis.get_value()) # tutte le url
+                dict_class_method_analysis[string_analysis.get_value()] = list(
+                    string_analysis.get_xref_from()) # url e relativo codice dove le ho trovate
 
-        dict_class_method_analysis = dict()
-        for string_analysis in list_string_analysis:
-            temp_string_value.append(string_analysis.get_value())
-            dict_class_method_analysis[string_analysis.get_value()] = list(
-                string_analysis.get_xref_from())
+            ##################################################################################
+            # per ogni file, otteniamo una lista di  tupla
+            # class analysis e encoded_method
+            for key in dict_class_method_analysis.keys():
+                for value in dict_class_method_analysis[key]:
+                    # class_analysis = value[0]
+                    try:
+                        if value[1] is not None:
+                            encoded_method = value[1]
+                            # split the instruction in a list
+                            source_code = FileAnalysis.get_list_source_code(encoded_method)
+                            if source_code is not None:
+                                self.all_url.append(key) # appendo l'url
+                                if FileAnalysis.check_method_used_value(source_code, "loadUrl", key):
+                                    self.url_loaded.append(key) # appendo url se caricata dentro loadUrl
 
-        # per ogni file, otteniamo una lista di  tupla
-        # class analysis e encoded_method
-        for key in dict_class_method_analysis.keys():
-            for value in dict_class_method_analysis[key]:
-                # class_analysis = value[0]
-                try:
-                    if value[1] is not None:
-                        encoded_method = value[1]
-                        # split the instruction in a list
-                        source_code = self.get_list_source_code(encoded_method)
-                        if source_code is not None:
-                            self.all_url.append(key)
-                            if self.check_metod_used_value(source_code, "loadUrl", key):
-                                self.url_loaded.append(key)
-
-                except (TypeError, AttributeError, KeyError) as e:
-                    self.logger.logger.error(
-                        "Exception during find url in apk {0}".format(e))
-                    continue
+                    except (TypeError, AttributeError, KeyError) as e:
+                        self.logger.logger.error(
+                            "Exception during find url in apk {0}".format(e))
+                        continue
 
         #######################################################################################################
         # debug part
@@ -505,34 +543,9 @@ class MyAPK:
                 self.logger.logger.info("Url inside apk {0}".format(u))
             self.logger.logger.info("[END ALL URL INSIDE APK]")
 
-    def get_list_source_code(self, encoded_method):
-        """
-            from object encoded_method obtain source code list
-        """
-        try:
-            source_code = encoded_method.get_source().replace("\n", "")
-            source_code = source_code.replace(" ", "")
-            source_code = source_code.split(";")
-            return source_code
-       
-        except TypeError as e:
-            #self.logger.logger.error("Error as encoded_method {0} on method get_source_code {1}".format(encoded_method,e))
-            return None
+    
 
-    # invece che valore magari che venga passato una variabile come valore
-    def check_metod_used_value(self, list_source_code, metodo, value):
-        """
-           funzione che prende in ingresso un metodo
-           e il valore, e controlla se in quel metodo viene passato quel 
-           valore
-        """
-        r = re.compile(metodo)  # per ora solo load_url
-        list_new = filter(r.findall, list_source_code)
-        for line_finded in list_new:
-            if value in line_finded:
-                return True
-        return False
-
+    
     # check vulnerability
     def vulnerable_frame_confusion(self):
         """ 

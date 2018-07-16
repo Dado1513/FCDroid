@@ -19,7 +19,7 @@ class ThreadDecompyling (Thread):
 
             print(bcolors.WARNING+"[*] Start Analysis"+bcolors.ENDC)
             self.logger.logger.info("Start Analysis")
-            self.myapk.find_method_used()
+            self.myapk.find_method_used() 
         except Exception as e:
             print(bcolors.FAIL+"Error decompiler {0} \n".format(e)+bcolors.ENDC)
             self.logger.logger.error("Error decompiler {0} \n".format(e))

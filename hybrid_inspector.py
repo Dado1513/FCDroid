@@ -43,30 +43,36 @@ def analyze_start(conf, apk_to_analyze, tag, string_to_find, api_monitor_dict=No
     logger.logger.info("Init Time ["+time.ctime()+"]")
     try:
         apk = MyAPK(apk_to_analyze, conf, log_file, tag, string_to_find, logger, \
-                    api_monitor_dict=api_monitor_dict, network_dict=network_dict) # dict che arrivano dall'analisi dinamica
+                    api_monitor_dict=api_monitor_dict, network_dict=network_dict,use_smaliparser=True) # dict che arrivano dall'analisi dinamica
         
         mongo = MongoDB(logger)
         result = None
         if mongo.is_available: # connection available
             result = mongo.find_analysis(apk.name_only_apk)
         if result is None:
-            # thread per la decompilazione
-            thread_decompilyng = ThreadDecompyling(apk,logger)
-            # TODO gestire keyboard interrupt
-            thread_decompilyng.start()
 
+            ################################################################################
             type_apk = "[ANDROID NATIVE]" if not apk.is_hybird() else "[HYBRID]"
             logger.logger.info("TYPE APK: "+type_apk)
             print(bcolors.OKBLUE+type_apk+bcolors.ENDC)
 
+            #################################################################################
+            # thread per la decompilazione
+            thread_decompilyng = ThreadDecompyling(apk,logger)
+            # TODO gestire keyboard interrupt
+            thread_decompilyng.start() # wait apktool output che arriva dall'istruzione sopra 
+
+            #################################################################################
             logger.logger.info("\nStart HTML file")
             apk.find_string(apk.html_file)
             logger.logger.info("End HTML file \n")
-            # TODO 
-            # to fix here da mettere apposto nel caso di file js
+
+            #################################################################################
             logger.logger.info("Start JavaScript file")
             apk.find_string(apk.javascript_file) 
             logger.logger.info("End JavaScript file \n")
+            #################################################################################
+            
             # print("\n")
             list_loading = ["\\","|","/","-"]
             n = 1
@@ -75,7 +81,7 @@ def analyze_start(conf, apk_to_analyze, tag, string_to_find, api_monitor_dict=No
                 print(bcolors.WARNING+"["+list_loading[n]+"] Analysis "+bcolors.ENDC, end="\r")
                 n = n +1
                 time.sleep(0.5)
-
+            
             if not thread_decompilyng.error:
                 apk.find_url_in_apk()
                 apk.vulnerable_frame_confusion()
