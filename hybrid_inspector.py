@@ -109,7 +109,7 @@ def analyze_start(conf, apk_to_analyze, tag, string_to_find, api_monitor_dict=No
                     logger.logger.info("End time:["+str(time.ctime())+"]")
                 
                 else:
-                    print(bcolors.WARNING+"\nThis app might be vulnerabile (found string iframe), in this file: "+str(apk.file_js_with_iframe + bcolors.ENDC))
+                    print(bcolors.WARNING+"\nThis app might be vulnerabile (found string iframe), in this file: "+str(apk.file_js_with_iframe) + bcolors.ENDC))
                     logger.logger.info("This app might be vulnerabile (found string iframe), in this file {0}".format(apk.file_js_with_iframe))
                     apk_maybe_vulnerable.append(apk_to_analyze)
                     
