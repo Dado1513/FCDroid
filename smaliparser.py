@@ -135,9 +135,11 @@ def start(dir, list_method, use_grep=True):
     
     if use_grep:
         for m in list_method:
-            output = subprocess.check_output(["grep","-rl",m,dir_apk]).decode('utf-8').strip()
-            list_file = list(set().union(list_file,output.split("\n")))
-         
+            try:
+                output = subprocess.check_output(["grep","-rl",m,dir_apk]).decode('utf-8').strip()
+                list_file = list(set().union(list_file,output.split("\n")))
+            except:
+                pass
     else:
         for root, dirs, files in os.walk(dir_apk):
             for file in files:
