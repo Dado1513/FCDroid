@@ -390,6 +390,7 @@ class MyAPK:
         try:
             
             if self.use_smaliparser:
+                print(self.method_2_value.keys())
                 if "setJavaScriptEnabled" in self.method_2_value.keys():
                     if "0x1" in self.method_2_value["setJavaScriptEnabled"]:
                         self.javascript_enabled = True
@@ -434,9 +435,10 @@ class MyAPK:
                     "[Add interface WebView: "+str(method_present["addJavascriptInterface"])+"]")
                 self.javascript_interface = method_present["addJavascriptInterface"]
             else:
-                    self.logger.logger.info(
-                    "[Add interface WebView: "+str(self.javascript_interface)+"]")
-                
+                method_present["addJavascriptInterface"] = self.javascript_interface
+                self.logger.logger.info(
+                "[Add interface WebView: "+str(self.javascript_interface)+"]")
+            
         except Exception as e:
             # nothing
             self.logger.logger.error(
