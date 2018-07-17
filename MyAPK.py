@@ -429,9 +429,14 @@ class MyAPK:
                 "File conf.json without method setJavaScriptEnabled {0}".format(e))
 
         try:
-            self.logger.logger.info(
-                "[Add interface WebView: "+str(method_present["addJavascriptInterface"])+"]")
-            self.javascript_interface = method_present["addJavascriptInterface"]
+            if not self.use_smaliparser:
+                self.logger.logger.info(
+                    "[Add interface WebView: "+str(method_present["addJavascriptInterface"])+"]")
+                self.javascript_interface = method_present["addJavascriptInterface"]
+            else:
+                    self.logger.logger.info(
+                    "[Add interface WebView: "+self.javascript_interface+"]")
+                
         except Exception as e:
             # nothing
             self.logger.logger.error(
