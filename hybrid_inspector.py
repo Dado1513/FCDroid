@@ -136,7 +136,7 @@ def analyze_start(conf, apk_to_analyze, tag, string_to_find, api_monitor_dict=No
 
             logger.logger.info("Number of all http url inside apk {0}".format(apk.all_http_connection))
 
-            logger.logger.info("RetireJS {0} {1}".format(apktool_retire, remote_retire))
+            # logger.logger.info("RetireJS {0} {1}".format(apktool_retire, remote_retire))
             
             if apktool_retire != None or remote_retire != None:
                 logger.logger.info("RetireJS: {0} , {1} ".format(apktool_retire, remote_retire))
@@ -273,7 +273,7 @@ def print_summary(list_apk_to_analyze, file_output_stat, second_start):
         percentual_app_use_http = len(apk_that_use_http) / len(list_apk_to_analyze)
 
         #######################################################################################################
-        string_html = "Percentual app with at least one html file inside: {0}%\n".format(percentual_html_apk*100)
+        string_html = "\nPercentual app with at least one html file inside: {0}%\n".format(percentual_html_apk*100)
         string_js_enabled = "Percentual app with js enabled {0}%\n".format(percentual_js_enabled * 100)
         string_js_interface = "Percentual app with js interface {0}%\n".format(percentual_js_interface * 100)
         string_percentual_vuln = "Percentual app maybe vulnerable: {0}%, based on tot {1}.\n".format(percentual_vuln*100,len(list_apk_to_analyze))
