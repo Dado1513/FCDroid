@@ -28,6 +28,7 @@ import xml.etree.ElementTree as ET
 import hashlib
 import smaliparser
 
+
 show_logging(level=logging.CRITICAL)  # androguard
 
 
@@ -84,6 +85,8 @@ class MyAPK:
         self.use_smaliparser = use_smaliparser
         self.use_analyze = not use_smaliparser
         self.method_2_value = dict()
+        self.dynamic_javascript_enabled = False
+        self.dynamic_javascript_interface = False
 
     def read(self, filename, binary=True):
         with open(filename, 'rb' if binary else 'r') as f:
@@ -422,21 +425,39 @@ class MyAPK:
                                 "Exception during check method used {0}".format(e))
                             continue
             print()
-            self.logger.logger.info(
-                "[JavaScript enabled: "+str(self.javascript_enabled)+"]")
+            if self.dynamic_javascript_enabled:
+                self.logger.logger.info(
+                "[JavaScript enabled (check dynamically) :"+str(self.dynamic_javascript_enabled)+"]")    
+            else:
+                self.logger.logger.info(
+                "[JavaScript enabled (check static):  "+str(self.javascript_enabled)+"]")
+
         except Exception as e:
             self.logger.logger.error(
                 "File conf.json without method setJavaScriptEnabled {0}".format(e))
 
         try:
             if not self.use_smaliparser:
-                self.logger.logger.info(
-                    "[Add interface WebView: "+str(method_present["addJavascriptInterface"])+"]")
-                self.javascript_interface = method_present["addJavascriptInterface"]
+            
+                if self.dynamic_javascript_interface:
+                    
+                    self.logger.logger.info("[Add interface WebView (check dynamically): "+str(self.dynamic_javascript_interface)+"]")
+                    self.javascript_interface = self.dynamic_javascript_interface
+                    
+                else:
+
+                    self.logger.logger.info("[Add interface WebView (check static): "+str(method_present["addJavascriptInterface"])+"]")
+                    self.javascript_interface = method_present["addJavascriptInterface"]
+            
             else:
-                method_present["addJavascriptInterface"] = self.javascript_interface
-                self.logger.logger.info(
-                "[Add interface WebView: "+str(self.javascript_interface)+"]")
+            
+                if self.dynamic_javascript_interface:
+                    method_present["addJavascriptInterface"] = self.dynamic_javascript_interface
+                    self.logger.logger.info("[Add interface WebView (check dynamically): "+str(self.dynamic_javascript_interface)+"]")
+                
+                else:
+                    method_present["addJavascriptInterface"] = self.javascript_interface
+                    self.logger.logger.info("[Add interface WebView (check static): "+str(self.javascript_interface)+"]")
             
         except Exception as e:
             # nothing
@@ -595,9 +616,15 @@ class MyAPK:
         function_load_url = ["loadUrl"]  # funzioni che caricano url in Android
         url_api_monitor = list()
         for keys in self.api_monitor_dict.keys():
+            
             if keys in function_load_url:
                 url_api_monitor = list(set().union(
                     url_api_monitor, self.api_monitor_dict[keys]["args"]))
+            # dynamic interface and javascript enabled
+            if keys == "addJavascriptInterface":
+                self.dynamic_javascript_interface = True
+            if keys == "setJavaScriptEnabled":
+                self.dynamic_javascript_enabled = True
         # get all http/https/file in load function
         self.url_dynamic = filter(lambda x: x.startswith(
             "http://") or x.startswith("https://") or x.startswith("file://"), url_api_monitor)
