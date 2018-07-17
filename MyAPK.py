@@ -80,6 +80,7 @@ class MyAPK:
         self.http_connection = 0
         self.http_connection_static = 0
         self.all_http_connection = 0
+        self.url_dynamic = list()
         self.use_smaliparser = use_smaliparser
         self.use_analyze = not use_smaliparser
         self.method_2_value = dict()
@@ -299,7 +300,7 @@ class MyAPK:
                             self.find_csp[file_to_inspect] = False
                         elif file_to_inspect_split.endswith(".js"):
                             print(bcolors.FAIL+"It is a JS file, no CSP found!"+bcolors.ENDC)
-                            self.logger.logger.info("It is a JS file, no CSP found!, investigate manually")
+                            self.logger.logger.info("It is a JS file, no CSP found!, investigate manually\n")
                             self.find_csp[file_to_inspect] = False
 
                     else:
@@ -592,7 +593,7 @@ class MyAPK:
                 url_api_monitor = list(set().union(
                     url_api_monitor, self.api_monitor_dict[keys]["args"]))
         # get all http/https/file in load function
-        url_http_s_api_monitor = filter(lambda x: x.startswith(
+        self.url_dynamic = filter(lambda x: x.startswith(
             "http://") or x.startswith("https://") or x.startswith("file://"), url_api_monitor)
 
         #######################################################################################################
@@ -638,10 +639,13 @@ class MyAPK:
                 url_network, self.network_dict[keys]["url"]))
 
         #######################################################################################################
+        
         self.url_loaded = list(set().union(
-            self.url_loaded, url_http_s_api_monitor, url_network))
+            self.url_loaded, self.url_dynamic, url_network))
+        
         self.all_url = list(set().union(self.all_url, self.url_loaded))
-        for u in self.url_loaded:
+        
+        for u in self.url_dynamic:
             if u.startswith("http://"):
                 self.http_connection = self.http_connection + 1
             self.logger.logger.info("Url dynamic {0}".format(u))

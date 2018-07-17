@@ -350,8 +350,8 @@ def print_summary(list_apk_to_analyze, file_output_stat, second_start):
             file_stat_final.write(string_percentual_app_use_http)
             print(string_percentual_app_use_http)
             app_use_http = "".join(("- "+str(i).split("/")[-1]+"\n" for i in apk_that_use_http))
-            file_stat_final.write("This app use http connection:\n"+app_use_http)
-            print("This app maybe use http connection"+bcolors.ENDC)
+            file_stat_final.write("This apps use http connection:\n"+app_use_http)
+            print("This apps maybe use http connection"+bcolors.ENDC)
             print(bcolors.FAIL+app_use_http+bcolors.ENDC)
         
 
