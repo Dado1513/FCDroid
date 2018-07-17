@@ -638,10 +638,12 @@ class MyAPK:
             url_network = list(set().union(
                 url_network, self.network_dict[keys]["url"]))
 
+        # url effettivamente caricate nell'applicazione
+        self.url_dynamic = list(set().union(self.url_dynamic, url_network)) 
         #######################################################################################################
         
         self.url_loaded = list(set().union(
-            self.url_loaded, self.url_dynamic, url_network))
+            self.url_loaded, self.url_dynamic))
         
         self.all_url = list(set().union(self.all_url, self.url_loaded))
         
