@@ -435,7 +435,7 @@ class MyAPK:
                 self.javascript_interface = method_present["addJavascriptInterface"]
             else:
                     self.logger.logger.info(
-                    "[Add interface WebView: "+self.javascript_interface+"]")
+                    "[Add interface WebView: "+str(self.javascript_interface)+"]")
                 
         except Exception as e:
             # nothing
