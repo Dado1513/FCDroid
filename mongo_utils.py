@@ -52,6 +52,9 @@ class MongoDB:
         dict_to_insert["file_without_csp"] = [key for key,value in apk.find_csp.items() if not value ]
         dict_to_insert["file_js_with_iframe"] = apk.file_js_with_iframe
         
+        if len(apk.url_dynamic) > 0:
+            dict_to_insert["url_dynamic"] = apk.url_dynamic
+
         if len(file_xss_vuln) > 0:
             dict_to_insert["file_xss_vuln"] = file_xss_vuln
         
