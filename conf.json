@@ -9,5 +9,12 @@
 
     "method_to_check": ["addJavascriptInterface", "setJavaScriptEnabled"],
 
-    "method_smali_parser": ["loadUrl", "addJavascriptInterface", "setJavaScriptEnabled", "evaluateJavascript"]
+    "method_smali_parser": ["loadUrl", "addJavascriptInterface", "setJavaScriptEnabled", "evaluateJavascript"],
+    
+    "url_to_remove" :[  "googleads.g.doubleclick.net",
+                        "www.gstatic.com",
+                        "play.googleapis.com",
+                        "android-safebrowsing.google.com",
+                        "fonts.gstatic.com",
+                        "playatoms-pa.googleapis.com:443"]
 }

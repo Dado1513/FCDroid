@@ -1,0 +1,12 @@
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40-loader.html
+https://www.gstatic.com/gsa_dynamic_updates/prod/Jlh4dQdzAtwS9kWYLSeWa5Q.br.jar
+https://www.gstatic.com/gsa_dynamic_updates/prod/JQkUdgPVRHxNoyy2elaYDnQ.br.jar
+https://www.gstatic.com/gsa_dynamic_updates/prod/JM91twI0eLTTOFdA2jRl52w.br.jar
+https://www.gstatic.com/suggest-dev/odws2_it:it_2018-06-23_202234844_release_signed.jar
+https://play.googleapis.com/play/log?format=raw&proto_v2=true
+https://www.gstatic.com/gsa_dynamic_updates/prod/JfrMp1ozmvH0lZqSAUZxMVw.br.jar
+https://play.googleapis.com/download/by-token/download?token=AOTCm0QFHXGbmKSGzqHVHR5k9OwcZzUduGQO-v5YXu7B2w2DEN3Wu60q9rgk6f_wDFigjd6TWPsI19KVBLrkJMHGCWI3PLH1dRaZpWJFUGIq6Op_f2HiLu0SDiTTnsVIwEefZrN3R_JLIpShbNqKNxMhudTx5GbbHJxIM6KX7WLVT8iLWFSu2ea51ySJJ8pLSR3nRdUOO4VxkMH3ucGjpExIwsveB6SPyM30Y0boGJXvMFh9LXAmaR8qqchOjnZ8Hy-rQh12SP_D_xczoq1EhwyM_UTonfnpLNqZxMOFO21MF3d-2Mxh_OhplwW0esIjtXOFfuaA-OYM9ahzTH6Dv8BUYtu5&cpn=Nq8kd0Aiyxb8ZxLc
+playatoms-pa.googleapis.com:443
+https://googleads.g.doubleclick.net/simgad/16545551140099321944
+https://android-safebrowsing.google.com/safebrowsing
+https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN_r8OUuhpKKSTjw.woff2

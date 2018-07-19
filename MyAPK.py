@@ -87,6 +87,7 @@ class MyAPK:
         self.method_2_value = dict()
         self.dynamic_javascript_enabled = False
         self.dynamic_javascript_interface = False
+        self.all_url_dynamic = list()
 
     def read(self, filename, binary=True):
         with open(filename, 'rb' if binary else 'r') as f:
@@ -651,6 +652,10 @@ class MyAPK:
         i = 1
         list_file_js_dynamic = dict()
         dir_write = os.path.join("temp_html_code","html_downloaded_"+self.name_only_apk)
+        
+        if not os.path.isdir(dir_write):
+            os.makedirs(dir_write)
+        
         for code in javascript_code_exec:
             file_js = os.path.join(dir_write,name_file+"{0}.js".format(i)) 
             file = open(file_js,"w")
@@ -690,6 +695,18 @@ class MyAPK:
 
         # url effettivamente caricate nell'applicazione
         self.url_dynamic = list(set().union(self.url_dynamic, url_network)) 
+        self.all_url_dynamic = self.url_dynamic
+        url_dynamic_to_remove = list()
+        for url_dyn in self.url_dynamic:
+            for url_to_check in self.conf["url_to_remove"]:
+                if url_to_check in url_dyn:
+                    url_dynamic_to_remove.append(url_dyn)
+        
+        # TODO maybe to add 
+        # url_dynamic_to_remove = list(set(url_dynamic_to_remove))
+        for url_to_remove in url_dynamic_to_remove:
+            self.url_dynamic.remove(url_to_remove)
+
         #######################################################################################################
         
         self.url_loaded = list(set().union(
