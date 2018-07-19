@@ -59,7 +59,7 @@ class MyAPK:
         self.javascript_enabled = False
         self.internet_enabled = False
         self.file_vulnerable_frame_confusion = list()
-        self.file_js_with_iframe = list()
+        self.file_with_string_iframe = list()
         self.isHybrid = None
         # dict indexes with name method and get encoded methods where function was called
         self.method = dict()
@@ -252,18 +252,19 @@ class MyAPK:
                 soup = BeautifulSoup(file_read, 'lxml')
                 try:
 
-                    find_iframe, list_row_string, list_src_iframe = FileAnalysis.find_string(
+                    find_iframe, list_row_string, list_src_iframe, find_string_not_tag = FileAnalysis.find_string(
                         self.string_to_find, self.search_tag, file_to_inspect,  file_read, soup, self.logger)
 
                     #######################################################################################################
                     # TODO insert in method --> String Analysis
                     if find_iframe and self.string_to_find == "iframe":
-                        self.dict_file_with_string[file_to_inspect] = list_row_string
-                        self.src_iframe[file_to_inspect] = list_src_iframe
+                        if not find_string_not_tag:
+                            self.dict_file_with_string[file_to_inspect] = list_row_string
+                            self.src_iframe[file_to_inspect] = list_src_iframe
+                        
                         # TODO search id iframe in file js in script src
-
-                        if not self.search_tag or file_to_inspect_split.endswith(".js"):
-                            self.file_js_with_iframe.append(
+                        if not self.search_tag or file_to_inspect_split.endswith(".js") or find_string_not_tag:
+                            self.file_with_string_iframe.append(
                                 file_to_inspect)  # append file with iframe
                             print(bcolors.FAIL+"Found "+self.string_to_find +
                                   " in line "+str(list_row_string)+bcolors.ENDC)
@@ -573,8 +574,6 @@ class MyAPK:
             self.logger.logger.info("[END ALL URL INSIDE APK]")
 
     
-
-    
     # check vulnerability
     def vulnerable_frame_confusion(self):
         """ 
@@ -599,7 +598,7 @@ class MyAPK:
             self.list_origin_access) == 0 or "*" in self.list_origin_access
         self.is_vulnerable_frame_confusion = ("iframe" in self.string_to_find and
                                               self.check_method_conf() and
-                                              len(self.dict_file_with_string) > 0 and
+                                              (len(self.dict_file_with_string) > 0 or len(self.file_with_string_iframe) > 0) and
                                               self.is_contain_permission and
                                               not csp_in_file_iframe and white_list_bug)
 
@@ -610,7 +609,6 @@ class MyAPK:
             dall'analisi dinamica
         """
 
-        self.logger.logger.info("[Init add url dynamic ]")
 
         #######################################################################################################
         function_load_url = ["loadUrl"]  # funzioni che caricano url in Android
@@ -623,8 +621,11 @@ class MyAPK:
             # dynamic interface and javascript enabled
             if keys == "addJavascriptInterface":
                 self.dynamic_javascript_interface = True
-            if keys == "setJavaScriptEnabled":
+            
+            # TODO check --> considero javascriptenabled se ho solo l'interface abilitata
+            if keys == "setJavaScriptEnabled" or self.dynamic_javascript_interface:
                 self.dynamic_javascript_enabled = True
+            
         # get all http/https/file in load function
         self.url_dynamic = filter(lambda x: x.startswith(
             "http://") or x.startswith("https://") or x.startswith("file://"), url_api_monitor)
@@ -645,6 +646,22 @@ class MyAPK:
         # now write this code in a file and analyze them
         javascript_code_exec = list(set().union(
             javascript_load_url, javascript_evaluate))
+
+        name_file = "code_js_loaded_"
+        i = 1
+        list_file_js_dynamic = dict()
+        dir_write = os.path.join("temp_html_code","html_downloaded_"+self.name_only_apk)
+        for code in javascript_code_exec:
+            file_js = os.path.join(dir_write,name_file+"{0}.js".format(i)) 
+            file = open(file_js,"w")
+            file.write(code)
+            file.close()
+            list_file_js_dynamic[file_js] = False
+            self.javascript_file[file_js] = False
+        
+        self.logger.logger.info("[Start javascript code dynamic]")
+        self.find_string(list_file_js_dynamic)
+        self.logger.logger.info("[End javascript code dynamic]\n")
 
         #######################################################################################################
         # TODO mettere metodi cordova
@@ -679,7 +696,7 @@ class MyAPK:
             self.url_loaded, self.url_dynamic))
         
         self.all_url = list(set().union(self.all_url, self.url_loaded))
-        
+        self.logger.logger.info("[Init add url dynamic ]")
         for u in self.url_dynamic:
             if u.startswith("http://"):
                 self.http_connection = self.http_connection + 1

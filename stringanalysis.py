@@ -52,6 +52,7 @@ class FileAnalysis:
         name_file = name_file_complete.split("?",1)[0] # remove parameter 
         find_iframe = False
         use_grep = False
+        find_string = False
         list_row_string = []
         list_src_iframe = []
         file_line = list()
@@ -78,6 +79,7 @@ class FileAnalysis:
                     line = split_match[1]
                     list_row_string.append(str(line))
                     find_iframe = True
+                    find_string = True
 
             else:
                 # implement grep with -Hnrois option
@@ -87,6 +89,7 @@ class FileAnalysis:
                     if re.search(string_regex,value):
                         list_row_string.append(str(counter+1))
                         find_iframe = True
+                        find_string = True
         
         # provo a vedere se esiste iframe come string all'interno
         if not find_iframe and name_file.endswith(".html"):
@@ -98,14 +101,16 @@ class FileAnalysis:
                     line = split_match[1]
                     list_row_string.append(str(line))
                     find_iframe = True
+                    find_string = True
             else:
                 string_regex = re.compile(r"\"\b{0}\b\"".format(string_to_find),re.IGNORECASE)
                 for (counter,value) in enumerate(file_line):
                     if re.search(string_regex,value) :
                         list_row_string.append(str(counter+1))
                         find_iframe = True
+                        find_string = True
 
-        return find_iframe, list_row_string, list_src_iframe
+        return find_iframe, list_row_string, list_src_iframe, find_string
 
     @staticmethod
     def check_method_used_value(list_source_code, metodo, value):

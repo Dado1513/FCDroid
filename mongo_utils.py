@@ -50,7 +50,7 @@ class MongoDB:
         dict_to_insert["file_config_hybrid"] = apk.file_hybrid
         dict_to_insert["file_origin_access"] = apk.list_origin_access
         dict_to_insert["file_without_csp"] = [key for key,value in apk.find_csp.items() if not value ]
-        dict_to_insert["file_js_with_iframe"] = apk.file_js_with_iframe
+        dict_to_insert["file_with_string_iframe"] = apk.file_with_string_iframe
         dict_to_insert["dynamic_js_enable"] = apk.dynamic_javascript_enabled
         dict_to_insert["dynamic_js_interface"] = apk.dynamic_javascript_interface
         
