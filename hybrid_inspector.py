@@ -138,7 +138,7 @@ def analyze_start(conf, apk_to_analyze, tag, string_to_find, api_monitor_dict=No
             logger.logger.info("Number of http connection {0}".format(len(apk.http_connection)))
             if len(apk.http_connection )> 0:
                 http_url = "\n- ".join(apk.http_connection)
-                logger.logger.info("This http connection: \n-{0}\n".format(http_url))
+                logger.logger.info("This http connection: \n- {0}\n".format(http_url))
                 apk_that_use_http.append(apk_to_analyze)
             
             logger.logger.info("Number of http connection inside loadUrl {0}\n".format(len(apk.http_connection_static)))
@@ -155,7 +155,7 @@ def analyze_start(conf, apk_to_analyze, tag, string_to_find, api_monitor_dict=No
             file_xss = list(apk.page_xss_vuln.keys())
             if len(file_xss) > 0:
                 apk_with_xss.append(apk_to_analyze)
-                logger.logger.info("File that use function js vulnerable at xss {0}".format(file_xss))  
+                logger.logger.info("File that use function js vulnerable at xss {0}\n".format(file_xss))  
             
             if mongo.is_available:
                 mongo.insert_analysis(apk,apktool_retire,remote_retire,file_xss,logger)
