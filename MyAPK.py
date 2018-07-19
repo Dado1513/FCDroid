@@ -78,9 +78,9 @@ class MyAPK:
         self.src_iframe = dict()
         self.page_xss_vuln = dict()
         self.is_vulnerable_frame_confusion = False
-        self.http_connection = 0
-        self.http_connection_static = 0
-        self.all_http_connection = 0
+        self.http_connection = list()
+        self.http_connection_static = list()
+        self.all_http_connection = list()
         self.url_dynamic = list()
         self.use_smaliparser = use_smaliparser
         self.use_analyze = not use_smaliparser
@@ -547,7 +547,7 @@ class MyAPK:
             self.url_loaded = list(set(self.url_loaded))
             for u in self.url_loaded:
                 if u.startswith("http://"):
-                    self.http_connection_static = self.http_connection_static + 1
+                    self.http_connection_static.append(u)
                 self.logger.logger.info(
                     "Url inside load function: {0}".format(u))
             self.logger.logger.info("[END URL LOADED INSIDE LOAD FUNCTION]")
@@ -570,7 +570,7 @@ class MyAPK:
             self.logger.logger.info("[START ALL URL INSIDE APK]")
             for u in self.all_url:
                 if u.startswith("http://"):
-                    self.all_http_connection = self.all_http_connection + 1
+                    self.all_http_connection.append(u)
                 self.logger.logger.info("Url inside apk {0}".format(u))
             self.logger.logger.info("[END ALL URL INSIDE APK]")
 
@@ -693,6 +693,8 @@ class MyAPK:
             url_network = list(set().union(
                 url_network, self.network_dict[keys]["url"]))
 
+        ##########################################################################################################
+        # remove url google 
         # url effettivamente caricate nell'applicazione
         self.url_dynamic = list(set().union(self.url_dynamic, url_network)) 
         self.all_url_dynamic = self.url_dynamic
@@ -703,12 +705,12 @@ class MyAPK:
                     url_dynamic_to_remove.append(url_dyn)
         
         # TODO maybe to add 
-        # url_dynamic_to_remove = list(set(url_dynamic_to_remove))
+        url_dynamic_to_remove = list(set(url_dynamic_to_remove))
         for url_to_remove in url_dynamic_to_remove:
             self.url_dynamic.remove(url_to_remove)
 
+
         #######################################################################################################
-        
         self.url_loaded = list(set().union(
             self.url_loaded, self.url_dynamic))
         
@@ -716,7 +718,7 @@ class MyAPK:
         self.logger.logger.info("[Init add url dynamic ]")
         for u in self.url_dynamic:
             if u.startswith("http://"):
-                self.http_connection = self.http_connection + 1
+                self.http_connection.append(u)
             self.logger.logger.info("Url dynamic {0}".format(u))
 
         self.logger.logger.info("[End url dynamic]\n")

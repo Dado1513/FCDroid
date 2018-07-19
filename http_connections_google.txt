@@ -1,3 +1,4 @@
+# ADD
 https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40-loader.html
 https://www.gstatic.com/gsa_dynamic_updates/prod/Jlh4dQdzAtwS9kWYLSeWa5Q.br.jar
 https://www.gstatic.com/gsa_dynamic_updates/prod/JQkUdgPVRHxNoyy2elaYDnQ.br.jar
@@ -10,3 +11,7 @@ playatoms-pa.googleapis.com:443
 https://googleads.g.doubleclick.net/simgad/16545551140099321944
 https://android-safebrowsing.google.com/safebrowsing
 https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN_r8OUuhpKKSTjw.woff2
+r1---sn-b5gg-ca9e
+http://schemas.android.com/apk/res/
+csi.gstatic.com
+www.google-analytics.com

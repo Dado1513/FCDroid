@@ -93,7 +93,7 @@ def analyze_start(conf, apk_to_analyze, tag, string_to_find, api_monitor_dict=No
                     if not apk.file_vulnerable_frame_confusion == apk.file_with_string_iframe or not set(apk.file_vulnerable_frame_confusion).issubset(set(apk.file_with_string_iframe)):
                         print(bcolors.FAIL + "\nThis app might be vulnerable on attack frame confusion." +bcolors.ENDC)
                         print(bcolors.FAIL + "This file are vulnerable " + str(apk.file_vulnerable_frame_confusion)+bcolors.ENDC)
-                        logger.logger.info("This app might be vulnerable on attack frame confusion, This file are vulnerable %s", str(apk.file_vulnerable_frame_confusion))
+                        logger.logger.info("This app might be vulnerable on attack frame confusion, This file are vulnerable %s\n", str(apk.file_vulnerable_frame_confusion))
                     else:
                         print(bcolors.WARNING + "\nThis app might be vulnerable on attack frame confusion (found string iframe inside js file)." +bcolors.ENDC)
 
@@ -101,18 +101,18 @@ def analyze_start(conf, apk_to_analyze, tag, string_to_find, api_monitor_dict=No
                         apk_maybe_vulnerable.append(apk_to_analyze)
                         print()
                         print(bcolors.WARNING+ "This file are suspect, contain iframe string inside:{0} ".format(apk.file_with_string_iframe)+ bcolors.ENDC)
-                        logger.logger.info("This file are suspects, containe string iframe inside: {0}".format(apk.file_with_string_iframe))
+                        logger.logger.info("This file are suspects, containe string iframe inside: {0}\n".format(apk.file_with_string_iframe))
                     print()
                     logger.logger.info("End time:[%s]",time.ctime())
                 
                 elif len(apk.file_with_string_iframe) == 0:
                     print(bcolors.OKGREEN+"\nThis app might be not vulnerable on attack iframe confusion"+bcolors.ENDC)
                     logger.logger.info("This app might be not vulnerable on  attack frame confusion.")
-                    logger.logger.info("End time:["+str(time.ctime())+"]")
+                    logger.logger.info("End time:["+str(time.ctime())+"]\n")
                 
                 else:
                     print(bcolors.WARNING+"\nThis app might be vulnerabile (found string iframe), in this file: "+str(apk.file_with_string_iframe) + bcolors.ENDC)
-                    logger.logger.info("This app might be vulnerabile (found string iframe), in this file {0}".format(apk.file_with_string_iframe))
+                    logger.logger.info("This app might be vulnerabile (found string iframe), in this file {0}\n".format(apk.file_with_string_iframe))
                     apk_maybe_vulnerable.append(apk_to_analyze)
 
                 if apk.dynamic_javascript_enabled:
@@ -131,19 +131,21 @@ def analyze_start(conf, apk_to_analyze, tag, string_to_find, api_monitor_dict=No
                     apk_with_html_file.append(apk_to_analyze)
             else:
                 print(bcolors.FAIL + "Some error occured during decompilation." + bcolors.ENDC)
-                logger.logger.error("Some error during decompilation.")
+                logger.logger.error("Some error during decompilation.\n")
 
             apktool_retire,remote_retire = scan_retire(apk)
             
-            logger.logger.info("Number of http connection {0}".format(apk.http_connection))
-            if apk.http_connection > 0:
+            logger.logger.info("Number of http connection {0}".format(len(apk.http_connection)))
+            if len(apk.http_connection )> 0:
+                http_url = "\n- ".join(apk.http_connection)
+                logger.logger.info("This http connection: \n-{0}\n".format(http_url))
                 apk_that_use_http.append(apk_to_analyze)
             
-            logger.logger.info("Number of http connection inside loadUrl {0}".format(apk.http_connection_static))
-            if apk.http_connection_static > 0:
+            logger.logger.info("Number of http connection inside loadUrl {0}\n".format(len(apk.http_connection_static)))
+            if len(apk.http_connection_static) > 0:
                 apk_that_use_http_loadUrl.append(apk_to_analyze)
 
-            logger.logger.info("Number of all http url inside apk {0}".format(apk.all_http_connection))
+            logger.logger.info("Number of all http url inside apk {0}\n".format(len(apk.all_http_connection)))
 
             
             if apktool_retire != None or remote_retire != None:
@@ -169,6 +171,10 @@ def analyze_start(conf, apk_to_analyze, tag, string_to_find, api_monitor_dict=No
                 apk_with_js_enabled.append(apk_to_analyze)
             if result["js_interface"]:
                 apk_with_js_interface.append(apk_to_analyze)
+            if result["dynamic_js_enable"]:
+                apk_with_js_enabled_dynamic.append(apk_to_analyze)
+            if result["dynamic_js_interface"]:
+                apk_with_js_interface_dynamic.append(apk_to_analyze)
             if len(result["html_file"]) > 0 or len(result["url_loaded"]) > 0:
                 apk_with_html_file.append(apk)
             
