@@ -396,7 +396,7 @@ class MyAPK:
             
             if self.use_smaliparser:
                 if "setJavaScriptEnabled" in self.method_2_value.keys():
-                    if "0x1" in self.method_2_value["setJavaScriptEnabled"]:
+                    if "true" in self.method_2_value["setJavaScriptEnabled"]:
                         self.javascript_enabled = True
                         method_present["setJavaScriptEnabled"] = True
                 if  "addJavascriptInterface" in self.method_2_value.keys():
@@ -624,7 +624,7 @@ class MyAPK:
                 self.dynamic_javascript_interface = True
             
             # TODO check --> considero javascriptenabled se ho solo l'interface abilitata
-            if keys == "setJavaScriptEnabled" or self.dynamic_javascript_interface:
+            if keys == "setJavaScriptEnabled" and True in self.api_monitor_dict[keys]["args"]:
                 self.dynamic_javascript_enabled = True
             
         # get all http/https/file in load function
