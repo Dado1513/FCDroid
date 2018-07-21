@@ -163,7 +163,7 @@ def analyze_start(conf, apk_to_analyze, tag, string_to_find, api_monitor_dict=No
 
         else:
             logger.logger.info("Analysis yet done")
-            if len(result["file_js_with_iframe"]) > 0:
+            if len(result["file_with_string_iframe"]) > 0:
                 apk_maybe_vulnerable.append(apk_to_analyze)
             if result["frame_confusion_vulnerable"]:
                 apk_vulnerable.append(apk_to_analyze)

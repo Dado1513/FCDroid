@@ -396,7 +396,7 @@ class MyAPK:
             
             if self.use_smaliparser:
                 if "setJavaScriptEnabled" in self.method_2_value.keys():
-                    if "true" in self.method_2_value["setJavaScriptEnabled"]:
+                    if "0x1" in self.method_2_value["setJavaScriptEnabled"]:
                         self.javascript_enabled = True
                         method_present["setJavaScriptEnabled"] = True
                 if  "addJavascriptInterface" in self.method_2_value.keys():
