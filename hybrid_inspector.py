@@ -186,7 +186,7 @@ def analyze_start(conf, apk_to_analyze, tag, string_to_find, api_monitor_dict=No
             if len(result["http_connection_loadUrl"]) > 0:
                 apk_that_use_http_loadUrl.append(apk)
             
-            if "retire_locale" in result.keys() or "retire_remote"  in resutlt.keys():
+            if "retire_locale" in result.keys() or "retire_remote"  in result.keys():
                 apk_with_library_vulnerable.append(apk)
             
             return True
