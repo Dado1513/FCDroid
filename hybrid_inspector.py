@@ -47,6 +47,7 @@ def analyze_start(conf, apk_to_analyze, tag, string_to_find, api_monitor_dict=No
         apk = MyAPK(apk_to_analyze, conf, log_file, tag, string_to_find, logger, \
                     api_monitor_dict=api_monitor_dict, network_dict=network_dict,use_smaliparser=True) # dict che arrivano dall'analisi dinamica
         
+        maybe_vulnerable =  False
         mongo = MongoDB(logger)
         result = None
         if mongo.is_available: # connection available
@@ -100,6 +101,7 @@ def analyze_start(conf, apk_to_analyze, tag, string_to_find, api_monitor_dict=No
                     if len(apk.file_with_string_iframe) > 0:
                         apk_maybe_vulnerable.append(apk_to_analyze)
                         print()
+                        maybe_vulnerable = True
                         print(bcolors.WARNING+ "This file are suspect, contain iframe string inside:{0} ".format(apk.file_with_string_iframe)+ bcolors.ENDC)
                         logger.logger.info("This file are suspects, containe string iframe inside: {0}\n".format(apk.file_with_string_iframe))
                     print()
@@ -114,6 +116,8 @@ def analyze_start(conf, apk_to_analyze, tag, string_to_find, api_monitor_dict=No
                     print(bcolors.WARNING+"\nThis app might be vulnerabile (found string iframe), in this file: "+str(apk.file_with_string_iframe) + bcolors.ENDC)
                     logger.logger.info("This app might be vulnerabile (found string iframe), in this file {0}\n".format(apk.file_with_string_iframe))
                     apk_maybe_vulnerable.append(apk_to_analyze)
+                    maybe_vulnerable = True
+
 
                 if apk.dynamic_javascript_enabled:
                     apk_with_js_enabled_dynamic.append(apk_to_analyze) 
@@ -177,6 +181,13 @@ def analyze_start(conf, apk_to_analyze, tag, string_to_find, api_monitor_dict=No
                 apk_with_js_interface_dynamic.append(apk_to_analyze)
             if len(result["html_file"]) > 0 or len(result["url_loaded"]) > 0:
                 apk_with_html_file.append(apk)
+            if len(result["http_connection"]) > 0:
+                apk_that_use_http.append(apk)
+            if len(result["http_connection_loadUrl"]) > 0:
+                apk_that_use_http_loadUrl.append(apk)
+            
+            if "retire_locale" in result.keys() or "retire_remote"  in resutlt.keys():
+                apk_with_library_vulnerable.append(apk)
             
             return True
             
