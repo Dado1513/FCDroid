@@ -29,7 +29,12 @@ class MongoDB:
         result = self.analysis_db.find_one({"name_apk":apk_name})
         return result
 
-    def insert_analysis(self,apk,retire_local,retire_remote,file_xss_vuln,logger):
+    def find_all_results(self):
+        
+        result =  self.analysis_db.find({})
+        return result
+
+    def insert_analysis(self,apk,retire_local,retire_remote,file_xss_vuln,logger, execution_time):
         """
             function to insert element in mongo db after scan
 
@@ -53,6 +58,7 @@ class MongoDB:
         dict_to_insert["file_with_string_iframe"] = apk.file_with_string_iframe
         dict_to_insert["dynamic_js_enable"] = apk.dynamic_javascript_enabled
         dict_to_insert["dynamic_js_interface"] = apk.dynamic_javascript_interface
+        dict_to_insert["execution_time"] = execution_time   
         
         if len(apk.url_dynamic) > 0:
             dict_to_insert["url_dynamic"] = apk.url_dynamic

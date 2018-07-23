@@ -42,6 +42,7 @@ def analyze_start(conf, apk_to_analyze, tag, string_to_find, api_monitor_dict=No
     logger = Logger(log_file)
     # file_log = open(log_file,"w")
     print(bcolors.WARNING+"[*] Searching in "+apk_to_analyze+bcolors.ENDC)
+    time_start_single_apk = time.ctime()
     logger.logger.info("Init Time ["+time.ctime()+"]")
     try:
         apk = MyAPK(apk_to_analyze, conf, log_file, tag, string_to_find, logger, \
@@ -161,34 +162,15 @@ def analyze_start(conf, apk_to_analyze, tag, string_to_find, api_monitor_dict=No
                 apk_with_xss.append(apk_to_analyze)
                 logger.logger.info("File that use function js vulnerable at xss {0}\n".format(file_xss))  
             
+            time_end_single_apk = time.ctime()
+            execution_time = time_start_single_apk - time_end_single_apk
             if mongo.is_available:
-                mongo.insert_analysis(apk,apktool_retire,remote_retire,file_xss,logger)
+                mongo.insert_analysis(apk,apktool_retire,remote_retire,file_xss,logger,execution_time)
             logger.shutdown()
 
         else:
             logger.logger.info("Analysis yet done")
-            if len(result["file_with_string_iframe"]) > 0:
-                apk_maybe_vulnerable.append(apk_to_analyze)
-            if result["frame_confusion_vulnerable"]:
-                apk_vulnerable.append(apk_to_analyze)
-            if result["js_enable"]:
-                apk_with_js_enabled.append(apk_to_analyze)
-            if result["js_interface"]:
-                apk_with_js_interface.append(apk_to_analyze)
-            if result["dynamic_js_enable"]:
-                apk_with_js_enabled_dynamic.append(apk_to_analyze)
-            if result["dynamic_js_interface"]:
-                apk_with_js_interface_dynamic.append(apk_to_analyze)
-            if len(result["html_file"]) > 0 or len(result["url_loaded"]) > 0:
-                apk_with_html_file.append(apk)
-            if len(result["http_connection"]) > 0:
-                apk_that_use_http.append(apk)
-            if len(result["http_connection_loadUrl"]) > 0:
-                apk_that_use_http_loadUrl.append(apk)
-            
-            if "retire_locale" in result.keys() or "retire_remote"  in result.keys():
-                apk_with_library_vulnerable.append(apk)
-            
+            analysis_yet_done(result,apk_to_analyze)            
             return True
             
 
@@ -196,8 +178,30 @@ def analyze_start(conf, apk_to_analyze, tag, string_to_find, api_monitor_dict=No
         logger.logger.error("APK corrupted")
         print(bcolors.FAIL+"APK corrupted"+bcolors.ENDC)
 
- 
-    
+def analysis_yet_done(result,apk_to_analyze):
+    if len(result["file_with_string_iframe"]) > 0:
+        apk_maybe_vulnerable.append(apk_to_analyze)
+    if result["frame_confusion_vulnerable"]:
+        apk_vulnerable.append(apk_to_analyze)
+    if result["js_enable"]:
+        apk_with_js_enabled.append(apk_to_analyze)
+    if result["js_interface"]:
+        apk_with_js_interface.append(apk_to_analyze)
+    if result["dynamic_js_enable"]:
+        apk_with_js_enabled_dynamic.append(apk_to_analyze)
+    if result["dynamic_js_interface"]:
+        apk_with_js_interface_dynamic.append(apk_to_analyze)
+    if len(result["html_file"]) > 0 or len(result["url_loaded"]) > 0:
+        apk_with_html_file.append(apk_to_analyze)
+    if len(result["http_connection"]) > 0:
+        apk_that_use_http.append(apk_to_analyze)
+    if len(result["http_connection_loadUrl"]) > 0:
+        apk_that_use_http_loadUrl.append(apk_to_analyze)
+    if "file_xss_vuln" in result.keys() :
+        apk_with_xss.append(apk_to_analyze)
+    if "retire_locale" in result.keys() or "retire_remote"  in result.keys():
+        apk_with_library_vulnerable.append(apk_to_analyze)
+
 def main():
     second_start = time.time()
     parser = argparse.ArgumentParser(
@@ -283,7 +287,7 @@ def scan_retire(apk):
     
     return output_retire_apk_tool,output_retire_remote
 
-def print_summary(list_apk_to_analyze, file_output_stat, second_start):
+def print_summary(list_apk_to_analyze, file_output_stat, second_start=None):
         
         file_stat_final = open("log/{0}".format(str(file_output_stat)),"w")    
         
@@ -303,7 +307,7 @@ def print_summary(list_apk_to_analyze, file_output_stat, second_start):
         #######################################################################################################
         string_html = "\nPercentual app with at least one html file inside: {0}%\n".format(percentual_html_apk*100)
         string_js_enabled_dynamic = "Percentual app with js enabled (check dynamic) {0}%\n".format(percentual_js_enabled_dynamic* 100)
-        string_js_interface_dynamic = "Percentual app with js interface (check stadynamictic) {0}%\n".format(percentual_js_interface_dynamic * 100)
+        string_js_interface_dynamic = "Percentual app with js interface (check dynamic) {0}%\n".format(percentual_js_interface_dynamic * 100)
         string_js_enabled_static = "Percentual app with js enabled (check static) {0}%\n".format(percentual_js_enabled_static * 100)
         string_js_interface_static = "Percentual app with js interface (check static) {0}%\n".format(percentual_js_interface_static * 100)
         string_percentual_vuln = "Percentual app maybe vulnerable: {0}%, based on tot {1}.\n".format(percentual_vuln*100,len(list_apk_to_analyze))
@@ -315,9 +319,11 @@ def print_summary(list_apk_to_analyze, file_output_stat, second_start):
         apk_string_to_print = "\n-".join(list_apk_to_analyze)
 
         ########################################################################################################
-        second_finish= time.time()
-        average_time_apk = (second_finish - second_start)/len(list_apk_to_analyze)
-        string_time_percentual = "Average time single apk analyzed {0} sec\n".format(average_time_apk)
+        if second_start is not None:
+            second_finish= time.time()
+            
+            average_time_apk = (second_finish - second_start)/len(list_apk_to_analyze)
+            string_time_percentual = "Average time single apk analyzed {0} sec\n".format(average_time_apk)
 
         ########################################################################################################
         # print on file
@@ -330,7 +336,8 @@ def print_summary(list_apk_to_analyze, file_output_stat, second_start):
         
         file_stat_final.write(string_percentual_vuln)
         file_stat_final.write(string_percentual_iframe_not_in_html)
-        file_stat_final.write(string_time_percentual)
+        if second_start is not None:
+            file_stat_final.write(string_time_percentual)
         file_stat_final.write(string_percentual_app_lib_vuln)
         file_stat_final.write(string_percentual_app_xss)
         ########################################################################################################
@@ -346,7 +353,8 @@ def print_summary(list_apk_to_analyze, file_output_stat, second_start):
         print(string_js_interface_dynamic)
         print(string_percentual_vuln)
         print(string_percentual_iframe_not_in_html)
-        print(string_time_percentual)
+        if second_start is not None:
+            print(string_time_percentual)
         print(string_percentual_app_lib_vuln)
         print(string_percentual_app_xss)
 
