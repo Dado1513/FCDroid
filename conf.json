@@ -20,5 +20,10 @@
                         "r1---sn-b5gg-ca9e.gvt1.com",
                         "http://schemas.android.com/apk/res/",
                         "csi.gstatic.com",
-                        "www.google-analytics.com"]
+                        "www.google-analytics.com",
+                        "safebrowsing.googleapis.com",
+                        "ssl.google-analytics.com",
+                        "r1---sn-45nufxc-bv5e.gvt1.com",
+                        "cloudconfig.googleapis.com",
+                        "android.clients.google.com"]
 }

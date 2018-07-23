@@ -30,6 +30,21 @@ apk_with_xss = list()
 apk_that_use_http = list()
 apk_that_use_http_loadUrl = list()
 
+def reset_list():
+    """
+        reset all list
+    """
+    apk_vulnerable = list()
+    apk_maybe_vulnerable = list()
+    apk_with_html_file = list() # numero di apk con file html all'interno
+    apk_with_js_enabled = list()
+    apk_with_js_interface = list()
+    apk_with_library_vulnerable = list()
+    apk_with_js_enabled_dynamic = list()
+    apk_with_js_interface_dynamic = list()
+    apk_with_xss = list()
+    apk_that_use_http = list()
+    apk_that_use_http_loadUrl = list()
 
 def analyze_start(conf, apk_to_analyze, tag, string_to_find, api_monitor_dict=None, network_dict=None):
     print(bcolors.BOLD+apk_to_analyze.split("/")[-1]+bcolors.ENDC)
@@ -42,7 +57,7 @@ def analyze_start(conf, apk_to_analyze, tag, string_to_find, api_monitor_dict=No
     logger = Logger(log_file)
     # file_log = open(log_file,"w")
     print(bcolors.WARNING+"[*] Searching in "+apk_to_analyze+bcolors.ENDC)
-    time_start_single_apk = time.ctime()
+    time_start_single_apk = time.time()
     logger.logger.info("Init Time ["+time.ctime()+"]")
     try:
         apk = MyAPK(apk_to_analyze, conf, log_file, tag, string_to_find, logger, \
@@ -162,7 +177,7 @@ def analyze_start(conf, apk_to_analyze, tag, string_to_find, api_monitor_dict=No
                 apk_with_xss.append(apk_to_analyze)
                 logger.logger.info("File that use function js vulnerable at xss {0}\n".format(file_xss))  
             
-            time_end_single_apk = time.ctime()
+            time_end_single_apk = time.time()
             execution_time = time_start_single_apk - time_end_single_apk
             if mongo.is_available:
                 mongo.insert_analysis(apk,apktool_retire,remote_retire,file_xss,logger,execution_time)

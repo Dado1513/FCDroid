@@ -17,6 +17,7 @@ class MongoDB:
             self.client.server_info()
             self.db = self.client['db']
             self.analysis_db = self.db['HybridAnalysis']
+        
         except pymongo.errors.ServerSelectionTimeoutError as err:
             self.logger.logger.warning("Unable to connect mongodb")
             self.is_available = False
@@ -29,8 +30,20 @@ class MongoDB:
         result = self.analysis_db.find_one({"name_apk":apk_name})
         return result
 
+    def delete_analysis(self, apk_name):
+        """
+            delete result apk_name
+        """
+        try:
+            self.analysis_db.delete_one({"name_apk":apk_name})
+            self.logger.logger.info("Success delete {0}".format(apk_name))
+        except Exception as e:
+            self.logger.logger.error("Unable delete {0} with {1}".format(apk_name,e))
+
     def find_all_results(self):
-        
+        """
+            find all results
+        """
         result =  self.analysis_db.find({})
         return result
 

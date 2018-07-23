@@ -37,7 +37,7 @@ class MyAPK:
     def __init__(self, name_file, conf, file_log, tag, string_to_find, logger, api_monitor_dict=None, network_dict=None, use_smaliparser=True):
 
         self.name_apk = name_file
-        self.name_only_apk = self.name_apk.split("/")[-1].split(".")[0]
+        self.name_only_apk = self.name_apk.split("/")[-1].split(".apk")[0]
         self.conf = conf
         self.apk = APK(name_file)
         self.dalviks_format = None
