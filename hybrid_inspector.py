@@ -372,7 +372,7 @@ def print_summary(list_apk_to_analyze, file_output_stat, second_start=None):
         print()
         print()
         print(bcolors.BOLD+"-- Final Result -- \n")
-        print("Apk analyzed: {0} \n-{1} \n".format(len(list_apk_to_analyze),apk_string_to_print))
+        print("Apk analyzed: {0} \n-{1} \n".format(len(list_apk_to_analyze),apk_string_to_print)+bcolors.ENDC)
         print(string_html)
         print(string_js_enabled_static)
         print(string_js_enabled_dynamic)
