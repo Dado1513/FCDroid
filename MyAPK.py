@@ -99,7 +99,7 @@ class MyAPK:
         """
             check permission hybrid app
         """
-        use_permission_checker = True
+        use_permission_checker = False
         if not use_permission_checker:    
             permission_find = list()
             for permission_to_check in list_permission_to_find:
@@ -118,7 +118,12 @@ class MyAPK:
                 permission_find) == len(list_permission_to_find)
         else:
             
-            cmd_permission_checker = ["java","-jar","PermissionChecker.jar",self.name_apk]
+            if "PermissionChecker.jar" in os.listdir("."):
+                dir_permission_checker = "PermissionChecker.jar"
+            else:
+                dir_permission_checker = os.path.join("inspectHybridApk","PermissionChecker.jar")
+            
+            cmd_permission_checker = ["java","-jar",dir_permission_checker,self.name_apk]
             process = subprocess.Popen(cmd_permission_checker,stdout=subprocess.PIPE)
             result = process.communicate()[0]
             result = json.loads(result)
