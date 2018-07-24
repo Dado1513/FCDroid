@@ -230,6 +230,9 @@ class MyAPK:
         """ 
             search static dom xss based on regex
         """
+        # TODO se file_name end with js use TaintJS altrimenti usare questo
+        # per usare taint js salvare il contenuto in una dir temporanea e usarlo
+        # da li dentro
         page_analyze = XSScanner(file_name, file_content)
         page_analyze.analyze_page()
         if len(page_analyze.sink) > 0 or len(page_analyze.source) > 0:
