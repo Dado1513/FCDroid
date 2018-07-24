@@ -30,21 +30,7 @@ apk_with_xss = list()
 apk_that_use_http = list()
 apk_that_use_http_loadUrl = list()
 
-def reset_list():
-    """
-        reset all list
-    """
-    apk_vulnerable = list()
-    apk_maybe_vulnerable = list()
-    apk_with_html_file = list() # numero di apk con file html all'interno
-    apk_with_js_enabled = list()
-    apk_with_js_interface = list()
-    apk_with_library_vulnerable = list()
-    apk_with_js_enabled_dynamic = list()
-    apk_with_js_interface_dynamic = list()
-    apk_with_xss = list()
-    apk_that_use_http = list()
-    apk_that_use_http_loadUrl = list()
+
 
 def analyze_start(conf, apk_to_analyze, tag, string_to_find, api_monitor_dict=None, network_dict=None):
     print(bcolors.BOLD+apk_to_analyze.split("/")[-1]+bcolors.ENDC)
@@ -105,21 +91,31 @@ def analyze_start(conf, apk_to_analyze, tag, string_to_find, api_monitor_dict=No
                 apk.find_url_in_apk()
                 apk.vulnerable_frame_confusion()
                 if apk.is_vulnerable_frame_confusion:
-                    # TODO se file vulnerable == file_js_with_iframe modificare i controlli
-                    apk_vulnerable.append(apk_to_analyze)
+                    
+                    # se c'è almeno un file che contiene il tag <iframe> 
                     if not apk.file_vulnerable_frame_confusion == apk.file_with_string_iframe or not set(apk.file_vulnerable_frame_confusion).issubset(set(apk.file_with_string_iframe)):
                         print(bcolors.FAIL + "\nThis app might be vulnerable on attack frame confusion." +bcolors.ENDC)
                         print(bcolors.FAIL + "This file are vulnerable " + str(apk.file_vulnerable_frame_confusion)+bcolors.ENDC)
                         logger.logger.info("This app might be vulnerable on attack frame confusion, This file are vulnerable %s\n", str(apk.file_vulnerable_frame_confusion))
+                
                     else:
                         print(bcolors.WARNING + "\nThis app might be vulnerable on attack frame confusion (found string iframe inside js file)." +bcolors.ENDC)
-
+                    # se esistono file che contengono stringa ifram
                     if len(apk.file_with_string_iframe) > 0:
                         apk_maybe_vulnerable.append(apk_to_analyze)
                         print()
                         maybe_vulnerable = True
                         print(bcolors.WARNING+ "This file are suspect, contain iframe string inside:{0} ".format(apk.file_with_string_iframe)+ bcolors.ENDC)
                         logger.logger.info("This file are suspects, containe string iframe inside: {0}\n".format(apk.file_with_string_iframe))
+
+                    # se l'app era vulnerabile ma aveva solo i tag ma js è stato check staticamente --> maybe vulnerabile
+                    if not maybe_vulnerable and (not apk.dynamic_javascript_enabled or not apk.dynamic_javascript_interface):
+                        # se ho controllato staticamente js and interface allora è forse vulnerabile
+                        apk_maybe_vulnerable.append(apk_to_analyze)
+                    # se invece è stato controllato dyn --> allora è vulnerabile 
+                    elif apk.dynamic_javascript_enabled and apk.dynamic_javascript_interface:
+                        apk_vulnerable.append(apk_to_analyze)
+                        
                     print()
                     logger.logger.info("End time:[%s]",time.ctime())
                 
@@ -194,26 +190,42 @@ def analyze_start(conf, apk_to_analyze, tag, string_to_find, api_monitor_dict=No
         print(bcolors.FAIL+"APK corrupted"+bcolors.ENDC)
 
 def analysis_yet_done(result,apk_to_analyze):
-    if len(result["file_with_string_iframe"]) > 0:
-        apk_maybe_vulnerable.append(apk_to_analyze)
-    if result["frame_confusion_vulnerable"]:
+    
+    
+    # 99% soffre di questo problema
+    if result["frame_confusion_vulnerable"] and result["dynamic_js_enable"] and result["dynamic_js_interface"]:
         apk_vulnerable.append(apk_to_analyze)
+    # se sono qua vuol dire che una delle due dynamiche è falsa --> forse è vulnerabile
+    elif result["frame_confusion_vulnerable"] and len(result["file_with_string_iframe"]) == 0:
+        apk_maybe_vulnerable.append(apk_to_analyze)
+    # allora sono forse vulnerabile
+    elif len(result["file_with_string_iframe"]) > 0:
+        apk_maybe_vulnerable.append(apk_to_analyze)
+
     if result["js_enable"]:
         apk_with_js_enabled.append(apk_to_analyze)
+    
     if result["js_interface"]:
         apk_with_js_interface.append(apk_to_analyze)
+    
     if result["dynamic_js_enable"]:
         apk_with_js_enabled_dynamic.append(apk_to_analyze)
+    
     if result["dynamic_js_interface"]:
         apk_with_js_interface_dynamic.append(apk_to_analyze)
+    
     if len(result["html_file"]) > 0 or len(result["url_loaded"]) > 0:
         apk_with_html_file.append(apk_to_analyze)
+    
     if len(result["http_connection"]) > 0:
         apk_that_use_http.append(apk_to_analyze)
+    
     if len(result["http_connection_loadUrl"]) > 0:
         apk_that_use_http_loadUrl.append(apk_to_analyze)
+    
     if "file_xss_vuln" in result.keys() :
         apk_with_xss.append(apk_to_analyze)
+    
     if "retire_locale" in result.keys() or "retire_remote"  in result.keys():
         apk_with_library_vulnerable.append(apk_to_analyze)
 
