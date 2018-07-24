@@ -330,21 +330,20 @@ def print_summary(list_apk_to_analyze, file_output_stat, second_start=None):
         percentual_app_lib_vuln_retire = len(apk_with_library_vulnerable) / len(list_apk_to_analyze)
         percentual_app_with_xss_dom = len(apk_with_xss) / len(list_apk_to_analyze)
         percentual_app_use_http = len(apk_that_use_http) / len(list_apk_to_analyze)
-
         #######################################################################################################
-        string_html = "\nPercentual app with at least one html file inside: {0}%\n".format(percentual_html_apk*100)
-        string_js_enabled_dynamic = "Percentual app with js enabled (check dynamic) {0}%\n".format(percentual_js_enabled_dynamic* 100)
-        string_js_interface_dynamic = "Percentual app with js interface (check dynamic) {0}%\n".format(percentual_js_interface_dynamic * 100)
-        string_js_enabled_static = "Percentual app with js enabled (check static) {0}%\n".format(percentual_js_enabled_static * 100)
-        string_js_interface_static = "Percentual app with js interface (check static) {0}%\n".format(percentual_js_interface_static * 100)
-        string_percentual_vuln = "Percentual app maybe vulnerable: {0}%, based on tot {1}.\n".format(percentual_vuln*100,len(list_apk_to_analyze))
-        string_percentual_iframe_not_in_html = "Percentual app with iframe not in html file {0}%\n".format(percentual_iframe_not_in_html*100)
-        string_percentual_app_lib_vuln = "Percentual app that use library js vulnerable {0}%  based on tot {1}\n".format(percentual_app_lib_vuln_retire * 100, len(list_apk_to_analyze)) 
-        string_percentual_app_xss = "Percentual app that use method js vulnerable on xss {0}%  based on tot {1}\n".format(percentual_app_with_xss_dom * 100, len(list_apk_to_analyze))
-        string_percentual_app_use_http = "Percentual app that use http connection {0}%\n".format(percentual_app_use_http * 100)
+        string_html = "\nPercentual app with at least one html file inside: {:.2f}%\n".format(percentual_html_apk*100)
+        string_js_enabled_dynamic = "Percentual app with js enabled (check dynamic) {:.2f}%\n".format(percentual_js_enabled_dynamic* 100)
+        string_js_interface_dynamic = "Percentual app with js interface (check dynamic) {:.2f}%\n".format(percentual_js_interface_dynamic * 100)
+        string_js_enabled_static = "Percentual app with js enabled (check static) {:.2f}%\n" .format(percentual_js_enabled_static * 100)
+        string_js_interface_static = "Percentual app with js interface (check static) {:.2f}%\n".format(percentual_js_interface_static * 100)
+        string_percentual_vuln = "Percentual app maybe vulnerable: {:.2f}%, based on tot {tot}.\n".format(percentual_vuln*100,tot=len(list_apk_to_analyze))
+        string_percentual_iframe_not_in_html = "Percentual app with iframe not in html file {:.2f}%\n".format(percentual_iframe_not_in_html*100)
+        
+        string_percentual_app_lib_vuln = "Percentual app that use library js vulnerable {:.2f}%  based on tot {tot}\n".format(percentual_app_lib_vuln_retire * 100, tot=len(list_apk_to_analyze)) 
+        string_percentual_app_xss = "Percentual app that use method js vulnerable on xss {:.2f}%  based on tot {tot}\n".format(percentual_app_with_xss_dom * 100, tot=len(list_apk_to_analyze))
+        string_percentual_app_use_http = "Percentual app that use http connection {:.2f}%\n".format(percentual_app_use_http * 100)
 
         apk_string_to_print = "\n-".join(list_apk_to_analyze)
-
         ########################################################################################################
         if second_start is not None:
             second_finish= time.time()
@@ -372,7 +371,7 @@ def print_summary(list_apk_to_analyze, file_output_stat, second_start=None):
         print()
         print()
         print(bcolors.BOLD+"-- Final Result -- \n")
-        print("Apk analyzed: {0} \n-{1} \n".format(len(list_apk_to_analyze),apk_string_to_print)+bcolors.ENDC)
+        print("Apk analyzed: {0} \n\n-{1} \n".format(len(list_apk_to_analyze),apk_string_to_print))
         print(string_html)
         print(string_js_enabled_static)
         print(string_js_enabled_dynamic)
@@ -383,7 +382,7 @@ def print_summary(list_apk_to_analyze, file_output_stat, second_start=None):
         if second_start is not None:
             print(string_time_percentual)
         print(string_percentual_app_lib_vuln)
-        print(string_percentual_app_xss)
+        print(string_percentual_app_xss+bcolors.ENDC)
 
         
 

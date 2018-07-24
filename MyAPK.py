@@ -233,6 +233,8 @@ class MyAPK:
         # TODO se file_name end with js use TaintJS altrimenti usare questo
         # per usare taint js salvare il contenuto in una dir temporanea e usarlo
         # da li dentro
+        print("file xss dom analyze {0}".format(file_name))
+        cmd_node = ["node","TaintJS/app.js",file_name]
         page_analyze = XSScanner(file_name, file_content)
         page_analyze.analyze_page()
         if len(page_analyze.sink) > 0 or len(page_analyze.source) > 0:

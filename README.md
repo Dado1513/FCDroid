@@ -20,10 +20,10 @@ Work In Progress:
 - [x] Search loadUrl e string used if assigned to a variable before (done apimonitor)
 - [x] Download web page used 
 - [x] log output on file using logging
-- [x] controllare enableJavaScript se passa argomento true
+- [x] controllare enableJavaScript se passa argomento true (dyn and static)
 - [x] url runtime (using dynamic analysis before) such as droidbot and get file apimonitor
-- [x] whitelist url(intent/network/navigation)
+- [ ] whitelist url(intent/network/navigation)
 - [x] check iframe in js script
-- [x] identify dom xss static
+- [x] identify dom xss static (maybe)
 - [x] use retirejs 
 ___
