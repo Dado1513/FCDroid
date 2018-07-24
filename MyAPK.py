@@ -6,6 +6,7 @@ import re
 import zipfile
 import utility
 import subprocess
+import json
 from xssdom import XSScanner
 import re
 from bs4 import BeautifulSoup
@@ -93,24 +94,54 @@ class MyAPK:
         with open(filename, 'rb' if binary else 'r') as f:
             return f.read()
 
+    
     def check_permission(self, list_permission_to_find):
         """
             check permission hybrid app
         """
-        permission_find = list()
-        for permission_to_check in list_permission_to_find:
-            if permission_to_check in self.apk.get_permissions():
-                permission_find.append(True)  # contenere tutti i permessi
-                if permission_to_check == "android.permission.INTERNET":
-                    self.internet_enabled = True
+        use_permission_checker = True
+        if not use_permission_checker:    
+            permission_find = list()
+            for permission_to_check in list_permission_to_find:
+                if permission_to_check in self.apk.get_permissions():
+                    permission_find.append(True)  # contenere tutti i permessi
+                    if permission_to_check == "android.permission.INTERNET":
+                        self.internet_enabled = True
 
-        # print(permission_to_check)
-        self.logger.logger.info("[Permission Enble Start]")
-        for p in self.apk.get_permissions():
-            self.logger.logger.info(p)
-        self.logger.logger.info("[Permission End]\n")
-        self.is_contain_permission = len(
-            permission_find) == len(list_permission_to_find)
+            # print(permission_to_check)
+            self.logger.logger.info("[Permission declared Start]")
+            for p in self.apk.get_permissions():
+                self.logger.logger.info(p)
+            self.logger.logger.info("[Permission End]\n")
+
+            self.is_contain_permission = len(
+                permission_find) == len(list_permission_to_find)
+        else:
+            
+            cmd_permission_checker = ["java","-jar","PermissionChecker.jar",self.name_apk]
+            process = subprocess.Popen(cmd_permission_checker,stdout=subprocess.PIPE)
+            result = process.communicate()[0]
+            result = json.loads(result)
+            # requiredAndUsed = result['requiredAndUsed']
+            notRequiredButUsed = result['notRequiredButUsed']
+            declared = result['declared']
+            # requiredButNotUsed = result['requiredButNotUsed']
+            list_permission = list(set().union(notRequiredButUsed,declared))
+            permission_find = list()
+            for permission_to_check in list_permission_to_find:
+                if permission_to_check in list_permission:
+                    permission_find.append(True)  # contenere tutti i permessi
+                    if permission_to_check == "android.permission.INTERNET":
+                        self.internet_enabled = True
+            
+            self.logger.logger.info("[Permission declared and not required but used Start]")
+            for p in list_permission:
+                self.logger.logger.info(p)
+            self.logger.logger.info("[Permission End]\n")
+
+            self.is_contain_permission = len(
+                permission_find) == len(list_permission_to_find)
+
 
     def is_hybird(self):
         """
