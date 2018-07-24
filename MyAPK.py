@@ -99,7 +99,7 @@ class MyAPK:
         """
             check permission hybrid app
         """
-        use_permission_checker = False
+        use_permission_checker = True
         if not use_permission_checker:    
             permission_find = list()
             for permission_to_check in list_permission_to_find:
