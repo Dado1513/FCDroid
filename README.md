@@ -9,7 +9,7 @@ Simple tool written in python that is able to:
 
 - Necessary to have in PATH the dir of apktool 
 
-- Necessary download retirejs[https://retirejs.github.io/retire.js/]
+- Necessary download [retirejs](https://retirejs.github.io/retire.js/)
 
 ```
 Usage: python3.6 hybrid_inspector.py -d "/home/User/dir_apk" -t -s "iframe"
