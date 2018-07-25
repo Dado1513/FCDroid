@@ -73,7 +73,8 @@ class MongoDB:
         dict_to_insert["dynamic_js_enable"] = apk.dynamic_javascript_enabled
         dict_to_insert["dynamic_js_interface"] = apk.dynamic_javascript_interface
         dict_to_insert["execution_time"] = execution_time   
-        
+        dict_to_insert["load_url_dynamic"] = apk.load_url_dynamic
+
         if len(apk.url_dynamic) > 0:
             dict_to_insert["url_dynamic"] = apk.url_dynamic
 

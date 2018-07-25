@@ -89,6 +89,7 @@ class MyAPK:
         self.dynamic_javascript_enabled = False
         self.dynamic_javascript_interface = False
         self.all_url_dynamic = list()
+        self.load_url_dynamic = list()
 
     def read(self, filename, binary=True):
         with open(filename, 'rb' if binary else 'r') as f:
@@ -740,6 +741,7 @@ class MyAPK:
         self.url_dynamic = filter(lambda x: x.startswith(
             "http://") or x.startswith("https://") or x.startswith("file://"), url_api_monitor)
 
+        self.load_url_dynamic = self.url_dynamic
         #######################################################################################################
         # TODO mettere la funzione evaluateJavaScript o loadUrl javascript: --> come se fosse un file javascript
         javascript_load_url = filter(
@@ -828,6 +830,9 @@ class MyAPK:
         for u in self.url_dynamic:
             if u.startswith("http://"):
                 self.http_connection.append(u)
-            self.logger.logger.info("Url dynamic {0}".format(u))
+            if u in self.load_url_dynamic:
+                self.logger.logger.info("Url dynamic  in loadUrl{0}".format(u))
+            else:
+                self.logger.logger.info("Url dynamic {0}".format(u))
 
         self.logger.logger.info("[End url dynamic]\n")
