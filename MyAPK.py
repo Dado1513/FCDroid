@@ -252,13 +252,62 @@ class MyAPK:
         # TODO se file_name end with js use TaintJS altrimenti usare questo
         # per usare taint js salvare il contenuto in una dir temporanea e usarlo
         # da li dentro
-        print("file xss dom analyze {0}".format(file_name))
-        cmd_node = ["node","TaintJS/app.js",file_name]
-        page_analyze = XSScanner(file_name, file_content)
-        page_analyze.analyze_page()
-        if len(page_analyze.sink) > 0 or len(page_analyze.source) > 0:
-            self.page_xss_vuln[file_name] = page_analyze
+        try:
+            print("file xss dom analyze {0}".format(file_name))
+            
+            if file_name.endswith(".js"):
+                file_open_temp = "inspectHybridApk/TaintJS/temp_file_to_analyze.js"
+                file_to_write = open(file_open_temp,"w")
+                file_to_write.write(file_content)
+                file_to_write.close()
+                cmd_node = ["node","--max-old-space-size=4096","inspectHybridApk/TaintJS/app.js",file_open_temp]
+                process = subprocess.Popen(cmd_node,stdout=subprocess.PIPE,stderr=subprocess.PIPE)
+                out,err = process.communicate()
+                out = out.decode('utf-8').strip()
+                err = err.decode('utf-8')
+                os.remove(file_open_temp)
+                # no error
+                if err != '': # no error
+                    if out == 'true': # is vuln
+                        self.page_xss_vuln[file_name] = True
+                else:
 
+                    page_analyze = XSScanner(file_name, file_content)
+                    page_analyze.analyze_page()
+                    if len(page_analyze.sink) > 0 or len(page_analyze.source) > 0:
+                        self.page_xss_vuln[file_name] = page_analyze
+            else:
+                soup = BeautifulSoup(file_content, 'html.parser')
+                scripts = soup.find_all("script")
+                for script in scripts:
+                    value = script.get_text().strip()
+                    file_open_temp = "inspectHybridApk/TaintJS/temp_file_to_analyze.js"
+                    file_to_write = open(file_open_temp,"w")
+                    file_to_write.write(value)
+                    file_to_write.close()
+                    cmd_node = ["node","--max-old-space-size=4096","inspectHybridApk/TaintJS/app.js",file_open_temp]
+                    process = subprocess.Popen(cmd_node,stdout=subprocess.PIPE,stderr=subprocess.PIPE)
+                    out,err = process.communicate()
+                    out = out.decode('utf-8').strip()
+                    err = err.decode('utf-8')
+                    os.remove(file_open_temp)
+                    # no error
+                    if err != '': # no error
+                        if out == 'true': # is vuln
+                            self.page_xss_vuln[file_name] = True
+                    else:
+
+                        page_analyze = XSScanner(file_name, file_content)
+                        page_analyze.analyze_page()
+                        if len(page_analyze.sink) > 0 or len(page_analyze.source) > 0:
+                            self.page_xss_vuln[file_name] = page_analyze
+        except Exception:
+
+            page_analyze = XSScanner(file_name, file_content)
+            page_analyze.analyze_page()
+            if len(page_analyze.sink) > 0 or len(page_analyze.source) > 0:
+                self.page_xss_vuln[file_name] = page_analyze
+    
     def find_string(self,  file_to_search, remote=False, debug=False):
         """
             find string inside file of apk(html,xml,ecc..) (not yet decompiled)

@@ -87,14 +87,16 @@ class MongoDB:
             dict_to_insert["retire_locale"] = retire_local 
         if retire_remote is not None:   
             dict_to_insert["retire_remote"] = retire_remote
-        self.analysis_db.insert_one(dict_to_insert)
-        self.logger.logger.info("Success insert")
-    
+        
         if not os.path.isdir("json"):
             os.makedirs("json")
         name_file_json = "json/"+apk.name_apk.split("/")[-1]+".json"
-        json_dict = json.dumps(dict_to_insert, indent=4, separators=(',', ': '))
+        json_dict = json.dumps(dict_to_insert)
         with open(name_file_json, 'w') as outfile:
             json.dump(json_dict, outfile)
+        
+        self.analysis_db.insert_one(dict_to_insert)
+        self.logger.logger.info("Success insert")
+    
         
         
