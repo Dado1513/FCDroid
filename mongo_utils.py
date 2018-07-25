@@ -1,4 +1,5 @@
 import os
+import json
 from pymongo import MongoClient
 import pymongo
 class MongoDB:
@@ -89,3 +90,11 @@ class MongoDB:
         self.analysis_db.insert_one(dict_to_insert)
         self.logger.logger.info("Success insert")
     
+        if not os.path.isdir("json"):
+            os.makedirs("json")
+        name_file_json = "json/"+apk.name_apk.split("/")[-1]+".json"
+        json_dict = json.dumps(dict_to_insert, indent=4, separators=(',', ': '))
+        with open(name_file_json, 'w') as outfile:
+            json.dump(json_dict, outfile)
+        
+        
