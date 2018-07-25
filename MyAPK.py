@@ -831,7 +831,7 @@ class MyAPK:
             if u.startswith("http://"):
                 self.http_connection.append(u)
             if u in self.load_url_dynamic:
-                self.logger.logger.info("Url dynamic  in loadUrl{0}".format(u))
+                self.logger.logger.info("Url dynamic inside loadUrl{0}".format(u))
             else:
                 self.logger.logger.info("Url dynamic {0}".format(u))
 

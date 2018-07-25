@@ -73,7 +73,8 @@ class MongoDB:
         dict_to_insert["dynamic_js_enable"] = apk.dynamic_javascript_enabled
         dict_to_insert["dynamic_js_interface"] = apk.dynamic_javascript_interface
         dict_to_insert["execution_time"] = execution_time   
-        dict_to_insert["load_url_dynamic"] = apk.load_url_dynamic
+        if type(apk.load_url_dynamic) is list:
+            dict_to_insert["load_url_dynamic"] = apk.load_url_dynamic 
 
         if len(apk.url_dynamic) > 0:
             dict_to_insert["url_dynamic"] = apk.url_dynamic
@@ -88,14 +89,16 @@ class MongoDB:
             dict_to_insert["retire_locale"] = retire_local 
         if retire_remote is not None:   
             dict_to_insert["retire_remote"] = retire_remote
-        
-        if not os.path.isdir("json"):
-            os.makedirs("json")
-        name_file_json = "json/"+apk.name_apk.split("/")[-1]+".json"
-        json_dict = json.dumps(dict_to_insert)
-        with open(name_file_json, 'w') as outfile:
-            json.dump(json_dict, outfile)
-        
+        try:
+            if not os.path.isdir("json"):
+                os.makedirs("json")
+            name_file_json = "json/"+apk.name_apk.split("/")[-1]+".json"
+            json_dict = json.dumps(dict_to_insert)
+            with open(name_file_json, 'w') as outfile:
+                json.dump(json_dict, outfile)
+        except TypeError:
+            pass
+
         self.analysis_db.insert_one(dict_to_insert)
         self.logger.logger.info("Success insert")
     
