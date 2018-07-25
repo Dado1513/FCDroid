@@ -122,31 +122,50 @@ class MyAPK:
                 dir_permission_checker = "PermissionChecker.jar"
             else:
                 dir_permission_checker = os.path.join("inspectHybridApk","PermissionChecker.jar")
-            
-            cmd_permission_checker = ["java","-jar",dir_permission_checker,self.name_apk]
-            process = subprocess.Popen(cmd_permission_checker,stdout=subprocess.PIPE)
-            result = process.communicate()[0]
-            result = json.loads(result)
-            # requiredAndUsed = result['requiredAndUsed']
-            notRequiredButUsed = result['notRequiredButUsed']
-            declared = result['declared']
-            # requiredButNotUsed = result['requiredButNotUsed']
-            list_permission = list(set().union(notRequiredButUsed,declared))
-            permission_find = list()
-            for permission_to_check in list_permission_to_find:
-                if permission_to_check in list_permission:
-                    permission_find.append(True)  # contenere tutti i permessi
-                    if permission_to_check == "android.permission.INTERNET":
-                        self.internet_enabled = True
-            
-            self.logger.logger.info("[Permission declared and not required but used Start]")
-            for p in list_permission:
-                self.logger.logger.info(p)
-            self.logger.logger.info("[Permission End]\n")
+            try:
+                cmd_permission_checker = ["java","-jar",dir_permission_checker,self.name_apk]
+                process = subprocess.Popen(cmd_permission_checker,stdout=subprocess.PIPE)
+                result = process.communicate()[0]
+                # error here 
+                result = json.loads(result)
+                # requiredAndUsed = result['requiredAndUsed']
 
-            self.is_contain_permission = len(
-                permission_find) == len(list_permission_to_find)
+                notRequiredButUsed = result['notRequiredButUsed']
+                declared = result['declared']
+                # requiredButNotUsed = result['requiredButNotUsed']
+                list_permission = list(set().union(notRequiredButUsed,declared))
+                permission_find = list()
+                for permission_to_check in list_permission_to_find:
+                    if permission_to_check in list_permission:
+                        permission_find.append(True)  # contenere tutti i permessi
+                        if permission_to_check == "android.permission.INTERNET":
+                            self.internet_enabled = True
 
+                self.logger.logger.info("[Permission declared and not required but used Start]")
+                for p in list_permission:
+                    self.logger.logger.info(p)
+                self.logger.logger.info("[Permission End]\n")
+
+                self.is_contain_permission = len(
+                    permission_find) == len(list_permission_to_find)
+
+            except Exception as e:
+                permission_find = list()
+                for permission_to_check in list_permission_to_find:
+                    if permission_to_check in self.apk.get_permissions():
+                        permission_find.append(True)  # contenere tutti i permessi
+                        if permission_to_check == "android.permission.INTERNET":
+                            self.internet_enabled = True
+
+                # print(permission_to_check)
+                self.logger.logger.info("[Permission declared Start]")
+                for p in self.apk.get_permissions():
+                    self.logger.logger.info(p)
+                self.logger.logger.info("[Permission End]\n")
+
+                self.is_contain_permission = len(
+                    permission_find) == len(list_permission_to_find)
+            
 
     def is_hybird(self):
         """
