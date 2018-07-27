@@ -683,8 +683,15 @@ class MyAPK:
                     self.all_http_connection.append(u)
                 self.logger.logger.info("Url inside apk {0}".format(u))
             self.logger.logger.info("[END ALL URL INSIDE APK]")
-
-    
+        
+        html_dir = "temp_html_code/html_downloaded_{0}/".format(self.name_only_apk)
+        if os.path.exists(html_dir) and len(os.listdir(html_dir)) > 0:
+            # zip -r squash.zip dir1
+            subprocess.call(["zip","-r","temp_html_code/html_{0}.zip".format(self.name_only_apk),html_dir], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+           
+        # delete dir o provare a zip
+        subprocess.Popen(["rm","-rf",html_dir],stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+        
     # check vulnerability
     def vulnerable_frame_confusion(self):
         """ 

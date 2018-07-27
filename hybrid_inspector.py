@@ -174,7 +174,7 @@ def analyze_start(conf, apk_to_analyze, tag, string_to_find, api_monitor_dict=No
                 logger.logger.info("File that use function js vulnerable at xss {0}\n".format(file_xss))  
             
             time_end_single_apk = time.time()
-            execution_time = time_start_single_apk - time_end_single_apk
+            execution_time =  time_end_single_apk - time_start_single_apk
             if mongo.is_available:
                 mongo.insert_analysis(apk,apktool_retire,remote_retire,file_xss,logger,execution_time)
             logger.shutdown()
