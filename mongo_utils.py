@@ -56,39 +56,40 @@ class MongoDB:
         logger.logger.info("Insert document in collection db")
         dict_to_insert = dict()
         
-        dict_to_insert["name_apk"] = apk.name_only_apk
-        dict_to_insert["html_file"] = list(apk.html_file.keys()) # all html file
-        dict_to_insert["js_file"] = list(apk.javascript_file.keys())
-        dict_to_insert["is_hybrid"] = str(apk.isHybrid)
-        dict_to_insert["permission"] = apk.apk.get_permissions()
-        dict_to_insert["frame_confusion_vulnerable"] = apk.is_vulnerable_frame_confusion
-        dict_to_insert["js_enable"] = apk.javascript_enabled
-        dict_to_insert["js_interface"] = apk.javascript_interface
-        dict_to_insert["url_loaded"] = apk.url_loaded
-        dict_to_insert["all_url"] = apk.all_url
-        dict_to_insert["file_config_hybrid"] = apk.file_hybrid
-        dict_to_insert["file_origin_access"] = apk.list_origin_access
-        dict_to_insert["file_without_csp"] = [key for key,value in apk.find_csp.items() if not value ]
-        dict_to_insert["file_with_string_iframe"] = apk.file_with_string_iframe
-        dict_to_insert["dynamic_js_enable"] = apk.dynamic_javascript_enabled
-        dict_to_insert["dynamic_js_interface"] = apk.dynamic_javascript_interface
-        dict_to_insert["execution_time"] = execution_time   
+        dict_to_insert['md5'] = apk.name_only_apk
+        dict_to_insert['name_apk'] = apk.package_name
+        dict_to_insert['html_file'] = list(apk.html_file.keys()) # all html file
+        dict_to_insert['js_file'] = list(apk.javascript_file.keys())
+        dict_to_insert['is_hybrid'] = str(apk.isHybrid)
+        dict_to_insert['permission'] = apk.apk.get_permissions()
+        dict_to_insert['frame_confusion_vulnerable'] = apk.is_vulnerable_frame_confusion
+        dict_to_insert['js_enable'] = apk.javascript_enabled
+        dict_to_insert['js_interface'] = apk.javascript_interface
+        dict_to_insert['url_loaded'] = apk.url_loaded
+        dict_to_insert['all_url'] = apk.all_url
+        dict_to_insert['file_config_hybrid'] = apk.file_hybrid
+        dict_to_insert['file_origin_access'] = apk.list_origin_access
+        dict_to_insert['file_without_csp'] = [key for key,value in apk.find_csp.items() if not value ]
+        dict_to_insert['file_with_string_iframe'] = apk.file_with_string_iframe
+        dict_to_insert['dynamic_js_enable'] = apk.dynamic_javascript_enabled
+        dict_to_insert['dynamic_js_interface'] = apk.dynamic_javascript_interface
+        dict_to_insert['execution_time'] = execution_time   
         if type(apk.load_url_dynamic) is list:
-            dict_to_insert["load_url_dynamic"] = apk.load_url_dynamic 
+            dict_to_insert['load_url_dynamic'] = apk.load_url_dynamic 
 
         if len(apk.url_dynamic) > 0:
-            dict_to_insert["url_dynamic"] = apk.url_dynamic
+            dict_to_insert['url_dynamic'] = apk.url_dynamic
 
         if len(file_xss_vuln) > 0:
-            dict_to_insert["file_xss_vuln"] = file_xss_vuln
+            dict_to_insert['file_xss_vuln'] = file_xss_vuln
         
-        dict_to_insert["http_connection"] = apk.http_connection
-        dict_to_insert["http_connection_loadUrl"] = apk.http_connection_static
+        dict_to_insert['http_connection'] = apk.http_connection
+        dict_to_insert['http_connection_loadUrl'] = apk.http_connection_static
 
         if retire_local is not None:
-            dict_to_insert["retire_locale"] = retire_local 
+            dict_to_insert['retire_locale'] = retire_local 
         if retire_remote is not None:   
-            dict_to_insert["retire_remote"] = retire_remote
+            dict_to_insert['retire_remote'] = retire_remote
         try:
             if not os.path.isdir("json"):
                 os.makedirs("json")

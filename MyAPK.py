@@ -41,6 +41,7 @@ class MyAPK:
         self.name_only_apk = self.name_apk.split("/")[-1].rsplit(".", 1)[0]
         self.conf = conf
         self.apk = APK(name_file)
+        self.package_name = self.apk.get_app_name()
         self.dalviks_format = None
         self.analysis_object = None
         self.dict_file_with_string = dict()  # file che contengono la stringa ricercata
