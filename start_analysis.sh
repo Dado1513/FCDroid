@@ -1,2 +1,2 @@
 #!/bin/bash
-pythonAnaconda3.6 hybrid_inspector.py -d "/home/dave/Developer/AnalysisAndroidApk/apk" -t -s "iframe"
+python3 hybrid_inspector.py -d "/media/dave/Dati/APK" -t -s "iframe"
