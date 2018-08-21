@@ -29,6 +29,8 @@ apk_with_js_interface_dynamic = list()
 apk_with_xss = list()
 apk_that_use_http = list()
 apk_that_use_http_loadUrl = list()
+apk_with_js_enabled_and_js_interface_dynamic = list()
+apk_with_js_enabled_and_js_interface = list()
 
 
 
@@ -143,6 +145,13 @@ def analyze_start(conf, apk_to_analyze, tag, string_to_find, api_monitor_dict=No
                 if apk.javascript_interface:
                     apk_with_js_interface.append(apk_to_analyze)
 
+                if apk.dynamic_javascript_enabled and apk.dynamic_javascript_interface:
+                    apk_with_js_enabled_and_js_interface_dynamic.append(apk_to_analyze)
+
+                if apk.javascript_interface and apk.javascript_enabled:
+                    apk_with_js_enabled_and_js_interface.append(apk_to_analyze)
+                
+
                 if len(apk.html_file) > 0 or len(apk.url_loaded) > 0:
                     apk_with_html_file.append(apk_to_analyze)
             else:
@@ -181,7 +190,7 @@ def analyze_start(conf, apk_to_analyze, tag, string_to_find, api_monitor_dict=No
 
         else:
             logger.logger.info("Analysis yet done")
-            analysis_yet_done(result,apk_to_analyze)            
+            analysis_yet_done(result, apk_to_analyze)            
             return True
             
 
@@ -192,7 +201,6 @@ def analyze_start(conf, apk_to_analyze, tag, string_to_find, api_monitor_dict=No
 def analysis_yet_done(result,apk_to_analyze):
     
     
-    # 99% soffre di questo problema
     if result["frame_confusion_vulnerable"] and result["dynamic_js_enable"] and result["dynamic_js_interface"]:
         apk_vulnerable.append(apk_to_analyze)
     # se sono qua vuol dire che una delle due dynamiche è falsa --> forse è vulnerabile
@@ -208,6 +216,12 @@ def analysis_yet_done(result,apk_to_analyze):
     if result["js_interface"]:
         apk_with_js_interface.append(apk_to_analyze)
     
+    if result["dynamic_js_interface"] and result["dynamic_js_enable"]:
+        apk_with_js_enabled_and_js_interface_dynamic.append(apk_to_analyze)
+
+    if result["js_interface"] and result["js_enable"]:
+        apk_with_js_enabled_and_js_interface.append(apk_to_analyze)
+
     if result["dynamic_js_enable"]:
         apk_with_js_enabled_dynamic.append(apk_to_analyze)
     
@@ -323,22 +337,29 @@ def print_summary(list_apk_to_analyze, file_output_stat, second_start=None):
         percentual_html_apk = len(apk_with_html_file) / len(list_apk_to_analyze) # app with at least one html page
         percentual_js_enabled_dynamic = len(apk_with_js_enabled_dynamic) / len(list_apk_to_analyze)
         percentual_js_interface_dynamic = len(apk_with_js_interface_dynamic) / len(list_apk_to_analyze)
-        
         percentual_js_enabled_static = len(apk_with_js_enabled) / len(list_apk_to_analyze) # app with js enable
         percentual_js_interface_static = len(apk_with_js_interface) / len(list_apk_to_analyze) # app with js interface
+        percentual_js_enable_and_js_interface_dynamic = len(apk_with_js_enabled_and_js_interface_dynamic) / len(list_apk_to_analyze)
+        percentual_js_enable_and_js_interface = len(apk_with_js_enabled_and_js_interface) / len(list_apk_to_analyze)
+
         percentual_iframe_not_in_html = len(apk_maybe_vulnerable) / len(list_apk_to_analyze) 
         percentual_app_lib_vuln_retire = len(apk_with_library_vulnerable) / len(list_apk_to_analyze)
         percentual_app_with_xss_dom = len(apk_with_xss) / len(list_apk_to_analyze)
         percentual_app_use_http = len(apk_that_use_http) / len(list_apk_to_analyze)
+
+
         #######################################################################################################
         string_html = "\nPercentual app with at least one html file inside: {:.2f}%\n".format(percentual_html_apk*100)
         string_js_enabled_dynamic = "Percentual app with js enabled (check dynamic) {:.2f}%\n".format(percentual_js_enabled_dynamic* 100)
         string_js_interface_dynamic = "Percentual app with js interface (check dynamic) {:.2f}%\n".format(percentual_js_interface_dynamic * 100)
         string_js_enabled_static = "Percentual app with js enabled (check static) {:.2f}%\n" .format(percentual_js_enabled_static * 100)
         string_js_interface_static = "Percentual app with js interface (check static) {:.2f}%\n".format(percentual_js_interface_static * 100)
+        string_percentual_js_and_interface_dynamic = "Percentual app with js enable and js interface (check dynamic) {:.2f}%\n".format(percentual_js_enable_and_js_interface_dynamic * 100)
+        string_percentual_js_and_interface = "Percentual app with js enable and js interface (check static) {:.2f}%\n".format(percentual_js_enable_and_js_interface * 100)
+        
+
         string_percentual_vuln = "Percentual app maybe vulnerable: {:.2f}%, based on tot {tot}.\n".format(percentual_vuln*100,tot=len(list_apk_to_analyze))
         string_percentual_iframe_not_in_html = "Percentual app with iframe not in html file {:.2f}%\n".format(percentual_iframe_not_in_html*100)
-        
         string_percentual_app_lib_vuln = "Percentual app that use library js vulnerable {:.2f}%  based on tot {tot}\n".format(percentual_app_lib_vuln_retire * 100, tot=len(list_apk_to_analyze)) 
         string_percentual_app_xss = "Percentual app that use method js vulnerable on xss {:.2f}%  based on tot {tot}\n".format(percentual_app_with_xss_dom * 100, tot=len(list_apk_to_analyze))
         string_percentual_app_use_http = "Percentual app that use http connection {:.2f}%\n".format(percentual_app_use_http * 100)
@@ -359,6 +380,8 @@ def print_summary(list_apk_to_analyze, file_output_stat, second_start=None):
         file_stat_final.write(string_js_enabled_dynamic)
         file_stat_final.write(string_js_interface_static)
         file_stat_final.write(string_js_interface_dynamic)
+        file_stat_final.write(string_percentual_js_and_interface_dynamic)
+        file_stat_final.write(string_percentual_js_and_interface)
         
         file_stat_final.write(string_percentual_vuln)
         file_stat_final.write(string_percentual_iframe_not_in_html)
@@ -377,6 +400,8 @@ def print_summary(list_apk_to_analyze, file_output_stat, second_start=None):
         print(string_js_enabled_dynamic)
         print(string_js_interface_static)
         print(string_js_interface_dynamic)
+        print(string_percentual_js_and_interface_dynamic)
+        print(string_percentual_js_and_interface)
         print(string_percentual_vuln)
         print(string_percentual_iframe_not_in_html)
         if second_start is not None:
