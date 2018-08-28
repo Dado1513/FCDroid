@@ -24,11 +24,11 @@ class MongoDB:
             self.is_available = False
 
 
-    def find_analysis(self,apk_name):
+    def find_analysis(self,md5):
         """
             search if analysis are  yet executed
         """
-        result = self.analysis_db.find_one({"name_apk":apk_name})
+        result = self.analysis_db.find_one({"md5":md5})
         return result
 
     def delete_analysis(self, apk_name):
@@ -36,7 +36,7 @@ class MongoDB:
             delete result apk_name
         """
         try:
-            self.analysis_db.delete_one({"name_apk":apk_name})
+            self.analysis_db.delete_one({"md5":md5})
             self.logger.logger.info("Success delete {0}".format(apk_name))
         except Exception as e:
             self.logger.logger.error("Unable delete {0} with {1}".format(apk_name,e))
@@ -57,7 +57,9 @@ class MongoDB:
         dict_to_insert = dict()
         
         dict_to_insert['md5'] = apk.name_only_apk
-        dict_to_insert['name_apk'] = apk.package_name
+        dict_to_insert['name_apk'] = apk.app_name
+        dict_to_insert["package_name"] = apk.package_name
+        dict_to_insert["target_sdk"] = apk.target_sdk
         dict_to_insert['html_file'] = list(apk.html_file.keys()) # all html file
         dict_to_insert['js_file'] = list(apk.javascript_file.keys())
         dict_to_insert['is_hybrid'] = str(apk.isHybrid)
