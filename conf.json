@@ -2,7 +2,7 @@
     "file_to_check": ["res/xml/config.xml",
         "cordova.xml",
         "phonegap.xml",
-        "cordova.xml"
+        "plugins.xml"
     ],
 
     "permissions_to_check": ["android.permission.INTERNET"],
