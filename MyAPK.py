@@ -656,14 +656,14 @@ class MyAPK:
         # debug part
         if len(self.url_loaded) > 0:
             # print(self.url_loaded)
-            self.logger.logger.info("[START URL LOADED INSIDE LOAD FUNCTION]")
+            self.logger.logger.info("[START URL LOADED INSIDE LOADURL FUNCTION]")
             self.url_loaded = list(set(self.url_loaded))
             for u in self.url_loaded:
                 if u.startswith("http://"):
                     self.http_connection_static.append(u)
                 self.logger.logger.info(
                     "Url inside load function: {0}".format(u))
-            self.logger.logger.info("[END URL LOADED INSIDE LOAD FUNCTION]")
+            self.logger.logger.info("[END URL LOADED INSIDE LOADURL FUNCTION]")
 
             md5_file_to_url, file_download_to_analyze = utility.download_page_with_wget(
                 self.name_only_apk, self.url_loaded)
