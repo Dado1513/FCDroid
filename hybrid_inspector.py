@@ -180,7 +180,7 @@ def analyze_start(conf, apk_to_analyze, tag, string_to_find, api_monitor_dict=No
             file_xss = list(apk.page_xss_vuln.keys())
             if len(file_xss) > 0:
                 apk_with_xss.append(apk_to_analyze)
-                logger.logger.info("File that use function js vulnerable at xss {0}\n".format(file_xss))  
+                logger.logger.info("File that uses a js function that is vulnerable to xss {0}\n".format(file_xss))  
             
             time_end_single_apk = time.time()
             execution_time =  time_end_single_apk - time_start_single_apk
