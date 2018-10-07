@@ -70,7 +70,7 @@ def analyze_start(conf, apk_to_analyze, tag, string_to_find, api_monitor_dict=No
             thread_decompilyng.start() # wait apktool output che arriva dall'istruzione sopra 
 
             #################################################################################
-            logger.logger.info("\nStart HTML file")
+            logger.logger.info("Start HTML file")
             apk.find_string(apk.html_file)
             logger.logger.info("End HTML file \n")
 
