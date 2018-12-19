@@ -92,10 +92,10 @@ class MyAPK:
         self.dynamic_javascript_enabled = False
         self.analysis_dynamic_done = api_monitor_dict is not None or network_dict is not None
         self.dynamic_javascript_interface = False
-        self.dynamic_time = dynamic_time
-        self.all_url_dynamic = list()
+        self.dynamic_time = dynamic_time # time execution analysis dynamic
+        self.all_url_dynamic = list() 
         self.load_url_dynamic = list()
-        self.app_use_sandbox = False
+        self.app_use_sandbox = False # app use sandbox
 
     def read(self, filename, binary=True):
         with open(filename, 'rb' if binary else 'r') as f:

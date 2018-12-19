@@ -358,7 +358,7 @@ def scan_retire(apk):
     return output_retire_apk_tool,output_retire_remote
 
 def print_summary(list_apk_to_analyze, file_output_stat, second_start=None):
-        
+        # TODO calcolare percentuali e tempo di esecuzione per analisi dinamica e statica
         file_stat_final = open("log/{0}".format(str(file_output_stat)),"w")    
         
         #######################################################################################################
