@@ -90,6 +90,7 @@ class MyAPK:
         self.use_analyze = not use_smaliparser
         self.method_2_value = dict()
         self.dynamic_javascript_enabled = False
+        self.analysis_dynamic_done = api_monitor_dict is not None or network_dict is not None
         self.dynamic_javascript_interface = False
         self.all_url_dynamic = list()
         self.load_url_dynamic = list()
@@ -125,7 +126,7 @@ class MyAPK:
             if "PermissionChecker.jar" in os.listdir("."):
                 dir_permission_checker = "PermissionChecker.jar"
             else:
-                dir_permission_checker = os.path.join("inspectHybridApk","PermissionChecker.jar")
+                dir_permission_checker = os.path.join("FCDroid","PermissionChecker.jar")
             try:
                 cmd_permission_checker = ["java","-jar",dir_permission_checker,self.name_apk]
                 process = subprocess.Popen(cmd_permission_checker,stdout=subprocess.PIPE)
@@ -203,12 +204,13 @@ class MyAPK:
             try:
                 if self.isHybrid:
                     # now can search file in temp_dir
-                    file_xml = open(
-                        "temp_dir_{0}/res/xml/config.xml".format(self.name_only_apk))
-                    file_data_xml = str(file_xml.read())
-                    self.file_config_hybrid = file_data_xml
-                    # parsing file config
-                    self.check_whitelist()
+                    if os.path.exists("temp_dir_{0}/res/xml/config.xml".format(self.name_only_apk)):
+                        file_xml = open(
+                            "temp_dir_{0}/res/xml/config.xml".format(self.name_only_apk))
+                        file_data_xml = str(file_xml.read())
+                        self.file_config_hybrid = file_data_xml
+                        # parsing file config
+                        self.check_whitelist()
 
             except OSError as e:
                 print(
@@ -260,11 +262,11 @@ class MyAPK:
             print("file xss dom analyze {0}".format(file_name))
             
             if file_name.endswith(".js"):
-                file_open_temp = "inspectHybridApk/TaintJS/temp_file_to_analyze.js"
+                file_open_temp = "FCDroid/TaintJS/temp_file_to_analyze.js"
                 file_to_write = open(file_open_temp,"w")
                 file_to_write.write(file_content)
                 file_to_write.close()
-                cmd_node = ["node","--max-old-space-size=4096","inspectHybridApk/TaintJS/app.js",file_open_temp]
+                cmd_node = ["node","--max-old-space-size=4096","FCDroid/TaintJS/app.js",file_open_temp]
                 process = subprocess.Popen(cmd_node,stdout=subprocess.PIPE,stderr=subprocess.PIPE)
                 out,err = process.communicate()
                 out = out.decode('utf-8').strip()
@@ -285,11 +287,11 @@ class MyAPK:
                 scripts = soup.find_all("script")
                 for script in scripts:
                     value = script.get_text().strip()
-                    file_open_temp = "inspectHybridApk/TaintJS/temp_file_to_analyze.js"
+                    file_open_temp = "FCDroid/TaintJS/temp_file_to_analyze.js"
                     file_to_write = open(file_open_temp,"w")
                     file_to_write.write(value)
                     file_to_write.close()
-                    cmd_node = ["node","--max-old-space-size=4096","inspectHybridApk/TaintJS/app.js",file_open_temp]
+                    cmd_node = ["node","--max-old-space-size=4096","FCDroid/TaintJS/app.js",file_open_temp]
                     process = subprocess.Popen(cmd_node,stdout=subprocess.PIPE,stderr=subprocess.PIPE)
                     out,err = process.communicate()
                     out = out.decode('utf-8').strip()

@@ -77,6 +77,8 @@ class MongoDB:
         dict_to_insert['dynamic_js_interface'] = apk.dynamic_javascript_interface
         dict_to_insert['execution_time'] = execution_time   
         dict_to_insert['use_js_interface_annotation'] = False #default
+        dict_to_insert['dynamic_analysis_done'] = apk.analysis_dynamic_done # if dynamic analysis are done
+
         if type(apk.load_url_dynamic) is list:
             dict_to_insert['load_url_dynamic'] = apk.load_url_dynamic 
 
