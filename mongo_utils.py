@@ -64,7 +64,9 @@ class MongoDB:
         dict_to_insert['js_file'] = list(apk.javascript_file.keys())
         dict_to_insert['is_hybrid'] = str(apk.isHybrid)
         dict_to_insert['permission'] = apk.apk.get_permissions()
-        dict_to_insert['frame_confusion_vulnerable'] = apk.is_vulnerable_frame_confusion
+        dict_to_insert['frame_confusion_vulnerable'] = apk.is_vulnerable_frame_confusion and apk.dynamic_javascript_enabled \
+                                                         and apk.dynamic_javascript_interface
+        dict_to_insert['maybe_vulnerable_frame_confusion'] = True if dict_to_insert['frame_confusion_vulnerable'] else apk.is_vulnerable_frame_confusion
         dict_to_insert['js_enable'] = apk.javascript_enabled
         dict_to_insert['js_interface'] = apk.javascript_interface
         dict_to_insert['url_loaded'] = apk.url_loaded
@@ -75,9 +77,11 @@ class MongoDB:
         dict_to_insert['file_with_string_iframe'] = apk.file_with_string_iframe
         dict_to_insert['dynamic_js_enable'] = apk.dynamic_javascript_enabled
         dict_to_insert['dynamic_js_interface'] = apk.dynamic_javascript_interface
-        dict_to_insert['execution_time'] = execution_time   
+        dict_to_insert['static_time'] = execution_time   
         dict_to_insert['use_js_interface_annotation'] = False #default
         dict_to_insert['dynamic_analysis_done'] = apk.analysis_dynamic_done # if dynamic analysis are done
+        dict_to_insert['dynamic_time'] = apk.dynamic_time
+        dict_to_insert['use_sandbox'] = apk.app_use_sandbox
 
         if type(apk.load_url_dynamic) is list:
             dict_to_insert['load_url_dynamic'] = apk.load_url_dynamic 

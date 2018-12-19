@@ -53,6 +53,7 @@ class FileAnalysis:
         find_iframe = False
         use_grep = False
         find_string = False
+        find_sanbox = False
         list_row_string = []
         list_src_iframe = []
         file_line = list()
@@ -63,9 +64,21 @@ class FileAnalysis:
                 try:
                     if name_tag["src"] is not None:
                         list_src_iframe.append(name_tag["src"])
-                except KeyError: 
+                    
+                    try:
+                        find_sanbox = find_sanbox or name_tag.has_attr('sandbox')
+                    
+                    except Exception as e:
+                        find_sanbox = find_sanbox or False
+                        logger.logger.info("Attibute sandbox not found {}".format(e
+                            ))
+                        pass
+                
+                except KeyError as e:
                     # allora i file js dovrebbero fare a caso nostro, dovrei cercare l'id dell'iframe all'interno del file javascript
+                    logger.logger.error("Exception {}".format(e))
                     pass
+                
                 find_iframe = True
                 logger.logger.info("Found this tag {0}".format(name_tag))
                 list_row_string.append(name_tag)
@@ -110,7 +123,7 @@ class FileAnalysis:
                         find_iframe = True
                         find_string = True
 
-        return find_iframe, list_row_string, list_src_iframe, find_string
+        return find_iframe, list_row_string, list_src_iframe, find_string, find_sanbox
 
     @staticmethod
     def check_method_used_value(list_source_code, metodo, value):

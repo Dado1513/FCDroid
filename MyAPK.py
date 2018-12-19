@@ -35,7 +35,7 @@ show_logging(level=logging.CRITICAL)  # androguard
 
 class MyAPK:
 
-    def __init__(self, name_file, conf, file_log, tag, string_to_find, logger, api_monitor_dict=None, network_dict=None, use_smaliparser=True):
+    def __init__(self, name_file, conf, file_log, tag, string_to_find, logger, api_monitor_dict=None, network_dict=None, dynamic_time=0, use_smaliparser=True):
 
         self.name_apk = name_file
         self.name_only_apk = self.name_apk.split("/")[-1].rsplit(".", 1)[0]
@@ -92,8 +92,10 @@ class MyAPK:
         self.dynamic_javascript_enabled = False
         self.analysis_dynamic_done = api_monitor_dict is not None or network_dict is not None
         self.dynamic_javascript_interface = False
+        self.dynamic_time = dynamic_time
         self.all_url_dynamic = list()
         self.load_url_dynamic = list()
+        self.app_use_sandbox = False
 
     def read(self, filename, binary=True):
         with open(filename, 'rb' if binary else 'r') as f:
@@ -368,7 +370,7 @@ class MyAPK:
                 soup = BeautifulSoup(file_read, 'lxml')
                 try:
 
-                    find_iframe, list_row_string, list_src_iframe, find_string_not_tag = FileAnalysis.find_string(
+                    find_iframe, list_row_string, list_src_iframe, find_string_not_tag, self.app_use_sandbox = FileAnalysis.find_string(
                         self.string_to_find, self.search_tag, file_to_inspect,  file_read, soup, self.logger)
 
                     #######################################################################################################
@@ -690,6 +692,8 @@ class MyAPK:
             self.logger.logger.info("[END ALL URL INSIDE APK]")
         
         html_dir = "temp_html_code/html_downloaded_{0}/".format(self.name_only_apk)
+
+        # TODO eliminare
         if os.path.exists(html_dir) and len(os.listdir(html_dir)) > 0:
             # zip -r squash.zip dir1
             subprocess.call(["zip","-r","temp_html_code/html_{0}.zip".format(self.name_only_apk),html_dir], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
@@ -723,7 +727,7 @@ class MyAPK:
                                               self.check_method_conf() and
                                               (len(self.dict_file_with_string) > 0 or len(self.file_with_string_iframe) > 0) and
                                               self.is_contain_permission and
-                                              not csp_in_file_iframe and white_list_bug)
+                                              not csp_in_file_iframe and white_list_bug and not self.app_use_sandbox)
 
     def add_url_dynamic(self):
         """
