@@ -54,7 +54,6 @@ def analyze_start(conf, apk_to_analyze, tag, string_to_find, api_monitor_dict=No
         
         maybe_vulnerable =  False
         mongo = MongoDB(logger)
-        print("MONGO {}".format(mongo.is_available))
         result = None
         if mongo.is_available: # connection available
             result = mongo.find_analysis(apk.name_only_apk)

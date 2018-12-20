@@ -694,7 +694,8 @@ class MyAPK:
         html_dir = "temp_html_code/html_downloaded_{0}/".format(self.name_only_apk)
 
         # TODO eliminare
-        if os.path.exists(html_dir) and len(os.listdir(html_dir)) > 0:
+        save_page_html = False
+        if os.path.exists(html_dir) and len(os.listdir(html_dir)) > 0 and save_page_html:
             # zip -r squash.zip dir1
             subprocess.call(["zip","-r","temp_html_code/html_{0}.zip".format(self.name_only_apk),html_dir], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
            
