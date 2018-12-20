@@ -95,7 +95,8 @@ class MyAPK:
         self.dynamic_time = dynamic_time # time execution analysis dynamic
         self.all_url_dynamic = list() 
         self.load_url_dynamic = list()
-        self.app_use_sandbox = False # app use sandbox
+        self.app_use_sandbox = False
+        self.file_with_sandbox = dict() # app use sandbox
 
     def read(self, filename, binary=True):
         with open(filename, 'rb' if binary else 'r') as f:
@@ -370,9 +371,11 @@ class MyAPK:
                 soup = BeautifulSoup(file_read, 'lxml')
                 try:
 
-                    find_iframe, list_row_string, list_src_iframe, find_string_not_tag, self.app_use_sandbox = FileAnalysis.find_string(
+                    find_iframe, list_row_string, list_src_iframe, find_string_not_tag, file_with_sandbox = FileAnalysis.find_string(
                         self.string_to_find, self.search_tag, file_to_inspect,  file_read, soup, self.logger)
-
+                    
+                    self.file_with_sandbox = {**self.file_with_sandbox, **file_with_sandbox} # merge dict
+                    
                     #######################################################################################################
                     # TODO insert in method --> String Analysis
                     if find_iframe and self.string_to_find == "iframe":
@@ -715,12 +718,20 @@ class MyAPK:
         # se esiste almeno un file con iframe senza csp --> vulnerble
         # se è false --> vulnerabile
         csp_in_file_iframe = True
-
+        self.app_use_sandbox = True 
+        # print("File in dict_file_with_string: {}".format(self.dict_file_with_string.keys()))
+        # print("File in find_csp: {}".format(self.find_csp.keys()))
+        # print("File in file_with_sandbox: {}".format(self.file_with_sandbox.keys()))
+        
         for file_with_iframe in self.dict_file_with_string.keys():
             csp_in_file_iframe = csp_in_file_iframe and self.find_csp[file_with_iframe]
-            if not self.find_csp[file_with_iframe]:
-                self.file_vulnerable_frame_confusion.append(file_with_iframe)
+            self.app_use_sandbox = self.app_use_sandbox and self.file_with_sandbox[file_with_iframe]
 
+            if not self.find_csp[file_with_iframe] or not self.file_with_sandbox[file_with_iframe]:
+                self.file_vulnerable_frame_confusion.append(file_with_iframe)
+            
+        
+        # print("sandbox in app {}".format(self.app_use_sandbox))
         # se vero whitelist implementato male
         white_list_bug = len(
             self.list_origin_access) == 0 or "*" in self.list_origin_access

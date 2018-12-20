@@ -53,7 +53,7 @@ class FileAnalysis:
         find_iframe = False
         use_grep = False
         find_string = False
-        find_sanbox = False
+        file_with_sandbox = dict()
         list_row_string = []
         list_src_iframe = []
         file_line = list()
@@ -66,10 +66,10 @@ class FileAnalysis:
                         list_src_iframe.append(name_tag["src"])
                     
                     try:
-                        find_sanbox = find_sanbox or name_tag.has_attr('sandbox')
+                        file_with_sandbox[name_file_complete] = name_tag.has_attr('sandbox')
                     
                     except Exception as e:
-                        find_sanbox = find_sanbox or False
+                        file_with_sandbox[name_file_complete] = False
                         logger.logger.info("Attibute sandbox not found {}".format(e
                             ))
                         pass
@@ -123,7 +123,7 @@ class FileAnalysis:
                         find_iframe = True
                         find_string = True
 
-        return find_iframe, list_row_string, list_src_iframe, find_string, find_sanbox
+        return find_iframe, list_row_string, list_src_iframe, find_string, file_with_sandbox
 
     @staticmethod
     def check_method_used_value(list_source_code, metodo, value):

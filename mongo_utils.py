@@ -81,7 +81,8 @@ class MongoDB:
         dict_to_insert['use_js_interface_annotation'] = False #default
         dict_to_insert['dynamic_analysis_done'] = apk.analysis_dynamic_done # if dynamic analysis are done
         dict_to_insert['dynamic_time'] = apk.dynamic_time
-        dict_to_insert['use_sandbox'] = apk.app_use_sandbox
+        dict_to_insert['file_without_sandbox'] = [key for key,value in apk.file_with_sandbox.items() if not value]
+        dict_to_insert['app_use_sandbox'] = apk.app_use_sandbox
 
         if type(apk.load_url_dynamic) is list:
             dict_to_insert['load_url_dynamic'] = apk.load_url_dynamic 
