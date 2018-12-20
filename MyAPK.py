@@ -347,6 +347,7 @@ class MyAPK:
                             "Key error as {0} ".format(e))
 
             file_to_inspect_split = file_to_inspect.split("?",1)[0] # remove parameter 
+            
             if remote and not (file_to_inspect_split.endswith(".js") or file_to_inspect_split.endswith(".html")) :
                 # add extension html on file
                 # of default wget add this extension

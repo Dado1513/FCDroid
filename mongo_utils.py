@@ -12,6 +12,7 @@ class MongoDB:
                 self.db_url = os.environ['DATABASE_URL']
             else:
                 self.db_url = 'mongodb://localhost:27117/db' # conencto to mongodb inside docker
+                # self.db_url = 'mongodb://localhost:27017/db' # conencto to mongodb inside docker
             
             max_delay = 5000
             self.client = MongoClient(self.db_url, connect=False, serverSelectionTimeoutMS=max_delay)
