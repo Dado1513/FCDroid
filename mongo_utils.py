@@ -24,7 +24,6 @@ class MongoDB:
             self.logger.logger.warning("Unable to connect mongodb")
             self.is_available = False
 
-
     def find_analysis(self,md5):
         """
             search if analysis are  yet executed
@@ -32,15 +31,15 @@ class MongoDB:
         result = self.analysis_db.find_one({"md5":md5})
         return result
 
-    def delete_analysis(self, apk_name):
+    def delete_analysis(self, md5):
         """
             delete result apk_name
         """
         try:
             self.analysis_db.delete_one({"md5":md5})
-            self.logger.logger.info("Success delete {0}".format(apk_name))
+            self.logger.logger.info("Success delete {0}".format(md5))
         except Exception as e:
-            self.logger.logger.error("Unable delete {0} with {1}".format(apk_name,e))
+            self.logger.logger.error("Unable delete {0} with {1}".format(md5,e))
 
     def find_all_results(self):
         """
@@ -79,7 +78,7 @@ class MongoDB:
         dict_to_insert['dynamic_js_enable'] = apk.dynamic_javascript_enabled
         dict_to_insert['dynamic_js_interface'] = apk.dynamic_javascript_interface
         dict_to_insert['static_time'] = execution_time   
-        dict_to_insert['use_js_interface_annotation'] = False #default
+        dict_to_insert['use_js_interface_annotation'] = False # default
         dict_to_insert['dynamic_analysis_done'] = apk.analysis_dynamic_done # if dynamic analysis are done
         dict_to_insert['dynamic_time'] = apk.dynamic_time
         dict_to_insert['file_without_sandbox'] = [key for key,value in apk.file_with_sandbox.items() if not value]

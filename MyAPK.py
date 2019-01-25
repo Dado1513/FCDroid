@@ -102,7 +102,6 @@ class MyAPK:
         with open(filename, 'rb' if binary else 'r') as f:
             return f.read()
 
-    
     def check_permission(self, list_permission_to_find):
         """
             check permission hybrid app
