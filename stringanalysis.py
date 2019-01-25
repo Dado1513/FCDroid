@@ -70,8 +70,7 @@ class FileAnalysis:
                     
                     except Exception as e:
                         file_with_sandbox[name_file_complete] = False
-                        logger.logger.info("Attibute sandbox not found {}".format(e
-                            ))
+                        logger.logger.info("Attibute sandbox not found {}".format(e))
                         pass
                 
                 except KeyError as e:
