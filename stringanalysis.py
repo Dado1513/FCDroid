@@ -75,6 +75,7 @@ class FileAnalysis:
                 
                 except KeyError as e:
                     # allora i file js dovrebbero fare a caso nostro, dovrei cercare l'id dell'iframe all'interno del file javascript
+                    file_with_sandbox[name_file_complete] = False
                     logger.logger.error("Exception {}".format(e))
                     pass
                 
