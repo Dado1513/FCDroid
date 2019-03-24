@@ -718,14 +718,14 @@ class MyAPK:
         # se esiste almeno un file con iframe senza csp --> vulnerble
         # se è false --> vulnerabile
         csp_in_file_iframe = True
-        self.app_use_sandbox = True 
+        app_use_sandbox = True 
         # print("File in dict_file_with_string: {}".format(self.dict_file_with_string.keys()))
         # print("File in find_csp: {}".format(self.find_csp.keys()))
         # print("File in file_with_sandbox: {}".format(self.file_with_sandbox.keys()))
         
         for file_with_iframe in self.dict_file_with_string.keys():
             csp_in_file_iframe = csp_in_file_iframe and self.find_csp[file_with_iframe]
-            self.app_use_sandbox = self.app_use_sandbox and self.file_with_sandbox[file_with_iframe]
+            app_use_sandbox = app_use_sandbox and self.file_with_sandbox[file_with_iframe]
 
             if not self.find_csp[file_with_iframe] or not self.file_with_sandbox[file_with_iframe]:
                 self.file_vulnerable_frame_confusion.append(file_with_iframe)
