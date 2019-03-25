@@ -1,16 +1,16 @@
-#!/usr/env/bin python3
+#!/usr/bin/python3
 import argparse
 import glob
 import json
 import subprocess
 from zipfile import BadZipfile
 import os
-from MyAPK import MyAPK
-from ThreadDecompyling import ThreadDecompyling
+from .MyAPK import MyAPK
+from .ThreadDecompyling import ThreadDecompyling
 import time
-from bcolors import bcolors
-from Logger import Logger
-from mongo_utils import MongoDB
+from .bcolors import bcolors
+from .Logger import Logger
+from .mongo_utils import MongoDB
 try:
     from StringIO import StringIO
 except ImportError:
@@ -35,18 +35,19 @@ apk_with_sandbox = list()
 apk_analyzed_dynamic=list()
 
 
-def analyze_start(conf, apk_to_analyze, tag, string_to_find, api_monitor_dict=None, network_dict=None, dynamic_time=0):
+def analyze_start(conf, apk_to_analyze, tag, string_to_find, api_monitor_dict=None, network_dict=None, dynamic_time=0, type=1):
     print(bcolors.BOLD+apk_to_analyze.split("/")[-1]+bcolors.ENDC)
     if not os.path.exists("log"):
         os.makedirs("log")
     
     log_file = "log/"+apk_to_analyze.split("/")[-1]+".log"
-    #if not os.path.exists(log_file):
+    # if not os.path.exists(log_file):
 
     logger = Logger(log_file)
     # file_log = open(log_file,"w")
-    print(bcolors.WARNING+"[*] Searching in "+apk_to_analyze+bcolors.ENDC)
+    print(bcolors.WARNING+"[*] Searching in  "+apk_to_analyze+bcolors.ENDC)
     time_start_single_apk = time.time()
+    print("Type db {}".format(type))
     logger.logger.info("Init Time ["+time.ctime()+"]")
     try:
         apk = MyAPK(apk_to_analyze, conf, log_file, tag, string_to_find, logger, \
@@ -56,7 +57,7 @@ def analyze_start(conf, apk_to_analyze, tag, string_to_find, api_monitor_dict=No
         mongo = MongoDB(logger)
         result = None
         if mongo.is_available: # connection available
-            result = mongo.find_analysis(apk.name_only_apk)
+            result = mongo.find_analysis(apk.name_only_apk, type)
         if result is None:
 
             ################################################################################
@@ -202,7 +203,7 @@ def analyze_start(conf, apk_to_analyze, tag, string_to_find, api_monitor_dict=No
             time_end_single_apk = time.time()
             execution_time =  time_end_single_apk - time_start_single_apk
             if mongo.is_available:
-                mongo.insert_analysis(apk,apktool_retire,remote_retire,file_xss,logger,execution_time)
+                mongo.insert_analysis(apk,apktool_retire,remote_retire,file_xss,logger,execution_time, type)
             logger.shutdown()
 
         else:
@@ -214,8 +215,8 @@ def analyze_start(conf, apk_to_analyze, tag, string_to_find, api_monitor_dict=No
     except BadZipfile:
         logger.logger.error("APK corrupted")
         print(bcolors.FAIL+"APK corrupted"+bcolors.ENDC)
-    except Exception as e:
-        print("Exception in hybrid inspector {}".format(e))
+    # except Exception as e:
+    #    print("Exception in hybrid inspector {}".format(e))
 
 def analysis_yet_done(result,apk_to_analyze):
     

@@ -1,6 +1,6 @@
 #!/usr/env/bin python3
 from threading import Thread
-from bcolors import bcolors
+from .bcolors import bcolors
 
 
 

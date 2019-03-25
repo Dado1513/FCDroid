@@ -1,6 +1,5 @@
 import subprocess
-from bcolors import bcolors
-from urllib.parse import urlparse
+from .bcolors import bcolors
 import os
 import requests
 import hashlib

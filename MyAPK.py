@@ -1,33 +1,27 @@
 #!/usr/env/bin python3
-import glob
 import logging
 import os
-import re
 import zipfile
-import utility
+from . import utility
 import subprocess
 import json
-from xssdom import XSScanner
+from .xssdom import XSScanner
 import re
 from bs4 import BeautifulSoup
-from stringanalysis import FileAnalysis
-import requests
+from .stringanalysis import FileAnalysis
 from androguard.core.analysis.analysis import Analysis
 from androguard.core.androconf import show_logging
 from androguard.core.bytecodes.apk import APK
 from androguard.core.bytecodes.dvm import DalvikVMFormat
 from androguard.core.analysis.analysis import MethodClassAnalysis
-from androguard.core.bytecodes.apk import FileNotPresent
-from androguard.core.bytecodes.axml import AXMLPrinter
-from androguard.decompiler.decompiler import (DecompilerJADX,
-                                              JADXDecompilerError)
-from androguard.misc import AnalyzeAPK, AnalyzeDex
+from androguard.decompiler.decompiler import DecompilerJADX
+from androguard.misc import AnalyzeAPK
 from androguard.core.analysis.analysis import StringAnalysis
-from bcolors import bcolors
+from .bcolors import bcolors
 import threading
 import xml.etree.ElementTree as ET
 import hashlib
-import smaliparser
+from . import smaliparser
 
 
 show_logging(level=logging.CRITICAL)  # androguard
